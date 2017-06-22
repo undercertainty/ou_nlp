@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<question testSet="unseen-answers" id="EM_21a" module="EM">
+  <questionText>Georgia found one brown mineral and one black mineral. How can she test them for hardness using only the 2 minerals (no tools)?</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="EM_21a-a1" text="Rub the minerals together and see which one scratches the other.">
+      <tokens>
+        <token id="EM_21a_ra1">Rub</token>
+        <token id="EM_21a_ra2">the</token>
+        <token id="EM_21a_ra3">minerals</token>
+        <token id="EM_21a_ra4">together</token>
+        <token id="EM_21a_ra5">and</token>
+        <token id="EM_21a_ra6">see</token>
+        <token id="EM_21a_ra7">which</token>
+        <token id="EM_21a_ra8">one</token>
+        <token id="EM_21a_ra9">scratches</token>
+        <token id="EM_21a_ra10">the</token>
+        <token id="EM_21a_ra11">other</token>
+        <token id="EM_21a_ra12">.</token>
+      </tokens>
+      <facets>
+        <facet id="EM_21a_f1" govNum="EM_21a_ra1" modNum="EM_21a_ra3" reltn="Theme" govText="Rub" modText="minerals"/>
+        <facet id="EM_21a_f2" govNum="EM_21a_ra1" modNum="EM_21a_ra4" reltn="Manner" govText="Rub" modText="together"/>
+        <facet id="EM_21a_f3" govNum="EM_21a_ra6" modNum="EM_21a_ra9" reltn="Predicate_which" childProp2Facet2="EM_21a_f6" govText="see" modText="scratches" childProp2Facet1="EM_21a_f5"/>
+        <facet id="EM_21a_f4" govNum="EM_21a_ra8" modNum="EM_21a_ra7" reltn="NMod" govText="one" modText="which"/>
+        <facet id="EM_21a_f5" govNum="EM_21a_ra9" modNum="EM_21a_ra8" reltn="Instrument" govText="scratches" modText="one"/>
+        <facet id="EM_21a_f6" govNum="EM_21a_ra9" modNum="EM_21a_ra11" reltn="Patient" govText="scratches" modText="other"/>
+        <facet id="EM_21a_f7" govNum="EM_21a_ra9" modNum="EM_21a_ra1" reltn="Cause_and" childProp2Facet2="EM_21a_f2" childProp1Facet1="EM_21a_f5" govText="scratches" childProp1Facet2="EM_21a_f6" modText="Rub" childProp2Facet1="EM_21a_f1"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="EM.21a.403.1" answerText="She can rub them against each other." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EM_21a_f1" label="Expressed"/>
+      <facetEntailment facetID="EM_21a_f2" label="Expressed"/>
+      <facetEntailment facetID="EM_21a_f3" label="Inferred"/>
+      <facetEntailment facetID="EM_21a_f4" label="Inferred"/>
+      <facetEntailment facetID="EM_21a_f5" label="Expressed"/>
+      <facetEntailment facetID="EM_21a_f6" label="Expressed"/>
+      <facetEntailment facetID="EM_21a_f7" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="EM.21a.557.1" answerText="Rubbing them together." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EM_21a_f1" label="Expressed"/>
+      <facetEntailment facetID="EM_21a_f2" label="Expressed"/>
+      <facetEntailment facetID="EM_21a_f3" label="Unaddressed"/>
+      <facetEntailment facetID="EM_21a_f4" label="Unaddressed"/>
+      <facetEntailment facetID="EM_21a_f5" label="Unaddressed"/>
+      <facetEntailment facetID="EM_21a_f6" label="Unaddressed"/>
+      <facetEntailment facetID="EM_21a_f7" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.21a.593.1" answerText="Rub one of the minerals against the other one and see if it has a mark or a scratch." accuracy="correct">
+      <facetEntailment facetID="EM_21a_f1" label="Expressed"/>
+      <facetEntailment facetID="EM_21a_f2" label="Expressed"/>
+      <facetEntailment facetID="EM_21a_f3" label="Expressed"/>
+      <facetEntailment facetID="EM_21a_f4" label="Expressed"/>
+      <facetEntailment facetID="EM_21a_f5" label="Expressed"/>
+      <facetEntailment facetID="EM_21a_f6" label="Expressed"/>
+      <facetEntailment facetID="EM_21a_f7" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.21a.637.1" answerText="Rub them together and see if one scratches the other!" accuracy="correct">
+      <facetEntailment facetID="EM_21a_f1" label="Expressed"/>
+      <facetEntailment facetID="EM_21a_f2" label="Expressed"/>
+      <facetEntailment facetID="EM_21a_f3" label="Expressed"/>
+      <facetEntailment facetID="EM_21a_f4" label="Expressed"/>
+      <facetEntailment facetID="EM_21a_f5" label="Expressed"/>
+      <facetEntailment facetID="EM_21a_f6" label="Expressed"/>
+      <facetEntailment facetID="EM_21a_f7" label="Expressed"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

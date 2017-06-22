@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<question testSet="unseen-answers" id="ME_72" module="ME">
+  <questionText>Only one circuit below will light the bulb. Which one will work? Why is that the only circuit that will work?</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="ME_72-a1" text="That circuit is the only circuit that uses all of the correct contact points.">
+      <tokens>
+        <token id="ME_72_ra1">That</token>
+        <token id="ME_72_ra2">circuit</token>
+        <token id="ME_72_ra3">is</token>
+        <token id="ME_72_ra4">the</token>
+        <token id="ME_72_ra5">only</token>
+        <token id="ME_72_ra6">circuit</token>
+        <token id="ME_72_ra7">that</token>
+        <token id="ME_72_ra8">uses</token>
+        <token id="ME_72_ra9">all</token>
+        <token id="ME_72_ra10">of</token>
+        <token id="ME_72_ra11">the</token>
+        <token id="ME_72_ra12">correct</token>
+        <token id="ME_72_ra13">contact</token>
+        <token id="ME_72_ra14">points</token>
+        <token id="ME_72_ra15">.</token>
+      </tokens>
+      <facets>
+        <facet id="ME_72_f1" govNum="ME_72_ra2" modNum="ME_72_ra1" reltn="NMod" govText="circuit" isAssumed="true" modText="That"/>
+        <facet id="ME_72_f2" govNum="ME_72_ra2" modNum="ME_72_ra6" reltn="Be" govText="circuit" isAssumed="true" modText="circuit"/>
+        <facet id="ME_72_f3" govNum="ME_72_ra6" modNum="ME_72_ra5" reltn="Quantifier" govText="circuit" isAssumed="true" modText="only"/>
+        <facet id="ME_72_f4" govNum="ME_72_ra8" modNum="ME_72_ra6" reltn="Means_that" govText="uses" modText="circuit"/>
+        <facet id="ME_72_f5" govNum="ME_72_ra8" modNum="ME_72_ra14" reltn="Theme" govText="uses" modText="points"/>
+        <facet id="ME_72_f6" govNum="ME_72_ra14" modNum="ME_72_ra9" reltn="Quantifier_of" govText="points" modText="all"/>
+        <facet id="ME_72_f7" govNum="ME_72_ra14" modNum="ME_72_ra13" reltn="NMod" govText="points" modText="contact"/>
+        <facet id="ME_72_f8" govNum="ME_72_ra14" modNum="ME_72_ra12" reltn="NMod" govText="points" modText="correct"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="ME.72.115.1" answerText="One wire needs to be touching the bottom and you can put another wire or battery on the side or the other way around. In this picture a wire is touching the bottom and the D-cell is touching the side." accuracy="correct">
+      <facetEntailment facetID="ME_72_f1" label="Assumed"/>
+      <facetEntailment facetID="ME_72_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_72_f3" label="Assumed"/>
+      <facetEntailment facetID="ME_72_f4" label="Inferred"/>
+      <facetEntailment facetID="ME_72_f5" label="Inferred"/>
+      <facetEntailment facetID="ME_72_f6" label="Inferred"/>
+      <facetEntailment facetID="ME_72_f7" label="Inferred"/>
+      <facetEntailment facetID="ME_72_f8" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="ME.72.189.1" answerText="It is because the wire is touching the right part of the bulb. The electricity is flowing." accuracy="correct">
+      <facetEntailment facetID="ME_72_f1" label="Assumed"/>
+      <facetEntailment facetID="ME_72_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_72_f3" label="Assumed"/>
+      <facetEntailment facetID="ME_72_f4" label="Inferred"/>
+      <facetEntailment facetID="ME_72_f5" label="Inferred"/>
+      <facetEntailment facetID="ME_72_f6" label="Inferred"/>
+      <facetEntailment facetID="ME_72_f7" label="Inferred"/>
+      <facetEntailment facetID="ME_72_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.72.212.1" answerText="The only circuit that will work is A." accuracy="irrelevant">
+      <facetEntailment facetID="ME_72_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_72_f2" label="Expressed"/>
+      <facetEntailment facetID="ME_72_f3" label="Expressed"/>
+      <facetEntailment facetID="ME_72_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_72_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ME_72_f6" label="Unaddressed"/>
+      <facetEntailment facetID="ME_72_f7" label="Unaddressed"/>
+      <facetEntailment facetID="ME_72_f8" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.72.241.1" answerText="The wire is on the D-cell are on the light bulb." accuracy="correct">
+      <facetEntailment facetID="ME_72_f1" label="Assumed"/>
+      <facetEntailment facetID="ME_72_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_72_f3" label="Assumed"/>
+      <facetEntailment facetID="ME_72_f4" label="Inferred"/>
+      <facetEntailment facetID="ME_72_f5" label="Inferred"/>
+      <facetEntailment facetID="ME_72_f6" label="Inferred"/>
+      <facetEntailment facetID="ME_72_f7" label="Inferred"/>
+      <facetEntailment facetID="ME_72_f8" label="Inferred"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

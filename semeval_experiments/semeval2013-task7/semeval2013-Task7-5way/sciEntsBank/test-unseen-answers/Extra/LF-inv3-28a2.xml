@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<question testSet="unseen-answers" id="LF_28a2" module="LF">
+  <questionText>Use the "slope" and "no slope" stream-table maps and logs on the facing page to answer these questions. What information do you get from the stream-table logs that you do not get from the stream-table maps?</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="LF_28a2-a1" text="You can see how much time is taken for the earth materials to move.">
+      <tokens>
+        <token id="LF_28a2_ra1">You</token>
+        <token id="LF_28a2_ra2">can</token>
+        <token id="LF_28a2_ra3">see</token>
+        <token id="LF_28a2_ra4">how</token>
+        <token id="LF_28a2_ra5">much</token>
+        <token id="LF_28a2_ra6">time</token>
+        <token id="LF_28a2_ra7">is</token>
+        <token id="LF_28a2_ra8">taken</token>
+        <token id="LF_28a2_ra9">for</token>
+        <token id="LF_28a2_ra10">the</token>
+        <token id="LF_28a2_ra11">earth</token>
+        <token id="LF_28a2_ra12">materials</token>
+        <token id="LF_28a2_ra13">to</token>
+        <token id="LF_28a2_ra14">move</token>
+        <token id="LF_28a2_ra15">.</token>
+      </tokens>
+      <facets>
+        <facet id="LF_28a2_f1" govNum="LF_28a2_ra3" modNum="LF_28a2_ra1" reltn="Experiencer" govText="see" isAssumed="true" modText="You"/>
+        <facet id="LF_28a2_f2" govNum="LF_28a2_ra3" modNum="LF_28a2_ra6" reltn="Stimulus" govText="see" modText="time"/>
+        <facet id="LF_28a2_f3" govNum="LF_28a2_ra6" modNum="LF_28a2_ra4" reltn="NMod" govText="time" modText="how much"/>
+        <facet id="LF_28a2_f4" govNum="LF_28a2_ra6" modNum="LF_28a2_ra14" reltn="NMod_to" govText="time" modText="move"/>
+        <facet id="LF_28a2_f5" govNum="LF_28a2_ra14" modNum="LF_28a2_ra12" reltn="Theme" govText="move" modText="materials"/>
+        <facet id="LF_28a2_f6" govNum="LF_28a2_ra12" modNum="LF_28a2_ra11" reltn="NMod" govText="materials" modText="earth"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="LF.28a2.435.1" answerText="What time the things happen." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="LF_28a2_f1" label="Assumed"/>
+      <facetEntailment facetID="LF_28a2_f2" label="Expressed"/>
+      <facetEntailment facetID="LF_28a2_f3" label="Inferred"/>
+      <facetEntailment facetID="LF_28a2_f4" label="Unaddressed"/>
+      <facetEntailment facetID="LF_28a2_f5" label="Unaddressed"/>
+      <facetEntailment facetID="LF_28a2_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="LF.28a2.480.1" answerText="It tells you when things happened." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="LF_28a2_f1" label="Expressed"/>
+      <facetEntailment facetID="LF_28a2_f2" label="Expressed"/>
+      <facetEntailment facetID="LF_28a2_f3" label="Inferred"/>
+      <facetEntailment facetID="LF_28a2_f4" label="Unaddressed"/>
+      <facetEntailment facetID="LF_28a2_f5" label="Unaddressed"/>
+      <facetEntailment facetID="LF_28a2_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="LF.28a2.810.1" answerText="Water flows faster." accuracy="irrelevant">
+      <facetEntailment facetID="LF_28a2_f1" label="Assumed"/>
+      <facetEntailment facetID="LF_28a2_f2" label="Unaddressed"/>
+      <facetEntailment facetID="LF_28a2_f3" label="Unaddressed"/>
+      <facetEntailment facetID="LF_28a2_f4" label="Unaddressed"/>
+      <facetEntailment facetID="LF_28a2_f5" label="Unaddressed"/>
+      <facetEntailment facetID="LF_28a2_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="LF.28a2.814.1" answerText="The times, as well as things that have to do with the time, and observations you cannot draw." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="LF_28a2_f1" label="Assumed"/>
+      <facetEntailment facetID="LF_28a2_f2" label="Expressed"/>
+      <facetEntailment facetID="LF_28a2_f3" label="Inferred"/>
+      <facetEntailment facetID="LF_28a2_f4" label="Unaddressed"/>
+      <facetEntailment facetID="LF_28a2_f5" label="Unaddressed"/>
+      <facetEntailment facetID="LF_28a2_f6" label="Unaddressed"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

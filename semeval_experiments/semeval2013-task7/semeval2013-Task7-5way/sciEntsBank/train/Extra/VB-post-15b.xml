@@ -1,0 +1,553 @@
+<?xml version="1.0"?>
+<question id="VB_15b" module="VB">
+  <questionText>3 girls wanted to see who could throw a ball the farthest. Each girl brought her favorite ball to the park. Ling brought her basketball, Diana brought her football, and Rachael brought her baseball. They made a line on the playground. They all had to throw the ball from that line. Ling took 2 steps up to the line and threw her basketball. Diana stood at the line and threw her football. Rachael got a running start and threw her baseball when she reached the line. Rachael threw her ball the farthest. Describe 2 variables that are not controlled in the contest.</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="VB_15b-a1" text="Different girls are throwing the balls. The girls use different launch techniques. Each girl uses a different type of ball.">
+      <tokens>
+        <token id="VB_15b_ra1">Different</token>
+        <token id="VB_15b_ra2">girls</token>
+        <token id="VB_15b_ra3">are</token>
+        <token id="VB_15b_ra4">throwing</token>
+        <token id="VB_15b_ra5">the</token>
+        <token id="VB_15b_ra6">balls</token>
+        <token id="VB_15b_ra7">.</token>
+        <token id="VB_15b_ra8">The</token>
+        <token id="VB_15b_ra9">girls</token>
+        <token id="VB_15b_ra10">use</token>
+        <token id="VB_15b_ra11">different</token>
+        <token id="VB_15b_ra12">launch</token>
+        <token id="VB_15b_ra13">techniques</token>
+        <token id="VB_15b_ra14">.</token>
+        <token id="VB_15b_ra15">Each</token>
+        <token id="VB_15b_ra16">girl</token>
+        <token id="VB_15b_ra17">uses</token>
+        <token id="VB_15b_ra18">a</token>
+        <token id="VB_15b_ra19">different</token>
+        <token id="VB_15b_ra20">type</token>
+        <token id="VB_15b_ra21">of</token>
+        <token id="VB_15b_ra22">ball</token>
+        <token id="VB_15b_ra23">.</token>
+      </tokens>
+      <facets>
+        <facet id="VB_15b_f1" govNum="VB_15b_ra2" modNum="VB_15b_ra1" reltn="NMod" govText="girls" modText="Different"/>
+        <facet id="VB_15b_f2" govNum="VB_15b_ra4" modNum="VB_15b_ra2" reltn="Agent" govText="throwing" isAssumed="true" modText="girls"/>
+        <facet id="VB_15b_f3" govNum="VB_15b_ra4" modNum="VB_15b_ra6" reltn="Theme" govText="throwing" isAssumed="true" modText="balls"/>
+        <facet id="VB_15b_f4" govNum="VB_15b_ra10" modNum="VB_15b_ra9" reltn="Agent" govText="use" isAssumed="true" modText="girls"/>
+        <facet id="VB_15b_f5" govNum="VB_15b_ra10" modNum="VB_15b_ra13" reltn="Theme" govText="use" modText="techniques"/>
+        <facet id="VB_15b_f6" govNum="VB_15b_ra13" modNum="VB_15b_ra12" reltn="NMod" govText="techniques" modText="launch"/>
+        <facet id="VB_15b_f7" govNum="VB_15b_ra13" modNum="VB_15b_ra11" reltn="NMod" govText="techniques" modText="different"/>
+        <facet id="VB_15b_f8" govNum="VB_15b_ra16" modNum="VB_15b_ra15" reltn="Quantifier" govText="girl" modText="Each"/>
+        <facet id="VB_15b_f9" govNum="VB_15b_ra17" modNum="VB_15b_ra16" reltn="Agent" govText="uses" isAssumed="true" modText="girl"/>
+        <facet id="VB_15b_f10" govNum="VB_15b_ra17" modNum="VB_15b_ra20" reltn="Theme" govText="uses" modText="type"/>
+        <facet id="VB_15b_f11" govNum="VB_15b_ra20" modNum="VB_15b_ra19" reltn="NMod" govText="type" modText="different"/>
+        <facet id="VB_15b_f12" govNum="VB_15b_ra20" modNum="VB_15b_ra22" reltn="NMod_of" govText="type" modText="ball"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="VB.15b.381.1" answerText="No one had the same ball and threw the ball differently." accuracy="correct">
+      <facetEntailment facetID="VB_15b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="VB_15b_f2" label="Assumed"/>
+      <facetEntailment facetID="VB_15b_f3" label="Assumed"/>
+      <facetEntailment facetID="VB_15b_f4" label="Assumed"/>
+      <facetEntailment facetID="VB_15b_f5" label="Inferred"/>
+      <facetEntailment facetID="VB_15b_f6" label="Expressed"/>
+      <facetEntailment facetID="VB_15b_f7" label="Expressed"/>
+      <facetEntailment facetID="VB_15b_f8" label="Inferred"/>
+      <facetEntailment facetID="VB_15b_f9" label="Expressed"/>
+      <facetEntailment facetID="VB_15b_f10" label="Inferred"/>
+      <facetEntailment facetID="VB_15b_f11" label="Inferred"/>
+      <facetEntailment facetID="VB_15b_f12" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="VB.15b.384.1" answerText="One variable that should be controlled is the ball, everyone should use the same ball. Another is if you should get a running start." accuracy="correct">
+      <facetEntailment facetID="VB_15b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="VB_15b_f2" label="Assumed"/>
+      <facetEntailment facetID="VB_15b_f3" label="Assumed"/>
+      <facetEntailment facetID="VB_15b_f4" label="Assumed"/>
+      <facetEntailment facetID="VB_15b_f5" label="Inferred"/>
+      <facetEntailment facetID="VB_15b_f6" label="Inferred"/>
+      <facetEntailment facetID="VB_15b_f7" label="Inferred"/>
+      <facetEntailment facetID="VB_15b_f8" label="Inferred"/>
+      <facetEntailment facetID="VB_15b_f9" label="Assumed"/>
+      <facetEntailment facetID="VB_15b_f10" label="Inferred"/>
+      <facetEntailment facetID="VB_15b_f11" label="Inferred"/>
+      <facetEntailment facetID="VB_15b_f12" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="VB.15b.384b.1" answerText="The type of ball they use how they got to the point of where they were supposed to throw the ball." accuracy="correct">
+      <facetEntailment facetID="VB_15b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="VB_15b_f2" label="Assumed"/>
+      <facetEntailment facetID="VB_15b_f3" label="Expressed"/>
+      <facetEntailment facetID="VB_15b_f4" label="Expressed"/>
+      <facetEntailment facetID="VB_15b_f5" label="Inferred"/>
+      <facetEntailment facetID="VB_15b_f6" label="Expressed"/>
+      <facetEntailment facetID="VB_15b_f7" label="Inferred"/>
+      <facetEntailment facetID="VB_15b_f8" label="Inferred"/>
+      <facetEntailment facetID="VB_15b_f9" label="Expressed"/>
+      <facetEntailment facetID="VB_15b_f10" label="Inferred"/>
+      <facetEntailment facetID="VB_15b_f11" label="Inferred"/>
+      <facetEntailment facetID="VB_15b_f12" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="VB.15b.394.1" answerText="Size of ball because they all should have used the same ball, where to start they should have all stood in the same spot." accuracy="correct">
+      <facetEntailment facetID="VB_15b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="VB_15b_f2" label="Assumed"/>
+      <facetEntailment facetID="VB_15b_f3" label="Assumed"/>
+      <facetEntailment facetID="VB_15b_f4" label="Assumed"/>
+      <facetEntailment facetID="VB_15b_f5" label="Inferred"/>
+      <facetEntailment facetID="VB_15b_f6" label="Inferred"/>
+      <facetEntailment facetID="VB_15b_f7" label="Inferred"/>
+      <facetEntailment facetID="VB_15b_f8" label="Inferred"/>
+      <facetEntailment facetID="VB_15b_f9" label="Expressed"/>
+      <facetEntailment facetID="VB_15b_f10" label="Inferred"/>
+      <facetEntailment facetID="VB_15b_f11" label="Inferred"/>
+      <facetEntailment facetID="VB_15b_f12" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="VB.15b.399.1" answerText="If they get a running start and if they had the same ball or not." accuracy="correct">
+      <facetEntailment facetID="VB_15b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="VB_15b_f2" label="Assumed"/>
+      <facetEntailment facetID="VB_15b_f3" label="Assumed"/>
+      <facetEntailment facetID="VB_15b_f4" label="Assumed"/>
+      <facetEntailment facetID="VB_15b_f5" label="Inferred"/>
+      <facetEntailment facetID="VB_15b_f6" label="Inferred"/>
+      <facetEntailment facetID="VB_15b_f7" label="Inferred"/>
+      <facetEntailment facetID="VB_15b_f8" label="Inferred"/>
+      <facetEntailment facetID="VB_15b_f9" label="Assumed"/>
+      <facetEntailment facetID="VB_15b_f10" label="Inferred"/>
+      <facetEntailment facetID="VB_15b_f11" label="Inferred"/>
+      <facetEntailment facetID="VB_15b_f12" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="VB.15b.404.1" answerText="They do not use the same kind of ball and they get different speeds." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="VB_15b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="VB_15b_f2" label="Assumed"/>
+      <facetEntailment facetID="VB_15b_f3" label="Assumed"/>
+      <facetEntailment facetID="VB_15b_f4" label="Assumed"/>
+      <facetEntailment facetID="VB_15b_f5" label="Inferred"/>
+      <facetEntailment facetID="VB_15b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="VB_15b_f7" label="Inferred"/>
+      <facetEntailment facetID="VB_15b_f8" label="Unaddressed"/>
+      <facetEntailment facetID="VB_15b_f9" label="Expressed"/>
+      <facetEntailment facetID="VB_15b_f10" label="Expressed"/>
+      <facetEntailment facetID="VB_15b_f11" label="Expressed"/>
+      <facetEntailment facetID="VB_15b_f12" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="VB.15b.407.1" answerText="The same kind of balls. Having a running start." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="VB_15b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="VB_15b_f2" label="Assumed"/>
+      <facetEntailment facetID="VB_15b_f3" label="Assumed"/>
+      <facetEntailment facetID="VB_15b_f4" label="Assumed"/>
+      <facetEntailment facetID="VB_15b_f5" label="Inferred"/>
+      <facetEntailment facetID="VB_15b_f6" label="Inferred"/>
+      <facetEntailment facetID="VB_15b_f7" label="Inferred"/>
+      <facetEntailment facetID="VB_15b_f8" label="Unaddressed"/>
+      <facetEntailment facetID="VB_15b_f9" label="Assumed"/>
+      <facetEntailment facetID="VB_15b_f10" label="Inferred"/>
+      <facetEntailment facetID="VB_15b_f11" label="Inferred"/>
+      <facetEntailment facetID="VB_15b_f12" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="VB.15b.416.1" answerText="One is they all have different balls. 2 is they have some bigger which makes them go not as far as distance as the smaller ones which go farther." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="VB_15b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="VB_15b_f2" label="Assumed"/>
+      <facetEntailment facetID="VB_15b_f3" label="Assumed"/>
+      <facetEntailment facetID="VB_15b_f4" label="Assumed"/>
+      <facetEntailment facetID="VB_15b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="VB_15b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="VB_15b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="VB_15b_f8" label="Expressed"/>
+      <facetEntailment facetID="VB_15b_f9" label="Expressed"/>
+      <facetEntailment facetID="VB_15b_f10" label="Expressed"/>
+      <facetEntailment facetID="VB_15b_f11" label="Expressed"/>
+      <facetEntailment facetID="VB_15b_f12" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="VB.15b.423.1" answerText="They did not control the size, and they did not control the type of ball they used." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="VB_15b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="VB_15b_f2" label="Assumed"/>
+      <facetEntailment facetID="VB_15b_f3" label="Assumed"/>
+      <facetEntailment facetID="VB_15b_f4" label="Assumed"/>
+      <facetEntailment facetID="VB_15b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="VB_15b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="VB_15b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="VB_15b_f8" label="Unaddressed"/>
+      <facetEntailment facetID="VB_15b_f9" label="Assumed"/>
+      <facetEntailment facetID="VB_15b_f10" label="Expressed"/>
+      <facetEntailment facetID="VB_15b_f11" label="Inferred"/>
+      <facetEntailment facetID="VB_15b_f12" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="VB.15b.429.1" answerText="The first variable they did not control is the different kind of ball. The second is the speed they went to get to the line." accuracy="correct">
+      <facetEntailment facetID="VB_15b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="VB_15b_f2" label="Assumed"/>
+      <facetEntailment facetID="VB_15b_f3" label="Assumed"/>
+      <facetEntailment facetID="VB_15b_f4" label="Assumed"/>
+      <facetEntailment facetID="VB_15b_f5" label="Inferred"/>
+      <facetEntailment facetID="VB_15b_f6" label="Inferred"/>
+      <facetEntailment facetID="VB_15b_f7" label="Inferred"/>
+      <facetEntailment facetID="VB_15b_f8" label="Inferred"/>
+      <facetEntailment facetID="VB_15b_f9" label="Assumed"/>
+      <facetEntailment facetID="VB_15b_f10" label="Expressed"/>
+      <facetEntailment facetID="VB_15b_f11" label="Expressed"/>
+      <facetEntailment facetID="VB_15b_f12" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="VB.15b.432.1" answerText="They do not have the same amount of weight. And not have the same ball. And they run and step. They need to run or step." accuracy="correct">
+      <facetEntailment facetID="VB_15b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="VB_15b_f2" label="Assumed"/>
+      <facetEntailment facetID="VB_15b_f3" label="Assumed"/>
+      <facetEntailment facetID="VB_15b_f4" label="Assumed"/>
+      <facetEntailment facetID="VB_15b_f5" label="Inferred"/>
+      <facetEntailment facetID="VB_15b_f6" label="Inferred"/>
+      <facetEntailment facetID="VB_15b_f7" label="Inferred"/>
+      <facetEntailment facetID="VB_15b_f8" label="Inferred"/>
+      <facetEntailment facetID="VB_15b_f9" label="Expressed"/>
+      <facetEntailment facetID="VB_15b_f10" label="Inferred"/>
+      <facetEntailment facetID="VB_15b_f11" label="Inferred"/>
+      <facetEntailment facetID="VB_15b_f12" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="VB.15b.440.1" answerText="The balls all need to be the same. And they all need to stand and throw." accuracy="correct">
+      <facetEntailment facetID="VB_15b_f1" label="Inferred"/>
+      <facetEntailment facetID="VB_15b_f2" label="Expressed"/>
+      <facetEntailment facetID="VB_15b_f3" label="Assumed"/>
+      <facetEntailment facetID="VB_15b_f4" label="Assumed"/>
+      <facetEntailment facetID="VB_15b_f5" label="Inferred"/>
+      <facetEntailment facetID="VB_15b_f6" label="Inferred"/>
+      <facetEntailment facetID="VB_15b_f7" label="Inferred"/>
+      <facetEntailment facetID="VB_15b_f8" label="Unaddressed"/>
+      <facetEntailment facetID="VB_15b_f9" label="Assumed"/>
+      <facetEntailment facetID="VB_15b_f10" label="Inferred"/>
+      <facetEntailment facetID="VB_15b_f11" label="Inferred"/>
+      <facetEntailment facetID="VB_15b_f12" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="VB.15b.448.1" answerText="Throwing at the line and using the same ball." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="VB_15b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="VB_15b_f2" label="Assumed"/>
+      <facetEntailment facetID="VB_15b_f3" label="Assumed"/>
+      <facetEntailment facetID="VB_15b_f4" label="Assumed"/>
+      <facetEntailment facetID="VB_15b_f5" label="Inferred"/>
+      <facetEntailment facetID="VB_15b_f6" label="Inferred"/>
+      <facetEntailment facetID="VB_15b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="VB_15b_f8" label="Unaddressed"/>
+      <facetEntailment facetID="VB_15b_f9" label="Assumed"/>
+      <facetEntailment facetID="VB_15b_f10" label="Expressed"/>
+      <facetEntailment facetID="VB_15b_f11" label="Inferred"/>
+      <facetEntailment facetID="VB_15b_f12" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="VB.15b.452.1" answerText="How far they throw the balls and the kind of balls that bring are 2 uncontrolled variables." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="VB_15b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="VB_15b_f2" label="Assumed"/>
+      <facetEntailment facetID="VB_15b_f3" label="Assumed"/>
+      <facetEntailment facetID="VB_15b_f4" label="Assumed"/>
+      <facetEntailment facetID="VB_15b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="VB_15b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="VB_15b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="VB_15b_f8" label="Inferred"/>
+      <facetEntailment facetID="VB_15b_f9" label="Assumed"/>
+      <facetEntailment facetID="VB_15b_f10" label="Inferred"/>
+      <facetEntailment facetID="VB_15b_f11" label="Inferred"/>
+      <facetEntailment facetID="VB_15b_f12" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="VB.15b.458.1" answerText="The variable that was not controlled was that they just brought any ball and made a line and threw it." accuracy="correct">
+      <facetEntailment facetID="VB_15b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="VB_15b_f2" label="Expressed"/>
+      <facetEntailment facetID="VB_15b_f3" label="Expressed"/>
+      <facetEntailment facetID="VB_15b_f4" label="Assumed"/>
+      <facetEntailment facetID="VB_15b_f5" label="Inferred"/>
+      <facetEntailment facetID="VB_15b_f6" label="Inferred"/>
+      <facetEntailment facetID="VB_15b_f7" label="Inferred"/>
+      <facetEntailment facetID="VB_15b_f8" label="Inferred"/>
+      <facetEntailment facetID="VB_15b_f9" label="Assumed"/>
+      <facetEntailment facetID="VB_15b_f10" label="Expressed"/>
+      <facetEntailment facetID="VB_15b_f11" label="Expressed"/>
+      <facetEntailment facetID="VB_15b_f12" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="VB.15b.462.1" answerText="How they start and what ball they use." accuracy="correct">
+      <facetEntailment facetID="VB_15b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="VB_15b_f2" label="Assumed"/>
+      <facetEntailment facetID="VB_15b_f3" label="Assumed"/>
+      <facetEntailment facetID="VB_15b_f4" label="Assumed"/>
+      <facetEntailment facetID="VB_15b_f5" label="Inferred"/>
+      <facetEntailment facetID="VB_15b_f6" label="Inferred"/>
+      <facetEntailment facetID="VB_15b_f7" label="Inferred"/>
+      <facetEntailment facetID="VB_15b_f8" label="Inferred"/>
+      <facetEntailment facetID="VB_15b_f9" label="Expressed"/>
+      <facetEntailment facetID="VB_15b_f10" label="Expressed"/>
+      <facetEntailment facetID="VB_15b_f11" label="Inferred"/>
+      <facetEntailment facetID="VB_15b_f12" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="VB.15b.466.1" answerText="2 variables that are not controlled in the contest were the amount of steps and what ball they are going to use." accuracy="correct">
+      <facetEntailment facetID="VB_15b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="VB_15b_f2" label="Assumed"/>
+      <facetEntailment facetID="VB_15b_f3" label="Assumed"/>
+      <facetEntailment facetID="VB_15b_f4" label="Assumed"/>
+      <facetEntailment facetID="VB_15b_f5" label="Expressed"/>
+      <facetEntailment facetID="VB_15b_f6" label="Expressed"/>
+      <facetEntailment facetID="VB_15b_f7" label="Expressed"/>
+      <facetEntailment facetID="VB_15b_f8" label="Expressed"/>
+      <facetEntailment facetID="VB_15b_f9" label="Expressed"/>
+      <facetEntailment facetID="VB_15b_f10" label="Inferred"/>
+      <facetEntailment facetID="VB_15b_f11" label="Inferred"/>
+      <facetEntailment facetID="VB_15b_f12" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="VB.15b.477.1" answerText="They all brought different balls. They all started at different starting points." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="VB_15b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="VB_15b_f2" label="Assumed"/>
+      <facetEntailment facetID="VB_15b_f3" label="Assumed"/>
+      <facetEntailment facetID="VB_15b_f4" label="Assumed"/>
+      <facetEntailment facetID="VB_15b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="VB_15b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="VB_15b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="VB_15b_f8" label="Inferred"/>
+      <facetEntailment facetID="VB_15b_f9" label="Expressed"/>
+      <facetEntailment facetID="VB_15b_f10" label="Inferred"/>
+      <facetEntailment facetID="VB_15b_f11" label="Inferred"/>
+      <facetEntailment facetID="VB_15b_f12" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="VB.15b.481.1" answerText="One of the variables is the type of ball. And the second one is how many steps they took during the time when they were throwing balls." accuracy="correct">
+      <facetEntailment facetID="VB_15b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="VB_15b_f2" label="Expressed"/>
+      <facetEntailment facetID="VB_15b_f3" label="Expressed"/>
+      <facetEntailment facetID="VB_15b_f4" label="Assumed"/>
+      <facetEntailment facetID="VB_15b_f5" label="Inferred"/>
+      <facetEntailment facetID="VB_15b_f6" label="Inferred"/>
+      <facetEntailment facetID="VB_15b_f7" label="Inferred"/>
+      <facetEntailment facetID="VB_15b_f8" label="Inferred"/>
+      <facetEntailment facetID="VB_15b_f9" label="Assumed"/>
+      <facetEntailment facetID="VB_15b_f10" label="Inferred"/>
+      <facetEntailment facetID="VB_15b_f11" label="Inferred"/>
+      <facetEntailment facetID="VB_15b_f12" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="VB.15b.483.1" answerText="What kind of ball you use, and how you throw it." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="VB_15b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="VB_15b_f2" label="Assumed"/>
+      <facetEntailment facetID="VB_15b_f3" label="Assumed"/>
+      <facetEntailment facetID="VB_15b_f4" label="Assumed"/>
+      <facetEntailment facetID="VB_15b_f5" label="Inferred"/>
+      <facetEntailment facetID="VB_15b_f6" label="Expressed"/>
+      <facetEntailment facetID="VB_15b_f7" label="Inferred"/>
+      <facetEntailment facetID="VB_15b_f8" label="Unaddressed"/>
+      <facetEntailment facetID="VB_15b_f9" label="Assumed"/>
+      <facetEntailment facetID="VB_15b_f10" label="Inferred"/>
+      <facetEntailment facetID="VB_15b_f11" label="Inferred"/>
+      <facetEntailment facetID="VB_15b_f12" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="VB.15b.489.1" answerText="One variable they did not control was that Rachael ran. The other one is that the other 2 girls walked." accuracy="correct">
+      <facetEntailment facetID="VB_15b_f1" label="Expressed"/>
+      <facetEntailment facetID="VB_15b_f2" label="Diff-Arg"/>
+      <facetEntailment facetID="VB_15b_f3" label="Assumed"/>
+      <facetEntailment facetID="VB_15b_f4" label="Assumed"/>
+      <facetEntailment facetID="VB_15b_f5" label="Inferred"/>
+      <facetEntailment facetID="VB_15b_f6" label="Inferred"/>
+      <facetEntailment facetID="VB_15b_f7" label="Inferred"/>
+      <facetEntailment facetID="VB_15b_f8" label="Unaddressed"/>
+      <facetEntailment facetID="VB_15b_f9" label="Assumed"/>
+      <facetEntailment facetID="VB_15b_f10" label="Unaddressed"/>
+      <facetEntailment facetID="VB_15b_f11" label="Unaddressed"/>
+      <facetEntailment facetID="VB_15b_f12" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="VB.15b.495.1" answerText="That they get different lines." accuracy="irrelevant">
+      <facetEntailment facetID="VB_15b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="VB_15b_f2" label="Assumed"/>
+      <facetEntailment facetID="VB_15b_f3" label="Assumed"/>
+      <facetEntailment facetID="VB_15b_f4" label="Assumed"/>
+      <facetEntailment facetID="VB_15b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="VB_15b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="VB_15b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="VB_15b_f8" label="Unaddressed"/>
+      <facetEntailment facetID="VB_15b_f9" label="Assumed"/>
+      <facetEntailment facetID="VB_15b_f10" label="Unaddressed"/>
+      <facetEntailment facetID="VB_15b_f11" label="Unaddressed"/>
+      <facetEntailment facetID="VB_15b_f12" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="VB.15b.497.1" answerText="That their balls are different." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="VB_15b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="VB_15b_f2" label="Assumed"/>
+      <facetEntailment facetID="VB_15b_f3" label="Assumed"/>
+      <facetEntailment facetID="VB_15b_f4" label="Assumed"/>
+      <facetEntailment facetID="VB_15b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="VB_15b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="VB_15b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="VB_15b_f8" label="Unaddressed"/>
+      <facetEntailment facetID="VB_15b_f9" label="Assumed"/>
+      <facetEntailment facetID="VB_15b_f10" label="Inferred"/>
+      <facetEntailment facetID="VB_15b_f11" label="Inferred"/>
+      <facetEntailment facetID="VB_15b_f12" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="VB.15b.501.1" answerText="Ball flying in air." accuracy="irrelevant">
+      <facetEntailment facetID="VB_15b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="VB_15b_f2" label="Assumed"/>
+      <facetEntailment facetID="VB_15b_f3" label="Assumed"/>
+      <facetEntailment facetID="VB_15b_f4" label="Assumed"/>
+      <facetEntailment facetID="VB_15b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="VB_15b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="VB_15b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="VB_15b_f8" label="Unaddressed"/>
+      <facetEntailment facetID="VB_15b_f9" label="Assumed"/>
+      <facetEntailment facetID="VB_15b_f10" label="Unaddressed"/>
+      <facetEntailment facetID="VB_15b_f11" label="Unaddressed"/>
+      <facetEntailment facetID="VB_15b_f12" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="VB.15b.506.1" answerText="When they did not throw the ball the same. When they did not do the same starting position." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="VB_15b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="VB_15b_f2" label="Expressed"/>
+      <facetEntailment facetID="VB_15b_f3" label="Expressed"/>
+      <facetEntailment facetID="VB_15b_f4" label="Assumed"/>
+      <facetEntailment facetID="VB_15b_f5" label="Expressed"/>
+      <facetEntailment facetID="VB_15b_f6" label="Expressed"/>
+      <facetEntailment facetID="VB_15b_f7" label="Expressed"/>
+      <facetEntailment facetID="VB_15b_f8" label="Unaddressed"/>
+      <facetEntailment facetID="VB_15b_f9" label="Assumed"/>
+      <facetEntailment facetID="VB_15b_f10" label="Unaddressed"/>
+      <facetEntailment facetID="VB_15b_f11" label="Unaddressed"/>
+      <facetEntailment facetID="VB_15b_f12" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="VB.15b.511.1" answerText="How they all threw balls. They all should do the same position." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="VB_15b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="VB_15b_f2" label="Assumed"/>
+      <facetEntailment facetID="VB_15b_f3" label="Assumed"/>
+      <facetEntailment facetID="VB_15b_f4" label="Assumed"/>
+      <facetEntailment facetID="VB_15b_f5" label="Expressed"/>
+      <facetEntailment facetID="VB_15b_f6" label="Expressed"/>
+      <facetEntailment facetID="VB_15b_f7" label="Inferred"/>
+      <facetEntailment facetID="VB_15b_f8" label="Unaddressed"/>
+      <facetEntailment facetID="VB_15b_f9" label="Assumed"/>
+      <facetEntailment facetID="VB_15b_f10" label="Unaddressed"/>
+      <facetEntailment facetID="VB_15b_f11" label="Unaddressed"/>
+      <facetEntailment facetID="VB_15b_f12" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="VB.15b.523.1" answerText="The balls and how they held the ball." accuracy="correct">
+      <facetEntailment facetID="VB_15b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="VB_15b_f2" label="Assumed"/>
+      <facetEntailment facetID="VB_15b_f3" label="Assumed"/>
+      <facetEntailment facetID="VB_15b_f4" label="Assumed"/>
+      <facetEntailment facetID="VB_15b_f5" label="Inferred"/>
+      <facetEntailment facetID="VB_15b_f6" label="Inferred"/>
+      <facetEntailment facetID="VB_15b_f7" label="Inferred"/>
+      <facetEntailment facetID="VB_15b_f8" label="Inferred"/>
+      <facetEntailment facetID="VB_15b_f9" label="Assumed"/>
+      <facetEntailment facetID="VB_15b_f10" label="Inferred"/>
+      <facetEntailment facetID="VB_15b_f11" label="Inferred"/>
+      <facetEntailment facetID="VB_15b_f12" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="VB.15b.525.1" answerText="How they ran to the line and threw their balls." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="VB_15b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="VB_15b_f2" label="Expressed"/>
+      <facetEntailment facetID="VB_15b_f3" label="Expressed"/>
+      <facetEntailment facetID="VB_15b_f4" label="Assumed"/>
+      <facetEntailment facetID="VB_15b_f5" label="Expressed"/>
+      <facetEntailment facetID="VB_15b_f6" label="Expressed"/>
+      <facetEntailment facetID="VB_15b_f7" label="Inferred"/>
+      <facetEntailment facetID="VB_15b_f8" label="Unaddressed"/>
+      <facetEntailment facetID="VB_15b_f9" label="Assumed"/>
+      <facetEntailment facetID="VB_15b_f10" label="Unaddressed"/>
+      <facetEntailment facetID="VB_15b_f11" label="Unaddressed"/>
+      <facetEntailment facetID="VB_15b_f12" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="VB.15b.530.1" answerText="Rachael had a running start and Ling took 2 steps Diana stood at the line." accuracy="correct">
+      <facetEntailment facetID="VB_15b_f1" label="Expressed"/>
+      <facetEntailment facetID="VB_15b_f2" label="Assumed"/>
+      <facetEntailment facetID="VB_15b_f3" label="Assumed"/>
+      <facetEntailment facetID="VB_15b_f4" label="Assumed"/>
+      <facetEntailment facetID="VB_15b_f5" label="Expressed"/>
+      <facetEntailment facetID="VB_15b_f6" label="Expressed"/>
+      <facetEntailment facetID="VB_15b_f7" label="Expressed"/>
+      <facetEntailment facetID="VB_15b_f8" label="Expressed"/>
+      <facetEntailment facetID="VB_15b_f9" label="Assumed"/>
+      <facetEntailment facetID="VB_15b_f10" label="Unaddressed"/>
+      <facetEntailment facetID="VB_15b_f11" label="Unaddressed"/>
+      <facetEntailment facetID="VB_15b_f12" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="VB.15b.533.1" answerText="Ran, stood, and walked 2 steps. Also the balls they used." accuracy="contradictory">
+      <facetEntailment facetID="VB_15b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="VB_15b_f2" label="Assumed"/>
+      <facetEntailment facetID="VB_15b_f3" label="Assumed"/>
+      <facetEntailment facetID="VB_15b_f4" label="Assumed"/>
+      <facetEntailment facetID="VB_15b_f5" label="Inferred"/>
+      <facetEntailment facetID="VB_15b_f6" label="Inferred"/>
+      <facetEntailment facetID="VB_15b_f7" label="Inferred"/>
+      <facetEntailment facetID="VB_15b_f8" label="Inferred"/>
+      <facetEntailment facetID="VB_15b_f9" label="Contra-Expr"/>
+      <facetEntailment facetID="VB_15b_f10" label="Inferred"/>
+      <facetEntailment facetID="VB_15b_f11" label="Inferred"/>
+      <facetEntailment facetID="VB_15b_f12" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="VB.15b.535.1" answerText="Having different balls, and the way they stood at the line." accuracy="correct">
+      <facetEntailment facetID="VB_15b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="VB_15b_f2" label="Assumed"/>
+      <facetEntailment facetID="VB_15b_f3" label="Assumed"/>
+      <facetEntailment facetID="VB_15b_f4" label="Assumed"/>
+      <facetEntailment facetID="VB_15b_f5" label="Inferred"/>
+      <facetEntailment facetID="VB_15b_f6" label="Inferred"/>
+      <facetEntailment facetID="VB_15b_f7" label="Inferred"/>
+      <facetEntailment facetID="VB_15b_f8" label="Inferred"/>
+      <facetEntailment facetID="VB_15b_f9" label="Assumed"/>
+      <facetEntailment facetID="VB_15b_f10" label="Inferred"/>
+      <facetEntailment facetID="VB_15b_f11" label="Inferred"/>
+      <facetEntailment facetID="VB_15b_f12" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="VB.15b.537.1" answerText="You have to test it out and you start with the ball to see who throws the farthest. The other thing is to not go past the line and not mess up." accuracy="irrelevant">
+      <facetEntailment facetID="VB_15b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="VB_15b_f2" label="Assumed"/>
+      <facetEntailment facetID="VB_15b_f3" label="Expressed"/>
+      <facetEntailment facetID="VB_15b_f4" label="Assumed"/>
+      <facetEntailment facetID="VB_15b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="VB_15b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="VB_15b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="VB_15b_f8" label="Unaddressed"/>
+      <facetEntailment facetID="VB_15b_f9" label="Assumed"/>
+      <facetEntailment facetID="VB_15b_f10" label="Unaddressed"/>
+      <facetEntailment facetID="VB_15b_f11" label="Unaddressed"/>
+      <facetEntailment facetID="VB_15b_f12" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="VB.15b.539.1" answerText="They have different kind of ball. Some of them run some took 2 steps." accuracy="correct">
+      <facetEntailment facetID="VB_15b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="VB_15b_f2" label="Assumed"/>
+      <facetEntailment facetID="VB_15b_f3" label="Assumed"/>
+      <facetEntailment facetID="VB_15b_f4" label="Assumed"/>
+      <facetEntailment facetID="VB_15b_f5" label="Inferred"/>
+      <facetEntailment facetID="VB_15b_f6" label="Inferred"/>
+      <facetEntailment facetID="VB_15b_f7" label="Inferred"/>
+      <facetEntailment facetID="VB_15b_f8" label="Inferred"/>
+      <facetEntailment facetID="VB_15b_f9" label="Assumed"/>
+      <facetEntailment facetID="VB_15b_f10" label="Expressed"/>
+      <facetEntailment facetID="VB_15b_f11" label="Expressed"/>
+      <facetEntailment facetID="VB_15b_f12" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="VB.15b.628.1" answerText="Basketball and football." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="VB_15b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="VB_15b_f2" label="Assumed"/>
+      <facetEntailment facetID="VB_15b_f3" label="Assumed"/>
+      <facetEntailment facetID="VB_15b_f4" label="Assumed"/>
+      <facetEntailment facetID="VB_15b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="VB_15b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="VB_15b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="VB_15b_f8" label="Unaddressed"/>
+      <facetEntailment facetID="VB_15b_f9" label="Assumed"/>
+      <facetEntailment facetID="VB_15b_f10" label="Inferred"/>
+      <facetEntailment facetID="VB_15b_f11" label="Inferred"/>
+      <facetEntailment facetID="VB_15b_f12" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="VB.15b.632.1" answerText="The balls are different." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="VB_15b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="VB_15b_f2" label="Assumed"/>
+      <facetEntailment facetID="VB_15b_f3" label="Assumed"/>
+      <facetEntailment facetID="VB_15b_f4" label="Assumed"/>
+      <facetEntailment facetID="VB_15b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="VB_15b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="VB_15b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="VB_15b_f8" label="Unaddressed"/>
+      <facetEntailment facetID="VB_15b_f9" label="Assumed"/>
+      <facetEntailment facetID="VB_15b_f10" label="Inferred"/>
+      <facetEntailment facetID="VB_15b_f11" label="Inferred"/>
+      <facetEntailment facetID="VB_15b_f12" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="VB.15b.639.1" answerText="One of them is they did not have the same kind of ball. 2 is they took different amounts of steps to the line." accuracy="correct">
+      <facetEntailment facetID="VB_15b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="VB_15b_f2" label="Assumed"/>
+      <facetEntailment facetID="VB_15b_f3" label="Assumed"/>
+      <facetEntailment facetID="VB_15b_f4" label="Assumed"/>
+      <facetEntailment facetID="VB_15b_f5" label="Inferred"/>
+      <facetEntailment facetID="VB_15b_f6" label="Inferred"/>
+      <facetEntailment facetID="VB_15b_f7" label="Inferred"/>
+      <facetEntailment facetID="VB_15b_f8" label="Inferred"/>
+      <facetEntailment facetID="VB_15b_f9" label="Expressed"/>
+      <facetEntailment facetID="VB_15b_f10" label="Expressed"/>
+      <facetEntailment facetID="VB_15b_f11" label="Expressed"/>
+      <facetEntailment facetID="VB_15b_f12" label="Expressed"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

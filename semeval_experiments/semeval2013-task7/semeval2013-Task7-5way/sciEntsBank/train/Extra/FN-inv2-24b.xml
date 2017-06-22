@@ -1,0 +1,630 @@
+<?xml version="1.0"?>
+<question id="FN_24b" module="FN">
+  <questionText>Diva's father told her she should not eat so many cookies because they were pure sugar. Diva decided to investigate the amount of sugar in Fruity Cream cookies. She performed the sugar test on 4 grams of pure sugar and on 4 grams of Fruity Cream cookies. The results are pictured at the right. Are Fruity Cream cookies pure sugar? What is your evidence?</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="FN_24b-a1" text="No, Fruity cream cookies are not pure sugar. The cookies did not produce as much gas as was produced by the pure sugar.">
+      <tokens>
+        <token id="FN_24b_ra1">No</token>
+        <token id="FN_24b_ra2">,</token>
+        <token id="FN_24b_ra3">Fruity</token>
+        <token id="FN_24b_ra4">cream</token>
+        <token id="FN_24b_ra5">cookies</token>
+        <token id="FN_24b_ra6">are</token>
+        <token id="FN_24b_ra7">not</token>
+        <token id="FN_24b_ra8">pure</token>
+        <token id="FN_24b_ra9">sugar</token>
+        <token id="FN_24b_ra10">.</token>
+        <token id="FN_24b_ra11">The</token>
+        <token id="FN_24b_ra12">cookies</token>
+        <token id="FN_24b_ra13">did</token>
+        <token id="FN_24b_ra14">not</token>
+        <token id="FN_24b_ra15">produce</token>
+        <token id="FN_24b_ra16">as</token>
+        <token id="FN_24b_ra17">much</token>
+        <token id="FN_24b_ra18">gas</token>
+        <token id="FN_24b_ra19">as</token>
+        <token id="FN_24b_ra20">was</token>
+        <token id="FN_24b_ra21">produced</token>
+        <token id="FN_24b_ra22">by</token>
+        <token id="FN_24b_ra23">the</token>
+        <token id="FN_24b_ra24">pure</token>
+        <token id="FN_24b_ra25">sugar</token>
+        <token id="FN_24b_ra26">.</token>
+      </tokens>
+      <facets>
+        <facet id="FN_24b_f1" govNum="FN_24b_ra0" modNum="FN_24b_ra1" reltn="Root" govText="root" modText="No"/>
+        <facet id="FN_24b_f2" govNum="FN_24b_ra5" modNum="FN_24b_ra4" reltn="NMod" govText="cookies" isAssumed="true" modText="cream"/>
+        <facet id="FN_24b_f3" govNum="FN_24b_ra4" modNum="FN_24b_ra3" reltn="NMod" govText="cream" isAssumed="true" modText="Fruity"/>
+        <facet id="FN_24b_f4" govNum="FN_24b_ra5" modNum="FN_24b_ra9" reltn="Be_neg_not" govText="cookies" modText="sugar"/>
+        <facet id="FN_24b_f5" govNum="FN_24b_ra9" modNum="FN_24b_ra8" reltn="NMod" govText="sugar" isAssumed="true" modText="pure"/>
+        <facet id="FN_24b_f6" govNum="FN_24b_ra15" modNum="FN_24b_ra12" reltn="Means_neg_not" govText="produce" modText="cookies"/>
+        <facet id="FN_24b_f7" govNum="FN_24b_ra15" modNum="FN_24b_ra18" reltn="Product" govText="produce" modText="gas"/>
+        <facet id="FN_24b_f8" govNum="FN_24b_ra18" modNum="FN_24b_ra16" reltn="NMod" govText="gas" modText="as much"/>
+        <facet id="FN_24b_f9" govNum="FN_24b_ra16" modNum="FN_24b_ra21" reltn="AMod_as" childProp2Facet2="FN_24b_f7" govText="as much" modText="produced" childProp2Facet1="FN_24b_f10"/>
+        <facet id="FN_24b_f10" govNum="FN_24b_ra21" modNum="FN_24b_ra25" reltn="Means_by" govText="produced" modText="sugar"/>
+        <facet id="FN_24b_f11" govNum="FN_24b_ra25" modNum="FN_24b_ra24" reltn="NMod" govText="sugar" isAssumed="true" modText="pure"/>
+        <facet id="FN_24b_f12" govNum="FN_24b_ra21" modNum="FN_24b_ra18" reltn="Product" govText="produced" modText="gas"/>
+        <facet id="FN_24b_f13" govNum="FN_24b_ra6" modNum="FN_24b_ra15" reltn="Cause-know" childProp2Facet2="FN_24b_f7" childProp1Facet1="FN_24b_f4" govText="are" isAssumed="true" childProp1Facet2="FN_24b_f3" modText="produce" childProp2Facet1="FN_24b_f6"/>
+        <facet id="FN_24b_f14" govNum="FN_24b_ra15" modNum="FN_24b_ra6" reltn="Cause" childProp2Facet2="FN_24b_f3" childProp1Facet1="FN_24b_f6" govText="produce" isAssumed="true" childProp1Facet2="FN_24b_f7" modText="are" childProp2Facet1="FN_24b_f4"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="FN.24b.111.1" answerText="No, because with pure sugar is higher than 200 milliliters and Fruity Cream cookies is 150 milliliters." accuracy="correct">
+      <facetEntailment facetID="FN_24b_f1" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f2" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f3" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f4" label="Inferred"/>
+      <facetEntailment facetID="FN_24b_f5" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f6" label="Inferred"/>
+      <facetEntailment facetID="FN_24b_f7" label="Inferred"/>
+      <facetEntailment facetID="FN_24b_f8" label="Inferred"/>
+      <facetEntailment facetID="FN_24b_f9" label="Inferred"/>
+      <facetEntailment facetID="FN_24b_f10" label="Inferred"/>
+      <facetEntailment facetID="FN_24b_f11" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f12" label="Inferred"/>
+      <facetEntailment facetID="FN_24b_f13" label="Assumed"/>
+      <facetEntailment facetID="FN_24b_f14" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.24b.113.1" answerText="They are not pure sugar. My evidence is pure sugar has 200 milliliters. They only have 150." accuracy="correct">
+      <facetEntailment facetID="FN_24b_f1" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f2" label="Assumed"/>
+      <facetEntailment facetID="FN_24b_f3" label="Assumed"/>
+      <facetEntailment facetID="FN_24b_f4" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f5" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f6" label="Inferred"/>
+      <facetEntailment facetID="FN_24b_f7" label="Inferred"/>
+      <facetEntailment facetID="FN_24b_f8" label="Inferred"/>
+      <facetEntailment facetID="FN_24b_f9" label="Inferred"/>
+      <facetEntailment facetID="FN_24b_f10" label="Inferred"/>
+      <facetEntailment facetID="FN_24b_f11" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f12" label="Inferred"/>
+      <facetEntailment facetID="FN_24b_f13" label="Assumed"/>
+      <facetEntailment facetID="FN_24b_f14" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.24b.118.1" answerText="I think yes and no because cookies are not just pure sugar they are sweet as well so they do have sugar but not a whole lot of sugar." accuracy="contradictory">
+      <facetEntailment facetID="FN_24b_f1" label="Self-Contra"/>
+      <facetEntailment facetID="FN_24b_f2" label="Assumed"/>
+      <facetEntailment facetID="FN_24b_f3" label="Assumed"/>
+      <facetEntailment facetID="FN_24b_f4" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f5" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24b_f8" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24b_f9" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24b_f10" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24b_f11" label="Assumed"/>
+      <facetEntailment facetID="FN_24b_f12" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24b_f13" label="Assumed"/>
+      <facetEntailment facetID="FN_24b_f14" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.24b.145.1" answerText="Fruity Cream cookies is not pure sugar because it would be as high as the volume tube with pure sugar." accuracy="correct">
+      <facetEntailment facetID="FN_24b_f1" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f2" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f3" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f4" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f5" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f6" label="Inferred"/>
+      <facetEntailment facetID="FN_24b_f7" label="Inferred"/>
+      <facetEntailment facetID="FN_24b_f8" label="Inferred"/>
+      <facetEntailment facetID="FN_24b_f9" label="Inferred"/>
+      <facetEntailment facetID="FN_24b_f10" label="Inferred"/>
+      <facetEntailment facetID="FN_24b_f11" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f12" label="Inferred"/>
+      <facetEntailment facetID="FN_24b_f13" label="Assumed"/>
+      <facetEntailment facetID="FN_24b_f14" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.24b.183.1" answerText="No because the Fruity Cream cookies are only 150 milliliters while pure sugar is 200 milliliters." accuracy="correct">
+      <facetEntailment facetID="FN_24b_f1" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f2" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f3" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f4" label="Inferred"/>
+      <facetEntailment facetID="FN_24b_f5" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f6" label="Inferred"/>
+      <facetEntailment facetID="FN_24b_f7" label="Inferred"/>
+      <facetEntailment facetID="FN_24b_f8" label="Inferred"/>
+      <facetEntailment facetID="FN_24b_f9" label="Inferred"/>
+      <facetEntailment facetID="FN_24b_f10" label="Inferred"/>
+      <facetEntailment facetID="FN_24b_f11" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f12" label="Inferred"/>
+      <facetEntailment facetID="FN_24b_f13" label="Assumed"/>
+      <facetEntailment facetID="FN_24b_f14" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.24b.187.1" answerText="No, they are not pure sugar because the pure sugar is 200 milliliters and the cookie Is 150 milliliters." accuracy="correct">
+      <facetEntailment facetID="FN_24b_f1" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f2" label="Assumed"/>
+      <facetEntailment facetID="FN_24b_f3" label="Assumed"/>
+      <facetEntailment facetID="FN_24b_f4" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f5" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f6" label="Inferred"/>
+      <facetEntailment facetID="FN_24b_f7" label="Inferred"/>
+      <facetEntailment facetID="FN_24b_f8" label="Inferred"/>
+      <facetEntailment facetID="FN_24b_f9" label="Inferred"/>
+      <facetEntailment facetID="FN_24b_f10" label="Inferred"/>
+      <facetEntailment facetID="FN_24b_f11" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f12" label="Inferred"/>
+      <facetEntailment facetID="FN_24b_f13" label="Assumed"/>
+      <facetEntailment facetID="FN_24b_f14" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.24b.210.1" answerText="No, Fruity Cream cookies have 150 milliliters of carbon dioxide and pure sugar has 200 milliliters carbon dioxide." accuracy="correct">
+      <facetEntailment facetID="FN_24b_f1" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f2" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f3" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f4" label="Inferred"/>
+      <facetEntailment facetID="FN_24b_f5" label="Assumed"/>
+      <facetEntailment facetID="FN_24b_f6" label="Inferred"/>
+      <facetEntailment facetID="FN_24b_f7" label="Inferred"/>
+      <facetEntailment facetID="FN_24b_f8" label="Inferred"/>
+      <facetEntailment facetID="FN_24b_f9" label="Inferred"/>
+      <facetEntailment facetID="FN_24b_f10" label="Inferred"/>
+      <facetEntailment facetID="FN_24b_f11" label="Assumed"/>
+      <facetEntailment facetID="FN_24b_f12" label="Inferred"/>
+      <facetEntailment facetID="FN_24b_f13" label="Assumed"/>
+      <facetEntailment facetID="FN_24b_f14" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.24b.224.1" answerText="No but they do have sugar. If it was pure sugar, it would be 200 milliliters not 150 milliliters like it is." accuracy="correct">
+      <facetEntailment facetID="FN_24b_f1" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f2" label="Assumed"/>
+      <facetEntailment facetID="FN_24b_f3" label="Assumed"/>
+      <facetEntailment facetID="FN_24b_f4" label="Inferred"/>
+      <facetEntailment facetID="FN_24b_f5" label="Assumed"/>
+      <facetEntailment facetID="FN_24b_f6" label="Inferred"/>
+      <facetEntailment facetID="FN_24b_f7" label="Inferred"/>
+      <facetEntailment facetID="FN_24b_f8" label="Inferred"/>
+      <facetEntailment facetID="FN_24b_f9" label="Inferred"/>
+      <facetEntailment facetID="FN_24b_f10" label="Inferred"/>
+      <facetEntailment facetID="FN_24b_f11" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f12" label="Inferred"/>
+      <facetEntailment facetID="FN_24b_f13" label="Assumed"/>
+      <facetEntailment facetID="FN_24b_f14" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.24b.234.1" answerText="No because the experiment tells so cookies have 150 while sugar has 200." accuracy="correct">
+      <facetEntailment facetID="FN_24b_f1" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f2" label="Assumed"/>
+      <facetEntailment facetID="FN_24b_f3" label="Assumed"/>
+      <facetEntailment facetID="FN_24b_f4" label="Inferred"/>
+      <facetEntailment facetID="FN_24b_f5" label="Assumed"/>
+      <facetEntailment facetID="FN_24b_f6" label="Inferred"/>
+      <facetEntailment facetID="FN_24b_f7" label="Inferred"/>
+      <facetEntailment facetID="FN_24b_f8" label="Inferred"/>
+      <facetEntailment facetID="FN_24b_f9" label="Inferred"/>
+      <facetEntailment facetID="FN_24b_f10" label="Inferred"/>
+      <facetEntailment facetID="FN_24b_f11" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f12" label="Inferred"/>
+      <facetEntailment facetID="FN_24b_f13" label="Assumed"/>
+      <facetEntailment facetID="FN_24b_f14" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.24b.242.1" answerText="No because they had less carbon dioxide than the pure sugar did." accuracy="correct">
+      <facetEntailment facetID="FN_24b_f1" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f2" label="Assumed"/>
+      <facetEntailment facetID="FN_24b_f3" label="Assumed"/>
+      <facetEntailment facetID="FN_24b_f4" label="Inferred"/>
+      <facetEntailment facetID="FN_24b_f5" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f6" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f7" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f8" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f9" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f10" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f11" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f12" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f13" label="Assumed"/>
+      <facetEntailment facetID="FN_24b_f14" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.24b.243.1" answerText="Fruity Cream cookies are not pure sugar because if it was pure sugar, it would be just like the pure sugar in other tube." accuracy="correct">
+      <facetEntailment facetID="FN_24b_f1" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f2" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f3" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f4" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f5" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f6" label="Inferred"/>
+      <facetEntailment facetID="FN_24b_f7" label="Inferred"/>
+      <facetEntailment facetID="FN_24b_f8" label="Inferred"/>
+      <facetEntailment facetID="FN_24b_f9" label="Inferred"/>
+      <facetEntailment facetID="FN_24b_f10" label="Inferred"/>
+      <facetEntailment facetID="FN_24b_f11" label="Assumed"/>
+      <facetEntailment facetID="FN_24b_f12" label="Inferred"/>
+      <facetEntailment facetID="FN_24b_f13" label="Assumed"/>
+      <facetEntailment facetID="FN_24b_f14" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.24b.258.1" answerText="No Fruity Cream cookies are not pure sugar. My evidence is that there was more carbon dioxide in the pure sugar volume tube than in the Fruity Cream cookies tube. And carbon dioxide is provided when yeast has warmth sugar and water." accuracy="correct">
+      <facetEntailment facetID="FN_24b_f1" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f2" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f3" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f4" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f5" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f6" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f7" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f8" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f9" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f10" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f11" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f12" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f13" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f14" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.24b.280.1" answerText="Fruity Cream cookies are not pure sugar. I know this because if the Fruity Cream cookies were pure sugar the volume tube would read the same." accuracy="correct">
+      <facetEntailment facetID="FN_24b_f1" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f2" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f3" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f4" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f5" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f6" label="Inferred"/>
+      <facetEntailment facetID="FN_24b_f7" label="Inferred"/>
+      <facetEntailment facetID="FN_24b_f8" label="Inferred"/>
+      <facetEntailment facetID="FN_24b_f9" label="Inferred"/>
+      <facetEntailment facetID="FN_24b_f10" label="Inferred"/>
+      <facetEntailment facetID="FN_24b_f11" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f12" label="Inferred"/>
+      <facetEntailment facetID="FN_24b_f13" label="Assumed"/>
+      <facetEntailment facetID="FN_24b_f14" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.24b.300.1" answerText="The Fruity Cream is not pure sugar because the cookie amount of milliliters does not meet the amount of milliliters in pure sugar." accuracy="correct">
+      <facetEntailment facetID="FN_24b_f1" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f2" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f3" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f4" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f5" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f6" label="Inferred"/>
+      <facetEntailment facetID="FN_24b_f7" label="Inferred"/>
+      <facetEntailment facetID="FN_24b_f8" label="Inferred"/>
+      <facetEntailment facetID="FN_24b_f9" label="Inferred"/>
+      <facetEntailment facetID="FN_24b_f10" label="Inferred"/>
+      <facetEntailment facetID="FN_24b_f11" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f12" label="Inferred"/>
+      <facetEntailment facetID="FN_24b_f13" label="Assumed"/>
+      <facetEntailment facetID="FN_24b_f14" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.24b.301.1" answerText="Finally Cream cookies are not pure sugar I know that because." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="FN_24b_f1" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f2" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f3" label="Assumed"/>
+      <facetEntailment facetID="FN_24b_f4" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f5" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24b_f8" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24b_f9" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24b_f10" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24b_f11" label="Assumed"/>
+      <facetEntailment facetID="FN_24b_f12" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24b_f13" label="Diff-Arg"/>
+      <facetEntailment facetID="FN_24b_f14" label="Diff-Arg"/>
+    </studentAnswer>
+    <studentAnswer id="FN.24b.315.1" answerText="No because on the diagram it shows pure sugar is more than Fruity Cream cookies." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="FN_24b_f1" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f2" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f3" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f4" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f5" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24b_f8" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24b_f9" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24b_f10" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24b_f11" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f12" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24b_f13" label="Assumed"/>
+      <facetEntailment facetID="FN_24b_f14" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.24b.319.1" answerText="No Fruity Cream cookies are not pure sugar because it is fruity. Fruity means it is fruit." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="FN_24b_f1" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f2" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f3" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f4" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f5" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24b_f8" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24b_f9" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24b_f10" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24b_f11" label="Assumed"/>
+      <facetEntailment facetID="FN_24b_f12" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24b_f13" label="Diff-Arg"/>
+      <facetEntailment facetID="FN_24b_f14" label="Diff-Arg"/>
+    </studentAnswer>
+    <studentAnswer id="FN.24b.322.1" answerText="Yes because Fruity Cream cookies have sugar." accuracy="contradictory">
+      <facetEntailment facetID="FN_24b_f1" label="Contra-Expr"/>
+      <facetEntailment facetID="FN_24b_f2" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f3" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f4" label="Contra-Expr"/>
+      <facetEntailment facetID="FN_24b_f5" label="Assumed"/>
+      <facetEntailment facetID="FN_24b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24b_f8" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24b_f9" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24b_f10" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24b_f11" label="Assumed"/>
+      <facetEntailment facetID="FN_24b_f12" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24b_f13" label="Assumed"/>
+      <facetEntailment facetID="FN_24b_f14" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.24b.328.1" answerText="They are almost pure sugar because they column tube on the left is above 200 milliliters and the one on the right is below." accuracy="correct">
+      <facetEntailment facetID="FN_24b_f1" label="Inferred"/>
+      <facetEntailment facetID="FN_24b_f2" label="Assumed"/>
+      <facetEntailment facetID="FN_24b_f3" label="Assumed"/>
+      <facetEntailment facetID="FN_24b_f4" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f5" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f6" label="Inferred"/>
+      <facetEntailment facetID="FN_24b_f7" label="Inferred"/>
+      <facetEntailment facetID="FN_24b_f8" label="Inferred"/>
+      <facetEntailment facetID="FN_24b_f9" label="Inferred"/>
+      <facetEntailment facetID="FN_24b_f10" label="Inferred"/>
+      <facetEntailment facetID="FN_24b_f11" label="Assumed"/>
+      <facetEntailment facetID="FN_24b_f12" label="Inferred"/>
+      <facetEntailment facetID="FN_24b_f13" label="Assumed"/>
+      <facetEntailment facetID="FN_24b_f14" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.24b.367.1" answerText="No, because they have less carbon dioxide than pure sugar." accuracy="correct">
+      <facetEntailment facetID="FN_24b_f1" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f2" label="Assumed"/>
+      <facetEntailment facetID="FN_24b_f3" label="Assumed"/>
+      <facetEntailment facetID="FN_24b_f4" label="Inferred"/>
+      <facetEntailment facetID="FN_24b_f5" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f6" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f7" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f8" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f9" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f10" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f11" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f12" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f13" label="Assumed"/>
+      <facetEntailment facetID="FN_24b_f14" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.24b.388.1" answerText="No, Fruity Cream is not pure sugar the chart says that the cookies are at 150 milliliters and pure sugar is 200 milliliters." accuracy="correct">
+      <facetEntailment facetID="FN_24b_f1" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f2" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f3" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f4" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f5" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f6" label="Inferred"/>
+      <facetEntailment facetID="FN_24b_f7" label="Inferred"/>
+      <facetEntailment facetID="FN_24b_f8" label="Inferred"/>
+      <facetEntailment facetID="FN_24b_f9" label="Inferred"/>
+      <facetEntailment facetID="FN_24b_f10" label="Inferred"/>
+      <facetEntailment facetID="FN_24b_f11" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f12" label="Inferred"/>
+      <facetEntailment facetID="FN_24b_f13" label="Assumed"/>
+      <facetEntailment facetID="FN_24b_f14" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.24b.390.1" answerText="Fruity Cream cookies are pure sugar, because the volume tube tells if it has sugar and it has sugar because it is sweet." accuracy="contradictory">
+      <facetEntailment facetID="FN_24b_f1" label="Contra-Expr"/>
+      <facetEntailment facetID="FN_24b_f2" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f3" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f4" label="Contra-Expr"/>
+      <facetEntailment facetID="FN_24b_f5" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f6" label="Contra-Infr"/>
+      <facetEntailment facetID="FN_24b_f7" label="Inferred"/>
+      <facetEntailment facetID="FN_24b_f8" label="Inferred"/>
+      <facetEntailment facetID="FN_24b_f9" label="Inferred"/>
+      <facetEntailment facetID="FN_24b_f10" label="Inferred"/>
+      <facetEntailment facetID="FN_24b_f11" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f12" label="Inferred"/>
+      <facetEntailment facetID="FN_24b_f13" label="Assumed"/>
+      <facetEntailment facetID="FN_24b_f14" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.24b.395.1" answerText="No, because on the top it has the name of the cookies and it shows how much sugar it has in it." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="FN_24b_f1" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f2" label="Assumed"/>
+      <facetEntailment facetID="FN_24b_f3" label="Assumed"/>
+      <facetEntailment facetID="FN_24b_f4" label="Inferred"/>
+      <facetEntailment facetID="FN_24b_f5" label="Assumed"/>
+      <facetEntailment facetID="FN_24b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24b_f8" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24b_f9" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24b_f10" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24b_f11" label="Assumed"/>
+      <facetEntailment facetID="FN_24b_f12" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24b_f13" label="Assumed"/>
+      <facetEntailment facetID="FN_24b_f14" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.24b.418.1" answerText="No, because there is fruit and fruit does not have that much sugar." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="FN_24b_f1" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f2" label="Assumed"/>
+      <facetEntailment facetID="FN_24b_f3" label="Assumed"/>
+      <facetEntailment facetID="FN_24b_f4" label="Inferred"/>
+      <facetEntailment facetID="FN_24b_f5" label="Assumed"/>
+      <facetEntailment facetID="FN_24b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24b_f8" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24b_f9" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24b_f10" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24b_f11" label="Assumed"/>
+      <facetEntailment facetID="FN_24b_f12" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24b_f13" label="Diff-Arg"/>
+      <facetEntailment facetID="FN_24b_f14" label="Diff-Arg"/>
+    </studentAnswer>
+    <studentAnswer id="FN.24b.432.1" answerText="No, because the pictures on the right show you that the cookies have less." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="FN_24b_f1" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f2" label="Assumed"/>
+      <facetEntailment facetID="FN_24b_f3" label="Assumed"/>
+      <facetEntailment facetID="FN_24b_f4" label="Inferred"/>
+      <facetEntailment facetID="FN_24b_f5" label="Assumed"/>
+      <facetEntailment facetID="FN_24b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24b_f8" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24b_f9" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24b_f10" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24b_f11" label="Assumed"/>
+      <facetEntailment facetID="FN_24b_f12" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24b_f13" label="Assumed"/>
+      <facetEntailment facetID="FN_24b_f14" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.24b.459.1" answerText="Yes, my evidence is that Diva's father said that they were pure sugar." accuracy="contradictory">
+      <facetEntailment facetID="FN_24b_f1" label="Contra-Expr"/>
+      <facetEntailment facetID="FN_24b_f2" label="Assumed"/>
+      <facetEntailment facetID="FN_24b_f3" label="Assumed"/>
+      <facetEntailment facetID="FN_24b_f4" label="Contra-Infr"/>
+      <facetEntailment facetID="FN_24b_f5" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24b_f8" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24b_f9" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24b_f10" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24b_f11" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f12" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24b_f13" label="Assumed"/>
+      <facetEntailment facetID="FN_24b_f14" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.24b.493.1" answerText="No, Fruity Cream cookies are not pure sugar because if you compare it the cookies are not the same mass." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="FN_24b_f1" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f2" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f3" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f4" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f5" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24b_f8" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24b_f9" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24b_f10" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24b_f11" label="Assumed"/>
+      <facetEntailment facetID="FN_24b_f12" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24b_f13" label="Diff-Arg"/>
+      <facetEntailment facetID="FN_24b_f14" label="Diff-Arg"/>
+    </studentAnswer>
+    <studentAnswer id="FN.24b.495.1" answerText="No, Fruity Cream cookies are not pure sugar because they are not 4 grams." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="FN_24b_f1" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f2" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f3" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f4" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f5" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24b_f8" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24b_f9" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24b_f10" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24b_f11" label="Assumed"/>
+      <facetEntailment facetID="FN_24b_f12" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24b_f13" label="Diff-Arg"/>
+      <facetEntailment facetID="FN_24b_f14" label="Diff-Arg"/>
+    </studentAnswer>
+    <studentAnswer id="FN.24b.508.1" answerText="No they are not pure sugar if it was it would pass 350 milliliters." accuracy="correct">
+      <facetEntailment facetID="FN_24b_f1" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f2" label="Assumed"/>
+      <facetEntailment facetID="FN_24b_f3" label="Assumed"/>
+      <facetEntailment facetID="FN_24b_f4" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f5" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f6" label="Inferred"/>
+      <facetEntailment facetID="FN_24b_f7" label="Inferred"/>
+      <facetEntailment facetID="FN_24b_f8" label="Inferred"/>
+      <facetEntailment facetID="FN_24b_f9" label="Inferred"/>
+      <facetEntailment facetID="FN_24b_f10" label="Inferred"/>
+      <facetEntailment facetID="FN_24b_f11" label="Assumed"/>
+      <facetEntailment facetID="FN_24b_f12" label="Inferred"/>
+      <facetEntailment facetID="FN_24b_f13" label="Assumed"/>
+      <facetEntailment facetID="FN_24b_f14" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.24b.512.1" answerText="No, Fruity Cream cookies are not pure sugar because pure sugar is about 200 and Fruity Cream cookies are at least 150 milliliters." accuracy="correct">
+      <facetEntailment facetID="FN_24b_f1" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f2" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f3" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f4" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f5" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f6" label="Inferred"/>
+      <facetEntailment facetID="FN_24b_f7" label="Inferred"/>
+      <facetEntailment facetID="FN_24b_f8" label="Inferred"/>
+      <facetEntailment facetID="FN_24b_f9" label="Inferred"/>
+      <facetEntailment facetID="FN_24b_f10" label="Inferred"/>
+      <facetEntailment facetID="FN_24b_f11" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f12" label="Inferred"/>
+      <facetEntailment facetID="FN_24b_f13" label="Assumed"/>
+      <facetEntailment facetID="FN_24b_f14" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.24b.513.1" answerText="No, Fruity Cream cookies is not pure sugar because pure sugar is 200 milliliters and Fruity Cream cookies is less than 200 milliliters." accuracy="correct">
+      <facetEntailment facetID="FN_24b_f1" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f2" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f3" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f4" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f5" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f6" label="Inferred"/>
+      <facetEntailment facetID="FN_24b_f7" label="Inferred"/>
+      <facetEntailment facetID="FN_24b_f8" label="Inferred"/>
+      <facetEntailment facetID="FN_24b_f9" label="Inferred"/>
+      <facetEntailment facetID="FN_24b_f10" label="Inferred"/>
+      <facetEntailment facetID="FN_24b_f11" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f12" label="Inferred"/>
+      <facetEntailment facetID="FN_24b_f13" label="Assumed"/>
+      <facetEntailment facetID="FN_24b_f14" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.24b.521.1" answerText="No, Fruity Cream cookies are not pure sugar. My evidence was, pure sugar result were 200 milliliters and the cookies were 150." accuracy="correct">
+      <facetEntailment facetID="FN_24b_f1" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f2" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f3" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f4" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f5" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f6" label="Inferred"/>
+      <facetEntailment facetID="FN_24b_f7" label="Inferred"/>
+      <facetEntailment facetID="FN_24b_f8" label="Inferred"/>
+      <facetEntailment facetID="FN_24b_f9" label="Inferred"/>
+      <facetEntailment facetID="FN_24b_f10" label="Inferred"/>
+      <facetEntailment facetID="FN_24b_f11" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f12" label="Inferred"/>
+      <facetEntailment facetID="FN_24b_f13" label="Assumed"/>
+      <facetEntailment facetID="FN_24b_f14" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.24b.533.1" answerText="No, they are not put sugar because when she put the cookies in the volume measure it was not to the highest number." accuracy="correct">
+      <facetEntailment facetID="FN_24b_f1" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f2" label="Assumed"/>
+      <facetEntailment facetID="FN_24b_f3" label="Assumed"/>
+      <facetEntailment facetID="FN_24b_f4" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f5" label="Assumed"/>
+      <facetEntailment facetID="FN_24b_f6" label="Inferred"/>
+      <facetEntailment facetID="FN_24b_f7" label="Inferred"/>
+      <facetEntailment facetID="FN_24b_f8" label="Inferred"/>
+      <facetEntailment facetID="FN_24b_f9" label="Inferred"/>
+      <facetEntailment facetID="FN_24b_f10" label="Inferred"/>
+      <facetEntailment facetID="FN_24b_f11" label="Assumed"/>
+      <facetEntailment facetID="FN_24b_f12" label="Inferred"/>
+      <facetEntailment facetID="FN_24b_f13" label="Assumed"/>
+      <facetEntailment facetID="FN_24b_f14" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.24b.541.1" answerText="Fruity Cream cookies have a lot of pure sugar and the cream cookies have less sugar." accuracy="irrelevant">
+      <facetEntailment facetID="FN_24b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24b_f2" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f3" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24b_f5" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24b_f8" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24b_f9" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24b_f10" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24b_f11" label="Assumed"/>
+      <facetEntailment facetID="FN_24b_f12" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24b_f13" label="Assumed"/>
+      <facetEntailment facetID="FN_24b_f14" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.24b.547.1" answerText="Fruity Cream cookies are not pure sugar and my evidence is that pure sugar is 200 milliliters but Fruity Cream cookies is only 150 milliliters." accuracy="correct">
+      <facetEntailment facetID="FN_24b_f1" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f2" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f3" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f4" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f5" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f6" label="Inferred"/>
+      <facetEntailment facetID="FN_24b_f7" label="Inferred"/>
+      <facetEntailment facetID="FN_24b_f8" label="Inferred"/>
+      <facetEntailment facetID="FN_24b_f9" label="Inferred"/>
+      <facetEntailment facetID="FN_24b_f10" label="Inferred"/>
+      <facetEntailment facetID="FN_24b_f11" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f12" label="Inferred"/>
+      <facetEntailment facetID="FN_24b_f13" label="Assumed"/>
+      <facetEntailment facetID="FN_24b_f14" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.24b.561.1" answerText="Yes because cookies has a lot of sugar in it." accuracy="contradictory">
+      <facetEntailment facetID="FN_24b_f1" label="Contra-Expr"/>
+      <facetEntailment facetID="FN_24b_f2" label="Assumed"/>
+      <facetEntailment facetID="FN_24b_f3" label="Assumed"/>
+      <facetEntailment facetID="FN_24b_f4" label="Contra-Infr"/>
+      <facetEntailment facetID="FN_24b_f5" label="Assumed"/>
+      <facetEntailment facetID="FN_24b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24b_f8" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24b_f9" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24b_f10" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24b_f11" label="Assumed"/>
+      <facetEntailment facetID="FN_24b_f12" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24b_f13" label="Assumed"/>
+      <facetEntailment facetID="FN_24b_f14" label="Assumed"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

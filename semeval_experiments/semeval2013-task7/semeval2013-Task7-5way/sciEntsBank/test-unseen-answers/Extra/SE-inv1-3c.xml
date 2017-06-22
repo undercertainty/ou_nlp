@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<question testSet="unseen-answers" id="SE_3c" module="SE">
+  <questionText>Why does the tree shown in the picture have a shadow?</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="SE_3c-a1" text="The tree blocks the light from the Sun.">
+      <tokens>
+        <token id="SE_3c_ra1">The</token>
+        <token id="SE_3c_ra2">tree</token>
+        <token id="SE_3c_ra3">blocks</token>
+        <token id="SE_3c_ra4">the</token>
+        <token id="SE_3c_ra5">light</token>
+        <token id="SE_3c_ra6">from</token>
+        <token id="SE_3c_ra7">the</token>
+        <token id="SE_3c_ra8">Sun</token>
+        <token id="SE_3c_ra9">.</token>
+      </tokens>
+      <facets>
+        <facet id="SE_3c_f1" govNum="SE_3c_ra3" modNum="SE_3c_ra2" reltn="Means" govText="blocks" modText="tree"/>
+        <facet id="SE_3c_f2" govNum="SE_3c_ra3" modNum="SE_3c_ra5" reltn="Patient" govText="blocks" modText="light"/>
+        <facet id="SE_3c_f3" govNum="SE_3c_ra5" modNum="SE_3c_ra8" reltn="NMod_from" govText="light" modText="Sun"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="SE.3c.134.1" answerText="The light makes the shadow." accuracy="irrelevant">
+      <facetEntailment facetID="SE_3c_f1" label="Unaddressed"/>
+      <facetEntailment facetID="SE_3c_f2" label="Unaddressed"/>
+      <facetEntailment facetID="SE_3c_f3" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.3c.154.1" answerText="The tree picture is look like the tree is in east." accuracy="irrelevant">
+      <facetEntailment facetID="SE_3c_f1" label="Unaddressed"/>
+      <facetEntailment facetID="SE_3c_f2" label="Unaddressed"/>
+      <facetEntailment facetID="SE_3c_f3" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.3c.314.1" answerText="Because it is dark and the sun is on east direction." accuracy="irrelevant">
+      <facetEntailment facetID="SE_3c_f1" label="Unaddressed"/>
+      <facetEntailment facetID="SE_3c_f2" label="Unaddressed"/>
+      <facetEntailment facetID="SE_3c_f3" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.3c.501.1" answerText="Because since the sun is out it gives it a shadow." accuracy="irrelevant">
+      <facetEntailment facetID="SE_3c_f1" label="Unaddressed"/>
+      <facetEntailment facetID="SE_3c_f2" label="Unaddressed"/>
+      <facetEntailment facetID="SE_3c_f3" label="Unaddressed"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

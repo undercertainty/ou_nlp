@@ -1,0 +1,155 @@
+<?xml version="1.0"?>
+<question testSet="unseen-answers" id="SE_16b2" module="SE">
+  <questionText>Cory and Rachael set up 3 solar water heaters to see which would show the greatest water temperature change. The containers are shown below. Each is the same height (4 centimeters), and the same width (10 centimeters). Only the lengths are different; Container A is 10 centimeters, Container B is 30 centimeters, and Container C is 40 centimeters. They painted the plastic containers black, filled each with the same amount of water, and put a clear plastic lid on each one. Then they set them out in the sunshine. Here are the data that Cory and Rachael collected: After 10 minutes Container A was 3 degrees Celsius, Container B was 9 degrees Celsius, and Container C was 12 degrees Celsius. Use the graph paper on the next page to graph the temperature change for each container. If Cory and Rachael had a container that was the same height and width as the other containers, but 20 centimeters long, what do you think the temperature change would be after 10 minutes? (6 Celsius) How did you decide what the temperature change would be for the new container?</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="SE_16b2-a1" text="20 centimeters size is between 10 and 30 centimeters, so the temperature change must be less than the 30 centimeters container, but more than the 10 centimeters container. 6 degrees Celsius is halfway between.">
+      <tokens>
+        <token id="SE_16b2_ra1">20</token>
+        <token id="SE_16b2_ra2">centimeters</token>
+        <token id="SE_16b2_ra3">size</token>
+        <token id="SE_16b2_ra4">is</token>
+        <token id="SE_16b2_ra5">between</token>
+        <token id="SE_16b2_ra6">10</token>
+        <token id="SE_16b2_ra7">and</token>
+        <token id="SE_16b2_ra8">30</token>
+        <token id="SE_16b2_ra9">centimeters</token>
+        <token id="SE_16b2_ra10">,</token>
+        <token id="SE_16b2_ra11">so</token>
+        <token id="SE_16b2_ra12">the</token>
+        <token id="SE_16b2_ra13">temperature</token>
+        <token id="SE_16b2_ra14">change</token>
+        <token id="SE_16b2_ra15">must</token>
+        <token id="SE_16b2_ra16">be</token>
+        <token id="SE_16b2_ra17">less</token>
+        <token id="SE_16b2_ra18">than</token>
+        <token id="SE_16b2_ra19">the</token>
+        <token id="SE_16b2_ra20">30</token>
+        <token id="SE_16b2_ra21">centimeters</token>
+        <token id="SE_16b2_ra22">container</token>
+        <token id="SE_16b2_ra23">,</token>
+        <token id="SE_16b2_ra24">but</token>
+        <token id="SE_16b2_ra25">more</token>
+        <token id="SE_16b2_ra26">than</token>
+        <token id="SE_16b2_ra27">the</token>
+        <token id="SE_16b2_ra28">10</token>
+        <token id="SE_16b2_ra29">centimeters</token>
+        <token id="SE_16b2_ra30">container</token>
+        <token id="SE_16b2_ra31">.</token>
+        <token id="SE_16b2_ra32">6</token>
+        <token id="SE_16b2_ra33">degrees</token>
+        <token id="SE_16b2_ra34">Celsius</token>
+        <token id="SE_16b2_ra35">is</token>
+        <token id="SE_16b2_ra36">halfway</token>
+        <token id="SE_16b2_ra37">between</token>
+        <token id="SE_16b2_ra38">.</token>
+      </tokens>
+      <facets>
+        <facet id="SE_16b2_f1" govNum="SE_16b2_ra1" modNum="SE_16b2_ra2" reltn="NMod" govText="20" isAssumed="true" modText="centimeters"/>
+        <facet id="SE_16b2_f2" govNum="SE_16b2_ra1" modNum="SE_16b2_ra3" reltn="NMod" govText="20" isAssumed="true" modText="size"/>
+        <facet id="SE_16b2_f3" govNum="SE_16b2_ra1" modNum="SE_16b2_ra6" reltn="Location_between" govText="20" modText="10"/>
+        <facet id="SE_16b2_f4" govNum="SE_16b2_ra1" modNum="SE_16b2_ra8" reltn="Location_between" govText="20" modText="30"/>
+        <facet id="SE_16b2_f5" govNum="SE_16b2_ra8" modNum="SE_16b2_ra9" reltn="NMod" govText="30" isAssumed="true" modText="centimeters"/>
+        <facet id="SE_16b2_f6" govNum="SE_16b2_ra14" modNum="SE_16b2_ra13" reltn="Patient" govText="change" isAssumed="true" modText="temperature"/>
+        <facet id="SE_16b2_f7" govNum="SE_16b2_ra14" modNum="SE_16b2_ra17" reltn="Extent" govText="change" modText="less"/>
+        <facet id="SE_16b2_f8" govNum="SE_16b2_ra17" modNum="SE_16b2_ra20" reltn="AMod_than" govText="less" modText="30"/>
+        <facet id="SE_16b2_f9" govNum="SE_16b2_ra20" modNum="SE_16b2_ra21" reltn="NMod" govText="30" isAssumed="true" modText="centimeters"/>
+        <facet id="SE_16b2_f10" govNum="SE_16b2_ra20" modNum="SE_16b2_ra22" reltn="NMod" govText="30" isAssumed="true" modText="container"/>
+        <facet id="SE_16b2_f11" govNum="SE_16b2_ra14" modNum="SE_16b2_ra25" reltn="Extent" govText="change" modText="more"/>
+        <facet id="SE_16b2_f12" govNum="SE_16b2_ra25" modNum="SE_16b2_ra28" reltn="AMod_than" govText="more" modText="10"/>
+        <facet id="SE_16b2_f13" govNum="SE_16b2_ra28" modNum="SE_16b2_ra29" reltn="NMod" govText="10" isAssumed="true" modText="centimeters"/>
+        <facet id="SE_16b2_f14" govNum="SE_16b2_ra28" modNum="SE_16b2_ra30" reltn="NMod" govText="10" isAssumed="true" modText="container"/>
+        <facet id="SE_16b2_f15" govNum="SE_16b2_ra16" modNum="SE_16b2_ra4" reltn="Cause_so" childProp2Facet2="SE_16b2_f4" childProp1Facet1="SE_16b2_f7" govText="be" childProp1Facet2="SE_16b2_f6" modText="is" childProp2Facet1="SE_16b2_f3"/>
+        <facet id="SE_16b2_f16" govNum="SE_16b2_ra32" modNum="SE_16b2_ra33" reltn="NMod" govText="6" modText="degrees"/>
+        <facet id="SE_16b2_f17" govNum="SE_16b2_ra32" modNum="SE_16b2_ra34" reltn="NMod" govText="6" modText="Celsius"/>
+        <facet id="SE_16b2_f18" govNum="SE_16b2_ra32" modNum="SE_16b2_ra37" reltn="Location" govText="6" modText="between"/>
+        <facet id="SE_16b2_f19" govNum="SE_16b2_ra37" modNum="SE_16b2_ra36" reltn="AMod" govText="between" modText="halfway"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="SE.16b2.407.1" answerText="I looked at the graph and saw that if 10 centimeters was 3 then it might be 6 centimeters." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="SE_16b2_f1" label="Assumed"/>
+      <facetEntailment facetID="SE_16b2_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_16b2_f3" label="Unaddressed"/>
+      <facetEntailment facetID="SE_16b2_f4" label="Unaddressed"/>
+      <facetEntailment facetID="SE_16b2_f5" label="Assumed"/>
+      <facetEntailment facetID="SE_16b2_f6" label="Assumed"/>
+      <facetEntailment facetID="SE_16b2_f7" label="Unaddressed"/>
+      <facetEntailment facetID="SE_16b2_f8" label="Unaddressed"/>
+      <facetEntailment facetID="SE_16b2_f9" label="Assumed"/>
+      <facetEntailment facetID="SE_16b2_f10" label="Assumed"/>
+      <facetEntailment facetID="SE_16b2_f11" label="Inferred"/>
+      <facetEntailment facetID="SE_16b2_f12" label="Inferred"/>
+      <facetEntailment facetID="SE_16b2_f13" label="Expressed"/>
+      <facetEntailment facetID="SE_16b2_f14" label="Assumed"/>
+      <facetEntailment facetID="SE_16b2_f15" label="Unaddressed"/>
+      <facetEntailment facetID="SE_16b2_f16" label="Diff-Arg"/>
+      <facetEntailment facetID="SE_16b2_f17" label="Diff-Arg"/>
+      <facetEntailment facetID="SE_16b2_f18" label="Unaddressed"/>
+      <facetEntailment facetID="SE_16b2_f19" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.16b2.419.1" answerText="I decided by looking at collector A's temperature at 10 minutes and doubled it." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="SE_16b2_f1" label="Assumed"/>
+      <facetEntailment facetID="SE_16b2_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_16b2_f3" label="Unaddressed"/>
+      <facetEntailment facetID="SE_16b2_f4" label="Unaddressed"/>
+      <facetEntailment facetID="SE_16b2_f5" label="Assumed"/>
+      <facetEntailment facetID="SE_16b2_f6" label="Assumed"/>
+      <facetEntailment facetID="SE_16b2_f7" label="Unaddressed"/>
+      <facetEntailment facetID="SE_16b2_f8" label="Unaddressed"/>
+      <facetEntailment facetID="SE_16b2_f9" label="Assumed"/>
+      <facetEntailment facetID="SE_16b2_f10" label="Assumed"/>
+      <facetEntailment facetID="SE_16b2_f11" label="Inferred"/>
+      <facetEntailment facetID="SE_16b2_f12" label="Inferred"/>
+      <facetEntailment facetID="SE_16b2_f13" label="Assumed"/>
+      <facetEntailment facetID="SE_16b2_f14" label="Assumed"/>
+      <facetEntailment facetID="SE_16b2_f15" label="Diff-Arg"/>
+      <facetEntailment facetID="SE_16b2_f16" label="Inferred"/>
+      <facetEntailment facetID="SE_16b2_f17" label="Inferred"/>
+      <facetEntailment facetID="SE_16b2_f18" label="Unaddressed"/>
+      <facetEntailment facetID="SE_16b2_f19" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.16b2.506.1" answerText="Because it was the highest one so C got hotter." accuracy="irrelevant">
+      <facetEntailment facetID="SE_16b2_f1" label="Assumed"/>
+      <facetEntailment facetID="SE_16b2_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_16b2_f3" label="Unaddressed"/>
+      <facetEntailment facetID="SE_16b2_f4" label="Unaddressed"/>
+      <facetEntailment facetID="SE_16b2_f5" label="Assumed"/>
+      <facetEntailment facetID="SE_16b2_f6" label="Assumed"/>
+      <facetEntailment facetID="SE_16b2_f7" label="Unaddressed"/>
+      <facetEntailment facetID="SE_16b2_f8" label="Unaddressed"/>
+      <facetEntailment facetID="SE_16b2_f9" label="Assumed"/>
+      <facetEntailment facetID="SE_16b2_f10" label="Assumed"/>
+      <facetEntailment facetID="SE_16b2_f11" label="Unaddressed"/>
+      <facetEntailment facetID="SE_16b2_f12" label="Unaddressed"/>
+      <facetEntailment facetID="SE_16b2_f13" label="Assumed"/>
+      <facetEntailment facetID="SE_16b2_f14" label="Assumed"/>
+      <facetEntailment facetID="SE_16b2_f15" label="Unaddressed"/>
+      <facetEntailment facetID="SE_16b2_f16" label="Unaddressed"/>
+      <facetEntailment facetID="SE_16b2_f17" label="Unaddressed"/>
+      <facetEntailment facetID="SE_16b2_f18" label="Unaddressed"/>
+      <facetEntailment facetID="SE_16b2_f19" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.16b2.529.1" answerText="Because almost all in the 10 minute time zone are in 3 degree intervals." accuracy="irrelevant">
+      <facetEntailment facetID="SE_16b2_f1" label="Assumed"/>
+      <facetEntailment facetID="SE_16b2_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_16b2_f3" label="Unaddressed"/>
+      <facetEntailment facetID="SE_16b2_f4" label="Unaddressed"/>
+      <facetEntailment facetID="SE_16b2_f5" label="Assumed"/>
+      <facetEntailment facetID="SE_16b2_f6" label="Assumed"/>
+      <facetEntailment facetID="SE_16b2_f7" label="Unaddressed"/>
+      <facetEntailment facetID="SE_16b2_f8" label="Unaddressed"/>
+      <facetEntailment facetID="SE_16b2_f9" label="Assumed"/>
+      <facetEntailment facetID="SE_16b2_f10" label="Assumed"/>
+      <facetEntailment facetID="SE_16b2_f11" label="Unaddressed"/>
+      <facetEntailment facetID="SE_16b2_f12" label="Unaddressed"/>
+      <facetEntailment facetID="SE_16b2_f13" label="Assumed"/>
+      <facetEntailment facetID="SE_16b2_f14" label="Assumed"/>
+      <facetEntailment facetID="SE_16b2_f15" label="Unaddressed"/>
+      <facetEntailment facetID="SE_16b2_f16" label="Unaddressed"/>
+      <facetEntailment facetID="SE_16b2_f17" label="Unaddressed"/>
+      <facetEntailment facetID="SE_16b2_f18" label="Unaddressed"/>
+      <facetEntailment facetID="SE_16b2_f19" label="Unaddressed"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

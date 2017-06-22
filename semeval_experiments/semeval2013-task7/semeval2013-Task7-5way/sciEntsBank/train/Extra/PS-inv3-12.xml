@@ -1,0 +1,284 @@
+<?xml version="1.0"?>
+<question id="PS_12" module="PS">
+  <questionText>Mary was trying to understand how tuning forks make sounds. She hit the tuning fork on the table and placed the tuning fork into a cup full of water while it was still ringing. The water splashed in all directions. How did seeing what happened help Mary understand how a tuning fork makes sounds?</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="PS_12-a1" text="The water splashed because the fork was vibrating. Vibrations make sounds.">
+      <tokens>
+        <token id="PS_12_ra1">The</token>
+        <token id="PS_12_ra2">water</token>
+        <token id="PS_12_ra3">splashed</token>
+        <token id="PS_12_ra4">because</token>
+        <token id="PS_12_ra5">the</token>
+        <token id="PS_12_ra6">fork</token>
+        <token id="PS_12_ra7">was</token>
+        <token id="PS_12_ra8">vibrating</token>
+        <token id="PS_12_ra9">.</token>
+        <token id="PS_12_ra10">Vibrations</token>
+        <token id="PS_12_ra11">make</token>
+        <token id="PS_12_ra12">sounds</token>
+        <token id="PS_12_ra13">.</token>
+      </tokens>
+      <facets>
+        <facet id="PS_12_f1" govNum="PS_12_ra3" modNum="PS_12_ra2" reltn="Theme" govText="splashed" isAssumed="true" modText="water"/>
+        <facet id="PS_12_f2" govNum="PS_12_ra8" modNum="PS_12_ra6" reltn="Theme" govText="vibrating" modText="fork"/>
+        <facet id="PS_12_f3" govNum="PS_12_ra3" modNum="PS_12_ra8" reltn="Cause_because" childProp1Facet1="PS_12_f1" govText="splashed" modText="vibrating" childProp2Facet1="PS_12_f2"/>
+        <facet id="PS_12_f4" govNum="PS_12_ra11" modNum="PS_12_ra10" reltn="Cause" govText="make" modText="Vibrations"/>
+        <facet id="PS_12_f5" govNum="PS_12_ra11" modNum="PS_12_ra12" reltn="Product" govText="make" isAssumed="true" modText="sounds"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="PS.12.101.1" answerText="Because if you bang it on the wood it starts to make a weird sound! But if you put it in water, you can see that it is moving because the water goes swash so you can see it move." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="PS_12_f1" label="Expressed"/>
+      <facetEntailment facetID="PS_12_f2" label="Inferred"/>
+      <facetEntailment facetID="PS_12_f3" label="Expressed"/>
+      <facetEntailment facetID="PS_12_f4" label="Diff-Arg"/>
+      <facetEntailment facetID="PS_12_f5" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.12.114.1" answerText="By a ping pong ball, a table, a cup full of water, and most of all hitting it too hard." accuracy="irrelevant">
+      <facetEntailment facetID="PS_12_f1" label="Assumed"/>
+      <facetEntailment facetID="PS_12_f2" label="Unaddressed"/>
+      <facetEntailment facetID="PS_12_f3" label="Unaddressed"/>
+      <facetEntailment facetID="PS_12_f4" label="Unaddressed"/>
+      <facetEntailment facetID="PS_12_f5" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.12.118.1" answerText="Because it vibrates in the water." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="PS_12_f1" label="Expressed"/>
+      <facetEntailment facetID="PS_12_f2" label="Expressed"/>
+      <facetEntailment facetID="PS_12_f3" label="Expressed"/>
+      <facetEntailment facetID="PS_12_f4" label="Unaddressed"/>
+      <facetEntailment facetID="PS_12_f5" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.12.138.1" answerText="Because it was vibrating. I do not know what it means!" accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="PS_12_f1" label="Assumed"/>
+      <facetEntailment facetID="PS_12_f2" label="Expressed"/>
+      <facetEntailment facetID="PS_12_f3" label="Inferred"/>
+      <facetEntailment facetID="PS_12_f4" label="Unaddressed"/>
+      <facetEntailment facetID="PS_12_f5" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.12.141.1" answerText="Because there are vibrations and vibration more and so it was moving in the water so it made it splash." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="PS_12_f1" label="Expressed"/>
+      <facetEntailment facetID="PS_12_f2" label="Inferred"/>
+      <facetEntailment facetID="PS_12_f3" label="Expressed"/>
+      <facetEntailment facetID="PS_12_f4" label="Unaddressed"/>
+      <facetEntailment facetID="PS_12_f5" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.12.154.1" answerText="By hitting the fork and putting it in the water." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="PS_12_f1" label="Assumed"/>
+      <facetEntailment facetID="PS_12_f2" label="Inferred"/>
+      <facetEntailment facetID="PS_12_f3" label="Unaddressed"/>
+      <facetEntailment facetID="PS_12_f4" label="Unaddressed"/>
+      <facetEntailment facetID="PS_12_f5" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.12.171.1" answerText="Because if it splashes it is vibrating so she knows now." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="PS_12_f1" label="Expressed"/>
+      <facetEntailment facetID="PS_12_f2" label="Expressed"/>
+      <facetEntailment facetID="PS_12_f3" label="Expressed"/>
+      <facetEntailment facetID="PS_12_f4" label="Unaddressed"/>
+      <facetEntailment facetID="PS_12_f5" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.12.181.1" answerText="The vibration that the tuning fork makes." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="PS_12_f1" label="Assumed"/>
+      <facetEntailment facetID="PS_12_f2" label="Expressed"/>
+      <facetEntailment facetID="PS_12_f3" label="Inferred"/>
+      <facetEntailment facetID="PS_12_f4" label="Unaddressed"/>
+      <facetEntailment facetID="PS_12_f5" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.12.189.1" answerText="Vibrations did." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="PS_12_f1" label="Assumed"/>
+      <facetEntailment facetID="PS_12_f2" label="Inferred"/>
+      <facetEntailment facetID="PS_12_f3" label="Unaddressed"/>
+      <facetEntailment facetID="PS_12_f4" label="Unaddressed"/>
+      <facetEntailment facetID="PS_12_f5" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.12.212.1" answerText="Because when you hit it vibrates and it vibrates in the water." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="PS_12_f1" label="Expressed"/>
+      <facetEntailment facetID="PS_12_f2" label="Expressed"/>
+      <facetEntailment facetID="PS_12_f3" label="Expressed"/>
+      <facetEntailment facetID="PS_12_f4" label="Unaddressed"/>
+      <facetEntailment facetID="PS_12_f5" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.12.221.1" answerText="Because it is the vibration making it splash." accuracy="correct">
+      <facetEntailment facetID="PS_12_f1" label="Expressed"/>
+      <facetEntailment facetID="PS_12_f2" label="Inferred"/>
+      <facetEntailment facetID="PS_12_f3" label="Expressed"/>
+      <facetEntailment facetID="PS_12_f4" label="Expressed"/>
+      <facetEntailment facetID="PS_12_f5" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.12.222.1" answerText="Because the vibration makes the water splash." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="PS_12_f1" label="Expressed"/>
+      <facetEntailment facetID="PS_12_f2" label="Inferred"/>
+      <facetEntailment facetID="PS_12_f3" label="Expressed"/>
+      <facetEntailment facetID="PS_12_f4" label="Unaddressed"/>
+      <facetEntailment facetID="PS_12_f5" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.12.225.1" answerText="It vibrates because you hit it against something hard." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="PS_12_f1" label="Assumed"/>
+      <facetEntailment facetID="PS_12_f2" label="Expressed"/>
+      <facetEntailment facetID="PS_12_f3" label="Inferred"/>
+      <facetEntailment facetID="PS_12_f4" label="Unaddressed"/>
+      <facetEntailment facetID="PS_12_f5" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.12.249.1" answerText="The tuning fork is metal so when you hit the tuning fork it vibrates to make sound." accuracy="correct">
+      <facetEntailment facetID="PS_12_f1" label="Assumed"/>
+      <facetEntailment facetID="PS_12_f2" label="Expressed"/>
+      <facetEntailment facetID="PS_12_f3" label="Inferred"/>
+      <facetEntailment facetID="PS_12_f4" label="Expressed"/>
+      <facetEntailment facetID="PS_12_f5" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.12.255.1" answerText="Because after Mary hit it on a table it vibrated and the vibration made the water splash!" accuracy="correct">
+      <facetEntailment facetID="PS_12_f1" label="Expressed"/>
+      <facetEntailment facetID="PS_12_f2" label="Expressed"/>
+      <facetEntailment facetID="PS_12_f3" label="Expressed"/>
+      <facetEntailment facetID="PS_12_f4" label="Expressed"/>
+      <facetEntailment facetID="PS_12_f5" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.12.263.1" answerText="Because When you put the tuning fork in the water you can see the vibrations." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="PS_12_f1" label="Expressed"/>
+      <facetEntailment facetID="PS_12_f2" label="Expressed"/>
+      <facetEntailment facetID="PS_12_f3" label="Inferred"/>
+      <facetEntailment facetID="PS_12_f4" label="Unaddressed"/>
+      <facetEntailment facetID="PS_12_f5" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.12.323.1" answerText="Because you hit it on a wood and that make it vibrate." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="PS_12_f1" label="Assumed"/>
+      <facetEntailment facetID="PS_12_f2" label="Expressed"/>
+      <facetEntailment facetID="PS_12_f3" label="Inferred"/>
+      <facetEntailment facetID="PS_12_f4" label="Unaddressed"/>
+      <facetEntailment facetID="PS_12_f5" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.12.332.1" answerText="Volume - It got louder. When it splashed it got a kind of noise - quiet noise." accuracy="irrelevant">
+      <facetEntailment facetID="PS_12_f1" label="Expressed"/>
+      <facetEntailment facetID="PS_12_f2" label="Unaddressed"/>
+      <facetEntailment facetID="PS_12_f3" label="Unaddressed"/>
+      <facetEntailment facetID="PS_12_f4" label="Unaddressed"/>
+      <facetEntailment facetID="PS_12_f5" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.12.384.1" answerText="Because when you hit the tuning fork makes waves." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="PS_12_f1" label="Expressed"/>
+      <facetEntailment facetID="PS_12_f2" label="Inferred"/>
+      <facetEntailment facetID="PS_12_f3" label="Expressed"/>
+      <facetEntailment facetID="PS_12_f4" label="Unaddressed"/>
+      <facetEntailment facetID="PS_12_f5" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.12.459.1" answerText="Seeing what happens helps understand because you can see what is happening when you do it." accuracy="irrelevant">
+      <facetEntailment facetID="PS_12_f1" label="Assumed"/>
+      <facetEntailment facetID="PS_12_f2" label="Unaddressed"/>
+      <facetEntailment facetID="PS_12_f3" label="Unaddressed"/>
+      <facetEntailment facetID="PS_12_f4" label="Unaddressed"/>
+      <facetEntailment facetID="PS_12_f5" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.12.466.1" answerText="The vibrations are like digging in the water and make a sound zzzzz!" accuracy="correct">
+      <facetEntailment facetID="PS_12_f1" label="Expressed"/>
+      <facetEntailment facetID="PS_12_f2" label="Inferred"/>
+      <facetEntailment facetID="PS_12_f3" label="Expressed"/>
+      <facetEntailment facetID="PS_12_f4" label="Expressed"/>
+      <facetEntailment facetID="PS_12_f5" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.12.486.1" answerText="The sound waves travel through the water." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="PS_12_f1" label="Assumed"/>
+      <facetEntailment facetID="PS_12_f2" label="Inferred"/>
+      <facetEntailment facetID="PS_12_f3" label="Inferred"/>
+      <facetEntailment facetID="PS_12_f4" label="Unaddressed"/>
+      <facetEntailment facetID="PS_12_f5" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.12.495.1" answerText="Because when she hit the tuning against the table and put it in a cup of water and the water splashed." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="PS_12_f1" label="Expressed"/>
+      <facetEntailment facetID="PS_12_f2" label="Inferred"/>
+      <facetEntailment facetID="PS_12_f3" label="Expressed"/>
+      <facetEntailment facetID="PS_12_f4" label="Unaddressed"/>
+      <facetEntailment facetID="PS_12_f5" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.12.504.1" answerText="Sound travel through water." accuracy="irrelevant">
+      <facetEntailment facetID="PS_12_f1" label="Assumed"/>
+      <facetEntailment facetID="PS_12_f2" label="Unaddressed"/>
+      <facetEntailment facetID="PS_12_f3" label="Unaddressed"/>
+      <facetEntailment facetID="PS_12_f4" label="Unaddressed"/>
+      <facetEntailment facetID="PS_12_f5" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.12.524.1" answerText="Because it vibrated so since that vibrated she noticed the splash and she thought it must of been vibration." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="PS_12_f1" label="Expressed"/>
+      <facetEntailment facetID="PS_12_f2" label="Expressed"/>
+      <facetEntailment facetID="PS_12_f3" label="Expressed"/>
+      <facetEntailment facetID="PS_12_f4" label="Unaddressed"/>
+      <facetEntailment facetID="PS_12_f5" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.12.531.1" answerText="Because if you put it in the water it has volume and volume helps make sound." accuracy="irrelevant">
+      <facetEntailment facetID="PS_12_f1" label="Assumed"/>
+      <facetEntailment facetID="PS_12_f2" label="Diff-Arg"/>
+      <facetEntailment facetID="PS_12_f3" label="Unaddressed"/>
+      <facetEntailment facetID="PS_12_f4" label="Diff-Arg"/>
+      <facetEntailment facetID="PS_12_f5" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.12.537.1" answerText="It helped Mary understand that the tuning fork makes sounds by vibrating because the water splashed." accuracy="correct">
+      <facetEntailment facetID="PS_12_f1" label="Expressed"/>
+      <facetEntailment facetID="PS_12_f2" label="Expressed"/>
+      <facetEntailment facetID="PS_12_f3" label="Expressed"/>
+      <facetEntailment facetID="PS_12_f4" label="Expressed"/>
+      <facetEntailment facetID="PS_12_f5" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.12.593.1" answerText="When the tuning fork is vibrating the would splash because when something is vibrating then something that is touching the tuning fork. So it would vibrate also." accuracy="correct">
+      <facetEntailment facetID="PS_12_f1" label="Expressed"/>
+      <facetEntailment facetID="PS_12_f2" label="Expressed"/>
+      <facetEntailment facetID="PS_12_f3" label="Expressed"/>
+      <facetEntailment facetID="PS_12_f4" label="Inferred"/>
+      <facetEntailment facetID="PS_12_f5" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.12.600.1" answerText="Because she can be know that the vibration travel in the water." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="PS_12_f1" label="Expressed"/>
+      <facetEntailment facetID="PS_12_f2" label="Inferred"/>
+      <facetEntailment facetID="PS_12_f3" label="Expressed"/>
+      <facetEntailment facetID="PS_12_f4" label="Unaddressed"/>
+      <facetEntailment facetID="PS_12_f5" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.12.602.1" answerText="I think it helped because when you see it you can see it vibrates." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="PS_12_f1" label="Assumed"/>
+      <facetEntailment facetID="PS_12_f2" label="Expressed"/>
+      <facetEntailment facetID="PS_12_f3" label="Unaddressed"/>
+      <facetEntailment facetID="PS_12_f4" label="Unaddressed"/>
+      <facetEntailment facetID="PS_12_f5" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.12.610.1" answerText="When the water splashed vibration caused it and that is what cause the sound too." accuracy="correct">
+      <facetEntailment facetID="PS_12_f1" label="Expressed"/>
+      <facetEntailment facetID="PS_12_f2" label="Expressed"/>
+      <facetEntailment facetID="PS_12_f3" label="Expressed"/>
+      <facetEntailment facetID="PS_12_f4" label="Expressed"/>
+      <facetEntailment facetID="PS_12_f5" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.12.626.1" answerText="That helps because of the vibrations." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="PS_12_f1" label="Assumed"/>
+      <facetEntailment facetID="PS_12_f2" label="Inferred"/>
+      <facetEntailment facetID="PS_12_f3" label="Unaddressed"/>
+      <facetEntailment facetID="PS_12_f4" label="Unaddressed"/>
+      <facetEntailment facetID="PS_12_f5" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.12.629.1" answerText="It makes a sound in the water and you know that it makes a sound because the sound vibrates the water and where there is sound there is vibration." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="PS_12_f1" label="Expressed"/>
+      <facetEntailment facetID="PS_12_f2" label="Inferred"/>
+      <facetEntailment facetID="PS_12_f3" label="Diff-Arg"/>
+      <facetEntailment facetID="PS_12_f4" label="Inferred"/>
+      <facetEntailment facetID="PS_12_f5" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.12.642.1" answerText="By putting the tuning fork in the water while still ringing." accuracy="irrelevant">
+      <facetEntailment facetID="PS_12_f1" label="Assumed"/>
+      <facetEntailment facetID="PS_12_f2" label="Diff-Arg"/>
+      <facetEntailment facetID="PS_12_f3" label="Unaddressed"/>
+      <facetEntailment facetID="PS_12_f4" label="Diff-Arg"/>
+      <facetEntailment facetID="PS_12_f5" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.12.643.1" answerText="She will what experiment." accuracy="non_domain">
+      <facetEntailment facetID="PS_12_f1" label="Assumed"/>
+      <facetEntailment facetID="PS_12_f2" label="Unaddressed"/>
+      <facetEntailment facetID="PS_12_f3" label="Unaddressed"/>
+      <facetEntailment facetID="PS_12_f4" label="Unaddressed"/>
+      <facetEntailment facetID="PS_12_f5" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.12.644.1" answerText="By looking at how it vibrates." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="PS_12_f1" label="Assumed"/>
+      <facetEntailment facetID="PS_12_f2" label="Expressed"/>
+      <facetEntailment facetID="PS_12_f3" label="Unaddressed"/>
+      <facetEntailment facetID="PS_12_f4" label="Unaddressed"/>
+      <facetEntailment facetID="PS_12_f5" label="Assumed"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

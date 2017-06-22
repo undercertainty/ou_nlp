@@ -1,0 +1,437 @@
+<?xml version="1.0"?>
+<question id="FN_27b" module="FN">
+  <questionText>Jana and Emily used indophenol to test 3 beverages for vitamin C. The number of drops they added to make a 10 milliliters sample of the blue indophenol indicator become colorless are given here: 8 drops of Overly Orange 13 drops of Luscious Lemon 33 drops of Fruitsnap (and it still didn't change color). Why didn't the indophenol change color with Fruitsnap?</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="FN_27b-a1" text="Fruitsnap contains little or no vitamin C so Fruitsnap does not change the color of the indophenol.">
+      <tokens>
+        <token id="FN_27b_ra1">Fruitsnap</token>
+        <token id="FN_27b_ra2">contains</token>
+        <token id="FN_27b_ra3">little</token>
+        <token id="FN_27b_ra4">or</token>
+        <token id="FN_27b_ra5">no</token>
+        <token id="FN_27b_ra6">vitamin</token>
+        <token id="FN_27b_ra7">C</token>
+        <token id="FN_27b_ra8">so</token>
+        <token id="FN_27b_ra9">Fruitsnap</token>
+        <token id="FN_27b_ra10">does</token>
+        <token id="FN_27b_ra11">not</token>
+        <token id="FN_27b_ra12">change</token>
+        <token id="FN_27b_ra13">the</token>
+        <token id="FN_27b_ra14">color</token>
+        <token id="FN_27b_ra15">of</token>
+        <token id="FN_27b_ra16">the</token>
+        <token id="FN_27b_ra17">indophenol</token>
+        <token id="FN_27b_ra18">.</token>
+      </tokens>
+      <facets>
+        <facet id="FN_27b_f1" govNum="FN_27b_ra2" modNum="FN_27b_ra1" reltn="Theme" govText="contains" isAssumed="true" modText="Fruitsnap"/>
+        <facet id="FN_27b_f2" govNum="FN_27b_ra2" modNum="FN_27b_ra7" reltn="Material_neg_no" govText="contains" modText="C"/>
+        <facet id="FN_27b_f3" govNum="FN_27b_ra7" modNum="FN_27b_ra6" reltn="NMod" govText="C" isAssumed="true" modText="vitamin"/>
+        <facet id="FN_27b_f4" govNum="FN_27b_ra2" modNum="FN_27b_ra7" reltn="Material" govText="contains" modText="C"/>
+        <facet id="FN_27b_f5" govNum="FN_27b_ra7" modNum="FN_27b_ra3" reltn="NMod" govText="C" modText="little"/>
+        <facet id="FN_27b_f6" govNum="FN_27b_ra12" modNum="FN_27b_ra9" reltn="Means_neg_not" govText="change" isAssumed="true" modText="Fruitsnap"/>
+        <facet id="FN_27b_f7" govNum="FN_27b_ra12" modNum="FN_27b_ra14" reltn="Patient_neg_not" govText="change" isAssumed="true" modText="color"/>
+        <facet id="FN_27b_f8" govNum="FN_27b_ra14" modNum="FN_27b_ra17" reltn="NMod_of" govText="color" isAssumed="true" modText="indophenol"/>
+        <facet id="FN_27b_f9" govNum="FN_27b_ra12" modNum="FN_27b_ra2" reltn="Cause_so" childProp2Facet2="FN_27b_f2" childProp1Facet1="FN_27b_f6" govText="change" isAssumed="true" childProp1Facet2="FN_27b_f7" modText="contains" childProp2Facet1="FN_27b_f1"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="FN.27b.101.1" answerText="The indophenol did not change color with Fruitsnap because it did not have any vitamin C in it." accuracy="correct">
+      <facetEntailment facetID="FN_27b_f1" label="Expressed"/>
+      <facetEntailment facetID="FN_27b_f2" label="Expressed"/>
+      <facetEntailment facetID="FN_27b_f3" label="Expressed"/>
+      <facetEntailment facetID="FN_27b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="FN_27b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="FN_27b_f6" label="Expressed"/>
+      <facetEntailment facetID="FN_27b_f7" label="Expressed"/>
+      <facetEntailment facetID="FN_27b_f8" label="Expressed"/>
+      <facetEntailment facetID="FN_27b_f9" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.27b.107.1" answerText="It did not change color because Fruitsnap has no vitamin C." accuracy="correct">
+      <facetEntailment facetID="FN_27b_f1" label="Expressed"/>
+      <facetEntailment facetID="FN_27b_f2" label="Expressed"/>
+      <facetEntailment facetID="FN_27b_f3" label="Expressed"/>
+      <facetEntailment facetID="FN_27b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="FN_27b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="FN_27b_f6" label="Expressed"/>
+      <facetEntailment facetID="FN_27b_f7" label="Expressed"/>
+      <facetEntailment facetID="FN_27b_f8" label="Expressed"/>
+      <facetEntailment facetID="FN_27b_f9" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.27b.113.1" answerText="The indophenol did not change color with the Fruitsnap because the Fruitsnap might not have had vitamin C." accuracy="correct">
+      <facetEntailment facetID="FN_27b_f1" label="Expressed"/>
+      <facetEntailment facetID="FN_27b_f2" label="Expressed"/>
+      <facetEntailment facetID="FN_27b_f3" label="Expressed"/>
+      <facetEntailment facetID="FN_27b_f4" label="Inferred"/>
+      <facetEntailment facetID="FN_27b_f5" label="Inferred"/>
+      <facetEntailment facetID="FN_27b_f6" label="Expressed"/>
+      <facetEntailment facetID="FN_27b_f7" label="Expressed"/>
+      <facetEntailment facetID="FN_27b_f8" label="Expressed"/>
+      <facetEntailment facetID="FN_27b_f9" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.27b.118.1" answerText="Because it does not contain vitamin C in Fruitsnap. It contains only sugar." accuracy="correct">
+      <facetEntailment facetID="FN_27b_f1" label="Expressed"/>
+      <facetEntailment facetID="FN_27b_f2" label="Expressed"/>
+      <facetEntailment facetID="FN_27b_f3" label="Expressed"/>
+      <facetEntailment facetID="FN_27b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="FN_27b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="FN_27b_f6" label="Assumed"/>
+      <facetEntailment facetID="FN_27b_f7" label="Assumed"/>
+      <facetEntailment facetID="FN_27b_f8" label="Assumed"/>
+      <facetEntailment facetID="FN_27b_f9" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.27b.146.1" answerText="It was probably concentrated or it could have little or no vitamin C." accuracy="correct">
+      <facetEntailment facetID="FN_27b_f1" label="Expressed"/>
+      <facetEntailment facetID="FN_27b_f2" label="Expressed"/>
+      <facetEntailment facetID="FN_27b_f3" label="Expressed"/>
+      <facetEntailment facetID="FN_27b_f4" label="Expressed"/>
+      <facetEntailment facetID="FN_27b_f5" label="Expressed"/>
+      <facetEntailment facetID="FN_27b_f6" label="Assumed"/>
+      <facetEntailment facetID="FN_27b_f7" label="Assumed"/>
+      <facetEntailment facetID="FN_27b_f8" label="Assumed"/>
+      <facetEntailment facetID="FN_27b_f9" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.27b.150.1" answerText="Probably because they did something wrong and it did not work." accuracy="irrelevant">
+      <facetEntailment facetID="FN_27b_f1" label="Assumed"/>
+      <facetEntailment facetID="FN_27b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="FN_27b_f3" label="Assumed"/>
+      <facetEntailment facetID="FN_27b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="FN_27b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="FN_27b_f6" label="Assumed"/>
+      <facetEntailment facetID="FN_27b_f7" label="Assumed"/>
+      <facetEntailment facetID="FN_27b_f8" label="Assumed"/>
+      <facetEntailment facetID="FN_27b_f9" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.27b.171.1" answerText="Because it does not have a lot of vitamin C." accuracy="correct">
+      <facetEntailment facetID="FN_27b_f1" label="Expressed"/>
+      <facetEntailment facetID="FN_27b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="FN_27b_f3" label="Expressed"/>
+      <facetEntailment facetID="FN_27b_f4" label="Expressed"/>
+      <facetEntailment facetID="FN_27b_f5" label="Expressed"/>
+      <facetEntailment facetID="FN_27b_f6" label="Assumed"/>
+      <facetEntailment facetID="FN_27b_f7" label="Assumed"/>
+      <facetEntailment facetID="FN_27b_f8" label="Assumed"/>
+      <facetEntailment facetID="FN_27b_f9" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.27b.180.1" answerText="Because it is too bright." accuracy="irrelevant">
+      <facetEntailment facetID="FN_27b_f1" label="Assumed"/>
+      <facetEntailment facetID="FN_27b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="FN_27b_f3" label="Assumed"/>
+      <facetEntailment facetID="FN_27b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="FN_27b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="FN_27b_f6" label="Assumed"/>
+      <facetEntailment facetID="FN_27b_f7" label="Assumed"/>
+      <facetEntailment facetID="FN_27b_f8" label="Assumed"/>
+      <facetEntailment facetID="FN_27b_f9" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.27b.185.1" answerText="Fruitsnap did not change color because it must not have vitamin." accuracy="correct">
+      <facetEntailment facetID="FN_27b_f1" label="Expressed"/>
+      <facetEntailment facetID="FN_27b_f2" label="Inferred"/>
+      <facetEntailment facetID="FN_27b_f3" label="Assumed"/>
+      <facetEntailment facetID="FN_27b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="FN_27b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="FN_27b_f6" label="Expressed"/>
+      <facetEntailment facetID="FN_27b_f7" label="Expressed"/>
+      <facetEntailment facetID="FN_27b_f8" label="Assumed"/>
+      <facetEntailment facetID="FN_27b_f9" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.27b.208.1" answerText="Because it did not have any vitamin C." accuracy="correct">
+      <facetEntailment facetID="FN_27b_f1" label="Expressed"/>
+      <facetEntailment facetID="FN_27b_f2" label="Expressed"/>
+      <facetEntailment facetID="FN_27b_f3" label="Expressed"/>
+      <facetEntailment facetID="FN_27b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="FN_27b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="FN_27b_f6" label="Assumed"/>
+      <facetEntailment facetID="FN_27b_f7" label="Assumed"/>
+      <facetEntailment facetID="FN_27b_f8" label="Assumed"/>
+      <facetEntailment facetID="FN_27b_f9" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.27b.228.1" answerText="There was either very little or no vitamin C at all in Fruitsnap." accuracy="correct">
+      <facetEntailment facetID="FN_27b_f1" label="Expressed"/>
+      <facetEntailment facetID="FN_27b_f2" label="Expressed"/>
+      <facetEntailment facetID="FN_27b_f3" label="Expressed"/>
+      <facetEntailment facetID="FN_27b_f4" label="Expressed"/>
+      <facetEntailment facetID="FN_27b_f5" label="Expressed"/>
+      <facetEntailment facetID="FN_27b_f6" label="Assumed"/>
+      <facetEntailment facetID="FN_27b_f7" label="Assumed"/>
+      <facetEntailment facetID="FN_27b_f8" label="Assumed"/>
+      <facetEntailment facetID="FN_27b_f9" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.27b.230.1" answerText="It did not change because the Fruitsnap did not have any vitamin C." accuracy="correct">
+      <facetEntailment facetID="FN_27b_f1" label="Expressed"/>
+      <facetEntailment facetID="FN_27b_f2" label="Expressed"/>
+      <facetEntailment facetID="FN_27b_f3" label="Expressed"/>
+      <facetEntailment facetID="FN_27b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="FN_27b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="FN_27b_f6" label="Expressed"/>
+      <facetEntailment facetID="FN_27b_f7" label="Assumed"/>
+      <facetEntailment facetID="FN_27b_f8" label="Assumed"/>
+      <facetEntailment facetID="FN_27b_f9" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.27b.232.1" answerText="The indophenol did not change color with Fruitsnap because it did not have vitamin C in it." accuracy="correct">
+      <facetEntailment facetID="FN_27b_f1" label="Expressed"/>
+      <facetEntailment facetID="FN_27b_f2" label="Expressed"/>
+      <facetEntailment facetID="FN_27b_f3" label="Expressed"/>
+      <facetEntailment facetID="FN_27b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="FN_27b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="FN_27b_f6" label="Expressed"/>
+      <facetEntailment facetID="FN_27b_f7" label="Expressed"/>
+      <facetEntailment facetID="FN_27b_f8" label="Expressed"/>
+      <facetEntailment facetID="FN_27b_f9" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.27b.233.1" answerText="The fruit snap did not have vitamin C." accuracy="correct">
+      <facetEntailment facetID="FN_27b_f1" label="Expressed"/>
+      <facetEntailment facetID="FN_27b_f2" label="Expressed"/>
+      <facetEntailment facetID="FN_27b_f3" label="Expressed"/>
+      <facetEntailment facetID="FN_27b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="FN_27b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="FN_27b_f6" label="Assumed"/>
+      <facetEntailment facetID="FN_27b_f7" label="Assumed"/>
+      <facetEntailment facetID="FN_27b_f8" label="Assumed"/>
+      <facetEntailment facetID="FN_27b_f9" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.27b.249.1" answerText="The indophenol did not change colors because Fruitsnap does not have a high concentration of acid." accuracy="irrelevant">
+      <facetEntailment facetID="FN_27b_f1" label="Expressed"/>
+      <facetEntailment facetID="FN_27b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="FN_27b_f3" label="Assumed"/>
+      <facetEntailment facetID="FN_27b_f4" label="Diff-Arg"/>
+      <facetEntailment facetID="FN_27b_f5" label="Diff-Arg"/>
+      <facetEntailment facetID="FN_27b_f6" label="Expressed"/>
+      <facetEntailment facetID="FN_27b_f7" label="Expressed"/>
+      <facetEntailment facetID="FN_27b_f8" label="Expressed"/>
+      <facetEntailment facetID="FN_27b_f9" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.27b.250.1" answerText="The indophenol did not change color with Fruitsnap because there was none or very little vitamin C." accuracy="correct">
+      <facetEntailment facetID="FN_27b_f1" label="Expressed"/>
+      <facetEntailment facetID="FN_27b_f2" label="Expressed"/>
+      <facetEntailment facetID="FN_27b_f3" label="Expressed"/>
+      <facetEntailment facetID="FN_27b_f4" label="Expressed"/>
+      <facetEntailment facetID="FN_27b_f5" label="Expressed"/>
+      <facetEntailment facetID="FN_27b_f6" label="Expressed"/>
+      <facetEntailment facetID="FN_27b_f7" label="Expressed"/>
+      <facetEntailment facetID="FN_27b_f8" label="Expressed"/>
+      <facetEntailment facetID="FN_27b_f9" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.27b.255.1" answerText="Because it had no vitamin C." accuracy="correct">
+      <facetEntailment facetID="FN_27b_f1" label="Expressed"/>
+      <facetEntailment facetID="FN_27b_f2" label="Expressed"/>
+      <facetEntailment facetID="FN_27b_f3" label="Expressed"/>
+      <facetEntailment facetID="FN_27b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="FN_27b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="FN_27b_f6" label="Assumed"/>
+      <facetEntailment facetID="FN_27b_f7" label="Assumed"/>
+      <facetEntailment facetID="FN_27b_f8" label="Assumed"/>
+      <facetEntailment facetID="FN_27b_f9" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.27b.256.1" answerText="Because Fruitsnap does not have any vitamin C." accuracy="correct">
+      <facetEntailment facetID="FN_27b_f1" label="Expressed"/>
+      <facetEntailment facetID="FN_27b_f2" label="Expressed"/>
+      <facetEntailment facetID="FN_27b_f3" label="Expressed"/>
+      <facetEntailment facetID="FN_27b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="FN_27b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="FN_27b_f6" label="Assumed"/>
+      <facetEntailment facetID="FN_27b_f7" label="Assumed"/>
+      <facetEntailment facetID="FN_27b_f8" label="Assumed"/>
+      <facetEntailment facetID="FN_27b_f9" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.27b.265.1" answerText="It did not because it had no vitamin C or a little bit of vitamin C." accuracy="correct">
+      <facetEntailment facetID="FN_27b_f1" label="Expressed"/>
+      <facetEntailment facetID="FN_27b_f2" label="Expressed"/>
+      <facetEntailment facetID="FN_27b_f3" label="Expressed"/>
+      <facetEntailment facetID="FN_27b_f4" label="Expressed"/>
+      <facetEntailment facetID="FN_27b_f5" label="Expressed"/>
+      <facetEntailment facetID="FN_27b_f6" label="Assumed"/>
+      <facetEntailment facetID="FN_27b_f7" label="Assumed"/>
+      <facetEntailment facetID="FN_27b_f8" label="Assumed"/>
+      <facetEntailment facetID="FN_27b_f9" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.27b.286.1" answerText="It did not work because it has no vitamin C." accuracy="correct">
+      <facetEntailment facetID="FN_27b_f1" label="Expressed"/>
+      <facetEntailment facetID="FN_27b_f2" label="Expressed"/>
+      <facetEntailment facetID="FN_27b_f3" label="Expressed"/>
+      <facetEntailment facetID="FN_27b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="FN_27b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="FN_27b_f6" label="Assumed"/>
+      <facetEntailment facetID="FN_27b_f7" label="Assumed"/>
+      <facetEntailment facetID="FN_27b_f8" label="Assumed"/>
+      <facetEntailment facetID="FN_27b_f9" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.27b.293.1" answerText="Because it probably had more sugar than vitamin C." accuracy="correct">
+      <facetEntailment facetID="FN_27b_f1" label="Expressed"/>
+      <facetEntailment facetID="FN_27b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="FN_27b_f3" label="Expressed"/>
+      <facetEntailment facetID="FN_27b_f4" label="Inferred"/>
+      <facetEntailment facetID="FN_27b_f5" label="Inferred"/>
+      <facetEntailment facetID="FN_27b_f6" label="Assumed"/>
+      <facetEntailment facetID="FN_27b_f7" label="Assumed"/>
+      <facetEntailment facetID="FN_27b_f8" label="Assumed"/>
+      <facetEntailment facetID="FN_27b_f9" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.27b.311.1" answerText="Because it does not have vitamin C in it." accuracy="correct">
+      <facetEntailment facetID="FN_27b_f1" label="Expressed"/>
+      <facetEntailment facetID="FN_27b_f2" label="Expressed"/>
+      <facetEntailment facetID="FN_27b_f3" label="Expressed"/>
+      <facetEntailment facetID="FN_27b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="FN_27b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="FN_27b_f6" label="Assumed"/>
+      <facetEntailment facetID="FN_27b_f7" label="Assumed"/>
+      <facetEntailment facetID="FN_27b_f8" label="Assumed"/>
+      <facetEntailment facetID="FN_27b_f9" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.27b.314.1" answerText="Because there was no acid in it." accuracy="irrelevant">
+      <facetEntailment facetID="FN_27b_f1" label="Expressed"/>
+      <facetEntailment facetID="FN_27b_f2" label="Diff-Arg"/>
+      <facetEntailment facetID="FN_27b_f3" label="Expressed"/>
+      <facetEntailment facetID="FN_27b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="FN_27b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="FN_27b_f6" label="Assumed"/>
+      <facetEntailment facetID="FN_27b_f7" label="Assumed"/>
+      <facetEntailment facetID="FN_27b_f8" label="Assumed"/>
+      <facetEntailment facetID="FN_27b_f9" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.27b.317.1" answerText="Because it does not have as much vitamin C as Overly Orange or Luscious Lemon." accuracy="correct">
+      <facetEntailment facetID="FN_27b_f1" label="Expressed"/>
+      <facetEntailment facetID="FN_27b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="FN_27b_f3" label="Expressed"/>
+      <facetEntailment facetID="FN_27b_f4" label="Expressed"/>
+      <facetEntailment facetID="FN_27b_f5" label="Inferred"/>
+      <facetEntailment facetID="FN_27b_f6" label="Assumed"/>
+      <facetEntailment facetID="FN_27b_f7" label="Assumed"/>
+      <facetEntailment facetID="FN_27b_f8" label="Assumed"/>
+      <facetEntailment facetID="FN_27b_f9" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.27b.321.1" answerText="Probably because the Fruitsnap does not have very much concentrate." accuracy="irrelevant">
+      <facetEntailment facetID="FN_27b_f1" label="Expressed"/>
+      <facetEntailment facetID="FN_27b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="FN_27b_f3" label="Assumed"/>
+      <facetEntailment facetID="FN_27b_f4" label="Diff-Arg"/>
+      <facetEntailment facetID="FN_27b_f5" label="Diff-Arg"/>
+      <facetEntailment facetID="FN_27b_f6" label="Assumed"/>
+      <facetEntailment facetID="FN_27b_f7" label="Assumed"/>
+      <facetEntailment facetID="FN_27b_f8" label="Assumed"/>
+      <facetEntailment facetID="FN_27b_f9" label="Diff-Arg"/>
+    </studentAnswer>
+    <studentAnswer id="FN.27b.325.1" answerText="Because Fruitsnap did not have a lot of vitamin C in it." accuracy="correct">
+      <facetEntailment facetID="FN_27b_f1" label="Expressed"/>
+      <facetEntailment facetID="FN_27b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="FN_27b_f3" label="Expressed"/>
+      <facetEntailment facetID="FN_27b_f4" label="Expressed"/>
+      <facetEntailment facetID="FN_27b_f5" label="Expressed"/>
+      <facetEntailment facetID="FN_27b_f6" label="Assumed"/>
+      <facetEntailment facetID="FN_27b_f7" label="Assumed"/>
+      <facetEntailment facetID="FN_27b_f8" label="Assumed"/>
+      <facetEntailment facetID="FN_27b_f9" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.27b.327.1" answerText="It did not change color to white or clear because it does not have vitamin C." accuracy="correct">
+      <facetEntailment facetID="FN_27b_f1" label="Expressed"/>
+      <facetEntailment facetID="FN_27b_f2" label="Expressed"/>
+      <facetEntailment facetID="FN_27b_f3" label="Expressed"/>
+      <facetEntailment facetID="FN_27b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="FN_27b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="FN_27b_f6" label="Expressed"/>
+      <facetEntailment facetID="FN_27b_f7" label="Expressed"/>
+      <facetEntailment facetID="FN_27b_f8" label="Assumed"/>
+      <facetEntailment facetID="FN_27b_f9" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.27b.335.1" answerText="It was not fruit concentrate." accuracy="irrelevant">
+      <facetEntailment facetID="FN_27b_f1" label="Assumed"/>
+      <facetEntailment facetID="FN_27b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="FN_27b_f3" label="Assumed"/>
+      <facetEntailment facetID="FN_27b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="FN_27b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="FN_27b_f6" label="Assumed"/>
+      <facetEntailment facetID="FN_27b_f7" label="Assumed"/>
+      <facetEntailment facetID="FN_27b_f8" label="Assumed"/>
+      <facetEntailment facetID="FN_27b_f9" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.27b.349.1" answerText="It did not have any vitamin C." accuracy="correct">
+      <facetEntailment facetID="FN_27b_f1" label="Expressed"/>
+      <facetEntailment facetID="FN_27b_f2" label="Expressed"/>
+      <facetEntailment facetID="FN_27b_f3" label="Expressed"/>
+      <facetEntailment facetID="FN_27b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="FN_27b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="FN_27b_f6" label="Assumed"/>
+      <facetEntailment facetID="FN_27b_f7" label="Assumed"/>
+      <facetEntailment facetID="FN_27b_f8" label="Assumed"/>
+      <facetEntailment facetID="FN_27b_f9" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.27b.355.1" answerText="It did not change color because it has little or no vitamin C." accuracy="correct">
+      <facetEntailment facetID="FN_27b_f1" label="Expressed"/>
+      <facetEntailment facetID="FN_27b_f2" label="Expressed"/>
+      <facetEntailment facetID="FN_27b_f3" label="Expressed"/>
+      <facetEntailment facetID="FN_27b_f4" label="Expressed"/>
+      <facetEntailment facetID="FN_27b_f5" label="Expressed"/>
+      <facetEntailment facetID="FN_27b_f6" label="Expressed"/>
+      <facetEntailment facetID="FN_27b_f7" label="Expressed"/>
+      <facetEntailment facetID="FN_27b_f8" label="Assumed"/>
+      <facetEntailment facetID="FN_27b_f9" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.27b.358.1" answerText="Because Fruitsnap had little or no vitamin C." accuracy="correct">
+      <facetEntailment facetID="FN_27b_f1" label="Expressed"/>
+      <facetEntailment facetID="FN_27b_f2" label="Expressed"/>
+      <facetEntailment facetID="FN_27b_f3" label="Expressed"/>
+      <facetEntailment facetID="FN_27b_f4" label="Expressed"/>
+      <facetEntailment facetID="FN_27b_f5" label="Expressed"/>
+      <facetEntailment facetID="FN_27b_f6" label="Assumed"/>
+      <facetEntailment facetID="FN_27b_f7" label="Assumed"/>
+      <facetEntailment facetID="FN_27b_f8" label="Assumed"/>
+      <facetEntailment facetID="FN_27b_f9" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.27b.362.1" answerText="Probably because they stopped putting indophenol in." accuracy="irrelevant">
+      <facetEntailment facetID="FN_27b_f1" label="Assumed"/>
+      <facetEntailment facetID="FN_27b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="FN_27b_f3" label="Assumed"/>
+      <facetEntailment facetID="FN_27b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="FN_27b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="FN_27b_f6" label="Assumed"/>
+      <facetEntailment facetID="FN_27b_f7" label="Assumed"/>
+      <facetEntailment facetID="FN_27b_f8" label="Assumed"/>
+      <facetEntailment facetID="FN_27b_f9" label="Diff-Arg"/>
+    </studentAnswer>
+    <studentAnswer id="FN.27b.366.1" answerText="There is no vitamin C in the drink." accuracy="correct">
+      <facetEntailment facetID="FN_27b_f1" label="Expressed"/>
+      <facetEntailment facetID="FN_27b_f2" label="Expressed"/>
+      <facetEntailment facetID="FN_27b_f3" label="Expressed"/>
+      <facetEntailment facetID="FN_27b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="FN_27b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="FN_27b_f6" label="Assumed"/>
+      <facetEntailment facetID="FN_27b_f7" label="Assumed"/>
+      <facetEntailment facetID="FN_27b_f8" label="Assumed"/>
+      <facetEntailment facetID="FN_27b_f9" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.27b.368.1" answerText="Fruitsnap probably contains no vitamin C." accuracy="correct">
+      <facetEntailment facetID="FN_27b_f1" label="Expressed"/>
+      <facetEntailment facetID="FN_27b_f2" label="Expressed"/>
+      <facetEntailment facetID="FN_27b_f3" label="Expressed"/>
+      <facetEntailment facetID="FN_27b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="FN_27b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="FN_27b_f6" label="Assumed"/>
+      <facetEntailment facetID="FN_27b_f7" label="Assumed"/>
+      <facetEntailment facetID="FN_27b_f8" label="Assumed"/>
+      <facetEntailment facetID="FN_27b_f9" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.27b.371.1" answerText="It did not change because it had not much vitamin C, so it would take a lot of drops." accuracy="correct">
+      <facetEntailment facetID="FN_27b_f1" label="Expressed"/>
+      <facetEntailment facetID="FN_27b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="FN_27b_f3" label="Expressed"/>
+      <facetEntailment facetID="FN_27b_f4" label="Expressed"/>
+      <facetEntailment facetID="FN_27b_f5" label="Expressed"/>
+      <facetEntailment facetID="FN_27b_f6" label="Assumed"/>
+      <facetEntailment facetID="FN_27b_f7" label="Assumed"/>
+      <facetEntailment facetID="FN_27b_f8" label="Assumed"/>
+      <facetEntailment facetID="FN_27b_f9" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.27b.372.1" answerText="It did not have any vitamin C." accuracy="correct">
+      <facetEntailment facetID="FN_27b_f1" label="Expressed"/>
+      <facetEntailment facetID="FN_27b_f2" label="Expressed"/>
+      <facetEntailment facetID="FN_27b_f3" label="Expressed"/>
+      <facetEntailment facetID="FN_27b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="FN_27b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="FN_27b_f6" label="Assumed"/>
+      <facetEntailment facetID="FN_27b_f7" label="Assumed"/>
+      <facetEntailment facetID="FN_27b_f8" label="Assumed"/>
+      <facetEntailment facetID="FN_27b_f9" label="Assumed"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

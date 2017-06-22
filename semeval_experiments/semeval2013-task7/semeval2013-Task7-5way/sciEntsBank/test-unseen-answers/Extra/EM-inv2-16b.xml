@@ -1,0 +1,117 @@
+<?xml version="1.0"?>
+<question testSet="unseen-answers" id="EM_16b" module="EM">
+  <questionText>Ms. Teridann, a geologist, made a chart showing the scratch-test data for 3 minerals (Mineral X, Mineral Y, and Mineral Z). She wrote "yes" if the tool scratched the mineral and wrote "no" if it did not scratch it. Topaz is a mineral that cannot be scratched by a fingernail, a penny, or a paperclip. How hard is topaz compared to minerals X, Y, and Z? Explain how you know.</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="EM_16b-a1" text="Topaz would be the hardest of the 4 minerals because none of the tools could scratch topaz and at least one tool could scratch each of the other minerals.">
+      <tokens>
+        <token id="EM_16b_ra1">Topaz</token>
+        <token id="EM_16b_ra2">would</token>
+        <token id="EM_16b_ra3">be</token>
+        <token id="EM_16b_ra4">the</token>
+        <token id="EM_16b_ra5">hardest</token>
+        <token id="EM_16b_ra6">of</token>
+        <token id="EM_16b_ra7">the</token>
+        <token id="EM_16b_ra8">4</token>
+        <token id="EM_16b_ra9">minerals</token>
+        <token id="EM_16b_ra10">because</token>
+        <token id="EM_16b_ra11">none</token>
+        <token id="EM_16b_ra12">of</token>
+        <token id="EM_16b_ra13">the</token>
+        <token id="EM_16b_ra14">tools</token>
+        <token id="EM_16b_ra15">could</token>
+        <token id="EM_16b_ra16">scratch</token>
+        <token id="EM_16b_ra17">topaz</token>
+        <token id="EM_16b_ra18">and</token>
+        <token id="EM_16b_ra19">at</token>
+        <token id="EM_16b_ra20">least</token>
+        <token id="EM_16b_ra21">one</token>
+        <token id="EM_16b_ra22">tool</token>
+        <token id="EM_16b_ra23">could</token>
+        <token id="EM_16b_ra24">scratch</token>
+        <token id="EM_16b_ra25">each</token>
+        <token id="EM_16b_ra26">of</token>
+        <token id="EM_16b_ra27">the</token>
+        <token id="EM_16b_ra28">other</token>
+        <token id="EM_16b_ra29">minerals</token>
+        <token id="EM_16b_ra30">.</token>
+      </tokens>
+      <facets>
+        <facet id="EM_16b_f1" govNum="EM_16b_ra1" modNum="EM_16b_ra5" reltn="Be" govText="Topaz" modText="hardest"/>
+        <facet id="EM_16b_f2" govNum="EM_16b_ra5" modNum="EM_16b_ra9" reltn="AMod_of" govText="hardest" modText="minerals"/>
+        <facet id="EM_16b_f3" govNum="EM_16b_ra9" modNum="EM_16b_ra8" reltn="NMod" govText="minerals" isAssumed="true" modText="4"/>
+        <facet id="EM_16b_f4" govNum="EM_16b_ra16" modNum="EM_16b_ra14" reltn="Instrument_neg_none" govText="scratch" isAssumed="true" modText="tools"/>
+        <facet id="EM_16b_f5" govNum="EM_16b_ra16" modNum="EM_16b_ra17" reltn="Patient" govText="scratch" isAssumed="true" modText="topaz"/>
+        <facet id="EM_16b_f6" govNum="EM_16b_ra22" modNum="EM_16b_ra21" reltn="Quantifier" govText="tool" modText="one"/>
+        <facet id="EM_16b_f7" govNum="EM_16b_ra21" modNum="EM_16b_ra20" reltn="AMod_at" govText="one" modText="least"/>
+        <facet id="EM_16b_f8" govNum="EM_16b_ra24" modNum="EM_16b_ra22" reltn="Instrument" govText="scratch" modText="tool"/>
+        <facet id="EM_16b_f9" govNum="EM_16b_ra24" modNum="EM_16b_ra29" reltn="Patient" govText="scratch" modText="minerals"/>
+        <facet id="EM_16b_f10" govNum="EM_16b_ra29" modNum="EM_16b_ra28" reltn="NMod" govText="minerals" modText="other"/>
+        <facet id="EM_16b_f11" govNum="EM_16b_ra28" modNum="EM_16b_ra25" reltn="Quantifier_of" govText="other" modText="each"/>
+        <facet id="EM_16b_f12" govNum="EM_16b_ra3" modNum="EM_16b_ra16" reltn="Cause-know_because" childProp2Facet2="EM_16b_f5" childProp1Facet1="EM_16b_f1" govText="be" isAssumed="true" modText="scratch" childProp2Facet1="EM_16b_f4"/>
+        <facet id="EM_16b_f13" govNum="EM_16b_ra3" modNum="EM_16b_ra24" reltn="Cause-know_because" childProp2Facet2="EM_16b_f9" childProp1Facet1="EM_16b_f1" govText="be" modText="scratch" childProp2Facet1="EM_16b_f8"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="EM.16b.439.1" answerText="Topaz is most like mineral Z because Topaz cannot be scratched by anything and mineral Z can only be scratched by one thing." accuracy="correct">
+      <facetEntailment facetID="EM_16b_f1" label="Diff-Arg"/>
+      <facetEntailment facetID="EM_16b_f2" label="Diff-Arg"/>
+      <facetEntailment facetID="EM_16b_f3" label="Assumed"/>
+      <facetEntailment facetID="EM_16b_f4" label="Expressed"/>
+      <facetEntailment facetID="EM_16b_f5" label="Expressed"/>
+      <facetEntailment facetID="EM_16b_f6" label="Expressed"/>
+      <facetEntailment facetID="EM_16b_f7" label="Inferred"/>
+      <facetEntailment facetID="EM_16b_f8" label="Expressed"/>
+      <facetEntailment facetID="EM_16b_f9" label="Expressed"/>
+      <facetEntailment facetID="EM_16b_f10" label="Inferred"/>
+      <facetEntailment facetID="EM_16b_f11" label="Inferred"/>
+      <facetEntailment facetID="EM_16b_f12" label="Expressed"/>
+      <facetEntailment facetID="EM_16b_f13" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.16b.456.1" answerText="Topaz is harder than X, Y, and Z. Because it could not get scratched by the tools." accuracy="correct">
+      <facetEntailment facetID="EM_16b_f1" label="Expressed"/>
+      <facetEntailment facetID="EM_16b_f2" label="Inferred"/>
+      <facetEntailment facetID="EM_16b_f3" label="Assumed"/>
+      <facetEntailment facetID="EM_16b_f4" label="Expressed"/>
+      <facetEntailment facetID="EM_16b_f5" label="Expressed"/>
+      <facetEntailment facetID="EM_16b_f6" label="Inferred"/>
+      <facetEntailment facetID="EM_16b_f7" label="Inferred"/>
+      <facetEntailment facetID="EM_16b_f8" label="Inferred"/>
+      <facetEntailment facetID="EM_16b_f9" label="Inferred"/>
+      <facetEntailment facetID="EM_16b_f10" label="Inferred"/>
+      <facetEntailment facetID="EM_16b_f11" label="Inferred"/>
+      <facetEntailment facetID="EM_16b_f12" label="Expressed"/>
+      <facetEntailment facetID="EM_16b_f13" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="EM.16b.593.1" answerText="Topaz is harder than X, Y, Z." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EM_16b_f1" label="Expressed"/>
+      <facetEntailment facetID="EM_16b_f2" label="Inferred"/>
+      <facetEntailment facetID="EM_16b_f3" label="Assumed"/>
+      <facetEntailment facetID="EM_16b_f4" label="Assumed"/>
+      <facetEntailment facetID="EM_16b_f5" label="Assumed"/>
+      <facetEntailment facetID="EM_16b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="EM_16b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="EM_16b_f8" label="Unaddressed"/>
+      <facetEntailment facetID="EM_16b_f9" label="Unaddressed"/>
+      <facetEntailment facetID="EM_16b_f10" label="Unaddressed"/>
+      <facetEntailment facetID="EM_16b_f11" label="Unaddressed"/>
+      <facetEntailment facetID="EM_16b_f12" label="Assumed"/>
+      <facetEntailment facetID="EM_16b_f13" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.16b.645.1" answerText="Topaz would be the hardest because none of the tools could scratch X, Y, Z." accuracy="contradictory">
+      <facetEntailment facetID="EM_16b_f1" label="Expressed"/>
+      <facetEntailment facetID="EM_16b_f2" label="Inferred"/>
+      <facetEntailment facetID="EM_16b_f3" label="Assumed"/>
+      <facetEntailment facetID="EM_16b_f4" label="Contra-Expr"/>
+      <facetEntailment facetID="EM_16b_f5" label="Contra-Expr"/>
+      <facetEntailment facetID="EM_16b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="EM_16b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="EM_16b_f8" label="Contra-Expr"/>
+      <facetEntailment facetID="EM_16b_f9" label="Contra-Expr"/>
+      <facetEntailment facetID="EM_16b_f10" label="Expressed"/>
+      <facetEntailment facetID="EM_16b_f11" label="Expressed"/>
+      <facetEntailment facetID="EM_16b_f12" label="Assumed"/>
+      <facetEntailment facetID="EM_16b_f13" label="Unaddressed"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

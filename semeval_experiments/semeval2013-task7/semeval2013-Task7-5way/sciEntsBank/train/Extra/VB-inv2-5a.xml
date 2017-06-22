@@ -1,0 +1,283 @@
+<?xml version="1.0"?>
+<question id="VB_5a" module="VB">
+  <questionText>Explain in one sentence what each graph tells you. Graph A) number of tree rings versus time.</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="VB_5a-a1" text="As time increases, the number of tree rings also increases.">
+      <tokens>
+        <token id="VB_5a_ra1">As</token>
+        <token id="VB_5a_ra2">time</token>
+        <token id="VB_5a_ra3">increases</token>
+        <token id="VB_5a_ra4">,</token>
+        <token id="VB_5a_ra5">the</token>
+        <token id="VB_5a_ra6">number</token>
+        <token id="VB_5a_ra7">of</token>
+        <token id="VB_5a_ra8">tree</token>
+        <token id="VB_5a_ra9">rings</token>
+        <token id="VB_5a_ra10">also</token>
+        <token id="VB_5a_ra11">increases</token>
+        <token id="VB_5a_ra12">.</token>
+      </tokens>
+      <facets>
+        <facet id="VB_5a_f1" govNum="VB_5a_ra3" modNum="VB_5a_ra2" reltn="Patient" govText="increases" modText="time"/>
+        <facet id="VB_5a_f2" govNum="VB_5a_ra6" modNum="VB_5a_ra9" reltn="NMod_of" govText="number" isAssumed="true" modText="rings"/>
+        <facet id="VB_5a_f3" govNum="VB_5a_ra9" modNum="VB_5a_ra8" reltn="NMod" govText="rings" isAssumed="true" modText="tree"/>
+        <facet id="VB_5a_f4" govNum="VB_5a_ra11" modNum="VB_5a_ra6" reltn="Attribute" govText="increases" modText="number"/>
+        <facet id="VB_5a_f5" govNum="VB_5a_ra11" modNum="VB_5a_ra3" reltn="Cause_as" childProp1Facet1="VB_5a_f4" govText="increases" childProp1Facet2="VB_5a_f2" modText="increases" childProp2Facet1="VB_5a_f1"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="VB.5a.384.1" answerText="This graph tells me this tree has a lot of rings." accuracy="irrelevant">
+      <facetEntailment facetID="VB_5a_f1" label="Unaddressed"/>
+      <facetEntailment facetID="VB_5a_f2" label="Assumed"/>
+      <facetEntailment facetID="VB_5a_f3" label="Expressed"/>
+      <facetEntailment facetID="VB_5a_f4" label="Unaddressed"/>
+      <facetEntailment facetID="VB_5a_f5" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="VB.5a.388.1" answerText="How long it took to get a number of rings." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="VB_5a_f1" label="Inferred"/>
+      <facetEntailment facetID="VB_5a_f2" label="Expressed"/>
+      <facetEntailment facetID="VB_5a_f3" label="Assumed"/>
+      <facetEntailment facetID="VB_5a_f4" label="Unaddressed"/>
+      <facetEntailment facetID="VB_5a_f5" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="VB.5a.394.1" answerText="The graph tells you over time how many rings are in the tree." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="VB_5a_f1" label="Unaddressed"/>
+      <facetEntailment facetID="VB_5a_f2" label="Expressed"/>
+      <facetEntailment facetID="VB_5a_f3" label="Expressed"/>
+      <facetEntailment facetID="VB_5a_f4" label="Unaddressed"/>
+      <facetEntailment facetID="VB_5a_f5" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="VB.5a.397.1" answerText="The graph tells me that the number of rings is really high." accuracy="irrelevant">
+      <facetEntailment facetID="VB_5a_f1" label="Unaddressed"/>
+      <facetEntailment facetID="VB_5a_f2" label="Expressed"/>
+      <facetEntailment facetID="VB_5a_f3" label="Assumed"/>
+      <facetEntailment facetID="VB_5a_f4" label="Unaddressed"/>
+      <facetEntailment facetID="VB_5a_f5" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="VB.5a.399.1" answerText="It tells me the number of rings grows. So does the time." accuracy="correct">
+      <facetEntailment facetID="VB_5a_f1" label="Expressed"/>
+      <facetEntailment facetID="VB_5a_f2" label="Expressed"/>
+      <facetEntailment facetID="VB_5a_f3" label="Assumed"/>
+      <facetEntailment facetID="VB_5a_f4" label="Expressed"/>
+      <facetEntailment facetID="VB_5a_f5" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="VB.5a.401.1" answerText="How old the tree is." accuracy="irrelevant">
+      <facetEntailment facetID="VB_5a_f1" label="Unaddressed"/>
+      <facetEntailment facetID="VB_5a_f2" label="Assumed"/>
+      <facetEntailment facetID="VB_5a_f3" label="Assumed"/>
+      <facetEntailment facetID="VB_5a_f4" label="Unaddressed"/>
+      <facetEntailment facetID="VB_5a_f5" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="VB.5a.416.1" answerText="This graph tells me the number of the tree's rings and how long." accuracy="irrelevant">
+      <facetEntailment facetID="VB_5a_f1" label="Unaddressed"/>
+      <facetEntailment facetID="VB_5a_f2" label="Expressed"/>
+      <facetEntailment facetID="VB_5a_f3" label="Expressed"/>
+      <facetEntailment facetID="VB_5a_f4" label="Unaddressed"/>
+      <facetEntailment facetID="VB_5a_f5" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="VB.5a.419.1" answerText="That it goes from 0 and up." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="VB_5a_f1" label="Unaddressed"/>
+      <facetEntailment facetID="VB_5a_f2" label="Assumed"/>
+      <facetEntailment facetID="VB_5a_f3" label="Assumed"/>
+      <facetEntailment facetID="VB_5a_f4" label="Inferred"/>
+      <facetEntailment facetID="VB_5a_f5" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="VB.5a.423.1" answerText="The number of times it rings and the times." accuracy="irrelevant">
+      <facetEntailment facetID="VB_5a_f1" label="Unaddressed"/>
+      <facetEntailment facetID="VB_5a_f2" label="Expressed"/>
+      <facetEntailment facetID="VB_5a_f3" label="Assumed"/>
+      <facetEntailment facetID="VB_5a_f4" label="Unaddressed"/>
+      <facetEntailment facetID="VB_5a_f5" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="VB.5a.429.1" answerText="That there is a lot of rings and a lot of time." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="VB_5a_f1" label="Inferred"/>
+      <facetEntailment facetID="VB_5a_f2" label="Expressed"/>
+      <facetEntailment facetID="VB_5a_f3" label="Expressed"/>
+      <facetEntailment facetID="VB_5a_f4" label="Unaddressed"/>
+      <facetEntailment facetID="VB_5a_f5" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="VB.5a.431.1" answerText="I think the graph tells me that all the numbers are common." accuracy="irrelevant">
+      <facetEntailment facetID="VB_5a_f1" label="Unaddressed"/>
+      <facetEntailment facetID="VB_5a_f2" label="Assumed"/>
+      <facetEntailment facetID="VB_5a_f3" label="Assumed"/>
+      <facetEntailment facetID="VB_5a_f4" label="Unaddressed"/>
+      <facetEntailment facetID="VB_5a_f5" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="VB.5a.440.1" answerText="It tells me that the older the tree the more rings it has." accuracy="correct">
+      <facetEntailment facetID="VB_5a_f1" label="Expressed"/>
+      <facetEntailment facetID="VB_5a_f2" label="Expressed"/>
+      <facetEntailment facetID="VB_5a_f3" label="Expressed"/>
+      <facetEntailment facetID="VB_5a_f4" label="Expressed"/>
+      <facetEntailment facetID="VB_5a_f5" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="VB.5a.444.1" answerText="I think this graph tells me that the time is about 25 seconds and the number of tree rings 20 times." accuracy="irrelevant">
+      <facetEntailment facetID="VB_5a_f1" label="Unaddressed"/>
+      <facetEntailment facetID="VB_5a_f2" label="Expressed"/>
+      <facetEntailment facetID="VB_5a_f3" label="Expressed"/>
+      <facetEntailment facetID="VB_5a_f4" label="Unaddressed"/>
+      <facetEntailment facetID="VB_5a_f5" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="VB.5a.454.1" answerText="The graph tells you the number of tree rings." accuracy="irrelevant">
+      <facetEntailment facetID="VB_5a_f1" label="Unaddressed"/>
+      <facetEntailment facetID="VB_5a_f2" label="Expressed"/>
+      <facetEntailment facetID="VB_5a_f3" label="Expressed"/>
+      <facetEntailment facetID="VB_5a_f4" label="Unaddressed"/>
+      <facetEntailment facetID="VB_5a_f5" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="VB.5a.462.1" answerText="That the time goes up." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="VB_5a_f1" label="Expressed"/>
+      <facetEntailment facetID="VB_5a_f2" label="Assumed"/>
+      <facetEntailment facetID="VB_5a_f3" label="Assumed"/>
+      <facetEntailment facetID="VB_5a_f4" label="Unaddressed"/>
+      <facetEntailment facetID="VB_5a_f5" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="VB.5a.469.1" answerText="The more the time the more the tree rings." accuracy="correct">
+      <facetEntailment facetID="VB_5a_f1" label="Expressed"/>
+      <facetEntailment facetID="VB_5a_f2" label="Expressed"/>
+      <facetEntailment facetID="VB_5a_f3" label="Expressed"/>
+      <facetEntailment facetID="VB_5a_f4" label="Expressed"/>
+      <facetEntailment facetID="VB_5a_f5" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="VB.5a.475.1" answerText="It shows you the number of tree rings and the time." accuracy="irrelevant">
+      <facetEntailment facetID="VB_5a_f1" label="Unaddressed"/>
+      <facetEntailment facetID="VB_5a_f2" label="Expressed"/>
+      <facetEntailment facetID="VB_5a_f3" label="Expressed"/>
+      <facetEntailment facetID="VB_5a_f4" label="Unaddressed"/>
+      <facetEntailment facetID="VB_5a_f5" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="VB.5a.477.1" answerText="This graph tells me the number of tree rings on the y axis and tells me the time on the x axis." accuracy="irrelevant">
+      <facetEntailment facetID="VB_5a_f1" label="Unaddressed"/>
+      <facetEntailment facetID="VB_5a_f2" label="Expressed"/>
+      <facetEntailment facetID="VB_5a_f3" label="Expressed"/>
+      <facetEntailment facetID="VB_5a_f4" label="Unaddressed"/>
+      <facetEntailment facetID="VB_5a_f5" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="VB.5a.483.1" answerText="Number of tree rings gets larger over time." accuracy="correct">
+      <facetEntailment facetID="VB_5a_f1" label="Expressed"/>
+      <facetEntailment facetID="VB_5a_f2" label="Expressed"/>
+      <facetEntailment facetID="VB_5a_f3" label="Expressed"/>
+      <facetEntailment facetID="VB_5a_f4" label="Expressed"/>
+      <facetEntailment facetID="VB_5a_f5" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="VB.5a.486.1" answerText="As time goes on the of tree rings go up." accuracy="correct">
+      <facetEntailment facetID="VB_5a_f1" label="Expressed"/>
+      <facetEntailment facetID="VB_5a_f2" label="Assumed"/>
+      <facetEntailment facetID="VB_5a_f3" label="Expressed"/>
+      <facetEntailment facetID="VB_5a_f4" label="Inferred"/>
+      <facetEntailment facetID="VB_5a_f5" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="VB.5a.489.1" answerText="As time goes on the number of tree rings increases." accuracy="correct">
+      <facetEntailment facetID="VB_5a_f1" label="Expressed"/>
+      <facetEntailment facetID="VB_5a_f2" label="Expressed"/>
+      <facetEntailment facetID="VB_5a_f3" label="Expressed"/>
+      <facetEntailment facetID="VB_5a_f4" label="Expressed"/>
+      <facetEntailment facetID="VB_5a_f5" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="VB.5a.497.1" answerText="As time goes on the number of tree rings increases." accuracy="correct">
+      <facetEntailment facetID="VB_5a_f1" label="Expressed"/>
+      <facetEntailment facetID="VB_5a_f2" label="Expressed"/>
+      <facetEntailment facetID="VB_5a_f3" label="Expressed"/>
+      <facetEntailment facetID="VB_5a_f4" label="Expressed"/>
+      <facetEntailment facetID="VB_5a_f5" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="VB.5a.498.1" answerText="As time goes on the number of tree rings increases." accuracy="correct">
+      <facetEntailment facetID="VB_5a_f1" label="Expressed"/>
+      <facetEntailment facetID="VB_5a_f2" label="Expressed"/>
+      <facetEntailment facetID="VB_5a_f3" label="Expressed"/>
+      <facetEntailment facetID="VB_5a_f4" label="Expressed"/>
+      <facetEntailment facetID="VB_5a_f5" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="VB.5a.506.1" answerText="As time goes on the number of tree rings grows higher." accuracy="correct">
+      <facetEntailment facetID="VB_5a_f1" label="Expressed"/>
+      <facetEntailment facetID="VB_5a_f2" label="Expressed"/>
+      <facetEntailment facetID="VB_5a_f3" label="Expressed"/>
+      <facetEntailment facetID="VB_5a_f4" label="Expressed"/>
+      <facetEntailment facetID="VB_5a_f5" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="VB.5a.521.1" answerText="As time goes on the number goes up." accuracy="correct">
+      <facetEntailment facetID="VB_5a_f1" label="Expressed"/>
+      <facetEntailment facetID="VB_5a_f2" label="Assumed"/>
+      <facetEntailment facetID="VB_5a_f3" label="Assumed"/>
+      <facetEntailment facetID="VB_5a_f4" label="Expressed"/>
+      <facetEntailment facetID="VB_5a_f5" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="VB.5a.523.1" answerText="As time goes on the number of tree ring are higher." accuracy="correct">
+      <facetEntailment facetID="VB_5a_f1" label="Expressed"/>
+      <facetEntailment facetID="VB_5a_f2" label="Expressed"/>
+      <facetEntailment facetID="VB_5a_f3" label="Expressed"/>
+      <facetEntailment facetID="VB_5a_f4" label="Expressed"/>
+      <facetEntailment facetID="VB_5a_f5" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="VB.5a.535.1" answerText="As time goes on the number gets larger." accuracy="correct">
+      <facetEntailment facetID="VB_5a_f1" label="Expressed"/>
+      <facetEntailment facetID="VB_5a_f2" label="Assumed"/>
+      <facetEntailment facetID="VB_5a_f3" label="Assumed"/>
+      <facetEntailment facetID="VB_5a_f4" label="Expressed"/>
+      <facetEntailment facetID="VB_5a_f5" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="VB.5a.537.1" answerText="As time goes on the number of tree rings are increasing as it goes." accuracy="correct">
+      <facetEntailment facetID="VB_5a_f1" label="Expressed"/>
+      <facetEntailment facetID="VB_5a_f2" label="Expressed"/>
+      <facetEntailment facetID="VB_5a_f3" label="Expressed"/>
+      <facetEntailment facetID="VB_5a_f4" label="Expressed"/>
+      <facetEntailment facetID="VB_5a_f5" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="VB.5a.539.1" answerText="As time goes on the of number of tree rings go up." accuracy="correct">
+      <facetEntailment facetID="VB_5a_f1" label="Expressed"/>
+      <facetEntailment facetID="VB_5a_f2" label="Expressed"/>
+      <facetEntailment facetID="VB_5a_f3" label="Expressed"/>
+      <facetEntailment facetID="VB_5a_f4" label="Expressed"/>
+      <facetEntailment facetID="VB_5a_f5" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="VB.5a.545.1" answerText="As time goes on the tree rings are going up." accuracy="correct">
+      <facetEntailment facetID="VB_5a_f1" label="Expressed"/>
+      <facetEntailment facetID="VB_5a_f2" label="Assumed"/>
+      <facetEntailment facetID="VB_5a_f3" label="Expressed"/>
+      <facetEntailment facetID="VB_5a_f4" label="Inferred"/>
+      <facetEntailment facetID="VB_5a_f5" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="VB.5a.626.1" answerText="The tree rings and time are both increasing." accuracy="correct">
+      <facetEntailment facetID="VB_5a_f1" label="Expressed"/>
+      <facetEntailment facetID="VB_5a_f2" label="Assumed"/>
+      <facetEntailment facetID="VB_5a_f3" label="Expressed"/>
+      <facetEntailment facetID="VB_5a_f4" label="Expressed"/>
+      <facetEntailment facetID="VB_5a_f5" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="VB.5a.632.1" answerText="The number of tree rings and the time is increasing." accuracy="correct">
+      <facetEntailment facetID="VB_5a_f1" label="Expressed"/>
+      <facetEntailment facetID="VB_5a_f2" label="Expressed"/>
+      <facetEntailment facetID="VB_5a_f3" label="Expressed"/>
+      <facetEntailment facetID="VB_5a_f4" label="Expressed"/>
+      <facetEntailment facetID="VB_5a_f5" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="VB.5a.636.1" answerText="That the time increasing and the tree rings are increasing too." accuracy="correct">
+      <facetEntailment facetID="VB_5a_f1" label="Expressed"/>
+      <facetEntailment facetID="VB_5a_f2" label="Assumed"/>
+      <facetEntailment facetID="VB_5a_f3" label="Expressed"/>
+      <facetEntailment facetID="VB_5a_f4" label="Inferred"/>
+      <facetEntailment facetID="VB_5a_f5" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="VB.5a.638.1" answerText="The time is increasing the tree rings are increasing." accuracy="correct">
+      <facetEntailment facetID="VB_5a_f1" label="Expressed"/>
+      <facetEntailment facetID="VB_5a_f2" label="Assumed"/>
+      <facetEntailment facetID="VB_5a_f3" label="Expressed"/>
+      <facetEntailment facetID="VB_5a_f4" label="Inferred"/>
+      <facetEntailment facetID="VB_5a_f5" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="VB.5a.639.1" answerText="They are both are increasing." accuracy="correct">
+      <facetEntailment facetID="VB_5a_f1" label="Inferred"/>
+      <facetEntailment facetID="VB_5a_f2" label="Assumed"/>
+      <facetEntailment facetID="VB_5a_f3" label="Assumed"/>
+      <facetEntailment facetID="VB_5a_f4" label="Inferred"/>
+      <facetEntailment facetID="VB_5a_f5" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="VB.5a.643.1" answerText="The rings and the tree rings are increasing." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="VB_5a_f1" label="Unaddressed"/>
+      <facetEntailment facetID="VB_5a_f2" label="Assumed"/>
+      <facetEntailment facetID="VB_5a_f3" label="Expressed"/>
+      <facetEntailment facetID="VB_5a_f4" label="Expressed"/>
+      <facetEntailment facetID="VB_5a_f5" label="Unaddressed"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

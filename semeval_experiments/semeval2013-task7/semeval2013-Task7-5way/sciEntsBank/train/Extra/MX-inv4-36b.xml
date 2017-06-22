@@ -1,0 +1,362 @@
+<?xml version="1.0"?>
+<question id="MX_36b" module="MX">
+  <questionText>Grace set up a science experiment. Here's what she wrote in her notebook. First I put eggshells into a cup and covered them with vinegar. After a while, small bubbles appeared on the surface of the eggshells. The next day there were more bubbles. In a couple of days, the eggshells were gone and the liquid was clear. I think I made a solution and a reaction. Explain why Grace thinks she made a reaction.</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="MX_36b-a1" text="A reaction was indicated by the bubbles of gas (a new material) being produced.">
+      <tokens>
+        <token id="MX_36b_ra1">A</token>
+        <token id="MX_36b_ra2">reaction</token>
+        <token id="MX_36b_ra3">was</token>
+        <token id="MX_36b_ra4">indicated</token>
+        <token id="MX_36b_ra5">by</token>
+        <token id="MX_36b_ra6">the</token>
+        <token id="MX_36b_ra7">bubbles</token>
+        <token id="MX_36b_ra8">of</token>
+        <token id="MX_36b_ra9">gas</token>
+        <token id="MX_36b_ra10">(</token>
+        <token id="MX_36b_ra11">a</token>
+        <token id="MX_36b_ra12">new</token>
+        <token id="MX_36b_ra13">material</token>
+        <token id="MX_36b_ra14">)</token>
+        <token id="MX_36b_ra15">being</token>
+        <token id="MX_36b_ra16">produced</token>
+        <token id="MX_36b_ra17">.</token>
+      </tokens>
+      <facets>
+        <facet id="MX_36b_f1" govNum="MX_36b_ra4" modNum="MX_36b_ra2" reltn="Topic" govText="indicated" isAssumed="true" modText="reaction"/>
+        <facet id="MX_36b_f2" govNum="MX_36b_ra4" modNum="MX_36b_ra16" reltn="Cause_by" childProp2Facet2="MX_36b_f5" govText="indicated" modText="produced" childProp2Facet1="MX_36b_f6"/>
+        <facet id="MX_36b_f3" govNum="MX_36b_ra7" modNum="MX_36b_ra9" reltn="NMod_of" govText="bubbles" modText="gas"/>
+        <facet id="MX_36b_f4" govNum="MX_36b_ra16" modNum="MX_36b_ra7" reltn="Product" govText="produced" isAssumed="true" modText="bubbles"/>
+        <facet id="MX_36b_f5" govNum="MX_36b_ra13" modNum="MX_36b_ra12" reltn="NMod" govText="material" modText="new"/>
+        <facet id="MX_36b_f6" govNum="MX_36b_ra16" modNum="MX_36b_ra13" reltn="Product" govText="produced" modText="material"/>
+        <facet id="MX_36b_f7" govNum="MX_36b_ra16" modNum="MX_36b_ra2" reltn="Cause_indicated_by" childProp1Facet1="MX_36b_f6" govText="produced" childProp1Facet2="MX_36b_f5" modText="reaction"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="MX.36b.136.1" answerText="Because after a while small bubbles appeared, but in the next day, bubbles, starting to be more eggshells were disappeared." accuracy="correct">
+      <facetEntailment facetID="MX_36b_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_36b_f2" label="Expressed"/>
+      <facetEntailment facetID="MX_36b_f3" label="Inferred"/>
+      <facetEntailment facetID="MX_36b_f4" label="Expressed"/>
+      <facetEntailment facetID="MX_36b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MX_36b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="MX_36b_f7" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="MX.36b.151.1" answerText="She made a reaction because it started to bubble after a while." accuracy="correct">
+      <facetEntailment facetID="MX_36b_f1" label="Expressed"/>
+      <facetEntailment facetID="MX_36b_f2" label="Expressed"/>
+      <facetEntailment facetID="MX_36b_f3" label="Inferred"/>
+      <facetEntailment facetID="MX_36b_f4" label="Expressed"/>
+      <facetEntailment facetID="MX_36b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MX_36b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="MX_36b_f7" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.36b.181.1" answerText="She made a reaction because bubbles appeared." accuracy="correct">
+      <facetEntailment facetID="MX_36b_f1" label="Expressed"/>
+      <facetEntailment facetID="MX_36b_f2" label="Expressed"/>
+      <facetEntailment facetID="MX_36b_f3" label="Inferred"/>
+      <facetEntailment facetID="MX_36b_f4" label="Expressed"/>
+      <facetEntailment facetID="MX_36b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MX_36b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="MX_36b_f7" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.36b.185.1" answerText="She did make a reaction by saying that there was bubbles in the cup." accuracy="correct">
+      <facetEntailment facetID="MX_36b_f1" label="Expressed"/>
+      <facetEntailment facetID="MX_36b_f2" label="Expressed"/>
+      <facetEntailment facetID="MX_36b_f3" label="Inferred"/>
+      <facetEntailment facetID="MX_36b_f4" label="Expressed"/>
+      <facetEntailment facetID="MX_36b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MX_36b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="MX_36b_f7" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.36b.261.1" answerText="The eggshells were gone." accuracy="irrelevant">
+      <facetEntailment facetID="MX_36b_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_36b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MX_36b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_36b_f4" label="Assumed"/>
+      <facetEntailment facetID="MX_36b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MX_36b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="MX_36b_f7" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.36b.267.1" answerText="Grace thinks she made a reaction because bubbles appeared on the eggshells and that is what a reaction is." accuracy="correct">
+      <facetEntailment facetID="MX_36b_f1" label="Expressed"/>
+      <facetEntailment facetID="MX_36b_f2" label="Expressed"/>
+      <facetEntailment facetID="MX_36b_f3" label="Inferred"/>
+      <facetEntailment facetID="MX_36b_f4" label="Expressed"/>
+      <facetEntailment facetID="MX_36b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MX_36b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="MX_36b_f7" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.36b.282.1" answerText="Because there are bubbles and the shells just disappeared." accuracy="correct">
+      <facetEntailment facetID="MX_36b_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_36b_f2" label="Expressed"/>
+      <facetEntailment facetID="MX_36b_f3" label="Inferred"/>
+      <facetEntailment facetID="MX_36b_f4" label="Expressed"/>
+      <facetEntailment facetID="MX_36b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MX_36b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="MX_36b_f7" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="MX.36b.381.1" answerText="There was bubbles but just there was a gas." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="MX_36b_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_36b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MX_36b_f3" label="Expressed"/>
+      <facetEntailment facetID="MX_36b_f4" label="Expressed"/>
+      <facetEntailment facetID="MX_36b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MX_36b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="MX_36b_f7" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="MX.36b.387.1" answerText="Because it was bubbles and fizzing." accuracy="correct">
+      <facetEntailment facetID="MX_36b_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_36b_f2" label="Expressed"/>
+      <facetEntailment facetID="MX_36b_f3" label="Inferred"/>
+      <facetEntailment facetID="MX_36b_f4" label="Expressed"/>
+      <facetEntailment facetID="MX_36b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MX_36b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="MX_36b_f7" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="MX.36b.389.1" answerText="Because it started bubble." accuracy="correct">
+      <facetEntailment facetID="MX_36b_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_36b_f2" label="Expressed"/>
+      <facetEntailment facetID="MX_36b_f3" label="Inferred"/>
+      <facetEntailment facetID="MX_36b_f4" label="Expressed"/>
+      <facetEntailment facetID="MX_36b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MX_36b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="MX_36b_f7" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="MX.36b.425.1" answerText="Because the eggshells bubbled then dissolved." accuracy="correct">
+      <facetEntailment facetID="MX_36b_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_36b_f2" label="Expressed"/>
+      <facetEntailment facetID="MX_36b_f3" label="Inferred"/>
+      <facetEntailment facetID="MX_36b_f4" label="Expressed"/>
+      <facetEntailment facetID="MX_36b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MX_36b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="MX_36b_f7" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="MX.36b.430.1" answerText="Because it bubbled." accuracy="correct">
+      <facetEntailment facetID="MX_36b_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_36b_f2" label="Expressed"/>
+      <facetEntailment facetID="MX_36b_f3" label="Inferred"/>
+      <facetEntailment facetID="MX_36b_f4" label="Expressed"/>
+      <facetEntailment facetID="MX_36b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MX_36b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="MX_36b_f7" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="MX.36b.431.1" answerText="Bubbles on the eggshells." accuracy="correct">
+      <facetEntailment facetID="MX_36b_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_36b_f2" label="Inferred"/>
+      <facetEntailment facetID="MX_36b_f3" label="Expressed"/>
+      <facetEntailment facetID="MX_36b_f4" label="Expressed"/>
+      <facetEntailment facetID="MX_36b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MX_36b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="MX_36b_f7" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="MX.36b.433.1" answerText="Because there were bubbles." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="MX_36b_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_36b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MX_36b_f3" label="Inferred"/>
+      <facetEntailment facetID="MX_36b_f4" label="Expressed"/>
+      <facetEntailment facetID="MX_36b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MX_36b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="MX_36b_f7" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="MX.36b.436.1" answerText="Because there was bubbles." accuracy="correct">
+      <facetEntailment facetID="MX_36b_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_36b_f2" label="Expressed"/>
+      <facetEntailment facetID="MX_36b_f3" label="Inferred"/>
+      <facetEntailment facetID="MX_36b_f4" label="Expressed"/>
+      <facetEntailment facetID="MX_36b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MX_36b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="MX_36b_f7" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="MX.36b.437.1" answerText="The bubbles made a reaction." accuracy="correct">
+      <facetEntailment facetID="MX_36b_f1" label="Expressed"/>
+      <facetEntailment facetID="MX_36b_f2" label="Expressed"/>
+      <facetEntailment facetID="MX_36b_f3" label="Inferred"/>
+      <facetEntailment facetID="MX_36b_f4" label="Expressed"/>
+      <facetEntailment facetID="MX_36b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MX_36b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="MX_36b_f7" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.36b.462.1" answerText="Because there were gas bubbles." accuracy="correct">
+      <facetEntailment facetID="MX_36b_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_36b_f2" label="Expressed"/>
+      <facetEntailment facetID="MX_36b_f3" label="Expressed"/>
+      <facetEntailment facetID="MX_36b_f4" label="Expressed"/>
+      <facetEntailment facetID="MX_36b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MX_36b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="MX_36b_f7" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="MX.36b.469.1" answerText="Because she use eggshells and vinegar then small bubbles appeared then there were more bubbles the eggshells turned into a liquid." accuracy="correct">
+      <facetEntailment facetID="MX_36b_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_36b_f2" label="Inferred"/>
+      <facetEntailment facetID="MX_36b_f3" label="Inferred"/>
+      <facetEntailment facetID="MX_36b_f4" label="Expressed"/>
+      <facetEntailment facetID="MX_36b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MX_36b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="MX_36b_f7" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="MX.36b.486.1" answerText="Because a reaction is where something combines and changes start which is a fizz or bubbles." accuracy="correct">
+      <facetEntailment facetID="MX_36b_f1" label="Expressed"/>
+      <facetEntailment facetID="MX_36b_f2" label="Expressed"/>
+      <facetEntailment facetID="MX_36b_f3" label="Inferred"/>
+      <facetEntailment facetID="MX_36b_f4" label="Expressed"/>
+      <facetEntailment facetID="MX_36b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MX_36b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="MX_36b_f7" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.36b.488.1" answerText="Because there were a lot of bubbles. That one of the effects of a reaction." accuracy="correct">
+      <facetEntailment facetID="MX_36b_f1" label="Expressed"/>
+      <facetEntailment facetID="MX_36b_f2" label="Expressed"/>
+      <facetEntailment facetID="MX_36b_f3" label="Inferred"/>
+      <facetEntailment facetID="MX_36b_f4" label="Expressed"/>
+      <facetEntailment facetID="MX_36b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MX_36b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="MX_36b_f7" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.36b.490.1" answerText="Because there were gas bubbles." accuracy="correct">
+      <facetEntailment facetID="MX_36b_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_36b_f2" label="Expressed"/>
+      <facetEntailment facetID="MX_36b_f3" label="Expressed"/>
+      <facetEntailment facetID="MX_36b_f4" label="Expressed"/>
+      <facetEntailment facetID="MX_36b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MX_36b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="MX_36b_f7" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="MX.36b.494.1" answerText="It was a slow reaction but when it started to bubble and the shell dissolved it was a reaction." accuracy="correct">
+      <facetEntailment facetID="MX_36b_f1" label="Expressed"/>
+      <facetEntailment facetID="MX_36b_f2" label="Expressed"/>
+      <facetEntailment facetID="MX_36b_f3" label="Inferred"/>
+      <facetEntailment facetID="MX_36b_f4" label="Expressed"/>
+      <facetEntailment facetID="MX_36b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MX_36b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="MX_36b_f7" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.36b.495.1" answerText="Because there was a lot of bubbles on the eggshell after she added the vinegar." accuracy="correct">
+      <facetEntailment facetID="MX_36b_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_36b_f2" label="Expressed"/>
+      <facetEntailment facetID="MX_36b_f3" label="Inferred"/>
+      <facetEntailment facetID="MX_36b_f4" label="Expressed"/>
+      <facetEntailment facetID="MX_36b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MX_36b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="MX_36b_f7" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="MX.36b.497.1" answerText="Because she saw bubbles." accuracy="correct">
+      <facetEntailment facetID="MX_36b_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_36b_f2" label="Inferred"/>
+      <facetEntailment facetID="MX_36b_f3" label="Inferred"/>
+      <facetEntailment facetID="MX_36b_f4" label="Expressed"/>
+      <facetEntailment facetID="MX_36b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MX_36b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="MX_36b_f7" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="MX.36b.503.1" answerText="Because she put eggshells in a cup and covered them with vinegar and after a couple of days she saw that they were gone." accuracy="irrelevant">
+      <facetEntailment facetID="MX_36b_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_36b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MX_36b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_36b_f4" label="Assumed"/>
+      <facetEntailment facetID="MX_36b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MX_36b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="MX_36b_f7" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.36b.504.1" answerText="A few bubbles came. Gas." accuracy="correct">
+      <facetEntailment facetID="MX_36b_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_36b_f2" label="Inferred"/>
+      <facetEntailment facetID="MX_36b_f3" label="Expressed"/>
+      <facetEntailment facetID="MX_36b_f4" label="Expressed"/>
+      <facetEntailment facetID="MX_36b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MX_36b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="MX_36b_f7" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="MX.36b.525.1" answerText="Because the egg shells disappeared." accuracy="irrelevant">
+      <facetEntailment facetID="MX_36b_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_36b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MX_36b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_36b_f4" label="Assumed"/>
+      <facetEntailment facetID="MX_36b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MX_36b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="MX_36b_f7" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.36b.537.1" answerText="She made bubbles and that is a common sign of a reaction." accuracy="correct">
+      <facetEntailment facetID="MX_36b_f1" label="Expressed"/>
+      <facetEntailment facetID="MX_36b_f2" label="Expressed"/>
+      <facetEntailment facetID="MX_36b_f3" label="Inferred"/>
+      <facetEntailment facetID="MX_36b_f4" label="Expressed"/>
+      <facetEntailment facetID="MX_36b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MX_36b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="MX_36b_f7" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.36b.556.1" answerText="Because she mix more there was fizz." accuracy="irrelevant">
+      <facetEntailment facetID="MX_36b_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_36b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MX_36b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_36b_f4" label="Assumed"/>
+      <facetEntailment facetID="MX_36b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MX_36b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="MX_36b_f7" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.36b.596.1" answerText="Because there were more bubbles everyday." accuracy="correct">
+      <facetEntailment facetID="MX_36b_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_36b_f2" label="Expressed"/>
+      <facetEntailment facetID="MX_36b_f3" label="Inferred"/>
+      <facetEntailment facetID="MX_36b_f4" label="Expressed"/>
+      <facetEntailment facetID="MX_36b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MX_36b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="MX_36b_f7" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="MX.36b.597.1" answerText="Because the eggshells bubbled and a few days later the eggshells were gone." accuracy="correct">
+      <facetEntailment facetID="MX_36b_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_36b_f2" label="Expressed"/>
+      <facetEntailment facetID="MX_36b_f3" label="Inferred"/>
+      <facetEntailment facetID="MX_36b_f4" label="Expressed"/>
+      <facetEntailment facetID="MX_36b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MX_36b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="MX_36b_f7" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="MX.36b.601.1" answerText="She did make a reaction because she saw bubbles." accuracy="correct">
+      <facetEntailment facetID="MX_36b_f1" label="Expressed"/>
+      <facetEntailment facetID="MX_36b_f2" label="Expressed"/>
+      <facetEntailment facetID="MX_36b_f3" label="Inferred"/>
+      <facetEntailment facetID="MX_36b_f4" label="Expressed"/>
+      <facetEntailment facetID="MX_36b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MX_36b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="MX_36b_f7" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.36b.607.1" answerText="Because it bubbled." accuracy="correct">
+      <facetEntailment facetID="MX_36b_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_36b_f2" label="Inferred"/>
+      <facetEntailment facetID="MX_36b_f3" label="Inferred"/>
+      <facetEntailment facetID="MX_36b_f4" label="Expressed"/>
+      <facetEntailment facetID="MX_36b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MX_36b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="MX_36b_f7" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="MX.36b.609.1" answerText="Because it was gone." accuracy="irrelevant">
+      <facetEntailment facetID="MX_36b_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_36b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MX_36b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_36b_f4" label="Assumed"/>
+      <facetEntailment facetID="MX_36b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MX_36b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="MX_36b_f7" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.36b.611.1" answerText="Because it had bubbles appearing." accuracy="correct">
+      <facetEntailment facetID="MX_36b_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_36b_f2" label="Inferred"/>
+      <facetEntailment facetID="MX_36b_f3" label="Inferred"/>
+      <facetEntailment facetID="MX_36b_f4" label="Expressed"/>
+      <facetEntailment facetID="MX_36b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MX_36b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="MX_36b_f7" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="MX.36b.612.1" answerText="It bubbled that is why." accuracy="correct">
+      <facetEntailment facetID="MX_36b_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_36b_f2" label="Expressed"/>
+      <facetEntailment facetID="MX_36b_f3" label="Inferred"/>
+      <facetEntailment facetID="MX_36b_f4" label="Expressed"/>
+      <facetEntailment facetID="MX_36b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MX_36b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="MX_36b_f7" label="Inferred"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

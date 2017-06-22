@@ -1,0 +1,1038 @@
+<?xml version="1.0"?>
+<question testSet="unseen-domains" id="WA_21" module="WA">
+  <questionText>Matthew's mother left a plastic bottle full of water in the trunk of their car. The temperature dropped below 0 degrees Celsius that night. When his mother opened the trunk the next afternoon, she discovered the water bottle had cracked. Explain why the water bottle cracked.</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="WA_21-a1" text="The water froze. Water expands when water freezes so the ice needed more space.">
+      <tokens>
+        <token id="WA_21_ra1">The</token>
+        <token id="WA_21_ra2">water</token>
+        <token id="WA_21_ra3">froze</token>
+        <token id="WA_21_ra4">.</token>
+        <token id="WA_21_ra5">Water</token>
+        <token id="WA_21_ra6">expands</token>
+        <token id="WA_21_ra7">when</token>
+        <token id="WA_21_ra8">water</token>
+        <token id="WA_21_ra9">freezes</token>
+        <token id="WA_21_ra10">so</token>
+        <token id="WA_21_ra11">the</token>
+        <token id="WA_21_ra12">ice</token>
+        <token id="WA_21_ra13">needed</token>
+        <token id="WA_21_ra14">more</token>
+        <token id="WA_21_ra15">space</token>
+        <token id="WA_21_ra16">.</token>
+      </tokens>
+      <facets>
+        <facet id="WA_21_f1" govNum="WA_21_ra3" modNum="WA_21_ra2" reltn="Patient" govText="froze" modText="water"/>
+        <facet id="WA_21_f2" govNum="WA_21_ra6" modNum="WA_21_ra5" reltn="Patient" govText="expands" modText="Water"/>
+        <facet id="WA_21_f3" govNum="WA_21_ra9" modNum="WA_21_ra8" reltn="Patient" govText="freezes" modText="water"/>
+        <facet id="WA_21_f4" govNum="WA_21_ra6" modNum="WA_21_ra9" reltn="Cause_when" childProp1Facet1="WA_21_f2" govText="expands" modText="freezes" childProp2Facet1="WA_21_f3"/>
+        <facet id="WA_21_f5" govNum="WA_21_ra13" modNum="WA_21_ra12" reltn="Experiencer" govText="needed" modText="ice"/>
+        <facet id="WA_21_f6" govNum="WA_21_ra13" modNum="WA_21_ra15" reltn="Theme" govText="needed" modText="space"/>
+        <facet id="WA_21_f7" govNum="WA_21_ra15" modNum="WA_21_ra14" reltn="NMod" govText="space" modText="more"/>
+        <facet id="WA_21_f8" govNum="WA_21_ra13" modNum="WA_21_ra6" reltn="Cause_so" childProp1Facet1="WA_21_f5" govText="needed" childProp1Facet2="WA_21_f6" modText="expands" childProp2Facet1="WA_21_f2"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="WA.21.171.1" answerText="Because the heat of the truck made the bottle of water crack." accuracy="contradictory">
+      <facetEntailment facetID="WA_21_f1" label="Contra-Infr"/>
+      <facetEntailment facetID="WA_21_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f3" label="Contra-Infr"/>
+      <facetEntailment facetID="WA_21_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f6" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f7" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f8" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.21.176.1" answerText="The water bottles molecules got huddled up and they get to the smallest point and they start looking for a place to get out of the cold. They cannot go up, down, or to the sides. So the push in one spot and break the container." accuracy="contradictory">
+      <facetEntailment facetID="WA_21_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f2" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_21_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f6" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f7" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f8" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.21.177.1" answerText="Because when water freezes and it expands grows and if it is in a closed container it cannot take the pressure and will break the container." accuracy="correct">
+      <facetEntailment facetID="WA_21_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f7" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.21.182.1" answerText="The water bottle cracked because once water temperatures get lower than 4 degrees Celsius, the water starts to expand and expand and expand and expand until finally, the water temperature is lower than 0 degrees Celsius, and the water bottle is getting too weak, so it cracks." accuracy="correct">
+      <facetEntailment facetID="WA_21_f1" label="Inferred"/>
+      <facetEntailment facetID="WA_21_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f3" label="Inferred"/>
+      <facetEntailment facetID="WA_21_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_21_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_21_f7" label="Inferred"/>
+      <facetEntailment facetID="WA_21_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.21.186.1" answerText="When water reaches 0 degrees Celsius in temperature it freezes and expands. If there is not enough room for this growth the water will break its container." accuracy="correct">
+      <facetEntailment facetID="WA_21_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f7" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.21.194.1" answerText="Because when the temperature gets to 4 degrees Celsius water starts to freeze when the temperature Hits 0 degrees Celsius the water starts to expand." accuracy="correct">
+      <facetEntailment facetID="WA_21_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_21_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_21_f7" label="Inferred"/>
+      <facetEntailment facetID="WA_21_f8" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="WA.21.209.1" answerText="The bottle cracked because it when something drops below 0 degrees Celsius it is going to freeze." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="WA_21_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f6" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f7" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f8" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.21.211.1" answerText="Because when ice expands The ice could have of broke up bottle." accuracy="correct">
+      <facetEntailment facetID="WA_21_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_21_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_21_f7" label="Inferred"/>
+      <facetEntailment facetID="WA_21_f8" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="WA.21.212.1" answerText="It cracked because it got too cold and the water froze so it expanded and broke the density." accuracy="correct">
+      <facetEntailment facetID="WA_21_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f6" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f7" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f8" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.21.213.1" answerText="Because trunks have holes and cold air comes from the outside when you are sleeping." accuracy="irrelevant">
+      <facetEntailment facetID="WA_21_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f6" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f7" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f8" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.21.214.1" answerText="The water bottle cracked because the bottle was full of water and it cracked open because the air was too cold, that the water just took up more SPACE." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="WA_21_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f7" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f8" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.21.215.1" answerText="If it was below 0 degrees Celsius then that would be pretty cold if you let it out there too long it cannot hold on and will crack." accuracy="irrelevant">
+      <facetEntailment facetID="WA_21_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f6" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f7" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f8" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.21.216.1" answerText="It must have been really cold outside and the water bottle got cold." accuracy="irrelevant">
+      <facetEntailment facetID="WA_21_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f6" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f7" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f8" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.21.217.1" answerText="It froze. When water freezes it expands and plastic cannot hold it so it broke." accuracy="correct">
+      <facetEntailment facetID="WA_21_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f7" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.21.222.1" answerText="It expanded." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="WA_21_f1" label="Inferred"/>
+      <facetEntailment facetID="WA_21_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f3" label="Inferred"/>
+      <facetEntailment facetID="WA_21_f4" label="Inferred"/>
+      <facetEntailment facetID="WA_21_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f6" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f7" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f8" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.21.241.1" answerText="This happened because the water that was high contracted to the bottom so it had no more room to fit the extra water so it cracked." accuracy="contradictory">
+      <facetEntailment facetID="WA_21_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f2" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_21_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_21_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_21_f7" label="Inferred"/>
+      <facetEntailment facetID="WA_21_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.21.242.1" answerText="The bottle cracked because the water had to have room to expand, but it did not." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="WA_21_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_21_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f7" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.21.244.1" answerText="The bottle cracked because when something freezes it expands therefore cracked the already filled bottle." accuracy="correct">
+      <facetEntailment facetID="WA_21_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f7" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.21.245.1" answerText="The water bottle cracked because when water is frozen it expands." accuracy="correct">
+      <facetEntailment facetID="WA_21_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_21_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_21_f7" label="Inferred"/>
+      <facetEntailment facetID="WA_21_f8" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="WA.21.250.1" answerText="The water froze over night and when water freezes it expands." accuracy="correct">
+      <facetEntailment facetID="WA_21_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_21_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_21_f7" label="Inferred"/>
+      <facetEntailment facetID="WA_21_f8" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="WA.21.252.1" answerText="The water bottle cracked because the air was so cold that the bottle could not stay together." accuracy="irrelevant">
+      <facetEntailment facetID="WA_21_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f6" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f7" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f8" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.21.253.1" answerText="The bottle crack because it got so cold since it dropped below 0 degrees Celsius and the water got so cold the bottle could not hold it and it cracked." accuracy="correct">
+      <facetEntailment facetID="WA_21_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f2" label="Inferred"/>
+      <facetEntailment facetID="WA_21_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f7" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.21.254.1" answerText="The water cracked because it became too cold." accuracy="irrelevant">
+      <facetEntailment facetID="WA_21_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f6" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f7" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f8" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.21.255.1" answerText="The water bottle cracked because ice expands when frozen. The water bottle did not have enough room for the expanded ice." accuracy="correct">
+      <facetEntailment facetID="WA_21_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f7" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.21.263.1" answerText="The water bottle cracked because it gets cold." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="WA_21_f1" label="Inferred"/>
+      <facetEntailment facetID="WA_21_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f3" label="Inferred"/>
+      <facetEntailment facetID="WA_21_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f6" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f7" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f8" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.21.266.1" answerText="The water bottle cracked because when water is frozen it expands and water freezes when it is 0 degrees Celsius 32 degrees Fahrenheit." accuracy="correct">
+      <facetEntailment facetID="WA_21_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f7" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.21.278.1" answerText="The water froze to ice which made it expand so the bottle cracked." accuracy="correct">
+      <facetEntailment facetID="WA_21_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_21_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_21_f7" label="Inferred"/>
+      <facetEntailment facetID="WA_21_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.21.279.1" answerText="The water bottle had cracked because when you freeze water it expands. The reason for the water bottle to crack was the ice expanded too much for the container." accuracy="correct">
+      <facetEntailment facetID="WA_21_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f7" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.21.286.1" answerText="The water bottle cracked because it was getting hot." accuracy="contradictory">
+      <facetEntailment facetID="WA_21_f1" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_21_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f6" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f7" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f8" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.21.294.1" answerText="Because the ice expands so the bottle cracked." accuracy="correct">
+      <facetEntailment facetID="WA_21_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f7" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.21.295.1" answerText="The bottle cracked because when water freezes it expands so the plastic was so soft that water expanded so much the bottle cracked." accuracy="correct">
+      <facetEntailment facetID="WA_21_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f7" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.21.296.1" answerText="The bottle cracked because if it is filled up to the to the water turns into ice and the ice is so strong it broke the bottle." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="WA_21_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_21_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_21_f7" label="Inferred"/>
+      <facetEntailment facetID="WA_21_f8" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.21.297.1" answerText="The water bottle cracked because the water inside it was cooled enough to crack the water bottle." accuracy="irrelevant">
+      <facetEntailment facetID="WA_21_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f6" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f7" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f8" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.21.299.1" answerText="Because when you freeze water it will go up." accuracy="irrelevant">
+      <facetEntailment facetID="WA_21_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f2" label="Diff-Arg"/>
+      <facetEntailment facetID="WA_21_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f6" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f7" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f8" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.21.301.1" answerText="It is like chapped lips. If your lips get so cold and chapped they will crack. If a water bottle gets so cold and froze it will crack." accuracy="irrelevant">
+      <facetEntailment facetID="WA_21_f1" label="Diff-Arg"/>
+      <facetEntailment facetID="WA_21_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f6" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f7" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f8" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.21.347.1" answerText="The water bottle cracked because the water turned to ice. The ice expanded so the water bottle cracked." accuracy="correct">
+      <facetEntailment facetID="WA_21_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_21_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_21_f7" label="Inferred"/>
+      <facetEntailment facetID="WA_21_f8" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="WA.21.351.1" answerText="The water expanded." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="WA_21_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f6" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f7" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f8" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.21.358.1" answerText="Since that night it was probably cold if it cracked then it expanded." accuracy="correct">
+      <facetEntailment facetID="WA_21_f1" label="Inferred"/>
+      <facetEntailment facetID="WA_21_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f3" label="Inferred"/>
+      <facetEntailment facetID="WA_21_f4" label="Inferred"/>
+      <facetEntailment facetID="WA_21_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f7" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.21.359.1" answerText="The water bottle cracked because of when the water froze it expanded." accuracy="correct">
+      <facetEntailment facetID="WA_21_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_21_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_21_f7" label="Inferred"/>
+      <facetEntailment facetID="WA_21_f8" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="WA.21.362.1" answerText="Because if you put it in, it would crack because there is no air and it is hot in the trunk." accuracy="contradictory">
+      <facetEntailment facetID="WA_21_f1" label="Contra-Infr"/>
+      <facetEntailment facetID="WA_21_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f3" label="Contra-Infr"/>
+      <facetEntailment facetID="WA_21_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f6" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f7" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f8" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.21.365.1" answerText="The water bottle cracked because it probably froze because it was so cold that night and it made it crack." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="WA_21_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f6" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f7" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f8" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.21.366.1" answerText="The bottle cracked because it was below 0 degrees Celsius which is very cold. Coldness makes things dry and crack." accuracy="irrelevant">
+      <facetEntailment facetID="WA_21_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f6" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f7" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f8" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.21.367.1" answerText="It cracked because it expanded so much it could not hold all the ice in." accuracy="correct">
+      <facetEntailment facetID="WA_21_f1" label="Inferred"/>
+      <facetEntailment facetID="WA_21_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f3" label="Inferred"/>
+      <facetEntailment facetID="WA_21_f4" label="Inferred"/>
+      <facetEntailment facetID="WA_21_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f7" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.21.368.1" answerText="Because the freezing water expanded so that is why it broke the water bottle." accuracy="correct">
+      <facetEntailment facetID="WA_21_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f7" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.21.369.1" answerText="Because it expanded." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="WA_21_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f6" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f7" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f8" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.21.386.1" answerText="Because the temperature dropped below 0 degrees Celsius and the water in the water bottle froze and that is why the water bottle cracked." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="WA_21_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_21_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_21_f7" label="Inferred"/>
+      <facetEntailment facetID="WA_21_f8" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="WA.21.419.1" answerText="Unknown." accuracy="non_domain">
+      <facetEntailment facetID="WA_21_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f6" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f7" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f8" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.21.427.1" answerText="It expanded out beyond the rim." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="WA_21_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_21_f7" label="Inferred"/>
+      <facetEntailment facetID="WA_21_f8" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="WA.21.437.1" answerText="Whenever water freezes, and turn into ice, it expands." accuracy="correct">
+      <facetEntailment facetID="WA_21_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_21_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_21_f7" label="Inferred"/>
+      <facetEntailment facetID="WA_21_f8" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="WA.21.451.1" answerText="Because when water freezes it expands so the ice pushed the water bottle and cracked." accuracy="correct">
+      <facetEntailment facetID="WA_21_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f7" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.21.456.1" answerText="Because the water froze and expanded and broke the water bottle." accuracy="correct">
+      <facetEntailment facetID="WA_21_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_21_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_21_f7" label="Inferred"/>
+      <facetEntailment facetID="WA_21_f8" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="WA.21.457.1" answerText="Because when water freezes the water contrasts." accuracy="contradictory">
+      <facetEntailment facetID="WA_21_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f2" label="Contra-Infr"/>
+      <facetEntailment facetID="WA_21_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f6" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f7" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f8" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.21.460.1" answerText="Because water freezes at 0 degrees Celsius, it gets lower. Then it is like it tries to come out so there is a lot of pressure." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="WA_21_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f6" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f7" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f8" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.21.461.1" answerText="Ice expands instead of contracts." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="WA_21_f1" label="Inferred"/>
+      <facetEntailment facetID="WA_21_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f3" label="Inferred"/>
+      <facetEntailment facetID="WA_21_f4" label="Inferred"/>
+      <facetEntailment facetID="WA_21_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f6" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f7" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f8" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.21.466.1" answerText="Because when water is frozen it expands which makes more water than the bottle can hold." accuracy="correct">
+      <facetEntailment facetID="WA_21_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f7" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.21.487.1" answerText="Because 0 degrees Celsius is freezing and the water turned to ice and the bottle cracked because ice takes up more room than water." accuracy="correct">
+      <facetEntailment facetID="WA_21_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f7" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.21.488.1" answerText="When water freezes it expands." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="WA_21_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f6" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f7" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f8" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.21.489.1" answerText="Because the car got too cold so the water froze then the water bottle cracked." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="WA_21_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f6" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f7" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f8" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.21.495.1" answerText="Because the water froze, expanding and causing the bottle to crack." accuracy="correct">
+      <facetEntailment facetID="WA_21_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_21_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_21_f7" label="Inferred"/>
+      <facetEntailment facetID="WA_21_f8" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="WA.21.497.1" answerText="Because 0 degrees Celsius is the freezing point of water. When water freezes it expands. The water bottle cracked because the ice needed more room than the water." accuracy="correct">
+      <facetEntailment facetID="WA_21_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f7" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.21.504.1" answerText="Because, when water freezes it expands." accuracy="correct">
+      <facetEntailment facetID="WA_21_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_21_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_21_f7" label="Inferred"/>
+      <facetEntailment facetID="WA_21_f8" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="WA.21.505.1" answerText="The water froze and expanded and pushed on the side until it cracked." accuracy="correct">
+      <facetEntailment facetID="WA_21_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f7" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.21.510.1" answerText="0 degrees Celsius is 32 degrees Fahrenheit and it is 32 degrees Fahrenheit the water froze and when water freezes the ice expands." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="WA_21_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f6" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f7" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f8" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.21.521.1" answerText="Because if you leave a cup or bottle of water outside when it is 0 degrees Celsius it will crack." accuracy="irrelevant">
+      <facetEntailment facetID="WA_21_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f6" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f7" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f8" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.21.522.1" answerText="The bottle get so cold and froze that it cracked the plastic bottle." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="WA_21_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f6" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f7" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f8" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.21.523.1" answerText="Because the water in the water bottle froze and it expanded and it did not have enough room, so it cracked." accuracy="correct">
+      <facetEntailment facetID="WA_21_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f7" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.21.526.1" answerText="Because at 0 degrees Celsius water freezes, when water freezes, it expands or gets bigger, in this case too big for the container causing it to crack." accuracy="correct">
+      <facetEntailment facetID="WA_21_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f7" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.21.527.1" answerText="Because when water drops below 0 the water expands. So the water expanded so much it made the water bottle crack." accuracy="correct">
+      <facetEntailment facetID="WA_21_f1" label="Inferred"/>
+      <facetEntailment facetID="WA_21_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f3" label="Inferred"/>
+      <facetEntailment facetID="WA_21_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_21_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_21_f7" label="Inferred"/>
+      <facetEntailment facetID="WA_21_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.21.528.1" answerText="It cracked because the bottle was full and just like if you leave a pop can in the freezer too long it will burst." accuracy="irrelevant">
+      <facetEntailment facetID="WA_21_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f6" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f7" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f8" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.21.529.1" answerText="It cracked because solid ice expands. It got so cold the water turned to ice so the bottle cracked." accuracy="correct">
+      <facetEntailment facetID="WA_21_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f7" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.21.533.1" answerText="Because it was so cold it cracked." accuracy="irrelevant">
+      <facetEntailment facetID="WA_21_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f6" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f7" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f8" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.21.534.1" answerText="The bottle cracked because water expands when it hits the freezing point." accuracy="correct">
+      <facetEntailment facetID="WA_21_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_21_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_21_f7" label="Inferred"/>
+      <facetEntailment facetID="WA_21_f8" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="WA.21.536.1" answerText="Because when the temperature is below 0 degrees Celsius, water freezes and expands the water in the water bottle froze and expanded. When the water bottle could not hold it any more, it cracked." accuracy="correct">
+      <facetEntailment facetID="WA_21_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f7" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.21.539.1" answerText="It was cold outside." accuracy="irrelevant">
+      <facetEntailment facetID="WA_21_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f6" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f7" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f8" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.21.541.1" answerText="When water is frozen it expands and that is why the water bottle cracked. PS. It has happened to my dad." accuracy="correct">
+      <facetEntailment facetID="WA_21_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_21_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_21_f7" label="Inferred"/>
+      <facetEntailment facetID="WA_21_f8" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="WA.21.542.1" answerText="The bottle cracked because of how cold the water was cold water cracks plastic." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="WA_21_f1" label="Inferred"/>
+      <facetEntailment facetID="WA_21_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f3" label="Inferred"/>
+      <facetEntailment facetID="WA_21_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f6" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f7" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f8" label="Diff-Arg"/>
+    </studentAnswer>
+    <studentAnswer id="WA.21.558.1" answerText="Because the water turned to ice and the ice need space to get cold that night." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="WA_21_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f7" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f8" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.21.560.1" answerText="Because when the bottle is full and the temperature drops. The water expands." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="WA_21_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_21_f7" label="Inferred"/>
+      <facetEntailment facetID="WA_21_f8" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="WA.21.564.1" answerText="Because the bottle stays in there a long time." accuracy="irrelevant">
+      <facetEntailment facetID="WA_21_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f6" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f7" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f8" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.21.566.1" answerText="Because it froze inside the car and then it did not have much air to use so it cracked." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="WA_21_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f6" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f7" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f8" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.21.567.1" answerText="Because when the temperature is below 32 degrees Fahrenheit water will freeze. And when water freezes it expands. That is why the bottle cracked." accuracy="correct">
+      <facetEntailment facetID="WA_21_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_21_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_21_f7" label="Inferred"/>
+      <facetEntailment facetID="WA_21_f8" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="WA.21.572.1" answerText="Because it is really really really hot in cars and cars are hot." accuracy="contradictory">
+      <facetEntailment facetID="WA_21_f1" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_21_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f3" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_21_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f6" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f7" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f8" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.21.573.1" answerText="Because the water probably froze and frozen ice expands." accuracy="correct">
+      <facetEntailment facetID="WA_21_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_21_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_21_f7" label="Inferred"/>
+      <facetEntailment facetID="WA_21_f8" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="WA.21.577.1" answerText="The ice expanded because it." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="WA_21_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f6" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f7" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f8" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.21.591.1" answerText="First it was the water bottle and then since it was so cold it froze and cracked. Because it was cold." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="WA_21_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f6" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f7" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f8" label="Diff-Arg"/>
+    </studentAnswer>
+    <studentAnswer id="WA.21.593.1" answerText="Because when water burns into ice it bulges and creates more volume." accuracy="correct">
+      <facetEntailment facetID="WA_21_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_21_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_21_f7" label="Inferred"/>
+      <facetEntailment facetID="WA_21_f8" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="WA.21.595.1" answerText="When the temperature is cold 0 degrees Celsius the bottle is cold." accuracy="irrelevant">
+      <facetEntailment facetID="WA_21_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f6" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f7" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f8" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.21.599.1" answerText="Because it was getting so cold that it cracked." accuracy="irrelevant">
+      <facetEntailment facetID="WA_21_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f6" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f7" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f8" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.21.600.1" answerText="Because it turned into ice and ice expands." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="WA_21_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f6" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f7" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f8" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.21.603.1" answerText="Because it got below the freezing point and it froze and it expanded and the bottle broke open." accuracy="correct">
+      <facetEntailment facetID="WA_21_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f7" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.21.604.1" answerText="When water freezes it expands." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="WA_21_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f6" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f7" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f8" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.21.605.1" answerText="The water bottle cracked because the water in the cup got frozen and expanded which broke the cup." accuracy="correct">
+      <facetEntailment facetID="WA_21_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_21_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_21_f7" label="Inferred"/>
+      <facetEntailment facetID="WA_21_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.21.607.1" answerText="Because it get too cold." accuracy="irrelevant">
+      <facetEntailment facetID="WA_21_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f6" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f7" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f8" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.21.608.1" answerText="Because the trunk is 0 degrees Celsius in there so it broke the bottle." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="WA_21_f1" label="Inferred"/>
+      <facetEntailment facetID="WA_21_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f3" label="Inferred"/>
+      <facetEntailment facetID="WA_21_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f6" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f7" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f8" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.21.630.1" answerText="Too much pressure." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="WA_21_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f2" label="Inferred"/>
+      <facetEntailment facetID="WA_21_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_21_f7" label="Inferred"/>
+      <facetEntailment facetID="WA_21_f8" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.21.631.1" answerText="Because the water turned into ice and all the atoms spread out and broke the bottle." accuracy="correct">
+      <facetEntailment facetID="WA_21_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_21_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_21_f7" label="Inferred"/>
+      <facetEntailment facetID="WA_21_f8" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="WA.21.637.1" answerText="The water freezes and the ice's molecules spread and made it crack." accuracy="correct">
+      <facetEntailment facetID="WA_21_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_21_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_21_f7" label="Inferred"/>
+      <facetEntailment facetID="WA_21_f8" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="WA.21.640.1" answerText="It froze and it was less dense because it need more space so it needed to break because it did not have no more space to go." accuracy="correct">
+      <facetEntailment facetID="WA_21_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f2" label="Inferred"/>
+      <facetEntailment facetID="WA_21_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f7" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.21.642.1" answerText="The bottle cracked because when it freeze it expands too. So the bottle was getting pushed so it popped and cracked." accuracy="correct">
+      <facetEntailment facetID="WA_21_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_21_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_21_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_21_f7" label="Inferred"/>
+      <facetEntailment facetID="WA_21_f8" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="WA.21.643.1" answerText="Because maybe it was too cold and the water contract which make the water was too cold and crack." accuracy="contradictory">
+      <facetEntailment facetID="WA_21_f1" label="Inferred"/>
+      <facetEntailment facetID="WA_21_f2" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_21_f3" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_21_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f6" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f7" label="Unaddressed"/>
+      <facetEntailment facetID="WA_21_f8" label="Unaddressed"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

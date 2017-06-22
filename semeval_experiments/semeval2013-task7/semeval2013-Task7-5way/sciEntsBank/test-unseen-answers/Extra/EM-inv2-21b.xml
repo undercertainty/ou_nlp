@@ -1,0 +1,105 @@
+<?xml version="1.0"?>
+<question testSet="unseen-answers" id="EM_21b" module="EM">
+  <questionText>Georgia found one brown mineral and one black mineral. How will she know which one is harder?</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="EM_21b-a1" text="The harder mineral will leave a scratch on the less hard mineral. If the black mineral is harder, the brown mineral will have a scratch.">
+      <tokens>
+        <token id="EM_21b_ra1">The</token>
+        <token id="EM_21b_ra2">harder</token>
+        <token id="EM_21b_ra3">mineral</token>
+        <token id="EM_21b_ra4">will</token>
+        <token id="EM_21b_ra5">leave</token>
+        <token id="EM_21b_ra6">a</token>
+        <token id="EM_21b_ra7">scratch</token>
+        <token id="EM_21b_ra8">on</token>
+        <token id="EM_21b_ra9">the</token>
+        <token id="EM_21b_ra10">less</token>
+        <token id="EM_21b_ra11">hard</token>
+        <token id="EM_21b_ra12">mineral</token>
+        <token id="EM_21b_ra13">.</token>
+        <token id="EM_21b_ra14">If</token>
+        <token id="EM_21b_ra15">the</token>
+        <token id="EM_21b_ra16">black</token>
+        <token id="EM_21b_ra17">mineral</token>
+        <token id="EM_21b_ra18">is</token>
+        <token id="EM_21b_ra19">harder</token>
+        <token id="EM_21b_ra20">,</token>
+        <token id="EM_21b_ra21">the</token>
+        <token id="EM_21b_ra22">brown</token>
+        <token id="EM_21b_ra23">mineral</token>
+        <token id="EM_21b_ra24">will</token>
+        <token id="EM_21b_ra25">have</token>
+        <token id="EM_21b_ra26">a</token>
+        <token id="EM_21b_ra27">scratch</token>
+        <token id="EM_21b_ra28">.</token>
+      </tokens>
+      <facets>
+        <facet id="EM_21b_f1" govNum="EM_21b_ra3" modNum="EM_21b_ra2" reltn="NMod" govText="mineral" isAssumed="true" modText="harder"/>
+        <facet id="EM_21b_f2" govNum="EM_21b_ra5" modNum="EM_21b_ra3" reltn="Instrument" govText="leave" modText="mineral"/>
+        <facet id="EM_21b_f3" govNum="EM_21b_ra5" modNum="EM_21b_ra7" reltn="Theme" govText="leave" modText="scratch"/>
+        <facet id="EM_21b_f4" govNum="EM_21b_ra7" modNum="EM_21b_ra12" reltn="Location_on" govText="scratch" modText="mineral"/>
+        <facet id="EM_21b_f5" govNum="EM_21b_ra12" modNum="EM_21b_ra11" reltn="NMod" govText="mineral" isAssumed="true" modText="hard"/>
+        <facet id="EM_21b_f6" govNum="EM_21b_ra11" modNum="EM_21b_ra10" reltn="AMod" govText="hard" isAssumed="true" modText="less"/>
+        <facet id="EM_21b_f7" govNum="EM_21b_ra17" modNum="EM_21b_ra16" reltn="NMod" govText="mineral" isAssumed="true" modText="black"/>
+        <facet id="EM_21b_f8" govNum="EM_21b_ra17" modNum="EM_21b_ra19" reltn="Be" govText="mineral" isAssumed="true" modText="harder"/>
+        <facet id="EM_21b_f9" govNum="EM_21b_ra23" modNum="EM_21b_ra22" reltn="NMod" govText="mineral" isAssumed="true" modText="brown"/>
+        <facet id="EM_21b_f10" govNum="EM_21b_ra23" modNum="EM_21b_ra27" reltn="Have" govText="mineral" modText="scratch"/>
+        <facet id="EM_21b_f11" govNum="EM_21b_ra25" modNum="EM_21b_ra18" reltn="Cause_if" childProp1Facet1="EM_21b_f10" govText="have" isAssumed="true" modText="is" childProp2Facet1="EM_21b_f8"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="EM.21b.252.1" answerText="The one that starts to gather." accuracy="irrelevant">
+      <facetEntailment facetID="EM_21b_f1" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="EM_21b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="EM_21b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="EM_21b_f5" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f6" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f7" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f8" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f9" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f10" label="Unaddressed"/>
+      <facetEntailment facetID="EM_21b_f11" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.21b.357.1" answerText="That it stay the scratch." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EM_21b_f1" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="EM_21b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="EM_21b_f4" label="Inferred"/>
+      <facetEntailment facetID="EM_21b_f5" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f6" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f7" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f8" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f9" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f10" label="Inferred"/>
+      <facetEntailment facetID="EM_21b_f11" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.21b.401.1" answerText="Which one leaves a scratch." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EM_21b_f1" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f2" label="Expressed"/>
+      <facetEntailment facetID="EM_21b_f3" label="Expressed"/>
+      <facetEntailment facetID="EM_21b_f4" label="Inferred"/>
+      <facetEntailment facetID="EM_21b_f5" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f6" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f7" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f8" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f9" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f10" label="Inferred"/>
+      <facetEntailment facetID="EM_21b_f11" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.21b.645.1" answerText="The harder one leave a scratch on the less scratch mineral." accuracy="correct">
+      <facetEntailment facetID="EM_21b_f1" label="Expressed"/>
+      <facetEntailment facetID="EM_21b_f2" label="Expressed"/>
+      <facetEntailment facetID="EM_21b_f3" label="Expressed"/>
+      <facetEntailment facetID="EM_21b_f4" label="Expressed"/>
+      <facetEntailment facetID="EM_21b_f5" label="Expressed"/>
+      <facetEntailment facetID="EM_21b_f6" label="Expressed"/>
+      <facetEntailment facetID="EM_21b_f7" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f8" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f9" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f10" label="Inferred"/>
+      <facetEntailment facetID="EM_21b_f11" label="Assumed"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

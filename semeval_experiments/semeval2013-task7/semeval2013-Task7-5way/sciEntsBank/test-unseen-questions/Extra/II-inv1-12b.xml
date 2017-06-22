@@ -1,0 +1,629 @@
+<?xml version="1.0"?>
+<question testSet="unseen-questions" id="II_12b" module="II">
+  <questionText>Here are the rubbings of leaves from 2 different plants. They look similar but are not the same. [Put numbers in the 2 ovals to group the rubbings by plant into Group one and Group 2.] Describe how the rubbings show that the leaves from the 2 plants are different.</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="II_12b-a1" text="In Group one, the veins of the leaves do not meet at the center vein. In Group 2, each pair of veins comes together at the center vein.">
+      <tokens>
+        <token id="II_12b_ra1">In</token>
+        <token id="II_12b_ra2">Group</token>
+        <token id="II_12b_ra3">one</token>
+        <token id="II_12b_ra4">,</token>
+        <token id="II_12b_ra5">the</token>
+        <token id="II_12b_ra6">veins</token>
+        <token id="II_12b_ra7">of</token>
+        <token id="II_12b_ra8">the</token>
+        <token id="II_12b_ra9">leaves</token>
+        <token id="II_12b_ra10">do</token>
+        <token id="II_12b_ra11">not</token>
+        <token id="II_12b_ra12">meet</token>
+        <token id="II_12b_ra13">at</token>
+        <token id="II_12b_ra14">the</token>
+        <token id="II_12b_ra15">center</token>
+        <token id="II_12b_ra16">vein</token>
+        <token id="II_12b_ra17">.</token>
+        <token id="II_12b_ra18">In</token>
+        <token id="II_12b_ra19">Group</token>
+        <token id="II_12b_ra20">2</token>
+        <token id="II_12b_ra21">,</token>
+        <token id="II_12b_ra22">each</token>
+        <token id="II_12b_ra23">pair</token>
+        <token id="II_12b_ra24">of</token>
+        <token id="II_12b_ra25">veins</token>
+        <token id="II_12b_ra26">comes</token>
+        <token id="II_12b_ra27">together</token>
+        <token id="II_12b_ra28">at</token>
+        <token id="II_12b_ra29">the</token>
+        <token id="II_12b_ra30">center</token>
+        <token id="II_12b_ra31">vein</token>
+        <token id="II_12b_ra32">.</token>
+      </tokens>
+      <facets>
+        <facet id="II_12b_f1" govNum="II_12b_ra6" modNum="II_12b_ra3" reltn="Location_in" govText="veins" modText="one"/>
+        <facet id="II_12b_f2" govNum="II_12b_ra3" modNum="II_12b_ra2" reltn="NMod" govText="one" isAssumed="true" modText="Group"/>
+        <facet id="II_12b_f3" govNum="II_12b_ra6" modNum="II_12b_ra9" reltn="NMod_of" govText="veins" modText="leaves"/>
+        <facet id="II_12b_f4" govNum="II_12b_ra11" modNum="II_12b_ra6" reltn="Theme_neg_not" govText="meet" modText="veins"/>
+        <facet id="II_12b_f5" govNum="II_12b_ra12" modNum="II_12b_ra16" reltn="Location_at" govText="meet" modText="vein"/>
+        <facet id="II_12b_f6" govNum="II_12b_ra16" modNum="II_12b_ra15" reltn="NMod" govText="vein" modText="center"/>
+        <facet id="II_12b_f7" govNum="II_12b_ra25" modNum="II_12b_ra20" reltn="Location_in" govText="veins" modText="2"/>
+        <facet id="II_12b_f8" govNum="II_12b_ra20" modNum="II_12b_ra19" reltn="NMod" govText="2" isAssumed="true" modText="Group"/>
+        <facet id="II_12b_f9" govNum="II_12b_ra23" modNum="II_12b_ra22" reltn="Quantifier" govText="pair" modText="each"/>
+        <facet id="II_12b_f10" govNum="II_12b_ra25" modNum="II_12b_ra23" reltn="NMod_of" govText="veins" modText="pair"/>
+        <facet id="II_12b_f11" govNum="II_12b_ra26" modNum="II_12b_ra23" reltn="Theme" govText="comes together" modText="pair"/>
+        <facet id="II_12b_f12" govNum="II_12b_ra26" modNum="II_12b_ra31" reltn="Location_at" govText="comes" modText="vein"/>
+        <facet id="II_12b_f13" govNum="II_12b_ra31" modNum="II_12b_ra30" reltn="NMod" govText="vein" modText="center"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="II.12b.381.1" answerText="The bottom vein is stretching out and the other is going straight down." accuracy="correct">
+      <facetEntailment facetID="II_12b_f1" label="Inferred"/>
+      <facetEntailment facetID="II_12b_f2" label="Assumed"/>
+      <facetEntailment facetID="II_12b_f3" label="Inferred"/>
+      <facetEntailment facetID="II_12b_f4" label="Inferred"/>
+      <facetEntailment facetID="II_12b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f7" label="Inferred"/>
+      <facetEntailment facetID="II_12b_f8" label="Assumed"/>
+      <facetEntailment facetID="II_12b_f9" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f10" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f11" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f12" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f13" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="II.12b.384.1" answerText="The veins are different because 3 of them have it like this and the other one has it like this that why." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="II_12b_f1" label="Inferred"/>
+      <facetEntailment facetID="II_12b_f2" label="Assumed"/>
+      <facetEntailment facetID="II_12b_f3" label="Inferred"/>
+      <facetEntailment facetID="II_12b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f7" label="Inferred"/>
+      <facetEntailment facetID="II_12b_f8" label="Assumed"/>
+      <facetEntailment facetID="II_12b_f9" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f10" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f11" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f12" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f13" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="II.12b.387.1" answerText="The veins are rubbing because the plans are different." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="II_12b_f1" label="Inferred"/>
+      <facetEntailment facetID="II_12b_f2" label="Assumed"/>
+      <facetEntailment facetID="II_12b_f3" label="Inferred"/>
+      <facetEntailment facetID="II_12b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f7" label="Inferred"/>
+      <facetEntailment facetID="II_12b_f8" label="Assumed"/>
+      <facetEntailment facetID="II_12b_f9" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f10" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f11" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f12" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f13" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="II.12b.388.1" answerText="The veins on top are different." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="II_12b_f1" label="Inferred"/>
+      <facetEntailment facetID="II_12b_f2" label="Assumed"/>
+      <facetEntailment facetID="II_12b_f3" label="Inferred"/>
+      <facetEntailment facetID="II_12b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f7" label="Inferred"/>
+      <facetEntailment facetID="II_12b_f8" label="Assumed"/>
+      <facetEntailment facetID="II_12b_f9" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f10" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f11" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f12" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f13" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="II.12b.391.1" answerText="By the veins." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="II_12b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f2" label="Assumed"/>
+      <facetEntailment facetID="II_12b_f3" label="Inferred"/>
+      <facetEntailment facetID="II_12b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f8" label="Assumed"/>
+      <facetEntailment facetID="II_12b_f9" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f10" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f11" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f12" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f13" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="II.12b.392.1" answerText="Does leaves that are not exactly the same." accuracy="irrelevant">
+      <facetEntailment facetID="II_12b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f2" label="Assumed"/>
+      <facetEntailment facetID="II_12b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f8" label="Assumed"/>
+      <facetEntailment facetID="II_12b_f9" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f10" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f11" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f12" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f13" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="II.12b.396.1" answerText="Because some of the veins are different." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="II_12b_f1" label="Inferred"/>
+      <facetEntailment facetID="II_12b_f2" label="Assumed"/>
+      <facetEntailment facetID="II_12b_f3" label="Inferred"/>
+      <facetEntailment facetID="II_12b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f7" label="Inferred"/>
+      <facetEntailment facetID="II_12b_f8" label="Assumed"/>
+      <facetEntailment facetID="II_12b_f9" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f10" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f11" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f12" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f13" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="II.12b.399.1" answerText="Because of the veins." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="II_12b_f1" label="Inferred"/>
+      <facetEntailment facetID="II_12b_f2" label="Assumed"/>
+      <facetEntailment facetID="II_12b_f3" label="Inferred"/>
+      <facetEntailment facetID="II_12b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f7" label="Inferred"/>
+      <facetEntailment facetID="II_12b_f8" label="Assumed"/>
+      <facetEntailment facetID="II_12b_f9" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f10" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f11" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f12" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f13" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="II.12b.400.1" answerText="By the veins and the 2 Hs are different." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="II_12b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f2" label="Assumed"/>
+      <facetEntailment facetID="II_12b_f3" label="Inferred"/>
+      <facetEntailment facetID="II_12b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f8" label="Assumed"/>
+      <facetEntailment facetID="II_12b_f9" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f10" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f11" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f12" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f13" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="II.12b.405.1" answerText="The veins from the bottom." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="II_12b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f2" label="Assumed"/>
+      <facetEntailment facetID="II_12b_f3" label="Inferred"/>
+      <facetEntailment facetID="II_12b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f8" label="Assumed"/>
+      <facetEntailment facetID="II_12b_f9" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f10" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f11" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f12" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f13" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="II.12b.407.1" answerText="They are different from the veins." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="II_12b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f2" label="Assumed"/>
+      <facetEntailment facetID="II_12b_f3" label="Inferred"/>
+      <facetEntailment facetID="II_12b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f8" label="Assumed"/>
+      <facetEntailment facetID="II_12b_f9" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f10" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f11" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f12" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f13" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="II.12b.408.1" answerText="The vein." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="II_12b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f2" label="Assumed"/>
+      <facetEntailment facetID="II_12b_f3" label="Inferred"/>
+      <facetEntailment facetID="II_12b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f8" label="Assumed"/>
+      <facetEntailment facetID="II_12b_f9" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f10" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f11" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f12" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f13" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="II.12b.416.1" answerText="Some have different veins than the others." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="II_12b_f1" label="Inferred"/>
+      <facetEntailment facetID="II_12b_f2" label="Assumed"/>
+      <facetEntailment facetID="II_12b_f3" label="Inferred"/>
+      <facetEntailment facetID="II_12b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f7" label="Inferred"/>
+      <facetEntailment facetID="II_12b_f8" label="Assumed"/>
+      <facetEntailment facetID="II_12b_f9" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f10" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f11" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f12" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f13" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="II.12b.417.1" answerText="Some of them have the veins perfectly lined up others do not." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="II_12b_f1" label="Inferred"/>
+      <facetEntailment facetID="II_12b_f2" label="Assumed"/>
+      <facetEntailment facetID="II_12b_f3" label="Inferred"/>
+      <facetEntailment facetID="II_12b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f7" label="Inferred"/>
+      <facetEntailment facetID="II_12b_f8" label="Assumed"/>
+      <facetEntailment facetID="II_12b_f9" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f10" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f11" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f12" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f13" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="II.12b.419.1" answerText="Well numbers one, 3, 6 have one more than 2, 4, 5." accuracy="irrelevant">
+      <facetEntailment facetID="II_12b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f2" label="Assumed"/>
+      <facetEntailment facetID="II_12b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f8" label="Assumed"/>
+      <facetEntailment facetID="II_12b_f9" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f10" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f11" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f12" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f13" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="II.12b.424.1" answerText="I know because leaves one, 3, and 6 the veins are not together like leaves 2, 4, 5." accuracy="correct">
+      <facetEntailment facetID="II_12b_f1" label="Inferred"/>
+      <facetEntailment facetID="II_12b_f2" label="Assumed"/>
+      <facetEntailment facetID="II_12b_f3" label="Expressed"/>
+      <facetEntailment facetID="II_12b_f4" label="Expressed"/>
+      <facetEntailment facetID="II_12b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f7" label="Inferred"/>
+      <facetEntailment facetID="II_12b_f8" label="Assumed"/>
+      <facetEntailment facetID="II_12b_f9" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f10" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f11" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f12" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f13" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="II.12b.433.1" answerText="The veins are not the same." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="II_12b_f1" label="Inferred"/>
+      <facetEntailment facetID="II_12b_f2" label="Assumed"/>
+      <facetEntailment facetID="II_12b_f3" label="Inferred"/>
+      <facetEntailment facetID="II_12b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f7" label="Inferred"/>
+      <facetEntailment facetID="II_12b_f8" label="Assumed"/>
+      <facetEntailment facetID="II_12b_f9" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f10" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f11" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f12" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f13" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="II.12b.434.1" answerText="Because some are light and some are dark." accuracy="irrelevant">
+      <facetEntailment facetID="II_12b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f2" label="Assumed"/>
+      <facetEntailment facetID="II_12b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f8" label="Assumed"/>
+      <facetEntailment facetID="II_12b_f9" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f10" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f11" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f12" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f13" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="II.12b.442.1" answerText="One group feels bumpy other group feels smooth." accuracy="irrelevant">
+      <facetEntailment facetID="II_12b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f2" label="Assumed"/>
+      <facetEntailment facetID="II_12b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f8" label="Assumed"/>
+      <facetEntailment facetID="II_12b_f9" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f10" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f11" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f12" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f13" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="II.12b.451.1" answerText="The veins." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="II_12b_f1" label="Inferred"/>
+      <facetEntailment facetID="II_12b_f2" label="Assumed"/>
+      <facetEntailment facetID="II_12b_f3" label="Inferred"/>
+      <facetEntailment facetID="II_12b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f7" label="Inferred"/>
+      <facetEntailment facetID="II_12b_f8" label="Assumed"/>
+      <facetEntailment facetID="II_12b_f9" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f10" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f11" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f12" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f13" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="II.12b.464.1" answerText="They are different because some of the edges on the leaves are rougher than the other edges." accuracy="irrelevant">
+      <facetEntailment facetID="II_12b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f2" label="Assumed"/>
+      <facetEntailment facetID="II_12b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f8" label="Assumed"/>
+      <facetEntailment facetID="II_12b_f9" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f10" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f11" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f12" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f13" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="II.12b.480.1" answerText="Group one has 2 ys it has all the lines but one 3 6 does not it missing one." accuracy="irrelevant">
+      <facetEntailment facetID="II_12b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f2" label="Expressed"/>
+      <facetEntailment facetID="II_12b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f8" label="Assumed"/>
+      <facetEntailment facetID="II_12b_f9" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f10" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f11" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f12" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f13" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="II.12b.522.1" answerText="They are different because 3 are the same night and the other ones are one up and one down." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="II_12b_f1" label="Inferred"/>
+      <facetEntailment facetID="II_12b_f2" label="Assumed"/>
+      <facetEntailment facetID="II_12b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f7" label="Inferred"/>
+      <facetEntailment facetID="II_12b_f8" label="Assumed"/>
+      <facetEntailment facetID="II_12b_f9" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f10" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f11" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f12" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f13" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="II.12b.523.1" answerText="Some veins are on top some veins are in the bottom." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="II_12b_f1" label="Inferred"/>
+      <facetEntailment facetID="II_12b_f2" label="Assumed"/>
+      <facetEntailment facetID="II_12b_f3" label="Inferred"/>
+      <facetEntailment facetID="II_12b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f7" label="Inferred"/>
+      <facetEntailment facetID="II_12b_f8" label="Assumed"/>
+      <facetEntailment facetID="II_12b_f9" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f10" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f11" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f12" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f13" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="II.12b.529.1" answerText="The lines in the middle. Some are like straight and others are curved." accuracy="irrelevant">
+      <facetEntailment facetID="II_12b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f2" label="Assumed"/>
+      <facetEntailment facetID="II_12b_f3" label="Inferred"/>
+      <facetEntailment facetID="II_12b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f6" label="Inferred"/>
+      <facetEntailment facetID="II_12b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f8" label="Assumed"/>
+      <facetEntailment facetID="II_12b_f9" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f10" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f11" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f12" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f13" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="II.12b.533.1" answerText="Some are big and some are small." accuracy="irrelevant">
+      <facetEntailment facetID="II_12b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f2" label="Assumed"/>
+      <facetEntailment facetID="II_12b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f8" label="Assumed"/>
+      <facetEntailment facetID="II_12b_f9" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f10" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f11" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f12" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f13" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="II.12b.534.1" answerText="Some leaves are pinnate and some are parallel. And the veins show it too." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="II_12b_f1" label="Inferred"/>
+      <facetEntailment facetID="II_12b_f2" label="Assumed"/>
+      <facetEntailment facetID="II_12b_f3" label="Inferred"/>
+      <facetEntailment facetID="II_12b_f4" label="Expressed"/>
+      <facetEntailment facetID="II_12b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f7" label="Inferred"/>
+      <facetEntailment facetID="II_12b_f8" label="Assumed"/>
+      <facetEntailment facetID="II_12b_f9" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f10" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f11" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f12" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f13" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="II.12b.535.1" answerText="One leaf is going differently the veins one vein is going on top to bottom. Then the other one is going vein." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="II_12b_f1" label="Inferred"/>
+      <facetEntailment facetID="II_12b_f2" label="Assumed"/>
+      <facetEntailment facetID="II_12b_f3" label="Expressed"/>
+      <facetEntailment facetID="II_12b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f7" label="Inferred"/>
+      <facetEntailment facetID="II_12b_f8" label="Assumed"/>
+      <facetEntailment facetID="II_12b_f9" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f10" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f11" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f12" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f13" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="II.12b.536.1" answerText="Because it shows very fast to see them there are not the same." accuracy="irrelevant">
+      <facetEntailment facetID="II_12b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f2" label="Assumed"/>
+      <facetEntailment facetID="II_12b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f8" label="Assumed"/>
+      <facetEntailment facetID="II_12b_f9" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f10" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f11" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f12" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f13" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="II.12b.540.1" answerText="The first ones have them straight the veins and the other one has one vein down and the other one up. 2 is cracked." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="II_12b_f1" label="Expressed"/>
+      <facetEntailment facetID="II_12b_f2" label="Assumed"/>
+      <facetEntailment facetID="II_12b_f3" label="Inferred"/>
+      <facetEntailment facetID="II_12b_f4" label="Inferred"/>
+      <facetEntailment facetID="II_12b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f7" label="Inferred"/>
+      <facetEntailment facetID="II_12b_f8" label="Assumed"/>
+      <facetEntailment facetID="II_12b_f9" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f10" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f11" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f12" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f13" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="II.12b.541.1" answerText="The one is going to look like." accuracy="irrelevant">
+      <facetEntailment facetID="II_12b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f2" label="Assumed"/>
+      <facetEntailment facetID="II_12b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f8" label="Assumed"/>
+      <facetEntailment facetID="II_12b_f9" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f10" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f11" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f12" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f13" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="II.12b.542.1" answerText="Their veins are different because one, 3, 6 their veins are far down." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="II_12b_f1" label="Inferred"/>
+      <facetEntailment facetID="II_12b_f2" label="Assumed"/>
+      <facetEntailment facetID="II_12b_f3" label="Inferred"/>
+      <facetEntailment facetID="II_12b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f7" label="Inferred"/>
+      <facetEntailment facetID="II_12b_f8" label="Assumed"/>
+      <facetEntailment facetID="II_12b_f9" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f10" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f11" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f12" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f13" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="II.12b.549.1" answerText="The difference is by the top veins. One of those go up and the other ones go straight across." accuracy="correct">
+      <facetEntailment facetID="II_12b_f1" label="Inferred"/>
+      <facetEntailment facetID="II_12b_f2" label="Assumed"/>
+      <facetEntailment facetID="II_12b_f3" label="Inferred"/>
+      <facetEntailment facetID="II_12b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f7" label="Inferred"/>
+      <facetEntailment facetID="II_12b_f8" label="Assumed"/>
+      <facetEntailment facetID="II_12b_f9" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f10" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f11" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f12" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f13" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="II.12b.560.1" answerText="They show that the leaves are different from the top of the vein. Some of them are straight and some are different sides from one another." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="II_12b_f1" label="Inferred"/>
+      <facetEntailment facetID="II_12b_f2" label="Assumed"/>
+      <facetEntailment facetID="II_12b_f3" label="Expressed"/>
+      <facetEntailment facetID="II_12b_f4" label="Inferred"/>
+      <facetEntailment facetID="II_12b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f7" label="Inferred"/>
+      <facetEntailment facetID="II_12b_f8" label="Assumed"/>
+      <facetEntailment facetID="II_12b_f9" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f10" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f11" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f12" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f13" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="II.12b.565.1" answerText="At the very top the vein is different." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="II_12b_f1" label="Inferred"/>
+      <facetEntailment facetID="II_12b_f2" label="Assumed"/>
+      <facetEntailment facetID="II_12b_f3" label="Inferred"/>
+      <facetEntailment facetID="II_12b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f7" label="Inferred"/>
+      <facetEntailment facetID="II_12b_f8" label="Assumed"/>
+      <facetEntailment facetID="II_12b_f9" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f10" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f11" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f12" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f13" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="II.12b.571.1" answerText="The veins are different in group one. Is that the veins is that they are some up or some down and in group 2 they are just going across." accuracy="correct">
+      <facetEntailment facetID="II_12b_f1" label="Expressed"/>
+      <facetEntailment facetID="II_12b_f2" label="Expressed"/>
+      <facetEntailment facetID="II_12b_f3" label="Inferred"/>
+      <facetEntailment facetID="II_12b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f7" label="Expressed"/>
+      <facetEntailment facetID="II_12b_f8" label="Expressed"/>
+      <facetEntailment facetID="II_12b_f9" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f10" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f11" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f12" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f13" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="II.12b.574.1" answerText="Because the veins look different from others and some look the same." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="II_12b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f2" label="Assumed"/>
+      <facetEntailment facetID="II_12b_f3" label="Inferred"/>
+      <facetEntailment facetID="II_12b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f8" label="Assumed"/>
+      <facetEntailment facetID="II_12b_f9" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f10" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f11" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f12" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f13" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="II.12b.597.1" answerText="Group one has the roots are more down and Group 2 has the roots more up." accuracy="irrelevant">
+      <facetEntailment facetID="II_12b_f1" label="Diff-Arg"/>
+      <facetEntailment facetID="II_12b_f2" label="Expressed"/>
+      <facetEntailment facetID="II_12b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f7" label="Diff-Arg"/>
+      <facetEntailment facetID="II_12b_f8" label="Expressed"/>
+      <facetEntailment facetID="II_12b_f9" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f10" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f11" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f12" label="Unaddressed"/>
+      <facetEntailment facetID="II_12b_f13" label="Unaddressed"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

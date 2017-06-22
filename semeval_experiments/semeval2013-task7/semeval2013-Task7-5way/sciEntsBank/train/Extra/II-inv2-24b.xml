@@ -1,0 +1,245 @@
+<?xml version="1.0"?>
+<question id="II_24b" module="II">
+  <questionText>Design a way to use carbon printing to find out if 2 Labrador retrievers have the same paw patterns. How will you know if the 2 dogs have paw patterns that are the same?</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="II_24b-a1" text="Compare prints to see if the patterns are the same.">
+      <tokens>
+        <token id="II_24b_ra1">Compare</token>
+        <token id="II_24b_ra2">prints</token>
+        <token id="II_24b_ra3">to</token>
+        <token id="II_24b_ra4">see</token>
+        <token id="II_24b_ra5">if</token>
+        <token id="II_24b_ra6">the</token>
+        <token id="II_24b_ra7">patterns</token>
+        <token id="II_24b_ra8">are</token>
+        <token id="II_24b_ra9">the</token>
+        <token id="II_24b_ra10">same</token>
+        <token id="II_24b_ra11">.</token>
+      </tokens>
+      <facets>
+        <facet id="II_24b_f1" govNum="II_24b_ra1" modNum="II_24b_ra2" reltn="Patient" govText="Compare" modText="prints"/>
+        <facet id="II_24b_f2" govNum="II_24b_ra4" modNum="II_24b_ra1" reltn="Cause_to" govText="see" modText="Compare"/>
+        <facet id="II_24b_f3" govNum="II_24b_ra4" modNum="II_24b_ra8" reltn="Predicate_if" govText="see" modText="are" childProp2Facet1="II_24b_f4"/>
+        <facet id="II_24b_f4" govNum="II_24b_ra7" modNum="II_24b_ra10" reltn="Be" govText="patterns" modText="same"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="II.24b.383.1" answerText="I will use carbon printing to know." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="II_24b_f1" label="Inferred"/>
+      <facetEntailment facetID="II_24b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="II_24b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="II_24b_f4" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="II.24b.387.1" answerText="I will know when the dogs are asleep." accuracy="irrelevant">
+      <facetEntailment facetID="II_24b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="II_24b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="II_24b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="II_24b_f4" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="II.24b.395.1" answerText="They will look exactly the same, same size same pattern." accuracy="correct">
+      <facetEntailment facetID="II_24b_f1" label="Inferred"/>
+      <facetEntailment facetID="II_24b_f2" label="Inferred"/>
+      <facetEntailment facetID="II_24b_f3" label="Inferred"/>
+      <facetEntailment facetID="II_24b_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="II.24b.399.1" answerText="So you can see if the bags have the same paw." accuracy="correct">
+      <facetEntailment facetID="II_24b_f1" label="Inferred"/>
+      <facetEntailment facetID="II_24b_f2" label="Inferred"/>
+      <facetEntailment facetID="II_24b_f3" label="Inferred"/>
+      <facetEntailment facetID="II_24b_f4" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="II.24b.402.1" answerText="Some dogs more cracks on their paws." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="II_24b_f1" label="Inferred"/>
+      <facetEntailment facetID="II_24b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="II_24b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="II_24b_f4" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="II.24b.403.1" answerText="I will by looking if the dogs have paw prints." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="II_24b_f1" label="Expressed"/>
+      <facetEntailment facetID="II_24b_f2" label="Expressed"/>
+      <facetEntailment facetID="II_24b_f3" label="Inferred"/>
+      <facetEntailment facetID="II_24b_f4" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="II.24b.406.1" answerText="Look at microscope." accuracy="irrelevant">
+      <facetEntailment facetID="II_24b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="II_24b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="II_24b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="II_24b_f4" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="II.24b.417.1" answerText="Study them both." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="II_24b_f1" label="Inferred"/>
+      <facetEntailment facetID="II_24b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="II_24b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="II_24b_f4" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="II.24b.422.1" answerText="If they look the same." accuracy="correct">
+      <facetEntailment facetID="II_24b_f1" label="Inferred"/>
+      <facetEntailment facetID="II_24b_f2" label="Inferred"/>
+      <facetEntailment facetID="II_24b_f3" label="Inferred"/>
+      <facetEntailment facetID="II_24b_f4" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="II.24b.424.1" answerText="By looking at the patterns." accuracy="correct">
+      <facetEntailment facetID="II_24b_f1" label="Inferred"/>
+      <facetEntailment facetID="II_24b_f2" label="Inferred"/>
+      <facetEntailment facetID="II_24b_f3" label="Inferred"/>
+      <facetEntailment facetID="II_24b_f4" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="II.24b.428.1" answerText="I tell what is he mean." accuracy="irrelevant">
+      <facetEntailment facetID="II_24b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="II_24b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="II_24b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="II_24b_f4" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="II.24b.431.1" answerText="The carbon printings will look the same." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="II_24b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="II_24b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="II_24b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="II_24b_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="II.24b.433.1" answerText="It is the different dog and is not the same." accuracy="irrelevant">
+      <facetEntailment facetID="II_24b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="II_24b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="II_24b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="II_24b_f4" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="II.24b.441.1" answerText="Their paw prints will be the same." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="II_24b_f1" label="Inferred"/>
+      <facetEntailment facetID="II_24b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="II_24b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="II_24b_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="II.24b.458.1" answerText="They will both have either arches, loops, or whorls. That is how they will be the same." accuracy="correct">
+      <facetEntailment facetID="II_24b_f1" label="Inferred"/>
+      <facetEntailment facetID="II_24b_f2" label="Inferred"/>
+      <facetEntailment facetID="II_24b_f3" label="Inferred"/>
+      <facetEntailment facetID="II_24b_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="II.24b.460.1" answerText="By comparing the 2 prints." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="II_24b_f1" label="Expressed"/>
+      <facetEntailment facetID="II_24b_f2" label="Inferred"/>
+      <facetEntailment facetID="II_24b_f3" label="Inferred"/>
+      <facetEntailment facetID="II_24b_f4" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="II.24b.467.1" answerText="You look real hard to see that either their toes are separated or they have print on them." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="II_24b_f1" label="Inferred"/>
+      <facetEntailment facetID="II_24b_f2" label="Inferred"/>
+      <facetEntailment facetID="II_24b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="II_24b_f4" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="II.24b.472.1" answerText="Identify them with a magnifying glass and see if they are the same." accuracy="correct">
+      <facetEntailment facetID="II_24b_f1" label="Expressed"/>
+      <facetEntailment facetID="II_24b_f2" label="Expressed"/>
+      <facetEntailment facetID="II_24b_f3" label="Expressed"/>
+      <facetEntailment facetID="II_24b_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="II.24b.480.1" answerText="If you discover if the dogs have the something is a loop arch or a whorl for the dog." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="II_24b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="II_24b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="II_24b_f3" label="Inferred"/>
+      <facetEntailment facetID="II_24b_f4" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="II.24b.521.1" answerText="The finger texture, shape." accuracy="irrelevant">
+      <facetEntailment facetID="II_24b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="II_24b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="II_24b_f3" label="Diff-Arg"/>
+      <facetEntailment facetID="II_24b_f4" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="II.24b.528.1" answerText="Maybe they both have arches but not in the same way." accuracy="irrelevant">
+      <facetEntailment facetID="II_24b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="II_24b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="II_24b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="II_24b_f4" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="II.24b.540.1" answerText="By telling if it is a whorl a loop or an arch." accuracy="correct">
+      <facetEntailment facetID="II_24b_f1" label="Inferred"/>
+      <facetEntailment facetID="II_24b_f2" label="Inferred"/>
+      <facetEntailment facetID="II_24b_f3" label="Inferred"/>
+      <facetEntailment facetID="II_24b_f4" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="II.24b.543.1" answerText="They came from the same kind of dogs." accuracy="irrelevant">
+      <facetEntailment facetID="II_24b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="II_24b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="II_24b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="II_24b_f4" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="II.24b.556.1" answerText="If they are the same dog." accuracy="irrelevant">
+      <facetEntailment facetID="II_24b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="II_24b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="II_24b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="II_24b_f4" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="II.24b.558.1" answerText="You can see the designs." accuracy="irrelevant">
+      <facetEntailment facetID="II_24b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="II_24b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="II_24b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="II_24b_f4" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="II.24b.564.1" answerText="You can tell if the 2 dogs' paw prints are the same if it is the same as exactly the same dog." accuracy="correct">
+      <facetEntailment facetID="II_24b_f1" label="Inferred"/>
+      <facetEntailment facetID="II_24b_f2" label="Inferred"/>
+      <facetEntailment facetID="II_24b_f3" label="Inferred"/>
+      <facetEntailment facetID="II_24b_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="II.24b.568.1" answerText="No 2 prints are the same." accuracy="contradictory">
+      <facetEntailment facetID="II_24b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="II_24b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="II_24b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="II_24b_f4" label="Contra-Expr"/>
+    </studentAnswer>
+    <studentAnswer id="II.24b.571.1" answerText="The dog's name will be on the paper so you know which dog it came from." accuracy="irrelevant">
+      <facetEntailment facetID="II_24b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="II_24b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="II_24b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="II_24b_f4" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="II.24b.573.1" answerText="You will compare the paw prints." accuracy="correct">
+      <facetEntailment facetID="II_24b_f1" label="Expressed"/>
+      <facetEntailment facetID="II_24b_f2" label="Inferred"/>
+      <facetEntailment facetID="II_24b_f3" label="Inferred"/>
+      <facetEntailment facetID="II_24b_f4" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="II.24b.578.1" answerText="They have the same curves and shapes." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="II_24b_f1" label="Inferred"/>
+      <facetEntailment facetID="II_24b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="II_24b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="II_24b_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="II.24b.582.1" answerText="If they have the same kind of arch, loop, or whorl." accuracy="correct">
+      <facetEntailment facetID="II_24b_f1" label="Inferred"/>
+      <facetEntailment facetID="II_24b_f2" label="Inferred"/>
+      <facetEntailment facetID="II_24b_f3" label="Inferred"/>
+      <facetEntailment facetID="II_24b_f4" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="II.24b.593.1" answerText="You would be able to try the print." accuracy="irrelevant">
+      <facetEntailment facetID="II_24b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="II_24b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="II_24b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="II_24b_f4" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="II.24b.599.1" answerText="We cannot tell if they have the same fingerprint we cannot tell if 2 have the same fingerprint." accuracy="irrelevant">
+      <facetEntailment facetID="II_24b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="II_24b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="II_24b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="II_24b_f4" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="II.24b.603.1" answerText="You could scan both pieces of paper and look at the ridges and grooves in the prints." accuracy="correct">
+      <facetEntailment facetID="II_24b_f1" label="Expressed"/>
+      <facetEntailment facetID="II_24b_f2" label="Expressed"/>
+      <facetEntailment facetID="II_24b_f3" label="Inferred"/>
+      <facetEntailment facetID="II_24b_f4" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="II.24b.613.1" answerText="I would look at them to tell." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="II_24b_f1" label="Expressed"/>
+      <facetEntailment facetID="II_24b_f2" label="Inferred"/>
+      <facetEntailment facetID="II_24b_f3" label="Inferred"/>
+      <facetEntailment facetID="II_24b_f4" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="II.24b.615.1" answerText="To put the tape on it and look to see if it is the same type." accuracy="correct">
+      <facetEntailment facetID="II_24b_f1" label="Inferred"/>
+      <facetEntailment facetID="II_24b_f2" label="Inferred"/>
+      <facetEntailment facetID="II_24b_f3" label="Expressed"/>
+      <facetEntailment facetID="II_24b_f4" label="Inferred"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<question testSet="unseen-answers" id="FN_17a" module="FN">
+  <questionText>Paula wants to test a food to see if it contains acid and/or sugar. When Paula added water and yeast to a sample of the food and put the mixture in a warm water bath, the mixture began to fizz and bubble. What does this chemical reaction indicate?</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="FN_17a-a1" text="The food contains sugar.">
+      <tokens>
+        <token id="FN_17a_ra1">The</token>
+        <token id="FN_17a_ra2">food</token>
+        <token id="FN_17a_ra3">contains</token>
+        <token id="FN_17a_ra4">sugar</token>
+        <token id="FN_17a_ra5">.</token>
+      </tokens>
+      <facets>
+        <facet id="FN_17a_f1" govNum="FN_17a_ra3" modNum="FN_17a_ra2" reltn="Theme" govText="contains" isAssumed="true" modText="food"/>
+        <facet id="FN_17a_f2" govNum="FN_17a_ra3" modNum="FN_17a_ra4" reltn="Material" govText="contains" modText="sugar"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="FN.17a.143.1" answerText="She is doing a sugar test." accuracy="correct">
+      <facetEntailment facetID="FN_17a_f1" label="Assumed"/>
+      <facetEntailment facetID="FN_17a_f2" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="FN.17a.210.1" answerText="The chemical reaction indicates that yeast has acid." accuracy="irrelevant">
+      <facetEntailment facetID="FN_17a_f1" label="Diff-Arg"/>
+      <facetEntailment facetID="FN_17a_f2" label="Diff-Arg"/>
+    </studentAnswer>
+    <studentAnswer id="FN.17a.313.1" answerText="That this food has acid and or sugar." accuracy="correct">
+      <facetEntailment facetID="FN_17a_f1" label="Expressed"/>
+      <facetEntailment facetID="FN_17a_f2" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.17a.495.1" answerText="The chemical reaction creates acid." accuracy="irrelevant">
+      <facetEntailment facetID="FN_17a_f1" label="Assumed"/>
+      <facetEntailment facetID="FN_17a_f2" label="Unaddressed"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

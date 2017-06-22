@@ -1,0 +1,1413 @@
+<?xml version="1.0"?>
+<question testSet="unseen-questions" id="HYBRID_BURNED_OUT_WHY_Q1" module="SwitchesBulbsParallel" stype="EVALUATE" qtype="Q_EXPLAIN_SPECIFIC">
+  <questionText>Why do both bulbs B and C go out when bulb A is burned out?</questionText>
+  <referenceAnswers>
+    <referenceAnswer category="BEST" id="answer391" fileID="HYBRID_BURNED_OUT_WHY_Q1_ANS1">If bulb A burns out, B and C are no longer in a closed path with the battery</referenceAnswer>
+    <referenceAnswer category="GOOD" id="answer392" fileID="HYBRID_BURNED_OUT_WHY_Q1_ANS1A">If bulb A burns out, there is no longer a closed path containing B, C and the battery</referenceAnswer>
+    <referenceAnswer category="GOOD" id="answer393" fileID="HYBRID_BURNED_OUT_WHY_Q1_ANS1_OLD">A creates a gap in their path, so B and C aren't in a closed path with the battery anymore</referenceAnswer>
+    <referenceAnswer category="GOOD" id="answer394" fileID="HYBRID_BURNED_OUT_WHY_Q1_ANS2">A creates a gap in their path, so the path is no longer closed</referenceAnswer>
+    <referenceAnswer category="GOOD" id="answer395" fileID="HYBRID_BURNED_OUT_WHY_Q1_ANS3">A is in the path with B and C</referenceAnswer>
+    <referenceAnswer category="GOOD" id="answer395.1" fileID="HYBRID_BURNED_OUT_WHY_Q1_ANS3a">A is in the path with B and C and the battery</referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q1.sbj3-l2.qa107" accuracy="correct" answerMatch="answer391" raw_text="because bulb b and c will not be contained in a closed path with the battery" count="1">
+      <token id="tok2022" status="ok">because</token>
+      <token id="tok2023" status="ok">bulb</token>
+      <token id="tok2024" status="ok">b</token>
+      <token id="tok2025" status="ok">and</token>
+      <token id="tok2026" status="ok">c</token>
+      <token id="tok2027" status="ok">will</token>
+      <token id="tok2028" status="ok">not</token>
+      <token id="tok2029" status="ok">be</token>
+      <token id="tok2030" status="ok">contained</token>
+      <token id="tok2031" status="ok">in</token>
+      <token id="tok2032" status="ok">a</token>
+      <token id="tok2033" status="ok">closed</token>
+      <token id="tok2034" status="ok">path</token>
+      <token id="tok2035" status="ok">with</token>
+      <token id="tok2036" status="ok">the</token>
+      <token id="tok2037" status="ok">battery</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q1.sbj7-l2.qa111" accuracy="correct" answerMatch="answer392" raw_text="there is no closed path that contains the battery, bulb b, and bulb c" count="1">
+      <token id="tok2131" status="ok">there</token>
+      <token id="tok2132" status="ok">is</token>
+      <token id="tok2133" status="ok">no</token>
+      <token id="tok2134" status="ok">closed</token>
+      <token id="tok2135" status="ok">path</token>
+      <token id="tok2136" status="ok">that</token>
+      <token id="tok2137" status="ok">contains</token>
+      <token id="tok2138" status="ok">the</token>
+      <token id="tok2139" status="ok">battery</token>
+      <token id="tok2140" status="ok">bulb</token>
+      <token id="tok2141" status="ok">b</token>
+      <token id="tok2142" status="ok">and</token>
+      <token id="tok2143" status="ok">bulb</token>
+      <token id="tok2144" status="ok">c</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q1.sbj8-l2.qa118" accuracy="partially_correct_incomplete" answerMatch="answer395" raw_text="Because they are connected" count="1">
+      <token id="tok2394" status="ok">Because</token>
+      <token id="tok2395" status="ok">they</token>
+      <token id="tok2396" status="ok">are</token>
+      <token id="tok2397" status="ok">connected</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q1.sbj8-l2.qa119" accuracy="contradictory" answerMatch="answer395" raw_text="they are within the same path" count="1">
+      <token id="tok2410" status="ok">they</token>
+      <token id="tok2411" status="ok">are</token>
+      <token id="tok2412" status="ok">within</token>
+      <token id="tok2413" status="ok">the</token>
+      <token id="tok2414" status="ok">same</token>
+      <token id="tok2415" status="ok">path</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q1.sbj8-l2.qa120" accuracy="contradictory" answerMatch="answer395" raw_text="bulb b and bulb c are both contained in the same path as bulb" count="1">
+      <token id="tok2427" status="ok">bulb</token>
+      <token id="tok2428" status="ok">b</token>
+      <token id="tok2429" status="ok">and</token>
+      <token id="tok2430" status="ok">bulb</token>
+      <token id="tok2431" status="ok">c</token>
+      <token id="tok2432" status="ok">are</token>
+      <token id="tok2433" status="ok">both</token>
+      <token id="tok2434" status="ok">contained</token>
+      <token id="tok2435" status="ok">in</token>
+      <token id="tok2436" status="ok">the</token>
+      <token id="tok2437" status="ok">same</token>
+      <token id="tok2438" status="ok">path</token>
+      <token id="tok2439" status="ok">as</token>
+      <token id="tok2440" status="ok">bulb</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q1.sbj8-l2.qa121" accuracy="non_domain" raw_text="ki" count="1">
+      <token id="tok2458" status="nonWord">ki</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q1.sbj9-l2.qa112" accuracy="correct" answerMatch="answer391" raw_text="because bulbs b and c are no longer contained in a closed path with the battery." count="1">
+      <token id="tok2142" status="ok">because</token>
+      <token id="tok2143" status="ok">bulbs</token>
+      <token id="tok2144" status="ok">b</token>
+      <token id="tok2145" status="ok">and</token>
+      <token id="tok2146" status="ok">c</token>
+      <token id="tok2147" status="ok">are</token>
+      <token id="tok2148" status="ok">no</token>
+      <token id="tok2149" status="ok">longer</token>
+      <token id="tok2150" status="ok">contained</token>
+      <token id="tok2151" status="ok">in</token>
+      <token id="tok2152" status="ok">a</token>
+      <token id="tok2153" status="ok">closed</token>
+      <token id="tok2154" status="ok">path</token>
+      <token id="tok2155" status="ok">with</token>
+      <token id="tok2156" status="ok">the</token>
+      <token id="tok2157" status="ok">battery</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q1.sbj10-l2.qa115" accuracy="correct" answerMatch="answer394" raw_text="because damaged bulb a creates a gap" count="1">
+      <token id="tok2265" status="ok">because</token>
+      <token id="tok2266" status="ok">damaged</token>
+      <token id="tok2267" status="ok">bulb</token>
+      <token id="tok2268" status="ok">a</token>
+      <token id="tok2269" status="ok">creates</token>
+      <token id="tok2270" status="ok">a</token>
+      <token id="tok2271" status="ok">gap</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q1.sbj10-l2.qa116" accuracy="correct" answerMatch="answer394" raw_text="bulb a creates a gap and makes an open path" count="1">
+      <token id="tok2280" status="ok">bulb</token>
+      <token id="tok2281" status="ok">a</token>
+      <token id="tok2282" status="ok">creates</token>
+      <token id="tok2283" status="ok">a</token>
+      <token id="tok2284" status="ok">gap</token>
+      <token id="tok2285" status="ok">and</token>
+      <token id="tok2286" status="ok">makes</token>
+      <token id="tok2287" status="ok">an</token>
+      <token id="tok2288" status="ok">open</token>
+      <token id="tok2289" status="ok">path</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q1.sbj10-l2.qa117" accuracy="contradictory" raw_text="bulb a is contained in a closed circuit with the battery" count="1">
+      <token id="tok2311" status="ok">bulb</token>
+      <token id="tok2312" status="ok">a</token>
+      <token id="tok2313" status="ok">is</token>
+      <token id="tok2314" status="ok">contained</token>
+      <token id="tok2315" status="ok">in</token>
+      <token id="tok2316" status="ok">a</token>
+      <token id="tok2317" status="ok">closed</token>
+      <token id="tok2318" status="ok">circuit</token>
+      <token id="tok2319" status="ok">with</token>
+      <token id="tok2320" status="ok">the</token>
+      <token id="tok2321" status="ok">battery</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q1.sbj11-l2.qa116" accuracy="correct" answerMatch="answer394" raw_text="because bulb A creates a gap in the closed path." count="1">
+      <token id="tok2329" status="ok">because</token>
+      <token id="tok2330" status="ok">bulb</token>
+      <token id="tok2331" status="ok">A</token>
+      <token id="tok2332" status="ok">creates</token>
+      <token id="tok2333" status="ok">a</token>
+      <token id="tok2334" status="ok">gap</token>
+      <token id="tok2335" status="ok">in</token>
+      <token id="tok2336" status="ok">the</token>
+      <token id="tok2337" status="ok">closed</token>
+      <token id="tok2338" status="ok">path</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q1.sbj12-l2.qa121" accuracy="partially_correct_incomplete" answerMatch="answer394" raw_text="If bulb a is damaged it creates a gap" count="1">
+      <token id="tok2281" status="ok">If</token>
+      <token id="tok2282" status="ok">bulb</token>
+      <token id="tok2283" status="ok">a</token>
+      <token id="tok2284" status="ok">is</token>
+      <token id="tok2285" status="ok">damaged</token>
+      <token id="tok2286" status="ok">it</token>
+      <token id="tok2287" status="ok">creates</token>
+      <token id="tok2288" status="ok">a</token>
+      <token id="tok2289" status="ok">gap</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q1.sbj12-l2.qa122" accuracy="partially_correct_incomplete" answerMatch="answer394" raw_text="if bulb a is damaged, bulb a creates a gap in the path" count="1">
+      <token id="tok2305" status="ok">if</token>
+      <token id="tok2306" status="ok">bulb</token>
+      <token id="tok2307" status="ok">a</token>
+      <token id="tok2308" status="ok">is</token>
+      <token id="tok2309" status="ok">damaged</token>
+      <token id="tok2310" status="ok">bulb</token>
+      <token id="tok2311" status="ok">a</token>
+      <token id="tok2312" status="ok">creates</token>
+      <token id="tok2313" status="ok">a</token>
+      <token id="tok2314" status="ok">gap</token>
+      <token id="tok2315" status="ok">in</token>
+      <token id="tok2316" status="ok">the</token>
+      <token id="tok2317" status="ok">path</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q1.sbj12-l2.qa123" accuracy="partially_correct_incomplete" answerMatch="answer393" raw_text="Bulb a creates a gap and bulbs b and c can not light" count="1">
+      <token id="tok2326" status="ok">Bulb</token>
+      <token id="tok2327" status="ok">a</token>
+      <token id="tok2328" status="ok">creates</token>
+      <token id="tok2329" status="ok">a</token>
+      <token id="tok2330" status="ok">gap</token>
+      <token id="tok2331" status="ok">and</token>
+      <token id="tok2332" status="ok">bulbs</token>
+      <token id="tok2333" status="ok">b</token>
+      <token id="tok2334" status="ok">and</token>
+      <token id="tok2335" status="ok">c</token>
+      <token id="tok2336" status="ok">can</token>
+      <token id="tok2337" status="ok">not</token>
+      <token id="tok2338" status="ok">light</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q1.sbj13-l2.qa121" accuracy="partially_correct_incomplete" answerMatch="answer395" raw_text="bulbs b and c are in the same path." count="1">
+      <token id="tok2470" status="ok">bulbs</token>
+      <token id="tok2471" status="ok">b</token>
+      <token id="tok2472" status="ok">and</token>
+      <token id="tok2473" status="ok">c</token>
+      <token id="tok2474" status="ok">are</token>
+      <token id="tok2475" status="ok">in</token>
+      <token id="tok2476" status="ok">the</token>
+      <token id="tok2477" status="ok">same</token>
+      <token id="tok2478" status="ok">path</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q1.sbj13-l2.qa122" accuracy="contradictory" raw_text="bulb a is not in the same path of bulbs b and c." count="1">
+      <token id="tok2493" status="ok">bulb</token>
+      <token id="tok2494" status="ok">a</token>
+      <token id="tok2495" status="ok">is</token>
+      <token id="tok2496" status="ok">not</token>
+      <token id="tok2497" status="ok">in</token>
+      <token id="tok2498" status="ok">the</token>
+      <token id="tok2499" status="ok">same</token>
+      <token id="tok2500" status="ok">path</token>
+      <token id="tok2501" status="ok">of</token>
+      <token id="tok2502" status="ok">bulbs</token>
+      <token id="tok2503" status="ok">b</token>
+      <token id="tok2504" status="ok">and</token>
+      <token id="tok2505" status="ok">c</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q1.sbj13-l2.qa123" accuracy="correct" answerMatch="answer395" raw_text="bulb a is in the same path of bulbs b and c." count="1">
+      <token id="tok2519" status="ok">bulb</token>
+      <token id="tok2520" status="ok">a</token>
+      <token id="tok2521" status="ok">is</token>
+      <token id="tok2522" status="ok">in</token>
+      <token id="tok2523" status="ok">the</token>
+      <token id="tok2524" status="ok">same</token>
+      <token id="tok2525" status="ok">path</token>
+      <token id="tok2526" status="ok">of</token>
+      <token id="tok2527" status="ok">bulbs</token>
+      <token id="tok2528" status="ok">b</token>
+      <token id="tok2529" status="ok">and</token>
+      <token id="tok2530" status="ok">c</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q1.sbj14-l2.qa117" accuracy="correct" answerMatch="answer395" raw_text="Bulb B and bulb c were on the same path as bulb A." count="1">
+      <token id="tok2224" status="ok">Bulb</token>
+      <token id="tok2225" status="ok">B</token>
+      <token id="tok2226" status="ok">and</token>
+      <token id="tok2227" status="ok">bulb</token>
+      <token id="tok2228" status="ok">c</token>
+      <token id="tok2229" status="ok">were</token>
+      <token id="tok2230" status="ok">on</token>
+      <token id="tok2231" status="ok">the</token>
+      <token id="tok2232" status="ok">same</token>
+      <token id="tok2233" status="ok">path</token>
+      <token id="tok2234" status="ok">as</token>
+      <token id="tok2235" status="ok">bulb</token>
+      <token id="tok2236" status="ok">A</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q1.sbj14-l2.qa118" accuracy="correct" answerMatch="answer395" raw_text="All are on the same path." count="1">
+      <token id="tok2254" status="ok">All</token>
+      <token id="tok2255" status="ok">are</token>
+      <token id="tok2256" status="ok">on</token>
+      <token id="tok2257" status="ok">the</token>
+      <token id="tok2258" status="ok">same</token>
+      <token id="tok2259" status="ok">path</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q1.sbj14-l2.qa119" accuracy="partially_correct_incomplete" answerMatch="answer394" raw_text="Bulb B and bulb C are contained in an open path." count="1">
+      <token id="tok2285" status="ok">Bulb</token>
+      <token id="tok2286" status="ok">B</token>
+      <token id="tok2287" status="ok">and</token>
+      <token id="tok2288" status="ok">bulb</token>
+      <token id="tok2289" status="ok">C</token>
+      <token id="tok2290" status="ok">are</token>
+      <token id="tok2291" status="ok">contained</token>
+      <token id="tok2292" status="ok">in</token>
+      <token id="tok2293" status="ok">an</token>
+      <token id="tok2294" status="ok">open</token>
+      <token id="tok2295" status="ok">path</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q1.sbj15-l2.qa137" accuracy="contradictory" raw_text="because the terminals were the same" count="1">
+      <token id="tok2878" status="ok">because</token>
+      <token id="tok2879" status="ok">the</token>
+      <token id="tok2880" status="ok">terminals</token>
+      <token id="tok2881" status="ok">were</token>
+      <token id="tok2882" status="ok">the</token>
+      <token id="tok2883" status="ok">same</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q1.sbj15-l2.qa138" accuracy="partially_correct_incomplete" answerMatch="answer395.1" raw_text="the battery is in the same connection as the bulb" count="1">
+      <token id="tok2895" status="ok">the</token>
+      <token id="tok2896" status="ok">battery</token>
+      <token id="tok2897" status="ok">is</token>
+      <token id="tok2898" status="ok">in</token>
+      <token id="tok2899" status="ok">the</token>
+      <token id="tok2900" status="ok">same</token>
+      <token id="tok2901" status="ok">connection</token>
+      <token id="tok2902" status="ok">as</token>
+      <token id="tok2903" status="ok">the</token>
+      <token id="tok2904" status="ok">bulb</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q1.sbj15-l2.qa139" accuracy="contradictory" raw_text="the battery is contained in the same terminal as the bulb" count="1">
+      <token id="tok2932" status="ok">the</token>
+      <token id="tok2933" status="ok">battery</token>
+      <token id="tok2934" status="ok">is</token>
+      <token id="tok2935" status="ok">contained</token>
+      <token id="tok2936" status="ok">in</token>
+      <token id="tok2937" status="ok">the</token>
+      <token id="tok2938" status="ok">same</token>
+      <token id="tok2939" status="ok">terminal</token>
+      <token id="tok2940" status="ok">as</token>
+      <token id="tok2941" status="ok">the</token>
+      <token id="tok2942" status="ok">bulb</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q1.sbj18-l2.qa110" accuracy="correct" answerMatch="answer392" raw_text="Bulbs b and c are not contained in a closed path with the battery" count="1">
+      <token id="tok2142" status="ok">Bulbs</token>
+      <token id="tok2143" status="ok">b</token>
+      <token id="tok2144" status="ok">and</token>
+      <token id="tok2145" status="ok">c</token>
+      <token id="tok2146" status="ok">are</token>
+      <token id="tok2147" status="ok">not</token>
+      <token id="tok2148" status="ok">contained</token>
+      <token id="tok2149" status="ok">in</token>
+      <token id="tok2150" status="ok">a</token>
+      <token id="tok2151" status="ok">closed</token>
+      <token id="tok2152" status="ok">path</token>
+      <token id="tok2153" status="ok">with</token>
+      <token id="tok2154" status="ok">the</token>
+      <token id="tok2155" status="ok">battery</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q1.sbj19-l2.qa135" accuracy="contradictory" answerMatch="answer395" raw_text="they are all contained in a closed path" count="1">
+      <token id="tok2847" status="ok">they</token>
+      <token id="tok2848" status="ok">are</token>
+      <token id="tok2849" status="ok">all</token>
+      <token id="tok2850" status="ok">contained</token>
+      <token id="tok2851" status="ok">in</token>
+      <token id="tok2852" status="ok">a</token>
+      <token id="tok2853" status="ok">closed</token>
+      <token id="tok2854" status="ok">path</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q1.sbj19-l2.qa136" accuracy="partially_correct_incomplete" answerMatch="answer391" raw_text="they are not contained in a closed path" count="1">
+      <token id="tok2879" status="ok">they</token>
+      <token id="tok2880" status="ok">are</token>
+      <token id="tok2881" status="ok">not</token>
+      <token id="tok2882" status="ok">contained</token>
+      <token id="tok2883" status="ok">in</token>
+      <token id="tok2884" status="ok">a</token>
+      <token id="tok2885" status="ok">closed</token>
+      <token id="tok2886" status="ok">path</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q1.sbj19-l2.qa137" accuracy="partially_correct_incomplete" answerMatch="answer393" raw_text="the battery is contained in a open path" count="1">
+      <token id="tok2904" status="ok">the</token>
+      <token id="tok2905" status="ok">battery</token>
+      <token id="tok2906" status="ok">is</token>
+      <token id="tok2907" status="ok">contained</token>
+      <token id="tok2908" status="ok">in</token>
+      <token id="tok2909" status="ok">a</token>
+      <token id="tok2910" status="ok">open</token>
+      <token id="tok2911" status="ok">path</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q1.sbj22-l2.qa120" accuracy="partially_correct_incomplete" answerMatch="answer391" raw_text="there is a gap between the battery at bulb a" count="1">
+      <token id="tok2413" status="ok">there</token>
+      <token id="tok2414" status="ok">is</token>
+      <token id="tok2415" status="ok">a</token>
+      <token id="tok2416" status="ok">gap</token>
+      <token id="tok2417" status="ok">between</token>
+      <token id="tok2418" status="ok">the</token>
+      <token id="tok2419" status="ok">battery</token>
+      <token id="tok2420" status="ok">at</token>
+      <token id="tok2421" status="ok">bulb</token>
+      <token id="tok2422" status="ok">a</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q1.sbj22-l2.qa121" accuracy="non_domain" raw_text="l" count="2">
+      <token id="tok2443" status="nonWord">l</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q1.sbj22-l2.qa122" accuracy="contradictory" raw_text="bulb a contains a closed path to the battery" count="1">
+      <token id="tok2463" status="ok">bulb</token>
+      <token id="tok2464" status="ok">a</token>
+      <token id="tok2465" status="ok">contains</token>
+      <token id="tok2466" status="ok">a</token>
+      <token id="tok2467" status="ok">closed</token>
+      <token id="tok2468" status="ok">path</token>
+      <token id="tok2469" status="ok">to</token>
+      <token id="tok2470" status="ok">the</token>
+      <token id="tok2471" status="ok">battery</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q1.sbj23-l2.qa116" accuracy="correct" answerMatch="answer391" raw_text="Bulb B and Bulb C and the battery are not in a closed path." count="1">
+      <token id="tok2213" status="ok">Bulb</token>
+      <token id="tok2214" status="ok">B</token>
+      <token id="tok2215" status="ok">and</token>
+      <token id="tok2216" status="ok">Bulb</token>
+      <token id="tok2217" status="ok">C</token>
+      <token id="tok2218" status="ok">and</token>
+      <token id="tok2219" status="ok">the</token>
+      <token id="tok2220" status="ok">battery</token>
+      <token id="tok2221" status="ok">are</token>
+      <token id="tok2222" status="ok">not</token>
+      <token id="tok2223" status="ok">in</token>
+      <token id="tok2224" status="ok">a</token>
+      <token id="tok2225" status="ok">closed</token>
+      <token id="tok2226" status="ok">path</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q1.sbj24-l2.qa112" accuracy="partially_correct_incomplete" answerMatch="answer395" raw_text="bulb&quot;s B and C are in the same path" count="1">
+      <token id="tok2094+" original="bulb's" status="ok">bulbs</token>
+      <token id="tok2096" status="ok">B</token>
+      <token id="tok2097" status="ok">and</token>
+      <token id="tok2098" status="ok">C</token>
+      <token id="tok2099" status="ok">are</token>
+      <token id="tok2100" status="ok">in</token>
+      <token id="tok2101" status="ok">the</token>
+      <token id="tok2102" status="ok">same</token>
+      <token id="tok2103" status="ok">path</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q1.sbj24-l2.qa113" accuracy="correct" answerMatch="answer395" raw_text="Bulb B and C are in Bulb A&quot;s path" count="1">
+      <token id="tok2117" status="ok">Bulb</token>
+      <token id="tok2118" status="ok">B</token>
+      <token id="tok2119" status="ok">and</token>
+      <token id="tok2120" status="ok">C</token>
+      <token id="tok2121" status="ok">are</token>
+      <token id="tok2122" status="ok">in</token>
+      <token id="tok2123" status="ok">Bulb</token>
+      <token id="tok2124" status="ok">A</token>
+      <token id="tok2125" status="pennTokenFragment">'s</token>
+      <token id="tok2126" status="ok">path</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q1.sbj26-l2.qa125" accuracy="non_domain" raw_text="i do not know" count="1">
+      <token id="tok2544" status="ok">i</token>
+      <token id="tok2545" status="ok">do</token>
+      <token id="tok2546" status="ok">not</token>
+      <token id="tok2547" status="ok">know</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q1.sbj26-l2.qa126" accuracy="partially_correct_incomplete" answerMatch="answer395.1" raw_text="they are in the path of the battery" count="1">
+      <token id="tok2558" status="ok">they</token>
+      <token id="tok2559" status="ok">are</token>
+      <token id="tok2560" status="ok">in</token>
+      <token id="tok2561" status="ok">the</token>
+      <token id="tok2562" status="ok">path</token>
+      <token id="tok2563" status="ok">of</token>
+      <token id="tok2564" status="ok">the</token>
+      <token id="tok2565" status="ok">battery</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q1.sbj26-l2.qa127" accuracy="non_domain" raw_text="hey" count="1">
+      <token id="tok2583" status="ok">hey</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q1.sbj26-l2.qa128" accuracy="partially_correct_incomplete" answerMatch="answer394" raw_text="there is a gap in the path" count="2">
+      <token id="tok2601" status="ok">there</token>
+      <token id="tok2602" status="ok">is</token>
+      <token id="tok2603" status="ok">a</token>
+      <token id="tok2604" status="ok">gap</token>
+      <token id="tok2605" status="ok">in</token>
+      <token id="tok2606" status="ok">the</token>
+      <token id="tok2607" status="ok">path</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q1.sbj27-l2.qa122" accuracy="partially_correct_incomplete" answerMatch="answer395" raw_text="because bulb a is contained in the closed path" count="1">
+      <token id="tok2410" status="ok">because</token>
+      <token id="tok2411" status="ok">bulb</token>
+      <token id="tok2412" status="ok">a</token>
+      <token id="tok2413" status="ok">is</token>
+      <token id="tok2414" status="ok">contained</token>
+      <token id="tok2415" status="ok">in</token>
+      <token id="tok2416" status="ok">the</token>
+      <token id="tok2417" status="ok">closed</token>
+      <token id="tok2418" status="ok">path</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q1.sbj27-l2.qa123" accuracy="partially_correct_incomplete" answerMatch="answer394" raw_text="bulb a creates a gap" count="1">
+      <token id="tok2432" status="ok">bulb</token>
+      <token id="tok2433" status="ok">a</token>
+      <token id="tok2434" status="ok">creates</token>
+      <token id="tok2435" status="ok">a</token>
+      <token id="tok2436" status="ok">gap</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q1.sbj27-l2.qa124" accuracy="partially_correct_incomplete" answerMatch="answer395" raw_text="bulb a is contained in the closed path" count="1">
+      <token id="tok2453" status="ok">bulb</token>
+      <token id="tok2454" status="ok">a</token>
+      <token id="tok2455" status="ok">is</token>
+      <token id="tok2456" status="ok">contained</token>
+      <token id="tok2457" status="ok">in</token>
+      <token id="tok2458" status="ok">the</token>
+      <token id="tok2459" status="ok">closed</token>
+      <token id="tok2460" status="ok">path</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q1.sbj28-l2.qa116" accuracy="partially_correct_incomplete" answerMatch="answer394" raw_text="open path" count="1">
+      <token id="tok2205" status="ok">open</token>
+      <token id="tok2206" status="ok">path</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q1.sbj28-l2.qa117" accuracy="contradictory" raw_text="open circuit" count="1">
+      <token id="tok2215" status="ok">open</token>
+      <token id="tok2216" status="ok">circuit</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q1.sbj29-l2.qa121" accuracy="contradictory" answerMatch="answer395.1" raw_text="bulbs A, B, and C are in a closed path" count="1">
+      <token id="tok2459" status="ok">bulbs</token>
+      <token id="tok2460" status="ok">A</token>
+      <token id="tok2461" status="ok">B</token>
+      <token id="tok2462" status="ok">and</token>
+      <token id="tok2463" status="ok">C</token>
+      <token id="tok2464" status="ok">are</token>
+      <token id="tok2465" status="ok">in</token>
+      <token id="tok2466" status="ok">a</token>
+      <token id="tok2467" status="ok">closed</token>
+      <token id="tok2468" status="ok">path</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q1.sbj29-l2.qa122" accuracy="contradictory" answerMatch="answer395.1" raw_text="bulbs a, b and c are in a closed path with the battery" count="1">
+      <token id="tok2482" status="ok">bulbs</token>
+      <token id="tok2483" status="ok">a</token>
+      <token id="tok2484" status="ok">b</token>
+      <token id="tok2485" status="ok">and</token>
+      <token id="tok2486" status="ok">c</token>
+      <token id="tok2487" status="ok">are</token>
+      <token id="tok2488" status="ok">in</token>
+      <token id="tok2489" status="ok">a</token>
+      <token id="tok2490" status="ok">closed</token>
+      <token id="tok2491" status="ok">path</token>
+      <token id="tok2492" status="ok">with</token>
+      <token id="tok2493" status="ok">the</token>
+      <token id="tok2494" status="ok">battery</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q1.sbj29-l2.qa123" accuracy="contradictory" answerMatch="answer395.1" raw_text="because bulbs b and c are in a closed path with the battery" count="1">
+      <token id="tok2508" status="ok">because</token>
+      <token id="tok2509" status="ok">bulbs</token>
+      <token id="tok2510" status="ok">b</token>
+      <token id="tok2511" status="ok">and</token>
+      <token id="tok2512" status="ok">c</token>
+      <token id="tok2513" status="ok">are</token>
+      <token id="tok2514" status="ok">in</token>
+      <token id="tok2515" status="ok">a</token>
+      <token id="tok2516" status="ok">closed</token>
+      <token id="tok2517" status="ok">path</token>
+      <token id="tok2518" status="ok">with</token>
+      <token id="tok2519" status="ok">the</token>
+      <token id="tok2520" status="ok">battery</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q1.sbj30-l2.qa121" accuracy="correct" answerMatch="answer395" raw_text="They are all on the same path" count="1">
+      <token id="tok2530" status="ok">They</token>
+      <token id="tok2531" status="ok">are</token>
+      <token id="tok2532" status="ok">all</token>
+      <token id="tok2533" status="ok">on</token>
+      <token id="tok2534" status="ok">the</token>
+      <token id="tok2535" status="ok">same</token>
+      <token id="tok2536" status="ok">path</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q1.sbj30-l2.qa122" accuracy="correct" answerMatch="answer395" raw_text="A is on the same path with B and C" count="1">
+      <token id="tok2551" status="ok">A</token>
+      <token id="tok2552" status="ok">is</token>
+      <token id="tok2553" status="ok">on</token>
+      <token id="tok2554" status="ok">the</token>
+      <token id="tok2555" status="ok">same</token>
+      <token id="tok2556" status="ok">path</token>
+      <token id="tok2557" status="ok">with</token>
+      <token id="tok2558" status="ok">B</token>
+      <token id="tok2559" status="ok">and</token>
+      <token id="tok2560" status="ok">C</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q1.sbj31-l2.qa123" accuracy="partially_correct_incomplete" raw_text="because b and c are not on a closed path with the battery" count="1">
+      <token id="tok2362" status="ok">because</token>
+      <token id="tok2363" status="ok">b</token>
+      <token id="tok2364" status="ok">and</token>
+      <token id="tok2365" status="ok">c</token>
+      <token id="tok2366" status="ok">are</token>
+      <token id="tok2367" status="ok">not</token>
+      <token id="tok2368" status="ok">on</token>
+      <token id="tok2369" status="ok">a</token>
+      <token id="tok2370" status="ok">closed</token>
+      <token id="tok2371" status="ok">path</token>
+      <token id="tok2372" status="ok">with</token>
+      <token id="tok2373" status="ok">the</token>
+      <token id="tok2374" status="ok">battery</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q1.sbj33-l2.qa119" accuracy="correct" answerMatch="answer395.1" raw_text="bulb A is contained in the same closed path as bulbs C and B as well as the battery" count="1">
+      <token id="tok2235" status="ok">bulb</token>
+      <token id="tok2236" status="ok">A</token>
+      <token id="tok2237" status="ok">is</token>
+      <token id="tok2238" status="ok">contained</token>
+      <token id="tok2239" status="ok">in</token>
+      <token id="tok2240" status="ok">the</token>
+      <token id="tok2241" status="ok">same</token>
+      <token id="tok2242" status="ok">closed</token>
+      <token id="tok2243" status="ok">path</token>
+      <token id="tok2244" status="ok">as</token>
+      <token id="tok2245" status="ok">bulbs</token>
+      <token id="tok2246" status="ok">C</token>
+      <token id="tok2247" status="ok">and</token>
+      <token id="tok2248" status="ok">B</token>
+      <token id="tok2249" status="ok">as</token>
+      <token id="tok2250" status="ok">well</token>
+      <token id="tok2251" status="ok">as</token>
+      <token id="tok2252" status="ok">the</token>
+      <token id="tok2253" status="ok">battery</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q1.sbj33-l2.qa120" accuracy="non_domain" raw_text="tell answer" count="1">
+      <token id="tok2271" status="ok">tell</token>
+      <token id="tok2272" status="ok">answer</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q1.sbj34-l2.qa123" accuracy="correct" answerMatch="answer393" raw_text="Bulb A creates a gap in the path between Bulbs B and C and the battery" count="1">
+      <token id="tok2343" status="ok">Bulb</token>
+      <token id="tok2344" status="ok">A</token>
+      <token id="tok2345" status="ok">creates</token>
+      <token id="tok2346" status="ok">a</token>
+      <token id="tok2347" status="ok">gap</token>
+      <token id="tok2348" status="ok">in</token>
+      <token id="tok2349" status="ok">the</token>
+      <token id="tok2350" status="ok">path</token>
+      <token id="tok2351" status="ok">between</token>
+      <token id="tok2352" status="ok">Bulbs</token>
+      <token id="tok2353" status="ok">B</token>
+      <token id="tok2354" status="ok">and</token>
+      <token id="tok2355" status="ok">C</token>
+      <token id="tok2356" status="ok">and</token>
+      <token id="tok2357" status="ok">the</token>
+      <token id="tok2358" status="ok">battery</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q1.sbj34-l2.qa124" accuracy="correct" answerMatch="answer391" raw_text="Bulb B and C are no longer contained in a closed path with the battery." count="1">
+      <token id="tok2389" status="ok">Bulb</token>
+      <token id="tok2390" status="ok">B</token>
+      <token id="tok2391" status="ok">and</token>
+      <token id="tok2392" status="ok">C</token>
+      <token id="tok2393" status="ok">are</token>
+      <token id="tok2394" status="ok">no</token>
+      <token id="tok2395" status="ok">longer</token>
+      <token id="tok2396" status="ok">contained</token>
+      <token id="tok2397" status="ok">in</token>
+      <token id="tok2398" status="ok">a</token>
+      <token id="tok2399" status="ok">closed</token>
+      <token id="tok2400" status="ok">path</token>
+      <token id="tok2401" status="ok">with</token>
+      <token id="tok2402" status="ok">the</token>
+      <token id="tok2403" status="ok">battery</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q1.sbj35-l2.qa121" accuracy="partially_correct_incomplete" answerMatch="answer394" raw_text="Bulb a created a gap" count="1">
+      <token id="tok2431" status="ok">Bulb</token>
+      <token id="tok2432" status="ok">a</token>
+      <token id="tok2433" status="ok">created</token>
+      <token id="tok2434" status="ok">a</token>
+      <token id="tok2435" status="ok">gap</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q1.sbj36-l2.qa113" accuracy="correct" answerMatch="answer394" raw_text="there is no closed path" count="1">
+      <token id="tok2129" status="ok">there</token>
+      <token id="tok2130" status="ok">is</token>
+      <token id="tok2131" status="ok">no</token>
+      <token id="tok2132" status="ok">closed</token>
+      <token id="tok2133" status="ok">path</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q1.sbj36-l2.qa114" accuracy="correct" answerMatch="answer391" raw_text="the bulbs have no closed paths" count="1">
+      <token id="tok2142" status="ok">the</token>
+      <token id="tok2143" status="ok">bulbs</token>
+      <token id="tok2144" status="ok">have</token>
+      <token id="tok2145" status="ok">no</token>
+      <token id="tok2146" status="ok">closed</token>
+      <token id="tok2147" status="ok">paths</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q1.sbj36-l2.qa115" accuracy="correct" answerMatch="answer391" raw_text="there are no closed paths with the battery" count="1">
+      <token id="tok2175" status="ok">there</token>
+      <token id="tok2176" status="ok">are</token>
+      <token id="tok2177" status="ok">no</token>
+      <token id="tok2178" status="ok">closed</token>
+      <token id="tok2179" status="ok">paths</token>
+      <token id="tok2180" status="ok">with</token>
+      <token id="tok2181" status="ok">the</token>
+      <token id="tok2182" status="ok">battery</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q1.sbj37-l2.qa110" accuracy="partially_correct_incomplete" answerMatch="answer391" raw_text="because they are not in a closed path with the battery" count="1">
+      <token id="tok2276" status="ok">because</token>
+      <token id="tok2277" status="ok">they</token>
+      <token id="tok2278" status="ok">are</token>
+      <token id="tok2279" status="ok">not</token>
+      <token id="tok2280" status="ok">in</token>
+      <token id="tok2281" status="ok">a</token>
+      <token id="tok2282" status="ok">closed</token>
+      <token id="tok2283" status="ok">path</token>
+      <token id="tok2284" status="ok">with</token>
+      <token id="tok2285" status="ok">the</token>
+      <token id="tok2286" status="ok">battery</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q1.sbj38-l2.qa113" accuracy="correct" answerMatch="answer391" raw_text="bulbs b and c are not in a closed path with the battery is bulb a is damaged." count="1">
+      <token id="tok2443" status="ok">bulbs</token>
+      <token id="tok2444" status="ok">b</token>
+      <token id="tok2445" status="ok">and</token>
+      <token id="tok2446" status="ok">c</token>
+      <token id="tok2447" status="ok">are</token>
+      <token id="tok2448" status="ok">not</token>
+      <token id="tok2449" status="ok">in</token>
+      <token id="tok2450" status="ok">a</token>
+      <token id="tok2451" status="ok">closed</token>
+      <token id="tok2452" status="ok">path</token>
+      <token id="tok2453" status="ok">with</token>
+      <token id="tok2454" status="ok">the</token>
+      <token id="tok2455" status="ok">battery</token>
+      <token id="tok2456" status="ok">is</token>
+      <token id="tok2457" status="ok">bulb</token>
+      <token id="tok2458" status="ok">a</token>
+      <token id="tok2459" status="ok">is</token>
+      <token id="tok2460" status="ok">damaged</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q1.sbj38-l2.qa114" accuracy="correct" answerMatch="answer391" raw_text="if bulb A is damaged, bulb B and bulb C are not in a closed path with the battery." count="1">
+      <token id="tok2474" status="ok">if</token>
+      <token id="tok2475" status="ok">bulb</token>
+      <token id="tok2476" status="ok">A</token>
+      <token id="tok2477" status="ok">is</token>
+      <token id="tok2478" status="ok">damaged</token>
+      <token id="tok2479" status="ok">bulb</token>
+      <token id="tok2480" status="ok">B</token>
+      <token id="tok2481" status="ok">and</token>
+      <token id="tok2482" status="ok">bulb</token>
+      <token id="tok2483" status="ok">C</token>
+      <token id="tok2484" status="ok">are</token>
+      <token id="tok2485" status="ok">not</token>
+      <token id="tok2486" status="ok">in</token>
+      <token id="tok2487" status="ok">a</token>
+      <token id="tok2488" status="ok">closed</token>
+      <token id="tok2489" status="ok">path</token>
+      <token id="tok2490" status="ok">with</token>
+      <token id="tok2491" status="ok">the</token>
+      <token id="tok2492" status="ok">battery</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q1.sbj39-l2.qa130" accuracy="partially_correct_incomplete" answerMatch="answer394" raw_text="There will be a gap at bulb A" count="1">
+      <token id="tok2515" status="ok">There</token>
+      <token id="tok2516" status="ok">will</token>
+      <token id="tok2517" status="ok">be</token>
+      <token id="tok2518" status="ok">a</token>
+      <token id="tok2519" status="ok">gap</token>
+      <token id="tok2520" status="ok">at</token>
+      <token id="tok2521" status="ok">bulb</token>
+      <token id="tok2522" status="ok">A</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q1.sbj39-l2.qa131" accuracy="contradictory" answerMatch="answer394" raw_text="There will be a gap in the battery at bulb A" count="1">
+      <token id="tok2543" status="ok">There</token>
+      <token id="tok2544" status="ok">will</token>
+      <token id="tok2545" status="ok">be</token>
+      <token id="tok2546" status="ok">a</token>
+      <token id="tok2547" status="ok">gap</token>
+      <token id="tok2548" status="ok">in</token>
+      <token id="tok2549" status="ok">the</token>
+      <token id="tok2550" status="ok">battery</token>
+      <token id="tok2551" status="ok">at</token>
+      <token id="tok2552" status="ok">bulb</token>
+      <token id="tok2553" status="ok">A</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q1.sbj39-l2.qa132" accuracy="correct" answerMatch="answer392" raw_text="The battery will no longer have a closed path" count="1">
+      <token id="tok2581" status="ok">The</token>
+      <token id="tok2582" status="ok">battery</token>
+      <token id="tok2583" status="ok">will</token>
+      <token id="tok2584" status="ok">no</token>
+      <token id="tok2585" status="ok">longer</token>
+      <token id="tok2586" status="ok">have</token>
+      <token id="tok2587" status="ok">a</token>
+      <token id="tok2588" status="ok">closed</token>
+      <token id="tok2589" status="ok">path</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q1.sbj39-l2.qa133" accuracy="partially_correct_incomplete" answerMatch="answer392" raw_text="No longer have a closed path" count="1">
+      <token id="tok2614" status="ok">No</token>
+      <token id="tok2615" status="ok">longer</token>
+      <token id="tok2616" status="ok">have</token>
+      <token id="tok2617" status="ok">a</token>
+      <token id="tok2618" status="ok">closed</token>
+      <token id="tok2619" status="ok">path</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q1.sbj40-l2.qa123" accuracy="correct" answerMatch="answer394" raw_text="damaging bulb a creates a gap." count="1">
+      <token id="tok2498" status="ok">damaging</token>
+      <token id="tok2499" status="ok">bulb</token>
+      <token id="tok2500" status="ok">a</token>
+      <token id="tok2501" status="ok">creates</token>
+      <token id="tok2502" status="ok">a</token>
+      <token id="tok2503" status="ok">gap</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q1.sbj40-l2.qa124" accuracy="non_domain" raw_text="i give up." count="1">
+      <token id="tok2512" status="ok">i</token>
+      <token id="tok2513" status="ok">give</token>
+      <token id="tok2514" status="ok">up</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q1.sbj42-l2.qa114" accuracy="partially_correct_incomplete" answerMatch="answer392" raw_text="there is not a closed path that contains the battery and bulb b and bulb c" count="1">
+      <token id="tok2126" status="ok">there</token>
+      <token id="tok2127" status="ok">is</token>
+      <token id="tok2128" status="ok">not</token>
+      <token id="tok2129" status="ok">a</token>
+      <token id="tok2130" status="ok">closed</token>
+      <token id="tok2131" status="ok">path</token>
+      <token id="tok2132" status="ok">that</token>
+      <token id="tok2133" status="ok">contains</token>
+      <token id="tok2134" status="ok">the</token>
+      <token id="tok2135" status="ok">battery</token>
+      <token id="tok2136" status="ok">and</token>
+      <token id="tok2137" status="ok">bulb</token>
+      <token id="tok2138" status="ok">b</token>
+      <token id="tok2139" status="ok">and</token>
+      <token id="tok2140" status="ok">bulb</token>
+      <token id="tok2141" status="ok">c</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q1.sbj43-l2.qa119" accuracy="partially_correct_incomplete" answerMatch="answer394" raw_text="the damaged bulb a creates a gap" count="1">
+      <token id="tok2469" status="ok">the</token>
+      <token id="tok2470" status="ok">damaged</token>
+      <token id="tok2471" status="ok">bulb</token>
+      <token id="tok2472" status="ok">a</token>
+      <token id="tok2473" status="ok">creates</token>
+      <token id="tok2474" status="ok">a</token>
+      <token id="tok2475" status="ok">gap</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q1.sbj43-l2.qa121" accuracy="partially_correct_incomplete" answerMatch="answer394" raw_text="there is not a path to the battery" count="1">
+      <token id="tok2526" status="ok">there</token>
+      <token id="tok2527" status="ok">is</token>
+      <token id="tok2528" status="ok">not</token>
+      <token id="tok2529" status="ok">a</token>
+      <token id="tok2530" status="ok">path</token>
+      <token id="tok2531" status="ok">to</token>
+      <token id="tok2532" status="ok">the</token>
+      <token id="tok2533" status="ok">battery</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q1.sbj43-l2.qa122" accuracy="contradictory" answerMatch="answer394" raw_text="the circut is open" count="1">
+      <token id="tok2558" status="ok">the</token>
+      <token id="tok2559" status="ok" original="circut">circuit</token>
+      <token id="tok2560" status="ok">is</token>
+      <token id="tok2561" status="ok">open</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q1.sbj45-l2.qa111" accuracy="correct" answerMatch="answer391" raw_text="because buld B and C will not be in a closed path with the battery" count="1">
+      <token id="tok2105" status="ok">because</token>
+      <token id="tok2106" status="ok" original="buld">bulb</token>
+      <token id="tok2107" status="ok">B</token>
+      <token id="tok2108" status="ok">and</token>
+      <token id="tok2109" status="ok">C</token>
+      <token id="tok2110" status="ok">will</token>
+      <token id="tok2111" status="ok">not</token>
+      <token id="tok2112" status="ok">be</token>
+      <token id="tok2113" status="ok">in</token>
+      <token id="tok2114" status="ok">a</token>
+      <token id="tok2115" status="ok">closed</token>
+      <token id="tok2116" status="ok">path</token>
+      <token id="tok2117" status="ok">with</token>
+      <token id="tok2118" status="ok">the</token>
+      <token id="tok2119" status="ok">battery</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q1.sbj46-l2.qa128" accuracy="partially_correct_incomplete" answerMatch="answer391" raw_text="Bulb b and bulb c are not contained in closed paths with the battery" count="1">
+      <token id="tok2699" status="ok">Bulb</token>
+      <token id="tok2700" status="ok">b</token>
+      <token id="tok2701" status="ok">and</token>
+      <token id="tok2702" status="ok">bulb</token>
+      <token id="tok2703" status="ok">c</token>
+      <token id="tok2704" status="ok">are</token>
+      <token id="tok2705" status="ok">not</token>
+      <token id="tok2706" status="ok">contained</token>
+      <token id="tok2707" status="ok">in</token>
+      <token id="tok2708" status="ok">closed</token>
+      <token id="tok2709" status="ok">paths</token>
+      <token id="tok2710" status="ok">with</token>
+      <token id="tok2711" status="ok">the</token>
+      <token id="tok2712" status="ok">battery</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q1.sbj47-l2.qa121" accuracy="partially_correct_incomplete" answerMatch="answer395" raw_text="because bulb A affects bulbs B and C&quot;s paths" count="1">
+      <token id="tok2408" status="ok">because</token>
+      <token id="tok2409" status="ok">bulb</token>
+      <token id="tok2410" status="ok">A</token>
+      <token id="tok2411" status="ok">affects</token>
+      <token id="tok2412" status="ok">bulbs</token>
+      <token id="tok2413" status="ok">B</token>
+      <token id="tok2414" status="ok">and</token>
+      <token id="tok2415" status="ok">C</token>
+      <token id="tok2416" status="pennTokenFragment">'s</token>
+      <token id="tok2417" status="ok">paths</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q1.sbj47-l2.qa122" accuracy="correct" answerMatch="answer395" raw_text="bulb A is on the same closed path as bulb B and C" count="1">
+      <token id="tok2447" status="ok">bulb</token>
+      <token id="tok2448" status="ok">A</token>
+      <token id="tok2449" status="ok">is</token>
+      <token id="tok2450" status="ok">on</token>
+      <token id="tok2451" status="ok">the</token>
+      <token id="tok2452" status="ok">same</token>
+      <token id="tok2453" status="ok">closed</token>
+      <token id="tok2454" status="ok">path</token>
+      <token id="tok2455" status="ok">as</token>
+      <token id="tok2456" status="ok">bulb</token>
+      <token id="tok2457" status="ok">B</token>
+      <token id="tok2458" status="ok">and</token>
+      <token id="tok2459" status="ok">C</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q1.sbj47-l2.qa123" accuracy="partially_correct_incomplete" answerMatch="answer391" raw_text="the battery is on the same closed path as bulb A" count="1">
+      <token id="tok2503" status="ok">the</token>
+      <token id="tok2504" status="ok">battery</token>
+      <token id="tok2505" status="ok">is</token>
+      <token id="tok2506" status="ok">on</token>
+      <token id="tok2507" status="ok">the</token>
+      <token id="tok2508" status="ok">same</token>
+      <token id="tok2509" status="ok">closed</token>
+      <token id="tok2510" status="ok">path</token>
+      <token id="tok2511" status="ok">as</token>
+      <token id="tok2512" status="ok">bulb</token>
+      <token id="tok2513" status="ok">A</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q1.sbj47-l2.qa124" accuracy="partially_correct_incomplete" answerMatch="answer392" raw_text="the battery is on the same closed path within all the bulbs" count="1">
+      <token id="tok2531" status="ok">the</token>
+      <token id="tok2532" status="ok">battery</token>
+      <token id="tok2533" status="ok">is</token>
+      <token id="tok2534" status="ok">on</token>
+      <token id="tok2535" status="ok">the</token>
+      <token id="tok2536" status="ok">same</token>
+      <token id="tok2537" status="ok">closed</token>
+      <token id="tok2538" status="ok">path</token>
+      <token id="tok2539" status="ok">within</token>
+      <token id="tok2540" status="ok">all</token>
+      <token id="tok2541" status="ok">the</token>
+      <token id="tok2542" status="ok">bulbs</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q1.sbj48-l2.qa113" accuracy="correct" answerMatch="answer394" raw_text="Because damaged bulb a creates a gap in the path." count="1">
+      <token id="tok2209" status="ok">Because</token>
+      <token id="tok2210" status="ok">damaged</token>
+      <token id="tok2211" status="ok">bulb</token>
+      <token id="tok2212" status="ok">a</token>
+      <token id="tok2213" status="ok">creates</token>
+      <token id="tok2214" status="ok">a</token>
+      <token id="tok2215" status="ok">gap</token>
+      <token id="tok2216" status="ok">in</token>
+      <token id="tok2217" status="ok">the</token>
+      <token id="tok2218" status="ok">path</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q1.sbj48-l2.qa114" accuracy="correct" raw_text="damaged bulb a creates a gap in the path, so bulbs b and c are no longer contained in a closed path with the battery." count="1">
+      <token id="tok2227" status="ok">damaged</token>
+      <token id="tok2228" status="ok">bulb</token>
+      <token id="tok2229" status="ok">a</token>
+      <token id="tok2230" status="ok">creates</token>
+      <token id="tok2231" status="ok">a</token>
+      <token id="tok2232" status="ok">gap</token>
+      <token id="tok2233" status="ok">in</token>
+      <token id="tok2234" status="ok">the</token>
+      <token id="tok2235" status="ok">path</token>
+      <token id="tok2236" status="ok">so</token>
+      <token id="tok2237" status="ok">bulbs</token>
+      <token id="tok2238" status="ok">b</token>
+      <token id="tok2239" status="ok">and</token>
+      <token id="tok2240" status="ok">c</token>
+      <token id="tok2241" status="ok">are</token>
+      <token id="tok2242" status="ok">no</token>
+      <token id="tok2243" status="ok">longer</token>
+      <token id="tok2244" status="ok">contained</token>
+      <token id="tok2245" status="ok">in</token>
+      <token id="tok2246" status="ok">a</token>
+      <token id="tok2247" status="ok">closed</token>
+      <token id="tok2248" status="ok">path</token>
+      <token id="tok2249" status="ok">with</token>
+      <token id="tok2250" status="ok">the</token>
+      <token id="tok2251" status="ok">battery</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q1.sbjb1-l2.qa102" accuracy="contradictory" answerMatch="answer395" raw_text="They are connected to the same path as A." count="1">
+      <token id="tok2152" status="ok">They</token>
+      <token id="tok2153" status="ok">are</token>
+      <token id="tok2154" status="ok">connected</token>
+      <token id="tok2155" status="ok">to</token>
+      <token id="tok2156" status="ok">the</token>
+      <token id="tok2157" status="ok">same</token>
+      <token id="tok2158" status="ok">path</token>
+      <token id="tok2159" status="ok">as</token>
+      <token id="tok2160" status="ok">A</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q1.sbjb2-l2.qa104" accuracy="contradictory" answerMatch="answer394" raw_text="There is a gap in the closed circuit" count="1">
+      <token id="tok2113" status="ok">There</token>
+      <token id="tok2114" status="ok">is</token>
+      <token id="tok2115" status="ok">a</token>
+      <token id="tok2116" status="ok">gap</token>
+      <token id="tok2117" status="ok">in</token>
+      <token id="tok2118" status="ok">the</token>
+      <token id="tok2119" status="ok">closed</token>
+      <token id="tok2120" status="ok">circuit</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q1.sbjb3-l2.qa105" accuracy="correct" answerMatch="answer395" raw_text="they opperate on the same path" count="1">
+      <token id="tok2165" status="ok">they</token>
+      <token id="tok2166" status="ok" original="opperate">operate</token>
+      <token id="tok2167" status="ok">on</token>
+      <token id="tok2168" status="ok">the</token>
+      <token id="tok2169" status="ok">same</token>
+      <token id="tok2170" status="ok">path</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q1.sbjb4-l2.qa101" accuracy="contradictory" answerMatch="answer395.1" raw_text="they are on the same closed path with the battery as bulb A" count="1">
+      <token id="tok2143" status="ok">they</token>
+      <token id="tok2144" status="ok">are</token>
+      <token id="tok2145" status="ok">on</token>
+      <token id="tok2146" status="ok">the</token>
+      <token id="tok2147" status="ok">same</token>
+      <token id="tok2148" status="ok">closed</token>
+      <token id="tok2149" status="ok">path</token>
+      <token id="tok2150" status="ok">with</token>
+      <token id="tok2151" status="ok">the</token>
+      <token id="tok2152" status="ok">battery</token>
+      <token id="tok2153" status="ok">as</token>
+      <token id="tok2154" status="ok">bulb</token>
+      <token id="tok2155" status="ok">A</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q1.sbjb5-l2.qa101" accuracy="correct" answerMatch="answer391" raw_text="there is a gap in the circuit; they are no longer connected to the battery source" count="1">
+      <token id="tok2212" status="ok">there</token>
+      <token id="tok2213" status="ok">is</token>
+      <token id="tok2214" status="ok">a</token>
+      <token id="tok2215" status="ok">gap</token>
+      <token id="tok2216" status="ok">in</token>
+      <token id="tok2217" status="ok">the</token>
+      <token id="tok2218" status="ok">circuit</token>
+      <token id="tok2220" status="ok">they</token>
+      <token id="tok2221" status="ok">are</token>
+      <token id="tok2222" status="ok">no</token>
+      <token id="tok2223" status="ok">longer</token>
+      <token id="tok2224" status="ok">connected</token>
+      <token id="tok2225" status="ok">to</token>
+      <token id="tok2226" status="ok">the</token>
+      <token id="tok2227" status="ok">battery</token>
+      <token id="tok2228" status="ok">source</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q1.sbjb6-l2.qa101" accuracy="contradictory" answerMatch="answer394" raw_text="Because when A is out it breaks the closed circuit" count="1">
+      <token id="tok2079" status="ok">Because</token>
+      <token id="tok2080" status="ok">when</token>
+      <token id="tok2081" status="ok">A</token>
+      <token id="tok2082" status="ok">is</token>
+      <token id="tok2083" status="ok">out</token>
+      <token id="tok2084" status="ok">it</token>
+      <token id="tok2085" status="ok">breaks</token>
+      <token id="tok2086" status="ok">the</token>
+      <token id="tok2087" status="ok">closed</token>
+      <token id="tok2088" status="ok">circuit</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q1.sbjb7-l2.qa102" accuracy="correct" answerMatch="answer395.1" raw_text="It is on the path with the battery" count="1">
+      <token id="tok2069" status="ok">It</token>
+      <token id="tok2070" status="ok">is</token>
+      <token id="tok2071" status="ok">on</token>
+      <token id="tok2072" status="ok">the</token>
+      <token id="tok2073" status="ok">path</token>
+      <token id="tok2074" status="ok">with</token>
+      <token id="tok2075" status="ok">the</token>
+      <token id="tok2076" status="ok">battery</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q1.sbjb9-l2.qa102" accuracy="contradictory" raw_text="They were still contained on a closed path to the battery" count="1">
+      <token id="tok2181" status="ok">They</token>
+      <token id="tok2182" status="ok">were</token>
+      <token id="tok2183" status="ok">still</token>
+      <token id="tok2184" status="ok">contained</token>
+      <token id="tok2185" status="ok">on</token>
+      <token id="tok2186" status="ok">a</token>
+      <token id="tok2187" status="ok">closed</token>
+      <token id="tok2188" status="ok">path</token>
+      <token id="tok2189" status="ok">to</token>
+      <token id="tok2190" status="ok">the</token>
+      <token id="tok2191" status="ok">battery</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q1.sbjb10-l2.qa101" accuracy="contradictory" answerMatch="answer395.1" raw_text="because b and c are both in series with a and if a circuit is in a series then every bulb needs to work to make the series work" count="1">
+      <token id="tok2072" status="ok">because</token>
+      <token id="tok2073" status="ok">b</token>
+      <token id="tok2074" status="ok">and</token>
+      <token id="tok2075" status="ok">c</token>
+      <token id="tok2076" status="ok">are</token>
+      <token id="tok2077" status="ok">both</token>
+      <token id="tok2078" status="ok">in</token>
+      <token id="tok2079" status="ok">series</token>
+      <token id="tok2080" status="ok">with</token>
+      <token id="tok2081" status="ok">a</token>
+      <token id="tok2082" status="ok">and</token>
+      <token id="tok2083" status="ok">if</token>
+      <token id="tok2084" status="ok">a</token>
+      <token id="tok2085" status="ok">circuit</token>
+      <token id="tok2086" status="ok">is</token>
+      <token id="tok2087" status="ok">in</token>
+      <token id="tok2088" status="ok">a</token>
+      <token id="tok2089" status="ok">series</token>
+      <token id="tok2090" status="ok">then</token>
+      <token id="tok2091" status="ok">every</token>
+      <token id="tok2092" status="ok">bulb</token>
+      <token id="tok2093" status="ok">needs</token>
+      <token id="tok2094" status="ok">to</token>
+      <token id="tok2095" status="ok">work</token>
+      <token id="tok2096" status="ok">to</token>
+      <token id="tok2097" status="ok">make</token>
+      <token id="tok2098" status="ok">the</token>
+      <token id="tok2099" status="ok">series</token>
+      <token id="tok2100" status="ok">work</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q1.sbjb11-l2.qa101" accuracy="contradictory" answerMatch="answer391" raw_text="Bulb A created a gap in the path, and bulb B and C were no longer in the same path with a battery" count="1">
+      <token id="tok2205" status="ok">Bulb</token>
+      <token id="tok2206" status="ok">A</token>
+      <token id="tok2207" status="ok">created</token>
+      <token id="tok2208" status="ok">a</token>
+      <token id="tok2209" status="ok">gap</token>
+      <token id="tok2210" status="ok">in</token>
+      <token id="tok2211" status="ok">the</token>
+      <token id="tok2212" status="ok">path</token>
+      <token id="tok2213" status="ok">and</token>
+      <token id="tok2214" status="ok">bulb</token>
+      <token id="tok2215" status="ok">B</token>
+      <token id="tok2216" status="ok">and</token>
+      <token id="tok2217" status="ok">C</token>
+      <token id="tok2218" status="ok">were</token>
+      <token id="tok2219" status="ok">no</token>
+      <token id="tok2220" status="ok">longer</token>
+      <token id="tok2221" status="ok">in</token>
+      <token id="tok2222" status="ok">the</token>
+      <token id="tok2223" status="ok">same</token>
+      <token id="tok2224" status="ok">path</token>
+      <token id="tok2225" status="ok">with</token>
+      <token id="tok2226" status="ok">a</token>
+      <token id="tok2227" status="ok">battery</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q1.sbjb12-l2.qa101" accuracy="contradictory" answerMatch="answer391" raw_text="bulbs b and c are no longer in a closed circuit with the battery" count="1">
+      <token id="tok2158" status="ok">bulbs</token>
+      <token id="tok2159" status="ok">b</token>
+      <token id="tok2160" status="ok">and</token>
+      <token id="tok2161" status="ok">c</token>
+      <token id="tok2162" status="ok">are</token>
+      <token id="tok2163" status="ok">no</token>
+      <token id="tok2164" status="ok">longer</token>
+      <token id="tok2165" status="ok">in</token>
+      <token id="tok2166" status="ok">a</token>
+      <token id="tok2167" status="ok">closed</token>
+      <token id="tok2168" status="ok">circuit</token>
+      <token id="tok2169" status="ok">with</token>
+      <token id="tok2170" status="ok">the</token>
+      <token id="tok2171" status="ok">battery</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q1.sbjb13-l2.qa101" accuracy="correct" answerMatch="answer391" raw_text="There was no closed path between the bulbs and the battery." count="1">
+      <token id="tok2158" status="ok">There</token>
+      <token id="tok2159" status="ok">was</token>
+      <token id="tok2160" status="ok">no</token>
+      <token id="tok2161" status="ok">closed</token>
+      <token id="tok2162" status="ok">path</token>
+      <token id="tok2163" status="ok">between</token>
+      <token id="tok2164" status="ok">the</token>
+      <token id="tok2165" status="ok">bulbs</token>
+      <token id="tok2166" status="ok">and</token>
+      <token id="tok2167" status="ok">the</token>
+      <token id="tok2168" status="ok">battery</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q1.sbjb15-l2.qa102" accuracy="partially_correct_incomplete" answerMatch="answer393" raw_text="creates gap" count="1">
+      <token id="tok2035" status="ok">creates</token>
+      <token id="tok2036" status="ok">gap</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q1.sbjb16-l2.qa102" accuracy="correct" answerMatch="answer393" raw_text="they are no longer in a closed path" count="1">
+      <token id="tok2054" status="ok">they</token>
+      <token id="tok2055" status="ok">are</token>
+      <token id="tok2056" status="ok">no</token>
+      <token id="tok2057" status="ok">longer</token>
+      <token id="tok2058" status="ok">in</token>
+      <token id="tok2059" status="ok">a</token>
+      <token id="tok2060" status="ok">closed</token>
+      <token id="tok2061" status="ok">path</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q1.sbjb17-l2.qa103" accuracy="partially_correct_incomplete" answerMatch="answer394" raw_text="It separates the circuit by opening a gap" count="1">
+      <token id="tok2137" status="ok">It</token>
+      <token id="tok2138" status="ok">separates</token>
+      <token id="tok2139" status="ok">the</token>
+      <token id="tok2140" status="ok">circuit</token>
+      <token id="tok2141" status="ok">by</token>
+      <token id="tok2142" status="ok">opening</token>
+      <token id="tok2143" status="ok">a</token>
+      <token id="tok2144" status="ok">gap</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q1.sbjb18-l2.qa101" accuracy="correct" answerMatch="answer395" raw_text="a is in the same pathway as b and c" count="1">
+      <token id="tok2008" status="ok">a</token>
+      <token id="tok2009" status="ok">is</token>
+      <token id="tok2010" status="ok">in</token>
+      <token id="tok2011" status="ok">the</token>
+      <token id="tok2012" status="ok">same</token>
+      <token id="tok2013" status="ok">pathway</token>
+      <token id="tok2014" status="ok">as</token>
+      <token id="tok2015" status="ok">b</token>
+      <token id="tok2016" status="ok">and</token>
+      <token id="tok2017" status="ok">c</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q1.sbjb19-l2.qa101" accuracy="partially_correct_incomplete" answerMatch="answer394" raw_text="because it creates a gap in the path" count="1">
+      <token id="tok2119" status="ok">because</token>
+      <token id="tok2120" status="ok">it</token>
+      <token id="tok2121" status="ok">creates</token>
+      <token id="tok2122" status="ok">a</token>
+      <token id="tok2123" status="ok">gap</token>
+      <token id="tok2124" status="ok">in</token>
+      <token id="tok2125" status="ok">the</token>
+      <token id="tok2126" status="ok">path</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q1.sbjb20-l2.qa101" accuracy="correct" answerMatch="answer394" raw_text="Bulb A created a gap in the path." count="1">
+      <token id="tok2133" status="ok">Bulb</token>
+      <token id="tok2134" status="ok">A</token>
+      <token id="tok2135" status="ok">created</token>
+      <token id="tok2136" status="ok">a</token>
+      <token id="tok2137" status="ok">gap</token>
+      <token id="tok2138" status="ok">in</token>
+      <token id="tok2139" status="ok">the</token>
+      <token id="tok2140" status="ok">path</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q1.sbjb21-l2.qa101" accuracy="contradictory" answerMatch="answer391" raw_text="they are not on seperate closed circuits with the battery" count="1">
+      <token id="tok1999" status="ok">they</token>
+      <token id="tok2000" status="ok">are</token>
+      <token id="tok2001" status="ok">not</token>
+      <token id="tok2002" status="ok">on</token>
+      <token id="tok2003" status="ok" original="seperate">separate</token>
+      <token id="tok2004" status="ok">closed</token>
+      <token id="tok2005" status="ok">circuits</token>
+      <token id="tok2006" status="ok">with</token>
+      <token id="tok2007" status="ok">the</token>
+      <token id="tok2008" status="ok">battery</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q1.sbjb22-l2.qa101" accuracy="correct" answerMatch="answer395" raw_text="contained in the same path" count="1">
+      <token id="tok2015" status="ok">contained</token>
+      <token id="tok2016" status="ok">in</token>
+      <token id="tok2017" status="ok">the</token>
+      <token id="tok2018" status="ok">same</token>
+      <token id="tok2019" status="ok">path</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q1.sbjb24-l2.qa105" accuracy="partially_correct_incomplete" answerMatch="answer394" raw_text="GAP IN THE PATH TO THE BATTERY" count="1">
+      <token id="tok2078" status="ok">GAP</token>
+      <token id="tok2079" status="ok">IN</token>
+      <token id="tok2080" status="ok">THE</token>
+      <token id="tok2081" status="ok">PATH</token>
+      <token id="tok2082" status="ok">TO</token>
+      <token id="tok2083" status="ok">THE</token>
+      <token id="tok2084" status="ok">BATTERY</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q1.sbjb25-l2.qa102" accuracy="correct" answerMatch="answer395" raw_text="Because they aren&quot;t actually in separate paths." count="1">
+      <token id="tok2088" status="ok">Because</token>
+      <token id="tok2089" status="ok">they</token>
+      <token id="tok2090" status="ok">are</token>
+      <token id="tok2091" status="pennTokenFragment">n't</token>
+      <token id="tok2092" status="ok">actually</token>
+      <token id="tok2093" status="ok">in</token>
+      <token id="tok2094" status="ok">separate</token>
+      <token id="tok2095" status="ok">paths</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q1.sbjb26-l2.qa101" accuracy="correct" answerMatch="answer394" raw_text="Bulb A is no longer completing the circut." count="1">
+      <token id="tok2134" status="ok">Bulb</token>
+      <token id="tok2135" status="ok">A</token>
+      <token id="tok2136" status="ok">is</token>
+      <token id="tok2137" status="ok">no</token>
+      <token id="tok2138" status="ok">longer</token>
+      <token id="tok2139" status="ok">completing</token>
+      <token id="tok2140" status="ok">the</token>
+      <token id="tok2141" status="ok" original="circut">circuit</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q1.sbjb27-l2.qa101" accuracy="contradictory" answerMatch="answer394" raw_text="bulb A creates a gap in the closed circuit to the battery" count="1">
+      <token id="tok2136" status="ok">bulb</token>
+      <token id="tok2137" status="ok">A</token>
+      <token id="tok2138" status="ok">creates</token>
+      <token id="tok2139" status="ok">a</token>
+      <token id="tok2140" status="ok">gap</token>
+      <token id="tok2141" status="ok">in</token>
+      <token id="tok2142" status="ok">the</token>
+      <token id="tok2143" status="ok">closed</token>
+      <token id="tok2144" status="ok">circuit</token>
+      <token id="tok2145" status="ok">to</token>
+      <token id="tok2146" status="ok">the</token>
+      <token id="tok2147" status="ok">battery</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q1.sbjb28-l2.qa101" accuracy="partially_correct_incomplete" answerMatch="answer394" raw_text="Bulb A causes a gap" count="1">
+      <token id="tok2097" status="ok">Bulb</token>
+      <token id="tok2098" status="ok">A</token>
+      <token id="tok2099" status="ok">causes</token>
+      <token id="tok2100" status="ok">a</token>
+      <token id="tok2101" status="ok">gap</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q1.sbjb29-l2.qa102" accuracy="partially_correct_incomplete" answerMatch="answer394" raw_text="because it creates a gap between the bulb and the battery" count="1">
+      <token id="tok2092" status="ok">because</token>
+      <token id="tok2093" status="ok">it</token>
+      <token id="tok2094" status="ok">creates</token>
+      <token id="tok2095" status="ok">a</token>
+      <token id="tok2096" status="ok">gap</token>
+      <token id="tok2097" status="ok">between</token>
+      <token id="tok2098" status="ok">the</token>
+      <token id="tok2099" status="ok">bulb</token>
+      <token id="tok2100" status="ok">and</token>
+      <token id="tok2101" status="ok">the</token>
+      <token id="tok2102" status="ok">battery</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q1.sbjb30-l2.qa101" accuracy="correct" answerMatch="answer394" raw_text="the damaged bulb a creates a gap in the path." count="1">
+      <token id="tok2230" status="ok">the</token>
+      <token id="tok2231" status="ok">damaged</token>
+      <token id="tok2232" status="ok">bulb</token>
+      <token id="tok2233" status="ok">a</token>
+      <token id="tok2234" status="ok">creates</token>
+      <token id="tok2235" status="ok">a</token>
+      <token id="tok2236" status="ok">gap</token>
+      <token id="tok2237" status="ok">in</token>
+      <token id="tok2238" status="ok">the</token>
+      <token id="tok2239" status="ok">path</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q1.sbjb31-l2.qa101" accuracy="contradictory" answerMatch="answer393" raw_text="because it damages the complete circuit. Because the positive terminal cannot reach bulb c and b." count="1">
+      <token id="tok2168" status="ok">because</token>
+      <token id="tok2169" status="ok">it</token>
+      <token id="tok2170" status="ok">damages</token>
+      <token id="tok2171" status="ok">the</token>
+      <token id="tok2172" status="ok">complete</token>
+      <token id="tok2173" status="ok">circuit</token>
+      <token id="tok2174" status="ok">Because</token>
+      <token id="tok2175" status="ok">the</token>
+      <token id="tok2176" status="ok">positive</token>
+      <token id="tok2177" status="ok">terminal</token>
+      <token id="tok2178" status="ok">can</token>
+      <token id="tok2179" status="ok">not</token>
+      <token id="tok2180" status="ok">reach</token>
+      <token id="tok2181" status="ok">bulb</token>
+      <token id="tok2182" status="ok">c</token>
+      <token id="tok2183" status="ok">and</token>
+      <token id="tok2184" status="ok">b</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q1.sbjb32-l2.qa101" accuracy="correct" raw_text="they were on the same closed path" count="1">
+      <token id="tok2039" status="ok">they</token>
+      <token id="tok2040" status="ok">were</token>
+      <token id="tok2041" status="ok">on</token>
+      <token id="tok2042" status="ok">the</token>
+      <token id="tok2043" status="ok">same</token>
+      <token id="tok2044" status="ok">closed</token>
+      <token id="tok2045" status="ok">path</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q1.sbjb34-l2.qa102" accuracy="partially_correct_incomplete" answerMatch="answer394" raw_text="There was a gap in the the closed path." count="1">
+      <token id="tok2163" status="ok">There</token>
+      <token id="tok2164" status="ok">was</token>
+      <token id="tok2165" status="ok">a</token>
+      <token id="tok2166" status="ok">gap</token>
+      <token id="tok2167" status="ok">in</token>
+      <token id="tok2168" status="ok">the</token>
+      <token id="tok2169" status="ok">the</token>
+      <token id="tok2170" status="ok">closed</token>
+      <token id="tok2171" status="ok">path</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q1.sbjb35-l2.qa103" accuracy="correct" answerMatch="answer395" raw_text="Becuase bulbs B and C are on the ssame pathway as A." count="1">
+      <token id="tok2164" status="ok" original="Becuase">Because</token>
+      <token id="tok2165" status="ok">bulbs</token>
+      <token id="tok2166" status="ok">B</token>
+      <token id="tok2167" status="ok">and</token>
+      <token id="tok2168" status="ok">C</token>
+      <token id="tok2169" status="ok">are</token>
+      <token id="tok2170" status="ok">on</token>
+      <token id="tok2171" status="ok">the</token>
+      <token id="tok2172" status="ok" original="ssame">same</token>
+      <token id="tok2173" status="ok">pathway</token>
+      <token id="tok2174" status="ok">as</token>
+      <token id="tok2175" status="ok">A</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q1.sbjb36-l2.qa101" accuracy="correct" answerMatch="answer394" raw_text="it creates a gap so there are no closed paths" count="1">
+      <token id="tok2087" status="ok">it</token>
+      <token id="tok2088" status="ok">creates</token>
+      <token id="tok2089" status="ok">a</token>
+      <token id="tok2090" status="ok">gap</token>
+      <token id="tok2091" status="ok">so</token>
+      <token id="tok2092" status="ok">there</token>
+      <token id="tok2093" status="ok">are</token>
+      <token id="tok2094" status="ok">no</token>
+      <token id="tok2095" status="ok">closed</token>
+      <token id="tok2096" status="ok">paths</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q1.sbjb37-l2.qa102" accuracy="contradictory" answerMatch="answer395.1" raw_text="Becuase it connects to the battery" count="1">
+      <token id="tok2085" status="ok" original="Becuase">Because</token>
+      <token id="tok2086" status="ok">it</token>
+      <token id="tok2087" status="ok">connects</token>
+      <token id="tok2088" status="ok">to</token>
+      <token id="tok2089" status="ok">the</token>
+      <token id="tok2090" status="ok">battery</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q1.sbjb38-l2.qa101" accuracy="partially_correct_incomplete" answerMatch="answer394" raw_text="Because Bulb A puts a gap in the path connecting both terminals of the battery." count="1">
+      <token id="tok2168" status="ok">Because</token>
+      <token id="tok2169" status="ok">Bulb</token>
+      <token id="tok2170" status="ok">A</token>
+      <token id="tok2171" status="ok">puts</token>
+      <token id="tok2172" status="ok">a</token>
+      <token id="tok2173" status="ok">gap</token>
+      <token id="tok2174" status="ok">in</token>
+      <token id="tok2175" status="ok">the</token>
+      <token id="tok2176" status="ok">path</token>
+      <token id="tok2177" status="ok">connecting</token>
+      <token id="tok2178" status="ok">both</token>
+      <token id="tok2179" status="ok">terminals</token>
+      <token id="tok2180" status="ok">of</token>
+      <token id="tok2181" status="ok">the</token>
+      <token id="tok2182" status="ok">battery</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q1.sbjb39-l2.qa101" accuracy="correct" answerMatch="answer391" raw_text="because if bulb A is burned out, then bulbs B and C are no longer in a closed path." count="1">
+      <token id="tok2150" status="ok">because</token>
+      <token id="tok2151" status="ok">if</token>
+      <token id="tok2152" status="ok">bulb</token>
+      <token id="tok2153" status="ok">A</token>
+      <token id="tok2154" status="ok">is</token>
+      <token id="tok2155" status="ok">burned</token>
+      <token id="tok2156" status="ok">out</token>
+      <token id="tok2157" status="ok">then</token>
+      <token id="tok2158" status="ok">bulbs</token>
+      <token id="tok2159" status="ok">B</token>
+      <token id="tok2160" status="ok">and</token>
+      <token id="tok2161" status="ok">C</token>
+      <token id="tok2162" status="ok">are</token>
+      <token id="tok2163" status="ok">no</token>
+      <token id="tok2164" status="ok">longer</token>
+      <token id="tok2165" status="ok">in</token>
+      <token id="tok2166" status="ok">a</token>
+      <token id="tok2167" status="ok">closed</token>
+      <token id="tok2168" status="ok">path</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q1.sbjb40-l2.qa101" accuracy="partially_correct_incomplete" answerMatch="answer391" raw_text="They do not have a direct contained path to the battery" count="1">
+      <token id="tok2069" status="ok">They</token>
+      <token id="tok2070" status="ok">do</token>
+      <token id="tok2071" status="ok">not</token>
+      <token id="tok2072" status="ok">have</token>
+      <token id="tok2073" status="ok">a</token>
+      <token id="tok2074" status="ok">direct</token>
+      <token id="tok2075" status="ok">contained</token>
+      <token id="tok2076" status="ok">path</token>
+      <token id="tok2077" status="ok">to</token>
+      <token id="tok2078" status="ok">the</token>
+      <token id="tok2079" status="ok">battery</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q1.sbjb41-l2.qa102" accuracy="correct" answerMatch="answer393" raw_text="Because when bulb A is burned out, it creates a gap and then bulbs B and C are no longer contained in a closed path to the battery." count="1">
+      <token id="tok2276" status="ok">Because</token>
+      <token id="tok2277" status="ok">when</token>
+      <token id="tok2278" status="ok">bulb</token>
+      <token id="tok2279" status="ok">A</token>
+      <token id="tok2280" status="ok">is</token>
+      <token id="tok2281" status="ok">burned</token>
+      <token id="tok2282" status="ok">out</token>
+      <token id="tok2283" status="ok">it</token>
+      <token id="tok2284" status="ok">creates</token>
+      <token id="tok2285" status="ok">a</token>
+      <token id="tok2286" status="ok">gap</token>
+      <token id="tok2287" status="ok">and</token>
+      <token id="tok2288" status="ok">then</token>
+      <token id="tok2289" status="ok">bulbs</token>
+      <token id="tok2290" status="ok">B</token>
+      <token id="tok2291" status="ok">and</token>
+      <token id="tok2292" status="ok">C</token>
+      <token id="tok2293" status="ok">are</token>
+      <token id="tok2294" status="ok">no</token>
+      <token id="tok2295" status="ok">longer</token>
+      <token id="tok2296" status="ok">contained</token>
+      <token id="tok2297" status="ok">in</token>
+      <token id="tok2298" status="ok">a</token>
+      <token id="tok2299" status="ok">closed</token>
+      <token id="tok2300" status="ok">path</token>
+      <token id="tok2301" status="ok">to</token>
+      <token id="tok2302" status="ok">the</token>
+      <token id="tok2303" status="ok">battery</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q1.sbjb42-l2.qa101" accuracy="partially_correct_incomplete" answerMatch="answer394" raw_text="that creates a gap in the path" count="1">
+      <token id="tok2117" status="ok">that</token>
+      <token id="tok2118" status="ok">creates</token>
+      <token id="tok2119" status="ok">a</token>
+      <token id="tok2120" status="ok">gap</token>
+      <token id="tok2121" status="ok">in</token>
+      <token id="tok2122" status="ok">the</token>
+      <token id="tok2123" status="ok">path</token>
+    </studentAnswer>
+  </studentAnswers>
+</question>

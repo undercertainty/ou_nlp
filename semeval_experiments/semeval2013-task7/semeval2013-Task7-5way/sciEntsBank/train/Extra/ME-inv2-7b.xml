@@ -1,0 +1,245 @@
+<?xml version="1.0"?>
+<question id="ME_7b" module="ME">
+  <questionText>Lee has an object he wants to test to see if it is an insulator or a conductor. He is going to use the circuit you see in the picture. How will he know if the object is a conductor?</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="ME_7b-a1" text="If the motor runs, the object is a conductor.">
+      <tokens>
+        <token id="ME_7b_ra1">If</token>
+        <token id="ME_7b_ra2">the</token>
+        <token id="ME_7b_ra3">motor</token>
+        <token id="ME_7b_ra4">runs</token>
+        <token id="ME_7b_ra5">,</token>
+        <token id="ME_7b_ra6">the</token>
+        <token id="ME_7b_ra7">object</token>
+        <token id="ME_7b_ra8">is</token>
+        <token id="ME_7b_ra9">a</token>
+        <token id="ME_7b_ra10">conductor</token>
+        <token id="ME_7b_ra11">.</token>
+      </tokens>
+      <facets>
+        <facet id="ME_7b_f1" govNum="ME_7b_ra4" modNum="ME_7b_ra3" reltn="Theme" govText="runs" modText="motor"/>
+        <facet id="ME_7b_f2" govNum="ME_7b_ra7" modNum="ME_7b_ra10" reltn="Be" govText="object" isAssumed="true" modText="conductor"/>
+        <facet id="ME_7b_f3" govNum="ME_7b_ra4" modNum="ME_7b_ra8" reltn="Cause-know_if" childProp1Facet1="ME_7b_f1" govText="runs" isAssumed="true" modText="is" childProp2Facet1="ME_7b_f2"/>
+        <facet id="ME_7b_f4" govNum="ME_7b_ra8" modNum="ME_7b_ra4" reltn="Cause_if" childProp1Facet1="ME_7b_f2" govText="is" modText="runs" childProp2Facet1="ME_7b_f1"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="ME.7b.102.1" answerText="The motor will run that is how you will know." accuracy="correct">
+      <facetEntailment facetID="ME_7b_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_7b_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_7b_f3" label="Assumed"/>
+      <facetEntailment facetID="ME_7b_f4" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="ME.7b.105.1" answerText="He will know because the motor will run." accuracy="correct">
+      <facetEntailment facetID="ME_7b_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_7b_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_7b_f3" label="Assumed"/>
+      <facetEntailment facetID="ME_7b_f4" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="ME.7b.107.1" answerText="He will know it is a conductor if the motor spins." accuracy="correct">
+      <facetEntailment facetID="ME_7b_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_7b_f2" label="Expressed"/>
+      <facetEntailment facetID="ME_7b_f3" label="Expressed"/>
+      <facetEntailment facetID="ME_7b_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.7b.108.1" answerText="It will conduct electricity." accuracy="irrelevant">
+      <facetEntailment facetID="ME_7b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="ME_7b_f2" label="Expressed"/>
+      <facetEntailment facetID="ME_7b_f3" label="Assumed"/>
+      <facetEntailment facetID="ME_7b_f4" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.7b.120.1" answerText="He will know because the motor will come on if it is a conductor." accuracy="correct">
+      <facetEntailment facetID="ME_7b_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_7b_f2" label="Expressed"/>
+      <facetEntailment facetID="ME_7b_f3" label="Expressed"/>
+      <facetEntailment facetID="ME_7b_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.7b.140.1" answerText="Only if the motor works then is a conductor." accuracy="correct">
+      <facetEntailment facetID="ME_7b_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_7b_f2" label="Expressed"/>
+      <facetEntailment facetID="ME_7b_f3" label="Expressed"/>
+      <facetEntailment facetID="ME_7b_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.7b.143.1" answerText="If the motor starts running." accuracy="correct">
+      <facetEntailment facetID="ME_7b_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_7b_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_7b_f3" label="Assumed"/>
+      <facetEntailment facetID="ME_7b_f4" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="ME.7b.149.1" answerText="If it runs." accuracy="correct">
+      <facetEntailment facetID="ME_7b_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_7b_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_7b_f3" label="Assumed"/>
+      <facetEntailment facetID="ME_7b_f4" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="ME.7b.153.1" answerText="If the motor comes on." accuracy="correct">
+      <facetEntailment facetID="ME_7b_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_7b_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_7b_f3" label="Assumed"/>
+      <facetEntailment facetID="ME_7b_f4" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="ME.7b.154.1" answerText="He will know that it will allow the flow of energy." accuracy="correct">
+      <facetEntailment facetID="ME_7b_f1" label="Inferred"/>
+      <facetEntailment facetID="ME_7b_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_7b_f3" label="Assumed"/>
+      <facetEntailment facetID="ME_7b_f4" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="ME.7b.155.1" answerText="Lee would know if is a conductor if it runs." accuracy="correct">
+      <facetEntailment facetID="ME_7b_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_7b_f2" label="Expressed"/>
+      <facetEntailment facetID="ME_7b_f3" label="Expressed"/>
+      <facetEntailment facetID="ME_7b_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.7b.173.1" answerText="He will know because a conductor is not glowing in a circuit." accuracy="irrelevant">
+      <facetEntailment facetID="ME_7b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="ME_7b_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_7b_f3" label="Assumed"/>
+      <facetEntailment facetID="ME_7b_f4" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.7b.176.1" answerText="You will know it is a conductor because the motor will run." accuracy="correct">
+      <facetEntailment facetID="ME_7b_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_7b_f2" label="Expressed"/>
+      <facetEntailment facetID="ME_7b_f3" label="Expressed"/>
+      <facetEntailment facetID="ME_7b_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.7b.179.1" answerText="If the objects a conductor the motor should run and electricity will be able to flow." accuracy="correct">
+      <facetEntailment facetID="ME_7b_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_7b_f2" label="Expressed"/>
+      <facetEntailment facetID="ME_7b_f3" label="Expressed"/>
+      <facetEntailment facetID="ME_7b_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.7b.183.1" answerText="If the motor runs." accuracy="correct">
+      <facetEntailment facetID="ME_7b_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_7b_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_7b_f3" label="Assumed"/>
+      <facetEntailment facetID="ME_7b_f4" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="ME.7b.190.1" answerText="It will run or turn on if it is a conductor." accuracy="correct">
+      <facetEntailment facetID="ME_7b_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_7b_f2" label="Expressed"/>
+      <facetEntailment facetID="ME_7b_f3" label="Expressed"/>
+      <facetEntailment facetID="ME_7b_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.7b.192.1" answerText="He will know because the energy will flow in a circle and there will be a open circuit." accuracy="irrelevant">
+      <facetEntailment facetID="ME_7b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="ME_7b_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_7b_f3" label="Assumed"/>
+      <facetEntailment facetID="ME_7b_f4" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.7b.207.1" answerText="It will run." accuracy="correct">
+      <facetEntailment facetID="ME_7b_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_7b_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_7b_f3" label="Assumed"/>
+      <facetEntailment facetID="ME_7b_f4" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="ME.7b.208.1" answerText="The object will go." accuracy="correct">
+      <facetEntailment facetID="ME_7b_f1" label="Inferred"/>
+      <facetEntailment facetID="ME_7b_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_7b_f3" label="Assumed"/>
+      <facetEntailment facetID="ME_7b_f4" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="ME.7b.215.1" answerText="If the light is on or off." accuracy="irrelevant">
+      <facetEntailment facetID="ME_7b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="ME_7b_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_7b_f3" label="Assumed"/>
+      <facetEntailment facetID="ME_7b_f4" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.7b.216.1" answerText="By doing what I wrote for the first part." accuracy="irrelevant">
+      <facetEntailment facetID="ME_7b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="ME_7b_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_7b_f3" label="Assumed"/>
+      <facetEntailment facetID="ME_7b_f4" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.7b.224.1" answerText="You will know because it will start to work." accuracy="correct">
+      <facetEntailment facetID="ME_7b_f1" label="Inferred"/>
+      <facetEntailment facetID="ME_7b_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_7b_f3" label="Assumed"/>
+      <facetEntailment facetID="ME_7b_f4" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="ME.7b.225.1" answerText="He will know the object is a conductor if the energy flows through." accuracy="correct">
+      <facetEntailment facetID="ME_7b_f1" label="Inferred"/>
+      <facetEntailment facetID="ME_7b_f2" label="Expressed"/>
+      <facetEntailment facetID="ME_7b_f3" label="Assumed"/>
+      <facetEntailment facetID="ME_7b_f4" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="ME.7b.227.1" answerText="He will know if the object is a conductor because the motor will run." accuracy="correct">
+      <facetEntailment facetID="ME_7b_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_7b_f2" label="Expressed"/>
+      <facetEntailment facetID="ME_7b_f3" label="Expressed"/>
+      <facetEntailment facetID="ME_7b_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.7b.228.1" answerText="If the object is a conductor it will do what it is suppose to do." accuracy="irrelevant">
+      <facetEntailment facetID="ME_7b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="ME_7b_f2" label="Expressed"/>
+      <facetEntailment facetID="ME_7b_f3" label="Assumed"/>
+      <facetEntailment facetID="ME_7b_f4" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.7b.247.1" answerText="To try it out and see if it is a conductor." accuracy="irrelevant">
+      <facetEntailment facetID="ME_7b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="ME_7b_f2" label="Expressed"/>
+      <facetEntailment facetID="ME_7b_f3" label="Assumed"/>
+      <facetEntailment facetID="ME_7b_f4" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.7b.250.1" answerText="You will know if the motor runs." accuracy="correct">
+      <facetEntailment facetID="ME_7b_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_7b_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_7b_f3" label="Assumed"/>
+      <facetEntailment facetID="ME_7b_f4" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="ME.7b.253.1" answerText="You will know if the motor turns on that it is a good conductor." accuracy="correct">
+      <facetEntailment facetID="ME_7b_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_7b_f2" label="Expressed"/>
+      <facetEntailment facetID="ME_7b_f3" label="Expressed"/>
+      <facetEntailment facetID="ME_7b_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.7b.278.1" answerText="He will know if the motor runs." accuracy="correct">
+      <facetEntailment facetID="ME_7b_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_7b_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_7b_f3" label="Assumed"/>
+      <facetEntailment facetID="ME_7b_f4" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="ME.7b.280.1" answerText="If it runs." accuracy="correct">
+      <facetEntailment facetID="ME_7b_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_7b_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_7b_f3" label="Assumed"/>
+      <facetEntailment facetID="ME_7b_f4" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="ME.7b.292.1" answerText="He can put thing on a D-Cell." accuracy="irrelevant">
+      <facetEntailment facetID="ME_7b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="ME_7b_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_7b_f3" label="Assumed"/>
+      <facetEntailment facetID="ME_7b_f4" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.7b.313.1" answerText="The light bulb will or the motor will make a sound." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="ME_7b_f1" label="Diff-Arg"/>
+      <facetEntailment facetID="ME_7b_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_7b_f3" label="Assumed"/>
+      <facetEntailment facetID="ME_7b_f4" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="ME.7b.318.1" answerText="The motor will work and that annoying buzz will come back." accuracy="correct">
+      <facetEntailment facetID="ME_7b_f1" label="Inferred"/>
+      <facetEntailment facetID="ME_7b_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_7b_f3" label="Assumed"/>
+      <facetEntailment facetID="ME_7b_f4" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="ME.7b.324.1" answerText="Check if is right or not." accuracy="non_domain">
+      <facetEntailment facetID="ME_7b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="ME_7b_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_7b_f3" label="Assumed"/>
+      <facetEntailment facetID="ME_7b_f4" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.7b.325.1" answerText="He will know that if the motor runs." accuracy="correct">
+      <facetEntailment facetID="ME_7b_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_7b_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_7b_f3" label="Assumed"/>
+      <facetEntailment facetID="ME_7b_f4" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="ME.7b.383.1" answerText="The motor will run." accuracy="correct">
+      <facetEntailment facetID="ME_7b_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_7b_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_7b_f3" label="Assumed"/>
+      <facetEntailment facetID="ME_7b_f4" label="Inferred"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

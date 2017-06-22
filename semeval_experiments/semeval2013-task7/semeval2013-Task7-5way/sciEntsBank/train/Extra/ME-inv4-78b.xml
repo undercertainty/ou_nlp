@@ -1,0 +1,325 @@
+<?xml version="1.0"?>
+<question id="ME_78b" module="ME">
+  <questionText>Look at the picture of the circuit to the right. What will happen to the motor if the light bulb burns out?</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="ME_78b-a1" text="The motor will continue to run because the motor still has a pathway to the D-cell.">
+      <tokens>
+        <token id="ME_78b_ra1">The</token>
+        <token id="ME_78b_ra2">motor</token>
+        <token id="ME_78b_ra3">will</token>
+        <token id="ME_78b_ra4">continue</token>
+        <token id="ME_78b_ra5">to</token>
+        <token id="ME_78b_ra6">run</token>
+        <token id="ME_78b_ra7">because</token>
+        <token id="ME_78b_ra8">the</token>
+        <token id="ME_78b_ra9">motor</token>
+        <token id="ME_78b_ra10">still</token>
+        <token id="ME_78b_ra11">has</token>
+        <token id="ME_78b_ra12">a</token>
+        <token id="ME_78b_ra13">pathway</token>
+        <token id="ME_78b_ra14">to</token>
+        <token id="ME_78b_ra15">the</token>
+        <token id="ME_78b_ra16">D-cell</token>
+        <token id="ME_78b_ra17">.</token>
+      </tokens>
+      <facets>
+        <facet id="ME_78b_f1" govNum="ME_78b_ra6" modNum="ME_78b_ra2" reltn="Theme" govText="run" modText="motor"/>
+        <facet id="ME_78b_f2" govNum="ME_78b_ra6" modNum="ME_78b_ra4" reltn="VMod_to" govText="run" modText="continue"/>
+        <facet id="ME_78b_f3" govNum="ME_78b_ra9" modNum="ME_78b_ra13" reltn="Have" govText="motor" modText="pathway"/>
+        <facet id="ME_78b_f4" govNum="ME_78b_ra11" modNum="ME_78b_ra10" reltn="VMod" govText="has" modText="still"/>
+        <facet id="ME_78b_f5" govNum="ME_78b_ra13" modNum="ME_78b_ra16" reltn="Destination_to" govText="pathway" modText="D-cell"/>
+        <facet id="ME_78b_f6" govNum="ME_78b_ra6" modNum="ME_78b_ra11" reltn="Cause_because" childProp1Facet1="ME_78b_f1" govText="run" childProp1Facet2="ME_78b_f2" modText="has" childProp2Facet1="ME_78b_f3"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="ME.78b.101.1" answerText="The motor will still run." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="ME_78b_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_78b_f2" label="Expressed"/>
+      <facetEntailment facetID="ME_78b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_78b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_78b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ME_78b_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.78b.105.1" answerText="The motor will burn out." accuracy="contradictory">
+      <facetEntailment facetID="ME_78b_f1" label="Contra-Infr"/>
+      <facetEntailment facetID="ME_78b_f2" label="Contra-Infr"/>
+      <facetEntailment facetID="ME_78b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_78b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_78b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ME_78b_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.78b.107.1" answerText="The motor will go out too." accuracy="contradictory">
+      <facetEntailment facetID="ME_78b_f1" label="Contra-Expr"/>
+      <facetEntailment facetID="ME_78b_f2" label="Contra-Expr"/>
+      <facetEntailment facetID="ME_78b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_78b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_78b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ME_78b_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.78b.119.1" answerText="The motor will still run." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="ME_78b_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_78b_f2" label="Expressed"/>
+      <facetEntailment facetID="ME_78b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_78b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_78b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ME_78b_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.78b.120.1" answerText="It would stay on." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="ME_78b_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_78b_f2" label="Expressed"/>
+      <facetEntailment facetID="ME_78b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_78b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_78b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ME_78b_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.78b.121.1" answerText="It would still work." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="ME_78b_f1" label="Inferred"/>
+      <facetEntailment facetID="ME_78b_f2" label="Inferred"/>
+      <facetEntailment facetID="ME_78b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_78b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_78b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ME_78b_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.78b.123.1" answerText="It will run the same it is a parallel." accuracy="correct">
+      <facetEntailment facetID="ME_78b_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_78b_f2" label="Expressed"/>
+      <facetEntailment facetID="ME_78b_f3" label="Inferred"/>
+      <facetEntailment facetID="ME_78b_f4" label="Inferred"/>
+      <facetEntailment facetID="ME_78b_f5" label="Inferred"/>
+      <facetEntailment facetID="ME_78b_f6" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="ME.78b.142.1" answerText="The motor will keep going until the D-Cell runs out." accuracy="correct">
+      <facetEntailment facetID="ME_78b_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_78b_f2" label="Expressed"/>
+      <facetEntailment facetID="ME_78b_f3" label="Inferred"/>
+      <facetEntailment facetID="ME_78b_f4" label="Inferred"/>
+      <facetEntailment facetID="ME_78b_f5" label="Inferred"/>
+      <facetEntailment facetID="ME_78b_f6" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="ME.78b.144.1" answerText="The motor will stop running." accuracy="contradictory">
+      <facetEntailment facetID="ME_78b_f1" label="Contra-Expr"/>
+      <facetEntailment facetID="ME_78b_f2" label="Contra-Expr"/>
+      <facetEntailment facetID="ME_78b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_78b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_78b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ME_78b_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.78b.146.1" answerText="The motor will still run because it is a parallel circuit." accuracy="correct">
+      <facetEntailment facetID="ME_78b_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_78b_f2" label="Expressed"/>
+      <facetEntailment facetID="ME_78b_f3" label="Inferred"/>
+      <facetEntailment facetID="ME_78b_f4" label="Inferred"/>
+      <facetEntailment facetID="ME_78b_f5" label="Inferred"/>
+      <facetEntailment facetID="ME_78b_f6" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="ME.78b.148.1" answerText="It will still run." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="ME_78b_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_78b_f2" label="Expressed"/>
+      <facetEntailment facetID="ME_78b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_78b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_78b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ME_78b_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.78b.149.1" answerText="Nothing will happen. It will still run." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="ME_78b_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_78b_f2" label="Expressed"/>
+      <facetEntailment facetID="ME_78b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_78b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_78b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ME_78b_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.78b.152.1" answerText="They both go out." accuracy="contradictory">
+      <facetEntailment facetID="ME_78b_f1" label="Contra-Expr"/>
+      <facetEntailment facetID="ME_78b_f2" label="Contra-Expr"/>
+      <facetEntailment facetID="ME_78b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_78b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_78b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ME_78b_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.78b.154.1" answerText="The motor will quit because it is in a series if one thing runs out the rest that are hooked up to it will not work." accuracy="contradictory">
+      <facetEntailment facetID="ME_78b_f1" label="Contra-Expr"/>
+      <facetEntailment facetID="ME_78b_f2" label="Contra-Expr"/>
+      <facetEntailment facetID="ME_78b_f3" label="Contra-Infr"/>
+      <facetEntailment facetID="ME_78b_f4" label="Contra-Infr"/>
+      <facetEntailment facetID="ME_78b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ME_78b_f6" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="ME.78b.155.1" answerText="The motor will stay on because the wire is coming out of the positive end and the back." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="ME_78b_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_78b_f2" label="Expressed"/>
+      <facetEntailment facetID="ME_78b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_78b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_78b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ME_78b_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.78b.173.1" answerText="If the bulb shuts off the motor will turn off because it is a series circuit." accuracy="contradictory">
+      <facetEntailment facetID="ME_78b_f1" label="Contra-Expr"/>
+      <facetEntailment facetID="ME_78b_f2" label="Contra-Expr"/>
+      <facetEntailment facetID="ME_78b_f3" label="Contra-Infr"/>
+      <facetEntailment facetID="ME_78b_f4" label="Contra-Infr"/>
+      <facetEntailment facetID="ME_78b_f5" label="Contra-Infr"/>
+      <facetEntailment facetID="ME_78b_f6" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="ME.78b.174.1" answerText="The motor will stay on." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="ME_78b_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_78b_f2" label="Expressed"/>
+      <facetEntailment facetID="ME_78b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_78b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_78b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ME_78b_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.78b.176.1" answerText="The motor will not work." accuracy="contradictory">
+      <facetEntailment facetID="ME_78b_f1" label="Contra-Expr"/>
+      <facetEntailment facetID="ME_78b_f2" label="Contra-Expr"/>
+      <facetEntailment facetID="ME_78b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_78b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_78b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ME_78b_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.78b.178.1" answerText="The motor will stop." accuracy="contradictory">
+      <facetEntailment facetID="ME_78b_f1" label="Contra-Expr"/>
+      <facetEntailment facetID="ME_78b_f2" label="Contra-Expr"/>
+      <facetEntailment facetID="ME_78b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_78b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_78b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ME_78b_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.78b.180.1" answerText="If the light bulb burns out the motor will keep on going." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="ME_78b_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_78b_f2" label="Expressed"/>
+      <facetEntailment facetID="ME_78b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_78b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_78b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ME_78b_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.78b.185.1" answerText="The motor will keep going." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="ME_78b_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_78b_f2" label="Expressed"/>
+      <facetEntailment facetID="ME_78b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_78b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_78b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ME_78b_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.78b.191.1" answerText="The motor will still keep running." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="ME_78b_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_78b_f2" label="Expressed"/>
+      <facetEntailment facetID="ME_78b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_78b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_78b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ME_78b_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.78b.192.1" answerText="The motor will still be running." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="ME_78b_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_78b_f2" label="Expressed"/>
+      <facetEntailment facetID="ME_78b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_78b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_78b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ME_78b_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.78b.195.1" answerText="There will be no electricity." accuracy="contradictory">
+      <facetEntailment facetID="ME_78b_f1" label="Contra-Infr"/>
+      <facetEntailment facetID="ME_78b_f2" label="Contra-Infr"/>
+      <facetEntailment facetID="ME_78b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_78b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_78b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ME_78b_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.78b.206.1" answerText="The motor will go out." accuracy="contradictory">
+      <facetEntailment facetID="ME_78b_f1" label="Contra-Expr"/>
+      <facetEntailment facetID="ME_78b_f2" label="Contra-Expr"/>
+      <facetEntailment facetID="ME_78b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_78b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_78b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ME_78b_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.78b.207.1" answerText="The motor will run." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="ME_78b_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_78b_f2" label="Expressed"/>
+      <facetEntailment facetID="ME_78b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_78b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_78b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ME_78b_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.78b.208.1" answerText="If the light bulb burns out, the motor will not work." accuracy="contradictory">
+      <facetEntailment facetID="ME_78b_f1" label="Contra-Expr"/>
+      <facetEntailment facetID="ME_78b_f2" label="Contra-Expr"/>
+      <facetEntailment facetID="ME_78b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_78b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_78b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ME_78b_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.78b.212.1" answerText="The motor will stop working." accuracy="contradictory">
+      <facetEntailment facetID="ME_78b_f1" label="Contra-Expr"/>
+      <facetEntailment facetID="ME_78b_f2" label="Contra-Expr"/>
+      <facetEntailment facetID="ME_78b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_78b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_78b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ME_78b_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.78b.215.1" answerText="It would not work." accuracy="contradictory">
+      <facetEntailment facetID="ME_78b_f1" label="Contra-Infr"/>
+      <facetEntailment facetID="ME_78b_f2" label="Contra-Infr"/>
+      <facetEntailment facetID="ME_78b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_78b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_78b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ME_78b_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.78b.217.1" answerText="The motor will still work." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="ME_78b_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_78b_f2" label="Expressed"/>
+      <facetEntailment facetID="ME_78b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_78b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_78b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ME_78b_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.78b.227.1" answerText="Nothing will happen." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="ME_78b_f1" label="Inferred"/>
+      <facetEntailment facetID="ME_78b_f2" label="Inferred"/>
+      <facetEntailment facetID="ME_78b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_78b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_78b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ME_78b_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.78b.245.1" answerText="The motor will stop." accuracy="contradictory">
+      <facetEntailment facetID="ME_78b_f1" label="Contra-Expr"/>
+      <facetEntailment facetID="ME_78b_f2" label="Contra-Expr"/>
+      <facetEntailment facetID="ME_78b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_78b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_78b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ME_78b_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.78b.250.1" answerText="The motor will run." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="ME_78b_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_78b_f2" label="Expressed"/>
+      <facetEntailment facetID="ME_78b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_78b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_78b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ME_78b_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.78b.311.1" answerText="The motor is going to keep going when the light bulb goes out." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="ME_78b_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_78b_f2" label="Expressed"/>
+      <facetEntailment facetID="ME_78b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_78b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_78b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ME_78b_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.78b.324.1" answerText="It will still run." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="ME_78b_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_78b_f2" label="Expressed"/>
+      <facetEntailment facetID="ME_78b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_78b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_78b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ME_78b_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.78b.327.1" answerText="It will still run because it is not sharing a wire like a series does." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="ME_78b_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_78b_f2" label="Expressed"/>
+      <facetEntailment facetID="ME_78b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_78b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_78b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ME_78b_f6" label="Unaddressed"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

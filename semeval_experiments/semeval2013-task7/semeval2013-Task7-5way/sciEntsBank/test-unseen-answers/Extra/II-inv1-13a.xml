@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<question testSet="unseen-answers" id="II_13a" module="II">
+  <questionText>Look at the finger patterns below, then answer the questions. What is the same about the finger patterns?</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="II_13a-a1" text="Both finger patterns are loops.">
+      <tokens>
+        <token id="II_13a_ra1">Both</token>
+        <token id="II_13a_ra2">finger</token>
+        <token id="II_13a_ra3">patterns</token>
+        <token id="II_13a_ra4">are</token>
+        <token id="II_13a_ra5">loops</token>
+        <token id="II_13a_ra6">.</token>
+      </tokens>
+      <facets>
+        <facet id="II_13a_f1" govNum="II_13a_ra3" modNum="II_13a_ra2" reltn="NMod" govText="patterns" isAssumed="true" modText="finger"/>
+        <facet id="II_13a_f2" govNum="II_13a_ra3" modNum="II_13a_ra1" reltn="Quantifier" govText="patterns" isAssumed="true" modText="Both"/>
+        <facet id="II_13a_f3" govNum="II_13a_ra3" modNum="II_13a_ra5" reltn="Be" govText="patterns" modText="loops"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="II.13a.462.1" answerText="They are both loops." accuracy="correct">
+      <facetEntailment facetID="II_13a_f1" label="Assumed"/>
+      <facetEntailment facetID="II_13a_f2" label="Expressed"/>
+      <facetEntailment facetID="II_13a_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="II.13a.529.1" answerText="They are loops." accuracy="correct">
+      <facetEntailment facetID="II_13a_f1" label="Assumed"/>
+      <facetEntailment facetID="II_13a_f2" label="Assumed"/>
+      <facetEntailment facetID="II_13a_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="II.13a.594.1" answerText="They both have a whorl." accuracy="contradictory">
+      <facetEntailment facetID="II_13a_f1" label="Assumed"/>
+      <facetEntailment facetID="II_13a_f2" label="Assumed"/>
+      <facetEntailment facetID="II_13a_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="II.13a.612.1" answerText="They are both arches." accuracy="contradictory">
+      <facetEntailment facetID="II_13a_f1" label="Assumed"/>
+      <facetEntailment facetID="II_13a_f2" label="Assumed"/>
+      <facetEntailment facetID="II_13a_f3" label="Inferred"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

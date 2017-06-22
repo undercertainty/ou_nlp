@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<question testSet="unseen-answers" id="MX_24" module="MX">
+  <questionText>How do you know when a solid and a liquid form a solution?</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="MX_24-a1" text="The solid dissolves (seems to disappear) and the liquid remains clear.">
+      <tokens>
+        <token id="MX_24_ra1">The</token>
+        <token id="MX_24_ra2">solid</token>
+        <token id="MX_24_ra3">dissolves</token>
+        <token id="MX_24_ra4">(</token>
+        <token id="MX_24_ra5">seems</token>
+        <token id="MX_24_ra6">to</token>
+        <token id="MX_24_ra7">disappear</token>
+        <token id="MX_24_ra8">)</token>
+        <token id="MX_24_ra9">and</token>
+        <token id="MX_24_ra10">the</token>
+        <token id="MX_24_ra11">liquid</token>
+        <token id="MX_24_ra12">remains</token>
+        <token id="MX_24_ra13">clear</token>
+        <token id="MX_24_ra14">.</token>
+      </tokens>
+      <facets>
+        <facet id="MX_24_f1" govNum="MX_24_ra3" modNum="MX_24_ra2" reltn="Patient" govText="dissolves" modText="solid"/>
+        <facet id="MX_24_f2" govNum="MX_24_ra7" modNum="MX_24_ra2" reltn="Theme" govText="disappear" modText="solid"/>
+        <facet id="MX_24_f3" govNum="MX_24_ra7" modNum="MX_24_ra5" reltn="VMod_to" govText="disappear" modText="seems"/>
+        <facet id="MX_24_f4" govNum="MX_24_ra12" modNum="MX_24_ra11" reltn="Theme" govText="remains" modText="liquid"/>
+        <facet id="MX_24_f5" govNum="MX_24_ra12" modNum="MX_24_ra13" reltn="Attribute" govText="remains" modText="clear"/>
+        <facet id="MX_24_f6" govNum="MX_24_ra12" modNum="MX_24_ra3" reltn="Cause_and" childProp2Facet2="MX_24_f2" childProp1Facet1="MX_24_f4" govText="remains" childProp1Facet2="MX_24_f5" modText="dissolves" childProp2Facet1="MX_24_f1"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="MX.24.418.1" answerText="Because you can see through it, and the mixture will dissolve into it." accuracy="correct">
+      <facetEntailment facetID="MX_24_f1" label="Inferred"/>
+      <facetEntailment facetID="MX_24_f2" label="Inferred"/>
+      <facetEntailment facetID="MX_24_f3" label="Expressed"/>
+      <facetEntailment facetID="MX_24_f4" label="Inferred"/>
+      <facetEntailment facetID="MX_24_f5" label="Expressed"/>
+      <facetEntailment facetID="MX_24_f6" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="MX.24.468.1" answerText="You can not see the solid no more because it is going and you cannot see the solution." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="MX_24_f1" label="Inferred"/>
+      <facetEntailment facetID="MX_24_f2" label="Expressed"/>
+      <facetEntailment facetID="MX_24_f3" label="Inferred"/>
+      <facetEntailment facetID="MX_24_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MX_24_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MX_24_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.24.527.1" answerText="You know when the solid cannot be seen." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="MX_24_f1" label="Unaddressed"/>
+      <facetEntailment facetID="MX_24_f2" label="Expressed"/>
+      <facetEntailment facetID="MX_24_f3" label="Inferred"/>
+      <facetEntailment facetID="MX_24_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MX_24_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MX_24_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.24.566.1" answerText="When the solid dissolves into the liquid." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="MX_24_f1" label="Expressed"/>
+      <facetEntailment facetID="MX_24_f2" label="Inferred"/>
+      <facetEntailment facetID="MX_24_f3" label="Inferred"/>
+      <facetEntailment facetID="MX_24_f4" label="Inferred"/>
+      <facetEntailment facetID="MX_24_f5" label="Inferred"/>
+      <facetEntailment facetID="MX_24_f6" label="Inferred"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

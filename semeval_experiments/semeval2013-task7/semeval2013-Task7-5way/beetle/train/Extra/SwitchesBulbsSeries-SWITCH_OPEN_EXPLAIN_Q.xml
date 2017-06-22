@@ -1,0 +1,973 @@
+<?xml version="1.0"?>
+<question qtype="Q_EXPLAIN_GENERIC" id="SWITCH_OPEN_EXPLAIN_Q" module="SwitchesBulbsSeries" stype="QUESTION">
+  <questionText>Why does an open switch impact a circuit?</questionText>
+  <referenceAnswers>
+    <referenceAnswer category="BEST" id="answer46" fileID="SWITCH_OPEN_EXPLAIN_Q_ANS1">the open switch creates a gap</referenceAnswer>
+    <referenceAnswer category="KEYWORD" id="answer47" fileID="SWITCH_OPEN_EXPLAIN_Q_ANS2">a gap</referenceAnswer>
+    <referenceAnswer category="GOOD" id="answer48" fileID="SWITCH_OPEN_EXPLAIN_Q_ANS3">there is a gap in a circuit</referenceAnswer>
+    <referenceAnswer category="GOOD" id="answer49" fileID="SWITCH_OPEN_EXPLAIN_Q_ANS4">the path is not closed</referenceAnswer>
+    <referenceAnswer category="MINIMAL" id="answer51" fileID="SWITCH_OPEN_EXPLAIN_Q_ANS5">there is an incomplete circuit</referenceAnswer>
+    <referenceAnswer category="GOOD" id="answer52" fileID="SWITCH_OPEN_EXPLAIN_Q_ANS6">there is an open path</referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer count="1" answerMatch="answer51" raw_text="it causes an open circuit" id="SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbj3-l1.qa79" accuracy="partially_correct_incomplete">
+      <token status="ok" id="tok1366">it</token>
+      <token status="ok" id="tok1367">causes</token>
+      <token status="ok" id="tok1368">an</token>
+      <token status="ok" id="tok1369">open</token>
+      <token status="ok" id="tok1370">circuit</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer52" raw_text="it causes the path to be open" id="SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbj3-l1.qa80" accuracy="correct">
+      <token status="ok" id="tok1405">it</token>
+      <token status="ok" id="tok1406">causes</token>
+      <token status="ok" id="tok1407">the</token>
+      <token status="ok" id="tok1408">path</token>
+      <token status="ok" id="tok1409">to</token>
+      <token status="ok" id="tok1410">be</token>
+      <token status="ok" id="tok1411">open</token>
+    </studentAnswer>
+    <studentAnswer count="3" answerMatch="answer52" raw_text="it opens the path" id="SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbj7-l1.qa77" accuracy="correct">
+      <token status="ok" id="tok1226">it</token>
+      <token status="ok" id="tok1227">opens</token>
+      <token status="ok" id="tok1228">the</token>
+      <token status="ok" id="tok1229">path</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer51" raw_text="Because the electricity will not flow through the wires if the circuit path is incomplete." id="SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbj8-l1.qa96" accuracy="correct">
+      <token status="ok" id="tok1448">Because</token>
+      <token status="ok" id="tok1449">the</token>
+      <token status="ok" id="tok1450">electricity</token>
+      <token status="ok" id="tok1451">will</token>
+      <token status="ok" id="tok1452">not</token>
+      <token status="ok" id="tok1453">flow</token>
+      <token status="ok" id="tok1454">through</token>
+      <token status="ok" id="tok1455">the</token>
+      <token status="ok" id="tok1456">wires</token>
+      <token status="ok" id="tok1457">if</token>
+      <token status="ok" id="tok1458">the</token>
+      <token status="ok" id="tok1459">circuit</token>
+      <token status="ok" id="tok1460">path</token>
+      <token status="ok" id="tok1461">is</token>
+      <token status="ok" id="tok1462">incomplete</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer51" raw_text="The bulbs will not be powered if the circuit path is incomplete." id="SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbj8-l1.qa97" accuracy="correct">
+      <token status="ok" id="tok1483">The</token>
+      <token status="ok" id="tok1484">bulbs</token>
+      <token status="ok" id="tok1485">will</token>
+      <token status="ok" id="tok1486">not</token>
+      <token status="ok" id="tok1487">be</token>
+      <token status="ok" id="tok1488">powered</token>
+      <token status="ok" id="tok1489">if</token>
+      <token status="ok" id="tok1490">the</token>
+      <token status="ok" id="tok1491">circuit</token>
+      <token status="ok" id="tok1492">path</token>
+      <token status="ok" id="tok1493">is</token>
+      <token status="ok" id="tok1494">incomplete</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer51" raw_text="The open switch makes the circuit incomplete." id="SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbj9-l1.qa75" accuracy="correct">
+      <token status="ok" id="tok1161">The</token>
+      <token status="ok" id="tok1162">open</token>
+      <token status="ok" id="tok1163">switch</token>
+      <token status="ok" id="tok1164">makes</token>
+      <token status="ok" id="tok1165">the</token>
+      <token status="ok" id="tok1166">circuit</token>
+      <token status="ok" id="tok1167">incomplete</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer52" raw_text="it creates an open path" id="SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbj10-l1.qa96" accuracy="correct">
+      <token status="ok" id="tok1624">it</token>
+      <token status="ok" id="tok1625">creates</token>
+      <token status="ok" id="tok1626">an</token>
+      <token status="ok" id="tok1627">open</token>
+      <token status="ok" id="tok1628">path</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="because it causes a short circuit." id="SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbj11-l1.qa97" accuracy="contradictory">
+      <token status="ok" id="tok1405">because</token>
+      <token status="ok" id="tok1406">it</token>
+      <token status="ok" id="tok1407">causes</token>
+      <token status="ok" id="tok1408">a</token>
+      <token status="ok" id="tok1409">short</token>
+      <token status="ok" id="tok1410">circuit</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer51" raw_text="because it blocks the charge of the circuit." id="SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbj11-l1.qa99" accuracy="partially_correct_incomplete">
+      <token status="ok" id="tok1429">because</token>
+      <token status="ok" id="tok1430">it</token>
+      <token status="ok" id="tok1431">blocks</token>
+      <token status="ok" id="tok1432">the</token>
+      <token status="ok" id="tok1433">charge</token>
+      <token status="ok" id="tok1434">of</token>
+      <token status="ok" id="tok1435">the</token>
+      <token status="ok" id="tok1436">circuit</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="because the the circuit is complete." id="SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbj11-l1.qa100" accuracy="contradictory">
+      <token status="ok" id="tok1461">because</token>
+      <token status="ok" id="tok1462">the</token>
+      <token status="ok" id="tok1463">the</token>
+      <token status="ok" id="tok1464">circuit</token>
+      <token status="ok" id="tok1465">is</token>
+      <token status="ok" id="tok1466">complete</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer46" raw_text="it creates a gap in the current." id="SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbj13-l1.qa90" accuracy="partially_correct_incomplete">
+      <token status="ok" id="tok1484">it</token>
+      <token status="ok" id="tok1485">creates</token>
+      <token status="ok" id="tok1486">a</token>
+      <token status="ok" id="tok1487">gap</token>
+      <token status="ok" id="tok1488">in</token>
+      <token status="ok" id="tok1489">the</token>
+      <token status="ok" id="tok1490">current</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer46" raw_text="it creates a gap int he circuit." id="SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbj13-l1.qa91" accuracy="correct">
+      <token status="ok" id="tok1511">it</token>
+      <token status="ok" id="tok1512">creates</token>
+      <token status="ok" id="tok1513">a</token>
+      <token status="ok" id="tok1514">gap</token>
+      <token status="ok" id="tok1515" original="int">in</token>
+      <token status="ok" id="tok1516" original="he">the</token>
+      <token status="ok" id="tok1517">circuit</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer46" raw_text="it creates a gap in the circuit." id="SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbj13-l1.qa92" accuracy="correct">
+      <token status="ok" id="tok1543">it</token>
+      <token status="ok" id="tok1544">creates</token>
+      <token status="ok" id="tok1545">a</token>
+      <token status="ok" id="tok1546">gap</token>
+      <token status="ok" id="tok1547">in</token>
+      <token status="ok" id="tok1548">the</token>
+      <token status="ok" id="tok1549">circuit</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer46" raw_text="Because it creates a gap, which opens a path." id="SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbj14-l1.qa89" accuracy="correct">
+      <token status="ok" id="tok1281">Because</token>
+      <token status="ok" id="tok1282">it</token>
+      <token status="ok" id="tok1283">creates</token>
+      <token status="ok" id="tok1284">a</token>
+      <token status="ok" id="tok1285">gap</token>
+      <token status="ok" id="tok1286">which</token>
+      <token status="ok" id="tok1287">opens</token>
+      <token status="ok" id="tok1288">a</token>
+      <token status="ok" id="tok1289">path</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="i have no idea" id="SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbj15-l1.qa107" accuracy="non_domain">
+      <token status="ok" id="tok1747">i</token>
+      <token status="ok" id="tok1748">have</token>
+      <token status="ok" id="tok1749">no</token>
+      <token status="ok" id="tok1750">idea</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="a switch creates power" id="SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbj15-l1.qa108" accuracy="contradictory">
+      <token status="ok" id="tok1759">a</token>
+      <token status="ok" id="tok1760">switch</token>
+      <token status="ok" id="tok1761">creates</token>
+      <token status="ok" id="tok1762">power</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="a switch creates a closed circuit" id="SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbj15-l1.qa109" accuracy="contradictory">
+      <token status="ok" id="tok1783">a</token>
+      <token status="ok" id="tok1784">switch</token>
+      <token status="ok" id="tok1785">creates</token>
+      <token status="ok" id="tok1786">a</token>
+      <token status="ok" id="tok1787">closed</token>
+      <token status="ok" id="tok1788">circuit</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="a switch creates a closed path" id="SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbj15-l1.qa110" accuracy="contradictory">
+      <token status="ok" id="tok1826">a</token>
+      <token status="ok" id="tok1827">switch</token>
+      <token status="ok" id="tok1828">creates</token>
+      <token status="ok" id="tok1829">a</token>
+      <token status="ok" id="tok1830">closed</token>
+      <token status="ok" id="tok1831">path</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer46" raw_text="It breaks the closed path." id="SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbj18-l1.qa76" accuracy="partially_correct_incomplete">
+      <token status="ok" id="tok1252">It</token>
+      <token status="ok" id="tok1253">breaks</token>
+      <token status="ok" id="tok1254">the</token>
+      <token status="ok" id="tok1255">closed</token>
+      <token status="ok" id="tok1256">path</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer46" raw_text="A switch creates a break in the closed path." id="SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbj18-l1.qa78" accuracy="partially_correct_incomplete">
+      <token status="ok" id="tok1331">A</token>
+      <token status="ok" id="tok1332">switch</token>
+      <token status="ok" id="tok1333">creates</token>
+      <token status="ok" id="tok1334">a</token>
+      <token status="ok" id="tok1335">break</token>
+      <token status="ok" id="tok1336">in</token>
+      <token status="ok" id="tok1337">the</token>
+      <token status="ok" id="tok1338">closed</token>
+      <token status="ok" id="tok1339">path</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer46" raw_text="A switch creates a gap in the path." id="SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbj18-l1.qa79" accuracy="correct">
+      <token status="ok" id="tok1367">A</token>
+      <token status="ok" id="tok1368">switch</token>
+      <token status="ok" id="tok1369">creates</token>
+      <token status="ok" id="tok1370">a</token>
+      <token status="ok" id="tok1371">gap</token>
+      <token status="ok" id="tok1372">in</token>
+      <token status="ok" id="tok1373">the</token>
+      <token status="ok" id="tok1374">path</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="because the path is short" id="SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbj19-l1.qa99" accuracy="contradictory">
+      <token status="ok" id="tok1636">because</token>
+      <token status="ok" id="tok1637">the</token>
+      <token status="ok" id="tok1638">path</token>
+      <token status="ok" id="tok1639">is</token>
+      <token status="ok" id="tok1640">short</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="makes  a short circuit" id="SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbj19-l1.qa101" accuracy="contradictory">
+      <token status="ok" id="tok1665">makes</token>
+      <token status="ok" id="tok1666">a</token>
+      <token status="ok" id="tok1667">short</token>
+      <token status="ok" id="tok1668">circuit</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer49" raw_text="because there is no closed path to the battery" id="SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbj22-l1.qa93" accuracy="partially_correct_incomplete">
+      <token status="ok" id="tok1662">because</token>
+      <token status="ok" id="tok1663">there</token>
+      <token status="ok" id="tok1664">is</token>
+      <token status="ok" id="tok1665">no</token>
+      <token status="ok" id="tok1666">closed</token>
+      <token status="ok" id="tok1667">path</token>
+      <token status="ok" id="tok1668">to</token>
+      <token status="ok" id="tok1669">the</token>
+      <token status="ok" id="tok1670">battery</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer49" raw_text="because there is no closed path" id="SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbj22-l1.qa94" accuracy="partially_correct_incomplete">
+      <token status="ok" id="tok1691">because</token>
+      <token status="ok" id="tok1692">there</token>
+      <token status="ok" id="tok1693">is</token>
+      <token status="ok" id="tok1694">no</token>
+      <token status="ok" id="tok1695">closed</token>
+      <token status="ok" id="tok1696">path</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer49" raw_text="It prevents the path from being closed." id="SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbj23-l1.qa77" accuracy="correct">
+      <token status="ok" id="tok1149">It</token>
+      <token status="ok" id="tok1150">prevents</token>
+      <token status="ok" id="tok1151">the</token>
+      <token status="ok" id="tok1152">path</token>
+      <token status="ok" id="tok1153">from</token>
+      <token status="ok" id="tok1154">being</token>
+      <token status="ok" id="tok1155">closed</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer49" raw_text="It is not a closed path." id="SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbj23-l1.qa78" accuracy="partially_correct_incomplete">
+      <token status="ok" id="tok1166">It</token>
+      <token status="ok" id="tok1167">is</token>
+      <token status="ok" id="tok1168">not</token>
+      <token status="ok" id="tok1169">a</token>
+      <token status="ok" id="tok1170">closed</token>
+      <token status="ok" id="tok1171">path</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer48" raw_text="There is a gap in the circuit." id="SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbj23-l1.qa80" accuracy="correct">
+      <token status="ok" id="tok1205">There</token>
+      <token status="ok" id="tok1206">is</token>
+      <token status="ok" id="tok1207">a</token>
+      <token status="ok" id="tok1208">gap</token>
+      <token status="ok" id="tok1209">in</token>
+      <token status="ok" id="tok1210">the</token>
+      <token status="ok" id="tok1211">circuit</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer52" raw_text="makes it an open path rather then closed" id="SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbj24-l1.qa86" accuracy="correct">
+      <token status="ok" id="tok1305">makes</token>
+      <token status="ok" id="tok1306">it</token>
+      <token status="ok" id="tok1307">an</token>
+      <token status="ok" id="tok1308">open</token>
+      <token status="ok" id="tok1309">path</token>
+      <token status="ok" id="tok1310">rather</token>
+      <token status="ok" id="tok1311" original="then">than</token>
+      <token status="ok" id="tok1312">closed</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="it closes the pathway" id="SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbj26-l1.qa98" accuracy="contradictory">
+      <token status="ok" id="tok1511">it</token>
+      <token status="ok" id="tok1512">closes</token>
+      <token status="ok" id="tok1513">the</token>
+      <token status="ok" id="tok1514">pathway</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer46" raw_text="effects the connection from battery to bulb" id="SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbj26-l1.qa99" accuracy="contradictory">
+      <token status="ok" id="tok1549" original="effects">affects</token>
+      <token status="ok" id="tok1550">the</token>
+      <token status="ok" id="tok1551">connection</token>
+      <token status="ok" id="tok1552">from</token>
+      <token status="ok" id="tok1553">battery</token>
+      <token status="ok" id="tok1554">to</token>
+      <token status="ok" id="tok1555">bulb</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="creates a connection" id="SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbj26-l1.qa100" accuracy="contradictory">
+      <token status="ok" id="tok1574">creates</token>
+      <token status="ok" id="tok1575">a</token>
+      <token status="ok" id="tok1576">connection</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="creates a circuit?" id="SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbj26-l1.qa101" accuracy="contradictory">
+      <token status="ok" id="tok1592">creates</token>
+      <token status="ok" id="tok1593">a</token>
+      <token status="ok" id="tok1594">circuit</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="Because the electricity can&quot;t pass through" id="SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbj27-l1.qa86" accuracy="irrelevant">
+      <token status="ok" id="tok1530">Because</token>
+      <token status="ok" id="tok1531">the</token>
+      <token status="ok" id="tok1532">electricity</token>
+      <token status="stem" id="tok1533">ca</token>
+      <token status="pennTokenFragment" id="tok1534">n't</token>
+      <token status="ok" id="tok1535">pass</token>
+      <token status="ok" id="tok1536">through</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer48" raw_text="there is a gap" id="SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbj27-l1.qa87" accuracy="correct">
+      <token status="ok" id="tok1548">there</token>
+      <token status="ok" id="tok1549">is</token>
+      <token status="ok" id="tok1550">a</token>
+      <token status="ok" id="tok1551">gap</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer46" raw_text="because all the terminals are connected to other terminals, an open switch disrupts that." id="SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbj29-l1.qa91" accuracy="partially_correct_incomplete">
+      <token status="ok" id="tok1423">because</token>
+      <token status="ok" id="tok1424">all</token>
+      <token status="ok" id="tok1425">the</token>
+      <token status="ok" id="tok1426">terminals</token>
+      <token status="ok" id="tok1427">are</token>
+      <token status="ok" id="tok1428">connected</token>
+      <token status="ok" id="tok1429">to</token>
+      <token status="ok" id="tok1430">other</token>
+      <token status="ok" id="tok1431">terminals</token>
+      <token status="ok" id="tok1432">an</token>
+      <token status="ok" id="tok1433">open</token>
+      <token status="ok" id="tok1434">switch</token>
+      <token status="ok" id="tok1435">disrupts</token>
+      <token status="ok" id="tok1436">that</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer46" raw_text="because an open switch creates a gap." id="SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbj29-l1.qa92" accuracy="correct">
+      <token status="ok" id="tok1454">because</token>
+      <token status="ok" id="tok1455">an</token>
+      <token status="ok" id="tok1456">open</token>
+      <token status="ok" id="tok1457">switch</token>
+      <token status="ok" id="tok1458">creates</token>
+      <token status="ok" id="tok1459">a</token>
+      <token status="ok" id="tok1460">gap</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer46" raw_text="It turns off all the bulbs." id="SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbj30-l1.qa78" accuracy="partially_correct_incomplete">
+      <token status="ok" id="tok1382">It</token>
+      <token status="ok" id="tok1383">turns</token>
+      <token status="ok" id="tok1384">off</token>
+      <token status="ok" id="tok1385">all</token>
+      <token status="ok" id="tok1386">the</token>
+      <token status="ok" id="tok1387">bulbs</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer46" raw_text="It creates a gap in the circut." id="SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbj30-l1.qa79" accuracy="correct">
+      <token status="ok" id="tok1399">It</token>
+      <token status="ok" id="tok1400">creates</token>
+      <token status="ok" id="tok1401">a</token>
+      <token status="ok" id="tok1402">gap</token>
+      <token status="ok" id="tok1403">in</token>
+      <token status="ok" id="tok1404">the</token>
+      <token status="ok" id="tok1405" original="circut">circuit</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer49" raw_text="the path is not closed anymore" id="SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbj31-l1.qa82" accuracy="correct">
+      <token status="ok" id="tok1265">the</token>
+      <token status="ok" id="tok1266">path</token>
+      <token status="ok" id="tok1267">is</token>
+      <token status="ok" id="tok1268">not</token>
+      <token status="ok" id="tok1269">closed</token>
+      <token status="ok" id="tok1270a+">anymore</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer51" raw_text="it does&quot;nt make the circuit complete anymore" id="SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbj33-l1.qa77" accuracy="correct">
+      <token status="ok" id="tok1256">it</token>
+      <token status="ok" id="tok1257a" original="does'">does</token>
+      <token status="pennTokenFragment" id="tok1257b" original="nt">n't</token>
+      <token status="ok" id="tok1258">make</token>
+      <token status="ok" id="tok1259">the</token>
+      <token status="ok" id="tok1260">circuit</token>
+      <token status="ok" id="tok1261">complete</token>
+      <token status="ok" id="tok1262">anymore</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer51" raw_text="the paths of the circuit are no longer complete" id="SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbj33-l1.qa78" accuracy="contradictory">
+      <token status="ok" id="tok1270">the</token>
+      <token status="ok" id="tok1271">paths</token>
+      <token status="ok" id="tok1272">of</token>
+      <token status="ok" id="tok1273">the</token>
+      <token status="ok" id="tok1274">circuit</token>
+      <token status="ok" id="tok1275">are</token>
+      <token status="ok" id="tok1276">no</token>
+      <token status="ok" id="tok1277">longer</token>
+      <token status="ok" id="tok1278">complete</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="the path is complete" id="SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbj33-l1.qa79" accuracy="contradictory">
+      <token status="ok" id="tok1317">the</token>
+      <token status="ok" id="tok1318">path</token>
+      <token status="ok" id="tok1319">is</token>
+      <token status="ok" id="tok1320">complete</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer52" raw_text="The open switch makes the path open" id="SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbj34-l1.qa73" accuracy="correct">
+      <token status="ok" id="tok1096">The</token>
+      <token status="ok" id="tok1097">open</token>
+      <token status="ok" id="tok1098">switch</token>
+      <token status="ok" id="tok1099">makes</token>
+      <token status="ok" id="tok1100">the</token>
+      <token status="ok" id="tok1101">path</token>
+      <token status="ok" id="tok1102">open</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer52" raw_text="It stops the flow of electricity." id="SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbj35-l1.qa80" accuracy="partially_correct_incomplete">
+      <token status="ok" id="tok1335">It</token>
+      <token status="ok" id="tok1336">stops</token>
+      <token status="ok" id="tok1337">the</token>
+      <token status="ok" id="tok1338">flow</token>
+      <token status="ok" id="tok1339">of</token>
+      <token status="ok" id="tok1340">electricity</token>
+    </studentAnswer>
+    <studentAnswer count="2" answerMatch="answer51" raw_text="It makes the circuit incomplete." id="SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbj35-l1.qa81" accuracy="correct">
+      <token status="ok" id="tok1361">It</token>
+      <token status="ok" id="tok1362">makes</token>
+      <token status="ok" id="tok1363">the</token>
+      <token status="ok" id="tok1364">circuit</token>
+      <token status="ok" id="tok1365">incomplete</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer52" raw_text="the switch opens the closed circuit" id="SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbj36-l1.qa83" accuracy="contradictory">
+      <token status="ok" id="tok1335">the</token>
+      <token status="ok" id="tok1336">switch</token>
+      <token status="ok" id="tok1337">opens</token>
+      <token status="ok" id="tok1338">the</token>
+      <token status="ok" id="tok1339">closed</token>
+      <token status="ok" id="tok1340">circuit</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer52" raw_text="the switch opens the closed path" id="SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbj36-l1.qa84" accuracy="correct">
+      <token status="ok" id="tok1373">the</token>
+      <token status="ok" id="tok1374">switch</token>
+      <token status="ok" id="tok1375">opens</token>
+      <token status="ok" id="tok1376">the</token>
+      <token status="ok" id="tok1377">closed</token>
+      <token status="ok" id="tok1378">path</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer51" raw_text="the voltage does not reach all the components" id="SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbj37-l1.qa71" accuracy="partially_correct_incomplete">
+      <token status="ok" id="tok1175">the</token>
+      <token status="ok" id="tok1176">voltage</token>
+      <token status="ok" id="tok1177">does</token>
+      <token status="ok" id="tok1178">not</token>
+      <token status="ok" id="tok1179">reach</token>
+      <token status="ok" id="tok1180">all</token>
+      <token status="ok" id="tok1181">the</token>
+      <token status="ok" id="tok1182">components</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer48" raw_text="the gap in the circuit causes the circuit to be an open circuit" id="SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbj37-l1.qa72" accuracy="contradictory">
+      <token status="ok" id="tok1195">the</token>
+      <token status="ok" id="tok1196">gap</token>
+      <token status="ok" id="tok1197">in</token>
+      <token status="ok" id="tok1198">the</token>
+      <token status="ok" id="tok1199">circuit</token>
+      <token status="ok" id="tok1200">causes</token>
+      <token status="ok" id="tok1201">the</token>
+      <token status="ok" id="tok1202">circuit</token>
+      <token status="ok" id="tok1203">to</token>
+      <token status="ok" id="tok1204">be</token>
+      <token status="ok" id="tok1205">an</token>
+      <token status="ok" id="tok1206">open</token>
+      <token status="ok" id="tok1207">circuit</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer51" raw_text="It makes the circuit an incomplete path" id="SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbj38-l1.qa74" accuracy="contradictory">
+      <token status="ok" id="tok1199">It</token>
+      <token status="ok" id="tok1200">makes</token>
+      <token status="ok" id="tok1201">the</token>
+      <token status="ok" id="tok1202">circuit</token>
+      <token status="ok" id="tok1203">an</token>
+      <token status="ok" id="tok1204">incomplete</token>
+      <token status="ok" id="tok1205">path</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer51" raw_text="the circuit is no longer complete when the switches are open" id="SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbj38-l1.qa75" accuracy="correct">
+      <token status="ok" id="tok1236">the</token>
+      <token status="ok" id="tok1237">circuit</token>
+      <token status="ok" id="tok1238">is</token>
+      <token status="ok" id="tok1239">no</token>
+      <token status="ok" id="tok1240">longer</token>
+      <token status="ok" id="tok1241">complete</token>
+      <token status="ok" id="tok1242">when</token>
+      <token status="ok" id="tok1243">the</token>
+      <token status="ok" id="tok1244">switches</token>
+      <token status="ok" id="tok1245">are</token>
+      <token status="ok" id="tok1246">open</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer46" raw_text="Because it opens the connection" id="SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbj39-l1.qa92" accuracy="partially_correct_incomplete">
+      <token status="ok" id="tok1680">Because</token>
+      <token status="ok" id="tok1681">it</token>
+      <token status="ok" id="tok1682">opens</token>
+      <token status="ok" id="tok1683">the</token>
+      <token status="ok" id="tok1684">connection</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer46" raw_text="Because it stops the battery from being connected." id="SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbj39-l1.qa93" accuracy="partially_correct_incomplete">
+      <token status="ok" id="tok1698">Because</token>
+      <token status="ok" id="tok1699">it</token>
+      <token status="ok" id="tok1700">stops</token>
+      <token status="ok" id="tok1701">the</token>
+      <token status="ok" id="tok1702">battery</token>
+      <token status="ok" id="tok1703">from</token>
+      <token status="ok" id="tok1704">being</token>
+      <token status="ok" id="tok1705">connected</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="It creates a short circuit." id="SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbj39-l1.qa94" accuracy="contradictory">
+      <token status="ok" id="tok1724">It</token>
+      <token status="ok" id="tok1725">creates</token>
+      <token status="ok" id="tok1726">a</token>
+      <token status="ok" id="tok1727">short</token>
+      <token status="ok" id="tok1728">circuit</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer46" raw_text="an open switch causes a gap." id="SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbj40-l1.qa90" accuracy="correct">
+      <token status="ok" id="tok1387">an</token>
+      <token status="ok" id="tok1388">open</token>
+      <token status="ok" id="tok1389">switch</token>
+      <token status="ok" id="tok1390">causes</token>
+      <token status="ok" id="tok1391">a</token>
+      <token status="ok" id="tok1392">gap</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer49" raw_text="The path is not closed." id="SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbj42-l1.qa89" accuracy="correct">
+      <token status="ok" id="tok1462">The</token>
+      <token status="ok" id="tok1463">path</token>
+      <token status="ok" id="tok1464">is</token>
+      <token status="ok" id="tok1465">not</token>
+      <token status="ok" id="tok1466">closed</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer51" raw_text="an open switch incompletes the circut" id="SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbj43-l1.qa85" accuracy="correct">
+      <token status="ok" id="tok1405">an</token>
+      <token status="ok" id="tok1406">open</token>
+      <token status="ok" id="tok1407">switch</token>
+      <token status="nonWord" id="tok1408">incompletes</token>
+      <token status="ok" id="tok1409">the</token>
+      <token status="ok" id="tok1410" original="circut">circuit</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer51" raw_text="an open switch creates an incomplete circut" id="SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbj43-l1.qa86" accuracy="correct">
+      <token status="ok" id="tok1421">an</token>
+      <token status="ok" id="tok1422">open</token>
+      <token status="ok" id="tok1423">switch</token>
+      <token status="ok" id="tok1424">creates</token>
+      <token status="ok" id="tok1425">an</token>
+      <token status="ok" id="tok1426">incomplete</token>
+      <token status="ok" id="tok1427" original="circut">circuit</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer46" raw_text="because it creates a gap which in turn created an open path" id="SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbj45-l1.qa73" accuracy="correct">
+      <token status="ok" id="tok1150">because</token>
+      <token status="ok" id="tok1151">it</token>
+      <token status="ok" id="tok1152">creates</token>
+      <token status="ok" id="tok1153">a</token>
+      <token status="ok" id="tok1154">gap</token>
+      <token status="ok" id="tok1155">which</token>
+      <token status="ok" id="tok1156">in</token>
+      <token status="ok" id="tok1157">turn</token>
+      <token status="ok" id="tok1158">created</token>
+      <token status="ok" id="tok1159">an</token>
+      <token status="ok" id="tok1160">open</token>
+      <token status="ok" id="tok1161">path</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer46" raw_text="open switch creates a gap in the path" id="SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbj45-l1.qa74" accuracy="correct">
+      <token status="ok" id="tok1172">open</token>
+      <token status="ok" id="tok1173">switch</token>
+      <token status="ok" id="tok1174">creates</token>
+      <token status="ok" id="tok1175">a</token>
+      <token status="ok" id="tok1176">gap</token>
+      <token status="ok" id="tok1177">in</token>
+      <token status="ok" id="tok1178">the</token>
+      <token status="ok" id="tok1179">path</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="brings he flow of electricity" id="SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbj46-l1.qa86" accuracy="contradictory">
+      <token status="ok" id="tok1430">brings</token>
+      <token status="ok" id="tok1431">he</token>
+      <token status="ok" id="tok1432">flow</token>
+      <token status="ok" id="tok1433">of</token>
+      <token status="ok" id="tok1434">electricity</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="charges the bulb" id="SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbj46-l1.qa87" accuracy="contradictory">
+      <token status="ok" id="tok1455">charges</token>
+      <token status="ok" id="tok1456">the</token>
+      <token status="ok" id="tok1457">bulb</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="switch creates circuit" id="SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbj46-l1.qa88" accuracy="contradictory">
+      <token status="ok" id="tok1476">switch</token>
+      <token status="ok" id="tok1477">creates</token>
+      <token status="ok" id="tok1478">circuit</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="Because it decides whether the bulb will be lit or not" id="SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbj47-l1.qa93" accuracy="contradictory">
+      <token status="ok" id="tok1608">Because</token>
+      <token status="ok" id="tok1609">it</token>
+      <token status="ok" id="tok1610">decides</token>
+      <token status="ok" id="tok1611">whether</token>
+      <token status="ok" id="tok1612">the</token>
+      <token status="ok" id="tok1613">bulb</token>
+      <token status="ok" id="tok1614">will</token>
+      <token status="ok" id="tok1615">be</token>
+      <token status="ok" id="tok1616">lit</token>
+      <token status="ok" id="tok1617">or</token>
+      <token status="ok" id="tok1618">not</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer48" raw_text="Because if the gap is open the bulb will not go on" id="SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbj47-l1.qa94" accuracy="contradictory">
+      <token status="ok" id="tok1630">Because</token>
+      <token status="ok" id="tok1631">if</token>
+      <token status="ok" id="tok1632">the</token>
+      <token status="ok" id="tok1633">gap</token>
+      <token status="ok" id="tok1634">is</token>
+      <token status="ok" id="tok1635">open</token>
+      <token status="ok" id="tok1636">the</token>
+      <token status="ok" id="tok1637">bulb</token>
+      <token status="ok" id="tok1638">will</token>
+      <token status="ok" id="tok1639">not</token>
+      <token status="ok" id="tok1640">go</token>
+      <token status="ok" id="tok1641">on</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer46" raw_text="because it creates a gap, thus the circuit becomes incomplete" id="SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbj48-l1.qa76" accuracy="correct">
+      <token status="ok" id="tok1338">because</token>
+      <token status="ok" id="tok1339">it</token>
+      <token status="ok" id="tok1340">creates</token>
+      <token status="ok" id="tok1341">a</token>
+      <token status="ok" id="tok1342">gap</token>
+      <token status="ok" id="tok1343">thus</token>
+      <token status="ok" id="tok1344">the</token>
+      <token status="ok" id="tok1345">circuit</token>
+      <token status="ok" id="tok1346">becomes</token>
+      <token status="ok" id="tok1347">incomplete</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="The are connected to the same closed path." id="SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbjb1-l1.qa63" accuracy="contradictory">
+      <token status="ok" id="tok1115" original="The">They</token>
+      <token status="ok" id="tok1116">are</token>
+      <token status="ok" id="tok1117">connected</token>
+      <token status="ok" id="tok1118">to</token>
+      <token status="ok" id="tok1119">the</token>
+      <token status="ok" id="tok1120">same</token>
+      <token status="ok" id="tok1121">closed</token>
+      <token status="ok" id="tok1122">path</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="Because the voltage does not reach the bulbs." id="SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbjb2-l1.qa70" accuracy="contradictory">
+      <token status="ok" id="tok1108">Because</token>
+      <token status="ok" id="tok1109">the</token>
+      <token status="ok" id="tok1110">voltage</token>
+      <token status="ok" id="tok1111">does</token>
+      <token status="ok" id="tok1112">not</token>
+      <token status="ok" id="tok1113">reach</token>
+      <token status="ok" id="tok1114">the</token>
+      <token status="ok" id="tok1115">bulbs</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="It cuts the current from the battery" id="SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbjb3-l1.qa70" accuracy="contradictory">
+      <token status="ok" id="tok1143">It</token>
+      <token status="ok" id="tok1144">cuts</token>
+      <token status="ok" id="tok1145">the</token>
+      <token status="ok" id="tok1146">current</token>
+      <token status="ok" id="tok1147">from</token>
+      <token status="ok" id="tok1148">the</token>
+      <token status="ok" id="tok1149">battery</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="the current cannot pass an open switch" id="SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbjb5-l1.qa73" accuracy="contradictory">
+      <token status="ok" id="tok1211">the</token>
+      <token status="ok" id="tok1212">current</token>
+      <token status="ok" id="tok1213">can</token>
+      <token status="ok" id="tok1214">not</token>
+      <token status="ok" id="tok1215">pass</token>
+      <token status="ok" id="tok1216">an</token>
+      <token status="ok" id="tok1217">open</token>
+      <token status="ok" id="tok1218">switch</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer51" raw_text="Because the bulb is not longer in a closed circuit" id="SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbjb6-l1.qa63" accuracy="contradictory">
+      <token status="ok" id="tok1071">Because</token>
+      <token status="ok" id="tok1072">the</token>
+      <token status="ok" id="tok1073">bulb</token>
+      <token status="ok" id="tok1074">is</token>
+      <token status="ok" id="tok1075">not</token>
+      <token status="ok" id="tok1076">longer</token>
+      <token status="ok" id="tok1077">in</token>
+      <token status="ok" id="tok1078">a</token>
+      <token status="ok" id="tok1079">closed</token>
+      <token status="ok" id="tok1080">circuit</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer52" raw_text="There must be a closed path, and an open switch makes it not closed." id="SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbjb7-l1.qa63" accuracy="correct">
+      <token status="ok" id="tok1080">There</token>
+      <token status="ok" id="tok1081">must</token>
+      <token status="ok" id="tok1082">be</token>
+      <token status="ok" id="tok1083">a</token>
+      <token status="ok" id="tok1084">closed</token>
+      <token status="ok" id="tok1085">path</token>
+      <token status="ok" id="tok1086">and</token>
+      <token status="ok" id="tok1087">an</token>
+      <token status="ok" id="tok1088">open</token>
+      <token status="ok" id="tok1089">switch</token>
+      <token status="ok" id="tok1090">makes</token>
+      <token status="ok" id="tok1091">it</token>
+      <token status="ok" id="tok1092">not</token>
+      <token status="ok" id="tok1093">closed</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer49" raw_text="Because the path between the battery and the light bulb is not closed" id="SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbjb9-l1.qa66" accuracy="correct">
+      <token status="ok" id="tok1060">Because</token>
+      <token status="ok" id="tok1061">the</token>
+      <token status="ok" id="tok1062">path</token>
+      <token status="ok" id="tok1063">between</token>
+      <token status="ok" id="tok1064">the</token>
+      <token status="ok" id="tok1065">battery</token>
+      <token status="ok" id="tok1066">and</token>
+      <token status="ok" id="tok1067">the</token>
+      <token status="ok" id="tok1068">light</token>
+      <token status="ok" id="tok1069">bulb</token>
+      <token status="ok" id="tok1070">is</token>
+      <token status="ok" id="tok1071">not</token>
+      <token status="ok" id="tok1072">closed</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer49" raw_text="because it opens the circuit, therefore the circuit is not closed" id="SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbjb10-l1.qa63" accuracy="contradictory">
+      <token status="ok" id="tok1054">because</token>
+      <token status="ok" id="tok1055">it</token>
+      <token status="ok" id="tok1056">opens</token>
+      <token status="ok" id="tok1057">the</token>
+      <token status="ok" id="tok1058">circuit</token>
+      <token status="ok" id="tok1059">therefore</token>
+      <token status="ok" id="tok1060">the</token>
+      <token status="ok" id="tok1061">circuit</token>
+      <token status="ok" id="tok1062">is</token>
+      <token status="ok" id="tok1063">not</token>
+      <token status="ok" id="tok1064">closed</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer46" raw_text="And open switch breaks the closed path, which is essential to function properly" id="SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbjb11-l1.qa65" accuracy="correct">
+      <token status="ok" id="tok1076">And</token>
+      <token status="ok" id="tok1077">open</token>
+      <token status="ok" id="tok1078">switch</token>
+      <token status="ok" id="tok1079">breaks</token>
+      <token status="ok" id="tok1080">the</token>
+      <token status="ok" id="tok1081">closed</token>
+      <token status="ok" id="tok1082">path</token>
+      <token status="ok" id="tok1083">which</token>
+      <token status="ok" id="tok1084">is</token>
+      <token status="ok" id="tok1085">essential</token>
+      <token status="ok" id="tok1086">to</token>
+      <token status="ok" id="tok1087">function</token>
+      <token status="ok" id="tok1088">properly</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer46" raw_text="it breaks the closed circuit" id="SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbjb12-l1.qa64" accuracy="contradictory">
+      <token status="ok" id="tok1064">it</token>
+      <token status="ok" id="tok1065">breaks</token>
+      <token status="ok" id="tok1066">the</token>
+      <token status="ok" id="tok1067">closed</token>
+      <token status="ok" id="tok1068">circuit</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer49" raw_text="An open switch means the circuit is not a closed path." id="SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbjb13-l1.qa64" accuracy="correct">
+      <token status="ok" id="tok1101">An</token>
+      <token status="ok" id="tok1102">open</token>
+      <token status="ok" id="tok1103">switch</token>
+      <token status="ok" id="tok1104">means</token>
+      <token status="ok" id="tok1105">the</token>
+      <token status="ok" id="tok1106">circuit</token>
+      <token status="ok" id="tok1107">is</token>
+      <token status="ok" id="tok1108">not</token>
+      <token status="ok" id="tok1109">a</token>
+      <token status="ok" id="tok1110">closed</token>
+      <token status="ok" id="tok1111">path</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="it cuts the flow of electricity" id="SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbjb15-l1.qa65" accuracy="contradictory">
+      <token status="ok" id="tok1098">it</token>
+      <token status="ok" id="tok1099">cuts</token>
+      <token status="ok" id="tok1100">the</token>
+      <token status="ok" id="tok1101">flow</token>
+      <token status="ok" id="tok1102">of</token>
+      <token status="ok" id="tok1103">electricity</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer52" raw_text="it opens the closed path of the battery" id="SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbjb17-l1.qa65" accuracy="correct">
+      <token status="ok" id="tok1110">it</token>
+      <token status="ok" id="tok1111">opens</token>
+      <token status="ok" id="tok1112">the</token>
+      <token status="ok" id="tok1113">closed</token>
+      <token status="ok" id="tok1114">path</token>
+      <token status="ok" id="tok1115">of</token>
+      <token status="ok" id="tok1116">the</token>
+      <token status="ok" id="tok1117">battery</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer51" raw_text="Because the battery runs in a closed circuit." id="SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbjb18-l1.qa72" accuracy="contradictory">
+      <token status="ok" id="tok1197">Because</token>
+      <token status="ok" id="tok1198">the</token>
+      <token status="ok" id="tok1199">battery</token>
+      <token status="ok" id="tok1200">runs</token>
+      <token status="ok" id="tok1201">in</token>
+      <token status="ok" id="tok1202">a</token>
+      <token status="ok" id="tok1203">closed</token>
+      <token status="ok" id="tok1204">circuit</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer52" raw_text="because it opens the circuit" id="SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbjb19-l1.qa68" accuracy="contradictory">
+      <token status="ok" id="tok1110">because</token>
+      <token status="ok" id="tok1111">it</token>
+      <token status="ok" id="tok1112">opens</token>
+      <token status="ok" id="tok1113">the</token>
+      <token status="ok" id="tok1114">circuit</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer46" raw_text="any open swith does no allow the bulbs to turn on" id="SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbjb21-l1.qa63" accuracy="partially_correct_incomplete">
+      <token status="ok" id="tok1059">any</token>
+      <token status="ok" id="tok1060">open</token>
+      <token status="ok" id="tok1061" original="swith">switch</token>
+      <token status="ok" id="tok1062">does</token>
+      <token status="ok" id="tok1063" original="no">not</token>
+      <token status="ok" id="tok1064">allow</token>
+      <token status="ok" id="tok1065">the</token>
+      <token status="ok" id="tok1066">bulbs</token>
+      <token status="ok" id="tok1067">to</token>
+      <token status="ok" id="tok1068">turn</token>
+      <token status="ok" id="tok1069">on</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="the currunt is blocked off" id="SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbjb22-l1.qa74" accuracy="contradictory">
+      <token status="ok" id="tok1192">the</token>
+      <token status="ok" id="tok1193" original="currunt">current</token>
+      <token status="ok" id="tok1194">is</token>
+      <token status="ok" id="tok1195">blocked</token>
+      <token status="ok" id="tok1196">off</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer46" raw_text="It creates a gap." id="SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbjb25-l1.qa65" accuracy="correct">
+      <token status="ok" id="tok1110">It</token>
+      <token status="ok" id="tok1111">creates</token>
+      <token status="ok" id="tok1112">a</token>
+      <token status="ok" id="tok1113">gap</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer49" raw_text="If a switch is open, the circut is no longer closed." id="SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbjb26-l1.qa63" accuracy="contradictory">
+      <token status="ok" id="tok1112">If</token>
+      <token status="ok" id="tok1113">a</token>
+      <token status="ok" id="tok1114">switch</token>
+      <token status="ok" id="tok1115">is</token>
+      <token status="ok" id="tok1116">open</token>
+      <token status="ok" id="tok1117">the</token>
+      <token status="ok" id="tok1118" original="circut">circuit</token>
+      <token status="ok" id="tok1119">is</token>
+      <token status="ok" id="tok1120">no</token>
+      <token status="ok" id="tok1121">longer</token>
+      <token status="ok" id="tok1122">closed</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer46" raw_text="it creates a gap in the circuit" id="SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbjb27-l1.qa63" accuracy="correct">
+      <token status="ok" id="tok1079">it</token>
+      <token status="ok" id="tok1080">creates</token>
+      <token status="ok" id="tok1081">a</token>
+      <token status="ok" id="tok1082">gap</token>
+      <token status="ok" id="tok1083">in</token>
+      <token status="ok" id="tok1084">the</token>
+      <token status="ok" id="tok1085">circuit</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="An open switch stops the energy flow" id="SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbjb28-l1.qa67" accuracy="contradictory">
+      <token status="ok" id="tok1066">An</token>
+      <token status="ok" id="tok1067">open</token>
+      <token status="ok" id="tok1068">switch</token>
+      <token status="ok" id="tok1069">stops</token>
+      <token status="ok" id="tok1070">the</token>
+      <token status="ok" id="tok1071">energy</token>
+      <token status="ok" id="tok1072">flow</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer51" raw_text="When a switch is open the circuit is no longer complete" id="SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbjb29-l1.qa66" accuracy="correct">
+      <token status="ok" id="tok1116">When</token>
+      <token status="ok" id="tok1117">a</token>
+      <token status="ok" id="tok1118">switch</token>
+      <token status="ok" id="tok1119">is</token>
+      <token status="ok" id="tok1120">open</token>
+      <token status="ok" id="tok1121">the</token>
+      <token status="ok" id="tok1122">circuit</token>
+      <token status="ok" id="tok1123">is</token>
+      <token status="ok" id="tok1124">no</token>
+      <token status="ok" id="tok1125">longer</token>
+      <token status="ok" id="tok1126">complete</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer51" raw_text="because they are in a series, because a closed circuit acts together." id="SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbjb31-l1.qa63" accuracy="contradictory">
+      <token status="ok" id="tok1090">because</token>
+      <token status="ok" id="tok1091">they</token>
+      <token status="ok" id="tok1092">are</token>
+      <token status="ok" id="tok1093">in</token>
+      <token status="ok" id="tok1094">a</token>
+      <token status="ok" id="tok1095">series</token>
+      <token status="ok" id="tok1096">because</token>
+      <token status="ok" id="tok1097">a</token>
+      <token status="ok" id="tok1098">closed</token>
+      <token status="ok" id="tok1099">circuit</token>
+      <token status="ok" id="tok1100">acts</token>
+      <token status="ok" id="tok1101">together</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="Because it stops the flow of one side of a battery from reaching the other light bulbs." id="SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbjb32-l1.qa65" accuracy="contradictory">
+      <token status="ok" id="tok1096">Because</token>
+      <token status="ok" id="tok1097">it</token>
+      <token status="ok" id="tok1098">stops</token>
+      <token status="ok" id="tok1099">the</token>
+      <token status="ok" id="tok1100">flow</token>
+      <token status="ok" id="tok1101">of</token>
+      <token status="ok" id="tok1102">one</token>
+      <token status="ok" id="tok1103">side</token>
+      <token status="ok" id="tok1104">of</token>
+      <token status="ok" id="tok1105">a</token>
+      <token status="ok" id="tok1106">battery</token>
+      <token status="ok" id="tok1107">from</token>
+      <token status="ok" id="tok1108">reaching</token>
+      <token status="ok" id="tok1109">the</token>
+      <token status="ok" id="tok1110">other</token>
+      <token status="ok" id="tok1111">light</token>
+      <token status="ok" id="tok1112">bulbs</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer46" raw_text="An open switch interrupts the flow of the current." id="SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbjb34-l1.qa63" accuracy="contradictory">
+      <token status="ok" id="tok1059">An</token>
+      <token status="ok" id="tok1060">open</token>
+      <token status="ok" id="tok1061">switch</token>
+      <token status="ok" id="tok1062">interrupts</token>
+      <token status="ok" id="tok1063">the</token>
+      <token status="ok" id="tok1064">flow</token>
+      <token status="ok" id="tok1065">of</token>
+      <token status="ok" id="tok1066">the</token>
+      <token status="ok" id="tok1067">current</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer46" raw_text="It breaks the closed pathway that the bulbs require to work." id="SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbjb35-l1.qa63" accuracy="correct">
+      <token status="ok" id="tok1116">It</token>
+      <token status="ok" id="tok1117">breaks</token>
+      <token status="ok" id="tok1118">the</token>
+      <token status="ok" id="tok1119">closed</token>
+      <token status="ok" id="tok1120">pathway</token>
+      <token status="ok" id="tok1121">that</token>
+      <token status="ok" id="tok1122">the</token>
+      <token status="ok" id="tok1123">bulbs</token>
+      <token status="ok" id="tok1124">require</token>
+      <token status="ok" id="tok1125">to</token>
+      <token status="ok" id="tok1126">work</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer49" raw_text="There is no closed path" id="SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbjb37-l1.qa63" accuracy="correct">
+      <token status="ok" id="tok1059">There</token>
+      <token status="ok" id="tok1060">is</token>
+      <token status="ok" id="tok1061">no</token>
+      <token status="ok" id="tok1062">closed</token>
+      <token status="ok" id="tok1063">path</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer52" raw_text="Because the current can not reach the bulb if the circuit is open." id="SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbjb39-l1.qa63" accuracy="contradictory">
+      <token status="ok" id="tok1127">Because</token>
+      <token status="ok" id="tok1128">the</token>
+      <token status="ok" id="tok1129">current</token>
+      <token status="ok" id="tok1130">can</token>
+      <token status="ok" id="tok1131">not</token>
+      <token status="ok" id="tok1132">reach</token>
+      <token status="ok" id="tok1133">the</token>
+      <token status="ok" id="tok1134">bulb</token>
+      <token status="ok" id="tok1135">if</token>
+      <token status="ok" id="tok1136">the</token>
+      <token status="ok" id="tok1137">circuit</token>
+      <token status="ok" id="tok1138">is</token>
+      <token status="ok" id="tok1139">open</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer51" raw_text="Then the bulb and battery will not be in a contained circuit." id="SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbjb40-l1.qa63" accuracy="contradictory">
+      <token status="ok" id="tok1114">Then</token>
+      <token status="ok" id="tok1115">the</token>
+      <token status="ok" id="tok1116">bulb</token>
+      <token status="ok" id="tok1117">and</token>
+      <token status="ok" id="tok1118">battery</token>
+      <token status="ok" id="tok1119">will</token>
+      <token status="ok" id="tok1120">not</token>
+      <token status="ok" id="tok1121">be</token>
+      <token status="ok" id="tok1122">in</token>
+      <token status="ok" id="tok1123">a</token>
+      <token status="ok" id="tok1124">contained</token>
+      <token status="ok" id="tok1125">circuit</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer49" raw_text="An open switch impacts a circuit because it causes the path to be closed, therefore the connection cannot be made." id="SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbjb41-l1.qa64" accuracy="contradictory">
+      <token status="ok" id="tok1183">An</token>
+      <token status="ok" id="tok1184">open</token>
+      <token status="ok" id="tok1185">switch</token>
+      <token status="ok" id="tok1186">impacts</token>
+      <token status="ok" id="tok1187">a</token>
+      <token status="ok" id="tok1188">circuit</token>
+      <token status="ok" id="tok1189">because</token>
+      <token status="ok" id="tok1190">it</token>
+      <token status="ok" id="tok1191">causes</token>
+      <token status="ok" id="tok1192">the</token>
+      <token status="ok" id="tok1193">path</token>
+      <token status="ok" id="tok1194">to</token>
+      <token status="ok" id="tok1195">be</token>
+      <token status="ok" id="tok1196">closed</token>
+      <token status="ok" id="tok1197">therefore</token>
+      <token status="ok" id="tok1198">the</token>
+      <token status="ok" id="tok1199">connection</token>
+      <token status="ok" id="tok1200">can</token>
+      <token status="ok" id="tok1201">not</token>
+      <token status="ok" id="tok1202">be</token>
+      <token status="ok" id="tok1203">made</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer52" raw_text="because it changes the path from closed to open" id="SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbjb42-l1.qa64" accuracy="correct">
+      <token status="ok" id="tok1090">because</token>
+      <token status="ok" id="tok1091">it</token>
+      <token status="ok" id="tok1092">changes</token>
+      <token status="ok" id="tok1093">the</token>
+      <token status="ok" id="tok1094">path</token>
+      <token status="ok" id="tok1095">from</token>
+      <token status="ok" id="tok1096">closed</token>
+      <token status="ok" id="tok1097">to</token>
+      <token status="ok" id="tok1098">open</token>
+    </studentAnswer>
+  </studentAnswers>
+</question>

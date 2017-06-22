@@ -1,0 +1,439 @@
+<?xml version="1.0"?>
+<question id="ME_66b" module="ME">
+  <questionText>Look at the circuit in the picture. The gap between the D-cell and the switch needs to be connected. Can you use a piece of aluminum foil to make the connection? Why or why not?</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="ME_66b-a1" text="Yes, aluminum foil is a metal and all metals conduct. The aluminum foil would complete the circuit.">
+      <tokens>
+        <token id="ME_66b_ra1">Yes</token>
+        <token id="ME_66b_ra2">,</token>
+        <token id="ME_66b_ra3">aluminum</token>
+        <token id="ME_66b_ra4">foil</token>
+        <token id="ME_66b_ra5">is</token>
+        <token id="ME_66b_ra6">a</token>
+        <token id="ME_66b_ra7">metal</token>
+        <token id="ME_66b_ra8">and</token>
+        <token id="ME_66b_ra9">all</token>
+        <token id="ME_66b_ra10">metals</token>
+        <token id="ME_66b_ra11">conduct</token>
+        <token id="ME_66b_ra12">.</token>
+        <token id="ME_66b_ra13">The</token>
+        <token id="ME_66b_ra14">aluminum</token>
+        <token id="ME_66b_ra15">foil</token>
+        <token id="ME_66b_ra16">would</token>
+        <token id="ME_66b_ra17">complete</token>
+        <token id="ME_66b_ra18">the</token>
+        <token id="ME_66b_ra19">circuit</token>
+        <token id="ME_66b_ra20">.</token>
+      </tokens>
+      <facets>
+        <facet id="ME_66b_f1" govNum="ME_66b_ra0" modNum="ME_66b_ra1" reltn="Root" govText="root" modText="Yes"/>
+        <facet id="ME_66b_f2" govNum="ME_66b_ra4" modNum="ME_66b_ra3" reltn="NMod" govText="foil" isAssumed="true" modText="aluminum"/>
+        <facet id="ME_66b_f3" govNum="ME_66b_ra3" modNum="ME_66b_ra7" reltn="Be" govText="aluminum" modText="metal"/>
+        <facet id="ME_66b_f4" govNum="ME_66b_ra10" modNum="ME_66b_ra9" reltn="Quantifier" govText="metals" modText="all"/>
+        <facet id="ME_66b_f5" govNum="ME_66b_ra11" modNum="ME_66b_ra10" reltn="Means" govText="conduct" modText="metals"/>
+        <facet id="ME_66b_f6" govNum="ME_66b_ra15" modNum="ME_66b_ra14" reltn="NMod" govText="foil" isAssumed="true" modText="aluminum"/>
+        <facet id="ME_66b_f7" govNum="ME_66b_ra17" modNum="ME_66b_ra15" reltn="Means" govText="complete" modText="foil"/>
+        <facet id="ME_66b_f8" govNum="ME_66b_ra17" modNum="ME_66b_ra19" reltn="Theme" govText="complete" modText="circuit"/>
+        <facet id="ME_66b_f9" govNum="ME_66b_ra17" modNum="ME_66b_ra5" reltn="Cause" childProp2Facet2="ME_66b_f2" childProp1Facet1="ME_66b_f7" govText="complete" childProp1Facet2="ME_66b_f8" modText="is" childProp2Facet1="ME_66b_f3"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="ME.66b.101.1" answerText="Yes because a piece of foil is not steel." accuracy="correct">
+      <facetEntailment facetID="ME_66b_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_66b_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_66b_f3" label="Diff-Arg"/>
+      <facetEntailment facetID="ME_66b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_66b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ME_66b_f6" label="Assumed"/>
+      <facetEntailment facetID="ME_66b_f7" label="Inferred"/>
+      <facetEntailment facetID="ME_66b_f8" label="Inferred"/>
+      <facetEntailment facetID="ME_66b_f9" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="ME.66b.107.1" answerText="Yes, because it is made of some kind of metal and it can conduct electricity." accuracy="correct">
+      <facetEntailment facetID="ME_66b_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_66b_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_66b_f3" label="Expressed"/>
+      <facetEntailment facetID="ME_66b_f4" label="Inferred"/>
+      <facetEntailment facetID="ME_66b_f5" label="Inferred"/>
+      <facetEntailment facetID="ME_66b_f6" label="Assumed"/>
+      <facetEntailment facetID="ME_66b_f7" label="Inferred"/>
+      <facetEntailment facetID="ME_66b_f8" label="Inferred"/>
+      <facetEntailment facetID="ME_66b_f9" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="ME.66b.111.1" answerText="Yes the electrical well go through it is some kind of steel or iron." accuracy="contradictory">
+      <facetEntailment facetID="ME_66b_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_66b_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_66b_f3" label="Inferred"/>
+      <facetEntailment facetID="ME_66b_f4" label="Contra-Infr"/>
+      <facetEntailment facetID="ME_66b_f5" label="Inferred"/>
+      <facetEntailment facetID="ME_66b_f6" label="Assumed"/>
+      <facetEntailment facetID="ME_66b_f7" label="Inferred"/>
+      <facetEntailment facetID="ME_66b_f8" label="Inferred"/>
+      <facetEntailment facetID="ME_66b_f9" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="ME.66b.113.1" answerText="Yes because it lets electricity flow through." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="ME_66b_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_66b_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_66b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_66b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_66b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ME_66b_f6" label="Assumed"/>
+      <facetEntailment facetID="ME_66b_f7" label="Inferred"/>
+      <facetEntailment facetID="ME_66b_f8" label="Inferred"/>
+      <facetEntailment facetID="ME_66b_f9" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.66b.118.1" answerText="Yes it is metal." accuracy="correct">
+      <facetEntailment facetID="ME_66b_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_66b_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_66b_f3" label="Expressed"/>
+      <facetEntailment facetID="ME_66b_f4" label="Inferred"/>
+      <facetEntailment facetID="ME_66b_f5" label="Inferred"/>
+      <facetEntailment facetID="ME_66b_f6" label="Assumed"/>
+      <facetEntailment facetID="ME_66b_f7" label="Inferred"/>
+      <facetEntailment facetID="ME_66b_f8" label="Inferred"/>
+      <facetEntailment facetID="ME_66b_f9" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="ME.66b.119.1" answerText="Yes because it is a conductor." accuracy="correct">
+      <facetEntailment facetID="ME_66b_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_66b_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_66b_f3" label="Diff-Arg"/>
+      <facetEntailment facetID="ME_66b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_66b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ME_66b_f6" label="Assumed"/>
+      <facetEntailment facetID="ME_66b_f7" label="Inferred"/>
+      <facetEntailment facetID="ME_66b_f8" label="Inferred"/>
+      <facetEntailment facetID="ME_66b_f9" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="ME.66b.140.1" answerText="Yes because that object can hold electricity throughout." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="ME_66b_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_66b_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_66b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_66b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_66b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ME_66b_f6" label="Assumed"/>
+      <facetEntailment facetID="ME_66b_f7" label="Inferred"/>
+      <facetEntailment facetID="ME_66b_f8" label="Inferred"/>
+      <facetEntailment facetID="ME_66b_f9" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.66b.141.1" answerText="No, because it is not made out of metal." accuracy="contradictory">
+      <facetEntailment facetID="ME_66b_f1" label="Contra-Expr"/>
+      <facetEntailment facetID="ME_66b_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_66b_f3" label="Contra-Expr"/>
+      <facetEntailment facetID="ME_66b_f4" label="Inferred"/>
+      <facetEntailment facetID="ME_66b_f5" label="Inferred"/>
+      <facetEntailment facetID="ME_66b_f6" label="Assumed"/>
+      <facetEntailment facetID="ME_66b_f7" label="Contra-Infr"/>
+      <facetEntailment facetID="ME_66b_f8" label="Contra-Infr"/>
+      <facetEntailment facetID="ME_66b_f9" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="ME.66b.142.1" answerText="Yes because it has iron in it." accuracy="correct">
+      <facetEntailment facetID="ME_66b_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_66b_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_66b_f3" label="Diff-Arg"/>
+      <facetEntailment facetID="ME_66b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_66b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ME_66b_f6" label="Assumed"/>
+      <facetEntailment facetID="ME_66b_f7" label="Inferred"/>
+      <facetEntailment facetID="ME_66b_f8" label="Inferred"/>
+      <facetEntailment facetID="ME_66b_f9" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="ME.66b.146.1" answerText="Yes and no it has to have iron in it." accuracy="contradictory">
+      <facetEntailment facetID="ME_66b_f1" label="Self-Contra"/>
+      <facetEntailment facetID="ME_66b_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_66b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_66b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_66b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ME_66b_f6" label="Assumed"/>
+      <facetEntailment facetID="ME_66b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="ME_66b_f8" label="Unaddressed"/>
+      <facetEntailment facetID="ME_66b_f9" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.66b.154.1" answerText="Yes you can because it has metal conductors have to have metal in them to work." accuracy="correct">
+      <facetEntailment facetID="ME_66b_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_66b_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_66b_f3" label="Inferred"/>
+      <facetEntailment facetID="ME_66b_f4" label="Inferred"/>
+      <facetEntailment facetID="ME_66b_f5" label="Inferred"/>
+      <facetEntailment facetID="ME_66b_f6" label="Assumed"/>
+      <facetEntailment facetID="ME_66b_f7" label="Inferred"/>
+      <facetEntailment facetID="ME_66b_f8" label="Inferred"/>
+      <facetEntailment facetID="ME_66b_f9" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="ME.66b.176.1" answerText="Yes because aluminum is a type of metal." accuracy="correct">
+      <facetEntailment facetID="ME_66b_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_66b_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_66b_f3" label="Expressed"/>
+      <facetEntailment facetID="ME_66b_f4" label="Inferred"/>
+      <facetEntailment facetID="ME_66b_f5" label="Inferred"/>
+      <facetEntailment facetID="ME_66b_f6" label="Assumed"/>
+      <facetEntailment facetID="ME_66b_f7" label="Inferred"/>
+      <facetEntailment facetID="ME_66b_f8" label="Inferred"/>
+      <facetEntailment facetID="ME_66b_f9" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="ME.66b.179.1" answerText="Yes you can because it does have metal in it." accuracy="correct">
+      <facetEntailment facetID="ME_66b_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_66b_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_66b_f3" label="Expressed"/>
+      <facetEntailment facetID="ME_66b_f4" label="Inferred"/>
+      <facetEntailment facetID="ME_66b_f5" label="Inferred"/>
+      <facetEntailment facetID="ME_66b_f6" label="Assumed"/>
+      <facetEntailment facetID="ME_66b_f7" label="Inferred"/>
+      <facetEntailment facetID="ME_66b_f8" label="Inferred"/>
+      <facetEntailment facetID="ME_66b_f9" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="ME.66b.180.1" answerText="No because it will not let electricity flow and it is not metal." accuracy="contradictory">
+      <facetEntailment facetID="ME_66b_f1" label="Contra-Expr"/>
+      <facetEntailment facetID="ME_66b_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_66b_f3" label="Contra-Expr"/>
+      <facetEntailment facetID="ME_66b_f4" label="Inferred"/>
+      <facetEntailment facetID="ME_66b_f5" label="Inferred"/>
+      <facetEntailment facetID="ME_66b_f6" label="Assumed"/>
+      <facetEntailment facetID="ME_66b_f7" label="Contra-Expr"/>
+      <facetEntailment facetID="ME_66b_f8" label="Inferred"/>
+      <facetEntailment facetID="ME_66b_f9" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.66b.181.1" answerText="Yes you can because it is a conductor." accuracy="correct">
+      <facetEntailment facetID="ME_66b_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_66b_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_66b_f3" label="Diff-Arg"/>
+      <facetEntailment facetID="ME_66b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_66b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ME_66b_f6" label="Assumed"/>
+      <facetEntailment facetID="ME_66b_f7" label="Inferred"/>
+      <facetEntailment facetID="ME_66b_f8" label="Inferred"/>
+      <facetEntailment facetID="ME_66b_f9" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="ME.66b.190.1" answerText="Yes, because it has a little bit of metal in it." accuracy="correct">
+      <facetEntailment facetID="ME_66b_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_66b_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_66b_f3" label="Inferred"/>
+      <facetEntailment facetID="ME_66b_f4" label="Inferred"/>
+      <facetEntailment facetID="ME_66b_f5" label="Inferred"/>
+      <facetEntailment facetID="ME_66b_f6" label="Assumed"/>
+      <facetEntailment facetID="ME_66b_f7" label="Inferred"/>
+      <facetEntailment facetID="ME_66b_f8" label="Inferred"/>
+      <facetEntailment facetID="ME_66b_f9" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="ME.66b.191.1" answerText="Yes you could because electricity could go through aluminum foil." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="ME_66b_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_66b_f2" label="Expressed"/>
+      <facetEntailment facetID="ME_66b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_66b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_66b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ME_66b_f6" label="Expressed"/>
+      <facetEntailment facetID="ME_66b_f7" label="Inferred"/>
+      <facetEntailment facetID="ME_66b_f8" label="Inferred"/>
+      <facetEntailment facetID="ME_66b_f9" label="Diff-Arg"/>
+    </studentAnswer>
+    <studentAnswer id="ME.66b.192.1" answerText="Yes you could because the aluminum foil will go through the circuit." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="ME_66b_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_66b_f2" label="Expressed"/>
+      <facetEntailment facetID="ME_66b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_66b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_66b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ME_66b_f6" label="Expressed"/>
+      <facetEntailment facetID="ME_66b_f7" label="Inferred"/>
+      <facetEntailment facetID="ME_66b_f8" label="Inferred"/>
+      <facetEntailment facetID="ME_66b_f9" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.66b.206.1" answerText="Yes because foil can very well convert electricity." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="ME_66b_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_66b_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_66b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_66b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_66b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ME_66b_f6" label="Assumed"/>
+      <facetEntailment facetID="ME_66b_f7" label="Inferred"/>
+      <facetEntailment facetID="ME_66b_f8" label="Inferred"/>
+      <facetEntailment facetID="ME_66b_f9" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.66b.208.1" answerText="No, because it does not have electricity in it." accuracy="contradictory">
+      <facetEntailment facetID="ME_66b_f1" label="Contra-Expr"/>
+      <facetEntailment facetID="ME_66b_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_66b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_66b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_66b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ME_66b_f6" label="Assumed"/>
+      <facetEntailment facetID="ME_66b_f7" label="Contra-Infr"/>
+      <facetEntailment facetID="ME_66b_f8" label="Contra-Infr"/>
+      <facetEntailment facetID="ME_66b_f9" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.66b.214.1" answerText="Yes you could because it is a type of a conductor." accuracy="correct">
+      <facetEntailment facetID="ME_66b_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_66b_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_66b_f3" label="Diff-Arg"/>
+      <facetEntailment facetID="ME_66b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_66b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ME_66b_f6" label="Assumed"/>
+      <facetEntailment facetID="ME_66b_f7" label="Inferred"/>
+      <facetEntailment facetID="ME_66b_f8" label="Inferred"/>
+      <facetEntailment facetID="ME_66b_f9" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="ME.66b.215.1" answerText="Yes, because electricity can go through foil." accuracy="correct">
+      <facetEntailment facetID="ME_66b_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_66b_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_66b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_66b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_66b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ME_66b_f6" label="Assumed"/>
+      <facetEntailment facetID="ME_66b_f7" label="Inferred"/>
+      <facetEntailment facetID="ME_66b_f8" label="Inferred"/>
+      <facetEntailment facetID="ME_66b_f9" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="ME.66b.216.1" answerText="No, if you use aluminum foil it still will not work." accuracy="contradictory">
+      <facetEntailment facetID="ME_66b_f1" label="Contra-Expr"/>
+      <facetEntailment facetID="ME_66b_f2" label="Expressed"/>
+      <facetEntailment facetID="ME_66b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_66b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_66b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ME_66b_f6" label="Expressed"/>
+      <facetEntailment facetID="ME_66b_f7" label="Contra-Infr"/>
+      <facetEntailment facetID="ME_66b_f8" label="Contra-Infr"/>
+      <facetEntailment facetID="ME_66b_f9" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.66b.220.1" answerText="No you need a wire to make the connection." accuracy="contradictory">
+      <facetEntailment facetID="ME_66b_f1" label="Contra-Expr"/>
+      <facetEntailment facetID="ME_66b_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_66b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_66b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_66b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ME_66b_f6" label="Assumed"/>
+      <facetEntailment facetID="ME_66b_f7" label="Contra-Infr"/>
+      <facetEntailment facetID="ME_66b_f8" label="Expressed"/>
+      <facetEntailment facetID="ME_66b_f9" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.66b.224.1" answerText="You can try, but I think it would not work." accuracy="contradictory">
+      <facetEntailment facetID="ME_66b_f1" label="Contra-Infr"/>
+      <facetEntailment facetID="ME_66b_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_66b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_66b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_66b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ME_66b_f6" label="Assumed"/>
+      <facetEntailment facetID="ME_66b_f7" label="Contra-Infr"/>
+      <facetEntailment facetID="ME_66b_f8" label="Contra-Infr"/>
+      <facetEntailment facetID="ME_66b_f9" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.66b.225.1" answerText="No, because aluminum foil still does not have a path of electricity." accuracy="contradictory">
+      <facetEntailment facetID="ME_66b_f1" label="Contra-Expr"/>
+      <facetEntailment facetID="ME_66b_f2" label="Expressed"/>
+      <facetEntailment facetID="ME_66b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_66b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_66b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ME_66b_f6" label="Expressed"/>
+      <facetEntailment facetID="ME_66b_f7" label="Contra-Infr"/>
+      <facetEntailment facetID="ME_66b_f8" label="Inferred"/>
+      <facetEntailment facetID="ME_66b_f9" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.66b.226.1" answerText="Yes because aluminum foil is different than string and foil is metal." accuracy="correct">
+      <facetEntailment facetID="ME_66b_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_66b_f2" label="Expressed"/>
+      <facetEntailment facetID="ME_66b_f3" label="Expressed"/>
+      <facetEntailment facetID="ME_66b_f4" label="Inferred"/>
+      <facetEntailment facetID="ME_66b_f5" label="Inferred"/>
+      <facetEntailment facetID="ME_66b_f6" label="Expressed"/>
+      <facetEntailment facetID="ME_66b_f7" label="Inferred"/>
+      <facetEntailment facetID="ME_66b_f8" label="Inferred"/>
+      <facetEntailment facetID="ME_66b_f9" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="ME.66b.228.1" answerText="No, because aluminum is just like paper and paper cannot light up things either." accuracy="contradictory">
+      <facetEntailment facetID="ME_66b_f1" label="Contra-Expr"/>
+      <facetEntailment facetID="ME_66b_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_66b_f3" label="Contra-Infr"/>
+      <facetEntailment facetID="ME_66b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_66b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ME_66b_f6" label="Assumed"/>
+      <facetEntailment facetID="ME_66b_f7" label="Contra-Infr"/>
+      <facetEntailment facetID="ME_66b_f8" label="Contra-Infr"/>
+      <facetEntailment facetID="ME_66b_f9" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.66b.245.1" answerText="No, because it is not big enough." accuracy="contradictory">
+      <facetEntailment facetID="ME_66b_f1" label="Contra-Expr"/>
+      <facetEntailment facetID="ME_66b_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_66b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_66b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_66b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ME_66b_f6" label="Assumed"/>
+      <facetEntailment facetID="ME_66b_f7" label="Contra-Infr"/>
+      <facetEntailment facetID="ME_66b_f8" label="Contra-Infr"/>
+      <facetEntailment facetID="ME_66b_f9" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.66b.247.1" answerText="Yes why because aluminum is foil and foil is metal." accuracy="correct">
+      <facetEntailment facetID="ME_66b_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_66b_f2" label="Expressed"/>
+      <facetEntailment facetID="ME_66b_f3" label="Diff-Arg"/>
+      <facetEntailment facetID="ME_66b_f4" label="Inferred"/>
+      <facetEntailment facetID="ME_66b_f5" label="Inferred"/>
+      <facetEntailment facetID="ME_66b_f6" label="Assumed"/>
+      <facetEntailment facetID="ME_66b_f7" label="Inferred"/>
+      <facetEntailment facetID="ME_66b_f8" label="Inferred"/>
+      <facetEntailment facetID="ME_66b_f9" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="ME.66b.250.1" answerText="Yes, because the electricity can flow through aluminum." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="ME_66b_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_66b_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_66b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_66b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_66b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ME_66b_f6" label="Assumed"/>
+      <facetEntailment facetID="ME_66b_f7" label="Inferred"/>
+      <facetEntailment facetID="ME_66b_f8" label="Inferred"/>
+      <facetEntailment facetID="ME_66b_f9" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.66b.251.1" answerText="Yes, you can. That is because aluminum is a conductor of electricity." accuracy="correct">
+      <facetEntailment facetID="ME_66b_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_66b_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_66b_f3" label="Diff-Arg"/>
+      <facetEntailment facetID="ME_66b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_66b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ME_66b_f6" label="Assumed"/>
+      <facetEntailment facetID="ME_66b_f7" label="Inferred"/>
+      <facetEntailment facetID="ME_66b_f8" label="Inferred"/>
+      <facetEntailment facetID="ME_66b_f9" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="ME.66b.253.1" answerText="Yes. Because aluminum foil is good conductor." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="ME_66b_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_66b_f2" label="Expressed"/>
+      <facetEntailment facetID="ME_66b_f3" label="Diff-Arg"/>
+      <facetEntailment facetID="ME_66b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_66b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ME_66b_f6" label="Expressed"/>
+      <facetEntailment facetID="ME_66b_f7" label="Inferred"/>
+      <facetEntailment facetID="ME_66b_f8" label="Inferred"/>
+      <facetEntailment facetID="ME_66b_f9" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.66b.280.1" answerText="Yes because aluminum foil is a conductor." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="ME_66b_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_66b_f2" label="Expressed"/>
+      <facetEntailment facetID="ME_66b_f3" label="Diff-Arg"/>
+      <facetEntailment facetID="ME_66b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_66b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ME_66b_f6" label="Expressed"/>
+      <facetEntailment facetID="ME_66b_f7" label="Inferred"/>
+      <facetEntailment facetID="ME_66b_f8" label="Inferred"/>
+      <facetEntailment facetID="ME_66b_f9" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.66b.314.1" answerText="Why not it will not work because aluminum foil do not have no wire to go through." accuracy="contradictory">
+      <facetEntailment facetID="ME_66b_f1" label="Contra-Expr"/>
+      <facetEntailment facetID="ME_66b_f2" label="Expressed"/>
+      <facetEntailment facetID="ME_66b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_66b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_66b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ME_66b_f6" label="Expressed"/>
+      <facetEntailment facetID="ME_66b_f7" label="Contra-Infr"/>
+      <facetEntailment facetID="ME_66b_f8" label="Contra-Infr"/>
+      <facetEntailment facetID="ME_66b_f9" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.66b.323.1" answerText="You can use a piece of aluminum foil because it will connection." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="ME_66b_f1" label="Inferred"/>
+      <facetEntailment facetID="ME_66b_f2" label="Expressed"/>
+      <facetEntailment facetID="ME_66b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_66b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_66b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ME_66b_f6" label="Expressed"/>
+      <facetEntailment facetID="ME_66b_f7" label="Expressed"/>
+      <facetEntailment facetID="ME_66b_f8" label="Inferred"/>
+      <facetEntailment facetID="ME_66b_f9" label="Unaddressed"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

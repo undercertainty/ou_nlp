@@ -1,0 +1,610 @@
+<?xml version="1.0"?>
+<question id="FN_27a" module="FN">
+  <questionText>Jana and Emily used indophenol to test 3 beverages for vitamin C. The number of drops they added to make a 10 milliliter sample of the blue indophenol indicator become colorless are given here: 8 drops of Overly Orange 13 drops of Luscious Lemon 33 drops of Fruitsnap (and it still didn't change color). Does Overly Orange or Luscious Lemon contain a higher concentration of vitamin C? What is the evidence?</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="FN_27a-a1" text="Overly Orange takes fewer drops to change the color of indophenol so Overly Orange has a higher concentration of vitamin C.">
+      <tokens>
+        <token id="FN_27a_ra1">Overly</token>
+        <token id="FN_27a_ra2">Orange</token>
+        <token id="FN_27a_ra3">takes</token>
+        <token id="FN_27a_ra4">fewer</token>
+        <token id="FN_27a_ra5">drops</token>
+        <token id="FN_27a_ra6">to</token>
+        <token id="FN_27a_ra7">change</token>
+        <token id="FN_27a_ra8">the</token>
+        <token id="FN_27a_ra9">color</token>
+        <token id="FN_27a_ra10">of</token>
+        <token id="FN_27a_ra11">indophenol</token>
+        <token id="FN_27a_ra12">so</token>
+        <token id="FN_27a_ra13">Overly</token>
+        <token id="FN_27a_ra14">Orange</token>
+        <token id="FN_27a_ra15">has</token>
+        <token id="FN_27a_ra16">a</token>
+        <token id="FN_27a_ra17">higher</token>
+        <token id="FN_27a_ra18">concentration</token>
+        <token id="FN_27a_ra19">of</token>
+        <token id="FN_27a_ra20">vitamin</token>
+        <token id="FN_27a_ra21">C</token>
+        <token id="FN_27a_ra22">.</token>
+      </tokens>
+      <facets>
+        <facet id="FN_27a_f1" govNum="FN_27a_ra2" modNum="FN_27a_ra1" reltn="NMod" govText="Orange" isAssumed="true" modText="Overly"/>
+        <facet id="FN_27a_f2" govNum="FN_27a_ra3" modNum="FN_27a_ra2" reltn="Means" govText="takes" isAssumed="true" modText="Orange"/>
+        <facet id="FN_27a_f3" govNum="FN_27a_ra3" modNum="FN_27a_ra5" reltn="Theme" govText="takes" isAssumed="true" modText="drops"/>
+        <facet id="FN_27a_f4" govNum="FN_27a_ra5" modNum="FN_27a_ra4" reltn="NMod" govText="drops" modText="fewer"/>
+        <facet id="FN_27a_f5" govNum="FN_27a_ra7" modNum="FN_27a_ra5" reltn="Means_to" govText="change" isAssumed="true" modText="drops"/>
+        <facet id="FN_27a_f6" govNum="FN_27a_ra7" modNum="FN_27a_ra9" reltn="Patient" govText="change" isAssumed="true" modText="color"/>
+        <facet id="FN_27a_f7" govNum="FN_27a_ra9" modNum="FN_27a_ra11" reltn="NMod_of" govText="color" isAssumed="true" modText="indophenol"/>
+        <facet id="FN_27a_f8" govNum="FN_27a_ra14" modNum="FN_27a_ra13" reltn="NMod" govText="Orange" isAssumed="true" modText="Overly"/>
+        <facet id="FN_27a_f9" govNum="FN_27a_ra14" modNum="FN_27a_ra18" reltn="Have" govText="Orange" isAssumed="true" modText="concentration"/>
+        <facet id="FN_27a_f10" govNum="FN_27a_ra18" modNum="FN_27a_ra17" reltn="NMod" govText="concentration" modText="higher"/>
+        <facet id="FN_27a_f11" govNum="FN_27a_ra18" modNum="FN_27a_ra21" reltn="NMod_of" govText="concentration" isAssumed="true" modText="C"/>
+        <facet id="FN_27a_f12" govNum="FN_27a_ra21" modNum="FN_27a_ra20" reltn="NMod" govText="C" isAssumed="true" modText="vitamin"/>
+        <facet id="FN_27a_f13" govNum="FN_27a_ra15" modNum="FN_27a_ra3" reltn="Cause-know_so" childProp2Facet2="FN_27a_f3" childProp1Facet1="FN_27a_f9" govText="has" isAssumed="true" childProp1Facet2="FN_27a_f10" modText="takes" childProp2Facet1="FN_27a_f2"/>
+        <facet id="FN_27a_f14" govNum="FN_27a_ra3" modNum="FN_27a_ra15" reltn="Cause_so" childProp2Facet2="FN_27a_f10" childProp1Facet1="FN_27a_f2" govText="takes" isAssumed="true" childProp1Facet2="FN_27a_f3" modText="has" childProp2Facet1="FN_27a_f9"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="FN.27a.111.1" answerText="I think Overly Orange juice because it took less drops." accuracy="correct">
+      <facetEntailment facetID="FN_27a_f1" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f2" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f3" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f4" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f5" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f6" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f7" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f8" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f9" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f10" label="Inferred"/>
+      <facetEntailment facetID="FN_27a_f11" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f12" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f13" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f14" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.27a.148.1" answerText="Overly Orange, OO, has more because it has less drops. Luscious Lemon does not have as much as OO because of the drops." accuracy="correct">
+      <facetEntailment facetID="FN_27a_f1" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f2" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f3" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f4" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f5" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f6" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f7" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f8" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f9" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f10" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f11" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f12" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f13" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f14" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.27a.160.1" answerText="Overly Orange contains higher concentration because the one with the least drops contains most vitamin C. Orange 8, Lemon 13." accuracy="correct">
+      <facetEntailment facetID="FN_27a_f1" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f2" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f3" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f4" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f5" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f6" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f7" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f8" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f9" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f10" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f11" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f12" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f13" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f14" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.27a.174.1" answerText="Overly Orange contains a higher concentration of vitamin C. The evidence is because if the juice becomes clear with less drops of vitamin C, it means that the vitamin C is strong in that juice." accuracy="correct">
+      <facetEntailment facetID="FN_27a_f1" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f2" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f3" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f4" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f5" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f6" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f7" label="Diff-Arg"/>
+      <facetEntailment facetID="FN_27a_f8" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f9" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f10" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f11" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f12" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f13" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f14" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.27a.180.1" answerText="Overly Orange because orange does contain more color." accuracy="irrelevant">
+      <facetEntailment facetID="FN_27a_f1" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f2" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f3" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f4" label="Unaddressed"/>
+      <facetEntailment facetID="FN_27a_f5" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f6" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f7" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f8" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f9" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f10" label="Unaddressed"/>
+      <facetEntailment facetID="FN_27a_f11" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f12" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f13" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f14" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.27a.182.1" answerText="Overly Orange because it took fewer drops than Luscious Lemon." accuracy="correct">
+      <facetEntailment facetID="FN_27a_f1" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f2" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f3" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f4" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f5" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f6" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f7" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f8" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f9" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f10" label="Inferred"/>
+      <facetEntailment facetID="FN_27a_f11" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f12" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f13" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f14" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.27a.185.1" answerText="Overly Orange contains more vitamin C because they put less drops of Overly into the container." accuracy="correct">
+      <facetEntailment facetID="FN_27a_f1" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f2" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f3" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f4" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f5" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f6" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f7" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f8" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f9" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f10" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f11" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f12" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f13" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f14" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.27a.215.1" answerText="No because if it does not go clear it has no vitamin C." accuracy="irrelevant">
+      <facetEntailment facetID="FN_27a_f1" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f2" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f3" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f4" label="Unaddressed"/>
+      <facetEntailment facetID="FN_27a_f5" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f6" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f7" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f8" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f9" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f10" label="Unaddressed"/>
+      <facetEntailment facetID="FN_27a_f11" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f12" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f13" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f14" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.27a.221.1" answerText="Overly Orange contains a higher concentration of vitamin C, because it took less drops to change the color." accuracy="correct">
+      <facetEntailment facetID="FN_27a_f1" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f2" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f3" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f4" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f5" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f6" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f7" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f8" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f9" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f10" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f11" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f12" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f13" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f14" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.27a.252.1" answerText="Overly contains a higher amount of vitamin C in it because it took less indophenol to turn the colored juice clear." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="FN_27a_f1" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f2" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f3" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f4" label="Diff-Arg"/>
+      <facetEntailment facetID="FN_27a_f5" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f6" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f7" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f8" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f9" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f10" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f11" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f12" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f13" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f14" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.27a.263.1" answerText="Overly Orange because it took the least amount of drops to turn clear." accuracy="correct">
+      <facetEntailment facetID="FN_27a_f1" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f2" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f3" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f4" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f5" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f6" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f7" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f8" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f9" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f10" label="Inferred"/>
+      <facetEntailment facetID="FN_27a_f11" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f12" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f13" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f14" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.27a.311.1" answerText="Overly Orange had the most vitamin C because it does not use the most amount of drops." accuracy="correct">
+      <facetEntailment facetID="FN_27a_f1" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f2" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f3" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f4" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f5" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f6" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f7" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f8" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f9" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f10" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f11" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f12" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f13" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f14" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.27a.326.1" answerText="Luscious Lemon has a higher concentration of vitamin C because lemons are really sour and Overly Orange was not that sour." accuracy="contradictory">
+      <facetEntailment facetID="FN_27a_f1" label="Contra-Expr"/>
+      <facetEntailment facetID="FN_27a_f2" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f3" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f4" label="Unaddressed"/>
+      <facetEntailment facetID="FN_27a_f5" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f6" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f7" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f8" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f9" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f10" label="Contra-Infr"/>
+      <facetEntailment facetID="FN_27a_f11" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f12" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f13" label="Diff-Arg"/>
+      <facetEntailment facetID="FN_27a_f14" label="Diff-Arg"/>
+    </studentAnswer>
+    <studentAnswer id="FN.27a.339.1" answerText="Overly Orange 5 less than the Luscious Lemon and was quicker to change color." accuracy="correct">
+      <facetEntailment facetID="FN_27a_f1" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f2" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f3" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f4" label="Inferred"/>
+      <facetEntailment facetID="FN_27a_f5" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f6" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f7" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f8" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f9" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f10" label="Inferred"/>
+      <facetEntailment facetID="FN_27a_f11" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f12" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f13" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f14" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.27a.351.1" answerText="Yes because it had a higher concentration of vitamin C." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="FN_27a_f1" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f2" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f3" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f4" label="Unaddressed"/>
+      <facetEntailment facetID="FN_27a_f5" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f6" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f7" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f8" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f9" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f10" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f11" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f12" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f13" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f14" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.27a.355.1" answerText="Overly Orange contains more vitamin C because it took less drops to change the color of the indophenol." accuracy="correct">
+      <facetEntailment facetID="FN_27a_f1" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f2" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f3" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f4" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f5" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f6" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f7" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f8" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f9" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f10" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f11" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f12" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f13" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f14" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.27a.366.1" answerText="Yes because vitamin C makes the indicator clear and the lower amount of drops the more vitamin C." accuracy="correct">
+      <facetEntailment facetID="FN_27a_f1" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f2" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f3" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f4" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f5" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f6" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f7" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f8" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f9" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f10" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f11" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f12" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f13" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f14" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.27a.367.1" answerText="Overly Orange contains more vitamin C, the evidence is that there are fewer drops needed before the liquid turned clear." accuracy="correct">
+      <facetEntailment facetID="FN_27a_f1" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f2" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f3" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f4" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f5" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f6" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f7" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f8" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f9" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f10" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f11" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f12" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f13" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f14" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.27a.372.1" answerText="Overly Orange. It has less drops and which one is less has higher vitamin C." accuracy="correct">
+      <facetEntailment facetID="FN_27a_f1" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f2" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f3" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f4" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f5" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f6" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f7" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f8" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f9" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f10" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f11" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f12" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f13" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f14" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.27a.398.1" answerText="No because the least drops you put the more concentrated it is." accuracy="correct">
+      <facetEntailment facetID="FN_27a_f1" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f2" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f3" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f4" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f5" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f6" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f7" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f8" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f9" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f10" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f11" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f12" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f13" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f14" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.27a.403.1" answerText="No because the color did not change. If the color still would stay the same it vitamin C." accuracy="contradictory">
+      <facetEntailment facetID="FN_27a_f1" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f2" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f3" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f4" label="Unaddressed"/>
+      <facetEntailment facetID="FN_27a_f5" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f6" label="Contra-Expr"/>
+      <facetEntailment facetID="FN_27a_f7" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f8" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f9" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f10" label="Unaddressed"/>
+      <facetEntailment facetID="FN_27a_f11" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f12" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f13" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f14" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.27a.419.1" answerText="Only the Overly Orange contains lots of vitamin C because the blue water became clear in 8 drops. It is less than drops than Luscious Lemon." accuracy="correct">
+      <facetEntailment facetID="FN_27a_f1" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f2" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f3" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f4" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f5" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f6" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f7" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f8" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f9" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f10" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f11" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f12" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f13" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f14" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.27a.422.1" answerText="Overly Orange and Luscious Lemon have more vitamin C because it took only a couple drops to make the indophenol clear." accuracy="correct">
+      <facetEntailment facetID="FN_27a_f1" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f2" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f3" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f4" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f5" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f6" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f7" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f8" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f9" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f10" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f11" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f12" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f13" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f14" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.27a.442.1" answerText="Overly Orange has more because of the amount of drops she put in." accuracy="correct">
+      <facetEntailment facetID="FN_27a_f1" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f2" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f3" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f4" label="Inferred"/>
+      <facetEntailment facetID="FN_27a_f5" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f6" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f7" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f8" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f9" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f10" label="Inferred"/>
+      <facetEntailment facetID="FN_27a_f11" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f12" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f13" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f14" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.27a.443.1" answerText="Yes it did because the lower the number the more vitamin C and they both have low numbers." accuracy="correct">
+      <facetEntailment facetID="FN_27a_f1" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f2" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f3" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f4" label="Inferred"/>
+      <facetEntailment facetID="FN_27a_f5" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f6" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f7" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f8" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f9" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f10" label="Inferred"/>
+      <facetEntailment facetID="FN_27a_f11" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f12" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f13" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f14" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.27a.448.1" answerText="Yes, because if it has lower drops it has more vitamin than others." accuracy="correct">
+      <facetEntailment facetID="FN_27a_f1" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f2" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f3" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f4" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f5" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f6" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f7" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f8" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f9" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f10" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f11" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f12" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f13" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f14" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.27a.453.1" answerText="I think that the Overly Orange and the Luscious Lemon do not contain a higher concentration because they clear the indophenol fast." accuracy="contradictory">
+      <facetEntailment facetID="FN_27a_f1" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f2" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f3" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f4" label="Unaddressed"/>
+      <facetEntailment facetID="FN_27a_f5" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f6" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f7" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f8" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f9" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f10" label="Contra-Expr"/>
+      <facetEntailment facetID="FN_27a_f11" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f12" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f13" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f14" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.27a.461.1" answerText="Overly Orange then less the drops the more vitamin C." accuracy="correct">
+      <facetEntailment facetID="FN_27a_f1" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f2" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f3" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f4" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f5" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f6" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f7" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f8" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f9" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f10" label="Inferred"/>
+      <facetEntailment facetID="FN_27a_f11" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f12" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f13" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f14" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.27a.507.1" answerText="Overly Orange has the higher concentration of vitamin C because I took less amount of drops." accuracy="correct">
+      <facetEntailment facetID="FN_27a_f1" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f2" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f3" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f4" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f5" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f6" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f7" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f8" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f9" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f10" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f11" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f12" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f13" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f14" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.27a.547.1" answerText="Overly Orange has higher concentration and the evidence is the overly Orange has 8 drops and Luscious Lemon has 13 drops." accuracy="correct">
+      <facetEntailment facetID="FN_27a_f1" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f2" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f3" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f4" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f5" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f6" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f7" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f8" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f9" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f10" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f11" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f12" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f13" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f14" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.27a.549.1" answerText="Overly Orange has 120 percent of vitamin C and Luscious Lemon has 50 percent." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="FN_27a_f1" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f2" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f3" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f4" label="Unaddressed"/>
+      <facetEntailment facetID="FN_27a_f5" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f6" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f7" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f8" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f9" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f10" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f11" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f12" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f13" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f14" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.27a.567.1" answerText="Overly Orange contain the higher vitamin C because the less drops the more vitamin C." accuracy="correct">
+      <facetEntailment facetID="FN_27a_f1" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f2" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f3" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f4" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f5" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f6" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f7" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f8" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f9" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f10" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f11" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f12" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f13" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f14" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.27a.574.1" answerText="Luscious Lemon contains higher vitamin C. The evidence is that it has more drops so that is the evidence." accuracy="contradictory">
+      <facetEntailment facetID="FN_27a_f1" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f2" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f3" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f4" label="Inferred"/>
+      <facetEntailment facetID="FN_27a_f5" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f6" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f7" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f8" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f9" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f10" label="Contra-Infr"/>
+      <facetEntailment facetID="FN_27a_f11" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f12" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f13" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f14" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.27a.592.1" answerText="Yes, because the drops tell what happen and it tell that this item had not so much sugar especially Overly Orange." accuracy="contradictory">
+      <facetEntailment facetID="FN_27a_f1" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f2" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f3" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f4" label="Unaddressed"/>
+      <facetEntailment facetID="FN_27a_f5" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f6" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f7" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f8" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f9" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f10" label="Contra-Expr"/>
+      <facetEntailment facetID="FN_27a_f11" label="Diff-Arg"/>
+      <facetEntailment facetID="FN_27a_f12" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f13" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f14" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.27a.596.1" answerText="Overly Orange and Luscious Lemon have vitamin C. My evidence are that it says that Overly Orange had 8 drops, and Luscious Lemon had 13 drops, and that also means that it has Vitamin C." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="FN_27a_f1" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f2" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f3" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f4" label="Inferred"/>
+      <facetEntailment facetID="FN_27a_f5" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f6" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f7" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f8" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f9" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f10" label="Unaddressed"/>
+      <facetEntailment facetID="FN_27a_f11" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f12" label="Expressed"/>
+      <facetEntailment facetID="FN_27a_f13" label="Assumed"/>
+      <facetEntailment facetID="FN_27a_f14" label="Assumed"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

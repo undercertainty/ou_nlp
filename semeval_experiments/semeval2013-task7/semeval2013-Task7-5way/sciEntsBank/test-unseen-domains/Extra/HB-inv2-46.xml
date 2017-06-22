@@ -1,0 +1,734 @@
+<?xml version="1.0"?>
+<question testSet="unseen-domains" id="HB_46" module="HB">
+  <questionText>What is it about the human skeleton that allows it to bend?</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="HB_46-a1" text="The human skeleton can bend because the skeleton is articulated (has joints).">
+      <tokens>
+        <token id="HB_46_ra1">The</token>
+        <token id="HB_46_ra2">human</token>
+        <token id="HB_46_ra3">skeleton</token>
+        <token id="HB_46_ra4">can</token>
+        <token id="HB_46_ra5">bend</token>
+        <token id="HB_46_ra6">because</token>
+        <token id="HB_46_ra7">the</token>
+        <token id="HB_46_ra8">skeleton</token>
+        <token id="HB_46_ra9">is</token>
+        <token id="HB_46_ra10">articulated</token>
+        <token id="HB_46_ra11">(</token>
+        <token id="HB_46_ra12">has</token>
+        <token id="HB_46_ra13">joints</token>
+        <token id="HB_46_ra14">)</token>
+        <token id="HB_46_ra15">.</token>
+      </tokens>
+      <facets>
+        <facet id="HB_46_f1" govNum="HB_46_ra3" modNum="HB_46_ra2" reltn="NMod" govText="skeleton" isAssumed="true" modText="human"/>
+        <facet id="HB_46_f2" govNum="HB_46_ra5" modNum="HB_46_ra3" reltn="Patient" govText="bend" isAssumed="true" modText="skeleton"/>
+        <facet id="HB_46_f3" govNum="HB_46_ra8" modNum="HB_46_ra10" reltn="Be" govText="skeleton" modText="articulated"/>
+        <facet id="HB_46_f4" govNum="HB_46_ra8" modNum="HB_46_ra13" reltn="Have" govText="skeleton" modText="joints"/>
+        <facet id="HB_46_f5" govNum="HB_46_ra5" modNum="HB_46_ra9" reltn="Cause_because" childProp2Facet2="HB_46_f4" childProp1Facet1="HB_46_f2" govText="bend" isAssumed="true" modText="is" childProp2Facet1="HB_46_f3"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="HB.46.136.1" answerText="Joint." accuracy="correct">
+      <facetEntailment facetID="HB_46_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_46_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_46_f3" label="Inferred"/>
+      <facetEntailment facetID="HB_46_f4" label="Inferred"/>
+      <facetEntailment facetID="HB_46_f5" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.46.140.1" answerText="Joints is in the human body that helps you bend." accuracy="correct">
+      <facetEntailment facetID="HB_46_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_46_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f4" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f5" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.46.146.1" answerText="Joints." accuracy="correct">
+      <facetEntailment facetID="HB_46_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_46_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_46_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f4" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f5" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.46.148.1" answerText="Joints allow the human skeleton to bend." accuracy="correct">
+      <facetEntailment facetID="HB_46_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f3" label="Inferred"/>
+      <facetEntailment facetID="HB_46_f4" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f5" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.46.149.1" answerText="We have a lot of joints in our body that allows us to bend." accuracy="correct">
+      <facetEntailment facetID="HB_46_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_46_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f4" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f5" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.46.172.1" answerText="About joints." accuracy="correct">
+      <facetEntailment facetID="HB_46_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_46_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_46_f3" label="Inferred"/>
+      <facetEntailment facetID="HB_46_f4" label="Inferred"/>
+      <facetEntailment facetID="HB_46_f5" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.46.176.1" answerText="Joint allow you to move." accuracy="correct">
+      <facetEntailment facetID="HB_46_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_46_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_46_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f4" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f5" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.46.177.1" answerText="Joints." accuracy="correct">
+      <facetEntailment facetID="HB_46_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_46_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_46_f3" label="Inferred"/>
+      <facetEntailment facetID="HB_46_f4" label="Inferred"/>
+      <facetEntailment facetID="HB_46_f5" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.46.179.1" answerText="You can bend because you have joints help you move." accuracy="correct">
+      <facetEntailment facetID="HB_46_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_46_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f4" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f5" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.46.179a.1" answerText="The joints." accuracy="correct">
+      <facetEntailment facetID="HB_46_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_46_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_46_f3" label="Inferred"/>
+      <facetEntailment facetID="HB_46_f4" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f5" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.46.183.1" answerText="A hinge allows you to bend." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_46_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_46_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f3" label="Inferred"/>
+      <facetEntailment facetID="HB_46_f4" label="Inferred"/>
+      <facetEntailment facetID="HB_46_f5" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.46.207.1" answerText="Joints and non-fused bones." accuracy="correct">
+      <facetEntailment facetID="HB_46_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_46_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_46_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f4" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f5" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.46.218.1" answerText="The joints allow you to move." accuracy="correct">
+      <facetEntailment facetID="HB_46_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_46_f2" label="Diff-Arg"/>
+      <facetEntailment facetID="HB_46_f3" label="Inferred"/>
+      <facetEntailment facetID="HB_46_f4" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f5" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.46.243.1" answerText="What allows us to bend is the joints." accuracy="correct">
+      <facetEntailment facetID="HB_46_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_46_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f4" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f5" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.46.244.1" answerText="The human skeleton allows it to bend because of the joints." accuracy="correct">
+      <facetEntailment facetID="HB_46_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f4" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f5" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.46.246.1" answerText="The vertebrae is what helps you bend." accuracy="irrelevant">
+      <facetEntailment facetID="HB_46_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_46_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_46_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_46_f5" label="Diff-Arg"/>
+    </studentAnswer>
+    <studentAnswer id="HB.46.247.1" answerText="Your joints allow you to move." accuracy="correct">
+      <facetEntailment facetID="HB_46_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_46_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f4" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f5" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.46.248.1" answerText="The bone in your body allows you to bend." accuracy="irrelevant">
+      <facetEntailment facetID="HB_46_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_46_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_46_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_46_f5" label="Diff-Arg"/>
+    </studentAnswer>
+    <studentAnswer id="HB.46.254.1" answerText="What allows us to bend is all of the joints." accuracy="correct">
+      <facetEntailment facetID="HB_46_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_46_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f4" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f5" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.46.255.1" answerText="The vertebrae allows your skeleton to move around and bend." accuracy="irrelevant">
+      <facetEntailment facetID="HB_46_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_46_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_46_f5" label="Diff-Arg"/>
+    </studentAnswer>
+    <studentAnswer id="HB.46.260.1" answerText="The human body has joints that allows us to move." accuracy="correct">
+      <facetEntailment facetID="HB_46_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f2" label="Diff-Arg"/>
+      <facetEntailment facetID="HB_46_f3" label="Inferred"/>
+      <facetEntailment facetID="HB_46_f4" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f5" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.46.278.1" answerText="Basically all of the joints in your body, which allows it to bend in only certain places." accuracy="correct">
+      <facetEntailment facetID="HB_46_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_46_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f4" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f5" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.46.281.1" answerText="The joints, muscles, and bones." accuracy="correct">
+      <facetEntailment facetID="HB_46_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_46_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_46_f3" label="Inferred"/>
+      <facetEntailment facetID="HB_46_f4" label="Inferred"/>
+      <facetEntailment facetID="HB_46_f5" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.46.282.1" answerText="Your muscles, joints, and bones help you to move your body around." accuracy="correct">
+      <facetEntailment facetID="HB_46_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_46_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_46_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f4" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f5" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.46.285.1" answerText="Joints and cartilage allow the skeleton to bend." accuracy="correct">
+      <facetEntailment facetID="HB_46_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_46_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f4" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f5" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.46.286.1" answerText="Where 2 bones move." accuracy="irrelevant">
+      <facetEntailment facetID="HB_46_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_46_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_46_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_46_f4" label="Inferred"/>
+      <facetEntailment facetID="HB_46_f5" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.46.291.1" answerText="It is the joints." accuracy="correct">
+      <facetEntailment facetID="HB_46_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_46_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_46_f3" label="Inferred"/>
+      <facetEntailment facetID="HB_46_f4" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f5" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.46.292.1" answerText="The joints allow the human skeleton to bend." accuracy="correct">
+      <facetEntailment facetID="HB_46_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f4" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f5" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.46.311.1" answerText="What allows it to bend is joints all kinds of joints the 3 joints are hinge, gliding, and ball-and-socket." accuracy="correct">
+      <facetEntailment facetID="HB_46_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_46_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f4" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f5" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.46.315.1" answerText="The joints allows the human skeleton to bend by pulling together." accuracy="correct">
+      <facetEntailment facetID="HB_46_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f3" label="Inferred"/>
+      <facetEntailment facetID="HB_46_f4" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f5" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.46.320.1" answerText="Muscles in the body." accuracy="irrelevant">
+      <facetEntailment facetID="HB_46_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_46_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_46_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_46_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_46_f5" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.46.321.1" answerText="It articulates that is what allows you to bend." accuracy="correct">
+      <facetEntailment facetID="HB_46_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_46_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f4" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f5" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.46.325.1" answerText="Joints allow the human skeleton to move." accuracy="correct">
+      <facetEntailment facetID="HB_46_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f4" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f5" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.46.331.1" answerText="How you bend joints in your body." accuracy="correct">
+      <facetEntailment facetID="HB_46_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_46_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_46_f3" label="Inferred"/>
+      <facetEntailment facetID="HB_46_f4" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f5" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.46.346.1" answerText="Our legs, our arms and our backs." accuracy="irrelevant">
+      <facetEntailment facetID="HB_46_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_46_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_46_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_46_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_46_f5" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.46.350.1" answerText="Your spine, joints muscles." accuracy="correct">
+      <facetEntailment facetID="HB_46_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_46_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_46_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f4" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f5" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.46.354.1" answerText="It allows it to bend because it is articulated that means it has joints." accuracy="correct">
+      <facetEntailment facetID="HB_46_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_46_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f4" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f5" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.46.357.1" answerText="We are articulated." accuracy="correct">
+      <facetEntailment facetID="HB_46_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_46_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_46_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f4" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f5" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.46.365.1" answerText="The spine does allow it to move." accuracy="irrelevant">
+      <facetEntailment facetID="HB_46_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_46_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_46_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_46_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_46_f5" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.46.383.1" answerText="Bones." accuracy="irrelevant">
+      <facetEntailment facetID="HB_46_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_46_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_46_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_46_f4" label="Diff-Arg"/>
+      <facetEntailment facetID="HB_46_f5" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.46.386.1" answerText="The human skeleton allows it to bend." accuracy="irrelevant">
+      <facetEntailment facetID="HB_46_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_46_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_46_f5" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.46.387.1" answerText="It is the articulated skeleton." accuracy="correct">
+      <facetEntailment facetID="HB_46_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_46_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_46_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f4" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f5" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.46.391.1" answerText="The human skeleton moves because, you have an articulated skeleton." accuracy="correct">
+      <facetEntailment facetID="HB_46_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f4" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f5" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.46.392.1" answerText="The human skeleton moves because of the back bone. Helps you move." accuracy="irrelevant">
+      <facetEntailment facetID="HB_46_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_46_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_46_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_46_f5" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.46.418.1" answerText="The joints allow the human skeleton to bend because if you did not have joints it would rub." accuracy="correct">
+      <facetEntailment facetID="HB_46_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f4" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f5" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.46.422.1" answerText="The joint allows the human skeleton to move and bend." accuracy="correct">
+      <facetEntailment facetID="HB_46_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f4" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f5" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.46.424.1" answerText="The hinge allows the knees and the elbow bend." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_46_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_46_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f3" label="Inferred"/>
+      <facetEntailment facetID="HB_46_f4" label="Inferred"/>
+      <facetEntailment facetID="HB_46_f5" label="Diff-Arg"/>
+    </studentAnswer>
+    <studentAnswer id="HB.46.428.1" answerText="Joints, because bones cannot bend but joints bend really easily to allow the body to move." accuracy="correct">
+      <facetEntailment facetID="HB_46_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_46_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f3" label="Inferred"/>
+      <facetEntailment facetID="HB_46_f4" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f5" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.46.455.1" answerText="Joints." accuracy="correct">
+      <facetEntailment facetID="HB_46_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_46_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_46_f3" label="Inferred"/>
+      <facetEntailment facetID="HB_46_f4" label="Inferred"/>
+      <facetEntailment facetID="HB_46_f5" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.46.457.1" answerText="All your joints keep our bones together so they do not fall apart." accuracy="correct">
+      <facetEntailment facetID="HB_46_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_46_f2" label="Diff-Arg"/>
+      <facetEntailment facetID="HB_46_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f4" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f5" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.46.459.1" answerText="Our cartilage can help us bend." accuracy="irrelevant">
+      <facetEntailment facetID="HB_46_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_46_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_46_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_46_f5" label="Diff-Arg"/>
+    </studentAnswer>
+    <studentAnswer id="HB.46.464.1" answerText="Socket, joint, ball." accuracy="correct">
+      <facetEntailment facetID="HB_46_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_46_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_46_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f4" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f5" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.46.466.1" answerText="The hip in the skeleton makes it bend." accuracy="irrelevant">
+      <facetEntailment facetID="HB_46_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_46_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_46_f5" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.46.489.1" answerText="The human skeleton could bend because it has joints." accuracy="correct">
+      <facetEntailment facetID="HB_46_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f4" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f5" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.46.490.1" answerText="All of bone joints allow it to bend." accuracy="correct">
+      <facetEntailment facetID="HB_46_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_46_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f4" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f5" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.46.491.1" answerText="Joints in the spine, legs, arms, and head." accuracy="correct">
+      <facetEntailment facetID="HB_46_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_46_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_46_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f4" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f5" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.46.497.1" answerText="Gliding joint hinge joint ball and socket joint or any other joint there is." accuracy="correct">
+      <facetEntailment facetID="HB_46_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_46_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_46_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f4" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f5" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.46.498.1" answerText="That you have joints." accuracy="correct">
+      <facetEntailment facetID="HB_46_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_46_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_46_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f4" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f5" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.46.499.1" answerText="The human skeleton bends because of all the bones in your body." accuracy="irrelevant">
+      <facetEntailment facetID="HB_46_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_46_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_46_f5" label="Diff-Arg"/>
+    </studentAnswer>
+    <studentAnswer id="HB.46.505.1" answerText="The joints and muscles." accuracy="correct">
+      <facetEntailment facetID="HB_46_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_46_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_46_f3" label="Inferred"/>
+      <facetEntailment facetID="HB_46_f4" label="Inferred"/>
+      <facetEntailment facetID="HB_46_f5" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.46.521.1" answerText="The spine." accuracy="irrelevant">
+      <facetEntailment facetID="HB_46_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_46_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_46_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_46_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_46_f5" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.46.531.1" answerText="Your neck makes you move front to back and side to side." accuracy="irrelevant">
+      <facetEntailment facetID="HB_46_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_46_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_46_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_46_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_46_f5" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.46.532.1" answerText="Your ball sockets." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_46_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_46_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_46_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_46_f4" label="Inferred"/>
+      <facetEntailment facetID="HB_46_f5" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.46.565.1" answerText="Our joint allows to move our elbows, shoulder, fingers and neck." accuracy="correct">
+      <facetEntailment facetID="HB_46_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_46_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_46_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f4" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f5" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.46.566.1" answerText="The joint allow it to bend." accuracy="correct">
+      <facetEntailment facetID="HB_46_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_46_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f4" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f5" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.46.570.1" answerText="The joints allow it to bend." accuracy="correct">
+      <facetEntailment facetID="HB_46_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_46_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f4" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f5" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.46.572.1" answerText="All the joints allow it to bend." accuracy="correct">
+      <facetEntailment facetID="HB_46_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_46_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f4" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f5" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.46.578.1" answerText="Is joint because if we did not have any joints, we would just be a big blob." accuracy="correct">
+      <facetEntailment facetID="HB_46_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_46_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_46_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f4" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f5" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.46.593.1" answerText="What allows us to bend is our joints in our body." accuracy="correct">
+      <facetEntailment facetID="HB_46_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_46_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f4" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f5" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.46.595.1" answerText="Joints." accuracy="correct">
+      <facetEntailment facetID="HB_46_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_46_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_46_f3" label="Inferred"/>
+      <facetEntailment facetID="HB_46_f4" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f5" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.46.596.1" answerText="The thing that makes the skeleton makes it bend is the spin bones." accuracy="irrelevant">
+      <facetEntailment facetID="HB_46_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f3" label="Diff-Arg"/>
+      <facetEntailment facetID="HB_46_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_46_f5" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.46.597.1" answerText="Well the human skeleton has joints, hinge, ball-and-socket, and gliding, and it has a backbone which allows you to bend too." accuracy="correct">
+      <facetEntailment facetID="HB_46_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f4" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f5" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.46.599.1" answerText="Joints allow the human skeleton to bend." accuracy="correct">
+      <facetEntailment facetID="HB_46_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f4" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f5" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.46.600.1" answerText="Finger tips." accuracy="irrelevant">
+      <facetEntailment facetID="HB_46_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_46_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_46_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_46_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_46_f5" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.46.602.1" answerText="Joints and your spinal cord." accuracy="correct">
+      <facetEntailment facetID="HB_46_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_46_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_46_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f4" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f5" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.46.605.1" answerText="Joints, Where 2 bones meet, allows the body to bend." accuracy="correct">
+      <facetEntailment facetID="HB_46_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_46_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f4" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f5" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.46.606.1" answerText="Pelvis and backbone help bend." accuracy="irrelevant">
+      <facetEntailment facetID="HB_46_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_46_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_46_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_46_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_46_f5" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.46.607.1" answerText="The gliding joint that connects your back bones, and your back bones to the pelvis." accuracy="correct">
+      <facetEntailment facetID="HB_46_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_46_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_46_f3" label="Inferred"/>
+      <facetEntailment facetID="HB_46_f4" label="Inferred"/>
+      <facetEntailment facetID="HB_46_f5" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.46.608.1" answerText="The joints shows us to bend." accuracy="correct">
+      <facetEntailment facetID="HB_46_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_46_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f4" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f5" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.46.610.1" answerText="What allows us to bend is." accuracy="irrelevant">
+      <facetEntailment facetID="HB_46_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_46_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_46_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_46_f5" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.46.611.1" answerText="It is the backbone that allows us to bend." accuracy="irrelevant">
+      <facetEntailment facetID="HB_46_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_46_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_46_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_46_f5" label="Diff-Arg"/>
+    </studentAnswer>
+    <studentAnswer id="HB.46.612.1" answerText="The backbone allows us to bend." accuracy="irrelevant">
+      <facetEntailment facetID="HB_46_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_46_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_46_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_46_f5" label="Diff-Arg"/>
+    </studentAnswer>
+    <studentAnswer id="HB.46.613.1" answerText="It allows us to bend because we have joints in us." accuracy="correct">
+      <facetEntailment facetID="HB_46_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_46_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f4" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f5" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.46.615.1" answerText="The joints allow the human body to bend." accuracy="correct">
+      <facetEntailment facetID="HB_46_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f4" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f5" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.46.628.1" answerText="All of the hinge and ball-and-socket joint. Last, the gliding joint." accuracy="correct">
+      <facetEntailment facetID="HB_46_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_46_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_46_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f4" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f5" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.46.629.1" answerText="The spine has more than one vertebra. Others have joints. Joints stand together by ligaments. Also cartilage help to not grind our bones." accuracy="correct">
+      <facetEntailment facetID="HB_46_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_46_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_46_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f4" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f5" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.46.633.1" answerText="The hip joint allows to bend because it can move side to side, front, and back." accuracy="irrelevant">
+      <facetEntailment facetID="HB_46_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_46_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_46_f4" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f5" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.46.635.1" answerText="Hinges and ball and socket also the gliding joints all those joints help your body to bend." accuracy="correct">
+      <facetEntailment facetID="HB_46_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_46_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f4" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f5" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.46.636.1" answerText="The cervical vertebrae." accuracy="irrelevant">
+      <facetEntailment facetID="HB_46_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_46_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_46_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_46_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_46_f5" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.46.641.1" answerText="What the things his joints were 2 bones meet. And specific joints and bones." accuracy="correct">
+      <facetEntailment facetID="HB_46_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_46_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_46_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f4" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f5" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.46.645.1" answerText="The joints allows the skeleton to move. The joints that help to bend is called cartilage." accuracy="correct">
+      <facetEntailment facetID="HB_46_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f4" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f5" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.46.646.1" answerText="The joints work together with the bones to allow you to bend." accuracy="correct">
+      <facetEntailment facetID="HB_46_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_46_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f4" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f5" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.46.647.1" answerText="When you are articulating. It means when jointed, or joined in sections. Which forms the human skeleton." accuracy="correct">
+      <facetEntailment facetID="HB_46_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_46_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f4" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f5" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.46.652.1" answerText="Your knee can bend because can kick something." accuracy="irrelevant">
+      <facetEntailment facetID="HB_46_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_46_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_46_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_46_f5" label="Diff-Arg"/>
+    </studentAnswer>
+    <studentAnswer id="HB.46.976.1" answerText="The human skeleton is there to help people move." accuracy="irrelevant">
+      <facetEntailment facetID="HB_46_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_46_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_46_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_46_f5" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.46.981.1" answerText="Spine and neck." accuracy="irrelevant">
+      <facetEntailment facetID="HB_46_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_46_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_46_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_46_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_46_f5" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.46.987.1" answerText="The neck." accuracy="irrelevant">
+      <facetEntailment facetID="HB_46_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_46_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_46_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_46_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_46_f5" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.46.988.1" answerText="Your cartilage." accuracy="irrelevant">
+      <facetEntailment facetID="HB_46_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_46_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_46_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_46_f4" label="Diff-Arg"/>
+      <facetEntailment facetID="HB_46_f5" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.46.992.1" answerText="The joints in the body it allows it to bend." accuracy="correct">
+      <facetEntailment facetID="HB_46_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_46_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f4" label="Expressed"/>
+      <facetEntailment facetID="HB_46_f5" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.46.993.1" answerText="Your hips and your upper legs are both allowed to move." accuracy="irrelevant">
+      <facetEntailment facetID="HB_46_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_46_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_46_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_46_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_46_f5" label="Assumed"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

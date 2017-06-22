@@ -1,0 +1,667 @@
+<?xml version="1.0"?>
+<question id="SE_47b" module="SE">
+  <questionText>Sue bought a white wading pool for her grandchildren. She wanted to heat up the water as fast as possible. She thought that if she put plastic sheeting in the bottom of the pool it might heat up the water faster. She had a sheet of yellow plastic and a sheet of dark green plastic. What should Sue do to heat the water as fast as possible? A. Put the yellow sheeting on the bottom of the pool. (B. Put the dark green sheeting on the bottom of the pool.) C. Put no sheeting on the bottom of the pool; leave it white. Explain why you chose that answer.</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="SE_47b-a1" text="Darker colors absorb more heat than lighter colors. The dark green sheeting is the darkest color available so she should use the green sheeting.">
+      <tokens>
+        <token id="SE_47b_ra1">Darker</token>
+        <token id="SE_47b_ra2">colors</token>
+        <token id="SE_47b_ra3">absorb</token>
+        <token id="SE_47b_ra4">more</token>
+        <token id="SE_47b_ra5">heat</token>
+        <token id="SE_47b_ra6">than</token>
+        <token id="SE_47b_ra7">lighter</token>
+        <token id="SE_47b_ra8">colors</token>
+        <token id="SE_47b_ra9">.</token>
+        <token id="SE_47b_ra10">The</token>
+        <token id="SE_47b_ra11">dark</token>
+        <token id="SE_47b_ra12">green</token>
+        <token id="SE_47b_ra13">sheeting</token>
+        <token id="SE_47b_ra14">is</token>
+        <token id="SE_47b_ra15">the</token>
+        <token id="SE_47b_ra16">darkest</token>
+        <token id="SE_47b_ra17">color</token>
+        <token id="SE_47b_ra18">available</token>
+        <token id="SE_47b_ra19">so</token>
+        <token id="SE_47b_ra20">she</token>
+        <token id="SE_47b_ra21">should</token>
+        <token id="SE_47b_ra22">use</token>
+        <token id="SE_47b_ra23">the</token>
+        <token id="SE_47b_ra24">green</token>
+        <token id="SE_47b_ra25">sheeting</token>
+        <token id="SE_47b_ra26">.</token>
+      </tokens>
+      <facets>
+        <facet id="SE_47b_f1" govNum="SE_47b_ra2" modNum="SE_47b_ra1" reltn="NMod" govText="colors" modText="Darker"/>
+        <facet id="SE_47b_f2" govNum="SE_47b_ra3" modNum="SE_47b_ra2" reltn="Means" govText="absorb" modText="colors"/>
+        <facet id="SE_47b_f3" govNum="SE_47b_ra3" modNum="SE_47b_ra5" reltn="Theme" govText="absorb" modText="heat"/>
+        <facet id="SE_47b_f4" govNum="SE_47b_ra5" modNum="SE_47b_ra4" reltn="NMod" govText="heat" modText="more"/>
+        <facet id="SE_47b_f5" govNum="SE_47b_ra4" modNum="SE_47b_ra8" reltn="AMod_than" govText="more" modText="colors"/>
+        <facet id="SE_47b_f6" govNum="SE_47b_ra8" modNum="SE_47b_ra7" reltn="NMod" govText="colors" modText="lighter"/>
+        <facet id="SE_47b_f7" govNum="SE_47b_ra12" modNum="SE_47b_ra13" reltn="NMod" govText="green" modText="sheeting"/>
+        <facet id="SE_47b_f8" govNum="SE_47b_ra12" modNum="SE_47b_ra11" reltn="AMod" govText="green" isAssumed="true" modText="dark"/>
+        <facet id="SE_47b_f9" govNum="SE_47b_ra12" modNum="SE_47b_ra17" reltn="Be" govText="green" isAssumed="true" modText="color"/>
+        <facet id="SE_47b_f10" govNum="SE_47b_ra17" modNum="SE_47b_ra16" reltn="NMod" govText="color" modText="darkest"/>
+        <facet id="SE_47b_f11" govNum="SE_47b_ra17" modNum="SE_47b_ra18" reltn="NMod" govText="color" isAssumed="true" modText="available"/>
+        <facet id="SE_47b_f12" govNum="SE_47b_ra22" modNum="SE_47b_ra20" reltn="Agent" govText="use" isAssumed="true" modText="she"/>
+        <facet id="SE_47b_f13" govNum="SE_47b_ra22" modNum="SE_47b_ra25" reltn="Theme" govText="use" modText="sheeting"/>
+        <facet id="SE_47b_f14" govNum="SE_47b_ra25" modNum="SE_47b_ra24" reltn="NMod" govText="sheeting" modText="green"/>
+        <facet id="SE_47b_f15" govNum="SE_47b_ra22" modNum="SE_47b_ra14" reltn="Cause_so" childProp2Facet2="SE_47b_f8" childProp1Facet1="SE_47b_f12" govText="use" childProp1Facet2="SE_47b_f13" modText="is" childProp2Facet1="SE_47b_f9"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="SE.47b.117.1" answerText="Why I chose the dark green sheeting was because the darker color absorbs heat." accuracy="correct">
+      <facetEntailment facetID="SE_47b_f1" label="Expressed"/>
+      <facetEntailment facetID="SE_47b_f2" label="Expressed"/>
+      <facetEntailment facetID="SE_47b_f3" label="Expressed"/>
+      <facetEntailment facetID="SE_47b_f4" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f5" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f6" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f7" label="Expressed"/>
+      <facetEntailment facetID="SE_47b_f8" label="Expressed"/>
+      <facetEntailment facetID="SE_47b_f9" label="Assumed"/>
+      <facetEntailment facetID="SE_47b_f10" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f11" label="Assumed"/>
+      <facetEntailment facetID="SE_47b_f12" label="Assumed"/>
+      <facetEntailment facetID="SE_47b_f13" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f14" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f15" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="SE.47b.150.1" answerText="It is darker and it will probably heat faster." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="SE_47b_f1" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f2" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f3" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f4" label="Expressed"/>
+      <facetEntailment facetID="SE_47b_f5" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f6" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="SE_47b_f8" label="Assumed"/>
+      <facetEntailment facetID="SE_47b_f9" label="Assumed"/>
+      <facetEntailment facetID="SE_47b_f10" label="Unaddressed"/>
+      <facetEntailment facetID="SE_47b_f11" label="Assumed"/>
+      <facetEntailment facetID="SE_47b_f12" label="Assumed"/>
+      <facetEntailment facetID="SE_47b_f13" label="Unaddressed"/>
+      <facetEntailment facetID="SE_47b_f14" label="Unaddressed"/>
+      <facetEntailment facetID="SE_47b_f15" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.47b.151.1" answerText="Because dark green is a dark color like black that way dark green absorbs more heat." accuracy="correct">
+      <facetEntailment facetID="SE_47b_f1" label="Expressed"/>
+      <facetEntailment facetID="SE_47b_f2" label="Expressed"/>
+      <facetEntailment facetID="SE_47b_f3" label="Expressed"/>
+      <facetEntailment facetID="SE_47b_f4" label="Expressed"/>
+      <facetEntailment facetID="SE_47b_f5" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f6" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f7" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f8" label="Expressed"/>
+      <facetEntailment facetID="SE_47b_f9" label="Assumed"/>
+      <facetEntailment facetID="SE_47b_f10" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f11" label="Assumed"/>
+      <facetEntailment facetID="SE_47b_f12" label="Assumed"/>
+      <facetEntailment facetID="SE_47b_f13" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f14" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f15" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="SE.47b.157.1" answerText="Because if you put dark green, it will absorb the heat from the sun fast, because it is a dark color." accuracy="correct">
+      <facetEntailment facetID="SE_47b_f1" label="Expressed"/>
+      <facetEntailment facetID="SE_47b_f2" label="Expressed"/>
+      <facetEntailment facetID="SE_47b_f3" label="Expressed"/>
+      <facetEntailment facetID="SE_47b_f4" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f5" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f6" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f7" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f8" label="Expressed"/>
+      <facetEntailment facetID="SE_47b_f9" label="Assumed"/>
+      <facetEntailment facetID="SE_47b_f10" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f11" label="Assumed"/>
+      <facetEntailment facetID="SE_47b_f12" label="Assumed"/>
+      <facetEntailment facetID="SE_47b_f13" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f14" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f15" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="SE.47b.165.1" answerText="She should use the dark green because it will absorb more heat." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="SE_47b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="SE_47b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="SE_47b_f3" label="Expressed"/>
+      <facetEntailment facetID="SE_47b_f4" label="Expressed"/>
+      <facetEntailment facetID="SE_47b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="SE_47b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="SE_47b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="SE_47b_f8" label="Expressed"/>
+      <facetEntailment facetID="SE_47b_f9" label="Assumed"/>
+      <facetEntailment facetID="SE_47b_f10" label="Unaddressed"/>
+      <facetEntailment facetID="SE_47b_f11" label="Assumed"/>
+      <facetEntailment facetID="SE_47b_f12" label="Expressed"/>
+      <facetEntailment facetID="SE_47b_f13" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f14" label="Unaddressed"/>
+      <facetEntailment facetID="SE_47b_f15" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.47b.192.1" answerText="When they put a piece of plastic bag on the bottom it will heat up a little bit." accuracy="irrelevant">
+      <facetEntailment facetID="SE_47b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="SE_47b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="SE_47b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="SE_47b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="SE_47b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="SE_47b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="SE_47b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="SE_47b_f8" label="Assumed"/>
+      <facetEntailment facetID="SE_47b_f9" label="Assumed"/>
+      <facetEntailment facetID="SE_47b_f10" label="Unaddressed"/>
+      <facetEntailment facetID="SE_47b_f11" label="Assumed"/>
+      <facetEntailment facetID="SE_47b_f12" label="Assumed"/>
+      <facetEntailment facetID="SE_47b_f13" label="Unaddressed"/>
+      <facetEntailment facetID="SE_47b_f14" label="Unaddressed"/>
+      <facetEntailment facetID="SE_47b_f15" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.47b.247.1" answerText="The darker the color the faster it would heat up." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="SE_47b_f1" label="Expressed"/>
+      <facetEntailment facetID="SE_47b_f2" label="Expressed"/>
+      <facetEntailment facetID="SE_47b_f3" label="Expressed"/>
+      <facetEntailment facetID="SE_47b_f4" label="Expressed"/>
+      <facetEntailment facetID="SE_47b_f5" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f6" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="SE_47b_f8" label="Assumed"/>
+      <facetEntailment facetID="SE_47b_f9" label="Assumed"/>
+      <facetEntailment facetID="SE_47b_f10" label="Unaddressed"/>
+      <facetEntailment facetID="SE_47b_f11" label="Assumed"/>
+      <facetEntailment facetID="SE_47b_f12" label="Assumed"/>
+      <facetEntailment facetID="SE_47b_f13" label="Unaddressed"/>
+      <facetEntailment facetID="SE_47b_f14" label="Unaddressed"/>
+      <facetEntailment facetID="SE_47b_f15" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.47b.265.1" answerText="Because it is dark green and dark colors heat faster than light colors." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="SE_47b_f1" label="Expressed"/>
+      <facetEntailment facetID="SE_47b_f2" label="Expressed"/>
+      <facetEntailment facetID="SE_47b_f3" label="Expressed"/>
+      <facetEntailment facetID="SE_47b_f4" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f5" label="Expressed"/>
+      <facetEntailment facetID="SE_47b_f6" label="Expressed"/>
+      <facetEntailment facetID="SE_47b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="SE_47b_f8" label="Expressed"/>
+      <facetEntailment facetID="SE_47b_f9" label="Assumed"/>
+      <facetEntailment facetID="SE_47b_f10" label="Unaddressed"/>
+      <facetEntailment facetID="SE_47b_f11" label="Assumed"/>
+      <facetEntailment facetID="SE_47b_f12" label="Assumed"/>
+      <facetEntailment facetID="SE_47b_f13" label="Unaddressed"/>
+      <facetEntailment facetID="SE_47b_f14" label="Unaddressed"/>
+      <facetEntailment facetID="SE_47b_f15" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.47b.331.1" answerText="The green is almost like black and the darker the sheeting is its color attracts the sun and heats up the pool." accuracy="correct">
+      <facetEntailment facetID="SE_47b_f1" label="Expressed"/>
+      <facetEntailment facetID="SE_47b_f2" label="Expressed"/>
+      <facetEntailment facetID="SE_47b_f3" label="Expressed"/>
+      <facetEntailment facetID="SE_47b_f4" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f5" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f6" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f7" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f8" label="Assumed"/>
+      <facetEntailment facetID="SE_47b_f9" label="Assumed"/>
+      <facetEntailment facetID="SE_47b_f10" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f11" label="Assumed"/>
+      <facetEntailment facetID="SE_47b_f12" label="Assumed"/>
+      <facetEntailment facetID="SE_47b_f13" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f14" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f15" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="SE.47b.332.1" answerText="I chose that one because the sun might reflect it back and almost every dark color are the ones who makes it hot." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="SE_47b_f1" label="Expressed"/>
+      <facetEntailment facetID="SE_47b_f2" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f3" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f4" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f5" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f6" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="SE_47b_f8" label="Assumed"/>
+      <facetEntailment facetID="SE_47b_f9" label="Assumed"/>
+      <facetEntailment facetID="SE_47b_f10" label="Unaddressed"/>
+      <facetEntailment facetID="SE_47b_f11" label="Assumed"/>
+      <facetEntailment facetID="SE_47b_f12" label="Assumed"/>
+      <facetEntailment facetID="SE_47b_f13" label="Unaddressed"/>
+      <facetEntailment facetID="SE_47b_f14" label="Unaddressed"/>
+      <facetEntailment facetID="SE_47b_f15" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.47b.335.1" answerText="I pick B because I think it is ok alright." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="SE_47b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="SE_47b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="SE_47b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="SE_47b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="SE_47b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="SE_47b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="SE_47b_f7" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f8" label="Assumed"/>
+      <facetEntailment facetID="SE_47b_f9" label="Assumed"/>
+      <facetEntailment facetID="SE_47b_f10" label="Unaddressed"/>
+      <facetEntailment facetID="SE_47b_f11" label="Assumed"/>
+      <facetEntailment facetID="SE_47b_f12" label="Assumed"/>
+      <facetEntailment facetID="SE_47b_f13" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f14" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f15" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.47b.384.1" answerText="Because the dark green will absorb the heat." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="SE_47b_f1" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f2" label="Expressed"/>
+      <facetEntailment facetID="SE_47b_f3" label="Expressed"/>
+      <facetEntailment facetID="SE_47b_f4" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f5" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f6" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="SE_47b_f8" label="Expressed"/>
+      <facetEntailment facetID="SE_47b_f9" label="Assumed"/>
+      <facetEntailment facetID="SE_47b_f10" label="Unaddressed"/>
+      <facetEntailment facetID="SE_47b_f11" label="Assumed"/>
+      <facetEntailment facetID="SE_47b_f12" label="Assumed"/>
+      <facetEntailment facetID="SE_47b_f13" label="Unaddressed"/>
+      <facetEntailment facetID="SE_47b_f14" label="Unaddressed"/>
+      <facetEntailment facetID="SE_47b_f15" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.47b.386.1" answerText="If she uses dark plastic the water will heat up more quickly." accuracy="correct">
+      <facetEntailment facetID="SE_47b_f1" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f2" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f3" label="Expressed"/>
+      <facetEntailment facetID="SE_47b_f4" label="Expressed"/>
+      <facetEntailment facetID="SE_47b_f5" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f6" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f7" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f8" label="Assumed"/>
+      <facetEntailment facetID="SE_47b_f9" label="Assumed"/>
+      <facetEntailment facetID="SE_47b_f10" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f11" label="Assumed"/>
+      <facetEntailment facetID="SE_47b_f12" label="Expressed"/>
+      <facetEntailment facetID="SE_47b_f13" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f14" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f15" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="SE.47b.388.1" answerText="Because dark green absorbs heat and yellow reflects heat." accuracy="correct">
+      <facetEntailment facetID="SE_47b_f1" label="Expressed"/>
+      <facetEntailment facetID="SE_47b_f2" label="Expressed"/>
+      <facetEntailment facetID="SE_47b_f3" label="Expressed"/>
+      <facetEntailment facetID="SE_47b_f4" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f5" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f6" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f7" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f8" label="Expressed"/>
+      <facetEntailment facetID="SE_47b_f9" label="Assumed"/>
+      <facetEntailment facetID="SE_47b_f10" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f11" label="Assumed"/>
+      <facetEntailment facetID="SE_47b_f12" label="Assumed"/>
+      <facetEntailment facetID="SE_47b_f13" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f14" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f15" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="SE.47b.418.1" answerText="Because the darker plastic will absorb the heat and it will heat the pool faster." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="SE_47b_f1" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f2" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f3" label="Expressed"/>
+      <facetEntailment facetID="SE_47b_f4" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f5" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f6" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="SE_47b_f8" label="Assumed"/>
+      <facetEntailment facetID="SE_47b_f9" label="Assumed"/>
+      <facetEntailment facetID="SE_47b_f10" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f11" label="Assumed"/>
+      <facetEntailment facetID="SE_47b_f12" label="Assumed"/>
+      <facetEntailment facetID="SE_47b_f13" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f14" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f15" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="SE.47b.419.1" answerText="I chose dark green because dark colors attract the sun." accuracy="correct">
+      <facetEntailment facetID="SE_47b_f1" label="Expressed"/>
+      <facetEntailment facetID="SE_47b_f2" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f3" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f4" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f5" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f6" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f7" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f8" label="Expressed"/>
+      <facetEntailment facetID="SE_47b_f9" label="Assumed"/>
+      <facetEntailment facetID="SE_47b_f10" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f11" label="Assumed"/>
+      <facetEntailment facetID="SE_47b_f12" label="Assumed"/>
+      <facetEntailment facetID="SE_47b_f13" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f14" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f15" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="SE.47b.493.1" answerText="Because the color black or dark colors will absorb the heat then transfer it to the water." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="SE_47b_f1" label="Expressed"/>
+      <facetEntailment facetID="SE_47b_f2" label="Expressed"/>
+      <facetEntailment facetID="SE_47b_f3" label="Expressed"/>
+      <facetEntailment facetID="SE_47b_f4" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f5" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f6" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="SE_47b_f8" label="Assumed"/>
+      <facetEntailment facetID="SE_47b_f9" label="Assumed"/>
+      <facetEntailment facetID="SE_47b_f10" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f11" label="Assumed"/>
+      <facetEntailment facetID="SE_47b_f12" label="Assumed"/>
+      <facetEntailment facetID="SE_47b_f13" label="Unaddressed"/>
+      <facetEntailment facetID="SE_47b_f14" label="Unaddressed"/>
+      <facetEntailment facetID="SE_47b_f15" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.47b.494.1" answerText="I chose to put the green plastic because if the color is dark then the sun gets attracted to the dark color which makes it heat up faster." accuracy="correct">
+      <facetEntailment facetID="SE_47b_f1" label="Expressed"/>
+      <facetEntailment facetID="SE_47b_f2" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f3" label="Expressed"/>
+      <facetEntailment facetID="SE_47b_f4" label="Expressed"/>
+      <facetEntailment facetID="SE_47b_f5" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f6" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f7" label="Expressed"/>
+      <facetEntailment facetID="SE_47b_f8" label="Expressed"/>
+      <facetEntailment facetID="SE_47b_f9" label="Assumed"/>
+      <facetEntailment facetID="SE_47b_f10" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f11" label="Assumed"/>
+      <facetEntailment facetID="SE_47b_f12" label="Assumed"/>
+      <facetEntailment facetID="SE_47b_f13" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f14" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f15" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="SE.47b.497.1" answerText="I choose B because if you use a light color the solar energy will reflect off it if you use a dark color it will absorb the solar energy." accuracy="correct">
+      <facetEntailment facetID="SE_47b_f1" label="Expressed"/>
+      <facetEntailment facetID="SE_47b_f2" label="Expressed"/>
+      <facetEntailment facetID="SE_47b_f3" label="Expressed"/>
+      <facetEntailment facetID="SE_47b_f4" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f5" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f6" label="Expressed"/>
+      <facetEntailment facetID="SE_47b_f7" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f8" label="Assumed"/>
+      <facetEntailment facetID="SE_47b_f9" label="Assumed"/>
+      <facetEntailment facetID="SE_47b_f10" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f11" label="Assumed"/>
+      <facetEntailment facetID="SE_47b_f12" label="Assumed"/>
+      <facetEntailment facetID="SE_47b_f13" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f14" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f15" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="SE.47b.499.1" answerText="Darker colors will heat up faster." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="SE_47b_f1" label="Expressed"/>
+      <facetEntailment facetID="SE_47b_f2" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f3" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f4" label="Expressed"/>
+      <facetEntailment facetID="SE_47b_f5" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f6" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="SE_47b_f8" label="Assumed"/>
+      <facetEntailment facetID="SE_47b_f9" label="Assumed"/>
+      <facetEntailment facetID="SE_47b_f10" label="Unaddressed"/>
+      <facetEntailment facetID="SE_47b_f11" label="Assumed"/>
+      <facetEntailment facetID="SE_47b_f12" label="Assumed"/>
+      <facetEntailment facetID="SE_47b_f13" label="Unaddressed"/>
+      <facetEntailment facetID="SE_47b_f14" label="Unaddressed"/>
+      <facetEntailment facetID="SE_47b_f15" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.47b.502.1" answerText="I chose B because dark green is the darkest color and dark colors absorbs the sun's energy." accuracy="correct">
+      <facetEntailment facetID="SE_47b_f1" label="Expressed"/>
+      <facetEntailment facetID="SE_47b_f2" label="Expressed"/>
+      <facetEntailment facetID="SE_47b_f3" label="Expressed"/>
+      <facetEntailment facetID="SE_47b_f4" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f5" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f6" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f7" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f8" label="Expressed"/>
+      <facetEntailment facetID="SE_47b_f9" label="Expressed"/>
+      <facetEntailment facetID="SE_47b_f10" label="Expressed"/>
+      <facetEntailment facetID="SE_47b_f11" label="Assumed"/>
+      <facetEntailment facetID="SE_47b_f12" label="Assumed"/>
+      <facetEntailment facetID="SE_47b_f13" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f14" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f15" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="SE.47b.505.1" answerText="Because dark colors absorb heat and energy." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="SE_47b_f1" label="Expressed"/>
+      <facetEntailment facetID="SE_47b_f2" label="Expressed"/>
+      <facetEntailment facetID="SE_47b_f3" label="Expressed"/>
+      <facetEntailment facetID="SE_47b_f4" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f5" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f6" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="SE_47b_f8" label="Assumed"/>
+      <facetEntailment facetID="SE_47b_f9" label="Assumed"/>
+      <facetEntailment facetID="SE_47b_f10" label="Unaddressed"/>
+      <facetEntailment facetID="SE_47b_f11" label="Assumed"/>
+      <facetEntailment facetID="SE_47b_f12" label="Assumed"/>
+      <facetEntailment facetID="SE_47b_f13" label="Unaddressed"/>
+      <facetEntailment facetID="SE_47b_f14" label="Unaddressed"/>
+      <facetEntailment facetID="SE_47b_f15" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.47b.507.1" answerText="Because dark colors absorb the heat, and light colors do not. They reflect them." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="SE_47b_f1" label="Expressed"/>
+      <facetEntailment facetID="SE_47b_f2" label="Expressed"/>
+      <facetEntailment facetID="SE_47b_f3" label="Expressed"/>
+      <facetEntailment facetID="SE_47b_f4" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f5" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f6" label="Expressed"/>
+      <facetEntailment facetID="SE_47b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="SE_47b_f8" label="Assumed"/>
+      <facetEntailment facetID="SE_47b_f9" label="Assumed"/>
+      <facetEntailment facetID="SE_47b_f10" label="Unaddressed"/>
+      <facetEntailment facetID="SE_47b_f11" label="Assumed"/>
+      <facetEntailment facetID="SE_47b_f12" label="Assumed"/>
+      <facetEntailment facetID="SE_47b_f13" label="Unaddressed"/>
+      <facetEntailment facetID="SE_47b_f14" label="Unaddressed"/>
+      <facetEntailment facetID="SE_47b_f15" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.47b.508.1" answerText="Because yellow is a light color and would reflect the sun's energy." accuracy="contradictory">
+      <facetEntailment facetID="SE_47b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="SE_47b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="SE_47b_f3" label="Contra-Infr"/>
+      <facetEntailment facetID="SE_47b_f4" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f5" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f6" label="Expressed"/>
+      <facetEntailment facetID="SE_47b_f7" label="Contra-Expr"/>
+      <facetEntailment facetID="SE_47b_f8" label="Contra-Expr"/>
+      <facetEntailment facetID="SE_47b_f9" label="Assumed"/>
+      <facetEntailment facetID="SE_47b_f10" label="Unaddressed"/>
+      <facetEntailment facetID="SE_47b_f11" label="Assumed"/>
+      <facetEntailment facetID="SE_47b_f12" label="Assumed"/>
+      <facetEntailment facetID="SE_47b_f13" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f14" label="Contra-Expr"/>
+      <facetEntailment facetID="SE_47b_f15" label="Diff-Arg"/>
+    </studentAnswer>
+    <studentAnswer id="SE.47b.510.1" answerText="I chose that answer because yellow reflects heat and dark stuff keep heat." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="SE_47b_f1" label="Expressed"/>
+      <facetEntailment facetID="SE_47b_f2" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f3" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f4" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f5" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f6" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="SE_47b_f8" label="Assumed"/>
+      <facetEntailment facetID="SE_47b_f9" label="Assumed"/>
+      <facetEntailment facetID="SE_47b_f10" label="Unaddressed"/>
+      <facetEntailment facetID="SE_47b_f11" label="Assumed"/>
+      <facetEntailment facetID="SE_47b_f12" label="Assumed"/>
+      <facetEntailment facetID="SE_47b_f13" label="Unaddressed"/>
+      <facetEntailment facetID="SE_47b_f14" label="Unaddressed"/>
+      <facetEntailment facetID="SE_47b_f15" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.47b.513.1" answerText="Because when you have a dark color it absorbs more of the heat, so that is why Sue should put dark green at the bottom of the pool." accuracy="correct">
+      <facetEntailment facetID="SE_47b_f1" label="Expressed"/>
+      <facetEntailment facetID="SE_47b_f2" label="Expressed"/>
+      <facetEntailment facetID="SE_47b_f3" label="Expressed"/>
+      <facetEntailment facetID="SE_47b_f4" label="Expressed"/>
+      <facetEntailment facetID="SE_47b_f5" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f6" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f7" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f8" label="Expressed"/>
+      <facetEntailment facetID="SE_47b_f9" label="Expressed"/>
+      <facetEntailment facetID="SE_47b_f10" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f11" label="Assumed"/>
+      <facetEntailment facetID="SE_47b_f12" label="Expressed"/>
+      <facetEntailment facetID="SE_47b_f13" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f14" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f15" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="SE.47b.514.1" answerText="The darker the plastic the quicker the water will heat up." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="SE_47b_f1" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f2" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f3" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f4" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f5" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f6" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="SE_47b_f8" label="Assumed"/>
+      <facetEntailment facetID="SE_47b_f9" label="Assumed"/>
+      <facetEntailment facetID="SE_47b_f10" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f11" label="Assumed"/>
+      <facetEntailment facetID="SE_47b_f12" label="Assumed"/>
+      <facetEntailment facetID="SE_47b_f13" label="Unaddressed"/>
+      <facetEntailment facetID="SE_47b_f14" label="Unaddressed"/>
+      <facetEntailment facetID="SE_47b_f15" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.47b.515.1" answerText="Dark green is a darker color than yellow, therefore it will heat hotter and faster." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="SE_47b_f1" label="Expressed"/>
+      <facetEntailment facetID="SE_47b_f2" label="Expressed"/>
+      <facetEntailment facetID="SE_47b_f3" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f4" label="Expressed"/>
+      <facetEntailment facetID="SE_47b_f5" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f6" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="SE_47b_f8" label="Expressed"/>
+      <facetEntailment facetID="SE_47b_f9" label="Assumed"/>
+      <facetEntailment facetID="SE_47b_f10" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f11" label="Assumed"/>
+      <facetEntailment facetID="SE_47b_f12" label="Assumed"/>
+      <facetEntailment facetID="SE_47b_f13" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f14" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f15" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="SE.47b.521.1" answerText="I chose it because dark green is darker than yellow, and because the green absorbs heat and yellow reflects." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="SE_47b_f1" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f2" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f3" label="Expressed"/>
+      <facetEntailment facetID="SE_47b_f4" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f5" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f6" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="SE_47b_f8" label="Expressed"/>
+      <facetEntailment facetID="SE_47b_f9" label="Assumed"/>
+      <facetEntailment facetID="SE_47b_f10" label="Unaddressed"/>
+      <facetEntailment facetID="SE_47b_f11" label="Assumed"/>
+      <facetEntailment facetID="SE_47b_f12" label="Assumed"/>
+      <facetEntailment facetID="SE_47b_f13" label="Unaddressed"/>
+      <facetEntailment facetID="SE_47b_f14" label="Unaddressed"/>
+      <facetEntailment facetID="SE_47b_f15" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.47b.527.1" answerText="A dark color can be reflected by the sun and it could heat up the wading pool's water." accuracy="contradictory">
+      <facetEntailment facetID="SE_47b_f1" label="Expressed"/>
+      <facetEntailment facetID="SE_47b_f2" label="Contra-Infr"/>
+      <facetEntailment facetID="SE_47b_f3" label="Contra-Infr"/>
+      <facetEntailment facetID="SE_47b_f4" label="Expressed"/>
+      <facetEntailment facetID="SE_47b_f5" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f6" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="SE_47b_f8" label="Assumed"/>
+      <facetEntailment facetID="SE_47b_f9" label="Assumed"/>
+      <facetEntailment facetID="SE_47b_f10" label="Unaddressed"/>
+      <facetEntailment facetID="SE_47b_f11" label="Assumed"/>
+      <facetEntailment facetID="SE_47b_f12" label="Assumed"/>
+      <facetEntailment facetID="SE_47b_f13" label="Unaddressed"/>
+      <facetEntailment facetID="SE_47b_f14" label="Unaddressed"/>
+      <facetEntailment facetID="SE_47b_f15" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.47b.530.1" answerText="Because dark color absorbs more sunlight." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="SE_47b_f1" label="Expressed"/>
+      <facetEntailment facetID="SE_47b_f2" label="Expressed"/>
+      <facetEntailment facetID="SE_47b_f3" label="Expressed"/>
+      <facetEntailment facetID="SE_47b_f4" label="Expressed"/>
+      <facetEntailment facetID="SE_47b_f5" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f6" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="SE_47b_f8" label="Assumed"/>
+      <facetEntailment facetID="SE_47b_f9" label="Assumed"/>
+      <facetEntailment facetID="SE_47b_f10" label="Unaddressed"/>
+      <facetEntailment facetID="SE_47b_f11" label="Assumed"/>
+      <facetEntailment facetID="SE_47b_f12" label="Assumed"/>
+      <facetEntailment facetID="SE_47b_f13" label="Unaddressed"/>
+      <facetEntailment facetID="SE_47b_f14" label="Unaddressed"/>
+      <facetEntailment facetID="SE_47b_f15" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.47b.536.1" answerText="Dark green because darker colors heat faster they attract the sun." accuracy="correct">
+      <facetEntailment facetID="SE_47b_f1" label="Expressed"/>
+      <facetEntailment facetID="SE_47b_f2" label="Expressed"/>
+      <facetEntailment facetID="SE_47b_f3" label="Expressed"/>
+      <facetEntailment facetID="SE_47b_f4" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f5" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f6" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f7" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f8" label="Expressed"/>
+      <facetEntailment facetID="SE_47b_f9" label="Assumed"/>
+      <facetEntailment facetID="SE_47b_f10" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f11" label="Assumed"/>
+      <facetEntailment facetID="SE_47b_f12" label="Assumed"/>
+      <facetEntailment facetID="SE_47b_f13" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f14" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f15" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="SE.47b.547.1" answerText="Because it is darker than yellow so it might attract to the sun to make the pool hotter." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="SE_47b_f1" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f2" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f3" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f4" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f5" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f6" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="SE_47b_f8" label="Assumed"/>
+      <facetEntailment facetID="SE_47b_f9" label="Assumed"/>
+      <facetEntailment facetID="SE_47b_f10" label="Unaddressed"/>
+      <facetEntailment facetID="SE_47b_f11" label="Assumed"/>
+      <facetEntailment facetID="SE_47b_f12" label="Assumed"/>
+      <facetEntailment facetID="SE_47b_f13" label="Unaddressed"/>
+      <facetEntailment facetID="SE_47b_f14" label="Unaddressed"/>
+      <facetEntailment facetID="SE_47b_f15" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.47b.558.1" answerText="Because heat is absorbed by dark colors." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="SE_47b_f1" label="Expressed"/>
+      <facetEntailment facetID="SE_47b_f2" label="Expressed"/>
+      <facetEntailment facetID="SE_47b_f3" label="Expressed"/>
+      <facetEntailment facetID="SE_47b_f4" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f5" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f6" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="SE_47b_f8" label="Assumed"/>
+      <facetEntailment facetID="SE_47b_f9" label="Assumed"/>
+      <facetEntailment facetID="SE_47b_f10" label="Unaddressed"/>
+      <facetEntailment facetID="SE_47b_f11" label="Assumed"/>
+      <facetEntailment facetID="SE_47b_f12" label="Assumed"/>
+      <facetEntailment facetID="SE_47b_f13" label="Unaddressed"/>
+      <facetEntailment facetID="SE_47b_f14" label="Unaddressed"/>
+      <facetEntailment facetID="SE_47b_f15" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.47b.572.1" answerText="Because the darker the color the faster it will heat up." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="SE_47b_f1" label="Expressed"/>
+      <facetEntailment facetID="SE_47b_f2" label="Expressed"/>
+      <facetEntailment facetID="SE_47b_f3" label="Expressed"/>
+      <facetEntailment facetID="SE_47b_f4" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f5" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f6" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="SE_47b_f8" label="Assumed"/>
+      <facetEntailment facetID="SE_47b_f9" label="Assumed"/>
+      <facetEntailment facetID="SE_47b_f10" label="Unaddressed"/>
+      <facetEntailment facetID="SE_47b_f11" label="Assumed"/>
+      <facetEntailment facetID="SE_47b_f12" label="Assumed"/>
+      <facetEntailment facetID="SE_47b_f13" label="Unaddressed"/>
+      <facetEntailment facetID="SE_47b_f14" label="Unaddressed"/>
+      <facetEntailment facetID="SE_47b_f15" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.47b.613.1" answerText="Anything that is dark could be just like black." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="SE_47b_f1" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="SE_47b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="SE_47b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="SE_47b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="SE_47b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="SE_47b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="SE_47b_f8" label="Assumed"/>
+      <facetEntailment facetID="SE_47b_f9" label="Assumed"/>
+      <facetEntailment facetID="SE_47b_f10" label="Unaddressed"/>
+      <facetEntailment facetID="SE_47b_f11" label="Assumed"/>
+      <facetEntailment facetID="SE_47b_f12" label="Assumed"/>
+      <facetEntailment facetID="SE_47b_f13" label="Unaddressed"/>
+      <facetEntailment facetID="SE_47b_f14" label="Unaddressed"/>
+      <facetEntailment facetID="SE_47b_f15" label="Unaddressed"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

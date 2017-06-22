@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<question testSet="unseen-answers" id="ST_25b1" module="ST">
+  <questionText>Look at the picture of the bean seedling shortly after germination. Describe the function of each of the parts: seed coat.</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="ST_25b1-a1" text="The seed coat protects the seed until the plant begins to grow.">
+      <tokens>
+        <token id="ST_25b1_ra1">The</token>
+        <token id="ST_25b1_ra2">seed</token>
+        <token id="ST_25b1_ra3">coat</token>
+        <token id="ST_25b1_ra4">protects</token>
+        <token id="ST_25b1_ra5">the</token>
+        <token id="ST_25b1_ra6">seed</token>
+        <token id="ST_25b1_ra7">until</token>
+        <token id="ST_25b1_ra8">the</token>
+        <token id="ST_25b1_ra9">plant</token>
+        <token id="ST_25b1_ra10">begins</token>
+        <token id="ST_25b1_ra11">to</token>
+        <token id="ST_25b1_ra12">grow</token>
+        <token id="ST_25b1_ra13">.</token>
+      </tokens>
+      <facets>
+        <facet id="ST_25b1_f1" govNum="ST_25b1_ra3" modNum="ST_25b1_ra2" reltn="NMod" govText="coat" isAssumed="true" modText="seed"/>
+        <facet id="ST_25b1_f2" govNum="ST_25b1_ra4" modNum="ST_25b1_ra3" reltn="Means" govText="protects" modText="coat"/>
+        <facet id="ST_25b1_f3" govNum="ST_25b1_ra4" modNum="ST_25b1_ra6" reltn="Theme" govText="protects" modText="seed"/>
+        <facet id="ST_25b1_f4" govNum="ST_25b1_ra4" modNum="ST_25b1_ra12" reltn="Time_until" childProp2Facet2="ST_25b1_f6" govText="protects" modText="grow" childProp2Facet1="ST_25b1_f5"/>
+        <facet id="ST_25b1_f5" govNum="ST_25b1_ra12" modNum="ST_25b1_ra9" reltn="Product" govText="grow" modText="plant"/>
+        <facet id="ST_25b1_f6" govNum="ST_25b1_ra12" modNum="ST_25b1_ra10" reltn="VMod_to" govText="grow" modText="begins"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="ST.25b1.426.1" answerText="To protect it." accuracy="correct">
+      <facetEntailment facetID="ST_25b1_f1" label="Assumed"/>
+      <facetEntailment facetID="ST_25b1_f2" label="Inferred"/>
+      <facetEntailment facetID="ST_25b1_f3" label="Diff-Arg"/>
+      <facetEntailment facetID="ST_25b1_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ST_25b1_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ST_25b1_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ST.25b1.456.1" answerText="To protect the seed." accuracy="correct">
+      <facetEntailment facetID="ST_25b1_f1" label="Assumed"/>
+      <facetEntailment facetID="ST_25b1_f2" label="Inferred"/>
+      <facetEntailment facetID="ST_25b1_f3" label="Expressed"/>
+      <facetEntailment facetID="ST_25b1_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ST_25b1_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ST_25b1_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ST.25b1.522.1" answerText="It protects the cotyledon." accuracy="correct">
+      <facetEntailment facetID="ST_25b1_f1" label="Assumed"/>
+      <facetEntailment facetID="ST_25b1_f2" label="Inferred"/>
+      <facetEntailment facetID="ST_25b1_f3" label="Diff-Arg"/>
+      <facetEntailment facetID="ST_25b1_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ST_25b1_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ST_25b1_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ST.25b1.591.1" answerText="To protect the seed." accuracy="correct">
+      <facetEntailment facetID="ST_25b1_f1" label="Assumed"/>
+      <facetEntailment facetID="ST_25b1_f2" label="Inferred"/>
+      <facetEntailment facetID="ST_25b1_f3" label="Expressed"/>
+      <facetEntailment facetID="ST_25b1_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ST_25b1_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ST_25b1_f6" label="Unaddressed"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

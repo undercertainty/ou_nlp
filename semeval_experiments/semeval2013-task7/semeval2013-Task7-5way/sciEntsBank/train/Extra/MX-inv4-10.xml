@@ -1,0 +1,476 @@
+<?xml version="1.0"?>
+<question id="MX_10" module="MX">
+  <questionText>Jorge added solid material to a container of clear colorless liquid. The mixture began to bubble. Explain why Jorge knew a chemical reaction occurred.</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="MX_10-a1" text="Bubbling means a gas has formed. Gas is a new material. A new material indicates a reaction.">
+      <tokens>
+        <token id="MX_10_ra1">Bubbling</token>
+        <token id="MX_10_ra2">means</token>
+        <token id="MX_10_ra3">a</token>
+        <token id="MX_10_ra4">gas</token>
+        <token id="MX_10_ra5">has</token>
+        <token id="MX_10_ra6">formed</token>
+        <token id="MX_10_ra7">.</token>
+        <token id="MX_10_ra8">Gas</token>
+        <token id="MX_10_ra9">is</token>
+        <token id="MX_10_ra10">a</token>
+        <token id="MX_10_ra11">new</token>
+        <token id="MX_10_ra12">material</token>
+        <token id="MX_10_ra13">.</token>
+        <token id="MX_10_ra14">A</token>
+        <token id="MX_10_ra15">new</token>
+        <token id="MX_10_ra16">material</token>
+        <token id="MX_10_ra17">indicates</token>
+        <token id="MX_10_ra18">a</token>
+        <token id="MX_10_ra19">reaction</token>
+        <token id="MX_10_ra20">.</token>
+      </tokens>
+      <facets>
+        <facet id="MX_10_f1" govNum="MX_10_ra2" modNum="MX_10_ra1" reltn="Cause" govText="means" modText="Bubbling"/>
+        <facet id="MX_10_f2" govNum="MX_10_ra2" modNum="MX_10_ra6" reltn="Topic" govText="means" modText="formed" childProp2Facet1="MX_10_f3"/>
+        <facet id="MX_10_f3" govNum="MX_10_ra6" modNum="MX_10_ra4" reltn="Product" govText="formed" modText="gas"/>
+        <facet id="MX_10_f4" govNum="MX_10_ra1" modNum="MX_10_ra6" reltn="Cause_means" childProp1Facet1="MX_10_f1" govText="Bubbling" modText="formed" childProp2Facet1="MX_10_f3"/>
+        <facet id="MX_10_f5" govNum="MX_10_ra8" modNum="MX_10_ra12" reltn="Be" govText="Gas" modText="material"/>
+        <facet id="MX_10_f6" govNum="MX_10_ra12" modNum="MX_10_ra11" reltn="NMod" govText="material" modText="new"/>
+        <facet id="MX_10_f7" govNum="MX_10_ra16" modNum="MX_10_ra15" reltn="NMod" govText="material" modText="new"/>
+        <facet id="MX_10_f8" govNum="MX_10_ra17" modNum="MX_10_ra16" reltn="Means" govText="indicates" modText="material"/>
+        <facet id="MX_10_f9" govNum="MX_10_ra17" modNum="MX_10_ra19" reltn="Topic" govText="indicates" isAssumed="true" modText="reaction"/>
+        <facet id="MX_10_f10" govNum="MX_10_ra16" modNum="MX_10_ra19" reltn="Cause_indicates" govText="material" modText="reaction"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="MX.10.387.1" answerText="Jorge knew a chemical reaction was occurred because it started bubble." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="MX_10_f1" label="Expressed"/>
+      <facetEntailment facetID="MX_10_f2" label="Diff-Arg"/>
+      <facetEntailment facetID="MX_10_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_10_f4" label="Diff-Arg"/>
+      <facetEntailment facetID="MX_10_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MX_10_f6" label="Unaddressed"/>
+      <facetEntailment facetID="MX_10_f7" label="Unaddressed"/>
+      <facetEntailment facetID="MX_10_f8" label="Diff-Arg"/>
+      <facetEntailment facetID="MX_10_f9" label="Expressed"/>
+      <facetEntailment facetID="MX_10_f10" label="Diff-Arg"/>
+    </studentAnswer>
+    <studentAnswer id="MX.10.390.1" answerText="Because the mixture bubbled." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="MX_10_f1" label="Expressed"/>
+      <facetEntailment facetID="MX_10_f2" label="Diff-Arg"/>
+      <facetEntailment facetID="MX_10_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_10_f4" label="Diff-Arg"/>
+      <facetEntailment facetID="MX_10_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MX_10_f6" label="Unaddressed"/>
+      <facetEntailment facetID="MX_10_f7" label="Unaddressed"/>
+      <facetEntailment facetID="MX_10_f8" label="Diff-Arg"/>
+      <facetEntailment facetID="MX_10_f9" label="Assumed"/>
+      <facetEntailment facetID="MX_10_f10" label="Diff-Arg"/>
+    </studentAnswer>
+    <studentAnswer id="MX.10.396.1" answerText="Because gas being formed can be a sign of a chemical reaction." accuracy="correct">
+      <facetEntailment facetID="MX_10_f1" label="Inferred"/>
+      <facetEntailment facetID="MX_10_f2" label="Inferred"/>
+      <facetEntailment facetID="MX_10_f3" label="Expressed"/>
+      <facetEntailment facetID="MX_10_f4" label="Inferred"/>
+      <facetEntailment facetID="MX_10_f5" label="Inferred"/>
+      <facetEntailment facetID="MX_10_f6" label="Inferred"/>
+      <facetEntailment facetID="MX_10_f7" label="Inferred"/>
+      <facetEntailment facetID="MX_10_f8" label="Inferred"/>
+      <facetEntailment facetID="MX_10_f9" label="Expressed"/>
+      <facetEntailment facetID="MX_10_f10" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="MX.10.400.1" answerText="Because he knew the bubbles meant carbon dioxide was being formed." accuracy="correct">
+      <facetEntailment facetID="MX_10_f1" label="Expressed"/>
+      <facetEntailment facetID="MX_10_f2" label="Expressed"/>
+      <facetEntailment facetID="MX_10_f3" label="Expressed"/>
+      <facetEntailment facetID="MX_10_f4" label="Expressed"/>
+      <facetEntailment facetID="MX_10_f5" label="Inferred"/>
+      <facetEntailment facetID="MX_10_f6" label="Inferred"/>
+      <facetEntailment facetID="MX_10_f7" label="Inferred"/>
+      <facetEntailment facetID="MX_10_f8" label="Inferred"/>
+      <facetEntailment facetID="MX_10_f9" label="Assumed"/>
+      <facetEntailment facetID="MX_10_f10" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="MX.10.419.1" answerText="Because the balloon expanded and filled with gas and it bubbled up." accuracy="correct">
+      <facetEntailment facetID="MX_10_f1" label="Expressed"/>
+      <facetEntailment facetID="MX_10_f2" label="Inferred"/>
+      <facetEntailment facetID="MX_10_f3" label="Inferred"/>
+      <facetEntailment facetID="MX_10_f4" label="Inferred"/>
+      <facetEntailment facetID="MX_10_f5" label="Inferred"/>
+      <facetEntailment facetID="MX_10_f6" label="Inferred"/>
+      <facetEntailment facetID="MX_10_f7" label="Inferred"/>
+      <facetEntailment facetID="MX_10_f8" label="Inferred"/>
+      <facetEntailment facetID="MX_10_f9" label="Assumed"/>
+      <facetEntailment facetID="MX_10_f10" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="MX.10.421.1" answerText="Because it started to bubble or to fizz and it is the proof of gas." accuracy="correct">
+      <facetEntailment facetID="MX_10_f1" label="Expressed"/>
+      <facetEntailment facetID="MX_10_f2" label="Inferred"/>
+      <facetEntailment facetID="MX_10_f3" label="Inferred"/>
+      <facetEntailment facetID="MX_10_f4" label="Expressed"/>
+      <facetEntailment facetID="MX_10_f5" label="Inferred"/>
+      <facetEntailment facetID="MX_10_f6" label="Inferred"/>
+      <facetEntailment facetID="MX_10_f7" label="Inferred"/>
+      <facetEntailment facetID="MX_10_f8" label="Inferred"/>
+      <facetEntailment facetID="MX_10_f9" label="Assumed"/>
+      <facetEntailment facetID="MX_10_f10" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="MX.10.423.1" answerText="Because when it bubbles that means a reaction is taking place." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="MX_10_f1" label="Expressed"/>
+      <facetEntailment facetID="MX_10_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MX_10_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_10_f4" label="Diff-Arg"/>
+      <facetEntailment facetID="MX_10_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MX_10_f6" label="Unaddressed"/>
+      <facetEntailment facetID="MX_10_f7" label="Unaddressed"/>
+      <facetEntailment facetID="MX_10_f8" label="Diff-Arg"/>
+      <facetEntailment facetID="MX_10_f9" label="Expressed"/>
+      <facetEntailment facetID="MX_10_f10" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.10.425.1" answerText="Because bubbling is a sign of a chemical reaction." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="MX_10_f1" label="Expressed"/>
+      <facetEntailment facetID="MX_10_f2" label="Diff-Arg"/>
+      <facetEntailment facetID="MX_10_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_10_f4" label="Diff-Arg"/>
+      <facetEntailment facetID="MX_10_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MX_10_f6" label="Unaddressed"/>
+      <facetEntailment facetID="MX_10_f7" label="Unaddressed"/>
+      <facetEntailment facetID="MX_10_f8" label="Diff-Arg"/>
+      <facetEntailment facetID="MX_10_f9" label="Expressed"/>
+      <facetEntailment facetID="MX_10_f10" label="Diff-Arg"/>
+    </studentAnswer>
+    <studentAnswer id="MX.10.429.1" answerText="Because it bubbled." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="MX_10_f1" label="Expressed"/>
+      <facetEntailment facetID="MX_10_f2" label="Diff-Arg"/>
+      <facetEntailment facetID="MX_10_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_10_f4" label="Diff-Arg"/>
+      <facetEntailment facetID="MX_10_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MX_10_f6" label="Unaddressed"/>
+      <facetEntailment facetID="MX_10_f7" label="Unaddressed"/>
+      <facetEntailment facetID="MX_10_f8" label="Diff-Arg"/>
+      <facetEntailment facetID="MX_10_f9" label="Assumed"/>
+      <facetEntailment facetID="MX_10_f10" label="Diff-Arg"/>
+    </studentAnswer>
+    <studentAnswer id="MX.10.434.1" answerText="Because the solution began to bubble." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="MX_10_f1" label="Expressed"/>
+      <facetEntailment facetID="MX_10_f2" label="Diff-Arg"/>
+      <facetEntailment facetID="MX_10_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_10_f4" label="Diff-Arg"/>
+      <facetEntailment facetID="MX_10_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MX_10_f6" label="Unaddressed"/>
+      <facetEntailment facetID="MX_10_f7" label="Unaddressed"/>
+      <facetEntailment facetID="MX_10_f8" label="Diff-Arg"/>
+      <facetEntailment facetID="MX_10_f9" label="Assumed"/>
+      <facetEntailment facetID="MX_10_f10" label="Diff-Arg"/>
+    </studentAnswer>
+    <studentAnswer id="MX.10.435.1" answerText="Because whenever it fizzes or bubbles that means it is a reaction." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="MX_10_f1" label="Expressed"/>
+      <facetEntailment facetID="MX_10_f2" label="Diff-Arg"/>
+      <facetEntailment facetID="MX_10_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_10_f4" label="Diff-Arg"/>
+      <facetEntailment facetID="MX_10_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MX_10_f6" label="Unaddressed"/>
+      <facetEntailment facetID="MX_10_f7" label="Unaddressed"/>
+      <facetEntailment facetID="MX_10_f8" label="Diff-Arg"/>
+      <facetEntailment facetID="MX_10_f9" label="Expressed"/>
+      <facetEntailment facetID="MX_10_f10" label="Diff-Arg"/>
+    </studentAnswer>
+    <studentAnswer id="MX.10.436.1" answerText="Because the bubbles appear it makes a gas." accuracy="correct">
+      <facetEntailment facetID="MX_10_f1" label="Expressed"/>
+      <facetEntailment facetID="MX_10_f2" label="Expressed"/>
+      <facetEntailment facetID="MX_10_f3" label="Expressed"/>
+      <facetEntailment facetID="MX_10_f4" label="Expressed"/>
+      <facetEntailment facetID="MX_10_f5" label="Inferred"/>
+      <facetEntailment facetID="MX_10_f6" label="Inferred"/>
+      <facetEntailment facetID="MX_10_f7" label="Inferred"/>
+      <facetEntailment facetID="MX_10_f8" label="Inferred"/>
+      <facetEntailment facetID="MX_10_f9" label="Assumed"/>
+      <facetEntailment facetID="MX_10_f10" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="MX.10.453.1" answerText="He knew because there are bubbles in the container." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="MX_10_f1" label="Expressed"/>
+      <facetEntailment facetID="MX_10_f2" label="Diff-Arg"/>
+      <facetEntailment facetID="MX_10_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_10_f4" label="Diff-Arg"/>
+      <facetEntailment facetID="MX_10_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MX_10_f6" label="Unaddressed"/>
+      <facetEntailment facetID="MX_10_f7" label="Unaddressed"/>
+      <facetEntailment facetID="MX_10_f8" label="Diff-Arg"/>
+      <facetEntailment facetID="MX_10_f9" label="Assumed"/>
+      <facetEntailment facetID="MX_10_f10" label="Diff-Arg"/>
+    </studentAnswer>
+    <studentAnswer id="MX.10.458.1" answerText="Bubble." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="MX_10_f1" label="Inferred"/>
+      <facetEntailment facetID="MX_10_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MX_10_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_10_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MX_10_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MX_10_f6" label="Unaddressed"/>
+      <facetEntailment facetID="MX_10_f7" label="Unaddressed"/>
+      <facetEntailment facetID="MX_10_f8" label="Unaddressed"/>
+      <facetEntailment facetID="MX_10_f9" label="Assumed"/>
+      <facetEntailment facetID="MX_10_f10" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.10.462.1" answerText="Because gas bubbles appeared." accuracy="correct">
+      <facetEntailment facetID="MX_10_f1" label="Inferred"/>
+      <facetEntailment facetID="MX_10_f2" label="Inferred"/>
+      <facetEntailment facetID="MX_10_f3" label="Inferred"/>
+      <facetEntailment facetID="MX_10_f4" label="Expressed"/>
+      <facetEntailment facetID="MX_10_f5" label="Inferred"/>
+      <facetEntailment facetID="MX_10_f6" label="Inferred"/>
+      <facetEntailment facetID="MX_10_f7" label="Inferred"/>
+      <facetEntailment facetID="MX_10_f8" label="Inferred"/>
+      <facetEntailment facetID="MX_10_f9" label="Assumed"/>
+      <facetEntailment facetID="MX_10_f10" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="MX.10.463.1" answerText="He knew because first he put a material in the water and started to bubble and that made gas so that is a clue of a chemical reaction." accuracy="correct">
+      <facetEntailment facetID="MX_10_f1" label="Expressed"/>
+      <facetEntailment facetID="MX_10_f2" label="Expressed"/>
+      <facetEntailment facetID="MX_10_f3" label="Expressed"/>
+      <facetEntailment facetID="MX_10_f4" label="Expressed"/>
+      <facetEntailment facetID="MX_10_f5" label="Inferred"/>
+      <facetEntailment facetID="MX_10_f6" label="Inferred"/>
+      <facetEntailment facetID="MX_10_f7" label="Inferred"/>
+      <facetEntailment facetID="MX_10_f8" label="Inferred"/>
+      <facetEntailment facetID="MX_10_f9" label="Expressed"/>
+      <facetEntailment facetID="MX_10_f10" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="MX.10.466.1" answerText="Because there were gas bubbles." accuracy="correct">
+      <facetEntailment facetID="MX_10_f1" label="Inferred"/>
+      <facetEntailment facetID="MX_10_f2" label="Inferred"/>
+      <facetEntailment facetID="MX_10_f3" label="Inferred"/>
+      <facetEntailment facetID="MX_10_f4" label="Expressed"/>
+      <facetEntailment facetID="MX_10_f5" label="Inferred"/>
+      <facetEntailment facetID="MX_10_f6" label="Inferred"/>
+      <facetEntailment facetID="MX_10_f7" label="Inferred"/>
+      <facetEntailment facetID="MX_10_f8" label="Inferred"/>
+      <facetEntailment facetID="MX_10_f9" label="Assumed"/>
+      <facetEntailment facetID="MX_10_f10" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="MX.10.468.1" answerText="Because he saw it bubble up that is why he knew it was a chemical reaction." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="MX_10_f1" label="Expressed"/>
+      <facetEntailment facetID="MX_10_f2" label="Diff-Arg"/>
+      <facetEntailment facetID="MX_10_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_10_f4" label="Diff-Arg"/>
+      <facetEntailment facetID="MX_10_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MX_10_f6" label="Unaddressed"/>
+      <facetEntailment facetID="MX_10_f7" label="Unaddressed"/>
+      <facetEntailment facetID="MX_10_f8" label="Diff-Arg"/>
+      <facetEntailment facetID="MX_10_f9" label="Expressed"/>
+      <facetEntailment facetID="MX_10_f10" label="Diff-Arg"/>
+    </studentAnswer>
+    <studentAnswer id="MX.10.492.1" answerText="When he put the solid in the liquid it start to bubbles." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="MX_10_f1" label="Inferred"/>
+      <facetEntailment facetID="MX_10_f2" label="Inferred"/>
+      <facetEntailment facetID="MX_10_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_10_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MX_10_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MX_10_f6" label="Unaddressed"/>
+      <facetEntailment facetID="MX_10_f7" label="Unaddressed"/>
+      <facetEntailment facetID="MX_10_f8" label="Unaddressed"/>
+      <facetEntailment facetID="MX_10_f9" label="Assumed"/>
+      <facetEntailment facetID="MX_10_f10" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.10.493.1" answerText="Because it bubbled and fizz." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="MX_10_f1" label="Expressed"/>
+      <facetEntailment facetID="MX_10_f2" label="Diff-Arg"/>
+      <facetEntailment facetID="MX_10_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_10_f4" label="Diff-Arg"/>
+      <facetEntailment facetID="MX_10_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MX_10_f6" label="Unaddressed"/>
+      <facetEntailment facetID="MX_10_f7" label="Unaddressed"/>
+      <facetEntailment facetID="MX_10_f8" label="Diff-Arg"/>
+      <facetEntailment facetID="MX_10_f9" label="Assumed"/>
+      <facetEntailment facetID="MX_10_f10" label="Diff-Arg"/>
+    </studentAnswer>
+    <studentAnswer id="MX.10.498.1" answerText="Because it bubbled and when something bubbled it means a reaction occurred." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="MX_10_f1" label="Expressed"/>
+      <facetEntailment facetID="MX_10_f2" label="Diff-Arg"/>
+      <facetEntailment facetID="MX_10_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_10_f4" label="Diff-Arg"/>
+      <facetEntailment facetID="MX_10_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MX_10_f6" label="Unaddressed"/>
+      <facetEntailment facetID="MX_10_f7" label="Unaddressed"/>
+      <facetEntailment facetID="MX_10_f8" label="Diff-Arg"/>
+      <facetEntailment facetID="MX_10_f9" label="Expressed"/>
+      <facetEntailment facetID="MX_10_f10" label="Diff-Arg"/>
+    </studentAnswer>
+    <studentAnswer id="MX.10.502.1" answerText="Because the solution bubbled." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="MX_10_f1" label="Expressed"/>
+      <facetEntailment facetID="MX_10_f2" label="Diff-Arg"/>
+      <facetEntailment facetID="MX_10_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_10_f4" label="Diff-Arg"/>
+      <facetEntailment facetID="MX_10_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MX_10_f6" label="Unaddressed"/>
+      <facetEntailment facetID="MX_10_f7" label="Unaddressed"/>
+      <facetEntailment facetID="MX_10_f8" label="Diff-Arg"/>
+      <facetEntailment facetID="MX_10_f9" label="Assumed"/>
+      <facetEntailment facetID="MX_10_f10" label="Diff-Arg"/>
+    </studentAnswer>
+    <studentAnswer id="MX.10.532.1" answerText="I think it is because it started to bubble and because it would not do that if it was not a reaction." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="MX_10_f1" label="Expressed"/>
+      <facetEntailment facetID="MX_10_f2" label="Diff-Arg"/>
+      <facetEntailment facetID="MX_10_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_10_f4" label="Diff-Arg"/>
+      <facetEntailment facetID="MX_10_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MX_10_f6" label="Unaddressed"/>
+      <facetEntailment facetID="MX_10_f7" label="Unaddressed"/>
+      <facetEntailment facetID="MX_10_f8" label="Diff-Arg"/>
+      <facetEntailment facetID="MX_10_f9" label="Expressed"/>
+      <facetEntailment facetID="MX_10_f10" label="Diff-Arg"/>
+    </studentAnswer>
+    <studentAnswer id="MX.10.541.1" answerText="He knew because it bubbled." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="MX_10_f1" label="Expressed"/>
+      <facetEntailment facetID="MX_10_f2" label="Diff-Arg"/>
+      <facetEntailment facetID="MX_10_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_10_f4" label="Diff-Arg"/>
+      <facetEntailment facetID="MX_10_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MX_10_f6" label="Unaddressed"/>
+      <facetEntailment facetID="MX_10_f7" label="Unaddressed"/>
+      <facetEntailment facetID="MX_10_f8" label="Diff-Arg"/>
+      <facetEntailment facetID="MX_10_f9" label="Assumed"/>
+      <facetEntailment facetID="MX_10_f10" label="Diff-Arg"/>
+    </studentAnswer>
+    <studentAnswer id="MX.10.543.1" answerText="Jorge knew a chemical reaction occurred, because the mixture began to bubble." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="MX_10_f1" label="Expressed"/>
+      <facetEntailment facetID="MX_10_f2" label="Diff-Arg"/>
+      <facetEntailment facetID="MX_10_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_10_f4" label="Diff-Arg"/>
+      <facetEntailment facetID="MX_10_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MX_10_f6" label="Unaddressed"/>
+      <facetEntailment facetID="MX_10_f7" label="Unaddressed"/>
+      <facetEntailment facetID="MX_10_f8" label="Diff-Arg"/>
+      <facetEntailment facetID="MX_10_f9" label="Expressed"/>
+      <facetEntailment facetID="MX_10_f10" label="Diff-Arg"/>
+    </studentAnswer>
+    <studentAnswer id="MX.10.568.1" answerText="He knew because a change occurred and it made a gas." accuracy="correct">
+      <facetEntailment facetID="MX_10_f1" label="Inferred"/>
+      <facetEntailment facetID="MX_10_f2" label="Expressed"/>
+      <facetEntailment facetID="MX_10_f3" label="Expressed"/>
+      <facetEntailment facetID="MX_10_f4" label="Inferred"/>
+      <facetEntailment facetID="MX_10_f5" label="Inferred"/>
+      <facetEntailment facetID="MX_10_f6" label="Inferred"/>
+      <facetEntailment facetID="MX_10_f7" label="Inferred"/>
+      <facetEntailment facetID="MX_10_f8" label="Inferred"/>
+      <facetEntailment facetID="MX_10_f9" label="Assumed"/>
+      <facetEntailment facetID="MX_10_f10" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="MX.10.575.1" answerText="He knew because when bubbles pop a gas is released into the air." accuracy="correct">
+      <facetEntailment facetID="MX_10_f1" label="Expressed"/>
+      <facetEntailment facetID="MX_10_f2" label="Inferred"/>
+      <facetEntailment facetID="MX_10_f3" label="Inferred"/>
+      <facetEntailment facetID="MX_10_f4" label="Inferred"/>
+      <facetEntailment facetID="MX_10_f5" label="Inferred"/>
+      <facetEntailment facetID="MX_10_f6" label="Inferred"/>
+      <facetEntailment facetID="MX_10_f7" label="Inferred"/>
+      <facetEntailment facetID="MX_10_f8" label="Inferred"/>
+      <facetEntailment facetID="MX_10_f9" label="Assumed"/>
+      <facetEntailment facetID="MX_10_f10" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="MX.10.576.1" answerText="Because it was making gas, it was fizzing, it made some precipitant." accuracy="correct">
+      <facetEntailment facetID="MX_10_f1" label="Inferred"/>
+      <facetEntailment facetID="MX_10_f2" label="Inferred"/>
+      <facetEntailment facetID="MX_10_f3" label="Expressed"/>
+      <facetEntailment facetID="MX_10_f4" label="Inferred"/>
+      <facetEntailment facetID="MX_10_f5" label="Inferred"/>
+      <facetEntailment facetID="MX_10_f6" label="Inferred"/>
+      <facetEntailment facetID="MX_10_f7" label="Expressed"/>
+      <facetEntailment facetID="MX_10_f8" label="Inferred"/>
+      <facetEntailment facetID="MX_10_f9" label="Assumed"/>
+      <facetEntailment facetID="MX_10_f10" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="MX.10.597.1" answerText="Because the solution started to bubble." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="MX_10_f1" label="Expressed"/>
+      <facetEntailment facetID="MX_10_f2" label="Diff-Arg"/>
+      <facetEntailment facetID="MX_10_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_10_f4" label="Diff-Arg"/>
+      <facetEntailment facetID="MX_10_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MX_10_f6" label="Unaddressed"/>
+      <facetEntailment facetID="MX_10_f7" label="Unaddressed"/>
+      <facetEntailment facetID="MX_10_f8" label="Diff-Arg"/>
+      <facetEntailment facetID="MX_10_f9" label="Assumed"/>
+      <facetEntailment facetID="MX_10_f10" label="Diff-Arg"/>
+    </studentAnswer>
+    <studentAnswer id="MX.10.604.1" answerText="Because the container started to bubble up." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="MX_10_f1" label="Inferred"/>
+      <facetEntailment facetID="MX_10_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MX_10_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_10_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MX_10_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MX_10_f6" label="Unaddressed"/>
+      <facetEntailment facetID="MX_10_f7" label="Unaddressed"/>
+      <facetEntailment facetID="MX_10_f8" label="Diff-Arg"/>
+      <facetEntailment facetID="MX_10_f9" label="Assumed"/>
+      <facetEntailment facetID="MX_10_f10" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.10.605.1" answerText="Because he saw it fizz and bubble up." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="MX_10_f1" label="Inferred"/>
+      <facetEntailment facetID="MX_10_f2" label="Diff-Arg"/>
+      <facetEntailment facetID="MX_10_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_10_f4" label="Diff-Arg"/>
+      <facetEntailment facetID="MX_10_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MX_10_f6" label="Unaddressed"/>
+      <facetEntailment facetID="MX_10_f7" label="Unaddressed"/>
+      <facetEntailment facetID="MX_10_f8" label="Diff-Arg"/>
+      <facetEntailment facetID="MX_10_f9" label="Assumed"/>
+      <facetEntailment facetID="MX_10_f10" label="Diff-Arg"/>
+    </studentAnswer>
+    <studentAnswer id="MX.10.611.1" answerText="Because bubble appeared when he add the solid material." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="MX_10_f1" label="Expressed"/>
+      <facetEntailment facetID="MX_10_f2" label="Diff-Arg"/>
+      <facetEntailment facetID="MX_10_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_10_f4" label="Diff-Arg"/>
+      <facetEntailment facetID="MX_10_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MX_10_f6" label="Unaddressed"/>
+      <facetEntailment facetID="MX_10_f7" label="Unaddressed"/>
+      <facetEntailment facetID="MX_10_f8" label="Diff-Arg"/>
+      <facetEntailment facetID="MX_10_f9" label="Assumed"/>
+      <facetEntailment facetID="MX_10_f10" label="Diff-Arg"/>
+    </studentAnswer>
+    <studentAnswer id="MX.10.612.1" answerText="Because it bubbled and if it bubbles then it is a reaction." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="MX_10_f1" label="Expressed"/>
+      <facetEntailment facetID="MX_10_f2" label="Diff-Arg"/>
+      <facetEntailment facetID="MX_10_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_10_f4" label="Diff-Arg"/>
+      <facetEntailment facetID="MX_10_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MX_10_f6" label="Unaddressed"/>
+      <facetEntailment facetID="MX_10_f7" label="Unaddressed"/>
+      <facetEntailment facetID="MX_10_f8" label="Diff-Arg"/>
+      <facetEntailment facetID="MX_10_f9" label="Expressed"/>
+      <facetEntailment facetID="MX_10_f10" label="Diff-Arg"/>
+    </studentAnswer>
+    <studentAnswer id="MX.10.633.1" answerText="A chemical reaction is when something happens if you add a material and a liquid together and something happens it is a chemical reaction." accuracy="irrelevant">
+      <facetEntailment facetID="MX_10_f1" label="Unaddressed"/>
+      <facetEntailment facetID="MX_10_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MX_10_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_10_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MX_10_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MX_10_f6" label="Unaddressed"/>
+      <facetEntailment facetID="MX_10_f7" label="Unaddressed"/>
+      <facetEntailment facetID="MX_10_f8" label="Unaddressed"/>
+      <facetEntailment facetID="MX_10_f9" label="Expressed"/>
+      <facetEntailment facetID="MX_10_f10" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.10.638.1" answerText="Because it started to bubble and have a gas." accuracy="correct">
+      <facetEntailment facetID="MX_10_f1" label="Inferred"/>
+      <facetEntailment facetID="MX_10_f2" label="Inferred"/>
+      <facetEntailment facetID="MX_10_f3" label="Inferred"/>
+      <facetEntailment facetID="MX_10_f4" label="Inferred"/>
+      <facetEntailment facetID="MX_10_f5" label="Inferred"/>
+      <facetEntailment facetID="MX_10_f6" label="Inferred"/>
+      <facetEntailment facetID="MX_10_f7" label="Inferred"/>
+      <facetEntailment facetID="MX_10_f8" label="Inferred"/>
+      <facetEntailment facetID="MX_10_f9" label="Expressed"/>
+      <facetEntailment facetID="MX_10_f10" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="MX.10.644.1" answerText="Because his experiment took action right away with no waiting." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="MX_10_f1" label="Inferred"/>
+      <facetEntailment facetID="MX_10_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MX_10_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_10_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MX_10_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MX_10_f6" label="Unaddressed"/>
+      <facetEntailment facetID="MX_10_f7" label="Unaddressed"/>
+      <facetEntailment facetID="MX_10_f8" label="Unaddressed"/>
+      <facetEntailment facetID="MX_10_f9" label="Assumed"/>
+      <facetEntailment facetID="MX_10_f10" label="Unaddressed"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

@@ -1,0 +1,125 @@
+<?xml version="1.0"?>
+<question testSet="unseen-answers" id="LF_33b" module="LF">
+  <questionText>Below is a drawing of a river that carried sand, clay, and pebbles (past the river's mouth) to a lake. Why is the clay deposited where you indicated?</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="LF_33b-a1" text="The clay particles are lighter or smaller and are therefore carried farther by the water, so the clay particles end up the greatest distance away from the mouth of the river.">
+      <tokens>
+        <token id="LF_33b_ra1">The</token>
+        <token id="LF_33b_ra2">clay</token>
+        <token id="LF_33b_ra3">particles</token>
+        <token id="LF_33b_ra4">are</token>
+        <token id="LF_33b_ra5">lighter</token>
+        <token id="LF_33b_ra6">or</token>
+        <token id="LF_33b_ra7">smaller</token>
+        <token id="LF_33b_ra8">and</token>
+        <token id="LF_33b_ra9">are</token>
+        <token id="LF_33b_ra10">therefore</token>
+        <token id="LF_33b_ra11">carried</token>
+        <token id="LF_33b_ra12">farther</token>
+        <token id="LF_33b_ra13">by</token>
+        <token id="LF_33b_ra14">the</token>
+        <token id="LF_33b_ra15">water</token>
+        <token id="LF_33b_ra16">,</token>
+        <token id="LF_33b_ra17">so</token>
+        <token id="LF_33b_ra18">the</token>
+        <token id="LF_33b_ra19">clay</token>
+        <token id="LF_33b_ra20">particles</token>
+        <token id="LF_33b_ra21">end</token>
+        <token id="LF_33b_ra22">up</token>
+        <token id="LF_33b_ra23">the</token>
+        <token id="LF_33b_ra24">greatest</token>
+        <token id="LF_33b_ra25">distance</token>
+        <token id="LF_33b_ra26">away</token>
+        <token id="LF_33b_ra27">from</token>
+        <token id="LF_33b_ra28">the</token>
+        <token id="LF_33b_ra29">mouth</token>
+        <token id="LF_33b_ra30">of</token>
+        <token id="LF_33b_ra31">the</token>
+        <token id="LF_33b_ra32">river</token>
+        <token id="LF_33b_ra33">.</token>
+      </tokens>
+      <facets>
+        <facet id="LF_33b_f1" govNum="LF_33b_ra3" modNum="LF_33b_ra2" reltn="NMod" govText="particles" isAssumed="true" modText="clay"/>
+        <facet id="LF_33b_f2" govNum="LF_33b_ra3" modNum="LF_33b_ra5" reltn="Be" govText="particles" modText="lighter"/>
+        <facet id="LF_33b_f3" govNum="LF_33b_ra3" modNum="LF_33b_ra7" reltn="Be" govText="particles" modText="smaller"/>
+        <facet id="LF_33b_f4" govNum="LF_33b_ra11" modNum="LF_33b_ra15" reltn="Means_by" govText="carried" isAssumed="true" modText="water"/>
+        <facet id="LF_33b_f5" govNum="LF_33b_ra11" modNum="LF_33b_ra3" reltn="Theme" govText="carried" isAssumed="true" modText="particles"/>
+        <facet id="LF_33b_f6" govNum="LF_33b_ra11" modNum="LF_33b_ra12" reltn="Extent" govText="carried" modText="farther"/>
+        <facet id="LF_33b_f7" govNum="LF_33b_ra11" modNum="LF_33b_ra4" reltn="Cause_therefore" childProp2Facet2="LF_33b_f3" childProp1Facet1="LF_33b_f5" govText="carried" childProp1Facet2="LF_33b_f4" modText="are" childProp2Facet1="LF_33b_f2"/>
+        <facet id="LF_33b_f8" govNum="LF_33b_ra20" modNum="LF_33b_ra19" reltn="NMod" govText="particles" isAssumed="true" modText="clay"/>
+        <facet id="LF_33b_f9" govNum="LF_33b_ra21" modNum="LF_33b_ra20" reltn="Theme" govText="end up" isAssumed="true" modText="particles"/>
+        <facet id="LF_33b_f10" govNum="LF_33b_ra21" modNum="LF_33b_ra25" reltn="Destination" govText="end up" isAssumed="true" modText="distance"/>
+        <facet id="LF_33b_f11" govNum="LF_33b_ra25" modNum="LF_33b_ra24" reltn="NMod" govText="distance" modText="greatest"/>
+        <facet id="LF_33b_f12" govNum="LF_33b_ra25" modNum="LF_33b_ra29" reltn="Location_away_from" govText="distance" isAssumed="true" modText="mouth"/>
+        <facet id="LF_33b_f13" govNum="LF_33b_ra29" modNum="LF_33b_ra32" reltn="NMod_of" govText="mouth" isAssumed="true" modText="river"/>
+        <facet id="LF_33b_f14" govNum="LF_33b_ra21" modNum="LF_33b_ra11" reltn="Cause_so" childProp2Facet2="LF_33b_f4" childProp1Facet1="LF_33b_f9" govText="end up" isAssumed="true" childProp1Facet2="LF_33b_f10" modText="carried" childProp2Facet1="LF_33b_f5"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="LF.33b.278.1" answerText="Because it is much lighter than sand and pebbles, so it can travel farther." accuracy="correct">
+      <facetEntailment facetID="LF_33b_f1" label="Assumed"/>
+      <facetEntailment facetID="LF_33b_f2" label="Expressed"/>
+      <facetEntailment facetID="LF_33b_f3" label="Inferred"/>
+      <facetEntailment facetID="LF_33b_f4" label="Assumed"/>
+      <facetEntailment facetID="LF_33b_f5" label="Assumed"/>
+      <facetEntailment facetID="LF_33b_f6" label="Expressed"/>
+      <facetEntailment facetID="LF_33b_f7" label="Expressed"/>
+      <facetEntailment facetID="LF_33b_f8" label="Assumed"/>
+      <facetEntailment facetID="LF_33b_f9" label="Assumed"/>
+      <facetEntailment facetID="LF_33b_f10" label="Assumed"/>
+      <facetEntailment facetID="LF_33b_f11" label="Inferred"/>
+      <facetEntailment facetID="LF_33b_f12" label="Assumed"/>
+      <facetEntailment facetID="LF_33b_f13" label="Assumed"/>
+      <facetEntailment facetID="LF_33b_f14" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="LF.33b.670.1" answerText="The clay is deposited in the lake because it is lightest and is like a basin." accuracy="correct">
+      <facetEntailment facetID="LF_33b_f1" label="Expressed"/>
+      <facetEntailment facetID="LF_33b_f2" label="Expressed"/>
+      <facetEntailment facetID="LF_33b_f3" label="Inferred"/>
+      <facetEntailment facetID="LF_33b_f4" label="Assumed"/>
+      <facetEntailment facetID="LF_33b_f5" label="Assumed"/>
+      <facetEntailment facetID="LF_33b_f6" label="Inferred"/>
+      <facetEntailment facetID="LF_33b_f7" label="Inferred"/>
+      <facetEntailment facetID="LF_33b_f8" label="Expressed"/>
+      <facetEntailment facetID="LF_33b_f9" label="Assumed"/>
+      <facetEntailment facetID="LF_33b_f10" label="Assumed"/>
+      <facetEntailment facetID="LF_33b_f11" label="Inferred"/>
+      <facetEntailment facetID="LF_33b_f12" label="Assumed"/>
+      <facetEntailment facetID="LF_33b_f13" label="Assumed"/>
+      <facetEntailment facetID="LF_33b_f14" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="LF.33b.732.1" answerText="It is deposited where I indicated because the clay is the second heaviest so the river could not move it as far as the sand easily." accuracy="contradictory">
+      <facetEntailment facetID="LF_33b_f1" label="Expressed"/>
+      <facetEntailment facetID="LF_33b_f2" label="Contra-Expr"/>
+      <facetEntailment facetID="LF_33b_f3" label="Contra-Infr"/>
+      <facetEntailment facetID="LF_33b_f4" label="Expressed"/>
+      <facetEntailment facetID="LF_33b_f5" label="Expressed"/>
+      <facetEntailment facetID="LF_33b_f6" label="Contra-Expr"/>
+      <facetEntailment facetID="LF_33b_f7" label="Expressed"/>
+      <facetEntailment facetID="LF_33b_f8" label="Expressed"/>
+      <facetEntailment facetID="LF_33b_f9" label="Expressed"/>
+      <facetEntailment facetID="LF_33b_f10" label="Expressed"/>
+      <facetEntailment facetID="LF_33b_f11" label="Contra-Expr"/>
+      <facetEntailment facetID="LF_33b_f12" label="Assumed"/>
+      <facetEntailment facetID="LF_33b_f13" label="Assumed"/>
+      <facetEntailment facetID="LF_33b_f14" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="LF.33b.855.1" answerText="The clay is the farthest from the mouth of the river because it is the lightest and smallest." accuracy="correct">
+      <facetEntailment facetID="LF_33b_f1" label="Expressed"/>
+      <facetEntailment facetID="LF_33b_f2" label="Expressed"/>
+      <facetEntailment facetID="LF_33b_f3" label="Expressed"/>
+      <facetEntailment facetID="LF_33b_f4" label="Assumed"/>
+      <facetEntailment facetID="LF_33b_f5" label="Assumed"/>
+      <facetEntailment facetID="LF_33b_f6" label="Expressed"/>
+      <facetEntailment facetID="LF_33b_f7" label="Expressed"/>
+      <facetEntailment facetID="LF_33b_f8" label="Expressed"/>
+      <facetEntailment facetID="LF_33b_f9" label="Expressed"/>
+      <facetEntailment facetID="LF_33b_f10" label="Expressed"/>
+      <facetEntailment facetID="LF_33b_f11" label="Unaddressed"/>
+      <facetEntailment facetID="LF_33b_f12" label="Expressed"/>
+      <facetEntailment facetID="LF_33b_f13" label="Expressed"/>
+      <facetEntailment facetID="LF_33b_f14" label="Expressed"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

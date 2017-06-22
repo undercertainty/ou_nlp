@@ -1,0 +1,362 @@
+<?xml version="1.0"?>
+<question id="LP_15c" module="LP">
+  <questionText>What is the relationship between the amount of effort required to lift the load and its distance from the fulcrum?</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="LP_15c-a1" text="If the effort is applied farther from the fulcrum, less effort will lift the load.">
+      <tokens>
+        <token id="LP_15c_ra1">If</token>
+        <token id="LP_15c_ra2">the</token>
+        <token id="LP_15c_ra3">effort</token>
+        <token id="LP_15c_ra4">is</token>
+        <token id="LP_15c_ra5">applied</token>
+        <token id="LP_15c_ra6">farther</token>
+        <token id="LP_15c_ra7">from</token>
+        <token id="LP_15c_ra8">the</token>
+        <token id="LP_15c_ra9">fulcrum</token>
+        <token id="LP_15c_ra10">,</token>
+        <token id="LP_15c_ra11">less</token>
+        <token id="LP_15c_ra12">effort</token>
+        <token id="LP_15c_ra13">will</token>
+        <token id="LP_15c_ra14">lift</token>
+        <token id="LP_15c_ra15">the</token>
+        <token id="LP_15c_ra16">load</token>
+        <token id="LP_15c_ra17">.</token>
+      </tokens>
+      <facets>
+        <facet id="LP_15c_f1" govNum="LP_15c_ra5" modNum="LP_15c_ra3" reltn="Theme" govText="applied" isAssumed="true" modText="effort"/>
+        <facet id="LP_15c_f2" govNum="LP_15c_ra5" modNum="LP_15c_ra6" reltn="Location" govText="applied" modText="farther"/>
+        <facet id="LP_15c_f3" govNum="LP_15c_ra6" modNum="LP_15c_ra9" reltn="AMod_from" govText="farther" modText="fulcrum"/>
+        <facet id="LP_15c_f4" govNum="LP_15c_ra12" modNum="LP_15c_ra11" reltn="NMod" govText="effort" modText="less"/>
+        <facet id="LP_15c_f5" govNum="LP_15c_ra14" modNum="LP_15c_ra12" reltn="Cause_to" govText="lift" isAssumed="true" modText="effort"/>
+        <facet id="LP_15c_f6" govNum="LP_15c_ra14" modNum="LP_15c_ra16" reltn="Theme" govText="lift" isAssumed="true" modText="load"/>
+        <facet id="LP_15c_f7" govNum="LP_15c_ra14" modNum="LP_15c_ra4" reltn="Cause_if" childProp2Facet2="LP_15c_f2" childProp1Facet1="LP_15c_f5" govText="lift" isAssumed="true" childProp1Facet2="LP_15c_f6" modText="is" childProp2Facet1="LP_15c_f1"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="LP.15c.105.1" answerText="They both relate because one equals the other for a answer." accuracy="irrelevant">
+      <facetEntailment facetID="LP_15c_f1" label="Assumed"/>
+      <facetEntailment facetID="LP_15c_f2" label="Unaddressed"/>
+      <facetEntailment facetID="LP_15c_f3" label="Unaddressed"/>
+      <facetEntailment facetID="LP_15c_f4" label="Unaddressed"/>
+      <facetEntailment facetID="LP_15c_f5" label="Assumed"/>
+      <facetEntailment facetID="LP_15c_f6" label="Assumed"/>
+      <facetEntailment facetID="LP_15c_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="LP.15c.107.1" answerText="They both help the scale by weighing the load." accuracy="irrelevant">
+      <facetEntailment facetID="LP_15c_f1" label="Assumed"/>
+      <facetEntailment facetID="LP_15c_f2" label="Unaddressed"/>
+      <facetEntailment facetID="LP_15c_f3" label="Unaddressed"/>
+      <facetEntailment facetID="LP_15c_f4" label="Unaddressed"/>
+      <facetEntailment facetID="LP_15c_f5" label="Assumed"/>
+      <facetEntailment facetID="LP_15c_f6" label="Diff-Arg"/>
+      <facetEntailment facetID="LP_15c_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="LP.15c.111.1" answerText="The farther away the effort is the easier it is to lift the load." accuracy="correct">
+      <facetEntailment facetID="LP_15c_f1" label="Expressed"/>
+      <facetEntailment facetID="LP_15c_f2" label="Expressed"/>
+      <facetEntailment facetID="LP_15c_f3" label="Inferred"/>
+      <facetEntailment facetID="LP_15c_f4" label="Expressed"/>
+      <facetEntailment facetID="LP_15c_f5" label="Expressed"/>
+      <facetEntailment facetID="LP_15c_f6" label="Expressed"/>
+      <facetEntailment facetID="LP_15c_f7" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="LP.15c.112.1" answerText="Its distance 15 centimeters." accuracy="irrelevant">
+      <facetEntailment facetID="LP_15c_f1" label="Assumed"/>
+      <facetEntailment facetID="LP_15c_f2" label="Unaddressed"/>
+      <facetEntailment facetID="LP_15c_f3" label="Unaddressed"/>
+      <facetEntailment facetID="LP_15c_f4" label="Unaddressed"/>
+      <facetEntailment facetID="LP_15c_f5" label="Assumed"/>
+      <facetEntailment facetID="LP_15c_f6" label="Assumed"/>
+      <facetEntailment facetID="LP_15c_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="LP.15c.183.1" answerText="The further the effort, the less effort is needed. The closer the effort, the more is needed." accuracy="correct">
+      <facetEntailment facetID="LP_15c_f1" label="Assumed"/>
+      <facetEntailment facetID="LP_15c_f2" label="Expressed"/>
+      <facetEntailment facetID="LP_15c_f3" label="Inferred"/>
+      <facetEntailment facetID="LP_15c_f4" label="Expressed"/>
+      <facetEntailment facetID="LP_15c_f5" label="Assumed"/>
+      <facetEntailment facetID="LP_15c_f6" label="Assumed"/>
+      <facetEntailment facetID="LP_15c_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="LP.15c.188.1" answerText="The farther away from the fulcrum the less effort is needed and the closer to the fulcrum the more effort." accuracy="correct">
+      <facetEntailment facetID="LP_15c_f1" label="Expressed"/>
+      <facetEntailment facetID="LP_15c_f2" label="Expressed"/>
+      <facetEntailment facetID="LP_15c_f3" label="Expressed"/>
+      <facetEntailment facetID="LP_15c_f4" label="Expressed"/>
+      <facetEntailment facetID="LP_15c_f5" label="Assumed"/>
+      <facetEntailment facetID="LP_15c_f6" label="Assumed"/>
+      <facetEntailment facetID="LP_15c_f7" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="LP.15c.208.1" answerText="The closer the effort is to the fulcrum, the harder it is to lift the load." accuracy="contradictory">
+      <facetEntailment facetID="LP_15c_f1" label="Expressed"/>
+      <facetEntailment facetID="LP_15c_f2" label="Contra-Infr"/>
+      <facetEntailment facetID="LP_15c_f3" label="Contra-Expr"/>
+      <facetEntailment facetID="LP_15c_f4" label="Contra-Expr"/>
+      <facetEntailment facetID="LP_15c_f5" label="Expressed"/>
+      <facetEntailment facetID="LP_15c_f6" label="Expressed"/>
+      <facetEntailment facetID="LP_15c_f7" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="LP.15c.290.1" answerText="Joule equals force times distance." accuracy="irrelevant">
+      <facetEntailment facetID="LP_15c_f1" label="Assumed"/>
+      <facetEntailment facetID="LP_15c_f2" label="Unaddressed"/>
+      <facetEntailment facetID="LP_15c_f3" label="Unaddressed"/>
+      <facetEntailment facetID="LP_15c_f4" label="Unaddressed"/>
+      <facetEntailment facetID="LP_15c_f5" label="Assumed"/>
+      <facetEntailment facetID="LP_15c_f6" label="Assumed"/>
+      <facetEntailment facetID="LP_15c_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="LP.15c.389.1" answerText="The closer the effort is to the fulcrum the more effort it would take but the further the effort would not be as much." accuracy="correct">
+      <facetEntailment facetID="LP_15c_f1" label="Assumed"/>
+      <facetEntailment facetID="LP_15c_f2" label="Expressed"/>
+      <facetEntailment facetID="LP_15c_f3" label="Expressed"/>
+      <facetEntailment facetID="LP_15c_f4" label="Expressed"/>
+      <facetEntailment facetID="LP_15c_f5" label="Assumed"/>
+      <facetEntailment facetID="LP_15c_f6" label="Assumed"/>
+      <facetEntailment facetID="LP_15c_f7" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="LP.15c.452.1" answerText="When the effort gets farther away from the load the weight of the effort decreases." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="LP_15c_f1" label="Expressed"/>
+      <facetEntailment facetID="LP_15c_f2" label="Expressed"/>
+      <facetEntailment facetID="LP_15c_f3" label="Diff-Arg"/>
+      <facetEntailment facetID="LP_15c_f4" label="Inferred"/>
+      <facetEntailment facetID="LP_15c_f5" label="Assumed"/>
+      <facetEntailment facetID="LP_15c_f6" label="Assumed"/>
+      <facetEntailment facetID="LP_15c_f7" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="LP.15c.455.1" answerText="When effort far from the fulcrum the load gets lighter." accuracy="correct">
+      <facetEntailment facetID="LP_15c_f1" label="Assumed"/>
+      <facetEntailment facetID="LP_15c_f2" label="Expressed"/>
+      <facetEntailment facetID="LP_15c_f3" label="Expressed"/>
+      <facetEntailment facetID="LP_15c_f4" label="Inferred"/>
+      <facetEntailment facetID="LP_15c_f5" label="Assumed"/>
+      <facetEntailment facetID="LP_15c_f6" label="Assumed"/>
+      <facetEntailment facetID="LP_15c_f7" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="LP.15c.456.1" answerText="The farther away the effort is from the fulcrum the greater advantage you get." accuracy="correct">
+      <facetEntailment facetID="LP_15c_f1" label="Expressed"/>
+      <facetEntailment facetID="LP_15c_f2" label="Expressed"/>
+      <facetEntailment facetID="LP_15c_f3" label="Expressed"/>
+      <facetEntailment facetID="LP_15c_f4" label="Inferred"/>
+      <facetEntailment facetID="LP_15c_f5" label="Assumed"/>
+      <facetEntailment facetID="LP_15c_f6" label="Assumed"/>
+      <facetEntailment facetID="LP_15c_f7" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="LP.15c.461.1" answerText="The further the fulcrum lever is, closer it is the less it weighs." accuracy="contradictory">
+      <facetEntailment facetID="LP_15c_f1" label="Assumed"/>
+      <facetEntailment facetID="LP_15c_f2" label="Self-Contra"/>
+      <facetEntailment facetID="LP_15c_f3" label="Expressed"/>
+      <facetEntailment facetID="LP_15c_f4" label="Inferred"/>
+      <facetEntailment facetID="LP_15c_f5" label="Assumed"/>
+      <facetEntailment facetID="LP_15c_f6" label="Assumed"/>
+      <facetEntailment facetID="LP_15c_f7" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="LP.15c.463.1" answerText="The farther it is the easier it is." accuracy="correct">
+      <facetEntailment facetID="LP_15c_f1" label="Assumed"/>
+      <facetEntailment facetID="LP_15c_f2" label="Expressed"/>
+      <facetEntailment facetID="LP_15c_f3" label="Inferred"/>
+      <facetEntailment facetID="LP_15c_f4" label="Inferred"/>
+      <facetEntailment facetID="LP_15c_f5" label="Assumed"/>
+      <facetEntailment facetID="LP_15c_f6" label="Assumed"/>
+      <facetEntailment facetID="LP_15c_f7" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="LP.15c.486.1" answerText="When you move the effort further away the effort increases, when you move it in the effort decreases." accuracy="contradictory">
+      <facetEntailment facetID="LP_15c_f1" label="Expressed"/>
+      <facetEntailment facetID="LP_15c_f2" label="Expressed"/>
+      <facetEntailment facetID="LP_15c_f3" label="Inferred"/>
+      <facetEntailment facetID="LP_15c_f4" label="Contra-Expr"/>
+      <facetEntailment facetID="LP_15c_f5" label="Assumed"/>
+      <facetEntailment facetID="LP_15c_f6" label="Assumed"/>
+      <facetEntailment facetID="LP_15c_f7" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="LP.15c.487.1" answerText="As you move out it is easier." accuracy="correct">
+      <facetEntailment facetID="LP_15c_f1" label="Expressed"/>
+      <facetEntailment facetID="LP_15c_f2" label="Inferred"/>
+      <facetEntailment facetID="LP_15c_f3" label="Inferred"/>
+      <facetEntailment facetID="LP_15c_f4" label="Expressed"/>
+      <facetEntailment facetID="LP_15c_f5" label="Assumed"/>
+      <facetEntailment facetID="LP_15c_f6" label="Assumed"/>
+      <facetEntailment facetID="LP_15c_f7" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="LP.15c.488.1" answerText="The relationship between the amount of effort required and its distance from the fulcrum is as the effort increased distance from the fulcrum the effort needed decreased." accuracy="correct">
+      <facetEntailment facetID="LP_15c_f1" label="Expressed"/>
+      <facetEntailment facetID="LP_15c_f2" label="Expressed"/>
+      <facetEntailment facetID="LP_15c_f3" label="Expressed"/>
+      <facetEntailment facetID="LP_15c_f4" label="Expressed"/>
+      <facetEntailment facetID="LP_15c_f5" label="Assumed"/>
+      <facetEntailment facetID="LP_15c_f6" label="Assumed"/>
+      <facetEntailment facetID="LP_15c_f7" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="LP.15c.491.1" answerText="The farther the effort is from the fulcrum the less effort is needed." accuracy="correct">
+      <facetEntailment facetID="LP_15c_f1" label="Expressed"/>
+      <facetEntailment facetID="LP_15c_f2" label="Expressed"/>
+      <facetEntailment facetID="LP_15c_f3" label="Expressed"/>
+      <facetEntailment facetID="LP_15c_f4" label="Expressed"/>
+      <facetEntailment facetID="LP_15c_f5" label="Assumed"/>
+      <facetEntailment facetID="LP_15c_f6" label="Assumed"/>
+      <facetEntailment facetID="LP_15c_f7" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="LP.15c.492.1" answerText="The farther away from the fulcrum the effort decreases." accuracy="correct">
+      <facetEntailment facetID="LP_15c_f1" label="Expressed"/>
+      <facetEntailment facetID="LP_15c_f2" label="Expressed"/>
+      <facetEntailment facetID="LP_15c_f3" label="Expressed"/>
+      <facetEntailment facetID="LP_15c_f4" label="Expressed"/>
+      <facetEntailment facetID="LP_15c_f5" label="Assumed"/>
+      <facetEntailment facetID="LP_15c_f6" label="Assumed"/>
+      <facetEntailment facetID="LP_15c_f7" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="LP.15c.495.1" answerText="Instead of going it went down." accuracy="irrelevant">
+      <facetEntailment facetID="LP_15c_f1" label="Assumed"/>
+      <facetEntailment facetID="LP_15c_f2" label="Unaddressed"/>
+      <facetEntailment facetID="LP_15c_f3" label="Unaddressed"/>
+      <facetEntailment facetID="LP_15c_f4" label="Unaddressed"/>
+      <facetEntailment facetID="LP_15c_f5" label="Assumed"/>
+      <facetEntailment facetID="LP_15c_f6" label="Assumed"/>
+      <facetEntailment facetID="LP_15c_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="LP.15c.501.1" answerText="Can be use of the amount to lift the load and to adjust the lever and load." accuracy="irrelevant">
+      <facetEntailment facetID="LP_15c_f1" label="Assumed"/>
+      <facetEntailment facetID="LP_15c_f2" label="Unaddressed"/>
+      <facetEntailment facetID="LP_15c_f3" label="Unaddressed"/>
+      <facetEntailment facetID="LP_15c_f4" label="Unaddressed"/>
+      <facetEntailment facetID="LP_15c_f5" label="Assumed"/>
+      <facetEntailment facetID="LP_15c_f6" label="Expressed"/>
+      <facetEntailment facetID="LP_15c_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="LP.15c.502.1" answerText="The closer the scale more effort is needed to lift the load." accuracy="contradictory">
+      <facetEntailment facetID="LP_15c_f1" label="Expressed"/>
+      <facetEntailment facetID="LP_15c_f2" label="Contra-Infr"/>
+      <facetEntailment facetID="LP_15c_f3" label="Contra-Infr"/>
+      <facetEntailment facetID="LP_15c_f4" label="Contra-Expr"/>
+      <facetEntailment facetID="LP_15c_f5" label="Expressed"/>
+      <facetEntailment facetID="LP_15c_f6" label="Expressed"/>
+      <facetEntailment facetID="LP_15c_f7" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="LP.15c.523.1" answerText="As the effort gets farther from the fulcrum it is easier to lift the load." accuracy="correct">
+      <facetEntailment facetID="LP_15c_f1" label="Expressed"/>
+      <facetEntailment facetID="LP_15c_f2" label="Expressed"/>
+      <facetEntailment facetID="LP_15c_f3" label="Expressed"/>
+      <facetEntailment facetID="LP_15c_f4" label="Expressed"/>
+      <facetEntailment facetID="LP_15c_f5" label="Expressed"/>
+      <facetEntailment facetID="LP_15c_f6" label="Expressed"/>
+      <facetEntailment facetID="LP_15c_f7" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="LP.15c.524.1" answerText="The farther away from the fulcrum less effort is needed." accuracy="correct">
+      <facetEntailment facetID="LP_15c_f1" label="Expressed"/>
+      <facetEntailment facetID="LP_15c_f2" label="Expressed"/>
+      <facetEntailment facetID="LP_15c_f3" label="Expressed"/>
+      <facetEntailment facetID="LP_15c_f4" label="Expressed"/>
+      <facetEntailment facetID="LP_15c_f5" label="Assumed"/>
+      <facetEntailment facetID="LP_15c_f6" label="Assumed"/>
+      <facetEntailment facetID="LP_15c_f7" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="LP.15c.534.1" answerText="The relationship is the farther over the effort is the harder it is to lift." accuracy="contradictory">
+      <facetEntailment facetID="LP_15c_f1" label="Expressed"/>
+      <facetEntailment facetID="LP_15c_f2" label="Expressed"/>
+      <facetEntailment facetID="LP_15c_f3" label="Inferred"/>
+      <facetEntailment facetID="LP_15c_f4" label="Contra-Expr"/>
+      <facetEntailment facetID="LP_15c_f5" label="Expressed"/>
+      <facetEntailment facetID="LP_15c_f6" label="Expressed"/>
+      <facetEntailment facetID="LP_15c_f7" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="LP.15c.538.1" answerText="It is easier to lift when the load is closer to the fulcrum." accuracy="contradictory">
+      <facetEntailment facetID="LP_15c_f1" label="Expressed"/>
+      <facetEntailment facetID="LP_15c_f2" label="Unaddressed"/>
+      <facetEntailment facetID="LP_15c_f3" label="Contra-Expr"/>
+      <facetEntailment facetID="LP_15c_f4" label="Expressed"/>
+      <facetEntailment facetID="LP_15c_f5" label="Expressed"/>
+      <facetEntailment facetID="LP_15c_f6" label="Expressed"/>
+      <facetEntailment facetID="LP_15c_f7" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="LP.15c.571.1" answerText="The closer the load is to the fulcrum the less Newtons. The farther away from the fulcrum the load is the more Newtons." accuracy="contradictory">
+      <facetEntailment facetID="LP_15c_f1" label="Assumed"/>
+      <facetEntailment facetID="LP_15c_f2" label="Inferred"/>
+      <facetEntailment facetID="LP_15c_f3" label="Expressed"/>
+      <facetEntailment facetID="LP_15c_f4" label="Contra-Infr"/>
+      <facetEntailment facetID="LP_15c_f5" label="Assumed"/>
+      <facetEntailment facetID="LP_15c_f6" label="Assumed"/>
+      <facetEntailment facetID="LP_15c_f7" label="Diff-Arg"/>
+    </studentAnswer>
+    <studentAnswer id="LP.15c.573.1" answerText="The farther away the effort is from the fulcrum the less effort it takes. The closer the effort is to the fulcrum the more effort it takes." accuracy="correct">
+      <facetEntailment facetID="LP_15c_f1" label="Expressed"/>
+      <facetEntailment facetID="LP_15c_f2" label="Expressed"/>
+      <facetEntailment facetID="LP_15c_f3" label="Expressed"/>
+      <facetEntailment facetID="LP_15c_f4" label="Expressed"/>
+      <facetEntailment facetID="LP_15c_f5" label="Assumed"/>
+      <facetEntailment facetID="LP_15c_f6" label="Assumed"/>
+      <facetEntailment facetID="LP_15c_f7" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="LP.15c.575.1" answerText="It is harder to lift when the load is far from the load." accuracy="contradictory">
+      <facetEntailment facetID="LP_15c_f1" label="Expressed"/>
+      <facetEntailment facetID="LP_15c_f2" label="Expressed"/>
+      <facetEntailment facetID="LP_15c_f3" label="Diff-Arg"/>
+      <facetEntailment facetID="LP_15c_f4" label="Contra-Expr"/>
+      <facetEntailment facetID="LP_15c_f5" label="Assumed"/>
+      <facetEntailment facetID="LP_15c_f6" label="Expressed"/>
+      <facetEntailment facetID="LP_15c_f7" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="LP.15c.601.1" answerText="The distance matters in this experiment. The closer the effort is to the fulcrum, the more effort it takes to lift the fulcrum." accuracy="correct">
+      <facetEntailment facetID="LP_15c_f1" label="Expressed"/>
+      <facetEntailment facetID="LP_15c_f2" label="Inferred"/>
+      <facetEntailment facetID="LP_15c_f3" label="Inferred"/>
+      <facetEntailment facetID="LP_15c_f4" label="Inferred"/>
+      <facetEntailment facetID="LP_15c_f5" label="Expressed"/>
+      <facetEntailment facetID="LP_15c_f6" label="Diff-Arg"/>
+      <facetEntailment facetID="LP_15c_f7" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="LP.15c.603.1" answerText="When the load is closer to the fulcrum it is easier to lift." accuracy="contradictory">
+      <facetEntailment facetID="LP_15c_f1" label="Assumed"/>
+      <facetEntailment facetID="LP_15c_f2" label="Unaddressed"/>
+      <facetEntailment facetID="LP_15c_f3" label="Contra-Expr"/>
+      <facetEntailment facetID="LP_15c_f4" label="Expressed"/>
+      <facetEntailment facetID="LP_15c_f5" label="Assumed"/>
+      <facetEntailment facetID="LP_15c_f6" label="Expressed"/>
+      <facetEntailment facetID="LP_15c_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="LP.15c.604.1" answerText="The farther away the effort is from the fulcrum the easier it is to lift the load." accuracy="correct">
+      <facetEntailment facetID="LP_15c_f1" label="Expressed"/>
+      <facetEntailment facetID="LP_15c_f2" label="Expressed"/>
+      <facetEntailment facetID="LP_15c_f3" label="Expressed"/>
+      <facetEntailment facetID="LP_15c_f4" label="Expressed"/>
+      <facetEntailment facetID="LP_15c_f5" label="Expressed"/>
+      <facetEntailment facetID="LP_15c_f6" label="Expressed"/>
+      <facetEntailment facetID="LP_15c_f7" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="LP.15c.608.1" answerText="The further away the effort is from the fulcrum the easier it is to pull." accuracy="correct">
+      <facetEntailment facetID="LP_15c_f1" label="Expressed"/>
+      <facetEntailment facetID="LP_15c_f2" label="Expressed"/>
+      <facetEntailment facetID="LP_15c_f3" label="Expressed"/>
+      <facetEntailment facetID="LP_15c_f4" label="Expressed"/>
+      <facetEntailment facetID="LP_15c_f5" label="Assumed"/>
+      <facetEntailment facetID="LP_15c_f6" label="Assumed"/>
+      <facetEntailment facetID="LP_15c_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="LP.15c.631.1" answerText="It takes more effort the farther away the load is from the fulcrum." accuracy="contradictory">
+      <facetEntailment facetID="LP_15c_f1" label="Expressed"/>
+      <facetEntailment facetID="LP_15c_f2" label="Unaddressed"/>
+      <facetEntailment facetID="LP_15c_f3" label="Expressed"/>
+      <facetEntailment facetID="LP_15c_f4" label="Contra-Expr"/>
+      <facetEntailment facetID="LP_15c_f5" label="Assumed"/>
+      <facetEntailment facetID="LP_15c_f6" label="Assumed"/>
+      <facetEntailment facetID="LP_15c_f7" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="LP.15c.634.1" answerText="When it was closer it was harder and when it was farther away it was easier." accuracy="correct">
+      <facetEntailment facetID="LP_15c_f1" label="Expressed"/>
+      <facetEntailment facetID="LP_15c_f2" label="Expressed"/>
+      <facetEntailment facetID="LP_15c_f3" label="Inferred"/>
+      <facetEntailment facetID="LP_15c_f4" label="Expressed"/>
+      <facetEntailment facetID="LP_15c_f5" label="Assumed"/>
+      <facetEntailment facetID="LP_15c_f6" label="Assumed"/>
+      <facetEntailment facetID="LP_15c_f7" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="LP.15c.636.1" answerText="If the fulcrum is too close to the effort or the other way around it is harder. Same thing with the fulcrum and the load. It is harder to move it." accuracy="contradictory">
+      <facetEntailment facetID="LP_15c_f1" label="Expressed"/>
+      <facetEntailment facetID="LP_15c_f2" label="Inferred"/>
+      <facetEntailment facetID="LP_15c_f3" label="Self-Contra"/>
+      <facetEntailment facetID="LP_15c_f4" label="Contra-Expr"/>
+      <facetEntailment facetID="LP_15c_f5" label="Expressed"/>
+      <facetEntailment facetID="LP_15c_f6" label="Assumed"/>
+      <facetEntailment facetID="LP_15c_f7" label="Expressed"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

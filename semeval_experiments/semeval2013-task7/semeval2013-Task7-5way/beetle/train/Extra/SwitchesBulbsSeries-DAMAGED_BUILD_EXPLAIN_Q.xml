@@ -1,0 +1,902 @@
+<?xml version="1.0"?>
+<question qtype="Q_EXPLAIN_SPECIFIC" id="DAMAGED_BUILD_EXPLAIN_Q" module="SwitchesBulbsSeries" stype="PREDICT">
+  <questionText>Explain your reasoning.</questionText>
+  <referenceAnswers>
+    <referenceAnswer category="BEST" id="answer55" fileID="DAMAGED_BUILD_EXPLAIN_Q_ANS1">bulb B creates a gap</referenceAnswer>
+    <referenceAnswer category="KEYWORD" id="answer56" fileID="DAMAGED_BUILD_EXPLAIN_Q_ANS2">a gap</referenceAnswer>
+    <referenceAnswer category="GOOD" id="answer57" fileID="DAMAGED_BUILD_EXPLAIN_Q_ANS3">there is a gap in a circuit</referenceAnswer>
+    <referenceAnswer category="GOOD" id="answer58" fileID="DAMAGED_BUILD_EXPLAIN_Q_ANS4">there is an open path</referenceAnswer>
+    <referenceAnswer category="GOOD" id="answer59" fileID="DAMAGED_BUILD_EXPLAIN_Q_ANS5">there is an incomplete circuit</referenceAnswer>
+    <referenceAnswer category="GOOD" id="answer60" fileID="DAMAGED_BUILD_EXPLAIN_Q_ANS6">there is no closed path</referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer count="1" answerMatch="answer55" raw_text="there will be a gap at bulb b, thus affecting the rest of the circuit" id="SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbj3-l1.qa88" accuracy="correct">
+      <token status="ok" id="tok1518">there</token>
+      <token status="ok" id="tok1519">will</token>
+      <token status="ok" id="tok1520">be</token>
+      <token status="ok" id="tok1521">a</token>
+      <token status="ok" id="tok1522">gap</token>
+      <token status="ok" id="tok1523">at</token>
+      <token status="ok" id="tok1524">bulb</token>
+      <token status="ok" id="tok1525">b</token>
+      <token status="ok" id="tok1526">thus</token>
+      <token status="ok" id="tok1527">affecting</token>
+      <token status="ok" id="tok1528">the</token>
+      <token status="ok" id="tok1529">rest</token>
+      <token status="ok" id="tok1530">of</token>
+      <token status="ok" id="tok1531">the</token>
+      <token status="ok" id="tok1532">circuit</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer55" raw_text="if bulb b is damaged there will be a gap in the path at that bulb" id="SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbj3-l1.qa89" accuracy="correct">
+      <token status="ok" id="tok1553">if</token>
+      <token status="ok" id="tok1554">bulb</token>
+      <token status="ok" id="tok1555">b</token>
+      <token status="ok" id="tok1556">is</token>
+      <token status="ok" id="tok1557">damaged</token>
+      <token status="ok" id="tok1558">there</token>
+      <token status="ok" id="tok1559">will</token>
+      <token status="ok" id="tok1560">be</token>
+      <token status="ok" id="tok1561">a</token>
+      <token status="ok" id="tok1562">gap</token>
+      <token status="ok" id="tok1563">in</token>
+      <token status="ok" id="tok1564">the</token>
+      <token status="ok" id="tok1565">path</token>
+      <token status="ok" id="tok1566">at</token>
+      <token status="ok" id="tok1567">that</token>
+      <token status="ok" id="tok1568">bulb</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer55" raw_text="if bulb b is off there will be a gap in the path" id="SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbj7-l1.qa85" accuracy="correct">
+      <token status="ok" id="tok1334">if</token>
+      <token status="ok" id="tok1335">bulb</token>
+      <token status="ok" id="tok1336">b</token>
+      <token status="ok" id="tok1337">is</token>
+      <token status="ok" id="tok1338">off</token>
+      <token status="ok" id="tok1339">there</token>
+      <token status="ok" id="tok1340">will</token>
+      <token status="ok" id="tok1341">be</token>
+      <token status="ok" id="tok1342">a</token>
+      <token status="ok" id="tok1343">gap</token>
+      <token status="ok" id="tok1344">in</token>
+      <token status="ok" id="tok1345">the</token>
+      <token status="ok" id="tok1346">path</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="The bulb does not effect the others" id="SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbj8-l1.qa107" accuracy="contradictory">
+      <token status="ok" id="tok1673">The</token>
+      <token status="ok" id="tok1674">bulb</token>
+      <token status="ok" id="tok1675">does</token>
+      <token status="ok" id="tok1676">not</token>
+      <token status="ok" id="tok1677">effect</token>
+      <token status="ok" id="tok1678">the</token>
+      <token status="ok" id="tok1679">others</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="bulb B does not effect the other bulbs" id="SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbj8-l1.qa108" accuracy="contradictory">
+      <token status="ok" id="tok1693">bulb</token>
+      <token status="ok" id="tok1694">B</token>
+      <token status="ok" id="tok1695">does</token>
+      <token status="ok" id="tok1696">not</token>
+      <token status="ok" id="tok1697">effect</token>
+      <token status="ok" id="tok1698">the</token>
+      <token status="ok" id="tok1699">other</token>
+      <token status="ok" id="tok1700">bulbs</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer59" raw_text="If bulb b is damaged, then the circuit will be incomplete." id="SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbj9-l1.qa83" accuracy="correct">
+      <token status="ok" id="tok1273">If</token>
+      <token status="ok" id="tok1274">bulb</token>
+      <token status="ok" id="tok1275">b</token>
+      <token status="ok" id="tok1276">is</token>
+      <token status="ok" id="tok1277">damaged</token>
+      <token status="ok" id="tok1278">then</token>
+      <token status="ok" id="tok1279">the</token>
+      <token status="ok" id="tok1280">circuit</token>
+      <token status="ok" id="tok1281">will</token>
+      <token status="ok" id="tok1282">be</token>
+      <token status="ok" id="tok1283">incomplete</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer57" raw_text="there is a gap in the connection" id="SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbj10-l1.qa104" accuracy="correct">
+      <token status="ok" id="tok1741">there</token>
+      <token status="ok" id="tok1742">is</token>
+      <token status="ok" id="tok1743">a</token>
+      <token status="ok" id="tok1744">gap</token>
+      <token status="ok" id="tok1745">in</token>
+      <token status="ok" id="tok1746">the</token>
+      <token status="ok" id="tok1747">connection</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer55" raw_text="the damaged bulb creates a gap in the circuit." id="SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbj11-l1.qa108" accuracy="correct">
+      <token status="ok" id="tok1581">the</token>
+      <token status="ok" id="tok1582">damaged</token>
+      <token status="ok" id="tok1583">bulb</token>
+      <token status="ok" id="tok1584">creates</token>
+      <token status="ok" id="tok1585">a</token>
+      <token status="ok" id="tok1586">gap</token>
+      <token status="ok" id="tok1587">in</token>
+      <token status="ok" id="tok1588">the</token>
+      <token status="ok" id="tok1589">circuit</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer55" raw_text="There will be a gap in the path" id="SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbj12-l1.qa80" accuracy="correct">
+      <token status="ok" id="tok1253">There</token>
+      <token status="ok" id="tok1254">will</token>
+      <token status="ok" id="tok1255">be</token>
+      <token status="ok" id="tok1256">a</token>
+      <token status="ok" id="tok1257">gap</token>
+      <token status="ok" id="tok1258">in</token>
+      <token status="ok" id="tok1259">the</token>
+      <token status="ok" id="tok1260">path</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="there is no path through the connection of bulb b." id="SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbj13-l1.qa100" accuracy="contradictory">
+      <token status="ok" id="tok1658">there</token>
+      <token status="ok" id="tok1659">is</token>
+      <token status="ok" id="tok1660">no</token>
+      <token status="ok" id="tok1661">path</token>
+      <token status="ok" id="tok1662">through</token>
+      <token status="ok" id="tok1663">the</token>
+      <token status="ok" id="tok1664">connection</token>
+      <token status="ok" id="tok1665">of</token>
+      <token status="ok" id="tok1666">bulb</token>
+      <token status="ok" id="tok1667">b</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="there is no path through bulb b." id="SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbj13-l1.qa101" accuracy="contradictory">
+      <token status="ok" id="tok1688">there</token>
+      <token status="ok" id="tok1689">is</token>
+      <token status="ok" id="tok1690">no</token>
+      <token status="ok" id="tok1691">path</token>
+      <token status="ok" id="tok1692">through</token>
+      <token status="ok" id="tok1693">bulb</token>
+      <token status="ok" id="tok1694">b</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer55" raw_text="If bulb B is damaged a gap is created." id="SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbj14-l1.qa97" accuracy="correct">
+      <token status="ok" id="tok1394">If</token>
+      <token status="ok" id="tok1395">bulb</token>
+      <token status="ok" id="tok1396">B</token>
+      <token status="ok" id="tok1397">is</token>
+      <token status="ok" id="tok1398">damaged</token>
+      <token status="ok" id="tok1399">a</token>
+      <token status="ok" id="tok1400">gap</token>
+      <token status="ok" id="tok1401">is</token>
+      <token status="ok" id="tok1402">created</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer60" raw_text="actually bulbs a and c will be off because the path will no longer be cloed" id="SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbj15-l1.qa118" accuracy="correct">
+      <token status="ok" id="tok1941">actually</token>
+      <token status="ok" id="tok1942">bulbs</token>
+      <token status="ok" id="tok1943">a</token>
+      <token status="ok" id="tok1944">and</token>
+      <token status="ok" id="tok1945">c</token>
+      <token status="ok" id="tok1946">will</token>
+      <token status="ok" id="tok1947">be</token>
+      <token status="ok" id="tok1948">off</token>
+      <token status="ok" id="tok1949">because</token>
+      <token status="ok" id="tok1950">the</token>
+      <token status="ok" id="tok1951">path</token>
+      <token status="ok" id="tok1952">will</token>
+      <token status="ok" id="tok1953">no</token>
+      <token status="ok" id="tok1954">longer</token>
+      <token status="ok" id="tok1955">be</token>
+      <token status="ok" id="tok1956" original="cloed">closed</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer57" raw_text="There will be a gap in the path." id="SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbj18-l1.qa87" accuracy="correct">
+      <token status="ok" id="tok1473">There</token>
+      <token status="ok" id="tok1474">will</token>
+      <token status="ok" id="tok1475">be</token>
+      <token status="ok" id="tok1476">a</token>
+      <token status="ok" id="tok1477">gap</token>
+      <token status="ok" id="tok1478">in</token>
+      <token status="ok" id="tok1479">the</token>
+      <token status="ok" id="tok1480">path</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="there is no path for the other bulbs" id="SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbj19-l1.qa111" accuracy="contradictory">
+      <token status="ok" id="tok1801">there</token>
+      <token status="ok" id="tok1802">is</token>
+      <token status="ok" id="tok1803">no</token>
+      <token status="ok" id="tok1804">path</token>
+      <token status="ok" id="tok1805">for</token>
+      <token status="ok" id="tok1806">the</token>
+      <token status="ok" id="tok1807">other</token>
+      <token status="ok" id="tok1808">bulbs</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="A and B are off" id="SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbj19-l1.qa112" accuracy="contradictory">
+      <token status="ok" id="tok1822">A</token>
+      <token status="ok" id="tok1823">and</token>
+      <token status="ok" id="tok1824">B</token>
+      <token status="ok" id="tok1825">are</token>
+      <token status="ok" id="tok1826">off</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer57" raw_text="there will be a gap between bulbs" id="SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbj22-l1.qa102" accuracy="partially_correct_incomplete">
+      <token status="ok" id="tok1814">there</token>
+      <token status="ok" id="tok1815">will</token>
+      <token status="ok" id="tok1816">be</token>
+      <token status="ok" id="tok1817">a</token>
+      <token status="ok" id="tok1818">gap</token>
+      <token status="ok" id="tok1819">between</token>
+      <token status="ok" id="tok1820">bulbs</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer57" raw_text="there will be a gap between the bulbs" id="SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbj22-l1.qa103" accuracy="partially_correct_incomplete">
+      <token status="ok" id="tok1841">there</token>
+      <token status="ok" id="tok1842">will</token>
+      <token status="ok" id="tok1843">be</token>
+      <token status="ok" id="tok1844">a</token>
+      <token status="ok" id="tok1845">gap</token>
+      <token status="ok" id="tok1846">between</token>
+      <token status="ok" id="tok1847">the</token>
+      <token status="ok" id="tok1848">bulbs</token>
+    </studentAnswer>
+    <studentAnswer count="2" answerMatch="answer57" raw_text="There will be a gap in the circuit." id="SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbj23-l1.qa88" accuracy="correct">
+      <token status="ok" id="tok1316">There</token>
+      <token status="ok" id="tok1317">will</token>
+      <token status="ok" id="tok1318">be</token>
+      <token status="ok" id="tok1319">a</token>
+      <token status="ok" id="tok1320">gap</token>
+      <token status="ok" id="tok1321">in</token>
+      <token status="ok" id="tok1322">the</token>
+      <token status="ok" id="tok1323">circuit</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer56" raw_text="gap in bulb b" id="SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbj24-l1.qa95" accuracy="correct">
+      <token status="ok" id="tok1438">gap</token>
+      <token status="ok" id="tok1439">in</token>
+      <token status="ok" id="tok1440">bulb</token>
+      <token status="ok" id="tok1441">b</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer56" raw_text="bulb B has a gap" id="SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbj24-l1.qa96" accuracy="correct">
+      <token status="ok" id="tok1462">bulb</token>
+      <token status="ok" id="tok1463">B</token>
+      <token status="ok" id="tok1464">has</token>
+      <token status="ok" id="tok1465">a</token>
+      <token status="ok" id="tok1466">gap</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer57" raw_text="there is a gap" id="SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbj27-l1.qa95" accuracy="correct">
+      <token status="ok" id="tok1655">there</token>
+      <token status="ok" id="tok1656">is</token>
+      <token status="ok" id="tok1657">a</token>
+      <token status="ok" id="tok1658">gap</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer58" raw_text="there is no path between the bulb-holders" id="SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbj28-l1.qa95" accuracy="contradictory">
+      <token status="ok" id="tok1455">there</token>
+      <token status="ok" id="tok1456">is</token>
+      <token status="ok" id="tok1457">no</token>
+      <token status="ok" id="tok1458">path</token>
+      <token status="ok" id="tok1459">between</token>
+      <token status="ok" id="tok1460">the</token>
+      <token status="ok" id="tok1461">bulb-holders</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="there is no path" id="SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbj28-l1.qa96" accuracy="contradictory">
+      <token status="ok" id="tok1482">there</token>
+      <token status="ok" id="tok1483">is</token>
+      <token status="ok" id="tok1484">no</token>
+      <token status="ok" id="tok1485">path</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="there is no path between the bulbs" id="SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbj28-l1.qa97" accuracy="contradictory">
+      <token status="ok" id="tok1501">there</token>
+      <token status="ok" id="tok1502">is</token>
+      <token status="ok" id="tok1503">no</token>
+      <token status="ok" id="tok1504">path</token>
+      <token status="ok" id="tok1505">between</token>
+      <token status="ok" id="tok1506">the</token>
+      <token status="ok" id="tok1507">bulbs</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer55" raw_text="damaged bulb b creates a gap" id="SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbj29-l1.qa100" accuracy="correct">
+      <token status="ok" id="tok1564">damaged</token>
+      <token status="ok" id="tok1565">bulb</token>
+      <token status="ok" id="tok1566">b</token>
+      <token status="ok" id="tok1567">creates</token>
+      <token status="ok" id="tok1568">a</token>
+      <token status="ok" id="tok1569">gap</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer57" raw_text="There is a gap." id="SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbj30-l1.qa87" accuracy="correct">
+      <token status="ok" id="tok1509">There</token>
+      <token status="ok" id="tok1510">is</token>
+      <token status="ok" id="tok1511">a</token>
+      <token status="ok" id="tok1512">gap</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer60" raw_text="the path is not closed anymore" id="SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbj31-l1.qa90" accuracy="correct">
+      <token status="ok" id="tok1380">the</token>
+      <token status="ok" id="tok1381">path</token>
+      <token status="ok" id="tok1382">is</token>
+      <token status="ok" id="tok1383">not</token>
+      <token status="ok" id="tok1384">closed</token>
+      <token status="ok" id="tok1385">anymore</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer55" raw_text="if bulb B is damaged, the path will have a gap" id="SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbj33-l1.qa87" accuracy="correct">
+      <token status="ok" id="tok1459">if</token>
+      <token status="ok" id="tok1460">bulb</token>
+      <token status="ok" id="tok1461">B</token>
+      <token status="ok" id="tok1462">is</token>
+      <token status="ok" id="tok1463">damaged</token>
+      <token status="ok" id="tok1464">the</token>
+      <token status="ok" id="tok1465">path</token>
+      <token status="ok" id="tok1466">will</token>
+      <token status="ok" id="tok1467">have</token>
+      <token status="ok" id="tok1468">a</token>
+      <token status="ok" id="tok1469">gap</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer60" raw_text="If bulb B is damaged, there is no path" id="SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbj34-l1.qa81" accuracy="contradictory">
+      <token status="ok" id="tok1208">If</token>
+      <token status="ok" id="tok1209">bulb</token>
+      <token status="ok" id="tok1210">B</token>
+      <token status="ok" id="tok1211">is</token>
+      <token status="ok" id="tok1212">damaged</token>
+      <token status="ok" id="tok1213">there</token>
+      <token status="ok" id="tok1214">is</token>
+      <token status="ok" id="tok1215">no</token>
+      <token status="ok" id="tok1216">path</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer60" raw_text="There is no path through bulb B" id="SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbj34-l1.qa82" accuracy="contradictory">
+      <token status="ok" id="tok1232">There</token>
+      <token status="ok" id="tok1233">is</token>
+      <token status="ok" id="tok1234">no</token>
+      <token status="ok" id="tok1235">path</token>
+      <token status="ok" id="tok1236">through</token>
+      <token status="ok" id="tok1237">bulb</token>
+      <token status="ok" id="tok1238">B</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer57" raw_text="There will be a gap." id="SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbj35-l1.qa90" accuracy="correct">
+      <token status="ok" id="tok1497">There</token>
+      <token status="ok" id="tok1498">will</token>
+      <token status="ok" id="tok1499">be</token>
+      <token status="ok" id="tok1500">a</token>
+      <token status="ok" id="tok1501">gap</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer57" raw_text="there is a gap in the closed path" id="SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbj36-l1.qa92" accuracy="correct">
+      <token status="ok" id="tok1484">there</token>
+      <token status="ok" id="tok1485">is</token>
+      <token status="ok" id="tok1486">a</token>
+      <token status="ok" id="tok1487">gap</token>
+      <token status="ok" id="tok1488">in</token>
+      <token status="ok" id="tok1489">the</token>
+      <token status="ok" id="tok1490">closed</token>
+      <token status="ok" id="tok1491">path</token>
+    </studentAnswer>
+    <studentAnswer count="2" answerMatch="answer57" raw_text="there is a gap in the circuit" id="SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbj37-l1.qa81" accuracy="correct">
+      <token status="ok" id="tok1367">there</token>
+      <token status="ok" id="tok1368">is</token>
+      <token status="ok" id="tok1369">a</token>
+      <token status="ok" id="tok1370">gap</token>
+      <token status="ok" id="tok1371">in</token>
+      <token status="ok" id="tok1372">the</token>
+      <token status="ok" id="tok1373">circuit</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer57" raw_text="if bulb B is damaged there will be a gap in the curcuit" id="SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbj38-l1.qa83" accuracy="correct">
+      <token status="ok" id="tok1351">if</token>
+      <token status="ok" id="tok1352">bulb</token>
+      <token status="ok" id="tok1353">B</token>
+      <token status="ok" id="tok1354">is</token>
+      <token status="ok" id="tok1355">damaged</token>
+      <token status="ok" id="tok1356">there</token>
+      <token status="ok" id="tok1357">will</token>
+      <token status="ok" id="tok1358">be</token>
+      <token status="ok" id="tok1359">a</token>
+      <token status="ok" id="tok1360">gap</token>
+      <token status="ok" id="tok1361">in</token>
+      <token status="ok" id="tok1362">the</token>
+      <token status="ok" id="tok1363" original="curcuit">circuit</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="?" id="SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbj39-l1.qa102" accuracy="non_domain"/>
+    <studentAnswer count="1" answerMatch="answer55" raw_text="They will not be on because it will cause a gap." id="SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbj39-l1.qa103" accuracy="correct">
+      <token status="ok" id="tok1850">They</token>
+      <token status="ok" id="tok1851">will</token>
+      <token status="ok" id="tok1852">not</token>
+      <token status="ok" id="tok1853">be</token>
+      <token status="ok" id="tok1854">on</token>
+      <token status="ok" id="tok1855">because</token>
+      <token status="ok" id="tok1856">it</token>
+      <token status="ok" id="tok1857">will</token>
+      <token status="ok" id="tok1858">cause</token>
+      <token status="ok" id="tok1859">a</token>
+      <token status="ok" id="tok1860">gap</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer55" raw_text="if bulb b is damaged, it creates a gap in the circuit." id="SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbj40-l1.qa99" accuracy="correct">
+      <token status="ok" id="tok1536">if</token>
+      <token status="ok" id="tok1537">bulb</token>
+      <token status="ok" id="tok1538">b</token>
+      <token status="ok" id="tok1539">is</token>
+      <token status="ok" id="tok1540">damaged</token>
+      <token status="ok" id="tok1541">it</token>
+      <token status="ok" id="tok1542">creates</token>
+      <token status="ok" id="tok1543">a</token>
+      <token status="ok" id="tok1544">gap</token>
+      <token status="ok" id="tok1545">in</token>
+      <token status="ok" id="tok1546">the</token>
+      <token status="ok" id="tok1547">circuit</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer60" raw_text="The path will not be closed." id="SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbj42-l1.qa97" accuracy="correct">
+      <token status="ok" id="tok1571">The</token>
+      <token status="ok" id="tok1572">path</token>
+      <token status="ok" id="tok1573">will</token>
+      <token status="ok" id="tok1574">not</token>
+      <token status="ok" id="tok1575">be</token>
+      <token status="ok" id="tok1576">closed</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer59" raw_text="if bulb b is damaged it does not make a complete circut" id="SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbj43-l1.qa94" accuracy="correct">
+      <token status="ok" id="tok1534">if</token>
+      <token status="ok" id="tok1535">bulb</token>
+      <token status="ok" id="tok1536">b</token>
+      <token status="ok" id="tok1537">is</token>
+      <token status="ok" id="tok1538">damaged</token>
+      <token status="ok" id="tok1539">it</token>
+      <token status="ok" id="tok1540">does</token>
+      <token status="ok" id="tok1541">not</token>
+      <token status="ok" id="tok1542">make</token>
+      <token status="ok" id="tok1543">a</token>
+      <token status="ok" id="tok1544">complete</token>
+      <token status="ok" id="tok1545" original="circut">circuit</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer59" raw_text="when bulb b is damaged there is no complete circut" id="SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbj43-l1.qa95" accuracy="correct">
+      <token status="ok" id="tok1561">when</token>
+      <token status="ok" id="tok1562">bulb</token>
+      <token status="ok" id="tok1563">b</token>
+      <token status="ok" id="tok1564">is</token>
+      <token status="ok" id="tok1565">damaged</token>
+      <token status="ok" id="tok1566">there</token>
+      <token status="ok" id="tok1567">is</token>
+      <token status="ok" id="tok1568">no</token>
+      <token status="ok" id="tok1569">complete</token>
+      <token status="ok" id="tok1570" original="circut">circuit</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer57" raw_text="there will be a gap" id="SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbj45-l1.qa83" accuracy="correct">
+      <token status="ok" id="tok1298">there</token>
+      <token status="ok" id="tok1299">will</token>
+      <token status="ok" id="tok1300">be</token>
+      <token status="ok" id="tok1301">a</token>
+      <token status="ok" id="tok1302">gap</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer59" raw_text="distrupt the circuit" id="SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbj46-l1.qa96" accuracy="partially_correct_incomplete">
+      <token status="ok" id="tok1592" original="distrupt">disrupt</token>
+      <token status="ok" id="tok1593">the</token>
+      <token status="ok" id="tok1594">circuit</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer57" raw_text="Because the path connecting the bulbs will be damaged" id="SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbj47-l1.qa102" accuracy="partially_correct_incomplete">
+      <token status="ok" id="tok1784">Because</token>
+      <token status="ok" id="tok1785">the</token>
+      <token status="ok" id="tok1786">path</token>
+      <token status="ok" id="tok1787">connecting</token>
+      <token status="ok" id="tok1788">the</token>
+      <token status="ok" id="tok1789">bulbs</token>
+      <token status="ok" id="tok1790">will</token>
+      <token status="ok" id="tok1791">be</token>
+      <token status="ok" id="tok1792">damaged</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="the holder of the bulb will damage the other bulb" id="SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbj47-l1.qa107" accuracy="contradictory">
+      <token status="ok" id="tok1838">the</token>
+      <token status="ok" id="tok1839">holder</token>
+      <token status="ok" id="tok1840">of</token>
+      <token status="ok" id="tok1841">the</token>
+      <token status="ok" id="tok1842">bulb</token>
+      <token status="ok" id="tok1843">will</token>
+      <token status="ok" id="tok1844">damage</token>
+      <token status="ok" id="tok1845">the</token>
+      <token status="ok" id="tok1846">other</token>
+      <token status="ok" id="tok1847">bulb</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer59" raw_text="because if bulb b is damaged, then there is no path through the bulb, creating an incomplete circuit" id="SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbj48-l1.qa84" accuracy="correct">
+      <token status="ok" id="tok1447">because</token>
+      <token status="ok" id="tok1448">if</token>
+      <token status="ok" id="tok1449">bulb</token>
+      <token status="ok" id="tok1450">b</token>
+      <token status="ok" id="tok1451">is</token>
+      <token status="ok" id="tok1452">damaged</token>
+      <token status="ok" id="tok1453">then</token>
+      <token status="ok" id="tok1454">there</token>
+      <token status="ok" id="tok1455">is</token>
+      <token status="ok" id="tok1456">no</token>
+      <token status="ok" id="tok1457">path</token>
+      <token status="ok" id="tok1458">through</token>
+      <token status="ok" id="tok1459">the</token>
+      <token status="ok" id="tok1460">bulb</token>
+      <token status="ok" id="tok1461">creating</token>
+      <token status="ok" id="tok1462">an</token>
+      <token status="ok" id="tok1463">incomplete</token>
+      <token status="ok" id="tok1464">circuit</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer57" raw_text="if bulb b is damaged, then the path will have a gap." id="SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbj48-l1.qa85" accuracy="correct">
+      <token status="ok" id="tok1489">if</token>
+      <token status="ok" id="tok1490">bulb</token>
+      <token status="ok" id="tok1491">b</token>
+      <token status="ok" id="tok1492">is</token>
+      <token status="ok" id="tok1493">damaged</token>
+      <token status="ok" id="tok1494">then</token>
+      <token status="ok" id="tok1495">the</token>
+      <token status="ok" id="tok1496">path</token>
+      <token status="ok" id="tok1497">will</token>
+      <token status="ok" id="tok1498">have</token>
+      <token status="ok" id="tok1499">a</token>
+      <token status="ok" id="tok1500">gap</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="It still has a connect path between bulb a and c and the battery." id="SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbjb1-l1.qa71" accuracy="contradictory">
+      <token status="ok" id="tok1238">It</token>
+      <token status="ok" id="tok1239">still</token>
+      <token status="ok" id="tok1240">has</token>
+      <token status="ok" id="tok1241">a</token>
+      <token status="ok" id="tok1242">connect</token>
+      <token status="ok" id="tok1243">path</token>
+      <token status="ok" id="tok1244">between</token>
+      <token status="ok" id="tok1245">bulb</token>
+      <token status="ok" id="tok1246">a</token>
+      <token status="ok" id="tok1247">and</token>
+      <token status="ok" id="tok1248">c</token>
+      <token status="ok" id="tok1249">and</token>
+      <token status="ok" id="tok1250">the</token>
+      <token status="ok" id="tok1251">battery</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer58" raw_text="They are connected to the battery not each other" id="SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbjb3-l1.qa86" accuracy="partially_correct_incomplete">
+      <token status="ok" id="tok1278">They</token>
+      <token status="ok" id="tok1279">are</token>
+      <token status="ok" id="tok1280">connected</token>
+      <token status="ok" id="tok1281">to</token>
+      <token status="ok" id="tok1282">the</token>
+      <token status="ok" id="tok1283">battery</token>
+      <token status="ok" id="tok1284">not</token>
+      <token status="ok" id="tok1285">each</token>
+      <token status="ok" id="tok1286">other</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer55" raw_text="when the bulb is burnt it creates a gap in the closed path" id="SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbjb4-l1.qa71" accuracy="correct">
+      <token status="ok" id="tok1164">when</token>
+      <token status="ok" id="tok1165">the</token>
+      <token status="ok" id="tok1166">bulb</token>
+      <token status="ok" id="tok1167">is</token>
+      <token status="ok" id="tok1168">burnt</token>
+      <token status="ok" id="tok1169">it</token>
+      <token status="ok" id="tok1170">creates</token>
+      <token status="ok" id="tok1171">a</token>
+      <token status="ok" id="tok1172">gap</token>
+      <token status="ok" id="tok1173">in</token>
+      <token status="ok" id="tok1174">the</token>
+      <token status="ok" id="tok1175">closed</token>
+      <token status="ok" id="tok1176">path</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer57" raw_text="there will be a gap at bulb b. this will create an open circuit." id="SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbjb5-l1.qa81" accuracy="contradictory">
+      <token status="ok" id="tok1341">there</token>
+      <token status="ok" id="tok1342">will</token>
+      <token status="ok" id="tok1343">be</token>
+      <token status="ok" id="tok1344">a</token>
+      <token status="ok" id="tok1345">gap</token>
+      <token status="ok" id="tok1346">at</token>
+      <token status="ok" id="tok1347">bulb</token>
+      <token status="ok" id="tok1348">b</token>
+      <token status="ok" id="tok1349">this</token>
+      <token status="ok" id="tok1350">will</token>
+      <token status="ok" id="tok1351">create</token>
+      <token status="ok" id="tok1352">an</token>
+      <token status="ok" id="tok1353">open</token>
+      <token status="ok" id="tok1354">circuit</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="Because they are breaking the circuit." id="SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbjb6-l1.qa71" accuracy="contradictory">
+      <token status="ok" id="tok1190">Because</token>
+      <token status="ok" id="tok1191">they</token>
+      <token status="ok" id="tok1192">are</token>
+      <token status="ok" id="tok1193">breaking</token>
+      <token status="ok" id="tok1194">the</token>
+      <token status="ok" id="tok1195">circuit</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer60" raw_text="There will not be a closed path." id="SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbjb7-l1.qa71" accuracy="correct">
+      <token status="ok" id="tok1209">There</token>
+      <token status="ok" id="tok1210">will</token>
+      <token status="ok" id="tok1211">not</token>
+      <token status="ok" id="tok1212">be</token>
+      <token status="ok" id="tok1213">a</token>
+      <token status="ok" id="tok1214">closed</token>
+      <token status="ok" id="tok1215">path</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer58" raw_text="The path between the bulbs and the battery is open" id="SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbjb9-l1.qa74" accuracy="correct">
+      <token status="ok" id="tok1188">The</token>
+      <token status="ok" id="tok1189">path</token>
+      <token status="ok" id="tok1190">between</token>
+      <token status="ok" id="tok1191">the</token>
+      <token status="ok" id="tok1192">bulbs</token>
+      <token status="ok" id="tok1193">and</token>
+      <token status="ok" id="tok1194">the</token>
+      <token status="ok" id="tok1195">battery</token>
+      <token status="ok" id="tok1196">is</token>
+      <token status="ok" id="tok1197">open</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer60" raw_text="because there is no connection so the path is not closed" id="SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbjb10-l1.qa71" accuracy="correct">
+      <token status="ok" id="tok1182">because</token>
+      <token status="ok" id="tok1183">there</token>
+      <token status="ok" id="tok1184">is</token>
+      <token status="ok" id="tok1185">no</token>
+      <token status="ok" id="tok1186">connection</token>
+      <token status="ok" id="tok1187">so</token>
+      <token status="ok" id="tok1188">the</token>
+      <token status="ok" id="tok1189">path</token>
+      <token status="ok" id="tok1190">is</token>
+      <token status="ok" id="tok1191">not</token>
+      <token status="ok" id="tok1192">closed</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="A damaged bulb does not create a gap in a closed path" id="SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbjb11-l1.qa73" accuracy="contradictory">
+      <token status="ok" id="tok1204">A</token>
+      <token status="ok" id="tok1205">damaged</token>
+      <token status="ok" id="tok1206">bulb</token>
+      <token status="ok" id="tok1207">does</token>
+      <token status="ok" id="tok1208">not</token>
+      <token status="ok" id="tok1209">create</token>
+      <token status="ok" id="tok1210">a</token>
+      <token status="ok" id="tok1211">gap</token>
+      <token status="ok" id="tok1212">in</token>
+      <token status="ok" id="tok1213">a</token>
+      <token status="ok" id="tok1214">closed</token>
+      <token status="ok" id="tok1215">path</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer57" raw_text="If bulb B is damaged there is a gap in the circuit" id="SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbjb12-l1.qa74" accuracy="correct">
+      <token status="ok" id="tok1202">If</token>
+      <token status="ok" id="tok1203">bulb</token>
+      <token status="ok" id="tok1204">B</token>
+      <token status="ok" id="tok1205">is</token>
+      <token status="ok" id="tok1206">damaged</token>
+      <token status="ok" id="tok1207">there</token>
+      <token status="ok" id="tok1208">is</token>
+      <token status="ok" id="tok1209">a</token>
+      <token status="ok" id="tok1210">gap</token>
+      <token status="ok" id="tok1211">in</token>
+      <token status="ok" id="tok1212">the</token>
+      <token status="ok" id="tok1213">circuit</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer55" raw_text="If buld B is damaged that will create a gap." id="SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbjb13-l1.qa72" accuracy="correct">
+      <token status="ok" id="tok1227">If</token>
+      <token status="ok" id="tok1228" original="buld">bulb</token>
+      <token status="ok" id="tok1229">B</token>
+      <token status="ok" id="tok1230">is</token>
+      <token status="ok" id="tok1231">damaged</token>
+      <token status="ok" id="tok1232">that</token>
+      <token status="ok" id="tok1233">will</token>
+      <token status="ok" id="tok1234">create</token>
+      <token status="ok" id="tok1235">a</token>
+      <token status="ok" id="tok1236">gap</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="Maybe because there is still one path that connects A and C through B" id="SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbjb15-l1.qa73" accuracy="contradictory">
+      <token status="ok" id="tok1219">Maybe</token>
+      <token status="ok" id="tok1220">because</token>
+      <token status="ok" id="tok1221">there</token>
+      <token status="ok" id="tok1222">is</token>
+      <token status="ok" id="tok1223">still</token>
+      <token status="ok" id="tok1224">one</token>
+      <token status="ok" id="tok1225">path</token>
+      <token status="ok" id="tok1226">that</token>
+      <token status="ok" id="tok1227">connects</token>
+      <token status="ok" id="tok1228">A</token>
+      <token status="ok" id="tok1229">and</token>
+      <token status="ok" id="tok1230">C</token>
+      <token status="ok" id="tok1231">through</token>
+      <token status="ok" id="tok1232">B</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer57" raw_text="There will be a gap where the bulb holder is supposed to be" id="SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbjb16-l1.qa73" accuracy="correct">
+      <token status="ok" id="tok1263">There</token>
+      <token status="ok" id="tok1264">will</token>
+      <token status="ok" id="tok1265">be</token>
+      <token status="ok" id="tok1266">a</token>
+      <token status="ok" id="tok1267">gap</token>
+      <token status="ok" id="tok1268">where</token>
+      <token status="ok" id="tok1269">the</token>
+      <token status="ok" id="tok1270">bulb</token>
+      <token status="ok" id="tok1271">holder</token>
+      <token status="ok" id="tok1272">is</token>
+      <token status="ok" id="tok1273">supposed</token>
+      <token status="ok" id="tok1274">to</token>
+      <token status="ok" id="tok1275">be</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer55" raw_text="Burned out bulb B will cause a gap in the closed path." id="SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbjb17-l1.qa73" accuracy="correct">
+      <token status="ok" id="tok1233">Burned</token>
+      <token status="ok" id="tok1234">out</token>
+      <token status="ok" id="tok1235">bulb</token>
+      <token status="ok" id="tok1236">B</token>
+      <token status="ok" id="tok1237">will</token>
+      <token status="ok" id="tok1238">cause</token>
+      <token status="ok" id="tok1239">a</token>
+      <token status="ok" id="tok1240">gap</token>
+      <token status="ok" id="tok1241">in</token>
+      <token status="ok" id="tok1242">the</token>
+      <token status="ok" id="tok1243">closed</token>
+      <token status="ok" id="tok1244">path</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer57" raw_text="Because there is a gap." id="SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbjb18-l1.qa80" accuracy="correct">
+      <token status="ok" id="tok1319">Because</token>
+      <token status="ok" id="tok1320">there</token>
+      <token status="ok" id="tok1321">is</token>
+      <token status="ok" id="tok1322">a</token>
+      <token status="ok" id="tok1323">gap</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer57" raw_text="because there is a gap in the bulb" id="SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbjb19-l1.qa76" accuracy="contradictory">
+      <token status="ok" id="tok1230">because</token>
+      <token status="ok" id="tok1231">there</token>
+      <token status="ok" id="tok1232">is</token>
+      <token status="ok" id="tok1233">a</token>
+      <token status="ok" id="tok1234">gap</token>
+      <token status="ok" id="tok1235">in</token>
+      <token status="ok" id="tok1236">the</token>
+      <token status="ok" id="tok1237">bulb</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer55" raw_text="it will cut off the circuit" id="SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbjb21-l1.qa71" accuracy="contradictory">
+      <token status="ok" id="tok1185">it</token>
+      <token status="ok" id="tok1186">will</token>
+      <token status="ok" id="tok1187">cut</token>
+      <token status="ok" id="tok1188">off</token>
+      <token status="ok" id="tok1189">the</token>
+      <token status="ok" id="tok1190">circuit</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="I&quot;m not sure." id="SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbjb25-l1.qa73" accuracy="non_domain">
+      <token status="ok" id="tok1229">I</token>
+      <token status="pennTokenFragment" id="tok1230">'m</token>
+      <token status="ok" id="tok1231">not</token>
+      <token status="ok" id="tok1232">sure</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer60" raw_text="If bulb B is damaged, then the circut is no longer closed." id="SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbjb26-l1.qa71" accuracy="contradictory">
+      <token status="ok" id="tok1232">If</token>
+      <token status="ok" id="tok1233">bulb</token>
+      <token status="ok" id="tok1234">B</token>
+      <token status="ok" id="tok1235">is</token>
+      <token status="ok" id="tok1236">damaged</token>
+      <token status="ok" id="tok1237">then</token>
+      <token status="ok" id="tok1238">the</token>
+      <token status="ok" id="tok1239" original="circut">circuit</token>
+      <token status="ok" id="tok1240">is</token>
+      <token status="ok" id="tok1241">no</token>
+      <token status="ok" id="tok1242">longer</token>
+      <token status="ok" id="tok1243">closed</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer55" raw_text="bulb B becomes a gap in the circuit" id="SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbjb27-l1.qa71" accuracy="correct">
+      <token status="ok" id="tok1201">bulb</token>
+      <token status="ok" id="tok1202">B</token>
+      <token status="ok" id="tok1203">becomes</token>
+      <token status="ok" id="tok1204">a</token>
+      <token status="ok" id="tok1205">gap</token>
+      <token status="ok" id="tok1206">in</token>
+      <token status="ok" id="tok1207">the</token>
+      <token status="ok" id="tok1208">circuit</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="The bulbs aren&quot;t codependent so they will still be on" id="SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbjb28-l1.qa75" accuracy="contradictory">
+      <token status="ok" id="tok1182">The</token>
+      <token status="ok" id="tok1183">bulbs</token>
+      <token status="ok" id="tok1184">are</token>
+      <token status="pennTokenFragment" id="tok1185">n't</token>
+      <token status="ok" id="tok1186" original="codependent">co-dependent</token>
+      <token status="ok" id="tok1187">so</token>
+      <token status="ok" id="tok1188">they</token>
+      <token status="ok" id="tok1189">will</token>
+      <token status="ok" id="tok1190">still</token>
+      <token status="ok" id="tok1191">be</token>
+      <token status="ok" id="tok1192">on</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer57" raw_text="there would be a gap in the circuit" id="SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbjb29-l1.qa74" accuracy="correct">
+      <token status="ok" id="tok1267">there</token>
+      <token status="ok" id="tok1268">would</token>
+      <token status="ok" id="tok1269">be</token>
+      <token status="ok" id="tok1270">a</token>
+      <token status="ok" id="tok1271">gap</token>
+      <token status="ok" id="tok1272">in</token>
+      <token status="ok" id="tok1273">the</token>
+      <token status="ok" id="tok1274">circuit</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer55" raw_text="the gap between the damaged wires of bulb b creates a gap in the path." id="SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbjb30-l1.qa71" accuracy="correct">
+      <token status="ok" id="tok1294">the</token>
+      <token status="ok" id="tok1295">gap</token>
+      <token status="ok" id="tok1296">between</token>
+      <token status="ok" id="tok1297">the</token>
+      <token status="ok" id="tok1298">damaged</token>
+      <token status="ok" id="tok1299">wires</token>
+      <token status="ok" id="tok1300">of</token>
+      <token status="ok" id="tok1301">bulb</token>
+      <token status="ok" id="tok1302">b</token>
+      <token status="ok" id="tok1303">creates</token>
+      <token status="ok" id="tok1304">a</token>
+      <token status="ok" id="tok1305">gap</token>
+      <token status="ok" id="tok1306">in</token>
+      <token status="ok" id="tok1307">the</token>
+      <token status="ok" id="tok1308">path</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="the current will flow to the other bulbs even though it is not able to execute light on B. Also, I&quot;ve experienced that one light can be out without them all being affected." id="SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbjb31-l1.qa71" accuracy="contradictory">
+      <token status="ok" id="tok1211">the</token>
+      <token status="ok" id="tok1212">current</token>
+      <token status="ok" id="tok1213">will</token>
+      <token status="ok" id="tok1214">flow</token>
+      <token status="ok" id="tok1215">to</token>
+      <token status="ok" id="tok1216">the</token>
+      <token status="ok" id="tok1217">other</token>
+      <token status="ok" id="tok1218">bulbs</token>
+      <token status="ok" id="tok1219">even</token>
+      <token status="ok" id="tok1220">though</token>
+      <token status="ok" id="tok1221">it</token>
+      <token status="ok" id="tok1222">is</token>
+      <token status="ok" id="tok1223">not</token>
+      <token status="ok" id="tok1224">able</token>
+      <token status="ok" id="tok1225">to</token>
+      <token status="ok" id="tok1226">execute</token>
+      <token status="ok" id="tok1227">light</token>
+      <token status="ok" id="tok1228">on</token>
+      <token status="ok" id="tok1229">B</token>
+      <token status="ok" id="tok1230">Also</token>
+      <token status="ok" id="tok1231">I</token>
+      <token status="pennTokenFragment" id="tok1232">'ve</token>
+      <token status="ok" id="tok1233">experienced</token>
+      <token status="ok" id="tok1234">that</token>
+      <token status="ok" id="tok1235">one</token>
+      <token status="ok" id="tok1236">light</token>
+      <token status="ok" id="tok1237">can</token>
+      <token status="ok" id="tok1238">be</token>
+      <token status="ok" id="tok1239">out</token>
+      <token status="ok" id="tok1240">without</token>
+      <token status="ok" id="tok1241">them</token>
+      <token status="ok" id="tok1242">all</token>
+      <token status="ok" id="tok1243">being</token>
+      <token status="ok" id="tok1244">affected</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="Because their is a gap between A and C now." id="SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbjb32-l1.qa73" accuracy="correct">
+      <token status="ok" id="tok1228">Because</token>
+      <token status="ok" id="tok1229">their</token>
+      <token status="ok" id="tok1230">is</token>
+      <token status="ok" id="tok1231">a</token>
+      <token status="ok" id="tok1232">gap</token>
+      <token status="ok" id="tok1233">between</token>
+      <token status="ok" id="tok1234">A</token>
+      <token status="ok" id="tok1235">and</token>
+      <token status="ok" id="tok1236">C</token>
+      <token status="ok" id="tok1237">now</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer57" raw_text="When bulb B is damaged there is a disruption in the current." id="SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbjb34-l1.qa71" accuracy="contradictory">
+      <token status="ok" id="tok1183">When</token>
+      <token status="ok" id="tok1184">bulb</token>
+      <token status="ok" id="tok1185">B</token>
+      <token status="ok" id="tok1186">is</token>
+      <token status="ok" id="tok1187">damaged</token>
+      <token status="ok" id="tok1188">there</token>
+      <token status="ok" id="tok1189">is</token>
+      <token status="ok" id="tok1190">a</token>
+      <token status="ok" id="tok1191">disruption</token>
+      <token status="ok" id="tok1192">in</token>
+      <token status="ok" id="tok1193">the</token>
+      <token status="ok" id="tok1194">current</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer59" raw_text="if it is not connected the electrical current can&quot;t pass through to connect the other bulbs." id="SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbjb36-l1.qa71" accuracy="partially_correct_incomplete">
+      <token status="ok" id="tok1262">if</token>
+      <token status="ok" id="tok1263">it</token>
+      <token status="ok" id="tok1264">is</token>
+      <token status="ok" id="tok1265">not</token>
+      <token status="ok" id="tok1266">connected</token>
+      <token status="ok" id="tok1267">the</token>
+      <token status="ok" id="tok1268">electrical</token>
+      <token status="ok" id="tok1269">current</token>
+      <token status="stem" id="tok1270">ca</token>
+      <token status="pennTokenFragment" id="tok1271">n't</token>
+      <token status="ok" id="tok1272">pass</token>
+      <token status="ok" id="tok1273">through</token>
+      <token status="ok" id="tok1274">to</token>
+      <token status="ok" id="tok1275">connect</token>
+      <token status="ok" id="tok1276">the</token>
+      <token status="ok" id="tok1277">other</token>
+      <token status="ok" id="tok1278">bulbs</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="There are two pathways" id="SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbjb37-l1.qa71" accuracy="contradictory">
+      <token status="ok" id="tok1179">There</token>
+      <token status="ok" id="tok1180">are</token>
+      <token status="ok" id="tok1181">two</token>
+      <token status="ok" id="tok1182">pathways</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer59" raw_text="The circuit will become incomplete." id="SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbjb38-l1.qa72" accuracy="correct">
+      <token status="ok" id="tok1191">The</token>
+      <token status="ok" id="tok1192">circuit</token>
+      <token status="ok" id="tok1193">will</token>
+      <token status="ok" id="tok1194">become</token>
+      <token status="ok" id="tok1195">incomplete</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer57" raw_text="If bulb B is damaged, there will be a gap." id="SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbjb39-l1.qa71" accuracy="correct">
+      <token status="ok" id="tok1255">If</token>
+      <token status="ok" id="tok1256">bulb</token>
+      <token status="ok" id="tok1257">B</token>
+      <token status="ok" id="tok1258">is</token>
+      <token status="ok" id="tok1259">damaged</token>
+      <token status="ok" id="tok1260">there</token>
+      <token status="ok" id="tok1261">will</token>
+      <token status="ok" id="tok1262">be</token>
+      <token status="ok" id="tok1263">a</token>
+      <token status="ok" id="tok1264">gap</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer57" raw_text="There would be a gap." id="SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbjb40-l1.qa71" accuracy="correct">
+      <token status="ok" id="tok1241">There</token>
+      <token status="ok" id="tok1242">would</token>
+      <token status="ok" id="tok1243">be</token>
+      <token status="ok" id="tok1244">a</token>
+      <token status="ok" id="tok1245">gap</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer55" raw_text="it would create a gap" id="SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbjb42-l1.qa72" accuracy="correct">
+      <token status="ok" id="tok1214">it</token>
+      <token status="ok" id="tok1215">would</token>
+      <token status="ok" id="tok1216">create</token>
+      <token status="ok" id="tok1217">a</token>
+      <token status="ok" id="tok1218">gap</token>
+    </studentAnswer>
+  </studentAnswers>
+</question>

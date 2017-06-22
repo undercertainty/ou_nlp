@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<question testSet="unseen-answers" qtype="Q_EXPLAIN_SPECIFIC" id="BURNED_BULB_PARALLEL_WHY_Q" module="SwitchesBulbsParallel" stype="EVALUATE">
+  <questionText>Why didn^t bulbs A and C go out after bulb B burned out?</questionText>
+  <referenceAnswers>
+    <referenceAnswer category="BEST" id="answer366" fileID="BURNED_BULB_PARALLEL_WHY_Q_ANS1">Bulbs A and C are still contained in closed paths with the battery</referenceAnswer>
+    <referenceAnswer category="GOOD" id="answer367" fileID="BURNED_BULB_PARALLEL_WHY_Q_ANS2">Bulbs A and C are still in closed paths</referenceAnswer>
+    <referenceAnswer category="GOOD" id="answer368" fileID="BURNED_BULB_PARALLEL_WHY_Q_ANS3">B is not in their paths</referenceAnswer>
+    <referenceAnswer category="MINIMAL" id="answer369" fileID="BURNED_BULB_PARALLEL_WHY_Q_ANS4">A, B and C are in different paths</referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer count="1" raw_text="because yyou are retarded" id="SwitchesBulbsParallel-BURNED_BULB_PARALLEL_WHY_Q.sbj15-l2.qa119" accuracy="non_domain">
+      <token status="ok" id="tok2520">because</token>
+      <token status="ok" id="tok2521" original="yyou">you</token>
+      <token status="ok" id="tok2522">are</token>
+      <token status="ok" id="tok2523">retarded</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer368" raw_text="bulbs a and c were not in a closed path with bulb b" id="SwitchesBulbsParallel-BURNED_BULB_PARALLEL_WHY_Q.sbj29-l2.qa107" accuracy="correct">
+      <token status="ok" id="tok2155">bulbs</token>
+      <token status="ok" id="tok2156">a</token>
+      <token status="ok" id="tok2157">and</token>
+      <token status="ok" id="tok2158">c</token>
+      <token status="ok" id="tok2159">were</token>
+      <token status="ok" id="tok2160">not</token>
+      <token status="ok" id="tok2161">in</token>
+      <token status="ok" id="tok2162">a</token>
+      <token status="ok" id="tok2163">closed</token>
+      <token status="ok" id="tok2164">path</token>
+      <token status="ok" id="tok2165">with</token>
+      <token status="ok" id="tok2166">bulb</token>
+      <token status="ok" id="tok2167">b</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="a and c are in a closed path with the battery" id="SwitchesBulbsParallel-BURNED_BULB_PARALLEL_WHY_Q.sbj31-l2.qa109" accuracy="correct">
+      <token status="ok" id="tok2098">a</token>
+      <token status="ok" id="tok2099">and</token>
+      <token status="ok" id="tok2100">c</token>
+      <token status="ok" id="tok2101">are</token>
+      <token status="ok" id="tok2102">in</token>
+      <token status="ok" id="tok2103">a</token>
+      <token status="ok" id="tok2104">closed</token>
+      <token status="ok" id="tok2105">path</token>
+      <token status="ok" id="tok2106">with</token>
+      <token status="ok" id="tok2107">the</token>
+      <token status="ok" id="tok2108">battery</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer369" raw_text="because they are in seperate paths" id="SwitchesBulbsParallel-BURNED_BULB_PARALLEL_WHY_Q.sbjb16-l2.qa88" accuracy="correct">
+      <token status="ok" id="tok1755">because</token>
+      <token status="ok" id="tok1756">they</token>
+      <token status="ok" id="tok1757">are</token>
+      <token status="ok" id="tok1758">in</token>
+      <token status="ok" id="tok1759" original="seperate">separate</token>
+      <token status="ok" id="tok1760">paths</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer368" raw_text="because bulb b is not in the same path as the other bulbs" id="SwitchesBulbsParallel-BURNED_BULB_PARALLEL_WHY_Q.sbjb19-l2.qa87" accuracy="correct">
+      <token status="ok" id="tok1794">because</token>
+      <token status="ok" id="tok1795">bulb</token>
+      <token status="ok" id="tok1796">b</token>
+      <token status="ok" id="tok1797">is</token>
+      <token status="ok" id="tok1798">not</token>
+      <token status="ok" id="tok1799">in</token>
+      <token status="ok" id="tok1800">the</token>
+      <token status="ok" id="tok1801">same</token>
+      <token status="ok" id="tok1802">path</token>
+      <token status="ok" id="tok1803">as</token>
+      <token status="ok" id="tok1804">the</token>
+      <token status="ok" id="tok1805">other</token>
+      <token status="ok" id="tok1806">bulbs</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer367" raw_text="They had a direct contained path" id="SwitchesBulbsParallel-BURNED_BULB_PARALLEL_WHY_Q.sbjb40-l2.qa87" accuracy="partially_correct_incomplete">
+      <token status="ok" id="tok1763">They</token>
+      <token status="ok" id="tok1764">had</token>
+      <token status="ok" id="tok1765">a</token>
+      <token status="ok" id="tok1766">direct</token>
+      <token status="ok" id="tok1767">contained</token>
+      <token status="ok" id="tok1768">path</token>
+    </studentAnswer>
+  </studentAnswers>
+</question>

@@ -1,0 +1,1039 @@
+<?xml version="1.0"?>
+<question testSet="unseen-domains" id="EV_21" module="EV">
+  <questionText>Ms. Larson's class found the best condition to hatch brine-shrimp eggs: 2 spoons of salt in 200 milliliters of water. The class decided to hatch more eggs. Ms. Larson mixed a new solution using 2 spoons of salt in 200 milliliters of water. Later, she discovered she had used a slightly different size spoon to measure the salt. Even with this different solution, some eggs still hatched. Why did some eggs still hatch?</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="EV_21-a1" text="The different salt solution is within the range of tolerance for brine shrimp eggs to hatch.">
+      <tokens>
+        <token id="EV_21_ra1">The</token>
+        <token id="EV_21_ra2">different</token>
+        <token id="EV_21_ra3">salt</token>
+        <token id="EV_21_ra4">solution</token>
+        <token id="EV_21_ra5">is</token>
+        <token id="EV_21_ra6">within</token>
+        <token id="EV_21_ra7">the</token>
+        <token id="EV_21_ra8">range</token>
+        <token id="EV_21_ra9">of</token>
+        <token id="EV_21_ra10">tolerance</token>
+        <token id="EV_21_ra11">for</token>
+        <token id="EV_21_ra12">brine</token>
+        <token id="EV_21_ra13">shrimp</token>
+        <token id="EV_21_ra14">eggs</token>
+        <token id="EV_21_ra15">to</token>
+        <token id="EV_21_ra16">hatch</token>
+        <token id="EV_21_ra17">.</token>
+      </tokens>
+      <facets>
+        <facet id="EV_21_f1" govNum="EV_21_ra4" modNum="EV_21_ra3" reltn="NMod" govText="solution" isAssumed="true" modText="salt"/>
+        <facet id="EV_21_f2" govNum="EV_21_ra4" modNum="EV_21_ra2" reltn="NMod" govText="solution" isAssumed="true" modText="different"/>
+        <facet id="EV_21_f3" govNum="EV_21_ra4" modNum="EV_21_ra8" reltn="Location_within" govText="solution" modText="range"/>
+        <facet id="EV_21_f4" govNum="EV_21_ra8" modNum="EV_21_ra10" reltn="NMod_of" govText="range" modText="tolerance"/>
+        <facet id="EV_21_f5" govNum="EV_21_ra8" modNum="EV_21_ra16" reltn="NMod_for" childProp2Facet2="EV_21_f7" govText="range" modText="hatch" childProp2Facet1="EV_21_f6"/>
+        <facet id="EV_21_f6" govNum="EV_21_ra16" modNum="EV_21_ra14" reltn="Material_to" govText="hatch" isAssumed="true" modText="eggs"/>
+        <facet id="EV_21_f7" govNum="EV_21_ra14" modNum="EV_21_ra13" reltn="NMod" govText="eggs" isAssumed="true" modText="shrimp"/>
+        <facet id="EV_21_f8" govNum="EV_21_ra13" modNum="EV_21_ra12" reltn="NMod" govText="shrimp" isAssumed="true" modText="brine"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="EV.21.106.1" answerText="Because some eggs can handle more salt but some eggs cannot handle more salt." accuracy="correct">
+      <facetEntailment facetID="EV_21_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f2" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f3" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f4" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f5" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f6" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f7" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.21.110.1" answerText="If it turns yellow." accuracy="irrelevant">
+      <facetEntailment facetID="EV_21_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f2" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f3" label="Unaddressed"/>
+      <facetEntailment facetID="EV_21_f4" label="Unaddressed"/>
+      <facetEntailment facetID="EV_21_f5" label="Unaddressed"/>
+      <facetEntailment facetID="EV_21_f6" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f7" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.21.111.1" answerText="They hatched because they still put in 2 spoons of salt and 200 milliliters of water." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EV_21_f1" label="Expressed"/>
+      <facetEntailment facetID="EV_21_f2" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f3" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f4" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f5" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f6" label="Expressed"/>
+      <facetEntailment facetID="EV_21_f7" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.21.112.1" answerText="Because not all the eggs would of just died because it is just salt, not poison." accuracy="irrelevant">
+      <facetEntailment facetID="EV_21_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f2" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f3" label="Unaddressed"/>
+      <facetEntailment facetID="EV_21_f4" label="Unaddressed"/>
+      <facetEntailment facetID="EV_21_f5" label="Unaddressed"/>
+      <facetEntailment facetID="EV_21_f6" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f7" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.21.118.1" answerText="Because it was still viable." accuracy="irrelevant">
+      <facetEntailment facetID="EV_21_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f2" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f3" label="Unaddressed"/>
+      <facetEntailment facetID="EV_21_f4" label="Unaddressed"/>
+      <facetEntailment facetID="EV_21_f5" label="Unaddressed"/>
+      <facetEntailment facetID="EV_21_f6" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f7" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.21.121.1" answerText="Because they can hatch with one to 3 spoons of salt." accuracy="correct">
+      <facetEntailment facetID="EV_21_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f2" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f3" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f4" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f5" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f6" label="Expressed"/>
+      <facetEntailment facetID="EV_21_f7" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.21.124.1" answerText="Because it is supposed to." accuracy="irrelevant">
+      <facetEntailment facetID="EV_21_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f2" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f3" label="Unaddressed"/>
+      <facetEntailment facetID="EV_21_f4" label="Unaddressed"/>
+      <facetEntailment facetID="EV_21_f5" label="Unaddressed"/>
+      <facetEntailment facetID="EV_21_f6" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f7" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.21.125.1" answerText="Brine shrimp like salt." accuracy="irrelevant">
+      <facetEntailment facetID="EV_21_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f2" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f3" label="Unaddressed"/>
+      <facetEntailment facetID="EV_21_f4" label="Unaddressed"/>
+      <facetEntailment facetID="EV_21_f5" label="Unaddressed"/>
+      <facetEntailment facetID="EV_21_f6" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f7" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.21.128.1" answerText="Some eggs still hatched because brine shrimp are very salt tolerant." accuracy="correct">
+      <facetEntailment facetID="EV_21_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f2" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f3" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f4" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f5" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f6" label="Expressed"/>
+      <facetEntailment facetID="EV_21_f7" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.21.129.1" answerText="Because it was still in the range of tolerance." accuracy="correct">
+      <facetEntailment facetID="EV_21_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f2" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f3" label="Expressed"/>
+      <facetEntailment facetID="EV_21_f4" label="Expressed"/>
+      <facetEntailment facetID="EV_21_f5" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f6" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f7" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.21.130.1" answerText="She did not put that much salt in." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EV_21_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f2" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f3" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f4" label="Unaddressed"/>
+      <facetEntailment facetID="EV_21_f5" label="Unaddressed"/>
+      <facetEntailment facetID="EV_21_f6" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f7" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.21.131.1" answerText="I think some eggs still hatched because they could tolerate that much salt." accuracy="correct">
+      <facetEntailment facetID="EV_21_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f2" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f3" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f4" label="Expressed"/>
+      <facetEntailment facetID="EV_21_f5" label="Expressed"/>
+      <facetEntailment facetID="EV_21_f6" label="Expressed"/>
+      <facetEntailment facetID="EV_21_f7" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.21.132.1" answerText="Because some could have different tolerances for salt." accuracy="correct">
+      <facetEntailment facetID="EV_21_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f2" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f3" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f4" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f5" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f6" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f7" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.21.133.1" answerText="The brine shrimp eggs still hatched because brine shrimp's eggs can hatch in an even saltier environment than 2 spoons of salt." accuracy="correct">
+      <facetEntailment facetID="EV_21_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f2" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f3" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f4" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f5" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f6" label="Expressed"/>
+      <facetEntailment facetID="EV_21_f7" label="Expressed"/>
+      <facetEntailment facetID="EV_21_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.21.136.1" answerText="Some had still was the as much as it can handle." accuracy="correct">
+      <facetEntailment facetID="EV_21_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f2" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f3" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f4" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f5" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f6" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f7" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.21.140.1" answerText="Because it was in the range of tolerance." accuracy="correct">
+      <facetEntailment facetID="EV_21_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f2" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f3" label="Expressed"/>
+      <facetEntailment facetID="EV_21_f4" label="Expressed"/>
+      <facetEntailment facetID="EV_21_f5" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f6" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f7" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.21.144.1" answerText="Because, they probably had the right amount to grow." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EV_21_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f2" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f3" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f4" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f5" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f6" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f7" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.21.145.1" answerText="Because brine shrimp can still live in a little bit more than just 2 spoons of salt." accuracy="correct">
+      <facetEntailment facetID="EV_21_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f2" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f3" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f4" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f5" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f6" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f7" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.21.146.1" answerText="It probably made the process faster." accuracy="irrelevant">
+      <facetEntailment facetID="EV_21_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f2" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f3" label="Unaddressed"/>
+      <facetEntailment facetID="EV_21_f4" label="Unaddressed"/>
+      <facetEntailment facetID="EV_21_f5" label="Unaddressed"/>
+      <facetEntailment facetID="EV_21_f6" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f7" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.21.148.1" answerText="Because there was still salt in the water." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EV_21_f1" label="Expressed"/>
+      <facetEntailment facetID="EV_21_f2" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f3" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f4" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f5" label="Unaddressed"/>
+      <facetEntailment facetID="EV_21_f6" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f7" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.21.150.1" answerText="Because if there is salt still in the water the brine shrimp might still hatch." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EV_21_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f2" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f3" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f4" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f5" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f6" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f7" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.21.153.1" answerText="It takes I think brine shrimp at least one years to hatch or less." accuracy="irrelevant">
+      <facetEntailment facetID="EV_21_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f2" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f3" label="Unaddressed"/>
+      <facetEntailment facetID="EV_21_f4" label="Unaddressed"/>
+      <facetEntailment facetID="EV_21_f5" label="Unaddressed"/>
+      <facetEntailment facetID="EV_21_f6" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f7" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.21.154.1" answerText="Because the water still has some salinity or salt in it." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EV_21_f1" label="Expressed"/>
+      <facetEntailment facetID="EV_21_f2" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f3" label="Unaddressed"/>
+      <facetEntailment facetID="EV_21_f4" label="Unaddressed"/>
+      <facetEntailment facetID="EV_21_f5" label="Unaddressed"/>
+      <facetEntailment facetID="EV_21_f6" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f7" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.21.158.1" answerText="Because of the water and salt mixed in still." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EV_21_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f2" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f3" label="Unaddressed"/>
+      <facetEntailment facetID="EV_21_f4" label="Unaddressed"/>
+      <facetEntailment facetID="EV_21_f5" label="Unaddressed"/>
+      <facetEntailment facetID="EV_21_f6" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f7" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.21.159.1" answerText="Because they can probably handle more salt than others." accuracy="correct">
+      <facetEntailment facetID="EV_21_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f2" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f3" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f4" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f5" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f6" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f7" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.21.163.1" answerText="Because she only put 2 spoons of salt and some eggs hatched because it was not the right amount of salt." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EV_21_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f2" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f3" label="Unaddressed"/>
+      <facetEntailment facetID="EV_21_f4" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f5" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f6" label="Expressed"/>
+      <facetEntailment facetID="EV_21_f7" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.21.171.1" answerText="Slightly mean only a little more or less. Since it was only a little more or less they still hatched." accuracy="correct">
+      <facetEntailment facetID="EV_21_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f2" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f3" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f4" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f5" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f6" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f7" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.21.172.1" answerText="Maybe because it is still 2 spoons of salt. Maybe it worked because it still has 2 spoons of salt but a little bit more because the spoon was probably bigger." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EV_21_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f2" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f3" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f4" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f5" label="Unaddressed"/>
+      <facetEntailment facetID="EV_21_f6" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f7" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.21.180.1" answerText="Because my class did a experiment and put less spoons of salt, but something still hatched but not as much as 2 spoons." accuracy="irrelevant">
+      <facetEntailment facetID="EV_21_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f2" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f3" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f4" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f5" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f6" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f7" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.21.182.1" answerText="Some eggs still hatched because the most salt the better." accuracy="contradictory">
+      <facetEntailment facetID="EV_21_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f2" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f3" label="Unaddressed"/>
+      <facetEntailment facetID="EV_21_f4" label="Unaddressed"/>
+      <facetEntailment facetID="EV_21_f5" label="Unaddressed"/>
+      <facetEntailment facetID="EV_21_f6" label="Expressed"/>
+      <facetEntailment facetID="EV_21_f7" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.21.183.1" answerText="Because, they put water and a lot of salt, so they will hatch more and more." accuracy="contradictory">
+      <facetEntailment facetID="EV_21_f1" label="Expressed"/>
+      <facetEntailment facetID="EV_21_f2" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f3" label="Unaddressed"/>
+      <facetEntailment facetID="EV_21_f4" label="Unaddressed"/>
+      <facetEntailment facetID="EV_21_f5" label="Unaddressed"/>
+      <facetEntailment facetID="EV_21_f6" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f7" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.21.185.1" answerText="Eggs hatched because the eggs from the first time hatched when Mrs. Larson added more salt in a different size spoon it was too much salt. That is why some of them did not hatch." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EV_21_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f2" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f3" label="Unaddressed"/>
+      <facetEntailment facetID="EV_21_f4" label="Unaddressed"/>
+      <facetEntailment facetID="EV_21_f5" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f6" label="Expressed"/>
+      <facetEntailment facetID="EV_21_f7" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.21.194.1" answerText="Some eggs still hatched because they did more and because they did it right." accuracy="irrelevant">
+      <facetEntailment facetID="EV_21_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f2" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f3" label="Unaddressed"/>
+      <facetEntailment facetID="EV_21_f4" label="Unaddressed"/>
+      <facetEntailment facetID="EV_21_f5" label="Unaddressed"/>
+      <facetEntailment facetID="EV_21_f6" label="Expressed"/>
+      <facetEntailment facetID="EV_21_f7" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.21.195.1" answerText="There was probably just a salt in it." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EV_21_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f2" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f3" label="Unaddressed"/>
+      <facetEntailment facetID="EV_21_f4" label="Unaddressed"/>
+      <facetEntailment facetID="EV_21_f5" label="Unaddressed"/>
+      <facetEntailment facetID="EV_21_f6" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f7" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.21.196.1" answerText="Because of the leftover salt. And egg inside. And she probably put a lot of salt." accuracy="irrelevant">
+      <facetEntailment facetID="EV_21_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f2" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f3" label="Unaddressed"/>
+      <facetEntailment facetID="EV_21_f4" label="Unaddressed"/>
+      <facetEntailment facetID="EV_21_f5" label="Unaddressed"/>
+      <facetEntailment facetID="EV_21_f6" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f7" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.21.206.1" answerText="They hatched because they had a more optimum amount of salt." accuracy="correct">
+      <facetEntailment facetID="EV_21_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f2" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f3" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f4" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f5" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f6" label="Expressed"/>
+      <facetEntailment facetID="EV_21_f7" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.21.208.1" answerText="The size of the spoon of salt." accuracy="irrelevant">
+      <facetEntailment facetID="EV_21_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f2" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f3" label="Unaddressed"/>
+      <facetEntailment facetID="EV_21_f4" label="Unaddressed"/>
+      <facetEntailment facetID="EV_21_f5" label="Unaddressed"/>
+      <facetEntailment facetID="EV_21_f6" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f7" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.21.211.1" answerText="Maybe she did not add extra salt." accuracy="irrelevant">
+      <facetEntailment facetID="EV_21_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f2" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f3" label="Unaddressed"/>
+      <facetEntailment facetID="EV_21_f4" label="Unaddressed"/>
+      <facetEntailment facetID="EV_21_f5" label="Unaddressed"/>
+      <facetEntailment facetID="EV_21_f6" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f7" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.21.214.1" answerText="Because of the salt." accuracy="irrelevant">
+      <facetEntailment facetID="EV_21_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f2" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f3" label="Unaddressed"/>
+      <facetEntailment facetID="EV_21_f4" label="Unaddressed"/>
+      <facetEntailment facetID="EV_21_f5" label="Unaddressed"/>
+      <facetEntailment facetID="EV_21_f6" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f7" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.21.219.1" answerText="Some eggs hatched because you do not need a certain amount of spoons of salt unless there is not too much." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EV_21_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f2" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f3" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f4" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f5" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f6" label="Expressed"/>
+      <facetEntailment facetID="EV_21_f7" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.21.222.1" answerText="Some eggs still hatched because those eggs can tolerate that much salt and water." accuracy="correct">
+      <facetEntailment facetID="EV_21_f1" label="Expressed"/>
+      <facetEntailment facetID="EV_21_f2" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f3" label="Expressed"/>
+      <facetEntailment facetID="EV_21_f4" label="Expressed"/>
+      <facetEntailment facetID="EV_21_f5" label="Expressed"/>
+      <facetEntailment facetID="EV_21_f6" label="Expressed"/>
+      <facetEntailment facetID="EV_21_f7" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.21.226.1" answerText="Because brine shrimp hatch in saltwater, and because she put salt in the water they will hatch." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EV_21_f1" label="Expressed"/>
+      <facetEntailment facetID="EV_21_f2" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f3" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f4" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f5" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f6" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f7" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.21.241.1" answerText="Because the spoon could have been smaller than the other spoon." accuracy="irrelevant">
+      <facetEntailment facetID="EV_21_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f2" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f3" label="Unaddressed"/>
+      <facetEntailment facetID="EV_21_f4" label="Unaddressed"/>
+      <facetEntailment facetID="EV_21_f5" label="Unaddressed"/>
+      <facetEntailment facetID="EV_21_f6" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f7" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.21.243.1" answerText="Some eggs liked the environment." accuracy="correct">
+      <facetEntailment facetID="EV_21_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f2" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f3" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f4" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f5" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f6" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f7" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.21.244.1" answerText="Since the 2 spoons with the new spoon was still in the range of tolerance." accuracy="correct">
+      <facetEntailment facetID="EV_21_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f2" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f3" label="Expressed"/>
+      <facetEntailment facetID="EV_21_f4" label="Expressed"/>
+      <facetEntailment facetID="EV_21_f5" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f6" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f7" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.21.245.1" answerText="Some eggs still hatched, because of the salt." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EV_21_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f2" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f3" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f4" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f5" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f6" label="Expressed"/>
+      <facetEntailment facetID="EV_21_f7" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.21.250.1" answerText="The eggs hatched since the water was not saturated." accuracy="irrelevant">
+      <facetEntailment facetID="EV_21_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f2" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f3" label="Unaddressed"/>
+      <facetEntailment facetID="EV_21_f4" label="Unaddressed"/>
+      <facetEntailment facetID="EV_21_f5" label="Unaddressed"/>
+      <facetEntailment facetID="EV_21_f6" label="Expressed"/>
+      <facetEntailment facetID="EV_21_f7" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.21.254.1" answerText="She still put salt in the cups and she did not." accuracy="irrelevant">
+      <facetEntailment facetID="EV_21_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f2" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f3" label="Unaddressed"/>
+      <facetEntailment facetID="EV_21_f4" label="Unaddressed"/>
+      <facetEntailment facetID="EV_21_f5" label="Unaddressed"/>
+      <facetEntailment facetID="EV_21_f6" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f7" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.21.255.1" answerText="The water must have dissolved some of the salt and the amount of salt that was left over must have been enough for the brine shrimp eggs to hatch and to tolerate." accuracy="correct">
+      <facetEntailment facetID="EV_21_f1" label="Expressed"/>
+      <facetEntailment facetID="EV_21_f2" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f3" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f4" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f5" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f6" label="Expressed"/>
+      <facetEntailment facetID="EV_21_f7" label="Expressed"/>
+      <facetEntailment facetID="EV_21_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.21.256.1" answerText="Because it is just a little more than before." accuracy="correct">
+      <facetEntailment facetID="EV_21_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f2" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f3" label="Unaddressed"/>
+      <facetEntailment facetID="EV_21_f4" label="Unaddressed"/>
+      <facetEntailment facetID="EV_21_f5" label="Unaddressed"/>
+      <facetEntailment facetID="EV_21_f6" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f7" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.21.263.1" answerText="Because maybe she only put one spoon of salt and it was the same amount of salt of 2 spoons." accuracy="irrelevant">
+      <facetEntailment facetID="EV_21_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f2" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f3" label="Unaddressed"/>
+      <facetEntailment facetID="EV_21_f4" label="Unaddressed"/>
+      <facetEntailment facetID="EV_21_f5" label="Unaddressed"/>
+      <facetEntailment facetID="EV_21_f6" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f7" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.21.264.1" answerText="Because even though she used a different spoon the salt amount might have changed slightly." accuracy="irrelevant">
+      <facetEntailment facetID="EV_21_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f2" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f3" label="Unaddressed"/>
+      <facetEntailment facetID="EV_21_f4" label="Unaddressed"/>
+      <facetEntailment facetID="EV_21_f5" label="Unaddressed"/>
+      <facetEntailment facetID="EV_21_f6" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f7" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.21.265.1" answerText="Some eggs still hatched because it was still in saltwater." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EV_21_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f2" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f3" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f4" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f5" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f6" label="Expressed"/>
+      <facetEntailment facetID="EV_21_f7" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.21.276.1" answerText="She put too much water or too much salt." accuracy="irrelevant">
+      <facetEntailment facetID="EV_21_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f2" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f3" label="Unaddressed"/>
+      <facetEntailment facetID="EV_21_f4" label="Unaddressed"/>
+      <facetEntailment facetID="EV_21_f5" label="Unaddressed"/>
+      <facetEntailment facetID="EV_21_f6" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f7" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.21.278.1" answerText="Because it still had salt in it and brine shrimp need it." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EV_21_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f2" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f3" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f4" label="Unaddressed"/>
+      <facetEntailment facetID="EV_21_f5" label="Unaddressed"/>
+      <facetEntailment facetID="EV_21_f6" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f7" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.21.279.1" answerText="Because the water diluted some of the salt." accuracy="irrelevant">
+      <facetEntailment facetID="EV_21_f1" label="Expressed"/>
+      <facetEntailment facetID="EV_21_f2" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f3" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f4" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f5" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f6" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f7" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.21.288.1" answerText="Because the amount of salt is still in the brine shrimp's range of tolerance, one spoon of milliliters to 2 spoons of milliliters." accuracy="correct">
+      <facetEntailment facetID="EV_21_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f2" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f3" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f4" label="Expressed"/>
+      <facetEntailment facetID="EV_21_f5" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f6" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f7" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.21.289.1" answerText="Because there was probably too much salt in one place and just right in another." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EV_21_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f2" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f3" label="Unaddressed"/>
+      <facetEntailment facetID="EV_21_f4" label="Unaddressed"/>
+      <facetEntailment facetID="EV_21_f5" label="Unaddressed"/>
+      <facetEntailment facetID="EV_21_f6" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f7" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.21.298.1" answerText="They hatched because the eggs had the right amount of water and the right amount of water." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EV_21_f1" label="Diff-Arg"/>
+      <facetEntailment facetID="EV_21_f2" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f3" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f4" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f5" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f6" label="Expressed"/>
+      <facetEntailment facetID="EV_21_f7" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.21.301.1" answerText="Because it still in the range of tolerance." accuracy="correct">
+      <facetEntailment facetID="EV_21_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f2" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f3" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f4" label="Expressed"/>
+      <facetEntailment facetID="EV_21_f5" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f6" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f7" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.21.316.1" answerText="Because it was close to the optimum condition so that way some still hatched." accuracy="correct">
+      <facetEntailment facetID="EV_21_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f2" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f3" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f4" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f5" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f6" label="Expressed"/>
+      <facetEntailment facetID="EV_21_f7" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.21.317.1" answerText="Some eggs still hatched because maybe the brine shrimp liked that amount of salt." accuracy="correct">
+      <facetEntailment facetID="EV_21_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f2" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f3" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f4" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f5" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f6" label="Expressed"/>
+      <facetEntailment facetID="EV_21_f7" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.21.326.1" answerText="Some eggs hatch because brine shrimp live in saltwater so some of them hatch because of the saltwater in it." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EV_21_f1" label="Expressed"/>
+      <facetEntailment facetID="EV_21_f2" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f3" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f4" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f5" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f6" label="Expressed"/>
+      <facetEntailment facetID="EV_21_f7" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.21.331.1" answerText="Some eggs hatched because the optimum condition was 2 spoons of salt. She added 2 spoons of salt but she used a different sized spoon." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EV_21_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f2" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f3" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f4" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f5" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f6" label="Expressed"/>
+      <facetEntailment facetID="EV_21_f7" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.21.418.1" answerText="She used more salt than she wanted to." accuracy="irrelevant">
+      <facetEntailment facetID="EV_21_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f2" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f3" label="Unaddressed"/>
+      <facetEntailment facetID="EV_21_f4" label="Unaddressed"/>
+      <facetEntailment facetID="EV_21_f5" label="Unaddressed"/>
+      <facetEntailment facetID="EV_21_f6" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f7" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.21.419.1" answerText="Because the range of tolerance of salt is 2 spoons to 4 or 5 with that size spoons." accuracy="correct">
+      <facetEntailment facetID="EV_21_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f2" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f3" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f4" label="Expressed"/>
+      <facetEntailment facetID="EV_21_f5" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f6" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f7" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.21.423.1" answerText="As long as there is the right or more amount of salt, eggs will hatch." accuracy="correct">
+      <facetEntailment facetID="EV_21_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f2" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f3" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f4" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f5" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f6" label="Expressed"/>
+      <facetEntailment facetID="EV_21_f7" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.21.425.1" answerText="Because there was still salt in there and if there is salt then they will hatch." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EV_21_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f2" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f3" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f4" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f5" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f6" label="Expressed"/>
+      <facetEntailment facetID="EV_21_f7" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.21.427.1" answerText="Because 2 spoons of salt was the best and just a little would not hurt the eggs. It was like our experiment, though they had different salinity levels they all hatched, except for cup 0." accuracy="correct">
+      <facetEntailment facetID="EV_21_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f2" label="Expressed"/>
+      <facetEntailment facetID="EV_21_f3" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f4" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f5" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f6" label="Expressed"/>
+      <facetEntailment facetID="EV_21_f7" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.21.431.1" answerText="Because it was a little past the range of tolerance." accuracy="contradictory">
+      <facetEntailment facetID="EV_21_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f2" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f3" label="Contra-Expr"/>
+      <facetEntailment facetID="EV_21_f4" label="Expressed"/>
+      <facetEntailment facetID="EV_21_f5" label="Unaddressed"/>
+      <facetEntailment facetID="EV_21_f6" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f7" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.21.433.1" answerText="More eggs need more salt." accuracy="irrelevant">
+      <facetEntailment facetID="EV_21_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f2" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f3" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f4" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f5" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f6" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f7" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.21.436.1" answerText="The eggs still hatched because she still put the salt but with a different amount." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EV_21_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f2" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f3" label="Unaddressed"/>
+      <facetEntailment facetID="EV_21_f4" label="Unaddressed"/>
+      <facetEntailment facetID="EV_21_f5" label="Unaddressed"/>
+      <facetEntailment facetID="EV_21_f6" label="Expressed"/>
+      <facetEntailment facetID="EV_21_f7" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.21.437.1" answerText="Because salty water can hatch shrimp eggs, and maybe if there is too much salt the eggs might not even hatch." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EV_21_f1" label="Expressed"/>
+      <facetEntailment facetID="EV_21_f2" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f3" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f4" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f5" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f6" label="Expressed"/>
+      <facetEntailment facetID="EV_21_f7" label="Expressed"/>
+      <facetEntailment facetID="EV_21_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.21.444.1" answerText="Because there was salt and some eggs are viable." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EV_21_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f2" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f3" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f4" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f5" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f6" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f7" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.21.446.1" answerText="She had just added a little more salt which she might have not tested." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EV_21_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f2" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f3" label="Unaddressed"/>
+      <facetEntailment facetID="EV_21_f4" label="Unaddressed"/>
+      <facetEntailment facetID="EV_21_f5" label="Unaddressed"/>
+      <facetEntailment facetID="EV_21_f6" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f7" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.21.523.1" answerText="Because some shrimp have a bigger range of tolerance." accuracy="correct">
+      <facetEntailment facetID="EV_21_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f2" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f3" label="Unaddressed"/>
+      <facetEntailment facetID="EV_21_f4" label="Expressed"/>
+      <facetEntailment facetID="EV_21_f5" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f6" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f7" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.21.524.1" answerText="The water was all in the same range and the water was the same so they could of hatched." accuracy="correct">
+      <facetEntailment facetID="EV_21_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f2" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f3" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f4" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f5" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f6" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f7" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.21.526.1" answerText="The eggs do have a tolerance of hatching. Not all will hatch because of the different solution in the water." accuracy="correct">
+      <facetEntailment facetID="EV_21_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f2" label="Expressed"/>
+      <facetEntailment facetID="EV_21_f3" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f4" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f5" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f6" label="Expressed"/>
+      <facetEntailment facetID="EV_21_f7" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.21.527.1" answerText="Because the spoons were just a little bit different. One was a little bit bigger than the other. Because they have to live in saltwater or they would die." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EV_21_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f2" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f3" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f4" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f5" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f6" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f7" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.21.529.1" answerText="Because that spoon size was in the range of tolerance." accuracy="correct">
+      <facetEntailment facetID="EV_21_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f2" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f3" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f4" label="Expressed"/>
+      <facetEntailment facetID="EV_21_f5" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f6" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f7" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.21.530.1" answerText="Maybe because the salt amount was maybe in its range of tolerance of salt. So only a little bit hatched." accuracy="correct">
+      <facetEntailment facetID="EV_21_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f2" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f3" label="Expressed"/>
+      <facetEntailment facetID="EV_21_f4" label="Expressed"/>
+      <facetEntailment facetID="EV_21_f5" label="Expressed"/>
+      <facetEntailment facetID="EV_21_f6" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f7" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.21.531.1" answerText="Because maybe she put too much or too little." accuracy="irrelevant">
+      <facetEntailment facetID="EV_21_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f2" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f3" label="Unaddressed"/>
+      <facetEntailment facetID="EV_21_f4" label="Unaddressed"/>
+      <facetEntailment facetID="EV_21_f5" label="Unaddressed"/>
+      <facetEntailment facetID="EV_21_f6" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f7" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.21.532.1" answerText="I think that some of the eggs will hatch and some are not." accuracy="irrelevant">
+      <facetEntailment facetID="EV_21_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f2" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f3" label="Unaddressed"/>
+      <facetEntailment facetID="EV_21_f4" label="Unaddressed"/>
+      <facetEntailment facetID="EV_21_f5" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f6" label="Expressed"/>
+      <facetEntailment facetID="EV_21_f7" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.21.533.1" answerText="Because he put more salt in one so some did not hatch." accuracy="irrelevant">
+      <facetEntailment facetID="EV_21_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f2" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f3" label="Unaddressed"/>
+      <facetEntailment facetID="EV_21_f4" label="Unaddressed"/>
+      <facetEntailment facetID="EV_21_f5" label="Unaddressed"/>
+      <facetEntailment facetID="EV_21_f6" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f7" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.21.534.1" answerText="Because even if she used a bigger size spoon she still used saltwater." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EV_21_f1" label="Expressed"/>
+      <facetEntailment facetID="EV_21_f2" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f3" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f4" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f5" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f6" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f7" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.21.535.1" answerText="Well probably some brine shrimp have more range of tolerance of salt." accuracy="correct">
+      <facetEntailment facetID="EV_21_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f2" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f3" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f4" label="Expressed"/>
+      <facetEntailment facetID="EV_21_f5" label="Expressed"/>
+      <facetEntailment facetID="EV_21_f6" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f7" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.21.537.1" answerText="Because the spoons might have just been twice the size. And instead of 2 spoons it is 4 if it is double." accuracy="irrelevant">
+      <facetEntailment facetID="EV_21_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f2" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f3" label="Unaddressed"/>
+      <facetEntailment facetID="EV_21_f4" label="Unaddressed"/>
+      <facetEntailment facetID="EV_21_f5" label="Unaddressed"/>
+      <facetEntailment facetID="EV_21_f6" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f7" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.21.541.1" answerText="Because the spoons were just a little bit different one was a little bit bigger than the other. Because they have to live in saltwater or they will die." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EV_21_f1" label="Expressed"/>
+      <facetEntailment facetID="EV_21_f2" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f3" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f4" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f5" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f6" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f7" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.21.542.1" answerText="The salt was all in the same range and so was the water." accuracy="correct">
+      <facetEntailment facetID="EV_21_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f2" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f3" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f4" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f5" label="Unaddressed"/>
+      <facetEntailment facetID="EV_21_f6" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f7" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.21.543.1" answerText="The spoon might have been the twice of the size." accuracy="irrelevant">
+      <facetEntailment facetID="EV_21_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f2" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f3" label="Unaddressed"/>
+      <facetEntailment facetID="EV_21_f4" label="Unaddressed"/>
+      <facetEntailment facetID="EV_21_f5" label="Unaddressed"/>
+      <facetEntailment facetID="EV_21_f6" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f7" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.21.547.1" answerText="Because there is still salt in the cups." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EV_21_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f2" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f3" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f4" label="Unaddressed"/>
+      <facetEntailment facetID="EV_21_f5" label="Unaddressed"/>
+      <facetEntailment facetID="EV_21_f6" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f7" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.21.548.1" answerText="Not a lot of salt." accuracy="irrelevant">
+      <facetEntailment facetID="EV_21_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f2" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f3" label="Unaddressed"/>
+      <facetEntailment facetID="EV_21_f4" label="Unaddressed"/>
+      <facetEntailment facetID="EV_21_f5" label="Unaddressed"/>
+      <facetEntailment facetID="EV_21_f6" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f7" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.21.549.1" answerText="If she put 100 milliliters of salt in the brine shrimp will hatch or not." accuracy="contradictory">
+      <facetEntailment facetID="EV_21_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f2" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f3" label="Self-Contra"/>
+      <facetEntailment facetID="EV_21_f4" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f5" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f6" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f7" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.21.632.1" answerText="As long as you do not use too much of a different size." accuracy="irrelevant">
+      <facetEntailment facetID="EV_21_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f2" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f3" label="Unaddressed"/>
+      <facetEntailment facetID="EV_21_f4" label="Unaddressed"/>
+      <facetEntailment facetID="EV_21_f5" label="Unaddressed"/>
+      <facetEntailment facetID="EV_21_f6" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f7" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.21.639.1" answerText="Some eggs can still hatch because it can still hatch even with more salt." accuracy="correct">
+      <facetEntailment facetID="EV_21_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f2" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f3" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f4" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f5" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f6" label="Expressed"/>
+      <facetEntailment facetID="EV_21_f7" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.21.640.1" answerText="Because the spoon was smaller." accuracy="irrelevant">
+      <facetEntailment facetID="EV_21_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f2" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f3" label="Unaddressed"/>
+      <facetEntailment facetID="EV_21_f4" label="Unaddressed"/>
+      <facetEntailment facetID="EV_21_f5" label="Unaddressed"/>
+      <facetEntailment facetID="EV_21_f6" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f7" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.21.642.1" answerText="Because the water would still have some salt in it. So the brine shrimp hatched because they are attracted to salt." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EV_21_f1" label="Expressed"/>
+      <facetEntailment facetID="EV_21_f2" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f3" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f4" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f5" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f6" label="Expressed"/>
+      <facetEntailment facetID="EV_21_f7" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.21.643.1" answerText="Some of the eggs might have hatched because of the salt and brine shrimp live in salty water, saltier than the ocean." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EV_21_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f2" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f3" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f4" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f5" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f6" label="Expressed"/>
+      <facetEntailment facetID="EV_21_f7" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.21.646.1" answerText="Because maybe she did use the right one later. How about the spoon was bigger that is why." accuracy="irrelevant">
+      <facetEntailment facetID="EV_21_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f2" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f3" label="Unaddressed"/>
+      <facetEntailment facetID="EV_21_f4" label="Unaddressed"/>
+      <facetEntailment facetID="EV_21_f5" label="Unaddressed"/>
+      <facetEntailment facetID="EV_21_f6" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f7" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.21.647.1" answerText="Some eggs hatched because there was salt in the water. Salt helps brine shrimp hatch." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EV_21_f1" label="Expressed"/>
+      <facetEntailment facetID="EV_21_f2" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f3" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f4" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f5" label="Inferred"/>
+      <facetEntailment facetID="EV_21_f6" label="Expressed"/>
+      <facetEntailment facetID="EV_21_f7" label="Assumed"/>
+      <facetEntailment facetID="EV_21_f8" label="Expressed"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

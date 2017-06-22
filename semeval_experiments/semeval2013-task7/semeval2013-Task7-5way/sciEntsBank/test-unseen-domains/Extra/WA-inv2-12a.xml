@@ -1,0 +1,630 @@
+<?xml version="1.0"?>
+<question testSet="unseen-domains" id="WA_12a" module="WA">
+  <questionText>Oil, water, and corn syrup are layered in a tall, thin container. All are at the same temperature. What does the layering tell you about the density of the oil compared to water?</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="WA_12a-a1" text="The oil is less dense. The water is more dense.">
+      <tokens>
+        <token id="WA_12a_ra1">The</token>
+        <token id="WA_12a_ra2">oil</token>
+        <token id="WA_12a_ra3">is</token>
+        <token id="WA_12a_ra4">less</token>
+        <token id="WA_12a_ra5">dense</token>
+        <token id="WA_12a_ra6">.</token>
+        <token id="WA_12a_ra7">The</token>
+        <token id="WA_12a_ra8">water</token>
+        <token id="WA_12a_ra9">is</token>
+        <token id="WA_12a_ra10">more</token>
+        <token id="WA_12a_ra11">dense</token>
+        <token id="WA_12a_ra12">.</token>
+      </tokens>
+      <facets>
+        <facet id="WA_12a_f1" govNum="WA_12a_ra2" modNum="WA_12a_ra5" reltn="Be" govText="oil" isAssumed="true" modText="dense"/>
+        <facet id="WA_12a_f2" govNum="WA_12a_ra5" modNum="WA_12a_ra4" reltn="AMod" govText="dense" modText="less"/>
+        <facet id="WA_12a_f3" govNum="WA_12a_ra8" modNum="WA_12a_ra11" reltn="Be" govText="water" modText="dense"/>
+        <facet id="WA_12a_f4" govNum="WA_12a_ra11" modNum="WA_12a_ra10" reltn="AMod" govText="dense" modText="more"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="WA.12a.173.1" answerText="It would tell me that oil water is less dense than the other liquids." accuracy="contradictory">
+      <facetEntailment facetID="WA_12a_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f2" label="Self-Contra"/>
+      <facetEntailment facetID="WA_12a_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f4" label="Self-Contra"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12a.174.1" answerText="The oil is less dense than the water." accuracy="correct">
+      <facetEntailment facetID="WA_12a_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12a.176.1" answerText="The oil is less dense than the water." accuracy="correct">
+      <facetEntailment facetID="WA_12a_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12a.177.1" answerText="Oil is less dense than water and it floats to the top." accuracy="correct">
+      <facetEntailment facetID="WA_12a_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12a.178.1" answerText="It looks just like water is clear, it has no smell." accuracy="irrelevant">
+      <facetEntailment facetID="WA_12a_f1" label="Assumed"/>
+      <facetEntailment facetID="WA_12a_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_12a_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_12a_f4" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12a.180.1" answerText="It tells me the corn syrup is denser than water and oil." accuracy="irrelevant">
+      <facetEntailment facetID="WA_12a_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_12a_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f4" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12a.181.1" answerText="The oil is the least dense because it stays on top of the water." accuracy="correct">
+      <facetEntailment facetID="WA_12a_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12a.189.1" answerText="That oil is less dense than the water." accuracy="correct">
+      <facetEntailment facetID="WA_12a_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12a.195.1" answerText="It tell me that it is more less dense than the water." accuracy="contradictory">
+      <facetEntailment facetID="WA_12a_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f2" label="Self-Contra"/>
+      <facetEntailment facetID="WA_12a_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f4" label="Self-Contra"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12a.206.1" answerText="Oil is runnier than water." accuracy="irrelevant">
+      <facetEntailment facetID="WA_12a_f1" label="Assumed"/>
+      <facetEntailment facetID="WA_12a_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_12a_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_12a_f4" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12a.210.1" answerText="It tells me that oil is less dense than water or corn syrup." accuracy="correct">
+      <facetEntailment facetID="WA_12a_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12a.211.1" answerText="The water is more dense than the oil." accuracy="correct">
+      <facetEntailment facetID="WA_12a_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12a.212.1" answerText="That it is less dense, because it is floating, expands." accuracy="correct">
+      <facetEntailment facetID="WA_12a_f1" label="Assumed"/>
+      <facetEntailment facetID="WA_12a_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f3" label="Inferred"/>
+      <facetEntailment facetID="WA_12a_f4" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12a.213.1" answerText="It is the smallest one." accuracy="irrelevant">
+      <facetEntailment facetID="WA_12a_f1" label="Assumed"/>
+      <facetEntailment facetID="WA_12a_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_12a_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_12a_f4" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12a.214.1" answerText="It tells me that the density is less dense." accuracy="correct">
+      <facetEntailment facetID="WA_12a_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f3" label="Inferred"/>
+      <facetEntailment facetID="WA_12a_f4" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12a.215.1" answerText="The water is less dense the oil." accuracy="contradictory">
+      <facetEntailment facetID="WA_12a_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f2" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_12a_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f4" label="Contra-Expr"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12a.220.1" answerText="I think the oil is less dense than the water." accuracy="correct">
+      <facetEntailment facetID="WA_12a_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12a.221.1" answerText="Corn syrup then water because oil is the least densest." accuracy="correct">
+      <facetEntailment facetID="WA_12a_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12a.222.1" answerText="It might float." accuracy="irrelevant">
+      <facetEntailment facetID="WA_12a_f1" label="Assumed"/>
+      <facetEntailment facetID="WA_12a_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_12a_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_12a_f4" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12a.223.1" answerText="The oil is less dense than the water." accuracy="correct">
+      <facetEntailment facetID="WA_12a_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12a.225.1" answerText="Oil is less dense than water." accuracy="correct">
+      <facetEntailment facetID="WA_12a_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12a.227.1" answerText="Oil is less dense than water." accuracy="correct">
+      <facetEntailment facetID="WA_12a_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12a.231.1" answerText="That the oil is less dense than the water." accuracy="correct">
+      <facetEntailment facetID="WA_12a_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12a.247.1" answerText="It tells you that oil is less dense than water." accuracy="correct">
+      <facetEntailment facetID="WA_12a_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12a.250.1" answerText="The oil is less dense than the water and corn syrup." accuracy="correct">
+      <facetEntailment facetID="WA_12a_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12a.252.1" answerText="The oil is less dense than the water." accuracy="correct">
+      <facetEntailment facetID="WA_12a_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12a.254.1" answerText="The water has more dense." accuracy="correct">
+      <facetEntailment facetID="WA_12a_f1" label="Assumed"/>
+      <facetEntailment facetID="WA_12a_f2" label="Inferred"/>
+      <facetEntailment facetID="WA_12a_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12a.265.1" answerText="Oil is densest least than water." accuracy="contradictory">
+      <facetEntailment facetID="WA_12a_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12a.276.1" answerText="It less dense the water because it on top of water." accuracy="correct">
+      <facetEntailment facetID="WA_12a_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12a.282.1" answerText="Water is denser than oil." accuracy="correct">
+      <facetEntailment facetID="WA_12a_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12a.286.1" answerText="The oil is more dense than water." accuracy="contradictory">
+      <facetEntailment facetID="WA_12a_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f2" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_12a_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f4" label="Contra-Expr"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12a.291.1" answerText="The oil is less dense, and the water is more dense." accuracy="correct">
+      <facetEntailment facetID="WA_12a_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12a.294.1" answerText="The oil is less dense than water." accuracy="correct">
+      <facetEntailment facetID="WA_12a_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12a.296.1" answerText="The oil is less dense the water is more dense." accuracy="correct">
+      <facetEntailment facetID="WA_12a_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12a.299.1" answerText="It tells me the oil is more dense than the water." accuracy="contradictory">
+      <facetEntailment facetID="WA_12a_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f2" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_12a_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f4" label="Contra-Expr"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12a.300.1" answerText="The oil is more dense." accuracy="contradictory">
+      <facetEntailment facetID="WA_12a_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f2" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_12a_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_12a_f4" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12a.346.1" answerText="The oil is less dense than the water." accuracy="correct">
+      <facetEntailment facetID="WA_12a_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12a.348.1" answerText="The oil looks like it is less dense than the water." accuracy="correct">
+      <facetEntailment facetID="WA_12a_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12a.349.1" answerText="It expand." accuracy="irrelevant">
+      <facetEntailment facetID="WA_12a_f1" label="Assumed"/>
+      <facetEntailment facetID="WA_12a_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_12a_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_12a_f4" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12a.350.1" answerText="The oil is less dense compared to water." accuracy="correct">
+      <facetEntailment facetID="WA_12a_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12a.352.1" answerText="Water is denser than oil." accuracy="correct">
+      <facetEntailment facetID="WA_12a_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12a.354.1" answerText="The oil is less denser than the water. The water is dense than the oil." accuracy="correct">
+      <facetEntailment facetID="WA_12a_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12a.356.1" answerText="It would be warm water." accuracy="irrelevant">
+      <facetEntailment facetID="WA_12a_f1" label="Assumed"/>
+      <facetEntailment facetID="WA_12a_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_12a_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_12a_f4" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12a.359.1" answerText="That the oil is less dense than the syrup." accuracy="irrelevant">
+      <facetEntailment facetID="WA_12a_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_12a_f4" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12a.361.1" answerText="Oil is less dense water." accuracy="correct">
+      <facetEntailment facetID="WA_12a_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12a.362.1" answerText="The water is denser than the oil." accuracy="correct">
+      <facetEntailment facetID="WA_12a_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12a.366.1" answerText="The oil is less dense than the water." accuracy="correct">
+      <facetEntailment facetID="WA_12a_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12a.370.1" answerText="That is will float." accuracy="irrelevant">
+      <facetEntailment facetID="WA_12a_f1" label="Assumed"/>
+      <facetEntailment facetID="WA_12a_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_12a_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_12a_f4" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12a.416.1" answerText="The oil is less dense than water." accuracy="correct">
+      <facetEntailment facetID="WA_12a_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12a.424.1" answerText="Oil is less dense than water." accuracy="correct">
+      <facetEntailment facetID="WA_12a_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12a.427.1" answerText="Oil is less dense." accuracy="correct">
+      <facetEntailment facetID="WA_12a_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f3" label="Inferred"/>
+      <facetEntailment facetID="WA_12a_f4" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12a.430.1" answerText="Oil has less density than water." accuracy="correct">
+      <facetEntailment facetID="WA_12a_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12a.431.1" answerText="Oil is less dense than water." accuracy="correct">
+      <facetEntailment facetID="WA_12a_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12a.432.1" answerText="The oil water is less dense than water." accuracy="correct">
+      <facetEntailment facetID="WA_12a_f1" label="Diff-Arg"/>
+      <facetEntailment facetID="WA_12a_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12a.451.1" answerText="The water is more dense and the oil is less dense." accuracy="correct">
+      <facetEntailment facetID="WA_12a_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12a.453.1" answerText="Oil because the oil has something in it and water is plain." accuracy="irrelevant">
+      <facetEntailment facetID="WA_12a_f1" label="Assumed"/>
+      <facetEntailment facetID="WA_12a_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_12a_f3" label="Inferred"/>
+      <facetEntailment facetID="WA_12a_f4" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12a.456.1" answerText="The oil is less dense than water." accuracy="correct">
+      <facetEntailment facetID="WA_12a_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12a.463.1" answerText="The water is denser than the oil." accuracy="correct">
+      <facetEntailment facetID="WA_12a_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12a.466.1" answerText="The water is denser than the oil." accuracy="correct">
+      <facetEntailment facetID="WA_12a_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12a.467.1" answerText="Water is denser that oil." accuracy="correct">
+      <facetEntailment facetID="WA_12a_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12a.468.1" answerText="The water is more denser than the oil." accuracy="correct">
+      <facetEntailment facetID="WA_12a_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12a.469.1" answerText="Denser." accuracy="contradictory">
+      <facetEntailment facetID="WA_12a_f1" label="Assumed"/>
+      <facetEntailment facetID="WA_12a_f2" label="Contra-Infr"/>
+      <facetEntailment facetID="WA_12a_f3" label="Inferred"/>
+      <facetEntailment facetID="WA_12a_f4" label="Contra-Infr"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12a.487.1" answerText="The oil is less dense than water." accuracy="correct">
+      <facetEntailment facetID="WA_12a_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12a.489.1" answerText="Oil is less dense." accuracy="correct">
+      <facetEntailment facetID="WA_12a_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_12a_f4" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12a.490.1" answerText="Water is less dense than oil." accuracy="contradictory">
+      <facetEntailment facetID="WA_12a_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f2" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_12a_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f4" label="Contra-Expr"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12a.493.1" answerText="Oil is less dense than water." accuracy="correct">
+      <facetEntailment facetID="WA_12a_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12a.494.1" answerText="Oil is less dense than water." accuracy="correct">
+      <facetEntailment facetID="WA_12a_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12a.495.1" answerText="Oil is less dense than water." accuracy="correct">
+      <facetEntailment facetID="WA_12a_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12a.497.1" answerText="The oil is less dense that the water." accuracy="correct">
+      <facetEntailment facetID="WA_12a_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12a.498.1" answerText="Water is less dense than oil." accuracy="contradictory">
+      <facetEntailment facetID="WA_12a_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f2" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_12a_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f4" label="Contra-Expr"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12a.500.1" answerText="Oil is less dense than water." accuracy="correct">
+      <facetEntailment facetID="WA_12a_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12a.501.1" answerText="The oil is less denser than the water." accuracy="correct">
+      <facetEntailment facetID="WA_12a_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12a.503.1" answerText="The oil is less dense and water is more dense." accuracy="correct">
+      <facetEntailment facetID="WA_12a_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12a.509.1" answerText="Oil is less dense than water." accuracy="correct">
+      <facetEntailment facetID="WA_12a_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12a.524.1" answerText="That the oil is less dense than water." accuracy="correct">
+      <facetEntailment facetID="WA_12a_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12a.527.1" answerText="Oil is less dense than water." accuracy="correct">
+      <facetEntailment facetID="WA_12a_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12a.528.1" answerText="That oil is thicker than water." accuracy="irrelevant">
+      <facetEntailment facetID="WA_12a_f1" label="Assumed"/>
+      <facetEntailment facetID="WA_12a_f2" label="Diff-Arg"/>
+      <facetEntailment facetID="WA_12a_f3" label="Diff-Arg"/>
+      <facetEntailment facetID="WA_12a_f4" label="Diff-Arg"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12a.529.1" answerText="The oil must be less dense than the water because it is floating." accuracy="correct">
+      <facetEntailment facetID="WA_12a_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12a.530.1" answerText="The oil is less dense than the water." accuracy="correct">
+      <facetEntailment facetID="WA_12a_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12a.533.1" answerText="It tell that the oil is densest." accuracy="contradictory">
+      <facetEntailment facetID="WA_12a_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f2" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_12a_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_12a_f4" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12a.537.1" answerText="The oil is less dense than the water." accuracy="correct">
+      <facetEntailment facetID="WA_12a_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12a.541.1" answerText="It is the less dense than the water and corn syrup." accuracy="correct">
+      <facetEntailment facetID="WA_12a_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12a.556.1" answerText="The density tell me the oil is less dense than water." accuracy="correct">
+      <facetEntailment facetID="WA_12a_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12a.558.1" answerText="Oil is less dense than the water." accuracy="correct">
+      <facetEntailment facetID="WA_12a_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12a.560.1" answerText="The oil is less dense than water." accuracy="correct">
+      <facetEntailment facetID="WA_12a_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12a.600.1" answerText="The water is heavier." accuracy="correct">
+      <facetEntailment facetID="WA_12a_f1" label="Assumed"/>
+      <facetEntailment facetID="WA_12a_f2" label="Inferred"/>
+      <facetEntailment facetID="WA_12a_f3" label="Inferred"/>
+      <facetEntailment facetID="WA_12a_f4" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12a.601.1" answerText="I do not know." accuracy="non_domain">
+      <facetEntailment facetID="WA_12a_f1" label="Assumed"/>
+      <facetEntailment facetID="WA_12a_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_12a_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_12a_f4" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12a.603.1" answerText="That oil is less dense than water." accuracy="correct">
+      <facetEntailment facetID="WA_12a_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12a.605.1" answerText="It tells me that oil is less dense than water." accuracy="correct">
+      <facetEntailment facetID="WA_12a_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12a.610.1" answerText="Oil is heavier than water." accuracy="contradictory">
+      <facetEntailment facetID="WA_12a_f1" label="Assumed"/>
+      <facetEntailment facetID="WA_12a_f2" label="Contra-Infr"/>
+      <facetEntailment facetID="WA_12a_f3" label="Inferred"/>
+      <facetEntailment facetID="WA_12a_f4" label="Contra-Infr"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12a.611.1" answerText="The oil is lighter than the water and the corn syrup." accuracy="correct">
+      <facetEntailment facetID="WA_12a_f1" label="Assumed"/>
+      <facetEntailment facetID="WA_12a_f2" label="Inferred"/>
+      <facetEntailment facetID="WA_12a_f3" label="Inferred"/>
+      <facetEntailment facetID="WA_12a_f4" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12a.612.1" answerText="Corn syrup is more dense than water and oil." accuracy="irrelevant">
+      <facetEntailment facetID="WA_12a_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_12a_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f4" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12a.631.1" answerText="That oil is less dense than water because it floats." accuracy="correct">
+      <facetEntailment facetID="WA_12a_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12a.632.1" answerText="IT is less dense than water." accuracy="correct">
+      <facetEntailment facetID="WA_12a_f1" label="Assumed"/>
+      <facetEntailment facetID="WA_12a_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12a.633.1" answerText="It is less dense than water." accuracy="correct">
+      <facetEntailment facetID="WA_12a_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f4" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12a.635.1" answerText="Oil is less tense because it is on the top water is denser and least dense the any." accuracy="correct">
+      <facetEntailment facetID="WA_12a_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12a.636.1" answerText="Water is denser than oil because it sinks." accuracy="correct">
+      <facetEntailment facetID="WA_12a_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12a.637.1" answerText="Oil is less dense." accuracy="correct">
+      <facetEntailment facetID="WA_12a_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f3" label="Inferred"/>
+      <facetEntailment facetID="WA_12a_f4" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12a.639.1" answerText="Property." accuracy="irrelevant">
+      <facetEntailment facetID="WA_12a_f1" label="Assumed"/>
+      <facetEntailment facetID="WA_12a_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_12a_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_12a_f4" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12a.643.1" answerText="That oil is maybe dense than water maybe it heavier than water." accuracy="contradictory">
+      <facetEntailment facetID="WA_12a_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f2" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_12a_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_12a_f4" label="Contra-Expr"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

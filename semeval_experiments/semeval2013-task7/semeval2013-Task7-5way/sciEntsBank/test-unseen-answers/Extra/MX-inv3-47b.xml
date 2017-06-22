@@ -1,0 +1,127 @@
+<?xml version="1.0"?>
+<question testSet="unseen-answers" id="MX_47b" module="MX">
+  <questionText>Tabby made 2 solutions using the same solute and water. [Cup one has 6 spoons solute in 50 milliliters water. Cup 2 has 8 spoons solute in 50 milliliters water. Both solutions are clear with material on the bottom.] Which sentence below describes the concentrations of the 2 solutions? (A. The solutions in the cups have the same concentration.) B. Cup one has the more concentrated solution. C. Cup 2 has the more concentrated solution. D. There is not enough information to answer the question. Explain your choice.</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="MX_47b-a1" text="Both solutions are saturated (as indicated by the material on the bottom) so, even though one cup has more spoonfuls of sugar, both have the same (maximum) concentration.">
+      <tokens>
+        <token id="MX_47b_ra1">Both</token>
+        <token id="MX_47b_ra2">solutions</token>
+        <token id="MX_47b_ra3">are</token>
+        <token id="MX_47b_ra4">saturated</token>
+        <token id="MX_47b_ra5">(</token>
+        <token id="MX_47b_ra6">as</token>
+        <token id="MX_47b_ra7">indicated</token>
+        <token id="MX_47b_ra8">by</token>
+        <token id="MX_47b_ra9">the</token>
+        <token id="MX_47b_ra10">material</token>
+        <token id="MX_47b_ra11">on</token>
+        <token id="MX_47b_ra12">the</token>
+        <token id="MX_47b_ra13">bottom</token>
+        <token id="MX_47b_ra14">)</token>
+        <token id="MX_47b_ra15">so</token>
+        <token id="MX_47b_ra16">,</token>
+        <token id="MX_47b_ra17">even</token>
+        <token id="MX_47b_ra18">though</token>
+        <token id="MX_47b_ra19">one</token>
+        <token id="MX_47b_ra20">cup</token>
+        <token id="MX_47b_ra21">has</token>
+        <token id="MX_47b_ra22">more</token>
+        <token id="MX_47b_ra23">spoonfuls</token>
+        <token id="MX_47b_ra24">of</token>
+        <token id="MX_47b_ra25">sugar</token>
+        <token id="MX_47b_ra26">,</token>
+        <token id="MX_47b_ra27">both</token>
+        <token id="MX_47b_ra28">have</token>
+        <token id="MX_47b_ra29">the</token>
+        <token id="MX_47b_ra30">same</token>
+        <token id="MX_47b_ra31">(</token>
+        <token id="MX_47b_ra32">maximum</token>
+        <token id="MX_47b_ra33">)</token>
+        <token id="MX_47b_ra34">concentration</token>
+        <token id="MX_47b_ra35">.</token>
+      </tokens>
+      <facets>
+        <facet id="MX_47b_f1" govNum="MX_47b_ra2" modNum="MX_47b_ra1" reltn="Quantifier" govText="solutions" modText="Both"/>
+        <facet id="MX_47b_f2" govNum="MX_47b_ra2" modNum="MX_47b_ra4" reltn="Be" govText="solutions" modText="saturated"/>
+        <facet id="MX_47b_f3" govNum="MX_47b_ra7" modNum="MX_47b_ra3" reltn="Topic_as" childProp2Facet2="MX_47b_f1" govText="indicated" modText="are" childProp2Facet1="MX_47b_f2"/>
+        <facet id="MX_47b_f4" govNum="MX_47b_ra7" modNum="MX_47b_ra10" reltn="Means_by" govText="indicated" modText="material" childProp2Facet1="MX_47b_f5"/>
+        <facet id="MX_47b_f5" govNum="MX_47b_ra10" modNum="MX_47b_ra13" reltn="Location_on" govText="material" isAssumed="true" modText="bottom"/>
+        <facet id="MX_47b_f6" govNum="MX_47b_ra10" modNum="MX_47b_ra3" reltn="Cause_as_indicated_by" childProp2Facet2="MX_47b_f1" childProp1Facet1="MX_47b_f5" govText="material" modText="are" childProp2Facet1="MX_47b_f2"/>
+        <facet id="MX_47b_f7" govNum="MX_47b_ra20" modNum="MX_47b_ra19" reltn="Quantifier" govText="cup" isAssumed="true" modText="one"/>
+        <facet id="MX_47b_f8" govNum="MX_47b_ra20" modNum="MX_47b_ra25" reltn="Have" govText="cup" isAssumed="true" modText="sugar"/>
+        <facet id="MX_47b_f9" govNum="MX_47b_ra25" modNum="MX_47b_ra23" reltn="NMod_of" govText="sugar" isAssumed="true" modText="spoonfuls"/>
+        <facet id="MX_47b_f10" govNum="MX_47b_ra25" modNum="MX_47b_ra22" reltn="NMod" govText="sugar" isAssumed="true" modText="more"/>
+        <facet id="MX_47b_f11" govNum="MX_47b_ra27" modNum="MX_47b_ra34" reltn="Have" govText="both" isAssumed="true" modText="concentration"/>
+        <facet id="MX_47b_f12" govNum="MX_47b_ra34" modNum="MX_47b_ra30" reltn="NMod" govText="concentration" modText="same"/>
+        <facet id="MX_47b_f13" govNum="MX_47b_ra34" modNum="MX_47b_ra32" reltn="NMod" govText="concentration" modText="maximum"/>
+        <facet id="MX_47b_f14" govNum="MX_47b_ra28" modNum="MX_47b_ra3" reltn="Cause_so" childProp2Facet2="MX_47b_f1" childProp1Facet1="MX_47b_f11" govText="have" childProp1Facet2="MX_47b_f12" modText="are" childProp2Facet1="MX_47b_f2"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="MX.47b.456.1" answerText="Cup 2 has more material on the bottom than cup one. So cup one might one scoop saturated and cup 2 might have 3 scoops on the bottom but the same concentration in the solution." accuracy="correct">
+      <facetEntailment facetID="MX_47b_f1" label="Expressed"/>
+      <facetEntailment facetID="MX_47b_f2" label="Expressed"/>
+      <facetEntailment facetID="MX_47b_f3" label="Expressed"/>
+      <facetEntailment facetID="MX_47b_f4" label="Expressed"/>
+      <facetEntailment facetID="MX_47b_f5" label="Expressed"/>
+      <facetEntailment facetID="MX_47b_f6" label="Expressed"/>
+      <facetEntailment facetID="MX_47b_f7" label="Expressed"/>
+      <facetEntailment facetID="MX_47b_f8" label="Assumed"/>
+      <facetEntailment facetID="MX_47b_f9" label="Assumed"/>
+      <facetEntailment facetID="MX_47b_f10" label="Assumed"/>
+      <facetEntailment facetID="MX_47b_f11" label="Expressed"/>
+      <facetEntailment facetID="MX_47b_f12" label="Expressed"/>
+      <facetEntailment facetID="MX_47b_f13" label="Inferred"/>
+      <facetEntailment facetID="MX_47b_f14" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="MX.47b.493.1" answerText="Because cup A have more solute then cup one. But they have the same amount of water." accuracy="irrelevant">
+      <facetEntailment facetID="MX_47b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="MX_47b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MX_47b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_47b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MX_47b_f5" label="Assumed"/>
+      <facetEntailment facetID="MX_47b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="MX_47b_f7" label="Expressed"/>
+      <facetEntailment facetID="MX_47b_f8" label="Assumed"/>
+      <facetEntailment facetID="MX_47b_f9" label="Assumed"/>
+      <facetEntailment facetID="MX_47b_f10" label="Assumed"/>
+      <facetEntailment facetID="MX_47b_f11" label="Assumed"/>
+      <facetEntailment facetID="MX_47b_f12" label="Unaddressed"/>
+      <facetEntailment facetID="MX_47b_f13" label="Unaddressed"/>
+      <facetEntailment facetID="MX_47b_f14" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.47b.528.1" answerText="I chose C because it has 8 spoons solute." accuracy="contradictory">
+      <facetEntailment facetID="MX_47b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="MX_47b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MX_47b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_47b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MX_47b_f5" label="Assumed"/>
+      <facetEntailment facetID="MX_47b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="MX_47b_f7" label="Assumed"/>
+      <facetEntailment facetID="MX_47b_f8" label="Assumed"/>
+      <facetEntailment facetID="MX_47b_f9" label="Assumed"/>
+      <facetEntailment facetID="MX_47b_f10" label="Assumed"/>
+      <facetEntailment facetID="MX_47b_f11" label="Assumed"/>
+      <facetEntailment facetID="MX_47b_f12" label="Contra-Infr"/>
+      <facetEntailment facetID="MX_47b_f13" label="Unaddressed"/>
+      <facetEntailment facetID="MX_47b_f14" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.47b.575.1" answerText="Once saturated it is at the most concentration it can get, and they are both saturated." accuracy="correct">
+      <facetEntailment facetID="MX_47b_f1" label="Expressed"/>
+      <facetEntailment facetID="MX_47b_f2" label="Expressed"/>
+      <facetEntailment facetID="MX_47b_f3" label="Inferred"/>
+      <facetEntailment facetID="MX_47b_f4" label="Inferred"/>
+      <facetEntailment facetID="MX_47b_f5" label="Assumed"/>
+      <facetEntailment facetID="MX_47b_f6" label="Inferred"/>
+      <facetEntailment facetID="MX_47b_f7" label="Assumed"/>
+      <facetEntailment facetID="MX_47b_f8" label="Assumed"/>
+      <facetEntailment facetID="MX_47b_f9" label="Assumed"/>
+      <facetEntailment facetID="MX_47b_f10" label="Assumed"/>
+      <facetEntailment facetID="MX_47b_f11" label="Assumed"/>
+      <facetEntailment facetID="MX_47b_f12" label="Inferred"/>
+      <facetEntailment facetID="MX_47b_f13" label="Expressed"/>
+      <facetEntailment facetID="MX_47b_f14" label="Expressed"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

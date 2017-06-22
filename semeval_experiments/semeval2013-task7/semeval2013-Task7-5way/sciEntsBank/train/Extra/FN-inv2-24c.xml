@@ -1,0 +1,670 @@
+<?xml version="1.0"?>
+<question id="FN_24c" module="FN">
+  <questionText>Diva's father told her she should not eat so many cookies because they were pure sugar. Diva decided to investigate the amount of sugar in Fruity Cream cookies. She performed the sugar test on 4 grams of pure sugar and on 4 grams of Fruity Cream cookies. The results are pictured at the right. Why did Diva need to test pure sugar?</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="FN_24c-a1" text="Diva needs to know how much gas pure sugar produced in order to decide whether the cookies are pure sugar. Diva needs to make a controlled experiment.">
+      <tokens>
+        <token id="FN_24c_ra1">Diva</token>
+        <token id="FN_24c_ra2">needs</token>
+        <token id="FN_24c_ra3">to</token>
+        <token id="FN_24c_ra4">know</token>
+        <token id="FN_24c_ra5">how</token>
+        <token id="FN_24c_ra6">much</token>
+        <token id="FN_24c_ra7">gas</token>
+        <token id="FN_24c_ra8">pure</token>
+        <token id="FN_24c_ra9">sugar</token>
+        <token id="FN_24c_ra10">produced</token>
+        <token id="FN_24c_ra11">in</token>
+        <token id="FN_24c_ra12">order</token>
+        <token id="FN_24c_ra13">to</token>
+        <token id="FN_24c_ra14">decide</token>
+        <token id="FN_24c_ra15">whether</token>
+        <token id="FN_24c_ra16">the</token>
+        <token id="FN_24c_ra17">cookies</token>
+        <token id="FN_24c_ra18">are</token>
+        <token id="FN_24c_ra19">pure</token>
+        <token id="FN_24c_ra20">sugar</token>
+        <token id="FN_24c_ra21">.</token>
+        <token id="FN_24c_ra22">Diva</token>
+        <token id="FN_24c_ra23">needs</token>
+        <token id="FN_24c_ra24">to</token>
+        <token id="FN_24c_ra25">make</token>
+        <token id="FN_24c_ra26">a</token>
+        <token id="FN_24c_ra27">controlled</token>
+        <token id="FN_24c_ra28">experiment</token>
+        <token id="FN_24c_ra29">.</token>
+      </tokens>
+      <facets>
+        <facet id="FN_24c_f1" govNum="FN_24c_ra4" modNum="FN_24c_ra1" reltn="Agent" govText="know" modText="Diva"/>
+        <facet id="FN_24c_f2" govNum="FN_24c_ra4" modNum="FN_24c_ra2" reltn="VMod_to" govText="know" modText="needs"/>
+        <facet id="FN_24c_f3" govNum="FN_24c_ra4" modNum="FN_24c_ra6" reltn="Theme_how" govText="know" modText="much"/>
+        <facet id="FN_24c_f4" govNum="FN_24c_ra10" modNum="FN_24c_ra9" reltn="Means" govText="produced" modText="sugar"/>
+        <facet id="FN_24c_f5" govNum="FN_24c_ra9" modNum="FN_24c_ra8" reltn="NMod" govText="sugar" isAssumed="true" modText="pure"/>
+        <facet id="FN_24c_f6" govNum="FN_24c_ra10" modNum="FN_24c_ra7" reltn="Product" govText="produced" modText="gas"/>
+        <facet id="FN_24c_f7" govNum="FN_24c_ra7" modNum="FN_24c_ra6" reltn="NMod_how" govText="gas" modText="much"/>
+        <facet id="FN_24c_f8" govNum="FN_24c_ra14" modNum="FN_24c_ra18" reltn="Theme_whether" childProp2Facet2="FN_24c_f10" govText="decide" isAssumed="true" modText="are" childProp2Facet1="FN_24c_f9"/>
+        <facet id="FN_24c_f9" govNum="FN_24c_ra17" modNum="FN_24c_ra20" reltn="Be" govText="cookies" isAssumed="true" modText="sugar"/>
+        <facet id="FN_24c_f10" govNum="FN_24c_ra20" modNum="FN_24c_ra19" reltn="NMod" govText="sugar" isAssumed="true" modText="pure"/>
+        <facet id="FN_24c_f11" govNum="FN_24c_ra14" modNum="FN_24c_ra4" reltn="Cause_in_order_to" childProp2Facet2="FN_24c_f3" childProp1Facet1="FN_24c_f8" govText="decide" isAssumed="true" childProp1Facet2="FN_24c_f9" modText="know" childProp2Facet1="FN_24c_f1"/>
+        <facet id="FN_24c_f12" govNum="FN_24c_ra25" modNum="FN_24c_ra22" reltn="Agent" govText="make" isAssumed="true" modText="Diva"/>
+        <facet id="FN_24c_f13" govNum="FN_24c_ra25" modNum="FN_24c_ra23" reltn="VMod_to" govText="make" isAssumed="true" modText="needs"/>
+        <facet id="FN_24c_f14" govNum="FN_24c_ra25" modNum="FN_24c_ra28" reltn="Product" govText="make" isAssumed="true" modText="experiment"/>
+        <facet id="FN_24c_f15" govNum="FN_24c_ra28" modNum="FN_24c_ra27" reltn="NMod" govText="experiment" modText="controlled"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="FN.24c.101.1" answerText="Diva needed to test pure sugar so that she could make sure Fruity Cream cookies did not have as much carbon dioxide as pure sugar to see if her dad was wrong." accuracy="correct">
+      <facetEntailment facetID="FN_24c_f1" label="Expressed"/>
+      <facetEntailment facetID="FN_24c_f2" label="Expressed"/>
+      <facetEntailment facetID="FN_24c_f3" label="Expressed"/>
+      <facetEntailment facetID="FN_24c_f4" label="Expressed"/>
+      <facetEntailment facetID="FN_24c_f5" label="Expressed"/>
+      <facetEntailment facetID="FN_24c_f6" label="Expressed"/>
+      <facetEntailment facetID="FN_24c_f7" label="Expressed"/>
+      <facetEntailment facetID="FN_24c_f8" label="Expressed"/>
+      <facetEntailment facetID="FN_24c_f9" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f10" label="Expressed"/>
+      <facetEntailment facetID="FN_24c_f11" label="Expressed"/>
+      <facetEntailment facetID="FN_24c_f12" label="Expressed"/>
+      <facetEntailment facetID="FN_24c_f13" label="Expressed"/>
+      <facetEntailment facetID="FN_24c_f14" label="Expressed"/>
+      <facetEntailment facetID="FN_24c_f15" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.24c.154.1" answerText="Diva needed to test pure sugar because that is how much she is eating with the cookies. So it is not good to have too much or else she will have diabetes." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="FN_24c_f1" label="Inferred"/>
+      <facetEntailment facetID="FN_24c_f2" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24c_f3" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24c_f4" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24c_f5" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f6" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24c_f7" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24c_f8" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f9" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f10" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f11" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f12" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f13" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f14" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f15" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.24c.161.1" answerText="Susan will know which food contains the most sugar when the tube with bag inside can stop all the way to the top." accuracy="irrelevant">
+      <facetEntailment facetID="FN_24c_f1" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24c_f2" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24c_f3" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24c_f4" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24c_f5" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f6" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24c_f7" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24c_f8" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f9" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f10" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f11" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f12" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f13" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f14" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f15" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.24c.184.1" answerText="Tube, warm water 50 milliliters, 40 to 50 bag syringe, yeast, tube, testing food, measuring utensils." accuracy="irrelevant">
+      <facetEntailment facetID="FN_24c_f1" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24c_f2" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24c_f3" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24c_f4" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24c_f5" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f6" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24c_f7" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24c_f8" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f9" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f10" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f11" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f12" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f13" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f14" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f15" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.24c.209.1" answerText="Diva needed to test pure sugar so he know if the cookies was pure sugar." accuracy="correct">
+      <facetEntailment facetID="FN_24c_f1" label="Inferred"/>
+      <facetEntailment facetID="FN_24c_f2" label="Inferred"/>
+      <facetEntailment facetID="FN_24c_f3" label="Inferred"/>
+      <facetEntailment facetID="FN_24c_f4" label="Inferred"/>
+      <facetEntailment facetID="FN_24c_f5" label="Expressed"/>
+      <facetEntailment facetID="FN_24c_f6" label="Inferred"/>
+      <facetEntailment facetID="FN_24c_f7" label="Inferred"/>
+      <facetEntailment facetID="FN_24c_f8" label="Expressed"/>
+      <facetEntailment facetID="FN_24c_f9" label="Expressed"/>
+      <facetEntailment facetID="FN_24c_f10" label="Expressed"/>
+      <facetEntailment facetID="FN_24c_f11" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f12" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f13" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f14" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f15" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.24c.210.1" answerText="Because her dad said the cookies were pure sugar." accuracy="irrelevant">
+      <facetEntailment facetID="FN_24c_f1" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24c_f2" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24c_f3" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24c_f4" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24c_f5" label="Expressed"/>
+      <facetEntailment facetID="FN_24c_f6" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24c_f7" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24c_f8" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f9" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f10" label="Expressed"/>
+      <facetEntailment facetID="FN_24c_f11" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f12" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f13" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f14" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f15" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.24c.222.1" answerText="Because Diva's dad said they were pure sugar and so Diva investigated both to see what one had more sugar." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="FN_24c_f1" label="Expressed"/>
+      <facetEntailment facetID="FN_24c_f2" label="Expressed"/>
+      <facetEntailment facetID="FN_24c_f3" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24c_f4" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24c_f5" label="Expressed"/>
+      <facetEntailment facetID="FN_24c_f6" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24c_f7" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24c_f8" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f9" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f10" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f11" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f12" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f13" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f14" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f15" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.24c.230.1" answerText="So she could prove that cream fruit cookies had less than pure sugar." accuracy="irrelevant">
+      <facetEntailment facetID="FN_24c_f1" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24c_f2" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24c_f3" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24c_f4" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24c_f5" label="Expressed"/>
+      <facetEntailment facetID="FN_24c_f6" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24c_f7" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24c_f8" label="Expressed"/>
+      <facetEntailment facetID="FN_24c_f9" label="Expressed"/>
+      <facetEntailment facetID="FN_24c_f10" label="Expressed"/>
+      <facetEntailment facetID="FN_24c_f11" label="Expressed"/>
+      <facetEntailment facetID="FN_24c_f12" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f13" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f14" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f15" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.24c.247.1" answerText="To see if it as in the cookies was exactly pure sugar." accuracy="irrelevant">
+      <facetEntailment facetID="FN_24c_f1" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24c_f2" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24c_f3" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24c_f4" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24c_f5" label="Expressed"/>
+      <facetEntailment facetID="FN_24c_f6" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24c_f7" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24c_f8" label="Expressed"/>
+      <facetEntailment facetID="FN_24c_f9" label="Expressed"/>
+      <facetEntailment facetID="FN_24c_f10" label="Expressed"/>
+      <facetEntailment facetID="FN_24c_f11" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f12" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f13" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f14" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f15" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.24c.254.1" answerText="A volume tube, yeast, water, and a warm bath." accuracy="irrelevant">
+      <facetEntailment facetID="FN_24c_f1" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24c_f2" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24c_f3" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24c_f4" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24c_f5" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f6" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24c_f7" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24c_f8" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f9" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f10" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f11" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f12" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f13" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f14" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f15" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.24c.256.1" answerText="To compare pure sugar and Fruity Cream cookies." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="FN_24c_f1" label="Inferred"/>
+      <facetEntailment facetID="FN_24c_f2" label="Inferred"/>
+      <facetEntailment facetID="FN_24c_f3" label="Inferred"/>
+      <facetEntailment facetID="FN_24c_f4" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24c_f5" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f6" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24c_f7" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24c_f8" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f9" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f10" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f11" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f12" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f13" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f14" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f15" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.24c.257.1" answerText="The one with the most carbon dioxide in the volume tube has the most sugar." accuracy="correct">
+      <facetEntailment facetID="FN_24c_f1" label="Inferred"/>
+      <facetEntailment facetID="FN_24c_f2" label="Inferred"/>
+      <facetEntailment facetID="FN_24c_f3" label="Inferred"/>
+      <facetEntailment facetID="FN_24c_f4" label="Inferred"/>
+      <facetEntailment facetID="FN_24c_f5" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f6" label="Inferred"/>
+      <facetEntailment facetID="FN_24c_f7" label="Expressed"/>
+      <facetEntailment facetID="FN_24c_f8" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f9" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f10" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f11" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f12" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f13" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f14" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f15" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.24c.276.1" answerText="Diva needed to test pure sugar because if she just tested Fruity Cream cookies, she would have no proof of them having less milliliters than pure sugar." accuracy="correct">
+      <facetEntailment facetID="FN_24c_f1" label="Expressed"/>
+      <facetEntailment facetID="FN_24c_f2" label="Expressed"/>
+      <facetEntailment facetID="FN_24c_f3" label="Inferred"/>
+      <facetEntailment facetID="FN_24c_f4" label="Inferred"/>
+      <facetEntailment facetID="FN_24c_f5" label="Expressed"/>
+      <facetEntailment facetID="FN_24c_f6" label="Inferred"/>
+      <facetEntailment facetID="FN_24c_f7" label="Inferred"/>
+      <facetEntailment facetID="FN_24c_f8" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f9" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f10" label="Expressed"/>
+      <facetEntailment facetID="FN_24c_f11" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f12" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f13" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f14" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f15" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.24c.302.1" answerText="To see if pure sugar was the same as Fruity Cream cookies." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="FN_24c_f1" label="Inferred"/>
+      <facetEntailment facetID="FN_24c_f2" label="Inferred"/>
+      <facetEntailment facetID="FN_24c_f3" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24c_f4" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24c_f5" label="Expressed"/>
+      <facetEntailment facetID="FN_24c_f6" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24c_f7" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24c_f8" label="Expressed"/>
+      <facetEntailment facetID="FN_24c_f9" label="Expressed"/>
+      <facetEntailment facetID="FN_24c_f10" label="Expressed"/>
+      <facetEntailment facetID="FN_24c_f11" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f12" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f13" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f14" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f15" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.24c.322.1" answerText="Because she wanted to know how much sugar it has." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="FN_24c_f1" label="Expressed"/>
+      <facetEntailment facetID="FN_24c_f2" label="Expressed"/>
+      <facetEntailment facetID="FN_24c_f3" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24c_f4" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24c_f5" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f6" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24c_f7" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24c_f8" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f9" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f10" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f11" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f12" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f13" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f14" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f15" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.24c.327.1" answerText="She needed to test the pure sugar because she needed a controlled variable because if she did not, she would not know how much sugar is in sugar and she cannot compare the cookies and the sugar." accuracy="correct">
+      <facetEntailment facetID="FN_24c_f1" label="Expressed"/>
+      <facetEntailment facetID="FN_24c_f2" label="Expressed"/>
+      <facetEntailment facetID="FN_24c_f3" label="Expressed"/>
+      <facetEntailment facetID="FN_24c_f4" label="Inferred"/>
+      <facetEntailment facetID="FN_24c_f5" label="Expressed"/>
+      <facetEntailment facetID="FN_24c_f6" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24c_f7" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24c_f8" label="Expressed"/>
+      <facetEntailment facetID="FN_24c_f9" label="Expressed"/>
+      <facetEntailment facetID="FN_24c_f10" label="Expressed"/>
+      <facetEntailment facetID="FN_24c_f11" label="Expressed"/>
+      <facetEntailment facetID="FN_24c_f12" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f13" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f14" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f15" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.24c.330.1" answerText="So she could compare the results and see if they are the same." accuracy="correct">
+      <facetEntailment facetID="FN_24c_f1" label="Inferred"/>
+      <facetEntailment facetID="FN_24c_f2" label="Inferred"/>
+      <facetEntailment facetID="FN_24c_f3" label="Inferred"/>
+      <facetEntailment facetID="FN_24c_f4" label="Inferred"/>
+      <facetEntailment facetID="FN_24c_f5" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f6" label="Inferred"/>
+      <facetEntailment facetID="FN_24c_f7" label="Inferred"/>
+      <facetEntailment facetID="FN_24c_f8" label="Expressed"/>
+      <facetEntailment facetID="FN_24c_f9" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f10" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f11" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f12" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f13" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f14" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f15" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.24c.360.1" answerText="Diva needed to test pure sugar as a control to compare with the Fruity Cream cookie." accuracy="correct">
+      <facetEntailment facetID="FN_24c_f1" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24c_f2" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24c_f3" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24c_f4" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24c_f5" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f6" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24c_f7" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24c_f8" label="Expressed"/>
+      <facetEntailment facetID="FN_24c_f9" label="Expressed"/>
+      <facetEntailment facetID="FN_24c_f10" label="Expressed"/>
+      <facetEntailment facetID="FN_24c_f11" label="Expressed"/>
+      <facetEntailment facetID="FN_24c_f12" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f13" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f14" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f15" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="FN.24c.384.1" answerText="To see what Fruity Cream cookies percentage from real sugar." accuracy="irrelevant">
+      <facetEntailment facetID="FN_24c_f1" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24c_f2" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24c_f3" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24c_f4" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24c_f5" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f6" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24c_f7" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24c_f8" label="Expressed"/>
+      <facetEntailment facetID="FN_24c_f9" label="Expressed"/>
+      <facetEntailment facetID="FN_24c_f10" label="Expressed"/>
+      <facetEntailment facetID="FN_24c_f11" label="Expressed"/>
+      <facetEntailment facetID="FN_24c_f12" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f13" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f14" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f15" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.24c.418.1" answerText="Because her dad does not want to eat that much sugar." accuracy="irrelevant">
+      <facetEntailment facetID="FN_24c_f1" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24c_f2" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24c_f3" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24c_f4" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24c_f5" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f6" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24c_f7" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24c_f8" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f9" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f10" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f11" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f12" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f13" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f14" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f15" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.24c.422.1" answerText="She needed to test pure sugar to find out if Fruity Cream Cookies are pure sugar." accuracy="correct">
+      <facetEntailment facetID="FN_24c_f1" label="Inferred"/>
+      <facetEntailment facetID="FN_24c_f2" label="Inferred"/>
+      <facetEntailment facetID="FN_24c_f3" label="Inferred"/>
+      <facetEntailment facetID="FN_24c_f4" label="Inferred"/>
+      <facetEntailment facetID="FN_24c_f5" label="Expressed"/>
+      <facetEntailment facetID="FN_24c_f6" label="Inferred"/>
+      <facetEntailment facetID="FN_24c_f7" label="Inferred"/>
+      <facetEntailment facetID="FN_24c_f8" label="Expressed"/>
+      <facetEntailment facetID="FN_24c_f9" label="Expressed"/>
+      <facetEntailment facetID="FN_24c_f10" label="Expressed"/>
+      <facetEntailment facetID="FN_24c_f11" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f12" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f13" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f14" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f15" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.24c.424.1" answerText="To see how much sugar it really has." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="FN_24c_f1" label="Inferred"/>
+      <facetEntailment facetID="FN_24c_f2" label="Inferred"/>
+      <facetEntailment facetID="FN_24c_f3" label="Inferred"/>
+      <facetEntailment facetID="FN_24c_f4" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24c_f5" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f6" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24c_f7" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24c_f8" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f9" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f10" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f11" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f12" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f13" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f14" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f15" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.24c.428.1" answerText="To see which one has the more sugar to compare with the Fruity Cream cookies." accuracy="irrelevant">
+      <facetEntailment facetID="FN_24c_f1" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24c_f2" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24c_f3" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24c_f4" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24c_f5" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f6" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24c_f7" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24c_f8" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f9" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f10" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f11" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f12" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f13" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f14" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f15" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.24c.451.1" answerText="She tested pure sugar because she needed something to go against with the cookies." accuracy="correct">
+      <facetEntailment facetID="FN_24c_f1" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24c_f2" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24c_f3" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24c_f4" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24c_f5" label="Expressed"/>
+      <facetEntailment facetID="FN_24c_f6" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24c_f7" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24c_f8" label="Expressed"/>
+      <facetEntailment facetID="FN_24c_f9" label="Expressed"/>
+      <facetEntailment facetID="FN_24c_f10" label="Expressed"/>
+      <facetEntailment facetID="FN_24c_f11" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f12" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f13" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f14" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f15" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="FN.24c.455.1" answerText="To see what has more sugar than Fruity Cream cookies." accuracy="irrelevant">
+      <facetEntailment facetID="FN_24c_f1" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24c_f2" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24c_f3" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24c_f4" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24c_f5" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f6" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24c_f7" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24c_f8" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f9" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f10" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f11" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f12" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f13" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f14" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f15" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.24c.478.1" answerText="She needed to compare if Fruity Cream cookies is pure sugar." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="FN_24c_f1" label="Inferred"/>
+      <facetEntailment facetID="FN_24c_f2" label="Inferred"/>
+      <facetEntailment facetID="FN_24c_f3" label="Inferred"/>
+      <facetEntailment facetID="FN_24c_f4" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24c_f5" label="Expressed"/>
+      <facetEntailment facetID="FN_24c_f6" label="Inferred"/>
+      <facetEntailment facetID="FN_24c_f7" label="Inferred"/>
+      <facetEntailment facetID="FN_24c_f8" label="Expressed"/>
+      <facetEntailment facetID="FN_24c_f9" label="Expressed"/>
+      <facetEntailment facetID="FN_24c_f10" label="Expressed"/>
+      <facetEntailment facetID="FN_24c_f11" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f12" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f13" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f14" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f15" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.24c.490.1" answerText="She needed to test pure sugar because then there would be nothing to compare with." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="FN_24c_f1" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24c_f2" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24c_f3" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24c_f4" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24c_f5" label="Expressed"/>
+      <facetEntailment facetID="FN_24c_f6" label="Inferred"/>
+      <facetEntailment facetID="FN_24c_f7" label="Inferred"/>
+      <facetEntailment facetID="FN_24c_f8" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f9" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f10" label="Expressed"/>
+      <facetEntailment facetID="FN_24c_f11" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f12" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f13" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f14" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f15" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.24c.511.1" answerText="To show her dad the cookies are not equal to pure sugar." accuracy="irrelevant">
+      <facetEntailment facetID="FN_24c_f1" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24c_f2" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24c_f3" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24c_f4" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24c_f5" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f6" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24c_f7" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24c_f8" label="Expressed"/>
+      <facetEntailment facetID="FN_24c_f9" label="Expressed"/>
+      <facetEntailment facetID="FN_24c_f10" label="Expressed"/>
+      <facetEntailment facetID="FN_24c_f11" label="Expressed"/>
+      <facetEntailment facetID="FN_24c_f12" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f13" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f14" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f15" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.24c.512.1" answerText="So she could see which one has more sugar than the other. Then she can see which one has less sugar and she can eat that one." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="FN_24c_f1" label="Inferred"/>
+      <facetEntailment facetID="FN_24c_f2" label="Inferred"/>
+      <facetEntailment facetID="FN_24c_f3" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24c_f4" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24c_f5" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f6" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24c_f7" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24c_f8" label="Expressed"/>
+      <facetEntailment facetID="FN_24c_f9" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f10" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f11" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f12" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f13" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f14" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f15" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.24c.548.1" answerText="Diva needed to test pure sugar because her dad said to not eat that many cookies because they are pure sugar." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="FN_24c_f1" label="Inferred"/>
+      <facetEntailment facetID="FN_24c_f2" label="Inferred"/>
+      <facetEntailment facetID="FN_24c_f3" label="Inferred"/>
+      <facetEntailment facetID="FN_24c_f4" label="Inferred"/>
+      <facetEntailment facetID="FN_24c_f5" label="Expressed"/>
+      <facetEntailment facetID="FN_24c_f6" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24c_f7" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24c_f8" label="Expressed"/>
+      <facetEntailment facetID="FN_24c_f9" label="Expressed"/>
+      <facetEntailment facetID="FN_24c_f10" label="Expressed"/>
+      <facetEntailment facetID="FN_24c_f11" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f12" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f13" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f14" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f15" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.24c.568.1" answerText="To see if Fruity Cream cookies was pure sugar." accuracy="irrelevant">
+      <facetEntailment facetID="FN_24c_f1" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24c_f2" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24c_f3" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24c_f4" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24c_f5" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f6" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24c_f7" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24c_f8" label="Expressed"/>
+      <facetEntailment facetID="FN_24c_f9" label="Expressed"/>
+      <facetEntailment facetID="FN_24c_f10" label="Expressed"/>
+      <facetEntailment facetID="FN_24c_f11" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f12" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f13" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f14" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f15" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.24c.572.1" answerText="So she can prove to her dad that the cookies are not pure sugar. So she can have Fruity Cream Cookies." accuracy="irrelevant">
+      <facetEntailment facetID="FN_24c_f1" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24c_f2" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24c_f3" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24c_f4" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24c_f5" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f6" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24c_f7" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24c_f8" label="Expressed"/>
+      <facetEntailment facetID="FN_24c_f9" label="Expressed"/>
+      <facetEntailment facetID="FN_24c_f10" label="Expressed"/>
+      <facetEntailment facetID="FN_24c_f11" label="Expressed"/>
+      <facetEntailment facetID="FN_24c_f12" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f13" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f14" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f15" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.24c.579.1" answerText="Diva needed to test pure sugar because she needed to see if pure sugar itself had more or less than Fruity Cream cookies." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="FN_24c_f1" label="Expressed"/>
+      <facetEntailment facetID="FN_24c_f2" label="Expressed"/>
+      <facetEntailment facetID="FN_24c_f3" label="Inferred"/>
+      <facetEntailment facetID="FN_24c_f4" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24c_f5" label="Expressed"/>
+      <facetEntailment facetID="FN_24c_f6" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24c_f7" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24c_f8" label="Expressed"/>
+      <facetEntailment facetID="FN_24c_f9" label="Expressed"/>
+      <facetEntailment facetID="FN_24c_f10" label="Expressed"/>
+      <facetEntailment facetID="FN_24c_f11" label="Expressed"/>
+      <facetEntailment facetID="FN_24c_f12" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f13" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f14" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f15" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.24c.587.1" answerText="Because if she did not know it she would not know how much it was or if they were the same." accuracy="correct">
+      <facetEntailment facetID="FN_24c_f1" label="Inferred"/>
+      <facetEntailment facetID="FN_24c_f2" label="Inferred"/>
+      <facetEntailment facetID="FN_24c_f3" label="Expressed"/>
+      <facetEntailment facetID="FN_24c_f4" label="Inferred"/>
+      <facetEntailment facetID="FN_24c_f5" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f6" label="Expressed"/>
+      <facetEntailment facetID="FN_24c_f7" label="Inferred"/>
+      <facetEntailment facetID="FN_24c_f8" label="Expressed"/>
+      <facetEntailment facetID="FN_24c_f9" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f10" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f11" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f12" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f13" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f14" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f15" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.24c.597.1" answerText="So she can compare them or else she could not compare the amounts." accuracy="irrelevant">
+      <facetEntailment facetID="FN_24c_f1" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24c_f2" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24c_f3" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24c_f4" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24c_f5" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f6" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24c_f7" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24c_f8" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f9" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f10" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f11" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f12" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f13" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f14" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f15" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.24c.607.1" answerText="So she can see the difference of the pure sugar and regular sugar." accuracy="irrelevant">
+      <facetEntailment facetID="FN_24c_f1" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24c_f2" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24c_f3" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24c_f4" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24c_f5" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f6" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24c_f7" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24c_f8" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f9" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f10" label="Expressed"/>
+      <facetEntailment facetID="FN_24c_f11" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f12" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f13" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f14" label="Assumed"/>
+      <facetEntailment facetID="FN_24c_f15" label="Unaddressed"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

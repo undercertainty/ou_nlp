@@ -1,0 +1,91 @@
+<?xml version="1.0"?>
+<question testSet="unseen-answers" id="MX_11f" module="MX">
+  <questionText>Jim used a solid and water to make Mixtures one (one spoon of solid in 100 milliliters water was clear with nothing on the bottom), 3 (3 spoons of solid in 100 milliliters water was clear with nothing on the bottom), 4 (4 spoons of solid in 100 milliliters water was clear with material on the bottom), and 5 (5 spoons of solid in 100 milliliters water was clear with material on the bottom) as shown below. He stirred each one and observed the results. If Jim made Mixture 2 with 2 spoons of solid in 100 milliliters of water, what would he observe? What evidence do you have to support this?</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="MX_11f-a1" text="Jim would see a clear solution. 3 spoons of solid dissolves, so 2 spoons will dissolve.">
+      <tokens>
+        <token id="MX_11f_ra1">Jim</token>
+        <token id="MX_11f_ra2">would</token>
+        <token id="MX_11f_ra3">see</token>
+        <token id="MX_11f_ra4">a</token>
+        <token id="MX_11f_ra5">clear</token>
+        <token id="MX_11f_ra6">solution</token>
+        <token id="MX_11f_ra7">.</token>
+        <token id="MX_11f_ra8">3</token>
+        <token id="MX_11f_ra9">spoons</token>
+        <token id="MX_11f_ra10">of</token>
+        <token id="MX_11f_ra11">solid</token>
+        <token id="MX_11f_ra12">dissolves</token>
+        <token id="MX_11f_ra13">,</token>
+        <token id="MX_11f_ra14">so</token>
+        <token id="MX_11f_ra15">2</token>
+        <token id="MX_11f_ra16">spoons</token>
+        <token id="MX_11f_ra17">will</token>
+        <token id="MX_11f_ra18">dissolve</token>
+        <token id="MX_11f_ra19">.</token>
+      </tokens>
+      <facets>
+        <facet id="MX_11f_f1" govNum="MX_11f_ra3" modNum="MX_11f_ra1" reltn="Experiencer" govText="see" isAssumed="true" modText="Jim"/>
+        <facet id="MX_11f_f2" govNum="MX_11f_ra3" modNum="MX_11f_ra6" reltn="Stimulus" govText="see" modText="solution"/>
+        <facet id="MX_11f_f3" govNum="MX_11f_ra6" modNum="MX_11f_ra5" reltn="NMod" govText="solution" modText="clear"/>
+        <facet id="MX_11f_f4" govNum="MX_11f_ra8" modNum="MX_11f_ra9" reltn="NMod" govText="3" isAssumed="true" modText="spoons"/>
+        <facet id="MX_11f_f5" govNum="MX_11f_ra9" modNum="MX_11f_ra11" reltn="NMod_of" govText="spoons" isAssumed="true" modText="solid"/>
+        <facet id="MX_11f_f6" govNum="MX_11f_ra12" modNum="MX_11f_ra8" reltn="Patient" govText="dissolves" modText="3"/>
+        <facet id="MX_11f_f7" govNum="MX_11f_ra15" modNum="MX_11f_ra16" reltn="NMod" govText="2" isAssumed="true" modText="spoons"/>
+        <facet id="MX_11f_f8" govNum="MX_11f_ra18" modNum="MX_11f_ra15" reltn="Patient" govText="dissolve" modText="2"/>
+        <facet id="MX_11f_f9" govNum="MX_11f_ra18" modNum="MX_11f_ra12" reltn="Cause-know_so" childProp2Facet2="MX_11f_f5" childProp1Facet1="MX_11f_f8" govText="dissolve" childProp1Facet2="MX_11f_f7" modText="dissolves" childProp2Facet1="MX_11f_f6"/>
+        <facet id="MX_11f_f10" govNum="MX_11f_ra5" modNum="MX_11f_ra18" reltn="Cause" childProp2Facet2="MX_11f_f7" childProp1Facet1="MX_11f_f3" govText="clear" childProp1Facet2="MX_11f_f1" modText="dissolve" childProp2Facet1="MX_11f_f8"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="MX.11f.393.1" answerText="Clear with nothing on the bottom because one is clear with nothing on the bottom and 3 is the same." accuracy="correct">
+      <facetEntailment facetID="MX_11f_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_11f_f2" label="Inferred"/>
+      <facetEntailment facetID="MX_11f_f3" label="Inferred"/>
+      <facetEntailment facetID="MX_11f_f4" label="Assumed"/>
+      <facetEntailment facetID="MX_11f_f5" label="Assumed"/>
+      <facetEntailment facetID="MX_11f_f6" label="Inferred"/>
+      <facetEntailment facetID="MX_11f_f7" label="Assumed"/>
+      <facetEntailment facetID="MX_11f_f8" label="Inferred"/>
+      <facetEntailment facetID="MX_11f_f9" label="Inferred"/>
+      <facetEntailment facetID="MX_11f_f10" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="MX.11f.425.1" answerText="He would observe nothing. It would be a solution. Because mixture one and 3 each have one scoop more or less and they are still solutions." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="MX_11f_f1" label="Expressed"/>
+      <facetEntailment facetID="MX_11f_f2" label="Expressed"/>
+      <facetEntailment facetID="MX_11f_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_11f_f4" label="Assumed"/>
+      <facetEntailment facetID="MX_11f_f5" label="Assumed"/>
+      <facetEntailment facetID="MX_11f_f6" label="Unaddressed"/>
+      <facetEntailment facetID="MX_11f_f7" label="Assumed"/>
+      <facetEntailment facetID="MX_11f_f8" label="Unaddressed"/>
+      <facetEntailment facetID="MX_11f_f9" label="Unaddressed"/>
+      <facetEntailment facetID="MX_11f_f10" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.11f.429.1" answerText="It would probably saturate." accuracy="contradictory">
+      <facetEntailment facetID="MX_11f_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_11f_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MX_11f_f3" label="Contra-Infr"/>
+      <facetEntailment facetID="MX_11f_f4" label="Assumed"/>
+      <facetEntailment facetID="MX_11f_f5" label="Assumed"/>
+      <facetEntailment facetID="MX_11f_f6" label="Unaddressed"/>
+      <facetEntailment facetID="MX_11f_f7" label="Assumed"/>
+      <facetEntailment facetID="MX_11f_f8" label="Unaddressed"/>
+      <facetEntailment facetID="MX_11f_f9" label="Unaddressed"/>
+      <facetEntailment facetID="MX_11f_f10" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.11f.560.1" answerText="Clear nothing on bottom because mixture 3 has clear and nothing on the bottom and it has 3 scoops." accuracy="correct">
+      <facetEntailment facetID="MX_11f_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_11f_f2" label="Inferred"/>
+      <facetEntailment facetID="MX_11f_f3" label="Inferred"/>
+      <facetEntailment facetID="MX_11f_f4" label="Expressed"/>
+      <facetEntailment facetID="MX_11f_f5" label="Assumed"/>
+      <facetEntailment facetID="MX_11f_f6" label="Inferred"/>
+      <facetEntailment facetID="MX_11f_f7" label="Assumed"/>
+      <facetEntailment facetID="MX_11f_f8" label="Inferred"/>
+      <facetEntailment facetID="MX_11f_f9" label="Inferred"/>
+      <facetEntailment facetID="MX_11f_f10" label="Inferred"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

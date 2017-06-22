@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<question testSet="unseen-answers" id="SE_4a" module="SE">
+  <questionText>What is a heat sink?</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="SE_4a-a1" text="A heat sink is any material that absorbs (a lot of) heat.">
+      <tokens>
+        <token id="SE_4a_ra1">A</token>
+        <token id="SE_4a_ra2">heat</token>
+        <token id="SE_4a_ra3">sink</token>
+        <token id="SE_4a_ra4">is</token>
+        <token id="SE_4a_ra5">any</token>
+        <token id="SE_4a_ra6">material</token>
+        <token id="SE_4a_ra7">that</token>
+        <token id="SE_4a_ra8">absorbs</token>
+        <token id="SE_4a_ra9">(</token>
+        <token id="SE_4a_ra10">a</token>
+        <token id="SE_4a_ra11">lot</token>
+        <token id="SE_4a_ra12">of</token>
+        <token id="SE_4a_ra13">)</token>
+        <token id="SE_4a_ra14">heat</token>
+        <token id="SE_4a_ra15">.</token>
+      </tokens>
+      <facets>
+        <facet id="SE_4a_f1" govNum="SE_4a_ra3" modNum="SE_4a_ra2" reltn="NMod" govText="sink" isAssumed="true" modText="heat"/>
+        <facet id="SE_4a_f2" govNum="SE_4a_ra3" modNum="SE_4a_ra6" reltn="Be" govText="sink" modText="material"/>
+        <facet id="SE_4a_f3" govNum="SE_4a_ra6" modNum="SE_4a_ra5" reltn="Quantifier" govText="material" isAssumed="true" modText="any"/>
+        <facet id="SE_4a_f4" govNum="SE_4a_ra8" modNum="SE_4a_ra6" reltn="Means_that" govText="absorbs" modText="material"/>
+        <facet id="SE_4a_f5" govNum="SE_4a_ra8" modNum="SE_4a_ra14" reltn="Theme" govText="absorbs" modText="heat"/>
+        <facet id="SE_4a_f6" govNum="SE_4a_ra14" modNum="SE_4a_ra11" reltn="Quantifier_of" govText="heat" isAssumed="true" modText="lot"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="SE.4a.327.1" answerText="A material that goes slowly and energy goes slowly." accuracy="irrelevant">
+      <facetEntailment facetID="SE_4a_f1" label="Assumed"/>
+      <facetEntailment facetID="SE_4a_f2" label="Expressed"/>
+      <facetEntailment facetID="SE_4a_f3" label="Assumed"/>
+      <facetEntailment facetID="SE_4a_f4" label="Inferred"/>
+      <facetEntailment facetID="SE_4a_f5" label="Unaddressed"/>
+      <facetEntailment facetID="SE_4a_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.4a.407.1" answerText="Something the heat sinks into." accuracy="irrelevant">
+      <facetEntailment facetID="SE_4a_f1" label="Assumed"/>
+      <facetEntailment facetID="SE_4a_f2" label="Unaddressed"/>
+      <facetEntailment facetID="SE_4a_f3" label="Assumed"/>
+      <facetEntailment facetID="SE_4a_f4" label="Unaddressed"/>
+      <facetEntailment facetID="SE_4a_f5" label="Unaddressed"/>
+      <facetEntailment facetID="SE_4a_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.4a.506.1" answerText="Sand is heat sink." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="SE_4a_f1" label="Expressed"/>
+      <facetEntailment facetID="SE_4a_f2" label="Inferred"/>
+      <facetEntailment facetID="SE_4a_f3" label="Assumed"/>
+      <facetEntailment facetID="SE_4a_f4" label="Unaddressed"/>
+      <facetEntailment facetID="SE_4a_f5" label="Unaddressed"/>
+      <facetEntailment facetID="SE_4a_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.4a.521.1" answerText="A system that takes a long time to heat up and a long time to cool off." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="SE_4a_f1" label="Assumed"/>
+      <facetEntailment facetID="SE_4a_f2" label="Unaddressed"/>
+      <facetEntailment facetID="SE_4a_f3" label="Assumed"/>
+      <facetEntailment facetID="SE_4a_f4" label="Unaddressed"/>
+      <facetEntailment facetID="SE_4a_f5" label="Expressed"/>
+      <facetEntailment facetID="SE_4a_f6" label="Assumed"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

@@ -1,0 +1,107 @@
+<?xml version="1.0"?>
+<question testSet="unseen-answers" id="LF_39" module="LF">
+  <questionText>Don wants to make a map of his neighborhood that fits into his notebook. He has a photograph of the neighborhood but it is too large. Complete the description of how Don can draw an accurate map that fits into his notebook: 1. Put an overlay grid over the model. 2. ____ 3. Draw a smaller grid with the same number of squares in your notebook. 4. ____ 5. Create a key to go with the map.</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="LF_39-a1" text="2: Trace the features from the photograph onto the overlay grid. 4: Transfer the features to the matching squares on the smaller grid in your notebook.">
+      <tokens>
+        <token id="LF_39_ra1">2</token>
+        <token id="LF_39_ra2">:</token>
+        <token id="LF_39_ra3">Trace</token>
+        <token id="LF_39_ra4">the</token>
+        <token id="LF_39_ra5">features</token>
+        <token id="LF_39_ra6">from</token>
+        <token id="LF_39_ra7">the</token>
+        <token id="LF_39_ra8">photograph</token>
+        <token id="LF_39_ra9">onto</token>
+        <token id="LF_39_ra10">the</token>
+        <token id="LF_39_ra11">overlay</token>
+        <token id="LF_39_ra12">grid</token>
+        <token id="LF_39_ra13">.</token>
+        <token id="LF_39_ra14">4</token>
+        <token id="LF_39_ra15">:</token>
+        <token id="LF_39_ra16">Transfer</token>
+        <token id="LF_39_ra17">the</token>
+        <token id="LF_39_ra18">features</token>
+        <token id="LF_39_ra19">to</token>
+        <token id="LF_39_ra20">the</token>
+        <token id="LF_39_ra21">matching</token>
+        <token id="LF_39_ra22">squares</token>
+        <token id="LF_39_ra23">on</token>
+        <token id="LF_39_ra24">the</token>
+        <token id="LF_39_ra25">smaller</token>
+        <token id="LF_39_ra26">grid</token>
+        <token id="LF_39_ra27">in</token>
+        <token id="LF_39_ra28">your</token>
+        <token id="LF_39_ra29">notebook</token>
+        <token id="LF_39_ra30">.</token>
+      </tokens>
+      <facets>
+        <facet id="LF_39_f1" govNum="LF_39_ra3" modNum="LF_39_ra5" reltn="Theme" govText="Trace" modText="features"/>
+        <facet id="LF_39_f2" govNum="LF_39_ra3" modNum="LF_39_ra8" reltn="Source_from" govText="Trace" modText="photograph"/>
+        <facet id="LF_39_f3" govNum="LF_39_ra3" modNum="LF_39_ra12" reltn="Destination_onto" govText="Trace" modText="grid"/>
+        <facet id="LF_39_f4" govNum="LF_39_ra12" modNum="LF_39_ra11" reltn="NMod" govText="grid" isAssumed="true" modText="overlay"/>
+        <facet id="LF_39_f5" govNum="LF_39_ra16" modNum="LF_39_ra18" reltn="Theme" govText="Transfer" modText="features"/>
+        <facet id="LF_39_f6" govNum="LF_39_ra16" modNum="LF_39_ra22" reltn="Destination_to" govText="Transfer" modText="squares"/>
+        <facet id="LF_39_f7" govNum="LF_39_ra22" modNum="LF_39_ra21" reltn="NMod" govText="squares" modText="matching"/>
+        <facet id="LF_39_f8" govNum="LF_39_ra22" modNum="LF_39_ra26" reltn="Location_on" govText="squares" isAssumed="true" modText="grid"/>
+        <facet id="LF_39_f9" govNum="LF_39_ra26" modNum="LF_39_ra25" reltn="NMod" govText="grid" isAssumed="true" modText="smaller"/>
+        <facet id="LF_39_f10" govNum="LF_39_ra26" modNum="LF_39_ra29" reltn="Location_in" govText="grid" isAssumed="true" modText="notebook"/>
+        <facet id="LF_39_f11" govNum="LF_39_ra29" modNum="LF_39_ra28" reltn="NMod_pos" govText="notebook" isAssumed="true" modText="your"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="LF.39.394.1" answerText="2. Then put the tape on the side, then trace your neighborhood." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="LF_39_f1" label="Inferred"/>
+      <facetEntailment facetID="LF_39_f2" label="Diff-Arg"/>
+      <facetEntailment facetID="LF_39_f3" label="Unaddressed"/>
+      <facetEntailment facetID="LF_39_f4" label="Assumed"/>
+      <facetEntailment facetID="LF_39_f5" label="Unaddressed"/>
+      <facetEntailment facetID="LF_39_f6" label="Unaddressed"/>
+      <facetEntailment facetID="LF_39_f7" label="Unaddressed"/>
+      <facetEntailment facetID="LF_39_f8" label="Assumed"/>
+      <facetEntailment facetID="LF_39_f9" label="Assumed"/>
+      <facetEntailment facetID="LF_39_f10" label="Assumed"/>
+      <facetEntailment facetID="LF_39_f11" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="LF.39.443.1" answerText="2. Make a model then copy it. 4. Trace it then make the closer together." accuracy="irrelevant">
+      <facetEntailment facetID="LF_39_f1" label="Diff-Arg"/>
+      <facetEntailment facetID="LF_39_f2" label="Unaddressed"/>
+      <facetEntailment facetID="LF_39_f3" label="Unaddressed"/>
+      <facetEntailment facetID="LF_39_f4" label="Assumed"/>
+      <facetEntailment facetID="LF_39_f5" label="Diff-Arg"/>
+      <facetEntailment facetID="LF_39_f6" label="Unaddressed"/>
+      <facetEntailment facetID="LF_39_f7" label="Unaddressed"/>
+      <facetEntailment facetID="LF_39_f8" label="Assumed"/>
+      <facetEntailment facetID="LF_39_f9" label="Assumed"/>
+      <facetEntailment facetID="LF_39_f10" label="Assumed"/>
+      <facetEntailment facetID="LF_39_f11" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="LF.39.517.1" answerText="2. Trace the things on the overlay grid. 4. Draw all the things that was on the overlay grid onto the map." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="LF_39_f1" label="Inferred"/>
+      <facetEntailment facetID="LF_39_f2" label="Inferred"/>
+      <facetEntailment facetID="LF_39_f3" label="Expressed"/>
+      <facetEntailment facetID="LF_39_f4" label="Expressed"/>
+      <facetEntailment facetID="LF_39_f5" label="Inferred"/>
+      <facetEntailment facetID="LF_39_f6" label="Unaddressed"/>
+      <facetEntailment facetID="LF_39_f7" label="Unaddressed"/>
+      <facetEntailment facetID="LF_39_f8" label="Assumed"/>
+      <facetEntailment facetID="LF_39_f9" label="Assumed"/>
+      <facetEntailment facetID="LF_39_f10" label="Assumed"/>
+      <facetEntailment facetID="LF_39_f11" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="LF.39.583.1" answerText="2. Trace the homes, train tracks, and trees." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="LF_39_f1" label="Expressed"/>
+      <facetEntailment facetID="LF_39_f2" label="Inferred"/>
+      <facetEntailment facetID="LF_39_f3" label="Unaddressed"/>
+      <facetEntailment facetID="LF_39_f4" label="Assumed"/>
+      <facetEntailment facetID="LF_39_f5" label="Unaddressed"/>
+      <facetEntailment facetID="LF_39_f6" label="Unaddressed"/>
+      <facetEntailment facetID="LF_39_f7" label="Unaddressed"/>
+      <facetEntailment facetID="LF_39_f8" label="Assumed"/>
+      <facetEntailment facetID="LF_39_f9" label="Assumed"/>
+      <facetEntailment facetID="LF_39_f10" label="Assumed"/>
+      <facetEntailment facetID="LF_39_f11" label="Assumed"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

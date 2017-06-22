@@ -1,0 +1,1858 @@
+<?xml version="1.0"?>
+<question testSet="unseen-domains" id="WA_29" module="WA">
+  <questionText>Which is denser, hot water or cold water? How can you tell from lowering vials of hot water and cold water into a cup of room temperature water?</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="WA_29-a1" text="Cold water is denser. Cold water sinks to the bottom of room temperature water. Hot water and less dense things float on room temperature water.">
+      <tokens>
+        <token id="WA_29_ra1">Cold</token>
+        <token id="WA_29_ra2">water</token>
+        <token id="WA_29_ra3">is</token>
+        <token id="WA_29_ra4">denser</token>
+        <token id="WA_29_ra5">.</token>
+        <token id="WA_29_ra6">Cold</token>
+        <token id="WA_29_ra7">water</token>
+        <token id="WA_29_ra8">sinks</token>
+        <token id="WA_29_ra9">to</token>
+        <token id="WA_29_ra10">the</token>
+        <token id="WA_29_ra11">bottom</token>
+        <token id="WA_29_ra12">of</token>
+        <token id="WA_29_ra13">room</token>
+        <token id="WA_29_ra14">temperature</token>
+        <token id="WA_29_ra15">water</token>
+        <token id="WA_29_ra16">.</token>
+        <token id="WA_29_ra17">Hot</token>
+        <token id="WA_29_ra18">water</token>
+        <token id="WA_29_ra19">and</token>
+        <token id="WA_29_ra20">less</token>
+        <token id="WA_29_ra21">dense</token>
+        <token id="WA_29_ra22">things</token>
+        <token id="WA_29_ra23">float</token>
+        <token id="WA_29_ra24">on</token>
+        <token id="WA_29_ra25">room</token>
+        <token id="WA_29_ra26">temperature</token>
+        <token id="WA_29_ra27">water</token>
+        <token id="WA_29_ra28">.</token>
+      </tokens>
+      <facets>
+        <facet id="WA_29_f1" govNum="WA_29_ra2" modNum="WA_29_ra1" reltn="NMod" govText="water" modText="Cold"/>
+        <facet id="WA_29_f2" govNum="WA_29_ra2" modNum="WA_29_ra4" reltn="Be" govText="water" isAssumed="true" modText="denser"/>
+        <facet id="WA_29_f3" govNum="WA_29_ra7" modNum="WA_29_ra6" reltn="NMod" govText="water" modText="Cold"/>
+        <facet id="WA_29_f4" govNum="WA_29_ra8" modNum="WA_29_ra7" reltn="Theme" govText="sinks" modText="water"/>
+        <facet id="WA_29_f5" govNum="WA_29_ra8" modNum="WA_29_ra11" reltn="Destination_to" govText="sinks" modText="bottom"/>
+        <facet id="WA_29_f6" govNum="WA_29_ra11" modNum="WA_29_ra15" reltn="NMod_of" govText="bottom" modText="water"/>
+        <facet id="WA_29_f7" govNum="WA_29_ra15" modNum="WA_29_ra14" reltn="NMod" govText="water" isAssumed="true" modText="temperature"/>
+        <facet id="WA_29_f8" govNum="WA_29_ra14" modNum="WA_29_ra13" reltn="AMod" govText="temperature" isAssumed="true" modText="room"/>
+        <facet id="WA_29_f9" govNum="WA_29_ra18" modNum="WA_29_ra17" reltn="NMod" govText="water" modText="Hot"/>
+        <facet id="WA_29_f10" govNum="WA_29_ra23" modNum="WA_29_ra18" reltn="Theme" govText="float" modText="water"/>
+        <facet id="WA_29_f11" govNum="WA_29_ra22" modNum="WA_29_ra21" reltn="NMod" govText="things" isAssumed="true" modText="dense"/>
+        <facet id="WA_29_f12" govNum="WA_29_ra21" modNum="WA_29_ra20" reltn="AMod" govText="dense" modText="less"/>
+        <facet id="WA_29_f13" govNum="WA_29_ra23" modNum="WA_29_ra22" reltn="Theme" govText="float" modText="things"/>
+        <facet id="WA_29_f14" govNum="WA_29_ra23" modNum="WA_29_ra27" reltn="Location_on" govText="float" modText="water"/>
+        <facet id="WA_29_f15" govNum="WA_29_ra27" modNum="WA_29_ra26" reltn="NMod" govText="water" isAssumed="true" modText="temperature"/>
+        <facet id="WA_29_f16" govNum="WA_29_ra26" modNum="WA_29_ra25" reltn="AMod" govText="temperature" isAssumed="true" modText="room"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="WA.29.172.1" answerText="Cold. I know because things that are denser than water sink. The cold water sinks, so it is denser than room temperature water." accuracy="correct">
+      <facetEntailment facetID="WA_29_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f7" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f8" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f9" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f10" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f11" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f12" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f13" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f14" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f15" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f16" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.29.173.1" answerText="Hot. Hot water is denser than room temperature water because most of the hot water will go to the top of the cup." accuracy="contradictory">
+      <facetEntailment facetID="WA_29_f1" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_29_f2" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_29_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f4" label="Contra-Infr"/>
+      <facetEntailment facetID="WA_29_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f6" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f7" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f8" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f9" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f10" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f11" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_29_f12" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_29_f13" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_29_f14" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f15" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f16" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.29.176.1" answerText="Hot. I know because the hot water goes to the bottom of the cup which means hot water is more dense than water." accuracy="contradictory">
+      <facetEntailment facetID="WA_29_f1" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_29_f2" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_29_f3" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f4" label="Contra-Infr"/>
+      <facetEntailment facetID="WA_29_f5" label="Contra-Infr"/>
+      <facetEntailment facetID="WA_29_f6" label="Contra-Infr"/>
+      <facetEntailment facetID="WA_29_f7" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f8" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f10" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_29_f11" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f12" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_29_f13" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_29_f14" label="Contra-Infr"/>
+      <facetEntailment facetID="WA_29_f15" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f16" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.29.179.1" answerText="Hot. Because hot makes water evaporate faster." accuracy="contradictory">
+      <facetEntailment facetID="WA_29_f1" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_29_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f6" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f7" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f8" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f10" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f11" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f12" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f13" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f14" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f15" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f16" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.29.181.1" answerText="Cold water. I know this because when you put a cup of cold water into a cup that is room temperature it goes to the bottom, whereas warm water goes to the top." accuracy="correct">
+      <facetEntailment facetID="WA_29_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f7" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f8" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f10" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f11" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f12" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f13" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f14" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f15" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f16" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.29.186.1" answerText="Cold. If it was less dense it would have floated to the top like the block of wood question, but it did not so it is denser." accuracy="correct">
+      <facetEntailment facetID="WA_29_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f7" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f8" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f9" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f10" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f11" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f12" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f13" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f14" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f15" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f16" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.29.187.1" answerText="Hot. Because the heat goes on top first then it starts to spread." accuracy="contradictory">
+      <facetEntailment facetID="WA_29_f1" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_29_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f6" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f7" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f8" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f10" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f11" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f12" label="Contra-Infr"/>
+      <facetEntailment facetID="WA_29_f13" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f14" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f15" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f16" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.29.190.1" answerText="Cold. I know cold water is less dense because the water stayed where it was." accuracy="correct">
+      <facetEntailment facetID="WA_29_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f2" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_29_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f4" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_29_f5" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_29_f6" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_29_f7" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f8" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f9" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f10" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f11" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f12" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f13" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f14" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f15" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f16" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.29.194.1" answerText="Hot. Because the hot water stayed in the vial and the cold water went into the cup." accuracy="contradictory">
+      <facetEntailment facetID="WA_29_f1" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_29_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f4" label="Contra-Infr"/>
+      <facetEntailment facetID="WA_29_f5" label="Contra-Infr"/>
+      <facetEntailment facetID="WA_29_f6" label="Contra-Infr"/>
+      <facetEntailment facetID="WA_29_f7" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f8" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f10" label="Contra-Infr"/>
+      <facetEntailment facetID="WA_29_f11" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f12" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_29_f13" label="Contra-Infr"/>
+      <facetEntailment facetID="WA_29_f14" label="Contra-Infr"/>
+      <facetEntailment facetID="WA_29_f15" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f16" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.29.195.1" answerText="Cold. Because cold water goes to the bottom." accuracy="correct">
+      <facetEntailment facetID="WA_29_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f7" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f8" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f9" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f10" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f11" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f12" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f13" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f14" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f15" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f16" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.29.196.1" answerText="Hot. When we did hot and cold water the hot water was more dense." accuracy="contradictory">
+      <facetEntailment facetID="WA_29_f1" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_29_f2" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_29_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f6" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f7" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f8" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f10" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f11" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f12" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f13" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f14" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f15" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f16" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.29.197.1" answerText="Cold water. Because the sun is up high and far from the earth but the moon is closer to earth so it just like the moon is down and the sun is up!" accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="WA_29_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f6" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f7" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f8" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f9" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f10" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f11" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f12" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f13" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f14" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f15" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f16" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.29.211.1" answerText="Hot. The hot water sunk when it hit the water." accuracy="contradictory">
+      <facetEntailment facetID="WA_29_f1" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_29_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f3" label="Contra-Infr"/>
+      <facetEntailment facetID="WA_29_f4" label="Contra-Infr"/>
+      <facetEntailment facetID="WA_29_f5" label="Contra-Infr"/>
+      <facetEntailment facetID="WA_29_f6" label="Contra-Infr"/>
+      <facetEntailment facetID="WA_29_f7" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f8" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f10" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_29_f11" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f12" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_29_f13" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_29_f14" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_29_f15" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f16" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.29.218.1" answerText="Cold water. The hot water is on top so it is less dense than cold water." accuracy="correct">
+      <facetEntailment facetID="WA_29_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f4" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f7" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f8" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f10" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f11" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f12" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f13" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f14" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f15" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f16" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.29.226.1" answerText="Cold. In an experiment we did, the cold water sank to the bottom of the cup." accuracy="correct">
+      <facetEntailment facetID="WA_29_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f7" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f8" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f9" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f10" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f11" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f12" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f13" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f14" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f15" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f16" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.29.228.1" answerText="Cold. Because if you were to put the cold in the hot, the cold water would stay, but if you were to put hot water in cold it would float." accuracy="correct">
+      <facetEntailment facetID="WA_29_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f4" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f7" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f8" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f10" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f11" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f12" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f13" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f14" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f15" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f16" label="Diff-Arg"/>
+    </studentAnswer>
+    <studentAnswer id="WA.29.230.1" answerText="Cold. Because cold water moves to the bottom of the cup." accuracy="correct">
+      <facetEntailment facetID="WA_29_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f7" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f8" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f9" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f10" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f11" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f12" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f13" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f14" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f15" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f16" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.29.231.1" answerText="Hot. I know because hot water has more air bubbles in it because of expansion." accuracy="contradictory">
+      <facetEntailment facetID="WA_29_f1" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_29_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f6" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f7" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f8" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f9" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f10" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f11" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f12" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f13" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f14" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f15" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f16" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.29.232.1" answerText="Cold. Because I did this experiment and I figured out that cold water is denser." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="WA_29_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f6" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f7" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f8" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f9" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f10" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f11" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f12" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f13" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f14" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f15" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f16" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.29.242.1" answerText="Cold. If you put hot and cold water in the same cup, the cold water would be at the bottom, and the one at the bottom is denser." accuracy="correct">
+      <facetEntailment facetID="WA_29_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f7" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f8" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f10" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f11" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f12" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f13" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f14" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f15" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f16" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.29.248.1" answerText="Hot. Because we experimented it." accuracy="contradictory">
+      <facetEntailment facetID="WA_29_f1" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_29_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f6" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f7" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f8" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f9" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f10" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f11" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f12" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f13" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f14" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f15" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f16" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.29.254.1" answerText="Hot. Well hot water goes up." accuracy="contradictory">
+      <facetEntailment facetID="WA_29_f1" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_29_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f6" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f7" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f8" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f10" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f11" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f12" label="Contra-Infr"/>
+      <facetEntailment facetID="WA_29_f13" label="Contra-Infr"/>
+      <facetEntailment facetID="WA_29_f14" label="Contra-Infr"/>
+      <facetEntailment facetID="WA_29_f15" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f16" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.29.255.1" answerText="Cold. I know because at school I learned that cold water is denser than hot water because we did an experiment like the one above." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="WA_29_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f6" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f7" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f8" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f10" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f11" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f12" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f13" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f14" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f15" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f16" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.29.381.1" answerText="Cold. Because it is cold water." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="WA_29_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f6" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f7" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f8" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f9" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f10" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f11" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f12" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f13" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f14" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f15" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f16" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.29.383.1" answerText="Cold. Because cold water is mostly felt at the bottom of the cup of cold water." accuracy="contradictory">
+      <facetEntailment facetID="WA_29_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f7" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f8" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_29_f9" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f10" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f11" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f12" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f13" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f14" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f15" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f16" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.29.387.1" answerText="Cold. Because the hot water would go to the top of the cup and the cold would stay in the vial. Some may escape the vial and go to the bottom of the cup." accuracy="correct">
+      <facetEntailment facetID="WA_29_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f7" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f8" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f10" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f11" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f12" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f13" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f14" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f15" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f16" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.29.389.1" answerText="Cold. I know because the cold water molecules contract instead of expand." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="WA_29_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f6" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f7" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f8" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f9" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f10" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f11" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f12" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f13" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f14" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f15" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f16" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.29.390.1" answerText="Cold water. I know because when you lower the vial of cold water into room temperature water, the cold water would stay in the bottom of the vial because if something is more dense, it would sink." accuracy="correct">
+      <facetEntailment facetID="WA_29_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f7" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f8" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f9" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f10" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f11" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f12" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f13" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f14" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f15" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f16" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.29.392.1" answerText="Hot. Because when you lower a vial of hot water it goes up, but when you put a vial of cold water it stays in there." accuracy="contradictory">
+      <facetEntailment facetID="WA_29_f1" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_29_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f4" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_29_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f6" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f7" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f8" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f10" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f11" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f12" label="Contra-Infr"/>
+      <facetEntailment facetID="WA_29_f13" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f14" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f15" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f16" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.29.393.1" answerText="Cold. Cold water is denser because density sinks to the bottom of a cup, or anything." accuracy="correct">
+      <facetEntailment facetID="WA_29_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f7" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f8" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f9" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f10" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f11" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f12" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f13" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f14" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f15" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f16" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.29.395.1" answerText="Cold. Hot water goes to the top of a glass and cold water goes to the bottom or stays in the vial." accuracy="correct">
+      <facetEntailment facetID="WA_29_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f7" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f8" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f10" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f11" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f12" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f13" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f14" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f15" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f16" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.29.397.1" answerText="Hot. Cold water's temperature is cold so it will go under and not dense so it is hot water." accuracy="contradictory">
+      <facetEntailment facetID="WA_29_f1" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_29_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f7" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f8" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f10" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f11" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f12" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_29_f13" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f14" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f15" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f16" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.29.398.1" answerText="Cold. I know because when we put the vial of cold water into room temperature water it stayed in the vial and some went to the bottom. If it does that it means that it is more dense than hot water because the hot water went to the top of the cup, which makes it less dense." accuracy="correct">
+      <facetEntailment facetID="WA_29_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f7" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f8" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f10" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f11" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f12" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f13" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f14" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f15" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f16" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.29.400.1" answerText="Cold water. I know because when you lower the vial of cold water into room temperature water, the cold water would stay in the bottom of the vial because if something is more dense, it would sink." accuracy="correct">
+      <facetEntailment facetID="WA_29_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f7" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f8" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f9" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f10" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f11" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f12" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f13" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f14" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f15" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f16" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.29.416.1" answerText="Cold. Because the cold water stays in the vial or when it gets out, it goes to the bottom of the cup." accuracy="correct">
+      <facetEntailment facetID="WA_29_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f7" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f8" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f9" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f10" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f11" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f12" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f13" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f14" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f15" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f16" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.29.422.1" answerText="Cold water. Hot water is less dense so it rises, and cold water is more dense because it goes to the bottom." accuracy="correct">
+      <facetEntailment facetID="WA_29_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f7" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f8" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f10" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f11" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f12" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f13" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f14" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f15" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f16" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.29.425.1" answerText="Cold. The less denser it is it would go on the top and the more denser, it goes all over the place." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="WA_29_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f6" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f7" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f8" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f9" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f10" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f11" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f12" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f13" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f14" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f15" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f16" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.29.426.1" answerText="Cold. Because the hot water will float on the cold water." accuracy="correct">
+      <facetEntailment facetID="WA_29_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f3" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f4" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f7" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f8" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f10" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f11" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f12" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f13" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f14" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f15" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f16" label="Diff-Arg"/>
+    </studentAnswer>
+    <studentAnswer id="WA.29.428.1" answerText="Cold. Because cold water stays at the bottom." accuracy="correct">
+      <facetEntailment facetID="WA_29_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f4" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f7" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f8" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f9" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f10" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f11" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f12" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f13" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f14" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f15" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f16" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.29.430.1" answerText="Cold. Because cold water sinks." accuracy="correct">
+      <facetEntailment facetID="WA_29_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f7" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f8" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f9" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f10" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f11" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f12" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f13" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f14" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f15" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f16" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.29.433.1" answerText="Cold. When something is denser, it sinks. The hot water floated up, but the cold water stayed down." accuracy="correct">
+      <facetEntailment facetID="WA_29_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f7" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f8" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f10" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f11" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f12" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f13" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f14" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f15" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f16" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.29.434.1" answerText="Cold. Because when you put the cold water in the water it melt." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="WA_29_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f4" label="Diff-Arg"/>
+      <facetEntailment facetID="WA_29_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f6" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f7" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f8" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f9" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f10" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f11" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f12" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f13" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f14" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f15" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f16" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.29.436.1" answerText="Cold. I know because the hot water goes to the top of the water which means it is less dense so then that means cold water is more dense." accuracy="correct">
+      <facetEntailment facetID="WA_29_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f4" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f7" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f8" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f10" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f11" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f12" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f13" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f14" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f15" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f16" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.29.451.1" answerText="Cold. Because we did an experiment and that is what happened." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="WA_29_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f6" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f7" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f8" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f9" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f10" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f11" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f12" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f13" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f14" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f15" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f16" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.29.454.1" answerText="Cold. Because the cold water stays in the cup." accuracy="correct">
+      <facetEntailment facetID="WA_29_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f6" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f7" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f8" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f9" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f10" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f11" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f12" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f13" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f14" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f15" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f16" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.29.456.1" answerText="Hot. Because the hot water went to the top." accuracy="contradictory">
+      <facetEntailment facetID="WA_29_f1" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_29_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f6" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f7" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f8" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f10" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f11" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f12" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_29_f13" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_29_f14" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f15" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f16" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.29.457.1" answerText="Cold. Cold water goes to the bottom of the cup. Hot water goes to the top of the cup." accuracy="correct">
+      <facetEntailment facetID="WA_29_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f7" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f8" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f10" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f11" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f12" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f13" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f14" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f15" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f16" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.29.458.1" answerText="Cold. Because it went to the bottom." accuracy="correct">
+      <facetEntailment facetID="WA_29_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f7" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f8" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f9" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f10" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f11" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f12" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f13" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f14" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f15" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f16" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.29.460.1" answerText="Hot. I know because the hot water is at the bottom of the cup." accuracy="contradictory">
+      <facetEntailment facetID="WA_29_f1" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_29_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f3" label="Contra-Infr"/>
+      <facetEntailment facetID="WA_29_f4" label="Contra-Infr"/>
+      <facetEntailment facetID="WA_29_f5" label="Contra-Infr"/>
+      <facetEntailment facetID="WA_29_f6" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f7" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f8" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f10" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_29_f11" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f12" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_29_f13" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_29_f14" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_29_f15" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f16" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.29.461.1" answerText="Cold. Cold water sinks to the bottom of a room temperature cup of water." accuracy="correct">
+      <facetEntailment facetID="WA_29_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f7" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f8" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f9" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f10" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f11" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f12" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f13" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f14" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f15" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f16" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.29.463.1" answerText="Cold. Cold water sinks to the bottom and the hot water does not." accuracy="correct">
+      <facetEntailment facetID="WA_29_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f7" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f8" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f10" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f11" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f12" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f13" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f14" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f15" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f16" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.29.465.1" answerText="Hot. The hot water went to the top." accuracy="contradictory">
+      <facetEntailment facetID="WA_29_f1" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_29_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f6" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f7" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f8" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f10" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f11" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f12" label="Contra-Infr"/>
+      <facetEntailment facetID="WA_29_f13" label="Contra-Infr"/>
+      <facetEntailment facetID="WA_29_f14" label="Contra-Infr"/>
+      <facetEntailment facetID="WA_29_f15" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f16" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.29.469.1" answerText="Cold. Because if the cold water was blue and you put it in, it sinks to the bottom." accuracy="correct">
+      <facetEntailment facetID="WA_29_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f7" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f8" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f9" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f10" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f11" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f12" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f13" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f14" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f15" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f16" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.29.486.1" answerText="Cold. If something is denser than something, it sinks." accuracy="correct">
+      <facetEntailment facetID="WA_29_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f7" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f8" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f9" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f10" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f11" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f12" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f13" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f14" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f15" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f16" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.29.487.1" answerText="Cold. Because it sinks and that means it is heavier and that means it is denser." accuracy="correct">
+      <facetEntailment facetID="WA_29_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f7" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f8" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f9" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f10" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f11" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f12" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f13" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f14" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f15" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f16" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.29.490.1" answerText="Cold. Because hot water is less dense than cold water." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="WA_29_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f6" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f7" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f8" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f10" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f11" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f12" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f13" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f14" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f15" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f16" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.29.493.1" answerText="Cold. Cold water is denser than hot water." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="WA_29_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f6" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f7" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f8" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f10" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f11" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f12" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f13" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f14" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f15" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f16" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.29.498.1" answerText="Cold. Cold water goes to the bottom." accuracy="correct">
+      <facetEntailment facetID="WA_29_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f7" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f8" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f9" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f10" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f11" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f12" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f13" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f14" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f15" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f16" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.29.501.1" answerText="Cold. Because when hot water is boiling the water wants to get out of the cup so it evaporates. But when you have freezing water it freezes and turns to ice." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="WA_29_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f6" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f7" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f8" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f10" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f11" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f12" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f13" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f14" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f15" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f16" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.29.503.1" answerText="Cold. The hot water floated and the cold water sank." accuracy="correct">
+      <facetEntailment facetID="WA_29_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f7" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f8" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f10" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f11" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f12" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f13" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f14" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f15" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f16" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.29.505.1" answerText="Hot. Heat rises and floats." accuracy="contradictory">
+      <facetEntailment facetID="WA_29_f1" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_29_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f6" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f7" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f8" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f10" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f11" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f12" label="Contra-Infr"/>
+      <facetEntailment facetID="WA_29_f13" label="Contra-Infr"/>
+      <facetEntailment facetID="WA_29_f14" label="Contra-Infr"/>
+      <facetEntailment facetID="WA_29_f15" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f16" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.29.506.1" answerText="Cold. Because when water molecules are cooled, they want to come close together or contract. This makes it denser." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="WA_29_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f6" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f7" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f8" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f9" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f10" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f11" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f12" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f13" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f14" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f15" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f16" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.29.509.1" answerText="Cold water. Because the hot water goes out of the vial and the cold stays weighed down because it is more tightly packed." accuracy="correct">
+      <facetEntailment facetID="WA_29_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f4" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f7" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f8" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f10" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f11" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f12" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f13" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f14" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f15" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f16" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.29.510.1" answerText="Hot. Warm water expands to the top and when water molecules are cold they come together to the bottom." accuracy="contradictory">
+      <facetEntailment facetID="WA_29_f1" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_29_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f7" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f8" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f10" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f11" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f12" label="Contra-Infr"/>
+      <facetEntailment facetID="WA_29_f13" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f14" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f15" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f16" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.29.524.1" answerText="Cold. Because we did the experiment in class." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="WA_29_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f3" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f6" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f7" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f8" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f9" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f10" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f11" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f12" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f13" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f14" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f15" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f16" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.29.527.1" answerText="Cold. Because when something is denser it sinks and in this case the it is the cold water. The cold water sank or stayed in the vial but the hot water floated to the top. Hot water is less dense." accuracy="correct">
+      <facetEntailment facetID="WA_29_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f7" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f8" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f10" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f11" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f12" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f13" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f14" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f15" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f16" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.29.528.1" answerText="Hot. Because when something is less dense than water it expands and weighs less and floats. When water is denser it sinks because it contracts and gets lighter than water and sinks." accuracy="contradictory">
+      <facetEntailment facetID="WA_29_f1" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_29_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f3" label="Contra-Infr"/>
+      <facetEntailment facetID="WA_29_f4" label="Contra-Infr"/>
+      <facetEntailment facetID="WA_29_f5" label="Contra-Infr"/>
+      <facetEntailment facetID="WA_29_f6" label="Contra-Infr"/>
+      <facetEntailment facetID="WA_29_f7" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f8" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f10" label="Contra-Infr"/>
+      <facetEntailment facetID="WA_29_f11" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f12" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f13" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f14" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f15" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f16" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.29.531.1" answerText="Hot. Because the water like almost sank." accuracy="contradictory">
+      <facetEntailment facetID="WA_29_f1" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_29_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f6" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f7" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f8" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f10" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_29_f11" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f12" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f13" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f14" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f15" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f16" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.29.532.1" answerText="Cold. Because cold water is denser and the hot water less dense." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="WA_29_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f6" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f7" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f8" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f10" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f11" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f12" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f13" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f14" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f15" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f16" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.29.535.1" answerText="Hot. When a toy is denser it floats. When a toy is less dense it sinks which is the exact opposite." accuracy="contradictory">
+      <facetEntailment facetID="WA_29_f1" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_29_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f4" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f6" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f7" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f8" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f10" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f11" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f12" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_29_f13" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f14" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f15" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f16" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.29.536.1" answerText="Cold. The cold water does not float up like the hot water does. Mostly it just stays in the vial." accuracy="correct">
+      <facetEntailment facetID="WA_29_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f4" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f7" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f8" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f10" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f11" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f12" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f13" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f14" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f15" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f16" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.29.541.1" answerText="Cold. Because when something is denser it means there is this little space and a lot of stuff in it." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="WA_29_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f6" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f7" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f8" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f9" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f10" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f11" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f12" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f13" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f14" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f15" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f16" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.29.542.1" answerText="Cold. I know because when something is less dense it floats and if something sinks it is dense." accuracy="correct">
+      <facetEntailment facetID="WA_29_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f7" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f8" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f9" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f10" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f11" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f12" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f13" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f14" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f15" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f16" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.29.556.1" answerText="Cold. Because when you lower a vial of cold water into room temperature water, it sinks to the bottom." accuracy="correct">
+      <facetEntailment facetID="WA_29_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f7" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f8" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f9" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f10" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f11" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f12" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f13" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f14" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f15" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f16" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.29.557.1" answerText="Cold. Because the cold water is more dense than the water." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="WA_29_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f6" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f7" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f8" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f9" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f10" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f11" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f12" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f13" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f14" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f15" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f16" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.29.563.1" answerText="Cold. Because the cold water goes down and when something goes down it is denser." accuracy="correct">
+      <facetEntailment facetID="WA_29_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f7" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f8" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f9" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f10" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f11" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f12" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f13" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f14" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f15" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f16" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.29.567.1" answerText="Cold. Because cold water sinks in room temperature water and when something sinks in water it is denser than water." accuracy="correct">
+      <facetEntailment facetID="WA_29_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f7" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f8" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f9" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f10" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f11" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f12" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f13" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f14" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f15" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f16" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.29.572.1" answerText="Neither. Because I did it in class before." accuracy="contradictory">
+      <facetEntailment facetID="WA_29_f1" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_29_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f6" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f7" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f8" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f9" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f10" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f11" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f12" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f13" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f14" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f15" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f16" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.29.576.1" answerText="Cold. Because when cold water gets cool it cont." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="WA_29_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f6" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f7" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f8" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f9" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f10" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f11" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f12" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f13" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f14" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f15" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f16" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.29.591.1" answerText="Hot. Because done this same thing before." accuracy="contradictory">
+      <facetEntailment facetID="WA_29_f1" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_29_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f6" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f7" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f8" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f9" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f10" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f11" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f12" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f13" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f14" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f15" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f16" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.29.596.1" answerText="Hot. Because denser means it wants to contract. Less dense means it wants to expand. The hot water contracted and squeezed to the bottom." accuracy="contradictory">
+      <facetEntailment facetID="WA_29_f1" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_29_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f3" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f4" label="Contra-Infr"/>
+      <facetEntailment facetID="WA_29_f5" label="Contra-Infr"/>
+      <facetEntailment facetID="WA_29_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f7" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f8" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f10" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_29_f11" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f12" label="Contra-Infr"/>
+      <facetEntailment facetID="WA_29_f13" label="Contra-Infr"/>
+      <facetEntailment facetID="WA_29_f14" label="Contra-Infr"/>
+      <facetEntailment facetID="WA_29_f15" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f16" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.29.598.1" answerText="Cold. Cold water goes to the bottom of the room temperature water. The room temperature water tries to push the cold water so it can take over the vial." accuracy="correct">
+      <facetEntailment facetID="WA_29_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f7" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f8" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f9" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f10" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f11" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f12" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f13" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f14" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f15" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f16" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.29.600.1" answerText="Hot. Because dense means fills up more space." accuracy="contradictory">
+      <facetEntailment facetID="WA_29_f1" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_29_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f6" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f7" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f8" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f9" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f10" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f11" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f12" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_29_f13" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f14" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f15" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f16" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.29.601.1" answerText="Hot. Because the hot water is so hot the water rises." accuracy="contradictory">
+      <facetEntailment facetID="WA_29_f1" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_29_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f6" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f7" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f8" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f10" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f11" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f12" label="Contra-Infr"/>
+      <facetEntailment facetID="WA_29_f13" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f14" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f15" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f16" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.29.604.1" answerText="Cold. The cold water goes down and the warm water goes up." accuracy="correct">
+      <facetEntailment facetID="WA_29_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f7" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f8" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f10" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f11" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f12" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f13" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f14" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f15" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f16" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.29.607.1" answerText="Cold. Hot water goes up but cold water goes down." accuracy="correct">
+      <facetEntailment facetID="WA_29_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f7" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f8" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f10" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f11" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f12" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f13" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f14" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f15" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f16" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.29.610.1" answerText="Cold. Because when you put the vial in cold water it went down." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="WA_29_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f4" label="Diff-Arg"/>
+      <facetEntailment facetID="WA_29_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f7" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f8" label="Contra-Infr"/>
+      <facetEntailment facetID="WA_29_f9" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f10" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f11" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f12" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f13" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f14" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f15" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f16" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.29.612.1" answerText="Hot. Because you can put something in a cold one and hot it sinks in an hot water." accuracy="contradictory">
+      <facetEntailment facetID="WA_29_f1" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_29_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f6" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f7" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f8" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f10" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f11" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f12" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f13" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f14" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f15" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f16" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.29.627.1" answerText="Hot. Because when we did our experiment the hot water floated and the cold water stayed at the bottom." accuracy="contradictory">
+      <facetEntailment facetID="WA_29_f1" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_29_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f7" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f8" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f10" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f11" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f12" label="Contra-Infr"/>
+      <facetEntailment facetID="WA_29_f13" label="Contra-Infr"/>
+      <facetEntailment facetID="WA_29_f14" label="Contra-Infr"/>
+      <facetEntailment facetID="WA_29_f15" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f16" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.29.629.1" answerText="Cold. Because hot water floats and cold water sinks." accuracy="correct">
+      <facetEntailment facetID="WA_29_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f7" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f8" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f10" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f11" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f12" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f13" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f14" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f15" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f16" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.29.630.1" answerText="Because if the water floats, it is less dense. If it goes down to the bottom, it is denser." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="WA_29_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f7" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f8" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f9" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f10" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f11" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f12" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f13" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f14" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f15" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f16" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.29.631.1" answerText="Cold. Because hot water floats which means it is less dense than cold water. Cold water sinks which means it is denser than hot water." accuracy="correct">
+      <facetEntailment facetID="WA_29_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f7" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f8" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f10" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f11" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f12" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f13" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f14" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f15" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f16" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.29.635.1" answerText="Cold. Because cold water is denser." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="WA_29_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f6" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f7" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f8" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f9" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f10" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f11" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f12" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f13" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f14" label="Unaddressed"/>
+      <facetEntailment facetID="WA_29_f15" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f16" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.29.638.1" answerText="Cold. Because cold sinks to the bottom and hot floats." accuracy="correct">
+      <facetEntailment facetID="WA_29_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f7" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f8" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f10" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f11" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f12" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f13" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f14" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f15" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f16" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.29.639.1" answerText="Cold. Because the more denser something is it goes to the bottom and that is what cold water does." accuracy="correct">
+      <facetEntailment facetID="WA_29_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f7" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f8" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f9" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f10" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f11" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f12" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f13" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f14" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f15" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f16" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.29.642.1" answerText="Cold. Because cold water contracts so it sinks. But hot it expands, it is lighter so it floats." accuracy="correct">
+      <facetEntailment facetID="WA_29_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f7" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f8" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f10" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f11" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f12" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f13" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f14" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f15" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f16" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.29.645.1" answerText="Cold. Because cold water sinks." accuracy="correct">
+      <facetEntailment facetID="WA_29_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f7" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f8" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f9" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f10" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f11" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f12" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f13" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f14" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f15" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f16" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.29.646.1" answerText="Cold. Because the cold went straight to the bottom and the hot went straight to the top." accuracy="correct">
+      <facetEntailment facetID="WA_29_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f7" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f8" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f10" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f11" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f12" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f13" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f14" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f15" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f16" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.29.647.1" answerText="Cold. Because when you put cold water into room temperature it would stay dense and it will not float up to mix around with room temperature." accuracy="correct">
+      <facetEntailment facetID="WA_29_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f4" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f7" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f8" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f9" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f10" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f11" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f12" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f13" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f14" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f15" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f16" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.29.648.1" answerText="Cold. Because the cold water sank in the cup and the hot water floated." accuracy="correct">
+      <facetEntailment facetID="WA_29_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f7" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f8" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f10" label="Expressed"/>
+      <facetEntailment facetID="WA_29_f11" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f12" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f13" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f14" label="Inferred"/>
+      <facetEntailment facetID="WA_29_f15" label="Assumed"/>
+      <facetEntailment facetID="WA_29_f16" label="Assumed"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

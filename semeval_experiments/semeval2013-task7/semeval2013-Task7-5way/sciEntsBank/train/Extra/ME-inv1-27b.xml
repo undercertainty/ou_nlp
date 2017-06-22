@@ -1,0 +1,403 @@
+<?xml version="1.0"?>
+<question id="ME_27b" module="ME">
+  <questionText>How can you use a magnet to find out if the key is iron or aluminum?</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="ME_27b-a1" text="If the key sticks, the key is iron; if the key does not stick the key is aluminum.">
+      <tokens>
+        <token id="ME_27b_ra1">If</token>
+        <token id="ME_27b_ra2">the</token>
+        <token id="ME_27b_ra3">key</token>
+        <token id="ME_27b_ra4">sticks</token>
+        <token id="ME_27b_ra5">,</token>
+        <token id="ME_27b_ra6">the</token>
+        <token id="ME_27b_ra7">key</token>
+        <token id="ME_27b_ra8">is</token>
+        <token id="ME_27b_ra9">iron</token>
+        <token id="ME_27b_ra10">;</token>
+        <token id="ME_27b_ra11">if</token>
+        <token id="ME_27b_ra12">the</token>
+        <token id="ME_27b_ra13">key</token>
+        <token id="ME_27b_ra14">does</token>
+        <token id="ME_27b_ra15">not</token>
+        <token id="ME_27b_ra16">stick</token>
+        <token id="ME_27b_ra17">the</token>
+        <token id="ME_27b_ra18">key</token>
+        <token id="ME_27b_ra19">is</token>
+        <token id="ME_27b_ra20">aluminum</token>
+        <token id="ME_27b_ra21">.</token>
+      </tokens>
+      <facets>
+        <facet id="ME_27b_f1" govNum="ME_27b_ra4" modNum="ME_27b_ra3" reltn="Theme" govText="sticks" modText="key"/>
+        <facet id="ME_27b_f2" govNum="ME_27b_ra7" modNum="ME_27b_ra9" reltn="Be" govText="key" isAssumed="true" modText="iron"/>
+        <facet id="ME_27b_f3" govNum="ME_27b_ra8" modNum="ME_27b_ra4" reltn="Cause-know_if" childProp1Facet1="ME_27b_f2" govText="is" modText="sticks" childProp2Facet1="ME_27b_f1"/>
+        <facet id="ME_27b_f4" govNum="ME_27b_ra4" modNum="ME_27b_ra8" reltn="Cause_if" childProp1Facet1="ME_27b_f1" govText="sticks" modText="is" childProp2Facet1="ME_27b_f2"/>
+        <facet id="ME_27b_f5" govNum="ME_27b_ra16" modNum="ME_27b_ra13" reltn="Theme_neg_not" govText="stick" modText="key"/>
+        <facet id="ME_27b_f6" govNum="ME_27b_ra18" modNum="ME_27b_ra20" reltn="Be" govText="key" isAssumed="true" modText="aluminum"/>
+        <facet id="ME_27b_f7" govNum="ME_27b_ra19" modNum="ME_27b_ra16" reltn="Cause-know_if" childProp1Facet1="ME_27b_f6" govText="is" modText="stick" childProp2Facet1="ME_27b_f5"/>
+        <facet id="ME_27b_f8" govNum="ME_27b_ra16" modNum="ME_27b_ra19" reltn="Cause_if" childProp1Facet1="ME_27b_f5" govText="stick" modText="is" childProp2Facet1="ME_27b_f6"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="ME.27b.102.1" answerText="If it is iron it will stick if it is aluminum it will not stick." accuracy="correct">
+      <facetEntailment facetID="ME_27b_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_27b_f2" label="Expressed"/>
+      <facetEntailment facetID="ME_27b_f3" label="Expressed"/>
+      <facetEntailment facetID="ME_27b_f4" label="Expressed"/>
+      <facetEntailment facetID="ME_27b_f5" label="Expressed"/>
+      <facetEntailment facetID="ME_27b_f6" label="Expressed"/>
+      <facetEntailment facetID="ME_27b_f7" label="Expressed"/>
+      <facetEntailment facetID="ME_27b_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.27b.105.1" answerText="It will be made of iron if it sticks to a magnet." accuracy="correct">
+      <facetEntailment facetID="ME_27b_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_27b_f2" label="Expressed"/>
+      <facetEntailment facetID="ME_27b_f3" label="Expressed"/>
+      <facetEntailment facetID="ME_27b_f4" label="Expressed"/>
+      <facetEntailment facetID="ME_27b_f5" label="Inferred"/>
+      <facetEntailment facetID="ME_27b_f6" label="Assumed"/>
+      <facetEntailment facetID="ME_27b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="ME_27b_f8" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.27b.107.1" answerText="The magnet will stick to iron not to aluminum." accuracy="correct">
+      <facetEntailment facetID="ME_27b_f1" label="Inferred"/>
+      <facetEntailment facetID="ME_27b_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_27b_f3" label="Inferred"/>
+      <facetEntailment facetID="ME_27b_f4" label="Inferred"/>
+      <facetEntailment facetID="ME_27b_f5" label="Inferred"/>
+      <facetEntailment facetID="ME_27b_f6" label="Assumed"/>
+      <facetEntailment facetID="ME_27b_f7" label="Inferred"/>
+      <facetEntailment facetID="ME_27b_f8" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="ME.27b.108.1" answerText="If it is iron it will stick." accuracy="correct">
+      <facetEntailment facetID="ME_27b_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_27b_f2" label="Expressed"/>
+      <facetEntailment facetID="ME_27b_f3" label="Expressed"/>
+      <facetEntailment facetID="ME_27b_f4" label="Expressed"/>
+      <facetEntailment facetID="ME_27b_f5" label="Inferred"/>
+      <facetEntailment facetID="ME_27b_f6" label="Assumed"/>
+      <facetEntailment facetID="ME_27b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="ME_27b_f8" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.27b.121.1" answerText="I will stick or not stick." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="ME_27b_f1" label="Inferred"/>
+      <facetEntailment facetID="ME_27b_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_27b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_27b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_27b_f5" label="Inferred"/>
+      <facetEntailment facetID="ME_27b_f6" label="Assumed"/>
+      <facetEntailment facetID="ME_27b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="ME_27b_f8" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.27b.123.1" answerText="It will stick to iron." accuracy="correct">
+      <facetEntailment facetID="ME_27b_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_27b_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_27b_f3" label="Inferred"/>
+      <facetEntailment facetID="ME_27b_f4" label="Inferred"/>
+      <facetEntailment facetID="ME_27b_f5" label="Inferred"/>
+      <facetEntailment facetID="ME_27b_f6" label="Assumed"/>
+      <facetEntailment facetID="ME_27b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="ME_27b_f8" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.27b.143.1" answerText="By testing it with a magnet and it will stick if it is iron." accuracy="correct">
+      <facetEntailment facetID="ME_27b_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_27b_f2" label="Expressed"/>
+      <facetEntailment facetID="ME_27b_f3" label="Expressed"/>
+      <facetEntailment facetID="ME_27b_f4" label="Expressed"/>
+      <facetEntailment facetID="ME_27b_f5" label="Inferred"/>
+      <facetEntailment facetID="ME_27b_f6" label="Assumed"/>
+      <facetEntailment facetID="ME_27b_f7" label="Inferred"/>
+      <facetEntailment facetID="ME_27b_f8" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="ME.27b.144.1" answerText="If the key sticks it is made of iron if it does not it is made of aluminum." accuracy="correct">
+      <facetEntailment facetID="ME_27b_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_27b_f2" label="Expressed"/>
+      <facetEntailment facetID="ME_27b_f3" label="Expressed"/>
+      <facetEntailment facetID="ME_27b_f4" label="Expressed"/>
+      <facetEntailment facetID="ME_27b_f5" label="Expressed"/>
+      <facetEntailment facetID="ME_27b_f6" label="Expressed"/>
+      <facetEntailment facetID="ME_27b_f7" label="Expressed"/>
+      <facetEntailment facetID="ME_27b_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.27b.146.1" answerText="If it is iron the key will stick if it is aluminum it would not stick." accuracy="correct">
+      <facetEntailment facetID="ME_27b_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_27b_f2" label="Expressed"/>
+      <facetEntailment facetID="ME_27b_f3" label="Expressed"/>
+      <facetEntailment facetID="ME_27b_f4" label="Expressed"/>
+      <facetEntailment facetID="ME_27b_f5" label="Expressed"/>
+      <facetEntailment facetID="ME_27b_f6" label="Expressed"/>
+      <facetEntailment facetID="ME_27b_f7" label="Expressed"/>
+      <facetEntailment facetID="ME_27b_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.27b.147.1" answerText="Aluminum will stick to a magnet." accuracy="contradictory">
+      <facetEntailment facetID="ME_27b_f1" label="Contra-Infr"/>
+      <facetEntailment facetID="ME_27b_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_27b_f3" label="Inferred"/>
+      <facetEntailment facetID="ME_27b_f4" label="Inferred"/>
+      <facetEntailment facetID="ME_27b_f5" label="Contra-Expr"/>
+      <facetEntailment facetID="ME_27b_f6" label="Assumed"/>
+      <facetEntailment facetID="ME_27b_f7" label="Expressed"/>
+      <facetEntailment facetID="ME_27b_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.27b.152.1" answerText="If it were iron it would stick." accuracy="correct">
+      <facetEntailment facetID="ME_27b_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_27b_f2" label="Expressed"/>
+      <facetEntailment facetID="ME_27b_f3" label="Expressed"/>
+      <facetEntailment facetID="ME_27b_f4" label="Expressed"/>
+      <facetEntailment facetID="ME_27b_f5" label="Inferred"/>
+      <facetEntailment facetID="ME_27b_f6" label="Assumed"/>
+      <facetEntailment facetID="ME_27b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="ME_27b_f8" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.27b.154.1" answerText="You could get something with magnitite in it and see if it sticks if it sticks you know it is iron if it does not stick it is aluminum." accuracy="correct">
+      <facetEntailment facetID="ME_27b_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_27b_f2" label="Expressed"/>
+      <facetEntailment facetID="ME_27b_f3" label="Expressed"/>
+      <facetEntailment facetID="ME_27b_f4" label="Expressed"/>
+      <facetEntailment facetID="ME_27b_f5" label="Expressed"/>
+      <facetEntailment facetID="ME_27b_f6" label="Expressed"/>
+      <facetEntailment facetID="ME_27b_f7" label="Expressed"/>
+      <facetEntailment facetID="ME_27b_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.27b.159.1" answerText="Test it on a magnet." accuracy="irrelevant">
+      <facetEntailment facetID="ME_27b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="ME_27b_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_27b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_27b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_27b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ME_27b_f6" label="Assumed"/>
+      <facetEntailment facetID="ME_27b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="ME_27b_f8" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.27b.176.1" answerText="The magnet will stick." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="ME_27b_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_27b_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_27b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_27b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_27b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ME_27b_f6" label="Assumed"/>
+      <facetEntailment facetID="ME_27b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="ME_27b_f8" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.27b.179.1" answerText="The key will stick if it is iron but if it is aluminum it will not." accuracy="correct">
+      <facetEntailment facetID="ME_27b_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_27b_f2" label="Expressed"/>
+      <facetEntailment facetID="ME_27b_f3" label="Expressed"/>
+      <facetEntailment facetID="ME_27b_f4" label="Expressed"/>
+      <facetEntailment facetID="ME_27b_f5" label="Expressed"/>
+      <facetEntailment facetID="ME_27b_f6" label="Expressed"/>
+      <facetEntailment facetID="ME_27b_f7" label="Expressed"/>
+      <facetEntailment facetID="ME_27b_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.27b.180.1" answerText="You will put a magnet on it and see if it sticks." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="ME_27b_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_27b_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_27b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_27b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_27b_f5" label="Inferred"/>
+      <facetEntailment facetID="ME_27b_f6" label="Assumed"/>
+      <facetEntailment facetID="ME_27b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="ME_27b_f8" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.27b.181.1" answerText="If it is iron it will stick if it is aluminum it will not stick." accuracy="correct">
+      <facetEntailment facetID="ME_27b_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_27b_f2" label="Expressed"/>
+      <facetEntailment facetID="ME_27b_f3" label="Expressed"/>
+      <facetEntailment facetID="ME_27b_f4" label="Expressed"/>
+      <facetEntailment facetID="ME_27b_f5" label="Expressed"/>
+      <facetEntailment facetID="ME_27b_f6" label="Expressed"/>
+      <facetEntailment facetID="ME_27b_f7" label="Expressed"/>
+      <facetEntailment facetID="ME_27b_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.27b.185.1" answerText="If the key sticks." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="ME_27b_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_27b_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_27b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_27b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_27b_f5" label="Inferred"/>
+      <facetEntailment facetID="ME_27b_f6" label="Assumed"/>
+      <facetEntailment facetID="ME_27b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="ME_27b_f8" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.27b.208.1" answerText="The magnet will stick." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="ME_27b_f1" label="Inferred"/>
+      <facetEntailment facetID="ME_27b_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_27b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_27b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_27b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ME_27b_f6" label="Assumed"/>
+      <facetEntailment facetID="ME_27b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="ME_27b_f8" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.27b.215.1" answerText="If the magnet attracts or not." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="ME_27b_f1" label="Inferred"/>
+      <facetEntailment facetID="ME_27b_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_27b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_27b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_27b_f5" label="Inferred"/>
+      <facetEntailment facetID="ME_27b_f6" label="Assumed"/>
+      <facetEntailment facetID="ME_27b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="ME_27b_f8" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.27b.226.1" answerText="You will know because the magnet will stick or not." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="ME_27b_f1" label="Inferred"/>
+      <facetEntailment facetID="ME_27b_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_27b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_27b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_27b_f5" label="Inferred"/>
+      <facetEntailment facetID="ME_27b_f6" label="Assumed"/>
+      <facetEntailment facetID="ME_27b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="ME_27b_f8" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.27b.228.1" answerText="If the key is iron it will attract if it is not it will repel." accuracy="correct">
+      <facetEntailment facetID="ME_27b_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_27b_f2" label="Expressed"/>
+      <facetEntailment facetID="ME_27b_f3" label="Expressed"/>
+      <facetEntailment facetID="ME_27b_f4" label="Expressed"/>
+      <facetEntailment facetID="ME_27b_f5" label="Expressed"/>
+      <facetEntailment facetID="ME_27b_f6" label="Expressed"/>
+      <facetEntailment facetID="ME_27b_f7" label="Expressed"/>
+      <facetEntailment facetID="ME_27b_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.27b.247.1" answerText="By sticking the key to a magnet and try it out." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="ME_27b_f1" label="Inferred"/>
+      <facetEntailment facetID="ME_27b_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_27b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_27b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_27b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ME_27b_f6" label="Assumed"/>
+      <facetEntailment facetID="ME_27b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="ME_27b_f8" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.27b.250.1" answerText="If it attracts or drops when you let it go." accuracy="irrelevant">
+      <facetEntailment facetID="ME_27b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="ME_27b_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_27b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_27b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_27b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ME_27b_f6" label="Assumed"/>
+      <facetEntailment facetID="ME_27b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="ME_27b_f8" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.27b.251.1" answerText="If the key attracts is iron. If it repels is aluminum." accuracy="correct">
+      <facetEntailment facetID="ME_27b_f1" label="Inferred"/>
+      <facetEntailment facetID="ME_27b_f2" label="Expressed"/>
+      <facetEntailment facetID="ME_27b_f3" label="Expressed"/>
+      <facetEntailment facetID="ME_27b_f4" label="Expressed"/>
+      <facetEntailment facetID="ME_27b_f5" label="Inferred"/>
+      <facetEntailment facetID="ME_27b_f6" label="Expressed"/>
+      <facetEntailment facetID="ME_27b_f7" label="Expressed"/>
+      <facetEntailment facetID="ME_27b_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.27b.255.1" answerText="You would find the answer." accuracy="non_domain">
+      <facetEntailment facetID="ME_27b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="ME_27b_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_27b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_27b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_27b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ME_27b_f6" label="Assumed"/>
+      <facetEntailment facetID="ME_27b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="ME_27b_f8" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.27b.256.1" answerText="It will stick to iron and not aluminum." accuracy="correct">
+      <facetEntailment facetID="ME_27b_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_27b_f2" label="Expressed"/>
+      <facetEntailment facetID="ME_27b_f3" label="Expressed"/>
+      <facetEntailment facetID="ME_27b_f4" label="Expressed"/>
+      <facetEntailment facetID="ME_27b_f5" label="Inferred"/>
+      <facetEntailment facetID="ME_27b_f6" label="Assumed"/>
+      <facetEntailment facetID="ME_27b_f7" label="Inferred"/>
+      <facetEntailment facetID="ME_27b_f8" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="ME.27b.276.1" answerText="You can try it out altogether." accuracy="irrelevant">
+      <facetEntailment facetID="ME_27b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="ME_27b_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_27b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_27b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_27b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ME_27b_f6" label="Assumed"/>
+      <facetEntailment facetID="ME_27b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="ME_27b_f8" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.27b.292.1" answerText="I will put it on a nail." accuracy="irrelevant">
+      <facetEntailment facetID="ME_27b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="ME_27b_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_27b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_27b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_27b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ME_27b_f6" label="Assumed"/>
+      <facetEntailment facetID="ME_27b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="ME_27b_f8" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.27b.293.1" answerText="You will know because it will stick to a magnet." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="ME_27b_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_27b_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_27b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_27b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_27b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ME_27b_f6" label="Assumed"/>
+      <facetEntailment facetID="ME_27b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="ME_27b_f8" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.27b.311.1" answerText="Because if it sticked it was iron if it did not it is aluminum." accuracy="correct">
+      <facetEntailment facetID="ME_27b_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_27b_f2" label="Expressed"/>
+      <facetEntailment facetID="ME_27b_f3" label="Expressed"/>
+      <facetEntailment facetID="ME_27b_f4" label="Expressed"/>
+      <facetEntailment facetID="ME_27b_f5" label="Expressed"/>
+      <facetEntailment facetID="ME_27b_f6" label="Expressed"/>
+      <facetEntailment facetID="ME_27b_f7" label="Expressed"/>
+      <facetEntailment facetID="ME_27b_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.27b.313.1" answerText="If it sticks then it is a magnet if it does not then it is not." accuracy="correct">
+      <facetEntailment facetID="ME_27b_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_27b_f2" label="Diff-Arg"/>
+      <facetEntailment facetID="ME_27b_f3" label="Expressed"/>
+      <facetEntailment facetID="ME_27b_f4" label="Expressed"/>
+      <facetEntailment facetID="ME_27b_f5" label="Expressed"/>
+      <facetEntailment facetID="ME_27b_f6" label="Diff-Arg"/>
+      <facetEntailment facetID="ME_27b_f7" label="Expressed"/>
+      <facetEntailment facetID="ME_27b_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.27b.314.1" answerText="You can get a key and a iron nail and aluminum foil and see if it sticks." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="ME_27b_f1" label="Inferred"/>
+      <facetEntailment facetID="ME_27b_f2" label="Diff-Arg"/>
+      <facetEntailment facetID="ME_27b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_27b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_27b_f5" label="Inferred"/>
+      <facetEntailment facetID="ME_27b_f6" label="Diff-Arg"/>
+      <facetEntailment facetID="ME_27b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="ME_27b_f8" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.27b.318.1" answerText="If it repels aluminum if it sticks iron, attract." accuracy="correct">
+      <facetEntailment facetID="ME_27b_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_27b_f2" label="Expressed"/>
+      <facetEntailment facetID="ME_27b_f3" label="Expressed"/>
+      <facetEntailment facetID="ME_27b_f4" label="Expressed"/>
+      <facetEntailment facetID="ME_27b_f5" label="Expressed"/>
+      <facetEntailment facetID="ME_27b_f6" label="Expressed"/>
+      <facetEntailment facetID="ME_27b_f7" label="Expressed"/>
+      <facetEntailment facetID="ME_27b_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.27b.323.1" answerText="I will know when it sticks or it repels." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="ME_27b_f1" label="Inferred"/>
+      <facetEntailment facetID="ME_27b_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_27b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_27b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_27b_f5" label="Inferred"/>
+      <facetEntailment facetID="ME_27b_f6" label="Assumed"/>
+      <facetEntailment facetID="ME_27b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="ME_27b_f8" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.27b.324.1" answerText="It will fall off the magnet." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="ME_27b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="ME_27b_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_27b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_27b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_27b_f5" label="Inferred"/>
+      <facetEntailment facetID="ME_27b_f6" label="Assumed"/>
+      <facetEntailment facetID="ME_27b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="ME_27b_f8" label="Unaddressed"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

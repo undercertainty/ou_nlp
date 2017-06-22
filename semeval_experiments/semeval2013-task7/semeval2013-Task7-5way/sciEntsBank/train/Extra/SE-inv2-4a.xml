@@ -1,0 +1,323 @@
+<?xml version="1.0"?>
+<question id="SE_4a" module="SE">
+  <questionText>What is a heat sink?</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="SE_4a-a1" text="A heat sink is any material that absorbs (a lot of) heat.">
+      <tokens>
+        <token id="SE_4a_ra1">A</token>
+        <token id="SE_4a_ra2">heat</token>
+        <token id="SE_4a_ra3">sink</token>
+        <token id="SE_4a_ra4">is</token>
+        <token id="SE_4a_ra5">any</token>
+        <token id="SE_4a_ra6">material</token>
+        <token id="SE_4a_ra7">that</token>
+        <token id="SE_4a_ra8">absorbs</token>
+        <token id="SE_4a_ra9">(</token>
+        <token id="SE_4a_ra10">a</token>
+        <token id="SE_4a_ra11">lot</token>
+        <token id="SE_4a_ra12">of</token>
+        <token id="SE_4a_ra13">)</token>
+        <token id="SE_4a_ra14">heat</token>
+        <token id="SE_4a_ra15">.</token>
+      </tokens>
+      <facets>
+        <facet id="SE_4a_f1" govNum="SE_4a_ra3" modNum="SE_4a_ra2" reltn="NMod" govText="sink" isAssumed="true" modText="heat"/>
+        <facet id="SE_4a_f2" govNum="SE_4a_ra3" modNum="SE_4a_ra6" reltn="Be" govText="sink" modText="material"/>
+        <facet id="SE_4a_f3" govNum="SE_4a_ra6" modNum="SE_4a_ra5" reltn="Quantifier" govText="material" isAssumed="true" modText="any"/>
+        <facet id="SE_4a_f4" govNum="SE_4a_ra8" modNum="SE_4a_ra6" reltn="Means_that" govText="absorbs" modText="material"/>
+        <facet id="SE_4a_f5" govNum="SE_4a_ra8" modNum="SE_4a_ra14" reltn="Theme" govText="absorbs" modText="heat"/>
+        <facet id="SE_4a_f6" govNum="SE_4a_ra14" modNum="SE_4a_ra11" reltn="Quantifier_of" govText="heat" isAssumed="true" modText="lot"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="SE.4a.107.1" answerText="The cement is heat sink and the wood is heat sink." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="SE_4a_f1" label="Expressed"/>
+      <facetEntailment facetID="SE_4a_f2" label="Inferred"/>
+      <facetEntailment facetID="SE_4a_f3" label="Assumed"/>
+      <facetEntailment facetID="SE_4a_f4" label="Unaddressed"/>
+      <facetEntailment facetID="SE_4a_f5" label="Unaddressed"/>
+      <facetEntailment facetID="SE_4a_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.4a.109.1" answerText="Something that could hold energy." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="SE_4a_f1" label="Assumed"/>
+      <facetEntailment facetID="SE_4a_f2" label="Unaddressed"/>
+      <facetEntailment facetID="SE_4a_f3" label="Assumed"/>
+      <facetEntailment facetID="SE_4a_f4" label="Inferred"/>
+      <facetEntailment facetID="SE_4a_f5" label="Inferred"/>
+      <facetEntailment facetID="SE_4a_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.4a.123.1" answerText="A heat sink is an object that can attract heat." accuracy="correct">
+      <facetEntailment facetID="SE_4a_f1" label="Expressed"/>
+      <facetEntailment facetID="SE_4a_f2" label="Inferred"/>
+      <facetEntailment facetID="SE_4a_f3" label="Assumed"/>
+      <facetEntailment facetID="SE_4a_f4" label="Inferred"/>
+      <facetEntailment facetID="SE_4a_f5" label="Expressed"/>
+      <facetEntailment facetID="SE_4a_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.4a.126.1" answerText="Heat sink is anything that gets or contains heat." accuracy="correct">
+      <facetEntailment facetID="SE_4a_f1" label="Expressed"/>
+      <facetEntailment facetID="SE_4a_f2" label="Inferred"/>
+      <facetEntailment facetID="SE_4a_f3" label="Assumed"/>
+      <facetEntailment facetID="SE_4a_f4" label="Expressed"/>
+      <facetEntailment facetID="SE_4a_f5" label="Expressed"/>
+      <facetEntailment facetID="SE_4a_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.4a.144.1" answerText="It is when the sun absorbs the water from the sand." accuracy="contradictory">
+      <facetEntailment facetID="SE_4a_f1" label="Assumed"/>
+      <facetEntailment facetID="SE_4a_f2" label="Contra-Infr"/>
+      <facetEntailment facetID="SE_4a_f3" label="Contra-Infr"/>
+      <facetEntailment facetID="SE_4a_f4" label="Expressed"/>
+      <facetEntailment facetID="SE_4a_f5" label="Diff-Arg"/>
+      <facetEntailment facetID="SE_4a_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.4a.159.1" answerText="A heat sink is something that traps heat in. Like water it heats up and traps the heat to make boiling water." accuracy="correct">
+      <facetEntailment facetID="SE_4a_f1" label="Expressed"/>
+      <facetEntailment facetID="SE_4a_f2" label="Inferred"/>
+      <facetEntailment facetID="SE_4a_f3" label="Assumed"/>
+      <facetEntailment facetID="SE_4a_f4" label="Expressed"/>
+      <facetEntailment facetID="SE_4a_f5" label="Expressed"/>
+      <facetEntailment facetID="SE_4a_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.4a.174.1" answerText="A heat sink is a temperature the water heats up very slowly." accuracy="contradictory">
+      <facetEntailment facetID="SE_4a_f1" label="Expressed"/>
+      <facetEntailment facetID="SE_4a_f2" label="Contra-Expr"/>
+      <facetEntailment facetID="SE_4a_f3" label="Contra-Infr"/>
+      <facetEntailment facetID="SE_4a_f4" label="Unaddressed"/>
+      <facetEntailment facetID="SE_4a_f5" label="Unaddressed"/>
+      <facetEntailment facetID="SE_4a_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.4a.175.1" answerText="A heat sink heats up slowly and cools down slowly." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="SE_4a_f1" label="Expressed"/>
+      <facetEntailment facetID="SE_4a_f2" label="Unaddressed"/>
+      <facetEntailment facetID="SE_4a_f3" label="Assumed"/>
+      <facetEntailment facetID="SE_4a_f4" label="Inferred"/>
+      <facetEntailment facetID="SE_4a_f5" label="Expressed"/>
+      <facetEntailment facetID="SE_4a_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.4a.182.1" answerText="A heat sink is a material that can hold a lot of heats. Heat sink heats up materials." accuracy="correct">
+      <facetEntailment facetID="SE_4a_f1" label="Expressed"/>
+      <facetEntailment facetID="SE_4a_f2" label="Expressed"/>
+      <facetEntailment facetID="SE_4a_f3" label="Assumed"/>
+      <facetEntailment facetID="SE_4a_f4" label="Expressed"/>
+      <facetEntailment facetID="SE_4a_f5" label="Expressed"/>
+      <facetEntailment facetID="SE_4a_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.4a.184.1" answerText="A heat sink is water that heats up more slowly and cools down more slowly than earth dry materials." accuracy="contradictory">
+      <facetEntailment facetID="SE_4a_f1" label="Expressed"/>
+      <facetEntailment facetID="SE_4a_f2" label="Inferred"/>
+      <facetEntailment facetID="SE_4a_f3" label="Contra-Expr"/>
+      <facetEntailment facetID="SE_4a_f4" label="Expressed"/>
+      <facetEntailment facetID="SE_4a_f5" label="Expressed"/>
+      <facetEntailment facetID="SE_4a_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.4a.190.1" answerText="When the temperature in the thermometer goes down or decreases." accuracy="contradictory">
+      <facetEntailment facetID="SE_4a_f1" label="Assumed"/>
+      <facetEntailment facetID="SE_4a_f2" label="Contra-Expr"/>
+      <facetEntailment facetID="SE_4a_f3" label="Contra-Infr"/>
+      <facetEntailment facetID="SE_4a_f4" label="Unaddressed"/>
+      <facetEntailment facetID="SE_4a_f5" label="Unaddressed"/>
+      <facetEntailment facetID="SE_4a_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.4a.191.1" answerText="Something that absorbs heat and loses heat slow like water." accuracy="correct">
+      <facetEntailment facetID="SE_4a_f1" label="Assumed"/>
+      <facetEntailment facetID="SE_4a_f2" label="Inferred"/>
+      <facetEntailment facetID="SE_4a_f3" label="Assumed"/>
+      <facetEntailment facetID="SE_4a_f4" label="Expressed"/>
+      <facetEntailment facetID="SE_4a_f5" label="Expressed"/>
+      <facetEntailment facetID="SE_4a_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.4a.261.1" answerText="It is something like dry soil." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="SE_4a_f1" label="Assumed"/>
+      <facetEntailment facetID="SE_4a_f2" label="Inferred"/>
+      <facetEntailment facetID="SE_4a_f3" label="Assumed"/>
+      <facetEntailment facetID="SE_4a_f4" label="Unaddressed"/>
+      <facetEntailment facetID="SE_4a_f5" label="Unaddressed"/>
+      <facetEntailment facetID="SE_4a_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.4a.311.1" answerText="It is an earth material that takes energy and releases it slowly." accuracy="contradictory">
+      <facetEntailment facetID="SE_4a_f1" label="Assumed"/>
+      <facetEntailment facetID="SE_4a_f2" label="Expressed"/>
+      <facetEntailment facetID="SE_4a_f3" label="Contra-Expr"/>
+      <facetEntailment facetID="SE_4a_f4" label="Expressed"/>
+      <facetEntailment facetID="SE_4a_f5" label="Inferred"/>
+      <facetEntailment facetID="SE_4a_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.4a.314.1" answerText="It is an earth material that absorbs energy slowly and releases it slowly." accuracy="contradictory">
+      <facetEntailment facetID="SE_4a_f1" label="Assumed"/>
+      <facetEntailment facetID="SE_4a_f2" label="Expressed"/>
+      <facetEntailment facetID="SE_4a_f3" label="Contra-Expr"/>
+      <facetEntailment facetID="SE_4a_f4" label="Expressed"/>
+      <facetEntailment facetID="SE_4a_f5" label="Inferred"/>
+      <facetEntailment facetID="SE_4a_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.4a.316.1" answerText="A heat sink is an earth material that absorbs energy slowly and releases it slowly." accuracy="contradictory">
+      <facetEntailment facetID="SE_4a_f1" label="Expressed"/>
+      <facetEntailment facetID="SE_4a_f2" label="Expressed"/>
+      <facetEntailment facetID="SE_4a_f3" label="Contra-Expr"/>
+      <facetEntailment facetID="SE_4a_f4" label="Expressed"/>
+      <facetEntailment facetID="SE_4a_f5" label="Inferred"/>
+      <facetEntailment facetID="SE_4a_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.4a.382.1" answerText="It is a material that decreases heat such as water." accuracy="correct">
+      <facetEntailment facetID="SE_4a_f1" label="Assumed"/>
+      <facetEntailment facetID="SE_4a_f2" label="Expressed"/>
+      <facetEntailment facetID="SE_4a_f3" label="Assumed"/>
+      <facetEntailment facetID="SE_4a_f4" label="Inferred"/>
+      <facetEntailment facetID="SE_4a_f5" label="Inferred"/>
+      <facetEntailment facetID="SE_4a_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.4a.384.1" answerText="When the temperature drops." accuracy="irrelevant">
+      <facetEntailment facetID="SE_4a_f1" label="Assumed"/>
+      <facetEntailment facetID="SE_4a_f2" label="Unaddressed"/>
+      <facetEntailment facetID="SE_4a_f3" label="Assumed"/>
+      <facetEntailment facetID="SE_4a_f4" label="Unaddressed"/>
+      <facetEntailment facetID="SE_4a_f5" label="Unaddressed"/>
+      <facetEntailment facetID="SE_4a_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.4a.396.1" answerText="When the heat starts to go down." accuracy="irrelevant">
+      <facetEntailment facetID="SE_4a_f1" label="Assumed"/>
+      <facetEntailment facetID="SE_4a_f2" label="Unaddressed"/>
+      <facetEntailment facetID="SE_4a_f3" label="Assumed"/>
+      <facetEntailment facetID="SE_4a_f4" label="Unaddressed"/>
+      <facetEntailment facetID="SE_4a_f5" label="Unaddressed"/>
+      <facetEntailment facetID="SE_4a_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.4a.405.1" answerText="It is a material that may lower heat." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="SE_4a_f1" label="Assumed"/>
+      <facetEntailment facetID="SE_4a_f2" label="Expressed"/>
+      <facetEntailment facetID="SE_4a_f3" label="Assumed"/>
+      <facetEntailment facetID="SE_4a_f4" label="Diff-Arg"/>
+      <facetEntailment facetID="SE_4a_f5" label="Diff-Arg"/>
+      <facetEntailment facetID="SE_4a_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.4a.408.1" answerText="When the temperature drops." accuracy="contradictory">
+      <facetEntailment facetID="SE_4a_f1" label="Assumed"/>
+      <facetEntailment facetID="SE_4a_f2" label="Contra-Infr"/>
+      <facetEntailment facetID="SE_4a_f3" label="Contra-Infr"/>
+      <facetEntailment facetID="SE_4a_f4" label="Unaddressed"/>
+      <facetEntailment facetID="SE_4a_f5" label="Unaddressed"/>
+      <facetEntailment facetID="SE_4a_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.4a.409.1" answerText="A heat sink is something that absorbs sunlight quickly. Water is the best heat sink." accuracy="correct">
+      <facetEntailment facetID="SE_4a_f1" label="Expressed"/>
+      <facetEntailment facetID="SE_4a_f2" label="Inferred"/>
+      <facetEntailment facetID="SE_4a_f3" label="Assumed"/>
+      <facetEntailment facetID="SE_4a_f4" label="Inferred"/>
+      <facetEntailment facetID="SE_4a_f5" label="Inferred"/>
+      <facetEntailment facetID="SE_4a_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.4a.429.1" answerText="Heat sink is when the temperature drops." accuracy="contradictory">
+      <facetEntailment facetID="SE_4a_f1" label="Expressed"/>
+      <facetEntailment facetID="SE_4a_f2" label="Contra-Infr"/>
+      <facetEntailment facetID="SE_4a_f3" label="Contra-Infr"/>
+      <facetEntailment facetID="SE_4a_f4" label="Unaddressed"/>
+      <facetEntailment facetID="SE_4a_f5" label="Unaddressed"/>
+      <facetEntailment facetID="SE_4a_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.4a.441.1" answerText="A heat sink is when a temperature goes up just a little or down a little." accuracy="irrelevant">
+      <facetEntailment facetID="SE_4a_f1" label="Expressed"/>
+      <facetEntailment facetID="SE_4a_f2" label="Unaddressed"/>
+      <facetEntailment facetID="SE_4a_f3" label="Assumed"/>
+      <facetEntailment facetID="SE_4a_f4" label="Unaddressed"/>
+      <facetEntailment facetID="SE_4a_f5" label="Unaddressed"/>
+      <facetEntailment facetID="SE_4a_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.4a.443.1" answerText="A heat sink is material that takes in more heat." accuracy="correct">
+      <facetEntailment facetID="SE_4a_f1" label="Expressed"/>
+      <facetEntailment facetID="SE_4a_f2" label="Expressed"/>
+      <facetEntailment facetID="SE_4a_f3" label="Assumed"/>
+      <facetEntailment facetID="SE_4a_f4" label="Expressed"/>
+      <facetEntailment facetID="SE_4a_f5" label="Expressed"/>
+      <facetEntailment facetID="SE_4a_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.4a.487.1" answerText="Something that can absorb heat." accuracy="correct">
+      <facetEntailment facetID="SE_4a_f1" label="Assumed"/>
+      <facetEntailment facetID="SE_4a_f2" label="Inferred"/>
+      <facetEntailment facetID="SE_4a_f3" label="Assumed"/>
+      <facetEntailment facetID="SE_4a_f4" label="Inferred"/>
+      <facetEntailment facetID="SE_4a_f5" label="Expressed"/>
+      <facetEntailment facetID="SE_4a_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.4a.493.1" answerText="A substance that can take in and give off heat." accuracy="correct">
+      <facetEntailment facetID="SE_4a_f1" label="Assumed"/>
+      <facetEntailment facetID="SE_4a_f2" label="Expressed"/>
+      <facetEntailment facetID="SE_4a_f3" label="Assumed"/>
+      <facetEntailment facetID="SE_4a_f4" label="Expressed"/>
+      <facetEntailment facetID="SE_4a_f5" label="Expressed"/>
+      <facetEntailment facetID="SE_4a_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.4a.513.1" answerText="A heat sink is something that absorbs heat and gives it off slowly." accuracy="correct">
+      <facetEntailment facetID="SE_4a_f1" label="Expressed"/>
+      <facetEntailment facetID="SE_4a_f2" label="Inferred"/>
+      <facetEntailment facetID="SE_4a_f3" label="Assumed"/>
+      <facetEntailment facetID="SE_4a_f4" label="Expressed"/>
+      <facetEntailment facetID="SE_4a_f5" label="Expressed"/>
+      <facetEntailment facetID="SE_4a_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.4a.529.1" answerText="A heat sink is a material that heats up slowly and cools down slowly." accuracy="correct">
+      <facetEntailment facetID="SE_4a_f1" label="Expressed"/>
+      <facetEntailment facetID="SE_4a_f2" label="Expressed"/>
+      <facetEntailment facetID="SE_4a_f3" label="Assumed"/>
+      <facetEntailment facetID="SE_4a_f4" label="Expressed"/>
+      <facetEntailment facetID="SE_4a_f5" label="Expressed"/>
+      <facetEntailment facetID="SE_4a_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.4a.531.1" answerText="A heat sink is when a material heats up slowly but stays warmer longer when cooling off." accuracy="correct">
+      <facetEntailment facetID="SE_4a_f1" label="Expressed"/>
+      <facetEntailment facetID="SE_4a_f2" label="Expressed"/>
+      <facetEntailment facetID="SE_4a_f3" label="Assumed"/>
+      <facetEntailment facetID="SE_4a_f4" label="Inferred"/>
+      <facetEntailment facetID="SE_4a_f5" label="Expressed"/>
+      <facetEntailment facetID="SE_4a_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.4a.545.1" answerText="A heat sink is a heat that is wet." accuracy="contradictory">
+      <facetEntailment facetID="SE_4a_f1" label="Expressed"/>
+      <facetEntailment facetID="SE_4a_f2" label="Contra-Infr"/>
+      <facetEntailment facetID="SE_4a_f3" label="Contra-Infr"/>
+      <facetEntailment facetID="SE_4a_f4" label="Unaddressed"/>
+      <facetEntailment facetID="SE_4a_f5" label="Unaddressed"/>
+      <facetEntailment facetID="SE_4a_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.4a.564.1" answerText="A material that slows down another." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="SE_4a_f1" label="Assumed"/>
+      <facetEntailment facetID="SE_4a_f2" label="Expressed"/>
+      <facetEntailment facetID="SE_4a_f3" label="Assumed"/>
+      <facetEntailment facetID="SE_4a_f4" label="Unaddressed"/>
+      <facetEntailment facetID="SE_4a_f5" label="Unaddressed"/>
+      <facetEntailment facetID="SE_4a_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.4a.598.1" answerText="A heat sink is something takes long to cool down and get hot." accuracy="correct">
+      <facetEntailment facetID="SE_4a_f1" label="Expressed"/>
+      <facetEntailment facetID="SE_4a_f2" label="Inferred"/>
+      <facetEntailment facetID="SE_4a_f3" label="Assumed"/>
+      <facetEntailment facetID="SE_4a_f4" label="Inferred"/>
+      <facetEntailment facetID="SE_4a_f5" label="Inferred"/>
+      <facetEntailment facetID="SE_4a_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.4a.602.1" answerText="A heat sink is something that takes water to absorb." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="SE_4a_f1" label="Expressed"/>
+      <facetEntailment facetID="SE_4a_f2" label="Inferred"/>
+      <facetEntailment facetID="SE_4a_f3" label="Assumed"/>
+      <facetEntailment facetID="SE_4a_f4" label="Expressed"/>
+      <facetEntailment facetID="SE_4a_f5" label="Diff-Arg"/>
+      <facetEntailment facetID="SE_4a_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.4a.605.1" answerText="A heat sink is not a thing like water." accuracy="irrelevant">
+      <facetEntailment facetID="SE_4a_f1" label="Expressed"/>
+      <facetEntailment facetID="SE_4a_f2" label="Unaddressed"/>
+      <facetEntailment facetID="SE_4a_f3" label="Assumed"/>
+      <facetEntailment facetID="SE_4a_f4" label="Unaddressed"/>
+      <facetEntailment facetID="SE_4a_f5" label="Unaddressed"/>
+      <facetEntailment facetID="SE_4a_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.4a.620.1" answerText="A heat sink is water because it absorb the slowly and it lets go slowly." accuracy="contradictory">
+      <facetEntailment facetID="SE_4a_f1" label="Expressed"/>
+      <facetEntailment facetID="SE_4a_f2" label="Inferred"/>
+      <facetEntailment facetID="SE_4a_f3" label="Contra-Expr"/>
+      <facetEntailment facetID="SE_4a_f4" label="Expressed"/>
+      <facetEntailment facetID="SE_4a_f5" label="Inferred"/>
+      <facetEntailment facetID="SE_4a_f6" label="Assumed"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

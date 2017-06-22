@@ -1,0 +1,127 @@
+<?xml version="1.0"?>
+<question testSet="unseen-answers" id="FN_20a" module="FN">
+  <questionText>Anna wants to compare the fat in walnuts and peanuts, but she isn't sure how. Write a procedure Anna can use to compare the fat in walnuts and peanuts.</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="FN_20a-a1" text="Measure out equal masses of walnuts and peanuts. Smash the samples uniformly in the same size area on brown paper. Wait the same time for each sample.">
+      <tokens>
+        <token id="FN_20a_ra1">Measure</token>
+        <token id="FN_20a_ra2">out</token>
+        <token id="FN_20a_ra3">equal</token>
+        <token id="FN_20a_ra4">masses</token>
+        <token id="FN_20a_ra5">of</token>
+        <token id="FN_20a_ra6">walnuts</token>
+        <token id="FN_20a_ra7">and</token>
+        <token id="FN_20a_ra8">peanuts</token>
+        <token id="FN_20a_ra9">.</token>
+        <token id="FN_20a_ra10">Smash</token>
+        <token id="FN_20a_ra11">the</token>
+        <token id="FN_20a_ra12">samples</token>
+        <token id="FN_20a_ra13">uniformly</token>
+        <token id="FN_20a_ra14">in</token>
+        <token id="FN_20a_ra15">the</token>
+        <token id="FN_20a_ra16">same</token>
+        <token id="FN_20a_ra17">size</token>
+        <token id="FN_20a_ra18">area</token>
+        <token id="FN_20a_ra19">on</token>
+        <token id="FN_20a_ra20">brown</token>
+        <token id="FN_20a_ra21">paper</token>
+        <token id="FN_20a_ra22">.</token>
+        <token id="FN_20a_ra23">Wait</token>
+        <token id="FN_20a_ra24">the</token>
+        <token id="FN_20a_ra25">same</token>
+        <token id="FN_20a_ra26">time</token>
+        <token id="FN_20a_ra27">for</token>
+        <token id="FN_20a_ra28">each</token>
+        <token id="FN_20a_ra29">sample</token>
+        <token id="FN_20a_ra30">.</token>
+      </tokens>
+      <facets>
+        <facet id="FN_20a_f1" govNum="FN_20a_ra1" modNum="FN_20a_ra4" reltn="Theme" govText="Measure" modText="masses"/>
+        <facet id="FN_20a_f2" govNum="FN_20a_ra4" modNum="FN_20a_ra3" reltn="NMod" govText="masses" modText="equal"/>
+        <facet id="FN_20a_f3" govNum="FN_20a_ra4" modNum="FN_20a_ra6" reltn="NMod_of" govText="masses" modText="walnuts"/>
+        <facet id="FN_20a_f4" govNum="FN_20a_ra4" modNum="FN_20a_ra8" reltn="NMod_of" govText="masses" modText="peanuts"/>
+        <facet id="FN_20a_f5" govNum="FN_20a_ra10" modNum="FN_20a_ra12" reltn="Patient" govText="Smash" modText="samples"/>
+        <facet id="FN_20a_f6" govNum="FN_20a_ra10" modNum="FN_20a_ra13" reltn="Manner" govText="Smash" modText="uniformly"/>
+        <facet id="FN_20a_f7" govNum="FN_20a_ra10" modNum="FN_20a_ra18" reltn="Location_in" govText="Smash" modText="area"/>
+        <facet id="FN_20a_f8" govNum="FN_20a_ra18" modNum="FN_20a_ra17" reltn="NMod" govText="area" modText="size"/>
+        <facet id="FN_20a_f9" govNum="FN_20a_ra17" modNum="FN_20a_ra16" reltn="AMod" govText="size" modText="same"/>
+        <facet id="FN_20a_f10" govNum="FN_20a_ra18" modNum="FN_20a_ra21" reltn="Location_on" govText="area" modText="paper"/>
+        <facet id="FN_20a_f11" govNum="FN_20a_ra21" modNum="FN_20a_ra20" reltn="NMod" govText="paper" modText="brown"/>
+        <facet id="FN_20a_f12" govNum="FN_20a_ra23" modNum="FN_20a_ra29" reltn="Theme_for" govText="Wait" modText="sample"/>
+        <facet id="FN_20a_f13" govNum="FN_20a_ra29" modNum="FN_20a_ra28" reltn="Quantifier" govText="sample" modText="each"/>
+        <facet id="FN_20a_f14" govNum="FN_20a_ra23" modNum="FN_20a_ra26" reltn="Time" govText="Wait" modText="time"/>
+        <facet id="FN_20a_f15" govNum="FN_20a_ra26" modNum="FN_20a_ra25" reltn="NMod" govText="time" modText="same"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="FN.20a.216.1" answerText="1. Get one ounce of walnuts and peanuts. 2. Smear each one on a circle of the same size on absorbent paper. 3. Put it flat on a tray. 4. Wait a couple of days. 5. Measure and take results." accuracy="correct">
+      <facetEntailment facetID="FN_20a_f1" label="Inferred"/>
+      <facetEntailment facetID="FN_20a_f2" label="Expressed"/>
+      <facetEntailment facetID="FN_20a_f3" label="Expressed"/>
+      <facetEntailment facetID="FN_20a_f4" label="Expressed"/>
+      <facetEntailment facetID="FN_20a_f5" label="Inferred"/>
+      <facetEntailment facetID="FN_20a_f6" label="Inferred"/>
+      <facetEntailment facetID="FN_20a_f7" label="Inferred"/>
+      <facetEntailment facetID="FN_20a_f8" label="Expressed"/>
+      <facetEntailment facetID="FN_20a_f9" label="Expressed"/>
+      <facetEntailment facetID="FN_20a_f10" label="Expressed"/>
+      <facetEntailment facetID="FN_20a_f11" label="Inferred"/>
+      <facetEntailment facetID="FN_20a_f12" label="Inferred"/>
+      <facetEntailment facetID="FN_20a_f13" label="Inferred"/>
+      <facetEntailment facetID="FN_20a_f14" label="Expressed"/>
+      <facetEntailment facetID="FN_20a_f15" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="FN.20a.443.1" answerText="1. Anna can use a brown paper bag. 2. Spread the food on the brown paper bag. 3. Wait 2 days. 4. See which one has the most grease spots." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="FN_20a_f1" label="Unaddressed"/>
+      <facetEntailment facetID="FN_20a_f2" label="Unaddressed"/>
+      <facetEntailment facetID="FN_20a_f3" label="Unaddressed"/>
+      <facetEntailment facetID="FN_20a_f4" label="Unaddressed"/>
+      <facetEntailment facetID="FN_20a_f5" label="Inferred"/>
+      <facetEntailment facetID="FN_20a_f6" label="Unaddressed"/>
+      <facetEntailment facetID="FN_20a_f7" label="Unaddressed"/>
+      <facetEntailment facetID="FN_20a_f8" label="Inferred"/>
+      <facetEntailment facetID="FN_20a_f9" label="Unaddressed"/>
+      <facetEntailment facetID="FN_20a_f10" label="Inferred"/>
+      <facetEntailment facetID="FN_20a_f11" label="Expressed"/>
+      <facetEntailment facetID="FN_20a_f12" label="Inferred"/>
+      <facetEntailment facetID="FN_20a_f13" label="Inferred"/>
+      <facetEntailment facetID="FN_20a_f14" label="Expressed"/>
+      <facetEntailment facetID="FN_20a_f15" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="FN.20a.507.1" answerText="First weigh the walnuts and peanuts to one gram amount. Then, spread the one gram walnuts and peanuts on the same brown paper. Then wait 2 days." accuracy="correct">
+      <facetEntailment facetID="FN_20a_f1" label="Expressed"/>
+      <facetEntailment facetID="FN_20a_f2" label="Expressed"/>
+      <facetEntailment facetID="FN_20a_f3" label="Inferred"/>
+      <facetEntailment facetID="FN_20a_f4" label="Inferred"/>
+      <facetEntailment facetID="FN_20a_f5" label="Inferred"/>
+      <facetEntailment facetID="FN_20a_f6" label="Inferred"/>
+      <facetEntailment facetID="FN_20a_f7" label="Inferred"/>
+      <facetEntailment facetID="FN_20a_f8" label="Unaddressed"/>
+      <facetEntailment facetID="FN_20a_f9" label="Unaddressed"/>
+      <facetEntailment facetID="FN_20a_f10" label="Inferred"/>
+      <facetEntailment facetID="FN_20a_f11" label="Expressed"/>
+      <facetEntailment facetID="FN_20a_f12" label="Inferred"/>
+      <facetEntailment facetID="FN_20a_f13" label="Inferred"/>
+      <facetEntailment facetID="FN_20a_f14" label="Expressed"/>
+      <facetEntailment facetID="FN_20a_f15" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="FN.20a.531.1" answerText="First you have to have these materials, 2 brown paper indicators, weigh machine, 2 cups, one gram block, spoon and stick. You put 2 cup on each side of the weigh machine with brown paper on each of the cups. Then you smear the food sample on the brown indicator then wait for 2 day." accuracy="correct">
+      <facetEntailment facetID="FN_20a_f1" label="Expressed"/>
+      <facetEntailment facetID="FN_20a_f2" label="Expressed"/>
+      <facetEntailment facetID="FN_20a_f3" label="Inferred"/>
+      <facetEntailment facetID="FN_20a_f4" label="Inferred"/>
+      <facetEntailment facetID="FN_20a_f5" label="Expressed"/>
+      <facetEntailment facetID="FN_20a_f6" label="Inferred"/>
+      <facetEntailment facetID="FN_20a_f7" label="Expressed"/>
+      <facetEntailment facetID="FN_20a_f8" label="Expressed"/>
+      <facetEntailment facetID="FN_20a_f9" label="Expressed"/>
+      <facetEntailment facetID="FN_20a_f10" label="Inferred"/>
+      <facetEntailment facetID="FN_20a_f11" label="Expressed"/>
+      <facetEntailment facetID="FN_20a_f12" label="Inferred"/>
+      <facetEntailment facetID="FN_20a_f13" label="Inferred"/>
+      <facetEntailment facetID="FN_20a_f14" label="Expressed"/>
+      <facetEntailment facetID="FN_20a_f15" label="Inferred"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

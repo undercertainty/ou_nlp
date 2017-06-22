@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<question testSet="unseen-answers" id="PS_51a" module="PS">
+  <questionText>Katie got a guitar for her birthday. She experimented with the strings and found she could change their sounds. One way Katie could change the sound of a string was to tighten it. Describe how the sound was different when the string was tightened.</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="PS_51a-a1" text="When the string was tighter, the pitch was higher.">
+      <tokens>
+        <token id="PS_51a_ra1">When</token>
+        <token id="PS_51a_ra2">the</token>
+        <token id="PS_51a_ra3">string</token>
+        <token id="PS_51a_ra4">was</token>
+        <token id="PS_51a_ra5">tighter</token>
+        <token id="PS_51a_ra6">,</token>
+        <token id="PS_51a_ra7">the</token>
+        <token id="PS_51a_ra8">pitch</token>
+        <token id="PS_51a_ra9">was</token>
+        <token id="PS_51a_ra10">higher</token>
+        <token id="PS_51a_ra11">.</token>
+      </tokens>
+      <facets>
+        <facet id="PS_51a_f1" govNum="PS_51a_ra3" modNum="PS_51a_ra5" reltn="Be" govText="string" isAssumed="true" modText="tighter"/>
+        <facet id="PS_51a_f2" govNum="PS_51a_ra8" modNum="PS_51a_ra10" reltn="Be" govText="pitch" modText="higher"/>
+        <facet id="PS_51a_f3" govNum="PS_51a_ra9" modNum="PS_51a_ra4" reltn="Cause_when" childProp1Facet1="PS_51a_f2" govText="was" isAssumed="true" modText="was" childProp2Facet1="PS_51a_f1"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="PS.51a.116.1" answerText="You tighten the string you pull a string when the other hand tighten." accuracy="irrelevant">
+      <facetEntailment facetID="PS_51a_f1" label="Expressed"/>
+      <facetEntailment facetID="PS_51a_f2" label="Unaddressed"/>
+      <facetEntailment facetID="PS_51a_f3" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.51a.145.1" answerText="I get a higher pitch." accuracy="correct">
+      <facetEntailment facetID="PS_51a_f1" label="Assumed"/>
+      <facetEntailment facetID="PS_51a_f2" label="Expressed"/>
+      <facetEntailment facetID="PS_51a_f3" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.51a.255.1" answerText="If the string on the guitar was shorter it would make a higher pitch." accuracy="correct">
+      <facetEntailment facetID="PS_51a_f1" label="Diff-Arg"/>
+      <facetEntailment facetID="PS_51a_f2" label="Expressed"/>
+      <facetEntailment facetID="PS_51a_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.51a.488.1" answerText="It is going to sound high. And if it not tightened it going to sound low." accuracy="correct">
+      <facetEntailment facetID="PS_51a_f1" label="Expressed"/>
+      <facetEntailment facetID="PS_51a_f2" label="Expressed"/>
+      <facetEntailment facetID="PS_51a_f3" label="Expressed"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

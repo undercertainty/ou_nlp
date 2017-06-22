@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<question testSet="unseen-answers" id="MS_30b" module="MS">
+  <questionText>Mary told her friend Sharice that she had a rug to sell. Sharice asked if the rug would fit perfectly, wall to wall, in her bedroom. Mary went home and measured the rug. She put her feet heel-to-toe and counted the number of shoe lengths it took to measure the rug. She found the rug was 18 shoes long and 12 shoes wide. Sharice did the same thing in her room to measure the space for the rug. Her floor was 18 shoes long and 12 shoes wide. A perfect fit! Sharice bought the rug and took it home. To her dismay, she found it was too short and too narrow for her bedroom! What could Mary and Sharice do to better measure the size of the rug?</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="MS_30b-a1" text="Use a standard unit of measurement such as centimeters or meters.">
+      <tokens>
+        <token id="MS_30b_ra1">Use</token>
+        <token id="MS_30b_ra2">a</token>
+        <token id="MS_30b_ra3">standard</token>
+        <token id="MS_30b_ra4">unit</token>
+        <token id="MS_30b_ra5">of</token>
+        <token id="MS_30b_ra6">measurement</token>
+        <token id="MS_30b_ra7">such</token>
+        <token id="MS_30b_ra8">as</token>
+        <token id="MS_30b_ra9">centimeters</token>
+        <token id="MS_30b_ra10">or</token>
+        <token id="MS_30b_ra11">meters</token>
+        <token id="MS_30b_ra12">.</token>
+      </tokens>
+      <facets>
+        <facet id="MS_30b_f1" govNum="MS_30b_ra1" modNum="MS_30b_ra4" reltn="Theme" govText="Use" modText="unit"/>
+        <facet id="MS_30b_f2" govNum="MS_30b_ra4" modNum="MS_30b_ra3" reltn="NMod" govText="unit" modText="standard"/>
+        <facet id="MS_30b_f3" govNum="MS_30b_ra4" modNum="MS_30b_ra6" reltn="NMod_of" govText="unit" isAssumed="true" modText="measurement"/>
+        <facet id="MS_30b_f4" govNum="MS_30b_ra4" modNum="MS_30b_ra9" reltn="NMod_such_as" govText="unit" modText="centimeters"/>
+        <facet id="MS_30b_f5" govNum="MS_30b_ra4" modNum="MS_30b_ra11" reltn="NMod_such_as" govText="unit" modText="meters"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="MS.30b.183.1" answerText="They could use a meter tape to measure or feet." accuracy="correct">
+      <facetEntailment facetID="MS_30b_f1" label="Expressed"/>
+      <facetEntailment facetID="MS_30b_f2" label="Expressed"/>
+      <facetEntailment facetID="MS_30b_f3" label="Expressed"/>
+      <facetEntailment facetID="MS_30b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MS_30b_f5" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="MS.30b.381.1" answerText="They should use a standard." accuracy="correct">
+      <facetEntailment facetID="MS_30b_f1" label="Inferred"/>
+      <facetEntailment facetID="MS_30b_f2" label="Inferred"/>
+      <facetEntailment facetID="MS_30b_f3" label="Assumed"/>
+      <facetEntailment facetID="MS_30b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MS_30b_f5" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MS.30b.382.1" answerText="That they have different hands that are big and small." accuracy="irrelevant">
+      <facetEntailment facetID="MS_30b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="MS_30b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MS_30b_f3" label="Assumed"/>
+      <facetEntailment facetID="MS_30b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MS_30b_f5" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MS.30b.566.1" answerText="They could use a tape meter so they could measure both the rug and the floor." accuracy="correct">
+      <facetEntailment facetID="MS_30b_f1" label="Expressed"/>
+      <facetEntailment facetID="MS_30b_f2" label="Expressed"/>
+      <facetEntailment facetID="MS_30b_f3" label="Expressed"/>
+      <facetEntailment facetID="MS_30b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MS_30b_f5" label="Expressed"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

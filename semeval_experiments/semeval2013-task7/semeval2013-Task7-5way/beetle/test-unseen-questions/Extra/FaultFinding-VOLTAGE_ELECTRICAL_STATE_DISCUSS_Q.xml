@@ -1,0 +1,1617 @@
+<?xml version="1.0"?>
+<question testSet="unseen-questions" id="VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q" module="FaultFinding" stype="QUESTION" qtype="Q_EXPLAIN_GENERIC">
+  <questionText>What is the relationship between the voltage reading between two terminals and their electrical states?</questionText>
+  <referenceAnswers>
+    <referenceAnswer category="BEST" id="answer181" fileID="VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q_ANS1">Voltage is the difference in electrical states between two terminals</referenceAnswer>
+    <referenceAnswer category="GOOD" id="answer182" fileID="VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q_ANS2">Measuring voltage indicates whether two terminals have different electrical states.</referenceAnswer>
+    <referenceAnswer category="MINIMAL" id="answer183" fileID="VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q_ANS3">A zero voltage means that the terminals have the same electrical state.</referenceAnswer>
+    <referenceAnswer category="MINIMAL" id="answer184" fileID="VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q_ANS4">A voltage of 1.5 means that the terminals have different electrical states.</referenceAnswer>
+    <referenceAnswer category="MINIMAL" id="answer185" fileID="VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q_ANS5">A non-zero voltage means that the terminals have different electrical states.</referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj3-l1.qa173" accuracy="correct" answerMatch="answer185" raw_text="if the voltage is not zero there is a difference in electrical states. If the voltage is zero there is no difference in electrical state" count="1">
+      <token id="tok3238" status="ok">if</token>
+      <token id="tok3239" status="ok">the</token>
+      <token id="tok3240" status="ok">voltage</token>
+      <token id="tok3241" status="ok">is</token>
+      <token id="tok3242" status="ok">not</token>
+      <token id="tok3243" status="ok">zero</token>
+      <token id="tok3244" status="ok">there</token>
+      <token id="tok3245" status="ok">is</token>
+      <token id="tok3246" status="ok">a</token>
+      <token id="tok3247" status="ok">difference</token>
+      <token id="tok3248" status="ok">in</token>
+      <token id="tok3249" status="ok">electrical</token>
+      <token id="tok3250" status="ok">states</token>
+      <token id="tok3251" status="ok">If</token>
+      <token id="tok3252" status="ok">the</token>
+      <token id="tok3253" status="ok">voltage</token>
+      <token id="tok3254" status="ok">is</token>
+      <token id="tok3255" status="ok">zero</token>
+      <token id="tok3256" status="ok">there</token>
+      <token id="tok3257" status="ok">is</token>
+      <token id="tok3258" status="ok">no</token>
+      <token id="tok3259" status="ok">difference</token>
+      <token id="tok3260" status="ok">in</token>
+      <token id="tok3261" status="ok">electrical</token>
+      <token id="tok3262" status="ok">state</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj3-l1.qa174" accuracy="contradictory" raw_text="if there is a measurement reading then the electrical states are opposite" count="1">
+      <token id="tok3275" status="ok">if</token>
+      <token id="tok3276" status="ok">there</token>
+      <token id="tok3277" status="ok">is</token>
+      <token id="tok3278" status="ok">a</token>
+      <token id="tok3279" status="ok">measurement</token>
+      <token id="tok3280" status="ok">reading</token>
+      <token id="tok3281" status="ok">then</token>
+      <token id="tok3282" status="ok">the</token>
+      <token id="tok3283" status="ok">electrical</token>
+      <token id="tok3284" status="ok">states</token>
+      <token id="tok3285" status="ok">are</token>
+      <token id="tok3286" status="ok">opposite</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj7-l1.qa164" accuracy="contradictory" raw_text="if the terminal is connected to the negative terminal, the reading will be 1.5V.  if the terminal is connected to the positive terminal, the reading will be 0 V." count="1">
+      <token id="tok2697" status="ok">if</token>
+      <token id="tok2698" status="ok">the</token>
+      <token id="tok2699" status="ok">terminal</token>
+      <token id="tok2700" status="ok">is</token>
+      <token id="tok2701" status="ok">connected</token>
+      <token id="tok2702" status="ok">to</token>
+      <token id="tok2703" status="ok">the</token>
+      <token id="tok2704" status="ok">negative</token>
+      <token id="tok2705" status="ok">terminal</token>
+      <token id="tok2706" status="ok">the</token>
+      <token id="tok2707" status="ok">reading</token>
+      <token id="tok2708" status="ok">will</token>
+      <token id="tok2709" status="ok">be</token>
+      <token id="tok2710" status="numerical">1.5</token>
+      <token id="tok2711" status="numerical">V</token>
+      <token id="tok2712" status="ok">if</token>
+      <token id="tok2713" status="ok">the</token>
+      <token id="tok2714" status="ok">terminal</token>
+      <token id="tok2715" status="ok">is</token>
+      <token id="tok2716" status="ok">connected</token>
+      <token id="tok2717" status="ok">to</token>
+      <token id="tok2718" status="ok">the</token>
+      <token id="tok2719" status="ok">positive</token>
+      <token id="tok2720" status="ok">terminal</token>
+      <token id="tok2721" status="ok">the</token>
+      <token id="tok2722" status="ok">reading</token>
+      <token id="tok2723" status="ok">will</token>
+      <token id="tok2724" status="ok">be</token>
+      <token id="tok2725" status="numerical">0</token>
+      <token id="tok2726" status="numerical">V</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj7-l1.qa165" accuracy="non_domain" raw_text="i do not know" count="1">
+      <token id="tok2735" status="ok">i</token>
+      <token id="tok2736" status="ok">do</token>
+      <token id="tok2737" status="ok">not</token>
+      <token id="tok2738" status="ok">know</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj7-l1.qa166" accuracy="contradictory" answerMatch="answer183" raw_text="the electrical states are the same" count="1">
+      <token id="tok2748" status="ok">the</token>
+      <token id="tok2749" status="ok">electrical</token>
+      <token id="tok2750" status="ok">states</token>
+      <token id="tok2751" status="ok">are</token>
+      <token id="tok2752" status="ok">the</token>
+      <token id="tok2753" status="ok">same</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj8-l1.qa197" accuracy="contradictory" raw_text="the volatge readings determines how much electricity" count="1">
+      <token id="tok3510" status="ok">the</token>
+      <token id="tok3511" status="ok" original="volatge">voltage</token>
+      <token id="tok3512" status="ok">readings</token>
+      <token id="tok3513" status="ok">determines</token>
+      <token id="tok3514" status="ok">how</token>
+      <token id="tok3515" status="ok">much</token>
+      <token id="tok3516" status="ok">electricity</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj8-l1.qa198" accuracy="contradictory" raw_text="the positive terminal has a higher electrical state than that of the negative terminal" count="1">
+      <token id="tok3527" status="ok">the</token>
+      <token id="tok3528" status="ok">positive</token>
+      <token id="tok3529" status="ok">terminal</token>
+      <token id="tok3530" status="ok">has</token>
+      <token id="tok3531" status="ok">a</token>
+      <token id="tok3532" status="ok">higher</token>
+      <token id="tok3533" status="ok">electrical</token>
+      <token id="tok3534" status="ok">state</token>
+      <token id="tok3535" status="ok">than</token>
+      <token id="tok3536" status="ok">that</token>
+      <token id="tok3537" status="ok">of</token>
+      <token id="tok3538" status="ok">the</token>
+      <token id="tok3539" status="ok">negative</token>
+      <token id="tok3540" status="ok">terminal</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj8-l1.qa199" accuracy="contradictory" raw_text="The positive terminal has higher electrical charge that that of the negative terminal" count="1">
+      <token id="tok3569" status="ok">The</token>
+      <token id="tok3570" status="ok">positive</token>
+      <token id="tok3571" status="ok">terminal</token>
+      <token id="tok3572" status="ok">has</token>
+      <token id="tok3573" status="ok">higher</token>
+      <token id="tok3574" status="ok">electrical</token>
+      <token id="tok3575" status="ok">charge</token>
+      <token id="tok3576" status="ok">that</token>
+      <token id="tok3577" status="ok">that</token>
+      <token id="tok3578" status="ok">of</token>
+      <token id="tok3579" status="ok">the</token>
+      <token id="tok3580" status="ok">negative</token>
+      <token id="tok3581" status="ok">terminal</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj8-l1.qa200" accuracy="contradictory" raw_text="the value of the measurement indicates its electrical capabilities" count="1">
+      <token id="tok3610" status="ok">the</token>
+      <token id="tok3611" status="ok">value</token>
+      <token id="tok3612" status="ok">of</token>
+      <token id="tok3613" status="ok">the</token>
+      <token id="tok3614" status="ok">measurement</token>
+      <token id="tok3615" status="ok">indicates</token>
+      <token id="tok3616" status="ok">its</token>
+      <token id="tok3617" status="ok">electrical</token>
+      <token id="tok3618" status="ok">capabilities</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj9-l1.qa167" accuracy="contradictory" raw_text="the distance between the voltage terminals." count="1">
+      <token id="tok2937" status="ok">the</token>
+      <token id="tok2938" status="ok">distance</token>
+      <token id="tok2939" status="ok">between</token>
+      <token id="tok2940" status="ok">the</token>
+      <token id="tok2941" status="ok">voltage</token>
+      <token id="tok2942" status="ok">terminals</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj9-l1.qa168" accuracy="contradictory" raw_text="the relationship between the voltage reading between two terminals and their electrical states is based on the distance between the terminals on the battery." count="1">
+      <token id="tok2963" status="ok">the</token>
+      <token id="tok2964" status="ok">relationship</token>
+      <token id="tok2965" status="ok">between</token>
+      <token id="tok2966" status="ok">the</token>
+      <token id="tok2967" status="ok">voltage</token>
+      <token id="tok2968" status="ok">reading</token>
+      <token id="tok2969" status="ok">between</token>
+      <token id="tok2970" status="ok">two</token>
+      <token id="tok2971" status="ok">terminals</token>
+      <token id="tok2972" status="ok">and</token>
+      <token id="tok2973" status="ok">their</token>
+      <token id="tok2974" status="ok">electrical</token>
+      <token id="tok2975" status="ok">states</token>
+      <token id="tok2976" status="ok">is</token>
+      <token id="tok2977" status="ok">based</token>
+      <token id="tok2978" status="ok">on</token>
+      <token id="tok2979" status="ok">the</token>
+      <token id="tok2980" status="ok">distance</token>
+      <token id="tok2981" status="ok">between</token>
+      <token id="tok2982" status="ok">the</token>
+      <token id="tok2983" status="ok">terminals</token>
+      <token id="tok2984" status="ok">on</token>
+      <token id="tok2985" status="ok">the</token>
+      <token id="tok2986" status="ok">battery</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj9-l1.qa169" accuracy="partially_correct_incomplete" answerMatch="answer182" raw_text="the difference between the voltage terminals." count="1">
+      <token id="tok3014" status="ok">the</token>
+      <token id="tok3015" status="ok">difference</token>
+      <token id="tok3016" status="ok">between</token>
+      <token id="tok3017" status="ok">the</token>
+      <token id="tok3018" status="ok">voltage</token>
+      <token id="tok3019" status="ok">terminals</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj9-l1.qa170" accuracy="contradictory" answerMatch="answer182" raw_text="the relationship between the voltage reading between two terminals and their elevtrical states is based on the difference between the terminals on the battery." count="1">
+      <token id="tok3036" status="ok">the</token>
+      <token id="tok3037" status="ok">relationship</token>
+      <token id="tok3038" status="ok">between</token>
+      <token id="tok3039" status="ok">the</token>
+      <token id="tok3040" status="ok">voltage</token>
+      <token id="tok3041" status="ok">reading</token>
+      <token id="tok3042" status="ok">between</token>
+      <token id="tok3043" status="ok">two</token>
+      <token id="tok3044" status="ok">terminals</token>
+      <token id="tok3045" status="ok">and</token>
+      <token id="tok3046" status="ok">their</token>
+      <token id="tok3047" status="ok" original="elevtrical">electrical</token>
+      <token id="tok3048" status="ok">states</token>
+      <token id="tok3049" status="ok">is</token>
+      <token id="tok3050" status="ok">based</token>
+      <token id="tok3051" status="ok">on</token>
+      <token id="tok3052" status="ok">the</token>
+      <token id="tok3053" status="ok">difference</token>
+      <token id="tok3054" status="ok">between</token>
+      <token id="tok3055" status="ok">the</token>
+      <token id="tok3056" status="ok">terminals</token>
+      <token id="tok3057" status="ok">on</token>
+      <token id="tok3058" status="ok">the</token>
+      <token id="tok3059" status="ok">battery</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj10-l1.qa186" accuracy="correct" answerMatch="answer181" raw_text="it is the difference in voltage between the positive and negative terminals" count="1">
+      <token id="tok3298" status="ok">it</token>
+      <token id="tok3299" status="ok">is</token>
+      <token id="tok3300" status="ok">the</token>
+      <token id="tok3301" status="ok">difference</token>
+      <token id="tok3302" status="ok">in</token>
+      <token id="tok3303" status="ok">voltage</token>
+      <token id="tok3304" status="ok">between</token>
+      <token id="tok3305" status="ok">the</token>
+      <token id="tok3306" status="ok">positive</token>
+      <token id="tok3307" status="ok">and</token>
+      <token id="tok3308" status="ok">negative</token>
+      <token id="tok3309" status="ok">terminals</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj10-l1.qa187" accuracy="partially_correct_incomplete" answerMatch="answer181" raw_text="the difference between positive and negative" count="1">
+      <token id="tok3320" status="ok">the</token>
+      <token id="tok3321" status="ok">difference</token>
+      <token id="tok3322" status="ok">between</token>
+      <token id="tok3323" status="ok">positive</token>
+      <token id="tok3324" status="ok">and</token>
+      <token id="tok3325" status="ok">negative</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj10-l1.qa188" accuracy="correct" answerMatch="answer181" raw_text="the difference in voltage between the two terminals" count="1">
+      <token id="tok3334" status="ok">the</token>
+      <token id="tok3335" status="ok">difference</token>
+      <token id="tok3336" status="ok">in</token>
+      <token id="tok3337" status="ok">voltage</token>
+      <token id="tok3338" status="ok">between</token>
+      <token id="tok3339" status="ok">the</token>
+      <token id="tok3340" status="ok">two</token>
+      <token id="tok3341" status="ok">terminals</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj10-l1.qa189" accuracy="partially_correct_incomplete" answerMatch="answer181" raw_text="one is positive and one is negative" count="1">
+      <token id="tok3372" status="ok">one</token>
+      <token id="tok3373" status="ok">is</token>
+      <token id="tok3374" status="ok">positive</token>
+      <token id="tok3375" status="ok">and</token>
+      <token id="tok3376" status="ok">one</token>
+      <token id="tok3377" status="ok">is</token>
+      <token id="tok3378" status="ok">negative</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj11-l1.qa194" accuracy="contradictory" raw_text="0" count="1">
+      <token id="tok3206" status="numerical">0</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj11-l1.qa195" accuracy="correct" answerMatch="answer181" raw_text="the difference of the electrical states of the terminals is the voltage." count="1">
+      <token id="tok3218" status="ok">the</token>
+      <token id="tok3219" status="ok">difference</token>
+      <token id="tok3220" status="ok">of</token>
+      <token id="tok3221" status="ok">the</token>
+      <token id="tok3222" status="ok">electrical</token>
+      <token id="tok3223" status="ok">states</token>
+      <token id="tok3224" status="ok">of</token>
+      <token id="tok3225" status="ok">the</token>
+      <token id="tok3226" status="ok">terminals</token>
+      <token id="tok3227" status="ok">is</token>
+      <token id="tok3228" status="ok">the</token>
+      <token id="tok3229" status="ok">voltage</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj11-l1.qa196" accuracy="partially_correct_incomplete" answerMatch="answer181" raw_text="the voltage reading is the difference between the electrical states of the terminal." count="1">
+      <token id="tok3244" status="ok">the</token>
+      <token id="tok3245" status="ok">voltage</token>
+      <token id="tok3246" status="ok">reading</token>
+      <token id="tok3247" status="ok">is</token>
+      <token id="tok3248" status="ok">the</token>
+      <token id="tok3249" status="ok">difference</token>
+      <token id="tok3250" status="ok">between</token>
+      <token id="tok3251" status="ok">the</token>
+      <token id="tok3252" status="ok">electrical</token>
+      <token id="tok3253" status="ok">states</token>
+      <token id="tok3254" status="ok">of</token>
+      <token id="tok3255" status="ok">the</token>
+      <token id="tok3256" status="ok">terminal</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj12-l1.qa162" accuracy="partially_correct_incomplete" answerMatch="answer182" raw_text="Their electrical state is determined by their relationship" count="1">
+      <token id="tok2871" status="ok">Their</token>
+      <token id="tok2872" status="ok">electrical</token>
+      <token id="tok2873" status="ok">state</token>
+      <token id="tok2874" status="ok">is</token>
+      <token id="tok2875" status="ok">determined</token>
+      <token id="tok2876" status="ok">by</token>
+      <token id="tok2877" status="ok">their</token>
+      <token id="tok2878" status="ok">relationship</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj12-l1.qa163" accuracy="partially_correct_incomplete" answerMatch="answer182" raw_text="The electrical state of one terminal afferts the other terminal" count="1">
+      <token id="tok2887" status="ok">The</token>
+      <token id="tok2888" status="ok">electrical</token>
+      <token id="tok2889" status="ok">state</token>
+      <token id="tok2890" status="ok">of</token>
+      <token id="tok2891" status="ok">one</token>
+      <token id="tok2892" status="ok">terminal</token>
+      <token id="tok2893" status="ok" original="afferts">affects</token>
+      <token id="tok2894" status="ok">the</token>
+      <token id="tok2895" status="ok">other</token>
+      <token id="tok2896" status="ok">terminal</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj12-l1.qa164" accuracy="irrelevant" raw_text="The relationship between the electrical states of the terminals determines the voltage" count="1">
+      <token id="tok2935" status="ok">The</token>
+      <token id="tok2936" status="ok">relationship</token>
+      <token id="tok2937" status="ok">between</token>
+      <token id="tok2938" status="ok">the</token>
+      <token id="tok2939" status="ok">electrical</token>
+      <token id="tok2940" status="ok">states</token>
+      <token id="tok2941" status="ok">of</token>
+      <token id="tok2942" status="ok">the</token>
+      <token id="tok2943" status="ok">terminals</token>
+      <token id="tok2944" status="ok">determines</token>
+      <token id="tok2945" status="ok">the</token>
+      <token id="tok2946" status="ok">voltage</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj12-l1.qa165" accuracy="irrelevant" raw_text="The value of the measurement between two terminals gives the voltage" count="1">
+      <token id="tok2965" status="ok">The</token>
+      <token id="tok2966" status="ok">value</token>
+      <token id="tok2967" status="ok">of</token>
+      <token id="tok2968" status="ok">the</token>
+      <token id="tok2969" status="ok">measurement</token>
+      <token id="tok2970" status="ok">between</token>
+      <token id="tok2971" status="ok">two</token>
+      <token id="tok2972" status="ok">terminals</token>
+      <token id="tok2973" status="ok">gives</token>
+      <token id="tok2974" status="ok">the</token>
+      <token id="tok2975" status="ok">voltage</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj13-l1.qa194" accuracy="contradictory" raw_text="whether there is a gap." count="1">
+      <token id="tok3433" status="ok">whether</token>
+      <token id="tok3434" status="ok">there</token>
+      <token id="tok3435" status="ok">is</token>
+      <token id="tok3436" status="ok">a</token>
+      <token id="tok3437" status="ok">gap</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj13-l1.qa195" accuracy="contradictory" raw_text="there is a difference in electrical current at each terminal." count="1">
+      <token id="tok3449" status="ok">there</token>
+      <token id="tok3450" status="ok">is</token>
+      <token id="tok3451" status="ok">a</token>
+      <token id="tok3452" status="ok">difference</token>
+      <token id="tok3453" status="ok">in</token>
+      <token id="tok3454" status="ok">electrical</token>
+      <token id="tok3455" status="ok">current</token>
+      <token id="tok3456" status="ok">at</token>
+      <token id="tok3457" status="ok">each</token>
+      <token id="tok3458" status="ok">terminal</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj14-l1.qa187" accuracy="non_domain" raw_text="dfjfkd" count="1">
+      <token id="tok3030" status="nonWord">dfjfkd</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj14-l1.qa188" accuracy="non_domain" raw_text="slkdfkdjf" count="1">
+      <token id="tok3041" status="nonWord">slkdfkdjf</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj14-l1.qa189" accuracy="partially_correct_incomplete" answerMatch="answer181" raw_text="There is a difference between the positive terminal and negative terminal." count="1">
+      <token id="tok3059" status="ok">There</token>
+      <token id="tok3060" status="ok">is</token>
+      <token id="tok3061" status="ok">a</token>
+      <token id="tok3062" status="ok">difference</token>
+      <token id="tok3063" status="ok">between</token>
+      <token id="tok3064" status="ok">the</token>
+      <token id="tok3065" status="ok">positive</token>
+      <token id="tok3066" status="ok">terminal</token>
+      <token id="tok3067" status="ok">and</token>
+      <token id="tok3068" status="ok">negative</token>
+      <token id="tok3069" status="ok">terminal</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj15-l1.qa203" accuracy="contradictory" raw_text="a gapp in the connection" count="1">
+      <token id="tok3581" status="ok">a</token>
+      <token id="tok3582" status="ok" original="gapp">gap</token>
+      <token id="tok3583" status="ok">in</token>
+      <token id="tok3584" status="ok">the</token>
+      <token id="tok3585" status="ok">connection</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj15-l1.qa204" accuracy="contradictory" raw_text="a connection difference" count="1">
+      <token id="tok3597" status="ok">a</token>
+      <token id="tok3598" status="ok">connection</token>
+      <token id="tok3599" status="ok">difference</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj15-l1.qa205" accuracy="non_domain" raw_text="yes" count="1">
+      <token id="tok3619" status="ok">yes</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj15-l1.qa206" accuracy="correct" answerMatch="answer181" raw_text="there is a difference in electrical state beween the two terminals" count="1">
+      <token id="tok3634" status="ok">there</token>
+      <token id="tok3635" status="ok">is</token>
+      <token id="tok3636" status="ok">a</token>
+      <token id="tok3637" status="ok">difference</token>
+      <token id="tok3638" status="ok">in</token>
+      <token id="tok3639" status="ok">electrical</token>
+      <token id="tok3640" status="ok">state</token>
+      <token id="tok3641" status="ok" original="beween">between</token>
+      <token id="tok3642" status="ok">the</token>
+      <token id="tok3643" status="ok">two</token>
+      <token id="tok3644" status="ok">terminals</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj18-l1.qa165" accuracy="correct" answerMatch="answer184" raw_text="The voltage reading is 1.5 V because their electrical states are different." count="1">
+      <token id="tok2833" status="ok">The</token>
+      <token id="tok2834" status="ok">voltage</token>
+      <token id="tok2835" status="ok">reading</token>
+      <token id="tok2836" status="ok">is</token>
+      <token id="tok2837" status="numerical">1.5</token>
+      <token id="tok2838" status="numerical">V</token>
+      <token id="tok2839" status="ok">because</token>
+      <token id="tok2840" status="ok">their</token>
+      <token id="tok2841" status="ok">electrical</token>
+      <token id="tok2842" status="ok">states</token>
+      <token id="tok2843" status="ok">are</token>
+      <token id="tok2844" status="ok">different</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj19-l1.qa217" accuracy="partially_correct_incomplete" answerMatch="answer182" raw_text="the battery that they are connected to" count="1">
+      <token id="tok3932" status="ok">the</token>
+      <token id="tok3933" status="ok">battery</token>
+      <token id="tok3934" status="ok">that</token>
+      <token id="tok3935" status="ok">they</token>
+      <token id="tok3936" status="ok">are</token>
+      <token id="tok3937" status="ok">connected</token>
+      <token id="tok3938" status="ok">to</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj19-l1.qa218" accuracy="partially_correct_incomplete" answerMatch="answer181" raw_text="the difference between the batteries" count="1">
+      <token id="tok3950" status="ok">the</token>
+      <token id="tok3951" status="ok">difference</token>
+      <token id="tok3952" status="ok">between</token>
+      <token id="tok3953" status="ok">the</token>
+      <token id="tok3954" status="ok">batteries</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj19-l1.qa219" accuracy="partially_correct_incomplete" answerMatch="answer182" raw_text="the difference in the positive and negative states" count="1">
+      <token id="tok3974" status="ok">the</token>
+      <token id="tok3975" status="ok">difference</token>
+      <token id="tok3976" status="ok">in</token>
+      <token id="tok3977" status="ok">the</token>
+      <token id="tok3978" status="ok">positive</token>
+      <token id="tok3979" status="ok">and</token>
+      <token id="tok3980" status="ok">negative</token>
+      <token id="tok3981" status="ok">states</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj22-l1.qa189" accuracy="contradictory" raw_text="they are the same" count="1">
+      <token id="tok3417" status="ok">they</token>
+      <token id="tok3418" status="ok">are</token>
+      <token id="tok3419" status="ok">the</token>
+      <token id="tok3420" status="ok">same</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj22-l1.qa190" accuracy="contradictory" answerMatch="answer183" raw_text="the value of the measurements indicates that they are the same" count="1">
+      <token id="tok3433" status="ok">the</token>
+      <token id="tok3434" status="ok">value</token>
+      <token id="tok3435" status="ok">of</token>
+      <token id="tok3436" status="ok">the</token>
+      <token id="tok3437" status="ok">measurements</token>
+      <token id="tok3438" status="ok">indicates</token>
+      <token id="tok3439" status="ok">that</token>
+      <token id="tok3440" status="ok">they</token>
+      <token id="tok3441" status="ok">are</token>
+      <token id="tok3442" status="ok">the</token>
+      <token id="tok3443" status="ok">same</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj23-l1.qa164" accuracy="contradictory" raw_text="They have to be in different electrical states to have a voltage reading." count="1">
+      <token id="tok2741" status="ok">They</token>
+      <token id="tok2742" status="ok">have</token>
+      <token id="tok2743" status="ok">to</token>
+      <token id="tok2744" status="ok">be</token>
+      <token id="tok2745" status="ok">in</token>
+      <token id="tok2746" status="ok">different</token>
+      <token id="tok2747" status="ok">electrical</token>
+      <token id="tok2748" status="ok">states</token>
+      <token id="tok2749" status="ok">to</token>
+      <token id="tok2750" status="ok">have</token>
+      <token id="tok2751" status="ok">a</token>
+      <token id="tok2752" status="ok">voltage</token>
+      <token id="tok2753" status="ok">reading</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj23-l1.qa165" accuracy="contradictory" raw_text="If they are the same electrical state, there is no voltage." count="1">
+      <token id="tok2767" status="ok">If</token>
+      <token id="tok2768" status="ok">they</token>
+      <token id="tok2769" status="ok">are</token>
+      <token id="tok2770" status="ok">the</token>
+      <token id="tok2771" status="ok">same</token>
+      <token id="tok2772" status="ok">electrical</token>
+      <token id="tok2773" status="ok">state</token>
+      <token id="tok2774" status="ok">there</token>
+      <token id="tok2775" status="ok">is</token>
+      <token id="tok2776" status="ok">no</token>
+      <token id="tok2777" status="ok">voltage</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj23-l1.qa167" accuracy="partially_correct_incomplete" answerMatch="answer182" raw_text="There is a difference in voltage when the electrical states differ." count="1">
+      <token id="tok2818" status="ok">There</token>
+      <token id="tok2819" status="ok">is</token>
+      <token id="tok2820" status="ok">a</token>
+      <token id="tok2821" status="ok">difference</token>
+      <token id="tok2822" status="ok">in</token>
+      <token id="tok2823" status="ok">voltage</token>
+      <token id="tok2824" status="ok">when</token>
+      <token id="tok2825" status="ok">the</token>
+      <token id="tok2826" status="ok">electrical</token>
+      <token id="tok2827" status="ok">states</token>
+      <token id="tok2828" status="ok">differ</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj23-l1.qa168" accuracy="contradictory" answerMatch="answer182" raw_text="If there is a measurement of voltage, the electrical states are different." count="1">
+      <token id="tok2847" status="ok">If</token>
+      <token id="tok2848" status="ok">there</token>
+      <token id="tok2849" status="ok">is</token>
+      <token id="tok2850" status="ok">a</token>
+      <token id="tok2851" status="ok">measurement</token>
+      <token id="tok2852" status="ok">of</token>
+      <token id="tok2853" status="ok">voltage</token>
+      <token id="tok2854" status="ok">the</token>
+      <token id="tok2855" status="ok">electrical</token>
+      <token id="tok2856" status="ok">states</token>
+      <token id="tok2857" status="ok">are</token>
+      <token id="tok2858" status="ok">different</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj24-l1.qa193" accuracy="correct" answerMatch="answer181" raw_text="The voltage reading tells the difference in electrical states between the two terminals" count="1">
+      <token id="tok3657" status="ok">The</token>
+      <token id="tok3658" status="ok">voltage</token>
+      <token id="tok3659" status="ok">reading</token>
+      <token id="tok3660" status="ok">tells</token>
+      <token id="tok3661" status="ok">the</token>
+      <token id="tok3662" status="ok">difference</token>
+      <token id="tok3663" status="ok">in</token>
+      <token id="tok3664" status="ok">electrical</token>
+      <token id="tok3665" status="ok">states</token>
+      <token id="tok3666" status="ok">between</token>
+      <token id="tok3667" status="ok">the</token>
+      <token id="tok3668" status="ok">two</token>
+      <token id="tok3669" status="ok">terminals</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj24-l1.qa194" accuracy="partially_correct_incomplete" answerMatch="answer181" raw_text="voltage reading tells difference in electrical states" count="1">
+      <token id="tok3680" status="ok">voltage</token>
+      <token id="tok3681" status="ok">reading</token>
+      <token id="tok3682" status="ok">tells</token>
+      <token id="tok3683" status="ok">difference</token>
+      <token id="tok3684" status="ok">in</token>
+      <token id="tok3685" status="ok">electrical</token>
+      <token id="tok3686" status="ok">states</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj24-l1.qa195" accuracy="correct" answerMatch="answer181" raw_text="The voltage reading tells the difference in electrical states of two terminals" count="1">
+      <token id="tok3705" status="ok">The</token>
+      <token id="tok3706" status="ok">voltage</token>
+      <token id="tok3707" status="ok">reading</token>
+      <token id="tok3708" status="ok">tells</token>
+      <token id="tok3709" status="ok">the</token>
+      <token id="tok3710" status="ok">difference</token>
+      <token id="tok3711" status="ok">in</token>
+      <token id="tok3712" status="ok">electrical</token>
+      <token id="tok3713" status="ok">states</token>
+      <token id="tok3714" status="ok">of</token>
+      <token id="tok3715" status="ok">two</token>
+      <token id="tok3716" status="ok">terminals</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj24-l1.qa196" accuracy="non_domain" raw_text="yea?" count="1">
+      <token id="tok3733" status="ok">yea</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj26-l1.qa199" accuracy="contradictory" raw_text="the voltage" count="1">
+      <token id="tok3253" status="ok">the</token>
+      <token id="tok3254" status="ok">voltage</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj26-l1.qa200" accuracy="non_domain" raw_text="god" count="1">
+      <token id="tok3267" status="ok">god</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj26-l1.qa201" accuracy="non_domain" raw_text="the power of god" count="1">
+      <token id="tok3286" status="ok">the</token>
+      <token id="tok3287" status="ok">power</token>
+      <token id="tok3288" status="ok">of</token>
+      <token id="tok3289" status="ok">god</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj27-l1.qa182" accuracy="contradictory" raw_text="if the voltage is 0 there is no electricity" count="1">
+      <token id="tok3244" status="ok">if</token>
+      <token id="tok3245" status="ok">the</token>
+      <token id="tok3246" status="ok">voltage</token>
+      <token id="tok3247" status="ok">is</token>
+      <token id="tok3248" status="numerical">0</token>
+      <token id="tok3249" status="ok">there</token>
+      <token id="tok3250" status="ok">is</token>
+      <token id="tok3251" status="ok">no</token>
+      <token id="tok3252" status="ok">electricity</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj27-l1.qa183" accuracy="partially_correct_incomplete" answerMatch="answer182" raw_text="it shows their electrical state" count="1">
+      <token id="tok3258" status="ok">it</token>
+      <token id="tok3259" status="ok">shows</token>
+      <token id="tok3260" status="ok">their</token>
+      <token id="tok3261" status="ok">electrical</token>
+      <token id="tok3262" status="ok">state</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj27-l1.qa184" accuracy="partially_correct_incomplete" answerMatch="answer182" raw_text="the voltage reading and their electrical state are the same" count="1">
+      <token id="tok3278" status="ok">the</token>
+      <token id="tok3279" status="ok">voltage</token>
+      <token id="tok3280" status="ok">reading</token>
+      <token id="tok3281" status="ok">and</token>
+      <token id="tok3282" status="ok">their</token>
+      <token id="tok3283" status="ok">electrical</token>
+      <token id="tok3284" status="ok">state</token>
+      <token id="tok3285" status="ok">are</token>
+      <token id="tok3286" status="ok">the</token>
+      <token id="tok3287" status="ok">same</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj28-l1.qa182" accuracy="partially_correct_incomplete" answerMatch="answer181" raw_text="voltage" count="1">
+      <token id="tok3042" status="ok">voltage</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj28-l1.qa183" accuracy="partially_correct_incomplete" answerMatch="answer181" raw_text="the positive and negative ends of the battery" count="1">
+      <token id="tok3055" status="ok">the</token>
+      <token id="tok3056" status="ok">positive</token>
+      <token id="tok3057" status="ok">and</token>
+      <token id="tok3058" status="ok">negative</token>
+      <token id="tok3059" status="ok">ends</token>
+      <token id="tok3060" status="ok">of</token>
+      <token id="tok3061" status="ok">the</token>
+      <token id="tok3062" status="ok">battery</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj28-l1.qa184" accuracy="partially_correct_incomplete" answerMatch="answer182" raw_text="the value of the measurement indicates voltage" count="1">
+      <token id="tok3081" status="ok">the</token>
+      <token id="tok3082" status="ok">value</token>
+      <token id="tok3083" status="ok">of</token>
+      <token id="tok3084" status="ok">the</token>
+      <token id="tok3085" status="ok">measurement</token>
+      <token id="tok3086" status="ok">indicates</token>
+      <token id="tok3087" status="ok">voltage</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj29-l1.qa181" accuracy="partially_correct_incomplete" answerMatch="answer181" raw_text="if they are connected or not connected." count="1">
+      <token id="tok3021" status="ok">if</token>
+      <token id="tok3022" status="ok">they</token>
+      <token id="tok3023" status="ok">are</token>
+      <token id="tok3024" status="ok">connected</token>
+      <token id="tok3025" status="ok">or</token>
+      <token id="tok3026" status="ok">not</token>
+      <token id="tok3027" status="ok">connected</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj29-l1.qa182" accuracy="partially_correct_incomplete" answerMatch="answer181" raw_text="whether there is a gap between two terminals or not." count="1">
+      <token id="tok3040" status="ok">whether</token>
+      <token id="tok3041" status="ok">there</token>
+      <token id="tok3042" status="ok">is</token>
+      <token id="tok3043" status="ok">a</token>
+      <token id="tok3044" status="ok">gap</token>
+      <token id="tok3045" status="ok">between</token>
+      <token id="tok3046" status="ok">two</token>
+      <token id="tok3047" status="ok">terminals</token>
+      <token id="tok3048" status="ok">or</token>
+      <token id="tok3049" status="ok">not</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj29-l1.qa183" accuracy="partially_correct_incomplete" answerMatch="answer182" raw_text="the measurement indicated whether the terminals are connected." count="1">
+      <token id="tok3062" status="ok">the</token>
+      <token id="tok3063" status="ok">measurement</token>
+      <token id="tok3064" status="ok">indicated</token>
+      <token id="tok3065" status="ok">whether</token>
+      <token id="tok3066" status="ok">the</token>
+      <token id="tok3067" status="ok">terminals</token>
+      <token id="tok3068" status="ok">are</token>
+      <token id="tok3069" status="ok">connected</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj30-l1.qa170" accuracy="contradictory" raw_text="If the terminal is connected to the positve battery terminal it has 1.50 V.  If the terminal is connected to the negative battery terminal it has 0.00 V." count="1">
+      <token id="tok3055" status="ok">If</token>
+      <token id="tok3056" status="ok">the</token>
+      <token id="tok3057" status="ok">terminal</token>
+      <token id="tok3058" status="ok">is</token>
+      <token id="tok3059" status="ok">connected</token>
+      <token id="tok3060" status="ok">to</token>
+      <token id="tok3061" status="ok">the</token>
+      <token id="tok3062" status="ok" original="positve">positive</token>
+      <token id="tok3063" status="ok">battery</token>
+      <token id="tok3064" status="ok">terminal</token>
+      <token id="tok3065" status="ok">it</token>
+      <token id="tok3066" status="ok">has</token>
+      <token id="tok3067" status="numerical">1.50</token>
+      <token id="tok3068" status="numerical">V</token>
+      <token id="tok3069" status="ok">If</token>
+      <token id="tok3070" status="ok">the</token>
+      <token id="tok3071" status="ok">terminal</token>
+      <token id="tok3072" status="ok">is</token>
+      <token id="tok3073" status="ok">connected</token>
+      <token id="tok3074" status="ok">to</token>
+      <token id="tok3075" status="ok">the</token>
+      <token id="tok3076" status="ok">negative</token>
+      <token id="tok3077" status="ok">battery</token>
+      <token id="tok3078" status="ok">terminal</token>
+      <token id="tok3079" status="ok">it</token>
+      <token id="tok3080" status="ok">has</token>
+      <token id="tok3081" status="numerical">0.00</token>
+      <token id="tok3082" status="numerical">V</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj30-l1.qa171" accuracy="contradictory" raw_text="They are not connected." count="1">
+      <token id="tok3101" status="ok">They</token>
+      <token id="tok3102" status="ok">are</token>
+      <token id="tok3103" status="ok">not</token>
+      <token id="tok3104" status="ok">connected</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj31-l1.qa180" accuracy="non_domain" raw_text="i dont know" count="6">
+      <token id="tok2997" status="ok">i</token>
+      <token id="tok2998a" status="ok">do</token>
+      <token id="tok2998b" status="pennTokenFragment" original="nt">n't</token>
+      <token id="tok2999" status="ok">know</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj31-l1.qa181" accuracy="contradictory" answerMatch="answer185" raw_text="the voltage difference" count="1">
+      <token id="tok3010" status="ok">the</token>
+      <token id="tok3011" status="ok">voltage</token>
+      <token id="tok3012" status="ok">difference</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj33-l1.qa173" accuracy="contradictory" raw_text="the voltage reading will be more if it is connected to a positive terminal than if it is connected to a negative termninal" count="1">
+      <token id="tok2984" status="ok">the</token>
+      <token id="tok2985" status="ok">voltage</token>
+      <token id="tok2986" status="ok">reading</token>
+      <token id="tok2987" status="ok">will</token>
+      <token id="tok2988" status="ok">be</token>
+      <token id="tok2989" status="ok">more</token>
+      <token id="tok2990" status="ok">if</token>
+      <token id="tok2991" status="ok">it</token>
+      <token id="tok2992" status="ok">is</token>
+      <token id="tok2993" status="ok">connected</token>
+      <token id="tok2994" status="ok">to</token>
+      <token id="tok2995" status="ok">a</token>
+      <token id="tok2996" status="ok">positive</token>
+      <token id="tok2997" status="ok">terminal</token>
+      <token id="tok2998" status="ok">than</token>
+      <token id="tok2999" status="ok">if</token>
+      <token id="tok3000" status="ok">it</token>
+      <token id="tok3001" status="ok">is</token>
+      <token id="tok3002" status="ok">connected</token>
+      <token id="tok3003" status="ok">to</token>
+      <token id="tok3004" status="ok">a</token>
+      <token id="tok3005" status="ok">negative</token>
+      <token id="tok3006" status="ok" original="termninal">terminal</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj33-l1.qa174" accuracy="non_domain" raw_text="tell me the answer" count="1">
+      <token id="tok3017" status="ok">tell</token>
+      <token id="tok3018" status="ok">me</token>
+      <token id="tok3019" status="ok">the</token>
+      <token id="tok3020" status="ok">answer</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj34-l1.qa163" accuracy="partially_correct_incomplete" answerMatch="answer181" raw_text="The voltage reading is the difference" count="1">
+      <token id="tok2646" status="ok">The</token>
+      <token id="tok2647" status="ok">voltage</token>
+      <token id="tok2648" status="ok">reading</token>
+      <token id="tok2649" status="ok">is</token>
+      <token id="tok2650" status="ok">the</token>
+      <token id="tok2651" status="ok">difference</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj34-l1.qa164" accuracy="contradictory" raw_text="Voltage reading shows the gap" count="1">
+      <token id="tok2659" status="ok">Voltage</token>
+      <token id="tok2660" status="ok">reading</token>
+      <token id="tok2661" status="ok">shows</token>
+      <token id="tok2662" status="ok">the</token>
+      <token id="tok2663" status="ok">gap</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj34-l1.qa165" accuracy="correct" answerMatch="answer181" raw_text="Voltage measures the difference in electrical state between them" count="1">
+      <token id="tok2682" status="ok">Voltage</token>
+      <token id="tok2683" status="ok">measures</token>
+      <token id="tok2684" status="ok">the</token>
+      <token id="tok2685" status="ok">difference</token>
+      <token id="tok2686" status="ok">in</token>
+      <token id="tok2687" status="ok">electrical</token>
+      <token id="tok2688" status="ok">state</token>
+      <token id="tok2689" status="ok">between</token>
+      <token id="tok2690" status="ok">them</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj35-l1.qa180" accuracy="contradictory" raw_text="One is positive and one is negative." count="1">
+      <token id="tok3232" status="ok">One</token>
+      <token id="tok3233" status="ok">is</token>
+      <token id="tok3234" status="ok">positive</token>
+      <token id="tok3235" status="ok">and</token>
+      <token id="tok3236" status="ok">one</token>
+      <token id="tok3237" status="ok">is</token>
+      <token id="tok3238" status="ok">negative</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj35-l1.qa181" accuracy="contradictory" raw_text="They are in the same electrical state." count="1">
+      <token id="tok3251" status="ok">They</token>
+      <token id="tok3252" status="ok">are</token>
+      <token id="tok3253" status="ok">in</token>
+      <token id="tok3254" status="ok">the</token>
+      <token id="tok3255" status="ok">same</token>
+      <token id="tok3256" status="ok">electrical</token>
+      <token id="tok3257" status="ok">state</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj35-l1.qa182" accuracy="contradictory" answerMatch="answer183" raw_text="They are connected to the negative terminal." count="1">
+      <token id="tok3277" status="ok">They</token>
+      <token id="tok3278" status="ok">are</token>
+      <token id="tok3279" status="ok">connected</token>
+      <token id="tok3280" status="ok">to</token>
+      <token id="tok3281" status="ok">the</token>
+      <token id="tok3282" status="ok">negative</token>
+      <token id="tok3283" status="ok">terminal</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj36-l1.qa187" accuracy="partially_correct_incomplete" answerMatch="answer182" raw_text="the voltage reading shows the electrical states" count="1">
+      <token id="tok3310" status="ok">the</token>
+      <token id="tok3311" status="ok">voltage</token>
+      <token id="tok3312" status="ok">reading</token>
+      <token id="tok3313" status="ok">shows</token>
+      <token id="tok3314" status="ok">the</token>
+      <token id="tok3315" status="ok">electrical</token>
+      <token id="tok3316" status="ok">states</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj36-l1.qa189" accuracy="partially_correct_incomplete" answerMatch="answer182" raw_text="the value of the measurement indicates the electrical states" count="1">
+      <token id="tok3340" status="ok">the</token>
+      <token id="tok3341" status="ok">value</token>
+      <token id="tok3342" status="ok">of</token>
+      <token id="tok3343" status="ok">the</token>
+      <token id="tok3344" status="ok">measurement</token>
+      <token id="tok3345" status="ok">indicates</token>
+      <token id="tok3346" status="ok">the</token>
+      <token id="tok3347" status="ok">electrical</token>
+      <token id="tok3348" status="ok">states</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj37-l1.qa162" accuracy="contradictory" raw_text="one is positive. one is negative" count="1">
+      <token id="tok2798" status="ok">one</token>
+      <token id="tok2799" status="ok">is</token>
+      <token id="tok2800" status="ok">positive</token>
+      <token id="tok2801" status="ok">one</token>
+      <token id="tok2802" status="ok">is</token>
+      <token id="tok2803" status="ok">negative</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj37-l1.qa163" accuracy="correct" answerMatch="answer183" raw_text="the number will be 0 if they are the same electrical state." count="1">
+      <token id="tok2816" status="ok">the</token>
+      <token id="tok2817" status="ok">number</token>
+      <token id="tok2818" status="ok">will</token>
+      <token id="tok2819" status="ok">be</token>
+      <token id="tok2820" status="numerical">0</token>
+      <token id="tok2821" status="ok">if</token>
+      <token id="tok2822" status="ok">they</token>
+      <token id="tok2823" status="ok">are</token>
+      <token id="tok2824" status="ok">the</token>
+      <token id="tok2825" status="ok">same</token>
+      <token id="tok2826" status="ok">electrical</token>
+      <token id="tok2827" status="ok">state</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj37-l1.qa164" accuracy="correct" answerMatch="answer182" raw_text="the value of the electrical state tells us if they are different states or the same state" count="1">
+      <token id="tok2856" status="ok">the</token>
+      <token id="tok2857" status="ok">value</token>
+      <token id="tok2858" status="ok">of</token>
+      <token id="tok2859" status="ok">the</token>
+      <token id="tok2860" status="ok">electrical</token>
+      <token id="tok2861" status="ok">state</token>
+      <token id="tok2862" status="ok">tells</token>
+      <token id="tok2863" status="ok">us</token>
+      <token id="tok2864" status="ok">if</token>
+      <token id="tok2865" status="ok">they</token>
+      <token id="tok2866" status="ok">are</token>
+      <token id="tok2867" status="ok">different</token>
+      <token id="tok2868" status="ok">states</token>
+      <token id="tok2869" status="ok">or</token>
+      <token id="tok2870" status="ok">the</token>
+      <token id="tok2871" status="ok">same</token>
+      <token id="tok2872" status="ok">state</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj38-l1.qa165" accuracy="irrelevant" answerMatch="answer181" raw_text="the voltage is the difference between the electrical states" count="1">
+      <token id="tok2999" status="ok">the</token>
+      <token id="tok3000" status="ok">voltage</token>
+      <token id="tok3001" status="ok">is</token>
+      <token id="tok3002" status="ok">the</token>
+      <token id="tok3003" status="ok">difference</token>
+      <token id="tok3004" status="ok">between</token>
+      <token id="tok3005" status="ok">the</token>
+      <token id="tok3006" status="ok">electrical</token>
+      <token id="tok3007" status="ok">states</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj39-l1.qa199" accuracy="contradictory" raw_text="The positive electical state must be put on the correct side to get a proper reading" count="1">
+      <token id="tok3706" status="ok">The</token>
+      <token id="tok3707" status="ok">positive</token>
+      <token id="tok3708" status="ok" original="electical">electrical</token>
+      <token id="tok3709" status="ok">state</token>
+      <token id="tok3710" status="ok">must</token>
+      <token id="tok3711" status="ok">be</token>
+      <token id="tok3712" status="ok">put</token>
+      <token id="tok3713" status="ok">on</token>
+      <token id="tok3714" status="ok">the</token>
+      <token id="tok3715" status="ok">correct</token>
+      <token id="tok3716" status="ok">side</token>
+      <token id="tok3717" status="ok">to</token>
+      <token id="tok3718" status="ok">get</token>
+      <token id="tok3719" status="ok">a</token>
+      <token id="tok3720" status="ok">proper</token>
+      <token id="tok3721" status="ok">reading</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj39-l1.qa200" accuracy="contradictory" raw_text="If the meter is put in the wrong place, it will read the opposite electrical states." count="1">
+      <token id="tok3742" status="ok">If</token>
+      <token id="tok3743" status="ok">the</token>
+      <token id="tok3744" status="ok">meter</token>
+      <token id="tok3745" status="ok">is</token>
+      <token id="tok3746" status="ok">put</token>
+      <token id="tok3747" status="ok">in</token>
+      <token id="tok3748" status="ok">the</token>
+      <token id="tok3749" status="ok">wrong</token>
+      <token id="tok3750" status="ok">place</token>
+      <token id="tok3751" status="ok">it</token>
+      <token id="tok3752" status="ok">will</token>
+      <token id="tok3753" status="ok">read</token>
+      <token id="tok3754" status="ok">the</token>
+      <token id="tok3755" status="ok">opposite</token>
+      <token id="tok3756" status="ok">electrical</token>
+      <token id="tok3757" status="ok">states</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj39-l1.qa201" accuracy="non_domain" raw_text="Tehr" count="1">
+      <token id="tok3785" status="nonWord">Tehr</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj39-l1.qa202" accuracy="contradictory" answerMatch="answer182" raw_text="the difference in the electrical states and the two terminals gives the voltage readings" count="1">
+      <token id="tok3812" status="ok">the</token>
+      <token id="tok3813" status="ok">difference</token>
+      <token id="tok3814" status="ok">in</token>
+      <token id="tok3815" status="ok">the</token>
+      <token id="tok3816" status="ok">electrical</token>
+      <token id="tok3817" status="ok">states</token>
+      <token id="tok3818" status="ok">and</token>
+      <token id="tok3819" status="ok">the</token>
+      <token id="tok3820" status="ok">two</token>
+      <token id="tok3821" status="ok">terminals</token>
+      <token id="tok3822" status="ok">gives</token>
+      <token id="tok3823" status="ok">the</token>
+      <token id="tok3824" status="ok">voltage</token>
+      <token id="tok3825" status="ok">readings</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj40-l1.qa192" accuracy="contradictory" raw_text="they are the same voltage." count="1">
+      <token id="tok3389" status="ok">they</token>
+      <token id="tok3390" status="ok">are</token>
+      <token id="tok3391" status="ok">the</token>
+      <token id="tok3392" status="ok">same</token>
+      <token id="tok3393" status="ok">voltage</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj40-l1.qa193" accuracy="non_domain" raw_text="i dont know." count="1">
+      <token id="tok3408" status="ok">i</token>
+      <token id="tok3409a" status="ok">do</token>
+      <token id="tok3409b" status="pennTokenFragment" original="nt">n't</token>
+      <token id="tok3410" status="ok">know</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj40-l1.qa194" accuracy="contradictory" raw_text="the value between the ow terminals are the same." count="1">
+      <token id="tok3422" status="ok">the</token>
+      <token id="tok3423" status="ok">value</token>
+      <token id="tok3424" status="ok">between</token>
+      <token id="tok3425" status="ok">the</token>
+      <token id="tok3426" status="ok">ow</token>
+      <token id="tok3427" status="ok">terminals</token>
+      <token id="tok3428" status="ok">are</token>
+      <token id="tok3429" status="ok">the</token>
+      <token id="tok3430" status="ok">same</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj42-l1.qa177" accuracy="partially_correct_incomplete" answerMatch="answer182" raw_text="The voltage reading is determined by the terminals and their electrical states." count="1">
+      <token id="tok3023" status="ok">The</token>
+      <token id="tok3024" status="ok">voltage</token>
+      <token id="tok3025" status="ok">reading</token>
+      <token id="tok3026" status="ok">is</token>
+      <token id="tok3027" status="ok">determined</token>
+      <token id="tok3028" status="ok">by</token>
+      <token id="tok3029" status="ok">the</token>
+      <token id="tok3030" status="ok">terminals</token>
+      <token id="tok3031" status="ok">and</token>
+      <token id="tok3032" status="ok">their</token>
+      <token id="tok3033" status="ok">electrical</token>
+      <token id="tok3034" status="ok">states</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj42-l1.qa178" accuracy="contradictory" raw_text="The voltage reading is determined by whether the electrical state is positive or negative." count="1">
+      <token id="tok3047" status="ok">The</token>
+      <token id="tok3048" status="ok">voltage</token>
+      <token id="tok3049" status="ok">reading</token>
+      <token id="tok3050" status="ok">is</token>
+      <token id="tok3051" status="ok">determined</token>
+      <token id="tok3052" status="ok">by</token>
+      <token id="tok3053" status="ok">whether</token>
+      <token id="tok3054" status="ok">the</token>
+      <token id="tok3055" status="ok">electrical</token>
+      <token id="tok3056" status="ok">state</token>
+      <token id="tok3057" status="ok">is</token>
+      <token id="tok3058" status="ok">positive</token>
+      <token id="tok3059" status="ok">or</token>
+      <token id="tok3060" status="ok">negative</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj42-l1.qa179" accuracy="contradictory" raw_text="The value of the measurement indicates whether the electrical state is positive or negative." count="1">
+      <token id="tok3079" status="ok">The</token>
+      <token id="tok3080" status="ok">value</token>
+      <token id="tok3081" status="ok">of</token>
+      <token id="tok3082" status="ok">the</token>
+      <token id="tok3083" status="ok">measurement</token>
+      <token id="tok3084" status="ok">indicates</token>
+      <token id="tok3085" status="ok">whether</token>
+      <token id="tok3086" status="ok">the</token>
+      <token id="tok3087" status="ok">electrical</token>
+      <token id="tok3088" status="ok">state</token>
+      <token id="tok3089" status="ok">is</token>
+      <token id="tok3090" status="ok">positive</token>
+      <token id="tok3091" status="ok">or</token>
+      <token id="tok3092" status="ok">negative</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj43-l1.qa177" accuracy="partially_correct_incomplete" answerMatch="answer183" raw_text="it determines whether they are connected" count="1">
+      <token id="tok3155" status="ok">it</token>
+      <token id="tok3156" status="ok">determines</token>
+      <token id="tok3157" status="ok">whether</token>
+      <token id="tok3158" status="ok">they</token>
+      <token id="tok3159" status="ok">are</token>
+      <token id="tok3160" status="ok">connected</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj43-l1.qa180" accuracy="partially_correct_incomplete" answerMatch="answer182" raw_text="it measures the voltage to determine wheter the terminals are connected to one another" count="1">
+      <token id="tok3196" status="ok">it</token>
+      <token id="tok3197" status="ok">measures</token>
+      <token id="tok3198" status="ok">the</token>
+      <token id="tok3199" status="ok">voltage</token>
+      <token id="tok3200" status="ok">to</token>
+      <token id="tok3201" status="ok">determine</token>
+      <token id="tok3202" status="ok" original="wheter">whether</token>
+      <token id="tok3203" status="ok">the</token>
+      <token id="tok3204" status="ok">terminals</token>
+      <token id="tok3205" status="ok">are</token>
+      <token id="tok3206" status="ok">connected</token>
+      <token id="tok3207" status="ok">to</token>
+      <token id="tok3208" status="ok">one</token>
+      <token id="tok3209" status="ok">another</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj45-l1.qa171" accuracy="partially_correct_incomplete" answerMatch="answer181" raw_text="the voltage reading is the difference between two terminals" count="1">
+      <token id="tok2922" status="ok">the</token>
+      <token id="tok2923" status="ok">voltage</token>
+      <token id="tok2924" status="ok">reading</token>
+      <token id="tok2925" status="ok">is</token>
+      <token id="tok2926" status="ok">the</token>
+      <token id="tok2927" status="ok">difference</token>
+      <token id="tok2928" status="ok">between</token>
+      <token id="tok2929" status="ok">two</token>
+      <token id="tok2930" status="ok">terminals</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj45-l1.qa173" accuracy="non_domain" raw_text="i still dont know" count="1">
+      <token id="tok2958" status="ok">i</token>
+      <token id="tok2959" status="ok">still</token>
+      <token id="tok2960a" status="ok">do</token>
+      <token id="tok2960b" status="pennTokenFragment" original="nt">n't</token>
+      <token id="tok2961" status="ok">know</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj46-l1.qa187" accuracy="contradictory" raw_text="always the same" count="1">
+      <token id="tok3171" status="ok">always</token>
+      <token id="tok3172" status="ok">the</token>
+      <token id="tok3173" status="ok">same</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj46-l1.qa188" accuracy="contradictory" raw_text="volts are the same" count="1">
+      <token id="tok3186" status="ok">volts</token>
+      <token id="tok3187" status="ok">are</token>
+      <token id="tok3188" status="ok">the</token>
+      <token id="tok3189" status="ok">same</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj47-l1.qa196" accuracy="contradictory" raw_text="the voltage reading will correspond with their electrical state" count="1">
+      <token id="tok3502" status="ok">the</token>
+      <token id="tok3503" status="ok">voltage</token>
+      <token id="tok3504" status="ok">reading</token>
+      <token id="tok3505" status="ok">will</token>
+      <token id="tok3506" status="ok">correspond</token>
+      <token id="tok3507" status="ok">with</token>
+      <token id="tok3508" status="ok">their</token>
+      <token id="tok3509" status="ok">electrical</token>
+      <token id="tok3510" status="ok">state</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj47-l1.qa197" accuracy="contradictory" raw_text="the location of the terminals will correspond with their electrical state" count="1">
+      <token id="tok3522" status="ok">the</token>
+      <token id="tok3523" status="ok">location</token>
+      <token id="tok3524" status="ok">of</token>
+      <token id="tok3525" status="ok">the</token>
+      <token id="tok3526" status="ok">terminals</token>
+      <token id="tok3527" status="ok">will</token>
+      <token id="tok3528" status="ok">correspond</token>
+      <token id="tok3529" status="ok">with</token>
+      <token id="tok3530" status="ok">their</token>
+      <token id="tok3531" status="ok">electrical</token>
+      <token id="tok3532" status="ok">state</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj47-l1.qa198" accuracy="partially_correct_incomplete" answerMatch="answer182" raw_text="the value of the measurement indicated if it is connected to the postive or negative terminal" count="1">
+      <token id="tok3545" status="ok">the</token>
+      <token id="tok3546" status="ok">value</token>
+      <token id="tok3547" status="ok">of</token>
+      <token id="tok3548" status="ok">the</token>
+      <token id="tok3549" status="ok">measurement</token>
+      <token id="tok3550" status="ok">indicated</token>
+      <token id="tok3551" status="ok">if</token>
+      <token id="tok3552" status="ok">it</token>
+      <token id="tok3553" status="ok">is</token>
+      <token id="tok3554" status="ok">connected</token>
+      <token id="tok3555" status="ok">to</token>
+      <token id="tok3556" status="ok">the</token>
+      <token id="tok3557" status="ok" original="postive">positive</token>
+      <token id="tok3558" status="ok">or</token>
+      <token id="tok3559" status="ok">negative</token>
+      <token id="tok3560" status="ok">terminal</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj48-l1.qa167" accuracy="partially_correct_incomplete" answerMatch="answer181" raw_text="it is a measure of the difference" count="1">
+      <token id="tok3117" status="ok">it</token>
+      <token id="tok3118" status="ok">is</token>
+      <token id="tok3119" status="ok">a</token>
+      <token id="tok3120" status="ok">measure</token>
+      <token id="tok3121" status="ok">of</token>
+      <token id="tok3122" status="ok">the</token>
+      <token id="tok3123" status="ok">difference</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj48-l1.qa168" accuracy="partially_correct_incomplete" answerMatch="answer182" raw_text="The voltage reading between two terminals is a measure of the difference in electricity" count="1">
+      <token id="tok3144" status="ok">The</token>
+      <token id="tok3145" status="ok">voltage</token>
+      <token id="tok3146" status="ok">reading</token>
+      <token id="tok3147" status="ok">between</token>
+      <token id="tok3148" status="ok">two</token>
+      <token id="tok3149" status="ok">terminals</token>
+      <token id="tok3150" status="ok">is</token>
+      <token id="tok3151" status="ok">a</token>
+      <token id="tok3152" status="ok">measure</token>
+      <token id="tok3153" status="ok">of</token>
+      <token id="tok3154" status="ok">the</token>
+      <token id="tok3155" status="ok">difference</token>
+      <token id="tok3156" status="ok">in</token>
+      <token id="tok3157" status="ok">electricity</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj48-l1.qa169" accuracy="partially_correct_incomplete" answerMatch="answer181" raw_text="the voltage reading is the difference between the two terminals" count="1">
+      <token id="tok3185" status="ok">the</token>
+      <token id="tok3186" status="ok">voltage</token>
+      <token id="tok3187" status="ok">reading</token>
+      <token id="tok3188" status="ok">is</token>
+      <token id="tok3189" status="ok">the</token>
+      <token id="tok3190" status="ok">difference</token>
+      <token id="tok3191" status="ok">between</token>
+      <token id="tok3192" status="ok">the</token>
+      <token id="tok3193" status="ok">two</token>
+      <token id="tok3194" status="ok">terminals</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbjb1-l1.qa149" accuracy="partially_correct_incomplete" answerMatch="answer181" raw_text="The only difference is when there is a gap between the terminals." count="1">
+      <token id="tok2844" status="ok">The</token>
+      <token id="tok2845" status="ok">only</token>
+      <token id="tok2846" status="ok">difference</token>
+      <token id="tok2847" status="ok">is</token>
+      <token id="tok2848" status="ok">when</token>
+      <token id="tok2849" status="ok">there</token>
+      <token id="tok2850" status="ok">is</token>
+      <token id="tok2851" status="ok">a</token>
+      <token id="tok2852" status="ok">gap</token>
+      <token id="tok2853" status="ok">between</token>
+      <token id="tok2854" status="ok">the</token>
+      <token id="tok2855" status="ok">terminals</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbjb2-l1.qa154" accuracy="contradictory" raw_text="Whether the is a gap or not." count="1">
+      <token id="tok2763" status="ok">Whether</token>
+      <token id="tok2764" status="ok">the</token>
+      <token id="tok2765" status="ok">is</token>
+      <token id="tok2766" status="ok">a</token>
+      <token id="tok2767" status="ok">gap</token>
+      <token id="tok2768" status="ok">or</token>
+      <token id="tok2769" status="ok">not</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbjb3-l1.qa164" accuracy="contradictory" raw_text="They will always be the same" count="1">
+      <token id="tok2823" status="ok">They</token>
+      <token id="tok2824" status="ok">will</token>
+      <token id="tok2825" status="ok">always</token>
+      <token id="tok2826" status="ok">be</token>
+      <token id="tok2827" status="ok">the</token>
+      <token id="tok2828" status="ok">same</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbjb4-l1.qa144" accuracy="contradictory" raw_text="the voltage reading will be the same no matter what the electrical state is" count="1">
+      <token id="tok2657" status="ok">the</token>
+      <token id="tok2658" status="ok">voltage</token>
+      <token id="tok2659" status="ok">reading</token>
+      <token id="tok2660" status="ok">will</token>
+      <token id="tok2661" status="ok">be</token>
+      <token id="tok2662" status="ok">the</token>
+      <token id="tok2663" status="ok">same</token>
+      <token id="tok2664" status="ok">no</token>
+      <token id="tok2665" status="ok">matter</token>
+      <token id="tok2666" status="ok">what</token>
+      <token id="tok2667" status="ok">the</token>
+      <token id="tok2668" status="ok">electrical</token>
+      <token id="tok2669" status="ok">state</token>
+      <token id="tok2670" status="ok">is</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbjb5-l1.qa153" accuracy="correct" answerMatch="answer181" raw_text="voltage is the difference in the electrical states between the two terminals" count="1">
+      <token id="tok2876" status="ok">voltage</token>
+      <token id="tok2877" status="ok">is</token>
+      <token id="tok2878" status="ok">the</token>
+      <token id="tok2879" status="ok">difference</token>
+      <token id="tok2880" status="ok">in</token>
+      <token id="tok2881" status="ok">the</token>
+      <token id="tok2882" status="ok">electrical</token>
+      <token id="tok2883" status="ok">states</token>
+      <token id="tok2884" status="ok">between</token>
+      <token id="tok2885" status="ok">the</token>
+      <token id="tok2886" status="ok">two</token>
+      <token id="tok2887" status="ok">terminals</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbjb6-l1.qa146" accuracy="non_domain" raw_text="I don&quot;t know." count="1">
+      <token id="tok2700" status="ok">I</token>
+      <token id="tok2701" status="ok">do</token>
+      <token id="tok2702" status="pennTokenFragment">n't</token>
+      <token id="tok2703" status="ok">know</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbjb7-l1.qa143" accuracy="correct" answerMatch="answer183" raw_text="If the states are the same, voltage will be zero." count="1">
+      <token id="tok2686" status="ok">If</token>
+      <token id="tok2687" status="ok">the</token>
+      <token id="tok2688" status="ok">states</token>
+      <token id="tok2689" status="ok">are</token>
+      <token id="tok2690" status="ok">the</token>
+      <token id="tok2691" status="ok">same</token>
+      <token id="tok2692" status="ok">voltage</token>
+      <token id="tok2693" status="ok">will</token>
+      <token id="tok2694" status="ok">be</token>
+      <token id="tok2695" status="ok">zero</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbjb9-l1.qa159" accuracy="contradictory" raw_text="There is a chemical reaction between the positive and negative terminals" count="1">
+      <token id="tok2917" status="ok">There</token>
+      <token id="tok2918" status="ok">is</token>
+      <token id="tok2919" status="ok">a</token>
+      <token id="tok2920" status="ok">chemical</token>
+      <token id="tok2921" status="ok">reaction</token>
+      <token id="tok2922" status="ok">between</token>
+      <token id="tok2923" status="ok">the</token>
+      <token id="tok2924" status="ok">positive</token>
+      <token id="tok2925" status="ok">and</token>
+      <token id="tok2926" status="ok">negative</token>
+      <token id="tok2927" status="ok">terminals</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbjb10-l1.qa143" accuracy="contradictory" raw_text="there will be a reading only if there is a positive and negative connection assuming that there is a battery" count="1">
+      <token id="tok2653" status="ok">there</token>
+      <token id="tok2654" status="ok">will</token>
+      <token id="tok2655" status="ok">be</token>
+      <token id="tok2656" status="ok">a</token>
+      <token id="tok2657" status="ok">reading</token>
+      <token id="tok2658" status="ok">only</token>
+      <token id="tok2659" status="ok">if</token>
+      <token id="tok2660" status="ok">there</token>
+      <token id="tok2661" status="ok">is</token>
+      <token id="tok2662" status="ok">a</token>
+      <token id="tok2663" status="ok">positive</token>
+      <token id="tok2664" status="ok">and</token>
+      <token id="tok2665" status="ok">negative</token>
+      <token id="tok2666" status="ok">connection</token>
+      <token id="tok2667" status="ok">assuming</token>
+      <token id="tok2668" status="ok">that</token>
+      <token id="tok2669" status="ok">there</token>
+      <token id="tok2670" status="ok">is</token>
+      <token id="tok2671" status="ok">a</token>
+      <token id="tok2672" status="ok">battery</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbjb11-l1.qa146" accuracy="contradictory" raw_text="1 and 2 will always have the same voltage as the negative terminal. And Terminals 5 and 6 will always have the same voltage as the positive terminal." count="1">
+      <token id="tok2731" status="numerical">1</token>
+      <token id="tok2732" status="ok">and</token>
+      <token id="tok2733" status="numerical">2</token>
+      <token id="tok2734" status="ok">will</token>
+      <token id="tok2735" status="ok">always</token>
+      <token id="tok2736" status="ok">have</token>
+      <token id="tok2737" status="ok">the</token>
+      <token id="tok2738" status="ok">same</token>
+      <token id="tok2739" status="ok">voltage</token>
+      <token id="tok2740" status="ok">as</token>
+      <token id="tok2741" status="ok">the</token>
+      <token id="tok2742" status="ok">negative</token>
+      <token id="tok2743" status="ok">terminal</token>
+      <token id="tok2744" status="ok">And</token>
+      <token id="tok2745" status="ok">Terminals</token>
+      <token id="tok2746" status="numerical">5</token>
+      <token id="tok2747" status="ok">and</token>
+      <token id="tok2748" status="numerical">6</token>
+      <token id="tok2749" status="ok">will</token>
+      <token id="tok2750" status="ok">always</token>
+      <token id="tok2751" status="ok">have</token>
+      <token id="tok2752" status="ok">the</token>
+      <token id="tok2753" status="ok">same</token>
+      <token id="tok2754" status="ok">voltage</token>
+      <token id="tok2755" status="ok">as</token>
+      <token id="tok2756" status="ok">the</token>
+      <token id="tok2757" status="ok">positive</token>
+      <token id="tok2758" status="ok">terminal</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbjb12-l1.qa149" accuracy="contradictory" raw_text="If there is no gap the voltage is 1.5 volts and teh electrical state is active" count="1">
+      <token id="tok2720" status="ok">If</token>
+      <token id="tok2721" status="ok">there</token>
+      <token id="tok2722" status="ok">is</token>
+      <token id="tok2723" status="ok">no</token>
+      <token id="tok2724" status="ok">gap</token>
+      <token id="tok2725" status="ok">the</token>
+      <token id="tok2726" status="ok">voltage</token>
+      <token id="tok2727" status="ok">is</token>
+      <token id="tok2728" status="numerical">1.5</token>
+      <token id="tok2729" status="ok">volts</token>
+      <token id="tok2730" status="ok">and</token>
+      <token id="tok2731" status="ok" original="teh">the</token>
+      <token id="tok2732" status="ok">electrical</token>
+      <token id="tok2733" status="ok">state</token>
+      <token id="tok2734" status="ok">is</token>
+      <token id="tok2735" status="ok">active</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbjb13-l1.qa145" accuracy="non_domain" raw_text="I do not know." count="1">
+      <token id="tok2733" status="ok">I</token>
+      <token id="tok2734" status="ok">do</token>
+      <token id="tok2735" status="ok">not</token>
+      <token id="tok2736" status="ok">know</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbjb15-l1.qa145" accuracy="contradictory" raw_text="whether or not they are connected" count="1">
+      <token id="tok2682" status="ok">whether</token>
+      <token id="tok2683" status="ok">or</token>
+      <token id="tok2684" status="ok">not</token>
+      <token id="tok2685" status="ok">they</token>
+      <token id="tok2686" status="ok">are</token>
+      <token id="tok2687" status="ok">connected</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbjb16-l1.qa145" accuracy="partially_correct_incomplete" answerMatch="answer182" raw_text="they are different" count="1">
+      <token id="tok2758" status="ok">they</token>
+      <token id="tok2759" status="ok">are</token>
+      <token id="tok2760" status="ok">different</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbjb17-l1.qa147" accuracy="contradictory" answerMatch="answer184" raw_text="A positive reading equals different electrical states, no reading equals same electrical states" count="1">
+      <token id="tok2762" status="ok">A</token>
+      <token id="tok2763" status="ok">positive</token>
+      <token id="tok2764" status="ok">reading</token>
+      <token id="tok2765" status="ok">equals</token>
+      <token id="tok2766" status="ok">different</token>
+      <token id="tok2767" status="ok">electrical</token>
+      <token id="tok2768" status="ok">states</token>
+      <token id="tok2769" status="ok">no</token>
+      <token id="tok2770" status="ok">reading</token>
+      <token id="tok2771" status="ok">equals</token>
+      <token id="tok2772" status="ok">same</token>
+      <token id="tok2773" status="ok">electrical</token>
+      <token id="tok2774" status="ok">states</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbjb18-l1.qa155" accuracy="contradictory" raw_text="it is 0." count="1">
+      <token id="tok2806" status="ok">it</token>
+      <token id="tok2807" status="ok">is</token>
+      <token id="tok2808" status="numerical">0</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbjb19-l1.qa148" accuracy="contradictory" raw_text="they both have the same electrical reading." count="1">
+      <token id="tok2754" status="ok">they</token>
+      <token id="tok2755" status="ok">both</token>
+      <token id="tok2756" status="ok">have</token>
+      <token id="tok2757" status="ok">the</token>
+      <token id="tok2758" status="ok">same</token>
+      <token id="tok2759" status="ok">electrical</token>
+      <token id="tok2760" status="ok">reading</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbjb20-l1.qa155" accuracy="partially_correct_incomplete" answerMatch="answer181" raw_text="The terminal." count="1">
+      <token id="tok2894" status="ok">The</token>
+      <token id="tok2895" status="ok">terminal</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbjb22-l1.qa154" accuracy="contradictory" answerMatch="answer181" raw_text="the voltage is the difference between 2 terminals electrical state on a battery" count="1">
+      <token id="tok2788" status="ok">the</token>
+      <token id="tok2789" status="ok">voltage</token>
+      <token id="tok2790" status="ok">is</token>
+      <token id="tok2791" status="ok">the</token>
+      <token id="tok2792" status="ok">difference</token>
+      <token id="tok2793" status="ok">between</token>
+      <token id="tok2794" status="numerical">2</token>
+      <token id="tok2795" status="ok">terminals</token>
+      <token id="tok2796" status="ok">electrical</token>
+      <token id="tok2797" status="ok">state</token>
+      <token id="tok2798" status="ok">on</token>
+      <token id="tok2799" status="ok">a</token>
+      <token id="tok2800" status="ok">battery</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbjb24-l1.qa151" accuracy="non_domain" raw_text="?/" count="1"/>
+    <studentAnswer id="FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbjb25-l1.qa148" accuracy="contradictory" raw_text="They are divided into positive and negative terminals." count="1">
+      <token id="tok2751" status="ok">They</token>
+      <token id="tok2752" status="ok">are</token>
+      <token id="tok2753" status="ok">divided</token>
+      <token id="tok2754" status="ok">into</token>
+      <token id="tok2755" status="ok">positive</token>
+      <token id="tok2756" status="ok">and</token>
+      <token id="tok2757" status="ok">negative</token>
+      <token id="tok2758" status="ok">terminals</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbjb26-l1.qa144" accuracy="contradictory" answerMatch="answer181" raw_text="The difference in power between the two terminals." count="1">
+      <token id="tok2765" status="ok">The</token>
+      <token id="tok2766" status="ok">difference</token>
+      <token id="tok2767" status="ok">in</token>
+      <token id="tok2768" status="ok">power</token>
+      <token id="tok2769" status="ok">between</token>
+      <token id="tok2770" status="ok">the</token>
+      <token id="tok2771" status="ok">two</token>
+      <token id="tok2772" status="ok">terminals</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbjb27-l1.qa143" accuracy="contradictory" raw_text="if the voltage reading is 0 volts then the bulb is not on" count="1">
+      <token id="tok2688" status="ok">if</token>
+      <token id="tok2689" status="ok">the</token>
+      <token id="tok2690" status="ok">voltage</token>
+      <token id="tok2691" status="ok">reading</token>
+      <token id="tok2692" status="ok">is</token>
+      <token id="tok2693" status="numerical">0</token>
+      <token id="tok2694" status="ok">volts</token>
+      <token id="tok2695" status="ok">then</token>
+      <token id="tok2696" status="ok">the</token>
+      <token id="tok2697" status="ok">bulb</token>
+      <token id="tok2698" status="ok">is</token>
+      <token id="tok2699" status="ok">not</token>
+      <token id="tok2700" status="ok">on</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbjb28-l1.qa148" accuracy="contradictory" raw_text="all or nothing" count="1">
+      <token id="tok2647" status="ok">all</token>
+      <token id="tok2648" status="ok">or</token>
+      <token id="tok2649" status="ok">nothing</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbjb29-l1.qa147" accuracy="contradictory" raw_text="1.5 volts" count="1">
+      <token id="tok2802" status="numerical">1.5</token>
+      <token id="tok2803" status="ok">volts</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbjb30-l1.qa148" accuracy="correct" answerMatch="answer181" raw_text="the voltage reading measures the difference between two terminals and their electrical states." count="1">
+      <token id="tok2931" status="ok">the</token>
+      <token id="tok2932" status="ok">voltage</token>
+      <token id="tok2933" status="ok">reading</token>
+      <token id="tok2934" status="ok">measures</token>
+      <token id="tok2935" status="ok">the</token>
+      <token id="tok2936" status="ok">difference</token>
+      <token id="tok2937" status="ok">between</token>
+      <token id="tok2938" status="ok">two</token>
+      <token id="tok2939" status="ok">terminals</token>
+      <token id="tok2940" status="ok">and</token>
+      <token id="tok2941" status="ok">their</token>
+      <token id="tok2942" status="ok">electrical</token>
+      <token id="tok2943" status="ok">states</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbjb31-l1.qa143" accuracy="partially_correct_incomplete" answerMatch="answer181" raw_text="the voltage reading is the difference between the two terminals." count="1">
+      <token id="tok2766" status="ok">the</token>
+      <token id="tok2767" status="ok">voltage</token>
+      <token id="tok2768" status="ok">reading</token>
+      <token id="tok2769" status="ok">is</token>
+      <token id="tok2770" status="ok">the</token>
+      <token id="tok2771" status="ok">difference</token>
+      <token id="tok2772" status="ok">between</token>
+      <token id="tok2773" status="ok">the</token>
+      <token id="tok2774" status="ok">two</token>
+      <token id="tok2775" status="ok">terminals</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbjb32-l1.qa147" accuracy="contradictory" raw_text="the same" count="1">
+      <token id="tok2748" status="ok">the</token>
+      <token id="tok2749" status="ok">same</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbjb34-l1.qa143" accuracy="correct" answerMatch="answer183" raw_text="When the electrical states are the same then the voltage reading is 0. When the electrical states differ then the voltage reading does not equal zero." count="1">
+      <token id="tok2719" status="ok">When</token>
+      <token id="tok2720" status="ok">the</token>
+      <token id="tok2721" status="ok">electrical</token>
+      <token id="tok2722" status="ok">states</token>
+      <token id="tok2723" status="ok">are</token>
+      <token id="tok2724" status="ok">the</token>
+      <token id="tok2725" status="ok">same</token>
+      <token id="tok2726" status="ok">then</token>
+      <token id="tok2727" status="ok">the</token>
+      <token id="tok2728" status="ok">voltage</token>
+      <token id="tok2729" status="ok">reading</token>
+      <token id="tok2730" status="ok">is</token>
+      <token id="tok2731" status="numerical">0</token>
+      <token id="tok2732" status="ok">When</token>
+      <token id="tok2733" status="ok">the</token>
+      <token id="tok2734" status="ok">electrical</token>
+      <token id="tok2735" status="ok">states</token>
+      <token id="tok2736" status="ok">differ</token>
+      <token id="tok2737" status="ok">then</token>
+      <token id="tok2738" status="ok">the</token>
+      <token id="tok2739" status="ok">voltage</token>
+      <token id="tok2740" status="ok">reading</token>
+      <token id="tok2741" status="ok">does</token>
+      <token id="tok2742" status="ok">not</token>
+      <token id="tok2743" status="ok">equal</token>
+      <token id="tok2744" status="ok">zero</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbjb35-l1.qa144" accuracy="contradictory" answerMatch="answer182" raw_text="The voltage reading of the two terminal is dependant on the power source that in on their closed circuit." count="1">
+      <token id="tok2815" status="ok">The</token>
+      <token id="tok2816" status="ok">voltage</token>
+      <token id="tok2817" status="ok">reading</token>
+      <token id="tok2818" status="ok">of</token>
+      <token id="tok2819" status="ok">the</token>
+      <token id="tok2820" status="ok">two</token>
+      <token id="tok2821" status="ok">terminal</token>
+      <token id="tok2822" status="ok">is</token>
+      <token id="tok2823" status="ok" original="dependant">dependent</token>
+      <token id="tok2824" status="ok">on</token>
+      <token id="tok2825" status="ok">the</token>
+      <token id="tok2826" status="ok">power</token>
+      <token id="tok2827" status="ok">source</token>
+      <token id="tok2828" status="ok">that</token>
+      <token id="tok2829" status="ok">in</token>
+      <token id="tok2830" status="ok">on</token>
+      <token id="tok2831" status="ok">their</token>
+      <token id="tok2832" status="ok">closed</token>
+      <token id="tok2833" status="ok">circuit</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbjb36-l1.qa143" accuracy="contradictory" answerMatch="answer182" raw_text="If they are in a closed circuit they will have both a positive and negative state if not it depends where the gap is to determine if the staes will be the same or different." count="1">
+      <token id="tok2811" status="ok">If</token>
+      <token id="tok2812" status="ok">they</token>
+      <token id="tok2813" status="ok">are</token>
+      <token id="tok2814" status="ok">in</token>
+      <token id="tok2815" status="ok">a</token>
+      <token id="tok2816" status="ok">closed</token>
+      <token id="tok2817" status="ok">circuit</token>
+      <token id="tok2818" status="ok">they</token>
+      <token id="tok2819" status="ok">will</token>
+      <token id="tok2820" status="ok">have</token>
+      <token id="tok2821" status="ok">both</token>
+      <token id="tok2822" status="ok">a</token>
+      <token id="tok2823" status="ok">positive</token>
+      <token id="tok2824" status="ok">and</token>
+      <token id="tok2825" status="ok">negative</token>
+      <token id="tok2826" status="ok">state</token>
+      <token id="tok2827" status="ok">if</token>
+      <token id="tok2828" status="ok">not</token>
+      <token id="tok2829" status="ok">it</token>
+      <token id="tok2830" status="ok">depends</token>
+      <token id="tok2831" status="ok">where</token>
+      <token id="tok2832" status="ok">the</token>
+      <token id="tok2833" status="ok">gap</token>
+      <token id="tok2834" status="ok">is</token>
+      <token id="tok2835" status="ok">to</token>
+      <token id="tok2836" status="ok">determine</token>
+      <token id="tok2837" status="ok">if</token>
+      <token id="tok2838" status="ok">the</token>
+      <token id="tok2839" status="ok" original="staes">states</token>
+      <token id="tok2840" status="ok">will</token>
+      <token id="tok2841" status="ok">be</token>
+      <token id="tok2842" status="ok">the</token>
+      <token id="tok2843" status="ok">same</token>
+      <token id="tok2844" status="ok">or</token>
+      <token id="tok2845" status="ok">different</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbjb37-l1.qa143" accuracy="non_domain" raw_text="I don&quot;t know" count="1">
+      <token id="tok2679" status="ok">I</token>
+      <token id="tok2680" status="ok">do</token>
+      <token id="tok2681" status="pennTokenFragment">n't</token>
+      <token id="tok2682" status="ok">know</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbjb38-l1.qa144" accuracy="correct" answerMatch="answer181" raw_text="Voltage measures the difference in the electrical state of both terminals." count="1">
+      <token id="tok2659" status="ok">Voltage</token>
+      <token id="tok2660" status="ok">measures</token>
+      <token id="tok2661" status="ok">the</token>
+      <token id="tok2662" status="ok">difference</token>
+      <token id="tok2663" status="ok">in</token>
+      <token id="tok2664" status="ok">the</token>
+      <token id="tok2665" status="ok">electrical</token>
+      <token id="tok2666" status="ok">state</token>
+      <token id="tok2667" status="ok">of</token>
+      <token id="tok2668" status="ok">both</token>
+      <token id="tok2669" status="ok">terminals</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbjb39-l1.qa145" accuracy="partially_correct_incomplete" answerMatch="answer183" raw_text="If the terminals are connected, then their electrical states will be the same." count="1">
+      <token id="tok2755" status="ok">If</token>
+      <token id="tok2756" status="ok">the</token>
+      <token id="tok2757" status="ok">terminals</token>
+      <token id="tok2758" status="ok">are</token>
+      <token id="tok2759" status="ok">connected</token>
+      <token id="tok2760" status="ok">then</token>
+      <token id="tok2761" status="ok">their</token>
+      <token id="tok2762" status="ok">electrical</token>
+      <token id="tok2763" status="ok">states</token>
+      <token id="tok2764" status="ok">will</token>
+      <token id="tok2765" status="ok">be</token>
+      <token id="tok2766" status="ok">the</token>
+      <token id="tok2767" status="ok">same</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbjb40-l1.qa144" accuracy="contradictory" answerMatch="answer183" raw_text="the voltage reading will be 0 if it is connected to the positve terminal, but 1.5 if it is not." count="1">
+      <token id="tok2734" status="ok">the</token>
+      <token id="tok2735" status="ok">voltage</token>
+      <token id="tok2736" status="ok">reading</token>
+      <token id="tok2737" status="ok">will</token>
+      <token id="tok2738" status="ok">be</token>
+      <token id="tok2739" status="numerical">0</token>
+      <token id="tok2740" status="ok">if</token>
+      <token id="tok2741" status="ok">it</token>
+      <token id="tok2742" status="ok">is</token>
+      <token id="tok2743" status="ok">connected</token>
+      <token id="tok2744" status="ok">to</token>
+      <token id="tok2745" status="ok">the</token>
+      <token id="tok2746" status="ok" original="positve">positive</token>
+      <token id="tok2747" status="ok">terminal</token>
+      <token id="tok2748" status="ok">but</token>
+      <token id="tok2749" status="numerical">1.5</token>
+      <token id="tok2750" status="ok">if</token>
+      <token id="tok2751" status="ok">it</token>
+      <token id="tok2752" status="ok">is</token>
+      <token id="tok2753" status="ok">not</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbjb41-l1.qa146" accuracy="contradictory" answerMatch="answer182" raw_text="The relationship is that they are different depending on whether or not they are connected to the positive or negative battery terminal." count="1">
+      <token id="tok2952" status="ok">The</token>
+      <token id="tok2953" status="ok">relationship</token>
+      <token id="tok2954" status="ok">is</token>
+      <token id="tok2955" status="ok">that</token>
+      <token id="tok2956" status="ok">they</token>
+      <token id="tok2957" status="ok">are</token>
+      <token id="tok2958" status="ok">different</token>
+      <token id="tok2959" status="ok">depending</token>
+      <token id="tok2960" status="ok">on</token>
+      <token id="tok2961" status="ok">whether</token>
+      <token id="tok2962" status="ok">or</token>
+      <token id="tok2963" status="ok">not</token>
+      <token id="tok2964" status="ok">they</token>
+      <token id="tok2965" status="ok">are</token>
+      <token id="tok2966" status="ok">connected</token>
+      <token id="tok2967" status="ok">to</token>
+      <token id="tok2968" status="ok">the</token>
+      <token id="tok2969" status="ok">positive</token>
+      <token id="tok2970" status="ok">or</token>
+      <token id="tok2971" status="ok">negative</token>
+      <token id="tok2972" status="ok">battery</token>
+      <token id="tok2973" status="ok">terminal</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbjb42-l1.qa146" accuracy="correct" answerMatch="answer184" raw_text="If the voltage reading is &gt;0, they are in different states. If they have a voltage reading of 0, they are in the same state." count="1">
+      <token id="tok2740" status="ok">If</token>
+      <token id="tok2741" status="ok">the</token>
+      <token id="tok2742" status="ok">voltage</token>
+      <token id="tok2743" status="ok">reading</token>
+      <token id="tok2744" status="ok">is</token>
+      <token id="tok2745" status="ok">&gt;</token>
+      <token id="tok2746" status="numerical">0</token>
+      <token id="tok2747" status="ok">they</token>
+      <token id="tok2748" status="ok">are</token>
+      <token id="tok2749" status="ok">in</token>
+      <token id="tok2750" status="ok">different</token>
+      <token id="tok2751" status="ok">states</token>
+      <token id="tok2752" status="ok">If</token>
+      <token id="tok2753" status="ok">they</token>
+      <token id="tok2754" status="ok">have</token>
+      <token id="tok2755" status="ok">a</token>
+      <token id="tok2756" status="ok">voltage</token>
+      <token id="tok2757" status="ok">reading</token>
+      <token id="tok2758" status="ok">of</token>
+      <token id="tok2759" status="numerical">0</token>
+      <token id="tok2760" status="ok">they</token>
+      <token id="tok2761" status="ok">are</token>
+      <token id="tok2762" status="ok">in</token>
+      <token id="tok2763" status="ok">the</token>
+      <token id="tok2764" status="ok">same</token>
+      <token id="tok2765" status="ok">state</token>
+    </studentAnswer>
+  </studentAnswers>
+</question>

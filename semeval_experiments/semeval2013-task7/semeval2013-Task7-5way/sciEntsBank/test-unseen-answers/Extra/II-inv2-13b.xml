@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<question testSet="unseen-answers" id="II_13b" module="II">
+  <questionText>Look at the finger patterns below, then answer the questions. What is different about the finger patterns?</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="II_13b-a1" text="The loops begin at opposite sides of the print.">
+      <tokens>
+        <token id="II_13b_ra1">The</token>
+        <token id="II_13b_ra2">loops</token>
+        <token id="II_13b_ra3">begin</token>
+        <token id="II_13b_ra4">at</token>
+        <token id="II_13b_ra5">opposite</token>
+        <token id="II_13b_ra6">sides</token>
+        <token id="II_13b_ra7">of</token>
+        <token id="II_13b_ra8">the</token>
+        <token id="II_13b_ra9">print</token>
+        <token id="II_13b_ra10">.</token>
+      </tokens>
+      <facets>
+        <facet id="II_13b_f1" govNum="II_13b_ra3" modNum="II_13b_ra2" reltn="Theme" govText="begin" modText="loops"/>
+        <facet id="II_13b_f2" govNum="II_13b_ra3" modNum="II_13b_ra6" reltn="Location_at" govText="begin" modText="sides"/>
+        <facet id="II_13b_f3" govNum="II_13b_ra6" modNum="II_13b_ra5" reltn="NMod" govText="sides" modText="opposite"/>
+        <facet id="II_13b_f4" govNum="II_13b_ra6" modNum="II_13b_ra9" reltn="NMod_of" govText="sides" modText="print"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="II.13b.531.1" answerText="The loop are go different." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="II_13b_f1" label="Inferred"/>
+      <facetEntailment facetID="II_13b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="II_13b_f3" label="Inferred"/>
+      <facetEntailment facetID="II_13b_f4" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="II.13b.543.1" answerText="On his A arch." accuracy="irrelevant">
+      <facetEntailment facetID="II_13b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="II_13b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="II_13b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="II_13b_f4" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="II.13b.580.1" answerText="One is lighter than the other." accuracy="irrelevant">
+      <facetEntailment facetID="II_13b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="II_13b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="II_13b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="II_13b_f4" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="II.13b.601.1" answerText="They are going different directions." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="II_13b_f1" label="Inferred"/>
+      <facetEntailment facetID="II_13b_f2" label="Inferred"/>
+      <facetEntailment facetID="II_13b_f3" label="Expressed"/>
+      <facetEntailment facetID="II_13b_f4" label="Inferred"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

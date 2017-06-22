@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<question testSet="unseen-answers" qtype="Q_EXPLAIN_SPECIFIC" id="SWITCH_TABLE_EXPLAIN_Q2" module="SwitchesBulbsParallel" stype="EVALUATE">
+  <questionText>When switch X was open and switch Y was closed, why were bulbs B and C on?</questionText>
+  <referenceAnswers>
+    <referenceAnswer category="BEST" id="answer322" fileID="SWITCH_TABLE_EXPLAIN_Q2_ANS1">Bulb B and Bulb C were still contained in the same closed path with the battery.</referenceAnswer>
+    <referenceAnswer category="GOOD" id="answer323" fileID="SWITCH_TABLE_EXPLAIN_Q2_ANS2">no path containing both the switch X and either bulb B or bulb C</referenceAnswer>
+    <referenceAnswer category="GOOD" id="answer324" fileID="SWITCH_TABLE_EXPLAIN_Q2_ANS3">There is a path with B and C that does not include X</referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer count="1" answerMatch="answer322" raw_text="bulbs b and c are contained in a closed path with the battery" id="SwitchesBulbsParallel-SWITCH_TABLE_EXPLAIN_Q2.sbj36-l2.qa60" accuracy="correct">
+      <token status="ok" id="tok1083">bulbs</token>
+      <token status="ok" id="tok1084">b</token>
+      <token status="ok" id="tok1085">and</token>
+      <token status="ok" id="tok1086">c</token>
+      <token status="ok" id="tok1087">are</token>
+      <token status="ok" id="tok1088">contained</token>
+      <token status="ok" id="tok1089">in</token>
+      <token status="ok" id="tok1090">a</token>
+      <token status="ok" id="tok1091">closed</token>
+      <token status="ok" id="tok1092">path</token>
+      <token status="ok" id="tok1093">with</token>
+      <token status="ok" id="tok1094">the</token>
+      <token status="ok" id="tok1095">battery</token>
+    </studentAnswer>
+    <studentAnswer count="2" answerMatch="answer322" raw_text="Bulbs B and C were still in a closed path with the battery" id="SwitchesBulbsParallel-SWITCH_TABLE_EXPLAIN_Q2.sbj45-l2.qa60" accuracy="correct">
+      <token status="ok" id="tok1126">Bulbs</token>
+      <token status="ok" id="tok1127">B</token>
+      <token status="ok" id="tok1128">and</token>
+      <token status="ok" id="tok1129">C</token>
+      <token status="ok" id="tok1130">were</token>
+      <token status="ok" id="tok1131">still</token>
+      <token status="ok" id="tok1132">in</token>
+      <token status="ok" id="tok1133">a</token>
+      <token status="ok" id="tok1134">closed</token>
+      <token status="ok" id="tok1135">path</token>
+      <token status="ok" id="tok1136">with</token>
+      <token status="ok" id="tok1137">the</token>
+      <token status="ok" id="tok1138">battery</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer323" raw_text="Becuase the dots allowed bulb A and switch X to be bypassed and still form a closed pathway." id="SwitchesBulbsParallel-SWITCH_TABLE_EXPLAIN_Q2.sbjb35-l2.qa56" accuracy="contradictory">
+      <token status="ok" id="tok1142" original="Becuase">Because</token>
+      <token status="ok" id="tok1143">the</token>
+      <token status="ok" id="tok1144">dots</token>
+      <token status="ok" id="tok1145">allowed</token>
+      <token status="ok" id="tok1146">bulb</token>
+      <token status="ok" id="tok1147">A</token>
+      <token status="ok" id="tok1148">and</token>
+      <token status="ok" id="tok1149">switch</token>
+      <token status="ok" id="tok1150">X</token>
+      <token status="ok" id="tok1151">to</token>
+      <token status="ok" id="tok1152">be</token>
+      <token status="ok" id="tok1153">bypassed</token>
+      <token status="ok" id="tok1154">and</token>
+      <token status="ok" id="tok1155">still</token>
+      <token status="ok" id="tok1156">form</token>
+      <token status="ok" id="tok1157">a</token>
+      <token status="ok" id="tok1158">closed</token>
+      <token status="ok" id="tok1159">pathway</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer322" raw_text="Blub B ab=nd C were still contained in a closed path with the battery" id="SwitchesBulbsParallel-SWITCH_TABLE_EXPLAIN_Q2.sbjb37-l2.qa55" accuracy="correct">
+      <token status="ok" id="tok1101" original="Blub">Bulb</token>
+      <token status="ok" id="tok1102">B</token>
+      <token status="ok" id="tok1103+" original="ab=nd">and</token>
+      <token status="ok" id="tok1106">C</token>
+      <token status="ok" id="tok1107">were</token>
+      <token status="ok" id="tok1108">still</token>
+      <token status="ok" id="tok1109">contained</token>
+      <token status="ok" id="tok1110">in</token>
+      <token status="ok" id="tok1111">a</token>
+      <token status="ok" id="tok1112">closed</token>
+      <token status="ok" id="tok1113">path</token>
+      <token status="ok" id="tok1114">with</token>
+      <token status="ok" id="tok1115">the</token>
+      <token status="ok" id="tok1116">battery</token>
+    </studentAnswer>
+  </studentAnswers>
+</question>

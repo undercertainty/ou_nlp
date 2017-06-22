@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<question testSet="unseen-answers" id="SE_22c" module="SE">
+  <questionText>Andi and Scott decided to investigate solar water heaters using collectors of different colors (but the same size) as one variable and covered versus uncovered as a second variable. Look at the graph of their data and answer the questions below. Why would comparing only the red uncovered heater with the blue covered heater not provide useful information?</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="SE_22c-a1" text="When 2 variables are changed, it is impossible to determine which variable is causing what effect.">
+      <tokens>
+        <token id="SE_22c_ra1">When</token>
+        <token id="SE_22c_ra2">2</token>
+        <token id="SE_22c_ra3">variables</token>
+        <token id="SE_22c_ra4">are</token>
+        <token id="SE_22c_ra5">changed</token>
+        <token id="SE_22c_ra6">,</token>
+        <token id="SE_22c_ra7">it</token>
+        <token id="SE_22c_ra8">is</token>
+        <token id="SE_22c_ra9">impossible</token>
+        <token id="SE_22c_ra10">to</token>
+        <token id="SE_22c_ra11">determine</token>
+        <token id="SE_22c_ra12">which</token>
+        <token id="SE_22c_ra13">variable</token>
+        <token id="SE_22c_ra14">is</token>
+        <token id="SE_22c_ra15">causing</token>
+        <token id="SE_22c_ra16">what</token>
+        <token id="SE_22c_ra17">effect</token>
+        <token id="SE_22c_ra18">.</token>
+      </tokens>
+      <facets>
+        <facet id="SE_22c_f1" govNum="SE_22c_ra3" modNum="SE_22c_ra2" reltn="NMod" govText="variables" modText="2"/>
+        <facet id="SE_22c_f2" govNum="SE_22c_ra5" modNum="SE_22c_ra3" reltn="Patient" govText="changed" isAssumed="true" modText="variables"/>
+        <facet id="SE_22c_f3" govNum="SE_22c_ra11" modNum="SE_22c_ra15" reltn="Theme_which_neg_impossible" govText="determine" modText="causing" childProp2Facet1="SE_22c_f4"/>
+        <facet id="SE_22c_f4" govNum="SE_22c_ra15" modNum="SE_22c_ra13" reltn="Means_which" govText="causing" modText="variable"/>
+        <facet id="SE_22c_f5" govNum="SE_22c_ra15" modNum="SE_22c_ra17" reltn="Theme_what" govText="causing" modText="effect"/>
+        <facet id="SE_22c_f6" govNum="SE_22c_ra11" modNum="SE_22c_ra5" reltn="Cause_when" childProp2Facet2="SE_22c_f1" childProp1Facet1="SE_22c_f3" govText="determine" childProp1Facet2="SE_22c_f4" modText="changed" childProp2Facet1="SE_22c_f2"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="SE.22c.166.1" answerText="Because the red is uncovered and blue is covered and you cannot compare them." accuracy="correct">
+      <facetEntailment facetID="SE_22c_f1" label="Inferred"/>
+      <facetEntailment facetID="SE_22c_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_22c_f3" label="Inferred"/>
+      <facetEntailment facetID="SE_22c_f4" label="Inferred"/>
+      <facetEntailment facetID="SE_22c_f5" label="Inferred"/>
+      <facetEntailment facetID="SE_22c_f6" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="SE.22c.248.1" answerText="Red uncovered water is not really hot, and the blue covered is hot, so when you compare them you would not get that much of useful information." accuracy="correct">
+      <facetEntailment facetID="SE_22c_f1" label="Inferred"/>
+      <facetEntailment facetID="SE_22c_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_22c_f3" label="Inferred"/>
+      <facetEntailment facetID="SE_22c_f4" label="Inferred"/>
+      <facetEntailment facetID="SE_22c_f5" label="Inferred"/>
+      <facetEntailment facetID="SE_22c_f6" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="SE.22c.401.1" answerText="Because one is uncovered and one is covered. Also I think because they are now the same color." accuracy="contradictory">
+      <facetEntailment facetID="SE_22c_f1" label="Self-Contra"/>
+      <facetEntailment facetID="SE_22c_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_22c_f3" label="Unaddressed"/>
+      <facetEntailment facetID="SE_22c_f4" label="Unaddressed"/>
+      <facetEntailment facetID="SE_22c_f5" label="Unaddressed"/>
+      <facetEntailment facetID="SE_22c_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.22c.527.1" answerText="Because blue goes so high and red goes so low you cannot tell anything." accuracy="irrelevant">
+      <facetEntailment facetID="SE_22c_f1" label="Unaddressed"/>
+      <facetEntailment facetID="SE_22c_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_22c_f3" label="Unaddressed"/>
+      <facetEntailment facetID="SE_22c_f4" label="Unaddressed"/>
+      <facetEntailment facetID="SE_22c_f5" label="Unaddressed"/>
+      <facetEntailment facetID="SE_22c_f6" label="Unaddressed"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

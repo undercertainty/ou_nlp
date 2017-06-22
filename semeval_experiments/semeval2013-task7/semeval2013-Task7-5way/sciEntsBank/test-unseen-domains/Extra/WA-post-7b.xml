@@ -1,0 +1,826 @@
+<?xml version="1.0"?>
+<question testSet="unseen-domains" id="WA_7b" module="WA">
+  <questionText>Look at the picture of a block of wood in a cup of water. What evidence indicates that the block of wood is less dense than the water?</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="WA_7b-a1" text="The block of wood floats because the wood is less dense than water.">
+      <tokens>
+        <token id="WA_7b_ra1">The</token>
+        <token id="WA_7b_ra2">block</token>
+        <token id="WA_7b_ra3">of</token>
+        <token id="WA_7b_ra4">wood</token>
+        <token id="WA_7b_ra5">floats</token>
+        <token id="WA_7b_ra6">because</token>
+        <token id="WA_7b_ra7">the</token>
+        <token id="WA_7b_ra8">wood</token>
+        <token id="WA_7b_ra9">is</token>
+        <token id="WA_7b_ra10">less</token>
+        <token id="WA_7b_ra11">dense</token>
+        <token id="WA_7b_ra12">than</token>
+        <token id="WA_7b_ra13">water</token>
+        <token id="WA_7b_ra14">.</token>
+      </tokens>
+      <facets>
+        <facet id="WA_7b_f1" govNum="WA_7b_ra5" modNum="WA_7b_ra2" reltn="Theme" govText="floats" modText="block"/>
+        <facet id="WA_7b_f2" govNum="WA_7b_ra2" modNum="WA_7b_ra4" reltn="NMod_of" govText="block" isAssumed="true" modText="wood"/>
+        <facet id="WA_7b_f3" govNum="WA_7b_ra8" modNum="WA_7b_ra11" reltn="Be" govText="wood" isAssumed="true" modText="dense"/>
+        <facet id="WA_7b_f4" govNum="WA_7b_ra11" modNum="WA_7b_ra10" reltn="AMod" govText="dense" isAssumed="true" modText="less"/>
+        <facet id="WA_7b_f5" govNum="WA_7b_ra11" modNum="WA_7b_ra13" reltn="AMod_than" govText="dense" isAssumed="true" modText="water"/>
+        <facet id="WA_7b_f6" govNum="WA_7b_ra5" modNum="WA_7b_ra9" reltn="Cause_because" childProp2Facet2="WA_7b_f4" childProp1Facet1="WA_7b_f1" govText="floats" isAssumed="true" modText="is" childProp2Facet1="WA_7b_f3"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="WA.7b.173.1" answerText="The block of wood is the same density of the water because the cube is kind of floating." accuracy="contradictory">
+      <facetEntailment facetID="WA_7b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f4" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_7b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f6" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.7b.174.1" answerText="The water is able to hold the block of wood up." accuracy="correct">
+      <facetEntailment facetID="WA_7b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.7b.176.1" answerText="Well, saying less dense is like saying not as heavy. So the block of wood is probably soaked up water and is lighter." accuracy="irrelevant">
+      <facetEntailment facetID="WA_7b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_7b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.7b.179.1" answerText="It is denser because it is more under water." accuracy="contradictory">
+      <facetEntailment facetID="WA_7b_f1" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_7b_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f4" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_7b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.7b.180.1" answerText="The block is floating and that means that it is denser than the water." accuracy="contradictory">
+      <facetEntailment facetID="WA_7b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f4" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_7b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f6" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.7b.183.1" answerText="Because if it is less dense it would float." accuracy="correct">
+      <facetEntailment facetID="WA_7b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f6" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.7b.186.1" answerText="The block is floating so it is less dense." accuracy="correct">
+      <facetEntailment facetID="WA_7b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f6" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.7b.187.1" answerText="The block is less dense than the water." accuracy="irrelevant">
+      <facetEntailment facetID="WA_7b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_7b_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.7b.188.1" answerText="When something is less dense it floats when something is more dense it sinks." accuracy="correct">
+      <facetEntailment facetID="WA_7b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f6" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.7b.191.1" answerText="Well because the block is floating so that makes less dense." accuracy="correct">
+      <facetEntailment facetID="WA_7b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f6" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.7b.210.1" answerText="The water is less dense because it is floating on the water." accuracy="contradictory">
+      <facetEntailment facetID="WA_7b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f4" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_7b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f6" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.7b.216.1" answerText="The wood is floating and that means it is less dense." accuracy="correct">
+      <facetEntailment facetID="WA_7b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f6" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.7b.227.1" answerText="It floats." accuracy="correct">
+      <facetEntailment facetID="WA_7b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.7b.228.1" answerText="A: because we did a experiment and the wooden bead floated." accuracy="correct">
+      <facetEntailment facetID="WA_7b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.7b.231.1" answerText="My evidence is that the wooden block is floating." accuracy="correct">
+      <facetEntailment facetID="WA_7b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.7b.241.1" answerText="My evidence is the block of wood is floating so it is less dense than the water." accuracy="correct">
+      <facetEntailment facetID="WA_7b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f6" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.7b.243.1" answerText="I picked B because they have the same dense." accuracy="contradictory">
+      <facetEntailment facetID="WA_7b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_7b_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f4" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_7b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.7b.244.1" answerText="The block of wood is less dense than the water is true because the block is floating." accuracy="correct">
+      <facetEntailment facetID="WA_7b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f6" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.7b.246.1" answerText="My evidence is that if the block was more dense then it would not float it would sink." accuracy="correct">
+      <facetEntailment facetID="WA_7b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.7b.248.1" answerText="Because in the picture the block of wood is floating." accuracy="correct">
+      <facetEntailment facetID="WA_7b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.7b.259.1" answerText="Because when something floats that mean it is less dense." accuracy="correct">
+      <facetEntailment facetID="WA_7b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f6" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.7b.260.1" answerText="My evidence is that less dense things float." accuracy="correct">
+      <facetEntailment facetID="WA_7b_f1" label="Inferred"/>
+      <facetEntailment facetID="WA_7b_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.7b.261.1" answerText="It floats." accuracy="correct">
+      <facetEntailment facetID="WA_7b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.7b.264.1" answerText="Because the block of wood is floating so that means it is less dense." accuracy="correct">
+      <facetEntailment facetID="WA_7b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f6" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.7b.267.1" answerText="If block of wood was more denser it would to the bottom." accuracy="correct">
+      <facetEntailment facetID="WA_7b_f1" label="Inferred"/>
+      <facetEntailment facetID="WA_7b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.7b.277.1" answerText="When you put a sugar is float in the water." accuracy="irrelevant">
+      <facetEntailment facetID="WA_7b_f1" label="Diff-Arg"/>
+      <facetEntailment facetID="WA_7b_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.7b.281.1" answerText="Because the block is less dense." accuracy="irrelevant">
+      <facetEntailment facetID="WA_7b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_7b_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.7b.286.1" answerText="A block of wood is not that heavy." accuracy="irrelevant">
+      <facetEntailment facetID="WA_7b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_7b_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.7b.287.1" answerText="The block float on the water because it was less dense." accuracy="correct">
+      <facetEntailment facetID="WA_7b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f6" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.7b.295.1" answerText="I know that wood is less dense because I see it all the time and in class." accuracy="irrelevant">
+      <facetEntailment facetID="WA_7b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_7b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.7b.301.1" answerText="The block is floating." accuracy="correct">
+      <facetEntailment facetID="WA_7b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.7b.351.1" answerText="It is denser than the water." accuracy="contradictory">
+      <facetEntailment facetID="WA_7b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_7b_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f4" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_7b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.7b.359.1" answerText="The block weighs less than the water." accuracy="correct">
+      <facetEntailment facetID="WA_7b_f1" label="Inferred"/>
+      <facetEntailment facetID="WA_7b_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.7b.365.1" answerText="Anything that floats to the top is less dense." accuracy="correct">
+      <facetEntailment facetID="WA_7b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.7b.369.1" answerText="Because the block floats. The block of wood is less dense than the water because the block of wood is floating on top of the water." accuracy="correct">
+      <facetEntailment facetID="WA_7b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f6" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.7b.382.1" answerText="I look the picture." accuracy="irrelevant">
+      <facetEntailment facetID="WA_7b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_7b_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.7b.383.1" answerText="Because the block is floating." accuracy="correct">
+      <facetEntailment facetID="WA_7b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.7b.384.1" answerText="It floats." accuracy="correct">
+      <facetEntailment facetID="WA_7b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.7b.385.1" answerText="When something floats on top it always is less dense." accuracy="correct">
+      <facetEntailment facetID="WA_7b_f1" label="Inferred"/>
+      <facetEntailment facetID="WA_7b_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f6" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.7b.387.1" answerText="The block of wood is floating." accuracy="correct">
+      <facetEntailment facetID="WA_7b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.7b.388.1" answerText="It is floating." accuracy="correct">
+      <facetEntailment facetID="WA_7b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.7b.389.1" answerText="The block of wood floats in the water." accuracy="correct">
+      <facetEntailment facetID="WA_7b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.7b.390.1" answerText="If the block is less dense than the water, it would float. If it is more dense than the water, it would sink." accuracy="correct">
+      <facetEntailment facetID="WA_7b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f6" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.7b.391.1" answerText="The block of wood floats, which gives you evidence that it is less dense than the water." accuracy="correct">
+      <facetEntailment facetID="WA_7b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f6" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.7b.392.1" answerText="The block of wood is floating." accuracy="correct">
+      <facetEntailment facetID="WA_7b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.7b.393.1" answerText="The block of wood is less dense than water because it is floating." accuracy="correct">
+      <facetEntailment facetID="WA_7b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f6" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.7b.395.1" answerText="The block of wood is floating." accuracy="correct">
+      <facetEntailment facetID="WA_7b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.7b.397.1" answerText="The block is heavier than water and it is hard to touch than water." accuracy="contradictory">
+      <facetEntailment facetID="WA_7b_f1" label="Contra-Infr"/>
+      <facetEntailment facetID="WA_7b_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f4" label="Contra-Infr"/>
+      <facetEntailment facetID="WA_7b_f5" label="Diff-Arg"/>
+      <facetEntailment facetID="WA_7b_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.7b.417.1" answerText="My evidence is that when an object or liquid is less dense it floats to the top, or is at the top and vice versa." accuracy="correct">
+      <facetEntailment facetID="WA_7b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f6" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.7b.422.1" answerText="My evidence is that the water is more dense and the wood is less dense." accuracy="irrelevant">
+      <facetEntailment facetID="WA_7b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_7b_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.7b.423.1" answerText="I know that the block of wood is less dense than the water because when something is less dense it floats." accuracy="correct">
+      <facetEntailment facetID="WA_7b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f6" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.7b.425.1" answerText="It is because it is at the top." accuracy="correct">
+      <facetEntailment facetID="WA_7b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.7b.427.1" answerText="The wood is floating." accuracy="correct">
+      <facetEntailment facetID="WA_7b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.7b.429.1" answerText="The wood is floating." accuracy="correct">
+      <facetEntailment facetID="WA_7b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.7b.430.1" answerText="It is less dense because it is floating. If it were more dense it would sink." accuracy="correct">
+      <facetEntailment facetID="WA_7b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f6" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.7b.454.1" answerText="The block is floating." accuracy="correct">
+      <facetEntailment facetID="WA_7b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.7b.455.1" answerText="The block is less dense the water because it floated." accuracy="correct">
+      <facetEntailment facetID="WA_7b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f6" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.7b.460.1" answerText="The block is floating." accuracy="correct">
+      <facetEntailment facetID="WA_7b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.7b.462.1" answerText="The block of wood is floating." accuracy="correct">
+      <facetEntailment facetID="WA_7b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.7b.463.1" answerText="The wood is floating so it is less dense." accuracy="correct">
+      <facetEntailment facetID="WA_7b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f6" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.7b.465.1" answerText="The block is floating." accuracy="correct">
+      <facetEntailment facetID="WA_7b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.7b.486.1" answerText="It floats." accuracy="correct">
+      <facetEntailment facetID="WA_7b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.7b.488.1" answerText="It is at the top of the cup if it is less dense it will float." accuracy="correct">
+      <facetEntailment facetID="WA_7b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f6" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.7b.493.1" answerText="Its floating." accuracy="correct">
+      <facetEntailment facetID="WA_7b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.7b.495.1" answerText="The block is floating." accuracy="correct">
+      <facetEntailment facetID="WA_7b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.7b.497.1" answerText="The block floats." accuracy="correct">
+      <facetEntailment facetID="WA_7b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.7b.504.1" answerText="Wood is light." accuracy="irrelevant">
+      <facetEntailment facetID="WA_7b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_7b_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.7b.506.1" answerText="The block of wood is half in the water and half out." accuracy="correct">
+      <facetEntailment facetID="WA_7b_f1" label="Inferred"/>
+      <facetEntailment facetID="WA_7b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.7b.523.1" answerText="The block of wood is floating in the water." accuracy="correct">
+      <facetEntailment facetID="WA_7b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.7b.526.1" answerText="Because it floats." accuracy="correct">
+      <facetEntailment facetID="WA_7b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.7b.527.1" answerText="Because the wood is floating because the wood is less dense." accuracy="correct">
+      <facetEntailment facetID="WA_7b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f6" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.7b.529.1" answerText="The block is floating. If the block is denser it would sink." accuracy="correct">
+      <facetEntailment facetID="WA_7b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f6" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.7b.530.1" answerText="The wood is less dense because it floats." accuracy="correct">
+      <facetEntailment facetID="WA_7b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f6" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.7b.531.1" answerText="It is floating so it is got to be less dense." accuracy="correct">
+      <facetEntailment facetID="WA_7b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f6" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.7b.532.1" answerText="The wooden block is less dense because the surface area is where you put it." accuracy="irrelevant">
+      <facetEntailment facetID="WA_7b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f6" label="Diff-Arg"/>
+    </studentAnswer>
+    <studentAnswer id="WA.7b.541.1" answerText="Because it floats." accuracy="correct">
+      <facetEntailment facetID="WA_7b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.7b.556.1" answerText="The block of wood floats, and if it was denser, It would sink." accuracy="correct">
+      <facetEntailment facetID="WA_7b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f6" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.7b.559.1" answerText="Because when the thing I less dense it will float." accuracy="correct">
+      <facetEntailment facetID="WA_7b_f1" label="Inferred"/>
+      <facetEntailment facetID="WA_7b_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f6" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.7b.561.1" answerText="It is floating and when something it is less dense." accuracy="correct">
+      <facetEntailment facetID="WA_7b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f6" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.7b.563.1" answerText="When something floats it is less dense than the water." accuracy="correct">
+      <facetEntailment facetID="WA_7b_f1" label="Inferred"/>
+      <facetEntailment facetID="WA_7b_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f6" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.7b.567.1" answerText="The block floats and if something floats in water it is less dense than water." accuracy="correct">
+      <facetEntailment facetID="WA_7b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f6" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.7b.572.1" answerText="Because the block of wood is floating." accuracy="correct">
+      <facetEntailment facetID="WA_7b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.7b.576.1" answerText="You can see that some of the wood." accuracy="irrelevant">
+      <facetEntailment facetID="WA_7b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_7b_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.7b.594.1" answerText="Because the block is floating and its impossible for water to sink." accuracy="correct">
+      <facetEntailment facetID="WA_7b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.7b.595.1" answerText="I think the block is less dense because it is floating." accuracy="correct">
+      <facetEntailment facetID="WA_7b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.7b.596.1" answerText="Less dense means it wants to expand. If it were denser it would want to contact and sink to a tight space at the bottom, but the wood floated and expanded as much as it could." accuracy="irrelevant">
+      <facetEntailment facetID="WA_7b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.7b.597.1" answerText="Because if the block of wood was denser it would sink but it floated." accuracy="correct">
+      <facetEntailment facetID="WA_7b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f6" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.7b.601.1" answerText="Because the lock floats." accuracy="correct">
+      <facetEntailment facetID="WA_7b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.7b.604.1" answerText="The block of wood is floating." accuracy="correct">
+      <facetEntailment facetID="WA_7b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.7b.607.1" answerText="Because dense it would sink." accuracy="correct">
+      <facetEntailment facetID="WA_7b_f1" label="Inferred"/>
+      <facetEntailment facetID="WA_7b_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.7b.610.1" answerText="The block of wood is floating." accuracy="correct">
+      <facetEntailment facetID="WA_7b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.7b.627.1" answerText="The wood block is floating." accuracy="correct">
+      <facetEntailment facetID="WA_7b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.7b.634.1" answerText="Because the block of wood is floating and that means it is less dense than water." accuracy="correct">
+      <facetEntailment facetID="WA_7b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f6" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.7b.635.1" answerText="Because the cube is one the to of the water." accuracy="correct">
+      <facetEntailment facetID="WA_7b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.7b.636.1" answerText="The wood is floating." accuracy="correct">
+      <facetEntailment facetID="WA_7b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.7b.638.1" answerText="Less dense because the block is floating on the water." accuracy="correct">
+      <facetEntailment facetID="WA_7b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f6" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.7b.640.1" answerText="Because the block is floating in the water." accuracy="correct">
+      <facetEntailment facetID="WA_7b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.7b.642.1" answerText="Because the block is floating." accuracy="correct">
+      <facetEntailment facetID="WA_7b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_7b_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.7b.647.1" answerText="The same because it is not sinking it is not way up on top of the water. Holy part is up and half is down." accuracy="correct">
+      <facetEntailment facetID="WA_7b_f1" label="Inferred"/>
+      <facetEntailment facetID="WA_7b_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_7b_f6" label="Assumed"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

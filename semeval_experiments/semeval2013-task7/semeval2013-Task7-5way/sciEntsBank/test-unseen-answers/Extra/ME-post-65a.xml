@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<question testSet="unseen-answers" id="ME_65a" module="ME">
+  <questionText>Look at the schematic diagram. What will happen to the other 2 bulbs if the middle bulb burns out?</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="ME_65a-a1" text="If the middle bulb burns out the other 2 bulbs will stay lit.">
+      <tokens>
+        <token id="ME_65a_ra1">If</token>
+        <token id="ME_65a_ra2">the</token>
+        <token id="ME_65a_ra3">middle</token>
+        <token id="ME_65a_ra4">bulb</token>
+        <token id="ME_65a_ra5">burns</token>
+        <token id="ME_65a_ra6">out</token>
+        <token id="ME_65a_ra7">the</token>
+        <token id="ME_65a_ra8">other</token>
+        <token id="ME_65a_ra9">2</token>
+        <token id="ME_65a_ra10">bulbs</token>
+        <token id="ME_65a_ra11">will</token>
+        <token id="ME_65a_ra12">stay</token>
+        <token id="ME_65a_ra13">lit</token>
+        <token id="ME_65a_ra14">.</token>
+      </tokens>
+      <facets>
+        <facet id="ME_65a_f1" govNum="ME_65a_ra4" modNum="ME_65a_ra3" reltn="NMod" govText="bulb" isAssumed="true" modText="middle"/>
+        <facet id="ME_65a_f2" govNum="ME_65a_ra5" modNum="ME_65a_ra4" reltn="Theme" govText="burns out" isAssumed="true" modText="bulb"/>
+        <facet id="ME_65a_f3" govNum="ME_65a_ra10" modNum="ME_65a_ra9" reltn="NMod" govText="bulbs" isAssumed="true" modText="2"/>
+        <facet id="ME_65a_f4" govNum="ME_65a_ra10" modNum="ME_65a_ra8" reltn="NMod" govText="bulbs" isAssumed="true" modText="other"/>
+        <facet id="ME_65a_f5" govNum="ME_65a_ra12" modNum="ME_65a_ra10" reltn="Theme" govText="stay" modText="bulbs"/>
+        <facet id="ME_65a_f6" govNum="ME_65a_ra12" modNum="ME_65a_ra10" reltn="Attribute" govText="stay lit" modText="bulbs"/>
+        <facet id="ME_65a_f7" govNum="ME_65a_ra12" modNum="ME_65a_ra5" reltn="Time_if" childProp2Facet2="ME_65a_f1" childProp1Facet1="ME_65a_f5" govText="stay" isAssumed="true" childProp1Facet2="ME_65a_f6" modText="burns out" childProp2Facet1="ME_65a_f2"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="ME.65a.149.1" answerText="Nothing will happen." accuracy="correct">
+      <facetEntailment facetID="ME_65a_f1" label="Assumed"/>
+      <facetEntailment facetID="ME_65a_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_65a_f3" label="Assumed"/>
+      <facetEntailment facetID="ME_65a_f4" label="Assumed"/>
+      <facetEntailment facetID="ME_65a_f5" label="Inferred"/>
+      <facetEntailment facetID="ME_65a_f6" label="Inferred"/>
+      <facetEntailment facetID="ME_65a_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.65a.207.1" answerText="The others will not work." accuracy="contradictory">
+      <facetEntailment facetID="ME_65a_f1" label="Assumed"/>
+      <facetEntailment facetID="ME_65a_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_65a_f3" label="Assumed"/>
+      <facetEntailment facetID="ME_65a_f4" label="Expressed"/>
+      <facetEntailment facetID="ME_65a_f5" label="Contra-Expr"/>
+      <facetEntailment facetID="ME_65a_f6" label="Contra-Expr"/>
+      <facetEntailment facetID="ME_65a_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.65a.217.1" answerText="The other bulbs will burn out too." accuracy="contradictory">
+      <facetEntailment facetID="ME_65a_f1" label="Assumed"/>
+      <facetEntailment facetID="ME_65a_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_65a_f3" label="Assumed"/>
+      <facetEntailment facetID="ME_65a_f4" label="Expressed"/>
+      <facetEntailment facetID="ME_65a_f5" label="Contra-Expr"/>
+      <facetEntailment facetID="ME_65a_f6" label="Contra-Expr"/>
+      <facetEntailment facetID="ME_65a_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.65a.292.1" answerText="The bulb will go off." accuracy="irrelevant">
+      <facetEntailment facetID="ME_65a_f1" label="Assumed"/>
+      <facetEntailment facetID="ME_65a_f2" label="Expressed"/>
+      <facetEntailment facetID="ME_65a_f3" label="Assumed"/>
+      <facetEntailment facetID="ME_65a_f4" label="Assumed"/>
+      <facetEntailment facetID="ME_65a_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ME_65a_f6" label="Unaddressed"/>
+      <facetEntailment facetID="ME_65a_f7" label="Assumed"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

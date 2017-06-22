@@ -1,0 +1,118 @@
+<?xml version="1.0"?>
+<question testSet="unseen-answers" id="MX_46b" module="MX">
+  <questionText>Nigel made solutions in the bottles as shown below. Solution A was 2 spoons solute in 50 milliliters water and was clear with no material on the bottom. Solution B was 4 spoons solute in 100 milliliters water and was clear with no material on the bottom. Nigel took 50 milliliters of solution from bottle A and put it in cup A and 50 milliliters of solution from bottle B and put it into cup B. He put the cups on each side of the balance. Which picture shows what would happen? A is heavier than B, B is heavier than A, (A and B are the same weight). Explain your choice.</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="MX_46b-a1" text="The solutions have the same concentration (2 spoons in 50 milliliters is the same as 4 spoons in 100 milliliters) so the mass would also be the same.">
+      <tokens>
+        <token id="MX_46b_ra1">The</token>
+        <token id="MX_46b_ra2">solutions</token>
+        <token id="MX_46b_ra3">have</token>
+        <token id="MX_46b_ra4">the</token>
+        <token id="MX_46b_ra5">same</token>
+        <token id="MX_46b_ra6">concentration</token>
+        <token id="MX_46b_ra7">(</token>
+        <token id="MX_46b_ra8">2</token>
+        <token id="MX_46b_ra9">spoons</token>
+        <token id="MX_46b_ra10">in</token>
+        <token id="MX_46b_ra11">50</token>
+        <token id="MX_46b_ra12">millileters</token>
+        <token id="MX_46b_ra13">is</token>
+        <token id="MX_46b_ra14">the</token>
+        <token id="MX_46b_ra15">same</token>
+        <token id="MX_46b_ra16">as</token>
+        <token id="MX_46b_ra17">4</token>
+        <token id="MX_46b_ra18">spoons</token>
+        <token id="MX_46b_ra19">in</token>
+        <token id="MX_46b_ra20">100</token>
+        <token id="MX_46b_ra21">millileters</token>
+        <token id="MX_46b_ra22">)</token>
+        <token id="MX_46b_ra23">so</token>
+        <token id="MX_46b_ra24">the</token>
+        <token id="MX_46b_ra25">mass</token>
+        <token id="MX_46b_ra26">would</token>
+        <token id="MX_46b_ra27">also</token>
+        <token id="MX_46b_ra28">be</token>
+        <token id="MX_46b_ra29">the</token>
+        <token id="MX_46b_ra30">same</token>
+        <token id="MX_46b_ra31">.</token>
+      </tokens>
+      <facets>
+        <facet id="MX_46b_f1" govNum="MX_46b_ra2" modNum="MX_46b_ra6" reltn="Have" govText="solutions" modText="concentration"/>
+        <facet id="MX_46b_f2" govNum="MX_46b_ra6" modNum="MX_46b_ra5" reltn="NMod" govText="concentration" modText="same"/>
+        <facet id="MX_46b_f3" govNum="MX_46b_ra8" modNum="MX_46b_ra9" reltn="NMod" govText="2" isAssumed="true" modText="spoons"/>
+        <facet id="MX_46b_f4" govNum="MX_46b_ra8" modNum="MX_46b_ra11" reltn="Location_in" govText="2" isAssumed="true" modText="50"/>
+        <facet id="MX_46b_f5" govNum="MX_46b_ra11" modNum="MX_46b_ra12" reltn="NMod" govText="50" isAssumed="true" modText="milliliters"/>
+        <facet id="MX_46b_f6" govNum="MX_46b_ra8" modNum="MX_46b_ra15" reltn="Be" govText="2" modText="same"/>
+        <facet id="MX_46b_f7" govNum="MX_46b_ra15" modNum="MX_46b_ra17" reltn="AMod_as" govText="same" modText="4"/>
+        <facet id="MX_46b_f8" govNum="MX_46b_ra17" modNum="MX_46b_ra18" reltn="NMod" govText="4" isAssumed="true" modText="spoons"/>
+        <facet id="MX_46b_f9" govNum="MX_46b_ra17" modNum="MX_46b_ra20" reltn="Location_in" govText="4" isAssumed="true" modText="100"/>
+        <facet id="MX_46b_f10" govNum="MX_46b_ra20" modNum="MX_46b_ra21" reltn="NMod" govText="100" isAssumed="true" modText="milliliters"/>
+        <facet id="MX_46b_f11" govNum="MX_46b_ra25" modNum="MX_46b_ra30" reltn="Be" govText="mass" modText="same"/>
+        <facet id="MX_46b_f12" govNum="MX_46b_ra28" modNum="MX_46b_ra3" reltn="Cause_so" childProp2Facet2="MX_46b_f2" childProp1Facet1="MX_46b_f11" govText="be" modText="have" childProp2Facet1="MX_46b_f1"/>
+        <facet id="MX_46b_f13" govNum="MX_46b_ra28" modNum="MX_46b_ra13" reltn="Cause_so" childProp2Facet2="MX_46b_f7" childProp1Facet1="MX_46b_f11" govText="be" modText="is" childProp2Facet1="MX_46b_f6"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="MX.46b.385.1" answerText="Because they are equally concentrated and they both have some of water." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="MX_46b_f1" label="Expressed"/>
+      <facetEntailment facetID="MX_46b_f2" label="Expressed"/>
+      <facetEntailment facetID="MX_46b_f3" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f4" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f5" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f6" label="Inferred"/>
+      <facetEntailment facetID="MX_46b_f7" label="Inferred"/>
+      <facetEntailment facetID="MX_46b_f8" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f9" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f10" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f11" label="Unaddressed"/>
+      <facetEntailment facetID="MX_46b_f12" label="Unaddressed"/>
+      <facetEntailment facetID="MX_46b_f13" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.46b.399.1" answerText="There is 2 times as much of the same solution in B as in A therefore equal volumes would weigh the same." accuracy="correct">
+      <facetEntailment facetID="MX_46b_f1" label="Inferred"/>
+      <facetEntailment facetID="MX_46b_f2" label="Inferred"/>
+      <facetEntailment facetID="MX_46b_f3" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f4" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f5" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f6" label="Inferred"/>
+      <facetEntailment facetID="MX_46b_f7" label="Inferred"/>
+      <facetEntailment facetID="MX_46b_f8" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f9" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f10" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f11" label="Expressed"/>
+      <facetEntailment facetID="MX_46b_f12" label="Inferred"/>
+      <facetEntailment facetID="MX_46b_f13" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="MX.46b.455.1" answerText="Taking 50 milliliters from solution B would equal solution A." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="MX_46b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="MX_46b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MX_46b_f3" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f4" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f5" label="Expressed"/>
+      <facetEntailment facetID="MX_46b_f6" label="Inferred"/>
+      <facetEntailment facetID="MX_46b_f7" label="Inferred"/>
+      <facetEntailment facetID="MX_46b_f8" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f9" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f10" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f11" label="Inferred"/>
+      <facetEntailment facetID="MX_46b_f12" label="Inferred"/>
+      <facetEntailment facetID="MX_46b_f13" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.46b.525.1" answerText="Solution B is just double solution A." accuracy="irrelevant">
+      <facetEntailment facetID="MX_46b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="MX_46b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MX_46b_f3" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f4" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f5" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="MX_46b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="MX_46b_f8" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f9" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f10" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f11" label="Unaddressed"/>
+      <facetEntailment facetID="MX_46b_f12" label="Unaddressed"/>
+      <facetEntailment facetID="MX_46b_f13" label="Unaddressed"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

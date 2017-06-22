@@ -1,0 +1,481 @@
+<?xml version="1.0"?>
+<question testSet="unseen-questions" id="MX_11b" module="MX">
+  <questionText>Jim used a solid and water to make Mixtures one (one spoon of solid in 100 milliliters water was clear with nothing on the bottom), 3 (3 spoons of solid in 100 milliliters water was clear with nothing on the bottom), 4 (4 spoons of solid in 100 milliliters water was clear with material on the bottom), and 5 (5 spoons of solid in 100 milliliters water was clear with material on the bottom) as shown below. He stirred each one and observed the results. Which solution(s) is saturated? What is the evidence of saturation?</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="MX_11b-a1" text="Mixtures 4 and 5 are saturated. There is material on the bottom of 4 and 5.">
+      <tokens>
+        <token id="MX_11b_ra1">Mixtures</token>
+        <token id="MX_11b_ra2">4</token>
+        <token id="MX_11b_ra3">and</token>
+        <token id="MX_11b_ra4">5</token>
+        <token id="MX_11b_ra5">are</token>
+        <token id="MX_11b_ra6">saturated</token>
+        <token id="MX_11b_ra7">.</token>
+        <token id="MX_11b_ra8">There</token>
+        <token id="MX_11b_ra9">is</token>
+        <token id="MX_11b_ra10">material</token>
+        <token id="MX_11b_ra11">on</token>
+        <token id="MX_11b_ra12">the</token>
+        <token id="MX_11b_ra13">bottom</token>
+        <token id="MX_11b_ra14">of</token>
+        <token id="MX_11b_ra15">4</token>
+        <token id="MX_11b_ra16">and</token>
+        <token id="MX_11b_ra17">5</token>
+        <token id="MX_11b_ra18">.</token>
+      </tokens>
+      <facets>
+        <facet id="MX_11b_f1" govNum="MX_11b_ra2" modNum="MX_11b_ra6" reltn="Be" desc="4 is saturated" govText="4" modText="saturated"/>
+        <facet id="MX_11b_f2" govNum="MX_11b_ra4" modNum="MX_11b_ra6" reltn="Be" desc="5 is saturated" govText="5" modText="saturated"/>
+        <facet id="MX_11b_f3" govNum="MX_11b_ra10" modNum="MX_11b_ra13" reltn="Location_on" desc="material is on the bottom" govText="material" isAssumed="true" modText="bottom"/>
+        <facet id="MX_11b_f4" govNum="MX_11b_ra13" modNum="MX_11b_ra15" reltn="NMod_of" desc="bottom of 4" govText="bottom" isAssumed="true" modText="4"/>
+        <facet id="MX_11b_f5" govNum="MX_11b_ra2" modNum="MX_11b_ra1" reltn="NMod" desc="mixture 4" govText="4" isAssumed="true" modText="Mixtures"/>
+        <facet id="MX_11b_f6" govNum="MX_11b_ra13" modNum="MX_11b_ra17" reltn="NMod_of" desc="bottom of 5" govText="bottom" isAssumed="true" modText="5"/>
+        <facet id="MX_11b_f7" govNum="MX_11b_ra4" modNum="MX_11b_ra1" reltn="NMod" desc="mixture 5" govText="5" isAssumed="true" modText="Mixtures"/>
+        <facet id="MX_11b_f8" govNum="MX_11b_ra5" modNum="MX_11b_ra9" reltn="Cause-know" childProp2Facet2="MX_11b_f4" childProp1Facet1="MX_11b_f1" desc="know X because Y" govText="are" isAssumed="true" childProp1Facet2="MX_11b_f2" modText="is" childProp2Facet1="MX_11b_f3"/>
+        <facet id="MX_11b_f9" govNum="MX_11b_ra9" modNum="MX_11b_ra5" reltn="Cause" childProp2Facet2="MX_11b_f2" childProp1Facet1="MX_11b_f3" desc="X causes Y" govText="is" childProp1Facet2="MX_11b_f4" modText="are" childProp2Facet1="MX_11b_f1"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="MX.11b.140.1" answerText="Mixture 4 and 5 because it has the precipitate at the bottom of the cup." accuracy="correct">
+      <facetEntailment facetID="MX_11b_f1" label="Inferred"/>
+      <facetEntailment facetID="MX_11b_f2" label="Inferred"/>
+      <facetEntailment facetID="MX_11b_f3" label="Expressed"/>
+      <facetEntailment facetID="MX_11b_f4" label="Expressed"/>
+      <facetEntailment facetID="MX_11b_f5" label="Expressed"/>
+      <facetEntailment facetID="MX_11b_f6" label="Expressed"/>
+      <facetEntailment facetID="MX_11b_f7" label="Expressed"/>
+      <facetEntailment facetID="MX_11b_f8" label="Assumed"/>
+      <facetEntailment facetID="MX_11b_f9" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="MX.11b.143.1" answerText="4 and 5 because you see material on bottom." accuracy="correct">
+      <facetEntailment facetID="MX_11b_f1" label="Inferred"/>
+      <facetEntailment facetID="MX_11b_f2" label="Inferred"/>
+      <facetEntailment facetID="MX_11b_f3" label="Expressed"/>
+      <facetEntailment facetID="MX_11b_f4" label="Expressed"/>
+      <facetEntailment facetID="MX_11b_f5" label="Assumed"/>
+      <facetEntailment facetID="MX_11b_f6" label="Expressed"/>
+      <facetEntailment facetID="MX_11b_f7" label="Assumed"/>
+      <facetEntailment facetID="MX_11b_f8" label="Assumed"/>
+      <facetEntailment facetID="MX_11b_f9" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="MX.11b.248.1" answerText="The ones that are saturated are mixtures 4, 5." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="MX_11b_f1" label="Expressed"/>
+      <facetEntailment facetID="MX_11b_f2" label="Expressed"/>
+      <facetEntailment facetID="MX_11b_f3" label="Assumed"/>
+      <facetEntailment facetID="MX_11b_f4" label="Assumed"/>
+      <facetEntailment facetID="MX_11b_f5" label="Expressed"/>
+      <facetEntailment facetID="MX_11b_f6" label="Assumed"/>
+      <facetEntailment facetID="MX_11b_f7" label="Expressed"/>
+      <facetEntailment facetID="MX_11b_f8" label="Assumed"/>
+      <facetEntailment facetID="MX_11b_f9" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.11b.255.1" answerText="Clear nothing on bottom." accuracy="contradictory">
+      <facetEntailment facetID="MX_11b_f1" label="Contra-Infr"/>
+      <facetEntailment facetID="MX_11b_f2" label="Contra-Infr"/>
+      <facetEntailment facetID="MX_11b_f3" label="Contra-Expr"/>
+      <facetEntailment facetID="MX_11b_f4" label="Assumed"/>
+      <facetEntailment facetID="MX_11b_f5" label="Assumed"/>
+      <facetEntailment facetID="MX_11b_f6" label="Assumed"/>
+      <facetEntailment facetID="MX_11b_f7" label="Assumed"/>
+      <facetEntailment facetID="MX_11b_f8" label="Assumed"/>
+      <facetEntailment facetID="MX_11b_f9" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.11b.285.1" answerText="It is chemical reaction." accuracy="irrelevant">
+      <facetEntailment facetID="MX_11b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="MX_11b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MX_11b_f3" label="Assumed"/>
+      <facetEntailment facetID="MX_11b_f4" label="Assumed"/>
+      <facetEntailment facetID="MX_11b_f5" label="Assumed"/>
+      <facetEntailment facetID="MX_11b_f6" label="Assumed"/>
+      <facetEntailment facetID="MX_11b_f7" label="Assumed"/>
+      <facetEntailment facetID="MX_11b_f8" label="Assumed"/>
+      <facetEntailment facetID="MX_11b_f9" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.11b.356.1" answerText="Mixtures 4 and 5 are saturate because there is material on bottom." accuracy="correct">
+      <facetEntailment facetID="MX_11b_f1" label="Expressed"/>
+      <facetEntailment facetID="MX_11b_f2" label="Expressed"/>
+      <facetEntailment facetID="MX_11b_f3" label="Expressed"/>
+      <facetEntailment facetID="MX_11b_f4" label="Expressed"/>
+      <facetEntailment facetID="MX_11b_f5" label="Expressed"/>
+      <facetEntailment facetID="MX_11b_f6" label="Expressed"/>
+      <facetEntailment facetID="MX_11b_f7" label="Expressed"/>
+      <facetEntailment facetID="MX_11b_f8" label="Expressed"/>
+      <facetEntailment facetID="MX_11b_f9" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.11b.384.1" answerText="Solution 4 and solution 5. The cup has material on the bottom." accuracy="correct">
+      <facetEntailment facetID="MX_11b_f1" label="Inferred"/>
+      <facetEntailment facetID="MX_11b_f2" label="Inferred"/>
+      <facetEntailment facetID="MX_11b_f3" label="Expressed"/>
+      <facetEntailment facetID="MX_11b_f4" label="Expressed"/>
+      <facetEntailment facetID="MX_11b_f5" label="Expressed"/>
+      <facetEntailment facetID="MX_11b_f6" label="Expressed"/>
+      <facetEntailment facetID="MX_11b_f7" label="Expressed"/>
+      <facetEntailment facetID="MX_11b_f8" label="Assumed"/>
+      <facetEntailment facetID="MX_11b_f9" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="MX.11b.388.1" answerText="4 and 5 are saturated because there is material on the bottom that will not dissolve." accuracy="correct">
+      <facetEntailment facetID="MX_11b_f1" label="Expressed"/>
+      <facetEntailment facetID="MX_11b_f2" label="Expressed"/>
+      <facetEntailment facetID="MX_11b_f3" label="Expressed"/>
+      <facetEntailment facetID="MX_11b_f4" label="Expressed"/>
+      <facetEntailment facetID="MX_11b_f5" label="Assumed"/>
+      <facetEntailment facetID="MX_11b_f6" label="Expressed"/>
+      <facetEntailment facetID="MX_11b_f7" label="Assumed"/>
+      <facetEntailment facetID="MX_11b_f8" label="Expressed"/>
+      <facetEntailment facetID="MX_11b_f9" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.11b.389.1" answerText="Solution 4, 5. Saturation is when you can see some material on the bottom." accuracy="correct">
+      <facetEntailment facetID="MX_11b_f1" label="Expressed"/>
+      <facetEntailment facetID="MX_11b_f2" label="Expressed"/>
+      <facetEntailment facetID="MX_11b_f3" label="Expressed"/>
+      <facetEntailment facetID="MX_11b_f4" label="Expressed"/>
+      <facetEntailment facetID="MX_11b_f5" label="Expressed"/>
+      <facetEntailment facetID="MX_11b_f6" label="Expressed"/>
+      <facetEntailment facetID="MX_11b_f7" label="Expressed"/>
+      <facetEntailment facetID="MX_11b_f8" label="Expressed"/>
+      <facetEntailment facetID="MX_11b_f9" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.11b.390.1" answerText="4 and 5 because there is material on the bottom." accuracy="correct">
+      <facetEntailment facetID="MX_11b_f1" label="Inferred"/>
+      <facetEntailment facetID="MX_11b_f2" label="Inferred"/>
+      <facetEntailment facetID="MX_11b_f3" label="Expressed"/>
+      <facetEntailment facetID="MX_11b_f4" label="Expressed"/>
+      <facetEntailment facetID="MX_11b_f5" label="Assumed"/>
+      <facetEntailment facetID="MX_11b_f6" label="Expressed"/>
+      <facetEntailment facetID="MX_11b_f7" label="Assumed"/>
+      <facetEntailment facetID="MX_11b_f8" label="Assumed"/>
+      <facetEntailment facetID="MX_11b_f9" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="MX.11b.394.1" answerText="Mixture 4 and mixture 5 are saturated. When water cannot hold any more of a solid, when you try to add more, it falls to the bottom. That happened in both mixture 4 and 5 so they are both saturated." accuracy="correct">
+      <facetEntailment facetID="MX_11b_f1" label="Expressed"/>
+      <facetEntailment facetID="MX_11b_f2" label="Expressed"/>
+      <facetEntailment facetID="MX_11b_f3" label="Expressed"/>
+      <facetEntailment facetID="MX_11b_f4" label="Expressed"/>
+      <facetEntailment facetID="MX_11b_f5" label="Expressed"/>
+      <facetEntailment facetID="MX_11b_f6" label="Expressed"/>
+      <facetEntailment facetID="MX_11b_f7" label="Expressed"/>
+      <facetEntailment facetID="MX_11b_f8" label="Expressed"/>
+      <facetEntailment facetID="MX_11b_f9" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.11b.419.1" answerText="I forgot what that means." accuracy="irrelevant">
+      <facetEntailment facetID="MX_11b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="MX_11b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MX_11b_f3" label="Assumed"/>
+      <facetEntailment facetID="MX_11b_f4" label="Assumed"/>
+      <facetEntailment facetID="MX_11b_f5" label="Assumed"/>
+      <facetEntailment facetID="MX_11b_f6" label="Assumed"/>
+      <facetEntailment facetID="MX_11b_f7" label="Assumed"/>
+      <facetEntailment facetID="MX_11b_f8" label="Assumed"/>
+      <facetEntailment facetID="MX_11b_f9" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.11b.421.1" answerText="Mixture 4 and mixture 5. It is when particles is sitting at the bottom." accuracy="correct">
+      <facetEntailment facetID="MX_11b_f1" label="Inferred"/>
+      <facetEntailment facetID="MX_11b_f2" label="Inferred"/>
+      <facetEntailment facetID="MX_11b_f3" label="Expressed"/>
+      <facetEntailment facetID="MX_11b_f4" label="Expressed"/>
+      <facetEntailment facetID="MX_11b_f5" label="Expressed"/>
+      <facetEntailment facetID="MX_11b_f6" label="Expressed"/>
+      <facetEntailment facetID="MX_11b_f7" label="Expressed"/>
+      <facetEntailment facetID="MX_11b_f8" label="Assumed"/>
+      <facetEntailment facetID="MX_11b_f9" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="MX.11b.422.1" answerText="Mixture 4 and 5 are both saturated because they have material on the bottom." accuracy="correct">
+      <facetEntailment facetID="MX_11b_f1" label="Expressed"/>
+      <facetEntailment facetID="MX_11b_f2" label="Expressed"/>
+      <facetEntailment facetID="MX_11b_f3" label="Expressed"/>
+      <facetEntailment facetID="MX_11b_f4" label="Expressed"/>
+      <facetEntailment facetID="MX_11b_f5" label="Expressed"/>
+      <facetEntailment facetID="MX_11b_f6" label="Expressed"/>
+      <facetEntailment facetID="MX_11b_f7" label="Expressed"/>
+      <facetEntailment facetID="MX_11b_f8" label="Expressed"/>
+      <facetEntailment facetID="MX_11b_f9" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.11b.429.1" answerText="Mixture one, 2, and 3 because they are clean on the bottom." accuracy="contradictory">
+      <facetEntailment facetID="MX_11b_f1" label="Contra-Infr"/>
+      <facetEntailment facetID="MX_11b_f2" label="Contra-Infr"/>
+      <facetEntailment facetID="MX_11b_f3" label="Contra-Infr"/>
+      <facetEntailment facetID="MX_11b_f4" label="Assumed"/>
+      <facetEntailment facetID="MX_11b_f5" label="Diff-Arg"/>
+      <facetEntailment facetID="MX_11b_f6" label="Assumed"/>
+      <facetEntailment facetID="MX_11b_f7" label="Diff-Arg"/>
+      <facetEntailment facetID="MX_11b_f8" label="Assumed"/>
+      <facetEntailment facetID="MX_11b_f9" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.11b.432.1" answerText="4 and 5 because there stuff on the bottom." accuracy="correct">
+      <facetEntailment facetID="MX_11b_f1" label="Inferred"/>
+      <facetEntailment facetID="MX_11b_f2" label="Inferred"/>
+      <facetEntailment facetID="MX_11b_f3" label="Expressed"/>
+      <facetEntailment facetID="MX_11b_f4" label="Expressed"/>
+      <facetEntailment facetID="MX_11b_f5" label="Assumed"/>
+      <facetEntailment facetID="MX_11b_f6" label="Expressed"/>
+      <facetEntailment facetID="MX_11b_f7" label="Assumed"/>
+      <facetEntailment facetID="MX_11b_f8" label="Assumed"/>
+      <facetEntailment facetID="MX_11b_f9" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="MX.11b.452.1" answerText="Mixture 4 and 5 because there is no more space to dissolve so it is saturated." accuracy="correct">
+      <facetEntailment facetID="MX_11b_f1" label="Expressed"/>
+      <facetEntailment facetID="MX_11b_f2" label="Expressed"/>
+      <facetEntailment facetID="MX_11b_f3" label="Assumed"/>
+      <facetEntailment facetID="MX_11b_f4" label="Assumed"/>
+      <facetEntailment facetID="MX_11b_f5" label="Expressed"/>
+      <facetEntailment facetID="MX_11b_f6" label="Assumed"/>
+      <facetEntailment facetID="MX_11b_f7" label="Expressed"/>
+      <facetEntailment facetID="MX_11b_f8" label="Assumed"/>
+      <facetEntailment facetID="MX_11b_f9" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="MX.11b.454.1" answerText="4 and 5 are saturated because there is solid on the bottom." accuracy="correct">
+      <facetEntailment facetID="MX_11b_f1" label="Expressed"/>
+      <facetEntailment facetID="MX_11b_f2" label="Expressed"/>
+      <facetEntailment facetID="MX_11b_f3" label="Expressed"/>
+      <facetEntailment facetID="MX_11b_f4" label="Expressed"/>
+      <facetEntailment facetID="MX_11b_f5" label="Assumed"/>
+      <facetEntailment facetID="MX_11b_f6" label="Expressed"/>
+      <facetEntailment facetID="MX_11b_f7" label="Assumed"/>
+      <facetEntailment facetID="MX_11b_f8" label="Assumed"/>
+      <facetEntailment facetID="MX_11b_f9" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.11b.463.1" answerText="4 and 5 because he has clear water and material on the bottom." accuracy="correct">
+      <facetEntailment facetID="MX_11b_f1" label="Inferred"/>
+      <facetEntailment facetID="MX_11b_f2" label="Inferred"/>
+      <facetEntailment facetID="MX_11b_f3" label="Expressed"/>
+      <facetEntailment facetID="MX_11b_f4" label="Expressed"/>
+      <facetEntailment facetID="MX_11b_f5" label="Assumed"/>
+      <facetEntailment facetID="MX_11b_f6" label="Expressed"/>
+      <facetEntailment facetID="MX_11b_f7" label="Assumed"/>
+      <facetEntailment facetID="MX_11b_f8" label="Assumed"/>
+      <facetEntailment facetID="MX_11b_f9" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="MX.11b.467.1" answerText="4 and 5 because there is stuff at the bottom." accuracy="correct">
+      <facetEntailment facetID="MX_11b_f1" label="Inferred"/>
+      <facetEntailment facetID="MX_11b_f2" label="Inferred"/>
+      <facetEntailment facetID="MX_11b_f3" label="Expressed"/>
+      <facetEntailment facetID="MX_11b_f4" label="Expressed"/>
+      <facetEntailment facetID="MX_11b_f5" label="Assumed"/>
+      <facetEntailment facetID="MX_11b_f6" label="Expressed"/>
+      <facetEntailment facetID="MX_11b_f7" label="Assumed"/>
+      <facetEntailment facetID="MX_11b_f8" label="Assumed"/>
+      <facetEntailment facetID="MX_11b_f9" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="MX.11b.468.1" answerText="Material 4, 5 has stuff on the bottom." accuracy="correct">
+      <facetEntailment facetID="MX_11b_f1" label="Inferred"/>
+      <facetEntailment facetID="MX_11b_f2" label="Inferred"/>
+      <facetEntailment facetID="MX_11b_f3" label="Expressed"/>
+      <facetEntailment facetID="MX_11b_f4" label="Expressed"/>
+      <facetEntailment facetID="MX_11b_f5" label="Expressed"/>
+      <facetEntailment facetID="MX_11b_f6" label="Expressed"/>
+      <facetEntailment facetID="MX_11b_f7" label="Expressed"/>
+      <facetEntailment facetID="MX_11b_f8" label="Assumed"/>
+      <facetEntailment facetID="MX_11b_f9" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="MX.11b.471.1" answerText="4 and 5. There is material on the bottom." accuracy="correct">
+      <facetEntailment facetID="MX_11b_f1" label="Inferred"/>
+      <facetEntailment facetID="MX_11b_f2" label="Inferred"/>
+      <facetEntailment facetID="MX_11b_f3" label="Expressed"/>
+      <facetEntailment facetID="MX_11b_f4" label="Expressed"/>
+      <facetEntailment facetID="MX_11b_f5" label="Assumed"/>
+      <facetEntailment facetID="MX_11b_f6" label="Expressed"/>
+      <facetEntailment facetID="MX_11b_f7" label="Assumed"/>
+      <facetEntailment facetID="MX_11b_f8" label="Assumed"/>
+      <facetEntailment facetID="MX_11b_f9" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="MX.11b.473.1" answerText="Solution 4, 5 has some material." accuracy="correct">
+      <facetEntailment facetID="MX_11b_f1" label="Inferred"/>
+      <facetEntailment facetID="MX_11b_f2" label="Inferred"/>
+      <facetEntailment facetID="MX_11b_f3" label="Assumed"/>
+      <facetEntailment facetID="MX_11b_f4" label="Assumed"/>
+      <facetEntailment facetID="MX_11b_f5" label="Expressed"/>
+      <facetEntailment facetID="MX_11b_f6" label="Assumed"/>
+      <facetEntailment facetID="MX_11b_f7" label="Expressed"/>
+      <facetEntailment facetID="MX_11b_f8" label="Assumed"/>
+      <facetEntailment facetID="MX_11b_f9" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="MX.11b.489.1" answerText="4 and 5 because they have material on the bottom." accuracy="correct">
+      <facetEntailment facetID="MX_11b_f1" label="Inferred"/>
+      <facetEntailment facetID="MX_11b_f2" label="Inferred"/>
+      <facetEntailment facetID="MX_11b_f3" label="Expressed"/>
+      <facetEntailment facetID="MX_11b_f4" label="Expressed"/>
+      <facetEntailment facetID="MX_11b_f5" label="Assumed"/>
+      <facetEntailment facetID="MX_11b_f6" label="Expressed"/>
+      <facetEntailment facetID="MX_11b_f7" label="Assumed"/>
+      <facetEntailment facetID="MX_11b_f8" label="Assumed"/>
+      <facetEntailment facetID="MX_11b_f9" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="MX.11b.492.1" answerText="4 and 5 are saturated because there stuff on the bottom." accuracy="correct">
+      <facetEntailment facetID="MX_11b_f1" label="Expressed"/>
+      <facetEntailment facetID="MX_11b_f2" label="Expressed"/>
+      <facetEntailment facetID="MX_11b_f3" label="Expressed"/>
+      <facetEntailment facetID="MX_11b_f4" label="Expressed"/>
+      <facetEntailment facetID="MX_11b_f5" label="Assumed"/>
+      <facetEntailment facetID="MX_11b_f6" label="Expressed"/>
+      <facetEntailment facetID="MX_11b_f7" label="Assumed"/>
+      <facetEntailment facetID="MX_11b_f8" label="Expressed"/>
+      <facetEntailment facetID="MX_11b_f9" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.11b.494.1" answerText="4 and 5 are saturated because that is solid at the bottom." accuracy="correct">
+      <facetEntailment facetID="MX_11b_f1" label="Expressed"/>
+      <facetEntailment facetID="MX_11b_f2" label="Expressed"/>
+      <facetEntailment facetID="MX_11b_f3" label="Expressed"/>
+      <facetEntailment facetID="MX_11b_f4" label="Expressed"/>
+      <facetEntailment facetID="MX_11b_f5" label="Assumed"/>
+      <facetEntailment facetID="MX_11b_f6" label="Expressed"/>
+      <facetEntailment facetID="MX_11b_f7" label="Assumed"/>
+      <facetEntailment facetID="MX_11b_f8" label="Expressed"/>
+      <facetEntailment facetID="MX_11b_f9" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.11b.495.1" answerText="Mixture 4 and 5 because there is material at the bottom." accuracy="correct">
+      <facetEntailment facetID="MX_11b_f1" label="Inferred"/>
+      <facetEntailment facetID="MX_11b_f2" label="Inferred"/>
+      <facetEntailment facetID="MX_11b_f3" label="Expressed"/>
+      <facetEntailment facetID="MX_11b_f4" label="Expressed"/>
+      <facetEntailment facetID="MX_11b_f5" label="Expressed"/>
+      <facetEntailment facetID="MX_11b_f6" label="Expressed"/>
+      <facetEntailment facetID="MX_11b_f7" label="Expressed"/>
+      <facetEntailment facetID="MX_11b_f8" label="Assumed"/>
+      <facetEntailment facetID="MX_11b_f9" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="MX.11b.497.1" answerText="4 and 5 because there is a solid at the bottom." accuracy="correct">
+      <facetEntailment facetID="MX_11b_f1" label="Inferred"/>
+      <facetEntailment facetID="MX_11b_f2" label="Inferred"/>
+      <facetEntailment facetID="MX_11b_f3" label="Expressed"/>
+      <facetEntailment facetID="MX_11b_f4" label="Expressed"/>
+      <facetEntailment facetID="MX_11b_f5" label="Assumed"/>
+      <facetEntailment facetID="MX_11b_f6" label="Expressed"/>
+      <facetEntailment facetID="MX_11b_f7" label="Assumed"/>
+      <facetEntailment facetID="MX_11b_f8" label="Assumed"/>
+      <facetEntailment facetID="MX_11b_f9" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="MX.11b.498.1" answerText="Cup 4 and 5 they are the material at the bottom so they are saturated." accuracy="correct">
+      <facetEntailment facetID="MX_11b_f1" label="Expressed"/>
+      <facetEntailment facetID="MX_11b_f2" label="Expressed"/>
+      <facetEntailment facetID="MX_11b_f3" label="Expressed"/>
+      <facetEntailment facetID="MX_11b_f4" label="Expressed"/>
+      <facetEntailment facetID="MX_11b_f5" label="Expressed"/>
+      <facetEntailment facetID="MX_11b_f6" label="Expressed"/>
+      <facetEntailment facetID="MX_11b_f7" label="Expressed"/>
+      <facetEntailment facetID="MX_11b_f8" label="Expressed"/>
+      <facetEntailment facetID="MX_11b_f9" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.11b.501.1" answerText="Mixtures 4 and 5, the evidence is that there is material at the bottom and that means it is saturated." accuracy="correct">
+      <facetEntailment facetID="MX_11b_f1" label="Expressed"/>
+      <facetEntailment facetID="MX_11b_f2" label="Expressed"/>
+      <facetEntailment facetID="MX_11b_f3" label="Expressed"/>
+      <facetEntailment facetID="MX_11b_f4" label="Expressed"/>
+      <facetEntailment facetID="MX_11b_f5" label="Expressed"/>
+      <facetEntailment facetID="MX_11b_f6" label="Expressed"/>
+      <facetEntailment facetID="MX_11b_f7" label="Expressed"/>
+      <facetEntailment facetID="MX_11b_f8" label="Expressed"/>
+      <facetEntailment facetID="MX_11b_f9" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.11b.502.1" answerText="4 and 5. Material on the bottom." accuracy="correct">
+      <facetEntailment facetID="MX_11b_f1" label="Inferred"/>
+      <facetEntailment facetID="MX_11b_f2" label="Inferred"/>
+      <facetEntailment facetID="MX_11b_f3" label="Expressed"/>
+      <facetEntailment facetID="MX_11b_f4" label="Expressed"/>
+      <facetEntailment facetID="MX_11b_f5" label="Assumed"/>
+      <facetEntailment facetID="MX_11b_f6" label="Expressed"/>
+      <facetEntailment facetID="MX_11b_f7" label="Assumed"/>
+      <facetEntailment facetID="MX_11b_f8" label="Assumed"/>
+      <facetEntailment facetID="MX_11b_f9" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="MX.11b.532.1" answerText="I think mixture 4 mixtures are." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="MX_11b_f1" label="Inferred"/>
+      <facetEntailment facetID="MX_11b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MX_11b_f3" label="Assumed"/>
+      <facetEntailment facetID="MX_11b_f4" label="Assumed"/>
+      <facetEntailment facetID="MX_11b_f5" label="Expressed"/>
+      <facetEntailment facetID="MX_11b_f6" label="Assumed"/>
+      <facetEntailment facetID="MX_11b_f7" label="Assumed"/>
+      <facetEntailment facetID="MX_11b_f8" label="Assumed"/>
+      <facetEntailment facetID="MX_11b_f9" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.11b.557.1" answerText="Mixture 4 and 5. The material at the bottom." accuracy="correct">
+      <facetEntailment facetID="MX_11b_f1" label="Inferred"/>
+      <facetEntailment facetID="MX_11b_f2" label="Inferred"/>
+      <facetEntailment facetID="MX_11b_f3" label="Expressed"/>
+      <facetEntailment facetID="MX_11b_f4" label="Expressed"/>
+      <facetEntailment facetID="MX_11b_f5" label="Expressed"/>
+      <facetEntailment facetID="MX_11b_f6" label="Expressed"/>
+      <facetEntailment facetID="MX_11b_f7" label="Expressed"/>
+      <facetEntailment facetID="MX_11b_f8" label="Assumed"/>
+      <facetEntailment facetID="MX_11b_f9" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="MX.11b.562.1" answerText="Mixture one and 3 because they are both clear and have no particles on the bottom." accuracy="contradictory">
+      <facetEntailment facetID="MX_11b_f1" label="Diff-Arg"/>
+      <facetEntailment facetID="MX_11b_f2" label="Diff-Arg"/>
+      <facetEntailment facetID="MX_11b_f3" label="Contra-Expr"/>
+      <facetEntailment facetID="MX_11b_f4" label="Diff-Arg"/>
+      <facetEntailment facetID="MX_11b_f5" label="Diff-Arg"/>
+      <facetEntailment facetID="MX_11b_f6" label="Diff-Arg"/>
+      <facetEntailment facetID="MX_11b_f7" label="Diff-Arg"/>
+      <facetEntailment facetID="MX_11b_f8" label="Assumed"/>
+      <facetEntailment facetID="MX_11b_f9" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.11b.569.1" answerText="Solution 4 and 5 because there is material on the bottom." accuracy="correct">
+      <facetEntailment facetID="MX_11b_f1" label="Inferred"/>
+      <facetEntailment facetID="MX_11b_f2" label="Inferred"/>
+      <facetEntailment facetID="MX_11b_f3" label="Expressed"/>
+      <facetEntailment facetID="MX_11b_f4" label="Expressed"/>
+      <facetEntailment facetID="MX_11b_f5" label="Expressed"/>
+      <facetEntailment facetID="MX_11b_f6" label="Expressed"/>
+      <facetEntailment facetID="MX_11b_f7" label="Expressed"/>
+      <facetEntailment facetID="MX_11b_f8" label="Assumed"/>
+      <facetEntailment facetID="MX_11b_f9" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="MX.11b.602.1" answerText="Saturation means stuff at the bottom." accuracy="correct">
+      <facetEntailment facetID="MX_11b_f1" label="Inferred"/>
+      <facetEntailment facetID="MX_11b_f2" label="Inferred"/>
+      <facetEntailment facetID="MX_11b_f3" label="Expressed"/>
+      <facetEntailment facetID="MX_11b_f4" label="Assumed"/>
+      <facetEntailment facetID="MX_11b_f5" label="Assumed"/>
+      <facetEntailment facetID="MX_11b_f6" label="Assumed"/>
+      <facetEntailment facetID="MX_11b_f7" label="Assumed"/>
+      <facetEntailment facetID="MX_11b_f8" label="Assumed"/>
+      <facetEntailment facetID="MX_11b_f9" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="MX.11b.604.1" answerText="4, 5 there is solid at the bottom." accuracy="correct">
+      <facetEntailment facetID="MX_11b_f1" label="Inferred"/>
+      <facetEntailment facetID="MX_11b_f2" label="Inferred"/>
+      <facetEntailment facetID="MX_11b_f3" label="Expressed"/>
+      <facetEntailment facetID="MX_11b_f4" label="Expressed"/>
+      <facetEntailment facetID="MX_11b_f5" label="Assumed"/>
+      <facetEntailment facetID="MX_11b_f6" label="Expressed"/>
+      <facetEntailment facetID="MX_11b_f7" label="Assumed"/>
+      <facetEntailment facetID="MX_11b_f8" label="Assumed"/>
+      <facetEntailment facetID="MX_11b_f9" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="MX.11b.612.1" answerText="A mixture that still has stuff at the bottom." accuracy="correct">
+      <facetEntailment facetID="MX_11b_f1" label="Inferred"/>
+      <facetEntailment facetID="MX_11b_f2" label="Inferred"/>
+      <facetEntailment facetID="MX_11b_f3" label="Expressed"/>
+      <facetEntailment facetID="MX_11b_f4" label="Assumed"/>
+      <facetEntailment facetID="MX_11b_f5" label="Assumed"/>
+      <facetEntailment facetID="MX_11b_f6" label="Assumed"/>
+      <facetEntailment facetID="MX_11b_f7" label="Assumed"/>
+      <facetEntailment facetID="MX_11b_f8" label="Assumed"/>
+      <facetEntailment facetID="MX_11b_f9" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="MX.11b.644.1" answerText="None because I do not think solid and water make a solution." accuracy="contradictory">
+      <facetEntailment facetID="MX_11b_f1" label="Contra-Expr"/>
+      <facetEntailment facetID="MX_11b_f2" label="Contra-Expr"/>
+      <facetEntailment facetID="MX_11b_f3" label="Assumed"/>
+      <facetEntailment facetID="MX_11b_f4" label="Assumed"/>
+      <facetEntailment facetID="MX_11b_f5" label="Assumed"/>
+      <facetEntailment facetID="MX_11b_f6" label="Assumed"/>
+      <facetEntailment facetID="MX_11b_f7" label="Assumed"/>
+      <facetEntailment facetID="MX_11b_f8" label="Assumed"/>
+      <facetEntailment facetID="MX_11b_f9" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.11b.961.1" answerText="Solutions one and 3." accuracy="contradictory">
+      <facetEntailment facetID="MX_11b_f1" label="Contra-Infr"/>
+      <facetEntailment facetID="MX_11b_f2" label="Contra-Infr"/>
+      <facetEntailment facetID="MX_11b_f3" label="Assumed"/>
+      <facetEntailment facetID="MX_11b_f4" label="Assumed"/>
+      <facetEntailment facetID="MX_11b_f5" label="Diff-Arg"/>
+      <facetEntailment facetID="MX_11b_f6" label="Assumed"/>
+      <facetEntailment facetID="MX_11b_f7" label="Diff-Arg"/>
+      <facetEntailment facetID="MX_11b_f8" label="Assumed"/>
+      <facetEntailment facetID="MX_11b_f9" label="Unaddressed"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

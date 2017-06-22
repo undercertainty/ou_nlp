@@ -1,0 +1,90 @@
+<?xml version="1.0"?>
+<question testSet="unseen-answers" id="ME_38a" module="ME">
+  <questionText>Trace over the complete circuit with your pencil to show where it is. Even though there is a complete circuit, the bulb will not light. Why not?</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="ME_38a-a1" text="The circuit does not include both contact points on the bulb holder, so the electricity can not go through the bulb.">
+      <tokens>
+        <token id="ME_38a_ra1">The</token>
+        <token id="ME_38a_ra2">circuit</token>
+        <token id="ME_38a_ra3">does</token>
+        <token id="ME_38a_ra4">not</token>
+        <token id="ME_38a_ra5">include</token>
+        <token id="ME_38a_ra6">both</token>
+        <token id="ME_38a_ra7">contact</token>
+        <token id="ME_38a_ra8">points</token>
+        <token id="ME_38a_ra9">on</token>
+        <token id="ME_38a_ra10">the</token>
+        <token id="ME_38a_ra11">bulb</token>
+        <token id="ME_38a_ra12">holder</token>
+        <token id="ME_38a_ra13">,</token>
+        <token id="ME_38a_ra14">so</token>
+        <token id="ME_38a_ra15">the</token>
+        <token id="ME_38a_ra16">electricity</token>
+        <token id="ME_38a_ra17">can</token>
+        <token id="ME_38a_ra18">not</token>
+        <token id="ME_38a_ra19">go</token>
+        <token id="ME_38a_ra20">through</token>
+        <token id="ME_38a_ra21">the</token>
+        <token id="ME_38a_ra22">bulb</token>
+        <token id="ME_38a_ra23">.</token>
+      </tokens>
+      <facets>
+        <facet id="ME_38a_f1" govNum="ME_38a_ra5" modNum="ME_38a_ra2" reltn="Theme_neg_not" govText="include" modText="circuit"/>
+        <facet id="ME_38a_f2" govNum="ME_38a_ra5" modNum="ME_38a_ra8" reltn="Material" govText="include" modText="points"/>
+        <facet id="ME_38a_f3" govNum="ME_38a_ra8" modNum="ME_38a_ra6" reltn="Quantifier" govText="points" modText="both"/>
+        <facet id="ME_38a_f4" govNum="ME_38a_ra8" modNum="ME_38a_ra7" reltn="NMod" govText="points" modText="contact"/>
+        <facet id="ME_38a_f5" govNum="ME_38a_ra8" modNum="ME_38a_ra12" reltn="Location_on" govText="points" modText="holder"/>
+        <facet id="ME_38a_f6" govNum="ME_38a_ra12" modNum="ME_38a_ra11" reltn="NMod" govText="holder" modText="bulb"/>
+        <facet id="ME_38a_f7" govNum="ME_38a_ra19" modNum="ME_38a_ra16" reltn="Theme_neg_not" govText="go" modText="electricity"/>
+        <facet id="ME_38a_f8" govNum="ME_38a_ra19" modNum="ME_38a_ra22" reltn="Destination_through" govText="go" modText="bulb"/>
+        <facet id="ME_38a_f9" govNum="ME_38a_ra19" modNum="ME_38a_ra5" reltn="Cause_so" childProp2Facet2="ME_38a_f2" childProp1Facet1="ME_38a_f7" govText="go" childProp1Facet2="ME_38a_f8" modText="include" childProp2Facet1="ME_38a_f1"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="ME.38a.118.1" answerText="Because the hook needs the wire to move so one is on each side." accuracy="correct">
+      <facetEntailment facetID="ME_38a_f1" label="Inferred"/>
+      <facetEntailment facetID="ME_38a_f2" label="Inferred"/>
+      <facetEntailment facetID="ME_38a_f3" label="Inferred"/>
+      <facetEntailment facetID="ME_38a_f4" label="Inferred"/>
+      <facetEntailment facetID="ME_38a_f5" label="Inferred"/>
+      <facetEntailment facetID="ME_38a_f6" label="Inferred"/>
+      <facetEntailment facetID="ME_38a_f7" label="Inferred"/>
+      <facetEntailment facetID="ME_38a_f8" label="Inferred"/>
+      <facetEntailment facetID="ME_38a_f9" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="ME.38a.123.1" answerText="The wire on the negative side of the light needs to be hooked to the motor's clip it should look like this?" accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="ME_38a_f1" label="Inferred"/>
+      <facetEntailment facetID="ME_38a_f2" label="Inferred"/>
+      <facetEntailment facetID="ME_38a_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f4" label="Inferred"/>
+      <facetEntailment facetID="ME_38a_f5" label="Inferred"/>
+      <facetEntailment facetID="ME_38a_f6" label="Diff-Arg"/>
+      <facetEntailment facetID="ME_38a_f7" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f8" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f9" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.38a.152.1" answerText="It is not a complete circuit." accuracy="contradictory">
+      <facetEntailment facetID="ME_38a_f1" label="Inferred"/>
+      <facetEntailment facetID="ME_38a_f2" label="Inferred"/>
+      <facetEntailment facetID="ME_38a_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f4" label="Inferred"/>
+      <facetEntailment facetID="ME_38a_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f6" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f7" label="Inferred"/>
+      <facetEntailment facetID="ME_38a_f8" label="Inferred"/>
+      <facetEntailment facetID="ME_38a_f9" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.38a.192.1" answerText="The bulb will not light because there is a closed circuit." accuracy="irrelevant">
+      <facetEntailment facetID="ME_38a_f1" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f6" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f7" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f8" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f9" label="Unaddressed"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

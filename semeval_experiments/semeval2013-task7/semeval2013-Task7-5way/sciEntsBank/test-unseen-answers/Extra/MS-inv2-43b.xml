@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<question testSet="unseen-answers" id="MS_43b" module="MS">
+  <questionText>2 groups used marbles to weigh the same apple. Jin's group found the apple weighed 35 marbles and Bee's group found the same apple weighed 60 marbles. Both groups used the correct procedure. What should the groups do to make their results more useful?</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="MS_43b-a1" text="Use a standard unit of mass like grams.">
+      <tokens>
+        <token id="MS_43b_ra1">Use</token>
+        <token id="MS_43b_ra2">a</token>
+        <token id="MS_43b_ra3">standard</token>
+        <token id="MS_43b_ra4">unit</token>
+        <token id="MS_43b_ra5">of</token>
+        <token id="MS_43b_ra6">mass</token>
+        <token id="MS_43b_ra7">like</token>
+        <token id="MS_43b_ra8">grams</token>
+        <token id="MS_43b_ra9">.</token>
+      </tokens>
+      <facets>
+        <facet id="MS_43b_f1" govNum="MS_43b_ra1" modNum="MS_43b_ra4" reltn="Theme" govText="Use" modText="unit"/>
+        <facet id="MS_43b_f2" govNum="MS_43b_ra4" modNum="MS_43b_ra3" reltn="NMod" govText="unit" modText="standard"/>
+        <facet id="MS_43b_f3" govNum="MS_43b_ra4" modNum="MS_43b_ra6" reltn="NMod_of" govText="unit" isAssumed="true" modText="mass"/>
+        <facet id="MS_43b_f4" govNum="MS_43b_ra4" modNum="MS_43b_ra8" reltn="NMod_like" govText="unit" modText="grams"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="MS.43b.143.1" answerText="They should zero their balances." accuracy="irrelevant">
+      <facetEntailment facetID="MS_43b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="MS_43b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MS_43b_f3" label="Assumed"/>
+      <facetEntailment facetID="MS_43b_f4" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MS.43b.174.1" answerText="Get the same marbles." accuracy="irrelevant">
+      <facetEntailment facetID="MS_43b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="MS_43b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MS_43b_f3" label="Assumed"/>
+      <facetEntailment facetID="MS_43b_f4" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MS.43b.417.1" answerText="They should zero it out before they put the apple in." accuracy="irrelevant">
+      <facetEntailment facetID="MS_43b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="MS_43b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MS_43b_f3" label="Assumed"/>
+      <facetEntailment facetID="MS_43b_f4" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MS.43b.532.1" answerText="Use grams." accuracy="correct">
+      <facetEntailment facetID="MS_43b_f1" label="Inferred"/>
+      <facetEntailment facetID="MS_43b_f2" label="Inferred"/>
+      <facetEntailment facetID="MS_43b_f3" label="Expressed"/>
+      <facetEntailment facetID="MS_43b_f4" label="Expressed"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

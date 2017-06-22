@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<question testSet="unseen-answers" id="ME_10" module="ME">
+  <questionText>The motors shown at the right with the D-cell batteries will NOT run. Explain why.</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="ME_10-a1" text="The negative terminals of the D-cell batteries are facing each other, so there is no flow of electricity.">
+      <tokens>
+        <token id="ME_10_ra1">The</token>
+        <token id="ME_10_ra2">negative</token>
+        <token id="ME_10_ra3">terminals</token>
+        <token id="ME_10_ra4">of</token>
+        <token id="ME_10_ra5">the</token>
+        <token id="ME_10_ra6">D-cell</token>
+        <token id="ME_10_ra7">batteries</token>
+        <token id="ME_10_ra8">are</token>
+        <token id="ME_10_ra9">facing</token>
+        <token id="ME_10_ra10">each</token>
+        <token id="ME_10_ra11">other</token>
+        <token id="ME_10_ra12">,</token>
+        <token id="ME_10_ra13">so</token>
+        <token id="ME_10_ra14">there</token>
+        <token id="ME_10_ra15">is</token>
+        <token id="ME_10_ra16">no</token>
+        <token id="ME_10_ra17">flow</token>
+        <token id="ME_10_ra18">of</token>
+        <token id="ME_10_ra19">electricity</token>
+        <token id="ME_10_ra20">.</token>
+      </tokens>
+      <facets>
+        <facet id="ME_10_f1" govNum="ME_10_ra3" modNum="ME_10_ra2" reltn="NMod" govText="terminals" modText="negative"/>
+        <facet id="ME_10_f2" govNum="ME_10_ra3" modNum="ME_10_ra7" reltn="NMod_of" govText="terminals" modText="batteries "/>
+        <facet id="ME_10_f3" govNum="ME_10_ra7" modNum="ME_10_ra6" reltn="NMod" govText="batteries" isAssumed="true" modText="D-cell"/>
+        <facet id="ME_10_f4" govNum="ME_10_ra9" modNum="ME_10_ra3" reltn="Theme" govText="facing" modText="terminals"/>
+        <facet id="ME_10_f5" govNum="ME_10_ra9" modNum="ME_10_ra10" reltn="Direction" govText="facing" modText="each other"/>
+        <facet id="ME_10_f6" govNum="ME_10_ra17" modNum="ME_10_ra19" reltn="Theme_neg_no" govText="flow" modText="electricity"/>
+        <facet id="ME_10_f7" govNum="ME_10_ra15" modNum="ME_10_ra9" reltn="Cause_so" childProp2Facet2="ME_10_f5" childProp1Facet1="ME_10_f6" govText="is" modText="facing" childProp2Facet1="ME_10_f4"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="ME.10.105.1" answerText="They will not run because electricity flows from negative to positive and on here it is negative to negative." accuracy="correct">
+      <facetEntailment facetID="ME_10_f1" label="Inferred"/>
+      <facetEntailment facetID="ME_10_f2" label="Inferred"/>
+      <facetEntailment facetID="ME_10_f3" label="Assumed"/>
+      <facetEntailment facetID="ME_10_f4" label="Inferred"/>
+      <facetEntailment facetID="ME_10_f5" label="Inferred"/>
+      <facetEntailment facetID="ME_10_f6" label="Expressed"/>
+      <facetEntailment facetID="ME_10_f7" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.10.107.1" answerText="They will not run because the batteries have to be facing the same direction, negative to positive." accuracy="correct">
+      <facetEntailment facetID="ME_10_f1" label="Inferred"/>
+      <facetEntailment facetID="ME_10_f2" label="Inferred"/>
+      <facetEntailment facetID="ME_10_f3" label="Assumed"/>
+      <facetEntailment facetID="ME_10_f4" label="Inferred"/>
+      <facetEntailment facetID="ME_10_f5" label="Inferred"/>
+      <facetEntailment facetID="ME_10_f6" label="Inferred"/>
+      <facetEntailment facetID="ME_10_f7" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="ME.10.119.1" answerText="They will not run because negative is pointing to negative." accuracy="correct">
+      <facetEntailment facetID="ME_10_f1" label="Inferred"/>
+      <facetEntailment facetID="ME_10_f2" label="Inferred"/>
+      <facetEntailment facetID="ME_10_f3" label="Assumed"/>
+      <facetEntailment facetID="ME_10_f4" label="Expressed"/>
+      <facetEntailment facetID="ME_10_f5" label="Expressed"/>
+      <facetEntailment facetID="ME_10_f6" label="Inferred"/>
+      <facetEntailment facetID="ME_10_f7" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="ME.10.214.1" answerText="The motors will not run because they do not have negative they only have positives." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="ME_10_f1" label="Inferred"/>
+      <facetEntailment facetID="ME_10_f2" label="Inferred"/>
+      <facetEntailment facetID="ME_10_f3" label="Assumed"/>
+      <facetEntailment facetID="ME_10_f4" label="Inferred"/>
+      <facetEntailment facetID="ME_10_f5" label="Inferred"/>
+      <facetEntailment facetID="ME_10_f6" label="Unaddressed"/>
+      <facetEntailment facetID="ME_10_f7" label="Unaddressed"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

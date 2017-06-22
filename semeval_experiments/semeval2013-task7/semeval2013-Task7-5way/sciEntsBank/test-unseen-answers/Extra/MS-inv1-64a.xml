@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<question testSet="unseen-answers" id="MS_64a" module="MS">
+  <questionText>Greta used her hand to measure the length of the whiteboard in her classroom. She found that it was 14 hands long. Andre measured the whiteboard and found that it was 16 hands long. Explain why Greta and Andre got different measurements.</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="MS_64a-a1" text="Greta and Andre have different sized hands.">
+      <tokens>
+        <token id="MS_64a_ra1">Greta</token>
+        <token id="MS_64a_ra2">and</token>
+        <token id="MS_64a_ra3">Andre</token>
+        <token id="MS_64a_ra4">have</token>
+        <token id="MS_64a_ra5">different</token>
+        <token id="MS_64a_ra6">sized</token>
+        <token id="MS_64a_ra7">hands</token>
+        <token id="MS_64a_ra8">.</token>
+      </tokens>
+      <facets>
+        <facet id="MS_64a_f1" govNum="MS_64a_ra1" modNum="MS_64a_ra7" reltn="Have" govText="Greta" isAssumed="true" modText="hands"/>
+        <facet id="MS_64a_f2" govNum="MS_64a_ra3" modNum="MS_64a_ra7" reltn="Have" govText="Andre" isAssumed="true" modText="hands"/>
+        <facet id="MS_64a_f3" govNum="MS_64a_ra7" modNum="MS_64a_ra6" reltn="NMod" govText="hands" modText="sized"/>
+        <facet id="MS_64a_f4" govNum="MS_64a_ra6" modNum="MS_64a_ra5" reltn="AMod" govText="sized" modText="different"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="MS.64a.153.1" answerText="Greta's hand is probably longer than Andre's hand." accuracy="correct">
+      <facetEntailment facetID="MS_64a_f1" label="Expressed"/>
+      <facetEntailment facetID="MS_64a_f2" label="Expressed"/>
+      <facetEntailment facetID="MS_64a_f3" label="Expressed"/>
+      <facetEntailment facetID="MS_64a_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="MS.64a.315.1" answerText="Because Greta's hands are small. And Andre's hands are big." accuracy="correct">
+      <facetEntailment facetID="MS_64a_f1" label="Expressed"/>
+      <facetEntailment facetID="MS_64a_f2" label="Expressed"/>
+      <facetEntailment facetID="MS_64a_f3" label="Inferred"/>
+      <facetEntailment facetID="MS_64a_f4" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="MS.64a.459.1" answerText="Because they are older than the other and their hand have different hands, or one of them opened their finger and the other did not." accuracy="correct">
+      <facetEntailment facetID="MS_64a_f1" label="Expressed"/>
+      <facetEntailment facetID="MS_64a_f2" label="Expressed"/>
+      <facetEntailment facetID="MS_64a_f3" label="Inferred"/>
+      <facetEntailment facetID="MS_64a_f4" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="MS.64a.535.1" answerText="I think different hands size." accuracy="correct">
+      <facetEntailment facetID="MS_64a_f1" label="Assumed"/>
+      <facetEntailment facetID="MS_64a_f2" label="Assumed"/>
+      <facetEntailment facetID="MS_64a_f3" label="Expressed"/>
+      <facetEntailment facetID="MS_64a_f4" label="Expressed"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

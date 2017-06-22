@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<question testSet="unseen-answers" id="VB_29" module="VB">
+  <questionText>When conducting a controlled experiment, why do you use a standard?</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="VB_29-a1" text="A standard is used for comparison to determine how changing one variable changes the results.">
+      <tokens>
+        <token id="VB_29_ra1">A</token>
+        <token id="VB_29_ra2">standard</token>
+        <token id="VB_29_ra3">is</token>
+        <token id="VB_29_ra4">used</token>
+        <token id="VB_29_ra5">for</token>
+        <token id="VB_29_ra6">comparison</token>
+        <token id="VB_29_ra7">to</token>
+        <token id="VB_29_ra8">determine</token>
+        <token id="VB_29_ra9">how</token>
+        <token id="VB_29_ra10">changing</token>
+        <token id="VB_29_ra11">one</token>
+        <token id="VB_29_ra12">variable</token>
+        <token id="VB_29_ra13">changes</token>
+        <token id="VB_29_ra14">the</token>
+        <token id="VB_29_ra15">results</token>
+        <token id="VB_29_ra16">.</token>
+      </tokens>
+      <facets>
+        <facet id="VB_29_f1" govNum="VB_29_ra4" modNum="VB_29_ra2" reltn="Theme" govText="used" isAssumed="true" modText="standard"/>
+        <facet id="VB_29_f2" govNum="VB_29_ra4" modNum="VB_29_ra6" reltn="Cause_for" govText="used" modText="comparison"/>
+        <facet id="VB_29_f3" govNum="VB_29_ra4" modNum="VB_29_ra8" reltn="Cause_to" govText="used" modText="determine"/>
+        <facet id="VB_29_f4" govNum="VB_29_ra8" modNum="VB_29_ra13" reltn="Theme_how" childProp2Facet2="VB_29_f8" govText="determine" modText="changes" childProp2Facet1="VB_29_f5"/>
+        <facet id="VB_29_f5" govNum="VB_29_ra10" modNum="VB_29_ra12" reltn="Patient" govText="changing" modText="variable"/>
+        <facet id="VB_29_f6" govNum="VB_29_ra12" modNum="VB_29_ra11" reltn="NMod" govText="variable" modText="one"/>
+        <facet id="VB_29_f7" govNum="VB_29_ra13" modNum="VB_29_ra10" reltn="Cause" childProp2Facet2="VB_29_f6" childProp1Facet1="VB_29_f8" govText="changes" modText="changing" childProp2Facet1="VB_29_f5"/>
+        <facet id="VB_29_f8" govNum="VB_29_ra13" modNum="VB_29_ra15" reltn="Patient" govText="changes" modText="results"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="VB.29.429.1" answerText="In a controlled experiment." accuracy="irrelevant">
+      <facetEntailment facetID="VB_29_f1" label="Assumed"/>
+      <facetEntailment facetID="VB_29_f2" label="Unaddressed"/>
+      <facetEntailment facetID="VB_29_f3" label="Unaddressed"/>
+      <facetEntailment facetID="VB_29_f4" label="Unaddressed"/>
+      <facetEntailment facetID="VB_29_f5" label="Unaddressed"/>
+      <facetEntailment facetID="VB_29_f6" label="Unaddressed"/>
+      <facetEntailment facetID="VB_29_f7" label="Unaddressed"/>
+      <facetEntailment facetID="VB_29_f8" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="VB.29.432.1" answerText="You need to have a standard so you can tell the difference of what the experiment was and so you can tell how far it went." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="VB_29_f1" label="Expressed"/>
+      <facetEntailment facetID="VB_29_f2" label="Inferred"/>
+      <facetEntailment facetID="VB_29_f3" label="Inferred"/>
+      <facetEntailment facetID="VB_29_f4" label="Inferred"/>
+      <facetEntailment facetID="VB_29_f5" label="Unaddressed"/>
+      <facetEntailment facetID="VB_29_f6" label="Unaddressed"/>
+      <facetEntailment facetID="VB_29_f7" label="Inferred"/>
+      <facetEntailment facetID="VB_29_f8" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="VB.29.462.1" answerText="You use a standard because you know it will be controlled if you do something random it might not work and that is not a controlled experiment." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="VB_29_f1" label="Expressed"/>
+      <facetEntailment facetID="VB_29_f2" label="Inferred"/>
+      <facetEntailment facetID="VB_29_f3" label="Unaddressed"/>
+      <facetEntailment facetID="VB_29_f4" label="Unaddressed"/>
+      <facetEntailment facetID="VB_29_f5" label="Unaddressed"/>
+      <facetEntailment facetID="VB_29_f6" label="Unaddressed"/>
+      <facetEntailment facetID="VB_29_f7" label="Unaddressed"/>
+      <facetEntailment facetID="VB_29_f8" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="VB.29.511.1" answerText="So when you start with the standard it will help you understand more of the experiment." accuracy="irrelevant">
+      <facetEntailment facetID="VB_29_f1" label="Expressed"/>
+      <facetEntailment facetID="VB_29_f2" label="Unaddressed"/>
+      <facetEntailment facetID="VB_29_f3" label="Unaddressed"/>
+      <facetEntailment facetID="VB_29_f4" label="Unaddressed"/>
+      <facetEntailment facetID="VB_29_f5" label="Unaddressed"/>
+      <facetEntailment facetID="VB_29_f6" label="Unaddressed"/>
+      <facetEntailment facetID="VB_29_f7" label="Unaddressed"/>
+      <facetEntailment facetID="VB_29_f8" label="Unaddressed"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

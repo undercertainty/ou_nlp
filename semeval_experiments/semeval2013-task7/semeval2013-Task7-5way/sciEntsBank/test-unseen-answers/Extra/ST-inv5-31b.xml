@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<question testSet="unseen-answers" id="ST_31b" module="ST">
+  <questionText>One function of the bess beetle's elytra (the hard, black wing set) is protection. What is another function of the elytra?</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="ST_31b-a1" text="The elytra are used to make sounds.">
+      <tokens>
+        <token id="ST_31b_ra1">The</token>
+        <token id="ST_31b_ra2">elytra</token>
+        <token id="ST_31b_ra3">are</token>
+        <token id="ST_31b_ra4">used</token>
+        <token id="ST_31b_ra5">to</token>
+        <token id="ST_31b_ra6">make</token>
+        <token id="ST_31b_ra7">sounds</token>
+        <token id="ST_31b_ra8">.</token>
+      </tokens>
+      <facets>
+        <facet id="ST_31b_f1" govNum="ST_31b_ra4" modNum="ST_31b_ra2" reltn="Theme" govText="used" isAssumed="true" modText="elytra"/>
+        <facet id="ST_31b_f2" govNum="ST_31b_ra6" modNum="ST_31b_ra4" reltn="Cause_to" childProp1Facet1="ST_31b_f4" govText="make" childProp1Facet2="ST_31b_f3" modText="used" childProp2Facet1="ST_31b_f1"/>
+        <facet id="ST_31b_f3" govNum="ST_31b_ra6" modNum="ST_31b_ra7" reltn="Product" govText="make" modText="sounds"/>
+        <facet id="ST_31b_f4" govNum="ST_31b_ra6" modNum="ST_31b_ra2" reltn="Instrument" govText="make" modText="elytra"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="ST.31b.474.1" answerText="Another function of the elytra is for strangulating." accuracy="irrelevant">
+      <facetEntailment facetID="ST_31b_f1" label="Expressed"/>
+      <facetEntailment facetID="ST_31b_f2" label="Diff-Arg"/>
+      <facetEntailment facetID="ST_31b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ST_31b_f4" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ST.31b.487.1" answerText="Fly around." accuracy="irrelevant">
+      <facetEntailment facetID="ST_31b_f1" label="Assumed"/>
+      <facetEntailment facetID="ST_31b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ST_31b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ST_31b_f4" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ST.31b.492.1" answerText="The thorax." accuracy="irrelevant">
+      <facetEntailment facetID="ST_31b_f1" label="Assumed"/>
+      <facetEntailment facetID="ST_31b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ST_31b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ST_31b_f4" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ST.31b.561.1" answerText="The beetle can rub its elytra making noises in order to communicate." accuracy="correct">
+      <facetEntailment facetID="ST_31b_f1" label="Expressed"/>
+      <facetEntailment facetID="ST_31b_f2" label="Expressed"/>
+      <facetEntailment facetID="ST_31b_f3" label="Expressed"/>
+      <facetEntailment facetID="ST_31b_f4" label="Expressed"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

@@ -1,0 +1,447 @@
+<?xml version="1.0"?>
+<question testSet="unseen-questions" id="EM_33b" module="EM">
+  <questionText>You used 3 scratch tools in class to test minerals for hardness: your fingernail, a penny, and a paperclip. If a mineral can be scratched by a penny, you can be sure that a (paperclip) will also scratch it. Explain how you know that tool would scratch the mineral.</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="EM_33b-a1" text="A paperclip is harder than a penny, so if a penny can scratch a mineral, a paperclip can also scratch the mineral.">
+      <tokens>
+        <token id="EM_33b_ra1">A</token>
+        <token id="EM_33b_ra2">paperclip</token>
+        <token id="EM_33b_ra3">is</token>
+        <token id="EM_33b_ra4">harder</token>
+        <token id="EM_33b_ra5">than</token>
+        <token id="EM_33b_ra6">a</token>
+        <token id="EM_33b_ra7">penny</token>
+        <token id="EM_33b_ra8">,</token>
+        <token id="EM_33b_ra9">so</token>
+        <token id="EM_33b_ra10">if</token>
+        <token id="EM_33b_ra11">a</token>
+        <token id="EM_33b_ra12">penny</token>
+        <token id="EM_33b_ra13">can</token>
+        <token id="EM_33b_ra14">scratch</token>
+        <token id="EM_33b_ra15">a</token>
+        <token id="EM_33b_ra16">mineral</token>
+        <token id="EM_33b_ra17">,</token>
+        <token id="EM_33b_ra18">a</token>
+        <token id="EM_33b_ra19">paperclip</token>
+        <token id="EM_33b_ra20">can</token>
+        <token id="EM_33b_ra21">also</token>
+        <token id="EM_33b_ra22">scratch</token>
+        <token id="EM_33b_ra23">the</token>
+        <token id="EM_33b_ra24">mineral</token>
+        <token id="EM_33b_ra25">.</token>
+      </tokens>
+      <facets>
+        <facet id="EM_33b_f1" govNum="EM_33b_ra2" modNum="EM_33b_ra4" reltn="Be" govText="paperclip" modText="harder"/>
+        <facet id="EM_33b_f2" govNum="EM_33b_ra4" modNum="EM_33b_ra7" reltn="AMod_than" govText="harder" modText="penny"/>
+        <facet id="EM_33b_f3" govNum="EM_33b_ra14" modNum="EM_33b_ra12" reltn="Instrument" govText="scratch" isAssumed="true" modText="penny"/>
+        <facet id="EM_33b_f4" govNum="EM_33b_ra14" modNum="EM_33b_ra16" reltn="Patient" govText="scratch" isAssumed="true" modText="mineral"/>
+        <facet id="EM_33b_f5" govNum="EM_33b_ra22" modNum="EM_33b_ra19" reltn="Instrument" govText="scratch" isAssumed="true" modText="paperclip"/>
+        <facet id="EM_33b_f6" govNum="EM_33b_ra22" modNum="EM_33b_ra24" reltn="Patient" govText="scratch" isAssumed="true" modText="mineral"/>
+        <facet id="EM_33b_f7" govNum="EM_33b_ra22" modNum="EM_33b_ra14" reltn="Cause_if_also" childProp2Facet2="EM_33b_f4" childProp1Facet1="EM_33b_f5" govText="scratch" isAssumed="true" childProp1Facet2="EM_33b_f6" modText="scratch" childProp2Facet1="EM_33b_f3"/>
+        <facet id="EM_33b_f8" govNum="EM_33b_ra10" modNum="EM_33b_ra3" reltn="Cause_so" childProp1Facet1="EM_33b_f3" govText="if" isAssumed="true" childProp1Facet2="EM_33b_f4" modText="is" childProp2Facet1="EM_33b_f1"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="EM.33b.384.1" answerText="I know the paperclip would scratch it because a paperclip is harder than a penny." accuracy="correct">
+      <facetEntailment facetID="EM_33b_f1" label="Expressed"/>
+      <facetEntailment facetID="EM_33b_f2" label="Expressed"/>
+      <facetEntailment facetID="EM_33b_f3" label="Assumed"/>
+      <facetEntailment facetID="EM_33b_f4" label="Assumed"/>
+      <facetEntailment facetID="EM_33b_f5" label="Expressed"/>
+      <facetEntailment facetID="EM_33b_f6" label="Expressed"/>
+      <facetEntailment facetID="EM_33b_f7" label="Assumed"/>
+      <facetEntailment facetID="EM_33b_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.33b.397.1" answerText="I knew that because the paperclip is harder than the penny." accuracy="correct">
+      <facetEntailment facetID="EM_33b_f1" label="Expressed"/>
+      <facetEntailment facetID="EM_33b_f2" label="Expressed"/>
+      <facetEntailment facetID="EM_33b_f3" label="Assumed"/>
+      <facetEntailment facetID="EM_33b_f4" label="Assumed"/>
+      <facetEntailment facetID="EM_33b_f5" label="Assumed"/>
+      <facetEntailment facetID="EM_33b_f6" label="Assumed"/>
+      <facetEntailment facetID="EM_33b_f7" label="Assumed"/>
+      <facetEntailment facetID="EM_33b_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.33b.402.1" answerText="I know that the paperclip would scratch the mineral because a paperclip is harder than a penny." accuracy="correct">
+      <facetEntailment facetID="EM_33b_f1" label="Expressed"/>
+      <facetEntailment facetID="EM_33b_f2" label="Expressed"/>
+      <facetEntailment facetID="EM_33b_f3" label="Assumed"/>
+      <facetEntailment facetID="EM_33b_f4" label="Assumed"/>
+      <facetEntailment facetID="EM_33b_f5" label="Expressed"/>
+      <facetEntailment facetID="EM_33b_f6" label="Expressed"/>
+      <facetEntailment facetID="EM_33b_f7" label="Expressed"/>
+      <facetEntailment facetID="EM_33b_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.33b.427.1" answerText="Because the paperclip is an easier item to scratch a rock or mineral than a penny." accuracy="irrelevant">
+      <facetEntailment facetID="EM_33b_f1" label="Diff-Arg"/>
+      <facetEntailment facetID="EM_33b_f2" label="Diff-Arg"/>
+      <facetEntailment facetID="EM_33b_f3" label="Assumed"/>
+      <facetEntailment facetID="EM_33b_f4" label="Assumed"/>
+      <facetEntailment facetID="EM_33b_f5" label="Expressed"/>
+      <facetEntailment facetID="EM_33b_f6" label="Assumed"/>
+      <facetEntailment facetID="EM_33b_f7" label="Assumed"/>
+      <facetEntailment facetID="EM_33b_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.33b.429.1" answerText="I know that a paperclip will scratch it because it is the hardest tool that we used out of a fingernail, penny and paperclip." accuracy="correct">
+      <facetEntailment facetID="EM_33b_f1" label="Expressed"/>
+      <facetEntailment facetID="EM_33b_f2" label="Expressed"/>
+      <facetEntailment facetID="EM_33b_f3" label="Assumed"/>
+      <facetEntailment facetID="EM_33b_f4" label="Assumed"/>
+      <facetEntailment facetID="EM_33b_f5" label="Expressed"/>
+      <facetEntailment facetID="EM_33b_f6" label="Assumed"/>
+      <facetEntailment facetID="EM_33b_f7" label="Assumed"/>
+      <facetEntailment facetID="EM_33b_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.33b.432.1" answerText="I know because the paperclip is a harder tool so if a softer tool can scratch it so can the paperclip." accuracy="correct">
+      <facetEntailment facetID="EM_33b_f1" label="Expressed"/>
+      <facetEntailment facetID="EM_33b_f2" label="Inferred"/>
+      <facetEntailment facetID="EM_33b_f3" label="Assumed"/>
+      <facetEntailment facetID="EM_33b_f4" label="Assumed"/>
+      <facetEntailment facetID="EM_33b_f5" label="Expressed"/>
+      <facetEntailment facetID="EM_33b_f6" label="Assumed"/>
+      <facetEntailment facetID="EM_33b_f7" label="Expressed"/>
+      <facetEntailment facetID="EM_33b_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.33b.433.1" answerText="The paperclip can scratch the penny and the penny cannot scratch the paperclip so the paperclip is harder." accuracy="correct">
+      <facetEntailment facetID="EM_33b_f1" label="Expressed"/>
+      <facetEntailment facetID="EM_33b_f2" label="Expressed"/>
+      <facetEntailment facetID="EM_33b_f3" label="Assumed"/>
+      <facetEntailment facetID="EM_33b_f4" label="Assumed"/>
+      <facetEntailment facetID="EM_33b_f5" label="Expressed"/>
+      <facetEntailment facetID="EM_33b_f6" label="Assumed"/>
+      <facetEntailment facetID="EM_33b_f7" label="Assumed"/>
+      <facetEntailment facetID="EM_33b_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.33b.434.1" answerText="You can scratch the penny with the paperclip so the penny is softer and if the penny could scratch the paperclip can scratch it." accuracy="correct">
+      <facetEntailment facetID="EM_33b_f1" label="Expressed"/>
+      <facetEntailment facetID="EM_33b_f2" label="Expressed"/>
+      <facetEntailment facetID="EM_33b_f3" label="Expressed"/>
+      <facetEntailment facetID="EM_33b_f4" label="Assumed"/>
+      <facetEntailment facetID="EM_33b_f5" label="Expressed"/>
+      <facetEntailment facetID="EM_33b_f6" label="Expressed"/>
+      <facetEntailment facetID="EM_33b_f7" label="Expressed"/>
+      <facetEntailment facetID="EM_33b_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.33b.436.1" answerText="A paperclip is harder because we scratched the penny with the paperclip. The penny got a scratch." accuracy="correct">
+      <facetEntailment facetID="EM_33b_f1" label="Expressed"/>
+      <facetEntailment facetID="EM_33b_f2" label="Expressed"/>
+      <facetEntailment facetID="EM_33b_f3" label="Expressed"/>
+      <facetEntailment facetID="EM_33b_f4" label="Assumed"/>
+      <facetEntailment facetID="EM_33b_f5" label="Assumed"/>
+      <facetEntailment facetID="EM_33b_f6" label="Assumed"/>
+      <facetEntailment facetID="EM_33b_f7" label="Assumed"/>
+      <facetEntailment facetID="EM_33b_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.33b.437.1" answerText="I know because a paperclip is harder than the penny. I figured that out by scratching the penny with the paperclip and it was harder." accuracy="correct">
+      <facetEntailment facetID="EM_33b_f1" label="Expressed"/>
+      <facetEntailment facetID="EM_33b_f2" label="Expressed"/>
+      <facetEntailment facetID="EM_33b_f3" label="Assumed"/>
+      <facetEntailment facetID="EM_33b_f4" label="Assumed"/>
+      <facetEntailment facetID="EM_33b_f5" label="Expressed"/>
+      <facetEntailment facetID="EM_33b_f6" label="Assumed"/>
+      <facetEntailment facetID="EM_33b_f7" label="Assumed"/>
+      <facetEntailment facetID="EM_33b_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.33b.438.1" answerText="I know because a penny is softer than a paperclip." accuracy="correct">
+      <facetEntailment facetID="EM_33b_f1" label="Inferred"/>
+      <facetEntailment facetID="EM_33b_f2" label="Inferred"/>
+      <facetEntailment facetID="EM_33b_f3" label="Assumed"/>
+      <facetEntailment facetID="EM_33b_f4" label="Assumed"/>
+      <facetEntailment facetID="EM_33b_f5" label="Assumed"/>
+      <facetEntailment facetID="EM_33b_f6" label="Assumed"/>
+      <facetEntailment facetID="EM_33b_f7" label="Assumed"/>
+      <facetEntailment facetID="EM_33b_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.33b.444.1" answerText="I know it because if a penny could scratch it I know that a paperclip can scratch a penny so a paperclip is harder than a penny. That is how I know." accuracy="correct">
+      <facetEntailment facetID="EM_33b_f1" label="Expressed"/>
+      <facetEntailment facetID="EM_33b_f2" label="Expressed"/>
+      <facetEntailment facetID="EM_33b_f3" label="Expressed"/>
+      <facetEntailment facetID="EM_33b_f4" label="Assumed"/>
+      <facetEntailment facetID="EM_33b_f5" label="Expressed"/>
+      <facetEntailment facetID="EM_33b_f6" label="Assumed"/>
+      <facetEntailment facetID="EM_33b_f7" label="Expressed"/>
+      <facetEntailment facetID="EM_33b_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.33b.452.1" answerText="A paperclip is harder than a penny." accuracy="correct">
+      <facetEntailment facetID="EM_33b_f1" label="Expressed"/>
+      <facetEntailment facetID="EM_33b_f2" label="Expressed"/>
+      <facetEntailment facetID="EM_33b_f3" label="Assumed"/>
+      <facetEntailment facetID="EM_33b_f4" label="Assumed"/>
+      <facetEntailment facetID="EM_33b_f5" label="Assumed"/>
+      <facetEntailment facetID="EM_33b_f6" label="Assumed"/>
+      <facetEntailment facetID="EM_33b_f7" label="Assumed"/>
+      <facetEntailment facetID="EM_33b_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.33b.458.1" answerText="Paperclip is harder than penny. So it should be able to scratch also." accuracy="correct">
+      <facetEntailment facetID="EM_33b_f1" label="Expressed"/>
+      <facetEntailment facetID="EM_33b_f2" label="Expressed"/>
+      <facetEntailment facetID="EM_33b_f3" label="Assumed"/>
+      <facetEntailment facetID="EM_33b_f4" label="Assumed"/>
+      <facetEntailment facetID="EM_33b_f5" label="Expressed"/>
+      <facetEntailment facetID="EM_33b_f6" label="Assumed"/>
+      <facetEntailment facetID="EM_33b_f7" label="Assumed"/>
+      <facetEntailment facetID="EM_33b_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.33b.466.1" answerText="If the paperclip scratches it then the penny scratches it because they are almost the same hardness." accuracy="contradictory">
+      <facetEntailment facetID="EM_33b_f1" label="Contra-Infr"/>
+      <facetEntailment facetID="EM_33b_f2" label="Contra-Infr"/>
+      <facetEntailment facetID="EM_33b_f3" label="Expressed"/>
+      <facetEntailment facetID="EM_33b_f4" label="Assumed"/>
+      <facetEntailment facetID="EM_33b_f5" label="Expressed"/>
+      <facetEntailment facetID="EM_33b_f6" label="Assumed"/>
+      <facetEntailment facetID="EM_33b_f7" label="Assumed"/>
+      <facetEntailment facetID="EM_33b_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.33b.467.1" answerText="Because the penny is the middle hardness and the paperclip is the hardest that is how I know it should scratched." accuracy="correct">
+      <facetEntailment facetID="EM_33b_f1" label="Expressed"/>
+      <facetEntailment facetID="EM_33b_f2" label="Expressed"/>
+      <facetEntailment facetID="EM_33b_f3" label="Assumed"/>
+      <facetEntailment facetID="EM_33b_f4" label="Assumed"/>
+      <facetEntailment facetID="EM_33b_f5" label="Expressed"/>
+      <facetEntailment facetID="EM_33b_f6" label="Assumed"/>
+      <facetEntailment facetID="EM_33b_f7" label="Assumed"/>
+      <facetEntailment facetID="EM_33b_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.33b.472.1" answerText="Because it is the hardest tool." accuracy="correct">
+      <facetEntailment facetID="EM_33b_f1" label="Expressed"/>
+      <facetEntailment facetID="EM_33b_f2" label="Inferred"/>
+      <facetEntailment facetID="EM_33b_f3" label="Assumed"/>
+      <facetEntailment facetID="EM_33b_f4" label="Assumed"/>
+      <facetEntailment facetID="EM_33b_f5" label="Assumed"/>
+      <facetEntailment facetID="EM_33b_f6" label="Assumed"/>
+      <facetEntailment facetID="EM_33b_f7" label="Assumed"/>
+      <facetEntailment facetID="EM_33b_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.33b.473.1" answerText="We listed the tool from least hardness to hard. This is the list. Fingernail, penny, paperclip." accuracy="correct">
+      <facetEntailment facetID="EM_33b_f1" label="Expressed"/>
+      <facetEntailment facetID="EM_33b_f2" label="Expressed"/>
+      <facetEntailment facetID="EM_33b_f3" label="Assumed"/>
+      <facetEntailment facetID="EM_33b_f4" label="Assumed"/>
+      <facetEntailment facetID="EM_33b_f5" label="Assumed"/>
+      <facetEntailment facetID="EM_33b_f6" label="Assumed"/>
+      <facetEntailment facetID="EM_33b_f7" label="Assumed"/>
+      <facetEntailment facetID="EM_33b_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.33b.477.1" answerText="Because if the penny can scratch it the paperclip can too." accuracy="irrelevant">
+      <facetEntailment facetID="EM_33b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="EM_33b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="EM_33b_f3" label="Expressed"/>
+      <facetEntailment facetID="EM_33b_f4" label="Expressed"/>
+      <facetEntailment facetID="EM_33b_f5" label="Expressed"/>
+      <facetEntailment facetID="EM_33b_f6" label="Expressed"/>
+      <facetEntailment facetID="EM_33b_f7" label="Expressed"/>
+      <facetEntailment facetID="EM_33b_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.33b.488.1" answerText="Because if it is kind of hard as a penny." accuracy="contradictory">
+      <facetEntailment facetID="EM_33b_f1" label="Contra-Infr"/>
+      <facetEntailment facetID="EM_33b_f2" label="Contra-Infr"/>
+      <facetEntailment facetID="EM_33b_f3" label="Assumed"/>
+      <facetEntailment facetID="EM_33b_f4" label="Assumed"/>
+      <facetEntailment facetID="EM_33b_f5" label="Assumed"/>
+      <facetEntailment facetID="EM_33b_f6" label="Assumed"/>
+      <facetEntailment facetID="EM_33b_f7" label="Assumed"/>
+      <facetEntailment facetID="EM_33b_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.33b.491.1" answerText="If you scratched the mineral with a penny you can sure scratch it with a paperclip because the penny or washer is harder than the paperclip so the paperclip can scratch the mineral." accuracy="contradictory">
+      <facetEntailment facetID="EM_33b_f1" label="Contra-Expr"/>
+      <facetEntailment facetID="EM_33b_f2" label="Contra-Expr"/>
+      <facetEntailment facetID="EM_33b_f3" label="Expressed"/>
+      <facetEntailment facetID="EM_33b_f4" label="Expressed"/>
+      <facetEntailment facetID="EM_33b_f5" label="Expressed"/>
+      <facetEntailment facetID="EM_33b_f6" label="Expressed"/>
+      <facetEntailment facetID="EM_33b_f7" label="Expressed"/>
+      <facetEntailment facetID="EM_33b_f8" label="Contra-Expr"/>
+    </studentAnswer>
+    <studentAnswer id="EM.33b.492.1" answerText="If the hardest tool can scratch the mineral then the second hardest can." accuracy="contradictory">
+      <facetEntailment facetID="EM_33b_f1" label="Inferred"/>
+      <facetEntailment facetID="EM_33b_f2" label="Inferred"/>
+      <facetEntailment facetID="EM_33b_f3" label="Assumed"/>
+      <facetEntailment facetID="EM_33b_f4" label="Expressed"/>
+      <facetEntailment facetID="EM_33b_f5" label="Assumed"/>
+      <facetEntailment facetID="EM_33b_f6" label="Expressed"/>
+      <facetEntailment facetID="EM_33b_f7" label="Assumed"/>
+      <facetEntailment facetID="EM_33b_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.33b.494.1" answerText="I would know because the paperclip is the hardest so it should scratch the mineral." accuracy="correct">
+      <facetEntailment facetID="EM_33b_f1" label="Expressed"/>
+      <facetEntailment facetID="EM_33b_f2" label="Inferred"/>
+      <facetEntailment facetID="EM_33b_f3" label="Assumed"/>
+      <facetEntailment facetID="EM_33b_f4" label="Assumed"/>
+      <facetEntailment facetID="EM_33b_f5" label="Expressed"/>
+      <facetEntailment facetID="EM_33b_f6" label="Expressed"/>
+      <facetEntailment facetID="EM_33b_f7" label="Assumed"/>
+      <facetEntailment facetID="EM_33b_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.33b.499.1" answerText="A paperclip is harder than a penny and the paperclip is like a penny." accuracy="correct">
+      <facetEntailment facetID="EM_33b_f1" label="Expressed"/>
+      <facetEntailment facetID="EM_33b_f2" label="Expressed"/>
+      <facetEntailment facetID="EM_33b_f3" label="Assumed"/>
+      <facetEntailment facetID="EM_33b_f4" label="Assumed"/>
+      <facetEntailment facetID="EM_33b_f5" label="Assumed"/>
+      <facetEntailment facetID="EM_33b_f6" label="Assumed"/>
+      <facetEntailment facetID="EM_33b_f7" label="Assumed"/>
+      <facetEntailment facetID="EM_33b_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.33b.500.1" answerText="A paperclip to scratch a mineral you will see that it will have a scratch or it did not." accuracy="irrelevant">
+      <facetEntailment facetID="EM_33b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="EM_33b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="EM_33b_f3" label="Assumed"/>
+      <facetEntailment facetID="EM_33b_f4" label="Assumed"/>
+      <facetEntailment facetID="EM_33b_f5" label="Expressed"/>
+      <facetEntailment facetID="EM_33b_f6" label="Expressed"/>
+      <facetEntailment facetID="EM_33b_f7" label="Assumed"/>
+      <facetEntailment facetID="EM_33b_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.33b.501.1" answerText="Because if the washer is harder and I know that the paperclip is hard." accuracy="irrelevant">
+      <facetEntailment facetID="EM_33b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="EM_33b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="EM_33b_f3" label="Assumed"/>
+      <facetEntailment facetID="EM_33b_f4" label="Assumed"/>
+      <facetEntailment facetID="EM_33b_f5" label="Assumed"/>
+      <facetEntailment facetID="EM_33b_f6" label="Assumed"/>
+      <facetEntailment facetID="EM_33b_f7" label="Assumed"/>
+      <facetEntailment facetID="EM_33b_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.33b.503.1" answerText="Because a paperclip is harder than the washer and if the washer can scratch the mineral then the paperclip would scratch the minerals." accuracy="irrelevant">
+      <facetEntailment facetID="EM_33b_f1" label="Expressed"/>
+      <facetEntailment facetID="EM_33b_f2" label="Diff-Arg"/>
+      <facetEntailment facetID="EM_33b_f3" label="Diff-Arg"/>
+      <facetEntailment facetID="EM_33b_f4" label="Expressed"/>
+      <facetEntailment facetID="EM_33b_f5" label="Expressed"/>
+      <facetEntailment facetID="EM_33b_f6" label="Expressed"/>
+      <facetEntailment facetID="EM_33b_f7" label="Expressed"/>
+      <facetEntailment facetID="EM_33b_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.33b.504.1" answerText="If a washer scratched the mineral and the paperclip is harder than the washer than it would scratch the mineral too." accuracy="irrelevant">
+      <facetEntailment facetID="EM_33b_f1" label="Expressed"/>
+      <facetEntailment facetID="EM_33b_f2" label="Diff-Arg"/>
+      <facetEntailment facetID="EM_33b_f3" label="Diff-Arg"/>
+      <facetEntailment facetID="EM_33b_f4" label="Expressed"/>
+      <facetEntailment facetID="EM_33b_f5" label="Expressed"/>
+      <facetEntailment facetID="EM_33b_f6" label="Expressed"/>
+      <facetEntailment facetID="EM_33b_f7" label="Expressed"/>
+      <facetEntailment facetID="EM_33b_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.33b.521.1" answerText="You can scratch a mineral but the rock has to have a soft rock to do it." accuracy="irrelevant">
+      <facetEntailment facetID="EM_33b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="EM_33b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="EM_33b_f3" label="Assumed"/>
+      <facetEntailment facetID="EM_33b_f4" label="Expressed"/>
+      <facetEntailment facetID="EM_33b_f5" label="Assumed"/>
+      <facetEntailment facetID="EM_33b_f6" label="Expressed"/>
+      <facetEntailment facetID="EM_33b_f7" label="Assumed"/>
+      <facetEntailment facetID="EM_33b_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.33b.523.1" answerText="A paperclip is the hardest so if a penny can a paperclip can." accuracy="correct">
+      <facetEntailment facetID="EM_33b_f1" label="Expressed"/>
+      <facetEntailment facetID="EM_33b_f2" label="Expressed"/>
+      <facetEntailment facetID="EM_33b_f3" label="Expressed"/>
+      <facetEntailment facetID="EM_33b_f4" label="Assumed"/>
+      <facetEntailment facetID="EM_33b_f5" label="Expressed"/>
+      <facetEntailment facetID="EM_33b_f6" label="Assumed"/>
+      <facetEntailment facetID="EM_33b_f7" label="Expressed"/>
+      <facetEntailment facetID="EM_33b_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.33b.532.1" answerText="Because it is just like a penny." accuracy="contradictory">
+      <facetEntailment facetID="EM_33b_f1" label="Contra-Expr"/>
+      <facetEntailment facetID="EM_33b_f2" label="Contra-Expr"/>
+      <facetEntailment facetID="EM_33b_f3" label="Assumed"/>
+      <facetEntailment facetID="EM_33b_f4" label="Assumed"/>
+      <facetEntailment facetID="EM_33b_f5" label="Assumed"/>
+      <facetEntailment facetID="EM_33b_f6" label="Assumed"/>
+      <facetEntailment facetID="EM_33b_f7" label="Assumed"/>
+      <facetEntailment facetID="EM_33b_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.33b.561.1" answerText="A paperclip is also hard and it can make a mark." accuracy="irrelevant">
+      <facetEntailment facetID="EM_33b_f1" label="Inferred"/>
+      <facetEntailment facetID="EM_33b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="EM_33b_f3" label="Assumed"/>
+      <facetEntailment facetID="EM_33b_f4" label="Assumed"/>
+      <facetEntailment facetID="EM_33b_f5" label="Expressed"/>
+      <facetEntailment facetID="EM_33b_f6" label="Assumed"/>
+      <facetEntailment facetID="EM_33b_f7" label="Assumed"/>
+      <facetEntailment facetID="EM_33b_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.33b.567.1" answerText="You 3 tools class test for your." accuracy="irrelevant">
+      <facetEntailment facetID="EM_33b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="EM_33b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="EM_33b_f3" label="Assumed"/>
+      <facetEntailment facetID="EM_33b_f4" label="Assumed"/>
+      <facetEntailment facetID="EM_33b_f5" label="Assumed"/>
+      <facetEntailment facetID="EM_33b_f6" label="Assumed"/>
+      <facetEntailment facetID="EM_33b_f7" label="Assumed"/>
+      <facetEntailment facetID="EM_33b_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.33b.570.1" answerText="Because it is bigger and harder." accuracy="correct">
+      <facetEntailment facetID="EM_33b_f1" label="Expressed"/>
+      <facetEntailment facetID="EM_33b_f2" label="Inferred"/>
+      <facetEntailment facetID="EM_33b_f3" label="Assumed"/>
+      <facetEntailment facetID="EM_33b_f4" label="Assumed"/>
+      <facetEntailment facetID="EM_33b_f5" label="Assumed"/>
+      <facetEntailment facetID="EM_33b_f6" label="Assumed"/>
+      <facetEntailment facetID="EM_33b_f7" label="Assumed"/>
+      <facetEntailment facetID="EM_33b_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.33b.573.1" answerText="Because it is harder and it cannot scratch it." accuracy="contradictory">
+      <facetEntailment facetID="EM_33b_f1" label="Expressed"/>
+      <facetEntailment facetID="EM_33b_f2" label="Inferred"/>
+      <facetEntailment facetID="EM_33b_f3" label="Assumed"/>
+      <facetEntailment facetID="EM_33b_f4" label="Assumed"/>
+      <facetEntailment facetID="EM_33b_f5" label="Contra-Expr"/>
+      <facetEntailment facetID="EM_33b_f6" label="Assumed"/>
+      <facetEntailment facetID="EM_33b_f7" label="Assumed"/>
+      <facetEntailment facetID="EM_33b_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.33b.576.1" answerText="Because a penny is almost like a paperclip." accuracy="irrelevant">
+      <facetEntailment facetID="EM_33b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="EM_33b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="EM_33b_f3" label="Assumed"/>
+      <facetEntailment facetID="EM_33b_f4" label="Assumed"/>
+      <facetEntailment facetID="EM_33b_f5" label="Assumed"/>
+      <facetEntailment facetID="EM_33b_f6" label="Assumed"/>
+      <facetEntailment facetID="EM_33b_f7" label="Assumed"/>
+      <facetEntailment facetID="EM_33b_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.33b.593.1" answerText="Because a penny is a little bit harder than a fingernail and if a penny scratches a fingernail would scratch." accuracy="irrelevant">
+      <facetEntailment facetID="EM_33b_f1" label="Diff-Arg"/>
+      <facetEntailment facetID="EM_33b_f2" label="Diff-Arg"/>
+      <facetEntailment facetID="EM_33b_f3" label="Expressed"/>
+      <facetEntailment facetID="EM_33b_f4" label="Assumed"/>
+      <facetEntailment facetID="EM_33b_f5" label="Diff-Arg"/>
+      <facetEntailment facetID="EM_33b_f6" label="Diff-Arg"/>
+      <facetEntailment facetID="EM_33b_f7" label="Assumed"/>
+      <facetEntailment facetID="EM_33b_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.33b.601.1" answerText="I know that a paperclip will scratch it because a paperclip is stronger than a penny. So if a penny can scratch it, then a paperclip can scratch it." accuracy="irrelevant">
+      <facetEntailment facetID="EM_33b_f1" label="Diff-Arg"/>
+      <facetEntailment facetID="EM_33b_f2" label="Diff-Arg"/>
+      <facetEntailment facetID="EM_33b_f3" label="Expressed"/>
+      <facetEntailment facetID="EM_33b_f4" label="Assumed"/>
+      <facetEntailment facetID="EM_33b_f5" label="Expressed"/>
+      <facetEntailment facetID="EM_33b_f6" label="Assumed"/>
+      <facetEntailment facetID="EM_33b_f7" label="Expressed"/>
+      <facetEntailment facetID="EM_33b_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.33b.602.1" answerText="Because a penny is harder than a fingernail so that means that a penny is like the one that is harder than a fingernail." accuracy="irrelevant">
+      <facetEntailment facetID="EM_33b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="EM_33b_f2" label="Diff-Arg"/>
+      <facetEntailment facetID="EM_33b_f3" label="Assumed"/>
+      <facetEntailment facetID="EM_33b_f4" label="Assumed"/>
+      <facetEntailment facetID="EM_33b_f5" label="Assumed"/>
+      <facetEntailment facetID="EM_33b_f6" label="Assumed"/>
+      <facetEntailment facetID="EM_33b_f7" label="Assumed"/>
+      <facetEntailment facetID="EM_33b_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.33b.609.1" answerText="Because the paperclip is the hardest tool and the penny is almost the hardest so the paperclip can scratch the mineral." accuracy="correct">
+      <facetEntailment facetID="EM_33b_f1" label="Expressed"/>
+      <facetEntailment facetID="EM_33b_f2" label="Expressed"/>
+      <facetEntailment facetID="EM_33b_f3" label="Assumed"/>
+      <facetEntailment facetID="EM_33b_f4" label="Assumed"/>
+      <facetEntailment facetID="EM_33b_f5" label="Expressed"/>
+      <facetEntailment facetID="EM_33b_f6" label="Expressed"/>
+      <facetEntailment facetID="EM_33b_f7" label="Assumed"/>
+      <facetEntailment facetID="EM_33b_f8" label="Assumed"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

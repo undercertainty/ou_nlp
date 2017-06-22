@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<question testSet="unseen-answers" id="PS_15bp" module="PS">
+  <questionText>Below are pictures of wind instruments. You blow air through them to produce sounds. Why does [the saxophone] make the lowest sounds?</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="PS_15bp-a1" text="The saxophone has the longest and fattest tube.">
+      <tokens>
+        <token id="PS_15b_ra1">The</token>
+        <token id="PS_15b_ra2">saxophone</token>
+        <token id="PS_15b_ra3">has</token>
+        <token id="PS_15b_ra4">the</token>
+        <token id="PS_15b_ra5">longest</token>
+        <token id="PS_15b_ra6">and</token>
+        <token id="PS_15b_ra7">fattest</token>
+        <token id="PS_15b_ra8">tube</token>
+        <token id="PS_15b_ra9">.</token>
+      </tokens>
+      <facets>
+        <facet id="PS_15b_f1" govNum="PS_15b_ra2" modNum="PS_15b_ra8" reltn="Have" govText="saxophone" isAssumed="true" modText="tube"/>
+        <facet id="PS_15b_f2" govNum="PS_15b_ra8" modNum="PS_15b_ra5" reltn="NMod" govText="tube" modText="longest"/>
+        <facet id="PS_15b_f3" govNum="PS_15b_ra8" modNum="PS_15b_ra7" reltn="NMod" govText="tube" modText="fattest"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="PS.15b.230.1" answerText="Because the bigger it is the lower the sound." accuracy="correct">
+      <facetEntailment facetID="PS_15b_f1" label="Assumed"/>
+      <facetEntailment facetID="PS_15b_f2" label="Expressed"/>
+      <facetEntailment facetID="PS_15b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.15b.393.1" answerText="I think it makes a low sound because it has a little hole so the sound can get through." accuracy="contradictory">
+      <facetEntailment facetID="PS_15b_f1" label="Assumed"/>
+      <facetEntailment facetID="PS_15b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="PS_15b_f3" label="Contra-Infr"/>
+    </studentAnswer>
+    <studentAnswer id="PS.15b.602.1" answerText="Because it has to travel a long distance." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="PS_15b_f1" label="Assumed"/>
+      <facetEntailment facetID="PS_15b_f2" label="Expressed"/>
+      <facetEntailment facetID="PS_15b_f3" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.15b.644.1" answerText="The sound goes a long distance." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="PS_15b_f1" label="Assumed"/>
+      <facetEntailment facetID="PS_15b_f2" label="Expressed"/>
+      <facetEntailment facetID="PS_15b_f3" label="Unaddressed"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

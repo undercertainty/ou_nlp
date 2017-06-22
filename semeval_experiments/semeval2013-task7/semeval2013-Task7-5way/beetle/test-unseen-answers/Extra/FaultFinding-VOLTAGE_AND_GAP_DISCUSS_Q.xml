@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<question testSet="unseen-answers" qtype="Q_EXPLAIN_GENERIC" id="VOLTAGE_AND_GAP_DISCUSS_Q" module="FaultFinding" stype="QUESTION">
+  <questionText>As you move the multimeter leads from one bulb terminal to the next, what does it mean when the voltage reading jumps from 0 to 1.5?</questionText>
+  <referenceAnswers>
+    <referenceAnswer category="BEST" id="answer191" fileID="VOLTAGE_AND_GAP_DISCUSS_Q_ANS1">the bulb is damaged</referenceAnswer>
+    <referenceAnswer category="BEST" id="answer192" fileID="VOLTAGE_AND_GAP_DISCUSS_Q_ANS2">the terminals are not connected</referenceAnswer>
+    <referenceAnswer category="MINIMAL" id="answer193" fileID="VOLTAGE_AND_GAP_DISCUSS_Q_ANS3">there is a gap</referenceAnswer>
+    <referenceAnswer category="MINIMAL" id="answer194" fileID="VOLTAGE_AND_GAP_DISCUSS_Q_ANS4">the terminals are separated by a gap</referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer count="5" answerMatch="answer193" raw_text="there is a gap" id="FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbj8-l1.qa210" accuracy="correct">
+      <token status="ok" id="tok3904">there</token>
+      <token status="ok" id="tok3905">is</token>
+      <token status="ok" id="tok3906">a</token>
+      <token status="ok" id="tok3907">gap</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="kjflkgjg" id="FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbj14-l1.qa195" accuracy="non_domain">
+      <token status="nonWord" id="tok3236">kjflkgjg</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer191" raw_text="the bulb prior to when the reading jumps to 1.5 is damanged" id="FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbj24-l1.qa204" accuracy="correct">
+      <token status="ok" id="tok4070">the</token>
+      <token status="ok" id="tok4071">bulb</token>
+      <token status="ok" id="tok4072">prior</token>
+      <token status="ok" id="tok4073">to</token>
+      <token status="ok" id="tok4074">when</token>
+      <token status="ok" id="tok4075">the</token>
+      <token status="ok" id="tok4076">reading</token>
+      <token status="ok" id="tok4077">jumps</token>
+      <token status="ok" id="tok4078">to</token>
+      <token status="numerical" id="tok4079">1.5</token>
+      <token status="ok" id="tok4080">is</token>
+      <token status="ok" id="tok4081" original="damanged">damaged</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="that the terminals are connected to a battery" id="FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbj26-l1.qa207" accuracy="contradictory">
+      <token status="ok" id="tok3506">that</token>
+      <token status="ok" id="tok3507">the</token>
+      <token status="ok" id="tok3508">terminals</token>
+      <token status="ok" id="tok3509">are</token>
+      <token status="ok" id="tok3510">connected</token>
+      <token status="ok" id="tok3511">to</token>
+      <token status="ok" id="tok3512">a</token>
+      <token status="ok" id="tok3513">battery</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer193" raw_text="There is a gap." id="FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbj30-l1.qa178" accuracy="correct">
+      <token status="ok" id="tok3323">There</token>
+      <token status="ok" id="tok3324">is</token>
+      <token status="ok" id="tok3325">a</token>
+      <token status="ok" id="tok3326">gap</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="The terminal is connected to a different terminal." id="FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbjb1-l1.qa153" accuracy="contradictory">
+      <token status="ok" id="tok3023">The</token>
+      <token status="ok" id="tok3024">terminal</token>
+      <token status="ok" id="tok3025">is</token>
+      <token status="ok" id="tok3026">connected</token>
+      <token status="ok" id="tok3027">to</token>
+      <token status="ok" id="tok3028">a</token>
+      <token status="ok" id="tok3029">different</token>
+      <token status="ok" id="tok3030">terminal</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer192" raw_text="that the terminal on one side is connected and the other is not connected" id="FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbjb19-l1.qa151" accuracy="contradictory">
+      <token status="ok" id="tok2882">that</token>
+      <token status="ok" id="tok2883">the</token>
+      <token status="ok" id="tok2884">terminal</token>
+      <token status="ok" id="tok2885">on</token>
+      <token status="ok" id="tok2886">one</token>
+      <token status="ok" id="tok2887">side</token>
+      <token status="ok" id="tok2888">is</token>
+      <token status="ok" id="tok2889">connected</token>
+      <token status="ok" id="tok2890">and</token>
+      <token status="ok" id="tok2891">the</token>
+      <token status="ok" id="tok2892">other</token>
+      <token status="ok" id="tok2893">is</token>
+      <token status="ok" id="tok2894">not</token>
+      <token status="ok" id="tok2895">connected</token>
+    </studentAnswer>
+  </studentAnswers>
+</question>

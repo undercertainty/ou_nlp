@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<question testSet="unseen-answers" id="PS_51b" module="PS">
+  <questionText>Katie got a guitar for her birthday. She experimented with the strings and found she could change their sounds. Katie also discovered that when she pressed down on a string with her finger, making the string shorter, the sound again changed. Describe how the sound was different when the string was shortened.</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="PS_51b-a1" text="When the string was shorter, the pitch was higher.">
+      <tokens>
+        <token id="PS_51b_ra1">When</token>
+        <token id="PS_51b_ra2">the</token>
+        <token id="PS_51b_ra3">string</token>
+        <token id="PS_51b_ra4">was</token>
+        <token id="PS_51b_ra5">shorter</token>
+        <token id="PS_51b_ra6">,</token>
+        <token id="PS_51b_ra7">the</token>
+        <token id="PS_51b_ra8">pitch</token>
+        <token id="PS_51b_ra9">was</token>
+        <token id="PS_51b_ra10">higher</token>
+        <token id="PS_51b_ra11">.</token>
+      </tokens>
+      <facets>
+        <facet id="PS_51b_f1" govNum="PS_51b_ra3" modNum="PS_51b_ra5" reltn="Be" govText="string" isAssumed="true" modText="shorter"/>
+        <facet id="PS_51b_f2" govNum="PS_51b_ra8" modNum="PS_51b_ra10" reltn="Be" govText="pitch" modText="higher"/>
+        <facet id="PS_51b_f3" govNum="PS_51b_ra9" modNum="PS_51b_ra4" reltn="Cause_when" childProp1Facet1="PS_51b_f2" govText="was" isAssumed="true" modText="was" childProp2Facet1="PS_51b_f1"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="PS.51b.157.1" answerText="If you shorten the string it is louder." accuracy="irrelevant">
+      <facetEntailment facetID="PS_51b_f1" label="Expressed"/>
+      <facetEntailment facetID="PS_51b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="PS_51b_f3" label="Diff-Arg"/>
+    </studentAnswer>
+    <studentAnswer id="PS.51b.331.1" answerText="The pitch was a higher pitch." accuracy="correct">
+      <facetEntailment facetID="PS_51b_f1" label="Assumed"/>
+      <facetEntailment facetID="PS_51b_f2" label="Expressed"/>
+      <facetEntailment facetID="PS_51b_f3" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.51b.384.1" answerText="It makes a loud sound." accuracy="irrelevant">
+      <facetEntailment facetID="PS_51b_f1" label="Assumed"/>
+      <facetEntailment facetID="PS_51b_f2" label="Diff-Arg"/>
+      <facetEntailment facetID="PS_51b_f3" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.51b.502.1" answerText="The pitch will get higher." accuracy="correct">
+      <facetEntailment facetID="PS_51b_f1" label="Assumed"/>
+      <facetEntailment facetID="PS_51b_f2" label="Expressed"/>
+      <facetEntailment facetID="PS_51b_f3" label="Assumed"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

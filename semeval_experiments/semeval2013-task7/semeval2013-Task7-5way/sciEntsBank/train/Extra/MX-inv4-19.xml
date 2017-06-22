@@ -1,0 +1,519 @@
+<?xml version="1.0"?>
+<question id="MX_19" module="MX">
+  <questionText>When Amy added water to a mixture of baking soda and citric acid, the mixture began fizzing. Amy concluded there was a chemical reaction because it fizzed. Why is fizzing evidence of a chemical reaction?</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="MX_19-a1" text="The fizzing indicates a gas, a new material, is produced. When a new material is produced, a chemical reaction has occurred.">
+      <tokens>
+        <token id="MX_19_ra1">The</token>
+        <token id="MX_19_ra2">fizzing</token>
+        <token id="MX_19_ra3">indicates</token>
+        <token id="MX_19_ra4">a</token>
+        <token id="MX_19_ra5">gas</token>
+        <token id="MX_19_ra6">,</token>
+        <token id="MX_19_ra7">a</token>
+        <token id="MX_19_ra8">new</token>
+        <token id="MX_19_ra9">material</token>
+        <token id="MX_19_ra10">,</token>
+        <token id="MX_19_ra11">is</token>
+        <token id="MX_19_ra12">produced</token>
+        <token id="MX_19_ra13">.</token>
+        <token id="MX_19_ra14">When</token>
+        <token id="MX_19_ra15">a</token>
+        <token id="MX_19_ra16">new</token>
+        <token id="MX_19_ra17">material</token>
+        <token id="MX_19_ra18">is</token>
+        <token id="MX_19_ra19">produced</token>
+        <token id="MX_19_ra20">,</token>
+        <token id="MX_19_ra21">a</token>
+        <token id="MX_19_ra22">chemical</token>
+        <token id="MX_19_ra23">reaction</token>
+        <token id="MX_19_ra24">has</token>
+        <token id="MX_19_ra25">occurred</token>
+        <token id="MX_19_ra26">.</token>
+      </tokens>
+      <facets>
+        <facet id="MX_19_f1" govNum="MX_19_ra3" modNum="MX_19_ra2" reltn="Cause" govText="indicates" isAssumed="true" modText="fizzing"/>
+        <facet id="MX_19_f2" govNum="MX_19_ra3" modNum="MX_19_ra12" reltn="Topic" childProp2Facet2="MX_19_f4" govText="indicates" modText="produced" childProp2Facet1="MX_19_f3"/>
+        <facet id="MX_19_f3" govNum="MX_19_ra12" modNum="MX_19_ra5" reltn="Product" govText="produced" modText="gas"/>
+        <facet id="MX_19_f4" govNum="MX_19_ra12" modNum="MX_19_ra9" reltn="Product" govText="produced" modText="material"/>
+        <facet id="MX_19_f5" govNum="MX_19_ra9" modNum="MX_19_ra8" reltn="NMod" govText="material" modText="new"/>
+        <facet id="MX_19_f6" govNum="MX_19_ra2" modNum="MX_19_ra12" reltn="Cause_indicates" childProp2Facet2="MX_19_f4" govText="fizzing" modText="produced" childProp2Facet1="MX_19_f3"/>
+        <facet id="MX_19_f7" govNum="MX_19_ra17" modNum="MX_19_ra16" reltn="NMod" govText="material" modText="new"/>
+        <facet id="MX_19_f8" govNum="MX_19_ra19" modNum="MX_19_ra17" reltn="Product" govText="produced" modText="material"/>
+        <facet id="MX_19_f9" govNum="MX_19_ra25" modNum="MX_19_ra23" reltn="Theme" govText="occurred" isAssumed="true" modText="reaction"/>
+        <facet id="MX_19_f10" govNum="MX_19_ra23" modNum="MX_19_ra22" reltn="NMod" govText="reaction" isAssumed="true" modText="chemical"/>
+        <facet id="MX_19_f11" govNum="MX_19_ra19" modNum="MX_19_ra25" reltn="Cause_when" childProp2Facet2="MX_19_f10" childProp1Facet1="MX_19_f8" govText="produced" childProp1Facet2="MX_19_f7" modText="occurred" childProp2Facet1="MX_19_f9"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="MX.19.387.1" answerText="Because when it fizzing it releases a gas. When a gas forms from 2 materials it is a gas." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="MX_19_f1" label="Expressed"/>
+      <facetEntailment facetID="MX_19_f2" label="Expressed"/>
+      <facetEntailment facetID="MX_19_f3" label="Expressed"/>
+      <facetEntailment facetID="MX_19_f4" label="Inferred"/>
+      <facetEntailment facetID="MX_19_f5" label="Inferred"/>
+      <facetEntailment facetID="MX_19_f6" label="Expressed"/>
+      <facetEntailment facetID="MX_19_f7" label="Inferred"/>
+      <facetEntailment facetID="MX_19_f8" label="Inferred"/>
+      <facetEntailment facetID="MX_19_f9" label="Assumed"/>
+      <facetEntailment facetID="MX_19_f10" label="Assumed"/>
+      <facetEntailment facetID="MX_19_f11" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.19.390.1" answerText="Because the baking soda and citric acid started out plain but when you poured water in it reacted." accuracy="irrelevant">
+      <facetEntailment facetID="MX_19_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_19_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MX_19_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_19_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MX_19_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MX_19_f6" label="Unaddressed"/>
+      <facetEntailment facetID="MX_19_f7" label="Unaddressed"/>
+      <facetEntailment facetID="MX_19_f8" label="Unaddressed"/>
+      <facetEntailment facetID="MX_19_f9" label="Expressed"/>
+      <facetEntailment facetID="MX_19_f10" label="Assumed"/>
+      <facetEntailment facetID="MX_19_f11" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.19.392.1" answerText="Because it shows and once you see it you will know that it is a chemical reaction because it starts to look like little bubbles and that is what a chemical reaction is." accuracy="irrelevant">
+      <facetEntailment facetID="MX_19_f1" label="Expressed"/>
+      <facetEntailment facetID="MX_19_f2" label="Diff-Arg"/>
+      <facetEntailment facetID="MX_19_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_19_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MX_19_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MX_19_f6" label="Diff-Arg"/>
+      <facetEntailment facetID="MX_19_f7" label="Unaddressed"/>
+      <facetEntailment facetID="MX_19_f8" label="Unaddressed"/>
+      <facetEntailment facetID="MX_19_f9" label="Expressed"/>
+      <facetEntailment facetID="MX_19_f10" label="Expressed"/>
+      <facetEntailment facetID="MX_19_f11" label="Diff-Arg"/>
+    </studentAnswer>
+    <studentAnswer id="MX.19.423.1" answerText="Because it indicates something else is produced." accuracy="correct">
+      <facetEntailment facetID="MX_19_f1" label="Expressed"/>
+      <facetEntailment facetID="MX_19_f2" label="Expressed"/>
+      <facetEntailment facetID="MX_19_f3" label="Inferred"/>
+      <facetEntailment facetID="MX_19_f4" label="Inferred"/>
+      <facetEntailment facetID="MX_19_f5" label="Inferred"/>
+      <facetEntailment facetID="MX_19_f6" label="Expressed"/>
+      <facetEntailment facetID="MX_19_f7" label="Inferred"/>
+      <facetEntailment facetID="MX_19_f8" label="Inferred"/>
+      <facetEntailment facetID="MX_19_f9" label="Assumed"/>
+      <facetEntailment facetID="MX_19_f10" label="Assumed"/>
+      <facetEntailment facetID="MX_19_f11" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="MX.19.425.1" answerText="Because the chemicals clash and fizz." accuracy="irrelevant">
+      <facetEntailment facetID="MX_19_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_19_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MX_19_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_19_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MX_19_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MX_19_f6" label="Unaddressed"/>
+      <facetEntailment facetID="MX_19_f7" label="Unaddressed"/>
+      <facetEntailment facetID="MX_19_f8" label="Unaddressed"/>
+      <facetEntailment facetID="MX_19_f9" label="Assumed"/>
+      <facetEntailment facetID="MX_19_f10" label="Assumed"/>
+      <facetEntailment facetID="MX_19_f11" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.19.426.1" answerText="Because It means that it is a gas or new material!" accuracy="correct">
+      <facetEntailment facetID="MX_19_f1" label="Expressed"/>
+      <facetEntailment facetID="MX_19_f2" label="Expressed"/>
+      <facetEntailment facetID="MX_19_f3" label="Inferred"/>
+      <facetEntailment facetID="MX_19_f4" label="Expressed"/>
+      <facetEntailment facetID="MX_19_f5" label="Expressed"/>
+      <facetEntailment facetID="MX_19_f6" label="Expressed"/>
+      <facetEntailment facetID="MX_19_f7" label="Expressed"/>
+      <facetEntailment facetID="MX_19_f8" label="Expressed"/>
+      <facetEntailment facetID="MX_19_f9" label="Assumed"/>
+      <facetEntailment facetID="MX_19_f10" label="Assumed"/>
+      <facetEntailment facetID="MX_19_f11" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="MX.19.432.1" answerText="It created a gas and new material was made." accuracy="correct">
+      <facetEntailment facetID="MX_19_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_19_f2" label="Inferred"/>
+      <facetEntailment facetID="MX_19_f3" label="Expressed"/>
+      <facetEntailment facetID="MX_19_f4" label="Expressed"/>
+      <facetEntailment facetID="MX_19_f5" label="Expressed"/>
+      <facetEntailment facetID="MX_19_f6" label="Inferred"/>
+      <facetEntailment facetID="MX_19_f7" label="Expressed"/>
+      <facetEntailment facetID="MX_19_f8" label="Expressed"/>
+      <facetEntailment facetID="MX_19_f9" label="Assumed"/>
+      <facetEntailment facetID="MX_19_f10" label="Assumed"/>
+      <facetEntailment facetID="MX_19_f11" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="MX.19.438.1" answerText="Because the 2 solutes and the solvent made a gas." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="MX_19_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_19_f2" label="Expressed"/>
+      <facetEntailment facetID="MX_19_f3" label="Expressed"/>
+      <facetEntailment facetID="MX_19_f4" label="Inferred"/>
+      <facetEntailment facetID="MX_19_f5" label="Inferred"/>
+      <facetEntailment facetID="MX_19_f6" label="Inferred"/>
+      <facetEntailment facetID="MX_19_f7" label="Inferred"/>
+      <facetEntailment facetID="MX_19_f8" label="Inferred"/>
+      <facetEntailment facetID="MX_19_f9" label="Assumed"/>
+      <facetEntailment facetID="MX_19_f10" label="Assumed"/>
+      <facetEntailment facetID="MX_19_f11" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.19.439.1" answerText="It indicates a gas." accuracy="correct">
+      <facetEntailment facetID="MX_19_f1" label="Expressed"/>
+      <facetEntailment facetID="MX_19_f2" label="Inferred"/>
+      <facetEntailment facetID="MX_19_f3" label="Inferred"/>
+      <facetEntailment facetID="MX_19_f4" label="Inferred"/>
+      <facetEntailment facetID="MX_19_f5" label="Inferred"/>
+      <facetEntailment facetID="MX_19_f6" label="Inferred"/>
+      <facetEntailment facetID="MX_19_f7" label="Inferred"/>
+      <facetEntailment facetID="MX_19_f8" label="Inferred"/>
+      <facetEntailment facetID="MX_19_f9" label="Assumed"/>
+      <facetEntailment facetID="MX_19_f10" label="Assumed"/>
+      <facetEntailment facetID="MX_19_f11" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="MX.19.453.1" answerText="Because the bubble makes the solution or mixture different." accuracy="irrelevant">
+      <facetEntailment facetID="MX_19_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_19_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MX_19_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_19_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MX_19_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MX_19_f6" label="Unaddressed"/>
+      <facetEntailment facetID="MX_19_f7" label="Unaddressed"/>
+      <facetEntailment facetID="MX_19_f8" label="Unaddressed"/>
+      <facetEntailment facetID="MX_19_f9" label="Assumed"/>
+      <facetEntailment facetID="MX_19_f10" label="Assumed"/>
+      <facetEntailment facetID="MX_19_f11" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.19.454.1" answerText="Because it was letting out gas." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="MX_19_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_19_f2" label="Inferred"/>
+      <facetEntailment facetID="MX_19_f3" label="Inferred"/>
+      <facetEntailment facetID="MX_19_f4" label="Inferred"/>
+      <facetEntailment facetID="MX_19_f5" label="Inferred"/>
+      <facetEntailment facetID="MX_19_f6" label="Inferred"/>
+      <facetEntailment facetID="MX_19_f7" label="Inferred"/>
+      <facetEntailment facetID="MX_19_f8" label="Inferred"/>
+      <facetEntailment facetID="MX_19_f9" label="Assumed"/>
+      <facetEntailment facetID="MX_19_f10" label="Assumed"/>
+      <facetEntailment facetID="MX_19_f11" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.19.459.1" answerText="Gas was in it so that why it start fizzing." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="MX_19_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_19_f2" label="Expressed"/>
+      <facetEntailment facetID="MX_19_f3" label="Inferred"/>
+      <facetEntailment facetID="MX_19_f4" label="Inferred"/>
+      <facetEntailment facetID="MX_19_f5" label="Inferred"/>
+      <facetEntailment facetID="MX_19_f6" label="Inferred"/>
+      <facetEntailment facetID="MX_19_f7" label="Inferred"/>
+      <facetEntailment facetID="MX_19_f8" label="Inferred"/>
+      <facetEntailment facetID="MX_19_f9" label="Assumed"/>
+      <facetEntailment facetID="MX_19_f10" label="Assumed"/>
+      <facetEntailment facetID="MX_19_f11" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.19.463.1" answerText="It is a clue because it is making a gas and that is a clue so you know that a chemical reaction is about to happen." accuracy="correct">
+      <facetEntailment facetID="MX_19_f1" label="Expressed"/>
+      <facetEntailment facetID="MX_19_f2" label="Expressed"/>
+      <facetEntailment facetID="MX_19_f3" label="Expressed"/>
+      <facetEntailment facetID="MX_19_f4" label="Inferred"/>
+      <facetEntailment facetID="MX_19_f5" label="Inferred"/>
+      <facetEntailment facetID="MX_19_f6" label="Expressed"/>
+      <facetEntailment facetID="MX_19_f7" label="Inferred"/>
+      <facetEntailment facetID="MX_19_f8" label="Inferred"/>
+      <facetEntailment facetID="MX_19_f9" label="Expressed"/>
+      <facetEntailment facetID="MX_19_f10" label="Expressed"/>
+      <facetEntailment facetID="MX_19_f11" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.19.464.1" answerText="Because you made a gas." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="MX_19_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_19_f2" label="Inferred"/>
+      <facetEntailment facetID="MX_19_f3" label="Expressed"/>
+      <facetEntailment facetID="MX_19_f4" label="Inferred"/>
+      <facetEntailment facetID="MX_19_f5" label="Inferred"/>
+      <facetEntailment facetID="MX_19_f6" label="Inferred"/>
+      <facetEntailment facetID="MX_19_f7" label="Inferred"/>
+      <facetEntailment facetID="MX_19_f8" label="Inferred"/>
+      <facetEntailment facetID="MX_19_f9" label="Assumed"/>
+      <facetEntailment facetID="MX_19_f10" label="Assumed"/>
+      <facetEntailment facetID="MX_19_f11" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.19.467.1" answerText="Because a chemical reaction creates gas bubbles or a precipitate." accuracy="correct">
+      <facetEntailment facetID="MX_19_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_19_f2" label="Inferred"/>
+      <facetEntailment facetID="MX_19_f3" label="Expressed"/>
+      <facetEntailment facetID="MX_19_f4" label="Inferred"/>
+      <facetEntailment facetID="MX_19_f5" label="Inferred"/>
+      <facetEntailment facetID="MX_19_f6" label="Inferred"/>
+      <facetEntailment facetID="MX_19_f7" label="Inferred"/>
+      <facetEntailment facetID="MX_19_f8" label="Inferred"/>
+      <facetEntailment facetID="MX_19_f9" label="Expressed"/>
+      <facetEntailment facetID="MX_19_f10" label="Expressed"/>
+      <facetEntailment facetID="MX_19_f11" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.19.469.1" answerText="It was fizzing because when he a mix baking soda and citric acid together the fizzing have meant that it dissolved and made bubbles." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="MX_19_f1" label="Expressed"/>
+      <facetEntailment facetID="MX_19_f2" label="Expressed"/>
+      <facetEntailment facetID="MX_19_f3" label="Diff-Arg"/>
+      <facetEntailment facetID="MX_19_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MX_19_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MX_19_f6" label="Diff-Arg"/>
+      <facetEntailment facetID="MX_19_f7" label="Unaddressed"/>
+      <facetEntailment facetID="MX_19_f8" label="Unaddressed"/>
+      <facetEntailment facetID="MX_19_f9" label="Assumed"/>
+      <facetEntailment facetID="MX_19_f10" label="Assumed"/>
+      <facetEntailment facetID="MX_19_f11" label="Diff-Arg"/>
+    </studentAnswer>
+    <studentAnswer id="MX.19.473.1" answerText="Because it shows that something other than just doing nothing." accuracy="irrelevant">
+      <facetEntailment facetID="MX_19_f1" label="Expressed"/>
+      <facetEntailment facetID="MX_19_f2" label="Diff-Arg"/>
+      <facetEntailment facetID="MX_19_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_19_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MX_19_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MX_19_f6" label="Diff-Arg"/>
+      <facetEntailment facetID="MX_19_f7" label="Unaddressed"/>
+      <facetEntailment facetID="MX_19_f8" label="Unaddressed"/>
+      <facetEntailment facetID="MX_19_f9" label="Assumed"/>
+      <facetEntailment facetID="MX_19_f10" label="Assumed"/>
+      <facetEntailment facetID="MX_19_f11" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.19.487.1" answerText="Because something has to happen for the precipitate to be made." accuracy="correct">
+      <facetEntailment facetID="MX_19_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_19_f2" label="Inferred"/>
+      <facetEntailment facetID="MX_19_f3" label="Diff-Arg"/>
+      <facetEntailment facetID="MX_19_f4" label="Expressed"/>
+      <facetEntailment facetID="MX_19_f5" label="Inferred"/>
+      <facetEntailment facetID="MX_19_f6" label="Inferred"/>
+      <facetEntailment facetID="MX_19_f7" label="Inferred"/>
+      <facetEntailment facetID="MX_19_f8" label="Inferred"/>
+      <facetEntailment facetID="MX_19_f9" label="Assumed"/>
+      <facetEntailment facetID="MX_19_f10" label="Assumed"/>
+      <facetEntailment facetID="MX_19_f11" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="MX.19.492.1" answerText="Because fizzing is created by gas bubbles." accuracy="irrelevant">
+      <facetEntailment facetID="MX_19_f1" label="Expressed"/>
+      <facetEntailment facetID="MX_19_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MX_19_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_19_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MX_19_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MX_19_f6" label="Unaddressed"/>
+      <facetEntailment facetID="MX_19_f7" label="Unaddressed"/>
+      <facetEntailment facetID="MX_19_f8" label="Unaddressed"/>
+      <facetEntailment facetID="MX_19_f9" label="Assumed"/>
+      <facetEntailment facetID="MX_19_f10" label="Assumed"/>
+      <facetEntailment facetID="MX_19_f11" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.19.494.1" answerText="Because fizzing is a sign of gas leaving a material and that is a chemical reaction." accuracy="correct">
+      <facetEntailment facetID="MX_19_f1" label="Expressed"/>
+      <facetEntailment facetID="MX_19_f2" label="Inferred"/>
+      <facetEntailment facetID="MX_19_f3" label="Inferred"/>
+      <facetEntailment facetID="MX_19_f4" label="Inferred"/>
+      <facetEntailment facetID="MX_19_f5" label="Inferred"/>
+      <facetEntailment facetID="MX_19_f6" label="Inferred"/>
+      <facetEntailment facetID="MX_19_f7" label="Inferred"/>
+      <facetEntailment facetID="MX_19_f8" label="Inferred"/>
+      <facetEntailment facetID="MX_19_f9" label="Expressed"/>
+      <facetEntailment facetID="MX_19_f10" label="Expressed"/>
+      <facetEntailment facetID="MX_19_f11" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="MX.19.496.1" answerText="Because when it does that you know that you have made gasses and gasses are made when chemical reactions occur." accuracy="correct">
+      <facetEntailment facetID="MX_19_f1" label="Expressed"/>
+      <facetEntailment facetID="MX_19_f2" label="Expressed"/>
+      <facetEntailment facetID="MX_19_f3" label="Expressed"/>
+      <facetEntailment facetID="MX_19_f4" label="Inferred"/>
+      <facetEntailment facetID="MX_19_f5" label="Inferred"/>
+      <facetEntailment facetID="MX_19_f6" label="Expressed"/>
+      <facetEntailment facetID="MX_19_f7" label="Inferred"/>
+      <facetEntailment facetID="MX_19_f8" label="Inferred"/>
+      <facetEntailment facetID="MX_19_f9" label="Expressed"/>
+      <facetEntailment facetID="MX_19_f10" label="Expressed"/>
+      <facetEntailment facetID="MX_19_f11" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="MX.19.500.1" answerText="Fizzing is a reaction." accuracy="irrelevant">
+      <facetEntailment facetID="MX_19_f1" label="Expressed"/>
+      <facetEntailment facetID="MX_19_f2" label="Diff-Arg"/>
+      <facetEntailment facetID="MX_19_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_19_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MX_19_f5" label="Diff-Arg"/>
+      <facetEntailment facetID="MX_19_f6" label="Diff-Arg"/>
+      <facetEntailment facetID="MX_19_f7" label="Unaddressed"/>
+      <facetEntailment facetID="MX_19_f8" label="Unaddressed"/>
+      <facetEntailment facetID="MX_19_f9" label="Expressed"/>
+      <facetEntailment facetID="MX_19_f10" label="Assumed"/>
+      <facetEntailment facetID="MX_19_f11" label="Diff-Arg"/>
+    </studentAnswer>
+    <studentAnswer id="MX.19.501.1" answerText="Sometimes because fizzing means that gas is escaping and that is a chemical reaction." accuracy="correct">
+      <facetEntailment facetID="MX_19_f1" label="Expressed"/>
+      <facetEntailment facetID="MX_19_f2" label="Inferred"/>
+      <facetEntailment facetID="MX_19_f3" label="Inferred"/>
+      <facetEntailment facetID="MX_19_f4" label="Inferred"/>
+      <facetEntailment facetID="MX_19_f5" label="Inferred"/>
+      <facetEntailment facetID="MX_19_f6" label="Expressed"/>
+      <facetEntailment facetID="MX_19_f7" label="Inferred"/>
+      <facetEntailment facetID="MX_19_f8" label="Inferred"/>
+      <facetEntailment facetID="MX_19_f9" label="Expressed"/>
+      <facetEntailment facetID="MX_19_f10" label="Expressed"/>
+      <facetEntailment facetID="MX_19_f11" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="MX.19.502.1" answerText="Because if it was just water it would not fizz." accuracy="irrelevant">
+      <facetEntailment facetID="MX_19_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_19_f2" label="Diff-Arg"/>
+      <facetEntailment facetID="MX_19_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_19_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MX_19_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MX_19_f6" label="Unaddressed"/>
+      <facetEntailment facetID="MX_19_f7" label="Unaddressed"/>
+      <facetEntailment facetID="MX_19_f8" label="Unaddressed"/>
+      <facetEntailment facetID="MX_19_f9" label="Assumed"/>
+      <facetEntailment facetID="MX_19_f10" label="Assumed"/>
+      <facetEntailment facetID="MX_19_f11" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.19.560.1" answerText="Because when it fizzes there is gas and that is a sign of a chemical reaction." accuracy="correct">
+      <facetEntailment facetID="MX_19_f1" label="Expressed"/>
+      <facetEntailment facetID="MX_19_f2" label="Expressed"/>
+      <facetEntailment facetID="MX_19_f3" label="Expressed"/>
+      <facetEntailment facetID="MX_19_f4" label="Inferred"/>
+      <facetEntailment facetID="MX_19_f5" label="Inferred"/>
+      <facetEntailment facetID="MX_19_f6" label="Expressed"/>
+      <facetEntailment facetID="MX_19_f7" label="Inferred"/>
+      <facetEntailment facetID="MX_19_f8" label="Inferred"/>
+      <facetEntailment facetID="MX_19_f9" label="Expressed"/>
+      <facetEntailment facetID="MX_19_f10" label="Expressed"/>
+      <facetEntailment facetID="MX_19_f11" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="MX.19.563.1" answerText="It is evidence because it made gas and fizzing occurs only when one material does not like the other one." accuracy="correct">
+      <facetEntailment facetID="MX_19_f1" label="Expressed"/>
+      <facetEntailment facetID="MX_19_f2" label="Expressed"/>
+      <facetEntailment facetID="MX_19_f3" label="Expressed"/>
+      <facetEntailment facetID="MX_19_f4" label="Inferred"/>
+      <facetEntailment facetID="MX_19_f5" label="Inferred"/>
+      <facetEntailment facetID="MX_19_f6" label="Expressed"/>
+      <facetEntailment facetID="MX_19_f7" label="Inferred"/>
+      <facetEntailment facetID="MX_19_f8" label="Inferred"/>
+      <facetEntailment facetID="MX_19_f9" label="Assumed"/>
+      <facetEntailment facetID="MX_19_f10" label="Assumed"/>
+      <facetEntailment facetID="MX_19_f11" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="MX.19.564.1" answerText="Fizzing evidence of a chemical reaction because when it fizzes it means it is producing gas." accuracy="correct">
+      <facetEntailment facetID="MX_19_f1" label="Expressed"/>
+      <facetEntailment facetID="MX_19_f2" label="Expressed"/>
+      <facetEntailment facetID="MX_19_f3" label="Expressed"/>
+      <facetEntailment facetID="MX_19_f4" label="Inferred"/>
+      <facetEntailment facetID="MX_19_f5" label="Inferred"/>
+      <facetEntailment facetID="MX_19_f6" label="Expressed"/>
+      <facetEntailment facetID="MX_19_f7" label="Inferred"/>
+      <facetEntailment facetID="MX_19_f8" label="Inferred"/>
+      <facetEntailment facetID="MX_19_f9" label="Expressed"/>
+      <facetEntailment facetID="MX_19_f10" label="Expressed"/>
+      <facetEntailment facetID="MX_19_f11" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="MX.19.575.1" answerText="It is a chemical reaction because it made a gas and a gas only appears if there is a chemical reaction." accuracy="correct">
+      <facetEntailment facetID="MX_19_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_19_f2" label="Inferred"/>
+      <facetEntailment facetID="MX_19_f3" label="Expressed"/>
+      <facetEntailment facetID="MX_19_f4" label="Inferred"/>
+      <facetEntailment facetID="MX_19_f5" label="Inferred"/>
+      <facetEntailment facetID="MX_19_f6" label="Expressed"/>
+      <facetEntailment facetID="MX_19_f7" label="Inferred"/>
+      <facetEntailment facetID="MX_19_f8" label="Inferred"/>
+      <facetEntailment facetID="MX_19_f9" label="Expressed"/>
+      <facetEntailment facetID="MX_19_f10" label="Expressed"/>
+      <facetEntailment facetID="MX_19_f11" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.19.595.1" answerText="Something happened so it is a reaction." accuracy="irrelevant">
+      <facetEntailment facetID="MX_19_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_19_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MX_19_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_19_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MX_19_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MX_19_f6" label="Unaddressed"/>
+      <facetEntailment facetID="MX_19_f7" label="Unaddressed"/>
+      <facetEntailment facetID="MX_19_f8" label="Unaddressed"/>
+      <facetEntailment facetID="MX_19_f9" label="Expressed"/>
+      <facetEntailment facetID="MX_19_f10" label="Assumed"/>
+      <facetEntailment facetID="MX_19_f11" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.19.597.1" answerText="Because fizzing is a reaction and so it had to be a chemical reaction." accuracy="irrelevant">
+      <facetEntailment facetID="MX_19_f1" label="Expressed"/>
+      <facetEntailment facetID="MX_19_f2" label="Diff-Arg"/>
+      <facetEntailment facetID="MX_19_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_19_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MX_19_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MX_19_f6" label="Diff-Arg"/>
+      <facetEntailment facetID="MX_19_f7" label="Unaddressed"/>
+      <facetEntailment facetID="MX_19_f8" label="Unaddressed"/>
+      <facetEntailment facetID="MX_19_f9" label="Expressed"/>
+      <facetEntailment facetID="MX_19_f10" label="Expressed"/>
+      <facetEntailment facetID="MX_19_f11" label="Diff-Arg"/>
+    </studentAnswer>
+    <studentAnswer id="MX.19.604.1" answerText="Because you are putting 2 mixtures together so when it starts fizzing that is how you know it is a chemical reaction." accuracy="irrelevant">
+      <facetEntailment facetID="MX_19_f1" label="Expressed"/>
+      <facetEntailment facetID="MX_19_f2" label="Diff-Arg"/>
+      <facetEntailment facetID="MX_19_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_19_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MX_19_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MX_19_f6" label="Diff-Arg"/>
+      <facetEntailment facetID="MX_19_f7" label="Unaddressed"/>
+      <facetEntailment facetID="MX_19_f8" label="Unaddressed"/>
+      <facetEntailment facetID="MX_19_f9" label="Expressed"/>
+      <facetEntailment facetID="MX_19_f10" label="Expressed"/>
+      <facetEntailment facetID="MX_19_f11" label="Diff-Arg"/>
+    </studentAnswer>
+    <studentAnswer id="MX.19.605.1" answerText="Because it did something." accuracy="irrelevant">
+      <facetEntailment facetID="MX_19_f1" label="Expressed"/>
+      <facetEntailment facetID="MX_19_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MX_19_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_19_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MX_19_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MX_19_f6" label="Unaddressed"/>
+      <facetEntailment facetID="MX_19_f7" label="Unaddressed"/>
+      <facetEntailment facetID="MX_19_f8" label="Unaddressed"/>
+      <facetEntailment facetID="MX_19_f9" label="Assumed"/>
+      <facetEntailment facetID="MX_19_f10" label="Assumed"/>
+      <facetEntailment facetID="MX_19_f11" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.19.608.1" answerText="Because it fizzed and moved so that is how." accuracy="irrelevant">
+      <facetEntailment facetID="MX_19_f1" label="Expressed"/>
+      <facetEntailment facetID="MX_19_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MX_19_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_19_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MX_19_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MX_19_f6" label="Unaddressed"/>
+      <facetEntailment facetID="MX_19_f7" label="Unaddressed"/>
+      <facetEntailment facetID="MX_19_f8" label="Unaddressed"/>
+      <facetEntailment facetID="MX_19_f9" label="Assumed"/>
+      <facetEntailment facetID="MX_19_f10" label="Assumed"/>
+      <facetEntailment facetID="MX_19_f11" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.19.612.1" answerText="Because it is bubbling and bubbling is a reaction when you mix stuff together and it bubbles." accuracy="irrelevant">
+      <facetEntailment facetID="MX_19_f1" label="Expressed"/>
+      <facetEntailment facetID="MX_19_f2" label="Diff-Arg"/>
+      <facetEntailment facetID="MX_19_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_19_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MX_19_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MX_19_f6" label="Diff-Arg"/>
+      <facetEntailment facetID="MX_19_f7" label="Unaddressed"/>
+      <facetEntailment facetID="MX_19_f8" label="Unaddressed"/>
+      <facetEntailment facetID="MX_19_f9" label="Expressed"/>
+      <facetEntailment facetID="MX_19_f10" label="Assumed"/>
+      <facetEntailment facetID="MX_19_f11" label="Diff-Arg"/>
+    </studentAnswer>
+    <studentAnswer id="MX.19.626.1" answerText="Because when more than 2 chemicals are mixed it produces fizzing." accuracy="irrelevant">
+      <facetEntailment facetID="MX_19_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_19_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MX_19_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_19_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MX_19_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MX_19_f6" label="Unaddressed"/>
+      <facetEntailment facetID="MX_19_f7" label="Unaddressed"/>
+      <facetEntailment facetID="MX_19_f8" label="Unaddressed"/>
+      <facetEntailment facetID="MX_19_f9" label="Assumed"/>
+      <facetEntailment facetID="MX_19_f10" label="Assumed"/>
+      <facetEntailment facetID="MX_19_f11" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.19.635.1" answerText="Because the material before did not use to fizz until they were put together." accuracy="irrelevant">
+      <facetEntailment facetID="MX_19_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_19_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MX_19_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_19_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MX_19_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MX_19_f6" label="Unaddressed"/>
+      <facetEntailment facetID="MX_19_f7" label="Unaddressed"/>
+      <facetEntailment facetID="MX_19_f8" label="Unaddressed"/>
+      <facetEntailment facetID="MX_19_f9" label="Assumed"/>
+      <facetEntailment facetID="MX_19_f10" label="Assumed"/>
+      <facetEntailment facetID="MX_19_f11" label="Unaddressed"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

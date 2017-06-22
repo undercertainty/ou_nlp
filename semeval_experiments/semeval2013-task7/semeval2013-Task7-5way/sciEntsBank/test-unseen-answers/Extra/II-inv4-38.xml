@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<question testSet="unseen-answers" id="II_38" module="II">
+  <questionText>Describe what you would see if a mirror were placed along a line of symmetry on a flat object.</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="II_38-a1" text="The mirror would complete the image of the object and make the object appear whole.">
+      <tokens>
+        <token id="II_38_ra1">The</token>
+        <token id="II_38_ra2">mirror</token>
+        <token id="II_38_ra3">would</token>
+        <token id="II_38_ra4">complete</token>
+        <token id="II_38_ra5">the</token>
+        <token id="II_38_ra6">image</token>
+        <token id="II_38_ra7">of</token>
+        <token id="II_38_ra8">the</token>
+        <token id="II_38_ra9">object</token>
+        <token id="II_38_ra10">and</token>
+        <token id="II_38_ra11">make</token>
+        <token id="II_38_ra12">the</token>
+        <token id="II_38_ra13">object</token>
+        <token id="II_38_ra14">appear</token>
+        <token id="II_38_ra15">whole</token>
+        <token id="II_38_ra16">.</token>
+      </tokens>
+      <facets>
+        <facet id="II_38_f1" govNum="II_38_ra4" modNum="II_38_ra2" reltn="Instrument" govText="complete" modText="mirror"/>
+        <facet id="II_38_f2" govNum="II_38_ra4" modNum="II_38_ra6" reltn="Theme" govText="complete" modText="image"/>
+        <facet id="II_38_f3" govNum="II_38_ra6" modNum="II_38_ra9" reltn="NMod_of" govText="image" modText="object"/>
+        <facet id="II_38_f4" govNum="II_38_ra11" modNum="II_38_ra2" reltn="Instrument" govText="make" modText="mirror"/>
+        <facet id="II_38_f5" govNum="II_38_ra11" modNum="II_38_ra14" reltn="Predicate" govText="make" modText="appear"/>
+        <facet id="II_38_f6" govNum="II_38_ra14" modNum="II_38_ra13" reltn="Patient" govText="appear" modText="object"/>
+        <facet id="II_38_f7" govNum="II_38_ra14" modNum="II_38_ra15" reltn="Predicate" govText="appear" modText="whole"/>
+        <facet id="II_38_f8" govNum="II_38_ra11" modNum="II_38_ra4" reltn="Cause_and" childProp2Facet2="II_38_f2" govText="make" modText="complete" childProp2Facet1="II_38_f1"/>
+        <facet id="II_38_f9" govNum="II_38_ra14" modNum="II_38_ra4" reltn="Cause_make" childProp2Facet2="II_38_f2" childProp1Facet1="II_38_f6" govText="appear" childProp1Facet2="II_38_f7" modText="complete" childProp2Facet1="II_38_f1"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="II.38.103.1" answerText="Is flat but when you write your letters backwards." accuracy="irrelevant">
+      <facetEntailment facetID="II_38_f1" label="Diff-Arg"/>
+      <facetEntailment facetID="II_38_f2" label="Unaddressed"/>
+      <facetEntailment facetID="II_38_f3" label="Inferred"/>
+      <facetEntailment facetID="II_38_f4" label="Inferred"/>
+      <facetEntailment facetID="II_38_f5" label="Inferred"/>
+      <facetEntailment facetID="II_38_f6" label="Inferred"/>
+      <facetEntailment facetID="II_38_f7" label="Diff-Arg"/>
+      <facetEntailment facetID="II_38_f8" label="Unaddressed"/>
+      <facetEntailment facetID="II_38_f9" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="II.38.151.1" answerText="You would see the whole shape." accuracy="correct">
+      <facetEntailment facetID="II_38_f1" label="Inferred"/>
+      <facetEntailment facetID="II_38_f2" label="Expressed"/>
+      <facetEntailment facetID="II_38_f3" label="Expressed"/>
+      <facetEntailment facetID="II_38_f4" label="Inferred"/>
+      <facetEntailment facetID="II_38_f5" label="Expressed"/>
+      <facetEntailment facetID="II_38_f6" label="Expressed"/>
+      <facetEntailment facetID="II_38_f7" label="Expressed"/>
+      <facetEntailment facetID="II_38_f8" label="Inferred"/>
+      <facetEntailment facetID="II_38_f9" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="II.38.473.1" answerText="Half of the flat object." accuracy="contradictory">
+      <facetEntailment facetID="II_38_f1" label="Contra-Expr"/>
+      <facetEntailment facetID="II_38_f2" label="Contra-Expr"/>
+      <facetEntailment facetID="II_38_f3" label="Expressed"/>
+      <facetEntailment facetID="II_38_f4" label="Unaddressed"/>
+      <facetEntailment facetID="II_38_f5" label="Inferred"/>
+      <facetEntailment facetID="II_38_f6" label="Inferred"/>
+      <facetEntailment facetID="II_38_f7" label="Contra-Expr"/>
+      <facetEntailment facetID="II_38_f8" label="Expressed"/>
+      <facetEntailment facetID="II_38_f9" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="II.38.485.1" answerText="What the mirror is reflecting on the flat object." accuracy="irrelevant">
+      <facetEntailment facetID="II_38_f1" label="Unaddressed"/>
+      <facetEntailment facetID="II_38_f2" label="Unaddressed"/>
+      <facetEntailment facetID="II_38_f3" label="Unaddressed"/>
+      <facetEntailment facetID="II_38_f4" label="Expressed"/>
+      <facetEntailment facetID="II_38_f5" label="Inferred"/>
+      <facetEntailment facetID="II_38_f6" label="Inferred"/>
+      <facetEntailment facetID="II_38_f7" label="Unaddressed"/>
+      <facetEntailment facetID="II_38_f8" label="Unaddressed"/>
+      <facetEntailment facetID="II_38_f9" label="Unaddressed"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

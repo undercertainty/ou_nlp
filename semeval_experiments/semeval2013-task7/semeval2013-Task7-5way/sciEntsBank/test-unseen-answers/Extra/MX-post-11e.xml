@@ -1,0 +1,95 @@
+<?xml version="1.0"?>
+<question testSet="unseen-answers" id="MX_11e" module="MX">
+  <questionText>Jim used a solid and water to make Mixtures one (one spoon of solid in 100 milliliters water was clear with nothing on the bottom), 3 (3 spoons of solid in 100 milliliters water was clear with nothing on the bottom), 4 (4 spoons of solid in 100 milliliters water was clear with material on the bottom), and 5 (5 spoons of solid in 100 milliliters water was clear with material on the bottom) as shown below. He stirred each one and observed the results. Describe how Jim could separate the dissolved solid from the water in Mixture one. What happens to the solid and to the water?</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="MX_11e-a1" text="Set up evaporation dishes. The water will go into the air (evaporate) and the solid will be left in the dish (crystallize).">
+      <tokens>
+        <token id="MX_11e_ra1">Set</token>
+        <token id="MX_11e_ra2">up</token>
+        <token id="MX_11e_ra3">evaporation</token>
+        <token id="MX_11e_ra4">dishes</token>
+        <token id="MX_11e_ra5">.</token>
+        <token id="MX_11e_ra6">The</token>
+        <token id="MX_11e_ra7">water</token>
+        <token id="MX_11e_ra8">will</token>
+        <token id="MX_11e_ra9">go</token>
+        <token id="MX_11e_ra10">into</token>
+        <token id="MX_11e_ra11">the</token>
+        <token id="MX_11e_ra12">air</token>
+        <token id="MX_11e_ra13">(</token>
+        <token id="MX_11e_ra14">evaporate</token>
+        <token id="MX_11e_ra15">)</token>
+        <token id="MX_11e_ra16">and</token>
+        <token id="MX_11e_ra17">the</token>
+        <token id="MX_11e_ra18">solid</token>
+        <token id="MX_11e_ra19">will</token>
+        <token id="MX_11e_ra20">be</token>
+        <token id="MX_11e_ra21">left</token>
+        <token id="MX_11e_ra22">in</token>
+        <token id="MX_11e_ra23">the</token>
+        <token id="MX_11e_ra24">dish</token>
+        <token id="MX_11e_ra25">(</token>
+        <token id="MX_11e_ra26">crystallize</token>
+        <token id="MX_11e_ra27">)</token>
+        <token id="MX_11e_ra28">.</token>
+      </tokens>
+      <facets>
+        <facet id="MX_11e_f1" govNum="MX_11e_ra1" modNum="MX_11e_ra4" reltn="Theme" govText="Set up" modText="dishes"/>
+        <facet id="MX_11e_f2" govNum="MX_11e_ra4" modNum="MX_11e_ra3" reltn="NMod" govText="dishes" modText="evaporation"/>
+        <facet id="MX_11e_f3" govNum="MX_11e_ra9" modNum="MX_11e_ra7" reltn="Theme" govText="go" modText="water"/>
+        <facet id="MX_11e_f4" govNum="MX_11e_ra9" modNum="MX_11e_ra12" reltn="Destination_into" govText="go" modText="air"/>
+        <facet id="MX_11e_f5" govNum="MX_11e_ra14" modNum="MX_11e_ra7" reltn="Patient" govText="evaporate" modText="water"/>
+        <facet id="MX_11e_f6" govNum="MX_11e_ra21" modNum="MX_11e_ra18" reltn="Theme" govText="left" modText="solid"/>
+        <facet id="MX_11e_f7" govNum="MX_11e_ra21" modNum="MX_11e_ra24" reltn="Location_in" govText="left" modText="dish"/>
+        <facet id="MX_11e_f8" govNum="MX_11e_ra26" modNum="MX_11e_ra18" reltn="Theme" govText="crystallize" modText="solid"/>
+        <facet id="MX_11e_f9" govNum="MX_11e_ra21" modNum="MX_11e_ra14" reltn="Cause_and" childProp2Facet2="MX_11e_f4" childProp1Facet1="MX_11e_f6" govText="left" childProp1Facet2="MX_11e_f7" modText="evaporate" childProp2Facet1="MX_11e_f5"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="MX.11e.304.1" answerText="You use a filter to separate the solid and the water in a cup the solid stays on the filter and the water goes through." accuracy="contradictory">
+      <facetEntailment facetID="MX_11e_f1" label="Unaddressed"/>
+      <facetEntailment facetID="MX_11e_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MX_11e_f3" label="Expressed"/>
+      <facetEntailment facetID="MX_11e_f4" label="Diff-Arg"/>
+      <facetEntailment facetID="MX_11e_f5" label="Contra-Infr"/>
+      <facetEntailment facetID="MX_11e_f6" label="Expressed"/>
+      <facetEntailment facetID="MX_11e_f7" label="Diff-Arg"/>
+      <facetEntailment facetID="MX_11e_f8" label="Unaddressed"/>
+      <facetEntailment facetID="MX_11e_f9" label="Diff-Arg"/>
+    </studentAnswer>
+    <studentAnswer id="MX.11e.559.1" answerText="He could evaporate the water and then the solid will turn into crystals." accuracy="correct">
+      <facetEntailment facetID="MX_11e_f1" label="Unaddressed"/>
+      <facetEntailment facetID="MX_11e_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MX_11e_f3" label="Expressed"/>
+      <facetEntailment facetID="MX_11e_f4" label="Expressed"/>
+      <facetEntailment facetID="MX_11e_f5" label="Expressed"/>
+      <facetEntailment facetID="MX_11e_f6" label="Expressed"/>
+      <facetEntailment facetID="MX_11e_f7" label="Inferred"/>
+      <facetEntailment facetID="MX_11e_f8" label="Expressed"/>
+      <facetEntailment facetID="MX_11e_f9" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.11e.571.1" answerText="He could put the solution through filter paper and separated the solute and the solvent." accuracy="contradictory">
+      <facetEntailment facetID="MX_11e_f1" label="Unaddressed"/>
+      <facetEntailment facetID="MX_11e_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MX_11e_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_11e_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MX_11e_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MX_11e_f6" label="Unaddressed"/>
+      <facetEntailment facetID="MX_11e_f7" label="Unaddressed"/>
+      <facetEntailment facetID="MX_11e_f8" label="Unaddressed"/>
+      <facetEntailment facetID="MX_11e_f9" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.11e.637.1" answerText="Filter the solution and the salt, dissolved salt, will stay on the filter and the water will just go back in the cup." accuracy="contradictory">
+      <facetEntailment facetID="MX_11e_f1" label="Unaddressed"/>
+      <facetEntailment facetID="MX_11e_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MX_11e_f3" label="Expressed"/>
+      <facetEntailment facetID="MX_11e_f4" label="Diff-Arg"/>
+      <facetEntailment facetID="MX_11e_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MX_11e_f6" label="Unaddressed"/>
+      <facetEntailment facetID="MX_11e_f7" label="Unaddressed"/>
+      <facetEntailment facetID="MX_11e_f8" label="Unaddressed"/>
+      <facetEntailment facetID="MX_11e_f9" label="Unaddressed"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

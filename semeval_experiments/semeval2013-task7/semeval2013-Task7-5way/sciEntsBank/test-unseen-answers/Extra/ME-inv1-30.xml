@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<question testSet="unseen-answers" id="ME_30" module="ME">
+  <questionText>Sometimes a red stoplight changes to green only when a car stops at the light. A type of magnet hidden under the surface of the road triggers the light to turn green. What is it about the car that could trigger a magnet to send a signal to the light?</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="ME_30-a1" text="A car is made of a lot of iron or steel.">
+      <tokens>
+        <token id="ME_30_ra1">A</token>
+        <token id="ME_30_ra2">car</token>
+        <token id="ME_30_ra3">is</token>
+        <token id="ME_30_ra4">made</token>
+        <token id="ME_30_ra5">of</token>
+        <token id="ME_30_ra6">a</token>
+        <token id="ME_30_ra7">lot</token>
+        <token id="ME_30_ra8">of</token>
+        <token id="ME_30_ra9">iron</token>
+        <token id="ME_30_ra10">or</token>
+        <token id="ME_30_ra11">steel</token>
+        <token id="ME_30_ra12">.</token>
+      </tokens>
+      <facets>
+        <facet id="ME_30_f1" govNum="ME_30_ra4" modNum="ME_30_ra2" reltn="Product" govText="made" modText="car"/>
+        <facet id="ME_30_f2" govNum="ME_30_ra4" modNum="ME_30_ra9" reltn="Material_of" govText="made" modText="iron"/>
+        <facet id="ME_30_f3" govNum="ME_30_ra4" modNum="ME_30_ra11" reltn="Material_of" govText="made" modText="steel"/>
+        <facet id="ME_30_f4" govNum="ME_30_ra9" modNum="ME_30_ra7" reltn="Quantifier_of" govText="iron" modText="lot"/>
+        <facet id="ME_30_f5" govNum="ME_30_ra11" modNum="ME_30_ra7" reltn="Quantifier" govText="steel" modText="lot"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="ME.30.146.1" answerText="When you stop Do not you see a white line. I think this has a magnet under it." accuracy="irrelevant">
+      <facetEntailment facetID="ME_30_f1" label="Unaddressed"/>
+      <facetEntailment facetID="ME_30_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ME_30_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_30_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_30_f5" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.30.227.1" answerText="That is because a car is made of metal and the magnet attract to metal." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="ME_30_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_30_f2" label="Diff-Arg"/>
+      <facetEntailment facetID="ME_30_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_30_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_30_f5" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.30.247.1" answerText="There is a magnet that turns the color of the signal light that makes it turn red, yellow, green." accuracy="irrelevant">
+      <facetEntailment facetID="ME_30_f1" label="Unaddressed"/>
+      <facetEntailment facetID="ME_30_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ME_30_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_30_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_30_f5" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.30.291.1" answerText="The light turn red will repel, if the light green." accuracy="irrelevant">
+      <facetEntailment facetID="ME_30_f1" label="Unaddressed"/>
+      <facetEntailment facetID="ME_30_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ME_30_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_30_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_30_f5" label="Unaddressed"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

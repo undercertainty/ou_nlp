@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<question testSet="unseen-answers" id="EM_27b" module="EM">
+  <questionText>You can tell if a rock contains calcite by putting it into a cold acid (like vinegar). Describe what you would observe if you did the acid test on a rock that contains this substance.</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="EM_27b-a1" text="Many tiny bubbles will rise from the calcite when the calcite contacts the cold acid.">
+      <tokens>
+        <token id="EM_27b_ra1">Many</token>
+        <token id="EM_27b_ra2">tiny</token>
+        <token id="EM_27b_ra3">bubbles</token>
+        <token id="EM_27b_ra4">will</token>
+        <token id="EM_27b_ra5">rise</token>
+        <token id="EM_27b_ra6">from</token>
+        <token id="EM_27b_ra7">the</token>
+        <token id="EM_27b_ra8">calcite</token>
+        <token id="EM_27b_ra9">when</token>
+        <token id="EM_27b_ra10">the</token>
+        <token id="EM_27b_ra11">calcite</token>
+        <token id="EM_27b_ra12">contacts</token>
+        <token id="EM_27b_ra13">the</token>
+        <token id="EM_27b_ra14">cold</token>
+        <token id="EM_27b_ra15">acid</token>
+        <token id="EM_27b_ra16">.</token>
+      </tokens>
+      <facets>
+        <facet id="EM_27b_f1" govNum="EM_27b_ra3" modNum="EM_27b_ra2" reltn="NMod" govText="bubbles" modText="tiny"/>
+        <facet id="EM_27b_f2" govNum="EM_27b_ra3" modNum="EM_27b_ra1" reltn="NMod" govText="bubbles" modText="Many"/>
+        <facet id="EM_27b_f3" govNum="EM_27b_ra5" modNum="EM_27b_ra3" reltn="Theme" govText="rise" modText="bubbles"/>
+        <facet id="EM_27b_f4" govNum="EM_27b_ra5" modNum="EM_27b_ra8" reltn="Source_from" govText="rise" modText="calcite"/>
+        <facet id="EM_27b_f5" govNum="EM_27b_ra5" modNum="EM_27b_ra12" reltn="Cause_when" childProp2Facet2="EM_27b_f7" childProp1Facet1="EM_27b_f3" govText="rise" modText="contacts" childProp2Facet1="EM_27b_f6"/>
+        <facet id="EM_27b_f6" govNum="EM_27b_ra12" modNum="EM_27b_ra11" reltn="Theme" govText="contacts" isAssumed="true" modText="calcite"/>
+        <facet id="EM_27b_f7" govNum="EM_27b_ra12" modNum="EM_27b_ra15" reltn="Theme" govText="contacts" isAssumed="true" modText="acid"/>
+        <facet id="EM_27b_f8" govNum="EM_27b_ra15" modNum="EM_27b_ra14" reltn="NMod" govText="acid" isAssumed="true" modText="cold"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="EM.27b.420.1" answerText="If you see bubbles coming from the rock it contains calcite." accuracy="correct">
+      <facetEntailment facetID="EM_27b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="EM_27b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="EM_27b_f3" label="Expressed"/>
+      <facetEntailment facetID="EM_27b_f4" label="Expressed"/>
+      <facetEntailment facetID="EM_27b_f5" label="Inferred"/>
+      <facetEntailment facetID="EM_27b_f6" label="Assumed"/>
+      <facetEntailment facetID="EM_27b_f7" label="Assumed"/>
+      <facetEntailment facetID="EM_27b_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.27b.437.1" answerText="You would observe if the rock or mineral bubbles when you put it in the vinegar." accuracy="correct">
+      <facetEntailment facetID="EM_27b_f1" label="Expressed"/>
+      <facetEntailment facetID="EM_27b_f2" label="Expressed"/>
+      <facetEntailment facetID="EM_27b_f3" label="Expressed"/>
+      <facetEntailment facetID="EM_27b_f4" label="Expressed"/>
+      <facetEntailment facetID="EM_27b_f5" label="Expressed"/>
+      <facetEntailment facetID="EM_27b_f6" label="Expressed"/>
+      <facetEntailment facetID="EM_27b_f7" label="Expressed"/>
+      <facetEntailment facetID="EM_27b_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.27b.601.1" answerText="You would observe if it was fizzing because calcite has a strong reaction to vinegar." accuracy="correct">
+      <facetEntailment facetID="EM_27b_f1" label="Expressed"/>
+      <facetEntailment facetID="EM_27b_f2" label="Expressed"/>
+      <facetEntailment facetID="EM_27b_f3" label="Expressed"/>
+      <facetEntailment facetID="EM_27b_f4" label="Expressed"/>
+      <facetEntailment facetID="EM_27b_f5" label="Expressed"/>
+      <facetEntailment facetID="EM_27b_f6" label="Expressed"/>
+      <facetEntailment facetID="EM_27b_f7" label="Expressed"/>
+      <facetEntailment facetID="EM_27b_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.27b.638.1" answerText="It would fizzles." accuracy="correct">
+      <facetEntailment facetID="EM_27b_f1" label="Expressed"/>
+      <facetEntailment facetID="EM_27b_f2" label="Expressed"/>
+      <facetEntailment facetID="EM_27b_f3" label="Expressed"/>
+      <facetEntailment facetID="EM_27b_f4" label="Inferred"/>
+      <facetEntailment facetID="EM_27b_f5" label="Inferred"/>
+      <facetEntailment facetID="EM_27b_f6" label="Assumed"/>
+      <facetEntailment facetID="EM_27b_f7" label="Assumed"/>
+      <facetEntailment facetID="EM_27b_f8" label="Assumed"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

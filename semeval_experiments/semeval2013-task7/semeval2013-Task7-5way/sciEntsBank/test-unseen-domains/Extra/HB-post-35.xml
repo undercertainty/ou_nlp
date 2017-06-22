@@ -1,0 +1,1459 @@
+<?xml version="1.0"?>
+<question testSet="unseen-domains" id="HB_35" module="HB">
+  <questionText>Describe how the muscles in the front and back of the leg work together to make the dancer's foot point.</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="HB_35-a1" text="The muscle in the back of the leg (the gastrocnemius) contracts and the muscle in the front of the leg (the tibia) relaxes to make the foot point.">
+      <tokens>
+        <token id="HB_35_ra1">The</token>
+        <token id="HB_35_ra2">muscle</token>
+        <token id="HB_35_ra3">in</token>
+        <token id="HB_35_ra4">the</token>
+        <token id="HB_35_ra5">back</token>
+        <token id="HB_35_ra6">of</token>
+        <token id="HB_35_ra7">the</token>
+        <token id="HB_35_ra8">leg</token>
+        <token id="HB_35_ra9">(</token>
+        <token id="HB_35_ra10">the</token>
+        <token id="HB_35_ra11">gastrocnemius</token>
+        <token id="HB_35_ra12">)</token>
+        <token id="HB_35_ra13">contracts</token>
+        <token id="HB_35_ra14">and</token>
+        <token id="HB_35_ra15">the</token>
+        <token id="HB_35_ra16">muscle</token>
+        <token id="HB_35_ra17">in</token>
+        <token id="HB_35_ra18">the</token>
+        <token id="HB_35_ra19">front</token>
+        <token id="HB_35_ra20">of</token>
+        <token id="HB_35_ra21">the</token>
+        <token id="HB_35_ra22">leg</token>
+        <token id="HB_35_ra23">(</token>
+        <token id="HB_35_ra24">the</token>
+        <token id="HB_35_ra25">tibia</token>
+        <token id="HB_35_ra26">)</token>
+        <token id="HB_35_ra27">relaxes</token>
+        <token id="HB_35_ra28">to</token>
+        <token id="HB_35_ra29">make</token>
+        <token id="HB_35_ra30">the</token>
+        <token id="HB_35_ra31">foot</token>
+        <token id="HB_35_ra32">point</token>
+        <token id="HB_35_ra33">.</token>
+      </tokens>
+      <facets>
+        <facet id="HB_35_f1" govNum="HB_35_ra2" modNum="HB_35_ra5" govText="muscle" isAssumed="true" modText="back" reltn="Location_in"/>
+        <facet id="HB_35_f2" govNum="HB_35_ra5" modNum="HB_35_ra8" govText="back" isAssumed="true" modText="leg" reltn="NMod_of"/>
+        <facet id="HB_35_f3" govNum="HB_35_ra2" modNum="HB_35_ra11" govText="muscle" modText="gastrocnemius" reltn="NMod_apos"/>
+        <facet id="HB_35_f4" govNum="HB_35_ra13" modNum="HB_35_ra2" govText="contracts" modText="muscle" reltn="Patient"/>
+        <facet id="HB_35_f5" govNum="HB_35_ra16" modNum="HB_35_ra19" govText="muscle" isAssumed="true" modText="front" reltn="Location_in"/>
+        <facet id="HB_35_f6" govNum="HB_35_ra19" modNum="HB_35_ra22" govText="front" isAssumed="true" modText="leg" reltn="NMod_of"/>
+        <facet id="HB_35_f7" govNum="HB_35_ra16" modNum="HB_35_ra25" govText="muscle" modText="tibialis" reltn="NMod_apos"/>
+        <facet id="HB_35_f8" govNum="HB_35_ra27" modNum="HB_35_ra16" govText="relaxes" modText="muscle" reltn="Patient"/>
+        <facet id="HB_35_f9" govNum="HB_35_ra32" modNum="HB_35_ra31" govText="point" isAssumed="true" modText="foot" reltn="Theme"/>
+        <facet id="HB_35_f10" govNum="HB_35_ra29" modNum="HB_35_ra13" reltn="Cause_to" childProp2Facet2="HB_35_f3" govText="make" childProp2Facet1="HB_35_f4" modText="contracts"/>
+        <facet id="HB_35_f11" govNum="HB_35_ra29" modNum="HB_35_ra27" reltn="Cause_to" childProp2Facet2="HB_35_f7" govText="make" modText="relaxes" childProp2Facet1="HB_35_f8"/>
+        <facet id="HB_35_f12" govNum="HB_35_ra29" modNum="HB_35_ra32" reltn="Predicate" govText="make" isAssumed="true" modText="point" childProp2Facet1="HB_35_f9"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="HB.35.136.1" answerText="The muscles in the front the pulling." accuracy="contradictory">
+      <facetEntailment facetID="HB_35_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f7" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f8" label="Contra-Infr"/>
+      <facetEntailment facetID="HB_35_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f10" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f11" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.35.138.1" answerText="The front left muscle is relaxing and the back leg muscle is contracting." accuracy="correct">
+      <facetEntailment facetID="HB_35_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f4" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f6" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f7" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f8" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f10" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f11" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.35.141.1" answerText="I do not know." accuracy="non_domain">
+      <facetEntailment facetID="HB_35_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f5" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f7" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f8" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f10" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f11" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.35.144.1" answerText="The tendon is pulling the muscle causing it to contract and move." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_35_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f4" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f5" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f7" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f8" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f10" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f11" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.35.148.1" answerText="The muscle in the back contracts and pulls the tendon and the muscle in the front relaxes." accuracy="correct">
+      <facetEntailment facetID="HB_35_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f4" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f7" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f8" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f10" label="Inferred"/>
+      <facetEntailment facetID="HB_35_f11" label="Inferred"/>
+      <facetEntailment facetID="HB_35_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.35.172.1" answerText="The stifulas is contracting." accuracy="irrelevant">
+      <facetEntailment facetID="HB_35_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f3" label="Diff-Arg"/>
+      <facetEntailment facetID="HB_35_f4" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f5" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f7" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f8" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f10" label="Inferred"/>
+      <facetEntailment facetID="HB_35_f11" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.35.176.1" answerText="Your muscles are stretching." accuracy="irrelevant">
+      <facetEntailment facetID="HB_35_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f5" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f7" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f8" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f10" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f11" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.35.178.1" answerText="The back leg relaxes and the front leg contracts." accuracy="contradictory">
+      <facetEntailment facetID="HB_35_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f4" label="Contra-Expr"/>
+      <facetEntailment facetID="HB_35_f5" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f6" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f7" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f8" label="Contra-Expr"/>
+      <facetEntailment facetID="HB_35_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f10" label="Inferred"/>
+      <facetEntailment facetID="HB_35_f11" label="Inferred"/>
+      <facetEntailment facetID="HB_35_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.35.181.1" answerText="The tibia contracts and the gastrocnemius relaxes." accuracy="contradictory">
+      <facetEntailment facetID="HB_35_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f4" label="Contra-Expr"/>
+      <facetEntailment facetID="HB_35_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f7" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f8" label="Contra-Expr"/>
+      <facetEntailment facetID="HB_35_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f10" label="Inferred"/>
+      <facetEntailment facetID="HB_35_f11" label="Inferred"/>
+      <facetEntailment facetID="HB_35_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.35.185.1" answerText="The gastrocnemius is working while the front muscle is relaxing." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_35_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f4" label="Diff-Arg"/>
+      <facetEntailment facetID="HB_35_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f7" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f8" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f10" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f11" label="Inferred"/>
+      <facetEntailment facetID="HB_35_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.35.212.1" answerText="The back muscle contract and the front muscle relaxes." accuracy="correct">
+      <facetEntailment facetID="HB_35_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f4" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f5" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f6" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f7" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f8" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f10" label="Inferred"/>
+      <facetEntailment facetID="HB_35_f11" label="Inferred"/>
+      <facetEntailment facetID="HB_35_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.35.215.1" answerText="The back of the leg rest and the front of the leg work so she can stand on the tip of her toes." accuracy="contradictory">
+      <facetEntailment facetID="HB_35_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f4" label="Contra-Expr"/>
+      <facetEntailment facetID="HB_35_f5" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f6" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f7" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f8" label="Contra-Expr"/>
+      <facetEntailment facetID="HB_35_f9" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f10" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f11" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.35.219.1" answerText="The brain tells the foot that the foot need to point." accuracy="irrelevant">
+      <facetEntailment facetID="HB_35_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f5" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f7" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f8" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f9" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f10" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f11" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f12" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.35.220.1" answerText="The back muscle gets bigger and the front gets longer." accuracy="irrelevant">
+      <facetEntailment facetID="HB_35_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f4" label="Diff-Arg"/>
+      <facetEntailment facetID="HB_35_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f7" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f8" label="Diff-Arg"/>
+      <facetEntailment facetID="HB_35_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f10" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f11" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.35.222.1" answerText="The front and back work together by pulling together muscles to cause the foot to point." accuracy="contradictory">
+      <facetEntailment facetID="HB_35_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f4" label="Inferred"/>
+      <facetEntailment facetID="HB_35_f5" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f7" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f8" label="Contra-Infr"/>
+      <facetEntailment facetID="HB_35_f9" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f10" label="Inferred"/>
+      <facetEntailment facetID="HB_35_f11" label="Contra-Infr"/>
+      <facetEntailment facetID="HB_35_f12" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.35.245.1" answerText="The back muscle contracts while the front muscle expands." accuracy="correct">
+      <facetEntailment facetID="HB_35_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f4" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f7" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f8" label="Diff-Arg"/>
+      <facetEntailment facetID="HB_35_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f10" label="Inferred"/>
+      <facetEntailment facetID="HB_35_f11" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.35.249.1" answerText="The front muscle relaxes and the back muscle pulls." accuracy="correct">
+      <facetEntailment facetID="HB_35_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f4" label="Inferred"/>
+      <facetEntailment facetID="HB_35_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f7" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f8" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f10" label="Inferred"/>
+      <facetEntailment facetID="HB_35_f11" label="Inferred"/>
+      <facetEntailment facetID="HB_35_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.35.253.1" answerText="The back muscle is contracting while the front muscle is relaxing. So the back muscle shrinks while the front muscle expands." accuracy="correct">
+      <facetEntailment facetID="HB_35_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f4" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f7" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f8" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f10" label="Inferred"/>
+      <facetEntailment facetID="HB_35_f11" label="Inferred"/>
+      <facetEntailment facetID="HB_35_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.35.259.1" answerText="The bones help by your foot help to by help it point." accuracy="irrelevant">
+      <facetEntailment facetID="HB_35_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f5" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f7" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f8" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f9" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f10" label="Diff-Arg"/>
+      <facetEntailment facetID="HB_35_f11" label="Diff-Arg"/>
+      <facetEntailment facetID="HB_35_f12" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.35.268.1" answerText="For one, I know because I am a dancer so like you were using the back muscle dose all the work. The front muscle just makes you look although but the flex and contract." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_35_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f4" label="Inferred"/>
+      <facetEntailment facetID="HB_35_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f7" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f8" label="Inferred"/>
+      <facetEntailment facetID="HB_35_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f10" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f11" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.35.277.1" answerText="They need that back muscle to relax and contract so they can dance." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_35_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f4" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f5" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f7" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f8" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f10" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f11" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.35.283.1" answerText="While the front of the leg relaxes, the back contracts - means get shorter." accuracy="correct">
+      <facetEntailment facetID="HB_35_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f4" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f5" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f6" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f7" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f8" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f10" label="Inferred"/>
+      <facetEntailment facetID="HB_35_f11" label="Inferred"/>
+      <facetEntailment facetID="HB_35_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.35.291.1" answerText="The front left muscle helps by stretching itself and the back muscle relaxes." accuracy="contradictory">
+      <facetEntailment facetID="HB_35_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f4" label="Contra-Expr"/>
+      <facetEntailment facetID="HB_35_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f6" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f7" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f8" label="Inferred"/>
+      <facetEntailment facetID="HB_35_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f10" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f11" label="Inferred"/>
+      <facetEntailment facetID="HB_35_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.35.311.1" answerText="They work together by the front contracting, and the back relaxing." accuracy="contradictory">
+      <facetEntailment facetID="HB_35_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f4" label="Contra-Expr"/>
+      <facetEntailment facetID="HB_35_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f7" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f8" label="Contra-Expr"/>
+      <facetEntailment facetID="HB_35_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f10" label="Inferred"/>
+      <facetEntailment facetID="HB_35_f11" label="Inferred"/>
+      <facetEntailment facetID="HB_35_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.35.359.1" answerText="The muscles that are used to help point the dancer foot because the foot has no muscles and the muscles help them point." accuracy="irrelevant">
+      <facetEntailment facetID="HB_35_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f5" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f7" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f8" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f9" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f10" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f11" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f12" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.35.364.1" answerText="The muscle in the front and back of the leg are working by helping the dancer make her leg straight." accuracy="irrelevant">
+      <facetEntailment facetID="HB_35_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f6" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f7" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f8" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f10" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f11" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.35.383.1" answerText="Top is relaxing and the bottom is helping the dancer point her foot." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_35_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f5" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f7" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f8" label="Inferred"/>
+      <facetEntailment facetID="HB_35_f9" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f10" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f11" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f12" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.35.387.1" answerText="They are very flexible so the relax and contract." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_35_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f4" label="Inferred"/>
+      <facetEntailment facetID="HB_35_f5" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f7" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f8" label="Inferred"/>
+      <facetEntailment facetID="HB_35_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f10" label="Inferred"/>
+      <facetEntailment facetID="HB_35_f11" label="Inferred"/>
+      <facetEntailment facetID="HB_35_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.35.424.1" answerText="The muscle lift the leg to make the body part go up the brain tell the muscle to go up." accuracy="irrelevant">
+      <facetEntailment facetID="HB_35_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f5" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f7" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f8" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f10" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f11" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.35.428.1" answerText="They get tight together and muscle work together to make her ankle move down to make her foot point." accuracy="contradictory">
+      <facetEntailment facetID="HB_35_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f4" label="Inferred"/>
+      <facetEntailment facetID="HB_35_f5" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f7" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f8" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f9" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f10" label="Inferred"/>
+      <facetEntailment facetID="HB_35_f11" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f12" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.35.430.1" answerText="I think the dancer's back and front leg work together because they have bones. If you do not have a bone you will not be able to move." accuracy="irrelevant">
+      <facetEntailment facetID="HB_35_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f5" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f6" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f7" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f8" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f10" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f11" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.35.435.1" answerText="The muscle in the front relax and the muscle in the back tighten." accuracy="correct">
+      <facetEntailment facetID="HB_35_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f4" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f7" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f8" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f10" label="Inferred"/>
+      <facetEntailment facetID="HB_35_f11" label="Inferred"/>
+      <facetEntailment facetID="HB_35_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.35.438.1" answerText="The back muscle and the front muscle stretch to help each other pull up the foot." accuracy="irrelevant">
+      <facetEntailment facetID="HB_35_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f4" label="Diff-Arg"/>
+      <facetEntailment facetID="HB_35_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f7" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f8" label="Diff-Arg"/>
+      <facetEntailment facetID="HB_35_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f10" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f11" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.35.443.1" answerText="The front muscle makes the foot point and the back muscle make the leg stay up." accuracy="irrelevant">
+      <facetEntailment facetID="HB_35_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f7" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f8" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f9" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f10" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f11" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f12" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.35.454.1" answerText="When the tibia contracts the foot connects." accuracy="contradictory">
+      <facetEntailment facetID="HB_35_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f6" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f7" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f8" label="Contra-Expr"/>
+      <facetEntailment facetID="HB_35_f9" label="Diff-Arg"/>
+      <facetEntailment facetID="HB_35_f10" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f11" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.35.458.1" answerText="The hinge joint." accuracy="irrelevant">
+      <facetEntailment facetID="HB_35_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f5" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f7" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f8" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f10" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f11" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.35.460.1" answerText="Muscles help her point her toe." accuracy="irrelevant">
+      <facetEntailment facetID="HB_35_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f5" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f7" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f8" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f9" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f10" label="Inferred"/>
+      <facetEntailment facetID="HB_35_f11" label="Inferred"/>
+      <facetEntailment facetID="HB_35_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.35.463.1" answerText="What makes the dancer's foot move is the muscles they contract and relax." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_35_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f4" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f5" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f7" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f8" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f9" label="Diff-Arg"/>
+      <facetEntailment facetID="HB_35_f10" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f11" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f12" label="Diff-Arg"/>
+    </studentAnswer>
+    <studentAnswer id="HB.35.464.1" answerText="The muscles front and back help it to stand straight and so it can balance." accuracy="irrelevant">
+      <facetEntailment facetID="HB_35_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f7" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f8" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f10" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f11" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.35.471.1" answerText="They work together by if you start to lean one way. The opposite muscle will pull to keep the balance." accuracy="irrelevant">
+      <facetEntailment facetID="HB_35_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f5" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f7" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f8" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f10" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f11" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.35.492.1" answerText="The muscle work by contracting and relaxing to make the toe point. Tibia by contracting and gastrocnemius is relaxing." accuracy="contradictory">
+      <facetEntailment facetID="HB_35_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f4" label="Contra-Expr"/>
+      <facetEntailment facetID="HB_35_f5" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f7" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f8" label="Contra-Expr"/>
+      <facetEntailment facetID="HB_35_f9" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f10" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f11" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f12" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.35.494.1" answerText="The muscle contracts and gets tighter so the foot could point." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_35_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f4" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f5" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f7" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f8" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f9" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f10" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f11" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f12" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.35.496.1" answerText="To help them stay up." accuracy="irrelevant">
+      <facetEntailment facetID="HB_35_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f5" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f7" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f8" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f10" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f11" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.35.497.1" answerText="The muscles flex to make it point they get smaller and fatter because they pull up." accuracy="irrelevant">
+      <facetEntailment facetID="HB_35_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f4" label="Inferred"/>
+      <facetEntailment facetID="HB_35_f5" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f7" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f8" label="Inferred"/>
+      <facetEntailment facetID="HB_35_f9" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f10" label="Inferred"/>
+      <facetEntailment facetID="HB_35_f11" label="Inferred"/>
+      <facetEntailment facetID="HB_35_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.35.498.1" answerText="The tibia muscle pushes up on the front. The gastrocnemius muscle also pushes up on the back of the leg to make the dancer's leg point." accuracy="contradictory">
+      <facetEntailment facetID="HB_35_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f4" label="Inferred"/>
+      <facetEntailment facetID="HB_35_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f7" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f8" label="Contra-Infr"/>
+      <facetEntailment facetID="HB_35_f9" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f10" label="Inferred"/>
+      <facetEntailment facetID="HB_35_f11" label="Inferred"/>
+      <facetEntailment facetID="HB_35_f12" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.35.500.1" answerText="Your joints and muscles work together to point your leg up." accuracy="irrelevant">
+      <facetEntailment facetID="HB_35_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f5" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f7" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f8" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f10" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f11" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.35.502.1" answerText="They help the dancer lift her foot and leg up." accuracy="irrelevant">
+      <facetEntailment facetID="HB_35_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f5" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f7" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f8" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f10" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f11" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.35.504.1" answerText="They will contract and they will relax." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_35_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f4" label="Inferred"/>
+      <facetEntailment facetID="HB_35_f5" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f7" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f8" label="Inferred"/>
+      <facetEntailment facetID="HB_35_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f10" label="Inferred"/>
+      <facetEntailment facetID="HB_35_f11" label="Inferred"/>
+      <facetEntailment facetID="HB_35_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.35.525.1" answerText="The tendons pull each other and make it have great balance." accuracy="irrelevant">
+      <facetEntailment facetID="HB_35_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f5" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f7" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f8" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f10" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f11" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.35.530.1" answerText="Releases it or relax." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_35_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f5" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f7" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f8" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f10" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f11" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.35.533.1" answerText="The 2 muscle work together by one relaxes and the other tightens." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_35_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f4" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f5" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f7" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f8" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f10" label="Inferred"/>
+      <facetEntailment facetID="HB_35_f11" label="Inferred"/>
+      <facetEntailment facetID="HB_35_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.35.535.1" answerText="Because the front need to point forward and the back needs to point back and forth." accuracy="irrelevant">
+      <facetEntailment facetID="HB_35_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f5" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f7" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f8" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f10" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f11" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.35.537.1" answerText="They work together so she can balance and point her foot." accuracy="irrelevant">
+      <facetEntailment facetID="HB_35_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f5" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f7" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f8" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f9" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f10" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f11" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f12" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.35.563.1" answerText="While the front foot makes you point the front of your toe and the back makes you point the back of your toe." accuracy="irrelevant">
+      <facetEntailment facetID="HB_35_f1" label="Diff-Arg"/>
+      <facetEntailment facetID="HB_35_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f5" label="Diff-Arg"/>
+      <facetEntailment facetID="HB_35_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f7" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f8" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f10" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f11" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f12" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.35.568.1" answerText="I think the gastrocnemius is contracting and the tibia is lengthening to make the dancer foot point." accuracy="correct">
+      <facetEntailment facetID="HB_35_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f4" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f6" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f7" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f8" label="Inferred"/>
+      <facetEntailment facetID="HB_35_f9" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f10" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f11" label="Inferred"/>
+      <facetEntailment facetID="HB_35_f12" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.35.573.1" answerText="The backs of the leg has to stretch and the front of the leg bends." accuracy="contradictory">
+      <facetEntailment facetID="HB_35_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f4" label="Contra-Expr"/>
+      <facetEntailment facetID="HB_35_f5" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f6" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f7" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f8" label="Diff-Arg"/>
+      <facetEntailment facetID="HB_35_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f10" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f11" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.35.575.1" answerText="The gastrocnemius contracts at the back of the leg and the tibia relaxes for the dancer's foot to point." accuracy="correct">
+      <facetEntailment facetID="HB_35_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f4" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f7" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f8" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f9" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f10" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f11" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f12" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.35.576.1" answerText="I think that the tibia is relaxing and the gastrocnemius is connecting." accuracy="correct">
+      <facetEntailment facetID="HB_35_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f4" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f5" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f7" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f8" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f10" label="Inferred"/>
+      <facetEntailment facetID="HB_35_f11" label="Inferred"/>
+      <facetEntailment facetID="HB_35_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.35.577.1" answerText="First the dancer need to have muscles to help bend her foot. Second the dancer need strong muscle to help her keep her foot like that, but she needs both of her muscle to keep her on balance." accuracy="irrelevant">
+      <facetEntailment facetID="HB_35_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f5" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f7" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f8" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f10" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f11" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.35.578.1" answerText="To point your feet you have to use your gastrocnemius and your tibia and stand straight on your foot so you can have your feet pointed straight." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_35_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f6" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f7" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f8" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f9" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f10" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f11" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.35.579.1" answerText="The back of your leg contracts and the front relaxes." accuracy="correct">
+      <facetEntailment facetID="HB_35_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f4" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f5" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f6" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f7" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f8" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f10" label="Inferred"/>
+      <facetEntailment facetID="HB_35_f11" label="Inferred"/>
+      <facetEntailment facetID="HB_35_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.35.592.1" answerText="The back muscle contracts and the front relaxes." accuracy="correct">
+      <facetEntailment facetID="HB_35_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f4" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f7" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f8" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f10" label="Inferred"/>
+      <facetEntailment facetID="HB_35_f11" label="Inferred"/>
+      <facetEntailment facetID="HB_35_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.35.594.1" answerText="I think the dancer's leg is a joint that, can make it move." accuracy="irrelevant">
+      <facetEntailment facetID="HB_35_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f5" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f7" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f8" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f10" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f11" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.35.596.1" answerText="When you stretch out your leg your foot points." accuracy="irrelevant">
+      <facetEntailment facetID="HB_35_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f5" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f7" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f8" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f9" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f10" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f11" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f12" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.35.597.1" answerText="The tibia is contracting to the foot so it can bend while the gastrocnemius relax so the tibia can bend." accuracy="contradictory">
+      <facetEntailment facetID="HB_35_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f4" label="Contra-Expr"/>
+      <facetEntailment facetID="HB_35_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f7" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f8" label="Contra-Expr"/>
+      <facetEntailment facetID="HB_35_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f10" label="Inferred"/>
+      <facetEntailment facetID="HB_35_f11" label="Inferred"/>
+      <facetEntailment facetID="HB_35_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.35.599.1" answerText="The tibia relaxes and the gastrocnemius contracts." accuracy="correct">
+      <facetEntailment facetID="HB_35_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f4" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f6" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f7" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f8" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f10" label="Inferred"/>
+      <facetEntailment facetID="HB_35_f11" label="Inferred"/>
+      <facetEntailment facetID="HB_35_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.35.602.1" answerText="The gastrocnemius pulls up while the tibia pushes down." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_35_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f4" label="Diff-Arg"/>
+      <facetEntailment facetID="HB_35_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f7" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f8" label="Diff-Arg"/>
+      <facetEntailment facetID="HB_35_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f10" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f11" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.35.603.1" answerText="The gastrocnemius relaxes and the tibia contracts to make the foot point." accuracy="contradictory">
+      <facetEntailment facetID="HB_35_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f4" label="Contra-Expr"/>
+      <facetEntailment facetID="HB_35_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f7" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f8" label="Contra-Expr"/>
+      <facetEntailment facetID="HB_35_f9" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f10" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f11" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f12" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.35.604.1" answerText="The tibia helps her to point her toes by contracting. The gastrocnemius helps because it is relaxing." accuracy="contradictory">
+      <facetEntailment facetID="HB_35_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f4" label="Contra-Expr"/>
+      <facetEntailment facetID="HB_35_f5" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f7" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f8" label="Contra-Expr"/>
+      <facetEntailment facetID="HB_35_f9" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f10" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f11" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.35.606.1" answerText="The muscles work by the dancer stimulus to put the foot up." accuracy="irrelevant">
+      <facetEntailment facetID="HB_35_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f5" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f7" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f8" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f10" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f11" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.35.609.1" answerText="They work together by contracting." accuracy="contradictory">
+      <facetEntailment facetID="HB_35_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f4" label="Inferred"/>
+      <facetEntailment facetID="HB_35_f5" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f7" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f8" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f10" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f11" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.35.611.1" answerText="The back of the leg balances the dancer and the front contract muscle to hold her up." accuracy="contradictory">
+      <facetEntailment facetID="HB_35_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f7" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f8" label="Contra-Expr"/>
+      <facetEntailment facetID="HB_35_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f10" label="Inferred"/>
+      <facetEntailment facetID="HB_35_f11" label="Inferred"/>
+      <facetEntailment facetID="HB_35_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.35.613.1" answerText="They work together by contracting to make the dancer's foot to point." accuracy="contradictory">
+      <facetEntailment facetID="HB_35_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f4" label="Inferred"/>
+      <facetEntailment facetID="HB_35_f5" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f7" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f8" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f9" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f10" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f11" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f12" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.35.614.1" answerText="The front leg muscle helps the dancer point the dancers leg the back leg muscle helps the foot point." accuracy="irrelevant">
+      <facetEntailment facetID="HB_35_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f6" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f7" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f8" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f9" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f10" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f11" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f12" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.35.615.1" answerText="They work together by pointing the toe down." accuracy="irrelevant">
+      <facetEntailment facetID="HB_35_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f5" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f7" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f8" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f9" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f10" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f11" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f12" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.35.628.1" answerText="It is a muscle that provides strength." accuracy="irrelevant">
+      <facetEntailment facetID="HB_35_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f5" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f7" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f8" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f10" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f11" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.35.629.1" answerText="Dancer's gastrocnemius contracts their tibia relaxes." accuracy="correct">
+      <facetEntailment facetID="HB_35_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f4" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f5" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f7" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f8" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f10" label="Inferred"/>
+      <facetEntailment facetID="HB_35_f11" label="Inferred"/>
+      <facetEntailment facetID="HB_35_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.35.630.1" answerText="When I point my toe, the tibia relaxes while the gastrocnemius contracts. If you don't have both muscles working together, your leg would move." accuracy="correct">
+      <facetEntailment facetID="HB_35_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f4" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f6" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f7" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f8" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f9" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f10" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f11" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f12" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.35.631.1" answerText="The muscle work to help the dancers foot by one muscle contracts and one relaxes." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_35_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f4" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f5" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f7" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f8" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f10" label="Inferred"/>
+      <facetEntailment facetID="HB_35_f11" label="Inferred"/>
+      <facetEntailment facetID="HB_35_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.35.636.1" answerText="When you point up the gastrocnemius contracts and the tibia relaxes." accuracy="correct">
+      <facetEntailment facetID="HB_35_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f4" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f6" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f7" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f8" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f10" label="Inferred"/>
+      <facetEntailment facetID="HB_35_f11" label="Inferred"/>
+      <facetEntailment facetID="HB_35_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.35.637.1" answerText="The dancer has a ball and socket joint." accuracy="irrelevant">
+      <facetEntailment facetID="HB_35_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f5" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f7" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f8" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f10" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f11" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.35.639.1" answerText="With one foot up one foot down and both arms up it makes her balance on one foot." accuracy="irrelevant">
+      <facetEntailment facetID="HB_35_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f5" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f7" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f8" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f10" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f11" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.35.639a.1" answerText="The muscle pull on the dance and the other muscles just sit there." accuracy="contradictory">
+      <facetEntailment facetID="HB_35_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f5" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f7" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f8" label="Contra-Infr"/>
+      <facetEntailment facetID="HB_35_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f10" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f11" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.35.640.1" answerText="Because muscle makes it balance it has muscle in the front leg and in the back leg." accuracy="irrelevant">
+      <facetEntailment facetID="HB_35_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f6" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f7" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f8" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f10" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f11" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.35.642.1" answerText="The tibia has to relax and the gastrocnemius has to contract." accuracy="correct">
+      <facetEntailment facetID="HB_35_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f4" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f6" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f7" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f8" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f10" label="Inferred"/>
+      <facetEntailment facetID="HB_35_f11" label="Inferred"/>
+      <facetEntailment facetID="HB_35_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.35.644.1" answerText="I think you have to be flexible and point your foot all the time." accuracy="irrelevant">
+      <facetEntailment facetID="HB_35_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f5" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f7" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f8" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f9" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f10" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f11" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.35.645.1" answerText="The tibia has to relax while the gastrocnemius has to contract to point the toe." accuracy="correct">
+      <facetEntailment facetID="HB_35_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f4" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f7" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f8" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f9" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f10" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f11" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f12" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.35.646.1" answerText="To make the dancers to point tibia relaxes while the gastrocnemius contracts." accuracy="correct">
+      <facetEntailment facetID="HB_35_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f4" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f6" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f7" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f8" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f9" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f10" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f11" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f12" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.35.648.1" answerText="I think she has to be lady because she is a dancer." accuracy="irrelevant">
+      <facetEntailment facetID="HB_35_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f5" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f7" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f8" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f10" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f11" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.35.650.1" answerText="How the dancers foot point is on the leg muscle to help them point." accuracy="irrelevant">
+      <facetEntailment facetID="HB_35_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f5" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f7" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f8" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f9" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f10" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f11" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f12" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.35.651.1" answerText="The way they work together is that they push against the bone to make you balance upright." accuracy="irrelevant">
+      <facetEntailment facetID="HB_35_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f5" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f7" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f8" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f10" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f11" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.35.652.1" answerText="The work together by using their muscles from their back, front legs." accuracy="irrelevant">
+      <facetEntailment facetID="HB_35_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f6" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f7" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f8" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f10" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f11" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.35.672.1" answerText="The front muscle tibia contracts and the back muscle gastrocnemius relaxes." accuracy="contradictory">
+      <facetEntailment facetID="HB_35_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f4" label="Contra-Expr"/>
+      <facetEntailment facetID="HB_35_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f7" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f8" label="Contra-Expr"/>
+      <facetEntailment facetID="HB_35_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f10" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f11" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.35.976.1" answerText="The front is straightening it out and forming a balance. The back is keeping them from falling backwards." accuracy="irrelevant">
+      <facetEntailment facetID="HB_35_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f5" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f7" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f8" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f10" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f11" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.35.981.1" answerText="Well the muscle is work like this above picture I drew. Well the bone is connected to the point and that's how it works." accuracy="irrelevant">
+      <facetEntailment facetID="HB_35_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f5" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f7" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f8" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f10" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f11" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.35.984.1" answerText="They pull together and meet in the leg to make her foot come to a point." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_35_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f4" label="Inferred"/>
+      <facetEntailment facetID="HB_35_f5" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f7" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f8" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f9" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f10" label="Inferred"/>
+      <facetEntailment facetID="HB_35_f11" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.35.986.1" answerText="The front muscle probably helps the foot stay straight and the back muscle helps it stand." accuracy="irrelevant">
+      <facetEntailment facetID="HB_35_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f7" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f8" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f10" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f11" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.35.989.1" answerText="The muscle push up and the heal on the foot lifts up." accuracy="irrelevant">
+      <facetEntailment facetID="HB_35_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f5" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f7" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f8" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f10" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f11" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.35.992.1" answerText="They make their gastrocnemius go on a little far they can balance." accuracy="irrelevant">
+      <facetEntailment facetID="HB_35_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_35_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f5" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f7" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f8" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f10" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f11" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.35.993.1" answerText="The muscles work together by both going at the same time." accuracy="irrelevant">
+      <facetEntailment facetID="HB_35_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f5" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f7" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f8" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_35_f10" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f11" label="Unaddressed"/>
+      <facetEntailment facetID="HB_35_f12" label="Assumed"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

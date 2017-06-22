@@ -1,0 +1,1239 @@
+<?xml version="1.0"?>
+<question testSet="unseen-domains" id="HB_60" module="HB">
+  <questionText>Joe is a fast runner but he is slow at responding to the starting gun. How could Joe improve his start time?</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="HB_60-a1" text="Joe could practice responding to the starting gun to improve Joe's start time.">
+      <tokens>
+        <token id="HB_60_ra1">Joe</token>
+        <token id="HB_60_ra2">could</token>
+        <token id="HB_60_ra3">practice</token>
+        <token id="HB_60_ra4">responding</token>
+        <token id="HB_60_ra5">to</token>
+        <token id="HB_60_ra6">the</token>
+        <token id="HB_60_ra7">starting</token>
+        <token id="HB_60_ra8">gun</token>
+        <token id="HB_60_ra9">to</token>
+        <token id="HB_60_ra10">improve</token>
+        <token id="HB_60_ra11">Joe</token>
+        <token id="HB_60_ra12">'s</token>
+        <token id="HB_60_ra13">start</token>
+        <token id="HB_60_ra14">time</token>
+        <token id="HB_60_ra15">.</token>
+      </tokens>
+      <facets>
+        <facet id="HB_60_f1" govNum="HB_60_ra3" modNum="HB_60_ra1" reltn="Agent" govText="practice" modText="Joe"/>
+        <facet id="HB_60_f2" govNum="HB_60_ra3" modNum="HB_60_ra4" reltn="Theme" govText="practice" modText="responding"/>
+        <facet id="HB_60_f3" govNum="HB_60_ra4" modNum="HB_60_ra1" reltn="Agent" govText="responding" isAssumed="true" modText="Joe"/>
+        <facet id="HB_60_f4" govNum="HB_60_ra4" modNum="HB_60_ra8" reltn="Means_to" govText="responding" isAssumed="true" modText="gun"/>
+        <facet id="HB_60_f5" govNum="HB_60_ra8" modNum="HB_60_ra7" reltn="NMod" govText="gun" isAssumed="true" modText="starting"/>
+        <facet id="HB_60_f6" govNum="HB_60_ra10" modNum="HB_60_ra1" reltn="Agent" govText="improve" isAssumed="true" modText="Joe"/>
+        <facet id="HB_60_f7" govNum="HB_60_ra10" modNum="HB_60_ra13" reltn="Patient" govText="improve" isAssumed="true" modText="time"/>
+        <facet id="HB_60_f8" govNum="HB_60_ra13" modNum="HB_60_ra12" reltn="NMod" govText="time" isAssumed="true" modText="start"/>
+        <facet id="HB_60_f9" govNum="HB_60_ra13" modNum="HB_60_ra11" reltn="NMod_pos" govText="time" isAssumed="true" modText="Joe"/>
+        <facet id="HB_60_f10" govNum="HB_60_ra10" modNum="HB_60_ra3" reltn="Cause_to" childProp2Facet2="HB_60_f1" childProp1Facet1="HB_60_f7" govText="improve" isAssumed="true" childProp1Facet2="HB_60_f6" modText="practice" childProp2Facet1="HB_60_f2"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="HB.60.136.1" answerText="Hearing more closely." accuracy="irrelevant">
+      <facetEntailment facetID="HB_60_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_60_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_60_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f5" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f7" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f8" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f10" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.60.147.1" answerText="By practicing it over and over again being ready next time." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_60_f1" label="Inferred"/>
+      <facetEntailment facetID="HB_60_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_60_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f5" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f7" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f8" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f10" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.60.178.1" answerText="Practice." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_60_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_60_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f5" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f7" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f8" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f10" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.60.206.1" answerText="Joe could improve responding to the starting gun by practicing." accuracy="correct">
+      <facetEntailment facetID="HB_60_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f4" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f6" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f7" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f8" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f10" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.60.212.1" answerText="He could practice." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_60_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_60_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f5" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f7" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f8" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f10" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.60.216.1" answerText="Joe could improve by practice listening to the gun." accuracy="correct">
+      <facetEntailment facetID="HB_60_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f4" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f6" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f7" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f8" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f10" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.60.245.1" answerText="Joe could by practicing." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_60_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_60_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f5" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f7" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f8" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f10" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.60.249.1" answerText="Not get distracted and get ready." accuracy="irrelevant">
+      <facetEntailment facetID="HB_60_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_60_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_60_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f5" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f7" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f8" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f10" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.60.253.1" answerText="Joe could practice on that specific thing so he will get better." accuracy="correct">
+      <facetEntailment facetID="HB_60_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f2" label="Inferred"/>
+      <facetEntailment facetID="HB_60_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f5" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f6" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f7" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f8" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f10" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.60.254.1" answerText="Joe can practice on running with the gun at home." accuracy="correct">
+      <facetEntailment facetID="HB_60_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f2" label="Inferred"/>
+      <facetEntailment facetID="HB_60_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f4" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f7" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f8" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f10" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.60.257.1" answerText="Joe can practice." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_60_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_60_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f5" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f7" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f8" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f10" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.60.259.1" answerText="He could go home and practice." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_60_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_60_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f5" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f7" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f8" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f10" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.60.268.1" answerText="Well his stimulus in vision. He should practice with no team after school." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_60_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_60_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f5" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f7" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f8" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f10" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.60.277.1" answerText="By get more use to the sound of the starting gun." accuracy="correct">
+      <facetEntailment facetID="HB_60_f1" label="Inferred"/>
+      <facetEntailment facetID="HB_60_f2" label="Inferred"/>
+      <facetEntailment facetID="HB_60_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f4" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f7" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f8" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f10" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.60.283.1" answerText="Practice. Have somebody yell go or something to improve." accuracy="correct">
+      <facetEntailment facetID="HB_60_f1" label="Inferred"/>
+      <facetEntailment facetID="HB_60_f2" label="Inferred"/>
+      <facetEntailment facetID="HB_60_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f5" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f6" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f7" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f8" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f10" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.60.284.1" answerText="He could practice starting races." accuracy="correct">
+      <facetEntailment facetID="HB_60_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f2" label="Diff-Arg"/>
+      <facetEntailment facetID="HB_60_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f5" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f7" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f8" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f10" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.60.285.1" answerText="By practicing." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_60_f1" label="Inferred"/>
+      <facetEntailment facetID="HB_60_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_60_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f5" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f7" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f8" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f10" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.60.291.1" answerText="He could practice his response." accuracy="correct">
+      <facetEntailment facetID="HB_60_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f5" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f7" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f8" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f10" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.60.321.1" answerText="He could improve it by practicing or focusing more." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_60_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_60_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f5" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f6" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f7" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f8" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f10" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.60.349.1" answerText="He could practice at his free time." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_60_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_60_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f5" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f7" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f8" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f10" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.60.350.1" answerText="Joe your respond is going to practice the gun sound." accuracy="correct">
+      <facetEntailment facetID="HB_60_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f4" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f7" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f8" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f10" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.60.355.1" answerText="He could practice to get his response time better." accuracy="correct">
+      <facetEntailment facetID="HB_60_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f2" label="Inferred"/>
+      <facetEntailment facetID="HB_60_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f5" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f7" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f8" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f10" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.60.357.1" answerText="To practice his responding to the starting gun." accuracy="correct">
+      <facetEntailment facetID="HB_60_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f4" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f7" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f8" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f10" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.60.385.1" answerText="Joe could practice." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_60_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_60_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f5" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f7" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f8" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f10" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.60.387.1" answerText="He needs to practice a lot more to get more acceleration." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_60_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_60_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f5" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f7" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f8" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f10" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.60.388.1" answerText="Joe can improve by coordination." accuracy="irrelevant">
+      <facetEntailment facetID="HB_60_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_60_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_60_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f5" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f6" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f7" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f8" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f10" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.60.391.1" answerText="Practice." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_60_f1" label="Inferred"/>
+      <facetEntailment facetID="HB_60_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_60_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f5" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f7" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f8" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f10" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.60.392.1" answerText="Joe could pay more attention to hear and listen." accuracy="irrelevant">
+      <facetEntailment facetID="HB_60_f1" label="Diff-Arg"/>
+      <facetEntailment facetID="HB_60_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_60_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f5" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f7" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f8" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f10" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.60.418.1" answerText="Joe could improve by practicing at it more." accuracy="correct">
+      <facetEntailment facetID="HB_60_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f2" label="Inferred"/>
+      <facetEntailment facetID="HB_60_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f5" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f6" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f7" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f8" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f10" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.60.422.1" answerText="By practicing the start gun with someone." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_60_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_60_f2" label="Inferred"/>
+      <facetEntailment facetID="HB_60_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f7" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f8" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f10" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.60.423.1" answerText="By working on it a lot because you body gets more use to it." accuracy="correct">
+      <facetEntailment facetID="HB_60_f1" label="Inferred"/>
+      <facetEntailment facetID="HB_60_f2" label="Inferred"/>
+      <facetEntailment facetID="HB_60_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f5" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f7" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f8" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f10" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.60.424.1" answerText="When he sees the gun he can move right away by concentrating." accuracy="irrelevant">
+      <facetEntailment facetID="HB_60_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_60_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_60_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f5" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f7" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f8" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f10" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.60.425.1" answerText="He could improve by practicing at home every day." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_60_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_60_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f5" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f6" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f7" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f8" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f10" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.60.427.1" answerText="As soon he hears it, he runs as fast he can." accuracy="irrelevant">
+      <facetEntailment facetID="HB_60_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_60_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_60_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f5" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f7" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f8" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f10" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.60.428.1" answerText="By counting how much seconds it takes for the man to shoot the gun." accuracy="irrelevant">
+      <facetEntailment facetID="HB_60_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_60_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_60_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f7" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f8" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f10" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.60.429.1" answerText="Joe could practice with a cap gun, or something to move on a whistle." accuracy="correct">
+      <facetEntailment facetID="HB_60_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f2" label="Inferred"/>
+      <facetEntailment facetID="HB_60_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f7" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f8" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f10" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.60.430.1" answerText="I think he has to practice more and more until he gets it." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_60_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_60_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f5" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f7" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f8" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f10" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.60.433.1" answerText="Joe could improve by practicing at home responding to the gun if he had a gun." accuracy="correct">
+      <facetEntailment facetID="HB_60_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f4" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f6" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f7" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f8" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f10" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.60.435.1" answerText="Joe should practice by being late and keep running so he does not stop." accuracy="irrelevant">
+      <facetEntailment facetID="HB_60_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f2" label="Diff-Arg"/>
+      <facetEntailment facetID="HB_60_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f5" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f7" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f8" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f10" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.60.438.1" answerText="He could block out everything except for the loud bang." accuracy="irrelevant">
+      <facetEntailment facetID="HB_60_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_60_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_60_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f4" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f5" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f7" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f8" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f10" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.60.440.1" answerText="To tell his body that task to run and to tell him to move his muscles." accuracy="irrelevant">
+      <facetEntailment facetID="HB_60_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_60_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_60_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f5" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f7" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f8" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f10" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.60.453.1" answerText="By ignoring the gun shot and just keep his mind focused on the track and ignore the cheering too." accuracy="contradictory">
+      <facetEntailment facetID="HB_60_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_60_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_60_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f4" label="Contra-Expr"/>
+      <facetEntailment facetID="HB_60_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f7" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f8" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f10" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.60.457.1" answerText="He should practice his hearing and practice." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_60_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f2" label="Diff-Arg"/>
+      <facetEntailment facetID="HB_60_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f5" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f7" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f8" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f10" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.60.464.1" answerText="Working out." accuracy="irrelevant">
+      <facetEntailment facetID="HB_60_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_60_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_60_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f5" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f7" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f8" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f10" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.60.467.1" answerText="He can improve by listening and your stimulus." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_60_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_60_f2" label="Inferred"/>
+      <facetEntailment facetID="HB_60_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f5" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f6" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f7" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f8" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f10" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.60.471.1" answerText="Practice a lot more at his house where there is some space." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_60_f1" label="Inferred"/>
+      <facetEntailment facetID="HB_60_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_60_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f5" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f7" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f8" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f10" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.60.489.1" answerText="By listening better." accuracy="irrelevant">
+      <facetEntailment facetID="HB_60_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_60_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_60_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f5" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f7" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f8" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f10" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.60.494.1" answerText="Hearing a boom sound and hurry and move his legs and run." accuracy="irrelevant">
+      <facetEntailment facetID="HB_60_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_60_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_60_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f5" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f7" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f8" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f10" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.60.496.1" answerText="Practicing." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_60_f1" label="Inferred"/>
+      <facetEntailment facetID="HB_60_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_60_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f5" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f7" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f8" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f10" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.60.498.1" answerText="To practice before he starts a race." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_60_f1" label="Inferred"/>
+      <facetEntailment facetID="HB_60_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_60_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f5" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f7" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f8" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f10" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.60.499.1" answerText="To go faster and practice at home." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_60_f1" label="Inferred"/>
+      <facetEntailment facetID="HB_60_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_60_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f5" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f7" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f8" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f10" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.60.500.1" answerText="To practice." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_60_f1" label="Inferred"/>
+      <facetEntailment facetID="HB_60_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_60_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f5" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f7" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f8" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f10" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.60.501.1" answerText="By practicing with afraid." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_60_f1" label="Inferred"/>
+      <facetEntailment facetID="HB_60_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_60_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f5" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f7" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f8" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f10" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.60.504.1" answerText="Practice a lot." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_60_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_60_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f5" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f7" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f8" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f10" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.60.505.1" answerText="Practice and improve his response time." accuracy="correct">
+      <facetEntailment facetID="HB_60_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_60_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f5" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f7" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f8" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f10" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.60.523.1" answerText="He could by asking when is the gun is about to be fired." accuracy="irrelevant">
+      <facetEntailment facetID="HB_60_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_60_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_60_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f7" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f8" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f10" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.60.525.1" answerText="He could practice a lot and see how fast he ran with a stop watch." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_60_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_60_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f5" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f7" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f8" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f10" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.60.530.1" answerText="Practice at home." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_60_f1" label="Inferred"/>
+      <facetEntailment facetID="HB_60_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_60_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f5" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f7" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f8" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f10" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.60.536.1" answerText="Practice at home or with a friend." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_60_f1" label="Inferred"/>
+      <facetEntailment facetID="HB_60_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_60_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f5" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f7" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f8" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f10" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.60.561.1" answerText="Practice concentrating." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_60_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f2" label="Diff-Arg"/>
+      <facetEntailment facetID="HB_60_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f5" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f7" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f8" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f10" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.60.563.1" answerText="When he does not have running he can just keep practicing until he gets better." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_60_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_60_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f5" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f7" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f8" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f10" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.60.565.1" answerText="Joe can practice and practice." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_60_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_60_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f5" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f7" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f8" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f10" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.60.566.1" answerText="He should practice." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_60_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_60_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f5" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f7" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f8" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f10" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.60.568.1" answerText="I think Joe should keep practicing to improve his start time." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_60_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_60_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f5" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f6" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f7" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f8" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f9" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f10" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.60.569.1" answerText="By instead of using a gun he could use a whistle." accuracy="irrelevant">
+      <facetEntailment facetID="HB_60_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_60_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_60_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f5" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f7" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f8" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f10" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.60.570.1" answerText="He could keep trying and listen really good for the gun shot." accuracy="irrelevant">
+      <facetEntailment facetID="HB_60_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_60_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_60_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f4" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f7" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f8" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f10" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.60.571.1" answerText="Joe can practice before his running tournament." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_60_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_60_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f5" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f7" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f8" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f10" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.60.572.1" answerText="Joe could practice with his family until the day of the race." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_60_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_60_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f5" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f7" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f8" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f10" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.60.575.1" answerText="By practicing and concentrating so that Joe will have a better response time." accuracy="correct">
+      <facetEntailment facetID="HB_60_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f2" label="Inferred"/>
+      <facetEntailment facetID="HB_60_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f5" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f7" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f8" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f9" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f10" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.60.592.1" answerText="Practice." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_60_f1" label="Inferred"/>
+      <facetEntailment facetID="HB_60_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_60_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f5" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f7" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f8" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f10" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.60.596.1" answerText="He could practice." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_60_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_60_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f5" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f7" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f8" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f10" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.60.597.1" answerText="Joe needs to practice hearing the gun." accuracy="correct">
+      <facetEntailment facetID="HB_60_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f4" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f5" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f7" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f8" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f10" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.60.598.1" answerText="Practice his start time." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_60_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f2" label="Diff-Arg"/>
+      <facetEntailment facetID="HB_60_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f5" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f7" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f8" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f10" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.60.600.1" answerText="Joe could improve practicing the start gun so he could be even faster." accuracy="correct">
+      <facetEntailment facetID="HB_60_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f4" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f6" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f7" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f8" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f10" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.60.604.1" answerText="The way Joe could improve his response time is by practicing." accuracy="correct">
+      <facetEntailment facetID="HB_60_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f2" label="Inferred"/>
+      <facetEntailment facetID="HB_60_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f5" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f6" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f7" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f8" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f10" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.60.606.1" answerText="He could practice starting." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_60_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f2" label="Diff-Arg"/>
+      <facetEntailment facetID="HB_60_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f5" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f7" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f8" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f10" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.60.609.1" answerText="Joe can get better with his response time start time by practicing." accuracy="correct">
+      <facetEntailment facetID="HB_60_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f5" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f6" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f7" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f8" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f9" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f10" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.60.613.1" answerText="Joe could practice responding at noises to improve his start time." accuracy="correct">
+      <facetEntailment facetID="HB_60_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f4" label="Diff-Arg"/>
+      <facetEntailment facetID="HB_60_f5" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f6" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f7" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f8" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f9" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f10" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.60.614.1" answerText="Joe can improve his start by practicing." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_60_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_60_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f5" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f6" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f7" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f8" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f9" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f10" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.60.628.1" answerText="Joe needs to practice starting the race." accuracy="correct">
+      <facetEntailment facetID="HB_60_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f2" label="Inferred"/>
+      <facetEntailment facetID="HB_60_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f5" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f7" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f8" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f10" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.60.633.1" answerText="Joe can improve his time by practicing more." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_60_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_60_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f5" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f6" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f7" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f8" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f9" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f10" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.60.634.1" answerText="He can practice at home and his brother and sister can make a gun sound and practice." accuracy="correct">
+      <facetEntailment facetID="HB_60_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f2" label="Inferred"/>
+      <facetEntailment facetID="HB_60_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f5" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f7" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f8" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f10" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.60.634b.1" answerText="Joe could practice running and more at home and his mom could say go as the gun." accuracy="correct">
+      <facetEntailment facetID="HB_60_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f4" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f7" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f8" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f10" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.60.636.1" answerText="Joe could improve his time by practicing." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_60_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_60_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f5" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f6" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f7" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f8" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f9" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f10" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.60.637.1" answerText="Joe could practice moving joints." accuracy="irrelevant">
+      <facetEntailment facetID="HB_60_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f2" label="Diff-Arg"/>
+      <facetEntailment facetID="HB_60_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f5" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f7" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f8" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f10" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.60.638.1" answerText="Joe's improve his starting point by just using his muscles and joints." accuracy="irrelevant">
+      <facetEntailment facetID="HB_60_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_60_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_60_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f5" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f6" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f7" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f8" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f10" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.60.640.1" answerText="He could exercise before he runs." accuracy="irrelevant">
+      <facetEntailment facetID="HB_60_f1" label="Diff-Arg"/>
+      <facetEntailment facetID="HB_60_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_60_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f5" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f7" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f8" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f10" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.60.641.1" answerText="He could practice to the sound of the starting gun." accuracy="correct">
+      <facetEntailment facetID="HB_60_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f2" label="Inferred"/>
+      <facetEntailment facetID="HB_60_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f7" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f8" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f10" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.60.642.1" answerText="Be calm and just wait for everybody else to start their race or count down in his head." accuracy="irrelevant">
+      <facetEntailment facetID="HB_60_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_60_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_60_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f5" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f7" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f8" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f10" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.60.644.1" answerText="Try to close his ears." accuracy="contradictory">
+      <facetEntailment facetID="HB_60_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_60_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_60_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f4" label="Contra-Infr"/>
+      <facetEntailment facetID="HB_60_f5" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f7" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f8" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f10" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.60.645.1" answerText="Joe could practice starting when the gun goes off." accuracy="correct">
+      <facetEntailment facetID="HB_60_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f2" label="Inferred"/>
+      <facetEntailment facetID="HB_60_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f4" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f7" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f8" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f10" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.60.646.1" answerText="To improve at responding Joe should pay more attention." accuracy="irrelevant">
+      <facetEntailment facetID="HB_60_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_60_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_60_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f5" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f6" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f7" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f8" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f10" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.60.649.1" answerText="Watch the trigger or listen or watch the other runner." accuracy="irrelevant">
+      <facetEntailment facetID="HB_60_f1" label="Diff-Arg"/>
+      <facetEntailment facetID="HB_60_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_60_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f5" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f7" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f8" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f10" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.60.976.1" answerText="Joe could pay attention to the gun then the fans." accuracy="irrelevant">
+      <facetEntailment facetID="HB_60_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_60_f2" label="Inferred"/>
+      <facetEntailment facetID="HB_60_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f4" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f5" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f7" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f8" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f10" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.60.987.1" answerText="He should let someone shoot and he should practice on that." accuracy="correct">
+      <facetEntailment facetID="HB_60_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f2" label="Inferred"/>
+      <facetEntailment facetID="HB_60_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f5" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f7" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f8" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f10" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.60.988.1" answerText="Go as low as you can behind the line." accuracy="irrelevant">
+      <facetEntailment facetID="HB_60_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_60_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_60_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f5" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f7" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f8" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f10" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.60.989.1" answerText="By jumping then run." accuracy="irrelevant">
+      <facetEntailment facetID="HB_60_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_60_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_60_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f5" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f7" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f8" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f10" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.60.991.1" answerText="To improve his listening maybe." accuracy="irrelevant">
+      <facetEntailment facetID="HB_60_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_60_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_60_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f5" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f7" label="Diff-Arg"/>
+      <facetEntailment facetID="HB_60_f8" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f10" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.60.992.1" answerText="Joe can improve by practicing more at his starting point." accuracy="correct">
+      <facetEntailment facetID="HB_60_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_60_f2" label="Inferred"/>
+      <facetEntailment facetID="HB_60_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f5" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f7" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f8" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f10" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.60.993.1" answerText="By getting a head start at the race." accuracy="irrelevant">
+      <facetEntailment facetID="HB_60_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_60_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_60_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f5" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f6" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f7" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f8" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f9" label="Assumed"/>
+      <facetEntailment facetID="HB_60_f10" label="Assumed"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

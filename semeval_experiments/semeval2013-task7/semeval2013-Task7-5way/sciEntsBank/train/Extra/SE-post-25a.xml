@@ -1,0 +1,1046 @@
+<?xml version="1.0"?>
+<question id="SE_25a" module="SE">
+  <questionText>The graph shows temperature data from 2 containers. One container had 100 milliliters of water and the other had 100 milliliters of dry soil. Each container was placed in the sun for 20 minutes and then in the shade for 20 minutes. Which container, A or B, had the dry soil? Explain how the graph helped you decide which container had the dry soil.</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="SE_25a-a1" text="A. Dry soil heats more quickly and cools off more quickly than water. The graph shows A heats and cools more quickly than B, so A must be the dry soil.">
+      <tokens>
+        <token id="SE_25a_ra1">A</token>
+        <token id="SE_25a_ra2">.</token>
+        <token id="SE_25a_ra3">Dry</token>
+        <token id="SE_25a_ra4">soil</token>
+        <token id="SE_25a_ra5">heats</token>
+        <token id="SE_25a_ra6">more</token>
+        <token id="SE_25a_ra7">quickly</token>
+        <token id="SE_25a_ra8">and</token>
+        <token id="SE_25a_ra9">cools</token>
+        <token id="SE_25a_ra10">off</token>
+        <token id="SE_25a_ra11">more</token>
+        <token id="SE_25a_ra12">quickly</token>
+        <token id="SE_25a_ra13">than</token>
+        <token id="SE_25a_ra14">water</token>
+        <token id="SE_25a_ra15">.</token>
+        <token id="SE_25a_ra16">The</token>
+        <token id="SE_25a_ra17">graph</token>
+        <token id="SE_25a_ra18">shows</token>
+        <token id="SE_25a_ra19">A</token>
+        <token id="SE_25a_ra20">heats</token>
+        <token id="SE_25a_ra21">and</token>
+        <token id="SE_25a_ra22">cools</token>
+        <token id="SE_25a_ra23">more</token>
+        <token id="SE_25a_ra24">quickly</token>
+        <token id="SE_25a_ra25">than</token>
+        <token id="SE_25a_ra26">B</token>
+        <token id="SE_25a_ra27">,</token>
+        <token id="SE_25a_ra28">so</token>
+        <token id="SE_25a_ra29">A</token>
+        <token id="SE_25a_ra30">must</token>
+        <token id="SE_25a_ra31">be</token>
+        <token id="SE_25a_ra32">the</token>
+        <token id="SE_25a_ra33">dry</token>
+        <token id="SE_25a_ra34">soil</token>
+        <token id="SE_25a_ra35">.</token>
+      </tokens>
+      <facets>
+        <facet id="SE_25a_f1" govNum="SE_25a_ra0" modNum="SE_25a_ra1" reltn="Root" govText="root" modText="A"/>
+        <facet id="SE_25a_f2" govNum="SE_25a_ra4" modNum="SE_25a_ra3" reltn="NMod" govText="soil" isAssumed="true" modText="Dry"/>
+        <facet id="SE_25a_f3" govNum="SE_25a_ra5" modNum="SE_25a_ra4" reltn="Patient" govText="heats" modText="soil"/>
+        <facet id="SE_25a_f4" govNum="SE_25a_ra5" modNum="SE_25a_ra7" reltn="Manner" govText="heats" modText="quickly"/>
+        <facet id="SE_25a_f5" govNum="SE_25a_ra7" modNum="SE_25a_ra6" reltn="AMod" govText="quickly" modText="more"/>
+        <facet id="SE_25a_f6" govNum="SE_25a_ra6" modNum="SE_25a_ra14" reltn="AMod_than" govText="more" modText="water"/>
+        <facet id="SE_25a_f7" govNum="SE_25a_ra9" modNum="SE_25a_ra4" reltn="Patient" govText="cools off" modText="soil"/>
+        <facet id="SE_25a_f8" govNum="SE_25a_ra9" modNum="SE_25a_ra12" reltn="Manner" govText="cools off" modText="quickly"/>
+        <facet id="SE_25a_f9" govNum="SE_25a_ra12" modNum="SE_25a_ra11" reltn="AMod" govText="quickly" modText="more"/>
+        <facet id="SE_25a_f10" govNum="SE_25a_ra11" modNum="SE_25a_ra14" reltn="AMod_than" govText="more" modText="water"/>
+        <facet id="SE_25a_f11" govNum="SE_25a_ra18" modNum="SE_25a_ra17" reltn="Means" govText="shows" isAssumed="true" modText="graph"/>
+        <facet id="SE_25a_f12" govNum="SE_25a_ra18" modNum="SE_25a_ra20" reltn="Topic" childProp2Facet2="SE_25a_f15" govText="shows" modText="heats" childProp2Facet1="SE_25a_f14"/>
+        <facet id="SE_25a_f13" govNum="SE_25a_ra18" modNum="SE_25a_ra22" reltn="Topic" childProp2Facet2="SE_25a_f17" govText="shows" modText="cools" childProp2Facet1="SE_25a_f16"/>
+        <facet id="SE_25a_f14" govNum="SE_25a_ra20" modNum="SE_25a_ra19" reltn="Patient" govText="heats" modText="A"/>
+        <facet id="SE_25a_f15" govNum="SE_25a_ra20" modNum="SE_25a_ra24" reltn="Manner" govText="heats" modText="quickly"/>
+        <facet id="SE_25a_f16" govNum="SE_25a_ra22" modNum="SE_25a_ra19" reltn="Patient" govText="cools" modText="A"/>
+        <facet id="SE_25a_f17" govNum="SE_25a_ra22" modNum="SE_25a_ra24" reltn="Manner" govText="cools" modText="quickly"/>
+        <facet id="SE_25a_f18" govNum="SE_25a_ra24" modNum="SE_25a_ra23" reltn="AMod" govText="quickly" modText="more"/>
+        <facet id="SE_25a_f19" govNum="SE_25a_ra23" modNum="SE_25a_ra26" reltn="AMod_than" govText="more" modText="B"/>
+        <facet id="SE_25a_f20" govNum="SE_25a_ra29" modNum="SE_25a_ra34" reltn="Be" govText="A" modText="soil"/>
+        <facet id="SE_25a_f21" govNum="SE_25a_ra34" modNum="SE_25a_ra33" reltn="NMod" govText="soil" isAssumed="true" modText="dry"/>
+        <facet id="SE_25a_f22" govNum="SE_25a_ra31" modNum="SE_25a_ra20" reltn="Cause-know_so" childProp2Facet2="SE_25a_f15" childProp1Facet1="SE_25a_f20" govText="be" childProp1Facet2="SE_25a_f21" modText="heats" childProp2Facet1="SE_25a_f14"/>
+        <facet id="SE_25a_f23" govNum="SE_25a_ra20" modNum="SE_25a_ra31" reltn="Cause_so" childProp2Facet2="SE_25a_f21" childProp1Facet1="SE_25a_f14" govText="heats" childProp1Facet2="SE_25a_f15" modText="be" childProp2Facet1="SE_25a_f20"/>
+        <facet id="SE_25a_f24" govNum="SE_25a_ra31" modNum="SE_25a_ra22" reltn="Cause-know_so" childProp2Facet2="SE_25a_f17" childProp1Facet1="SE_25a_f20" govText="be" childProp1Facet2="SE_25a_f21" modText="cools" childProp2Facet1="SE_25a_f16"/>
+        <facet id="SE_25a_f25" govNum="SE_25a_ra22" modNum="SE_25a_ra31" reltn="Cause_so" childProp2Facet2="SE_25a_f21" childProp1Facet1="SE_25a_f16" govText="cools" childProp1Facet2="SE_25a_f17" modText="be" childProp2Facet1="SE_25a_f20"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="SE.25a.105.1" answerText="A. Because the little things help me. All I know A is the dry soil." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="SE_25a_f1" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f2" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f3" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f4" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f5" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f6" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f7" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f8" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f9" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f10" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f11" label="Assumed"/>
+      <facetEntailment facetID="SE_25a_f12" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f13" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f14" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f15" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f16" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f17" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f18" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f19" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f20" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f21" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f22" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f23" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f24" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f25" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.25a.126.1" answerText="A. The graph helped me because the dry soil gets hot. The one that gets hot between water and dry soil is dry soil. The soil gets hotter because it absorbs more heat." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="SE_25a_f1" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f2" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f3" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f4" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f5" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f6" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f7" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f8" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f9" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f10" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f11" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f12" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f13" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f14" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f15" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f16" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f17" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f18" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f19" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f20" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f21" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f22" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f23" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f24" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f25" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.25a.144.1" answerText="A. Because of 20 number it helps by the line." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="SE_25a_f1" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_25a_f3" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f4" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f5" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f6" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f7" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f8" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f9" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f10" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f11" label="Assumed"/>
+      <facetEntailment facetID="SE_25a_f12" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f13" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f14" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f15" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f16" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f17" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f18" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f19" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f20" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f21" label="Assumed"/>
+      <facetEntailment facetID="SE_25a_f22" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f23" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f24" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f25" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.25a.150.1" answerText="A. Dry soil cools faster than water." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="SE_25a_f1" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f2" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f3" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f4" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f5" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f6" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f7" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f8" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f9" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f10" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f11" label="Assumed"/>
+      <facetEntailment facetID="SE_25a_f12" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f13" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f14" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f15" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f16" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f17" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f18" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f19" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f20" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f21" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f22" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f23" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f24" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f25" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="SE.25a.154.1" answerText="A. A, because it is hotter than the B and dry soil fast more fast than the water heat." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="SE_25a_f1" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f2" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f3" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f4" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f5" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f6" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f7" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f8" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f9" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f10" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f11" label="Assumed"/>
+      <facetEntailment facetID="SE_25a_f12" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f13" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f14" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f15" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f16" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f17" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f18" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f19" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f20" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f21" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f22" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f23" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f24" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f25" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.25a.166.1" answerText="A. Because the dry soil absorbs heat and traps the heat." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="SE_25a_f1" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f2" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f3" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f4" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f5" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f6" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f7" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f8" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f9" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f10" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f11" label="Assumed"/>
+      <facetEntailment facetID="SE_25a_f12" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f13" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f14" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f15" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f16" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f17" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f18" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f19" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f20" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f21" label="Assumed"/>
+      <facetEntailment facetID="SE_25a_f22" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f23" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f24" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f25" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.25a.190.1" answerText="A. Because dry soil heats up faster than water." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="SE_25a_f1" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f2" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f3" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f4" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f5" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f6" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f7" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f8" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f9" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f10" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f11" label="Assumed"/>
+      <facetEntailment facetID="SE_25a_f12" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f13" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f14" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f15" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f16" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f17" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f18" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f19" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f20" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f21" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f22" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f23" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f24" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f25" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.25a.265.1" answerText="B. dry soil heats up faster than water because dry soil is like sand gets hot fast." accuracy="contradictory">
+      <facetEntailment facetID="SE_25a_f1" label="Contra-Expr"/>
+      <facetEntailment facetID="SE_25a_f2" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f3" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f4" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f5" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f6" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f7" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f8" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f9" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f10" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f11" label="Assumed"/>
+      <facetEntailment facetID="SE_25a_f12" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f13" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f14" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f15" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f16" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f17" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f18" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f19" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f20" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f21" label="Assumed"/>
+      <facetEntailment facetID="SE_25a_f22" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f23" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f24" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f25" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.25a.313.1" answerText="A. I knew dry soil was B because it lets in heat fast and lets it go fast, so dry soil is not a good heat sink." accuracy="contradictory">
+      <facetEntailment facetID="SE_25a_f1" label="Self-Contra"/>
+      <facetEntailment facetID="SE_25a_f2" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f3" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f4" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f5" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f6" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f7" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f8" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f9" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f10" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f11" label="Assumed"/>
+      <facetEntailment facetID="SE_25a_f12" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f13" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f14" label="Diff-Arg"/>
+      <facetEntailment facetID="SE_25a_f15" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f16" label="Diff-Arg"/>
+      <facetEntailment facetID="SE_25a_f17" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f18" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f19" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f20" label="Contra-Infr"/>
+      <facetEntailment facetID="SE_25a_f21" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f22" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f23" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f24" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f25" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="SE.25a.320.1" answerText="A. Because A was the higher than the other one because it is hot inside because dry not wet." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="SE_25a_f1" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_25a_f3" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f4" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f5" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f6" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f7" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f8" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f9" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f10" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f11" label="Assumed"/>
+      <facetEntailment facetID="SE_25a_f12" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f13" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f14" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f15" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f16" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f17" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f18" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f19" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f20" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f21" label="Assumed"/>
+      <facetEntailment facetID="SE_25a_f22" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f23" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f24" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f25" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.25a.324.1" answerText="A. Because container A has a higher temperature and dry soil does not contain water so the temperature is going to be high." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="SE_25a_f1" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f2" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f3" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f4" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f5" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f6" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f7" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f8" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f9" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f10" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f11" label="Assumed"/>
+      <facetEntailment facetID="SE_25a_f12" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f13" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f14" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f15" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f16" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f17" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f18" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f19" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f20" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f21" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f22" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f23" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f24" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f25" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.25a.331.1" answerText="A. Because water is the best heat sink and heat sinks absorb solar energy slowly and release it slowly. Dry soil is a heat sink too, but is not the best." accuracy="correct">
+      <facetEntailment facetID="SE_25a_f1" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f2" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f3" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f4" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f5" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f6" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f7" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f8" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f9" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f10" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f11" label="Assumed"/>
+      <facetEntailment facetID="SE_25a_f12" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f13" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f14" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f15" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f16" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f17" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f18" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f19" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f20" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f21" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f22" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f23" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f24" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f25" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="SE.25a.332.1" answerText="A. B because dry soil is not that high than the water one." accuracy="contradictory">
+      <facetEntailment facetID="SE_25a_f1" label="Self-Contra"/>
+      <facetEntailment facetID="SE_25a_f2" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f3" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f4" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f5" label="Contra-Infr"/>
+      <facetEntailment facetID="SE_25a_f6" label="Contra-Infr"/>
+      <facetEntailment facetID="SE_25a_f7" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f8" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f9" label="Contra-Infr"/>
+      <facetEntailment facetID="SE_25a_f10" label="Contra-Infr"/>
+      <facetEntailment facetID="SE_25a_f11" label="Assumed"/>
+      <facetEntailment facetID="SE_25a_f12" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f13" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f14" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f15" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f16" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f17" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f18" label="Contra-Infr"/>
+      <facetEntailment facetID="SE_25a_f19" label="Contra-Infr"/>
+      <facetEntailment facetID="SE_25a_f20" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f21" label="Assumed"/>
+      <facetEntailment facetID="SE_25a_f22" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f23" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f24" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f25" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.25a.336.1" answerText="B. because A has the highest temperature and B has the lowest." accuracy="contradictory">
+      <facetEntailment facetID="SE_25a_f1" label="Contra-Expr"/>
+      <facetEntailment facetID="SE_25a_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_25a_f3" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f4" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f5" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f6" label="Contra-Infr"/>
+      <facetEntailment facetID="SE_25a_f7" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f8" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f9" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f10" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f11" label="Assumed"/>
+      <facetEntailment facetID="SE_25a_f12" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f13" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f14" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f15" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f16" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f17" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f18" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f19" label="Contra-Infr"/>
+      <facetEntailment facetID="SE_25a_f20" label="Contra-Infr"/>
+      <facetEntailment facetID="SE_25a_f21" label="Assumed"/>
+      <facetEntailment facetID="SE_25a_f22" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f23" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f24" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f25" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.25a.390.1" answerText="B. Because line A is hotter. Water tends to get hotter than anything. So the soil is line B. Soil cannot get as hot as 44 to 43 Celsius." accuracy="contradictory">
+      <facetEntailment facetID="SE_25a_f1" label="Contra-Expr"/>
+      <facetEntailment facetID="SE_25a_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_25a_f3" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f4" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f5" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f6" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f7" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f8" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f9" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f10" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f11" label="Assumed"/>
+      <facetEntailment facetID="SE_25a_f12" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f13" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f14" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f15" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f16" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f17" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f18" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f19" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f20" label="Contra-Expr"/>
+      <facetEntailment facetID="SE_25a_f21" label="Assumed"/>
+      <facetEntailment facetID="SE_25a_f22" label="Contra-Infr"/>
+      <facetEntailment facetID="SE_25a_f23" label="Contra-Infr"/>
+      <facetEntailment facetID="SE_25a_f24" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f25" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.25a.394.1" answerText="A. Because soil heats up faster." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="SE_25a_f1" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_25a_f3" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f4" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f5" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f6" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f7" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f8" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f9" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f10" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f11" label="Assumed"/>
+      <facetEntailment facetID="SE_25a_f12" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f13" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f14" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f15" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f16" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f17" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f18" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f19" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f20" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f21" label="Assumed"/>
+      <facetEntailment facetID="SE_25a_f22" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f23" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f24" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f25" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.25a.441.1" answerText="A. The graph helped me by showing the temperature. The dry soil is darker with no heat sink material like water to slow the absorption of heat." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="SE_25a_f1" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f2" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f3" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f4" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f5" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f6" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f7" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f8" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f9" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f10" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f11" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f12" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f13" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f14" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f15" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f16" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f17" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f18" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f19" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f20" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f21" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f22" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f23" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f24" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f25" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.25a.503.1" answerText="A. Dry soil heats up quickly and more than water but loses its heat quickly like line A on the graph." accuracy="correct">
+      <facetEntailment facetID="SE_25a_f1" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f2" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f3" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f4" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f5" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f6" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f7" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f8" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f9" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f10" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f11" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f12" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f13" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f14" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f15" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f16" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f17" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f18" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f19" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f20" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f21" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f22" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f23" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f24" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f25" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.25a.506.1" answerText="A. Because dry soil heats more in the sun." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="SE_25a_f1" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f2" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f3" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f4" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f5" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f6" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f7" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f8" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f9" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f10" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f11" label="Assumed"/>
+      <facetEntailment facetID="SE_25a_f12" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f13" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f14" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f15" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f16" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f17" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f18" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f19" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f20" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f21" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f22" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f23" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f24" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f25" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.25a.508.1" answerText="A. The graph helped me decide which container had the dry soil because I know that water is a heat sink and I know that heat sinks bring in heat slower and lets it out slow." accuracy="correct">
+      <facetEntailment facetID="SE_25a_f1" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f2" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f3" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f4" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f5" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f6" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f7" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f8" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f9" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f10" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f11" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f12" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f13" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f14" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f15" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f16" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f17" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f18" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f19" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f20" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f21" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f22" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f23" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f24" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f25" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="SE.25a.513.1" answerText="A. Had wet soil it takes a longer time for it to heat up. So the dry soil would heat up faster." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="SE_25a_f1" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f2" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f3" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f4" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f5" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f6" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f7" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f8" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f9" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f10" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f11" label="Assumed"/>
+      <facetEntailment facetID="SE_25a_f12" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f13" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f14" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f15" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f16" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f17" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f18" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f19" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f20" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f21" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f22" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f23" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f24" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f25" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.25a.514.1" answerText="B. The graph helped me because dry soil is not a heat sink like water so it does not absorb the heat as fast." accuracy="contradictory">
+      <facetEntailment facetID="SE_25a_f1" label="Contra-Expr"/>
+      <facetEntailment facetID="SE_25a_f2" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f3" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f4" label="Contra-Expr"/>
+      <facetEntailment facetID="SE_25a_f5" label="Contra-Expr"/>
+      <facetEntailment facetID="SE_25a_f6" label="Contra-Expr"/>
+      <facetEntailment facetID="SE_25a_f7" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f8" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f9" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f10" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f11" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f12" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f13" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f14" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f15" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f16" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f17" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f18" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f19" label="Contra-Expr"/>
+      <facetEntailment facetID="SE_25a_f20" label="Contra-Infr"/>
+      <facetEntailment facetID="SE_25a_f21" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f22" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f23" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f24" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f25" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.25a.519.1" answerText="B. Well, I know that water will heat up faster and I thought that maybe the soil will not heat up faster." accuracy="contradictory">
+      <facetEntailment facetID="SE_25a_f1" label="Contra-Expr"/>
+      <facetEntailment facetID="SE_25a_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_25a_f3" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f4" label="Contra-Expr"/>
+      <facetEntailment facetID="SE_25a_f5" label="Contra-Expr"/>
+      <facetEntailment facetID="SE_25a_f6" label="Contra-Expr"/>
+      <facetEntailment facetID="SE_25a_f7" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f8" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f9" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f10" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f11" label="Assumed"/>
+      <facetEntailment facetID="SE_25a_f12" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f13" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f14" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f15" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f16" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f17" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f18" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f19" label="Contra-Expr"/>
+      <facetEntailment facetID="SE_25a_f20" label="Contra-Infr"/>
+      <facetEntailment facetID="SE_25a_f21" label="Assumed"/>
+      <facetEntailment facetID="SE_25a_f22" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f23" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f24" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f25" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.25a.525.1" answerText="A. A because dry heats up faster because it has no breeze or moisten anything to where is absorbs more." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="SE_25a_f1" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_25a_f3" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f4" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f5" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f6" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f7" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f8" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f9" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f10" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f11" label="Assumed"/>
+      <facetEntailment facetID="SE_25a_f12" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f13" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f14" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f15" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f16" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f17" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f18" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f19" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f20" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f21" label="Assumed"/>
+      <facetEntailment facetID="SE_25a_f22" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f23" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f24" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f25" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.25a.529.1" answerText="A. Because dry soil absorbs solar energy faster because it is not a heat sink." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="SE_25a_f1" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f2" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f3" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f4" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f5" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f6" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f7" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f8" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f9" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f10" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f11" label="Assumed"/>
+      <facetEntailment facetID="SE_25a_f12" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f13" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f14" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f15" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f16" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f17" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f18" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f19" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f20" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f21" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f22" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f23" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f24" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f25" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.25a.530.1" answerText="A. Because water is a heat sink so it heats up slowly and soil heats up quickly." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="SE_25a_f1" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_25a_f3" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f4" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f5" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f6" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f7" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f8" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f9" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f10" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f11" label="Assumed"/>
+      <facetEntailment facetID="SE_25a_f12" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f13" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f14" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f15" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f16" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f17" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f18" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f19" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f20" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f21" label="Assumed"/>
+      <facetEntailment facetID="SE_25a_f22" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f23" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f24" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f25" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.25a.532.1" answerText="A. Because it heats up faster." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="SE_25a_f1" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_25a_f3" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f4" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f5" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f6" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f7" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f8" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f9" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f10" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f11" label="Assumed"/>
+      <facetEntailment facetID="SE_25a_f12" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f13" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f14" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f15" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f16" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f17" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f18" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f19" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f20" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f21" label="Assumed"/>
+      <facetEntailment facetID="SE_25a_f22" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f23" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f24" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f25" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.25a.539.1" answerText="A. The graph help me because I know that dry soil is black which perhaps it will get hotter unlike the water it reflects the sun's energy." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="SE_25a_f1" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f2" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f3" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f4" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f5" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f6" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f7" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f8" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f9" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f10" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f11" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f12" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f13" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f14" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f15" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f16" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f17" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f18" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f19" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f20" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f21" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f22" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f23" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f24" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f25" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.25a.576.1" answerText="A. Water makes things cooler so the dry soil gets hotter." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="SE_25a_f1" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f2" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f3" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f4" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f5" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f6" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f7" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f8" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f9" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f10" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f11" label="Assumed"/>
+      <facetEntailment facetID="SE_25a_f12" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f13" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f14" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f15" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f16" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f17" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f18" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f19" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f20" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f21" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f22" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f23" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f24" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f25" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.25a.596.1" answerText="A. I know that container A had the dry soil because dry soil heats up the fastest in the sun and goes down in the shade." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="SE_25a_f1" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f2" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f3" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f4" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f5" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f6" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f7" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f8" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f9" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f10" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f11" label="Assumed"/>
+      <facetEntailment facetID="SE_25a_f12" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f13" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f14" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f15" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f16" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f17" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f18" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f19" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f20" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f21" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f22" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f23" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f24" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f25" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="SE.25a.597.1" answerText="B. The graph helped me decide which container had dry soil because I know that water is a better heat sink and wet soil has water in it." accuracy="contradictory">
+      <facetEntailment facetID="SE_25a_f1" label="Contra-Expr"/>
+      <facetEntailment facetID="SE_25a_f2" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f3" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f4" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f5" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f6" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f7" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f8" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f9" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f10" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f11" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f12" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f13" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f14" label="Contra-Expr"/>
+      <facetEntailment facetID="SE_25a_f15" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f16" label="Contra-Expr"/>
+      <facetEntailment facetID="SE_25a_f17" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f18" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f19" label="Contra-Expr"/>
+      <facetEntailment facetID="SE_25a_f20" label="Contra-Expr"/>
+      <facetEntailment facetID="SE_25a_f21" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f22" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f23" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f24" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f25" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="SE.25a.598.1" answerText="A. A was the highest because dry soil heats faster." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="SE_25a_f1" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f2" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f3" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f4" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f5" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f6" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f7" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f8" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f9" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f10" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f11" label="Assumed"/>
+      <facetEntailment facetID="SE_25a_f12" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f13" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f14" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f15" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f16" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f17" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f18" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f19" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f20" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f21" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f22" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f23" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f24" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f25" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.25a.604.1" answerText="A. Container A had dry soil because non wet materials or dry materials will heat up faster than wet materials because wet materials are heat sinks and they take longer to absorb and release heat." accuracy="correct">
+      <facetEntailment facetID="SE_25a_f1" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f2" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f3" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f4" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f5" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f6" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f7" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f8" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f9" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f10" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f11" label="Assumed"/>
+      <facetEntailment facetID="SE_25a_f12" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f13" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f14" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f15" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f16" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f17" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f18" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f19" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f20" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f21" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f22" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f23" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f24" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f25" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="SE.25a.611.1" answerText="A. Dry soil is A because dry soil is a earth material and absorbs the sun's energy more than B." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="SE_25a_f1" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f2" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f3" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f4" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f5" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f6" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f7" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f8" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f9" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f10" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f11" label="Assumed"/>
+      <facetEntailment facetID="SE_25a_f12" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f13" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f14" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f15" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f16" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f17" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f18" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f19" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f20" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f21" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f22" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f23" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f24" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f25" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.25a.614.1" answerText="A. It helped me because container A has the highest temperature than container B." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="SE_25a_f1" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_25a_f3" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f4" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f5" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f6" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f7" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f8" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f9" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f10" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f11" label="Assumed"/>
+      <facetEntailment facetID="SE_25a_f12" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f13" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f14" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f15" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f16" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f17" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f18" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f19" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f20" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f21" label="Assumed"/>
+      <facetEntailment facetID="SE_25a_f22" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f23" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f24" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f25" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.25a.615.1" answerText="A. Water is a heat sink and will heat up slow but there is no water in dry soil so it heats up fast." accuracy="contradictory">
+      <facetEntailment facetID="SE_25a_f1" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f2" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f3" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f4" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f5" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f6" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f7" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f8" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f9" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f10" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f11" label="Assumed"/>
+      <facetEntailment facetID="SE_25a_f12" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f13" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f14" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f15" label="Expressed"/>
+      <facetEntailment facetID="SE_25a_f16" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f17" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f18" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f19" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f20" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f21" label="Contra-Expr"/>
+      <facetEntailment facetID="SE_25a_f22" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f23" label="Inferred"/>
+      <facetEntailment facetID="SE_25a_f24" label="Unaddressed"/>
+      <facetEntailment facetID="SE_25a_f25" label="Unaddressed"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

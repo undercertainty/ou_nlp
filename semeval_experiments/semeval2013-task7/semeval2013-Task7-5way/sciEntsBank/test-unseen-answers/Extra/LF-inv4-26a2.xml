@@ -1,0 +1,102 @@
+<?xml version="1.0"?>
+<question testSet="unseen-answers" id="LF_26a2" module="LF">
+  <questionText>Pam and her family were planning a hike. Pam found 2 maps of the same area. Her friend recommended she use the topographic map when they went to the lake. Why would Pam's friend recommend using the topographic map for the hike?</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="LF_26a2-a1" text="She recommended the topographic map because the map shows the elevations along the trail. Pam would know where the trail was the steepest.">
+      <tokens>
+        <token id="LF_26a2_ra1">She</token>
+        <token id="LF_26a2_ra2">recommended</token>
+        <token id="LF_26a2_ra3">the</token>
+        <token id="LF_26a2_ra4">topographic</token>
+        <token id="LF_26a2_ra5">map</token>
+        <token id="LF_26a2_ra6">because</token>
+        <token id="LF_26a2_ra7">the</token>
+        <token id="LF_26a2_ra8">map</token>
+        <token id="LF_26a2_ra9">shows</token>
+        <token id="LF_26a2_ra10">the</token>
+        <token id="LF_26a2_ra11">elevations</token>
+        <token id="LF_26a2_ra12">along</token>
+        <token id="LF_26a2_ra13">the</token>
+        <token id="LF_26a2_ra14">trail</token>
+        <token id="LF_26a2_ra15">.</token>
+        <token id="LF_26a2_ra16">Pam</token>
+        <token id="LF_26a2_ra17">would</token>
+        <token id="LF_26a2_ra18">know</token>
+        <token id="LF_26a2_ra19">where</token>
+        <token id="LF_26a2_ra20">the</token>
+        <token id="LF_26a2_ra21">trail</token>
+        <token id="LF_26a2_ra22">was</token>
+        <token id="LF_26a2_ra23">the</token>
+        <token id="LF_26a2_ra24">steepest</token>
+        <token id="LF_26a2_ra25">.</token>
+      </tokens>
+      <facets>
+        <facet id="LF_26a2_f1" govNum="LF_26a2_ra2" modNum="LF_26a2_ra1" reltn="Agent" govText="recommended" isAssumed="true" modText="She"/>
+        <facet id="LF_26a2_f2" govNum="LF_26a2_ra2" modNum="LF_26a2_ra5" reltn="Theme" govText="recommended" isAssumed="true" modText="map"/>
+        <facet id="LF_26a2_f3" govNum="LF_26a2_ra5" modNum="LF_26a2_ra4" reltn="NMod" govText="map" isAssumed="true" modText="topographic"/>
+        <facet id="LF_26a2_f4" govNum="LF_26a2_ra9" modNum="LF_26a2_ra8" reltn="Means" govText="shows" modText="map"/>
+        <facet id="LF_26a2_f5" govNum="LF_26a2_ra9" modNum="LF_26a2_ra11" reltn="Topic" govText="shows" modText="elevations"/>
+        <facet id="LF_26a2_f6" govNum="LF_26a2_ra11" modNum="LF_26a2_ra14" reltn="Location_along" govText="elevations" modText="trail"/>
+        <facet id="LF_26a2_f7" govNum="LF_26a2_ra2" modNum="LF_26a2_ra9" reltn="Cause_because" childProp2Facet2="LF_26a2_f5" childProp1Facet1="LF_26a2_f1" govText="recommended" isAssumed="true" childProp1Facet2="LF_26a2_f2" modText="shows" childProp2Facet1="LF_26a2_f4"/>
+        <facet id="LF_26a2_f8" govNum="LF_26a2_ra18" modNum="LF_26a2_ra16" reltn="Agent" govText="know" modText="Pam"/>
+        <facet id="LF_26a2_f9" govNum="LF_26a2_ra18" modNum="LF_26a2_ra22" reltn="Theme_where" govText="know" modText="was"/>
+        <facet id="LF_26a2_f10" govNum="LF_26a2_ra21" modNum="LF_26a2_ra24" reltn="Be" govText="trail" modText="steepest"/>
+        <facet id="LF_26a2_f11" govNum="LF_26a2_ra18" modNum="LF_26a2_ra9" reltn="Cause" childProp2Facet2="LF_26a2_f5" childProp1Facet1="LF_26a2_f8" govText="know" childProp1Facet2="LF_26a2_f10" modText="shows" childProp2Facet1="LF_26a2_f4"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="LF.26a2.387.1" answerText="It tells you the elevation so you hike the easiest way." accuracy="correct">
+      <facetEntailment facetID="LF_26a2_f1" label="Assumed"/>
+      <facetEntailment facetID="LF_26a2_f2" label="Assumed"/>
+      <facetEntailment facetID="LF_26a2_f3" label="Assumed"/>
+      <facetEntailment facetID="LF_26a2_f4" label="Expressed"/>
+      <facetEntailment facetID="LF_26a2_f5" label="Expressed"/>
+      <facetEntailment facetID="LF_26a2_f6" label="Inferred"/>
+      <facetEntailment facetID="LF_26a2_f7" label="Assumed"/>
+      <facetEntailment facetID="LF_26a2_f8" label="Unaddressed"/>
+      <facetEntailment facetID="LF_26a2_f9" label="Inferred"/>
+      <facetEntailment facetID="LF_26a2_f10" label="Inferred"/>
+      <facetEntailment facetID="LF_26a2_f11" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="LF.26a2.481.1" answerText="Because you where how big or 4." accuracy="non_domain">
+      <facetEntailment facetID="LF_26a2_f1" label="Assumed"/>
+      <facetEntailment facetID="LF_26a2_f2" label="Assumed"/>
+      <facetEntailment facetID="LF_26a2_f3" label="Assumed"/>
+      <facetEntailment facetID="LF_26a2_f4" label="Unaddressed"/>
+      <facetEntailment facetID="LF_26a2_f5" label="Unaddressed"/>
+      <facetEntailment facetID="LF_26a2_f6" label="Unaddressed"/>
+      <facetEntailment facetID="LF_26a2_f7" label="Assumed"/>
+      <facetEntailment facetID="LF_26a2_f8" label="Unaddressed"/>
+      <facetEntailment facetID="LF_26a2_f9" label="Unaddressed"/>
+      <facetEntailment facetID="LF_26a2_f10" label="Unaddressed"/>
+      <facetEntailment facetID="LF_26a2_f11" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="LF.26a2.493.1" answerText="She would recommend it because when they take the hike, they will know how steep the mountain is." accuracy="correct">
+      <facetEntailment facetID="LF_26a2_f1" label="Expressed"/>
+      <facetEntailment facetID="LF_26a2_f2" label="Expressed"/>
+      <facetEntailment facetID="LF_26a2_f3" label="Assumed"/>
+      <facetEntailment facetID="LF_26a2_f4" label="Inferred"/>
+      <facetEntailment facetID="LF_26a2_f5" label="Inferred"/>
+      <facetEntailment facetID="LF_26a2_f6" label="Inferred"/>
+      <facetEntailment facetID="LF_26a2_f7" label="Assumed"/>
+      <facetEntailment facetID="LF_26a2_f8" label="Expressed"/>
+      <facetEntailment facetID="LF_26a2_f9" label="Expressed"/>
+      <facetEntailment facetID="LF_26a2_f10" label="Inferred"/>
+      <facetEntailment facetID="LF_26a2_f11" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="LF.26a2.507.1" answerText="I think she would recommend this because a topographic map tells you more information for where you need to go." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="LF_26a2_f1" label="Expressed"/>
+      <facetEntailment facetID="LF_26a2_f2" label="Expressed"/>
+      <facetEntailment facetID="LF_26a2_f3" label="Expressed"/>
+      <facetEntailment facetID="LF_26a2_f4" label="Expressed"/>
+      <facetEntailment facetID="LF_26a2_f5" label="Unaddressed"/>
+      <facetEntailment facetID="LF_26a2_f6" label="Unaddressed"/>
+      <facetEntailment facetID="LF_26a2_f7" label="Expressed"/>
+      <facetEntailment facetID="LF_26a2_f8" label="Unaddressed"/>
+      <facetEntailment facetID="LF_26a2_f9" label="Unaddressed"/>
+      <facetEntailment facetID="LF_26a2_f10" label="Unaddressed"/>
+      <facetEntailment facetID="LF_26a2_f11" label="Unaddressed"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

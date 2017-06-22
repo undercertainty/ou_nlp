@@ -1,0 +1,1025 @@
+<?xml version="1.0"?>
+<question testSet="unseen-questions" id="DESCRIBE_GAP_LOCATE_PROCEDURE_Q" module="FaultFinding" stype="QUESTION" qtype="Q_EXPLAIN_GENERIC">
+  <questionText>Finally, consider finding a burned out light bulb in a long string of lights. One approach would be to place one lead of the multimeter on a battery terminal and then move the other lead systematically, one light bulb terminal at a time. How would you know when you have found the burned out bulb?</questionText>
+  <referenceAnswers>
+    <referenceAnswer category="BEST" id="answer263" fileID="DESCRIBE_GAP_LOCATE_PROCEDURE_Q_ANS1">When there is a change in voltage you have found the damaged bulb</referenceAnswer>
+    <referenceAnswer category="MINIMAL" id="answer265" fileID="DESCRIBE_GAP_LOCATE_PROCEDURE_Q_ANS3">the bulb with non-zero voltage reading between two terminals</referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="FaultFinding-DESCRIBE_GAP_LOCATE_PROCEDURE_Q.sbj3-l1.qa223" accuracy="correct" answerMatch="answer263" raw_text="when the reading of the multimeter changes" count="1">
+      <token id="tok4565" status="ok">when</token>
+      <token id="tok4566" status="ok">the</token>
+      <token id="tok4567" status="ok">reading</token>
+      <token id="tok4568" status="ok">of</token>
+      <token id="tok4569" status="ok">the</token>
+      <token id="tok4570" status="ok">multimeter</token>
+      <token id="tok4571" status="ok">changes</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-DESCRIBE_GAP_LOCATE_PROCEDURE_Q.sbj7-l1.qa212" accuracy="correct" answerMatch="answer263" raw_text="the voltage would change" count="1">
+      <token id="tok3847" status="ok">the</token>
+      <token id="tok3848" status="ok">voltage</token>
+      <token id="tok3849" status="ok">would</token>
+      <token id="tok3850" status="ok">change</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-DESCRIBE_GAP_LOCATE_PROCEDURE_Q.sbj8-l1.qa260" accuracy="contradictory" raw_text="0 v" count="1">
+      <token id="tok5236" status="numerical">0</token>
+      <token id="tok5237" status="numerical">v</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-DESCRIBE_GAP_LOCATE_PROCEDURE_Q.sbj8-l1.qa261" accuracy="contradictory" raw_text="when the meter reads that it has 0 V" count="1">
+      <token id="tok5244" status="ok">when</token>
+      <token id="tok5245" status="ok">the</token>
+      <token id="tok5246" status="ok">meter</token>
+      <token id="tok5247" status="ok">reads</token>
+      <token id="tok5248" status="ok">that</token>
+      <token id="tok5249" status="ok">it</token>
+      <token id="tok5250" status="ok">has</token>
+      <token id="tok5251" status="numerical">0</token>
+      <token id="tok5252" status="numerical">V</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-DESCRIBE_GAP_LOCATE_PROCEDURE_Q.sbj8-l1.qa262" accuracy="correct" answerMatch="answer263" raw_text="there is a change in voltage" count="3">
+      <token id="tok5270" status="ok">there</token>
+      <token id="tok5271" status="ok">is</token>
+      <token id="tok5272" status="ok">a</token>
+      <token id="tok5273" status="ok">change</token>
+      <token id="tok5274" status="ok">in</token>
+      <token id="tok5275" status="ok">voltage</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-DESCRIBE_GAP_LOCATE_PROCEDURE_Q.sbj9-l1.qa219" accuracy="correct" answerMatch="answer263" raw_text="There will be a difference between voltage." count="1">
+      <token id="tok4379" status="ok">There</token>
+      <token id="tok4380" status="ok">will</token>
+      <token id="tok4381" status="ok">be</token>
+      <token id="tok4382" status="ok">a</token>
+      <token id="tok4383" status="ok">difference</token>
+      <token id="tok4384" status="ok">between</token>
+      <token id="tok4385" status="ok">voltage</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-DESCRIBE_GAP_LOCATE_PROCEDURE_Q.sbj9-l1.qa220" accuracy="correct" answerMatch="answer263" raw_text="There will be an electrical state change between two terminals." count="1">
+      <token id="tok4392" status="ok">There</token>
+      <token id="tok4393" status="ok">will</token>
+      <token id="tok4394" status="ok">be</token>
+      <token id="tok4395" status="ok">an</token>
+      <token id="tok4396" status="ok">electrical</token>
+      <token id="tok4397" status="ok">state</token>
+      <token id="tok4398" status="ok">change</token>
+      <token id="tok4399" status="ok">between</token>
+      <token id="tok4400" status="ok">two</token>
+      <token id="tok4401" status="ok">terminals</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-DESCRIBE_GAP_LOCATE_PROCEDURE_Q.sbj9-l1.qa221" accuracy="correct" answerMatch="answer263" raw_text="there will be a change in voltage between two terminals." count="1">
+      <token id="tok4429" status="ok">there</token>
+      <token id="tok4430" status="ok">will</token>
+      <token id="tok4431" status="ok">be</token>
+      <token id="tok4432" status="ok">a</token>
+      <token id="tok4433" status="ok">change</token>
+      <token id="tok4434" status="ok">in</token>
+      <token id="tok4435" status="ok">voltage</token>
+      <token id="tok4436" status="ok">between</token>
+      <token id="tok4437" status="ok">two</token>
+      <token id="tok4438" status="ok">terminals</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-DESCRIBE_GAP_LOCATE_PROCEDURE_Q.sbj10-l1.qa250" accuracy="partially_correct_incomplete" answerMatch="answer263" raw_text="when the multimeter measures 0 volts" count="1">
+      <token id="tok4986" status="ok">when</token>
+      <token id="tok4987" status="ok">the</token>
+      <token id="tok4988" status="ok">multimeter</token>
+      <token id="tok4989" status="ok">measures</token>
+      <token id="tok4990" status="numerical">0</token>
+      <token id="tok4991" status="ok">volts</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-DESCRIBE_GAP_LOCATE_PROCEDURE_Q.sbj11-l1.qa240" accuracy="correct" answerMatch="answer263" raw_text="where the voltage changes" count="1">
+      <token id="tok4413" status="ok">where</token>
+      <token id="tok4414" status="ok">the</token>
+      <token id="tok4415" status="ok">voltage</token>
+      <token id="tok4416" status="ok">changes</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-DESCRIBE_GAP_LOCATE_PROCEDURE_Q.sbj11-l1.qa241" accuracy="correct" answerMatch="answer263" raw_text="there is a change in the voltage." count="1">
+      <token id="tok4427" status="ok">there</token>
+      <token id="tok4428" status="ok">is</token>
+      <token id="tok4429" status="ok">a</token>
+      <token id="tok4430" status="ok">change</token>
+      <token id="tok4431" status="ok">in</token>
+      <token id="tok4432" status="ok">the</token>
+      <token id="tok4433" status="ok">voltage</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-DESCRIBE_GAP_LOCATE_PROCEDURE_Q.sbj12-l1.qa213" accuracy="correct" answerMatch="answer263" raw_text="When the voltage indicates the place where an electrical state changes due to a damaged bulb" count="1">
+      <token id="tok4166" status="ok">When</token>
+      <token id="tok4167" status="ok">the</token>
+      <token id="tok4168" status="ok">voltage</token>
+      <token id="tok4169" status="ok">indicates</token>
+      <token id="tok4170" status="ok">the</token>
+      <token id="tok4171" status="ok">place</token>
+      <token id="tok4172" status="ok">where</token>
+      <token id="tok4173" status="ok">an</token>
+      <token id="tok4174" status="ok">electrical</token>
+      <token id="tok4175" status="ok">state</token>
+      <token id="tok4176" status="ok">changes</token>
+      <token id="tok4177" status="ok">due</token>
+      <token id="tok4178" status="ok">to</token>
+      <token id="tok4179" status="ok">a</token>
+      <token id="tok4180" status="ok">damaged</token>
+      <token id="tok4181" status="ok">bulb</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-DESCRIBE_GAP_LOCATE_PROCEDURE_Q.sbj12-l1.qa214" accuracy="correct" answerMatch="answer265" raw_text="voltage indicates the place where an electrical state changes from non-zero to zero" count="1">
+      <token id="tok4196" status="ok">voltage</token>
+      <token id="tok4197" status="ok">indicates</token>
+      <token id="tok4198" status="ok">the</token>
+      <token id="tok4199" status="ok">place</token>
+      <token id="tok4200" status="ok">where</token>
+      <token id="tok4201" status="ok">an</token>
+      <token id="tok4202" status="ok">electrical</token>
+      <token id="tok4203" status="ok">state</token>
+      <token id="tok4204" status="ok">changes</token>
+      <token id="tok4205" status="ok">from</token>
+      <token id="tok4206" status="ok">non-zero</token>
+      <token id="tok4207" status="ok">to</token>
+      <token id="tok4208" status="ok">zero</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-DESCRIBE_GAP_LOCATE_PROCEDURE_Q.sbj13-l1.qa254" accuracy="contradictory" raw_text="there would be 0.00 v" count="1">
+      <token id="tok5070" status="ok">there</token>
+      <token id="tok5071" status="ok">would</token>
+      <token id="tok5072" status="ok">be</token>
+      <token id="tok5073" status="numerical">0.00</token>
+      <token id="tok5074" status="numerical">v</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-DESCRIBE_GAP_LOCATE_PROCEDURE_Q.sbj13-l1.qa255" accuracy="contradictory" raw_text="there would be a reading of 0.00 v between the positive battery terminal and the bulb terminal." count="1">
+      <token id="tok5081" status="ok">there</token>
+      <token id="tok5082" status="ok">would</token>
+      <token id="tok5083" status="ok">be</token>
+      <token id="tok5084" status="ok">a</token>
+      <token id="tok5085" status="ok">reading</token>
+      <token id="tok5086" status="ok">of</token>
+      <token id="tok5087" status="numerical">0.00</token>
+      <token id="tok5088" status="numerical">v</token>
+      <token id="tok5089" status="ok">between</token>
+      <token id="tok5090" status="ok">the</token>
+      <token id="tok5091" status="ok">positive</token>
+      <token id="tok5092" status="ok">battery</token>
+      <token id="tok5093" status="ok">terminal</token>
+      <token id="tok5094" status="ok">and</token>
+      <token id="tok5095" status="ok">the</token>
+      <token id="tok5096" status="ok">bulb</token>
+      <token id="tok5097" status="ok">terminal</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-DESCRIBE_GAP_LOCATE_PROCEDURE_Q.sbj13-l1.qa256" accuracy="contradictory" answerMatch="answer263" raw_text="there is a change in voltage between the battery terminal and the bulb terminal." count="1">
+      <token id="tok5118" status="ok">there</token>
+      <token id="tok5119" status="ok">is</token>
+      <token id="tok5120" status="ok">a</token>
+      <token id="tok5121" status="ok">change</token>
+      <token id="tok5122" status="ok">in</token>
+      <token id="tok5123" status="ok">voltage</token>
+      <token id="tok5124" status="ok">between</token>
+      <token id="tok5125" status="ok">the</token>
+      <token id="tok5126" status="ok">battery</token>
+      <token id="tok5127" status="ok">terminal</token>
+      <token id="tok5128" status="ok">and</token>
+      <token id="tok5129" status="ok">the</token>
+      <token id="tok5130" status="ok">bulb</token>
+      <token id="tok5131" status="ok">terminal</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-DESCRIBE_GAP_LOCATE_PROCEDURE_Q.sbj14-l1.qa239" accuracy="contradictory" raw_text="when the voltage reads 0.00 v" count="1">
+      <token id="tok4318" status="ok">when</token>
+      <token id="tok4319" status="ok">the</token>
+      <token id="tok4320" status="ok">voltage</token>
+      <token id="tok4321" status="ok">reads</token>
+      <token id="tok4322" status="numerical">0.00</token>
+      <token id="tok4323" status="numerical">v</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-DESCRIBE_GAP_LOCATE_PROCEDURE_Q.sbj14-l1.qa240" accuracy="contradictory" raw_text="0.00 v" count="1">
+      <token id="tok4334" status="numerical">0.00</token>
+      <token id="tok4335" status="numerical">v</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-DESCRIBE_GAP_LOCATE_PROCEDURE_Q.sbj14-l1.qa241" accuracy="contradictory" raw_text="the voltage is 0" count="1">
+      <token id="tok4343" status="ok">the</token>
+      <token id="tok4344" status="ok">voltage</token>
+      <token id="tok4345" status="ok">is</token>
+      <token id="tok4346" status="numerical">0</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-DESCRIBE_GAP_LOCATE_PROCEDURE_Q.sbj15-l1.qa264" accuracy="contradictory" raw_text="because the voltage will be 0" count="1">
+      <token id="tok5208" status="ok">because</token>
+      <token id="tok5209" status="ok">the</token>
+      <token id="tok5210" status="ok">voltage</token>
+      <token id="tok5211" status="ok">will</token>
+      <token id="tok5212" status="ok">be</token>
+      <token id="tok5213" status="numerical">0</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-DESCRIBE_GAP_LOCATE_PROCEDURE_Q.sbj18-l1.qa208" accuracy="correct" answerMatch="answer263" raw_text="When the voltage reading changes from 0 V to 1.5 V" count="1">
+      <token id="tok3888" status="ok">When</token>
+      <token id="tok3889" status="ok">the</token>
+      <token id="tok3890" status="ok">voltage</token>
+      <token id="tok3891" status="ok">reading</token>
+      <token id="tok3892" status="ok">changes</token>
+      <token id="tok3893" status="ok">from</token>
+      <token id="tok3894" status="numerical">0</token>
+      <token id="tok3895" status="numerical">V</token>
+      <token id="tok3896" status="ok">to</token>
+      <token id="tok3897" status="numerical">1.5</token>
+      <token id="tok3898" status="numerical">V</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-DESCRIBE_GAP_LOCATE_PROCEDURE_Q.sbj18-l1.qa209" accuracy="correct" answerMatch="answer263" raw_text="You have found the burned out bulb when the voltage reading changes." count="1">
+      <token id="tok3919" status="ok">You</token>
+      <token id="tok3920" status="ok">have</token>
+      <token id="tok3921" status="ok">found</token>
+      <token id="tok3922" status="ok">the</token>
+      <token id="tok3923" status="ok">burned</token>
+      <token id="tok3924" status="ok">out</token>
+      <token id="tok3925" status="ok">bulb</token>
+      <token id="tok3926" status="ok">when</token>
+      <token id="tok3927" status="ok">the</token>
+      <token id="tok3928" status="ok">voltage</token>
+      <token id="tok3929" status="ok">reading</token>
+      <token id="tok3930" status="ok">changes</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-DESCRIBE_GAP_LOCATE_PROCEDURE_Q.sbj19-l1.qa286" accuracy="partially_correct_incomplete" answerMatch="answer263" raw_text="by measuring the voltage" count="1">
+      <token id="tok5646" status="ok">by</token>
+      <token id="tok5647" status="ok">measuring</token>
+      <token id="tok5648" status="ok">the</token>
+      <token id="tok5649" status="ok">voltage</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-DESCRIBE_GAP_LOCATE_PROCEDURE_Q.sbj19-l1.qa288" accuracy="correct" answerMatch="answer263" raw_text="the voltage will indicate where the electrical state has changed due to the damaged bulb" count="1">
+      <token id="tok5683" status="ok">the</token>
+      <token id="tok5684" status="ok">voltage</token>
+      <token id="tok5685" status="ok">will</token>
+      <token id="tok5686" status="ok">indicate</token>
+      <token id="tok5687" status="ok">where</token>
+      <token id="tok5688" status="ok">the</token>
+      <token id="tok5689" status="ok">electrical</token>
+      <token id="tok5690" status="ok">state</token>
+      <token id="tok5691" status="ok">has</token>
+      <token id="tok5692" status="ok">changed</token>
+      <token id="tok5693" status="ok">due</token>
+      <token id="tok5694" status="ok">to</token>
+      <token id="tok5695" status="ok">the</token>
+      <token id="tok5696" status="ok">damaged</token>
+      <token id="tok5697" status="ok">bulb</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-DESCRIBE_GAP_LOCATE_PROCEDURE_Q.sbj22-l1.qa247" accuracy="irrelevant" raw_text="by testing the voltage" count="1">
+      <token id="tok4881" status="ok">by</token>
+      <token id="tok4882" status="ok">testing</token>
+      <token id="tok4883" status="ok">the</token>
+      <token id="tok4884" status="ok">voltage</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-DESCRIBE_GAP_LOCATE_PROCEDURE_Q.sbj22-l1.qa248" accuracy="irrelevant" raw_text="read the voltage" count="1">
+      <token id="tok4891" status="ok">read</token>
+      <token id="tok4892" status="ok">the</token>
+      <token id="tok4893" status="ok">voltage</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-DESCRIBE_GAP_LOCATE_PROCEDURE_Q.sbj22-l1.qa249" accuracy="non_domain" raw_text="l" count="1">
+      <token id="tok4914" status="nonWord">l</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-DESCRIBE_GAP_LOCATE_PROCEDURE_Q.sbj23-l1.qa214" accuracy="partially_correct_incomplete" answerMatch="answer263" raw_text="You would have a voltage measurement." count="1">
+      <token id="tok4065" status="ok">You</token>
+      <token id="tok4066" status="ok">would</token>
+      <token id="tok4067" status="ok">have</token>
+      <token id="tok4068" status="ok">a</token>
+      <token id="tok4069" status="ok">voltage</token>
+      <token id="tok4070" status="ok">measurement</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-DESCRIBE_GAP_LOCATE_PROCEDURE_Q.sbj23-l1.qa215" accuracy="partially_correct_incomplete" answerMatch="answer263" raw_text="There would be a measurement of voltage." count="1">
+      <token id="tok4093" status="ok">There</token>
+      <token id="tok4094" status="ok">would</token>
+      <token id="tok4095" status="ok">be</token>
+      <token id="tok4096" status="ok">a</token>
+      <token id="tok4097" status="ok">measurement</token>
+      <token id="tok4098" status="ok">of</token>
+      <token id="tok4099" status="ok">voltage</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-DESCRIBE_GAP_LOCATE_PROCEDURE_Q.sbj23-l1.qa216" accuracy="partially_correct_incomplete" answerMatch="answer263" raw_text="There would be a voltage reading where the bulb is burned out." count="1">
+      <token id="tok4107" status="ok">There</token>
+      <token id="tok4108" status="ok">would</token>
+      <token id="tok4109" status="ok">be</token>
+      <token id="tok4110" status="ok">a</token>
+      <token id="tok4111" status="ok">voltage</token>
+      <token id="tok4112" status="ok">reading</token>
+      <token id="tok4113" status="ok">where</token>
+      <token id="tok4114" status="ok">the</token>
+      <token id="tok4115" status="ok">bulb</token>
+      <token id="tok4116" status="ok">is</token>
+      <token id="tok4117" status="ok">burned</token>
+      <token id="tok4118" status="ok">out</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-DESCRIBE_GAP_LOCATE_PROCEDURE_Q.sbj23-l1.qa217" accuracy="correct" answerMatch="answer263" raw_text="There is a change in electrical states." count="1">
+      <token id="tok4136" status="ok">There</token>
+      <token id="tok4137" status="ok">is</token>
+      <token id="tok4138" status="ok">a</token>
+      <token id="tok4139" status="ok">change</token>
+      <token id="tok4140" status="ok">in</token>
+      <token id="tok4141" status="ok">electrical</token>
+      <token id="tok4142" status="ok">states</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-DESCRIBE_GAP_LOCATE_PROCEDURE_Q.sbj24-l1.qa263" accuracy="contradictory" raw_text="reading would be zero" count="1">
+      <token id="tok5571" status="ok">reading</token>
+      <token id="tok5572" status="ok">would</token>
+      <token id="tok5573" status="ok">be</token>
+      <token id="tok5574" status="ok">zero</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-DESCRIBE_GAP_LOCATE_PROCEDURE_Q.sbj24-l1.qa264" accuracy="contradictory" raw_text="voltage would be 0" count="2">
+      <token id="tok5585" status="ok">voltage</token>
+      <token id="tok5586" status="ok">would</token>
+      <token id="tok5587" status="ok">be</token>
+      <token id="tok5588" status="numerical">0</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-DESCRIBE_GAP_LOCATE_PROCEDURE_Q.sbj26-l1.qa263" accuracy="contradictory" raw_text="when the voltage shows 0.00v on the meter" count="1">
+      <token id="tok4978" status="ok">when</token>
+      <token id="tok4979" status="ok">the</token>
+      <token id="tok4980" status="ok">voltage</token>
+      <token id="tok4981" status="ok">shows</token>
+      <token id="tok4982" status="numerical">0.00</token>
+      <token id="tok4983" status="numerical">v</token>
+      <token id="tok4984" status="ok">on</token>
+      <token id="tok4985" status="ok">the</token>
+      <token id="tok4986" status="ok">meter</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-DESCRIBE_GAP_LOCATE_PROCEDURE_Q.sbj26-l1.qa264" accuracy="contradictory" raw_text="when the voltage shows 0 in the meter that is connected to the terminal" count="1">
+      <token id="tok4993" status="ok">when</token>
+      <token id="tok4994" status="ok">the</token>
+      <token id="tok4995" status="ok">voltage</token>
+      <token id="tok4996" status="ok">shows</token>
+      <token id="tok4997" status="numerical">0</token>
+      <token id="tok4998" status="ok">in</token>
+      <token id="tok4999" status="ok">the</token>
+      <token id="tok5000" status="ok">meter</token>
+      <token id="tok5001" status="ok">that</token>
+      <token id="tok5002" status="ok">is</token>
+      <token id="tok5003" status="ok">connected</token>
+      <token id="tok5004" status="ok">to</token>
+      <token id="tok5005" status="ok">the</token>
+      <token id="tok5006" status="ok">terminal</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-DESCRIBE_GAP_LOCATE_PROCEDURE_Q.sbj26-l1.qa265" accuracy="correct" answerMatch="answer263" raw_text="there is a change in voltage on the meter from the terminals" count="1">
+      <token id="tok5036" status="ok">there</token>
+      <token id="tok5037" status="ok">is</token>
+      <token id="tok5038" status="ok">a</token>
+      <token id="tok5039" status="ok">change</token>
+      <token id="tok5040" status="ok">in</token>
+      <token id="tok5041" status="ok">voltage</token>
+      <token id="tok5042" status="ok">on</token>
+      <token id="tok5043" status="ok">the</token>
+      <token id="tok5044" status="ok">meter</token>
+      <token id="tok5045" status="ok">from</token>
+      <token id="tok5046" status="ok">the</token>
+      <token id="tok5047" status="ok">terminals</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-DESCRIBE_GAP_LOCATE_PROCEDURE_Q.sbj27-l1.qa241" accuracy="partially_correct_incomplete" answerMatch="answer263" raw_text="there would be a voltage reading" count="1">
+      <token id="tok4702" status="ok">there</token>
+      <token id="tok4703" status="ok">would</token>
+      <token id="tok4704" status="ok">be</token>
+      <token id="tok4705" status="ok">a</token>
+      <token id="tok4706" status="ok">voltage</token>
+      <token id="tok4707" status="ok">reading</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-DESCRIBE_GAP_LOCATE_PROCEDURE_Q.sbj27-l1.qa242" accuracy="correct" answerMatch="answer265" raw_text="the voltage would not be 0" count="1">
+      <token id="tok4714" status="ok">the</token>
+      <token id="tok4715" status="ok">voltage</token>
+      <token id="tok4716" status="ok">would</token>
+      <token id="tok4717" status="ok">not</token>
+      <token id="tok4718" status="ok">be</token>
+      <token id="tok4719" status="numerical">0</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-DESCRIBE_GAP_LOCATE_PROCEDURE_Q.sbj28-l1.qa240" accuracy="correct" answerMatch="answer263" raw_text="there would be a change in voltage" count="2">
+      <token id="tok4472" status="ok">there</token>
+      <token id="tok4473" status="ok">would</token>
+      <token id="tok4474" status="ok">be</token>
+      <token id="tok4475" status="ok">a</token>
+      <token id="tok4476" status="ok">change</token>
+      <token id="tok4477" status="ok">in</token>
+      <token id="tok4478" status="ok">voltage</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-DESCRIBE_GAP_LOCATE_PROCEDURE_Q.sbj29-l1.qa232" accuracy="contradictory" raw_text="when the multimeter reads a voltage of 0 v" count="1">
+      <token id="tok4250" status="ok">when</token>
+      <token id="tok4251" status="ok">the</token>
+      <token id="tok4252" status="ok">multimeter</token>
+      <token id="tok4253" status="ok">reads</token>
+      <token id="tok4254" status="ok">a</token>
+      <token id="tok4255" status="ok">voltage</token>
+      <token id="tok4256" status="ok">of</token>
+      <token id="tok4257" status="numerical">0</token>
+      <token id="tok4258" status="numerical">v</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-DESCRIBE_GAP_LOCATE_PROCEDURE_Q.sbj29-l1.qa233" accuracy="non_domain" raw_text="dont know" count="1">
+      <token id="tok4269a" status="ok">do</token>
+      <token id="tok4269b" status="pennTokenFragment" original="nt">n't</token>
+      <token id="tok4270" status="ok">know</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-DESCRIBE_GAP_LOCATE_PROCEDURE_Q.sbj29-l1.qa234" accuracy="correct" answerMatch="answer263" raw_text="when the multimeter reads a change in electrical state" count="1">
+      <token id="tok4291" status="ok">when</token>
+      <token id="tok4292" status="ok">the</token>
+      <token id="tok4293" status="ok">multimeter</token>
+      <token id="tok4294" status="ok">reads</token>
+      <token id="tok4295" status="ok">a</token>
+      <token id="tok4296" status="ok">change</token>
+      <token id="tok4297" status="ok">in</token>
+      <token id="tok4298" status="ok">electrical</token>
+      <token id="tok4299" status="ok">state</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-DESCRIBE_GAP_LOCATE_PROCEDURE_Q.sbj29-l1.qa235" accuracy="contradictory" answerMatch="answer263" raw_text="when the multimeter reads a change in voltage to non-zero" count="1">
+      <token id="tok4314" status="ok">when</token>
+      <token id="tok4315" status="ok">the</token>
+      <token id="tok4316" status="ok">multimeter</token>
+      <token id="tok4317" status="ok">reads</token>
+      <token id="tok4318" status="ok">a</token>
+      <token id="tok4319" status="ok">change</token>
+      <token id="tok4320" status="ok">in</token>
+      <token id="tok4321" status="ok">voltage</token>
+      <token id="tok4322" status="ok">to</token>
+      <token id="tok4323" status="ok">non-zero</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-DESCRIBE_GAP_LOCATE_PROCEDURE_Q.sbj30-l1.qa227" accuracy="correct" answerMatch="answer263" raw_text="When there is a difference in voltage." count="2">
+      <token id="tok4558" status="ok">When</token>
+      <token id="tok4559" status="ok">there</token>
+      <token id="tok4560" status="ok">is</token>
+      <token id="tok4561" status="ok">a</token>
+      <token id="tok4562" status="ok">difference</token>
+      <token id="tok4563" status="ok">in</token>
+      <token id="tok4564" status="ok">voltage</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-DESCRIBE_GAP_LOCATE_PROCEDURE_Q.sbj30-l1.qa228" accuracy="correct" answerMatch="answer263" raw_text="When the voltage changes" count="3">
+      <token id="tok4571" status="ok">When</token>
+      <token id="tok4572" status="ok">the</token>
+      <token id="tok4573" status="ok">voltage</token>
+      <token id="tok4574" status="ok">changes</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-DESCRIBE_GAP_LOCATE_PROCEDURE_Q.sbj31-l1.qa234" accuracy="non_domain" raw_text="i dont know" count="3">
+      <token id="tok4295" status="ok">i</token>
+      <token id="tok4296a" status="ok">do</token>
+      <token id="tok4296b" status="pennTokenFragment" original="nt">n't</token>
+      <token id="tok4297" status="ok">know</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-DESCRIBE_GAP_LOCATE_PROCEDURE_Q.sbj33-l1.qa224" accuracy="contradictory" raw_text="it will be the first to have a 0.00 V level" count="1">
+      <token id="tok4254" status="ok">it</token>
+      <token id="tok4255" status="ok">will</token>
+      <token id="tok4256" status="ok">be</token>
+      <token id="tok4257" status="ok">the</token>
+      <token id="tok4258" status="ok">first</token>
+      <token id="tok4259" status="ok">to</token>
+      <token id="tok4260" status="ok">have</token>
+      <token id="tok4261" status="ok">a</token>
+      <token id="tok4262" status="numerical">0.00</token>
+      <token id="tok4263" status="numerical">V</token>
+      <token id="tok4264" status="ok">level</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-DESCRIBE_GAP_LOCATE_PROCEDURE_Q.sbj33-l1.qa225" accuracy="non_domain" raw_text="tell answer" count="1">
+      <token id="tok4276" status="ok">tell</token>
+      <token id="tok4277" status="ok">answer</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-DESCRIBE_GAP_LOCATE_PROCEDURE_Q.sbj35-l1.qa241" accuracy="contradictory" raw_text="Yes." count="1">
+      <token id="tok4756" status="ok">Yes</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-DESCRIBE_GAP_LOCATE_PROCEDURE_Q.sbj35-l1.qa242" accuracy="contradictory" raw_text="If the bulb was off." count="1">
+      <token id="tok4771" status="ok">If</token>
+      <token id="tok4772" status="ok">the</token>
+      <token id="tok4773" status="ok">bulb</token>
+      <token id="tok4774" status="ok">was</token>
+      <token id="tok4775" status="ok">off</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-DESCRIBE_GAP_LOCATE_PROCEDURE_Q.sbj35-l1.qa243" accuracy="contradictory" raw_text="If the bulb indicating a break in the voltage." count="1">
+      <token id="tok4787" status="ok">If</token>
+      <token id="tok4788" status="ok">the</token>
+      <token id="tok4789" status="ok">bulb</token>
+      <token id="tok4790" status="ok">indicating</token>
+      <token id="tok4791" status="ok">a</token>
+      <token id="tok4792" status="ok">break</token>
+      <token id="tok4793" status="ok">in</token>
+      <token id="tok4794" status="ok">the</token>
+      <token id="tok4795" status="ok">voltage</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-DESCRIBE_GAP_LOCATE_PROCEDURE_Q.sbj36-l1.qa245" accuracy="contradictory" answerMatch="answer263" raw_text="when the electrical state changes" count="1">
+      <token id="tok4820" status="ok">when</token>
+      <token id="tok4821" status="ok">the</token>
+      <token id="tok4822" status="ok">electrical</token>
+      <token id="tok4823" status="ok">state</token>
+      <token id="tok4824" status="ok">changes</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-DESCRIBE_GAP_LOCATE_PROCEDURE_Q.sbj37-l1.qa215" accuracy="correct" answerMatch="answer263" raw_text="when the electrical state changed" count="1">
+      <token id="tok4122" status="ok">when</token>
+      <token id="tok4123" status="ok">the</token>
+      <token id="tok4124" status="ok">electrical</token>
+      <token id="tok4125" status="ok">state</token>
+      <token id="tok4126" status="ok">changed</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-DESCRIBE_GAP_LOCATE_PROCEDURE_Q.sbj38-l1.qa219" accuracy="correct" answerMatch="answer265" raw_text="when the multimeter reads a non-zero" count="1">
+      <token id="tok4466" status="ok">when</token>
+      <token id="tok4467" status="ok">the</token>
+      <token id="tok4468" status="ok">multimeter</token>
+      <token id="tok4469" status="ok">reads</token>
+      <token id="tok4470" status="ok">a</token>
+      <token id="tok4471" status="ok">non-zero</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-DESCRIBE_GAP_LOCATE_PROCEDURE_Q.sbj38-l1.qa220" accuracy="correct" answerMatch="answer263" raw_text="When you find the damaged bulb the multimeter will read something other than zero" count="1">
+      <token id="tok4482" status="ok">When</token>
+      <token id="tok4483" status="ok">you</token>
+      <token id="tok4484" status="ok">find</token>
+      <token id="tok4485" status="ok">the</token>
+      <token id="tok4486" status="ok">damaged</token>
+      <token id="tok4487" status="ok">bulb</token>
+      <token id="tok4488" status="ok">the</token>
+      <token id="tok4489" status="ok">multimeter</token>
+      <token id="tok4490" status="ok">will</token>
+      <token id="tok4491" status="ok">read</token>
+      <token id="tok4492" status="ok">something</token>
+      <token id="tok4493" status="ok">other</token>
+      <token id="tok4494" status="ok">than</token>
+      <token id="tok4495" status="ok">zero</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-DESCRIBE_GAP_LOCATE_PROCEDURE_Q.sbj39-l1.qa262" accuracy="correct" answerMatch="answer265" raw_text="when the reading becomes 1.50 V" count="1">
+      <token id="tok5424" status="ok">when</token>
+      <token id="tok5425" status="ok">the</token>
+      <token id="tok5426" status="ok">reading</token>
+      <token id="tok5427" status="ok">becomes</token>
+      <token id="tok5428" status="numerical">1.50</token>
+      <token id="tok5429" status="numerical">V</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-DESCRIBE_GAP_LOCATE_PROCEDURE_Q.sbj39-l1.qa263" accuracy="non_domain" raw_text="?" count="1"/>
+    <studentAnswer id="FaultFinding-DESCRIBE_GAP_LOCATE_PROCEDURE_Q.sbj39-l1.qa264" accuracy="contradictory" answerMatch="answer263" raw_text="the voltage number changes to 0.0 V" count="1">
+      <token id="tok5453" status="ok">the</token>
+      <token id="tok5454" status="ok">voltage</token>
+      <token id="tok5455" status="ok">number</token>
+      <token id="tok5456" status="ok">changes</token>
+      <token id="tok5457" status="ok">to</token>
+      <token id="tok5458" status="numerical">0.0</token>
+      <token id="tok5459" status="numerical">V</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-DESCRIBE_GAP_LOCATE_PROCEDURE_Q.sbj40-l1.qa257" accuracy="contradictory" raw_text="the voltage will be 0." count="1">
+      <token id="tok5086" status="ok">the</token>
+      <token id="tok5087" status="ok">voltage</token>
+      <token id="tok5088" status="ok">will</token>
+      <token id="tok5089" status="ok">be</token>
+      <token id="tok5090" status="numerical">0</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-DESCRIBE_GAP_LOCATE_PROCEDURE_Q.sbj40-l1.qa259" accuracy="non_domain" raw_text="i give up." count="1">
+      <token id="tok5112" status="ok">i</token>
+      <token id="tok5113" status="ok">give</token>
+      <token id="tok5114" status="ok">up</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-DESCRIBE_GAP_LOCATE_PROCEDURE_Q.sbj42-l1.qa250" accuracy="contradictory" raw_text="When the voltage is 0" count="1">
+      <token id="tok4843" status="ok">When</token>
+      <token id="tok4844" status="ok">the</token>
+      <token id="tok4845" status="ok">voltage</token>
+      <token id="tok4846" status="ok">is</token>
+      <token id="tok4847" status="numerical">0</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-DESCRIBE_GAP_LOCATE_PROCEDURE_Q.sbj42-l1.qa251" accuracy="contradictory" raw_text="The bulb has a bad connection" count="1">
+      <token id="tok4854" status="ok">The</token>
+      <token id="tok4855" status="ok">bulb</token>
+      <token id="tok4856" status="ok">has</token>
+      <token id="tok4857" status="ok">a</token>
+      <token id="tok4858" status="ok">bad</token>
+      <token id="tok4859" status="ok">connection</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-DESCRIBE_GAP_LOCATE_PROCEDURE_Q.sbj43-l1.qa230" accuracy="correct" answerMatch="answer263" raw_text="the volts would no longer be at zero" count="1">
+      <token id="tok4453" status="ok">the</token>
+      <token id="tok4454" status="ok">volts</token>
+      <token id="tok4455" status="ok">would</token>
+      <token id="tok4456" status="ok">no</token>
+      <token id="tok4457" status="ok">longer</token>
+      <token id="tok4458" status="ok">be</token>
+      <token id="tok4459" status="ok">at</token>
+      <token id="tok4460" status="ok">zero</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-DESCRIBE_GAP_LOCATE_PROCEDURE_Q.sbj43-l1.qa231" accuracy="contradictory" raw_text="the bulb would work" count="1">
+      <token id="tok4481" status="ok">the</token>
+      <token id="tok4482" status="ok">bulb</token>
+      <token id="tok4483" status="ok">would</token>
+      <token id="tok4484" status="ok">work</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-DESCRIBE_GAP_LOCATE_PROCEDURE_Q.sbj46-l1.qa244" accuracy="contradictory" raw_text="voltage would be 1.5" count="1">
+      <token id="tok4643" status="ok">voltage</token>
+      <token id="tok4644" status="ok">would</token>
+      <token id="tok4645" status="ok">be</token>
+      <token id="tok4646" status="numerical">1.5</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-DESCRIBE_GAP_LOCATE_PROCEDURE_Q.sbj47-l1.qa256" accuracy="contradictory" raw_text="is the voltage is 0.00 V" count="1">
+      <token id="tok5124" status="ok">is</token>
+      <token id="tok5125" status="ok">the</token>
+      <token id="tok5126" status="ok">voltage</token>
+      <token id="tok5127" status="ok">is</token>
+      <token id="tok5128" status="numerical">0.00</token>
+      <token id="tok5129" status="numerical">V</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-DESCRIBE_GAP_LOCATE_PROCEDURE_Q.sbj47-l1.qa257" accuracy="contradictory" raw_text="if the voltage is 0.00 V" count="1">
+      <token id="tok5144" status="ok">if</token>
+      <token id="tok5145" status="ok">the</token>
+      <token id="tok5146" status="ok">voltage</token>
+      <token id="tok5147" status="ok">is</token>
+      <token id="tok5148" status="numerical">0.00</token>
+      <token id="tok5149" status="numerical">V</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-DESCRIBE_GAP_LOCATE_PROCEDURE_Q.sbj48-l1.qa214" accuracy="correct" answerMatch="answer263" raw_text="When the reading jumps from 0 to 1.5 V" count="1">
+      <token id="tok4423" status="ok">When</token>
+      <token id="tok4424" status="ok">the</token>
+      <token id="tok4425" status="ok">reading</token>
+      <token id="tok4426" status="ok">jumps</token>
+      <token id="tok4427" status="ok">from</token>
+      <token id="tok4428" status="numerical">0</token>
+      <token id="tok4429" status="ok">to</token>
+      <token id="tok4430" status="numerical">1.5</token>
+      <token id="tok4431" status="numerical">V</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-DESCRIBE_GAP_LOCATE_PROCEDURE_Q.sbj48-l1.qa215" accuracy="partially_correct_incomplete" answerMatch="answer265" raw_text="When the reading on the multimeter is not 0." count="1">
+      <token id="tok4445" status="ok">When</token>
+      <token id="tok4446" status="ok">the</token>
+      <token id="tok4447" status="ok">reading</token>
+      <token id="tok4448" status="ok">on</token>
+      <token id="tok4449" status="ok">the</token>
+      <token id="tok4450" status="ok">multimeter</token>
+      <token id="tok4451" status="ok">is</token>
+      <token id="tok4452" status="ok">not</token>
+      <token id="tok4453" status="numerical">0</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-DESCRIBE_GAP_LOCATE_PROCEDURE_Q.sbj48-l1.qa216" accuracy="correct" answerMatch="answer263" raw_text="When there is a change in the voltage" count="1">
+      <token id="tok4481" status="ok">When</token>
+      <token id="tok4482" status="ok">there</token>
+      <token id="tok4483" status="ok">is</token>
+      <token id="tok4484" status="ok">a</token>
+      <token id="tok4485" status="ok">change</token>
+      <token id="tok4486" status="ok">in</token>
+      <token id="tok4487" status="ok">the</token>
+      <token id="tok4488" status="ok">voltage</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-DESCRIBE_GAP_LOCATE_PROCEDURE_Q.sbjb1-l1.qa188" accuracy="contradictory" answerMatch="answer263" raw_text="When you receive a meter reading of 0 volts." count="1">
+      <token id="tok3969" status="ok">When</token>
+      <token id="tok3970" status="ok">you</token>
+      <token id="tok3971" status="ok">receive</token>
+      <token id="tok3972" status="ok">a</token>
+      <token id="tok3973" status="ok">meter</token>
+      <token id="tok3974" status="ok">reading</token>
+      <token id="tok3975" status="ok">of</token>
+      <token id="tok3976" status="numerical">0</token>
+      <token id="tok3977" status="ok">volts</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-DESCRIBE_GAP_LOCATE_PROCEDURE_Q.sbjb2-l1.qa192" accuracy="contradictory" raw_text="The voltage reading will be 0." count="1">
+      <token id="tok3799" status="ok">The</token>
+      <token id="tok3800" status="ok">voltage</token>
+      <token id="tok3801" status="ok">reading</token>
+      <token id="tok3802" status="ok">will</token>
+      <token id="tok3803" status="ok">be</token>
+      <token id="tok3804" status="numerical">0</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-DESCRIBE_GAP_LOCATE_PROCEDURE_Q.sbjb3-l1.qa204" accuracy="contradictory" raw_text="It wont light up?" count="1">
+      <token id="tok3905" status="ok">It</token>
+      <token id="tok3906a" status="stem">wo</token>
+      <token id="tok3906b" status="pennTokenFragment" original="nt">n't</token>
+      <token id="tok3907" status="ok">light</token>
+      <token id="tok3908" status="ok">up</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-DESCRIBE_GAP_LOCATE_PROCEDURE_Q.sbjb4-l1.qa183" accuracy="correct" answerMatch="answer265" raw_text="when the multimeter reads a voltage other than 0v." count="1">
+      <token id="tok3746" status="ok">when</token>
+      <token id="tok3747" status="ok">the</token>
+      <token id="tok3748" status="ok">multimeter</token>
+      <token id="tok3749" status="ok">reads</token>
+      <token id="tok3750" status="ok">a</token>
+      <token id="tok3751" status="ok">voltage</token>
+      <token id="tok3752" status="ok">other</token>
+      <token id="tok3753" status="ok">than</token>
+      <token id="tok3754a" status="numerical">0</token>
+      <token id="tok3754b" status="numerical">v</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-DESCRIBE_GAP_LOCATE_PROCEDURE_Q.sbjb5-l1.qa191" accuracy="correct" answerMatch="answer265" raw_text="the reading on the voltmeter would no longer b3 0.0 volts" count="1">
+      <token id="tok3978" status="ok">the</token>
+      <token id="tok3979" status="ok">reading</token>
+      <token id="tok3980" status="ok">on</token>
+      <token id="tok3981" status="ok">the</token>
+      <token id="tok3982" status="nonWord">voltmeter</token>
+      <token id="tok3983" status="ok">would</token>
+      <token id="tok3984" status="ok">no</token>
+      <token id="tok3985" status="ok">longer</token>
+      <token id="tok3986" status="ok" original="b3">be</token>
+      <token id="tok3987" status="numerical">0.0</token>
+      <token id="tok3988" status="ok">volts</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-DESCRIBE_GAP_LOCATE_PROCEDURE_Q.sbjb6-l1.qa184" accuracy="correct" answerMatch="answer263" raw_text="When the voltage changes from 0 to 1.5" count="1">
+      <token id="tok3779" status="ok">When</token>
+      <token id="tok3780" status="ok">the</token>
+      <token id="tok3781" status="ok">voltage</token>
+      <token id="tok3782" status="ok">changes</token>
+      <token id="tok3783" status="ok">from</token>
+      <token id="tok3784" status="numerical">0</token>
+      <token id="tok3785" status="ok">to</token>
+      <token id="tok3786" status="numerical">1.5</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-DESCRIBE_GAP_LOCATE_PROCEDURE_Q.sbjb7-l1.qa181" accuracy="correct" answerMatch="answer265" raw_text="When the voltage is greater than 0" count="1">
+      <token id="tok3702" status="ok">When</token>
+      <token id="tok3703" status="ok">the</token>
+      <token id="tok3704" status="ok">voltage</token>
+      <token id="tok3705" status="ok">is</token>
+      <token id="tok3706" status="ok">greater</token>
+      <token id="tok3707" status="ok">than</token>
+      <token id="tok3708" status="numerical">0</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-DESCRIBE_GAP_LOCATE_PROCEDURE_Q.sbjb9-l1.qa197" accuracy="contradictory" answerMatch="answer263" raw_text="The meter will show a difference in voltage between the battery terminal and the light bulb terminal." count="1">
+      <token id="tok4031" status="ok">The</token>
+      <token id="tok4032" status="ok">meter</token>
+      <token id="tok4033" status="ok">will</token>
+      <token id="tok4034" status="ok">show</token>
+      <token id="tok4035" status="ok">a</token>
+      <token id="tok4036" status="ok">difference</token>
+      <token id="tok4037" status="ok">in</token>
+      <token id="tok4038" status="ok">voltage</token>
+      <token id="tok4039" status="ok">between</token>
+      <token id="tok4040" status="ok">the</token>
+      <token id="tok4041" status="ok">battery</token>
+      <token id="tok4042" status="ok">terminal</token>
+      <token id="tok4043" status="ok">and</token>
+      <token id="tok4044" status="ok">the</token>
+      <token id="tok4045" status="ok">light</token>
+      <token id="tok4046" status="ok">bulb</token>
+      <token id="tok4047" status="ok">terminal</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-DESCRIBE_GAP_LOCATE_PROCEDURE_Q.sbjb10-l1.qa181" accuracy="correct" answerMatch="answer263" raw_text="when the multimeter jumps from 0 to 1.5 volts" count="1">
+      <token id="tok3767" status="ok">when</token>
+      <token id="tok3768" status="ok">the</token>
+      <token id="tok3769" status="ok">multimeter</token>
+      <token id="tok3770" status="ok">jumps</token>
+      <token id="tok3771" status="ok">from</token>
+      <token id="tok3772" status="numerical">0</token>
+      <token id="tok3773" status="ok">to</token>
+      <token id="tok3774" status="numerical">1.5</token>
+      <token id="tok3775" status="ok">volts</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-DESCRIBE_GAP_LOCATE_PROCEDURE_Q.sbjb11-l1.qa187" accuracy="correct" answerMatch="answer263" raw_text="When there is a change in voltage meter" count="1">
+      <token id="tok3907" status="ok">When</token>
+      <token id="tok3908" status="ok">there</token>
+      <token id="tok3909" status="ok">is</token>
+      <token id="tok3910" status="ok">a</token>
+      <token id="tok3911" status="ok">change</token>
+      <token id="tok3912" status="ok">in</token>
+      <token id="tok3913" status="ok">voltage</token>
+      <token id="tok3914" status="ok">meter</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-DESCRIBE_GAP_LOCATE_PROCEDURE_Q.sbjb12-l1.qa187" accuracy="correct" answerMatch="answer263" raw_text="when the voltage measures 1.5 volts" count="1">
+      <token id="tok3794" status="ok">when</token>
+      <token id="tok3795" status="ok">the</token>
+      <token id="tok3796" status="ok">voltage</token>
+      <token id="tok3797" status="ok">measures</token>
+      <token id="tok3798" status="numerical">1.5</token>
+      <token id="tok3799" status="ok">volts</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-DESCRIBE_GAP_LOCATE_PROCEDURE_Q.sbjb13-l1.qa183" accuracy="contradictory" answerMatch="answer263" raw_text="When the voltage changes from 1.5 to 0.0." count="1">
+      <token id="tok3805" status="ok">When</token>
+      <token id="tok3806" status="ok">the</token>
+      <token id="tok3807" status="ok">voltage</token>
+      <token id="tok3808" status="ok">changes</token>
+      <token id="tok3809" status="ok">from</token>
+      <token id="tok3810" status="numerical">1.5</token>
+      <token id="tok3811" status="ok">to</token>
+      <token id="tok3812" status="numerical">0.0</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-DESCRIBE_GAP_LOCATE_PROCEDURE_Q.sbjb15-l1.qa183" accuracy="contradictory" raw_text="when you find voltage" count="1">
+      <token id="tok3718" status="ok">when</token>
+      <token id="tok3719" status="ok">you</token>
+      <token id="tok3720" status="ok">find</token>
+      <token id="tok3721" status="ok">voltage</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-DESCRIBE_GAP_LOCATE_PROCEDURE_Q.sbjb16-l1.qa183" accuracy="correct" answerMatch="answer263" raw_text="the voltage would vary" count="1">
+      <token id="tok3819" status="ok">the</token>
+      <token id="tok3820" status="ok">voltage</token>
+      <token id="tok3821" status="ok">would</token>
+      <token id="tok3822" status="ok">vary</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-DESCRIBE_GAP_LOCATE_PROCEDURE_Q.sbjb17-l1.qa185" accuracy="contradictory" answerMatch="answer263" raw_text="When you register a voltage" count="1">
+      <token id="tok3855" status="ok">When</token>
+      <token id="tok3856" status="ok">you</token>
+      <token id="tok3857" status="ok">register</token>
+      <token id="tok3858" status="ok">a</token>
+      <token id="tok3859" status="ok">voltage</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-DESCRIBE_GAP_LOCATE_PROCEDURE_Q.sbjb18-l1.qa194" accuracy="non_domain" raw_text="idk" count="1">
+      <token id="tok3833" status="nonWord">idk</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-DESCRIBE_GAP_LOCATE_PROCEDURE_Q.sbjb19-l1.qa186" accuracy="partially_correct_incomplete" answerMatch="answer263" raw_text="when you find the terminal that is not connected" count="1">
+      <token id="tok3844" status="ok">when</token>
+      <token id="tok3845" status="ok">you</token>
+      <token id="tok3846" status="ok">find</token>
+      <token id="tok3847" status="ok">the</token>
+      <token id="tok3848" status="ok">terminal</token>
+      <token id="tok3849" status="ok">that</token>
+      <token id="tok3850" status="ok">is</token>
+      <token id="tok3851" status="ok">not</token>
+      <token id="tok3852" status="ok">connected</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-DESCRIBE_GAP_LOCATE_PROCEDURE_Q.sbjb20-l1.qa194" accuracy="contradictory" raw_text="Where there is a 0.0 voltage." count="1">
+      <token id="tok3970" status="ok">Where</token>
+      <token id="tok3971" status="ok">there</token>
+      <token id="tok3972" status="ok">is</token>
+      <token id="tok3973" status="ok">a</token>
+      <token id="tok3974" status="numerical">0.0</token>
+      <token id="tok3975" status="ok">voltage</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-DESCRIBE_GAP_LOCATE_PROCEDURE_Q.sbjb21-l1.qa182" accuracy="correct" answerMatch="answer263" raw_text="the voltage will change" count="1">
+      <token id="tok3615" status="ok">the</token>
+      <token id="tok3616" status="ok">voltage</token>
+      <token id="tok3617" status="ok">will</token>
+      <token id="tok3618" status="ok">change</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-DESCRIBE_GAP_LOCATE_PROCEDURE_Q.sbjb22-l1.qa192" accuracy="contradictory" raw_text="it has no voltage" count="1">
+      <token id="tok3887" status="ok">it</token>
+      <token id="tok3888" status="ok">has</token>
+      <token id="tok3889" status="ok">no</token>
+      <token id="tok3890" status="ok">voltage</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-DESCRIBE_GAP_LOCATE_PROCEDURE_Q.sbjb24-l1.qa189" accuracy="contradictory" raw_text="when it reads 0" count="1">
+      <token id="tok3677" status="ok">when</token>
+      <token id="tok3678" status="ok">it</token>
+      <token id="tok3679" status="ok">reads</token>
+      <token id="tok3680" status="numerical">0</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-DESCRIBE_GAP_LOCATE_PROCEDURE_Q.sbjb25-l1.qa186" accuracy="contradictory" raw_text="You will get a reading of 0.00 voltage." count="1">
+      <token id="tok3818" status="ok">You</token>
+      <token id="tok3819" status="ok">will</token>
+      <token id="tok3820" status="ok">get</token>
+      <token id="tok3821" status="ok">a</token>
+      <token id="tok3822" status="ok">reading</token>
+      <token id="tok3823" status="ok">of</token>
+      <token id="tok3824" status="numerical">0.00</token>
+      <token id="tok3825" status="ok">voltage</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-DESCRIBE_GAP_LOCATE_PROCEDURE_Q.sbjb26-l1.qa182" accuracy="correct" answerMatch="answer263" raw_text="When I observe a change in the voltage." count="1">
+      <token id="tok3853" status="ok">When</token>
+      <token id="tok3854" status="ok">I</token>
+      <token id="tok3855" status="ok">observe</token>
+      <token id="tok3856" status="ok">a</token>
+      <token id="tok3857" status="ok">change</token>
+      <token id="tok3858" status="ok">in</token>
+      <token id="tok3859" status="ok">the</token>
+      <token id="tok3860" status="ok">voltage</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-DESCRIBE_GAP_LOCATE_PROCEDURE_Q.sbjb27-l1.qa181" accuracy="correct" answerMatch="answer265" raw_text="when the multimeter shows a difference in volts between the two terminals" count="1">
+      <token id="tok3819" status="ok">when</token>
+      <token id="tok3820" status="ok">the</token>
+      <token id="tok3821" status="ok">multimeter</token>
+      <token id="tok3822" status="ok">shows</token>
+      <token id="tok3823" status="ok">a</token>
+      <token id="tok3824" status="ok">difference</token>
+      <token id="tok3825" status="ok">in</token>
+      <token id="tok3826" status="ok">volts</token>
+      <token id="tok3827" status="ok">between</token>
+      <token id="tok3828" status="ok">the</token>
+      <token id="tok3829" status="ok">two</token>
+      <token id="tok3830" status="ok">terminals</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-DESCRIBE_GAP_LOCATE_PROCEDURE_Q.sbjb28-l1.qa186" accuracy="partially_correct_incomplete" answerMatch="answer263" raw_text="when you have a charge other than 0 V" count="1">
+      <token id="tok3715" status="ok">when</token>
+      <token id="tok3716" status="ok">you</token>
+      <token id="tok3717" status="ok">have</token>
+      <token id="tok3718" status="ok">a</token>
+      <token id="tok3719" status="ok">charge</token>
+      <token id="tok3720" status="ok">other</token>
+      <token id="tok3721" status="ok">than</token>
+      <token id="tok3722" status="numerical">0</token>
+      <token id="tok3723" status="numerical">V</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-DESCRIBE_GAP_LOCATE_PROCEDURE_Q.sbjb29-l1.qa185" accuracy="correct" answerMatch="answer263" raw_text="when the voltages changes to zero at a specific terminal" count="1">
+      <token id="tok3887" status="ok">when</token>
+      <token id="tok3888" status="ok">the</token>
+      <token id="tok3889" status="ok">voltages</token>
+      <token id="tok3890" status="ok">changes</token>
+      <token id="tok3891" status="ok">to</token>
+      <token id="tok3892" status="ok">zero</token>
+      <token id="tok3893" status="ok">at</token>
+      <token id="tok3894" status="ok">a</token>
+      <token id="tok3895" status="ok">specific</token>
+      <token id="tok3896" status="ok">terminal</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-DESCRIBE_GAP_LOCATE_PROCEDURE_Q.sbjb30-l1.qa188" accuracy="correct" answerMatch="answer263" raw_text="the voltage would change, showing a gap where the burned out bulb is." count="1">
+      <token id="tok4053" status="ok">the</token>
+      <token id="tok4054" status="ok">voltage</token>
+      <token id="tok4055" status="ok">would</token>
+      <token id="tok4056" status="ok">change</token>
+      <token id="tok4057" status="ok">showing</token>
+      <token id="tok4058" status="ok">a</token>
+      <token id="tok4059" status="ok">gap</token>
+      <token id="tok4060" status="ok">where</token>
+      <token id="tok4061" status="ok">the</token>
+      <token id="tok4062" status="ok">burned</token>
+      <token id="tok4063" status="ok">out</token>
+      <token id="tok4064" status="ok">bulb</token>
+      <token id="tok4065" status="ok">is</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-DESCRIBE_GAP_LOCATE_PROCEDURE_Q.sbjb32-l1.qa185" accuracy="contradictory" raw_text="When the voltage changes to 0." count="1">
+      <token id="tok3817" status="ok">When</token>
+      <token id="tok3818" status="ok">the</token>
+      <token id="tok3819" status="ok">voltage</token>
+      <token id="tok3820" status="ok">changes</token>
+      <token id="tok3821" status="ok">to</token>
+      <token id="tok3822" status="numerical">0</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-DESCRIBE_GAP_LOCATE_PROCEDURE_Q.sbjb34-l1.qa181" accuracy="contradictory" answerMatch="answer263" raw_text="When the voltage jumps from 1.5 to 0." count="1">
+      <token id="tok3836" status="ok">When</token>
+      <token id="tok3837" status="ok">the</token>
+      <token id="tok3838" status="ok">voltage</token>
+      <token id="tok3839" status="ok">jumps</token>
+      <token id="tok3840" status="ok">from</token>
+      <token id="tok3841" status="numerical">1.5</token>
+      <token id="tok3842" status="ok">to</token>
+      <token id="tok3843" status="numerical">0</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-DESCRIBE_GAP_LOCATE_PROCEDURE_Q.sbjb35-l1.qa183" accuracy="contradictory" answerMatch="answer265" raw_text="When the meter has a voltage reading other than 0." count="1">
+      <token id="tok3940" status="ok">When</token>
+      <token id="tok3941" status="ok">the</token>
+      <token id="tok3942" status="ok">meter</token>
+      <token id="tok3943" status="ok">has</token>
+      <token id="tok3944" status="ok">a</token>
+      <token id="tok3945" status="ok">voltage</token>
+      <token id="tok3946" status="ok">reading</token>
+      <token id="tok3947" status="ok">other</token>
+      <token id="tok3948" status="ok">than</token>
+      <token id="tok3949" status="numerical">0</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-DESCRIBE_GAP_LOCATE_PROCEDURE_Q.sbjb36-l1.qa181" accuracy="contradictory" answerMatch="answer263" raw_text="depeneding on if you hook the meter to the positive or negative side it would change to either have volts or not where ever the change is shows where the damaged bulb is." count="1">
+      <token id="tok3976" status="ok" original="depeneding">depending</token>
+      <token id="tok3977" status="ok">on</token>
+      <token id="tok3978" status="ok">if</token>
+      <token id="tok3979" status="ok">you</token>
+      <token id="tok3980" status="ok">hook</token>
+      <token id="tok3981" status="ok">the</token>
+      <token id="tok3982" status="ok">meter</token>
+      <token id="tok3983" status="ok">to</token>
+      <token id="tok3984" status="ok">the</token>
+      <token id="tok3985" status="ok">positive</token>
+      <token id="tok3986" status="ok">or</token>
+      <token id="tok3987" status="ok">negative</token>
+      <token id="tok3988" status="ok">side</token>
+      <token id="tok3989" status="ok">it</token>
+      <token id="tok3990" status="ok">would</token>
+      <token id="tok3991" status="ok">change</token>
+      <token id="tok3992" status="ok">to</token>
+      <token id="tok3993" status="ok">either</token>
+      <token id="tok3994" status="ok">have</token>
+      <token id="tok3995" status="ok">volts</token>
+      <token id="tok3996" status="ok">or</token>
+      <token id="tok3997" status="ok">not</token>
+      <token id="tok3998+" status="ok" original="whereever">wherever</token>
+      <token id="tok4000" status="ok">the</token>
+      <token id="tok4001" status="ok">change</token>
+      <token id="tok4002" status="ok">is</token>
+      <token id="tok4003" status="ok">shows</token>
+      <token id="tok4004" status="ok">where</token>
+      <token id="tok4005" status="ok">the</token>
+      <token id="tok4006" status="ok">damaged</token>
+      <token id="tok4007" status="ok">bulb</token>
+      <token id="tok4008" status="ok">is</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-DESCRIBE_GAP_LOCATE_PROCEDURE_Q.sbjb37-l1.qa181" accuracy="contradictory" answerMatch="answer263" raw_text="The meter will read 0 volts" count="1">
+      <token id="tok3747" status="ok">The</token>
+      <token id="tok3748" status="ok">meter</token>
+      <token id="tok3749" status="ok">will</token>
+      <token id="tok3750" status="ok">read</token>
+      <token id="tok3751" status="numerical">0</token>
+      <token id="tok3752" status="ok">volts</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-DESCRIBE_GAP_LOCATE_PROCEDURE_Q.sbjb38-l1.qa182" accuracy="contradictory" answerMatch="answer265" raw_text="Voltage will be indicated on the voltmeter." count="1">
+      <token id="tok3716" status="ok">Voltage</token>
+      <token id="tok3717" status="ok">will</token>
+      <token id="tok3718" status="ok">be</token>
+      <token id="tok3719" status="ok">indicated</token>
+      <token id="tok3720" status="ok">on</token>
+      <token id="tok3721" status="ok">the</token>
+      <token id="tok3722" status="ok">voltmeter</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-DESCRIBE_GAP_LOCATE_PROCEDURE_Q.sbjb39-l1.qa184" accuracy="correct" answerMatch="answer263" raw_text="When the voltage changes." count="1">
+      <token id="tok3868" status="ok">When</token>
+      <token id="tok3869" status="ok">the</token>
+      <token id="tok3870" status="ok">voltage</token>
+      <token id="tok3871" status="ok">changes</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-DESCRIBE_GAP_LOCATE_PROCEDURE_Q.sbjb40-l1.qa182" accuracy="correct" answerMatch="answer263" raw_text="the burned out light bulb would be when there is a difference inthe electrical states." count="1">
+      <token id="tok3826" status="ok">the</token>
+      <token id="tok3827" status="ok">burned</token>
+      <token id="tok3828" status="ok">out</token>
+      <token id="tok3829" status="ok">light</token>
+      <token id="tok3830" status="ok">bulb</token>
+      <token id="tok3831" status="ok">would</token>
+      <token id="tok3832" status="ok">be</token>
+      <token id="tok3833" status="ok">when</token>
+      <token id="tok3834" status="ok">there</token>
+      <token id="tok3835" status="ok">is</token>
+      <token id="tok3836" status="ok">a</token>
+      <token id="tok3837" status="ok">difference</token>
+      <token id="tok3838a" status="ok">in</token>
+      <token id="tok3838b" status="ok">the</token>
+      <token id="tok3839" status="ok">electrical</token>
+      <token id="tok3840" status="ok">states</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-DESCRIBE_GAP_LOCATE_PROCEDURE_Q.sbjb41-l1.qa184" accuracy="contradictory" answerMatch="answer263" raw_text="The voltage would be 0" count="1">
+      <token id="tok4097" status="ok">The</token>
+      <token id="tok4098" status="ok">voltage</token>
+      <token id="tok4099" status="ok">would</token>
+      <token id="tok4100" status="ok">be</token>
+      <token id="tok4101" status="numerical">0</token>
+    </studentAnswer>
+    <studentAnswer id="FaultFinding-DESCRIBE_GAP_LOCATE_PROCEDURE_Q.sbjb42-l1.qa184" accuracy="correct" answerMatch="answer263" raw_text="when the voltage is greater than zero, or when the electrical state has changed." count="1">
+      <token id="tok3883" status="ok">when</token>
+      <token id="tok3884" status="ok">the</token>
+      <token id="tok3885" status="ok">voltage</token>
+      <token id="tok3886" status="ok">is</token>
+      <token id="tok3887" status="ok">greater</token>
+      <token id="tok3888" status="ok">than</token>
+      <token id="tok3889" status="ok">zero</token>
+      <token id="tok3890" status="ok">or</token>
+      <token id="tok3891" status="ok">when</token>
+      <token id="tok3892" status="ok">the</token>
+      <token id="tok3893" status="ok">electrical</token>
+      <token id="tok3894" status="ok">state</token>
+      <token id="tok3895" status="ok">has</token>
+      <token id="tok3896" status="ok">changed</token>
+    </studentAnswer>
+  </studentAnswers>
+</question>

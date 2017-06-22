@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<question testSet="unseen-answers" id="MX_22a" module="MX">
+  <questionText>A solution is a type of mixture. What makes it different from other mixtures?</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="MX_22a-a1" text="A solution is a mixture formed when a solid dissolves in a liquid.">
+      <tokens>
+        <token id="MX_22a_ra1">A</token>
+        <token id="MX_22a_ra2">solution</token>
+        <token id="MX_22a_ra3">is</token>
+        <token id="MX_22a_ra4">a</token>
+        <token id="MX_22a_ra5">mixture</token>
+        <token id="MX_22a_ra6">formed</token>
+        <token id="MX_22a_ra7">when</token>
+        <token id="MX_22a_ra8">a</token>
+        <token id="MX_22a_ra9">solid</token>
+        <token id="MX_22a_ra10">dissolves</token>
+        <token id="MX_22a_ra11">in</token>
+        <token id="MX_22a_ra12">a</token>
+        <token id="MX_22a_ra13">liquid</token>
+        <token id="MX_22a_ra14">.</token>
+      </tokens>
+      <facets>
+        <facet id="MX_22a_f1" govNum="MX_22a_ra2" modNum="MX_22a_ra5" reltn="Be" govText="solution" isAssumed="true" modText="mixture"/>
+        <facet id="MX_22a_f2" govNum="MX_22a_ra6" modNum="MX_22a_ra2" reltn="Product" govText="formed" modText="solution"/>
+        <facet id="MX_22a_f3" govNum="MX_22a_ra10" modNum="MX_22a_ra9" reltn="Patient" govText="dissolves" modText="solid"/>
+        <facet id="MX_22a_f4" govNum="MX_22a_ra10" modNum="MX_22a_ra13" reltn="Location_in" govText="dissolves" modText="liquid"/>
+        <facet id="MX_22a_f5" govNum="MX_22a_ra6" modNum="MX_22a_ra10" reltn="Cause_when" childProp2Facet2="MX_22a_f4" childProp1Facet1="MX_22a_f2" govText="formed" modText="dissolves" childProp2Facet1="MX_22a_f3"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="MX.22a.433.1" answerText="Because a solution is something you use in a everyday life, and mixture is something we do not always use." accuracy="irrelevant">
+      <facetEntailment facetID="MX_22a_f1" label="Contra-Expr"/>
+      <facetEntailment facetID="MX_22a_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MX_22a_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_22a_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MX_22a_f5" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.22a.467.1" answerText="A solution is a mixture that cannot be taken apart." accuracy="irrelevant">
+      <facetEntailment facetID="MX_22a_f1" label="Expressed"/>
+      <facetEntailment facetID="MX_22a_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MX_22a_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_22a_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MX_22a_f5" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.22a.541.1" answerText="Different items." accuracy="irrelevant">
+      <facetEntailment facetID="MX_22a_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_22a_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MX_22a_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_22a_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MX_22a_f5" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.22a.565.1" answerText="A mixture is 2 thing put together, a solution is one thing that disperses into the so that the first material cannot be seen." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="MX_22a_f1" label="Contra-Infr"/>
+      <facetEntailment facetID="MX_22a_f2" label="Inferred"/>
+      <facetEntailment facetID="MX_22a_f3" label="Inferred"/>
+      <facetEntailment facetID="MX_22a_f4" label="Inferred"/>
+      <facetEntailment facetID="MX_22a_f5" label="Inferred"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

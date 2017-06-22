@@ -1,0 +1,453 @@
+<?xml version="1.0"?>
+<question testSet="unseen-questions" id="ME_74b" module="ME">
+  <questionText>The machine you see in the picture is used to load steel beams onto delivery trucks. If there are no hooks or ropes that attach the steel beams to the lifting machine, how is it possible to move the steel beams onto the trucks? How is the machine able to drop the beams onto the truck?</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="ME_74b-a1" text="When the electricity is turned off, the magnetism stops and the machine drops the beam onto the delivery truck.">
+      <tokens>
+        <token id="ME_74b_ra1">When</token>
+        <token id="ME_74b_ra2">the</token>
+        <token id="ME_74b_ra3">electricity</token>
+        <token id="ME_74b_ra4">is</token>
+        <token id="ME_74b_ra5">turned</token>
+        <token id="ME_74b_ra6">off</token>
+        <token id="ME_74b_ra7">,</token>
+        <token id="ME_74b_ra8">the</token>
+        <token id="ME_74b_ra9">magnetism</token>
+        <token id="ME_74b_ra10">stops</token>
+        <token id="ME_74b_ra11">and</token>
+        <token id="ME_74b_ra12">the</token>
+        <token id="ME_74b_ra13">machine</token>
+        <token id="ME_74b_ra14">drops</token>
+        <token id="ME_74b_ra15">the</token>
+        <token id="ME_74b_ra16">beam</token>
+        <token id="ME_74b_ra17">onto</token>
+        <token id="ME_74b_ra18">the</token>
+        <token id="ME_74b_ra19">delivery</token>
+        <token id="ME_74b_ra20">truck</token>
+        <token id="ME_74b_ra21">.</token>
+      </tokens>
+      <facets>
+        <facet id="ME_74b_f1" govNum="ME_74b_ra5" modNum="ME_74b_ra3" reltn="Patient" govText="turned off" modText="electricity"/>
+        <facet id="ME_74b_f2" govNum="ME_74b_ra10" modNum="ME_74b_ra9" reltn="Theme" govText="stops" modText="magnetism"/>
+        <facet id="ME_74b_f3" govNum="ME_74b_ra10" modNum="ME_74b_ra5" reltn="Cause_when" childProp1Facet1="ME_74b_f2" govText="stops" modText="turned off" childProp2Facet1="ME_74b_f1"/>
+        <facet id="ME_74b_f4" govNum="ME_74b_ra14" modNum="ME_74b_ra13" reltn="Means" govText="drops" isAssumed="true" modText="machine"/>
+        <facet id="ME_74b_f5" govNum="ME_74b_ra14" modNum="ME_74b_ra16" reltn="Theme" govText="drops" isAssumed="true" modText="beam"/>
+        <facet id="ME_74b_f6" govNum="ME_74b_ra14" modNum="ME_74b_ra20" reltn="Destination_onto" govText="drops" isAssumed="true" modText="truck"/>
+        <facet id="ME_74b_f7" govNum="ME_74b_ra20" modNum="ME_74b_ra19" reltn="NMod" govText="truck" isAssumed="true" modText="delivery"/>
+        <facet id="ME_74b_f8" govNum="ME_74b_ra14" modNum="ME_74b_ra10" reltn="Cause_and" childProp1Facet1="ME_74b_f4" govText="drops" isAssumed="true" childProp1Facet2="ME_74b_f5" modText="stops" childProp2Facet1="ME_74b_f2"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="ME.74b.101.1" answerText="It is able to because you have opposable thumbs." accuracy="irrelevant">
+      <facetEntailment facetID="ME_74b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="ME_74b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ME_74b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_74b_f4" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f5" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f6" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f7" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.74b.105.1" answerText="The machines probably has a sensor that tells it when to drop the beam." accuracy="irrelevant">
+      <facetEntailment facetID="ME_74b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="ME_74b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ME_74b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_74b_f4" label="Expressed"/>
+      <facetEntailment facetID="ME_74b_f5" label="Expressed"/>
+      <facetEntailment facetID="ME_74b_f6" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f7" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.74b.107.1" answerText="There is switch to turn it on and off." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="ME_74b_f1" label="Inferred"/>
+      <facetEntailment facetID="ME_74b_f2" label="Inferred"/>
+      <facetEntailment facetID="ME_74b_f3" label="Inferred"/>
+      <facetEntailment facetID="ME_74b_f4" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f5" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f6" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f7" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.74b.111.1" answerText="He probably has a switch hook up to it." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="ME_74b_f1" label="Inferred"/>
+      <facetEntailment facetID="ME_74b_f2" label="Inferred"/>
+      <facetEntailment facetID="ME_74b_f3" label="Inferred"/>
+      <facetEntailment facetID="ME_74b_f4" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f5" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f6" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f7" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.74b.118.1" answerText="It has a switch." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="ME_74b_f1" label="Inferred"/>
+      <facetEntailment facetID="ME_74b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ME_74b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_74b_f4" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f5" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f6" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f7" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.74b.119.1" answerText="The electromagnet is turned off." accuracy="correct">
+      <facetEntailment facetID="ME_74b_f1" label="Inferred"/>
+      <facetEntailment facetID="ME_74b_f2" label="Inferred"/>
+      <facetEntailment facetID="ME_74b_f3" label="Inferred"/>
+      <facetEntailment facetID="ME_74b_f4" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f5" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f6" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f7" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.74b.121.1" answerText="Turning a switch or pushing a button." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="ME_74b_f1" label="Inferred"/>
+      <facetEntailment facetID="ME_74b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ME_74b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_74b_f4" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f5" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f6" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f7" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.74b.123.1" answerText="Someone will turn off the switch." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="ME_74b_f1" label="Inferred"/>
+      <facetEntailment facetID="ME_74b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ME_74b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_74b_f4" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f5" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f6" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f7" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.74b.140.1" answerText="There is a switch that turns the truck off and on when off it has no magnetism so it drops." accuracy="correct">
+      <facetEntailment facetID="ME_74b_f1" label="Inferred"/>
+      <facetEntailment facetID="ME_74b_f2" label="Expressed"/>
+      <facetEntailment facetID="ME_74b_f3" label="Expressed"/>
+      <facetEntailment facetID="ME_74b_f4" label="Expressed"/>
+      <facetEntailment facetID="ME_74b_f5" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f6" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f7" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.74b.141.1" answerText="It is connected to a switch that turns it on and off." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="ME_74b_f1" label="Inferred"/>
+      <facetEntailment facetID="ME_74b_f2" label="Inferred"/>
+      <facetEntailment facetID="ME_74b_f3" label="Inferred"/>
+      <facetEntailment facetID="ME_74b_f4" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f5" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f6" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f7" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.74b.142.1" answerText="The magnet can turn on and off." accuracy="correct">
+      <facetEntailment facetID="ME_74b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="ME_74b_f2" label="Expressed"/>
+      <facetEntailment facetID="ME_74b_f3" label="Inferred"/>
+      <facetEntailment facetID="ME_74b_f4" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f5" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f6" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f7" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.74b.144.1" answerText="By turning off the electricity." accuracy="correct">
+      <facetEntailment facetID="ME_74b_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_74b_f2" label="Inferred"/>
+      <facetEntailment facetID="ME_74b_f3" label="Inferred"/>
+      <facetEntailment facetID="ME_74b_f4" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f5" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f6" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f7" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.74b.146.1" answerText="Well the person can cut it out and that is how it will drop." accuracy="irrelevant">
+      <facetEntailment facetID="ME_74b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="ME_74b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ME_74b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_74b_f4" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f5" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f6" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f7" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.74b.147.1" answerText="They have the switch off." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="ME_74b_f1" label="Inferred"/>
+      <facetEntailment facetID="ME_74b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ME_74b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_74b_f4" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f5" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f6" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f7" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.74b.155.1" answerText="The machine is able to drop onto the truck because there is a on and off switch." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="ME_74b_f1" label="Inferred"/>
+      <facetEntailment facetID="ME_74b_f2" label="Inferred"/>
+      <facetEntailment facetID="ME_74b_f3" label="Inferred"/>
+      <facetEntailment facetID="ME_74b_f4" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f5" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f6" label="Expressed"/>
+      <facetEntailment facetID="ME_74b_f7" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.74b.173.1" answerText="It is able to because they have a switch that turns it off and on." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="ME_74b_f1" label="Inferred"/>
+      <facetEntailment facetID="ME_74b_f2" label="Inferred"/>
+      <facetEntailment facetID="ME_74b_f3" label="Inferred"/>
+      <facetEntailment facetID="ME_74b_f4" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f5" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f6" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f7" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.74b.176.1" answerText="They turn off the magnetism." accuracy="correct">
+      <facetEntailment facetID="ME_74b_f1" label="Inferred"/>
+      <facetEntailment facetID="ME_74b_f2" label="Expressed"/>
+      <facetEntailment facetID="ME_74b_f3" label="Inferred"/>
+      <facetEntailment facetID="ME_74b_f4" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f5" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f6" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f7" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.74b.178.1" answerText="It cuts it off." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="ME_74b_f1" label="Inferred"/>
+      <facetEntailment facetID="ME_74b_f2" label="Inferred"/>
+      <facetEntailment facetID="ME_74b_f3" label="Inferred"/>
+      <facetEntailment facetID="ME_74b_f4" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f5" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f6" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f7" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.74b.180.1" answerText="It is able to because a magnet can never lose its magnetism." accuracy="contradictory">
+      <facetEntailment facetID="ME_74b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="ME_74b_f2" label="Contra-Infr"/>
+      <facetEntailment facetID="ME_74b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_74b_f4" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f5" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f6" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f7" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.74b.181.1" answerText="By turning off the switch." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="ME_74b_f1" label="Inferred"/>
+      <facetEntailment facetID="ME_74b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ME_74b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_74b_f4" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f5" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f6" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f7" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.74b.185.1" answerText="He is able to by cutting the power of the crane and the drop." accuracy="correct">
+      <facetEntailment facetID="ME_74b_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_74b_f2" label="Inferred"/>
+      <facetEntailment facetID="ME_74b_f3" label="Inferred"/>
+      <facetEntailment facetID="ME_74b_f4" label="Expressed"/>
+      <facetEntailment facetID="ME_74b_f5" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f6" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f7" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.74b.190.1" answerText="You have to turn off the magnet." accuracy="correct">
+      <facetEntailment facetID="ME_74b_f1" label="Inferred"/>
+      <facetEntailment facetID="ME_74b_f2" label="Expressed"/>
+      <facetEntailment facetID="ME_74b_f3" label="Inferred"/>
+      <facetEntailment facetID="ME_74b_f4" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f5" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f6" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f7" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.74b.192.1" answerText="It is able to drop them by shutting off the electricity traveling through it so the steel beams drop." accuracy="correct">
+      <facetEntailment facetID="ME_74b_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_74b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ME_74b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_74b_f4" label="Expressed"/>
+      <facetEntailment facetID="ME_74b_f5" label="Expressed"/>
+      <facetEntailment facetID="ME_74b_f6" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f7" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.74b.206.1" answerText="By switching the magnet poles." accuracy="irrelevant">
+      <facetEntailment facetID="ME_74b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="ME_74b_f2" label="Diff-Arg"/>
+      <facetEntailment facetID="ME_74b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_74b_f4" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f5" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f6" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f7" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.74b.207.1" answerText="Not going to attach." accuracy="irrelevant">
+      <facetEntailment facetID="ME_74b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="ME_74b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ME_74b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_74b_f4" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f5" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f6" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f7" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.74b.208.1" answerText="Stopping the magnetic force." accuracy="correct">
+      <facetEntailment facetID="ME_74b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="ME_74b_f2" label="Expressed"/>
+      <facetEntailment facetID="ME_74b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_74b_f4" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f5" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f6" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f7" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.74b.214.1" answerText="It is able to do that by cutting off the flow of electricity." accuracy="correct">
+      <facetEntailment facetID="ME_74b_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_74b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ME_74b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_74b_f4" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f5" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f6" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f7" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.74b.215.1" answerText="By switching the magnet off." accuracy="correct">
+      <facetEntailment facetID="ME_74b_f1" label="Inferred"/>
+      <facetEntailment facetID="ME_74b_f2" label="Expressed"/>
+      <facetEntailment facetID="ME_74b_f3" label="Inferred"/>
+      <facetEntailment facetID="ME_74b_f4" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f5" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f6" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f7" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.74b.216.1" answerText="It is controlled with a control panel." accuracy="irrelevant">
+      <facetEntailment facetID="ME_74b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="ME_74b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ME_74b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_74b_f4" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f5" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f6" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f7" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.74b.224.1" answerText="It is able by because it is steel." accuracy="irrelevant">
+      <facetEntailment facetID="ME_74b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="ME_74b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ME_74b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_74b_f4" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f5" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f6" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f7" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.74b.225.1" answerText="The machine can drop its magnetic force." accuracy="correct">
+      <facetEntailment facetID="ME_74b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="ME_74b_f2" label="Inferred"/>
+      <facetEntailment facetID="ME_74b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_74b_f4" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f5" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f6" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f7" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.74b.226.1" answerText="There is a person that pushes a button and it turns on and off." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="ME_74b_f1" label="Inferred"/>
+      <facetEntailment facetID="ME_74b_f2" label="Inferred"/>
+      <facetEntailment facetID="ME_74b_f3" label="Inferred"/>
+      <facetEntailment facetID="ME_74b_f4" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f5" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f6" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f7" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.74b.228.1" answerText="It is able to drop them by cutting the force between the magnet and the steel beam." accuracy="correct">
+      <facetEntailment facetID="ME_74b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="ME_74b_f2" label="Inferred"/>
+      <facetEntailment facetID="ME_74b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_74b_f4" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f5" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f6" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f7" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.74b.247.1" answerText="They would use a controller so that they let them go and drop them." accuracy="irrelevant">
+      <facetEntailment facetID="ME_74b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="ME_74b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ME_74b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_74b_f4" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f5" label="Expressed"/>
+      <facetEntailment facetID="ME_74b_f6" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f7" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.74b.253.1" answerText="The man press this button to drop it." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="ME_74b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="ME_74b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ME_74b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_74b_f4" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f5" label="Expressed"/>
+      <facetEntailment facetID="ME_74b_f6" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f7" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.74b.276.1" answerText="They will have to dump it, they do not have another way." accuracy="irrelevant">
+      <facetEntailment facetID="ME_74b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="ME_74b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ME_74b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_74b_f4" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f5" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f6" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f7" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.74b.293.1" answerText="You could pick up the beam and put it on the truck." accuracy="irrelevant">
+      <facetEntailment facetID="ME_74b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="ME_74b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ME_74b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_74b_f4" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f5" label="Expressed"/>
+      <facetEntailment facetID="ME_74b_f6" label="Expressed"/>
+      <facetEntailment facetID="ME_74b_f7" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.74b.313.1" answerText="They would have to have an on and off." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="ME_74b_f1" label="Inferred"/>
+      <facetEntailment facetID="ME_74b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ME_74b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_74b_f4" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f5" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f6" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f7" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.74b.318.1" answerText="The machine is able to pick up and drop off because of the electromagnet." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="ME_74b_f1" label="Inferred"/>
+      <facetEntailment facetID="ME_74b_f2" label="Inferred"/>
+      <facetEntailment facetID="ME_74b_f3" label="Inferred"/>
+      <facetEntailment facetID="ME_74b_f4" label="Expressed"/>
+      <facetEntailment facetID="ME_74b_f5" label="Expressed"/>
+      <facetEntailment facetID="ME_74b_f6" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f7" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.74b.325.1" answerText="The machine turns off and disconnects the electricity flow." accuracy="correct">
+      <facetEntailment facetID="ME_74b_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_74b_f2" label="Inferred"/>
+      <facetEntailment facetID="ME_74b_f3" label="Inferred"/>
+      <facetEntailment facetID="ME_74b_f4" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f5" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f6" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f7" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.74b.328.1" answerText="There has to be a switch." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="ME_74b_f1" label="Inferred"/>
+      <facetEntailment facetID="ME_74b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ME_74b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_74b_f4" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f5" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f6" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f7" label="Assumed"/>
+      <facetEntailment facetID="ME_74b_f8" label="Assumed"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

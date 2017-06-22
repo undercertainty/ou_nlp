@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<question testSet="unseen-answers" id="EM_45c" module="EM">
+  <questionText>You used several methods to separate and identify the substances in mock rocks. How did you know the crystals were salt?</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="EM_45c-a1" text="The crystals were square with Xs on the surface.">
+      <tokens>
+        <token id="EM_45c_ra1">The</token>
+        <token id="EM_45c_ra2">crystals</token>
+        <token id="EM_45c_ra3">were</token>
+        <token id="EM_45c_ra4">square</token>
+        <token id="EM_45c_ra5">with</token>
+        <token id="EM_45c_ra6">Xs</token>
+        <token id="EM_45c_ra7">on</token>
+        <token id="EM_45c_ra8">the</token>
+        <token id="EM_45c_ra9">surface</token>
+        <token id="EM_45c_ra10">.</token>
+      </tokens>
+      <facets>
+        <facet id="EM_45c_f1" govNum="EM_45c_ra2" modNum="EM_45c_ra4" reltn="Be" govText="crystals" modText="square"/>
+        <facet id="EM_45c_f2" govNum="EM_45c_ra4" modNum="EM_45c_ra6" reltn="AMod_with" govText="square" modText="Xs"/>
+        <facet id="EM_45c_f3" govNum="EM_45c_ra6" modNum="EM_45c_ra9" reltn="Location_on" govText="Xs" modText="surface"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="EM.45c.340.1" answerText="Well because we broke them apart." accuracy="irrelevant">
+      <facetEntailment facetID="EM_45c_f1" label="Unaddressed"/>
+      <facetEntailment facetID="EM_45c_f2" label="Unaddressed"/>
+      <facetEntailment facetID="EM_45c_f3" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.45c.385.1" answerText="By looking very closely at it." accuracy="irrelevant">
+      <facetEntailment facetID="EM_45c_f1" label="Unaddressed"/>
+      <facetEntailment facetID="EM_45c_f2" label="Unaddressed"/>
+      <facetEntailment facetID="EM_45c_f3" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.45c.396.1" answerText="We know the crystals were salt because we identified them." accuracy="irrelevant">
+      <facetEntailment facetID="EM_45c_f1" label="Diff-Arg"/>
+      <facetEntailment facetID="EM_45c_f2" label="Unaddressed"/>
+      <facetEntailment facetID="EM_45c_f3" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.45c.645.1" answerText="Because I look at the chart." accuracy="irrelevant">
+      <facetEntailment facetID="EM_45c_f1" label="Unaddressed"/>
+      <facetEntailment facetID="EM_45c_f2" label="Unaddressed"/>
+      <facetEntailment facetID="EM_45c_f3" label="Unaddressed"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

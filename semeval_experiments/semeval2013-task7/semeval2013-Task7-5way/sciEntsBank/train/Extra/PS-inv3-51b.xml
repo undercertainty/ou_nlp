@@ -1,0 +1,203 @@
+<?xml version="1.0"?>
+<question id="PS_51b" module="PS">
+  <questionText>Katie got a guitar for her birthday. She experimented with the strings and found she could change their sounds. Katie also discovered that when she pressed down on a string with her finger, making the string shorter, the sound again changed. Describe how the sound was different when the string was shortened.</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="PS_51b-a1" text="When the string was shorter, the pitch was higher.">
+      <tokens>
+        <token id="PS_51b_ra1">When</token>
+        <token id="PS_51b_ra2">the</token>
+        <token id="PS_51b_ra3">string</token>
+        <token id="PS_51b_ra4">was</token>
+        <token id="PS_51b_ra5">shorter</token>
+        <token id="PS_51b_ra6">,</token>
+        <token id="PS_51b_ra7">the</token>
+        <token id="PS_51b_ra8">pitch</token>
+        <token id="PS_51b_ra9">was</token>
+        <token id="PS_51b_ra10">higher</token>
+        <token id="PS_51b_ra11">.</token>
+      </tokens>
+      <facets>
+        <facet id="PS_51b_f1" govNum="PS_51b_ra3" modNum="PS_51b_ra5" reltn="Be" govText="string" isAssumed="true" modText="shorter"/>
+        <facet id="PS_51b_f2" govNum="PS_51b_ra8" modNum="PS_51b_ra10" reltn="Be" govText="pitch" modText="higher"/>
+        <facet id="PS_51b_f3" govNum="PS_51b_ra9" modNum="PS_51b_ra4" reltn="Cause_when" childProp1Facet1="PS_51b_f2" govText="was" isAssumed="true" modText="was" childProp2Facet1="PS_51b_f1"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="PS.51b.101.1" answerText="It will not make loud pluck like the other strings." accuracy="irrelevant">
+      <facetEntailment facetID="PS_51b_f1" label="Assumed"/>
+      <facetEntailment facetID="PS_51b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="PS_51b_f3" label="Diff-Arg"/>
+    </studentAnswer>
+    <studentAnswer id="PS.51b.107.1" answerText="If it was shorter it would have a low sound." accuracy="contradictory">
+      <facetEntailment facetID="PS_51b_f1" label="Expressed"/>
+      <facetEntailment facetID="PS_51b_f2" label="Contra-Expr"/>
+      <facetEntailment facetID="PS_51b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.51b.114.1" answerText="When you pluck the first string it makes a low pitch." accuracy="contradictory">
+      <facetEntailment facetID="PS_51b_f1" label="Diff-Arg"/>
+      <facetEntailment facetID="PS_51b_f2" label="Contra-Expr"/>
+      <facetEntailment facetID="PS_51b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.51b.118.1" answerText="At first it would make noise slower than the shorter one because it would be shorter noise." accuracy="irrelevant">
+      <facetEntailment facetID="PS_51b_f1" label="Expressed"/>
+      <facetEntailment facetID="PS_51b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="PS_51b_f3" label="Diff-Arg"/>
+    </studentAnswer>
+    <studentAnswer id="PS.51b.138.1" answerText="It was a higher pitch!" accuracy="correct">
+      <facetEntailment facetID="PS_51b_f1" label="Assumed"/>
+      <facetEntailment facetID="PS_51b_f2" label="Expressed"/>
+      <facetEntailment facetID="PS_51b_f3" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.51b.145.1" answerText="Which side has more string is a lower pitch. Whichever side has more string it has a lower pitch." accuracy="correct">
+      <facetEntailment facetID="PS_51b_f1" label="Assumed"/>
+      <facetEntailment facetID="PS_51b_f2" label="Inferred"/>
+      <facetEntailment facetID="PS_51b_f3" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.51b.154.1" answerText="Because when you give it less room to vibrate it makes a higher pitch." accuracy="correct">
+      <facetEntailment facetID="PS_51b_f1" label="Expressed"/>
+      <facetEntailment facetID="PS_51b_f2" label="Expressed"/>
+      <facetEntailment facetID="PS_51b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.51b.171.1" answerText="It got a higher pitch." accuracy="correct">
+      <facetEntailment facetID="PS_51b_f1" label="Assumed"/>
+      <facetEntailment facetID="PS_51b_f2" label="Expressed"/>
+      <facetEntailment facetID="PS_51b_f3" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.51b.176.1" answerText="It is a high pitch." accuracy="correct">
+      <facetEntailment facetID="PS_51b_f1" label="Assumed"/>
+      <facetEntailment facetID="PS_51b_f2" label="Expressed"/>
+      <facetEntailment facetID="PS_51b_f3" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.51b.183.1" answerText="A bigger string makes a lower pitch and a little string would have a high pitch." accuracy="correct">
+      <facetEntailment facetID="PS_51b_f1" label="Expressed"/>
+      <facetEntailment facetID="PS_51b_f2" label="Expressed"/>
+      <facetEntailment facetID="PS_51b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.51b.191.1" answerText="It would make a high pitch." accuracy="correct">
+      <facetEntailment facetID="PS_51b_f1" label="Assumed"/>
+      <facetEntailment facetID="PS_51b_f2" label="Expressed"/>
+      <facetEntailment facetID="PS_51b_f3" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.51b.195.1" answerText="It is going to be higher." accuracy="correct">
+      <facetEntailment facetID="PS_51b_f1" label="Assumed"/>
+      <facetEntailment facetID="PS_51b_f2" label="Expressed"/>
+      <facetEntailment facetID="PS_51b_f3" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.51b.212.1" answerText="When it vibrates it goes so fast but it hits the string." accuracy="irrelevant">
+      <facetEntailment facetID="PS_51b_f1" label="Assumed"/>
+      <facetEntailment facetID="PS_51b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="PS_51b_f3" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.51b.223.1" answerText="The pitch would be higher because the vibrations do not travel as long." accuracy="correct">
+      <facetEntailment facetID="PS_51b_f1" label="Assumed"/>
+      <facetEntailment facetID="PS_51b_f2" label="Expressed"/>
+      <facetEntailment facetID="PS_51b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.51b.230.1" answerText="It was tighter so it made a higher pitch." accuracy="correct">
+      <facetEntailment facetID="PS_51b_f1" label="Diff-Arg"/>
+      <facetEntailment facetID="PS_51b_f2" label="Expressed"/>
+      <facetEntailment facetID="PS_51b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.51b.244.1" answerText="When it is shortened the string is not that long so it makes a different sound." accuracy="irrelevant">
+      <facetEntailment facetID="PS_51b_f1" label="Expressed"/>
+      <facetEntailment facetID="PS_51b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="PS_51b_f3" label="Diff-Arg"/>
+    </studentAnswer>
+    <studentAnswer id="PS.51b.261.1" answerText="It gets higher when it is short and lower when it is longer." accuracy="correct">
+      <facetEntailment facetID="PS_51b_f1" label="Expressed"/>
+      <facetEntailment facetID="PS_51b_f2" label="Expressed"/>
+      <facetEntailment facetID="PS_51b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.51b.313.1" answerText="It got shorter and shorter so it was higher pitch." accuracy="correct">
+      <facetEntailment facetID="PS_51b_f1" label="Expressed"/>
+      <facetEntailment facetID="PS_51b_f2" label="Expressed"/>
+      <facetEntailment facetID="PS_51b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.51b.317.1" answerText="The sound was lower. It had more room to vibrate." accuracy="contradictory">
+      <facetEntailment facetID="PS_51b_f1" label="Contra-Infr"/>
+      <facetEntailment facetID="PS_51b_f2" label="Contra-Expr"/>
+      <facetEntailment facetID="PS_51b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.51b.334.1" answerText="It would be a High pitch." accuracy="correct">
+      <facetEntailment facetID="PS_51b_f1" label="Assumed"/>
+      <facetEntailment facetID="PS_51b_f2" label="Expressed"/>
+      <facetEntailment facetID="PS_51b_f3" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.51b.391.1" answerText="The string made a low pitch." accuracy="contradictory">
+      <facetEntailment facetID="PS_51b_f1" label="Assumed"/>
+      <facetEntailment facetID="PS_51b_f2" label="Contra-Expr"/>
+      <facetEntailment facetID="PS_51b_f3" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.51b.401.1" answerText="When kate shortened the string that string would have a higher pitch." accuracy="correct">
+      <facetEntailment facetID="PS_51b_f1" label="Expressed"/>
+      <facetEntailment facetID="PS_51b_f2" label="Expressed"/>
+      <facetEntailment facetID="PS_51b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.51b.452.1" answerText="It got higher." accuracy="correct">
+      <facetEntailment facetID="PS_51b_f1" label="Assumed"/>
+      <facetEntailment facetID="PS_51b_f2" label="Expressed"/>
+      <facetEntailment facetID="PS_51b_f3" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.51b.455.1" answerText="The sound had a higher pitch because it had faster vibrations." accuracy="correct">
+      <facetEntailment facetID="PS_51b_f1" label="Assumed"/>
+      <facetEntailment facetID="PS_51b_f2" label="Expressed"/>
+      <facetEntailment facetID="PS_51b_f3" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.51b.464.1" answerText="I think the string would be tighter." accuracy="irrelevant">
+      <facetEntailment facetID="PS_51b_f1" label="Diff-Arg"/>
+      <facetEntailment facetID="PS_51b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="PS_51b_f3" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.51b.486.1" answerText="It turns really really loud." accuracy="irrelevant">
+      <facetEntailment facetID="PS_51b_f1" label="Assumed"/>
+      <facetEntailment facetID="PS_51b_f2" label="Diff-Arg"/>
+      <facetEntailment facetID="PS_51b_f3" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.51b.495.1" answerText="It sounded high." accuracy="correct">
+      <facetEntailment facetID="PS_51b_f1" label="Assumed"/>
+      <facetEntailment facetID="PS_51b_f2" label="Expressed"/>
+      <facetEntailment facetID="PS_51b_f3" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.51b.524.1" answerText="The shorter the the higher the pitch because it less to travel through." accuracy="correct">
+      <facetEntailment facetID="PS_51b_f1" label="Expressed"/>
+      <facetEntailment facetID="PS_51b_f2" label="Expressed"/>
+      <facetEntailment facetID="PS_51b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.51b.531.1" answerText="And the shorter the string also the higher pitch it makes." accuracy="correct">
+      <facetEntailment facetID="PS_51b_f1" label="Expressed"/>
+      <facetEntailment facetID="PS_51b_f2" label="Expressed"/>
+      <facetEntailment facetID="PS_51b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.51b.539.1" answerText="The shorter the string the higher the sound." accuracy="correct">
+      <facetEntailment facetID="PS_51b_f1" label="Expressed"/>
+      <facetEntailment facetID="PS_51b_f2" label="Expressed"/>
+      <facetEntailment facetID="PS_51b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.51b.593.1" answerText="When you make the string small the volume is louder." accuracy="irrelevant">
+      <facetEntailment facetID="PS_51b_f1" label="Expressed"/>
+      <facetEntailment facetID="PS_51b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="PS_51b_f3" label="Diff-Arg"/>
+    </studentAnswer>
+    <studentAnswer id="PS.51b.602.1" answerText="It will have a lower sound than when you let go." accuracy="contradictory">
+      <facetEntailment facetID="PS_51b_f1" label="Assumed"/>
+      <facetEntailment facetID="PS_51b_f2" label="Contra-Expr"/>
+      <facetEntailment facetID="PS_51b_f3" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.51b.626.1" answerText="The sound was lower." accuracy="contradictory">
+      <facetEntailment facetID="PS_51b_f1" label="Assumed"/>
+      <facetEntailment facetID="PS_51b_f2" label="Contra-Expr"/>
+      <facetEntailment facetID="PS_51b_f3" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.51b.641.1" answerText="When you pull your string it makes a sound." accuracy="irrelevant">
+      <facetEntailment facetID="PS_51b_f1" label="Assumed"/>
+      <facetEntailment facetID="PS_51b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="PS_51b_f3" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.51b.643.1" answerText="IT High When it Shorter." accuracy="correct">
+      <facetEntailment facetID="PS_51b_f1" label="Expressed"/>
+      <facetEntailment facetID="PS_51b_f2" label="Expressed"/>
+      <facetEntailment facetID="PS_51b_f3" label="Expressed"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

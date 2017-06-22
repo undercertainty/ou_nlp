@@ -1,0 +1,1782 @@
+<?xml version="1.0"?>
+<question testSet="unseen-domains" id="EV_25" module="EV">
+  <questionText>The mangrove is a tree found only in saltwater environments. What would happen if you moved a mangrove tree to a freshwater environment? Explain your answer.</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="EV_25-a1" text="The mangrove tree would probably die or the tree would not grow well because the tree needs a saltwater environment. Water without salt is outside of the tree's range of tolerance for salt.">
+      <tokens>
+        <token id="EV_25_ra1">The</token>
+        <token id="EV_25_ra2">mangrove</token>
+        <token id="EV_25_ra3">tree</token>
+        <token id="EV_25_ra4">would</token>
+        <token id="EV_25_ra5">probably</token>
+        <token id="EV_25_ra6">die</token>
+        <token id="EV_25_ra7">or</token>
+        <token id="EV_25_ra8">the</token>
+        <token id="EV_25_ra9">tree</token>
+        <token id="EV_25_ra10">would</token>
+        <token id="EV_25_ra11">not</token>
+        <token id="EV_25_ra12">grow</token>
+        <token id="EV_25_ra13">well</token>
+        <token id="EV_25_ra14">because</token>
+        <token id="EV_25_ra15">the</token>
+        <token id="EV_25_ra16">tree</token>
+        <token id="EV_25_ra17">needs</token>
+        <token id="EV_25_ra18">a</token>
+        <token id="EV_25_ra19">saltwater</token>
+        <token id="EV_25_ra20">environment</token>
+        <token id="EV_25_ra21">.</token>
+        <token id="EV_25_ra22">Water</token>
+        <token id="EV_25_ra23">without</token>
+        <token id="EV_25_ra24">salt</token>
+        <token id="EV_25_ra25">is</token>
+        <token id="EV_25_ra26">outside</token>
+        <token id="EV_25_ra27">of</token>
+        <token id="EV_25_ra28">the</token>
+        <token id="EV_25_ra29">tree</token>
+        <token id="EV_25_ra30">'s</token>
+        <token id="EV_25_ra31">range</token>
+        <token id="EV_25_ra32">of</token>
+        <token id="EV_25_ra33">tolerance</token>
+        <token id="EV_25_ra34">for</token>
+        <token id="EV_25_ra35">salt</token>
+        <token id="EV_25_ra36">.</token>
+      </tokens>
+      <facets>
+        <facet id="EV_25_f1" govNum="EV_25_ra3" modNum="EV_25_ra2" reltn="NMod" govText="tree" isAssumed="true" modText="mangrove"/>
+        <facet id="EV_25_f2" govNum="EV_25_ra6" modNum="EV_25_ra3" reltn="Theme" govText="die" modText="tree"/>
+        <facet id="EV_25_f3" govNum="EV_25_ra6" modNum="EV_25_ra5" reltn="VMod" govText="die" modText="probably"/>
+        <facet id="EV_25_f4" govNum="EV_25_ra12" modNum="EV_25_ra9" reltn="Product_neg_not" govText="grow" modText="tree"/>
+        <facet id="EV_25_f5" govNum="EV_25_ra12" modNum="EV_25_ra13" reltn="Manner" govText="grow" modText="well"/>
+        <facet id="EV_25_f6" govNum="EV_25_ra17" modNum="EV_25_ra16" reltn="Experiencer" govText="needs" modText="tree"/>
+        <facet id="EV_25_f7" govNum="EV_25_ra17" modNum="EV_25_ra20" reltn="Theme" govText="needs" modText="environment"/>
+        <facet id="EV_25_f8" govNum="EV_25_ra20" modNum="EV_25_ra19" reltn="NMod" govText="environment" isAssumed="true" modText="saltwater"/>
+        <facet id="EV_25_f9" govNum="EV_25_ra6" modNum="EV_25_ra17" reltn="Cause_because" childProp2Facet2="EV_25_f8" childProp1Facet1="EV_25_f2" govText="die" childProp1Facet2="EV_25_f3" modText="needs" childProp2Facet1="EV_25_f6"/>
+        <facet id="EV_25_f10" govNum="EV_25_ra12" modNum="EV_25_ra17" reltn="Cause_because" childProp2Facet2="EV_25_f8" childProp1Facet1="EV_25_f4" govText="grow" modText="needs" childProp2Facet1="EV_25_f6"/>
+        <facet id="EV_25_f11" govNum="EV_25_ra22" modNum="EV_25_ra24" reltn="NMod_neg_without" govText="Water" isAssumed="true" modText="salt"/>
+        <facet id="EV_25_f12" govNum="EV_25_ra22" modNum="EV_25_ra31" reltn="Location_outside_of" govText="Water" modText="range"/>
+        <facet id="EV_25_f13" govNum="EV_25_ra31" modNum="EV_25_ra29" reltn="NMod_pos" govText="range" modText="tree's"/>
+        <facet id="EV_25_f14" govNum="EV_25_ra31" modNum="EV_25_ra33" reltn="NMod_of" govText="range" modText="tolerance"/>
+        <facet id="EV_25_f15" govNum="EV_25_ra33" modNum="EV_25_ra35" reltn="NMod_for" govText="tolerance" modText="salt"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="EV.25.101.1" answerText="It would die because it optimum condition is salt." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EV_25_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f2" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f3" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f4" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f5" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f6" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f7" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f8" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f9" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f10" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f11" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f12" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f13" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f14" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f15" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.25.102.1" answerText="It would die and not survive because it needs salt because they are only found in saltwater environments. If you want it to live add salt." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EV_25_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f2" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f3" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f4" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f5" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f6" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f7" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f8" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f9" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f10" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f11" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f12" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f13" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f14" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f15" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.25.105.1" answerText="It might die from no salt." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EV_25_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f2" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f3" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f4" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f5" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f6" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f7" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f8" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f9" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f10" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f11" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f12" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f13" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f14" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f15" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.25.107.1" answerText="It might die because it needs salt to survive." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EV_25_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f2" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f3" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f4" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f5" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f6" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f7" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f8" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f9" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f10" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f11" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f12" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f13" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f14" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f15" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.25.109.1" answerText="It would probably die because it needs salty water to survive. That is just like putting human in space with no space suit." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EV_25_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f2" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f3" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f4" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f5" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f6" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f7" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f8" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f9" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f10" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f11" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f12" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f13" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f14" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f15" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.25.110.1" answerText="It would die. It only grows in saltwater environments." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EV_25_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f2" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f3" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f4" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f5" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f6" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f7" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f8" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f9" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f10" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f11" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f12" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f13" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f14" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f15" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.25.113.1" answerText="It will die. Because the tree cannot survive without salt it will die because of its range of tolerance." accuracy="correct">
+      <facetEntailment facetID="EV_25_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f2" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f3" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f4" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f5" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f6" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f7" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f8" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f9" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f10" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f11" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f12" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f13" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f14" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f15" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="EV.25.114.1" answerText="It would die because that certain plant needs salt to live." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EV_25_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f2" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f3" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f4" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f5" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f6" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f7" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f8" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f9" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f10" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f11" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f12" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f13" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f14" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f15" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.25.121.1" answerText="It would die because it has no salt." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EV_25_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f2" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f3" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f4" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f5" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f6" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f7" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f8" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f9" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f10" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f11" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f12" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f13" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f14" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f15" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.25.122.1" answerText="It would probably not survive because it is not used to the freshwater system." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EV_25_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f2" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f3" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f4" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f5" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f6" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f7" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f8" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f9" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f10" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f11" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f12" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f13" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f14" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f15" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.25.124.1" answerText="If a tree likes saltwater environment it should take some time to get used to freshwater environment." accuracy="contradictory">
+      <facetEntailment facetID="EV_25_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f2" label="Contra-Infr"/>
+      <facetEntailment facetID="EV_25_f3" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f4" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f5" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f6" label="Contra-Infr"/>
+      <facetEntailment facetID="EV_25_f7" label="Contra-Infr"/>
+      <facetEntailment facetID="EV_25_f8" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f9" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f10" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f11" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f12" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f13" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f14" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f15" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.25.130.1" answerText="It would begin to die because it has to be in saltwater." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EV_25_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f2" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f3" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f4" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f5" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f6" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f7" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f8" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f9" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f10" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f11" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f12" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f13" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f14" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f15" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.25.133.1" answerText="I think it would die because it is not in its preferred environment." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EV_25_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f2" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f3" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f4" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f5" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f6" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f7" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f8" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f9" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f10" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f11" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f12" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f13" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f14" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f15" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.25.136.1" answerText="The mangrove tree will die because you moved the tree in different water instead of saltwater." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EV_25_f1" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f2" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f3" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f4" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f5" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f6" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f7" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f8" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f9" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f10" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f11" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f12" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f13" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f14" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f15" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.25.137.1" answerText="It will die because the mangrove tree is use to the saltwater and if you move it it will not survive." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EV_25_f1" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f2" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f3" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f4" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f5" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f6" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f7" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f8" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f9" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f10" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f11" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f12" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f13" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f14" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f15" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.25.141.1" answerText="It would most likely die because it is so used to saltwater it would die." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EV_25_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f2" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f3" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f4" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f5" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f6" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f7" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f8" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f9" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f10" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f11" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f12" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f13" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f14" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f15" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.25.143.1" answerText="It would die because its used to salt. Not freshwater. If it has no salt it will not live." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EV_25_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f2" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f3" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f4" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f5" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f6" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f7" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f8" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f9" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f10" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f11" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f12" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f13" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f14" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f15" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.25.145.1" answerText="It would die because it is only found in saltwater so if you move it it will shrivel up!" accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EV_25_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f2" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f3" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f4" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f5" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f6" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f7" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f8" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f9" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f10" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f11" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f12" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f13" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f14" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f15" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.25.147.1" answerText="It would not grow. It has a big range of tolerance for salt. But without salt it would die." accuracy="correct">
+      <facetEntailment facetID="EV_25_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f2" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f3" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f4" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f5" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f6" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f7" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f8" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f9" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f10" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f11" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f12" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f13" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f14" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f15" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.25.148.1" answerText="It would die because it needs salt to live." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EV_25_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f2" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f3" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f4" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f5" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f6" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f7" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f8" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f9" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f10" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f11" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f12" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f13" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f14" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f15" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.25.149.1" answerText="It would die, because the tree is use to salt, salt is the range of the tree." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EV_25_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f2" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f3" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f4" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f5" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f6" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f7" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f8" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f9" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f10" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f11" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f12" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f13" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f14" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f15" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="EV.25.152.1" answerText="The mangrove would die because it needs saltwater not freshwater." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EV_25_f1" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f2" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f3" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f4" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f5" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f6" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f7" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f8" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f9" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f10" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f11" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f12" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f13" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f14" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f15" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.25.153.1" answerText="If you moved it the mangrove tree to a freshwater environment it will die because it cannot take it it needs the salt." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EV_25_f1" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f2" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f3" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f4" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f5" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f6" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f7" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f8" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f9" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f10" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f11" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f12" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f13" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f14" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f15" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.25.157.1" answerText="It would die in the freshwater environment because it is used to saltwater environment." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EV_25_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f2" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f3" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f4" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f5" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f6" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f7" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f8" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f9" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f10" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f11" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f12" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f13" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f14" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f15" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.25.158.1" answerText="It would die because it is found only in saltwater." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EV_25_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f2" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f3" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f4" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f5" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f6" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f7" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f8" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f9" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f10" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f11" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f12" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f13" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f14" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f15" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.25.159.1" answerText="It would shrivel up." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EV_25_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f2" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f3" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f4" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f5" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f6" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f7" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f8" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f9" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f10" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f11" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f12" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f13" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f14" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f15" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.25.165.1" answerText="It would die and shrivel up." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EV_25_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f2" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f3" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f4" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f5" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f6" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f7" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f8" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f9" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f10" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f11" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f12" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f13" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f14" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f15" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.25.208.1" answerText="It might die because it needs to live in saltwater environments." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EV_25_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f2" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f3" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f4" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f5" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f6" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f7" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f8" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f9" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f10" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f11" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f12" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f13" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f14" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f15" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.25.221.1" answerText="It would probably die because you moved it to a place and took the roots out." accuracy="irrelevant">
+      <facetEntailment facetID="EV_25_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f2" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f3" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f4" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f5" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f6" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f7" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f8" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f9" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f10" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f11" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f12" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f13" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f14" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f15" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.25.224.1" answerText="It would probably die because it need salinity to live without salinity it will not live." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EV_25_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f2" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f3" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f4" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f5" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f6" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f7" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f8" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f9" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f10" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f11" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f12" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f13" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f14" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f15" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.25.226.1" answerText="It would not grow that well because it has been moved from it is saltwater environment to freshwater environment." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EV_25_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f2" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f3" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f4" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f5" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f6" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f7" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f8" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f9" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f10" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f11" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f12" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f13" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f14" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f15" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.25.243.1" answerText="It would probably die because it is not in the range of tolerance." accuracy="correct">
+      <facetEntailment facetID="EV_25_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f2" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f3" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f4" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f5" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f6" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f7" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f8" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f9" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f10" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f11" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f12" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f13" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f14" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f15" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="EV.25.244.1" answerText="The mangrove would die in the freshwater because it is adapted to the saltwater." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EV_25_f1" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f2" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f3" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f4" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f5" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f6" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f7" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f8" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f9" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f10" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f11" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f12" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f13" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f14" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f15" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.25.245.1" answerText="The mangrove tree would grow less and also maybe die, because it is saltwater plant, not freshwater." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EV_25_f1" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f2" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f3" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f4" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f5" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f6" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f7" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f8" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f9" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f10" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f11" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f12" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f13" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f14" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f15" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.25.246.1" answerText="It would die because it is environment is saltwater only because it can only survive in saltwater." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EV_25_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f2" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f3" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f4" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f5" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f6" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f7" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f8" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f9" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f10" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f11" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f12" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f13" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f14" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f15" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.25.247.1" answerText="The mangrove would die because they only in salt or might change it is growth." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EV_25_f1" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f2" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f3" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f4" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f5" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f6" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f7" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f8" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f9" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f10" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f11" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f12" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f13" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f14" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f15" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.25.248.1" answerText="The mangrove would not grow because it needs the salt from the water." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EV_25_f1" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f2" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f3" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f4" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f5" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f6" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f7" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f8" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f9" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f10" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f11" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f12" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f13" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f14" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f15" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.25.251.1" answerText="It would change the mangrove environment and maybe kill it." accuracy="irrelevant">
+      <facetEntailment facetID="EV_25_f1" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f2" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f3" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f4" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f5" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f6" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f7" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f8" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f9" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f10" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f11" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f12" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f13" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f14" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f15" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.25.382.1" answerText="Maybe it would grow slower because of the type of water it was moved to. Or maybe the tree would just die." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EV_25_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f2" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f3" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f4" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f5" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f6" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f7" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f8" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f9" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f10" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f11" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f12" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f13" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f14" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f15" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.25.383.1" answerText="It would probably die because it is use to saltwater." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EV_25_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f2" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f3" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f4" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f5" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f6" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f7" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f8" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f9" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f10" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f11" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f12" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f13" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f14" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f15" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.25.384.1" answerText="It might die because it is only found in saltwater but it might stay alive because it is still water." accuracy="contradictory">
+      <facetEntailment facetID="EV_25_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f2" label="Self-Contra"/>
+      <facetEntailment facetID="EV_25_f3" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f4" label="Contra-Infr"/>
+      <facetEntailment facetID="EV_25_f5" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f6" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f7" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f8" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f9" label="Self-Contra"/>
+      <facetEntailment facetID="EV_25_f10" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f11" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f12" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f13" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f14" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f15" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.25.390.1" answerText="The tree would die because if it is only found in saltwater it needs saltwater to grow and with freshwater the tree would die." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EV_25_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f2" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f3" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f4" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f5" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f6" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f7" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f8" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f9" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f10" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f11" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f12" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f13" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f14" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f15" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.25.391.1" answerText="It would probably die because it is not used to the environmental factor so it has to get used to." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EV_25_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f2" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f3" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f4" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f5" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f6" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f7" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f8" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f9" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f10" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f11" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f12" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f13" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f14" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f15" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.25.395.1" answerText="I think I if you put a freshwater plant in a saltwater environment, they might not last long because the acid and bacteria." accuracy="contradictory">
+      <facetEntailment facetID="EV_25_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f2" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f3" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f4" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f5" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f6" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f7" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f8" label="Contra-Expr"/>
+      <facetEntailment facetID="EV_25_f9" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f10" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f11" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f12" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f13" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f14" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f15" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.25.396.1" answerText="It would probably die because if the right environment for the tree is saltwater then if you put it into freshwater it is going to die. When you think of it as fish, some fish can only stay in saltwater and some can only stay in freshwater and if you switch them then the fish is going to die." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EV_25_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f2" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f3" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f4" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f5" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f6" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f7" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f8" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f9" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f10" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f11" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f12" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f13" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f14" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f15" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.25.399.1" answerText="It would die because freshwater is not the right environmental place so that the mangrove can live." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EV_25_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f2" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f3" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f4" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f5" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f6" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f7" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f8" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f9" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f10" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f11" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f12" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f13" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f14" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f15" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.25.402.1" answerText="It would maybe take longer to grow or maybe even die because of the change in the type of water." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EV_25_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f2" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f3" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f4" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f5" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f6" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f7" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f8" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f9" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f10" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f11" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f12" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f13" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f14" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f15" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.25.404.1" answerText="I think it will die because it grows in a saltwater environment so if you move it, it will die." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EV_25_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f2" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f3" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f4" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f5" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f6" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f7" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f8" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f9" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f10" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f11" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f12" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f13" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f14" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f15" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.25.405.1" answerText="The growth rate might decrease, due to the loss of salt in the water." accuracy="irrelevant">
+      <facetEntailment facetID="EV_25_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f2" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f3" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f4" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f5" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f6" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f7" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f8" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f9" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f10" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f11" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f12" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f13" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f14" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f15" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.25.419.1" answerText="I think it would die out because it likes saltwater and if you move it to a place that is not what it likes it cannot live anymore." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EV_25_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f2" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f3" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f4" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f5" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f6" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f7" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f8" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f9" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f10" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f11" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f12" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f13" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f14" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f15" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.25.420.1" answerText="It might not grow or it will just grow a little and then die." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EV_25_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f2" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f3" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f4" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f5" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f6" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f7" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f8" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f9" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f10" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f11" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f12" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f13" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f14" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f15" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.25.421.1" answerText="I think it would die because it grows in saltwater and not freshwater. It will lose the salt it needs." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EV_25_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f2" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f3" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f4" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f5" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f6" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f7" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f8" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f9" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f10" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f11" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f12" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f13" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f14" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f15" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.25.426.1" answerText="It would die because it is habitat was really salty and the salt would help them the most so if you move the tree somewhere with freshwater it would die." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EV_25_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f2" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f3" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f4" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f5" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f6" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f7" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f8" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f9" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f10" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f11" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f12" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f13" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f14" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f15" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.25.428.1" answerText="It would die, because it needs salt." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EV_25_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f2" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f3" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f4" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f5" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f6" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f7" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f8" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f9" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f10" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f11" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f12" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f13" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f14" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f15" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.25.429.1" answerText="I think the mangrove tree will grow more slower than the saltwater." accuracy="contradictory">
+      <facetEntailment facetID="EV_25_f1" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f2" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f3" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f4" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f5" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f6" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f7" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f8" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f9" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f10" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f11" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f12" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f13" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f14" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f15" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.25.431.1" answerText="It would probably die because the change of environment." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EV_25_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f2" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f3" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f4" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f5" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f6" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f7" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f8" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f9" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f10" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f11" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f12" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f13" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f14" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f15" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.25.432.1" answerText="It can die because its range of tolerance is something else. Or it can take a while to try to adapt to that type of environment." accuracy="correct">
+      <facetEntailment facetID="EV_25_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f2" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f3" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f4" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f5" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f6" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f7" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f8" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f9" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f10" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f11" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f12" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f13" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f14" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f15" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="EV.25.433.1" answerText="It would not grow as well or not even at all in freshwater. That is because the mangrove is used to saltwater move than freshwater. That is like tell a fish to live on land." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EV_25_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f2" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f3" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f4" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f5" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f6" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f7" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f8" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f9" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f10" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f11" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f12" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f13" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f14" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f15" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.25.434.1" answerText="The mangrove would probably die because saltwater environments is it is optimum condition." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EV_25_f1" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f2" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f3" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f4" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f5" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f6" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f7" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f8" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f9" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f10" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f11" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f12" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f13" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f14" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f15" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.25.443.1" answerText="I think the plant will die because if it lives in saltwater then that is probably the only environment it can live in if you moved it to a freshwater environment, it might not be use to it and die." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EV_25_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f2" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f3" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f4" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f5" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f6" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f7" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f8" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f9" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f10" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f11" label="Contra-Expr"/>
+      <facetEntailment facetID="EV_25_f12" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f13" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f14" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f15" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.25.445.1" answerText="If you moved a mangrove tree to a freshwater environment I think it would last for a few days. Then die soon. Because the mangrove tree is only used to saltwater." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EV_25_f1" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f2" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f3" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f4" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f5" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f6" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f7" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f8" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f9" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f10" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f11" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f12" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f13" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f14" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f15" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.25.456.1" answerText="The would probably die because there is no salt." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EV_25_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f2" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f3" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f4" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f5" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f6" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f7" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f8" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f9" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f10" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f11" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f12" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f13" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f14" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f15" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.25.457.1" answerText="It would die because freshwater is out of the range of tolerance." accuracy="correct">
+      <facetEntailment facetID="EV_25_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f2" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f3" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f4" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f5" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f6" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f7" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f8" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f9" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f10" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f11" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f12" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f13" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f14" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f15" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="EV.25.459.1" answerText="It would die without saltwater." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EV_25_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f2" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f3" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f4" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f5" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f6" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f7" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f8" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f9" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f10" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f11" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f12" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f13" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f14" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f15" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.25.461.1" answerText="It would die because it is indigenous to saltwater." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EV_25_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f2" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f3" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f4" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f5" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f6" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f7" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f8" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f9" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f10" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f11" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f12" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f13" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f14" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f15" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.25.462.1" answerText="The tree will die or difficult to survive." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EV_25_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f2" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f3" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f4" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f5" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f6" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f7" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f8" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f9" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f10" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f11" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f12" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f13" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f14" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f15" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.25.466.1" answerText="The way the mangrove tree might change because, it is in a different environment." accuracy="irrelevant">
+      <facetEntailment facetID="EV_25_f1" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f2" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f3" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f4" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f5" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f6" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f7" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f8" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f9" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f10" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f11" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f12" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f13" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f14" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f15" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.25.467.1" answerText="That the trees would die because of the less salt that was in the water." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EV_25_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f2" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f3" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f4" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f5" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f6" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f7" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f8" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f9" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f10" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f11" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f12" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f13" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f14" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f15" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.25.468.1" answerText="It might not grow; it would be so used to saltwater conditions, it could not live in freshwater." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EV_25_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f2" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f3" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f4" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f5" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f6" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f7" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f8" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f9" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f10" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f11" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f12" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f13" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f14" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f15" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.25.469.1" answerText="It would die. If it is only found in saltwater environments then it probably needs the salt." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EV_25_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f2" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f3" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f4" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f5" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f6" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f7" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f8" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f9" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f10" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f11" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f12" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f13" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f14" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f15" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.25.470.1" answerText="It might survive if it was in it is range of tolerance, but it would more than likely die because it needs salt to survive." accuracy="correct">
+      <facetEntailment facetID="EV_25_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f2" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f3" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f4" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f5" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f6" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f7" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f8" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f9" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f10" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f11" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f12" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f13" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f14" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f15" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="EV.25.472.1" answerText="It would most likely die because it can only grow in saltwater." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EV_25_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f2" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f3" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f4" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f5" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f6" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f7" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f8" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f9" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f10" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f11" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f12" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f13" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f14" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f15" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.25.478.1" answerText="Then it would mostly not grow or grow only a tiny bit, since there is not salt." accuracy="contradictory">
+      <facetEntailment facetID="EV_25_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f2" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f3" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f4" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f5" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f6" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f7" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f8" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f9" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f10" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f11" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f12" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f13" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f14" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f15" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.25.484.1" answerText="It will not grow." accuracy="contradictory">
+      <facetEntailment facetID="EV_25_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f2" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f3" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f4" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f5" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f6" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f7" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f8" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f9" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f10" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f11" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f12" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f13" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f14" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f15" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.25.495.1" answerText="I think it would die because it says it is only found in saltwater." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EV_25_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f2" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f3" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f4" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f5" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f6" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f7" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f8" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f9" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f10" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f11" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f12" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f13" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f14" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f15" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.25.496.1" answerText="It will still be good." accuracy="contradictory">
+      <facetEntailment facetID="EV_25_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f2" label="Contra-Infr"/>
+      <facetEntailment facetID="EV_25_f3" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f4" label="Contra-Infr"/>
+      <facetEntailment facetID="EV_25_f5" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f6" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f7" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f8" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f9" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f10" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f11" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f12" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f13" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f14" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f15" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.25.504.1" answerText="It might not grow like it would in it is optimum environment." accuracy="irrelevant">
+      <facetEntailment facetID="EV_25_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f2" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f3" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f4" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f5" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f6" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f7" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f8" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f9" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f10" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f11" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f12" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f13" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f14" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f15" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.25.508.1" answerText="The tree would die because it has been moved to a different place that is not it is natural habitat." accuracy="irrelevant">
+      <facetEntailment facetID="EV_25_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f2" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f3" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f4" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f5" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f6" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f7" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f8" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f9" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f10" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f11" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f12" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f13" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f14" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f15" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.25.522.1" answerText="The tree cannot perfect looks like good. Tree can death because found saltwater." accuracy="contradictory">
+      <facetEntailment facetID="EV_25_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f2" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f3" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f4" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f5" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f6" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f7" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f8" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f9" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f10" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f11" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f12" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f13" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f14" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f15" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.25.527.1" answerText="The plant will die because the tree is not used to different environment so that is why." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EV_25_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f2" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f3" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f4" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f5" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f6" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f7" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f8" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f9" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f10" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f11" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f12" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f13" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f14" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f15" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.25.529.1" answerText="The tree would die because it is only found in saltwater not freshwater." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EV_25_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f2" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f3" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f4" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f5" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f6" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f7" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f8" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f9" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f10" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f11" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f12" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f13" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f14" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f15" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.25.530.1" answerText="It might not grow because maybe it is not in the range of tolerance. Or it might still grow because it might still be in it is range of tolerance." accuracy="contradictory">
+      <facetEntailment facetID="EV_25_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f2" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f3" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f4" label="Self-Contra"/>
+      <facetEntailment facetID="EV_25_f5" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f6" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f7" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f8" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f9" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f10" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f11" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f12" label="Self-Contra"/>
+      <facetEntailment facetID="EV_25_f13" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f14" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f15" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="EV.25.532.1" answerText="It might die because you moved it from saltwater to freshwater." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EV_25_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f2" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f3" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f4" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f5" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f6" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f7" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f8" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f9" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f10" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f11" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f12" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f13" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f14" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f15" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.25.539.1" answerText="If you moved it, the tree would not grow because it feeds on saltwater not freshwater." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EV_25_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f2" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f3" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f4" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f5" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f6" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f7" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f8" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f9" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f10" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f11" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f12" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f13" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f14" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f15" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.25.543.1" answerText="The tree will start to change in colors and change now it grows, it might die." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EV_25_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f2" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f3" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f4" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f5" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f6" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f7" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f8" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f9" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f10" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f11" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f12" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f13" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f14" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f15" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.25.545.1" answerText="The mangrove tree will end up being dead because it is only saltwater tree." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EV_25_f1" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f2" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f3" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f4" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f5" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f6" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f7" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f8" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f9" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f10" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f11" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f12" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f13" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f14" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f15" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.25.546.1" answerText="Well it would probably die because it would need some salt to live." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EV_25_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f2" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f3" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f4" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f5" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f6" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f7" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f8" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f9" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f10" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f11" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f12" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f13" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f14" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f15" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.25.547.1" answerText="It would not grow as well or it would not grow at all." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EV_25_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f2" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f3" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f4" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f5" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f6" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f7" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f8" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f9" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f10" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f11" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f12" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f13" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f14" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f15" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.25.614.1" answerText="It would not grow because it is used to saltwater and it would die." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EV_25_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f2" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f3" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f4" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f5" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f6" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f7" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f8" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f9" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f10" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f11" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f12" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f13" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f14" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f15" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.25.628.1" answerText="Maybe the environment might change by taking the tree because maybe a tree keeps the place cool if you take it out it will be hot." accuracy="irrelevant">
+      <facetEntailment facetID="EV_25_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f2" label="Diff-Arg"/>
+      <facetEntailment facetID="EV_25_f3" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f4" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f5" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f6" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f7" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f8" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f9" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f10" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f11" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f12" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f13" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f14" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f15" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.25.629.1" answerText="I think that it would die because the environment not in the tree's range of tolerance for salt." accuracy="correct">
+      <facetEntailment facetID="EV_25_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f2" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f3" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f4" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f5" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f6" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f7" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f8" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f9" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f10" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f11" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f12" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f13" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f14" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f15" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.25.633.1" answerText="It would probably die because of all the different factors." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EV_25_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f2" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f3" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f4" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f5" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f6" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f7" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f8" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f9" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f10" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f11" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f12" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f13" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f14" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f15" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.25.634.1" answerText="It would not grow because if is used to saltwater. The change of environments makes a difference." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EV_25_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f2" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f3" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f4" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f5" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f6" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f7" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f8" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f9" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f10" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f11" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f12" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f13" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f14" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f15" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.25.635.1" answerText="It would not grow as good. Because if it is only found in saltwater environments I do not think it would grow as well." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EV_25_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f2" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f3" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f4" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f5" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f6" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f7" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f8" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f9" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f10" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f11" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f12" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f13" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f14" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f15" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.25.636.1" answerText="It would die because it is use to the saltwater." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EV_25_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f2" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f3" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f4" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f5" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f6" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f7" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f8" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f9" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f10" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f11" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f12" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f13" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f14" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f15" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.25.639.1" answerText="If you move in a saltwater tree to a freshwater environment it might die." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EV_25_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f2" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f3" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f4" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f5" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f6" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f7" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f8" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f9" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f10" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f11" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f12" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f13" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f14" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f15" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.25.640.1" answerText="It would die soon, because it only lives in saltwater." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EV_25_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f2" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f3" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f4" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f5" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f6" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f7" label="Inferred"/>
+      <facetEntailment facetID="EV_25_f8" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f9" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f10" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f11" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f12" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f13" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f14" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f15" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.25.642.1" answerText="The tree would probably die because it would need the salt to survive." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EV_25_f1" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f2" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f3" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f4" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f5" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f6" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f7" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f8" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f9" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f10" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f11" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f12" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f13" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f14" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f15" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.25.645.1" answerText="I think the mangrove tree would probably die. Because plants need their optimum environment to survive." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EV_25_f1" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f2" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f3" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f4" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f5" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f6" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f7" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f8" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f9" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f10" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f11" label="Assumed"/>
+      <facetEntailment facetID="EV_25_f12" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f13" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f14" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f15" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.25.646.1" answerText="The mangrove tree will die because it is in a freshwater environment not a saltwater environment." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EV_25_f1" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f2" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f3" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f4" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f5" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f6" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f7" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f8" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f9" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f10" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f11" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f12" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f13" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f14" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f15" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="EV.25.647.1" answerText="The mangrove would die because it is a tree only found in saltwater. So if you put the mangrove in freshwater, the mangrove would die." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EV_25_f1" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f2" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f3" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f4" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f5" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f6" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f7" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f8" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f9" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f10" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f11" label="Expressed"/>
+      <facetEntailment facetID="EV_25_f12" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f13" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f14" label="Unaddressed"/>
+      <facetEntailment facetID="EV_25_f15" label="Unaddressed"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

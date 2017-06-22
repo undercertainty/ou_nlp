@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<question testSet="unseen-answers" id="VB_1" module="VB">
+  <questionText>How do you define a controlled experiment?</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="VB_1-a1" text="An experiment is controlled if only one variable is changed at a time.">
+      <tokens>
+        <token id="VB_1_ra1">An</token>
+        <token id="VB_1_ra2">experiment</token>
+        <token id="VB_1_ra3">is</token>
+        <token id="VB_1_ra4">controlled</token>
+        <token id="VB_1_ra5">if</token>
+        <token id="VB_1_ra6">only</token>
+        <token id="VB_1_ra7">one</token>
+        <token id="VB_1_ra8">variable</token>
+        <token id="VB_1_ra9">is</token>
+        <token id="VB_1_ra10">changed</token>
+        <token id="VB_1_ra11">at</token>
+        <token id="VB_1_ra12">a</token>
+        <token id="VB_1_ra13">time</token>
+        <token id="VB_1_ra14">.</token>
+      </tokens>
+      <facets>
+        <facet id="VB_1_f1" govNum="VB_1_ra2" modNum="VB_1_ra4" reltn="Be" govText="experiment" isAssumed="true" modText="controlled"/>
+        <facet id="VB_1_f2" govNum="VB_1_ra8" modNum="VB_1_ra7" reltn="NMod" govText="variable" modText="one"/>
+        <facet id="VB_1_f3" govNum="VB_1_ra7" modNum="VB_1_ra6" reltn="AMod" govText="one" modText="only"/>
+        <facet id="VB_1_f4" govNum="VB_1_ra10" modNum="VB_1_ra8" reltn="Patient" govText="changed" modText="variable"/>
+        <facet id="VB_1_f5" govNum="VB_1_ra10" modNum="VB_1_ra13" reltn="Time_at" govText="changed" modText="time"/>
+        <facet id="VB_1_f6" govNum="VB_1_ra3" modNum="VB_1_ra10" reltn="Cause_if" childProp2Facet2="VB_1_f5" childProp1Facet1="VB_1_f1" govText="is" isAssumed="true" modText="changed" childProp2Facet1="VB_1_f4"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="VB.1.381.1" answerText="A controlled experiment is where you change a variable." accuracy="correct">
+      <facetEntailment facetID="VB_1_f1" label="Expressed"/>
+      <facetEntailment facetID="VB_1_f2" label="Inferred"/>
+      <facetEntailment facetID="VB_1_f3" label="Unaddressed"/>
+      <facetEntailment facetID="VB_1_f4" label="Expressed"/>
+      <facetEntailment facetID="VB_1_f5" label="Inferred"/>
+      <facetEntailment facetID="VB_1_f6" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="VB.1.511.1" answerText="You just work with the experiment and get it over with." accuracy="irrelevant">
+      <facetEntailment facetID="VB_1_f1" label="Assumed"/>
+      <facetEntailment facetID="VB_1_f2" label="Unaddressed"/>
+      <facetEntailment facetID="VB_1_f3" label="Unaddressed"/>
+      <facetEntailment facetID="VB_1_f4" label="Unaddressed"/>
+      <facetEntailment facetID="VB_1_f5" label="Unaddressed"/>
+      <facetEntailment facetID="VB_1_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="VB.1.632.1" answerText="To find the answer." accuracy="irrelevant">
+      <facetEntailment facetID="VB_1_f1" label="Assumed"/>
+      <facetEntailment facetID="VB_1_f2" label="Unaddressed"/>
+      <facetEntailment facetID="VB_1_f3" label="Unaddressed"/>
+      <facetEntailment facetID="VB_1_f4" label="Unaddressed"/>
+      <facetEntailment facetID="VB_1_f5" label="Unaddressed"/>
+      <facetEntailment facetID="VB_1_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="VB.1.634.1" answerText="Only change one variable." accuracy="correct">
+      <facetEntailment facetID="VB_1_f1" label="Assumed"/>
+      <facetEntailment facetID="VB_1_f2" label="Expressed"/>
+      <facetEntailment facetID="VB_1_f3" label="Expressed"/>
+      <facetEntailment facetID="VB_1_f4" label="Expressed"/>
+      <facetEntailment facetID="VB_1_f5" label="Inferred"/>
+      <facetEntailment facetID="VB_1_f6" label="Assumed"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

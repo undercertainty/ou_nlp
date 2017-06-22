@@ -1,0 +1,1248 @@
+<?xml version="1.0"?>
+<question testSet="unseen-domains" id="WA_51" module="WA">
+  <questionText>Anna spilled half of her cup of water on the kitchen floor. The other half was still in the cup. When she came back hours later, all of the water on the floor had evaporated but most of the water in the cup was still there. (Anna knew that no one had wiped up the water on the floor.) Explain to Anna why the water on the floor had all evaporated but most of the water in the cup had not.</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="WA_51-a1" text="The water on the floor had a much larger surface area. The water in the cup had a much smaller surface area.">
+      <tokens>
+        <token id="WA_51_ra1">The</token>
+        <token id="WA_51_ra2">water</token>
+        <token id="WA_51_ra3">on</token>
+        <token id="WA_51_ra4">the</token>
+        <token id="WA_51_ra5">floor</token>
+        <token id="WA_51_ra6">had</token>
+        <token id="WA_51_ra7">a</token>
+        <token id="WA_51_ra8">much</token>
+        <token id="WA_51_ra9">larger</token>
+        <token id="WA_51_ra10">surface</token>
+        <token id="WA_51_ra11">area</token>
+        <token id="WA_51_ra12">.</token>
+        <token id="WA_51_ra13">The</token>
+        <token id="WA_51_ra14">water</token>
+        <token id="WA_51_ra15">in</token>
+        <token id="WA_51_ra16">the</token>
+        <token id="WA_51_ra17">cup</token>
+        <token id="WA_51_ra18">had</token>
+        <token id="WA_51_ra19">a</token>
+        <token id="WA_51_ra20">much</token>
+        <token id="WA_51_ra21">smaller</token>
+        <token id="WA_51_ra22">surface</token>
+        <token id="WA_51_ra23">area</token>
+        <token id="WA_51_ra24">.</token>
+      </tokens>
+      <facets>
+        <facet id="WA_51_f1" govNum="WA_51_ra2" modNum="WA_51_ra5" reltn="Location_on" govText="water" isAssumed="true" modText="floor"/>
+        <facet id="WA_51_f2" govNum="WA_51_ra2" modNum="WA_51_ra11" reltn="Have" govText="water" modText="area"/>
+        <facet id="WA_51_f3" govNum="WA_51_ra11" modNum="WA_51_ra10" reltn="NMod" govText="area" modText="surface"/>
+        <facet id="WA_51_f4" govNum="WA_51_ra11" modNum="WA_51_ra9" reltn="NMod" govText="area" modText="larger"/>
+        <facet id="WA_51_f5" govNum="WA_51_ra9" modNum="WA_51_ra8" reltn="AMod" govText="larger" modText="much"/>
+        <facet id="WA_51_f6" govNum="WA_51_ra14" modNum="WA_51_ra17" reltn="Location_in" govText="water" modText="cup"/>
+        <facet id="WA_51_f7" govNum="WA_51_ra14" modNum="WA_51_ra23" reltn="Have" govText="water" modText="area"/>
+        <facet id="WA_51_f8" govNum="WA_51_ra23" modNum="WA_51_ra22" reltn="NMod" govText="area" modText="surface"/>
+        <facet id="WA_51_f9" govNum="WA_51_ra23" modNum="WA_51_ra21" reltn="NMod" govText="area" modText="smaller"/>
+        <facet id="WA_51_f10" govNum="WA_51_ra21" modNum="WA_51_ra20" reltn="AMod" govText="smaller" modText="much"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="WA.51.171.1" answerText="Because the water on the floor had more room to evaporate and in the cup it only had a little bit of room." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="WA_51_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f7" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f8" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f10" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.51.176.1" answerText="The water on the floor had a bigger space, more open, to evaporate and the cup had smaller space, less space, to evaporate." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="WA_51_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f3" label="Inferred"/>
+      <facetEntailment facetID="WA_51_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f7" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f8" label="Inferred"/>
+      <facetEntailment facetID="WA_51_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f10" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.51.178.1" answerText="The wider the surface the faster evaporation the skinnier the surface the less evaporation." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="WA_51_f1" label="Assumed"/>
+      <facetEntailment facetID="WA_51_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f6" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f7" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f8" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f10" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.51.180.1" answerText="The water evaporated at it was in the air." accuracy="irrelevant">
+      <facetEntailment facetID="WA_51_f1" label="Assumed"/>
+      <facetEntailment facetID="WA_51_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f6" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f7" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f8" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f9" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f10" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.51.181.1" answerText="It all evaporated because the water on the floor was wider and had more area while the cup full of water did not have as much area and the more area you have the easier it is to evaporate." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="WA_51_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f7" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f8" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f10" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.51.182.1" answerText="Well Anna, in science, I learned that when water is in a more open area, then water evaporates faster. So, since tile and floor do not have any boundaries or wall covering the outside, the water on the floor evaporated faster, but since the water in the cup has boundaries, the water in the cup did not evaporate as fast." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="WA_51_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f7" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f8" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f10" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.51.184.1" answerText="Well the water on the floor had evaporated faster because, there was nothing surrounding it. Also the water in the cup surrounded so it evaporated slowly." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="WA_51_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f2" label="Diff-Arg"/>
+      <facetEntailment facetID="WA_51_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f7" label="Diff-Arg"/>
+      <facetEntailment facetID="WA_51_f8" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f9" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f10" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.51.185.1" answerText="The water on the floor evaporated because of a situation called condensation." accuracy="irrelevant">
+      <facetEntailment facetID="WA_51_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f6" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f7" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f8" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f9" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f10" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.51.186.1" answerText="The floor has a wider surface area than the cup so the water on the floor evaporated faster than the water in the cup." accuracy="correct">
+      <facetEntailment facetID="WA_51_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f7" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f8" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f10" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.51.188.1" answerText="Because the more the water is exposed the faster it will evaporate." accuracy="irrelevant">
+      <facetEntailment facetID="WA_51_f1" label="Assumed"/>
+      <facetEntailment facetID="WA_51_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f6" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f7" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f8" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f9" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f10" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.51.189.1" answerText="When water has more room to evaporate like on the floor it evaporates faster. When it is in a cup it evaporates slower because it has less room to evaporate." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="WA_51_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f3" label="Inferred"/>
+      <facetEntailment facetID="WA_51_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f7" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f8" label="Inferred"/>
+      <facetEntailment facetID="WA_51_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f10" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.51.193.1" answerText="The water on the floor had more surface area so it evaporated quickly." accuracy="correct">
+      <facetEntailment facetID="WA_51_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_51_f7" label="Inferred"/>
+      <facetEntailment facetID="WA_51_f8" label="Inferred"/>
+      <facetEntailment facetID="WA_51_f9" label="Inferred"/>
+      <facetEntailment facetID="WA_51_f10" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.51.196.1" answerText="The water on the floor evaporated faster because larger surface." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="WA_51_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_51_f7" label="Inferred"/>
+      <facetEntailment facetID="WA_51_f8" label="Inferred"/>
+      <facetEntailment facetID="WA_51_f9" label="Inferred"/>
+      <facetEntailment facetID="WA_51_f10" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.51.198.1" answerText="Because the floor has more surface area than the cup and the widest surface area the more evaporation." accuracy="correct">
+      <facetEntailment facetID="WA_51_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f7" label="Inferred"/>
+      <facetEntailment facetID="WA_51_f8" label="Inferred"/>
+      <facetEntailment facetID="WA_51_f9" label="Inferred"/>
+      <facetEntailment facetID="WA_51_f10" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.51.206.1" answerText="The water on the floor spread out and had a bigger surface area causing the water to evaporate at a quicker rate." accuracy="correct">
+      <facetEntailment facetID="WA_51_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_51_f7" label="Inferred"/>
+      <facetEntailment facetID="WA_51_f8" label="Inferred"/>
+      <facetEntailment facetID="WA_51_f9" label="Inferred"/>
+      <facetEntailment facetID="WA_51_f10" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.51.209.1" answerText="The water on the floor evaporated quicker because of the surface area was big. But the water in the cup evaporated slower because the surface area was small." accuracy="correct">
+      <facetEntailment facetID="WA_51_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f7" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f8" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f10" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.51.214.1" answerText="The reason the water on the floor evaporated is because it had more space to spread out and the cup did not." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="WA_51_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f3" label="Inferred"/>
+      <facetEntailment facetID="WA_51_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_51_f7" label="Inferred"/>
+      <facetEntailment facetID="WA_51_f8" label="Inferred"/>
+      <facetEntailment facetID="WA_51_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f10" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.51.215.1" answerText="Because of the floor has a bigger surface area and the cup does not." accuracy="correct">
+      <facetEntailment facetID="WA_51_f1" label="Assumed"/>
+      <facetEntailment facetID="WA_51_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_51_f7" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f8" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f10" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.51.216.1" answerText="The water on the floor changed to water vapor and the water vapor changed to the water in the cup." accuracy="irrelevant">
+      <facetEntailment facetID="WA_51_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f2" label="Diff-Arg"/>
+      <facetEntailment facetID="WA_51_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f7" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f8" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f9" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f10" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.51.219.1" answerText="The water vapor had to take the water on the floor but the water vapor in the cup did not." accuracy="irrelevant">
+      <facetEntailment facetID="WA_51_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f7" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f8" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f9" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f10" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.51.220.1" answerText="Because the bigger the surface area is the more evaporation will happen." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="WA_51_f1" label="Assumed"/>
+      <facetEntailment facetID="WA_51_f2" label="Inferred"/>
+      <facetEntailment facetID="WA_51_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f6" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f7" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f8" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f9" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f10" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.51.221.1" answerText="It evaporated because you left it on the floor for a long time and the cup water was still there because it was not on the floor but it still evaporated a little in the cup." accuracy="irrelevant">
+      <facetEntailment facetID="WA_51_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f7" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f8" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f9" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f10" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.51.222.1" answerText="The water on the floor had a bigger space so it evaporated faster." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="WA_51_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_51_f7" label="Inferred"/>
+      <facetEntailment facetID="WA_51_f8" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f9" label="Inferred"/>
+      <facetEntailment facetID="WA_51_f10" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.51.223.1" answerText="Because the cup had less surface area, and the water on the ground had more surface area, and water evaporates easier when there is more surface area." accuracy="correct">
+      <facetEntailment facetID="WA_51_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f7" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f8" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f10" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.51.226.1" answerText="Well, the water on the floor had more surface area to evaporate. The water in the cup had less surface area. So, the water on the floor could evaporate faster." accuracy="correct">
+      <facetEntailment facetID="WA_51_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f7" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f8" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f10" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.51.229.1" answerText="That the water on the floor was more spread out than the cup and the bigger the surface area the faster something evaporates." accuracy="correct">
+      <facetEntailment facetID="WA_51_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f7" label="Inferred"/>
+      <facetEntailment facetID="WA_51_f8" label="Inferred"/>
+      <facetEntailment facetID="WA_51_f9" label="Inferred"/>
+      <facetEntailment facetID="WA_51_f10" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.51.231.1" answerText="The water in the cup did evaporate, but the water on the floor that evaporated was in the air and went into you cup." accuracy="irrelevant">
+      <facetEntailment facetID="WA_51_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f2" label="Diff-Arg"/>
+      <facetEntailment facetID="WA_51_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f7" label="Diff-Arg"/>
+      <facetEntailment facetID="WA_51_f8" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f9" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f10" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.51.248.1" answerText="Most of the water on the floor evaporated because it had a lot of surface area and in the cup it did not have a lot of surface area and the bigger the surface area the more it evaporates." accuracy="correct">
+      <facetEntailment facetID="WA_51_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f7" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f8" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f10" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.51.250.1" answerText="Most of the water that she spilled evaporated more because it had more surface area and the cup had smaller area." accuracy="correct">
+      <facetEntailment facetID="WA_51_f1" label="Assumed"/>
+      <facetEntailment facetID="WA_51_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f7" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f8" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f10" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.51.252.1" answerText="Most of the water on the floor evaporate because the surface area is a lot bigger than the surface area on the opening of the cup." accuracy="correct">
+      <facetEntailment facetID="WA_51_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f7" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f8" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f10" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.51.257.1" answerText="The water on the floor had evaporated but the cup water did not because the floor had the larger surface area which allowed the water to evaporate quicker. The cup water did not." accuracy="correct">
+      <facetEntailment facetID="WA_51_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f7" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f8" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f10" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.51.262.1" answerText="Because the water on the floor was open to the air and had more surface area, but the cup had less surface area and was not really open to the air." accuracy="correct">
+      <facetEntailment facetID="WA_51_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f7" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f8" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f10" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.51.263.1" answerText="The water on the floor had more room for the water to evaporate and the water in the cup did not have as much room." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="WA_51_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f7" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f8" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f10" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.51.264.1" answerText="Because it was probably hot and it all evaporated and the water in the cup was probably cold." accuracy="irrelevant">
+      <facetEntailment facetID="WA_51_f1" label="Assumed"/>
+      <facetEntailment facetID="WA_51_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f7" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f8" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f9" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f10" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.51.265.1" answerText="Water on the floor evaporated on the floor but the water in the cup did not evaporate." accuracy="irrelevant">
+      <facetEntailment facetID="WA_51_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f7" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f8" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f9" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f10" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.51.266.1" answerText="The reason is the water on the floor had more surface area so it evaporated quicker, and the cup had less surface area so it evaporated slower." accuracy="correct">
+      <facetEntailment facetID="WA_51_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f7" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f8" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f10" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.51.267.1" answerText="Because of the opening on the floor it had nothing around it and the cup water it did not have as big as an opening." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="WA_51_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f2" label="Inferred"/>
+      <facetEntailment facetID="WA_51_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f4" label="Inferred"/>
+      <facetEntailment facetID="WA_51_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_51_f7" label="Inferred"/>
+      <facetEntailment facetID="WA_51_f8" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f10" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.51.279.1" answerText="First, the water on the floor had more surface area. So it evaporated quicker. Although the water in the cup had less surface area. So it evaporated slower." accuracy="correct">
+      <facetEntailment facetID="WA_51_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f7" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f8" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f10" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.51.281.1" answerText="Because the water on the kitchen floor had more room on the floor and the cup did not." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="WA_51_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f7" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f8" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f10" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.51.282.1" answerText="The water on the floor had more surface area than the water in the cup." accuracy="correct">
+      <facetEntailment facetID="WA_51_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f7" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f8" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f10" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.51.287.1" answerText="The water on the floor evaporated into the air faster." accuracy="irrelevant">
+      <facetEntailment facetID="WA_51_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f6" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f7" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f8" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f9" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f10" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.51.346.1" answerText="Because the water on the floor had more surface area, and the water in the cup did not." accuracy="correct">
+      <facetEntailment facetID="WA_51_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f7" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f8" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f10" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.51.350.1" answerText="Because the water is not in the cup. So the water went up into the air and went to the clouds." accuracy="irrelevant">
+      <facetEntailment facetID="WA_51_f1" label="Assumed"/>
+      <facetEntailment facetID="WA_51_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f6" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f7" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f8" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f9" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f10" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.51.356.1" answerText="Anna the water on the floor had been evaporated. Evaporate means it went up into the air." accuracy="irrelevant">
+      <facetEntailment facetID="WA_51_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f6" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f7" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f8" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f9" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f10" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.51.362.1" answerText="Because the water warms up, and so it might have went through the vent duct, outside and evaporated in the clouds." accuracy="irrelevant">
+      <facetEntailment facetID="WA_51_f1" label="Assumed"/>
+      <facetEntailment facetID="WA_51_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f6" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f7" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f8" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f9" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f10" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.51.370.1" answerText="It was spread out like surface area that is why it evaporates fast.." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="WA_51_f1" label="Assumed"/>
+      <facetEntailment facetID="WA_51_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f4" label="Inferred"/>
+      <facetEntailment facetID="WA_51_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f6" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f7" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f8" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f9" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f10" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.51.384.1" answerText="The water on the floor was more exposed to the air, the water in the cup had a more closed surface." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="WA_51_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f2" label="Inferred"/>
+      <facetEntailment facetID="WA_51_f3" label="Inferred"/>
+      <facetEntailment facetID="WA_51_f4" label="Inferred"/>
+      <facetEntailment facetID="WA_51_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f7" label="Inferred"/>
+      <facetEntailment facetID="WA_51_f8" label="Inferred"/>
+      <facetEntailment facetID="WA_51_f9" label="Inferred"/>
+      <facetEntailment facetID="WA_51_f10" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.51.390.1" answerText="The water on the floor evaporated because it had a lot of surface area. The water in the cup did not evaporate as fast because it did not have as much surface area." accuracy="correct">
+      <facetEntailment facetID="WA_51_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_51_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f7" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f8" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f10" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.51.397.1" answerText="Because most of the water in the cup has cup for heated and custody but the water on the floor will be evaporate because they have not custody and heated things." accuracy="irrelevant">
+      <facetEntailment facetID="WA_51_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f7" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f8" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f9" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f10" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.51.399.1" answerText="Because the water that was on the floor had more space and it was spread out. The water in the cup had less space." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="WA_51_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f3" label="Inferred"/>
+      <facetEntailment facetID="WA_51_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f7" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f8" label="Inferred"/>
+      <facetEntailment facetID="WA_51_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f10" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.51.402.1" answerText="Because the larger space is easier to be evaporated. The water on the floor is quickly to become water vapor." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="WA_51_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_51_f7" label="Inferred"/>
+      <facetEntailment facetID="WA_51_f8" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f9" label="Inferred"/>
+      <facetEntailment facetID="WA_51_f10" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.51.417.1" answerText="The water on the floor evaporated before the water in the cup because the water on the floor had more air exposed to the water than the cup. When water has more air exposed to the air it evaporates faster." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="WA_51_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f7" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f8" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f10" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.51.422.1" answerText="The water on the floor had more surface area than the cup so the water on the floor evaporated faster." accuracy="correct">
+      <facetEntailment facetID="WA_51_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f7" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f8" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f10" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.51.424.1" answerText="Because the water on the floor exposed more surface area." accuracy="correct">
+      <facetEntailment facetID="WA_51_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_51_f7" label="Inferred"/>
+      <facetEntailment facetID="WA_51_f8" label="Inferred"/>
+      <facetEntailment facetID="WA_51_f9" label="Inferred"/>
+      <facetEntailment facetID="WA_51_f10" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.51.425.1" answerText="That's because when water has more room the faster it evaporates and opposite for the cup." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="WA_51_f1" label="Assumed"/>
+      <facetEntailment facetID="WA_51_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f7" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f8" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f10" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.51.426.1" answerText="Because the floors' amount of surface area is bigger. Bigger the quicker." accuracy="correct">
+      <facetEntailment facetID="WA_51_f1" label="Assumed"/>
+      <facetEntailment facetID="WA_51_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_51_f7" label="Inferred"/>
+      <facetEntailment facetID="WA_51_f8" label="Inferred"/>
+      <facetEntailment facetID="WA_51_f9" label="Inferred"/>
+      <facetEntailment facetID="WA_51_f10" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.51.427.1" answerText="The floor water was exposed to air more than the cup." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="WA_51_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f2" label="Inferred"/>
+      <facetEntailment facetID="WA_51_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f4" label="Inferred"/>
+      <facetEntailment facetID="WA_51_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f7" label="Inferred"/>
+      <facetEntailment facetID="WA_51_f8" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f9" label="Inferred"/>
+      <facetEntailment facetID="WA_51_f10" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.51.428.1" answerText="Because the water on the floor had more surface area which made it evaporate faster." accuracy="correct">
+      <facetEntailment facetID="WA_51_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f6" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f7" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f8" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f9" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f10" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.51.429.1" answerText="Because there was more exposed water on the floor." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="WA_51_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f2" label="Inferred"/>
+      <facetEntailment facetID="WA_51_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f4" label="Inferred"/>
+      <facetEntailment facetID="WA_51_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f6" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f7" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f8" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f9" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f10" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.51.430.1" answerText="The water with the largest surface area evaporating the fastest." accuracy="correct">
+      <facetEntailment facetID="WA_51_f1" label="Assumed"/>
+      <facetEntailment facetID="WA_51_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f6" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f7" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f8" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f9" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f10" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.51.435.1" answerText="The floor has more surface area than the cup which causes the water to evaporate more quicker than the water in the cup." accuracy="correct">
+      <facetEntailment facetID="WA_51_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f7" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f8" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f10" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.51.436.1" answerText="The water that was on the floor was exposed more to air so it evaporated quicker." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="WA_51_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f2" label="Inferred"/>
+      <facetEntailment facetID="WA_51_f3" label="Inferred"/>
+      <facetEntailment facetID="WA_51_f4" label="Inferred"/>
+      <facetEntailment facetID="WA_51_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f6" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f7" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f8" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f9" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f10" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.51.451.1" answerText="The water on the floor evaporated because it had a big surface area and the cup did not because it had a smaller surface area." accuracy="correct">
+      <facetEntailment facetID="WA_51_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_51_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f7" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f8" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f10" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.51.452.1" answerText="Because the floor was not and the cup was cold." accuracy="irrelevant">
+      <facetEntailment facetID="WA_51_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_51_f7" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f8" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f9" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f10" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.51.453.1" answerText="Water vapor." accuracy="irrelevant">
+      <facetEntailment facetID="WA_51_f1" label="Assumed"/>
+      <facetEntailment facetID="WA_51_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f6" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f7" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f8" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f9" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f10" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.51.454.1" answerText="Because the floor had a open space for all the water to evaporate, but the cup did not." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="WA_51_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f3" label="Inferred"/>
+      <facetEntailment facetID="WA_51_f4" label="Inferred"/>
+      <facetEntailment facetID="WA_51_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f7" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f8" label="Inferred"/>
+      <facetEntailment facetID="WA_51_f9" label="Inferred"/>
+      <facetEntailment facetID="WA_51_f10" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.51.489.1" answerText="The water on the floor had to evaporate because it had to but the water in the cup was surrounded by walls." accuracy="irrelevant">
+      <facetEntailment facetID="WA_51_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f7" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f8" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f9" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f10" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.51.490.1" answerText="Because if you spill it on the floor, there is more space, it is more spread out than the cup. Because more air is able to get to the water on the floor faster." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="WA_51_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f3" label="Inferred"/>
+      <facetEntailment facetID="WA_51_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f7" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f8" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f10" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.51.495.1" answerText="Since the water on the floor spread out it had more surface area. The more surface area, the quicker evaporation takes place." accuracy="correct">
+      <facetEntailment facetID="WA_51_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_51_f7" label="Inferred"/>
+      <facetEntailment facetID="WA_51_f8" label="Inferred"/>
+      <facetEntailment facetID="WA_51_f9" label="Inferred"/>
+      <facetEntailment facetID="WA_51_f10" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.51.498.1" answerText="Anna the water has more space on the ground than in a cup so on the ground it has more air to evaporate into than the cup." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="WA_51_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f3" label="Inferred"/>
+      <facetEntailment facetID="WA_51_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f7" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f8" label="Inferred"/>
+      <facetEntailment facetID="WA_51_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f10" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.51.503.1" answerText="The reason why the water on the floor evaporated is because there was a lot of surface area. The water in the cup was still there because all the water was very close together and water does not evaporate when there is a lot." accuracy="correct">
+      <facetEntailment facetID="WA_51_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_51_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f7" label="Inferred"/>
+      <facetEntailment facetID="WA_51_f8" label="Inferred"/>
+      <facetEntailment facetID="WA_51_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f10" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="WA.51.509.1" answerText="I disagree because evaporation is when water is made into vapor and in cold places like Wisconsin. Water evaporates outside and though heat speeds up the process it is not necessary." accuracy="irrelevant">
+      <facetEntailment facetID="WA_51_f1" label="Assumed"/>
+      <facetEntailment facetID="WA_51_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f6" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f7" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f8" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f9" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f10" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.51.529.1" answerText="The water on the floor is open to air. The water in the cup is not open to as much air. A lot evaporates when it is warm." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="WA_51_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f2" label="Inferred"/>
+      <facetEntailment facetID="WA_51_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f4" label="Inferred"/>
+      <facetEntailment facetID="WA_51_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f7" label="Inferred"/>
+      <facetEntailment facetID="WA_51_f8" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f9" label="Inferred"/>
+      <facetEntailment facetID="WA_51_f10" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.51.534.1" answerText="The water in the cup did not evaporate because the surface area of the floor is greater than the cup's." accuracy="correct">
+      <facetEntailment facetID="WA_51_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f7" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f8" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f10" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.51.539.1" answerText="Does not know." accuracy="non_domain">
+      <facetEntailment facetID="WA_51_f1" label="Assumed"/>
+      <facetEntailment facetID="WA_51_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f6" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f7" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f8" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f9" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f10" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.51.541.1" answerText="Because the water on the floor had evaporated because it was easier for it to evaporate . But the water left in the cup was surrounded by walls so it was harder for it to evaporate." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="WA_51_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f2" label="Diff-Arg"/>
+      <facetEntailment facetID="WA_51_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f7" label="Diff-Arg"/>
+      <facetEntailment facetID="WA_51_f8" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f9" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f10" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.51.542.1" answerText="The liquid water evaporated because it was probably sunny." accuracy="irrelevant">
+      <facetEntailment facetID="WA_51_f1" label="Assumed"/>
+      <facetEntailment facetID="WA_51_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f6" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f7" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f8" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f9" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f10" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.51.558.1" answerText="The cup has less shape than the floor. The floor is less dense than the cup." accuracy="irrelevant">
+      <facetEntailment facetID="WA_51_f1" label="Assumed"/>
+      <facetEntailment facetID="WA_51_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f6" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f7" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f8" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f9" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f10" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.51.559.1" answerText="The water on the floor is probably more warm than the cup so it evaporated faster." accuracy="irrelevant">
+      <facetEntailment facetID="WA_51_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f2" label="Diff-Arg"/>
+      <facetEntailment facetID="WA_51_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f7" label="Diff-Arg"/>
+      <facetEntailment facetID="WA_51_f8" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f9" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f10" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.51.560.1" answerText="Because the floor was cooler than the sides of the cup. So the water on the floor evaporated." accuracy="irrelevant">
+      <facetEntailment facetID="WA_51_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f2" label="Diff-Arg"/>
+      <facetEntailment facetID="WA_51_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f7" label="Diff-Arg"/>
+      <facetEntailment facetID="WA_51_f8" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f9" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f10" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.51.561.1" answerText="Because the water that was on the floor had more space and it was spread out. The water in the cup had less Because the water on the floor had more air to evaporate into, and the water in the cup did not evaporate because all the water did not have much room. Also the water on the floor spread across the floor so everything could evaporate at once." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="WA_51_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f7" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f8" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f10" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.51.563.1" answerText="Because when water is in a cup it is harder to evaporate than it is on the floor because the water that is on the floor is spread out." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="WA_51_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f3" label="Inferred"/>
+      <facetEntailment facetID="WA_51_f4" label="Inferred"/>
+      <facetEntailment facetID="WA_51_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f7" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f8" label="Inferred"/>
+      <facetEntailment facetID="WA_51_f9" label="Inferred"/>
+      <facetEntailment facetID="WA_51_f10" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.51.573.1" answerText="Because the water on the floor had more surface area than the water in the cup. The more surface area, the faster the water evaporates." accuracy="correct">
+      <facetEntailment facetID="WA_51_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f7" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f8" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f10" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.51.594.1" answerText="The floor is bigger and flat not a circle and a cup is not flat and is round and is big in height." accuracy="irrelevant">
+      <facetEntailment facetID="WA_51_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f7" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f8" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f9" label="Inferred"/>
+      <facetEntailment facetID="WA_51_f10" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.51.595.1" answerText="The surfaces area. The water was on the ground all over and it evaporated. The water in the cup was too deep for it to evaporate." accuracy="correct">
+      <facetEntailment facetID="WA_51_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f7" label="Diff-Arg"/>
+      <facetEntailment facetID="WA_51_f8" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f9" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f10" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.51.596.1" answerText="The floor has a bigger surface area than the cup. The larger the surface area. The faster the evaporation." accuracy="correct">
+      <facetEntailment facetID="WA_51_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f7" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f8" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f10" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.51.597.1" answerText="The reason why the water on the floor evaporated faster than the water in the cup is because of surface area. The more surface area there is, the faster the water evaporates." accuracy="correct">
+      <facetEntailment facetID="WA_51_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f7" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f8" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f10" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.51.598.1" answerText="Because of surface area the larger the surface area the more evaporation." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="WA_51_f1" label="Assumed"/>
+      <facetEntailment facetID="WA_51_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_51_f7" label="Inferred"/>
+      <facetEntailment facetID="WA_51_f8" label="Inferred"/>
+      <facetEntailment facetID="WA_51_f9" label="Inferred"/>
+      <facetEntailment facetID="WA_51_f10" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.51.599.1" answerText="When the water fell it moved around so it was thinner than the water in the cup it was so hot that heat made the water on the floor evaporated." accuracy="irrelevant">
+      <facetEntailment facetID="WA_51_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f7" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f8" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f9" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f10" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.51.604.1" answerText="Probably because the water left in the cup was ice." accuracy="irrelevant">
+      <facetEntailment facetID="WA_51_f1" label="Assumed"/>
+      <facetEntailment facetID="WA_51_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f7" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f8" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f9" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f10" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.51.605.1" answerText="The water on the floor evaporated because the surface area was big and the cup's was not as big." accuracy="correct">
+      <facetEntailment facetID="WA_51_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f7" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f8" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f10" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.51.609.1" answerText="The water in the cup probably did not have as much surface area as the water on the floor because the water on the floor was spread out and the water in the cup was not." accuracy="correct">
+      <facetEntailment facetID="WA_51_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f7" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f8" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f10" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.51.610.1" answerText="Because on the floor you can get under the water and you cannot in the glass." accuracy="irrelevant">
+      <facetEntailment facetID="WA_51_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f7" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f8" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f9" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f10" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.51.626.1" answerText="Because the water on the floor was out of something so the air took the water to make it evaporate - disappear but the water in the cup took more longer because it was in something." accuracy="irrelevant">
+      <facetEntailment facetID="WA_51_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f2" label="Diff-Arg"/>
+      <facetEntailment facetID="WA_51_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f7" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f8" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f9" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f10" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.51.632.1" answerText="The water on the floor turned into water vapor." accuracy="irrelevant">
+      <facetEntailment facetID="WA_51_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f6" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f7" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f8" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f9" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f10" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.51.633.1" answerText="It was splattered and evaporations faster." accuracy="irrelevant">
+      <facetEntailment facetID="WA_51_f1" label="Assumed"/>
+      <facetEntailment facetID="WA_51_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f6" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f7" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f8" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f9" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f10" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.51.637.1" answerText="The water on the floor change to water vapor and rose into the air. The water in the cup water vapor stuck to the side of the cup." accuracy="irrelevant">
+      <facetEntailment facetID="WA_51_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f7" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f8" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f9" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f10" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.51.638.1" answerText="The floor has more surface area than the cup so the floor evaporated all the water and the cup did not." accuracy="correct">
+      <facetEntailment facetID="WA_51_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f7" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f8" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f10" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.51.641.1" answerText="Because when you left some things out it evaporated and turned into water vapor." accuracy="irrelevant">
+      <facetEntailment facetID="WA_51_f1" label="Assumed"/>
+      <facetEntailment facetID="WA_51_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f6" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f7" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f8" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f9" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f10" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.51.642.1" answerText="Well the heat hitting the water on the floor so it evaporated. But the one in the cup the heat hit but not the water the cup only. So the cup become condense." accuracy="irrelevant">
+      <facetEntailment facetID="WA_51_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f2" label="Diff-Arg"/>
+      <facetEntailment facetID="WA_51_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_51_f7" label="Diff-Arg"/>
+      <facetEntailment facetID="WA_51_f8" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f9" label="Unaddressed"/>
+      <facetEntailment facetID="WA_51_f10" label="Unaddressed"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

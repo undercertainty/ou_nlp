@@ -1,0 +1,98 @@
+<?xml version="1.0"?>
+<question testSet="unseen-answers" qtype="Q_EXPLAIN_SPECIFIC" id="BULB_ONLY_EXPLAIN_WHY6" module="FaultFinding" stype="EVALUATE">
+  <questionText>Explain why you got a voltage reading of 1.5 for terminal 1 and terminal 6.</questionText>
+  <referenceAnswers>
+    <referenceAnswer category="BEST" id="answer240" fileID="BULB_ONLY_EXPLAIN_WHY6_ANS1">Terminals 1 and 6 are separated by the gap</referenceAnswer>
+    <referenceAnswer category="GOOD" id="answer241" fileID="BULB_C_VOLTAGE_EXPLAIN_WHY6_ANS2">Terminals 1 and 6 are not connected</referenceAnswer>
+    <referenceAnswer category="GOOD" id="answer242" fileID="BULB_ONLY_EXPLAIN_WHY6_ANS3">Terminals 1 and 6 are not connected and so in different electrical states</referenceAnswer>
+    <referenceAnswer category="BEST" id="answer243" fileID="BULB_ONLY_EXPLAIN_WHY6_ANS4">There is a gap between terminals 1 and 6</referenceAnswer>
+    <referenceAnswer category="MINIMAL" id="answer243.NEW" fileID="NONE">Terminals 1 and 6 are in different electrical states</referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer count="1" answerMatch="answer240" raw_text="terminal 6 is conncected to the positive terminal of the battery and terminal 1 is connected to the negative terminal of the battery" id="FaultFinding-BULB_ONLY_EXPLAIN_WHY6.sbj22-l1.qa232" accuracy="partially_correct_incomplete">
+      <token status="ok" id="tok4477">terminal</token>
+      <token status="numerical" id="tok4478">6</token>
+      <token status="ok" id="tok4479">is</token>
+      <token status="ok" id="tok4480" original="conncected">connected</token>
+      <token status="ok" id="tok4481">to</token>
+      <token status="ok" id="tok4482">the</token>
+      <token status="ok" id="tok4483">positive</token>
+      <token status="ok" id="tok4484">terminal</token>
+      <token status="ok" id="tok4485">of</token>
+      <token status="ok" id="tok4486">the</token>
+      <token status="ok" id="tok4487">battery</token>
+      <token status="ok" id="tok4488">and</token>
+      <token status="ok" id="tok4489">terminal</token>
+      <token status="numerical" id="tok4490">1</token>
+      <token status="ok" id="tok4491">is</token>
+      <token status="ok" id="tok4492">connected</token>
+      <token status="ok" id="tok4493">to</token>
+      <token status="ok" id="tok4494">the</token>
+      <token status="ok" id="tok4495">negative</token>
+      <token status="ok" id="tok4496">terminal</token>
+      <token status="ok" id="tok4497">of</token>
+      <token status="ok" id="tok4498">the</token>
+      <token status="ok" id="tok4499">battery</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer241" raw_text="terminal 6 is not connected to the negative terminal" id="FaultFinding-BULB_ONLY_EXPLAIN_WHY6.sbj22-l1.qa234" accuracy="partially_correct_incomplete">
+      <token status="ok" id="tok4532">terminal</token>
+      <token status="numerical" id="tok4533">6</token>
+      <token status="ok" id="tok4534">is</token>
+      <token status="ok" id="tok4535">not</token>
+      <token status="ok" id="tok4536">connected</token>
+      <token status="ok" id="tok4537">to</token>
+      <token status="ok" id="tok4538">the</token>
+      <token status="ok" id="tok4539">negative</token>
+      <token status="ok" id="tok4540">terminal</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer240" raw_text="there is a separation between them" id="FaultFinding-BULB_ONLY_EXPLAIN_WHY6.sbj27-l1.qa228" accuracy="partially_correct_incomplete">
+      <token status="ok" id="tok4335">there</token>
+      <token status="ok" id="tok4336">is</token>
+      <token status="ok" id="tok4337">a</token>
+      <token status="ok" id="tok4338">separation</token>
+      <token status="ok" id="tok4339">between</token>
+      <token status="ok" id="tok4340">them</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="Terminal 1 is not connected to terminal 1" id="FaultFinding-BULB_ONLY_EXPLAIN_WHY6.sbj39-l1.qa249" accuracy="contradictory">
+      <token status="ok" id="tok5027">Terminal</token>
+      <token status="numerical" id="tok5028">1</token>
+      <token status="ok" id="tok5029">is</token>
+      <token status="ok" id="tok5030">not</token>
+      <token status="ok" id="tok5031">connected</token>
+      <token status="ok" id="tok5032">to</token>
+      <token status="ok" id="tok5033">terminal</token>
+      <token status="numerical" id="tok5034">1</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer241" raw_text="they are not connected, there is a gap" id="FaultFinding-BULB_ONLY_EXPLAIN_WHY6.sbjb15-l1.qa177" accuracy="correct">
+      <token status="ok" id="tok3510">they</token>
+      <token status="ok" id="tok3511">are</token>
+      <token status="ok" id="tok3512">not</token>
+      <token status="ok" id="tok3513">connected</token>
+      <token status="ok" id="tok3514">there</token>
+      <token status="ok" id="tok3515">is</token>
+      <token status="ok" id="tok3516">a</token>
+      <token status="ok" id="tok3517">gap</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="Terminal 1 is connected to terminal 6." id="FaultFinding-BULB_ONLY_EXPLAIN_WHY6.sbjb20-l1.qa188" accuracy="contradictory">
+      <token status="ok" id="tok3751">Terminal</token>
+      <token status="numerical" id="tok3752">1</token>
+      <token status="ok" id="tok3753">is</token>
+      <token status="ok" id="tok3754">connected</token>
+      <token status="ok" id="tok3755">to</token>
+      <token status="ok" id="tok3756">terminal</token>
+      <token status="numerical" id="tok3757">6</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer240" raw_text="Terminal 1 and terminal 6 are separated by a gap." id="FaultFinding-BULB_ONLY_EXPLAIN_WHY6.sbjb34-l1.qa175" accuracy="correct">
+      <token status="ok" id="tok3601">Terminal</token>
+      <token status="numerical" id="tok3602">1</token>
+      <token status="ok" id="tok3603">and</token>
+      <token status="ok" id="tok3604">terminal</token>
+      <token status="numerical" id="tok3605">6</token>
+      <token status="ok" id="tok3606">are</token>
+      <token status="ok" id="tok3607">separated</token>
+      <token status="ok" id="tok3608">by</token>
+      <token status="ok" id="tok3609">a</token>
+      <token status="ok" id="tok3610">gap</token>
+    </studentAnswer>
+  </studentAnswers>
+</question>

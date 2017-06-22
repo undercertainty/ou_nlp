@@ -1,0 +1,284 @@
+<?xml version="1.0"?>
+<question id="ME_17d" module="ME">
+  <questionText> Denise made a circuit to light a bulb or run a motor off a D-cell battery. She used a special switch. Below is the schematic diagram of her circuit. The switch is inside the dotted box. Why will the motor run when she moves the switch to the right?</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="ME_17d-a1" text="There is a complete circuit connecting the motor to the D-cell battery.">
+      <tokens>
+        <token id="ME_17d_ra1">There</token>
+        <token id="ME_17d_ra2">is</token>
+        <token id="ME_17d_ra3">a</token>
+        <token id="ME_17d_ra4">complete</token>
+        <token id="ME_17d_ra5">circuit</token>
+        <token id="ME_17d_ra6">connecting</token>
+        <token id="ME_17d_ra7">the</token>
+        <token id="ME_17d_ra8">motor</token>
+        <token id="ME_17d_ra9">to</token>
+        <token id="ME_17d_ra10">the</token>
+        <token id="ME_17d_ra11">D-cell</token>
+        <token id="ME_17d_ra12">battery</token>
+        <token id="ME_17d_ra13">.</token>
+      </tokens>
+      <facets>
+        <facet id="ME_17d_f1" govNum="ME_17d_ra5" modNum="ME_17d_ra4" reltn="NMod" govText="circuit" modText="complete"/>
+        <facet id="ME_17d_f2" govNum="ME_17d_ra6" modNum="ME_17d_ra5" reltn="Means" govText="connecting" modText="circuit"/>
+        <facet id="ME_17d_f3" govNum="ME_17d_ra6" modNum="ME_17d_ra8" reltn="Patient" govText="connecting" modText="motor"/>
+        <facet id="ME_17d_f4" govNum="ME_17d_ra6" modNum="ME_17d_ra12" reltn="Destination_to" govText="connecting" modText="battery"/>
+        <facet id="ME_17d_f5" govNum="ME_17d_ra12" modNum="ME_17d_ra11" reltn="NMod" govText="battery" isAssumed="true" modText="D-cell"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="ME.17d.101.1" answerText="It will work because that is closing the switch." accuracy="correct">
+      <facetEntailment facetID="ME_17d_f1" label="Inferred"/>
+      <facetEntailment facetID="ME_17d_f2" label="Inferred"/>
+      <facetEntailment facetID="ME_17d_f3" label="Inferred"/>
+      <facetEntailment facetID="ME_17d_f4" label="Inferred"/>
+      <facetEntailment facetID="ME_17d_f5" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.17d.102.1" answerText="It will be a closed series." accuracy="correct">
+      <facetEntailment facetID="ME_17d_f1" label="Inferred"/>
+      <facetEntailment facetID="ME_17d_f2" label="Inferred"/>
+      <facetEntailment facetID="ME_17d_f3" label="Inferred"/>
+      <facetEntailment facetID="ME_17d_f4" label="Inferred"/>
+      <facetEntailment facetID="ME_17d_f5" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.17d.105.1" answerText="It will not work because you have to put the switch in front of the negative sign." accuracy="correct">
+      <facetEntailment facetID="ME_17d_f1" label="Inferred"/>
+      <facetEntailment facetID="ME_17d_f2" label="Inferred"/>
+      <facetEntailment facetID="ME_17d_f3" label="Inferred"/>
+      <facetEntailment facetID="ME_17d_f4" label="Inferred"/>
+      <facetEntailment facetID="ME_17d_f5" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.17d.107.1" answerText="That will happen because it will make a complete circuit with the motor." accuracy="correct">
+      <facetEntailment facetID="ME_17d_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_17d_f2" label="Expressed"/>
+      <facetEntailment facetID="ME_17d_f3" label="Expressed"/>
+      <facetEntailment facetID="ME_17d_f4" label="Inferred"/>
+      <facetEntailment facetID="ME_17d_f5" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.17d.108.1" answerText="Because it ends at the positive so it will work." accuracy="correct">
+      <facetEntailment facetID="ME_17d_f1" label="Inferred"/>
+      <facetEntailment facetID="ME_17d_f2" label="Inferred"/>
+      <facetEntailment facetID="ME_17d_f3" label="Inferred"/>
+      <facetEntailment facetID="ME_17d_f4" label="Inferred"/>
+      <facetEntailment facetID="ME_17d_f5" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.17d.115.1" answerText="It is a complete circuit and the bulb is not connected to that circuit, and the motor is." accuracy="correct">
+      <facetEntailment facetID="ME_17d_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_17d_f2" label="Expressed"/>
+      <facetEntailment facetID="ME_17d_f3" label="Expressed"/>
+      <facetEntailment facetID="ME_17d_f4" label="Inferred"/>
+      <facetEntailment facetID="ME_17d_f5" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.17d.118.1" answerText="It is not complete." accuracy="contradictory">
+      <facetEntailment facetID="ME_17d_f1" label="Contra-Expr"/>
+      <facetEntailment facetID="ME_17d_f2" label="Contra-Infr"/>
+      <facetEntailment facetID="ME_17d_f3" label="Contra-Infr"/>
+      <facetEntailment facetID="ME_17d_f4" label="Contra-Infr"/>
+      <facetEntailment facetID="ME_17d_f5" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.17d.119.1" answerText="That will happen because it is a complete circuit." accuracy="correct">
+      <facetEntailment facetID="ME_17d_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_17d_f2" label="Inferred"/>
+      <facetEntailment facetID="ME_17d_f3" label="Inferred"/>
+      <facetEntailment facetID="ME_17d_f4" label="Inferred"/>
+      <facetEntailment facetID="ME_17d_f5" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.17d.120.1" answerText="This will happen because the switch is turning that way making a complete circuit." accuracy="correct">
+      <facetEntailment facetID="ME_17d_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_17d_f2" label="Inferred"/>
+      <facetEntailment facetID="ME_17d_f3" label="Inferred"/>
+      <facetEntailment facetID="ME_17d_f4" label="Inferred"/>
+      <facetEntailment facetID="ME_17d_f5" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.17d.121.1" answerText="Same as the light but it is switch to the other side." accuracy="irrelevant">
+      <facetEntailment facetID="ME_17d_f1" label="Unaddressed"/>
+      <facetEntailment facetID="ME_17d_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ME_17d_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_17d_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_17d_f5" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.17d.140.1" answerText="Because the light bulb is on the right." accuracy="irrelevant">
+      <facetEntailment facetID="ME_17d_f1" label="Unaddressed"/>
+      <facetEntailment facetID="ME_17d_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ME_17d_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_17d_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_17d_f5" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.17d.141.1" answerText="Because if the switch is to the right it allows energy to flow to the motor." accuracy="correct">
+      <facetEntailment facetID="ME_17d_f1" label="Inferred"/>
+      <facetEntailment facetID="ME_17d_f2" label="Inferred"/>
+      <facetEntailment facetID="ME_17d_f3" label="Expressed"/>
+      <facetEntailment facetID="ME_17d_f4" label="Inferred"/>
+      <facetEntailment facetID="ME_17d_f5" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.17d.142.1" answerText="It got closer to the motor." accuracy="correct">
+      <facetEntailment facetID="ME_17d_f1" label="Inferred"/>
+      <facetEntailment facetID="ME_17d_f2" label="Inferred"/>
+      <facetEntailment facetID="ME_17d_f3" label="Inferred"/>
+      <facetEntailment facetID="ME_17d_f4" label="Inferred"/>
+      <facetEntailment facetID="ME_17d_f5" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.17d.143.1" answerText="Because it makes a complete circuit." accuracy="correct">
+      <facetEntailment facetID="ME_17d_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_17d_f2" label="Inferred"/>
+      <facetEntailment facetID="ME_17d_f3" label="Inferred"/>
+      <facetEntailment facetID="ME_17d_f4" label="Inferred"/>
+      <facetEntailment facetID="ME_17d_f5" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.17d.152.1" answerText="The energy will go in the motor and go back in the positive." accuracy="correct">
+      <facetEntailment facetID="ME_17d_f1" label="Inferred"/>
+      <facetEntailment facetID="ME_17d_f2" label="Inferred"/>
+      <facetEntailment facetID="ME_17d_f3" label="Expressed"/>
+      <facetEntailment facetID="ME_17d_f4" label="Inferred"/>
+      <facetEntailment facetID="ME_17d_f5" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.17d.154.1" answerText="That will happen because the most energy will flow through the motor because the motor is on the right." accuracy="correct">
+      <facetEntailment facetID="ME_17d_f1" label="Inferred"/>
+      <facetEntailment facetID="ME_17d_f2" label="Expressed"/>
+      <facetEntailment facetID="ME_17d_f3" label="Expressed"/>
+      <facetEntailment facetID="ME_17d_f4" label="Inferred"/>
+      <facetEntailment facetID="ME_17d_f5" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.17d.155.1" answerText="That happen because the electricity is flowing around in a circle." accuracy="correct">
+      <facetEntailment facetID="ME_17d_f1" label="Inferred"/>
+      <facetEntailment facetID="ME_17d_f2" label="Inferred"/>
+      <facetEntailment facetID="ME_17d_f3" label="Inferred"/>
+      <facetEntailment facetID="ME_17d_f4" label="Inferred"/>
+      <facetEntailment facetID="ME_17d_f5" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.17d.173.1" answerText="It will happen because the energy source is flowing right." accuracy="correct">
+      <facetEntailment facetID="ME_17d_f1" label="Inferred"/>
+      <facetEntailment facetID="ME_17d_f2" label="Inferred"/>
+      <facetEntailment facetID="ME_17d_f3" label="Inferred"/>
+      <facetEntailment facetID="ME_17d_f4" label="Inferred"/>
+      <facetEntailment facetID="ME_17d_f5" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.17d.176.1" answerText="The motor's circuit will be completed." accuracy="correct">
+      <facetEntailment facetID="ME_17d_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_17d_f2" label="Expressed"/>
+      <facetEntailment facetID="ME_17d_f3" label="Expressed"/>
+      <facetEntailment facetID="ME_17d_f4" label="Inferred"/>
+      <facetEntailment facetID="ME_17d_f5" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.17d.178.1" answerText="The switch will be off." accuracy="irrelevant">
+      <facetEntailment facetID="ME_17d_f1" label="Unaddressed"/>
+      <facetEntailment facetID="ME_17d_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ME_17d_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_17d_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_17d_f5" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.17d.180.1" answerText="It will happen because the switch moved so it turns off another thing." accuracy="irrelevant">
+      <facetEntailment facetID="ME_17d_f1" label="Unaddressed"/>
+      <facetEntailment facetID="ME_17d_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ME_17d_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_17d_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_17d_f5" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.17d.181.1" answerText="It will happen because it is flowing in a circle." accuracy="correct">
+      <facetEntailment facetID="ME_17d_f1" label="Inferred"/>
+      <facetEntailment facetID="ME_17d_f2" label="Inferred"/>
+      <facetEntailment facetID="ME_17d_f3" label="Inferred"/>
+      <facetEntailment facetID="ME_17d_f4" label="Inferred"/>
+      <facetEntailment facetID="ME_17d_f5" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.17d.183.1" answerText="It is a circle." accuracy="correct">
+      <facetEntailment facetID="ME_17d_f1" label="Inferred"/>
+      <facetEntailment facetID="ME_17d_f2" label="Inferred"/>
+      <facetEntailment facetID="ME_17d_f3" label="Inferred"/>
+      <facetEntailment facetID="ME_17d_f4" label="Inferred"/>
+      <facetEntailment facetID="ME_17d_f5" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.17d.185.1" answerText="Because the energy still has a countless form of energy." accuracy="irrelevant">
+      <facetEntailment facetID="ME_17d_f1" label="Unaddressed"/>
+      <facetEntailment facetID="ME_17d_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ME_17d_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_17d_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_17d_f5" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.17d.189.1" answerText="She will make a circle." accuracy="correct">
+      <facetEntailment facetID="ME_17d_f1" label="Inferred"/>
+      <facetEntailment facetID="ME_17d_f2" label="Inferred"/>
+      <facetEntailment facetID="ME_17d_f3" label="Inferred"/>
+      <facetEntailment facetID="ME_17d_f4" label="Inferred"/>
+      <facetEntailment facetID="ME_17d_f5" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.17d.207.1" answerText="The switch is closer." accuracy="irrelevant">
+      <facetEntailment facetID="ME_17d_f1" label="Unaddressed"/>
+      <facetEntailment facetID="ME_17d_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ME_17d_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_17d_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_17d_f5" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.17d.215.1" answerText="Power goes to the motor then to the light." accuracy="correct">
+      <facetEntailment facetID="ME_17d_f1" label="Inferred"/>
+      <facetEntailment facetID="ME_17d_f2" label="Inferred"/>
+      <facetEntailment facetID="ME_17d_f3" label="Inferred"/>
+      <facetEntailment facetID="ME_17d_f4" label="Inferred"/>
+      <facetEntailment facetID="ME_17d_f5" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.17d.216.1" answerText="The switch is not turned to the left." accuracy="irrelevant">
+      <facetEntailment facetID="ME_17d_f1" label="Unaddressed"/>
+      <facetEntailment facetID="ME_17d_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ME_17d_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_17d_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_17d_f5" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.17d.228.1" answerText="That will happen because there is no battery." accuracy="contradictory">
+      <facetEntailment facetID="ME_17d_f1" label="Unaddressed"/>
+      <facetEntailment facetID="ME_17d_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ME_17d_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_17d_f4" label="Contra-Expr"/>
+      <facetEntailment facetID="ME_17d_f5" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.17d.256.1" answerText="Because the D-cell is not in the middle." accuracy="irrelevant">
+      <facetEntailment facetID="ME_17d_f1" label="Unaddressed"/>
+      <facetEntailment facetID="ME_17d_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ME_17d_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_17d_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_17d_f5" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.17d.277.1" answerText="That is one circuit." accuracy="correct">
+      <facetEntailment facetID="ME_17d_f1" label="Inferred"/>
+      <facetEntailment facetID="ME_17d_f2" label="Inferred"/>
+      <facetEntailment facetID="ME_17d_f3" label="Inferred"/>
+      <facetEntailment facetID="ME_17d_f4" label="Inferred"/>
+      <facetEntailment facetID="ME_17d_f5" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.17d.291.1" answerText="I learned it in class." accuracy="non_domain">
+      <facetEntailment facetID="ME_17d_f1" label="Unaddressed"/>
+      <facetEntailment facetID="ME_17d_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ME_17d_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_17d_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_17d_f5" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.17d.311.1" answerText="Moving the switch to the motor will make it run." accuracy="irrelevant">
+      <facetEntailment facetID="ME_17d_f1" label="Unaddressed"/>
+      <facetEntailment facetID="ME_17d_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ME_17d_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_17d_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_17d_f5" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.17d.314.1" answerText="It will happen because it is strong." accuracy="irrelevant">
+      <facetEntailment facetID="ME_17d_f1" label="Unaddressed"/>
+      <facetEntailment facetID="ME_17d_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ME_17d_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_17d_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_17d_f5" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.17d.327.1" answerText="Because you turned it off." accuracy="contradictory">
+      <facetEntailment facetID="ME_17d_f1" label="Contra-Infr"/>
+      <facetEntailment facetID="ME_17d_f2" label="Contra-Infr"/>
+      <facetEntailment facetID="ME_17d_f3" label="Contra-Infr"/>
+      <facetEntailment facetID="ME_17d_f4" label="Contra-Infr"/>
+      <facetEntailment facetID="ME_17d_f5" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.17d.328.1" answerText="It can work if a wire is connected to the switch from the negative end." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="ME_17d_f1" label="Inferred"/>
+      <facetEntailment facetID="ME_17d_f2" label="Inferred"/>
+      <facetEntailment facetID="ME_17d_f3" label="Diff-Arg"/>
+      <facetEntailment facetID="ME_17d_f4" label="Inferred"/>
+      <facetEntailment facetID="ME_17d_f5" label="Assumed"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

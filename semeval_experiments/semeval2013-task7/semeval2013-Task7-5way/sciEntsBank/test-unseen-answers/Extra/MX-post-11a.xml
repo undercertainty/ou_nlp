@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<question testSet="unseen-answers" id="MX_11a" module="MX">
+  <questionText>Jim used a solid and water to make Mixture one (one spoon of solid in 100 milliliters water was clear with nothing on the bottom), Mixture 3 (3 spoons of solid in 100 milliliters water was clear with nothing on the bottom), Mixture 4 (4 spoons of solid in 100 milliliters water was clear with material on the bottom), and Mixture 5 (5 spoons of solid in 100 milliliters water was clear with material on the bottom) as shown below. He stirred each one and observed the results. What evidence does Jim have that the solid and water make a solution?</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="MX_11a-a1" text="The mixtures are all clear.">
+      <tokens>
+        <token id="MX_11a_ra1">The</token>
+        <token id="MX_11a_ra2">mixtures</token>
+        <token id="MX_11a_ra3">are</token>
+        <token id="MX_11a_ra4">all</token>
+        <token id="MX_11a_ra5">clear</token>
+        <token id="MX_11a_ra6">.</token>
+      </tokens>
+      <facets>
+        <facet id="MX_11a_f1" govNum="MX_11a_ra2" modNum="MX_11a_ra4" reltn="Quantifier" govText="mixtures" isAssumed="true" modText="all"/>
+        <facet id="MX_11a_f2" govNum="MX_11a_ra2" modNum="MX_11a_ra5" reltn="Be" govText="mixtures" modText="clear"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="MX.11a.392.1" answerText="That it is clear that is how he can know." accuracy="correct">
+      <facetEntailment facetID="MX_11a_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_11a_f2" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="MX.11a.464.1" answerText="Mixture one and 3 are both clear and nothing on bottom." accuracy="correct">
+      <facetEntailment facetID="MX_11a_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_11a_f2" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.11a.500.1" answerText="Mixture one and 2 are clear." accuracy="correct">
+      <facetEntailment facetID="MX_11a_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_11a_f2" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.11a.641.1" answerText="The mixture 4 and 5 are saturated and a mixture is not a solution until it is saturated." accuracy="irrelevant">
+      <facetEntailment facetID="MX_11a_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_11a_f2" label="Unaddressed"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

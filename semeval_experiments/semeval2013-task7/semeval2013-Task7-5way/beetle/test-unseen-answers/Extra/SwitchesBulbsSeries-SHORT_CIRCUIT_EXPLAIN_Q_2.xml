@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<question testSet="unseen-answers" qtype="Q_EXPLAIN_SPECIFIC" id="SHORT_CIRCUIT_EXPLAIN_Q_2" module="SwitchesBulbsSeries" stype="QUESTION">
+  <questionText>Explain why circuit 2 is not a short circuit.</questionText>
+  <referenceAnswers>
+    <referenceAnswer category="BEST" id="answer22" fileID="SHORT_CIRCUIT_EXPLAIN_Q_ANS2">The battery in 2 is not in a closed path</referenceAnswer>
+    <referenceAnswer category="GOOD" id="answer23" fileID="SHORT_CIRCUIT_EXPLAIN_Q_ANS3">there is no closed path containing the battery</referenceAnswer>
+    <referenceAnswer category="MINIMAL" id="answer24" fileID="SHORT_CIRCUIT_EXPLAIN_Q_ANS4">the battery is in an open path</referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer count="1" answerMatch="answer24" raw_text="Only one side of the battery is connected." id="SwitchesBulbsSeries-SHORT_CIRCUIT_EXPLAIN_Q_2.sbj9-l1.qa52" accuracy="partially_correct_incomplete">
+      <token status="ok" id="tok772">Only</token>
+      <token status="ok" id="tok773">one</token>
+      <token status="ok" id="tok774">side</token>
+      <token status="ok" id="tok775">of</token>
+      <token status="ok" id="tok776">the</token>
+      <token status="ok" id="tok777">battery</token>
+      <token status="ok" id="tok778">is</token>
+      <token status="ok" id="tok779">connected</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="bulb is connected to same terminal" id="SwitchesBulbsSeries-SHORT_CIRCUIT_EXPLAIN_Q_2.sbj24-l1.qa61" accuracy="contradictory">
+      <token status="ok" id="tok825">bulb</token>
+      <token status="ok" id="tok826">is</token>
+      <token status="ok" id="tok827">connected</token>
+      <token status="ok" id="tok828">to</token>
+      <token status="ok" id="tok829">same</token>
+      <token status="ok" id="tok830">terminal</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer24" raw_text="Because the battery is not completely connected." id="SwitchesBulbsSeries-SHORT_CIRCUIT_EXPLAIN_Q_2.sbj27-l1.qa60" accuracy="partially_correct_incomplete">
+      <token status="ok" id="tok985">Because</token>
+      <token status="ok" id="tok986">the</token>
+      <token status="ok" id="tok987">battery</token>
+      <token status="ok" id="tok988">is</token>
+      <token status="ok" id="tok989">not</token>
+      <token status="ok" id="tok990">completely</token>
+      <token status="ok" id="tok991">connected</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer22" raw_text="the positive and negative ends of battery 2 are not connected" id="SwitchesBulbsSeries-SHORT_CIRCUIT_EXPLAIN_Q_2.sbj37-l1.qa46" accuracy="partially_correct_incomplete">
+      <token status="ok" id="tok676">the</token>
+      <token status="ok" id="tok677">positive</token>
+      <token status="ok" id="tok678">and</token>
+      <token status="ok" id="tok679">negative</token>
+      <token status="ok" id="tok680">ends</token>
+      <token status="ok" id="tok681">of</token>
+      <token status="ok" id="tok682">battery</token>
+      <token status="numerical" id="tok683">2</token>
+      <token status="ok" id="tok684">are</token>
+      <token status="ok" id="tok685">not</token>
+      <token status="ok" id="tok686">connected</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer22" raw_text="Circuit 2 is not a short circuit because there is a bulb." id="SwitchesBulbsSeries-SHORT_CIRCUIT_EXPLAIN_Q_2.sbj39-l1.qa58" accuracy="partially_correct_incomplete">
+      <token status="ok" id="tok1025">Circuit</token>
+      <token status="numerical" id="tok1026">2</token>
+      <token status="ok" id="tok1027">is</token>
+      <token status="ok" id="tok1028">not</token>
+      <token status="ok" id="tok1029">a</token>
+      <token status="ok" id="tok1030">short</token>
+      <token status="ok" id="tok1031">circuit</token>
+      <token status="ok" id="tok1032">because</token>
+      <token status="ok" id="tok1033">there</token>
+      <token status="ok" id="tok1034">is</token>
+      <token status="ok" id="tok1035">a</token>
+      <token status="ok" id="tok1036">bulb</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer24" raw_text="The closed path is only contains the negative side of the battery and the bulb." id="SwitchesBulbsSeries-SHORT_CIRCUIT_EXPLAIN_Q_2.sbjb34-l1.qa41" accuracy="contradictory">
+      <token status="ok" id="tok652">The</token>
+      <token status="ok" id="tok653">closed</token>
+      <token status="ok" id="tok654">path</token>
+      <token status="ok" id="tok655">is</token>
+      <token status="ok" id="tok656">only</token>
+      <token status="ok" id="tok657">contains</token>
+      <token status="ok" id="tok658">the</token>
+      <token status="ok" id="tok659">negative</token>
+      <token status="ok" id="tok660">side</token>
+      <token status="ok" id="tok661">of</token>
+      <token status="ok" id="tok662">the</token>
+      <token status="ok" id="tok663">battery</token>
+      <token status="ok" id="tok664">and</token>
+      <token status="ok" id="tok665">the</token>
+      <token status="ok" id="tok666">bulb</token>
+    </studentAnswer>
+  </studentAnswers>
+</question>

@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<question testSet="unseen-answers" qtype="Q_EXPLAIN_GENERIC" id="DAMAGED_BULB_EXPLAIN_2_Q" module="SwitchesBulbsSeries" stype="QUESTION">
+  <questionText>Why does a damaged bulb impact a circuit?</questionText>
+  <referenceAnswers>
+    <referenceAnswer category="BEST" id="answer64" fileID="DAMAGED_BULB_EXPLAIN_2_Q_ANS1">a damaged bulb creates a gap</referenceAnswer>
+    <referenceAnswer category="GOOD" id="answer66" fileID="DAMAGED_BULB_EXPLAIN_2_Q_ANS3">there is a gap in the circuit</referenceAnswer>
+    <referenceAnswer category="GOOD" id="answer67" fileID="DAMAGED_BUILD_EXPLAIN_2_Q_ANS4">there is an open path</referenceAnswer>
+    <referenceAnswer category="MINIMAL" id="answer68" fileID="DAMAGED_BUILD_EXPLAIN_2_Q_ANS4A">there is no closed path</referenceAnswer>
+    <referenceAnswer category="GOOD" id="answer69" fileID="DAMAGED_BUILD_EXPLAIN_2_Q_ANS5">there is an incomplete circuit</referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer count="1" answerMatch="answer64" raw_text="if a bulb is damaged the path is opned at that bulb" id="SwitchesBulbsSeries-DAMAGED_BULB_EXPLAIN_2_Q.sbj3-l1.qa98" accuracy="correct">
+      <token status="ok" id="tok1724">if</token>
+      <token status="ok" id="tok1725">a</token>
+      <token status="ok" id="tok1726">bulb</token>
+      <token status="ok" id="tok1727">is</token>
+      <token status="ok" id="tok1728">damaged</token>
+      <token status="ok" id="tok1729">the</token>
+      <token status="ok" id="tok1730">path</token>
+      <token status="ok" id="tok1731">is</token>
+      <token status="ok" id="tok1732" original="opned">opened</token>
+      <token status="ok" id="tok1733">at</token>
+      <token status="ok" id="tok1734">that</token>
+      <token status="ok" id="tok1735">bulb</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer64" raw_text="because it creates a gap" id="SwitchesBulbsSeries-DAMAGED_BULB_EXPLAIN_2_Q.sbj10-l1.qa112" accuracy="correct">
+      <token status="ok" id="tok1860">because</token>
+      <token status="ok" id="tok1861">it</token>
+      <token status="ok" id="tok1862">creates</token>
+      <token status="ok" id="tok1863">a</token>
+      <token status="ok" id="tok1864">gap</token>
+    </studentAnswer>
+    <studentAnswer count="2" answerMatch="answer66" raw_text="there is a gap in the circuit" id="SwitchesBulbsSeries-DAMAGED_BULB_EXPLAIN_2_Q.sbj46-l1.qa105" accuracy="correct">
+      <token status="ok" id="tok1725">there</token>
+      <token status="ok" id="tok1726">is</token>
+      <token status="ok" id="tok1727">a</token>
+      <token status="ok" id="tok1728">gap</token>
+      <token status="ok" id="tok1729">in</token>
+      <token status="ok" id="tok1730">the</token>
+      <token status="ok" id="tok1731">circuit</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="doesnt allow for current to run through the circuit" id="SwitchesBulbsSeries-DAMAGED_BULB_EXPLAIN_2_Q.sbjb24-l1.qa85" accuracy="irrelevant">
+      <token status="ok" id="tok1371a">does</token>
+      <token status="pennTokenFragment" id="tok1371b" original="nt">n't</token>
+      <token status="ok" id="tok1372">allow</token>
+      <token status="ok" id="tok1373">for</token>
+      <token status="ok" id="tok1374">current</token>
+      <token status="ok" id="tok1375">to</token>
+      <token status="ok" id="tok1376">run</token>
+      <token status="ok" id="tok1377">through</token>
+      <token status="ok" id="tok1378">the</token>
+      <token status="ok" id="tok1379">circuit</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer69" raw_text="It destroys the path way" id="SwitchesBulbsSeries-DAMAGED_BULB_EXPLAIN_2_Q.sbjb37-l1.qa79" accuracy="correct">
+      <token status="ok" id="tok1319">It</token>
+      <token status="ok" id="tok1320">destroys</token>
+      <token status="ok" id="tok1321">the</token>
+      <token status="ok" id="tok1322+">pathway</token>
+    </studentAnswer>
+  </studentAnswers>
+</question>

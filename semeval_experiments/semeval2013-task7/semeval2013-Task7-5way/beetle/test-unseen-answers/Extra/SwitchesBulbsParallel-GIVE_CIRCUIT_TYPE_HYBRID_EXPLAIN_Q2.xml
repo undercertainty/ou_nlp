@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<question testSet="unseen-answers" qtype="Q_EXPLAIN_SPECIFIC" id="GIVE_CIRCUIT_TYPE_HYBRID_EXPLAIN_Q2" module="SwitchesBulbsParallel" stype="QUESTION">
+  <questionText>Explain your reasoning.</questionText>
+  <referenceAnswers>
+    <referenceAnswer category="BEST" id="answer423" fileID="GIVE_CIRCUIT_TYPE_HYBRID_EXPLAIN_Q2_ANS1">A and C are in different paths with the battery</referenceAnswer>
+    <referenceAnswer category="GOOD" id="answer424" fileID="GIVE_CIRCUIT_TYPE_HYBRID_EXPLAIN_Q2_ANS2">A and C are not in the same path with the battery</referenceAnswer>
+    <referenceAnswer category="GOOD" id="answer425" fileID="GIVE_CIRCUIT_TYPE_HYBRID_EXPLAIN_Q2_ANS3">A and C are in different paths</referenceAnswer>
+    <referenceAnswer category="MINIMAL" id="answer426" fileID="GIVE_CIRCUIT_TYPE_HYBRID_EXPLAIN_Q2_ANS4">A and C are not in the same path</referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer count="1" answerMatch="answer423" raw_text="bulbs a and c are in separate closed paths with the battery" id="SwitchesBulbsParallel-GIVE_CIRCUIT_TYPE_HYBRID_EXPLAIN_Q2.sbj18-l2.qa134" accuracy="correct">
+      <token status="ok" id="tok2739">bulbs</token>
+      <token status="ok" id="tok2740">a</token>
+      <token status="ok" id="tok2741">and</token>
+      <token status="ok" id="tok2742">c</token>
+      <token status="ok" id="tok2743">are</token>
+      <token status="ok" id="tok2744">in</token>
+      <token status="ok" id="tok2745">separate</token>
+      <token status="ok" id="tok2746">closed</token>
+      <token status="ok" id="tok2747">paths</token>
+      <token status="ok" id="tok2748">with</token>
+      <token status="ok" id="tok2749">the</token>
+      <token status="ok" id="tok2750">battery</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="bulb c is contained in a closed circuit" id="SwitchesBulbsParallel-GIVE_CIRCUIT_TYPE_HYBRID_EXPLAIN_Q2.sbj19-l2.qa174" accuracy="contradictory">
+      <token status="ok" id="tok3856">bulb</token>
+      <token status="ok" id="tok3857">c</token>
+      <token status="ok" id="tok3858">is</token>
+      <token status="ok" id="tok3859">contained</token>
+      <token status="ok" id="tok3860">in</token>
+      <token status="ok" id="tok3861">a</token>
+      <token status="ok" id="tok3862">closed</token>
+      <token status="ok" id="tok3863">circuit</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer423" raw_text="bulbs A and C are on different baths with the battery" id="SwitchesBulbsParallel-GIVE_CIRCUIT_TYPE_HYBRID_EXPLAIN_Q2.sbj33-l2.qa143" accuracy="correct">
+      <token status="ok" id="tok2733">bulbs</token>
+      <token status="ok" id="tok2734">A</token>
+      <token status="ok" id="tok2735">and</token>
+      <token status="ok" id="tok2736">C</token>
+      <token status="ok" id="tok2737">are</token>
+      <token status="ok" id="tok2738">on</token>
+      <token status="ok" id="tok2739">different</token>
+      <token status="ok" id="tok2740">baths</token>
+      <token status="ok" id="tok2741">with</token>
+      <token status="ok" id="tok2742">the</token>
+      <token status="ok" id="tok2743">battery</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer425" raw_text="they are in different closed paths and dont effect each other" id="SwitchesBulbsParallel-GIVE_CIRCUIT_TYPE_HYBRID_EXPLAIN_Q2.sbjb36-l2.qa122" accuracy="correct">
+      <token status="ok" id="tok2656">they</token>
+      <token status="ok" id="tok2657">are</token>
+      <token status="ok" id="tok2658">in</token>
+      <token status="ok" id="tok2659">different</token>
+      <token status="ok" id="tok2660">closed</token>
+      <token status="ok" id="tok2661">paths</token>
+      <token status="ok" id="tok2662">and</token>
+      <token status="ok" id="tok2663a">do</token>
+      <token status="pennTokenFragment" id="tok2663b" original="nt">n't</token>
+      <token status="ok" id="tok2664">effect</token>
+      <token status="ok" id="tok2665">each</token>
+      <token status="ok" id="tok2666">other</token>
+    </studentAnswer>
+  </studentAnswers>
+</question>

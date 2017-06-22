@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<question testSet="unseen-answers" id="MS_43a" module="MS">
+  <questionText>2 groups used marbles to weigh the same apple. Jin's group found the apple weighed 35 marbles and Bee's group found the same apple weighed 60 marbles. Both groups used the correct procedure. Since they weighed the same apple, what do you think happened to make the results different?</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="MS_43a-a1" text="The marbles used by the 2 groups were probably different masses.">
+      <tokens>
+        <token id="MS_43a_ra1">The</token>
+        <token id="MS_43a_ra2">marbles</token>
+        <token id="MS_43a_ra3">used</token>
+        <token id="MS_43a_ra4">by</token>
+        <token id="MS_43a_ra5">the</token>
+        <token id="MS_43a_ra6">2</token>
+        <token id="MS_43a_ra7">groups</token>
+        <token id="MS_43a_ra8">were</token>
+        <token id="MS_43a_ra9">probably</token>
+        <token id="MS_43a_ra10">different</token>
+        <token id="MS_43a_ra11">masses</token>
+        <token id="MS_43a_ra12">.</token>
+      </tokens>
+      <facets>
+        <facet id="MS_43a_f1" govNum="MS_43a_ra3" modNum="MS_43a_ra7" reltn="Agent_by" govText="used" isAssumed="true" modText="groups"/>
+        <facet id="MS_43a_f2" govNum="MS_43a_ra7" modNum="MS_43a_ra6" reltn="NMod" govText="groups" isAssumed="true" modText="2"/>
+        <facet id="MS_43a_f3" govNum="MS_43a_ra3" modNum="MS_43a_ra2" reltn="Theme" govText="used" isAssumed="true" modText="marbles"/>
+        <facet id="MS_43a_f4" govNum="MS_43a_ra2" modNum="MS_43a_ra11" reltn="Be" govText="marbles" isAssumed="true" modText="masses"/>
+        <facet id="MS_43a_f5" govNum="MS_43a_ra11" modNum="MS_43a_ra10" reltn="NMod" govText="masses" modText="different"/>
+        <facet id="MS_43a_f6" govNum="MS_43a_ra8" modNum="MS_43a_ra9" reltn="VMod" govText="were" modText="probably"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="MS.43a.293.1" answerText="Because Jin's group has less marbles and Bee's group had more marbles." accuracy="irrelevant">
+      <facetEntailment facetID="MS_43a_f1" label="Expressed"/>
+      <facetEntailment facetID="MS_43a_f2" label="Expressed"/>
+      <facetEntailment facetID="MS_43a_f3" label="Expressed"/>
+      <facetEntailment facetID="MS_43a_f4" label="Assumed"/>
+      <facetEntailment facetID="MS_43a_f5" label="Diff-Arg"/>
+      <facetEntailment facetID="MS_43a_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MS.43a.435.1" answerText="I think you put 34 marbles to put the same sizes." accuracy="contradictory">
+      <facetEntailment facetID="MS_43a_f1" label="Assumed"/>
+      <facetEntailment facetID="MS_43a_f2" label="Assumed"/>
+      <facetEntailment facetID="MS_43a_f3" label="Assumed"/>
+      <facetEntailment facetID="MS_43a_f4" label="Assumed"/>
+      <facetEntailment facetID="MS_43a_f5" label="Contra-Infr"/>
+      <facetEntailment facetID="MS_43a_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MS.43a.498.1" answerText="He could get a different apple." accuracy="irrelevant">
+      <facetEntailment facetID="MS_43a_f1" label="Assumed"/>
+      <facetEntailment facetID="MS_43a_f2" label="Assumed"/>
+      <facetEntailment facetID="MS_43a_f3" label="Assumed"/>
+      <facetEntailment facetID="MS_43a_f4" label="Assumed"/>
+      <facetEntailment facetID="MS_43a_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MS_43a_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MS.43a.569.1" answerText="They forgot to do some things before they balance." accuracy="irrelevant">
+      <facetEntailment facetID="MS_43a_f1" label="Assumed"/>
+      <facetEntailment facetID="MS_43a_f2" label="Assumed"/>
+      <facetEntailment facetID="MS_43a_f3" label="Assumed"/>
+      <facetEntailment facetID="MS_43a_f4" label="Assumed"/>
+      <facetEntailment facetID="MS_43a_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MS_43a_f6" label="Unaddressed"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

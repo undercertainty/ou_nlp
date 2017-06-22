@@ -1,0 +1,946 @@
+<?xml version="1.0"?>
+<question id="MS_14b" module="MS">
+  <questionText>Look at the picture below [which shows a balance tipped down on the side containing a ball; the right cup has 20 grams and 10 grams mass pieces]. The mass of the ball is one of the following. It must be A. 20 grams. B. 30 grams. (C. 40 grams.) Explain why you chose the answer that you did.</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="MS_14b-a1" text="There is 30 grams (20 grams plus 10 grams) in the right cup. The balance is tipped down on the ball side which means the ball weighs more than 30 grams. 40 grams is the only weight heavier than 30 grams.">
+      <tokens>
+        <token id="MS_14b_ra1">There</token>
+        <token id="MS_14b_ra2">is</token>
+        <token id="MS_14b_ra3">30</token>
+        <token id="MS_14b_ra4">grams</token>
+        <token id="MS_14b_ra5">(</token>
+        <token id="MS_14b_ra6">20</token>
+        <token id="MS_14b_ra7">grams</token>
+        <token id="MS_14b_ra8">plus</token>
+        <token id="MS_14b_ra9">10</token>
+        <token id="MS_14b_ra10">grams</token>
+        <token id="MS_14b_ra11">)</token>
+        <token id="MS_14b_ra12">in</token>
+        <token id="MS_14b_ra13">the</token>
+        <token id="MS_14b_ra14">right</token>
+        <token id="MS_14b_ra15">cup</token>
+        <token id="MS_14b_ra16">.</token>
+        <token id="MS_14b_ra17">The</token>
+        <token id="MS_14b_ra18">balance</token>
+        <token id="MS_14b_ra19">is</token>
+        <token id="MS_14b_ra20">tipped</token>
+        <token id="MS_14b_ra21">down</token>
+        <token id="MS_14b_ra22">on</token>
+        <token id="MS_14b_ra23">the</token>
+        <token id="MS_14b_ra24">ball</token>
+        <token id="MS_14b_ra25">side</token>
+        <token id="MS_14b_ra26">which</token>
+        <token id="MS_14b_ra27">means</token>
+        <token id="MS_14b_ra28">the</token>
+        <token id="MS_14b_ra29">ball</token>
+        <token id="MS_14b_ra30">weighs</token>
+        <token id="MS_14b_ra31">more</token>
+        <token id="MS_14b_ra32">than</token>
+        <token id="MS_14b_ra33">30</token>
+        <token id="MS_14b_ra34">grams</token>
+        <token id="MS_14b_ra35">.</token>
+        <token id="MS_14b_ra36">40</token>
+        <token id="MS_14b_ra37">grams</token>
+        <token id="MS_14b_ra38">is</token>
+        <token id="MS_14b_ra39">the</token>
+        <token id="MS_14b_ra40">only</token>
+        <token id="MS_14b_ra41">weight</token>
+        <token id="MS_14b_ra42">heavier</token>
+        <token id="MS_14b_ra43">than</token>
+        <token id="MS_14b_ra44">30</token>
+        <token id="MS_14b_ra45">grams</token>
+        <token id="MS_14b_ra46">.</token>
+      </tokens>
+      <facets>
+        <facet id="MS_14b_f1" govNum="MS_14b_ra3" modNum="MS_14b_ra4" reltn="NMod" govText="30" modText="grams"/>
+        <facet id="MS_14b_f2" govNum="MS_14b_ra3" modNum="MS_14b_ra15" reltn="Location_in" govText="30" modText="cup"/>
+        <facet id="MS_14b_f3" govNum="MS_14b_ra15" modNum="MS_14b_ra14" reltn="NMod" govText="cup" isAssumed="true" modText="right"/>
+        <facet id="MS_14b_f4" govNum="MS_14b_ra3" modNum="MS_14b_ra8" reltn="NMod_apos" govText="30" modText="plus"/>
+        <facet id="MS_14b_f5" govNum="MS_14b_ra8" modNum="MS_14b_ra6" reltn="Patient" govText="plus" isAssumed="true" modText="20"/>
+        <facet id="MS_14b_f6" govNum="MS_14b_ra8" modNum="MS_14b_ra9" reltn="Patient" govText="plus" isAssumed="true" modText="10"/>
+        <facet id="MS_14b_f7" govNum="MS_14b_ra20" modNum="MS_14b_ra18" reltn="Theme" govText="tipped" isAssumed="true" modText="balance"/>
+        <facet id="MS_14b_f8" govNum="MS_14b_ra20" modNum="MS_14b_ra21" reltn="Direction" govText="tipped" isAssumed="true" modText="down"/>
+        <facet id="MS_14b_f9" govNum="MS_14b_ra20" modNum="MS_14b_ra25" reltn="Location_on" govText="tipped" isAssumed="true" modText="side"/>
+        <facet id="MS_14b_f10" govNum="MS_14b_ra25" modNum="MS_14b_ra24" reltn="NMod" govText="side" isAssumed="true" modText="ball"/>
+        <facet id="MS_14b_f11" govNum="MS_14b_ra30" modNum="MS_14b_ra29" reltn="Theme" govText="weighs" isAssumed="true" modText="ball"/>
+        <facet id="MS_14b_f12" govNum="MS_14b_ra30" modNum="MS_14b_ra31" reltn="Value" govText="weighs" modText="more"/>
+        <facet id="MS_14b_f13" govNum="MS_14b_ra31" modNum="MS_14b_ra33" reltn="AMod_than" govText="more" modText="30"/>
+        <facet id="MS_14b_f14" govNum="MS_14b_ra33" modNum="MS_14b_ra34" reltn="NMod" govText="30" modText="grams"/>
+        <facet id="MS_14b_f15" govNum="MS_14b_ra30" modNum="MS_14b_ra19" reltn="Cause-know_which_means" childProp2Facet2="MS_14b_f8" childProp1Facet1="MS_14b_f11" govText="weighs" childProp1Facet2="MS_14b_f13" modText="is" childProp2Facet1="MS_14b_f7"/>
+        <facet id="MS_14b_f16" govNum="MS_14b_ra19" modNum="MS_14b_ra30" reltn="Cause_which_means" childProp2Facet2="MS_14b_f13" childProp1Facet1="MS_14b_f7" govText="is" childProp1Facet2="MS_14b_f8" modText="weighs" childProp2Facet1="MS_14b_f11"/>
+        <facet id="MS_14b_f17" govNum="MS_14b_ra36" modNum="MS_14b_ra37" reltn="NMod" govText="40" modText="grams"/>
+        <facet id="MS_14b_f18" govNum="MS_14b_ra36" modNum="MS_14b_ra41" reltn="Be" govText="40" isAssumed="true" modText="weight"/>
+        <facet id="MS_14b_f19" govNum="MS_14b_ra41" modNum="MS_14b_ra40" reltn="Quantifier" govText="weight" isAssumed="true" modText="only"/>
+        <facet id="MS_14b_f20" govNum="MS_14b_ra41" modNum="MS_14b_ra42" reltn="NMod" govText="weight" modText="heavier"/>
+        <facet id="MS_14b_f21" govNum="MS_14b_ra42" modNum="MS_14b_ra44" reltn="AMod_than" govText="heavier" modText="30"/>
+        <facet id="MS_14b_f22" govNum="MS_14b_ra44" modNum="MS_14b_ra45" reltn="NMod" govText="30" modText="grams"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="MS.14b.101.1" answerText="He can use is volume because he can use it." accuracy="irrelevant">
+      <facetEntailment facetID="MS_14b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f3" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f5" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f6" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f7" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f8" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f9" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f10" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f11" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f12" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f13" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f14" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f15" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f16" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f17" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f18" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f19" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f20" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f21" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f22" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MS.14b.108.1" answerText="Because I added the 20 and the 10." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="MS_14b_f1" label="Inferred"/>
+      <facetEntailment facetID="MS_14b_f2" label="Inferred"/>
+      <facetEntailment facetID="MS_14b_f3" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f4" label="Inferred"/>
+      <facetEntailment facetID="MS_14b_f5" label="Expressed"/>
+      <facetEntailment facetID="MS_14b_f6" label="Expressed"/>
+      <facetEntailment facetID="MS_14b_f7" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f8" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f9" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f10" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f11" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f12" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f13" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f14" label="Inferred"/>
+      <facetEntailment facetID="MS_14b_f15" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f16" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f17" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f18" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f19" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f20" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f21" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f22" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="MS.14b.112.1" answerText="Because it is already 30 and it is too heavy. So 20." accuracy="contradictory">
+      <facetEntailment facetID="MS_14b_f1" label="Inferred"/>
+      <facetEntailment facetID="MS_14b_f2" label="Inferred"/>
+      <facetEntailment facetID="MS_14b_f3" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f5" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f6" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f7" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f8" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f9" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f10" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f11" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f12" label="Contra-Infr"/>
+      <facetEntailment facetID="MS_14b_f13" label="Contra-Infr"/>
+      <facetEntailment facetID="MS_14b_f14" label="Inferred"/>
+      <facetEntailment facetID="MS_14b_f15" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f16" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f17" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f18" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f19" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f20" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f21" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f22" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="MS.14b.136.1" answerText="I chose the answer because I needed to add it together." accuracy="irrelevant">
+      <facetEntailment facetID="MS_14b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f3" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f5" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f6" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f7" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f8" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f9" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f10" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f11" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f12" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f13" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f14" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f15" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f16" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f17" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f18" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f19" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f20" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f21" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f22" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MS.14b.143.1" answerText="The ball is too heavy." accuracy="irrelevant">
+      <facetEntailment facetID="MS_14b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f3" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f5" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f6" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f7" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f8" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f9" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f10" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f11" label="Expressed"/>
+      <facetEntailment facetID="MS_14b_f12" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f13" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f14" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f15" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f16" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f17" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f18" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f19" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f20" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f21" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f22" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MS.14b.146.1" answerText="I chose this answer because it could not be 30 grams because the ball is lower so it must be 40 grams." accuracy="correct">
+      <facetEntailment facetID="MS_14b_f1" label="Expressed"/>
+      <facetEntailment facetID="MS_14b_f2" label="Inferred"/>
+      <facetEntailment facetID="MS_14b_f3" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f4" label="Inferred"/>
+      <facetEntailment facetID="MS_14b_f5" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f6" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f7" label="Expressed"/>
+      <facetEntailment facetID="MS_14b_f8" label="Expressed"/>
+      <facetEntailment facetID="MS_14b_f9" label="Expressed"/>
+      <facetEntailment facetID="MS_14b_f10" label="Expressed"/>
+      <facetEntailment facetID="MS_14b_f11" label="Expressed"/>
+      <facetEntailment facetID="MS_14b_f12" label="Expressed"/>
+      <facetEntailment facetID="MS_14b_f13" label="Expressed"/>
+      <facetEntailment facetID="MS_14b_f14" label="Expressed"/>
+      <facetEntailment facetID="MS_14b_f15" label="Expressed"/>
+      <facetEntailment facetID="MS_14b_f16" label="Expressed"/>
+      <facetEntailment facetID="MS_14b_f17" label="Expressed"/>
+      <facetEntailment facetID="MS_14b_f18" label="Expressed"/>
+      <facetEntailment facetID="MS_14b_f19" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f20" label="Inferred"/>
+      <facetEntailment facetID="MS_14b_f21" label="Inferred"/>
+      <facetEntailment facetID="MS_14b_f22" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="MS.14b.152.1" answerText="I chose this answer because one of the blocks said 20 grams." accuracy="irrelevant">
+      <facetEntailment facetID="MS_14b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f3" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f5" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f6" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f7" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f8" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f9" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f10" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f11" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f12" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f13" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f14" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f15" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f16" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f17" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f18" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f19" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f20" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f21" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f22" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MS.14b.171.1" answerText="Because if you have a 20 mass piece and a 10 mass piece you have 40 grams all together." accuracy="contradictory">
+      <facetEntailment facetID="MS_14b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f3" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f4" label="Contra-Expr"/>
+      <facetEntailment facetID="MS_14b_f5" label="Expressed"/>
+      <facetEntailment facetID="MS_14b_f6" label="Expressed"/>
+      <facetEntailment facetID="MS_14b_f7" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f8" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f9" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f10" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f11" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f12" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f13" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f14" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f15" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f16" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f17" label="Expressed"/>
+      <facetEntailment facetID="MS_14b_f18" label="Expressed"/>
+      <facetEntailment facetID="MS_14b_f19" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f20" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f21" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f22" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MS.14b.174.1" answerText="I counted the grams and got 30 grams." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="MS_14b_f1" label="Expressed"/>
+      <facetEntailment facetID="MS_14b_f2" label="Inferred"/>
+      <facetEntailment facetID="MS_14b_f3" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f4" label="Inferred"/>
+      <facetEntailment facetID="MS_14b_f5" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f6" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f7" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f8" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f9" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f10" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f11" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f12" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f13" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f14" label="Expressed"/>
+      <facetEntailment facetID="MS_14b_f15" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f16" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f17" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f18" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f19" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f20" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f21" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f22" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="MS.14b.183.1" answerText="I got this answer because I counted 20 grams and 10 grams and it equaled 30 grams." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="MS_14b_f1" label="Expressed"/>
+      <facetEntailment facetID="MS_14b_f2" label="Inferred"/>
+      <facetEntailment facetID="MS_14b_f3" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f4" label="Expressed"/>
+      <facetEntailment facetID="MS_14b_f5" label="Expressed"/>
+      <facetEntailment facetID="MS_14b_f6" label="Expressed"/>
+      <facetEntailment facetID="MS_14b_f7" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f8" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f9" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f10" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f11" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f12" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f13" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f14" label="Expressed"/>
+      <facetEntailment facetID="MS_14b_f15" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f16" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f17" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f18" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f19" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f20" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f21" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f22" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="MS.14b.190.1" answerText="Because 20 grams plus 10 grams equals 30 grams." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="MS_14b_f1" label="Expressed"/>
+      <facetEntailment facetID="MS_14b_f2" label="Inferred"/>
+      <facetEntailment facetID="MS_14b_f3" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f4" label="Expressed"/>
+      <facetEntailment facetID="MS_14b_f5" label="Expressed"/>
+      <facetEntailment facetID="MS_14b_f6" label="Expressed"/>
+      <facetEntailment facetID="MS_14b_f7" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f8" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f9" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f10" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f11" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f12" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f13" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f14" label="Expressed"/>
+      <facetEntailment facetID="MS_14b_f15" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f16" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f17" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f18" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f19" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f20" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f21" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f22" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="MS.14b.276.1" answerText="I chose 20 grams because there is 20 grams plus 10 grams 30 grams that way I know how much is it." accuracy="contradictory">
+      <facetEntailment facetID="MS_14b_f1" label="Expressed"/>
+      <facetEntailment facetID="MS_14b_f2" label="Inferred"/>
+      <facetEntailment facetID="MS_14b_f3" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f4" label="Expressed"/>
+      <facetEntailment facetID="MS_14b_f5" label="Expressed"/>
+      <facetEntailment facetID="MS_14b_f6" label="Expressed"/>
+      <facetEntailment facetID="MS_14b_f7" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f8" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f9" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f10" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f11" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f12" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f13" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f14" label="Expressed"/>
+      <facetEntailment facetID="MS_14b_f15" label="Inferred"/>
+      <facetEntailment facetID="MS_14b_f16" label="Inferred"/>
+      <facetEntailment facetID="MS_14b_f17" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f18" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f19" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f20" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f21" label="Contra-Expr"/>
+      <facetEntailment facetID="MS_14b_f22" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="MS.14b.282.1" answerText="Because it was the cups that I saw and it was 20 grams and 10 grams to see." accuracy="irrelevant">
+      <facetEntailment facetID="MS_14b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f3" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f5" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f6" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f7" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f8" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f9" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f10" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f11" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f12" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f13" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f14" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f15" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f16" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f17" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f18" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f19" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f20" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f21" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f22" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MS.14b.291.1" answerText="I think that is the answer 20 plus 10 equals 30." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="MS_14b_f1" label="Inferred"/>
+      <facetEntailment facetID="MS_14b_f2" label="Inferred"/>
+      <facetEntailment facetID="MS_14b_f3" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f5" label="Expressed"/>
+      <facetEntailment facetID="MS_14b_f6" label="Expressed"/>
+      <facetEntailment facetID="MS_14b_f7" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f8" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f9" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f10" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f11" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f12" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f13" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f14" label="Inferred"/>
+      <facetEntailment facetID="MS_14b_f15" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f16" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f17" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f18" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f19" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f20" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f21" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f22" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="MS.14b.315.1" answerText="So I would get the right answer." accuracy="non_domain">
+      <facetEntailment facetID="MS_14b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f3" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f5" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f6" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f7" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f8" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f9" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f10" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f11" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f12" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f13" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f14" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f15" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f16" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f17" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f18" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f19" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f20" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f21" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f22" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MS.14b.319.1" answerText="I can see the ball is heavier than 30 grams because it is not a perfect balance and the level is not perfect." accuracy="correct">
+      <facetEntailment facetID="MS_14b_f1" label="Expressed"/>
+      <facetEntailment facetID="MS_14b_f2" label="Inferred"/>
+      <facetEntailment facetID="MS_14b_f3" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f4" label="Inferred"/>
+      <facetEntailment facetID="MS_14b_f5" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f6" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f7" label="Expressed"/>
+      <facetEntailment facetID="MS_14b_f8" label="Expressed"/>
+      <facetEntailment facetID="MS_14b_f9" label="Expressed"/>
+      <facetEntailment facetID="MS_14b_f10" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f11" label="Expressed"/>
+      <facetEntailment facetID="MS_14b_f12" label="Expressed"/>
+      <facetEntailment facetID="MS_14b_f13" label="Expressed"/>
+      <facetEntailment facetID="MS_14b_f14" label="Expressed"/>
+      <facetEntailment facetID="MS_14b_f15" label="Expressed"/>
+      <facetEntailment facetID="MS_14b_f16" label="Expressed"/>
+      <facetEntailment facetID="MS_14b_f17" label="Inferred"/>
+      <facetEntailment facetID="MS_14b_f18" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f19" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f20" label="Inferred"/>
+      <facetEntailment facetID="MS_14b_f21" label="Expressed"/>
+      <facetEntailment facetID="MS_14b_f22" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="MS.14b.347.1" answerText="Because 30 is not high enough." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="MS_14b_f1" label="Inferred"/>
+      <facetEntailment facetID="MS_14b_f2" label="Inferred"/>
+      <facetEntailment facetID="MS_14b_f3" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f5" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f6" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f7" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f8" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f9" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f10" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f11" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f12" label="Inferred"/>
+      <facetEntailment facetID="MS_14b_f13" label="Inferred"/>
+      <facetEntailment facetID="MS_14b_f14" label="Inferred"/>
+      <facetEntailment facetID="MS_14b_f15" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f16" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f17" label="Inferred"/>
+      <facetEntailment facetID="MS_14b_f18" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f19" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f20" label="Inferred"/>
+      <facetEntailment facetID="MS_14b_f21" label="Inferred"/>
+      <facetEntailment facetID="MS_14b_f22" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="MS.14b.360.1" answerText="I chose this answer because in the mass has 20 and 10 grams and the equals 30 grams." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="MS_14b_f1" label="Expressed"/>
+      <facetEntailment facetID="MS_14b_f2" label="Inferred"/>
+      <facetEntailment facetID="MS_14b_f3" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f4" label="Expressed"/>
+      <facetEntailment facetID="MS_14b_f5" label="Expressed"/>
+      <facetEntailment facetID="MS_14b_f6" label="Expressed"/>
+      <facetEntailment facetID="MS_14b_f7" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f8" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f9" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f10" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f11" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f12" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f13" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f14" label="Expressed"/>
+      <facetEntailment facetID="MS_14b_f15" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f16" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f17" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f18" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f19" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f20" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f21" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f22" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="MS.14b.382.1" answerText="That they ball in the cup and the mass pieces are in this cup. 20 grams plus 10 grams equals 30." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="MS_14b_f1" label="Expressed"/>
+      <facetEntailment facetID="MS_14b_f2" label="Expressed"/>
+      <facetEntailment facetID="MS_14b_f3" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f4" label="Expressed"/>
+      <facetEntailment facetID="MS_14b_f5" label="Expressed"/>
+      <facetEntailment facetID="MS_14b_f6" label="Expressed"/>
+      <facetEntailment facetID="MS_14b_f7" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f8" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f9" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f10" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f11" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f12" label="Expressed"/>
+      <facetEntailment facetID="MS_14b_f13" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f14" label="Expressed"/>
+      <facetEntailment facetID="MS_14b_f15" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f16" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f17" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f18" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f19" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f20" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f21" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f22" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="MS.14b.391.1" answerText="I chose it because there is a 20 grams piece and a 10 grams piece but the ball is not even with the other side so it must weigh more." accuracy="correct">
+      <facetEntailment facetID="MS_14b_f1" label="Inferred"/>
+      <facetEntailment facetID="MS_14b_f2" label="Inferred"/>
+      <facetEntailment facetID="MS_14b_f3" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f4" label="Inferred"/>
+      <facetEntailment facetID="MS_14b_f5" label="Expressed"/>
+      <facetEntailment facetID="MS_14b_f6" label="Expressed"/>
+      <facetEntailment facetID="MS_14b_f7" label="Expressed"/>
+      <facetEntailment facetID="MS_14b_f8" label="Expressed"/>
+      <facetEntailment facetID="MS_14b_f9" label="Expressed"/>
+      <facetEntailment facetID="MS_14b_f10" label="Expressed"/>
+      <facetEntailment facetID="MS_14b_f11" label="Expressed"/>
+      <facetEntailment facetID="MS_14b_f12" label="Expressed"/>
+      <facetEntailment facetID="MS_14b_f13" label="Inferred"/>
+      <facetEntailment facetID="MS_14b_f14" label="Inferred"/>
+      <facetEntailment facetID="MS_14b_f15" label="Expressed"/>
+      <facetEntailment facetID="MS_14b_f16" label="Expressed"/>
+      <facetEntailment facetID="MS_14b_f17" label="Inferred"/>
+      <facetEntailment facetID="MS_14b_f18" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f19" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f20" label="Inferred"/>
+      <facetEntailment facetID="MS_14b_f21" label="Inferred"/>
+      <facetEntailment facetID="MS_14b_f22" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="MS.14b.396.1" answerText="Because the mass pieces gives you the answer." accuracy="irrelevant">
+      <facetEntailment facetID="MS_14b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f3" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f5" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f6" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f7" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f8" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f9" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f10" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f11" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f12" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f13" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f14" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f15" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f16" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f17" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f18" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f19" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f20" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f21" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f22" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MS.14b.398.1" answerText="I chose it because the mass pieces are 30 grams. So I did the highest number." accuracy="correct">
+      <facetEntailment facetID="MS_14b_f1" label="Expressed"/>
+      <facetEntailment facetID="MS_14b_f2" label="Inferred"/>
+      <facetEntailment facetID="MS_14b_f3" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f4" label="Inferred"/>
+      <facetEntailment facetID="MS_14b_f5" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f6" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f7" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f8" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f9" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f10" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f11" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f12" label="Inferred"/>
+      <facetEntailment facetID="MS_14b_f13" label="Inferred"/>
+      <facetEntailment facetID="MS_14b_f14" label="Expressed"/>
+      <facetEntailment facetID="MS_14b_f15" label="Inferred"/>
+      <facetEntailment facetID="MS_14b_f16" label="Inferred"/>
+      <facetEntailment facetID="MS_14b_f17" label="Inferred"/>
+      <facetEntailment facetID="MS_14b_f18" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f19" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f20" label="Inferred"/>
+      <facetEntailment facetID="MS_14b_f21" label="Inferred"/>
+      <facetEntailment facetID="MS_14b_f22" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="MS.14b.400.1" answerText="Because it is very simple I added 20 plus 10 and it equaled 30 grams. And that is how I got my answer." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="MS_14b_f1" label="Expressed"/>
+      <facetEntailment facetID="MS_14b_f2" label="Inferred"/>
+      <facetEntailment facetID="MS_14b_f3" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f4" label="Expressed"/>
+      <facetEntailment facetID="MS_14b_f5" label="Expressed"/>
+      <facetEntailment facetID="MS_14b_f6" label="Expressed"/>
+      <facetEntailment facetID="MS_14b_f7" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f8" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f9" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f10" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f11" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f12" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f13" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f14" label="Expressed"/>
+      <facetEntailment facetID="MS_14b_f15" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f16" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f17" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f18" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f19" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f20" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f21" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f22" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="MS.14b.417.1" answerText="Because in the cup there are 30 grams. So I picked 40 because 30 grams is not enough so I put 40 grams." accuracy="correct">
+      <facetEntailment facetID="MS_14b_f1" label="Expressed"/>
+      <facetEntailment facetID="MS_14b_f2" label="Expressed"/>
+      <facetEntailment facetID="MS_14b_f3" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f4" label="Inferred"/>
+      <facetEntailment facetID="MS_14b_f5" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f6" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f7" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f8" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f9" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f10" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f11" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f12" label="Inferred"/>
+      <facetEntailment facetID="MS_14b_f13" label="Expressed"/>
+      <facetEntailment facetID="MS_14b_f14" label="Expressed"/>
+      <facetEntailment facetID="MS_14b_f15" label="Inferred"/>
+      <facetEntailment facetID="MS_14b_f16" label="Inferred"/>
+      <facetEntailment facetID="MS_14b_f17" label="Expressed"/>
+      <facetEntailment facetID="MS_14b_f18" label="Expressed"/>
+      <facetEntailment facetID="MS_14b_f19" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f20" label="Inferred"/>
+      <facetEntailment facetID="MS_14b_f21" label="Inferred"/>
+      <facetEntailment facetID="MS_14b_f22" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="MS.14b.426.1" answerText="Because I carried a ball before and it felt like to me it is 30 grams." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="MS_14b_f1" label="Expressed"/>
+      <facetEntailment facetID="MS_14b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f3" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f5" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f6" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f7" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f8" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f9" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f10" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f11" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f12" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f13" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f14" label="Expressed"/>
+      <facetEntailment facetID="MS_14b_f15" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f16" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f17" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f18" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f19" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f20" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f21" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f22" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="MS.14b.452.1" answerText="I put answer b because 20 plus 10 equals 30." accuracy="contradictory">
+      <facetEntailment facetID="MS_14b_f1" label="Inferred"/>
+      <facetEntailment facetID="MS_14b_f2" label="Inferred"/>
+      <facetEntailment facetID="MS_14b_f3" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f4" label="Contra-Infr"/>
+      <facetEntailment facetID="MS_14b_f5" label="Expressed"/>
+      <facetEntailment facetID="MS_14b_f6" label="Expressed"/>
+      <facetEntailment facetID="MS_14b_f7" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f8" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f9" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f10" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f11" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f12" label="Contra-Infr"/>
+      <facetEntailment facetID="MS_14b_f13" label="Contra-Infr"/>
+      <facetEntailment facetID="MS_14b_f14" label="Inferred"/>
+      <facetEntailment facetID="MS_14b_f15" label="Inferred"/>
+      <facetEntailment facetID="MS_14b_f16" label="Inferred"/>
+      <facetEntailment facetID="MS_14b_f17" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f18" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f19" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f20" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f21" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f22" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="MS.14b.463.1" answerText="Because if you see it is that because I chose it." accuracy="non_domain">
+      <facetEntailment facetID="MS_14b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f3" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f5" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f6" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f7" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f8" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f9" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f10" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f11" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f12" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f13" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f14" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f15" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f16" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f17" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f18" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f19" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f20" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f21" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f22" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MS.14b.488.1" answerText="Because 20 grams plus 10 grams equals 30 grams." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="MS_14b_f1" label="Expressed"/>
+      <facetEntailment facetID="MS_14b_f2" label="Inferred"/>
+      <facetEntailment facetID="MS_14b_f3" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f4" label="Expressed"/>
+      <facetEntailment facetID="MS_14b_f5" label="Expressed"/>
+      <facetEntailment facetID="MS_14b_f6" label="Expressed"/>
+      <facetEntailment facetID="MS_14b_f7" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f8" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f9" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f10" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f11" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f12" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f13" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f14" label="Expressed"/>
+      <facetEntailment facetID="MS_14b_f15" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f16" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f17" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f18" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f19" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f20" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f21" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f22" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="MS.14b.501.1" answerText="Because a ball is heavy, and if you put in 10 grams it will probably weight." accuracy="correct">
+      <facetEntailment facetID="MS_14b_f1" label="Inferred"/>
+      <facetEntailment facetID="MS_14b_f2" label="Inferred"/>
+      <facetEntailment facetID="MS_14b_f3" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f4" label="Inferred"/>
+      <facetEntailment facetID="MS_14b_f5" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f6" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f7" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f8" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f9" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f10" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f11" label="Expressed"/>
+      <facetEntailment facetID="MS_14b_f12" label="Inferred"/>
+      <facetEntailment facetID="MS_14b_f13" label="Inferred"/>
+      <facetEntailment facetID="MS_14b_f14" label="Inferred"/>
+      <facetEntailment facetID="MS_14b_f15" label="Inferred"/>
+      <facetEntailment facetID="MS_14b_f16" label="Inferred"/>
+      <facetEntailment facetID="MS_14b_f17" label="Inferred"/>
+      <facetEntailment facetID="MS_14b_f18" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f19" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f20" label="Inferred"/>
+      <facetEntailment facetID="MS_14b_f21" label="Inferred"/>
+      <facetEntailment facetID="MS_14b_f22" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="MS.14b.532.1" answerText="20 plus 10 equals 30 and that is smaller than the ball which must be C." accuracy="correct">
+      <facetEntailment facetID="MS_14b_f1" label="Inferred"/>
+      <facetEntailment facetID="MS_14b_f2" label="Inferred"/>
+      <facetEntailment facetID="MS_14b_f3" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f4" label="Expressed"/>
+      <facetEntailment facetID="MS_14b_f5" label="Expressed"/>
+      <facetEntailment facetID="MS_14b_f6" label="Expressed"/>
+      <facetEntailment facetID="MS_14b_f7" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f8" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f9" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f10" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f11" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f12" label="Inferred"/>
+      <facetEntailment facetID="MS_14b_f13" label="Inferred"/>
+      <facetEntailment facetID="MS_14b_f14" label="Inferred"/>
+      <facetEntailment facetID="MS_14b_f15" label="Inferred"/>
+      <facetEntailment facetID="MS_14b_f16" label="Inferred"/>
+      <facetEntailment facetID="MS_14b_f17" label="Inferred"/>
+      <facetEntailment facetID="MS_14b_f18" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f19" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f20" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f21" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f22" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="MS.14b.566.1" answerText="Because 20 grams plus 10 grams equals 30 grams." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="MS_14b_f1" label="Expressed"/>
+      <facetEntailment facetID="MS_14b_f2" label="Inferred"/>
+      <facetEntailment facetID="MS_14b_f3" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f4" label="Expressed"/>
+      <facetEntailment facetID="MS_14b_f5" label="Expressed"/>
+      <facetEntailment facetID="MS_14b_f6" label="Expressed"/>
+      <facetEntailment facetID="MS_14b_f7" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f8" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f9" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f10" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f11" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f12" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f13" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f14" label="Expressed"/>
+      <facetEntailment facetID="MS_14b_f15" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f16" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f17" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f18" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f19" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f20" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f21" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f22" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="MS.14b.569.1" answerText="Because the ball cannot be 40 grams or 20 grams it has to be 30 grams because the ball it little." accuracy="contradictory">
+      <facetEntailment facetID="MS_14b_f1" label="Expressed"/>
+      <facetEntailment facetID="MS_14b_f2" label="Inferred"/>
+      <facetEntailment facetID="MS_14b_f3" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f5" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f6" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f7" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f8" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f9" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f10" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f11" label="Expressed"/>
+      <facetEntailment facetID="MS_14b_f12" label="Contra-Expr"/>
+      <facetEntailment facetID="MS_14b_f13" label="Contra-Expr"/>
+      <facetEntailment facetID="MS_14b_f14" label="Expressed"/>
+      <facetEntailment facetID="MS_14b_f15" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f16" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f17" label="Expressed"/>
+      <facetEntailment facetID="MS_14b_f18" label="Expressed"/>
+      <facetEntailment facetID="MS_14b_f19" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f20" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f21" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f22" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="MS.14b.592.1" answerText="Because there is no standard unit." accuracy="irrelevant">
+      <facetEntailment facetID="MS_14b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f3" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f5" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f6" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f7" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f8" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f9" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f10" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f11" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f12" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f13" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f14" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f15" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f16" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f17" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f18" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f19" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f20" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f21" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f22" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MS.14b.594.1" answerText="Because 30 grams and 20 grams is much big." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="MS_14b_f1" label="Expressed"/>
+      <facetEntailment facetID="MS_14b_f2" label="Inferred"/>
+      <facetEntailment facetID="MS_14b_f3" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f5" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f6" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f7" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f8" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f9" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f10" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f11" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f12" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f13" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f14" label="Expressed"/>
+      <facetEntailment facetID="MS_14b_f15" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f16" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f17" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f18" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f19" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f20" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f21" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f22" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="MS.14b.595.1" answerText="20 grams plus 10 grams equals 30 grams." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="MS_14b_f1" label="Expressed"/>
+      <facetEntailment facetID="MS_14b_f2" label="Inferred"/>
+      <facetEntailment facetID="MS_14b_f3" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f4" label="Expressed"/>
+      <facetEntailment facetID="MS_14b_f5" label="Expressed"/>
+      <facetEntailment facetID="MS_14b_f6" label="Expressed"/>
+      <facetEntailment facetID="MS_14b_f7" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f8" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f9" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f10" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f11" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f12" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f13" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f14" label="Expressed"/>
+      <facetEntailment facetID="MS_14b_f15" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f16" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f17" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f18" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f19" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f20" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f21" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f22" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="MS.14b.599.1" answerText="Because 20 grams and 10 grams is 30 grams." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="MS_14b_f1" label="Expressed"/>
+      <facetEntailment facetID="MS_14b_f2" label="Inferred"/>
+      <facetEntailment facetID="MS_14b_f3" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f4" label="Expressed"/>
+      <facetEntailment facetID="MS_14b_f5" label="Expressed"/>
+      <facetEntailment facetID="MS_14b_f6" label="Expressed"/>
+      <facetEntailment facetID="MS_14b_f7" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f8" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f9" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f10" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f11" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f12" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f13" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f14" label="Expressed"/>
+      <facetEntailment facetID="MS_14b_f15" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f16" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f17" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f18" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f19" label="Assumed"/>
+      <facetEntailment facetID="MS_14b_f20" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f21" label="Unaddressed"/>
+      <facetEntailment facetID="MS_14b_f22" label="Expressed"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<question testSet="unseen-answers" id="LF_34b" module="LF">
+  <questionText>Draw an arrow to show which direction the water flows in the river. (Rose Mountain is on the left and Happy Valley is on the right in the drawing.) Why do you think the water flows in that direction?</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="LF_34b-a1" text="Water will always flow downhill (mountain to valley).">
+      <tokens>
+        <token id="LF_34b_ra1">Water</token>
+        <token id="LF_34b_ra2">will</token>
+        <token id="LF_34b_ra3">always</token>
+        <token id="LF_34b_ra4">flow</token>
+        <token id="LF_34b_ra5">downhill</token>
+        <token id="LF_34b_ra6">(</token>
+        <token id="LF_34b_ra7">mountain</token>
+        <token id="LF_34b_ra8">to</token>
+        <token id="LF_34b_ra9">valley</token>
+        <token id="LF_34b_ra10">)</token>
+        <token id="LF_34b_ra11">.</token>
+      </tokens>
+      <facets>
+        <facet id="LF_34b_f1" govNum="LF_34b_ra4" modNum="LF_34b_ra1" reltn="Theme" govText="flow" isAssumed="true" modText="Water"/>
+        <facet id="LF_34b_f2" govNum="LF_34b_ra4" modNum="LF_34b_ra3" reltn="VMod" govText="flow" modText="always"/>
+        <facet id="LF_34b_f3" govNum="LF_34b_ra4" modNum="LF_34b_ra5" reltn="Direction" govText="flow" modText="downhill"/>
+        <facet id="LF_34b_f4" govNum="LF_34b_ra4" modNum="LF_34b_ra7" reltn="Source" govText="flow" modText="mountain"/>
+        <facet id="LF_34b_f5" govNum="LF_34b_ra4" modNum="LF_34b_ra9" reltn="Destination_to" govText="flow" modText="valley"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="LF.34b.254.1" answerText="I think the water flows that direction because happy valley is where it empties into." accuracy="irrelevant">
+      <facetEntailment facetID="LF_34b_f1" label="Expressed"/>
+      <facetEntailment facetID="LF_34b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="LF_34b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="LF_34b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="LF_34b_f5" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="LF.34b.731.1" answerText="I think the river flows in that direction because the pathway, the river flows toward happy valley." accuracy="irrelevant">
+      <facetEntailment facetID="LF_34b_f1" label="Expressed"/>
+      <facetEntailment facetID="LF_34b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="LF_34b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="LF_34b_f4" label="Inferred"/>
+      <facetEntailment facetID="LF_34b_f5" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="LF.34b.823.1" answerText="Because somewhere in that mountain there is a water source and the water flows down the mountain." accuracy="correct">
+      <facetEntailment facetID="LF_34b_f1" label="Expressed"/>
+      <facetEntailment facetID="LF_34b_f2" label="Inferred"/>
+      <facetEntailment facetID="LF_34b_f3" label="Expressed"/>
+      <facetEntailment facetID="LF_34b_f4" label="Expressed"/>
+      <facetEntailment facetID="LF_34b_f5" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="LF.34b.825.1" answerText="I believe it flows in that direction because the earth water comes out of cracks in mountain a flow down the mountain and into river." accuracy="correct">
+      <facetEntailment facetID="LF_34b_f1" label="Expressed"/>
+      <facetEntailment facetID="LF_34b_f2" label="Inferred"/>
+      <facetEntailment facetID="LF_34b_f3" label="Expressed"/>
+      <facetEntailment facetID="LF_34b_f4" label="Expressed"/>
+      <facetEntailment facetID="LF_34b_f5" label="Inferred"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

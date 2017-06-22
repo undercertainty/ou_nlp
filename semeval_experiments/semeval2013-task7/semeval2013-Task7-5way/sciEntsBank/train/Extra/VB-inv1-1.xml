@@ -1,0 +1,322 @@
+<?xml version="1.0"?>
+<question id="VB_1" module="VB">
+  <questionText>How do you define a controlled experiment?</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="VB_1-a1" text="An experiment is controlled if only one variable is changed at a time.">
+      <tokens>
+        <token id="VB_1_ra1">An</token>
+        <token id="VB_1_ra2">experiment</token>
+        <token id="VB_1_ra3">is</token>
+        <token id="VB_1_ra4">controlled</token>
+        <token id="VB_1_ra5">if</token>
+        <token id="VB_1_ra6">only</token>
+        <token id="VB_1_ra7">one</token>
+        <token id="VB_1_ra8">variable</token>
+        <token id="VB_1_ra9">is</token>
+        <token id="VB_1_ra10">changed</token>
+        <token id="VB_1_ra11">at</token>
+        <token id="VB_1_ra12">a</token>
+        <token id="VB_1_ra13">time</token>
+        <token id="VB_1_ra14">.</token>
+      </tokens>
+      <facets>
+        <facet id="VB_1_f1" govNum="VB_1_ra2" modNum="VB_1_ra4" reltn="Be" govText="experiment" isAssumed="true" modText="controlled"/>
+        <facet id="VB_1_f2" govNum="VB_1_ra8" modNum="VB_1_ra7" reltn="NMod" govText="variable" modText="one"/>
+        <facet id="VB_1_f3" govNum="VB_1_ra7" modNum="VB_1_ra6" reltn="AMod" govText="one" modText="only"/>
+        <facet id="VB_1_f4" govNum="VB_1_ra10" modNum="VB_1_ra8" reltn="Patient" govText="changed" modText="variable"/>
+        <facet id="VB_1_f5" govNum="VB_1_ra10" modNum="VB_1_ra13" reltn="Time_at" govText="changed" modText="time"/>
+        <facet id="VB_1_f6" govNum="VB_1_ra3" modNum="VB_1_ra10" reltn="Cause_if" childProp2Facet2="VB_1_f5" childProp1Facet1="VB_1_f1" govText="is" isAssumed="true" modText="changed" childProp2Facet1="VB_1_f4"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="VB.1.384.1" answerText="A controlled experiment is an experiment where you only change one variable." accuracy="correct">
+      <facetEntailment facetID="VB_1_f1" label="Expressed"/>
+      <facetEntailment facetID="VB_1_f2" label="Expressed"/>
+      <facetEntailment facetID="VB_1_f3" label="Expressed"/>
+      <facetEntailment facetID="VB_1_f4" label="Expressed"/>
+      <facetEntailment facetID="VB_1_f5" label="Inferred"/>
+      <facetEntailment facetID="VB_1_f6" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="VB.1.388.1" answerText="An experiment where you only change one variable." accuracy="correct">
+      <facetEntailment facetID="VB_1_f1" label="Assumed"/>
+      <facetEntailment facetID="VB_1_f2" label="Expressed"/>
+      <facetEntailment facetID="VB_1_f3" label="Expressed"/>
+      <facetEntailment facetID="VB_1_f4" label="Expressed"/>
+      <facetEntailment facetID="VB_1_f5" label="Inferred"/>
+      <facetEntailment facetID="VB_1_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="VB.1.394.1" answerText="A controlled experiment is an experiment where only one variable is changed." accuracy="correct">
+      <facetEntailment facetID="VB_1_f1" label="Expressed"/>
+      <facetEntailment facetID="VB_1_f2" label="Expressed"/>
+      <facetEntailment facetID="VB_1_f3" label="Expressed"/>
+      <facetEntailment facetID="VB_1_f4" label="Expressed"/>
+      <facetEntailment facetID="VB_1_f5" label="Inferred"/>
+      <facetEntailment facetID="VB_1_f6" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="VB.1.397.1" answerText="The longer the string the shorter the swings." accuracy="irrelevant">
+      <facetEntailment facetID="VB_1_f1" label="Assumed"/>
+      <facetEntailment facetID="VB_1_f2" label="Unaddressed"/>
+      <facetEntailment facetID="VB_1_f3" label="Unaddressed"/>
+      <facetEntailment facetID="VB_1_f4" label="Unaddressed"/>
+      <facetEntailment facetID="VB_1_f5" label="Unaddressed"/>
+      <facetEntailment facetID="VB_1_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="VB.1.399.1" answerText="A experiment in which one variable is changed." accuracy="correct">
+      <facetEntailment facetID="VB_1_f1" label="Assumed"/>
+      <facetEntailment facetID="VB_1_f2" label="Expressed"/>
+      <facetEntailment facetID="VB_1_f3" label="Expressed"/>
+      <facetEntailment facetID="VB_1_f4" label="Expressed"/>
+      <facetEntailment facetID="VB_1_f5" label="Inferred"/>
+      <facetEntailment facetID="VB_1_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="VB.1.406.1" answerText="An experiment that only changes one variable at a time." accuracy="correct">
+      <facetEntailment facetID="VB_1_f1" label="Assumed"/>
+      <facetEntailment facetID="VB_1_f2" label="Expressed"/>
+      <facetEntailment facetID="VB_1_f3" label="Expressed"/>
+      <facetEntailment facetID="VB_1_f4" label="Expressed"/>
+      <facetEntailment facetID="VB_1_f5" label="Expressed"/>
+      <facetEntailment facetID="VB_1_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="VB.1.416.1" answerText="A controlled experiment is when you only change one variable at a time instead of 2 or more." accuracy="correct">
+      <facetEntailment facetID="VB_1_f1" label="Expressed"/>
+      <facetEntailment facetID="VB_1_f2" label="Expressed"/>
+      <facetEntailment facetID="VB_1_f3" label="Expressed"/>
+      <facetEntailment facetID="VB_1_f4" label="Expressed"/>
+      <facetEntailment facetID="VB_1_f5" label="Expressed"/>
+      <facetEntailment facetID="VB_1_f6" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="VB.1.419.1" answerText="That you only put one penny at a time." accuracy="irrelevant">
+      <facetEntailment facetID="VB_1_f1" label="Assumed"/>
+      <facetEntailment facetID="VB_1_f2" label="Unaddressed"/>
+      <facetEntailment facetID="VB_1_f3" label="Unaddressed"/>
+      <facetEntailment facetID="VB_1_f4" label="Unaddressed"/>
+      <facetEntailment facetID="VB_1_f5" label="Unaddressed"/>
+      <facetEntailment facetID="VB_1_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="VB.1.423.1" answerText="A controlled experiment is a experiment that you can control by weight and the length of string." accuracy="contradictory">
+      <facetEntailment facetID="VB_1_f1" label="Expressed"/>
+      <facetEntailment facetID="VB_1_f2" label="Contra-Infr"/>
+      <facetEntailment facetID="VB_1_f3" label="Contra-Infr"/>
+      <facetEntailment facetID="VB_1_f4" label="Unaddressed"/>
+      <facetEntailment facetID="VB_1_f5" label="Inferred"/>
+      <facetEntailment facetID="VB_1_f6" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="VB.1.429.1" answerText="A controlled experiment is when you change one variable at a time to affect the outcome." accuracy="correct">
+      <facetEntailment facetID="VB_1_f1" label="Expressed"/>
+      <facetEntailment facetID="VB_1_f2" label="Expressed"/>
+      <facetEntailment facetID="VB_1_f3" label="Expressed"/>
+      <facetEntailment facetID="VB_1_f4" label="Expressed"/>
+      <facetEntailment facetID="VB_1_f5" label="Expressed"/>
+      <facetEntailment facetID="VB_1_f6" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="VB.1.431.1" answerText="When you only change one variable at a time." accuracy="correct">
+      <facetEntailment facetID="VB_1_f1" label="Assumed"/>
+      <facetEntailment facetID="VB_1_f2" label="Expressed"/>
+      <facetEntailment facetID="VB_1_f3" label="Expressed"/>
+      <facetEntailment facetID="VB_1_f4" label="Expressed"/>
+      <facetEntailment facetID="VB_1_f5" label="Expressed"/>
+      <facetEntailment facetID="VB_1_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="VB.1.440.1" answerText="A controlled experiment is when you only change one variable at a time." accuracy="correct">
+      <facetEntailment facetID="VB_1_f1" label="Expressed"/>
+      <facetEntailment facetID="VB_1_f2" label="Expressed"/>
+      <facetEntailment facetID="VB_1_f3" label="Expressed"/>
+      <facetEntailment facetID="VB_1_f4" label="Expressed"/>
+      <facetEntailment facetID="VB_1_f5" label="Expressed"/>
+      <facetEntailment facetID="VB_1_f6" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="VB.1.444.1" answerText="A controlled experiment is like a release position because a release position is a controlled experiment." accuracy="irrelevant">
+      <facetEntailment facetID="VB_1_f1" label="Expressed"/>
+      <facetEntailment facetID="VB_1_f2" label="Unaddressed"/>
+      <facetEntailment facetID="VB_1_f3" label="Unaddressed"/>
+      <facetEntailment facetID="VB_1_f4" label="Unaddressed"/>
+      <facetEntailment facetID="VB_1_f5" label="Unaddressed"/>
+      <facetEntailment facetID="VB_1_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="VB.1.449.1" answerText="If you do not change one variable at a time its not a controlled experiment." accuracy="correct">
+      <facetEntailment facetID="VB_1_f1" label="Assumed"/>
+      <facetEntailment facetID="VB_1_f2" label="Expressed"/>
+      <facetEntailment facetID="VB_1_f3" label="Expressed"/>
+      <facetEntailment facetID="VB_1_f4" label="Inferred"/>
+      <facetEntailment facetID="VB_1_f5" label="Expressed"/>
+      <facetEntailment facetID="VB_1_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="VB.1.469.1" answerText="Changing one variable at a time." accuracy="correct">
+      <facetEntailment facetID="VB_1_f1" label="Assumed"/>
+      <facetEntailment facetID="VB_1_f2" label="Expressed"/>
+      <facetEntailment facetID="VB_1_f3" label="Expressed"/>
+      <facetEntailment facetID="VB_1_f4" label="Expressed"/>
+      <facetEntailment facetID="VB_1_f5" label="Expressed"/>
+      <facetEntailment facetID="VB_1_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="VB.1.477.1" answerText="You define a controlled experiment when you only change one variable at a time." accuracy="correct">
+      <facetEntailment facetID="VB_1_f1" label="Expressed"/>
+      <facetEntailment facetID="VB_1_f2" label="Expressed"/>
+      <facetEntailment facetID="VB_1_f3" label="Expressed"/>
+      <facetEntailment facetID="VB_1_f4" label="Expressed"/>
+      <facetEntailment facetID="VB_1_f5" label="Expressed"/>
+      <facetEntailment facetID="VB_1_f6" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="VB.1.481.1" answerText="A controlled experiment is when you test the variables one at a time." accuracy="correct">
+      <facetEntailment facetID="VB_1_f1" label="Expressed"/>
+      <facetEntailment facetID="VB_1_f2" label="Expressed"/>
+      <facetEntailment facetID="VB_1_f3" label="Expressed"/>
+      <facetEntailment facetID="VB_1_f4" label="Expressed"/>
+      <facetEntailment facetID="VB_1_f5" label="Expressed"/>
+      <facetEntailment facetID="VB_1_f6" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="VB.1.483.1" answerText="Only one variable is changed at a time." accuracy="correct">
+      <facetEntailment facetID="VB_1_f1" label="Assumed"/>
+      <facetEntailment facetID="VB_1_f2" label="Expressed"/>
+      <facetEntailment facetID="VB_1_f3" label="Expressed"/>
+      <facetEntailment facetID="VB_1_f4" label="Expressed"/>
+      <facetEntailment facetID="VB_1_f5" label="Expressed"/>
+      <facetEntailment facetID="VB_1_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="VB.1.486.1" answerText="You can control the experiment." accuracy="irrelevant">
+      <facetEntailment facetID="VB_1_f1" label="Expressed"/>
+      <facetEntailment facetID="VB_1_f2" label="Unaddressed"/>
+      <facetEntailment facetID="VB_1_f3" label="Unaddressed"/>
+      <facetEntailment facetID="VB_1_f4" label="Unaddressed"/>
+      <facetEntailment facetID="VB_1_f5" label="Unaddressed"/>
+      <facetEntailment facetID="VB_1_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="VB.1.489.1" answerText="To do one at a time." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="VB_1_f1" label="Assumed"/>
+      <facetEntailment facetID="VB_1_f2" label="Inferred"/>
+      <facetEntailment facetID="VB_1_f3" label="Expressed"/>
+      <facetEntailment facetID="VB_1_f4" label="Unaddressed"/>
+      <facetEntailment facetID="VB_1_f5" label="Inferred"/>
+      <facetEntailment facetID="VB_1_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="VB.1.495.1" answerText="A controlled experiment is when you control it and it is an experiment of yours." accuracy="irrelevant">
+      <facetEntailment facetID="VB_1_f1" label="Expressed"/>
+      <facetEntailment facetID="VB_1_f2" label="Unaddressed"/>
+      <facetEntailment facetID="VB_1_f3" label="Unaddressed"/>
+      <facetEntailment facetID="VB_1_f4" label="Unaddressed"/>
+      <facetEntailment facetID="VB_1_f5" label="Unaddressed"/>
+      <facetEntailment facetID="VB_1_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="VB.1.497.1" answerText="Where you control the variables, length, mass, release position. But you cannot control the amount of time it swings." accuracy="irrelevant">
+      <facetEntailment facetID="VB_1_f1" label="Assumed"/>
+      <facetEntailment facetID="VB_1_f2" label="Unaddressed"/>
+      <facetEntailment facetID="VB_1_f3" label="Unaddressed"/>
+      <facetEntailment facetID="VB_1_f4" label="Unaddressed"/>
+      <facetEntailment facetID="VB_1_f5" label="Unaddressed"/>
+      <facetEntailment facetID="VB_1_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="VB.1.498.1" answerText="The variables can be changed one at a time." accuracy="correct">
+      <facetEntailment facetID="VB_1_f1" label="Assumed"/>
+      <facetEntailment facetID="VB_1_f2" label="Expressed"/>
+      <facetEntailment facetID="VB_1_f3" label="Expressed"/>
+      <facetEntailment facetID="VB_1_f4" label="Expressed"/>
+      <facetEntailment facetID="VB_1_f5" label="Expressed"/>
+      <facetEntailment facetID="VB_1_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="VB.1.503.1" answerText="When you only change one thing and you know the thing is causing it to do something." accuracy="correct">
+      <facetEntailment facetID="VB_1_f1" label="Assumed"/>
+      <facetEntailment facetID="VB_1_f2" label="Inferred"/>
+      <facetEntailment facetID="VB_1_f3" label="Expressed"/>
+      <facetEntailment facetID="VB_1_f4" label="Inferred"/>
+      <facetEntailment facetID="VB_1_f5" label="Inferred"/>
+      <facetEntailment facetID="VB_1_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="VB.1.523.1" answerText="By having everything controlled." accuracy="irrelevant">
+      <facetEntailment facetID="VB_1_f1" label="Assumed"/>
+      <facetEntailment facetID="VB_1_f2" label="Unaddressed"/>
+      <facetEntailment facetID="VB_1_f3" label="Unaddressed"/>
+      <facetEntailment facetID="VB_1_f4" label="Unaddressed"/>
+      <facetEntailment facetID="VB_1_f5" label="Unaddressed"/>
+      <facetEntailment facetID="VB_1_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="VB.1.525.1" answerText="By not being good." accuracy="non_domain">
+      <facetEntailment facetID="VB_1_f1" label="Assumed"/>
+      <facetEntailment facetID="VB_1_f2" label="Unaddressed"/>
+      <facetEntailment facetID="VB_1_f3" label="Unaddressed"/>
+      <facetEntailment facetID="VB_1_f4" label="Unaddressed"/>
+      <facetEntailment facetID="VB_1_f5" label="Unaddressed"/>
+      <facetEntailment facetID="VB_1_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="VB.1.530.1" answerText="If it needs to be controlled to make a decision." accuracy="irrelevant">
+      <facetEntailment facetID="VB_1_f1" label="Assumed"/>
+      <facetEntailment facetID="VB_1_f2" label="Unaddressed"/>
+      <facetEntailment facetID="VB_1_f3" label="Unaddressed"/>
+      <facetEntailment facetID="VB_1_f4" label="Unaddressed"/>
+      <facetEntailment facetID="VB_1_f5" label="Unaddressed"/>
+      <facetEntailment facetID="VB_1_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="VB.1.533.1" answerText="A variable is a controlled experiment." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="VB_1_f1" label="Expressed"/>
+      <facetEntailment facetID="VB_1_f2" label="Expressed"/>
+      <facetEntailment facetID="VB_1_f3" label="Unaddressed"/>
+      <facetEntailment facetID="VB_1_f4" label="Unaddressed"/>
+      <facetEntailment facetID="VB_1_f5" label="Unaddressed"/>
+      <facetEntailment facetID="VB_1_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="VB.1.535.1" answerText="Something that you do and you control." accuracy="irrelevant">
+      <facetEntailment facetID="VB_1_f1" label="Assumed"/>
+      <facetEntailment facetID="VB_1_f2" label="Unaddressed"/>
+      <facetEntailment facetID="VB_1_f3" label="Unaddressed"/>
+      <facetEntailment facetID="VB_1_f4" label="Unaddressed"/>
+      <facetEntailment facetID="VB_1_f5" label="Unaddressed"/>
+      <facetEntailment facetID="VB_1_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="VB.1.537.1" answerText="You control the mass of the tire swing." accuracy="irrelevant">
+      <facetEntailment facetID="VB_1_f1" label="Assumed"/>
+      <facetEntailment facetID="VB_1_f2" label="Unaddressed"/>
+      <facetEntailment facetID="VB_1_f3" label="Unaddressed"/>
+      <facetEntailment facetID="VB_1_f4" label="Unaddressed"/>
+      <facetEntailment facetID="VB_1_f5" label="Unaddressed"/>
+      <facetEntailment facetID="VB_1_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="VB.1.539.1" answerText="By controlling the swinger, and by changing the different thing." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="VB_1_f1" label="Assumed"/>
+      <facetEntailment facetID="VB_1_f2" label="Inferred"/>
+      <facetEntailment facetID="VB_1_f3" label="Unaddressed"/>
+      <facetEntailment facetID="VB_1_f4" label="Expressed"/>
+      <facetEntailment facetID="VB_1_f5" label="Inferred"/>
+      <facetEntailment facetID="VB_1_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="VB.1.542.1" answerText="You controlled the experiment by yourself." accuracy="irrelevant">
+      <facetEntailment facetID="VB_1_f1" label="Expressed"/>
+      <facetEntailment facetID="VB_1_f2" label="Unaddressed"/>
+      <facetEntailment facetID="VB_1_f3" label="Unaddressed"/>
+      <facetEntailment facetID="VB_1_f4" label="Unaddressed"/>
+      <facetEntailment facetID="VB_1_f5" label="Unaddressed"/>
+      <facetEntailment facetID="VB_1_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="VB.1.626.1" answerText="You can only change one variables." accuracy="correct">
+      <facetEntailment facetID="VB_1_f1" label="Assumed"/>
+      <facetEntailment facetID="VB_1_f2" label="Expressed"/>
+      <facetEntailment facetID="VB_1_f3" label="Expressed"/>
+      <facetEntailment facetID="VB_1_f4" label="Expressed"/>
+      <facetEntailment facetID="VB_1_f5" label="Inferred"/>
+      <facetEntailment facetID="VB_1_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="VB.1.628.1" answerText="By putting everything where it goes." accuracy="irrelevant">
+      <facetEntailment facetID="VB_1_f1" label="Assumed"/>
+      <facetEntailment facetID="VB_1_f2" label="Unaddressed"/>
+      <facetEntailment facetID="VB_1_f3" label="Unaddressed"/>
+      <facetEntailment facetID="VB_1_f4" label="Unaddressed"/>
+      <facetEntailment facetID="VB_1_f5" label="Unaddressed"/>
+      <facetEntailment facetID="VB_1_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="VB.1.636.1" answerText="A controlled experiment is when you change one variable that is it no more than one variable." accuracy="correct">
+      <facetEntailment facetID="VB_1_f1" label="Expressed"/>
+      <facetEntailment facetID="VB_1_f2" label="Expressed"/>
+      <facetEntailment facetID="VB_1_f3" label="Expressed"/>
+      <facetEntailment facetID="VB_1_f4" label="Expressed"/>
+      <facetEntailment facetID="VB_1_f5" label="Inferred"/>
+      <facetEntailment facetID="VB_1_f6" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="VB.1.639.1" answerText="A controlled experiment is when you only change one variable at a time." accuracy="correct">
+      <facetEntailment facetID="VB_1_f1" label="Expressed"/>
+      <facetEntailment facetID="VB_1_f2" label="Expressed"/>
+      <facetEntailment facetID="VB_1_f3" label="Expressed"/>
+      <facetEntailment facetID="VB_1_f4" label="Expressed"/>
+      <facetEntailment facetID="VB_1_f5" label="Expressed"/>
+      <facetEntailment facetID="VB_1_f6" label="Expressed"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

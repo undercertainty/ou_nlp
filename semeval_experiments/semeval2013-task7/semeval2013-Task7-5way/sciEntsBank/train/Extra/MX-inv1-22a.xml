@@ -1,0 +1,285 @@
+<?xml version="1.0"?>
+<question id="MX_22a" module="MX">
+  <questionText>A solution is a type of mixture. What makes it different from other mixtures?</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="MX_22a-a1" text="A solution is a mixture formed when a solid dissolves in a liquid.">
+      <tokens>
+        <token id="MX_22a_ra1">A</token>
+        <token id="MX_22a_ra2">solution</token>
+        <token id="MX_22a_ra3">is</token>
+        <token id="MX_22a_ra4">a</token>
+        <token id="MX_22a_ra5">mixture</token>
+        <token id="MX_22a_ra6">formed</token>
+        <token id="MX_22a_ra7">when</token>
+        <token id="MX_22a_ra8">a</token>
+        <token id="MX_22a_ra9">solid</token>
+        <token id="MX_22a_ra10">dissolves</token>
+        <token id="MX_22a_ra11">in</token>
+        <token id="MX_22a_ra12">a</token>
+        <token id="MX_22a_ra13">liquid</token>
+        <token id="MX_22a_ra14">.</token>
+      </tokens>
+      <facets>
+        <facet id="MX_22a_f1" govNum="MX_22a_ra2" modNum="MX_22a_ra5" reltn="Be" govText="solution" isAssumed="true" modText="mixture"/>
+        <facet id="MX_22a_f2" govNum="MX_22a_ra6" modNum="MX_22a_ra2" reltn="Product" govText="formed" modText="solution"/>
+        <facet id="MX_22a_f3" govNum="MX_22a_ra10" modNum="MX_22a_ra9" reltn="Patient" govText="dissolves" modText="solid"/>
+        <facet id="MX_22a_f4" govNum="MX_22a_ra10" modNum="MX_22a_ra13" reltn="Location_in" govText="dissolves" modText="liquid"/>
+        <facet id="MX_22a_f5" govNum="MX_22a_ra6" modNum="MX_22a_ra10" reltn="Cause_when" childProp2Facet2="MX_22a_f4" childProp1Facet1="MX_22a_f2" govText="formed" modText="dissolves" childProp2Facet1="MX_22a_f3"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="MX.22a.385.1" answerText="You can see through it." accuracy="irrelevant">
+      <facetEntailment facetID="MX_22a_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_22a_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MX_22a_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_22a_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MX_22a_f5" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.22a.386.1" answerText="It is one material that dissolves into the other. Making a clear mixture. Although it could be colored, it has to be see through." accuracy="correct">
+      <facetEntailment facetID="MX_22a_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_22a_f2" label="Inferred"/>
+      <facetEntailment facetID="MX_22a_f3" label="Inferred"/>
+      <facetEntailment facetID="MX_22a_f4" label="Inferred"/>
+      <facetEntailment facetID="MX_22a_f5" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="MX.22a.390.1" answerText="It is a clear mixture." accuracy="irrelevant">
+      <facetEntailment facetID="MX_22a_f1" label="Expressed"/>
+      <facetEntailment facetID="MX_22a_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MX_22a_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_22a_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MX_22a_f5" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.22a.391.1" answerText="It dissolves the solid into a liquid that is see through." accuracy="correct">
+      <facetEntailment facetID="MX_22a_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_22a_f2" label="Inferred"/>
+      <facetEntailment facetID="MX_22a_f3" label="Expressed"/>
+      <facetEntailment facetID="MX_22a_f4" label="Expressed"/>
+      <facetEntailment facetID="MX_22a_f5" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="MX.22a.396.1" answerText="It has to be a fairly clear." accuracy="irrelevant">
+      <facetEntailment facetID="MX_22a_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_22a_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MX_22a_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_22a_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MX_22a_f5" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.22a.397.1" answerText="A solution is a solid and a liquid mixed together." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="MX_22a_f1" label="Expressed"/>
+      <facetEntailment facetID="MX_22a_f2" label="Inferred"/>
+      <facetEntailment facetID="MX_22a_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_22a_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MX_22a_f5" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.22a.400.1" answerText="In a solution one of the materials dissolves and the mixture is see through." accuracy="correct">
+      <facetEntailment facetID="MX_22a_f1" label="Expressed"/>
+      <facetEntailment facetID="MX_22a_f2" label="Inferred"/>
+      <facetEntailment facetID="MX_22a_f3" label="Expressed"/>
+      <facetEntailment facetID="MX_22a_f4" label="Inferred"/>
+      <facetEntailment facetID="MX_22a_f5" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="MX.22a.416.1" answerText="A solution is different because a solution is a mixture of a solid material and a liquid." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="MX_22a_f1" label="Expressed"/>
+      <facetEntailment facetID="MX_22a_f2" label="Inferred"/>
+      <facetEntailment facetID="MX_22a_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_22a_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MX_22a_f5" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.22a.419.1" answerText="Because 2 mixtures become a solution. A solution is different because mixture cannot become a solution only 2 can." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="MX_22a_f1" label="Expressed"/>
+      <facetEntailment facetID="MX_22a_f2" label="Expressed"/>
+      <facetEntailment facetID="MX_22a_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_22a_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MX_22a_f5" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.22a.421.1" answerText="The difference from other mixtures was that we only used 2 and other people might use 3 or 4." accuracy="irrelevant">
+      <facetEntailment facetID="MX_22a_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_22a_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MX_22a_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_22a_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MX_22a_f5" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.22a.422.1" answerText="A solution is when you take a mixture like powder and mix it with water then after stirring it, it becomes a solution." accuracy="correct">
+      <facetEntailment facetID="MX_22a_f1" label="Expressed"/>
+      <facetEntailment facetID="MX_22a_f2" label="Expressed"/>
+      <facetEntailment facetID="MX_22a_f3" label="Inferred"/>
+      <facetEntailment facetID="MX_22a_f4" label="Inferred"/>
+      <facetEntailment facetID="MX_22a_f5" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="MX.22a.426.1" answerText="Because it is made of 2 mixtures, and making it one mixture and becoming a solution of 2 mixtures." accuracy="irrelevant">
+      <facetEntailment facetID="MX_22a_f1" label="Expressed"/>
+      <facetEntailment facetID="MX_22a_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MX_22a_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_22a_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MX_22a_f5" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.22a.463.1" answerText="A solution is 2 materials put together and the one dissolves. And on a mixture they stay so you can see it." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="MX_22a_f1" label="Expressed"/>
+      <facetEntailment facetID="MX_22a_f2" label="Expressed"/>
+      <facetEntailment facetID="MX_22a_f3" label="Inferred"/>
+      <facetEntailment facetID="MX_22a_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MX_22a_f5" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="MX.22a.466.1" answerText="It is different because in other mixtures the liquid dissolves but in a solution the solid material dissolves." accuracy="correct">
+      <facetEntailment facetID="MX_22a_f1" label="Expressed"/>
+      <facetEntailment facetID="MX_22a_f2" label="Inferred"/>
+      <facetEntailment facetID="MX_22a_f3" label="Expressed"/>
+      <facetEntailment facetID="MX_22a_f4" label="Inferred"/>
+      <facetEntailment facetID="MX_22a_f5" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="MX.22a.472.1" answerText="A solution is different from a mixture because it is when you mix 2 or more things and a solution is when like water and salt dissolves or evaporated." accuracy="contradictory">
+      <facetEntailment facetID="MX_22a_f1" label="Contra-Infr"/>
+      <facetEntailment facetID="MX_22a_f2" label="Inferred"/>
+      <facetEntailment facetID="MX_22a_f3" label="Expressed"/>
+      <facetEntailment facetID="MX_22a_f4" label="Expressed"/>
+      <facetEntailment facetID="MX_22a_f5" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="MX.22a.473.1" answerText="When you make solution tiny particles of the solid explained some cannot see it." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="MX_22a_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_22a_f2" label="Inferred"/>
+      <facetEntailment facetID="MX_22a_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_22a_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MX_22a_f5" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.22a.495.1" answerText="The solid material dissolves." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="MX_22a_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_22a_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MX_22a_f3" label="Expressed"/>
+      <facetEntailment facetID="MX_22a_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MX_22a_f5" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.22a.499.1" answerText="A solution is a different type of mixture. Then they are a solution is a mixtures that dissolves." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="MX_22a_f1" label="Expressed"/>
+      <facetEntailment facetID="MX_22a_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MX_22a_f3" label="Inferred"/>
+      <facetEntailment facetID="MX_22a_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MX_22a_f5" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.22a.502.1" answerText="The salt dissolved in the mixture." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="MX_22a_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_22a_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MX_22a_f3" label="Expressed"/>
+      <facetEntailment facetID="MX_22a_f4" label="Inferred"/>
+      <facetEntailment facetID="MX_22a_f5" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="MX.22a.521.1" answerText="A solution something that dissolves." accuracy="correct">
+      <facetEntailment facetID="MX_22a_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_22a_f2" label="Inferred"/>
+      <facetEntailment facetID="MX_22a_f3" label="Inferred"/>
+      <facetEntailment facetID="MX_22a_f4" label="Inferred"/>
+      <facetEntailment facetID="MX_22a_f5" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="MX.22a.527.1" answerText="A solution is something that dissolves into the liquid and a mixture is something mixed up together." accuracy="correct">
+      <facetEntailment facetID="MX_22a_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_22a_f2" label="Inferred"/>
+      <facetEntailment facetID="MX_22a_f3" label="Inferred"/>
+      <facetEntailment facetID="MX_22a_f4" label="Expressed"/>
+      <facetEntailment facetID="MX_22a_f5" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="MX.22a.528.1" answerText="When the mixture is mixed." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="MX_22a_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_22a_f2" label="Inferred"/>
+      <facetEntailment facetID="MX_22a_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_22a_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MX_22a_f5" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.22a.530.1" answerText="A solution does not dissolve." accuracy="contradictory">
+      <facetEntailment facetID="MX_22a_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_22a_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MX_22a_f3" label="Contra-Infr"/>
+      <facetEntailment facetID="MX_22a_f4" label="Contra-Expr"/>
+      <facetEntailment facetID="MX_22a_f5" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.22a.542.1" answerText="Other mixtures are mixed with peas and tomatoes and other foods." accuracy="irrelevant">
+      <facetEntailment facetID="MX_22a_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_22a_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MX_22a_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_22a_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MX_22a_f5" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.22a.559.1" answerText="A solution is when an object disappears in the liquid and in a mixture the object does not disappear." accuracy="correct">
+      <facetEntailment facetID="MX_22a_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_22a_f2" label="Inferred"/>
+      <facetEntailment facetID="MX_22a_f3" label="Expressed"/>
+      <facetEntailment facetID="MX_22a_f4" label="Expressed"/>
+      <facetEntailment facetID="MX_22a_f5" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="MX.22a.562.1" answerText="A solution is something put into a liquid and made one thing." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="MX_22a_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_22a_f2" label="Inferred"/>
+      <facetEntailment facetID="MX_22a_f3" label="Inferred"/>
+      <facetEntailment facetID="MX_22a_f4" label="Inferred"/>
+      <facetEntailment facetID="MX_22a_f5" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.22a.577.1" answerText="In a solution one material dissolves into the liquid." accuracy="correct">
+      <facetEntailment facetID="MX_22a_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_22a_f2" label="Inferred"/>
+      <facetEntailment facetID="MX_22a_f3" label="Expressed"/>
+      <facetEntailment facetID="MX_22a_f4" label="Expressed"/>
+      <facetEntailment facetID="MX_22a_f5" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="MX.22a.595.1" answerText="Solutions are clear." accuracy="irrelevant">
+      <facetEntailment facetID="MX_22a_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_22a_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MX_22a_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_22a_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MX_22a_f5" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.22a.600.1" answerText="Clear and 2 things that make it still clear." accuracy="irrelevant">
+      <facetEntailment facetID="MX_22a_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_22a_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MX_22a_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_22a_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MX_22a_f5" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.22a.601.1" answerText="A solution is different because it is clear that you can see through." accuracy="irrelevant">
+      <facetEntailment facetID="MX_22a_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_22a_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MX_22a_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_22a_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MX_22a_f5" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.22a.604.1" answerText="A solution is separated but a mixture is a bunched up together." accuracy="contradictory">
+      <facetEntailment facetID="MX_22a_f1" label="Contra-Infr"/>
+      <facetEntailment facetID="MX_22a_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MX_22a_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_22a_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MX_22a_f5" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.22a.611.1" answerText="Because a solution is clear but other mixtures are not." accuracy="irrelevant">
+      <facetEntailment facetID="MX_22a_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_22a_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MX_22a_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_22a_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MX_22a_f5" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.22a.633.1" answerText="It has and weighs more with more things in it than a solution." accuracy="irrelevant">
+      <facetEntailment facetID="MX_22a_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_22a_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MX_22a_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_22a_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MX_22a_f5" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.22a.638.1" answerText="Because one of the chemicals dissolves." accuracy="irrelevant">
+      <facetEntailment facetID="MX_22a_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_22a_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MX_22a_f3" label="Diff-Arg"/>
+      <facetEntailment facetID="MX_22a_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MX_22a_f5" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.22a.641.1" answerText="The solid must dissolve." accuracy="correct">
+      <facetEntailment facetID="MX_22a_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_22a_f2" label="Inferred"/>
+      <facetEntailment facetID="MX_22a_f3" label="Expressed"/>
+      <facetEntailment facetID="MX_22a_f4" label="Inferred"/>
+      <facetEntailment facetID="MX_22a_f5" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="MX.22a.649.1" answerText="They have a different type of them that they have different ideas." accuracy="irrelevant">
+      <facetEntailment facetID="MX_22a_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_22a_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MX_22a_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_22a_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MX_22a_f5" label="Unaddressed"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

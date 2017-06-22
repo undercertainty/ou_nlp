@@ -1,0 +1,497 @@
+<?xml version="1.0"?>
+<question id="SE_22b" module="SE">
+  <questionText>Andi and Scott decided to investigate solar water heaters using collectors of different colors (but the same size) as one variable and covered versus uncovered as a second variable. Look at the graph of their data and answer the questions below. What does the graph tell you about the effect of using blue versus red collectors?</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="SE_22b-a1" text="Solar water heaters with blue collectors heat up faster than solar water heaters with red collectors.">
+      <tokens>
+        <token id="SE_22b_ra1">Solar</token>
+        <token id="SE_22b_ra2">water</token>
+        <token id="SE_22b_ra3">heaters</token>
+        <token id="SE_22b_ra4">with</token>
+        <token id="SE_22b_ra5">blue</token>
+        <token id="SE_22b_ra6">collectors</token>
+        <token id="SE_22b_ra7">heat</token>
+        <token id="SE_22b_ra8">up</token>
+        <token id="SE_22b_ra9">faster</token>
+        <token id="SE_22b_ra10">than</token>
+        <token id="SE_22b_ra11">solar</token>
+        <token id="SE_22b_ra12">water</token>
+        <token id="SE_22b_ra13">heaters</token>
+        <token id="SE_22b_ra14">with</token>
+        <token id="SE_22b_ra15">red</token>
+        <token id="SE_22b_ra16">collectors</token>
+        <token id="SE_22b_ra17">.</token>
+      </tokens>
+      <facets>
+        <facet id="SE_22b_f1" govNum="SE_22b_ra3" modNum="SE_22b_ra2" reltn="NMod" govText="heaters" isAssumed="true" modText="water"/>
+        <facet id="SE_22b_f2" govNum="SE_22b_ra3" modNum="SE_22b_ra1" reltn="NMod" govText="heaters" isAssumed="true" modText="Solar"/>
+        <facet id="SE_22b_f3" govNum="SE_22b_ra3" modNum="SE_22b_ra6" reltn="NMod_with" govText="heaters" isAssumed="true" modText="collectors"/>
+        <facet id="SE_22b_f4" govNum="SE_22b_ra6" modNum="SE_22b_ra5" reltn="NMod" govText="collectors" isAssumed="true" modText="blue"/>
+        <facet id="SE_22b_f5" govNum="SE_22b_ra7" modNum="SE_22b_ra3" reltn="Patient" govText="heat up" isAssumed="true" modText="heaters"/>
+        <facet id="SE_22b_f6" govNum="SE_22b_ra7" modNum="SE_22b_ra9" reltn="Manner" govText="heat up" modText="faster"/>
+        <facet id="SE_22b_f7" govNum="SE_22b_ra9" modNum="SE_22b_ra13" reltn="AMod_than" govText="faster" modText="heaters"/>
+        <facet id="SE_22b_f8" govNum="SE_22b_ra13" modNum="SE_22b_ra12" reltn="NMod" govText="heaters" isAssumed="true" modText="water"/>
+        <facet id="SE_22b_f9" govNum="SE_22b_ra13" modNum="SE_22b_ra11" reltn="NMod" govText="heaters" isAssumed="true" modText="solar"/>
+        <facet id="SE_22b_f10" govNum="SE_22b_ra13" modNum="SE_22b_ra16" reltn="NMod_with" govText="heaters" isAssumed="true" modText="collectors"/>
+        <facet id="SE_22b_f11" govNum="SE_22b_ra16" modNum="SE_22b_ra15" reltn="NMod" govText="collectors" isAssumed="true" modText="red"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="SE.22b.112.1" answerText="Blue is very attracted to the heat whether it is covered or not. Red is not attracted." accuracy="correct">
+      <facetEntailment facetID="SE_22b_f1" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f3" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f4" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f5" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f6" label="Inferred"/>
+      <facetEntailment facetID="SE_22b_f7" label="Inferred"/>
+      <facetEntailment facetID="SE_22b_f8" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f9" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f10" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f11" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.22b.124.1" answerText="Blue will get hotter because it is a dark color and red is not." accuracy="correct">
+      <facetEntailment facetID="SE_22b_f1" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f3" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f4" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f5" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f6" label="Inferred"/>
+      <facetEntailment facetID="SE_22b_f7" label="Inferred"/>
+      <facetEntailment facetID="SE_22b_f8" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f9" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f10" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f11" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.22b.127.1" answerText="The blue absorbs most of the sun and red did not absorb most of the sun." accuracy="correct">
+      <facetEntailment facetID="SE_22b_f1" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f3" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f4" label="Expressed"/>
+      <facetEntailment facetID="SE_22b_f5" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f6" label="Inferred"/>
+      <facetEntailment facetID="SE_22b_f7" label="Inferred"/>
+      <facetEntailment facetID="SE_22b_f8" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f9" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f10" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f11" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.22b.128.1" answerText="That blue it is more dark than red." accuracy="irrelevant">
+      <facetEntailment facetID="SE_22b_f1" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f3" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f4" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f5" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="SE_22b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="SE_22b_f8" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f9" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f10" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f11" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.22b.129.1" answerText="The blue covered got hotter and in the same amount of time than the red." accuracy="correct">
+      <facetEntailment facetID="SE_22b_f1" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f3" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f4" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f5" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f6" label="Expressed"/>
+      <facetEntailment facetID="SE_22b_f7" label="Inferred"/>
+      <facetEntailment facetID="SE_22b_f8" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f9" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f10" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f11" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.22b.139.1" answerText="Blue versus are warmer than red versus." accuracy="correct">
+      <facetEntailment facetID="SE_22b_f1" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f3" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f4" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f5" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f6" label="Inferred"/>
+      <facetEntailment facetID="SE_22b_f7" label="Inferred"/>
+      <facetEntailment facetID="SE_22b_f8" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f9" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f10" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f11" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.22b.141.1" answerText="Blue is more darker so it absorbs more heat and that is why it is bigger." accuracy="correct">
+      <facetEntailment facetID="SE_22b_f1" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f3" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f4" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f5" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f6" label="Inferred"/>
+      <facetEntailment facetID="SE_22b_f7" label="Inferred"/>
+      <facetEntailment facetID="SE_22b_f8" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f9" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f10" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f11" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.22b.148.1" answerText="It warms better." accuracy="correct">
+      <facetEntailment facetID="SE_22b_f1" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f3" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f4" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f5" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f6" label="Inferred"/>
+      <facetEntailment facetID="SE_22b_f7" label="Inferred"/>
+      <facetEntailment facetID="SE_22b_f8" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f9" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f10" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f11" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.22b.149.1" answerText="That the blue will heat up faster than the red because the blue is darker." accuracy="correct">
+      <facetEntailment facetID="SE_22b_f1" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f3" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f4" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f5" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f6" label="Expressed"/>
+      <facetEntailment facetID="SE_22b_f7" label="Inferred"/>
+      <facetEntailment facetID="SE_22b_f8" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f9" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f10" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f11" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.22b.151.1" answerText="Because the blue uncovered and the red covered is like the same like the blue uncovered." accuracy="irrelevant">
+      <facetEntailment facetID="SE_22b_f1" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f3" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f4" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f5" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="SE_22b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="SE_22b_f8" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f9" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f10" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f11" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.22b.155.1" answerText="That the blue might be darker than the red." accuracy="irrelevant">
+      <facetEntailment facetID="SE_22b_f1" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f3" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f4" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f5" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="SE_22b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="SE_22b_f8" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f9" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f10" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f11" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.22b.164.1" answerText="Because blue uncovered does not attract that much heat like the red one does." accuracy="contradictory">
+      <facetEntailment facetID="SE_22b_f1" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f3" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f4" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f5" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f6" label="Contra-Infr"/>
+      <facetEntailment facetID="SE_22b_f7" label="Contra-Infr"/>
+      <facetEntailment facetID="SE_22b_f8" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f9" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f10" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f11" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.22b.175.1" answerText="The blue collects more heat, because it is more darker than red." accuracy="correct">
+      <facetEntailment facetID="SE_22b_f1" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f3" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f4" label="Expressed"/>
+      <facetEntailment facetID="SE_22b_f5" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f6" label="Inferred"/>
+      <facetEntailment facetID="SE_22b_f7" label="Inferred"/>
+      <facetEntailment facetID="SE_22b_f8" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f9" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f10" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f11" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.22b.177.1" answerText="The blue color is kind of a color black and darker than red so that why the blue heat more than the red one." accuracy="correct">
+      <facetEntailment facetID="SE_22b_f1" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f3" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f4" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f5" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f6" label="Inferred"/>
+      <facetEntailment facetID="SE_22b_f7" label="Inferred"/>
+      <facetEntailment facetID="SE_22b_f8" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f9" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f10" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f11" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.22b.179.1" answerText="The blue gets hotter than the red maybe because the blue is darker than the red." accuracy="correct">
+      <facetEntailment facetID="SE_22b_f1" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f3" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f4" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f5" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f6" label="Inferred"/>
+      <facetEntailment facetID="SE_22b_f7" label="Inferred"/>
+      <facetEntailment facetID="SE_22b_f8" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f9" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f10" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f11" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.22b.242.1" answerText="The blue gathers more heat than the red." accuracy="correct">
+      <facetEntailment facetID="SE_22b_f1" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f3" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f4" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f5" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f6" label="Inferred"/>
+      <facetEntailment facetID="SE_22b_f7" label="Inferred"/>
+      <facetEntailment facetID="SE_22b_f8" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f9" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f10" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f11" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.22b.254.1" answerText="Blue heats water better." accuracy="correct">
+      <facetEntailment facetID="SE_22b_f1" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f3" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f4" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f5" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f6" label="Expressed"/>
+      <facetEntailment facetID="SE_22b_f7" label="Inferred"/>
+      <facetEntailment facetID="SE_22b_f8" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f9" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f10" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f11" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.22b.311.1" answerText="It is more better than using other colors." accuracy="irrelevant">
+      <facetEntailment facetID="SE_22b_f1" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f3" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f4" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f5" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="SE_22b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="SE_22b_f8" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f9" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f10" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f11" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.22b.313.1" answerText="If a color is dark it will heat up more than a light one so blue was dark red was light." accuracy="correct">
+      <facetEntailment facetID="SE_22b_f1" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f3" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f4" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f5" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f6" label="Expressed"/>
+      <facetEntailment facetID="SE_22b_f7" label="Inferred"/>
+      <facetEntailment facetID="SE_22b_f8" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f9" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f10" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f11" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.22b.319.1" answerText="That heat up more fast than other." accuracy="correct">
+      <facetEntailment facetID="SE_22b_f1" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f3" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f4" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f5" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f6" label="Expressed"/>
+      <facetEntailment facetID="SE_22b_f7" label="Inferred"/>
+      <facetEntailment facetID="SE_22b_f8" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f9" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f10" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f11" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.22b.325.1" answerText="It tells me that the blue is winning and not the red." accuracy="correct">
+      <facetEntailment facetID="SE_22b_f1" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f3" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f4" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f5" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f6" label="Inferred"/>
+      <facetEntailment facetID="SE_22b_f7" label="Inferred"/>
+      <facetEntailment facetID="SE_22b_f8" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f9" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f10" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f11" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.22b.331.1" answerText="The blue heats up more than the red by just a little bit, so that tells the blue collects more solar energy." accuracy="correct">
+      <facetEntailment facetID="SE_22b_f1" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f2" label="Expressed"/>
+      <facetEntailment facetID="SE_22b_f3" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f4" label="Expressed"/>
+      <facetEntailment facetID="SE_22b_f5" label="Expressed"/>
+      <facetEntailment facetID="SE_22b_f6" label="Inferred"/>
+      <facetEntailment facetID="SE_22b_f7" label="Inferred"/>
+      <facetEntailment facetID="SE_22b_f8" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f9" label="Expressed"/>
+      <facetEntailment facetID="SE_22b_f10" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f11" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.22b.341.1" answerText="That blue is really high and that the red does not cover nothing so that means he is last." accuracy="irrelevant">
+      <facetEntailment facetID="SE_22b_f1" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f3" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f4" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f5" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="SE_22b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="SE_22b_f8" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f9" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f10" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f11" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.22b.393.1" answerText="Blue absorb more heat than the red." accuracy="correct">
+      <facetEntailment facetID="SE_22b_f1" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f3" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f4" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f5" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f6" label="Inferred"/>
+      <facetEntailment facetID="SE_22b_f7" label="Inferred"/>
+      <facetEntailment facetID="SE_22b_f8" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f9" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f10" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f11" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.22b.396.1" answerText="That blue must be darker soil will absorb more than the red." accuracy="correct">
+      <facetEntailment facetID="SE_22b_f1" label="Diff-Arg"/>
+      <facetEntailment facetID="SE_22b_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f3" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f4" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f5" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f6" label="Inferred"/>
+      <facetEntailment facetID="SE_22b_f7" label="Inferred"/>
+      <facetEntailment facetID="SE_22b_f8" label="Diff-Arg"/>
+      <facetEntailment facetID="SE_22b_f9" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f10" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f11" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.22b.398.1" answerText="The blue collectors had the highest effect it heated the most and the fastest." accuracy="correct">
+      <facetEntailment facetID="SE_22b_f1" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f3" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f4" label="Expressed"/>
+      <facetEntailment facetID="SE_22b_f5" label="Expressed"/>
+      <facetEntailment facetID="SE_22b_f6" label="Expressed"/>
+      <facetEntailment facetID="SE_22b_f7" label="Inferred"/>
+      <facetEntailment facetID="SE_22b_f8" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f9" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f10" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f11" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.22b.402.1" answerText="The graph tells me that blue will heat up faster than red, probably because blue is darker, which attracts heat faster." accuracy="correct">
+      <facetEntailment facetID="SE_22b_f1" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f3" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f4" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f5" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f6" label="Expressed"/>
+      <facetEntailment facetID="SE_22b_f7" label="Inferred"/>
+      <facetEntailment facetID="SE_22b_f8" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f9" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f10" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f11" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.22b.419.1" answerText="It tells me that blue heats the water more." accuracy="correct">
+      <facetEntailment facetID="SE_22b_f1" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f3" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f4" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f5" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f6" label="Inferred"/>
+      <facetEntailment facetID="SE_22b_f7" label="Inferred"/>
+      <facetEntailment facetID="SE_22b_f8" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f9" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f10" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f11" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.22b.434.1" answerText="It tells me that the blue collectors heat up faster than the blue collectors." accuracy="correct">
+      <facetEntailment facetID="SE_22b_f1" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f3" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f4" label="Expressed"/>
+      <facetEntailment facetID="SE_22b_f5" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f6" label="Expressed"/>
+      <facetEntailment facetID="SE_22b_f7" label="Inferred"/>
+      <facetEntailment facetID="SE_22b_f8" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f9" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f10" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f11" label="Diff-Arg"/>
+    </studentAnswer>
+    <studentAnswer id="SE.22b.439.1" answerText="The effect of using a blue cover can heat it up faster than red. Blue is also darker than red." accuracy="correct">
+      <facetEntailment facetID="SE_22b_f1" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f3" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f4" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f5" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f6" label="Expressed"/>
+      <facetEntailment facetID="SE_22b_f7" label="Inferred"/>
+      <facetEntailment facetID="SE_22b_f8" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f9" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f10" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f11" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.22b.440.1" answerText="Since red is lighter color it does not absorb much like white, but blue is darker so it is a little like black." accuracy="correct">
+      <facetEntailment facetID="SE_22b_f1" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f3" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f4" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f5" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f6" label="Inferred"/>
+      <facetEntailment facetID="SE_22b_f7" label="Inferred"/>
+      <facetEntailment facetID="SE_22b_f8" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f9" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f10" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f11" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.22b.441.1" answerText="The graph tells that the blue covered collected more heat than the red covered." accuracy="correct">
+      <facetEntailment facetID="SE_22b_f1" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f3" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f4" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f5" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f6" label="Inferred"/>
+      <facetEntailment facetID="SE_22b_f7" label="Inferred"/>
+      <facetEntailment facetID="SE_22b_f8" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f9" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f10" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f11" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.22b.531.1" answerText="Using blue collectors heat up quicker than red collectors." accuracy="correct">
+      <facetEntailment facetID="SE_22b_f1" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f3" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f4" label="Expressed"/>
+      <facetEntailment facetID="SE_22b_f5" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f6" label="Expressed"/>
+      <facetEntailment facetID="SE_22b_f7" label="Inferred"/>
+      <facetEntailment facetID="SE_22b_f8" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f9" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f10" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f11" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.22b.570.1" answerText="Tells me that blue covered and uncovered is hotter than red cover and uncovered." accuracy="correct">
+      <facetEntailment facetID="SE_22b_f1" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f3" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f4" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f5" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f6" label="Inferred"/>
+      <facetEntailment facetID="SE_22b_f7" label="Inferred"/>
+      <facetEntailment facetID="SE_22b_f8" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f9" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f10" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f11" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.22b.594.1" answerText="That the blue heats more than the red." accuracy="correct">
+      <facetEntailment facetID="SE_22b_f1" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f3" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f4" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f5" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f6" label="Inferred"/>
+      <facetEntailment facetID="SE_22b_f7" label="Inferred"/>
+      <facetEntailment facetID="SE_22b_f8" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f9" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f10" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f11" label="Assumed"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

@@ -1,0 +1,832 @@
+<?xml version="1.0"?>
+<question testSet="unseen-domains" id="HB_53b" module="HB">
+  <questionText>Look at the picture of a cow bone. What is the function of this type of bone?</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="HB_53b-a1" text="The rib bones form a cage to protect the internal organs.">
+      <tokens>
+        <token id="HB_53b_ra1">The</token>
+        <token id="HB_53b_ra2">rib</token>
+        <token id="HB_53b_ra3">bones</token>
+        <token id="HB_53b_ra4">form</token>
+        <token id="HB_53b_ra5">a</token>
+        <token id="HB_53b_ra6">cage</token>
+        <token id="HB_53b_ra7">to</token>
+        <token id="HB_53b_ra8">protect</token>
+        <token id="HB_53b_ra9">the</token>
+        <token id="HB_53b_ra10">internal</token>
+        <token id="HB_53b_ra11">organs</token>
+        <token id="HB_53b_ra12">.</token>
+      </tokens>
+      <facets>
+        <facet id="HB_53b_f1" govNum="HB_53b_ra3" modNum="HB_53b_ra2" reltn="NMod" govText="bones" modText="rib"/>
+        <facet id="HB_53b_f2" govNum="HB_53b_ra4" modNum="HB_53b_ra3" reltn="Material" govText="form" modText="bones"/>
+        <facet id="HB_53b_f3" govNum="HB_53b_ra4" modNum="HB_53b_ra6" reltn="Product" govText="form" modText="cage"/>
+        <facet id="HB_53b_f4" govNum="HB_53b_ra8" modNum="HB_53b_ra4" reltn="Cause_to" childProp2Facet2="HB_53b_f2" childProp1Facet1="HB_53b_f5" govText="protect" modText="form" childProp2Facet1="HB_53b_f3"/>
+        <facet id="HB_53b_f5" govNum="HB_53b_ra8" modNum="HB_53b_ra11" reltn="Theme" govText="protect" modText="organs"/>
+        <facet id="HB_53b_f6" govNum="HB_53b_ra11" modNum="HB_53b_ra10" reltn="NMod" govText="organs" modText="internal"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="HB.53b.136.1" answerText="Rib cage." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_53b_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_53b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f3" label="Inferred"/>
+      <facetEntailment facetID="HB_53b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.53b.138.1" answerText="To protect your heart and veins and lungs." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_53b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_53b_f6" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.53b.139.1" answerText="The function of this type of bone is to protect your heart, lungs, liver and body parts inside the torso." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_53b_f1" label="Inferred"/>
+      <facetEntailment facetID="HB_53b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_53b_f6" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.53b.141.1" answerText="Support." accuracy="irrelevant">
+      <facetEntailment facetID="HB_53b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.53b.142.1" answerText="I know it is a rib because it is curved." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_53b_f1" label="Inferred"/>
+      <facetEntailment facetID="HB_53b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.53b.144.1" answerText="It protects the heart and guts." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_53b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_53b_f6" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.53b.148.1" answerText="To protect your insides." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_53b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f5" label="Inferred"/>
+      <facetEntailment facetID="HB_53b_f6" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="HB.53b.180.1" answerText="It protects your insides." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_53b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f5" label="Inferred"/>
+      <facetEntailment facetID="HB_53b_f6" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="HB.53b.207.1" answerText="Protection." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_53b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f5" label="Inferred"/>
+      <facetEntailment facetID="HB_53b_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.53b.209.1" answerText="It protects the lungs." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_53b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_53b_f6" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.53b.212.1" answerText="Protecting your organs." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_53b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_53b_f6" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="HB.53b.216.1" answerText="To protect the heart." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_53b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_53b_f6" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.53b.222.1" answerText="It is protection." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_53b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f5" label="Inferred"/>
+      <facetEntailment facetID="HB_53b_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.53b.243.1" answerText="The function is protection because the ribs protect the heart and lungs." accuracy="correct">
+      <facetEntailment facetID="HB_53b_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_53b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_53b_f6" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.53b.251.1" answerText="The function of the rib is protection." accuracy="correct">
+      <facetEntailment facetID="HB_53b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f5" label="Inferred"/>
+      <facetEntailment facetID="HB_53b_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.53b.254.1" answerText="The function of this bone is to protect the heart and the lungs." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_53b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_53b_f6" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.53b.256.1" answerText="It is long and at the 2 ends curved." accuracy="irrelevant">
+      <facetEntailment facetID="HB_53b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.53b.257.1" answerText="Protection." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_53b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f5" label="Inferred"/>
+      <facetEntailment facetID="HB_53b_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.53b.284.1" answerText="The bone is curved like our rib bone." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_53b_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_53b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.53b.311.1" answerText="The function is to protect your heart and lungs." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_53b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_53b_f6" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.53b.313.1" answerText="It is a rib because it is curved the way a rib curves." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_53b_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_53b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.53b.320.1" answerText="To protect the heart and liver and stuff." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_53b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_53b_f6" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.53b.324.1" answerText="The function of that bone is to protect." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_53b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f5" label="Inferred"/>
+      <facetEntailment facetID="HB_53b_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.53b.325.1" answerText="I know because it is curved like a C." accuracy="irrelevant">
+      <facetEntailment facetID="HB_53b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.53b.328.1" answerText="The function is to protect." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_53b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f5" label="Inferred"/>
+      <facetEntailment facetID="HB_53b_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.53b.346.1" answerText="It is kind of bent little bit of the bone." accuracy="irrelevant">
+      <facetEntailment facetID="HB_53b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.53b.349.1" answerText="The bone protects our heart." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_53b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_53b_f6" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.53b.350.1" answerText="His rib, his jawbone his leg bone." accuracy="irrelevant">
+      <facetEntailment facetID="HB_53b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.53b.352.1" answerText="The function of this type of bone is to move." accuracy="irrelevant">
+      <facetEntailment facetID="HB_53b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.53b.361.1" answerText="To protect your heart and lungs." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_53b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_53b_f6" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.53b.365.1" answerText="Protects our lungs and heart." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_53b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_53b_f6" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.53b.385.1" answerText="The function of this bone is a layer." accuracy="irrelevant">
+      <facetEntailment facetID="HB_53b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.53b.386.1" answerText="That it protects some things." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_53b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f5" label="Inferred"/>
+      <facetEntailment facetID="HB_53b_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.53b.387.1" answerText="Protection." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_53b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f5" label="Inferred"/>
+      <facetEntailment facetID="HB_53b_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.53b.393.1" answerText="The rib bone protects the lungs and the hearts." accuracy="correct">
+      <facetEntailment facetID="HB_53b_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_53b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_53b_f6" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.53b.418.1" answerText="The function is to protect your heart and all the other stuff inside." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_53b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_53b_f6" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.53b.422.1" answerText="The function is protection." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_53b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f5" label="Inferred"/>
+      <facetEntailment facetID="HB_53b_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.53b.424.1" answerText="It keeps things inside." accuracy="irrelevant">
+      <facetEntailment facetID="HB_53b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f3" label="Inferred"/>
+      <facetEntailment facetID="HB_53b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f6" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="HB.53b.425.1" answerText="The function of this bone is the chest." accuracy="irrelevant">
+      <facetEntailment facetID="HB_53b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.53b.427.1" answerText="I think the function of this type of bone is for protection." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_53b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f5" label="Inferred"/>
+      <facetEntailment facetID="HB_53b_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.53b.428.1" answerText="It is for protection for your heart, lung, intestines and liver." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_53b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_53b_f6" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.53b.429.1" answerText="To protect some of what is inside your body." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_53b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f5" label="Inferred"/>
+      <facetEntailment facetID="HB_53b_f6" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="HB.53b.432.1" answerText="It protects the insides." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_53b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f5" label="Inferred"/>
+      <facetEntailment facetID="HB_53b_f6" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="HB.53b.433.1" answerText="The function of this cow bone is protection." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_53b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f5" label="Inferred"/>
+      <facetEntailment facetID="HB_53b_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.53b.435.1" answerText="Protecting your heart, lungs and some guts." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_53b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_53b_f6" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.53b.438.1" answerText="Protection of your insides." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_53b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f5" label="Inferred"/>
+      <facetEntailment facetID="HB_53b_f6" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="HB.53b.456.1" answerText="It has the rib cage." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_53b_f1" label="Inferred"/>
+      <facetEntailment facetID="HB_53b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f3" label="Inferred"/>
+      <facetEntailment facetID="HB_53b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.53b.458.1" answerText="It can carry a lot of stuff in it and if you do not have it all of the stuff would fall out." accuracy="irrelevant">
+      <facetEntailment facetID="HB_53b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.53b.459.1" answerText="Protect the lung." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_53b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_53b_f6" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.53b.461.1" answerText="It helps we breathe." accuracy="irrelevant">
+      <facetEntailment facetID="HB_53b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.53b.463.1" answerText="It protects the heart." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_53b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_53b_f6" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.53b.466.1" answerText="Protect the lungs and heart." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_53b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_53b_f6" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.53b.470.1" answerText="It protects our heart and lungs." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_53b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_53b_f6" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.53b.471.1" answerText="Protects our heart." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_53b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f5" label="Inferred"/>
+      <facetEntailment facetID="HB_53b_f6" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.53b.493.1" answerText="It guards your heart." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_53b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_53b_f6" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.53b.494.1" answerText="To protect your heart and lungs so you will stay alive." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_53b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_53b_f6" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.53b.496.1" answerText="Ribs are tiny and curved." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_53b_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_53b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.53b.499.1" answerText="It looks like the rib and it looks exactly like a mouse bone." accuracy="irrelevant">
+      <facetEntailment facetID="HB_53b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.53b.500.1" answerText="To protect the heart and lungs." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_53b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_53b_f6" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.53b.501.1" answerText="To keep the lungs safe." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_53b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_53b_f6" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.53b.504.1" answerText="Protection of the heart and lungs, liver." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_53b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_53b_f6" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.53b.505.1" answerText="To protect the important heart." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_53b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_53b_f6" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.53b.523.1" answerText="Protection of organs and heart." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_53b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_53b_f6" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.53b.524.1" answerText="This type of bone is good for protection." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_53b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f5" label="Inferred"/>
+      <facetEntailment facetID="HB_53b_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.53b.525.1" answerText="To protect your organs." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_53b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_53b_f6" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.53b.531.1" answerText="That it is not like our rib bones." accuracy="irrelevant">
+      <facetEntailment facetID="HB_53b_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_53b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.53b.535.1" answerText="It is a rib but they call it a cow bone." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_53b_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_53b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.53b.565.1" answerText="To protect what the cow eats." accuracy="irrelevant">
+      <facetEntailment facetID="HB_53b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f5" label="Diff-Arg"/>
+      <facetEntailment facetID="HB_53b_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.53b.566.1" answerText="Because ribs are bound." accuracy="irrelevant">
+      <facetEntailment facetID="HB_53b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.53b.568.1" answerText="To keep organs safe." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_53b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_53b_f6" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.53b.571.1" answerText="Maybe to protect the cow's organs." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_53b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_53b_f6" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="HB.53b.575.1" answerText="To protect organs, digestive system and maybe heart." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_53b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_53b_f6" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.53b.577.1" answerText="To protect the organs." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_53b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_53b_f6" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="HB.53b.579.1" answerText="To protect the heart." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_53b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_53b_f6" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.53b.592.1" answerText="Protects your lungs." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_53b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_53b_f6" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.53b.593.1" answerText="To twist around and protect your organs." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_53b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_53b_f6" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="HB.53b.598.1" answerText="The function is protecting." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_53b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f5" label="Inferred"/>
+      <facetEntailment facetID="HB_53b_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.53b.599.1" answerText="It keeps the stomach round." accuracy="irrelevant">
+      <facetEntailment facetID="HB_53b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f5" label="Diff-Arg"/>
+      <facetEntailment facetID="HB_53b_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.53b.601.1" answerText="I think the function is hollow." accuracy="irrelevant">
+      <facetEntailment facetID="HB_53b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.53b.603.1" answerText="The function of this bone is to protect." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_53b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f5" label="Inferred"/>
+      <facetEntailment facetID="HB_53b_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.53b.604.1" answerText="To protect all of your insides." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_53b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f5" label="Inferred"/>
+      <facetEntailment facetID="HB_53b_f6" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="HB.53b.607.1" answerText="The heart." accuracy="irrelevant">
+      <facetEntailment facetID="HB_53b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f6" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="HB.53b.611.1" answerText="It protects its heart." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_53b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_53b_f6" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.53b.613.1" answerText="The function of this bone is to help protect the heart." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_53b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_53b_f6" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.53b.614.1" answerText="The function of this bone is to help the cow move its tail on the outside." accuracy="irrelevant">
+      <facetEntailment facetID="HB_53b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.53b.626.1" answerText="To protect its rib cage at all times." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_53b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f3" label="Inferred"/>
+      <facetEntailment facetID="HB_53b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f5" label="Diff-Arg"/>
+      <facetEntailment facetID="HB_53b_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.53b.631.1" answerText="Protection." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_53b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f5" label="Inferred"/>
+      <facetEntailment facetID="HB_53b_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.53b.636.1" answerText="Support because you need it to live." accuracy="irrelevant">
+      <facetEntailment facetID="HB_53b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.53b.637.1" answerText="Protection." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_53b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f5" label="Inferred"/>
+      <facetEntailment facetID="HB_53b_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.53b.641.1" answerText="The function is to protect the lungs and the other organs." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_53b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_53b_f6" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.53b.646.1" answerText="The function of this bone is protection." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_53b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f5" label="Inferred"/>
+      <facetEntailment facetID="HB_53b_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.53b.647.1" answerText="The function is protection." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_53b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f5" label="Inferred"/>
+      <facetEntailment facetID="HB_53b_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.53b.648.1" answerText="Protect the bone because it rib." accuracy="irrelevant">
+      <facetEntailment facetID="HB_53b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f5" label="Diff-Arg"/>
+      <facetEntailment facetID="HB_53b_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.53b.986.1" answerText="It is to protect the lungs, heart and the stomach." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_53b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_53b_f6" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.53b.987.1" answerText="Support." accuracy="irrelevant">
+      <facetEntailment facetID="HB_53b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.53b.988.1" answerText="Support." accuracy="irrelevant">
+      <facetEntailment facetID="HB_53b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.53b.989.1" answerText="Support." accuracy="irrelevant">
+      <facetEntailment facetID="HB_53b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.53b.990.1" answerText="The function of this bone is protection." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_53b_f1" label="Inferred"/>
+      <facetEntailment facetID="HB_53b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f5" label="Inferred"/>
+      <facetEntailment facetID="HB_53b_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.53b.991.1" answerText="Support." accuracy="irrelevant">
+      <facetEntailment facetID="HB_53b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.53b.993.1" answerText="That it does not move." accuracy="irrelevant">
+      <facetEntailment facetID="HB_53b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="HB_53b_f6" label="Unaddressed"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

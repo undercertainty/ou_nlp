@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<question testSet="unseen-answers" id="ME_66b" module="ME">
+  <questionText>Look at the circuit in the picture. The gap between the D-cell and the switch needs to be connected. Can you use a piece of aluminum foil to make the connection? Why or why not?</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="ME_66b-a1" text="Yes, aluminum foil is a metal and all metals conduct. The aluminum foil would complete the circuit.">
+      <tokens>
+        <token id="ME_66b_ra1">Yes</token>
+        <token id="ME_66b_ra2">,</token>
+        <token id="ME_66b_ra3">aluminum</token>
+        <token id="ME_66b_ra4">foil</token>
+        <token id="ME_66b_ra5">is</token>
+        <token id="ME_66b_ra6">a</token>
+        <token id="ME_66b_ra7">metal</token>
+        <token id="ME_66b_ra8">and</token>
+        <token id="ME_66b_ra9">all</token>
+        <token id="ME_66b_ra10">metals</token>
+        <token id="ME_66b_ra11">conduct</token>
+        <token id="ME_66b_ra12">.</token>
+        <token id="ME_66b_ra13">The</token>
+        <token id="ME_66b_ra14">aluminum</token>
+        <token id="ME_66b_ra15">foil</token>
+        <token id="ME_66b_ra16">would</token>
+        <token id="ME_66b_ra17">complete</token>
+        <token id="ME_66b_ra18">the</token>
+        <token id="ME_66b_ra19">circuit</token>
+        <token id="ME_66b_ra20">.</token>
+      </tokens>
+      <facets>
+        <facet id="ME_66b_f1" govNum="ME_66b_ra0" modNum="ME_66b_ra1" reltn="Root" govText="root" modText="Yes"/>
+        <facet id="ME_66b_f2" govNum="ME_66b_ra4" modNum="ME_66b_ra3" reltn="NMod" govText="foil" isAssumed="true" modText="aluminum"/>
+        <facet id="ME_66b_f3" govNum="ME_66b_ra3" modNum="ME_66b_ra7" reltn="Be" govText="aluminum" modText="metal"/>
+        <facet id="ME_66b_f4" govNum="ME_66b_ra10" modNum="ME_66b_ra9" reltn="Quantifier" govText="metals" modText="all"/>
+        <facet id="ME_66b_f5" govNum="ME_66b_ra11" modNum="ME_66b_ra10" reltn="Means" govText="conduct" modText="metals"/>
+        <facet id="ME_66b_f6" govNum="ME_66b_ra15" modNum="ME_66b_ra14" reltn="NMod" govText="foil" isAssumed="true" modText="aluminum"/>
+        <facet id="ME_66b_f7" govNum="ME_66b_ra17" modNum="ME_66b_ra15" reltn="Means" govText="complete" modText="foil"/>
+        <facet id="ME_66b_f8" govNum="ME_66b_ra17" modNum="ME_66b_ra19" reltn="Theme" govText="complete" modText="circuit"/>
+        <facet id="ME_66b_f9" govNum="ME_66b_ra17" modNum="ME_66b_ra5" reltn="Cause" childProp2Facet2="ME_66b_f2" childProp1Facet1="ME_66b_f7" govText="complete" childProp1Facet2="ME_66b_f8" modText="is" childProp2Facet1="ME_66b_f3"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="ME.66b.143.1" answerText="Yes because it is aluminum." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="ME_66b_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_66b_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_66b_f3" label="Diff-Arg"/>
+      <facetEntailment facetID="ME_66b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_66b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ME_66b_f6" label="Assumed"/>
+      <facetEntailment facetID="ME_66b_f7" label="Inferred"/>
+      <facetEntailment facetID="ME_66b_f8" label="Inferred"/>
+      <facetEntailment facetID="ME_66b_f9" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.66b.178.1" answerText="Yes, it has metal in it." accuracy="correct">
+      <facetEntailment facetID="ME_66b_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_66b_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_66b_f3" label="Expressed"/>
+      <facetEntailment facetID="ME_66b_f4" label="Inferred"/>
+      <facetEntailment facetID="ME_66b_f5" label="Inferred"/>
+      <facetEntailment facetID="ME_66b_f6" label="Assumed"/>
+      <facetEntailment facetID="ME_66b_f7" label="Inferred"/>
+      <facetEntailment facetID="ME_66b_f8" label="Inferred"/>
+      <facetEntailment facetID="ME_66b_f9" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="ME.66b.207.1" answerText="No because it is not wires." accuracy="contradictory">
+      <facetEntailment facetID="ME_66b_f1" label="Contra-Expr"/>
+      <facetEntailment facetID="ME_66b_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_66b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_66b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_66b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ME_66b_f6" label="Assumed"/>
+      <facetEntailment facetID="ME_66b_f7" label="Contra-Infr"/>
+      <facetEntailment facetID="ME_66b_f8" label="Contra-Infr"/>
+      <facetEntailment facetID="ME_66b_f9" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.66b.227.1" answerText="No, because it cannot attract electricity or get power." accuracy="contradictory">
+      <facetEntailment facetID="ME_66b_f1" label="Contra-Expr"/>
+      <facetEntailment facetID="ME_66b_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_66b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_66b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_66b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ME_66b_f6" label="Assumed"/>
+      <facetEntailment facetID="ME_66b_f7" label="Contra-Infr"/>
+      <facetEntailment facetID="ME_66b_f8" label="Contra-Infr"/>
+      <facetEntailment facetID="ME_66b_f9" label="Unaddressed"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

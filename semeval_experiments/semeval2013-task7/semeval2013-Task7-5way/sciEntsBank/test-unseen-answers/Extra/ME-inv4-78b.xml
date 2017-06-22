@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<question testSet="unseen-answers" id="ME_78b" module="ME">
+  <questionText>Look at the picture of the circuit to the right. What will happen to the motor if the light bulb burns out?</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="ME_78b-a1" text="The motor will continue to run because the motor still has a pathway to the D-cell.">
+      <tokens>
+        <token id="ME_78b_ra1">The</token>
+        <token id="ME_78b_ra2">motor</token>
+        <token id="ME_78b_ra3">will</token>
+        <token id="ME_78b_ra4">continue</token>
+        <token id="ME_78b_ra5">to</token>
+        <token id="ME_78b_ra6">run</token>
+        <token id="ME_78b_ra7">because</token>
+        <token id="ME_78b_ra8">the</token>
+        <token id="ME_78b_ra9">motor</token>
+        <token id="ME_78b_ra10">still</token>
+        <token id="ME_78b_ra11">has</token>
+        <token id="ME_78b_ra12">a</token>
+        <token id="ME_78b_ra13">pathway</token>
+        <token id="ME_78b_ra14">to</token>
+        <token id="ME_78b_ra15">the</token>
+        <token id="ME_78b_ra16">D-cell</token>
+        <token id="ME_78b_ra17">.</token>
+      </tokens>
+      <facets>
+        <facet id="ME_78b_f1" govNum="ME_78b_ra6" modNum="ME_78b_ra2" reltn="Theme" govText="run" modText="motor"/>
+        <facet id="ME_78b_f2" govNum="ME_78b_ra6" modNum="ME_78b_ra4" reltn="VMod_to" govText="run" modText="continue"/>
+        <facet id="ME_78b_f3" govNum="ME_78b_ra9" modNum="ME_78b_ra13" reltn="Have" govText="motor" modText="pathway"/>
+        <facet id="ME_78b_f4" govNum="ME_78b_ra11" modNum="ME_78b_ra10" reltn="VMod" govText="has" modText="still"/>
+        <facet id="ME_78b_f5" govNum="ME_78b_ra13" modNum="ME_78b_ra16" reltn="Destination_to" govText="pathway" modText="D-cell"/>
+        <facet id="ME_78b_f6" govNum="ME_78b_ra6" modNum="ME_78b_ra11" reltn="Cause_because" childProp1Facet1="ME_78b_f1" govText="run" childProp1Facet2="ME_78b_f2" modText="has" childProp2Facet1="ME_78b_f3"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="ME.78b.115.1" answerText="The motor will burn out also." accuracy="contradictory">
+      <facetEntailment facetID="ME_78b_f1" label="Contra-Expr"/>
+      <facetEntailment facetID="ME_78b_f2" label="Contra-Expr"/>
+      <facetEntailment facetID="ME_78b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_78b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_78b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ME_78b_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.78b.140.1" answerText="The motor will also burn out with the light bulb because it is in parallel circuit." accuracy="contradictory">
+      <facetEntailment facetID="ME_78b_f1" label="Contra-Expr"/>
+      <facetEntailment facetID="ME_78b_f2" label="Contra-Expr"/>
+      <facetEntailment facetID="ME_78b_f3" label="Inferred"/>
+      <facetEntailment facetID="ME_78b_f4" label="Inferred"/>
+      <facetEntailment facetID="ME_78b_f5" label="Inferred"/>
+      <facetEntailment facetID="ME_78b_f6" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="ME.78b.159.1" answerText="The motor will keep running." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="ME_78b_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_78b_f2" label="Expressed"/>
+      <facetEntailment facetID="ME_78b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_78b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_78b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ME_78b_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.78b.254.1" answerText="The motor will stop working because it is in a series." accuracy="contradictory">
+      <facetEntailment facetID="ME_78b_f1" label="Contra-Expr"/>
+      <facetEntailment facetID="ME_78b_f2" label="Contra-Expr"/>
+      <facetEntailment facetID="ME_78b_f3" label="Contra-Infr"/>
+      <facetEntailment facetID="ME_78b_f4" label="Contra-Infr"/>
+      <facetEntailment facetID="ME_78b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ME_78b_f6" label="Inferred"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

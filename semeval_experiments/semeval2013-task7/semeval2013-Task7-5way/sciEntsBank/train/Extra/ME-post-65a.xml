@@ -1,0 +1,377 @@
+<?xml version="1.0"?>
+<question id="ME_65a" module="ME">
+  <questionText>Look at the schematic diagram. What will happen to the other 2 bulbs if the middle bulb burns out?</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="ME_65a-a1" text="If the middle bulb burns out the other 2 bulbs will stay lit.">
+      <tokens>
+        <token id="ME_65a_ra1">If</token>
+        <token id="ME_65a_ra2">the</token>
+        <token id="ME_65a_ra3">middle</token>
+        <token id="ME_65a_ra4">bulb</token>
+        <token id="ME_65a_ra5">burns</token>
+        <token id="ME_65a_ra6">out</token>
+        <token id="ME_65a_ra7">the</token>
+        <token id="ME_65a_ra8">other</token>
+        <token id="ME_65a_ra9">2</token>
+        <token id="ME_65a_ra10">bulbs</token>
+        <token id="ME_65a_ra11">will</token>
+        <token id="ME_65a_ra12">stay</token>
+        <token id="ME_65a_ra13">lit</token>
+        <token id="ME_65a_ra14">.</token>
+      </tokens>
+      <facets>
+        <facet id="ME_65a_f1" govNum="ME_65a_ra4" modNum="ME_65a_ra3" reltn="NMod" govText="bulb" isAssumed="true" modText="middle"/>
+        <facet id="ME_65a_f2" govNum="ME_65a_ra5" modNum="ME_65a_ra4" reltn="Theme" govText="burns out" isAssumed="true" modText="bulb"/>
+        <facet id="ME_65a_f3" govNum="ME_65a_ra10" modNum="ME_65a_ra9" reltn="NMod" govText="bulbs" isAssumed="true" modText="2"/>
+        <facet id="ME_65a_f4" govNum="ME_65a_ra10" modNum="ME_65a_ra8" reltn="NMod" govText="bulbs" isAssumed="true" modText="other"/>
+        <facet id="ME_65a_f5" govNum="ME_65a_ra12" modNum="ME_65a_ra10" reltn="Theme" govText="stay" modText="bulbs"/>
+        <facet id="ME_65a_f6" govNum="ME_65a_ra12" modNum="ME_65a_ra10" reltn="Attribute" govText="stay lit" modText="bulbs"/>
+        <facet id="ME_65a_f7" govNum="ME_65a_ra12" modNum="ME_65a_ra5" reltn="Time_if" childProp2Facet2="ME_65a_f1" childProp1Facet1="ME_65a_f5" govText="stay" isAssumed="true" childProp1Facet2="ME_65a_f6" modText="burns out" childProp2Facet1="ME_65a_f2"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="ME.65a.101.1" answerText="The other 2 will still light." accuracy="correct">
+      <facetEntailment facetID="ME_65a_f1" label="Assumed"/>
+      <facetEntailment facetID="ME_65a_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_65a_f3" label="Assumed"/>
+      <facetEntailment facetID="ME_65a_f4" label="Assumed"/>
+      <facetEntailment facetID="ME_65a_f5" label="Expressed"/>
+      <facetEntailment facetID="ME_65a_f6" label="Expressed"/>
+      <facetEntailment facetID="ME_65a_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.65a.105.1" answerText="They will stay lit." accuracy="correct">
+      <facetEntailment facetID="ME_65a_f1" label="Assumed"/>
+      <facetEntailment facetID="ME_65a_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_65a_f3" label="Assumed"/>
+      <facetEntailment facetID="ME_65a_f4" label="Assumed"/>
+      <facetEntailment facetID="ME_65a_f5" label="Expressed"/>
+      <facetEntailment facetID="ME_65a_f6" label="Expressed"/>
+      <facetEntailment facetID="ME_65a_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.65a.107.1" answerText="Only the middle bulb will go out." accuracy="correct">
+      <facetEntailment facetID="ME_65a_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_65a_f2" label="Expressed"/>
+      <facetEntailment facetID="ME_65a_f3" label="Assumed"/>
+      <facetEntailment facetID="ME_65a_f4" label="Assumed"/>
+      <facetEntailment facetID="ME_65a_f5" label="Inferred"/>
+      <facetEntailment facetID="ME_65a_f6" label="Inferred"/>
+      <facetEntailment facetID="ME_65a_f7" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.65a.108.1" answerText="They will stay light." accuracy="correct">
+      <facetEntailment facetID="ME_65a_f1" label="Assumed"/>
+      <facetEntailment facetID="ME_65a_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_65a_f3" label="Assumed"/>
+      <facetEntailment facetID="ME_65a_f4" label="Assumed"/>
+      <facetEntailment facetID="ME_65a_f5" label="Expressed"/>
+      <facetEntailment facetID="ME_65a_f6" label="Expressed"/>
+      <facetEntailment facetID="ME_65a_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.65a.111.1" answerText="Well first I think it is a series, so it will be a problem." accuracy="contradictory">
+      <facetEntailment facetID="ME_65a_f1" label="Assumed"/>
+      <facetEntailment facetID="ME_65a_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_65a_f3" label="Assumed"/>
+      <facetEntailment facetID="ME_65a_f4" label="Assumed"/>
+      <facetEntailment facetID="ME_65a_f5" label="Contra-Infr"/>
+      <facetEntailment facetID="ME_65a_f6" label="Contra-Infr"/>
+      <facetEntailment facetID="ME_65a_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.65a.113.1" answerText="The other ones will work even better." accuracy="correct">
+      <facetEntailment facetID="ME_65a_f1" label="Assumed"/>
+      <facetEntailment facetID="ME_65a_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_65a_f3" label="Assumed"/>
+      <facetEntailment facetID="ME_65a_f4" label="Expressed"/>
+      <facetEntailment facetID="ME_65a_f5" label="Expressed"/>
+      <facetEntailment facetID="ME_65a_f6" label="Expressed"/>
+      <facetEntailment facetID="ME_65a_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.65a.118.1" answerText="All of them will go out." accuracy="contradictory">
+      <facetEntailment facetID="ME_65a_f1" label="Assumed"/>
+      <facetEntailment facetID="ME_65a_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_65a_f3" label="Assumed"/>
+      <facetEntailment facetID="ME_65a_f4" label="Assumed"/>
+      <facetEntailment facetID="ME_65a_f5" label="Contra-Expr"/>
+      <facetEntailment facetID="ME_65a_f6" label="Contra-Expr"/>
+      <facetEntailment facetID="ME_65a_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.65a.123.1" answerText="They will still be burning." accuracy="correct">
+      <facetEntailment facetID="ME_65a_f1" label="Assumed"/>
+      <facetEntailment facetID="ME_65a_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_65a_f3" label="Assumed"/>
+      <facetEntailment facetID="ME_65a_f4" label="Assumed"/>
+      <facetEntailment facetID="ME_65a_f5" label="Expressed"/>
+      <facetEntailment facetID="ME_65a_f6" label="Expressed"/>
+      <facetEntailment facetID="ME_65a_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.65a.141.1" answerText="They bulbs will not go out." accuracy="correct">
+      <facetEntailment facetID="ME_65a_f1" label="Assumed"/>
+      <facetEntailment facetID="ME_65a_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_65a_f3" label="Assumed"/>
+      <facetEntailment facetID="ME_65a_f4" label="Assumed"/>
+      <facetEntailment facetID="ME_65a_f5" label="Inferred"/>
+      <facetEntailment facetID="ME_65a_f6" label="Inferred"/>
+      <facetEntailment facetID="ME_65a_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.65a.142.1" answerText="They will stay lit." accuracy="correct">
+      <facetEntailment facetID="ME_65a_f1" label="Assumed"/>
+      <facetEntailment facetID="ME_65a_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_65a_f3" label="Assumed"/>
+      <facetEntailment facetID="ME_65a_f4" label="Assumed"/>
+      <facetEntailment facetID="ME_65a_f5" label="Expressed"/>
+      <facetEntailment facetID="ME_65a_f6" label="Expressed"/>
+      <facetEntailment facetID="ME_65a_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.65a.144.1" answerText="They will stay light." accuracy="correct">
+      <facetEntailment facetID="ME_65a_f1" label="Assumed"/>
+      <facetEntailment facetID="ME_65a_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_65a_f3" label="Assumed"/>
+      <facetEntailment facetID="ME_65a_f4" label="Assumed"/>
+      <facetEntailment facetID="ME_65a_f5" label="Expressed"/>
+      <facetEntailment facetID="ME_65a_f6" label="Expressed"/>
+      <facetEntailment facetID="ME_65a_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.65a.147.1" answerText="The 2 other bulbs will run if the middle one burns out." accuracy="correct">
+      <facetEntailment facetID="ME_65a_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_65a_f2" label="Expressed"/>
+      <facetEntailment facetID="ME_65a_f3" label="Expressed"/>
+      <facetEntailment facetID="ME_65a_f4" label="Expressed"/>
+      <facetEntailment facetID="ME_65a_f5" label="Expressed"/>
+      <facetEntailment facetID="ME_65a_f6" label="Expressed"/>
+      <facetEntailment facetID="ME_65a_f7" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.65a.152.1" answerText="Nothing will happen." accuracy="correct">
+      <facetEntailment facetID="ME_65a_f1" label="Assumed"/>
+      <facetEntailment facetID="ME_65a_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_65a_f3" label="Assumed"/>
+      <facetEntailment facetID="ME_65a_f4" label="Assumed"/>
+      <facetEntailment facetID="ME_65a_f5" label="Inferred"/>
+      <facetEntailment facetID="ME_65a_f6" label="Inferred"/>
+      <facetEntailment facetID="ME_65a_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.65a.154.1" answerText="The left bulb will still be lighting because the diagram is a parallel." accuracy="correct">
+      <facetEntailment facetID="ME_65a_f1" label="Assumed"/>
+      <facetEntailment facetID="ME_65a_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_65a_f3" label="Diff-Arg"/>
+      <facetEntailment facetID="ME_65a_f4" label="Diff-Arg"/>
+      <facetEntailment facetID="ME_65a_f5" label="Inferred"/>
+      <facetEntailment facetID="ME_65a_f6" label="Expressed"/>
+      <facetEntailment facetID="ME_65a_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.65a.159.1" answerText="If it is a parallel circuit it will stay lit. If it is a series circuit it will not stay light." accuracy="irrelevant">
+      <facetEntailment facetID="ME_65a_f1" label="Assumed"/>
+      <facetEntailment facetID="ME_65a_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_65a_f3" label="Assumed"/>
+      <facetEntailment facetID="ME_65a_f4" label="Assumed"/>
+      <facetEntailment facetID="ME_65a_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ME_65a_f6" label="Unaddressed"/>
+      <facetEntailment facetID="ME_65a_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.65a.173.1" answerText="If one goes out then the 2 will stay on." accuracy="correct">
+      <facetEntailment facetID="ME_65a_f1" label="Assumed"/>
+      <facetEntailment facetID="ME_65a_f2" label="Expressed"/>
+      <facetEntailment facetID="ME_65a_f3" label="Assumed"/>
+      <facetEntailment facetID="ME_65a_f4" label="Assumed"/>
+      <facetEntailment facetID="ME_65a_f5" label="Expressed"/>
+      <facetEntailment facetID="ME_65a_f6" label="Expressed"/>
+      <facetEntailment facetID="ME_65a_f7" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.65a.174.1" answerText="The 2 bulbs will stay lit." accuracy="correct">
+      <facetEntailment facetID="ME_65a_f1" label="Assumed"/>
+      <facetEntailment facetID="ME_65a_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_65a_f3" label="Expressed"/>
+      <facetEntailment facetID="ME_65a_f4" label="Assumed"/>
+      <facetEntailment facetID="ME_65a_f5" label="Expressed"/>
+      <facetEntailment facetID="ME_65a_f6" label="Expressed"/>
+      <facetEntailment facetID="ME_65a_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.65a.176.1" answerText="The bulbs will stay lit." accuracy="correct">
+      <facetEntailment facetID="ME_65a_f1" label="Assumed"/>
+      <facetEntailment facetID="ME_65a_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_65a_f3" label="Assumed"/>
+      <facetEntailment facetID="ME_65a_f4" label="Assumed"/>
+      <facetEntailment facetID="ME_65a_f5" label="Expressed"/>
+      <facetEntailment facetID="ME_65a_f6" label="Expressed"/>
+      <facetEntailment facetID="ME_65a_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.65a.178.1" answerText="The rest stay on." accuracy="correct">
+      <facetEntailment facetID="ME_65a_f1" label="Assumed"/>
+      <facetEntailment facetID="ME_65a_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_65a_f3" label="Assumed"/>
+      <facetEntailment facetID="ME_65a_f4" label="Assumed"/>
+      <facetEntailment facetID="ME_65a_f5" label="Expressed"/>
+      <facetEntailment facetID="ME_65a_f6" label="Expressed"/>
+      <facetEntailment facetID="ME_65a_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.65a.180.1" answerText="If the middle bulb burns out the other 2 will burn out also." accuracy="contradictory">
+      <facetEntailment facetID="ME_65a_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_65a_f2" label="Expressed"/>
+      <facetEntailment facetID="ME_65a_f3" label="Expressed"/>
+      <facetEntailment facetID="ME_65a_f4" label="Expressed"/>
+      <facetEntailment facetID="ME_65a_f5" label="Contra-Expr"/>
+      <facetEntailment facetID="ME_65a_f6" label="Contra-Expr"/>
+      <facetEntailment facetID="ME_65a_f7" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.65a.183.1" answerText="The other bulbs will stay on." accuracy="correct">
+      <facetEntailment facetID="ME_65a_f1" label="Assumed"/>
+      <facetEntailment facetID="ME_65a_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_65a_f3" label="Assumed"/>
+      <facetEntailment facetID="ME_65a_f4" label="Expressed"/>
+      <facetEntailment facetID="ME_65a_f5" label="Expressed"/>
+      <facetEntailment facetID="ME_65a_f6" label="Expressed"/>
+      <facetEntailment facetID="ME_65a_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.65a.185.1" answerText="The other 2 bulbs will stay running the whole time the circuit is closed." accuracy="correct">
+      <facetEntailment facetID="ME_65a_f1" label="Assumed"/>
+      <facetEntailment facetID="ME_65a_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_65a_f3" label="Expressed"/>
+      <facetEntailment facetID="ME_65a_f4" label="Expressed"/>
+      <facetEntailment facetID="ME_65a_f5" label="Expressed"/>
+      <facetEntailment facetID="ME_65a_f6" label="Expressed"/>
+      <facetEntailment facetID="ME_65a_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.65a.189.1" answerText="The other 2 will stay lit." accuracy="correct">
+      <facetEntailment facetID="ME_65a_f1" label="Assumed"/>
+      <facetEntailment facetID="ME_65a_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_65a_f3" label="Assumed"/>
+      <facetEntailment facetID="ME_65a_f4" label="Assumed"/>
+      <facetEntailment facetID="ME_65a_f5" label="Expressed"/>
+      <facetEntailment facetID="ME_65a_f6" label="Expressed"/>
+      <facetEntailment facetID="ME_65a_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.65a.190.1" answerText="If one burns out the rest will stay on." accuracy="correct">
+      <facetEntailment facetID="ME_65a_f1" label="Assumed"/>
+      <facetEntailment facetID="ME_65a_f2" label="Expressed"/>
+      <facetEntailment facetID="ME_65a_f3" label="Assumed"/>
+      <facetEntailment facetID="ME_65a_f4" label="Assumed"/>
+      <facetEntailment facetID="ME_65a_f5" label="Expressed"/>
+      <facetEntailment facetID="ME_65a_f6" label="Expressed"/>
+      <facetEntailment facetID="ME_65a_f7" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.65a.191.1" answerText="The other bulbs will stay on because it is a parallel circuit." accuracy="correct">
+      <facetEntailment facetID="ME_65a_f1" label="Assumed"/>
+      <facetEntailment facetID="ME_65a_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_65a_f3" label="Assumed"/>
+      <facetEntailment facetID="ME_65a_f4" label="Expressed"/>
+      <facetEntailment facetID="ME_65a_f5" label="Expressed"/>
+      <facetEntailment facetID="ME_65a_f6" label="Expressed"/>
+      <facetEntailment facetID="ME_65a_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.65a.195.1" answerText="The top bulb will still light up." accuracy="correct">
+      <facetEntailment facetID="ME_65a_f1" label="Assumed"/>
+      <facetEntailment facetID="ME_65a_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_65a_f3" label="Assumed"/>
+      <facetEntailment facetID="ME_65a_f4" label="Assumed"/>
+      <facetEntailment facetID="ME_65a_f5" label="Expressed"/>
+      <facetEntailment facetID="ME_65a_f6" label="Expressed"/>
+      <facetEntailment facetID="ME_65a_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.65a.208.1" answerText="The third will not burn out." accuracy="contradictory">
+      <facetEntailment facetID="ME_65a_f1" label="Assumed"/>
+      <facetEntailment facetID="ME_65a_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_65a_f3" label="Contra-Infr"/>
+      <facetEntailment facetID="ME_65a_f4" label="Assumed"/>
+      <facetEntailment facetID="ME_65a_f5" label="Inferred"/>
+      <facetEntailment facetID="ME_65a_f6" label="Inferred"/>
+      <facetEntailment facetID="ME_65a_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.65a.212.1" answerText="The other bulbs will still light." accuracy="correct">
+      <facetEntailment facetID="ME_65a_f1" label="Assumed"/>
+      <facetEntailment facetID="ME_65a_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_65a_f3" label="Assumed"/>
+      <facetEntailment facetID="ME_65a_f4" label="Expressed"/>
+      <facetEntailment facetID="ME_65a_f5" label="Expressed"/>
+      <facetEntailment facetID="ME_65a_f6" label="Expressed"/>
+      <facetEntailment facetID="ME_65a_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.65a.215.1" answerText="Nothing will happen." accuracy="correct">
+      <facetEntailment facetID="ME_65a_f1" label="Assumed"/>
+      <facetEntailment facetID="ME_65a_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_65a_f3" label="Assumed"/>
+      <facetEntailment facetID="ME_65a_f4" label="Assumed"/>
+      <facetEntailment facetID="ME_65a_f5" label="Inferred"/>
+      <facetEntailment facetID="ME_65a_f6" label="Inferred"/>
+      <facetEntailment facetID="ME_65a_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.65a.225.1" answerText="If the middle bulb burns out the 2 would burn out." accuracy="contradictory">
+      <facetEntailment facetID="ME_65a_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_65a_f2" label="Expressed"/>
+      <facetEntailment facetID="ME_65a_f3" label="Expressed"/>
+      <facetEntailment facetID="ME_65a_f4" label="Expressed"/>
+      <facetEntailment facetID="ME_65a_f5" label="Contra-Expr"/>
+      <facetEntailment facetID="ME_65a_f6" label="Contra-Expr"/>
+      <facetEntailment facetID="ME_65a_f7" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.65a.227.1" answerText="The bulbs do not burn out." accuracy="correct">
+      <facetEntailment facetID="ME_65a_f1" label="Assumed"/>
+      <facetEntailment facetID="ME_65a_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_65a_f3" label="Assumed"/>
+      <facetEntailment facetID="ME_65a_f4" label="Assumed"/>
+      <facetEntailment facetID="ME_65a_f5" label="Expressed"/>
+      <facetEntailment facetID="ME_65a_f6" label="Expressed"/>
+      <facetEntailment facetID="ME_65a_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.65a.232.1" answerText="It will still work." accuracy="correct">
+      <facetEntailment facetID="ME_65a_f1" label="Assumed"/>
+      <facetEntailment facetID="ME_65a_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_65a_f3" label="Assumed"/>
+      <facetEntailment facetID="ME_65a_f4" label="Assumed"/>
+      <facetEntailment facetID="ME_65a_f5" label="Inferred"/>
+      <facetEntailment facetID="ME_65a_f6" label="Inferred"/>
+      <facetEntailment facetID="ME_65a_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.65a.256.1" answerText="The light will still run." accuracy="correct">
+      <facetEntailment facetID="ME_65a_f1" label="Assumed"/>
+      <facetEntailment facetID="ME_65a_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_65a_f3" label="Assumed"/>
+      <facetEntailment facetID="ME_65a_f4" label="Assumed"/>
+      <facetEntailment facetID="ME_65a_f5" label="Inferred"/>
+      <facetEntailment facetID="ME_65a_f6" label="Inferred"/>
+      <facetEntailment facetID="ME_65a_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.65a.277.1" answerText="The 2 bulbs will still be lit when it goes out." accuracy="correct">
+      <facetEntailment facetID="ME_65a_f1" label="Assumed"/>
+      <facetEntailment facetID="ME_65a_f2" label="Expressed"/>
+      <facetEntailment facetID="ME_65a_f3" label="Expressed"/>
+      <facetEntailment facetID="ME_65a_f4" label="Assumed"/>
+      <facetEntailment facetID="ME_65a_f5" label="Expressed"/>
+      <facetEntailment facetID="ME_65a_f6" label="Expressed"/>
+      <facetEntailment facetID="ME_65a_f7" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.65a.283.1" answerText="They will all cut off." accuracy="contradictory">
+      <facetEntailment facetID="ME_65a_f1" label="Assumed"/>
+      <facetEntailment facetID="ME_65a_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_65a_f3" label="Assumed"/>
+      <facetEntailment facetID="ME_65a_f4" label="Assumed"/>
+      <facetEntailment facetID="ME_65a_f5" label="Contra-Expr"/>
+      <facetEntailment facetID="ME_65a_f6" label="Contra-Expr"/>
+      <facetEntailment facetID="ME_65a_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.65a.318.1" answerText="If the middle one burns out the other will still light." accuracy="correct">
+      <facetEntailment facetID="ME_65a_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_65a_f2" label="Expressed"/>
+      <facetEntailment facetID="ME_65a_f3" label="Assumed"/>
+      <facetEntailment facetID="ME_65a_f4" label="Expressed"/>
+      <facetEntailment facetID="ME_65a_f5" label="Expressed"/>
+      <facetEntailment facetID="ME_65a_f6" label="Expressed"/>
+      <facetEntailment facetID="ME_65a_f7" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.65a.324.1" answerText="No." accuracy="non_domain">
+      <facetEntailment facetID="ME_65a_f1" label="Assumed"/>
+      <facetEntailment facetID="ME_65a_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_65a_f3" label="Assumed"/>
+      <facetEntailment facetID="ME_65a_f4" label="Assumed"/>
+      <facetEntailment facetID="ME_65a_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ME_65a_f6" label="Unaddressed"/>
+      <facetEntailment facetID="ME_65a_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.65a.327.1" answerText="I think they will not go out." accuracy="correct">
+      <facetEntailment facetID="ME_65a_f1" label="Assumed"/>
+      <facetEntailment facetID="ME_65a_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_65a_f3" label="Assumed"/>
+      <facetEntailment facetID="ME_65a_f4" label="Assumed"/>
+      <facetEntailment facetID="ME_65a_f5" label="Inferred"/>
+      <facetEntailment facetID="ME_65a_f6" label="Inferred"/>
+      <facetEntailment facetID="ME_65a_f7" label="Assumed"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

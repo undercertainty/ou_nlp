@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<question testSet="unseen-answers" id="LF_13a" module="LF">
+  <questionText>What happens to earth materials during deposition?</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="LF_13a-a1" text="Earth materials settle out during deposition.">
+      <tokens>
+        <token id="LF_13a_ra1">Earth</token>
+        <token id="LF_13a_ra2">materials</token>
+        <token id="LF_13a_ra3">settle</token>
+        <token id="LF_13a_ra4">out</token>
+        <token id="LF_13a_ra5">during</token>
+        <token id="LF_13a_ra6">deposition</token>
+        <token id="LF_13a_ra7">.</token>
+      </tokens>
+      <facets>
+        <facet id="LF_13a_f1" govNum="LF_13a_ra2" modNum="LF_13a_ra1" reltn="NMod" govText="materials" isAssumed="true" modText="Earth"/>
+        <facet id="LF_13a_f2" govNum="LF_13a_ra3" modNum="LF_13a_ra2" reltn="Theme" govText="settle out" modText="materials"/>
+        <facet id="LF_13a_f3" govNum="LF_13a_ra3" modNum="LF_13a_ra6" reltn="Time_during" govText="settle out" modText="deposition"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="LF.13a.493.1" answerText="The earth materials will wear away." accuracy="contradictory">
+      <facetEntailment facetID="LF_13a_f1" label="Expressed"/>
+      <facetEntailment facetID="LF_13a_f2" label="Contra-Infr"/>
+      <facetEntailment facetID="LF_13a_f3" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="LF.13a.494.1" answerText="Earth materials are moved by water to another spot in the stream." accuracy="correct">
+      <facetEntailment facetID="LF_13a_f1" label="Expressed"/>
+      <facetEntailment facetID="LF_13a_f2" label="Inferred"/>
+      <facetEntailment facetID="LF_13a_f3" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="LF.13a.673.1" answerText="During deposition earth materials are picked up and dropped on farther downstream near the mouth." accuracy="correct">
+      <facetEntailment facetID="LF_13a_f1" label="Expressed"/>
+      <facetEntailment facetID="LF_13a_f2" label="Inferred"/>
+      <facetEntailment facetID="LF_13a_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="LF.13a.804.1" answerText="They are being dropped off." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="LF_13a_f1" label="Assumed"/>
+      <facetEntailment facetID="LF_13a_f2" label="Inferred"/>
+      <facetEntailment facetID="LF_13a_f3" label="Unaddressed"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

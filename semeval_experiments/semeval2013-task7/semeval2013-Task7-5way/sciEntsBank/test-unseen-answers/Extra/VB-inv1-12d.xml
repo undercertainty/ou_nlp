@@ -1,0 +1,112 @@
+<?xml version="1.0"?>
+<question testSet="unseen-answers" id="VB_12d" module="VB">
+  <questionText>Describe the relationship between the length of the string and the number of swings a swinger makes in 15 seconds.</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="VB_12d-a1" text="The shorter the string is, the more the string swings in 15 seconds.  The longer the string is, the less the string swings in 15 seconds.">
+      <tokens>
+        <token id="VB_12d_ra1">The</token>
+        <token id="VB_12d_ra2">shorter</token>
+        <token id="VB_12d_ra3">the</token>
+        <token id="VB_12d_ra4">string</token>
+        <token id="VB_12d_ra5">is</token>
+        <token id="VB_12d_ra6">,</token>
+        <token id="VB_12d_ra7">the</token>
+        <token id="VB_12d_ra8">more</token>
+        <token id="VB_12d_ra9">the</token>
+        <token id="VB_12d_ra10">string</token>
+        <token id="VB_12d_ra11">swings</token>
+        <token id="VB_12d_ra12">in</token>
+        <token id="VB_12d_ra13">15</token>
+        <token id="VB_12d_ra14">seconds</token>
+        <token id="VB_12d_ra15">.</token>
+        <token id="VB_12d_ra16">The</token>
+        <token id="VB_12d_ra17">longer</token>
+        <token id="VB_12d_ra18">the</token>
+        <token id="VB_12d_ra19">string</token>
+        <token id="VB_12d_ra20">is</token>
+        <token id="VB_12d_ra21">,</token>
+        <token id="VB_12d_ra22">the</token>
+        <token id="VB_12d_ra23">less</token>
+        <token id="VB_12d_ra24">the</token>
+        <token id="VB_12d_ra25">string</token>
+        <token id="VB_12d_ra26">swings</token>
+        <token id="VB_12d_ra27">in</token>
+        <token id="VB_12d_ra28">15</token>
+        <token id="VB_12d_ra29">seconds</token>
+        <token id="VB_12d_ra30">.</token>
+      </tokens>
+      <facets>
+        <facet id="VB_12d_f1" govNum="VB_12d_ra4" modNum="VB_12d_ra2" reltn="Be" govText="string" modText="shorter"/>
+        <facet id="VB_12d_f2" govNum="VB_12d_ra11" modNum="VB_12d_ra10" reltn="Theme" govText="swings" isAssumed="true" modText="string"/>
+        <facet id="VB_12d_f3" govNum="VB_12d_ra11" modNum="VB_12d_ra8" reltn="Extent" govText="swings" modText="more"/>
+        <facet id="VB_12d_f4" govNum="VB_12d_ra11" modNum="VB_12d_ra13" reltn="Time_in" govText="swings" isAssumed="true" modText="15"/>
+        <facet id="VB_12d_f5" govNum="VB_12d_ra13" modNum="VB_12d_ra14" reltn="NMod" govText="15" isAssumed="true" modText="seconds"/>
+        <facet id="VB_12d_f6" govNum="VB_12d_ra11" modNum="VB_12d_ra5" reltn="Cause_COMMA" childProp1Facet1="VB_12d_f2" govText="swings" childProp1Facet2="VB_12d_f3" modText="is" childProp2Facet1="VB_12d_f1"/>
+        <facet id="VB_12d_f7" govNum="VB_12d_ra19" modNum="VB_12d_ra17" reltn="Be" govText="string" modText="longer"/>
+        <facet id="VB_12d_f8" govNum="VB_12d_ra26" modNum="VB_12d_ra25" reltn="Theme" govText="swings" isAssumed="true" modText="string"/>
+        <facet id="VB_12d_f9" govNum="VB_12d_ra26" modNum="VB_12d_ra23" reltn="Extent" govText="swings" modText="less"/>
+        <facet id="VB_12d_f10" govNum="VB_12d_ra26" modNum="VB_12d_ra28" reltn="Time_in" govText="swings" isAssumed="true" modText="15"/>
+        <facet id="VB_12d_f11" govNum="VB_12d_ra28" modNum="VB_12d_ra29" reltn="NMod" govText="15" isAssumed="true" modText="seconds"/>
+        <facet id="VB_12d_f12" govNum="VB_12d_ra26" modNum="VB_12d_ra20" reltn="Cause_COMMA" childProp1Facet1="VB_12d_f8" govText="swings" childProp1Facet2="VB_12d_f9" modText="is" childProp2Facet1="VB_12d_f7"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="VB.12d.394.1" answerText="The longer your string is the less amount of swings you will get." accuracy="correct">
+      <facetEntailment facetID="VB_12d_f1" label="Unaddressed"/>
+      <facetEntailment facetID="VB_12d_f2" label="Assumed"/>
+      <facetEntailment facetID="VB_12d_f3" label="Unaddressed"/>
+      <facetEntailment facetID="VB_12d_f4" label="Assumed"/>
+      <facetEntailment facetID="VB_12d_f5" label="Assumed"/>
+      <facetEntailment facetID="VB_12d_f6" label="Unaddressed"/>
+      <facetEntailment facetID="VB_12d_f7" label="Expressed"/>
+      <facetEntailment facetID="VB_12d_f8" label="Expressed"/>
+      <facetEntailment facetID="VB_12d_f9" label="Expressed"/>
+      <facetEntailment facetID="VB_12d_f10" label="Assumed"/>
+      <facetEntailment facetID="VB_12d_f11" label="Assumed"/>
+      <facetEntailment facetID="VB_12d_f12" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="VB.12d.397.1" answerText="The longer the string the shorter the swings." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="VB_12d_f1" label="Inferred"/>
+      <facetEntailment facetID="VB_12d_f2" label="Expressed"/>
+      <facetEntailment facetID="VB_12d_f3" label="Diff-Arg"/>
+      <facetEntailment facetID="VB_12d_f4" label="Assumed"/>
+      <facetEntailment facetID="VB_12d_f5" label="Assumed"/>
+      <facetEntailment facetID="VB_12d_f6" label="Inferred"/>
+      <facetEntailment facetID="VB_12d_f7" label="Expressed"/>
+      <facetEntailment facetID="VB_12d_f8" label="Expressed"/>
+      <facetEntailment facetID="VB_12d_f9" label="Diff-Arg"/>
+      <facetEntailment facetID="VB_12d_f10" label="Assumed"/>
+      <facetEntailment facetID="VB_12d_f11" label="Assumed"/>
+      <facetEntailment facetID="VB_12d_f12" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="VB.12d.440.1" answerText="Well the longer the string the slower it swings so a 90 centimeters swinger will go very slow compared to a 19 centimeters swinger." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="VB_12d_f1" label="Inferred"/>
+      <facetEntailment facetID="VB_12d_f2" label="Assumed"/>
+      <facetEntailment facetID="VB_12d_f3" label="Diff-Arg"/>
+      <facetEntailment facetID="VB_12d_f4" label="Assumed"/>
+      <facetEntailment facetID="VB_12d_f5" label="Assumed"/>
+      <facetEntailment facetID="VB_12d_f6" label="Inferred"/>
+      <facetEntailment facetID="VB_12d_f7" label="Expressed"/>
+      <facetEntailment facetID="VB_12d_f8" label="Expressed"/>
+      <facetEntailment facetID="VB_12d_f9" label="Diff-Arg"/>
+      <facetEntailment facetID="VB_12d_f10" label="Assumed"/>
+      <facetEntailment facetID="VB_12d_f11" label="Assumed"/>
+      <facetEntailment facetID="VB_12d_f12" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="VB.12d.636.1" answerText="If the string is short it has more swings but if it is long it has less swings." accuracy="correct">
+      <facetEntailment facetID="VB_12d_f1" label="Expressed"/>
+      <facetEntailment facetID="VB_12d_f2" label="Expressed"/>
+      <facetEntailment facetID="VB_12d_f3" label="Expressed"/>
+      <facetEntailment facetID="VB_12d_f4" label="Assumed"/>
+      <facetEntailment facetID="VB_12d_f5" label="Assumed"/>
+      <facetEntailment facetID="VB_12d_f6" label="Expressed"/>
+      <facetEntailment facetID="VB_12d_f7" label="Expressed"/>
+      <facetEntailment facetID="VB_12d_f8" label="Expressed"/>
+      <facetEntailment facetID="VB_12d_f9" label="Expressed"/>
+      <facetEntailment facetID="VB_12d_f10" label="Assumed"/>
+      <facetEntailment facetID="VB_12d_f11" label="Assumed"/>
+      <facetEntailment facetID="VB_12d_f12" label="Expressed"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

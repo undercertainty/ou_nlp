@@ -1,0 +1,520 @@
+<?xml version="1.0"?>
+<question id="FN_17c" module="FN">
+  <questionText>Paula wants to test a food to see if it contains acid and/or sugar. When Paula added water and yeast to a sample of the food and put the mixture in a warm water bath, the mixture began to fizz and bubble. Paula tested for the other substance. What would the test results tell her?</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="FN_17c-a1" text="If gas (carbon dioxide) is produced, the food contains acid. If no gas is produced, the food does not contain acid.">
+      <tokens>
+        <token id="FN_17c_ra1">If</token>
+        <token id="FN_17c_ra2">gas</token>
+        <token id="FN_17c_ra3">(</token>
+        <token id="FN_17c_ra4">carbon</token>
+        <token id="FN_17c_ra5">dioxide</token>
+        <token id="FN_17c_ra6">)</token>
+        <token id="FN_17c_ra7">is</token>
+        <token id="FN_17c_ra8">produced</token>
+        <token id="FN_17c_ra9">,</token>
+        <token id="FN_17c_ra10">the</token>
+        <token id="FN_17c_ra11">food</token>
+        <token id="FN_17c_ra12">contains</token>
+        <token id="FN_17c_ra13">acid</token>
+        <token id="FN_17c_ra14">.</token>
+        <token id="FN_17c_ra15">If</token>
+        <token id="FN_17c_ra16">no</token>
+        <token id="FN_17c_ra17">gas</token>
+        <token id="FN_17c_ra18">is</token>
+        <token id="FN_17c_ra19">produced</token>
+        <token id="FN_17c_ra20">,</token>
+        <token id="FN_17c_ra21">the</token>
+        <token id="FN_17c_ra22">food</token>
+        <token id="FN_17c_ra23">does</token>
+        <token id="FN_17c_ra24">not</token>
+        <token id="FN_17c_ra25">contain</token>
+        <token id="FN_17c_ra26">acid</token>
+        <token id="FN_17c_ra27">.</token>
+      </tokens>
+      <facets>
+        <facet id="FN_17c_f1" govNum="FN_17c_ra8" modNum="FN_17c_ra2" reltn="Product" govText="produced" modText="gas"/>
+        <facet id="FN_17c_f2" govNum="FN_17c_ra8" modNum="FN_17c_ra4" reltn="Product" govText="produced" modText="carbon dioxide"/>
+        <facet id="FN_17c_f3" govNum="FN_17c_ra12" modNum="FN_17c_ra11" reltn="Theme" govText="contains" modText="food"/>
+        <facet id="FN_17c_f4" govNum="FN_17c_ra12" modNum="FN_17c_ra13" reltn="Material" govText="contains" modText="acid"/>
+        <facet id="FN_17c_f5" govNum="FN_17c_ra12" modNum="FN_17c_ra8" reltn="Cause-know_if" childProp1Facet1="FN_17c_f3" govText="contains" childProp1Facet2="FN_17c_f4" modText="produced" childProp2Facet1="FN_17c_f1"/>
+        <facet id="FN_17c_f6" govNum="FN_17c_ra8" modNum="FN_17c_ra12" reltn="Cause_if" childProp2Facet2="FN_17c_f4" childProp1Facet1="FN_17c_f1" govText="produced" modText="contains" childProp2Facet1="FN_17c_f3"/>
+        <facet id="FN_17c_f7" govNum="FN_17c_ra19" modNum="FN_17c_ra17" reltn="Product_neg_no" govText="produced" modText="gas"/>
+        <facet id="FN_17c_f8" govNum="FN_17c_ra25" modNum="FN_17c_ra22" reltn="Theme_neg_not" govText="contain" modText="food"/>
+        <facet id="FN_17c_f9" govNum="FN_17c_ra25" modNum="FN_17c_ra26" reltn="Material_neg_not" govText="contain" modText="acid"/>
+        <facet id="FN_17c_f10" govNum="FN_17c_ra25" modNum="FN_17c_ra19" reltn="Cause-know_if" childProp1Facet1="FN_17c_f8" govText="contain" childProp1Facet2="FN_17c_f9" modText="produced" childProp2Facet1="FN_17c_f7"/>
+        <facet id="FN_17c_f11" govNum="FN_17c_ra19" modNum="FN_17c_ra25" reltn="Cause_if" childProp2Facet2="FN_17c_f9" childProp1Facet1="FN_17c_f7" govText="produced" modText="contain" childProp2Facet1="FN_17c_f8"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="FN.17c.103.1" answerText="Not much sugar is in the thing she is testing." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="FN_17c_f1" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f2" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f3" label="Expressed"/>
+      <facetEntailment facetID="FN_17c_f4" label="Diff-Arg"/>
+      <facetEntailment facetID="FN_17c_f5" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f6" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f7" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f8" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f9" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f10" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f11" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.17c.113.1" answerText="The results tell her that acid is present." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="FN_17c_f1" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f2" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f3" label="Inferred"/>
+      <facetEntailment facetID="FN_17c_f4" label="Expressed"/>
+      <facetEntailment facetID="FN_17c_f5" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f6" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f7" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f8" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f9" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f10" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f11" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.17c.138.1" answerText="If it has a lot of sugar a little bit of sugar or no sugar at all." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="FN_17c_f1" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f2" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f3" label="Expressed"/>
+      <facetEntailment facetID="FN_17c_f4" label="Diff-Arg"/>
+      <facetEntailment facetID="FN_17c_f5" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f6" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f7" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f8" label="Expressed"/>
+      <facetEntailment facetID="FN_17c_f9" label="Diff-Arg"/>
+      <facetEntailment facetID="FN_17c_f10" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f11" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.17c.141.1" answerText="If the tube shoots up then the substance has acid in it." accuracy="correct">
+      <facetEntailment facetID="FN_17c_f1" label="Inferred"/>
+      <facetEntailment facetID="FN_17c_f2" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f3" label="Expressed"/>
+      <facetEntailment facetID="FN_17c_f4" label="Expressed"/>
+      <facetEntailment facetID="FN_17c_f5" label="Inferred"/>
+      <facetEntailment facetID="FN_17c_f6" label="Inferred"/>
+      <facetEntailment facetID="FN_17c_f7" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f8" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f9" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f10" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f11" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.17c.154.1" answerText="The test results will tell her that the one with sugar has acid. Because it bubbles up." accuracy="correct">
+      <facetEntailment facetID="FN_17c_f1" label="Inferred"/>
+      <facetEntailment facetID="FN_17c_f2" label="Inferred"/>
+      <facetEntailment facetID="FN_17c_f3" label="Expressed"/>
+      <facetEntailment facetID="FN_17c_f4" label="Expressed"/>
+      <facetEntailment facetID="FN_17c_f5" label="Inferred"/>
+      <facetEntailment facetID="FN_17c_f6" label="Inferred"/>
+      <facetEntailment facetID="FN_17c_f7" label="Inferred"/>
+      <facetEntailment facetID="FN_17c_f8" label="Inferred"/>
+      <facetEntailment facetID="FN_17c_f9" label="Inferred"/>
+      <facetEntailment facetID="FN_17c_f10" label="Inferred"/>
+      <facetEntailment facetID="FN_17c_f11" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="FN.17c.157.1" answerText="That it either has sugar or it does not have sugar." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="FN_17c_f1" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f2" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f3" label="Expressed"/>
+      <facetEntailment facetID="FN_17c_f4" label="Diff-Arg"/>
+      <facetEntailment facetID="FN_17c_f5" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f6" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f7" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f8" label="Expressed"/>
+      <facetEntailment facetID="FN_17c_f9" label="Diff-Arg"/>
+      <facetEntailment facetID="FN_17c_f10" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f11" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.17c.207.1" answerText="The test results tell her how much gas is in the food." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="FN_17c_f1" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f2" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f3" label="Expressed"/>
+      <facetEntailment facetID="FN_17c_f4" label="Diff-Arg"/>
+      <facetEntailment facetID="FN_17c_f5" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f6" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f7" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f8" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f9" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f10" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f11" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.17c.226.1" answerText="If the vinegar made the baking soda react it would shoot carbon dioxide into the pusher, then she needs to write down how many milliliters of carbon dioxide there is." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="FN_17c_f1" label="Expressed"/>
+      <facetEntailment facetID="FN_17c_f2" label="Expressed"/>
+      <facetEntailment facetID="FN_17c_f3" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f4" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f5" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f6" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f7" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f8" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f9" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f10" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f11" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.17c.232.1" answerText="Her test results would tell her what had more sugar in it." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="FN_17c_f1" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f2" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f3" label="Expressed"/>
+      <facetEntailment facetID="FN_17c_f4" label="Diff-Arg"/>
+      <facetEntailment facetID="FN_17c_f5" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f6" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f7" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f8" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f9" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f10" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f11" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.17c.260.1" answerText="If the syringe went up at all, that means the food contains acid. We already know that the food contains sugar because it fizzed." accuracy="correct">
+      <facetEntailment facetID="FN_17c_f1" label="Inferred"/>
+      <facetEntailment facetID="FN_17c_f2" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f3" label="Expressed"/>
+      <facetEntailment facetID="FN_17c_f4" label="Expressed"/>
+      <facetEntailment facetID="FN_17c_f5" label="Inferred"/>
+      <facetEntailment facetID="FN_17c_f6" label="Inferred"/>
+      <facetEntailment facetID="FN_17c_f7" label="Inferred"/>
+      <facetEntailment facetID="FN_17c_f8" label="Inferred"/>
+      <facetEntailment facetID="FN_17c_f9" label="Inferred"/>
+      <facetEntailment facetID="FN_17c_f10" label="Inferred"/>
+      <facetEntailment facetID="FN_17c_f11" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="FN.17c.265.1" answerText="The more carbon dioxide the more carbon dioxide it has in it." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="FN_17c_f1" label="Inferred"/>
+      <facetEntailment facetID="FN_17c_f2" label="Inferred"/>
+      <facetEntailment facetID="FN_17c_f3" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f4" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f5" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f6" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f7" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f8" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f9" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f10" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f11" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.17c.312.1" answerText="If it had acid and how much sugar." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="FN_17c_f1" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f2" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f3" label="Expressed"/>
+      <facetEntailment facetID="FN_17c_f4" label="Expressed"/>
+      <facetEntailment facetID="FN_17c_f5" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f6" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f7" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f8" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f9" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f10" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f11" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.17c.334.1" answerText="Vitamin C or acid." accuracy="irrelevant">
+      <facetEntailment facetID="FN_17c_f1" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f2" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f3" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f4" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f5" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f6" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f7" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f8" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f9" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f10" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f11" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.17c.346.1" answerText="How much acid and or sugar there is." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="FN_17c_f1" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f2" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f3" label="Inferred"/>
+      <facetEntailment facetID="FN_17c_f4" label="Expressed"/>
+      <facetEntailment facetID="FN_17c_f5" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f6" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f7" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f8" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f9" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f10" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f11" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.17c.355.1" answerText="If the syringe goes way up it has a lot of acid, if not has a little or none." accuracy="correct">
+      <facetEntailment facetID="FN_17c_f1" label="Inferred"/>
+      <facetEntailment facetID="FN_17c_f2" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f3" label="Expressed"/>
+      <facetEntailment facetID="FN_17c_f4" label="Expressed"/>
+      <facetEntailment facetID="FN_17c_f5" label="Inferred"/>
+      <facetEntailment facetID="FN_17c_f6" label="Inferred"/>
+      <facetEntailment facetID="FN_17c_f7" label="Inferred"/>
+      <facetEntailment facetID="FN_17c_f8" label="Inferred"/>
+      <facetEntailment facetID="FN_17c_f9" label="Expressed"/>
+      <facetEntailment facetID="FN_17c_f10" label="Inferred"/>
+      <facetEntailment facetID="FN_17c_f11" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="FN.17c.360.1" answerText="The results would tell her how much acid was in the substance." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="FN_17c_f1" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f2" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f3" label="Expressed"/>
+      <facetEntailment facetID="FN_17c_f4" label="Expressed"/>
+      <facetEntailment facetID="FN_17c_f5" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f6" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f7" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f8" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f9" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f10" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f11" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.17c.366.1" answerText="It will tell her if there is a lot or not a lot of sugar in the food." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="FN_17c_f1" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f2" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f3" label="Expressed"/>
+      <facetEntailment facetID="FN_17c_f4" label="Diff-Arg"/>
+      <facetEntailment facetID="FN_17c_f5" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f6" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f7" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f8" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f9" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f10" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f11" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.17c.367.1" answerText="The amount of acid in the food." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="FN_17c_f1" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f2" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f3" label="Expressed"/>
+      <facetEntailment facetID="FN_17c_f4" label="Expressed"/>
+      <facetEntailment facetID="FN_17c_f5" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f6" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f7" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f8" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f9" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f10" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f11" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.17c.368.1" answerText="If the food contains acid and how much." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="FN_17c_f1" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f2" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f3" label="Expressed"/>
+      <facetEntailment facetID="FN_17c_f4" label="Expressed"/>
+      <facetEntailment facetID="FN_17c_f5" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f6" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f7" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f8" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f9" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f10" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f11" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.17c.395.1" answerText="That whatever she test has more acid or sugar." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="FN_17c_f1" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f2" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f3" label="Inferred"/>
+      <facetEntailment facetID="FN_17c_f4" label="Expressed"/>
+      <facetEntailment facetID="FN_17c_f5" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f6" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f7" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f8" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f9" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f10" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f11" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.17c.419.1" answerText="I was not here when we did it." accuracy="non_domain">
+      <facetEntailment facetID="FN_17c_f1" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f2" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f3" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f4" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f5" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f6" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f7" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f8" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f9" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f10" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f11" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.17c.423.1" answerText="The results will tell her the amount of acid and sugar." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="FN_17c_f1" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f2" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f3" label="Inferred"/>
+      <facetEntailment facetID="FN_17c_f4" label="Expressed"/>
+      <facetEntailment facetID="FN_17c_f5" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f6" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f7" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f8" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f9" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f10" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f11" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.17c.433.1" answerText="The end or final will go white after it." accuracy="irrelevant">
+      <facetEntailment facetID="FN_17c_f1" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f2" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f3" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f4" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f5" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f6" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f7" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f8" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f9" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f10" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f11" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.17c.441.1" answerText="How much sugar and acid there is." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="FN_17c_f1" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f2" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f3" label="Inferred"/>
+      <facetEntailment facetID="FN_17c_f4" label="Expressed"/>
+      <facetEntailment facetID="FN_17c_f5" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f6" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f7" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f8" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f9" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f10" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f11" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.17c.442.1" answerText="That there was sugar in the cookie." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="FN_17c_f1" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f2" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f3" label="Expressed"/>
+      <facetEntailment facetID="FN_17c_f4" label="Diff-Arg"/>
+      <facetEntailment facetID="FN_17c_f5" label="Diff-Arg"/>
+      <facetEntailment facetID="FN_17c_f6" label="Diff-Arg"/>
+      <facetEntailment facetID="FN_17c_f7" label="Diff-Arg"/>
+      <facetEntailment facetID="FN_17c_f8" label="Diff-Arg"/>
+      <facetEntailment facetID="FN_17c_f9" label="Diff-Arg"/>
+      <facetEntailment facetID="FN_17c_f10" label="Diff-Arg"/>
+      <facetEntailment facetID="FN_17c_f11" label="Diff-Arg"/>
+    </studentAnswer>
+    <studentAnswer id="FN.17c.452.1" answerText="The results will tell her how much sugar the pizza has or acid." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="FN_17c_f1" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f2" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f3" label="Expressed"/>
+      <facetEntailment facetID="FN_17c_f4" label="Expressed"/>
+      <facetEntailment facetID="FN_17c_f5" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f6" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f7" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f8" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f9" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f10" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f11" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.17c.459.1" answerText="The results would tell her how much sugar, carbon dioxide, there is in the bag." accuracy="irrelevant">
+      <facetEntailment facetID="FN_17c_f1" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f2" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f3" label="Diff-Arg"/>
+      <facetEntailment facetID="FN_17c_f4" label="Diff-Arg"/>
+      <facetEntailment facetID="FN_17c_f5" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f6" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f7" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f8" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f9" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f10" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f11" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.17c.472.1" answerText="The results will tell her how much vitamin C it in her test." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="FN_17c_f1" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f2" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f3" label="Inferred"/>
+      <facetEntailment facetID="FN_17c_f4" label="Diff-Arg"/>
+      <facetEntailment facetID="FN_17c_f5" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f6" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f7" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f8" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f9" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f10" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f11" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.17c.506.1" answerText="It would show her how to check for acid." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="FN_17c_f1" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f2" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f3" label="Inferred"/>
+      <facetEntailment facetID="FN_17c_f4" label="Inferred"/>
+      <facetEntailment facetID="FN_17c_f5" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f6" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f7" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f8" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f9" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f10" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f11" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.17c.515.1" answerText="Her results will tell her how much acid is in the juice. The more carbon dioxide or gas the more acid it has." accuracy="correct">
+      <facetEntailment facetID="FN_17c_f1" label="Inferred"/>
+      <facetEntailment facetID="FN_17c_f2" label="Inferred"/>
+      <facetEntailment facetID="FN_17c_f3" label="Inferred"/>
+      <facetEntailment facetID="FN_17c_f4" label="Expressed"/>
+      <facetEntailment facetID="FN_17c_f5" label="Inferred"/>
+      <facetEntailment facetID="FN_17c_f6" label="Inferred"/>
+      <facetEntailment facetID="FN_17c_f7" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f8" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f9" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f10" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f11" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.17c.524.1" answerText="The syringe will go up and will tell you how many milliliters." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="FN_17c_f1" label="Inferred"/>
+      <facetEntailment facetID="FN_17c_f2" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f3" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f4" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f5" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f6" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f7" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f8" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f9" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f10" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f11" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.17c.551.1" answerText="It would tell her that how much acid is in lemon, lime, or tangerine." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="FN_17c_f1" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f2" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f3" label="Expressed"/>
+      <facetEntailment facetID="FN_17c_f4" label="Expressed"/>
+      <facetEntailment facetID="FN_17c_f5" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f6" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f7" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f8" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f9" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f10" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f11" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.17c.554.1" answerText="If the syringe goes up that means there is acid in the food." accuracy="correct">
+      <facetEntailment facetID="FN_17c_f1" label="Inferred"/>
+      <facetEntailment facetID="FN_17c_f2" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f3" label="Expressed"/>
+      <facetEntailment facetID="FN_17c_f4" label="Expressed"/>
+      <facetEntailment facetID="FN_17c_f5" label="Inferred"/>
+      <facetEntailment facetID="FN_17c_f6" label="Inferred"/>
+      <facetEntailment facetID="FN_17c_f7" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f8" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f9" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f10" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f11" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.17c.569.1" answerText="The test results would tell her that the food substance that fizzed and bubbled the most has the most sugar." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="FN_17c_f1" label="Inferred"/>
+      <facetEntailment facetID="FN_17c_f2" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f3" label="Expressed"/>
+      <facetEntailment facetID="FN_17c_f4" label="Diff-Arg"/>
+      <facetEntailment facetID="FN_17c_f5" label="Inferred"/>
+      <facetEntailment facetID="FN_17c_f6" label="Inferred"/>
+      <facetEntailment facetID="FN_17c_f7" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f8" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f9" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f10" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f11" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.17c.579.1" answerText="It would tell her that the one which bubbled up most must have acid or sugar." accuracy="correct">
+      <facetEntailment facetID="FN_17c_f1" label="Inferred"/>
+      <facetEntailment facetID="FN_17c_f2" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f3" label="Expressed"/>
+      <facetEntailment facetID="FN_17c_f4" label="Expressed"/>
+      <facetEntailment facetID="FN_17c_f5" label="Inferred"/>
+      <facetEntailment facetID="FN_17c_f6" label="Inferred"/>
+      <facetEntailment facetID="FN_17c_f7" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f8" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f9" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f10" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f11" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.17c.605.1" answerText="That is how much acid or sugar it has." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="FN_17c_f1" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f2" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f3" label="Expressed"/>
+      <facetEntailment facetID="FN_17c_f4" label="Expressed"/>
+      <facetEntailment facetID="FN_17c_f5" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f6" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f7" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f8" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f9" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f10" label="Unaddressed"/>
+      <facetEntailment facetID="FN_17c_f11" label="Unaddressed"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

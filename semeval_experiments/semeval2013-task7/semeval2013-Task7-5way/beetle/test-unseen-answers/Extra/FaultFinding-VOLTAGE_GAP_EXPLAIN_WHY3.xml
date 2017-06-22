@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<question testSet="unseen-answers" qtype="Q_EXPLAIN_SPECIFIC" id="VOLTAGE_GAP_EXPLAIN_WHY3" module="FaultFinding" stype="EVALUATE">
+  <questionText>Explain why you got a voltage reading of 1.5 for terminal 3 and the positive terminal.</questionText>
+  <referenceAnswers>
+    <referenceAnswer category="BEST" id="answer162" fileID="VOLTAGE_GAP_EXPLAIN_WHY3_ANS1">Terminal 3 and the positive terminal are separated by the gap</referenceAnswer>
+    <referenceAnswer category="BEST" id="answer163" fileID="VOLTAGE_GAP_EXPLAIN_WHY3_ANS2">Terminal 3 and the positive terminal are not connected</referenceAnswer>
+    <referenceAnswer category="MINIMAL" id="answer164" fileID="VOLTAGE_GAP_EXPLAIN_WHY3_ANS3">terminal 3 is connected to the negative battery terminal</referenceAnswer>
+    <referenceAnswer category="MINIMAL" id="answer165" fileID="VOLTAGE_GAP_EXPLAIN_WHY3_ANS4">terminal 3 is not separated from the negative battery terminal</referenceAnswer>
+    <referenceAnswer category="MINIMAL" id="answer165.NEW" fileID="NONE">Terminal 3 and the positive battery terminal are in different electrical states</referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer count="1" answerMatch="answer162" raw_text="there is still the same gap" id="FaultFinding-VOLTAGE_GAP_EXPLAIN_WHY3.sbjb4-l1.qa138" accuracy="partially_correct_incomplete">
+      <token status="ok" id="tok2479">there</token>
+      <token status="ok" id="tok2480">is</token>
+      <token status="ok" id="tok2481">still</token>
+      <token status="ok" id="tok2482">the</token>
+      <token status="ok" id="tok2483">same</token>
+      <token status="ok" id="tok2484">gap</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="seperated by a gap in terminal 3" id="FaultFinding-VOLTAGE_GAP_EXPLAIN_WHY3.sbjb21-l1.qa137" accuracy="contradictory">
+      <token status="ok" id="tok2458" original="seperated">separated</token>
+      <token status="ok" id="tok2459">by</token>
+      <token status="ok" id="tok2460">a</token>
+      <token status="ok" id="tok2461">gap</token>
+      <token status="ok" id="tok2462">in</token>
+      <token status="ok" id="tok2463">terminal</token>
+      <token status="numerical" id="tok2464">3</token>
+    </studentAnswer>
+  </studentAnswers>
+</question>

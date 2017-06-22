@@ -1,0 +1,569 @@
+<?xml version="1.0"?>
+<question id="ME_5b" module="ME">
+  <questionText>Anne is investigating which objects stick to magnets. She recorded this in her notebook. I was surprised! A nail was stuck to the magnet. When I accidentally touched the nail to a paperclip, the paperclip stuck to the nail. If Anne touched the nail to a brass ring, what do you think would happen and why?</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="ME_5b-a1" text="The brass ring would not stick to the nail because the ring is not iron. The nail is a temporary magnet, but brass cannot become a temporary magnet and thus does not stick to magnets.">
+      <tokens>
+        <token id="ME_5b_ra1">The</token>
+        <token id="ME_5b_ra2">brass</token>
+        <token id="ME_5b_ra3">ring</token>
+        <token id="ME_5b_ra4">would</token>
+        <token id="ME_5b_ra5">not</token>
+        <token id="ME_5b_ra6">stick</token>
+        <token id="ME_5b_ra7">to</token>
+        <token id="ME_5b_ra8">the</token>
+        <token id="ME_5b_ra9">nail</token>
+        <token id="ME_5b_ra10">because</token>
+        <token id="ME_5b_ra11">the</token>
+        <token id="ME_5b_ra12">ring</token>
+        <token id="ME_5b_ra13">is</token>
+        <token id="ME_5b_ra14">not</token>
+        <token id="ME_5b_ra15">iron</token>
+        <token id="ME_5b_ra16">.</token>
+        <token id="ME_5b_ra17">The</token>
+        <token id="ME_5b_ra18">nail</token>
+        <token id="ME_5b_ra19">is</token>
+        <token id="ME_5b_ra20">a</token>
+        <token id="ME_5b_ra21">temporary</token>
+        <token id="ME_5b_ra22">magnet</token>
+        <token id="ME_5b_ra23">,</token>
+        <token id="ME_5b_ra24">but</token>
+        <token id="ME_5b_ra25">brass</token>
+        <token id="ME_5b_ra26">can</token>
+        <token id="ME_5b_ra27">not</token>
+        <token id="ME_5b_ra28">become</token>
+        <token id="ME_5b_ra29">a</token>
+        <token id="ME_5b_ra30">temporary</token>
+        <token id="ME_5b_ra31">magnet</token>
+        <token id="ME_5b_ra32">and</token>
+        <token id="ME_5b_ra33">thus</token>
+        <token id="ME_5b_ra34">does</token>
+        <token id="ME_5b_ra35">not</token>
+        <token id="ME_5b_ra36">stick</token>
+        <token id="ME_5b_ra37">to</token>
+        <token id="ME_5b_ra38">magnets</token>
+        <token id="ME_5b_ra39">.</token>
+      </tokens>
+      <facets>
+        <facet id="ME_5b_f1" govNum="ME_5b_ra3" modNum="ME_5b_ra2" reltn="NMod" govText="ring" isAssumed="true" modText="brass"/>
+        <facet id="ME_5b_f2" govNum="ME_5b_ra6" modNum="ME_5b_ra3" reltn="Theme_neg_not" govText="stick" modText="ring"/>
+        <facet id="ME_5b_f3" govNum="ME_5b_ra6" modNum="ME_5b_ra9" reltn="Destination_to_neg_not" govText="stick" modText="nail"/>
+        <facet id="ME_5b_f4" govNum="ME_5b_ra12" modNum="ME_5b_ra15" reltn="Be_neg_not" govText="ring" modText="iron"/>
+        <facet id="ME_5b_f5" govNum="ME_5b_ra6" modNum="ME_5b_ra13" reltn="Cause_because" childProp1Facet1="ME_5b_f2" govText="stick" childProp1Facet2="ME_5b_f3" modText="is" childProp2Facet1="ME_5b_f4"/>
+        <facet id="ME_5b_f6" govNum="ME_5b_ra18" modNum="ME_5b_ra22" reltn="Be" govText="nail" modText="magnet"/>
+        <facet id="ME_5b_f7" govNum="ME_5b_ra22" modNum="ME_5b_ra21" reltn="NMod" govText="magnet" modText="temporary"/>
+        <facet id="ME_5b_f8" govNum="ME_5b_ra25" modNum="ME_5b_ra31" reltn="Become_neg_cannot" govText="brass" modText="magnet"/>
+        <facet id="ME_5b_f9" govNum="ME_5b_ra31" modNum="ME_5b_ra30" reltn="NMod" govText="magnet" modText="temporary"/>
+        <facet id="ME_5b_f10" govNum="ME_5b_ra36" modNum="ME_5b_ra25" reltn="Theme_neg_not" govText="stick" modText="brass"/>
+        <facet id="ME_5b_f11" govNum="ME_5b_ra36" modNum="ME_5b_ra38" reltn="Destination_to_neg_not" govText="stick" modText="magnets"/>
+        <facet id="ME_5b_f12" govNum="ME_5b_ra36" modNum="ME_5b_ra28" reltn="Cause_thus" childProp2Facet2="ME_5b_f9" childProp1Facet1="ME_5b_f10" govText="stick" childProp1Facet2="ME_5b_f11" modText="become" childProp2Facet1="ME_5b_f8"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="ME.5b.101.1" answerText="I think it would stick for a little bit depending on how long you hold the magnet to the nail because the nail becomes a temporary magnet." accuracy="contradictory">
+      <facetEntailment facetID="ME_5b_f1" label="Assumed"/>
+      <facetEntailment facetID="ME_5b_f2" label="Contra-Expr"/>
+      <facetEntailment facetID="ME_5b_f3" label="Contra-Infr"/>
+      <facetEntailment facetID="ME_5b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f5" label="Diff-Arg"/>
+      <facetEntailment facetID="ME_5b_f6" label="Expressed"/>
+      <facetEntailment facetID="ME_5b_f7" label="Expressed"/>
+      <facetEntailment facetID="ME_5b_f8" label="Contra-Infr"/>
+      <facetEntailment facetID="ME_5b_f9" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f10" label="Contra-Infr"/>
+      <facetEntailment facetID="ME_5b_f11" label="Contra-Infr"/>
+      <facetEntailment facetID="ME_5b_f12" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.5b.107.1" answerText="It would not stick because it did not have iron in it." accuracy="correct">
+      <facetEntailment facetID="ME_5b_f1" label="Assumed"/>
+      <facetEntailment facetID="ME_5b_f2" label="Expressed"/>
+      <facetEntailment facetID="ME_5b_f3" label="Inferred"/>
+      <facetEntailment facetID="ME_5b_f4" label="Expressed"/>
+      <facetEntailment facetID="ME_5b_f5" label="Expressed"/>
+      <facetEntailment facetID="ME_5b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f8" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f9" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f10" label="Inferred"/>
+      <facetEntailment facetID="ME_5b_f11" label="Inferred"/>
+      <facetEntailment facetID="ME_5b_f12" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.5b.108.1" answerText="It would not stick because there is no magnet involved." accuracy="contradictory">
+      <facetEntailment facetID="ME_5b_f1" label="Assumed"/>
+      <facetEntailment facetID="ME_5b_f2" label="Expressed"/>
+      <facetEntailment facetID="ME_5b_f3" label="Inferred"/>
+      <facetEntailment facetID="ME_5b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f5" label="Inferred"/>
+      <facetEntailment facetID="ME_5b_f6" label="Contra-Infr"/>
+      <facetEntailment facetID="ME_5b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f8" label="Inferred"/>
+      <facetEntailment facetID="ME_5b_f9" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f10" label="Inferred"/>
+      <facetEntailment facetID="ME_5b_f11" label="Inferred"/>
+      <facetEntailment facetID="ME_5b_f12" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.5b.113.1" answerText="It might because of the force might be strong enough." accuracy="contradictory">
+      <facetEntailment facetID="ME_5b_f1" label="Assumed"/>
+      <facetEntailment facetID="ME_5b_f2" label="Contra-Infr"/>
+      <facetEntailment facetID="ME_5b_f3" label="Contra-Infr"/>
+      <facetEntailment facetID="ME_5b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f8" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f9" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f10" label="Contra-Infr"/>
+      <facetEntailment facetID="ME_5b_f11" label="Contra-Infr"/>
+      <facetEntailment facetID="ME_5b_f12" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.5b.115.1" answerText="It would not stick because the ring does not have iron or steel in it." accuracy="correct">
+      <facetEntailment facetID="ME_5b_f1" label="Assumed"/>
+      <facetEntailment facetID="ME_5b_f2" label="Expressed"/>
+      <facetEntailment facetID="ME_5b_f3" label="Inferred"/>
+      <facetEntailment facetID="ME_5b_f4" label="Expressed"/>
+      <facetEntailment facetID="ME_5b_f5" label="Expressed"/>
+      <facetEntailment facetID="ME_5b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f8" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f9" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f10" label="Inferred"/>
+      <facetEntailment facetID="ME_5b_f11" label="Inferred"/>
+      <facetEntailment facetID="ME_5b_f12" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.5b.121.1" answerText="It would fall because a brass ring is not made of iron or metal." accuracy="correct">
+      <facetEntailment facetID="ME_5b_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_5b_f2" label="Expressed"/>
+      <facetEntailment facetID="ME_5b_f3" label="Inferred"/>
+      <facetEntailment facetID="ME_5b_f4" label="Expressed"/>
+      <facetEntailment facetID="ME_5b_f5" label="Expressed"/>
+      <facetEntailment facetID="ME_5b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f8" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f9" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f10" label="Inferred"/>
+      <facetEntailment facetID="ME_5b_f11" label="Inferred"/>
+      <facetEntailment facetID="ME_5b_f12" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.5b.123.1" answerText="It would not stick because a brass ring is not iron or steel." accuracy="correct">
+      <facetEntailment facetID="ME_5b_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_5b_f2" label="Expressed"/>
+      <facetEntailment facetID="ME_5b_f3" label="Inferred"/>
+      <facetEntailment facetID="ME_5b_f4" label="Expressed"/>
+      <facetEntailment facetID="ME_5b_f5" label="Expressed"/>
+      <facetEntailment facetID="ME_5b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f8" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f9" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f10" label="Inferred"/>
+      <facetEntailment facetID="ME_5b_f11" label="Inferred"/>
+      <facetEntailment facetID="ME_5b_f12" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.5b.140.1" answerText="It would not go on the nail because a brass key has no magnetism in it." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="ME_5b_f1" label="Diff-Arg"/>
+      <facetEntailment facetID="ME_5b_f2" label="Expressed"/>
+      <facetEntailment facetID="ME_5b_f3" label="Expressed"/>
+      <facetEntailment facetID="ME_5b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f5" label="Diff-Arg"/>
+      <facetEntailment facetID="ME_5b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f8" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f9" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f10" label="Inferred"/>
+      <facetEntailment facetID="ME_5b_f11" label="Inferred"/>
+      <facetEntailment facetID="ME_5b_f12" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.5b.143.1" answerText="Fall off because they have no iron in them." accuracy="correct">
+      <facetEntailment facetID="ME_5b_f1" label="Assumed"/>
+      <facetEntailment facetID="ME_5b_f2" label="Inferred"/>
+      <facetEntailment facetID="ME_5b_f3" label="Inferred"/>
+      <facetEntailment facetID="ME_5b_f4" label="Expressed"/>
+      <facetEntailment facetID="ME_5b_f5" label="Inferred"/>
+      <facetEntailment facetID="ME_5b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f8" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f9" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f10" label="Inferred"/>
+      <facetEntailment facetID="ME_5b_f11" label="Inferred"/>
+      <facetEntailment facetID="ME_5b_f12" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.5b.146.1" answerText="No because brass ring does not have iron in it." accuracy="correct">
+      <facetEntailment facetID="ME_5b_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_5b_f2" label="Inferred"/>
+      <facetEntailment facetID="ME_5b_f3" label="Inferred"/>
+      <facetEntailment facetID="ME_5b_f4" label="Expressed"/>
+      <facetEntailment facetID="ME_5b_f5" label="Inferred"/>
+      <facetEntailment facetID="ME_5b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f8" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f9" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f10" label="Inferred"/>
+      <facetEntailment facetID="ME_5b_f11" label="Inferred"/>
+      <facetEntailment facetID="ME_5b_f12" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.5b.155.1" answerText="I think it would not stick because it is a plastic and it cannot do that." accuracy="contradictory">
+      <facetEntailment facetID="ME_5b_f1" label="Contra-Expr"/>
+      <facetEntailment facetID="ME_5b_f2" label="Expressed"/>
+      <facetEntailment facetID="ME_5b_f3" label="Inferred"/>
+      <facetEntailment facetID="ME_5b_f4" label="Expressed"/>
+      <facetEntailment facetID="ME_5b_f5" label="Expressed"/>
+      <facetEntailment facetID="ME_5b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f8" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f9" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f10" label="Inferred"/>
+      <facetEntailment facetID="ME_5b_f11" label="Inferred"/>
+      <facetEntailment facetID="ME_5b_f12" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.5b.159.1" answerText="It will not stick to the nail because of the brass ring is not made of metal." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="ME_5b_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_5b_f2" label="Inferred"/>
+      <facetEntailment facetID="ME_5b_f3" label="Expressed"/>
+      <facetEntailment facetID="ME_5b_f4" label="Diff-Arg"/>
+      <facetEntailment facetID="ME_5b_f5" label="Expressed"/>
+      <facetEntailment facetID="ME_5b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f8" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f9" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f10" label="Inferred"/>
+      <facetEntailment facetID="ME_5b_f11" label="Inferred"/>
+      <facetEntailment facetID="ME_5b_f12" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.5b.179.1" answerText="I do not think it would stick because a brass ring is not made out of iron." accuracy="correct">
+      <facetEntailment facetID="ME_5b_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_5b_f2" label="Expressed"/>
+      <facetEntailment facetID="ME_5b_f3" label="Inferred"/>
+      <facetEntailment facetID="ME_5b_f4" label="Expressed"/>
+      <facetEntailment facetID="ME_5b_f5" label="Expressed"/>
+      <facetEntailment facetID="ME_5b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f8" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f9" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f10" label="Inferred"/>
+      <facetEntailment facetID="ME_5b_f11" label="Inferred"/>
+      <facetEntailment facetID="ME_5b_f12" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.5b.181.1" answerText="I think it would not stick because it does not have any iron." accuracy="correct">
+      <facetEntailment facetID="ME_5b_f1" label="Assumed"/>
+      <facetEntailment facetID="ME_5b_f2" label="Expressed"/>
+      <facetEntailment facetID="ME_5b_f3" label="Inferred"/>
+      <facetEntailment facetID="ME_5b_f4" label="Expressed"/>
+      <facetEntailment facetID="ME_5b_f5" label="Expressed"/>
+      <facetEntailment facetID="ME_5b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f8" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f9" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f10" label="Inferred"/>
+      <facetEntailment facetID="ME_5b_f11" label="Inferred"/>
+      <facetEntailment facetID="ME_5b_f12" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.5b.185.1" answerText="The brass ring would not have any iron in it so it would not stick." accuracy="correct">
+      <facetEntailment facetID="ME_5b_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_5b_f2" label="Expressed"/>
+      <facetEntailment facetID="ME_5b_f3" label="Inferred"/>
+      <facetEntailment facetID="ME_5b_f4" label="Expressed"/>
+      <facetEntailment facetID="ME_5b_f5" label="Expressed"/>
+      <facetEntailment facetID="ME_5b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f8" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f9" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f10" label="Inferred"/>
+      <facetEntailment facetID="ME_5b_f11" label="Inferred"/>
+      <facetEntailment facetID="ME_5b_f12" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.5b.189.1" answerText="I think the same thing will happen. The force will still flow through the nail." accuracy="contradictory">
+      <facetEntailment facetID="ME_5b_f1" label="Assumed"/>
+      <facetEntailment facetID="ME_5b_f2" label="Contra-Infr"/>
+      <facetEntailment facetID="ME_5b_f3" label="Contra-Infr"/>
+      <facetEntailment facetID="ME_5b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f6" label="Inferred"/>
+      <facetEntailment facetID="ME_5b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f8" label="Contra-Infr"/>
+      <facetEntailment facetID="ME_5b_f9" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f10" label="Contra-Infr"/>
+      <facetEntailment facetID="ME_5b_f11" label="Contra-Infr"/>
+      <facetEntailment facetID="ME_5b_f12" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.5b.190.1" answerText="The brass would not stick because it is not made of iron." accuracy="correct">
+      <facetEntailment facetID="ME_5b_f1" label="Assumed"/>
+      <facetEntailment facetID="ME_5b_f2" label="Inferred"/>
+      <facetEntailment facetID="ME_5b_f3" label="Inferred"/>
+      <facetEntailment facetID="ME_5b_f4" label="Expressed"/>
+      <facetEntailment facetID="ME_5b_f5" label="Expressed"/>
+      <facetEntailment facetID="ME_5b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f8" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f9" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f10" label="Inferred"/>
+      <facetEntailment facetID="ME_5b_f11" label="Inferred"/>
+      <facetEntailment facetID="ME_5b_f12" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.5b.191.1" answerText="I think the brass ring would stick because the paper clip would probably have enough strength to hold one more thing." accuracy="contradictory">
+      <facetEntailment facetID="ME_5b_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_5b_f2" label="Contra-Expr"/>
+      <facetEntailment facetID="ME_5b_f3" label="Diff-Arg"/>
+      <facetEntailment facetID="ME_5b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f8" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f9" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f10" label="Contra-Expr"/>
+      <facetEntailment facetID="ME_5b_f11" label="Contra-Infr"/>
+      <facetEntailment facetID="ME_5b_f12" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.5b.192.1" answerText="I think the nail would stick to it because the nail will still have the magnetic force." accuracy="contradictory">
+      <facetEntailment facetID="ME_5b_f1" label="Assumed"/>
+      <facetEntailment facetID="ME_5b_f2" label="Contra-Infr"/>
+      <facetEntailment facetID="ME_5b_f3" label="Contra-Expr"/>
+      <facetEntailment facetID="ME_5b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f5" label="Diff-Arg"/>
+      <facetEntailment facetID="ME_5b_f6" label="Expressed"/>
+      <facetEntailment facetID="ME_5b_f7" label="Inferred"/>
+      <facetEntailment facetID="ME_5b_f8" label="Contra-Infr"/>
+      <facetEntailment facetID="ME_5b_f9" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f10" label="Contra-Infr"/>
+      <facetEntailment facetID="ME_5b_f11" label="Contra-Infr"/>
+      <facetEntailment facetID="ME_5b_f12" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.5b.214.1" answerText="If she touched it to a brass ring it would not stick because copper does not stick to a magnet." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="ME_5b_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_5b_f2" label="Expressed"/>
+      <facetEntailment facetID="ME_5b_f3" label="Inferred"/>
+      <facetEntailment facetID="ME_5b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f6" label="Inferred"/>
+      <facetEntailment facetID="ME_5b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f8" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f9" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f10" label="Diff-Arg"/>
+      <facetEntailment facetID="ME_5b_f11" label="Expressed"/>
+      <facetEntailment facetID="ME_5b_f12" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.5b.216.1" answerText="It would not stick and fall on the ground." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="ME_5b_f1" label="Assumed"/>
+      <facetEntailment facetID="ME_5b_f2" label="Expressed"/>
+      <facetEntailment facetID="ME_5b_f3" label="Inferred"/>
+      <facetEntailment facetID="ME_5b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f8" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f9" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f10" label="Inferred"/>
+      <facetEntailment facetID="ME_5b_f11" label="Inferred"/>
+      <facetEntailment facetID="ME_5b_f12" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.5b.217.1" answerText="The brass ring would not stick to the nail." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="ME_5b_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_5b_f2" label="Expressed"/>
+      <facetEntailment facetID="ME_5b_f3" label="Expressed"/>
+      <facetEntailment facetID="ME_5b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f8" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f9" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f10" label="Inferred"/>
+      <facetEntailment facetID="ME_5b_f11" label="Inferred"/>
+      <facetEntailment facetID="ME_5b_f12" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.5b.250.1" answerText="No because brass does not stick to magnets." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="ME_5b_f1" label="Assumed"/>
+      <facetEntailment facetID="ME_5b_f2" label="Inferred"/>
+      <facetEntailment facetID="ME_5b_f3" label="Inferred"/>
+      <facetEntailment facetID="ME_5b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f8" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f9" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f10" label="Expressed"/>
+      <facetEntailment facetID="ME_5b_f11" label="Expressed"/>
+      <facetEntailment facetID="ME_5b_f12" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.5b.252.1" answerText="If Anne touched the nail to a brass ring what do you think would happen. It will not happen because the brass ring is not a proper steel like the iron nail and the steel nail." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="ME_5b_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_5b_f2" label="Inferred"/>
+      <facetEntailment facetID="ME_5b_f3" label="Inferred"/>
+      <facetEntailment facetID="ME_5b_f4" label="Diff-Arg"/>
+      <facetEntailment facetID="ME_5b_f5" label="Inferred"/>
+      <facetEntailment facetID="ME_5b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f8" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f9" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f10" label="Inferred"/>
+      <facetEntailment facetID="ME_5b_f11" label="Inferred"/>
+      <facetEntailment facetID="ME_5b_f12" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.5b.253.1" answerText="It will repel because brass is not iron." accuracy="correct">
+      <facetEntailment facetID="ME_5b_f1" label="Assumed"/>
+      <facetEntailment facetID="ME_5b_f2" label="Expressed"/>
+      <facetEntailment facetID="ME_5b_f3" label="Inferred"/>
+      <facetEntailment facetID="ME_5b_f4" label="Expressed"/>
+      <facetEntailment facetID="ME_5b_f5" label="Expressed"/>
+      <facetEntailment facetID="ME_5b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f8" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f9" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f10" label="Inferred"/>
+      <facetEntailment facetID="ME_5b_f11" label="Inferred"/>
+      <facetEntailment facetID="ME_5b_f12" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.5b.256.1" answerText="It would repel because the brass ring is not iron." accuracy="correct">
+      <facetEntailment facetID="ME_5b_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_5b_f2" label="Expressed"/>
+      <facetEntailment facetID="ME_5b_f3" label="Inferred"/>
+      <facetEntailment facetID="ME_5b_f4" label="Expressed"/>
+      <facetEntailment facetID="ME_5b_f5" label="Expressed"/>
+      <facetEntailment facetID="ME_5b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f8" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f9" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f10" label="Inferred"/>
+      <facetEntailment facetID="ME_5b_f11" label="Inferred"/>
+      <facetEntailment facetID="ME_5b_f12" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.5b.276.1" answerText="It will because it is made with metal." accuracy="contradictory">
+      <facetEntailment facetID="ME_5b_f1" label="Assumed"/>
+      <facetEntailment facetID="ME_5b_f2" label="Contra-Infr"/>
+      <facetEntailment facetID="ME_5b_f3" label="Contra-Infr"/>
+      <facetEntailment facetID="ME_5b_f4" label="Diff-Arg"/>
+      <facetEntailment facetID="ME_5b_f5" label="Inferred"/>
+      <facetEntailment facetID="ME_5b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f8" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f9" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f10" label="Contra-Infr"/>
+      <facetEntailment facetID="ME_5b_f11" label="Contra-Infr"/>
+      <facetEntailment facetID="ME_5b_f12" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.5b.277.1" answerText="It will not attract because brass is not magnetism so it will not stick." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="ME_5b_f1" label="Assumed"/>
+      <facetEntailment facetID="ME_5b_f2" label="Expressed"/>
+      <facetEntailment facetID="ME_5b_f3" label="Inferred"/>
+      <facetEntailment facetID="ME_5b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f5" label="Inferred"/>
+      <facetEntailment facetID="ME_5b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f8" label="Inferred"/>
+      <facetEntailment facetID="ME_5b_f9" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f10" label="Inferred"/>
+      <facetEntailment facetID="ME_5b_f11" label="Inferred"/>
+      <facetEntailment facetID="ME_5b_f12" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="ME.5b.284.1" answerText="If Anne touched the nail to a brass ring it will stick to the nail just like the paperclip did." accuracy="contradictory">
+      <facetEntailment facetID="ME_5b_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_5b_f2" label="Contra-Expr"/>
+      <facetEntailment facetID="ME_5b_f3" label="Contra-Expr"/>
+      <facetEntailment facetID="ME_5b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f6" label="Inferred"/>
+      <facetEntailment facetID="ME_5b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f8" label="Contra-Infr"/>
+      <facetEntailment facetID="ME_5b_f9" label="Contra-Infr"/>
+      <facetEntailment facetID="ME_5b_f10" label="Contra-Expr"/>
+      <facetEntailment facetID="ME_5b_f11" label="Contra-Infr"/>
+      <facetEntailment facetID="ME_5b_f12" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="ME.5b.291.1" answerText="It will fall down. I find it." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="ME_5b_f1" label="Assumed"/>
+      <facetEntailment facetID="ME_5b_f2" label="Inferred"/>
+      <facetEntailment facetID="ME_5b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f8" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f9" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f10" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f11" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f12" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.5b.292.1" answerText="It will put up the ring I think in magnet." accuracy="irrelevant">
+      <facetEntailment facetID="ME_5b_f1" label="Assumed"/>
+      <facetEntailment facetID="ME_5b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f8" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f9" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f10" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f11" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f12" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.5b.293.1" answerText="It would not stick because it is not magnetic." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="ME_5b_f1" label="Assumed"/>
+      <facetEntailment facetID="ME_5b_f2" label="Expressed"/>
+      <facetEntailment facetID="ME_5b_f3" label="Inferred"/>
+      <facetEntailment facetID="ME_5b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f5" label="Diff-Arg"/>
+      <facetEntailment facetID="ME_5b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f8" label="Inferred"/>
+      <facetEntailment facetID="ME_5b_f9" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f10" label="Inferred"/>
+      <facetEntailment facetID="ME_5b_f11" label="Inferred"/>
+      <facetEntailment facetID="ME_5b_f12" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.5b.313.1" answerText="The reason why is because the brass ring is a temporary magnet." accuracy="contradictory">
+      <facetEntailment facetID="ME_5b_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_5b_f2" label="Contra-Infr"/>
+      <facetEntailment facetID="ME_5b_f3" label="Contra-Infr"/>
+      <facetEntailment facetID="ME_5b_f4" label="Inferred"/>
+      <facetEntailment facetID="ME_5b_f5" label="Inferred"/>
+      <facetEntailment facetID="ME_5b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f8" label="Contra-Expr"/>
+      <facetEntailment facetID="ME_5b_f9" label="Expressed"/>
+      <facetEntailment facetID="ME_5b_f10" label="Contra-Infr"/>
+      <facetEntailment facetID="ME_5b_f11" label="Contra-Infr"/>
+      <facetEntailment facetID="ME_5b_f12" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="ME.5b.314.1" answerText="I think the nail will stick because the ring is made out of metal." accuracy="contradictory">
+      <facetEntailment facetID="ME_5b_f1" label="Assumed"/>
+      <facetEntailment facetID="ME_5b_f2" label="Contra-Expr"/>
+      <facetEntailment facetID="ME_5b_f3" label="Contra-Expr"/>
+      <facetEntailment facetID="ME_5b_f4" label="Diff-Arg"/>
+      <facetEntailment facetID="ME_5b_f5" label="Expressed"/>
+      <facetEntailment facetID="ME_5b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f8" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f9" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f10" label="Contra-Infr"/>
+      <facetEntailment facetID="ME_5b_f11" label="Contra-Infr"/>
+      <facetEntailment facetID="ME_5b_f12" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.5b.323.1" answerText="If Anne touched the nail to brass ring it would fall it would fall because it is not made of iron." accuracy="correct">
+      <facetEntailment facetID="ME_5b_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_5b_f2" label="Expressed"/>
+      <facetEntailment facetID="ME_5b_f3" label="Expressed"/>
+      <facetEntailment facetID="ME_5b_f4" label="Expressed"/>
+      <facetEntailment facetID="ME_5b_f5" label="Expressed"/>
+      <facetEntailment facetID="ME_5b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f8" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f9" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f10" label="Inferred"/>
+      <facetEntailment facetID="ME_5b_f11" label="Inferred"/>
+      <facetEntailment facetID="ME_5b_f12" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.5b.324.1" answerText="It will not stick to it." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="ME_5b_f1" label="Assumed"/>
+      <facetEntailment facetID="ME_5b_f2" label="Expressed"/>
+      <facetEntailment facetID="ME_5b_f3" label="Expressed"/>
+      <facetEntailment facetID="ME_5b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f8" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f9" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f10" label="Inferred"/>
+      <facetEntailment facetID="ME_5b_f11" label="Inferred"/>
+      <facetEntailment facetID="ME_5b_f12" label="Unaddressed"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

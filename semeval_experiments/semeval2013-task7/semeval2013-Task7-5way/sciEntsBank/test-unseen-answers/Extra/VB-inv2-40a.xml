@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<question testSet="unseen-answers" id="VB_40a" module="VB">
+  <questionText>Jack made a lifeboat out of a large paper cup. He decided to measure how far the boat sank when different numbers of marbles were added. His data are shown in the table. Identify the standard for Jack's experiment.</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="VB_40a-a1" text="The boat with 0 marbles is the standard in this experiment.">
+      <tokens>
+        <token id="VB_40a_ra1">The</token>
+        <token id="VB_40a_ra2">boat</token>
+        <token id="VB_40a_ra3">with</token>
+        <token id="VB_40a_ra4">0</token>
+        <token id="VB_40a_ra5">marbles</token>
+        <token id="VB_40a_ra6">is</token>
+        <token id="VB_40a_ra7">the</token>
+        <token id="VB_40a_ra8">standard</token>
+        <token id="VB_40a_ra9">in</token>
+        <token id="VB_40a_ra10">this</token>
+        <token id="VB_40a_ra11">experiment</token>
+        <token id="VB_40a_ra12">.</token>
+      </tokens>
+      <facets>
+        <facet id="VB_40a_f1" govNum="VB_40a_ra2" modNum="VB_40a_ra4" reltn="NMod_with" govText="boat" modText="0"/>
+        <facet id="VB_40a_f2" govNum="VB_40a_ra4" modNum="VB_40a_ra5" reltn="NMod" govText="0" modText="marbles"/>
+        <facet id="VB_40a_f3" govNum="VB_40a_ra2" modNum="VB_40a_ra8" reltn="Be" govText="boat" modText="standard"/>
+        <facet id="VB_40a_f4" govNum="VB_40a_ra8" modNum="VB_40a_ra11" reltn="NMod_in" govText="standard" isAssumed="true" modText="experiment"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="VB.40a.120.1" answerText="0 marbles." accuracy="correct">
+      <facetEntailment facetID="VB_40a_f1" label="Unaddressed"/>
+      <facetEntailment facetID="VB_40a_f2" label="Expressed"/>
+      <facetEntailment facetID="VB_40a_f3" label="Unaddressed"/>
+      <facetEntailment facetID="VB_40a_f4" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="VB.40a.138.1" answerText="10." accuracy="contradictory">
+      <facetEntailment facetID="VB_40a_f1" label="Unaddressed"/>
+      <facetEntailment facetID="VB_40a_f2" label="Contra-Infr"/>
+      <facetEntailment facetID="VB_40a_f3" label="Unaddressed"/>
+      <facetEntailment facetID="VB_40a_f4" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="VB.40a.249.1" answerText="10 marbles and 5.8 amount the boat sank." accuracy="contradictory">
+      <facetEntailment facetID="VB_40a_f1" label="Unaddressed"/>
+      <facetEntailment facetID="VB_40a_f2" label="Unaddressed"/>
+      <facetEntailment facetID="VB_40a_f3" label="Unaddressed"/>
+      <facetEntailment facetID="VB_40a_f4" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="VB.40a.417.1" answerText="The more Jack put in the lower the boat became under the water." accuracy="irrelevant">
+      <facetEntailment facetID="VB_40a_f1" label="Unaddressed"/>
+      <facetEntailment facetID="VB_40a_f2" label="Unaddressed"/>
+      <facetEntailment facetID="VB_40a_f3" label="Unaddressed"/>
+      <facetEntailment facetID="VB_40a_f4" label="Assumed"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

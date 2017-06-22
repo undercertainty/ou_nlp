@@ -1,0 +1,131 @@
+<?xml version="1.0"?>
+<question testSet="unseen-answers" qtype="Q_EXPLAIN_SPECIFIC" id="PARALLEL_SWITCH_EXPLAIN_Q2" module="SwitchesBulbsParallel" stype="EVALUATE">
+  <questionText>Why was bulb C off when switch Z was open?</questionText>
+  <referenceAnswers>
+    <referenceAnswer category="BEST" id="answer299" fileID="PARALLEL_SWITCH_EXPLAIN_Q2_ANS1">Bulb C was no longer in a closed path with the battery</referenceAnswer>
+    <referenceAnswer category="BEST" id="answer300" fileID="PARALLEL_SWITCH_EXPLAIN_Q2_ANS1A">There was no longer a closed path containing Bulb C and the battery</referenceAnswer>
+    <referenceAnswer category="GOOD" id="answer301" fileID="PARALLEL_SWITCH_EXPLAIN_Q2_ANS1_OLD">there is a path containing Z and C. The open switch Z creates a gap</referenceAnswer>
+    <referenceAnswer category="GOOD" id="answer302" fileID="PARALLEL_SWITCH_EXPLAIN_Q2_ANS2">there is a path containing Z and C. Opening of switch Z causes the path to be open</referenceAnswer>
+    <referenceAnswer category="GOOD" id="answer303" fileID="PARALLEL_SWITCH_EXPLAIN_Q2_ANS3">there is a path containing both Z and C</referenceAnswer>
+    <referenceAnswer category="KEYWORD" id="answer304" fileID="PARALLEL_SWITCH_EXPLAIN_Q2_ANS4">a gap</referenceAnswer>
+    <referenceAnswer category="MINIMAL" id="answer305" fileID="PARALLEL_SWITCH_EXPLAIN_Q2_ANS5A">Bulb C was not in a closed path</referenceAnswer>
+    <referenceAnswer category="MINIMAL" id="answer306" fileID="PARALLEL_SWITCH_EXPLAIN_Q2_ANS5B">Bulb C was in no closed path</referenceAnswer>
+    <referenceAnswer category="MINIMAL" id="answer307" fileID="PARALLEL_SWITCH_EXPLAIN_Q2_ANS5">There are no closed paths</referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer count="1" answerMatch="answer300" raw_text="bulb c was in an open path with the battery" id="SwitchesBulbsParallel-PARALLEL_SWITCH_EXPLAIN_Q2.sbj3-l2.qa45" accuracy="correct">
+      <token status="ok" id="tok803">bulb</token>
+      <token status="ok" id="tok804">c</token>
+      <token status="ok" id="tok805">was</token>
+      <token status="ok" id="tok806">in</token>
+      <token status="ok" id="tok807">an</token>
+      <token status="ok" id="tok808">open</token>
+      <token status="ok" id="tok809">path</token>
+      <token status="ok" id="tok810">with</token>
+      <token status="ok" id="tok811">the</token>
+      <token status="ok" id="tok812">battery</token>
+    </studentAnswer>
+    <studentAnswer count="5" answerMatch="answer299" raw_text="bulb c is not contained in a closed path with the battery" id="SwitchesBulbsParallel-PARALLEL_SWITCH_EXPLAIN_Q2.sbj7-l2.qa45" accuracy="correct">
+      <token status="ok" id="tok838">bulb</token>
+      <token status="ok" id="tok839">c</token>
+      <token status="ok" id="tok840">is</token>
+      <token status="ok" id="tok841">not</token>
+      <token status="ok" id="tok842">contained</token>
+      <token status="ok" id="tok843">in</token>
+      <token status="ok" id="tok844">a</token>
+      <token status="ok" id="tok845">closed</token>
+      <token status="ok" id="tok846">path</token>
+      <token status="ok" id="tok847">with</token>
+      <token status="ok" id="tok848">the</token>
+      <token status="ok" id="tok849">battery</token>
+    </studentAnswer>
+    <studentAnswer count="2" answerMatch="answer299" raw_text="bulb c was not in a closed path with the battery." id="SwitchesBulbsParallel-PARALLEL_SWITCH_EXPLAIN_Q2.sbj9-l2.qa46" accuracy="correct">
+      <token status="ok" id="tok809">bulb</token>
+      <token status="ok" id="tok810">c</token>
+      <token status="ok" id="tok811">was</token>
+      <token status="ok" id="tok812">not</token>
+      <token status="ok" id="tok813">in</token>
+      <token status="ok" id="tok814">a</token>
+      <token status="ok" id="tok815">closed</token>
+      <token status="ok" id="tok816">path</token>
+      <token status="ok" id="tok817">with</token>
+      <token status="ok" id="tok818">the</token>
+      <token status="ok" id="tok819">battery</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer305" raw_text="path for bulb c was open" id="SwitchesBulbsParallel-PARALLEL_SWITCH_EXPLAIN_Q2.sbj19-l2.qa58" accuracy="correct">
+      <token status="ok" id="tok1173">path</token>
+      <token status="ok" id="tok1174">for</token>
+      <token status="ok" id="tok1175">bulb</token>
+      <token status="ok" id="tok1176">c</token>
+      <token status="ok" id="tok1177">was</token>
+      <token status="ok" id="tok1178">open</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer302" raw_text="switch z makes the path incomplete" id="SwitchesBulbsParallel-PARALLEL_SWITCH_EXPLAIN_Q2.sbj24-l2.qa47" accuracy="contradictory">
+      <token status="ok" id="tok835">switch</token>
+      <token status="ok" id="tok836">z</token>
+      <token status="ok" id="tok837">makes</token>
+      <token status="ok" id="tok838">the</token>
+      <token status="ok" id="tok839">path</token>
+      <token status="ok" id="tok840">incomplete</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="bulb c is still contained in a closed path with the battery" id="SwitchesBulbsParallel-PARALLEL_SWITCH_EXPLAIN_Q2.sbj29-l2.qa49" accuracy="contradictory">
+      <token status="ok" id="tok1012">bulb</token>
+      <token status="ok" id="tok1013">c</token>
+      <token status="ok" id="tok1014">is</token>
+      <token status="ok" id="tok1015">still</token>
+      <token status="ok" id="tok1016">contained</token>
+      <token status="ok" id="tok1017">in</token>
+      <token status="ok" id="tok1018">a</token>
+      <token status="ok" id="tok1019">closed</token>
+      <token status="ok" id="tok1020">path</token>
+      <token status="ok" id="tok1021">with</token>
+      <token status="ok" id="tok1022">the</token>
+      <token status="ok" id="tok1023">battery</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer303" raw_text="bulb c is contained in the path to the battery" id="SwitchesBulbsParallel-PARALLEL_SWITCH_EXPLAIN_Q2.sbj46-l2.qa54" accuracy="partially_correct_incomplete">
+      <token status="ok" id="tok1066">bulb</token>
+      <token status="ok" id="tok1067">c</token>
+      <token status="ok" id="tok1068">is</token>
+      <token status="ok" id="tok1069">contained</token>
+      <token status="ok" id="tok1070">in</token>
+      <token status="ok" id="tok1071">the</token>
+      <token status="ok" id="tok1072">path</token>
+      <token status="ok" id="tok1073">to</token>
+      <token status="ok" id="tok1074">the</token>
+      <token status="ok" id="tok1075">battery</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer299" raw_text="it was not in a closed path with the battery" id="SwitchesBulbsParallel-PARALLEL_SWITCH_EXPLAIN_Q2.sbjb16-l2.qa43" accuracy="correct">
+      <token status="ok" id="tok804">it</token>
+      <token status="ok" id="tok805">was</token>
+      <token status="ok" id="tok806">not</token>
+      <token status="ok" id="tok807">in</token>
+      <token status="ok" id="tok808">a</token>
+      <token status="ok" id="tok809">closed</token>
+      <token status="ok" id="tok810">path</token>
+      <token status="ok" id="tok811">with</token>
+      <token status="ok" id="tok812">the</token>
+      <token status="ok" id="tok813">battery</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="idk" id="SwitchesBulbsParallel-PARALLEL_SWITCH_EXPLAIN_Q2.sbjb18-l2.qa43" accuracy="non_domain">
+      <token status="nonWord" id="tok819">idk</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer299" raw_text="Because bulb C is contained in an opened path with the battery, which turns it off." id="SwitchesBulbsParallel-PARALLEL_SWITCH_EXPLAIN_Q2.sbjb41-l2.qa43" accuracy="correct">
+      <token status="ok" id="tok877">Because</token>
+      <token status="ok" id="tok878">bulb</token>
+      <token status="ok" id="tok879">C</token>
+      <token status="ok" id="tok880">is</token>
+      <token status="ok" id="tok881">contained</token>
+      <token status="ok" id="tok882">in</token>
+      <token status="ok" id="tok883">an</token>
+      <token status="ok" id="tok884">opened</token>
+      <token status="ok" id="tok885">path</token>
+      <token status="ok" id="tok886">with</token>
+      <token status="ok" id="tok887">the</token>
+      <token status="ok" id="tok888">battery</token>
+      <token status="ok" id="tok889">which</token>
+      <token status="ok" id="tok890">turns</token>
+      <token status="ok" id="tok891">it</token>
+      <token status="ok" id="tok892">off</token>
+    </studentAnswer>
+  </studentAnswers>
+</question>

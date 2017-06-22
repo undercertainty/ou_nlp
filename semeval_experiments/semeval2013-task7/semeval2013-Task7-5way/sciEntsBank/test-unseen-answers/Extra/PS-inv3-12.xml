@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<question testSet="unseen-answers" id="PS_12" module="PS">
+  <questionText>Mary was trying to understand how tuning forks make sounds. She hit the tuning fork on the table and placed the tuning fork into a cup full of water while it was still ringing. The water splashed in all directions. How did seeing what happened help Mary understand how a tuning fork makes sounds?</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="PS_12-a1" text="The water splashed because the fork was vibrating. Vibrations make sounds.">
+      <tokens>
+        <token id="PS_12_ra1">The</token>
+        <token id="PS_12_ra2">water</token>
+        <token id="PS_12_ra3">splashed</token>
+        <token id="PS_12_ra4">because</token>
+        <token id="PS_12_ra5">the</token>
+        <token id="PS_12_ra6">fork</token>
+        <token id="PS_12_ra7">was</token>
+        <token id="PS_12_ra8">vibrating</token>
+        <token id="PS_12_ra9">.</token>
+        <token id="PS_12_ra10">Vibrations</token>
+        <token id="PS_12_ra11">make</token>
+        <token id="PS_12_ra12">sounds</token>
+        <token id="PS_12_ra13">.</token>
+      </tokens>
+      <facets>
+        <facet id="PS_12_f1" govNum="PS_12_ra3" modNum="PS_12_ra2" reltn="Theme" govText="splashed" isAssumed="true" modText="water"/>
+        <facet id="PS_12_f2" govNum="PS_12_ra8" modNum="PS_12_ra6" reltn="Theme" govText="vibrating" modText="fork"/>
+        <facet id="PS_12_f3" govNum="PS_12_ra3" modNum="PS_12_ra8" reltn="Cause_because" childProp1Facet1="PS_12_f1" govText="splashed" modText="vibrating" childProp2Facet1="PS_12_f2"/>
+        <facet id="PS_12_f4" govNum="PS_12_ra11" modNum="PS_12_ra10" reltn="Cause" govText="make" modText="Vibrations"/>
+        <facet id="PS_12_f5" govNum="PS_12_ra11" modNum="PS_12_ra12" reltn="Product" govText="make" isAssumed="true" modText="sounds"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="PS.12.313.1" answerText="Vibration maked all these sound so probably it was vibration." accuracy="correct">
+      <facetEntailment facetID="PS_12_f1" label="Assumed"/>
+      <facetEntailment facetID="PS_12_f2" label="Inferred"/>
+      <facetEntailment facetID="PS_12_f3" label="Inferred"/>
+      <facetEntailment facetID="PS_12_f4" label="Expressed"/>
+      <facetEntailment facetID="PS_12_f5" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.12.452.1" answerText="Because the water splashed because of the vibrations moving." accuracy="correct">
+      <facetEntailment facetID="PS_12_f1" label="Expressed"/>
+      <facetEntailment facetID="PS_12_f2" label="Inferred"/>
+      <facetEntailment facetID="PS_12_f3" label="Expressed"/>
+      <facetEntailment facetID="PS_12_f4" label="Inferred"/>
+      <facetEntailment facetID="PS_12_f5" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.12.510.1" answerText="Because it moves around." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="PS_12_f1" label="Assumed"/>
+      <facetEntailment facetID="PS_12_f2" label="Inferred"/>
+      <facetEntailment facetID="PS_12_f3" label="Unaddressed"/>
+      <facetEntailment facetID="PS_12_f4" label="Unaddressed"/>
+      <facetEntailment facetID="PS_12_f5" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.12.641.1" answerText="It moves and it vibrate." accuracy="correct">
+      <facetEntailment facetID="PS_12_f1" label="Assumed"/>
+      <facetEntailment facetID="PS_12_f2" label="Expressed"/>
+      <facetEntailment facetID="PS_12_f3" label="Inferred"/>
+      <facetEntailment facetID="PS_12_f4" label="Inferred"/>
+      <facetEntailment facetID="PS_12_f5" label="Assumed"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

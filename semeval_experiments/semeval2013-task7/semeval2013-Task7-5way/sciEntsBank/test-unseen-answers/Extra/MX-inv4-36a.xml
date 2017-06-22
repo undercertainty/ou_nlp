@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<question testSet="unseen-answers" id="MX_36a" module="MX">
+  <questionText>Grace set up a science experiment. Here's what she wrote in her notebook. First I put eggshells into a cup and covered them with vinegar. After a while, small bubbles appeared on the surface of the eggshells. The next day there were more bubbles. In a couple of days, the eggshells were gone and the liquid was clear. I think I made a solution and a reaction. Explain why Grace thinks she made a solution.</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="MX_36a-a1" text="A solution was created when the eggshells disappeared (dissolved) and the mixture ended up as a clear liquid.">
+      <tokens>
+        <token id="MX_36a_ra1">A</token>
+        <token id="MX_36a_ra2">solution</token>
+        <token id="MX_36a_ra3">was</token>
+        <token id="MX_36a_ra4">created</token>
+        <token id="MX_36a_ra5">when</token>
+        <token id="MX_36a_ra6">the</token>
+        <token id="MX_36a_ra7">eggshells</token>
+        <token id="MX_36a_ra8">disappeared</token>
+        <token id="MX_36a_ra9">(</token>
+        <token id="MX_36a_ra10">dissolved</token>
+        <token id="MX_36a_ra11">)</token>
+        <token id="MX_36a_ra12">and</token>
+        <token id="MX_36a_ra13">the</token>
+        <token id="MX_36a_ra14">mixture</token>
+        <token id="MX_36a_ra15">ended</token>
+        <token id="MX_36a_ra16">up</token>
+        <token id="MX_36a_ra17">as</token>
+        <token id="MX_36a_ra18">a</token>
+        <token id="MX_36a_ra19">clear</token>
+        <token id="MX_36a_ra20">liquid</token>
+        <token id="MX_36a_ra21">.</token>
+      </tokens>
+      <facets>
+        <facet id="MX_36a_f1" govNum="MX_36a_ra4" modNum="MX_36a_ra2" reltn="Product" govText="created" isAssumed="true" modText="solution"/>
+        <facet id="MX_36a_f2" govNum="MX_36a_ra10" modNum="MX_36a_ra7" reltn="Patient" govText="dissolved" isAssumed="true" modText="eggshells"/>
+        <facet id="MX_36a_f3" govNum="MX_36a_ra4" modNum="MX_36a_ra10" reltn="Cause_when" childProp1Facet1="MX_36a_f1" govText="created" modText="dissolved" childProp2Facet1="MX_36a_f2"/>
+        <facet id="MX_36a_f4" govNum="MX_36a_ra15" modNum="MX_36a_ra14" reltn="Theme" govText="ended up" modText="mixture"/>
+        <facet id="MX_36a_f5" govNum="MX_36a_ra15" modNum="MX_36a_ra20" reltn="Destination_as" govText="ended up" isAssumed="true" modText="liquid"/>
+        <facet id="MX_36a_f6" govNum="MX_36a_ra20" modNum="MX_36a_ra19" reltn="NMod" govText="liquid" isAssumed="true" modText="clear"/>
+        <facet id="MX_36a_f7" govNum="MX_36a_ra4" modNum="MX_36a_ra15" reltn="Cause_when" childProp2Facet2="MX_36a_f5" childProp1Facet1="MX_36a_f1" govText="created" modText="ended up" childProp2Facet1="MX_36a_f4"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="MX.36a.126.1" answerText="She make a solution because she put eggshells into the cup and covered." accuracy="irrelevant">
+      <facetEntailment facetID="MX_36a_f1" label="Expressed"/>
+      <facetEntailment facetID="MX_36a_f2" label="Assumed"/>
+      <facetEntailment facetID="MX_36a_f3" label="Diff-Arg"/>
+      <facetEntailment facetID="MX_36a_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MX_36a_f5" label="Assumed"/>
+      <facetEntailment facetID="MX_36a_f6" label="Assumed"/>
+      <facetEntailment facetID="MX_36a_f7" label="Diff-Arg"/>
+    </studentAnswer>
+    <studentAnswer id="MX.36a.176.1" answerText="Because when she found it was." accuracy="irrelevant">
+      <facetEntailment facetID="MX_36a_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_36a_f2" label="Assumed"/>
+      <facetEntailment facetID="MX_36a_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_36a_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MX_36a_f5" label="Assumed"/>
+      <facetEntailment facetID="MX_36a_f6" label="Assumed"/>
+      <facetEntailment facetID="MX_36a_f7" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.36a.572b.1" answerText="She made a solution because she did eggshells and vinegar. Vinegar makes stuff bubble." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="MX_36a_f1" label="Expressed"/>
+      <facetEntailment facetID="MX_36a_f2" label="Assumed"/>
+      <facetEntailment facetID="MX_36a_f3" label="Inferred"/>
+      <facetEntailment facetID="MX_36a_f4" label="Inferred"/>
+      <facetEntailment facetID="MX_36a_f5" label="Assumed"/>
+      <facetEntailment facetID="MX_36a_f6" label="Assumed"/>
+      <facetEntailment facetID="MX_36a_f7" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="MX.36a.608.1" answerText="Because something dissolved and stuff." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="MX_36a_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_36a_f2" label="Assumed"/>
+      <facetEntailment facetID="MX_36a_f3" label="Inferred"/>
+      <facetEntailment facetID="MX_36a_f4" label="Inferred"/>
+      <facetEntailment facetID="MX_36a_f5" label="Assumed"/>
+      <facetEntailment facetID="MX_36a_f6" label="Assumed"/>
+      <facetEntailment facetID="MX_36a_f7" label="Inferred"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

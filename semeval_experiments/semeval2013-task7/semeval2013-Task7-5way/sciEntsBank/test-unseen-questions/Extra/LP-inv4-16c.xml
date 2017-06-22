@@ -1,0 +1,612 @@
+<?xml version="1.0"?>
+<question testSet="unseen-questions" id="LP_16c" module="LP">
+  <questionText>Look at the illustration of the pulley system at the right to answer the questions. Explain the disadvantage of using this system compared to a single movable pulley system.</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="LP_16c-a1" text="You have to pull 3 times more rope (apply the effort over a distance 3 times farther than the distance the load moves).">
+      <tokens>
+        <token id="LP_16c_ra1">You</token>
+        <token id="LP_16c_ra2">have</token>
+        <token id="LP_16c_ra3">to</token>
+        <token id="LP_16c_ra4">pull</token>
+        <token id="LP_16c_ra5">3</token>
+        <token id="LP_16c_ra6">times</token>
+        <token id="LP_16c_ra7">more</token>
+        <token id="LP_16c_ra8">rope</token>
+        <token id="LP_16c_ra9">(</token>
+        <token id="LP_16c_ra10">apply</token>
+        <token id="LP_16c_ra11">the</token>
+        <token id="LP_16c_ra12">effort</token>
+        <token id="LP_16c_ra13">over</token>
+        <token id="LP_16c_ra14">a</token>
+        <token id="LP_16c_ra15">distance</token>
+        <token id="LP_16c_ra16">3</token>
+        <token id="LP_16c_ra17">times</token>
+        <token id="LP_16c_ra18">farther</token>
+        <token id="LP_16c_ra19">than</token>
+        <token id="LP_16c_ra20">the</token>
+        <token id="LP_16c_ra21">distance</token>
+        <token id="LP_16c_ra22">the</token>
+        <token id="LP_16c_ra23">load</token>
+        <token id="LP_16c_ra24">moves</token>
+        <token id="LP_16c_ra25">)</token>
+        <token id="LP_16c_ra26">.</token>
+      </tokens>
+      <facets>
+        <facet id="LP_16c_f1" govNum="LP_16c_ra4" modNum="LP_16c_ra8" govText="pull" isAssumed="true" modText="rope" reltn="Theme"/>
+        <facet id="LP_16c_f2" govNum="LP_16c_ra8" modNum="LP_16c_ra7" govText="rope" modText="more" reltn="NMod"/>
+        <facet id="LP_16c_f3" govNum="LP_16c_ra7" modNum="LP_16c_ra6" govText="more" modText="times" reltn="AMod"/>
+        <facet id="LP_16c_f4" govNum="LP_16c_ra6" modNum="LP_16c_ra5" govText="times" modText="3" reltn="NMod"/>
+        <facet id="LP_16c_f5" govNum="LP_16c_ra10" modNum="LP_16c_ra12" govText="apply" isAssumed="true" modText="effort" reltn="Theme"/>
+        <facet id="LP_16c_f6" govNum="LP_16c_ra10" modNum="LP_16c_ra15" govText="apply" modText="distance" reltn="Location_over"/>
+        <facet id="LP_16c_f7" govNum="LP_16c_ra15" modNum="LP_16c_ra18" govText="distance" modText="farther" reltn="NMod"/>
+        <facet id="LP_16c_f8" govNum="LP_16c_ra18" modNum="LP_16c_ra17" govText="farther" modText="times" reltn="AMod"/>
+        <facet id="LP_16c_f9" govNum="LP_16c_ra17" modNum="LP_16c_ra16" govText="times" modText="3" reltn="NMod"/>
+        <facet id="LP_16c_f10" govNum="LP_16c_ra18" modNum="LP_16c_ra21" govText="farther" modText="distance" reltn="AMod_than"/>
+        <facet id="LP_16c_f11" govNum="LP_16c_ra24" modNum="LP_16c_ra23" govText="moves" isAssumed="true" modText="load" reltn="Theme"/>
+        <facet id="LP_16c_f12" govNum="LP_16c_ra24" modNum="LP_16c_ra21" govText="moves" isAssumed="true" modText="distance" reltn="Extent"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="LP.16c.103.1" answerText="The disadvantage of a single movable pulley is you have to pull or push the pulley up or down." accuracy="contradictory">
+      <facetEntailment facetID="LP_16c_f1" label="Diff-Arg"/>
+      <facetEntailment facetID="LP_16c_f2" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f3" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f4" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f5" label="Expressed"/>
+      <facetEntailment facetID="LP_16c_f6" label="Inferred"/>
+      <facetEntailment facetID="LP_16c_f7" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f8" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f9" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f10" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f11" label="Assumed"/>
+      <facetEntailment facetID="LP_16c_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="LP.16c.111.1" answerText="You have to use more rope." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="LP_16c_f1" label="Assumed"/>
+      <facetEntailment facetID="LP_16c_f2" label="Expressed"/>
+      <facetEntailment facetID="LP_16c_f3" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f4" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f5" label="Assumed"/>
+      <facetEntailment facetID="LP_16c_f6" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f7" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f8" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f9" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f10" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f11" label="Assumed"/>
+      <facetEntailment facetID="LP_16c_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="LP.16c.120.1" answerText="You pull the effort up show how many Newtons you have to lift the load." accuracy="irrelevant">
+      <facetEntailment facetID="LP_16c_f1" label="Assumed"/>
+      <facetEntailment facetID="LP_16c_f2" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f3" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f4" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f5" label="Expressed"/>
+      <facetEntailment facetID="LP_16c_f6" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f7" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f8" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f9" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f10" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f11" label="Expressed"/>
+      <facetEntailment facetID="LP_16c_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="LP.16c.126.1" answerText="You have to push or pull up or down." accuracy="irrelevant">
+      <facetEntailment facetID="LP_16c_f1" label="Expressed"/>
+      <facetEntailment facetID="LP_16c_f2" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f3" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f4" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f5" label="Expressed"/>
+      <facetEntailment facetID="LP_16c_f6" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f7" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f8" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f9" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f10" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f11" label="Assumed"/>
+      <facetEntailment facetID="LP_16c_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="LP.16c.138.1" answerText="The disadvantage is that it is 3 times as much rope." accuracy="correct">
+      <facetEntailment facetID="LP_16c_f1" label="Assumed"/>
+      <facetEntailment facetID="LP_16c_f2" label="Expressed"/>
+      <facetEntailment facetID="LP_16c_f3" label="Expressed"/>
+      <facetEntailment facetID="LP_16c_f4" label="Expressed"/>
+      <facetEntailment facetID="LP_16c_f5" label="Assumed"/>
+      <facetEntailment facetID="LP_16c_f6" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f7" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f8" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f9" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f10" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f11" label="Assumed"/>
+      <facetEntailment facetID="LP_16c_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="LP.16c.139.1" answerText="You would pull 3 times." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="LP_16c_f1" label="Expressed"/>
+      <facetEntailment facetID="LP_16c_f2" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f3" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f4" label="Expressed"/>
+      <facetEntailment facetID="LP_16c_f5" label="Expressed"/>
+      <facetEntailment facetID="LP_16c_f6" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f7" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f8" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f9" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f10" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f11" label="Assumed"/>
+      <facetEntailment facetID="LP_16c_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="LP.16c.144.1" answerText="You have to pull 3 times as much." accuracy="correct">
+      <facetEntailment facetID="LP_16c_f1" label="Expressed"/>
+      <facetEntailment facetID="LP_16c_f2" label="Inferred"/>
+      <facetEntailment facetID="LP_16c_f3" label="Expressed"/>
+      <facetEntailment facetID="LP_16c_f4" label="Expressed"/>
+      <facetEntailment facetID="LP_16c_f5" label="Expressed"/>
+      <facetEntailment facetID="LP_16c_f6" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f7" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f8" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f9" label="Expressed"/>
+      <facetEntailment facetID="LP_16c_f10" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f11" label="Assumed"/>
+      <facetEntailment facetID="LP_16c_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="LP.16c.147.1" answerText="You would have to apply." accuracy="irrelevant">
+      <facetEntailment facetID="LP_16c_f1" label="Assumed"/>
+      <facetEntailment facetID="LP_16c_f2" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f3" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f4" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f5" label="Assumed"/>
+      <facetEntailment facetID="LP_16c_f6" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f7" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f8" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f9" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f10" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f11" label="Assumed"/>
+      <facetEntailment facetID="LP_16c_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="LP.16c.153.1" answerText="3 times harder to pull." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="LP_16c_f1" label="Assumed"/>
+      <facetEntailment facetID="LP_16c_f2" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f3" label="Expressed"/>
+      <facetEntailment facetID="LP_16c_f4" label="Expressed"/>
+      <facetEntailment facetID="LP_16c_f5" label="Expressed"/>
+      <facetEntailment facetID="LP_16c_f6" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f7" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f8" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f9" label="Expressed"/>
+      <facetEntailment facetID="LP_16c_f10" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f11" label="Assumed"/>
+      <facetEntailment facetID="LP_16c_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="LP.16c.172.1" answerText="It takes more rope." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="LP_16c_f1" label="Assumed"/>
+      <facetEntailment facetID="LP_16c_f2" label="Expressed"/>
+      <facetEntailment facetID="LP_16c_f3" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f4" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f5" label="Assumed"/>
+      <facetEntailment facetID="LP_16c_f6" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f7" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f8" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f9" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f10" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f11" label="Assumed"/>
+      <facetEntailment facetID="LP_16c_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="LP.16c.174.1" answerText="You will have to pull the rope farther." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="LP_16c_f1" label="Expressed"/>
+      <facetEntailment facetID="LP_16c_f2" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f3" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f4" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f5" label="Expressed"/>
+      <facetEntailment facetID="LP_16c_f6" label="Expressed"/>
+      <facetEntailment facetID="LP_16c_f7" label="Expressed"/>
+      <facetEntailment facetID="LP_16c_f8" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f9" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f10" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f11" label="Assumed"/>
+      <facetEntailment facetID="LP_16c_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="LP.16c.221.1" answerText="You will have to pull more rope." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="LP_16c_f1" label="Expressed"/>
+      <facetEntailment facetID="LP_16c_f2" label="Expressed"/>
+      <facetEntailment facetID="LP_16c_f3" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f4" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f5" label="Expressed"/>
+      <facetEntailment facetID="LP_16c_f6" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f7" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f8" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f9" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f10" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f11" label="Assumed"/>
+      <facetEntailment facetID="LP_16c_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="LP.16c.229.1" answerText="Pull longer." accuracy="irrelevant">
+      <facetEntailment facetID="LP_16c_f1" label="Expressed"/>
+      <facetEntailment facetID="LP_16c_f2" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f3" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f4" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f5" label="Expressed"/>
+      <facetEntailment facetID="LP_16c_f6" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f7" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f8" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f9" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f10" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f11" label="Assumed"/>
+      <facetEntailment facetID="LP_16c_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="LP.16c.241.1" answerText="The distance of a single movable is 20 meters instead of 30 meters of that system." accuracy="irrelevant">
+      <facetEntailment facetID="LP_16c_f1" label="Assumed"/>
+      <facetEntailment facetID="LP_16c_f2" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f3" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f4" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f5" label="Assumed"/>
+      <facetEntailment facetID="LP_16c_f6" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f7" label="Inferred"/>
+      <facetEntailment facetID="LP_16c_f8" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f9" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f10" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f11" label="Assumed"/>
+      <facetEntailment facetID="LP_16c_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="LP.16c.247.1" answerText="You have less distance to move the load." accuracy="irrelevant">
+      <facetEntailment facetID="LP_16c_f1" label="Assumed"/>
+      <facetEntailment facetID="LP_16c_f2" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f3" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f4" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f5" label="Assumed"/>
+      <facetEntailment facetID="LP_16c_f6" label="Expressed"/>
+      <facetEntailment facetID="LP_16c_f7" label="Inferred"/>
+      <facetEntailment facetID="LP_16c_f8" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f9" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f10" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f11" label="Expressed"/>
+      <facetEntailment facetID="LP_16c_f12" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="LP.16c.254.1" answerText="A single movable pulley has less rope, so it does not have to travel as much from 10 meters to lift the load." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="LP_16c_f1" label="Assumed"/>
+      <facetEntailment facetID="LP_16c_f2" label="Inferred"/>
+      <facetEntailment facetID="LP_16c_f3" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f4" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f5" label="Assumed"/>
+      <facetEntailment facetID="LP_16c_f6" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f7" label="Inferred"/>
+      <facetEntailment facetID="LP_16c_f8" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f9" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f10" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f11" label="Expressed"/>
+      <facetEntailment facetID="LP_16c_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="LP.16c.256.1" answerText="The picture shows a single fixed to single moveable effort upward which needs more effort than a single moveable." accuracy="irrelevant">
+      <facetEntailment facetID="LP_16c_f1" label="Assumed"/>
+      <facetEntailment facetID="LP_16c_f2" label="Diff-Arg"/>
+      <facetEntailment facetID="LP_16c_f3" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f4" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f5" label="Assumed"/>
+      <facetEntailment facetID="LP_16c_f6" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f7" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f8" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f9" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f10" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f11" label="Assumed"/>
+      <facetEntailment facetID="LP_16c_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="LP.16c.257.1" answerText="The single movable does not have as many rope supporting the load." accuracy="irrelevant">
+      <facetEntailment facetID="LP_16c_f1" label="Assumed"/>
+      <facetEntailment facetID="LP_16c_f2" label="Inferred"/>
+      <facetEntailment facetID="LP_16c_f3" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f4" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f5" label="Assumed"/>
+      <facetEntailment facetID="LP_16c_f6" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f7" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f8" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f9" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f10" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f11" label="Assumed"/>
+      <facetEntailment facetID="LP_16c_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="LP.16c.259.1" answerText="There are more ropes that you have to pull." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="LP_16c_f1" label="Expressed"/>
+      <facetEntailment facetID="LP_16c_f2" label="Expressed"/>
+      <facetEntailment facetID="LP_16c_f3" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f4" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f5" label="Expressed"/>
+      <facetEntailment facetID="LP_16c_f6" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f7" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f8" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f9" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f10" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f11" label="Assumed"/>
+      <facetEntailment facetID="LP_16c_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="LP.16c.281.1" answerText="It takes more effort to lift the load." accuracy="irrelevant">
+      <facetEntailment facetID="LP_16c_f1" label="Assumed"/>
+      <facetEntailment facetID="LP_16c_f2" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f3" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f4" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f5" label="Expressed"/>
+      <facetEntailment facetID="LP_16c_f6" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f7" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f8" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f9" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f10" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f11" label="Expressed"/>
+      <facetEntailment facetID="LP_16c_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="LP.16c.290.1" answerText="Single movable has a better directional advantage." accuracy="irrelevant">
+      <facetEntailment facetID="LP_16c_f1" label="Assumed"/>
+      <facetEntailment facetID="LP_16c_f2" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f3" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f4" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f5" label="Assumed"/>
+      <facetEntailment facetID="LP_16c_f6" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f7" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f8" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f9" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f10" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f11" label="Assumed"/>
+      <facetEntailment facetID="LP_16c_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="LP.16c.320.1" answerText="This requires more rope to be pulled." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="LP_16c_f1" label="Expressed"/>
+      <facetEntailment facetID="LP_16c_f2" label="Expressed"/>
+      <facetEntailment facetID="LP_16c_f3" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f4" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f5" label="Expressed"/>
+      <facetEntailment facetID="LP_16c_f6" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f7" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f8" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f9" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f10" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f11" label="Assumed"/>
+      <facetEntailment facetID="LP_16c_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="LP.16c.323.1" answerText="There is more rope so you have to pull longer." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="LP_16c_f1" label="Expressed"/>
+      <facetEntailment facetID="LP_16c_f2" label="Expressed"/>
+      <facetEntailment facetID="LP_16c_f3" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f4" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f5" label="Assumed"/>
+      <facetEntailment facetID="LP_16c_f6" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f7" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f8" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f9" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f10" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f11" label="Assumed"/>
+      <facetEntailment facetID="LP_16c_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="LP.16c.329.1" answerText="For this you have to use an extra pulley." accuracy="irrelevant">
+      <facetEntailment facetID="LP_16c_f1" label="Assumed"/>
+      <facetEntailment facetID="LP_16c_f2" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f3" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f4" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f5" label="Assumed"/>
+      <facetEntailment facetID="LP_16c_f6" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f7" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f8" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f9" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f10" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f11" label="Assumed"/>
+      <facetEntailment facetID="LP_16c_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="LP.16c.332.1" answerText="You have to pull a lot of rope." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="LP_16c_f1" label="Expressed"/>
+      <facetEntailment facetID="LP_16c_f2" label="Expressed"/>
+      <facetEntailment facetID="LP_16c_f3" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f4" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f5" label="Assumed"/>
+      <facetEntailment facetID="LP_16c_f6" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f7" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f8" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f9" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f10" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f11" label="Assumed"/>
+      <facetEntailment facetID="LP_16c_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="LP.16c.346.1" answerText="You have to pull more rope to get it farther with the single fixed, single movable upward." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="LP_16c_f1" label="Expressed"/>
+      <facetEntailment facetID="LP_16c_f2" label="Expressed"/>
+      <facetEntailment facetID="LP_16c_f3" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f4" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f5" label="Assumed"/>
+      <facetEntailment facetID="LP_16c_f6" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f7" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f8" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f9" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f10" label="Inferred"/>
+      <facetEntailment facetID="LP_16c_f11" label="Assumed"/>
+      <facetEntailment facetID="LP_16c_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="LP.16c.364.1" answerText="On this system you have to pull 3 times as much compared to 2 times as much rope." accuracy="correct">
+      <facetEntailment facetID="LP_16c_f1" label="Expressed"/>
+      <facetEntailment facetID="LP_16c_f2" label="Inferred"/>
+      <facetEntailment facetID="LP_16c_f3" label="Expressed"/>
+      <facetEntailment facetID="LP_16c_f4" label="Expressed"/>
+      <facetEntailment facetID="LP_16c_f5" label="Expressed"/>
+      <facetEntailment facetID="LP_16c_f6" label="Inferred"/>
+      <facetEntailment facetID="LP_16c_f7" label="Inferred"/>
+      <facetEntailment facetID="LP_16c_f8" label="Expressed"/>
+      <facetEntailment facetID="LP_16c_f9" label="Expressed"/>
+      <facetEntailment facetID="LP_16c_f10" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f11" label="Assumed"/>
+      <facetEntailment facetID="LP_16c_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="LP.16c.366.1" answerText="You have to pull the rope twice the distance you want to move it." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="LP_16c_f1" label="Expressed"/>
+      <facetEntailment facetID="LP_16c_f2" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f3" label="Expressed"/>
+      <facetEntailment facetID="LP_16c_f4" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f5" label="Expressed"/>
+      <facetEntailment facetID="LP_16c_f6" label="Expressed"/>
+      <facetEntailment facetID="LP_16c_f7" label="Expressed"/>
+      <facetEntailment facetID="LP_16c_f8" label="Expressed"/>
+      <facetEntailment facetID="LP_16c_f9" label="Diff-Arg"/>
+      <facetEntailment facetID="LP_16c_f10" label="Expressed"/>
+      <facetEntailment facetID="LP_16c_f11" label="Expressed"/>
+      <facetEntailment facetID="LP_16c_f12" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="LP.16c.381.1" answerText="You must pull the rope farther." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="LP_16c_f1" label="Expressed"/>
+      <facetEntailment facetID="LP_16c_f2" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f3" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f4" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f5" label="Expressed"/>
+      <facetEntailment facetID="LP_16c_f6" label="Inferred"/>
+      <facetEntailment facetID="LP_16c_f7" label="Expressed"/>
+      <facetEntailment facetID="LP_16c_f8" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f9" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f10" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f11" label="Assumed"/>
+      <facetEntailment facetID="LP_16c_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="LP.16c.383.1" answerText="There is more rope so you would have to pull longer." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="LP_16c_f1" label="Expressed"/>
+      <facetEntailment facetID="LP_16c_f2" label="Expressed"/>
+      <facetEntailment facetID="LP_16c_f3" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f4" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f5" label="Expressed"/>
+      <facetEntailment facetID="LP_16c_f6" label="Inferred"/>
+      <facetEntailment facetID="LP_16c_f7" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f8" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f9" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f10" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f11" label="Assumed"/>
+      <facetEntailment facetID="LP_16c_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="LP.16c.388.1" answerText="The disadvantage is that you would have to go to the top of the building then go back down." accuracy="irrelevant">
+      <facetEntailment facetID="LP_16c_f1" label="Assumed"/>
+      <facetEntailment facetID="LP_16c_f2" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f3" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f4" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f5" label="Assumed"/>
+      <facetEntailment facetID="LP_16c_f6" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f7" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f8" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f9" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f10" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f11" label="Assumed"/>
+      <facetEntailment facetID="LP_16c_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="LP.16c.416.1" answerText="The disadvantage is that it is easier to lift with a single movable because it moves up faster to where you need it." accuracy="irrelevant">
+      <facetEntailment facetID="LP_16c_f1" label="Assumed"/>
+      <facetEntailment facetID="LP_16c_f2" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f3" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f4" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f5" label="Expressed"/>
+      <facetEntailment facetID="LP_16c_f6" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f7" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f8" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f9" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f10" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f11" label="Expressed"/>
+      <facetEntailment facetID="LP_16c_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="LP.16c.421.1" answerText="A directional advantage." accuracy="irrelevant">
+      <facetEntailment facetID="LP_16c_f1" label="Assumed"/>
+      <facetEntailment facetID="LP_16c_f2" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f3" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f4" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f5" label="Assumed"/>
+      <facetEntailment facetID="LP_16c_f6" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f7" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f8" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f9" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f10" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f11" label="Assumed"/>
+      <facetEntailment facetID="LP_16c_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="LP.16c.422.1" answerText="You need a longer string." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="LP_16c_f1" label="Assumed"/>
+      <facetEntailment facetID="LP_16c_f2" label="Expressed"/>
+      <facetEntailment facetID="LP_16c_f3" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f4" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f5" label="Assumed"/>
+      <facetEntailment facetID="LP_16c_f6" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f7" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f8" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f9" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f10" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f11" label="Assumed"/>
+      <facetEntailment facetID="LP_16c_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="LP.16c.423.1" answerText="Mechanical." accuracy="irrelevant">
+      <facetEntailment facetID="LP_16c_f1" label="Assumed"/>
+      <facetEntailment facetID="LP_16c_f2" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f3" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f4" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f5" label="Assumed"/>
+      <facetEntailment facetID="LP_16c_f6" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f7" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f8" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f9" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f10" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f11" label="Assumed"/>
+      <facetEntailment facetID="LP_16c_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="LP.16c.489.1" answerText="There is twice as much rope." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="LP_16c_f1" label="Assumed"/>
+      <facetEntailment facetID="LP_16c_f2" label="Expressed"/>
+      <facetEntailment facetID="LP_16c_f3" label="Expressed"/>
+      <facetEntailment facetID="LP_16c_f4" label="Diff-Arg"/>
+      <facetEntailment facetID="LP_16c_f5" label="Assumed"/>
+      <facetEntailment facetID="LP_16c_f6" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f7" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f8" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f9" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f10" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f11" label="Assumed"/>
+      <facetEntailment facetID="LP_16c_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="LP.16c.600.1" answerText="The single fixed to single movable upward is good to use, but single movable is a lot easier for you to lift the load because there is less rope supporting it." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="LP_16c_f1" label="Assumed"/>
+      <facetEntailment facetID="LP_16c_f2" label="Inferred"/>
+      <facetEntailment facetID="LP_16c_f3" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f4" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f5" label="Expressed"/>
+      <facetEntailment facetID="LP_16c_f6" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f7" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f8" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f9" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f10" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f11" label="Expressed"/>
+      <facetEntailment facetID="LP_16c_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="LP.16c.605.1" answerText="There are 3 rope supporting the load for 2 single fixed or single movable upward effort so on a single movable there are only 2 ropes supporting the load so the reduction is greater on a single fixed or single movable upward effort." accuracy="irrelevant">
+      <facetEntailment facetID="LP_16c_f1" label="Assumed"/>
+      <facetEntailment facetID="LP_16c_f2" label="Inferred"/>
+      <facetEntailment facetID="LP_16c_f3" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f4" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f5" label="Expressed"/>
+      <facetEntailment facetID="LP_16c_f6" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f7" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f8" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f9" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f10" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f11" label="Assumed"/>
+      <facetEntailment facetID="LP_16c_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="LP.16c.627.1" answerText="You lose distance, for this pulley you have to move the effort 15 centimeters to move the load 5 centimeters. For the single movable to move the load 5 centimeters you only have to move the effort 10 centimeters." accuracy="correct">
+      <facetEntailment facetID="LP_16c_f1" label="Assumed"/>
+      <facetEntailment facetID="LP_16c_f2" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f3" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f4" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f5" label="Expressed"/>
+      <facetEntailment facetID="LP_16c_f6" label="Expressed"/>
+      <facetEntailment facetID="LP_16c_f7" label="Expressed"/>
+      <facetEntailment facetID="LP_16c_f8" label="Expressed"/>
+      <facetEntailment facetID="LP_16c_f9" label="Expressed"/>
+      <facetEntailment facetID="LP_16c_f10" label="Expressed"/>
+      <facetEntailment facetID="LP_16c_f11" label="Expressed"/>
+      <facetEntailment facetID="LP_16c_f12" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="LP.16c.647.1" answerText="This pulley has a directional disadvantage and so does the single movable." accuracy="irrelevant">
+      <facetEntailment facetID="LP_16c_f1" label="Assumed"/>
+      <facetEntailment facetID="LP_16c_f2" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f3" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f4" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f5" label="Assumed"/>
+      <facetEntailment facetID="LP_16c_f6" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f7" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f8" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f9" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f10" label="Unaddressed"/>
+      <facetEntailment facetID="LP_16c_f11" label="Assumed"/>
+      <facetEntailment facetID="LP_16c_f12" label="Assumed"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

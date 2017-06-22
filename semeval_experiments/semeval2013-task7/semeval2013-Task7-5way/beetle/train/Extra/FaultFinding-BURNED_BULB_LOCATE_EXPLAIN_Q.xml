@@ -1,0 +1,1982 @@
+<?xml version="1.0"?>
+<question qtype="Q_EXPLAIN_GENERIC" id="BURNED_BULB_LOCATE_EXPLAIN_Q" module="FaultFinding" stype="QUESTION">
+  <questionText>Why does measuring voltage help you locate a burned out bulb? Try to answer in terms of electrical states, connections and/ or a gap.</questionText>
+  <referenceAnswers>
+    <referenceAnswer category="BEST" id="answer248" fileID="BURNED_BULB_LOCATE_EXPLAIN_Q_ANS1">Measuring voltage indicates the place where the electrical state changes due to a damaged bulb.</referenceAnswer>
+    <referenceAnswer category="BEST" id="answer249" fileID="BURNED_BULB_LOCATE_EXPLAIN_Q_ANS1B">Measuring voltage indicates the place where the electrical state changes due to a gap.</referenceAnswer>
+    <referenceAnswer category="GOOD" id="answer250" fileID="BURNED_BULB_LOCATE_EXPLAIN_Q_ANS3">Measuring voltage indicates whether two terminals are connected to each other.</referenceAnswer>
+    <referenceAnswer category="GOOD" id="answer251" fileID="BURNED_BULB_LOCATE_EXPLAIN_Q_ANS3B">Measuring voltage indicates whether two terminals are separated by a gap.</referenceAnswer>
+    <referenceAnswer category="GOOD" id="answer252" fileID="BURNED_BULB_LOCATE_EXPLAIN_Q_ANS6">A zero voltage means that the terminals are connected.</referenceAnswer>
+    <referenceAnswer category="GOOD" id="answer253" fileID="BURNED_BULB_LOCATE_EXPLAIN_Q_ANS6B">A non-zero voltage means that the terminals are not connected.</referenceAnswer>
+    <referenceAnswer category="GOOD" id="answer254" fileID="BURNED_BULB_LOCATE_EXPLAIN_Q_ANS6C">A zero voltage means that the terminals are not separated by a gap.</referenceAnswer>
+    <referenceAnswer category="GOOD" id="answer255" fileID="BURNED_BULB_LOCATE_EXPLAIN_Q_ANS6D">A non-zero voltage means that the terminals are separated by a gap.</referenceAnswer>
+    <referenceAnswer category="MINIMAL" id="answer256" fileID="BURNED_BULB_LOCATE_EXPLAIN_Q_ANS8">A non-zero voltage means that there is a damaged bulb.</referenceAnswer>
+    <referenceAnswer category="MINIMAL" id="answer257" fileID="BURNED_BULB_LOCATE_EXPLAIN_Q_ANS8B">A non-zero voltage means that there is a gap</referenceAnswer>
+    <referenceAnswer category="MINIMAL" id="answer258" fileID="BURNED_BULB_LOCATE_EXPLAIN_Q_ANS9">A zero voltage means that there is no damaged bulb.</referenceAnswer>
+    <referenceAnswer category="MINIMAL" id="answer259" fileID="BURNED_BULB_LOCATE_EXPLAIN_Q_ANS9B">A zero voltage means that there is no gap</referenceAnswer>
+    <referenceAnswer category="MINIMAL" id="answer260" fileID="BURNED_BULB_LOCATE_EXPLAIN_Q_ANS10">A non-zero voltage means that the terminals have different electrical states.</referenceAnswer>
+    <referenceAnswer category="MINIMAL" id="answer261" fileID="BURNED_BULB_LOCATE_EXPLAIN_Q_ANS10B">A zero voltage means that the terminals have the same electrical state.</referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer count="1" answerMatch="answer249" raw_text="because if there is a difference in electrial states then there is a gap. That will located the burned out bulb" id="FaultFinding-BURNED_BULB_LOCATE_EXPLAIN_Q.sbj3-l1.qa220" accuracy="correct">
+      <token status="ok" id="tok4417">because</token>
+      <token status="ok" id="tok4418">if</token>
+      <token status="ok" id="tok4419">there</token>
+      <token status="ok" id="tok4420">is</token>
+      <token status="ok" id="tok4421">a</token>
+      <token status="ok" id="tok4422">difference</token>
+      <token status="ok" id="tok4423">in</token>
+      <token status="ok" id="tok4424" original="electrial">electrical</token>
+      <token status="ok" id="tok4425">states</token>
+      <token status="ok" id="tok4426">then</token>
+      <token status="ok" id="tok4427">there</token>
+      <token status="ok" id="tok4428">is</token>
+      <token status="ok" id="tok4429">a</token>
+      <token status="ok" id="tok4430">gap</token>
+      <token status="ok" id="tok4431">That</token>
+      <token status="ok" id="tok4432">will</token>
+      <token status="ok" id="tok4433">located</token>
+      <token status="ok" id="tok4434">the</token>
+      <token status="ok" id="tok4435">burned</token>
+      <token status="ok" id="tok4436">out</token>
+      <token status="ok" id="tok4437">bulb</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer253" raw_text="if there is a difference in electrial states there won&quot;t be a complete connection" id="FaultFinding-BURNED_BULB_LOCATE_EXPLAIN_Q.sbj3-l1.qa221" accuracy="partially_correct_incomplete">
+      <token status="ok" id="tok4446">if</token>
+      <token status="ok" id="tok4447">there</token>
+      <token status="ok" id="tok4448">is</token>
+      <token status="ok" id="tok4449">a</token>
+      <token status="ok" id="tok4450">difference</token>
+      <token status="ok" id="tok4451">in</token>
+      <token status="ok" id="tok4452" original="electrial">electrical</token>
+      <token status="ok" id="tok4453">states</token>
+      <token status="ok" id="tok4454">there</token>
+      <token status="stem" id="tok4455">wo</token>
+      <token status="pennTokenFragment" id="tok4456">n't</token>
+      <token status="ok" id="tok4457">be</token>
+      <token status="ok" id="tok4458">a</token>
+      <token status="ok" id="tok4459">complete</token>
+      <token status="ok" id="tok4460">connection</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="the voltage will change when you move from a terminal that is connected to the battery and one that is not" id="FaultFinding-BURNED_BULB_LOCATE_EXPLAIN_Q.sbj7-l1.qa208" accuracy="contradictory">
+      <token status="ok" id="tok3713">the</token>
+      <token status="ok" id="tok3714">voltage</token>
+      <token status="ok" id="tok3715">will</token>
+      <token status="ok" id="tok3716">change</token>
+      <token status="ok" id="tok3717">when</token>
+      <token status="ok" id="tok3718">you</token>
+      <token status="ok" id="tok3719">move</token>
+      <token status="ok" id="tok3720">from</token>
+      <token status="ok" id="tok3721">a</token>
+      <token status="ok" id="tok3722">terminal</token>
+      <token status="ok" id="tok3723">that</token>
+      <token status="ok" id="tok3724">is</token>
+      <token status="ok" id="tok3725">connected</token>
+      <token status="ok" id="tok3726">to</token>
+      <token status="ok" id="tok3727">the</token>
+      <token status="ok" id="tok3728">battery</token>
+      <token status="ok" id="tok3729">and</token>
+      <token status="ok" id="tok3730">one</token>
+      <token status="ok" id="tok3731">that</token>
+      <token status="ok" id="tok3732">is</token>
+      <token status="ok" id="tok3733">not</token>
+    </studentAnswer>
+    <studentAnswer count="3" raw_text="i do not know" id="FaultFinding-BURNED_BULB_LOCATE_EXPLAIN_Q.sbj7-l1.qa209" accuracy="non_domain">
+      <token status="ok" id="tok3744">i</token>
+      <token status="ok" id="tok3745">do</token>
+      <token status="ok" id="tok3746">not</token>
+      <token status="ok" id="tok3747">know</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer251" raw_text="electrical states will determine whether there is a gap or connection in the circuit" id="FaultFinding-BURNED_BULB_LOCATE_EXPLAIN_Q.sbj8-l1.qa258" accuracy="partially_correct_incomplete">
+      <token status="ok" id="tok5128">electrical</token>
+      <token status="ok" id="tok5129">states</token>
+      <token status="ok" id="tok5130">will</token>
+      <token status="ok" id="tok5131">determine</token>
+      <token status="ok" id="tok5132">whether</token>
+      <token status="ok" id="tok5133">there</token>
+      <token status="ok" id="tok5134">is</token>
+      <token status="ok" id="tok5135">a</token>
+      <token status="ok" id="tok5136">gap</token>
+      <token status="ok" id="tok5137">or</token>
+      <token status="ok" id="tok5138">connection</token>
+      <token status="ok" id="tok5139">in</token>
+      <token status="ok" id="tok5140">the</token>
+      <token status="ok" id="tok5141">circuit</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="k" id="FaultFinding-BURNED_BULB_LOCATE_EXPLAIN_Q.sbj8-l1.qa259" accuracy="non_domain">
+      <token status="nonWord" id="tok5158">k</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer250" raw_text="measuring voltage checks for connections and gaps. It measures the electrical states between two terminals." id="FaultFinding-BURNED_BULB_LOCATE_EXPLAIN_Q.sbj9-l1.qa215" accuracy="partially_correct_incomplete">
+      <token status="ok" id="tok4168">measuring</token>
+      <token status="ok" id="tok4169">voltage</token>
+      <token status="ok" id="tok4170">checks</token>
+      <token status="ok" id="tok4171">for</token>
+      <token status="ok" id="tok4172">connections</token>
+      <token status="ok" id="tok4173">and</token>
+      <token status="ok" id="tok4174">gaps</token>
+      <token status="ok" id="tok4175">It</token>
+      <token status="ok" id="tok4176">measures</token>
+      <token status="ok" id="tok4177">the</token>
+      <token status="ok" id="tok4178">electrical</token>
+      <token status="ok" id="tok4179">states</token>
+      <token status="ok" id="tok4180">between</token>
+      <token status="ok" id="tok4181">two</token>
+      <token status="ok" id="tok4182">terminals</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer250" raw_text="measuring voltage allows you to find gaps and connections by checking the electrical states between two terminals." id="FaultFinding-BURNED_BULB_LOCATE_EXPLAIN_Q.sbj9-l1.qa216" accuracy="partially_correct_incomplete">
+      <token status="ok" id="tok4205">measuring</token>
+      <token status="ok" id="tok4206">voltage</token>
+      <token status="ok" id="tok4207">allows</token>
+      <token status="ok" id="tok4208">you</token>
+      <token status="ok" id="tok4209">to</token>
+      <token status="ok" id="tok4210">find</token>
+      <token status="ok" id="tok4211">gaps</token>
+      <token status="ok" id="tok4212">and</token>
+      <token status="ok" id="tok4213">connections</token>
+      <token status="ok" id="tok4214">by</token>
+      <token status="ok" id="tok4215">checking</token>
+      <token status="ok" id="tok4216">the</token>
+      <token status="ok" id="tok4217">electrical</token>
+      <token status="ok" id="tok4218">states</token>
+      <token status="ok" id="tok4219">between</token>
+      <token status="ok" id="tok4220">two</token>
+      <token status="ok" id="tok4221">terminals</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer249" raw_text="it checks the electrical state between two terminals." id="FaultFinding-BURNED_BULB_LOCATE_EXPLAIN_Q.sbj9-l1.qa217" accuracy="partially_correct_incomplete">
+      <token status="ok" id="tok4252">it</token>
+      <token status="ok" id="tok4253">checks</token>
+      <token status="ok" id="tok4254">the</token>
+      <token status="ok" id="tok4255">electrical</token>
+      <token status="ok" id="tok4256">state</token>
+      <token status="ok" id="tok4257">between</token>
+      <token status="ok" id="tok4258">two</token>
+      <token status="ok" id="tok4259">terminals</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer248" raw_text="you can measure voltage to see if there is a gap that the bulb caused." id="FaultFinding-BURNED_BULB_LOCATE_EXPLAIN_Q.sbj9-l1.qa218" accuracy="correct">
+      <token status="ok" id="tok4287">you</token>
+      <token status="ok" id="tok4288">can</token>
+      <token status="ok" id="tok4289">measure</token>
+      <token status="ok" id="tok4290">voltage</token>
+      <token status="ok" id="tok4291">to</token>
+      <token status="ok" id="tok4292">see</token>
+      <token status="ok" id="tok4293">if</token>
+      <token status="ok" id="tok4294">there</token>
+      <token status="ok" id="tok4295">is</token>
+      <token status="ok" id="tok4296">a</token>
+      <token status="ok" id="tok4297">gap</token>
+      <token status="ok" id="tok4298">that</token>
+      <token status="ok" id="tok4299">the</token>
+      <token status="ok" id="tok4300">bulb</token>
+      <token status="ok" id="tok4301">caused</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer249" raw_text="it allows you to measure electrical states between terminals" id="FaultFinding-BURNED_BULB_LOCATE_EXPLAIN_Q.sbj10-l1.qa249" accuracy="contradictory">
+      <token status="ok" id="tok4884">it</token>
+      <token status="ok" id="tok4885">allows</token>
+      <token status="ok" id="tok4886">you</token>
+      <token status="ok" id="tok4887">to</token>
+      <token status="ok" id="tok4888">measure</token>
+      <token status="ok" id="tok4889">electrical</token>
+      <token status="ok" id="tok4890">states</token>
+      <token status="ok" id="tok4891">between</token>
+      <token status="ok" id="tok4892">terminals</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer250" raw_text="because the voltage measures the difference in electrical states of two terminals, so it can determine where there is a gap, or wehre there is a connection." id="FaultFinding-BURNED_BULB_LOCATE_EXPLAIN_Q.sbj11-l1.qa236" accuracy="correct">
+      <token status="ok" id="tok4163">because</token>
+      <token status="ok" id="tok4164">the</token>
+      <token status="ok" id="tok4165">voltage</token>
+      <token status="ok" id="tok4166">measures</token>
+      <token status="ok" id="tok4167">the</token>
+      <token status="ok" id="tok4168">difference</token>
+      <token status="ok" id="tok4169">in</token>
+      <token status="ok" id="tok4170">electrical</token>
+      <token status="ok" id="tok4171">states</token>
+      <token status="ok" id="tok4172">of</token>
+      <token status="ok" id="tok4173">two</token>
+      <token status="ok" id="tok4174">terminals</token>
+      <token status="ok" id="tok4175">so</token>
+      <token status="ok" id="tok4176">it</token>
+      <token status="ok" id="tok4177">can</token>
+      <token status="ok" id="tok4178">determine</token>
+      <token status="ok" id="tok4179">where</token>
+      <token status="ok" id="tok4180">there</token>
+      <token status="ok" id="tok4181">is</token>
+      <token status="ok" id="tok4182">a</token>
+      <token status="ok" id="tok4183">gap</token>
+      <token status="ok" id="tok4184">or</token>
+      <token status="ok" id="tok4185" original="wehre">where</token>
+      <token status="ok" id="tok4186">there</token>
+      <token status="ok" id="tok4187">is</token>
+      <token status="ok" id="tok4188">a</token>
+      <token status="ok" id="tok4189">connection</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer250" raw_text="voltage is the difference in electrical states between two terminals, so a gap or a connection in a circuit can be determined by the voltage." id="FaultFinding-BURNED_BULB_LOCATE_EXPLAIN_Q.sbj11-l1.qa237" accuracy="correct">
+      <token status="ok" id="tok4203">voltage</token>
+      <token status="ok" id="tok4204">is</token>
+      <token status="ok" id="tok4205">the</token>
+      <token status="ok" id="tok4206">difference</token>
+      <token status="ok" id="tok4207">in</token>
+      <token status="ok" id="tok4208">electrical</token>
+      <token status="ok" id="tok4209">states</token>
+      <token status="ok" id="tok4210">between</token>
+      <token status="ok" id="tok4211">two</token>
+      <token status="ok" id="tok4212">terminals</token>
+      <token status="ok" id="tok4213">so</token>
+      <token status="ok" id="tok4214">a</token>
+      <token status="ok" id="tok4215">gap</token>
+      <token status="ok" id="tok4216">or</token>
+      <token status="ok" id="tok4217">a</token>
+      <token status="ok" id="tok4218">connection</token>
+      <token status="ok" id="tok4219">in</token>
+      <token status="ok" id="tok4220">a</token>
+      <token status="ok" id="tok4221">circuit</token>
+      <token status="ok" id="tok4222">can</token>
+      <token status="ok" id="tok4223">be</token>
+      <token status="ok" id="tok4224">determined</token>
+      <token status="ok" id="tok4225">by</token>
+      <token status="ok" id="tok4226">the</token>
+      <token status="ok" id="tok4227">voltage</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer250" raw_text="the electrical state between two terminals is the voltage. a gap shows voltage, while a connection results in no voltage." id="FaultFinding-BURNED_BULB_LOCATE_EXPLAIN_Q.sbj11-l1.qa238" accuracy="contradictory">
+      <token status="ok" id="tok4256">the</token>
+      <token status="ok" id="tok4257">electrical</token>
+      <token status="ok" id="tok4258">state</token>
+      <token status="ok" id="tok4259">between</token>
+      <token status="ok" id="tok4260">two</token>
+      <token status="ok" id="tok4261">terminals</token>
+      <token status="ok" id="tok4262">is</token>
+      <token status="ok" id="tok4263">the</token>
+      <token status="ok" id="tok4264">voltage</token>
+      <token status="ok" id="tok4265">a</token>
+      <token status="ok" id="tok4266">gap</token>
+      <token status="ok" id="tok4267">shows</token>
+      <token status="ok" id="tok4268">voltage</token>
+      <token status="ok" id="tok4269">while</token>
+      <token status="ok" id="tok4270">a</token>
+      <token status="ok" id="tok4271">connection</token>
+      <token status="ok" id="tok4272">results</token>
+      <token status="ok" id="tok4273">in</token>
+      <token status="ok" id="tok4274">no</token>
+      <token status="ok" id="tok4275">voltage</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer256" raw_text="a bulb connects the terminals, so there will be a difference in electrical state if there is a fault." id="FaultFinding-BURNED_BULB_LOCATE_EXPLAIN_Q.sbj11-l1.qa239" accuracy="correct">
+      <token status="ok" id="tok4303">a</token>
+      <token status="ok" id="tok4304">bulb</token>
+      <token status="ok" id="tok4305">connects</token>
+      <token status="ok" id="tok4306">the</token>
+      <token status="ok" id="tok4307">terminals</token>
+      <token status="ok" id="tok4308">so</token>
+      <token status="ok" id="tok4309">there</token>
+      <token status="ok" id="tok4310">will</token>
+      <token status="ok" id="tok4311">be</token>
+      <token status="ok" id="tok4312">a</token>
+      <token status="ok" id="tok4313">difference</token>
+      <token status="ok" id="tok4314">in</token>
+      <token status="ok" id="tok4315">electrical</token>
+      <token status="ok" id="tok4316">state</token>
+      <token status="ok" id="tok4317">if</token>
+      <token status="ok" id="tok4318">there</token>
+      <token status="ok" id="tok4319">is</token>
+      <token status="ok" id="tok4320">a</token>
+      <token status="ok" id="tok4321">fault</token>
+    </studentAnswer>
+    <studentAnswer count="2" answerMatch="answer251" raw_text="You can find where there is a gap" id="FaultFinding-BURNED_BULB_LOCATE_EXPLAIN_Q.sbj12-l1.qa210" accuracy="partially_correct_incomplete">
+      <token status="ok" id="tok4040">You</token>
+      <token status="ok" id="tok4041">can</token>
+      <token status="ok" id="tok4042">find</token>
+      <token status="ok" id="tok4043">where</token>
+      <token status="ok" id="tok4044">there</token>
+      <token status="ok" id="tok4045">is</token>
+      <token status="ok" id="tok4046">a</token>
+      <token status="ok" id="tok4047">gap</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer249" raw_text="Find where there are different electrical states" id="FaultFinding-BURNED_BULB_LOCATE_EXPLAIN_Q.sbj12-l1.qa211" accuracy="partially_correct_incomplete">
+      <token status="ok" id="tok4055">Find</token>
+      <token status="ok" id="tok4056">where</token>
+      <token status="ok" id="tok4057">there</token>
+      <token status="ok" id="tok4058">are</token>
+      <token status="ok" id="tok4059">different</token>
+      <token status="ok" id="tok4060">electrical</token>
+      <token status="ok" id="tok4061">states</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer249" raw_text="A gap chause different electrical states with different voltages" id="FaultFinding-BURNED_BULB_LOCATE_EXPLAIN_Q.sbj12-l1.qa212" accuracy="partially_correct_incomplete">
+      <token status="ok" id="tok4080">A</token>
+      <token status="ok" id="tok4081">gap</token>
+      <token status="ok" id="tok4082" original="chause">causes</token>
+      <token status="ok" id="tok4083">different</token>
+      <token status="ok" id="tok4084">electrical</token>
+      <token status="ok" id="tok4085">states</token>
+      <token status="ok" id="tok4086">with</token>
+      <token status="ok" id="tok4087">different</token>
+      <token status="ok" id="tok4088">voltages</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer251" raw_text="measuring voltage between the positive battery terminal and the bulb terminal determines the gap in the connection." id="FaultFinding-BURNED_BULB_LOCATE_EXPLAIN_Q.sbj13-l1.qa252" accuracy="contradictory">
+      <token status="ok" id="tok4945">measuring</token>
+      <token status="ok" id="tok4946">voltage</token>
+      <token status="ok" id="tok4947">between</token>
+      <token status="ok" id="tok4948">the</token>
+      <token status="ok" id="tok4949">positive</token>
+      <token status="ok" id="tok4950">battery</token>
+      <token status="ok" id="tok4951">terminal</token>
+      <token status="ok" id="tok4952">and</token>
+      <token status="ok" id="tok4953">the</token>
+      <token status="ok" id="tok4954">bulb</token>
+      <token status="ok" id="tok4955">terminal</token>
+      <token status="ok" id="tok4956">determines</token>
+      <token status="ok" id="tok4957">the</token>
+      <token status="ok" id="tok4958">gap</token>
+      <token status="ok" id="tok4959">in</token>
+      <token status="ok" id="tok4960">the</token>
+      <token status="ok" id="tok4961">connection</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="there will be a gap between the positive battery terminal and the bulb terminal" id="FaultFinding-BURNED_BULB_LOCATE_EXPLAIN_Q.sbj13-l1.qa253" accuracy="contradictory">
+      <token status="ok" id="tok4972">there</token>
+      <token status="ok" id="tok4973">will</token>
+      <token status="ok" id="tok4974">be</token>
+      <token status="ok" id="tok4975">a</token>
+      <token status="ok" id="tok4976">gap</token>
+      <token status="ok" id="tok4977">between</token>
+      <token status="ok" id="tok4978">the</token>
+      <token status="ok" id="tok4979">positive</token>
+      <token status="ok" id="tok4980">battery</token>
+      <token status="ok" id="tok4981">terminal</token>
+      <token status="ok" id="tok4982">and</token>
+      <token status="ok" id="tok4983">the</token>
+      <token status="ok" id="tok4984">bulb</token>
+      <token status="ok" id="tok4985">terminal</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer251" raw_text="Because if there is a gap you will be able to determine where the burned out bulb is located." id="FaultFinding-BURNED_BULB_LOCATE_EXPLAIN_Q.sbj14-l1.qa237" accuracy="partially_correct_incomplete">
+      <token status="ok" id="tok4228">Because</token>
+      <token status="ok" id="tok4229">if</token>
+      <token status="ok" id="tok4230">there</token>
+      <token status="ok" id="tok4231">is</token>
+      <token status="ok" id="tok4232">a</token>
+      <token status="ok" id="tok4233">gap</token>
+      <token status="ok" id="tok4234">you</token>
+      <token status="ok" id="tok4235">will</token>
+      <token status="ok" id="tok4236">be</token>
+      <token status="ok" id="tok4237">able</token>
+      <token status="ok" id="tok4238">to</token>
+      <token status="ok" id="tok4239">determine</token>
+      <token status="ok" id="tok4240">where</token>
+      <token status="ok" id="tok4241">the</token>
+      <token status="ok" id="tok4242">burned</token>
+      <token status="ok" id="tok4243">out</token>
+      <token status="ok" id="tok4244">bulb</token>
+      <token status="ok" id="tok4245">is</token>
+      <token status="ok" id="tok4246">located</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="because it measures the difference in electrical states between two gaps" id="FaultFinding-BURNED_BULB_LOCATE_EXPLAIN_Q.sbj15-l1.qa260" accuracy="contradictory">
+      <token status="ok" id="tok5056">because</token>
+      <token status="ok" id="tok5057">it</token>
+      <token status="ok" id="tok5058">measures</token>
+      <token status="ok" id="tok5059">the</token>
+      <token status="ok" id="tok5060">difference</token>
+      <token status="ok" id="tok5061">in</token>
+      <token status="ok" id="tok5062">electrical</token>
+      <token status="ok" id="tok5063">states</token>
+      <token status="ok" id="tok5064">between</token>
+      <token status="ok" id="tok5065">two</token>
+      <token status="ok" id="tok5066">gaps</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="i have no idea" id="FaultFinding-BURNED_BULB_LOCATE_EXPLAIN_Q.sbj15-l1.qa261" accuracy="non_domain">
+      <token status="ok" id="tok5087">i</token>
+      <token status="ok" id="tok5088">have</token>
+      <token status="ok" id="tok5089">no</token>
+      <token status="ok" id="tok5090">idea</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="an electircl aasoidrjf" id="FaultFinding-BURNED_BULB_LOCATE_EXPLAIN_Q.sbj15-l1.qa262" accuracy="non_domain">
+      <token status="ok" id="tok5102">an</token>
+      <token status="ok" id="tok5103" original="electircl">electrical</token>
+      <token status="nonWord" id="tok5104">aasoidrjf</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="a bulb causes a difference in electrical state" id="FaultFinding-BURNED_BULB_LOCATE_EXPLAIN_Q.sbj15-l1.qa263" accuracy="contradictory">
+      <token status="ok" id="tok5121">a</token>
+      <token status="ok" id="tok5122">bulb</token>
+      <token status="ok" id="tok5123">causes</token>
+      <token status="ok" id="tok5124">a</token>
+      <token status="ok" id="tok5125">difference</token>
+      <token status="ok" id="tok5126">in</token>
+      <token status="ok" id="tok5127">electrical</token>
+      <token status="ok" id="tok5128">state</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer249" raw_text="The gap will cause there to be a difference in electrical states." id="FaultFinding-BURNED_BULB_LOCATE_EXPLAIN_Q.sbj18-l1.qa206" accuracy="correct">
+      <token status="ok" id="tok3779">The</token>
+      <token status="ok" id="tok3780">gap</token>
+      <token status="ok" id="tok3781">will</token>
+      <token status="ok" id="tok3782">cause</token>
+      <token status="ok" id="tok3783">there</token>
+      <token status="ok" id="tok3784">to</token>
+      <token status="ok" id="tok3785">be</token>
+      <token status="ok" id="tok3786">a</token>
+      <token status="ok" id="tok3787">difference</token>
+      <token status="ok" id="tok3788">in</token>
+      <token status="ok" id="tok3789">electrical</token>
+      <token status="ok" id="tok3790">states</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer249" raw_text="The gap in the connection causes different electrical states." id="FaultFinding-BURNED_BULB_LOCATE_EXPLAIN_Q.sbj18-l1.qa207" accuracy="correct">
+      <token status="ok" id="tok3799">The</token>
+      <token status="ok" id="tok3800">gap</token>
+      <token status="ok" id="tok3801">in</token>
+      <token status="ok" id="tok3802">the</token>
+      <token status="ok" id="tok3803">connection</token>
+      <token status="ok" id="tok3804">causes</token>
+      <token status="ok" id="tok3805">different</token>
+      <token status="ok" id="tok3806">electrical</token>
+      <token status="ok" id="tok3807">states</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer249" raw_text="because you can find the difference in the voltage by measuring the gap" id="FaultFinding-BURNED_BULB_LOCATE_EXPLAIN_Q.sbj19-l1.qa283" accuracy="partially_correct_incomplete">
+      <token status="ok" id="tok5538">because</token>
+      <token status="ok" id="tok5539">you</token>
+      <token status="ok" id="tok5540">can</token>
+      <token status="ok" id="tok5541">find</token>
+      <token status="ok" id="tok5542">the</token>
+      <token status="ok" id="tok5543">difference</token>
+      <token status="ok" id="tok5544">in</token>
+      <token status="ok" id="tok5545">the</token>
+      <token status="ok" id="tok5546">voltage</token>
+      <token status="ok" id="tok5547">by</token>
+      <token status="ok" id="tok5548">measuring</token>
+      <token status="ok" id="tok5549">the</token>
+      <token status="ok" id="tok5550">gap</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="1.50v" id="FaultFinding-BURNED_BULB_LOCATE_EXPLAIN_Q.sbj19-l1.qa285" accuracy="contradictory">
+      <token status="numerical" id="tok5569">1.50</token>
+      <token status="numerical" id="tok5570">v</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer249" raw_text="you can see where the gap is" id="FaultFinding-BURNED_BULB_LOCATE_EXPLAIN_Q.sbj22-l1.qa243" accuracy="partially_correct_incomplete">
+      <token status="ok" id="tok4753">you</token>
+      <token status="ok" id="tok4754">can</token>
+      <token status="ok" id="tok4755">see</token>
+      <token status="ok" id="tok4756">where</token>
+      <token status="ok" id="tok4757">the</token>
+      <token status="ok" id="tok4758">gap</token>
+      <token status="ok" id="tok4759">is</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer249" raw_text="the electrical state can locate the gap" id="FaultFinding-BURNED_BULB_LOCATE_EXPLAIN_Q.sbj22-l1.qa244" accuracy="partially_correct_incomplete">
+      <token status="ok" id="tok4771">the</token>
+      <token status="ok" id="tok4772">electrical</token>
+      <token status="ok" id="tok4773">state</token>
+      <token status="ok" id="tok4774">can</token>
+      <token status="ok" id="tok4775">locate</token>
+      <token status="ok" id="tok4776">the</token>
+      <token status="ok" id="tok4777">gap</token>
+    </studentAnswer>
+    <studentAnswer count="2" raw_text="l" id="FaultFinding-BURNED_BULB_LOCATE_EXPLAIN_Q.sbj22-l1.qa245" accuracy="non_domain">
+      <token status="nonWord" id="tok4790">l</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer249" raw_text="Where there is a difference in electrical state, that is where the gap in the connection is." id="FaultFinding-BURNED_BULB_LOCATE_EXPLAIN_Q.sbj23-l1.qa210" accuracy="correct">
+      <token status="ok" id="tok3884">Where</token>
+      <token status="ok" id="tok3885">there</token>
+      <token status="ok" id="tok3886">is</token>
+      <token status="ok" id="tok3887">a</token>
+      <token status="ok" id="tok3888">difference</token>
+      <token status="ok" id="tok3889">in</token>
+      <token status="ok" id="tok3890">electrical</token>
+      <token status="ok" id="tok3891">state</token>
+      <token status="ok" id="tok3892">that</token>
+      <token status="ok" id="tok3893">is</token>
+      <token status="ok" id="tok3894">where</token>
+      <token status="ok" id="tok3895">the</token>
+      <token status="ok" id="tok3896">gap</token>
+      <token status="ok" id="tok3897">in</token>
+      <token status="ok" id="tok3898">the</token>
+      <token status="ok" id="tok3899">connection</token>
+      <token status="ok" id="tok3900">is</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer249" raw_text="The electrical state difference tells you where the gap is." id="FaultFinding-BURNED_BULB_LOCATE_EXPLAIN_Q.sbj23-l1.qa212" accuracy="correct">
+      <token status="ok" id="tok3959">The</token>
+      <token status="ok" id="tok3960">electrical</token>
+      <token status="ok" id="tok3961">state</token>
+      <token status="ok" id="tok3962">difference</token>
+      <token status="ok" id="tok3963">tells</token>
+      <token status="ok" id="tok3964">you</token>
+      <token status="ok" id="tok3965">where</token>
+      <token status="ok" id="tok3966">the</token>
+      <token status="ok" id="tok3967">gap</token>
+      <token status="ok" id="tok3968">is</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer248" raw_text="it helps you locate where the damanged bulb is by telling you where there is a difference in electrical states and where there isn&quot;t" id="FaultFinding-BURNED_BULB_LOCATE_EXPLAIN_Q.sbj24-l1.qa259" accuracy="correct">
+      <token status="ok" id="tok5385">it</token>
+      <token status="ok" id="tok5386">helps</token>
+      <token status="ok" id="tok5387">you</token>
+      <token status="ok" id="tok5388">locate</token>
+      <token status="ok" id="tok5389">where</token>
+      <token status="ok" id="tok5390">the</token>
+      <token status="ok" id="tok5391" original="damanged">damaged</token>
+      <token status="ok" id="tok5392">bulb</token>
+      <token status="ok" id="tok5393">is</token>
+      <token status="ok" id="tok5394">by</token>
+      <token status="ok" id="tok5395">telling</token>
+      <token status="ok" id="tok5396">you</token>
+      <token status="ok" id="tok5397">where</token>
+      <token status="ok" id="tok5398">there</token>
+      <token status="ok" id="tok5399">is</token>
+      <token status="ok" id="tok5400">a</token>
+      <token status="ok" id="tok5401">difference</token>
+      <token status="ok" id="tok5402">in</token>
+      <token status="ok" id="tok5403">electrical</token>
+      <token status="ok" id="tok5404">states</token>
+      <token status="ok" id="tok5405">and</token>
+      <token status="ok" id="tok5406">where</token>
+      <token status="ok" id="tok5407">there</token>
+      <token status="ok" id="tok5408">is</token>
+      <token status="pennTokenFragment" id="tok5409">n't</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="a battery uses a chemical reaction to maintain different electrical states between two terminals" id="FaultFinding-BURNED_BULB_LOCATE_EXPLAIN_Q.sbj24-l1.qa260" accuracy="irrelevant">
+      <token status="ok" id="tok5430">a</token>
+      <token status="ok" id="tok5431">battery</token>
+      <token status="ok" id="tok5432">uses</token>
+      <token status="ok" id="tok5433">a</token>
+      <token status="ok" id="tok5434">chemical</token>
+      <token status="ok" id="tok5435">reaction</token>
+      <token status="ok" id="tok5436">to</token>
+      <token status="ok" id="tok5437">maintain</token>
+      <token status="ok" id="tok5438">different</token>
+      <token status="ok" id="tok5439">electrical</token>
+      <token status="ok" id="tok5440">states</token>
+      <token status="ok" id="tok5441">between</token>
+      <token status="ok" id="tok5442">two</token>
+      <token status="ok" id="tok5443">terminals</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="which i mentioned" id="FaultFinding-BURNED_BULB_LOCATE_EXPLAIN_Q.sbj24-l1.qa261" accuracy="non_domain">
+      <token status="ok" id="tok5474">which</token>
+      <token status="ok" id="tok5475">i</token>
+      <token status="ok" id="tok5476">mentioned</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer248" raw_text="a electrical state difference?" id="FaultFinding-BURNED_BULB_LOCATE_EXPLAIN_Q.sbj24-l1.qa262" accuracy="partially_correct_incomplete">
+      <token status="ok" id="tok5492">a</token>
+      <token status="ok" id="tok5493">electrical</token>
+      <token status="ok" id="tok5494">state</token>
+      <token status="ok" id="tok5495">difference</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="power" id="FaultFinding-BURNED_BULB_LOCATE_EXPLAIN_Q.sbj26-l1.qa261" accuracy="contradictory">
+      <token status="ok" id="tok4872">power</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer249" raw_text="elictrical state of batter and terminal" id="FaultFinding-BURNED_BULB_LOCATE_EXPLAIN_Q.sbj26-l1.qa262" accuracy="contradictory">
+      <token status="ok" id="tok4897" original="elictrical">electrical</token>
+      <token status="ok" id="tok4898">state</token>
+      <token status="ok" id="tok4899">of</token>
+      <token status="ok" id="tok4900" original="batter">battery</token>
+      <token status="ok" id="tok4901">and</token>
+      <token status="ok" id="tok4902">terminal</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer249" raw_text="because if there is a voltage that means there is a gap" id="FaultFinding-BURNED_BULB_LOCATE_EXPLAIN_Q.sbj27-l1.qa238" accuracy="partially_correct_incomplete">
+      <token status="ok" id="tok4572">because</token>
+      <token status="ok" id="tok4573">if</token>
+      <token status="ok" id="tok4574">there</token>
+      <token status="ok" id="tok4575">is</token>
+      <token status="ok" id="tok4576">a</token>
+      <token status="ok" id="tok4577">voltage</token>
+      <token status="ok" id="tok4578">that</token>
+      <token status="ok" id="tok4579">means</token>
+      <token status="ok" id="tok4580">there</token>
+      <token status="ok" id="tok4581">is</token>
+      <token status="ok" id="tok4582">a</token>
+      <token status="ok" id="tok4583">gap</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer249" raw_text="the value of the measurement indicates if there is a gap" id="FaultFinding-BURNED_BULB_LOCATE_EXPLAIN_Q.sbj27-l1.qa240" accuracy="correct">
+      <token status="ok" id="tok4625">the</token>
+      <token status="ok" id="tok4626">value</token>
+      <token status="ok" id="tok4627">of</token>
+      <token status="ok" id="tok4628">the</token>
+      <token status="ok" id="tok4629">measurement</token>
+      <token status="ok" id="tok4630">indicates</token>
+      <token status="ok" id="tok4631">if</token>
+      <token status="ok" id="tok4632">there</token>
+      <token status="ok" id="tok4633">is</token>
+      <token status="ok" id="tok4634">a</token>
+      <token status="ok" id="tok4635">gap</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer249" raw_text="there is a gap in the connection" id="FaultFinding-BURNED_BULB_LOCATE_EXPLAIN_Q.sbj28-l1.qa238" accuracy="partially_correct_incomplete">
+      <token status="ok" id="tok4371">there</token>
+      <token status="ok" id="tok4372">is</token>
+      <token status="ok" id="tok4373">a</token>
+      <token status="ok" id="tok4374">gap</token>
+      <token status="ok" id="tok4375">in</token>
+      <token status="ok" id="tok4376">the</token>
+      <token status="ok" id="tok4377">connection</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer253" raw_text="a gap causes a lost connection" id="FaultFinding-BURNED_BULB_LOCATE_EXPLAIN_Q.sbj28-l1.qa239" accuracy="partially_correct_incomplete">
+      <token status="ok" id="tok4392">a</token>
+      <token status="ok" id="tok4393">gap</token>
+      <token status="ok" id="tok4394">causes</token>
+      <token status="ok" id="tok4395">a</token>
+      <token status="ok" id="tok4396">lost</token>
+      <token status="ok" id="tok4397">connection</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="because no difference in the electrical states of two terminals in a connection is where the gap is." id="FaultFinding-BURNED_BULB_LOCATE_EXPLAIN_Q.sbj29-l1.qa229" accuracy="contradictory">
+      <token status="ok" id="tok4078">because</token>
+      <token status="ok" id="tok4079">no</token>
+      <token status="ok" id="tok4080">difference</token>
+      <token status="ok" id="tok4081">in</token>
+      <token status="ok" id="tok4082">the</token>
+      <token status="ok" id="tok4083">electrical</token>
+      <token status="ok" id="tok4084">states</token>
+      <token status="ok" id="tok4085">of</token>
+      <token status="ok" id="tok4086">two</token>
+      <token status="ok" id="tok4087">terminals</token>
+      <token status="ok" id="tok4088">in</token>
+      <token status="ok" id="tok4089">a</token>
+      <token status="ok" id="tok4090">connection</token>
+      <token status="ok" id="tok4091">is</token>
+      <token status="ok" id="tok4092">where</token>
+      <token status="ok" id="tok4093">the</token>
+      <token status="ok" id="tok4094">gap</token>
+      <token status="ok" id="tok4095">is</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer249" raw_text="because by measuring voltage, you find the gap where there&quot;s a difference in electrical states." id="FaultFinding-BURNED_BULB_LOCATE_EXPLAIN_Q.sbj29-l1.qa230" accuracy="correct">
+      <token status="ok" id="tok4116">because</token>
+      <token status="ok" id="tok4117">by</token>
+      <token status="ok" id="tok4118">measuring</token>
+      <token status="ok" id="tok4119">voltage</token>
+      <token status="ok" id="tok4120">you</token>
+      <token status="ok" id="tok4121">find</token>
+      <token status="ok" id="tok4122">the</token>
+      <token status="ok" id="tok4123">gap</token>
+      <token status="ok" id="tok4124">where</token>
+      <token status="ok" id="tok4125">there</token>
+      <token status="pennTokenFragment" id="tok4126">'s</token>
+      <token status="ok" id="tok4127">a</token>
+      <token status="ok" id="tok4128">difference</token>
+      <token status="ok" id="tok4129">in</token>
+      <token status="ok" id="tok4130">electrical</token>
+      <token status="ok" id="tok4131">states</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer249" raw_text="because a difference in electrical states shows where the gap is" id="FaultFinding-BURNED_BULB_LOCATE_EXPLAIN_Q.sbj29-l1.qa231" accuracy="correct">
+      <token status="ok" id="tok4160">because</token>
+      <token status="ok" id="tok4161">a</token>
+      <token status="ok" id="tok4162">difference</token>
+      <token status="ok" id="tok4163">in</token>
+      <token status="ok" id="tok4164">electrical</token>
+      <token status="ok" id="tok4165">states</token>
+      <token status="ok" id="tok4166">shows</token>
+      <token status="ok" id="tok4167">where</token>
+      <token status="ok" id="tok4168">the</token>
+      <token status="ok" id="tok4169">gap</token>
+      <token status="ok" id="tok4170">is</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer255" raw_text="You can locate the gap because there is a difference in electrical states between the connections" id="FaultFinding-BURNED_BULB_LOCATE_EXPLAIN_Q.sbj30-l1.qa224" accuracy="correct">
+      <token status="ok" id="tok4408">You</token>
+      <token status="ok" id="tok4409">can</token>
+      <token status="ok" id="tok4410">locate</token>
+      <token status="ok" id="tok4411">the</token>
+      <token status="ok" id="tok4412">gap</token>
+      <token status="ok" id="tok4413">because</token>
+      <token status="ok" id="tok4414">there</token>
+      <token status="ok" id="tok4415">is</token>
+      <token status="ok" id="tok4416">a</token>
+      <token status="ok" id="tok4417">difference</token>
+      <token status="ok" id="tok4418">in</token>
+      <token status="ok" id="tok4419">electrical</token>
+      <token status="ok" id="tok4420">states</token>
+      <token status="ok" id="tok4421">between</token>
+      <token status="ok" id="tok4422">the</token>
+      <token status="ok" id="tok4423">connections</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer255" raw_text="If there is a difference in voltage it means that is where the gap is" id="FaultFinding-BURNED_BULB_LOCATE_EXPLAIN_Q.sbj30-l1.qa225" accuracy="correct">
+      <token status="ok" id="tok4444">If</token>
+      <token status="ok" id="tok4445">there</token>
+      <token status="ok" id="tok4446">is</token>
+      <token status="ok" id="tok4447">a</token>
+      <token status="ok" id="tok4448">difference</token>
+      <token status="ok" id="tok4449">in</token>
+      <token status="ok" id="tok4450">voltage</token>
+      <token status="ok" id="tok4451">it</token>
+      <token status="ok" id="tok4452">means</token>
+      <token status="ok" id="tok4453">that</token>
+      <token status="ok" id="tok4454">is</token>
+      <token status="ok" id="tok4455">where</token>
+      <token status="ok" id="tok4456">the</token>
+      <token status="ok" id="tok4457">gap</token>
+      <token status="ok" id="tok4458">is</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer248" raw_text="we can find the burnt out bulb by finding voltage between different terminals" id="FaultFinding-BURNED_BULB_LOCATE_EXPLAIN_Q.sbj31-l1.qa231" accuracy="partially_correct_incomplete">
+      <token status="ok" id="tok4166">we</token>
+      <token status="ok" id="tok4167">can</token>
+      <token status="ok" id="tok4168">find</token>
+      <token status="ok" id="tok4169">the</token>
+      <token status="ok" id="tok4170">burnt</token>
+      <token status="ok" id="tok4171">out</token>
+      <token status="ok" id="tok4172">bulb</token>
+      <token status="ok" id="tok4173">by</token>
+      <token status="ok" id="tok4174">finding</token>
+      <token status="ok" id="tok4175">voltage</token>
+      <token status="ok" id="tok4176">between</token>
+      <token status="ok" id="tok4177">different</token>
+      <token status="ok" id="tok4178">terminals</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer249" raw_text="the electrical state will be different in the gap" id="FaultFinding-BURNED_BULB_LOCATE_EXPLAIN_Q.sbj31-l1.qa232" accuracy="partially_correct_incomplete">
+      <token status="ok" id="tok4189">the</token>
+      <token status="ok" id="tok4190">electrical</token>
+      <token status="ok" id="tok4191">state</token>
+      <token status="ok" id="tok4192">will</token>
+      <token status="ok" id="tok4193">be</token>
+      <token status="ok" id="tok4194">different</token>
+      <token status="ok" id="tok4195">in</token>
+      <token status="ok" id="tok4196">the</token>
+      <token status="ok" id="tok4197">gap</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer248" raw_text="the difference electrical state will show the burnt bulb" id="FaultFinding-BURNED_BULB_LOCATE_EXPLAIN_Q.sbj31-l1.qa233" accuracy="partially_correct_incomplete">
+      <token status="ok" id="tok4209">the</token>
+      <token status="ok" id="tok4210">difference</token>
+      <token status="ok" id="tok4211">electrical</token>
+      <token status="ok" id="tok4212">state</token>
+      <token status="ok" id="tok4213">will</token>
+      <token status="ok" id="tok4214">show</token>
+      <token status="ok" id="tok4215">the</token>
+      <token status="ok" id="tok4216">burnt</token>
+      <token status="ok" id="tok4217">bulb</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="tell answer" id="FaultFinding-BURNED_BULB_LOCATE_EXPLAIN_Q.sbj33-l1.qa223" accuracy="non_domain">
+      <token status="ok" id="tok4178">tell</token>
+      <token status="ok" id="tok4179">answer</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer249" raw_text="It shows the difference in electrical states where there are connections and gaps" id="FaultFinding-BURNED_BULB_LOCATE_EXPLAIN_Q.sbj34-l1.qa214" accuracy="correct">
+      <token status="ok" id="tok3807">It</token>
+      <token status="ok" id="tok3808">shows</token>
+      <token status="ok" id="tok3809">the</token>
+      <token status="ok" id="tok3810">difference</token>
+      <token status="ok" id="tok3811">in</token>
+      <token status="ok" id="tok3812">electrical</token>
+      <token status="ok" id="tok3813">states</token>
+      <token status="ok" id="tok3814">where</token>
+      <token status="ok" id="tok3815">there</token>
+      <token status="ok" id="tok3816">are</token>
+      <token status="ok" id="tok3817">connections</token>
+      <token status="ok" id="tok3818">and</token>
+      <token status="ok" id="tok3819">gaps</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer249" raw_text="The electrical states will be different when there is a gap" id="FaultFinding-BURNED_BULB_LOCATE_EXPLAIN_Q.sbj34-l1.qa215" accuracy="correct">
+      <token status="ok" id="tok3840">The</token>
+      <token status="ok" id="tok3841">electrical</token>
+      <token status="ok" id="tok3842">states</token>
+      <token status="ok" id="tok3843">will</token>
+      <token status="ok" id="tok3844">be</token>
+      <token status="ok" id="tok3845">different</token>
+      <token status="ok" id="tok3846">when</token>
+      <token status="ok" id="tok3847">there</token>
+      <token status="ok" id="tok3848">is</token>
+      <token status="ok" id="tok3849">a</token>
+      <token status="ok" id="tok3850">gap</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer253" raw_text="The electrical state will be non-zero" id="FaultFinding-BURNED_BULB_LOCATE_EXPLAIN_Q.sbj34-l1.qa217" accuracy="partially_correct_incomplete">
+      <token status="ok" id="tok3890">The</token>
+      <token status="ok" id="tok3891">electrical</token>
+      <token status="ok" id="tok3892">state</token>
+      <token status="ok" id="tok3893">will</token>
+      <token status="ok" id="tok3894">be</token>
+      <token status="ok" id="tok3895">non-zero</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer251" raw_text="It allows you to measure if there is gap. Gaps indicate a break in the electrical flow." id="FaultFinding-BURNED_BULB_LOCATE_EXPLAIN_Q.sbj35-l1.qa237" accuracy="correct">
+      <token status="ok" id="tok4560">It</token>
+      <token status="ok" id="tok4561">allows</token>
+      <token status="ok" id="tok4562">you</token>
+      <token status="ok" id="tok4563">to</token>
+      <token status="ok" id="tok4564">measure</token>
+      <token status="ok" id="tok4565">if</token>
+      <token status="ok" id="tok4566">there</token>
+      <token status="ok" id="tok4567">is</token>
+      <token status="ok" id="tok4568">gap</token>
+      <token status="ok" id="tok4569">Gaps</token>
+      <token status="ok" id="tok4570">indicate</token>
+      <token status="ok" id="tok4571">a</token>
+      <token status="ok" id="tok4572">break</token>
+      <token status="ok" id="tok4573">in</token>
+      <token status="ok" id="tok4574">the</token>
+      <token status="ok" id="tok4575">electrical</token>
+      <token status="ok" id="tok4576">flow</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer251" raw_text="It allows you to measure if there is damaged gap." id="FaultFinding-BURNED_BULB_LOCATE_EXPLAIN_Q.sbj35-l1.qa238" accuracy="correct">
+      <token status="ok" id="tok4590">It</token>
+      <token status="ok" id="tok4591">allows</token>
+      <token status="ok" id="tok4592">you</token>
+      <token status="ok" id="tok4593">to</token>
+      <token status="ok" id="tok4594">measure</token>
+      <token status="ok" id="tok4595">if</token>
+      <token status="ok" id="tok4596">there</token>
+      <token status="ok" id="tok4597">is</token>
+      <token status="ok" id="tok4598">damaged</token>
+      <token status="ok" id="tok4599">gap</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="The electrical state is interferred with." id="FaultFinding-BURNED_BULB_LOCATE_EXPLAIN_Q.sbj35-l1.qa239" accuracy="contradictory">
+      <token status="ok" id="tok4640">The</token>
+      <token status="ok" id="tok4641">electrical</token>
+      <token status="ok" id="tok4642">state</token>
+      <token status="ok" id="tok4643">is</token>
+      <token status="ok" id="tok4644" original="interferred">interfered</token>
+      <token status="ok" id="tok4645">with</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="The electrical state is broken." id="FaultFinding-BURNED_BULB_LOCATE_EXPLAIN_Q.sbj35-l1.qa240" accuracy="contradictory">
+      <token status="ok" id="tok4660">The</token>
+      <token status="ok" id="tok4661">electrical</token>
+      <token status="ok" id="tok4662">state</token>
+      <token status="ok" id="tok4663">is</token>
+      <token status="ok" id="tok4664">broken</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer251" raw_text="voltage shows where the gap is" id="FaultFinding-BURNED_BULB_LOCATE_EXPLAIN_Q.sbj36-l1.qa242" accuracy="partially_correct_incomplete">
+      <token status="ok" id="tok4703">voltage</token>
+      <token status="ok" id="tok4704">shows</token>
+      <token status="ok" id="tok4705">where</token>
+      <token status="ok" id="tok4706">the</token>
+      <token status="ok" id="tok4707">gap</token>
+      <token status="ok" id="tok4708">is</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="a gap causes a chemical reaction" id="FaultFinding-BURNED_BULB_LOCATE_EXPLAIN_Q.sbj36-l1.qa244" accuracy="contradictory">
+      <token status="ok" id="tok4740">a</token>
+      <token status="ok" id="tok4741">gap</token>
+      <token status="ok" id="tok4742">causes</token>
+      <token status="ok" id="tok4743">a</token>
+      <token status="ok" id="tok4744">chemical</token>
+      <token status="ok" id="tok4745">reaction</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer251" raw_text="because it can show you where the gap is by measuring different terminals" id="FaultFinding-BURNED_BULB_LOCATE_EXPLAIN_Q.sbj37-l1.qa211" accuracy="correct">
+      <token status="ok" id="tok3931">because</token>
+      <token status="ok" id="tok3932">it</token>
+      <token status="ok" id="tok3933">can</token>
+      <token status="ok" id="tok3934">show</token>
+      <token status="ok" id="tok3935">you</token>
+      <token status="ok" id="tok3936">where</token>
+      <token status="ok" id="tok3937">the</token>
+      <token status="ok" id="tok3938">gap</token>
+      <token status="ok" id="tok3939">is</token>
+      <token status="ok" id="tok3940">by</token>
+      <token status="ok" id="tok3941">measuring</token>
+      <token status="ok" id="tok3942">different</token>
+      <token status="ok" id="tok3943">terminals</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer251" raw_text="by measuring you can find the gap which will show you which bulb is burned out" id="FaultFinding-BURNED_BULB_LOCATE_EXPLAIN_Q.sbj37-l1.qa212" accuracy="correct">
+      <token status="ok" id="tok3951">by</token>
+      <token status="ok" id="tok3952">measuring</token>
+      <token status="ok" id="tok3953">you</token>
+      <token status="ok" id="tok3954">can</token>
+      <token status="ok" id="tok3955">find</token>
+      <token status="ok" id="tok3956">the</token>
+      <token status="ok" id="tok3957">gap</token>
+      <token status="ok" id="tok3958">which</token>
+      <token status="ok" id="tok3959">will</token>
+      <token status="ok" id="tok3960">show</token>
+      <token status="ok" id="tok3961">you</token>
+      <token status="ok" id="tok3962">which</token>
+      <token status="ok" id="tok3963">bulb</token>
+      <token status="ok" id="tok3964">is</token>
+      <token status="ok" id="tok3965">burned</token>
+      <token status="ok" id="tok3966">out</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer251" raw_text="by seeing if a terminal has a different electrical state than another you can find the gap in the circuit" id="FaultFinding-BURNED_BULB_LOCATE_EXPLAIN_Q.sbj37-l1.qa213" accuracy="correct">
+      <token status="ok" id="tok3995">by</token>
+      <token status="ok" id="tok3996">seeing</token>
+      <token status="ok" id="tok3997">if</token>
+      <token status="ok" id="tok3998">a</token>
+      <token status="ok" id="tok3999">terminal</token>
+      <token status="ok" id="tok4000">has</token>
+      <token status="ok" id="tok4001">a</token>
+      <token status="ok" id="tok4002">different</token>
+      <token status="ok" id="tok4003">electrical</token>
+      <token status="ok" id="tok4004">state</token>
+      <token status="ok" id="tok4005">than</token>
+      <token status="ok" id="tok4006">another</token>
+      <token status="ok" id="tok4007">you</token>
+      <token status="ok" id="tok4008">can</token>
+      <token status="ok" id="tok4009">find</token>
+      <token status="ok" id="tok4010">the</token>
+      <token status="ok" id="tok4011">gap</token>
+      <token status="ok" id="tok4012">in</token>
+      <token status="ok" id="tok4013">the</token>
+      <token status="ok" id="tok4014">circuit</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer257" raw_text="if the electrical state is non-zero you can find the gap in the circuit" id="FaultFinding-BURNED_BULB_LOCATE_EXPLAIN_Q.sbj37-l1.qa214" accuracy="partially_correct_incomplete">
+      <token status="ok" id="tok4029">if</token>
+      <token status="ok" id="tok4030">the</token>
+      <token status="ok" id="tok4031">electrical</token>
+      <token status="ok" id="tok4032">state</token>
+      <token status="ok" id="tok4033">is</token>
+      <token status="ok" id="tok4034">non-zero</token>
+      <token status="ok" id="tok4035">you</token>
+      <token status="ok" id="tok4036">can</token>
+      <token status="ok" id="tok4037">find</token>
+      <token status="ok" id="tok4038">the</token>
+      <token status="ok" id="tok4039">gap</token>
+      <token status="ok" id="tok4040">in</token>
+      <token status="ok" id="tok4041">the</token>
+      <token status="ok" id="tok4042">circuit</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer249" raw_text="The difference in electrical states between terminals will show where there is a gap in the curcuit." id="FaultFinding-BURNED_BULB_LOCATE_EXPLAIN_Q.sbj38-l1.qa215" accuracy="correct">
+      <token status="ok" id="tok4229">The</token>
+      <token status="ok" id="tok4230">difference</token>
+      <token status="ok" id="tok4231">in</token>
+      <token status="ok" id="tok4232">electrical</token>
+      <token status="ok" id="tok4233">states</token>
+      <token status="ok" id="tok4234">between</token>
+      <token status="ok" id="tok4235">terminals</token>
+      <token status="ok" id="tok4236">will</token>
+      <token status="ok" id="tok4237">show</token>
+      <token status="ok" id="tok4238">where</token>
+      <token status="ok" id="tok4239">there</token>
+      <token status="ok" id="tok4240">is</token>
+      <token status="ok" id="tok4241">a</token>
+      <token status="ok" id="tok4242">gap</token>
+      <token status="ok" id="tok4243">in</token>
+      <token status="ok" id="tok4244">the</token>
+      <token status="ok" id="tok4245" original="curcuit">circuit</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer249" raw_text="each terminal has an electrical state and when there is a gap the electrical state changes which shows which bulb is damaged." id="FaultFinding-BURNED_BULB_LOCATE_EXPLAIN_Q.sbj38-l1.qa216" accuracy="correct">
+      <token status="ok" id="tok4261">each</token>
+      <token status="ok" id="tok4262">terminal</token>
+      <token status="ok" id="tok4263">has</token>
+      <token status="ok" id="tok4264">an</token>
+      <token status="ok" id="tok4265">electrical</token>
+      <token status="ok" id="tok4266">state</token>
+      <token status="ok" id="tok4267">and</token>
+      <token status="ok" id="tok4268">when</token>
+      <token status="ok" id="tok4269">there</token>
+      <token status="ok" id="tok4270">is</token>
+      <token status="ok" id="tok4271">a</token>
+      <token status="ok" id="tok4272">gap</token>
+      <token status="ok" id="tok4273">the</token>
+      <token status="ok" id="tok4274">electrical</token>
+      <token status="ok" id="tok4275">state</token>
+      <token status="ok" id="tok4276">changes</token>
+      <token status="ok" id="tok4277">which</token>
+      <token status="ok" id="tok4278">shows</token>
+      <token status="ok" id="tok4279">which</token>
+      <token status="ok" id="tok4280">bulb</token>
+      <token status="ok" id="tok4281">is</token>
+      <token status="ok" id="tok4282">damaged</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer260" raw_text="if there is a voltage reading of non-zero it means that there is a change in the electrical states in the terminals." id="FaultFinding-BURNED_BULB_LOCATE_EXPLAIN_Q.sbj38-l1.qa217" accuracy="correct">
+      <token status="ok" id="tok4307">if</token>
+      <token status="ok" id="tok4308">there</token>
+      <token status="ok" id="tok4309">is</token>
+      <token status="ok" id="tok4310">a</token>
+      <token status="ok" id="tok4311">voltage</token>
+      <token status="ok" id="tok4312">reading</token>
+      <token status="ok" id="tok4313">of</token>
+      <token status="ok" id="tok4314">non-zero</token>
+      <token status="ok" id="tok4315">it</token>
+      <token status="ok" id="tok4316">means</token>
+      <token status="ok" id="tok4317">that</token>
+      <token status="ok" id="tok4318">there</token>
+      <token status="ok" id="tok4319">is</token>
+      <token status="ok" id="tok4320">a</token>
+      <token status="ok" id="tok4321">change</token>
+      <token status="ok" id="tok4322">in</token>
+      <token status="ok" id="tok4323">the</token>
+      <token status="ok" id="tok4324">electrical</token>
+      <token status="ok" id="tok4325">states</token>
+      <token status="ok" id="tok4326">in</token>
+      <token status="ok" id="tok4327">the</token>
+      <token status="ok" id="tok4328">terminals</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer260" raw_text="if there is a non-zero measurement it indicates there is a change in electrical states of the terminals" id="FaultFinding-BURNED_BULB_LOCATE_EXPLAIN_Q.sbj38-l1.qa218" accuracy="correct">
+      <token status="ok" id="tok4357">if</token>
+      <token status="ok" id="tok4358">there</token>
+      <token status="ok" id="tok4359">is</token>
+      <token status="ok" id="tok4360">a</token>
+      <token status="ok" id="tok4361">non-zero</token>
+      <token status="ok" id="tok4362">measurement</token>
+      <token status="ok" id="tok4363">it</token>
+      <token status="ok" id="tok4364">indicates</token>
+      <token status="ok" id="tok4365">there</token>
+      <token status="ok" id="tok4366">is</token>
+      <token status="ok" id="tok4367">a</token>
+      <token status="ok" id="tok4368">change</token>
+      <token status="ok" id="tok4369">in</token>
+      <token status="ok" id="tok4370">electrical</token>
+      <token status="ok" id="tok4371">states</token>
+      <token status="ok" id="tok4372">of</token>
+      <token status="ok" id="tok4373">the</token>
+      <token status="ok" id="tok4374">terminals</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer248" raw_text="You will find out where the difference in electrica states" id="FaultFinding-BURNED_BULB_LOCATE_EXPLAIN_Q.sbj39-l1.qa258" accuracy="partially_correct_incomplete">
+      <token status="ok" id="tok5253">You</token>
+      <token status="ok" id="tok5254">will</token>
+      <token status="ok" id="tok5255">find</token>
+      <token status="ok" id="tok5256">out</token>
+      <token status="ok" id="tok5257">where</token>
+      <token status="ok" id="tok5258">the</token>
+      <token status="ok" id="tok5259">difference</token>
+      <token status="ok" id="tok5260">in</token>
+      <token status="ok" id="tok5261" original="electrica">electrical</token>
+      <token status="ok" id="tok5262">states</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer248" raw_text="You will find out wehere the difference in electrical staates" id="FaultFinding-BURNED_BULB_LOCATE_EXPLAIN_Q.sbj39-l1.qa259" accuracy="partially_correct_incomplete">
+      <token status="ok" id="tok5273">You</token>
+      <token status="ok" id="tok5274">will</token>
+      <token status="ok" id="tok5275">find</token>
+      <token status="ok" id="tok5276">out</token>
+      <token status="ok" id="tok5277" original="wehere">where</token>
+      <token status="ok" id="tok5278">the</token>
+      <token status="ok" id="tok5279">difference</token>
+      <token status="ok" id="tok5280">in</token>
+      <token status="ok" id="tok5281">electrical</token>
+      <token status="ok" id="tok5282" original="staates">states</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="?" id="FaultFinding-BURNED_BULB_LOCATE_EXPLAIN_Q.sbj39-l1.qa261" accuracy="non_domain"/>
+    <studentAnswer count="1" raw_text="Burnt bulbs have no voltage at one of there terminals." id="FaultFinding-BURNED_BULB_LOCATE_EXPLAIN_Q.sbj40-l1.qa253" accuracy="contradictory">
+      <token status="ok" id="tok4905">Burnt</token>
+      <token status="ok" id="tok4906">bulbs</token>
+      <token status="ok" id="tok4907">have</token>
+      <token status="ok" id="tok4908">no</token>
+      <token status="ok" id="tok4909">voltage</token>
+      <token status="ok" id="tok4910">at</token>
+      <token status="ok" id="tok4911">one</token>
+      <token status="ok" id="tok4912">of</token>
+      <token status="ok" id="tok4913">there</token>
+      <token status="ok" id="tok4914">terminals</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="burnt out bulbs have no voltage to effect there eletrical state." id="FaultFinding-BURNED_BULB_LOCATE_EXPLAIN_Q.sbj40-l1.qa255" accuracy="contradictory">
+      <token status="ok" id="tok4973">burnt</token>
+      <token status="ok" id="tok4974">out</token>
+      <token status="ok" id="tok4975">bulbs</token>
+      <token status="ok" id="tok4976">have</token>
+      <token status="ok" id="tok4977">no</token>
+      <token status="ok" id="tok4978">voltage</token>
+      <token status="ok" id="tok4979">to</token>
+      <token status="ok" id="tok4980" original="effect">affect</token>
+      <token status="ok" id="tok4981">there</token>
+      <token status="ok" id="tok4982" original="eletrical">electrical</token>
+      <token status="ok" id="tok4983">state</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="i dont know." id="FaultFinding-BURNED_BULB_LOCATE_EXPLAIN_Q.sbj40-l1.qa256" accuracy="non_domain">
+      <token status="ok" id="tok5009">i</token>
+      <token status="ok" id="tok5010a">do</token>
+      <token status="pennTokenFragment" id="tok5010b" original="nt">n't</token>
+      <token status="ok" id="tok5011">know</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer251" raw_text="The measurement of voltage will determine if there is a gap in the connection of electrical states." id="FaultFinding-BURNED_BULB_LOCATE_EXPLAIN_Q.sbj42-l1.qa246" accuracy="correct">
+      <token status="ok" id="tok4652">The</token>
+      <token status="ok" id="tok4653">measurement</token>
+      <token status="ok" id="tok4654">of</token>
+      <token status="ok" id="tok4655">voltage</token>
+      <token status="ok" id="tok4656">will</token>
+      <token status="ok" id="tok4657">determine</token>
+      <token status="ok" id="tok4658">if</token>
+      <token status="ok" id="tok4659">there</token>
+      <token status="ok" id="tok4660">is</token>
+      <token status="ok" id="tok4661">a</token>
+      <token status="ok" id="tok4662">gap</token>
+      <token status="ok" id="tok4663">in</token>
+      <token status="ok" id="tok4664">the</token>
+      <token status="ok" id="tok4665">connection</token>
+      <token status="ok" id="tok4666">of</token>
+      <token status="ok" id="tok4667">electrical</token>
+      <token status="ok" id="tok4668">states</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer251" raw_text="The measure of voltage will determine if there is a gap" id="FaultFinding-BURNED_BULB_LOCATE_EXPLAIN_Q.sbj42-l1.qa247" accuracy="correct">
+      <token status="ok" id="tok4689">The</token>
+      <token status="ok" id="tok4690">measure</token>
+      <token status="ok" id="tok4691">of</token>
+      <token status="ok" id="tok4692">voltage</token>
+      <token status="ok" id="tok4693">will</token>
+      <token status="ok" id="tok4694">determine</token>
+      <token status="ok" id="tok4695">if</token>
+      <token status="ok" id="tok4696">there</token>
+      <token status="ok" id="tok4697">is</token>
+      <token status="ok" id="tok4698">a</token>
+      <token status="ok" id="tok4699">gap</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer249" raw_text="The measure of voltage will determine an electrical state." id="FaultFinding-BURNED_BULB_LOCATE_EXPLAIN_Q.sbj42-l1.qa248" accuracy="correct">
+      <token status="ok" id="tok4728">The</token>
+      <token status="ok" id="tok4729">measure</token>
+      <token status="ok" id="tok4730">of</token>
+      <token status="ok" id="tok4731">voltage</token>
+      <token status="ok" id="tok4732">will</token>
+      <token status="ok" id="tok4733">determine</token>
+      <token status="ok" id="tok4734">an</token>
+      <token status="ok" id="tok4735">electrical</token>
+      <token status="ok" id="tok4736">state</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="A bulb causes an electrical state." id="FaultFinding-BURNED_BULB_LOCATE_EXPLAIN_Q.sbj42-l1.qa249" accuracy="contradictory">
+      <token status="ok" id="tok4762">A</token>
+      <token status="ok" id="tok4763">bulb</token>
+      <token status="ok" id="tok4764">causes</token>
+      <token status="ok" id="tok4765">an</token>
+      <token status="ok" id="tok4766">electrical</token>
+      <token status="ok" id="tok4767">state</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer251" raw_text="you can locate the gap in a connection" id="FaultFinding-BURNED_BULB_LOCATE_EXPLAIN_Q.sbj43-l1.qa227" accuracy="correct">
+      <token status="ok" id="tok4328">you</token>
+      <token status="ok" id="tok4329">can</token>
+      <token status="ok" id="tok4330">locate</token>
+      <token status="ok" id="tok4331">the</token>
+      <token status="ok" id="tok4332">gap</token>
+      <token status="ok" id="tok4333">in</token>
+      <token status="ok" id="tok4334">a</token>
+      <token status="ok" id="tok4335">connection</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer251" raw_text="you are able to identify the gap" id="FaultFinding-BURNED_BULB_LOCATE_EXPLAIN_Q.sbj43-l1.qa228" accuracy="correct">
+      <token status="ok" id="tok4343">you</token>
+      <token status="ok" id="tok4344">are</token>
+      <token status="ok" id="tok4345">able</token>
+      <token status="ok" id="tok4346">to</token>
+      <token status="ok" id="tok4347">identify</token>
+      <token status="ok" id="tok4348">the</token>
+      <token status="ok" id="tok4349">gap</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer249" raw_text="you are able to find where the voltage begins. this helps you locate the gap." id="FaultFinding-BURNED_BULB_LOCATE_EXPLAIN_Q.sbj43-l1.qa229" accuracy="contradictory">
+      <token status="ok" id="tok4364">you</token>
+      <token status="ok" id="tok4365">are</token>
+      <token status="ok" id="tok4366">able</token>
+      <token status="ok" id="tok4367">to</token>
+      <token status="ok" id="tok4368">find</token>
+      <token status="ok" id="tok4369">where</token>
+      <token status="ok" id="tok4370">the</token>
+      <token status="ok" id="tok4371">voltage</token>
+      <token status="ok" id="tok4372">begins</token>
+      <token status="ok" id="tok4373">this</token>
+      <token status="ok" id="tok4374">helps</token>
+      <token status="ok" id="tok4375">you</token>
+      <token status="ok" id="tok4376">locate</token>
+      <token status="ok" id="tok4377">the</token>
+      <token status="ok" id="tok4378">gap</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer251" raw_text="it helps because you find the gap where the terminals are disconnected" id="FaultFinding-BURNED_BULB_LOCATE_EXPLAIN_Q.sbj45-l1.qa221" accuracy="partially_correct_incomplete">
+      <token status="ok" id="tok4015">it</token>
+      <token status="ok" id="tok4016">helps</token>
+      <token status="ok" id="tok4017">because</token>
+      <token status="ok" id="tok4018">you</token>
+      <token status="ok" id="tok4019">find</token>
+      <token status="ok" id="tok4020">the</token>
+      <token status="ok" id="tok4021">gap</token>
+      <token status="ok" id="tok4022">where</token>
+      <token status="ok" id="tok4023">the</token>
+      <token status="ok" id="tok4024">terminals</token>
+      <token status="ok" id="tok4025">are</token>
+      <token status="ok" id="tok4026">disconnected</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="i dont know" id="FaultFinding-BURNED_BULB_LOCATE_EXPLAIN_Q.sbj45-l1.qa222" accuracy="non_domain">
+      <token status="ok" id="tok4038">i</token>
+      <token status="ok" id="tok4039a">do</token>
+      <token status="pennTokenFragment" id="tok4039b" original="nt">n't</token>
+      <token status="ok" id="tok4040">know</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer249" raw_text="the bulb causes a gap" id="FaultFinding-BURNED_BULB_LOCATE_EXPLAIN_Q.sbj45-l1.qa223" accuracy="partially_correct_incomplete">
+      <token status="ok" id="tok4049">the</token>
+      <token status="ok" id="tok4050">bulb</token>
+      <token status="ok" id="tok4051">causes</token>
+      <token status="ok" id="tok4052">a</token>
+      <token status="ok" id="tok4053">gap</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer248" raw_text="you can determine is broken bulb is before a gap or after" id="FaultFinding-BURNED_BULB_LOCATE_EXPLAIN_Q.sbj46-l1.qa240" accuracy="contradictory">
+      <token status="ok" id="tok4516">you</token>
+      <token status="ok" id="tok4517">can</token>
+      <token status="ok" id="tok4518">determine</token>
+      <token status="ok" id="tok4519" original="is">if</token>
+      <token status="ok" id="tok4520">broken</token>
+      <token status="ok" id="tok4521">bulb</token>
+      <token status="ok" id="tok4522">is</token>
+      <token status="ok" id="tok4523">before</token>
+      <token status="ok" id="tok4524">a</token>
+      <token status="ok" id="tok4525">gap</token>
+      <token status="ok" id="tok4526">or</token>
+      <token status="ok" id="tok4527">after</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="electrical state is not connected to volts" id="FaultFinding-BURNED_BULB_LOCATE_EXPLAIN_Q.sbj46-l1.qa241" accuracy="contradictory">
+      <token status="ok" id="tok4538">electrical</token>
+      <token status="ok" id="tok4539">state</token>
+      <token status="ok" id="tok4540">is</token>
+      <token status="ok" id="tok4541">not</token>
+      <token status="ok" id="tok4542">connected</token>
+      <token status="ok" id="tok4543">to</token>
+      <token status="ok" id="tok4544">volts</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="because if the voltage is 0 that means the bulb is burned out" id="FaultFinding-BURNED_BULB_LOCATE_EXPLAIN_Q.sbj47-l1.qa253" accuracy="contradictory">
+      <token status="ok" id="tok4960">because</token>
+      <token status="ok" id="tok4961">if</token>
+      <token status="ok" id="tok4962">the</token>
+      <token status="ok" id="tok4963">voltage</token>
+      <token status="ok" id="tok4964">is</token>
+      <token status="numerical" id="tok4965">0</token>
+      <token status="ok" id="tok4966">that</token>
+      <token status="ok" id="tok4967">means</token>
+      <token status="ok" id="tok4968">the</token>
+      <token status="ok" id="tok4969">bulb</token>
+      <token status="ok" id="tok4970">is</token>
+      <token status="ok" id="tok4971">burned</token>
+      <token status="ok" id="tok4972">out</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="if the bulb is non- zero that means it is not burned out" id="FaultFinding-BURNED_BULB_LOCATE_EXPLAIN_Q.sbj47-l1.qa254" accuracy="contradictory">
+      <token status="ok" id="tok4981">if</token>
+      <token status="ok" id="tok4982">the</token>
+      <token status="ok" id="tok4983">bulb</token>
+      <token status="ok" id="tok4984">is</token>
+      <token status="ok" id="tok4985+">non-zero</token>
+      <token status="ok" id="tok4987">that</token>
+      <token status="ok" id="tok4988">means</token>
+      <token status="ok" id="tok4989">it</token>
+      <token status="ok" id="tok4990">is</token>
+      <token status="ok" id="tok4991">not</token>
+      <token status="ok" id="tok4992">burned</token>
+      <token status="ok" id="tok4993">out</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer248" raw_text="the value of measurement indicates if the bulb is burned out" id="FaultFinding-BURNED_BULB_LOCATE_EXPLAIN_Q.sbj47-l1.qa255" accuracy="partially_correct_incomplete">
+      <token status="ok" id="tok5036">the</token>
+      <token status="ok" id="tok5037">value</token>
+      <token status="ok" id="tok5038">of</token>
+      <token status="ok" id="tok5039">measurement</token>
+      <token status="ok" id="tok5040">indicates</token>
+      <token status="ok" id="tok5041">if</token>
+      <token status="ok" id="tok5042">the</token>
+      <token status="ok" id="tok5043">bulb</token>
+      <token status="ok" id="tok5044">is</token>
+      <token status="ok" id="tok5045">burned</token>
+      <token status="ok" id="tok5046">out</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer252" raw_text="Because when you measure the difference in electrical states of two terminals, if they are connected the reading will be 0.  If they are separated by a gap, the reading will be 1.5 V." id="FaultFinding-BURNED_BULB_LOCATE_EXPLAIN_Q.sbj48-l1.qa213" accuracy="correct">
+      <token status="ok" id="tok4307">Because</token>
+      <token status="ok" id="tok4308">when</token>
+      <token status="ok" id="tok4309">you</token>
+      <token status="ok" id="tok4310">measure</token>
+      <token status="ok" id="tok4311">the</token>
+      <token status="ok" id="tok4312">difference</token>
+      <token status="ok" id="tok4313">in</token>
+      <token status="ok" id="tok4314">electrical</token>
+      <token status="ok" id="tok4315">states</token>
+      <token status="ok" id="tok4316">of</token>
+      <token status="ok" id="tok4317">two</token>
+      <token status="ok" id="tok4318">terminals</token>
+      <token status="ok" id="tok4319">if</token>
+      <token status="ok" id="tok4320">they</token>
+      <token status="ok" id="tok4321">are</token>
+      <token status="ok" id="tok4322">connected</token>
+      <token status="ok" id="tok4323">the</token>
+      <token status="ok" id="tok4324">reading</token>
+      <token status="ok" id="tok4325">will</token>
+      <token status="ok" id="tok4326">be</token>
+      <token status="numerical" id="tok4327">0</token>
+      <token status="ok" id="tok4328">If</token>
+      <token status="ok" id="tok4329">they</token>
+      <token status="ok" id="tok4330">are</token>
+      <token status="ok" id="tok4331">separated</token>
+      <token status="ok" id="tok4332">by</token>
+      <token status="ok" id="tok4333">a</token>
+      <token status="ok" id="tok4334">gap</token>
+      <token status="ok" id="tok4335">the</token>
+      <token status="ok" id="tok4336">reading</token>
+      <token status="ok" id="tok4337">will</token>
+      <token status="ok" id="tok4338">be</token>
+      <token status="numerical" id="tok4339">1.5</token>
+      <token status="numerical" id="tok4340">V</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer248" raw_text="The electrical states of two terminals when connected will determine the gaps and help to locate a burned out bulb." id="FaultFinding-BURNED_BULB_LOCATE_EXPLAIN_Q.sbjb1-l1.qa187" accuracy="contradictory">
+      <token status="ok" id="tok3874">The</token>
+      <token status="ok" id="tok3875">electrical</token>
+      <token status="ok" id="tok3876">states</token>
+      <token status="ok" id="tok3877">of</token>
+      <token status="ok" id="tok3878">two</token>
+      <token status="ok" id="tok3879">terminals</token>
+      <token status="ok" id="tok3880">when</token>
+      <token status="ok" id="tok3881">connected</token>
+      <token status="ok" id="tok3882">will</token>
+      <token status="ok" id="tok3883">determine</token>
+      <token status="ok" id="tok3884">the</token>
+      <token status="ok" id="tok3885">gaps</token>
+      <token status="ok" id="tok3886">and</token>
+      <token status="ok" id="tok3887">help</token>
+      <token status="ok" id="tok3888">to</token>
+      <token status="ok" id="tok3889">locate</token>
+      <token status="ok" id="tok3890">a</token>
+      <token status="ok" id="tok3891">burned</token>
+      <token status="ok" id="tok3892">out</token>
+      <token status="ok" id="tok3893">bulb</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer251" raw_text="It will help find where the gap in the circuit is." id="FaultFinding-BURNED_BULB_LOCATE_EXPLAIN_Q.sbjb2-l1.qa191" accuracy="partially_correct_incomplete">
+      <token status="ok" id="tok3713">It</token>
+      <token status="ok" id="tok3714">will</token>
+      <token status="ok" id="tok3715">help</token>
+      <token status="ok" id="tok3716">find</token>
+      <token status="ok" id="tok3717">where</token>
+      <token status="ok" id="tok3718">the</token>
+      <token status="ok" id="tok3719">gap</token>
+      <token status="ok" id="tok3720">in</token>
+      <token status="ok" id="tok3721">the</token>
+      <token status="ok" id="tok3722">circuit</token>
+      <token status="ok" id="tok3723">is</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer251" raw_text="If there is a gap there will be  voltage but if connected then it wont read the voltage" id="FaultFinding-BURNED_BULB_LOCATE_EXPLAIN_Q.sbjb3-l1.qa203" accuracy="contradictory">
+      <token status="ok" id="tok3812">If</token>
+      <token status="ok" id="tok3813">there</token>
+      <token status="ok" id="tok3814">is</token>
+      <token status="ok" id="tok3815">a</token>
+      <token status="ok" id="tok3816">gap</token>
+      <token status="ok" id="tok3817">there</token>
+      <token status="ok" id="tok3818">will</token>
+      <token status="ok" id="tok3819">be</token>
+      <token status="ok" id="tok3820">voltage</token>
+      <token status="ok" id="tok3821">but</token>
+      <token status="ok" id="tok3822">if</token>
+      <token status="ok" id="tok3823">connected</token>
+      <token status="ok" id="tok3824">then</token>
+      <token status="ok" id="tok3825">it</token>
+      <token status="stem" id="tok3826a">wo</token>
+      <token status="pennTokenFragment" id="tok3826b" original="nt">n't</token>
+      <token status="ok" id="tok3827">read</token>
+      <token status="ok" id="tok3828">the</token>
+      <token status="ok" id="tok3829">voltage</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer251" raw_text="there will be voltage where there is a gap, and the gap is where the bulb is burnt out" id="FaultFinding-BURNED_BULB_LOCATE_EXPLAIN_Q.sbjb4-l1.qa182" accuracy="contradictory">
+      <token status="ok" id="tok3661">there</token>
+      <token status="ok" id="tok3662">will</token>
+      <token status="ok" id="tok3663">be</token>
+      <token status="ok" id="tok3664">voltage</token>
+      <token status="ok" id="tok3665">where</token>
+      <token status="ok" id="tok3666">there</token>
+      <token status="ok" id="tok3667">is</token>
+      <token status="ok" id="tok3668">a</token>
+      <token status="ok" id="tok3669">gap</token>
+      <token status="ok" id="tok3670">and</token>
+      <token status="ok" id="tok3671">the</token>
+      <token status="ok" id="tok3672">gap</token>
+      <token status="ok" id="tok3673">is</token>
+      <token status="ok" id="tok3674">where</token>
+      <token status="ok" id="tok3675">the</token>
+      <token status="ok" id="tok3676">bulb</token>
+      <token status="ok" id="tok3677">is</token>
+      <token status="ok" id="tok3678">burnt</token>
+      <token status="ok" id="tok3679">out</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer248" raw_text="the change in voltage will locate the burned out bulb" id="FaultFinding-BURNED_BULB_LOCATE_EXPLAIN_Q.sbjb5-l1.qa190" accuracy="correct">
+      <token status="ok" id="tok3894">the</token>
+      <token status="ok" id="tok3895">change</token>
+      <token status="ok" id="tok3896">in</token>
+      <token status="ok" id="tok3897">voltage</token>
+      <token status="ok" id="tok3898">will</token>
+      <token status="ok" id="tok3899">locate</token>
+      <token status="ok" id="tok3900">the</token>
+      <token status="ok" id="tok3901">burned</token>
+      <token status="ok" id="tok3902">out</token>
+      <token status="ok" id="tok3903">bulb</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="If the terminals at both ends of the bulb are the same, then it&quot;s damaged." id="FaultFinding-BURNED_BULB_LOCATE_EXPLAIN_Q.sbjb7-l1.qa180" accuracy="contradictory">
+      <token status="ok" id="tok3612">If</token>
+      <token status="ok" id="tok3613">the</token>
+      <token status="ok" id="tok3614">terminals</token>
+      <token status="ok" id="tok3615">at</token>
+      <token status="ok" id="tok3616">both</token>
+      <token status="ok" id="tok3617">ends</token>
+      <token status="ok" id="tok3618">of</token>
+      <token status="ok" id="tok3619">the</token>
+      <token status="ok" id="tok3620">bulb</token>
+      <token status="ok" id="tok3621">are</token>
+      <token status="ok" id="tok3622">the</token>
+      <token status="ok" id="tok3623">same</token>
+      <token status="ok" id="tok3624">then</token>
+      <token status="ok" id="tok3625">it</token>
+      <token status="pennTokenFragment" id="tok3626">'s</token>
+      <token status="ok" id="tok3627">damaged</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer249" raw_text="becuase you can test the light bulbs until you find where there is a gap between 0 volts and 1.5 volts, just like in the exercise i just did" id="FaultFinding-BURNED_BULB_LOCATE_EXPLAIN_Q.sbjb10-l1.qa180" accuracy="contradictory">
+      <token status="ok" id="tok3663" original="becuase">because</token>
+      <token status="ok" id="tok3664">you</token>
+      <token status="ok" id="tok3665">can</token>
+      <token status="ok" id="tok3666">test</token>
+      <token status="ok" id="tok3667">the</token>
+      <token status="ok" id="tok3668">light</token>
+      <token status="ok" id="tok3669">bulbs</token>
+      <token status="ok" id="tok3670">until</token>
+      <token status="ok" id="tok3671">you</token>
+      <token status="ok" id="tok3672">find</token>
+      <token status="ok" id="tok3673">where</token>
+      <token status="ok" id="tok3674">there</token>
+      <token status="ok" id="tok3675">is</token>
+      <token status="ok" id="tok3676">a</token>
+      <token status="ok" id="tok3677">gap</token>
+      <token status="ok" id="tok3678">between</token>
+      <token status="numerical" id="tok3679">0</token>
+      <token status="ok" id="tok3680">volts</token>
+      <token status="ok" id="tok3681">and</token>
+      <token status="numerical" id="tok3682">1.5</token>
+      <token status="ok" id="tok3683">volts</token>
+      <token status="ok" id="tok3684">just</token>
+      <token status="ok" id="tok3685">like</token>
+      <token status="ok" id="tok3686">in</token>
+      <token status="ok" id="tok3687">the</token>
+      <token status="ok" id="tok3688">exercise</token>
+      <token status="ok" id="tok3689">i</token>
+      <token status="ok" id="tok3690">just</token>
+      <token status="ok" id="tok3691">did</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer255" raw_text="If the electrical states of the two terminals are different, then that means there is a break in the connection" id="FaultFinding-BURNED_BULB_LOCATE_EXPLAIN_Q.sbjb12-l1.qa186" accuracy="partially_correct_incomplete">
+      <token status="ok" id="tok3700">If</token>
+      <token status="ok" id="tok3701">the</token>
+      <token status="ok" id="tok3702">electrical</token>
+      <token status="ok" id="tok3703">states</token>
+      <token status="ok" id="tok3704">of</token>
+      <token status="ok" id="tok3705">the</token>
+      <token status="ok" id="tok3706">two</token>
+      <token status="ok" id="tok3707">terminals</token>
+      <token status="ok" id="tok3708">are</token>
+      <token status="ok" id="tok3709">different</token>
+      <token status="ok" id="tok3710">then</token>
+      <token status="ok" id="tok3711">that</token>
+      <token status="ok" id="tok3712">means</token>
+      <token status="ok" id="tok3713">there</token>
+      <token status="ok" id="tok3714">is</token>
+      <token status="ok" id="tok3715">a</token>
+      <token status="ok" id="tok3716">break</token>
+      <token status="ok" id="tok3717">in</token>
+      <token status="ok" id="tok3718">the</token>
+      <token status="ok" id="tok3719">connection</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer257" raw_text="Because when the voltage goes from 1.5 to 0.0 you can locate the gap." id="FaultFinding-BURNED_BULB_LOCATE_EXPLAIN_Q.sbjb13-l1.qa182" accuracy="contradictory">
+      <token status="ok" id="tok3717">Because</token>
+      <token status="ok" id="tok3718">when</token>
+      <token status="ok" id="tok3719">the</token>
+      <token status="ok" id="tok3720">voltage</token>
+      <token status="ok" id="tok3721">goes</token>
+      <token status="ok" id="tok3722">from</token>
+      <token status="numerical" id="tok3723">1.5</token>
+      <token status="ok" id="tok3724">to</token>
+      <token status="numerical" id="tok3725">0.0</token>
+      <token status="ok" id="tok3726">you</token>
+      <token status="ok" id="tok3727">can</token>
+      <token status="ok" id="tok3728">locate</token>
+      <token status="ok" id="tok3729">the</token>
+      <token status="ok" id="tok3730">gap</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer248" raw_text="the voltage is nearest the burnt out bulb" id="FaultFinding-BURNED_BULB_LOCATE_EXPLAIN_Q.sbjb15-l1.qa182" accuracy="contradictory">
+      <token status="ok" id="tok3635">the</token>
+      <token status="ok" id="tok3636">voltage</token>
+      <token status="ok" id="tok3637">is</token>
+      <token status="ok" id="tok3638">nearest</token>
+      <token status="ok" id="tok3639">the</token>
+      <token status="ok" id="tok3640">burnt</token>
+      <token status="ok" id="tok3641">out</token>
+      <token status="ok" id="tok3642">bulb</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="it allows you to see which terminal is different than the rest" id="FaultFinding-BURNED_BULB_LOCATE_EXPLAIN_Q.sbjb16-l1.qa182" accuracy="contradictory">
+      <token status="ok" id="tok3733">it</token>
+      <token status="ok" id="tok3734">allows</token>
+      <token status="ok" id="tok3735">you</token>
+      <token status="ok" id="tok3736">to</token>
+      <token status="ok" id="tok3737">see</token>
+      <token status="ok" id="tok3738">which</token>
+      <token status="ok" id="tok3739">terminal</token>
+      <token status="ok" id="tok3740">is</token>
+      <token status="ok" id="tok3741">different</token>
+      <token status="ok" id="tok3742">than</token>
+      <token status="ok" id="tok3743">the</token>
+      <token status="ok" id="tok3744">rest</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer249" raw_text="Registering a voltage at a location tells you there is a gap somewhere in between the measured terminals" id="FaultFinding-BURNED_BULB_LOCATE_EXPLAIN_Q.sbjb17-l1.qa184" accuracy="partially_correct_incomplete">
+      <token status="ok" id="tok3762">Registering</token>
+      <token status="ok" id="tok3763">a</token>
+      <token status="ok" id="tok3764">voltage</token>
+      <token status="ok" id="tok3765">at</token>
+      <token status="ok" id="tok3766">a</token>
+      <token status="ok" id="tok3767">location</token>
+      <token status="ok" id="tok3768">tells</token>
+      <token status="ok" id="tok3769">you</token>
+      <token status="ok" id="tok3770">there</token>
+      <token status="ok" id="tok3771">is</token>
+      <token status="ok" id="tok3772">a</token>
+      <token status="ok" id="tok3773">gap</token>
+      <token status="ok" id="tok3774">somewhere</token>
+      <token status="ok" id="tok3775">in</token>
+      <token status="ok" id="tok3776">between</token>
+      <token status="ok" id="tok3777">the</token>
+      <token status="ok" id="tok3778">measured</token>
+      <token status="ok" id="tok3779">terminals</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="if there is a gap in the circuit there the bulb will not light up." id="FaultFinding-BURNED_BULB_LOCATE_EXPLAIN_Q.sbjb18-l1.qa193" accuracy="irrelevant">
+      <token status="ok" id="tok3744">if</token>
+      <token status="ok" id="tok3745">there</token>
+      <token status="ok" id="tok3746">is</token>
+      <token status="ok" id="tok3747">a</token>
+      <token status="ok" id="tok3748">gap</token>
+      <token status="ok" id="tok3749">in</token>
+      <token status="ok" id="tok3750">the</token>
+      <token status="ok" id="tok3751">circuit</token>
+      <token status="ok" id="tok3752">there</token>
+      <token status="ok" id="tok3753">the</token>
+      <token status="ok" id="tok3754">bulb</token>
+      <token status="ok" id="tok3755">will</token>
+      <token status="ok" id="tok3756">not</token>
+      <token status="ok" id="tok3757">light</token>
+      <token status="ok" id="tok3758">up</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer250" raw_text="because it shows you what terminals are connected" id="FaultFinding-BURNED_BULB_LOCATE_EXPLAIN_Q.sbjb19-l1.qa185" accuracy="partially_correct_incomplete">
+      <token status="ok" id="tok3762">because</token>
+      <token status="ok" id="tok3763">it</token>
+      <token status="ok" id="tok3764">shows</token>
+      <token status="ok" id="tok3765">you</token>
+      <token status="ok" id="tok3766">what</token>
+      <token status="ok" id="tok3767">terminals</token>
+      <token status="ok" id="tok3768">are</token>
+      <token status="ok" id="tok3769">connected</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="Where there is a 0.0 volts. It finds the gap in the path." id="FaultFinding-BURNED_BULB_LOCATE_EXPLAIN_Q.sbjb20-l1.qa193" accuracy="contradictory">
+      <token status="ok" id="tok3882">Where</token>
+      <token status="ok" id="tok3883">there</token>
+      <token status="ok" id="tok3884">is</token>
+      <token status="ok" id="tok3885">a</token>
+      <token status="numerical" id="tok3886">0.0</token>
+      <token status="ok" id="tok3887">volts</token>
+      <token status="ok" id="tok3888">It</token>
+      <token status="ok" id="tok3889">finds</token>
+      <token status="ok" id="tok3890">the</token>
+      <token status="ok" id="tok3891">gap</token>
+      <token status="ok" id="tok3892">in</token>
+      <token status="ok" id="tok3893">the</token>
+      <token status="ok" id="tok3894">path</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer248" raw_text="you can find which bulb is burned out" id="FaultFinding-BURNED_BULB_LOCATE_EXPLAIN_Q.sbjb21-l1.qa181" accuracy="partially_correct_incomplete">
+      <token status="ok" id="tok3533">you</token>
+      <token status="ok" id="tok3534">can</token>
+      <token status="ok" id="tok3535">find</token>
+      <token status="ok" id="tok3536">which</token>
+      <token status="ok" id="tok3537">bulb</token>
+      <token status="ok" id="tok3538">is</token>
+      <token status="ok" id="tok3539">burned</token>
+      <token status="ok" id="tok3540">out</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer249" raw_text="Voltage finds the connection between positive and negative terminals from a battery to the bulb, thus finding teh gap between positive and negative terminals" id="FaultFinding-BURNED_BULB_LOCATE_EXPLAIN_Q.sbjb22-l1.qa191" accuracy="contradictory">
+      <token status="ok" id="tok3789">Voltage</token>
+      <token status="ok" id="tok3790">finds</token>
+      <token status="ok" id="tok3791">the</token>
+      <token status="ok" id="tok3792">connection</token>
+      <token status="ok" id="tok3793">between</token>
+      <token status="ok" id="tok3794">positive</token>
+      <token status="ok" id="tok3795">and</token>
+      <token status="ok" id="tok3796">negative</token>
+      <token status="ok" id="tok3797">terminals</token>
+      <token status="ok" id="tok3798">from</token>
+      <token status="ok" id="tok3799">a</token>
+      <token status="ok" id="tok3800">battery</token>
+      <token status="ok" id="tok3801">to</token>
+      <token status="ok" id="tok3802">the</token>
+      <token status="ok" id="tok3803">bulb</token>
+      <token status="ok" id="tok3804">thus</token>
+      <token status="ok" id="tok3805">finding</token>
+      <token status="ok" id="tok3806" original="teh">the</token>
+      <token status="ok" id="tok3807">gap</token>
+      <token status="ok" id="tok3808">between</token>
+      <token status="ok" id="tok3809">positive</token>
+      <token status="ok" id="tok3810">and</token>
+      <token status="ok" id="tok3811">negative</token>
+      <token status="ok" id="tok3812">terminals</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer251" raw_text="allows you to identify any gaps" id="FaultFinding-BURNED_BULB_LOCATE_EXPLAIN_Q.sbjb24-l1.qa188" accuracy="partially_correct_incomplete">
+      <token status="ok" id="tok3596">allows</token>
+      <token status="ok" id="tok3597">you</token>
+      <token status="ok" id="tok3598">to</token>
+      <token status="ok" id="tok3599">identify</token>
+      <token status="ok" id="tok3600">any</token>
+      <token status="ok" id="tok3601">gaps</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer251" raw_text="It shows you where the gaps are." id="FaultFinding-BURNED_BULB_LOCATE_EXPLAIN_Q.sbjb25-l1.qa185" accuracy="partially_correct_incomplete">
+      <token status="ok" id="tok3736">It</token>
+      <token status="ok" id="tok3737">shows</token>
+      <token status="ok" id="tok3738">you</token>
+      <token status="ok" id="tok3739">where</token>
+      <token status="ok" id="tok3740">the</token>
+      <token status="ok" id="tok3741">gaps</token>
+      <token status="ok" id="tok3742">are</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer249" raw_text="Electrical states between connected terminals will differ than those that are separated by a gap." id="FaultFinding-BURNED_BULB_LOCATE_EXPLAIN_Q.sbjb26-l1.qa181" accuracy="partially_correct_incomplete">
+      <token status="ok" id="tok3764">Electrical</token>
+      <token status="ok" id="tok3765">states</token>
+      <token status="ok" id="tok3766">between</token>
+      <token status="ok" id="tok3767">connected</token>
+      <token status="ok" id="tok3768">terminals</token>
+      <token status="ok" id="tok3769">will</token>
+      <token status="ok" id="tok3770">differ</token>
+      <token status="ok" id="tok3771">than</token>
+      <token status="ok" id="tok3772">those</token>
+      <token status="ok" id="tok3773">that</token>
+      <token status="ok" id="tok3774">are</token>
+      <token status="ok" id="tok3775">separated</token>
+      <token status="ok" id="tok3776">by</token>
+      <token status="ok" id="tok3777">a</token>
+      <token status="ok" id="tok3778">gap</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer248" raw_text="where the voltage jumps from 0 volts to some number of volts represents the burned out bulb because it identifies where the circuit is only connnected to the negative battery terminal or the positive battery terminal." id="FaultFinding-BURNED_BULB_LOCATE_EXPLAIN_Q.sbjb27-l1.qa180" accuracy="partially_correct_incomplete">
+      <token status="ok" id="tok3708">where</token>
+      <token status="ok" id="tok3709">the</token>
+      <token status="ok" id="tok3710">voltage</token>
+      <token status="ok" id="tok3711">jumps</token>
+      <token status="ok" id="tok3712">from</token>
+      <token status="numerical" id="tok3713">0</token>
+      <token status="ok" id="tok3714">volts</token>
+      <token status="ok" id="tok3715">to</token>
+      <token status="ok" id="tok3716">some</token>
+      <token status="ok" id="tok3717">number</token>
+      <token status="ok" id="tok3718">of</token>
+      <token status="ok" id="tok3719">volts</token>
+      <token status="ok" id="tok3720">represents</token>
+      <token status="ok" id="tok3721">the</token>
+      <token status="ok" id="tok3722">burned</token>
+      <token status="ok" id="tok3723">out</token>
+      <token status="ok" id="tok3724">bulb</token>
+      <token status="ok" id="tok3725">because</token>
+      <token status="ok" id="tok3726">it</token>
+      <token status="ok" id="tok3727">identifies</token>
+      <token status="ok" id="tok3728">where</token>
+      <token status="ok" id="tok3729">the</token>
+      <token status="ok" id="tok3730">circuit</token>
+      <token status="ok" id="tok3731">is</token>
+      <token status="ok" id="tok3732">only</token>
+      <token status="ok" id="tok3733" original="connnected">connected</token>
+      <token status="ok" id="tok3734">to</token>
+      <token status="ok" id="tok3735">the</token>
+      <token status="ok" id="tok3736">negative</token>
+      <token status="ok" id="tok3737">battery</token>
+      <token status="ok" id="tok3738">terminal</token>
+      <token status="ok" id="tok3739">or</token>
+      <token status="ok" id="tok3740">the</token>
+      <token status="ok" id="tok3741">positive</token>
+      <token status="ok" id="tok3742">battery</token>
+      <token status="ok" id="tok3743">terminal</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer257" raw_text="The electrical state for the bulb terminal and the battery terminal will have a charge of 0 if connected so if the charge is anything that isn&quot;t 0 V, there is a gap at that bulb" id="FaultFinding-BURNED_BULB_LOCATE_EXPLAIN_Q.sbjb28-l1.qa185" accuracy="partially_correct_incomplete">
+      <token status="ok" id="tok3603">The</token>
+      <token status="ok" id="tok3604">electrical</token>
+      <token status="ok" id="tok3605">state</token>
+      <token status="ok" id="tok3606">for</token>
+      <token status="ok" id="tok3607">the</token>
+      <token status="ok" id="tok3608">bulb</token>
+      <token status="ok" id="tok3609">terminal</token>
+      <token status="ok" id="tok3610">and</token>
+      <token status="ok" id="tok3611">the</token>
+      <token status="ok" id="tok3612">battery</token>
+      <token status="ok" id="tok3613">terminal</token>
+      <token status="ok" id="tok3614">will</token>
+      <token status="ok" id="tok3615">have</token>
+      <token status="ok" id="tok3616">a</token>
+      <token status="ok" id="tok3617">charge</token>
+      <token status="ok" id="tok3618">of</token>
+      <token status="numerical" id="tok3619">0</token>
+      <token status="ok" id="tok3620">if</token>
+      <token status="ok" id="tok3621">connected</token>
+      <token status="ok" id="tok3622">so</token>
+      <token status="ok" id="tok3623">if</token>
+      <token status="ok" id="tok3624">the</token>
+      <token status="ok" id="tok3625">charge</token>
+      <token status="ok" id="tok3626">is</token>
+      <token status="ok" id="tok3627">anything</token>
+      <token status="ok" id="tok3628">that</token>
+      <token status="ok" id="tok3629">is</token>
+      <token status="pennTokenFragment" id="tok3630">n't</token>
+      <token status="numerical" id="tok3631">0</token>
+      <token status="numerical" id="tok3632">V</token>
+      <token status="ok" id="tok3633">there</token>
+      <token status="ok" id="tok3634">is</token>
+      <token status="ok" id="tok3635">a</token>
+      <token status="ok" id="tok3636">gap</token>
+      <token status="ok" id="tok3637">at</token>
+      <token status="ok" id="tok3638">that</token>
+      <token status="ok" id="tok3639">bulb</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer248" raw_text="because if there is a gap, a burned out bulb, there would be a different voltage at the connections around it" id="FaultFinding-BURNED_BULB_LOCATE_EXPLAIN_Q.sbjb29-l1.qa184" accuracy="partially_correct_incomplete">
+      <token status="ok" id="tok3791">because</token>
+      <token status="ok" id="tok3792">if</token>
+      <token status="ok" id="tok3793">there</token>
+      <token status="ok" id="tok3794">is</token>
+      <token status="ok" id="tok3795">a</token>
+      <token status="ok" id="tok3796">gap</token>
+      <token status="ok" id="tok3797">a</token>
+      <token status="ok" id="tok3798">burned</token>
+      <token status="ok" id="tok3799">out</token>
+      <token status="ok" id="tok3800">bulb</token>
+      <token status="ok" id="tok3801">there</token>
+      <token status="ok" id="tok3802">would</token>
+      <token status="ok" id="tok3803">be</token>
+      <token status="ok" id="tok3804">a</token>
+      <token status="ok" id="tok3805">different</token>
+      <token status="ok" id="tok3806">voltage</token>
+      <token status="ok" id="tok3807">at</token>
+      <token status="ok" id="tok3808">the</token>
+      <token status="ok" id="tok3809">connections</token>
+      <token status="ok" id="tok3810">around</token>
+      <token status="ok" id="tok3811">it</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer251" raw_text="if there is a gap between the terminals, the voltage will be different." id="FaultFinding-BURNED_BULB_LOCATE_EXPLAIN_Q.sbjb30-l1.qa187" accuracy="partially_correct_incomplete">
+      <token status="ok" id="tok3966">if</token>
+      <token status="ok" id="tok3967">there</token>
+      <token status="ok" id="tok3968">is</token>
+      <token status="ok" id="tok3969">a</token>
+      <token status="ok" id="tok3970">gap</token>
+      <token status="ok" id="tok3971">between</token>
+      <token status="ok" id="tok3972">the</token>
+      <token status="ok" id="tok3973">terminals</token>
+      <token status="ok" id="tok3974">the</token>
+      <token status="ok" id="tok3975">voltage</token>
+      <token status="ok" id="tok3976">will</token>
+      <token status="ok" id="tok3977">be</token>
+      <token status="ok" id="tok3978">different</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer257" raw_text="because a difference in voltage is due to a gap." id="FaultFinding-BURNED_BULB_LOCATE_EXPLAIN_Q.sbjb31-l1.qa180" accuracy="partially_correct_incomplete">
+      <token status="ok" id="tok3785">because</token>
+      <token status="ok" id="tok3786">a</token>
+      <token status="ok" id="tok3787">difference</token>
+      <token status="ok" id="tok3788">in</token>
+      <token status="ok" id="tok3789">voltage</token>
+      <token status="ok" id="tok3790">is</token>
+      <token status="ok" id="tok3791">due</token>
+      <token status="ok" id="tok3792">to</token>
+      <token status="ok" id="tok3793">a</token>
+      <token status="ok" id="tok3794">gap</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="It will locate the gap." id="FaultFinding-BURNED_BULB_LOCATE_EXPLAIN_Q.sbjb32-l1.qa184" accuracy="partially_correct_incomplete">
+      <token status="ok" id="tok3737">It</token>
+      <token status="ok" id="tok3738">will</token>
+      <token status="ok" id="tok3739">locate</token>
+      <token status="ok" id="tok3740">the</token>
+      <token status="ok" id="tok3741">gap</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer251" raw_text="By finding out which terminals are the same or different in electrical states then any gap in the circuit can be found." id="FaultFinding-BURNED_BULB_LOCATE_EXPLAIN_Q.sbjb34-l1.qa180" accuracy="partially_correct_incomplete">
+      <token status="ok" id="tok3740">By</token>
+      <token status="ok" id="tok3741">finding</token>
+      <token status="ok" id="tok3742">out</token>
+      <token status="ok" id="tok3743">which</token>
+      <token status="ok" id="tok3744">terminals</token>
+      <token status="ok" id="tok3745">are</token>
+      <token status="ok" id="tok3746">the</token>
+      <token status="ok" id="tok3747">same</token>
+      <token status="ok" id="tok3748">or</token>
+      <token status="ok" id="tok3749">different</token>
+      <token status="ok" id="tok3750">in</token>
+      <token status="ok" id="tok3751">electrical</token>
+      <token status="ok" id="tok3752">states</token>
+      <token status="ok" id="tok3753">then</token>
+      <token status="ok" id="tok3754">any</token>
+      <token status="ok" id="tok3755">gap</token>
+      <token status="ok" id="tok3756">in</token>
+      <token status="ok" id="tok3757">the</token>
+      <token status="ok" id="tok3758">circuit</token>
+      <token status="ok" id="tok3759">can</token>
+      <token status="ok" id="tok3760">be</token>
+      <token status="ok" id="tok3761">found</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer249" raw_text="Measureing the difference in electrical states of the connections lets you pin point where the gap is happening in the system." id="FaultFinding-BURNED_BULB_LOCATE_EXPLAIN_Q.sbjb35-l1.qa182" accuracy="partially_correct_incomplete">
+      <token status="ok" id="tok3845" original="Measureing">Measuring</token>
+      <token status="ok" id="tok3846">the</token>
+      <token status="ok" id="tok3847">difference</token>
+      <token status="ok" id="tok3848">in</token>
+      <token status="ok" id="tok3849">electrical</token>
+      <token status="ok" id="tok3850">states</token>
+      <token status="ok" id="tok3851">of</token>
+      <token status="ok" id="tok3852">the</token>
+      <token status="ok" id="tok3853">connections</token>
+      <token status="ok" id="tok3854">lets</token>
+      <token status="ok" id="tok3855">you</token>
+      <token status="ok" id="tok3856+">pinpoint</token>
+      <token status="ok" id="tok3858">where</token>
+      <token status="ok" id="tok3859">the</token>
+      <token status="ok" id="tok3860">gap</token>
+      <token status="ok" id="tok3861">is</token>
+      <token status="ok" id="tok3862">happening</token>
+      <token status="ok" id="tok3863">in</token>
+      <token status="ok" id="tok3864">the</token>
+      <token status="ok" id="tok3865">system</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer249" raw_text="by measuring voltage you can find where the gap is by checking the electrical states of each bulb and its voltage. If it is connected it will have volts if it is not then it will have none." id="FaultFinding-BURNED_BULB_LOCATE_EXPLAIN_Q.sbjb36-l1.qa180" accuracy="contradictory">
+      <token status="ok" id="tok3864">by</token>
+      <token status="ok" id="tok3865">measuring</token>
+      <token status="ok" id="tok3866">voltage</token>
+      <token status="ok" id="tok3867">you</token>
+      <token status="ok" id="tok3868">can</token>
+      <token status="ok" id="tok3869">find</token>
+      <token status="ok" id="tok3870">where</token>
+      <token status="ok" id="tok3871">the</token>
+      <token status="ok" id="tok3872">gap</token>
+      <token status="ok" id="tok3873">is</token>
+      <token status="ok" id="tok3874">by</token>
+      <token status="ok" id="tok3875">checking</token>
+      <token status="ok" id="tok3876">the</token>
+      <token status="ok" id="tok3877">electrical</token>
+      <token status="ok" id="tok3878">states</token>
+      <token status="ok" id="tok3879">of</token>
+      <token status="ok" id="tok3880">each</token>
+      <token status="ok" id="tok3881">bulb</token>
+      <token status="ok" id="tok3882">and</token>
+      <token status="ok" id="tok3883">its</token>
+      <token status="ok" id="tok3884">voltage</token>
+      <token status="ok" id="tok3885">If</token>
+      <token status="ok" id="tok3886">it</token>
+      <token status="ok" id="tok3887">is</token>
+      <token status="ok" id="tok3888">connected</token>
+      <token status="ok" id="tok3889">it</token>
+      <token status="ok" id="tok3890">will</token>
+      <token status="ok" id="tok3891">have</token>
+      <token status="ok" id="tok3892">volts</token>
+      <token status="ok" id="tok3893">if</token>
+      <token status="ok" id="tok3894">it</token>
+      <token status="ok" id="tok3895">is</token>
+      <token status="ok" id="tok3896">not</token>
+      <token status="ok" id="tok3897">then</token>
+      <token status="ok" id="tok3898">it</token>
+      <token status="ok" id="tok3899">will</token>
+      <token status="ok" id="tok3900">have</token>
+      <token status="ok" id="tok3901">none</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer260" raw_text="Because it determines the different electrical states between the terminals" id="FaultFinding-BURNED_BULB_LOCATE_EXPLAIN_Q.sbjb37-l1.qa180" accuracy="partially_correct_incomplete">
+      <token status="ok" id="tok3663">Because</token>
+      <token status="ok" id="tok3664">it</token>
+      <token status="ok" id="tok3665">determines</token>
+      <token status="ok" id="tok3666">the</token>
+      <token status="ok" id="tok3667">different</token>
+      <token status="ok" id="tok3668">electrical</token>
+      <token status="ok" id="tok3669">states</token>
+      <token status="ok" id="tok3670">between</token>
+      <token status="ok" id="tok3671">the</token>
+      <token status="ok" id="tok3672">terminals</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer249" raw_text="A burned out bulb indicates a gap in the connection between opposite ends of the battery terminals" id="FaultFinding-BURNED_BULB_LOCATE_EXPLAIN_Q.sbjb38-l1.qa181" accuracy="partially_correct_incomplete">
+      <token status="ok" id="tok3625">A</token>
+      <token status="ok" id="tok3626">burned</token>
+      <token status="ok" id="tok3627">out</token>
+      <token status="ok" id="tok3628">bulb</token>
+      <token status="ok" id="tok3629">indicates</token>
+      <token status="ok" id="tok3630">a</token>
+      <token status="ok" id="tok3631">gap</token>
+      <token status="ok" id="tok3632">in</token>
+      <token status="ok" id="tok3633">the</token>
+      <token status="ok" id="tok3634">connection</token>
+      <token status="ok" id="tok3635">between</token>
+      <token status="ok" id="tok3636">opposite</token>
+      <token status="ok" id="tok3637">ends</token>
+      <token status="ok" id="tok3638">of</token>
+      <token status="ok" id="tok3639">the</token>
+      <token status="ok" id="tok3640">battery</token>
+      <token status="ok" id="tok3641">terminals</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer251" raw_text="Measuring voltage shows what terminals are connected and where there is a gap so you can determins which bulb is out." id="FaultFinding-BURNED_BULB_LOCATE_EXPLAIN_Q.sbjb39-l1.qa183" accuracy="correct">
+      <token status="ok" id="tok3773">Measuring</token>
+      <token status="ok" id="tok3774">voltage</token>
+      <token status="ok" id="tok3775">shows</token>
+      <token status="ok" id="tok3776">what</token>
+      <token status="ok" id="tok3777">terminals</token>
+      <token status="ok" id="tok3778">are</token>
+      <token status="ok" id="tok3779">connected</token>
+      <token status="ok" id="tok3780">and</token>
+      <token status="ok" id="tok3781">where</token>
+      <token status="ok" id="tok3782">there</token>
+      <token status="ok" id="tok3783">is</token>
+      <token status="ok" id="tok3784">a</token>
+      <token status="ok" id="tok3785">gap</token>
+      <token status="ok" id="tok3786">so</token>
+      <token status="ok" id="tok3787">you</token>
+      <token status="ok" id="tok3788">can</token>
+      <token status="ok" id="tok3789" original="determins">determine</token>
+      <token status="ok" id="tok3790">which</token>
+      <token status="ok" id="tok3791">bulb</token>
+      <token status="ok" id="tok3792">is</token>
+      <token status="ok" id="tok3793">out</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer255" raw_text="There will be a gap at one point in time and there will be a voltage decrease so you know." id="FaultFinding-BURNED_BULB_LOCATE_EXPLAIN_Q.sbjb40-l1.qa181" accuracy="partially_correct_incomplete">
+      <token status="ok" id="tok3731">There</token>
+      <token status="ok" id="tok3732">will</token>
+      <token status="ok" id="tok3733">be</token>
+      <token status="ok" id="tok3734">a</token>
+      <token status="ok" id="tok3735">gap</token>
+      <token status="ok" id="tok3736">at</token>
+      <token status="ok" id="tok3737">one</token>
+      <token status="ok" id="tok3738">point</token>
+      <token status="ok" id="tok3739">in</token>
+      <token status="ok" id="tok3740">time</token>
+      <token status="ok" id="tok3741">and</token>
+      <token status="ok" id="tok3742">there</token>
+      <token status="ok" id="tok3743">will</token>
+      <token status="ok" id="tok3744">be</token>
+      <token status="ok" id="tok3745">a</token>
+      <token status="ok" id="tok3746">voltage</token>
+      <token status="ok" id="tok3747">decrease</token>
+      <token status="ok" id="tok3748">so</token>
+      <token status="ok" id="tok3749">you</token>
+      <token status="ok" id="tok3750">know</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer248" raw_text="Measuring voltages helps to locate burned out bulbs because if there is a gap or something isn&quot;t connected, it will show up as a numerical electrical state." id="FaultFinding-BURNED_BULB_LOCATE_EXPLAIN_Q.sbjb41-l1.qa183" accuracy="contradictory">
+      <token status="ok" id="tok3993">Measuring</token>
+      <token status="ok" id="tok3994">voltages</token>
+      <token status="ok" id="tok3995">helps</token>
+      <token status="ok" id="tok3996">to</token>
+      <token status="ok" id="tok3997">locate</token>
+      <token status="ok" id="tok3998">burned</token>
+      <token status="ok" id="tok3999">out</token>
+      <token status="ok" id="tok4000">bulbs</token>
+      <token status="ok" id="tok4001">because</token>
+      <token status="ok" id="tok4002">if</token>
+      <token status="ok" id="tok4003">there</token>
+      <token status="ok" id="tok4004">is</token>
+      <token status="ok" id="tok4005">a</token>
+      <token status="ok" id="tok4006">gap</token>
+      <token status="ok" id="tok4007">or</token>
+      <token status="ok" id="tok4008">something</token>
+      <token status="ok" id="tok4009">is</token>
+      <token status="pennTokenFragment" id="tok4010">n't</token>
+      <token status="ok" id="tok4011">connected</token>
+      <token status="ok" id="tok4012">it</token>
+      <token status="ok" id="tok4013">will</token>
+      <token status="ok" id="tok4014">show</token>
+      <token status="ok" id="tok4015">up</token>
+      <token status="ok" id="tok4016">as</token>
+      <token status="ok" id="tok4017">a</token>
+      <token status="ok" id="tok4018">numerical</token>
+      <token status="ok" id="tok4019">electrical</token>
+      <token status="ok" id="tok4020">state</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer248" raw_text="If a bulb is burned out, the voltage to one side of it will be zero and o the other side will be greater than zero. the burned out bulb leaves one terminal connected to the positive terminal of the battery and the other terminal connected to the negative terminal of the battery, giving each terminal a different electrical state." id="FaultFinding-BURNED_BULB_LOCATE_EXPLAIN_Q.sbjb42-l1.qa183" accuracy="correct">
+      <token status="ok" id="tok3748">If</token>
+      <token status="ok" id="tok3749">a</token>
+      <token status="ok" id="tok3750">bulb</token>
+      <token status="ok" id="tok3751">is</token>
+      <token status="ok" id="tok3752">burned</token>
+      <token status="ok" id="tok3753">out</token>
+      <token status="ok" id="tok3754">the</token>
+      <token status="ok" id="tok3755">voltage</token>
+      <token status="ok" id="tok3756">to</token>
+      <token status="ok" id="tok3757">one</token>
+      <token status="ok" id="tok3758">side</token>
+      <token status="ok" id="tok3759">of</token>
+      <token status="ok" id="tok3760">it</token>
+      <token status="ok" id="tok3761">will</token>
+      <token status="ok" id="tok3762">be</token>
+      <token status="ok" id="tok3763">zero</token>
+      <token status="ok" id="tok3764">and</token>
+      <token status="ok" id="tok3765" original="o">on</token>
+      <token status="ok" id="tok3766">the</token>
+      <token status="ok" id="tok3767">other</token>
+      <token status="ok" id="tok3768">side</token>
+      <token status="ok" id="tok3769">will</token>
+      <token status="ok" id="tok3770">be</token>
+      <token status="ok" id="tok3771">greater</token>
+      <token status="ok" id="tok3772">than</token>
+      <token status="ok" id="tok3773">zero</token>
+      <token status="ok" id="tok3774">the</token>
+      <token status="ok" id="tok3775">burned</token>
+      <token status="ok" id="tok3776">out</token>
+      <token status="ok" id="tok3777">bulb</token>
+      <token status="ok" id="tok3778">leaves</token>
+      <token status="ok" id="tok3779">one</token>
+      <token status="ok" id="tok3780">terminal</token>
+      <token status="ok" id="tok3781">connected</token>
+      <token status="ok" id="tok3782">to</token>
+      <token status="ok" id="tok3783">the</token>
+      <token status="ok" id="tok3784">positive</token>
+      <token status="ok" id="tok3785">terminal</token>
+      <token status="ok" id="tok3786">of</token>
+      <token status="ok" id="tok3787">the</token>
+      <token status="ok" id="tok3788">battery</token>
+      <token status="ok" id="tok3789">and</token>
+      <token status="ok" id="tok3790">the</token>
+      <token status="ok" id="tok3791">other</token>
+      <token status="ok" id="tok3792">terminal</token>
+      <token status="ok" id="tok3793">connected</token>
+      <token status="ok" id="tok3794">to</token>
+      <token status="ok" id="tok3795">the</token>
+      <token status="ok" id="tok3796">negative</token>
+      <token status="ok" id="tok3797">terminal</token>
+      <token status="ok" id="tok3798">of</token>
+      <token status="ok" id="tok3799">the</token>
+      <token status="ok" id="tok3800">battery</token>
+      <token status="ok" id="tok3801">giving</token>
+      <token status="ok" id="tok3802">each</token>
+      <token status="ok" id="tok3803">terminal</token>
+      <token status="ok" id="tok3804">a</token>
+      <token status="ok" id="tok3805">different</token>
+      <token status="ok" id="tok3806">electrical</token>
+      <token status="ok" id="tok3807">state</token>
+    </studentAnswer>
+  </studentAnswers>
+</question>

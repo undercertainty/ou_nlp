@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<question testSet="unseen-answers" qtype="Q_EXPLAIN_SPECIFIC" id="BULB_ONLY_EXPLAIN_WHY4" module="FaultFinding" stype="EVALUATE">
+  <questionText>Explain why you got a voltage reading of 0 for terminal 1 and terminal 4.</questionText>
+  <referenceAnswers>
+    <referenceAnswer category="BEST" id="answer235" fileID="BULB_ONLY_EXPLAIN_WHY4_ANS1">Terminals 1 and 4 are connected</referenceAnswer>
+    <referenceAnswer category="GOOD" id="answer236" fileID="BULB_ONLY_EXPLAIN_WHY4_ANS2">Terminals 1 and 4 are not separated by the gap</referenceAnswer>
+    <referenceAnswer category="GOOD" id="answer239" fileID="BULB_ONLY_EXPLAIN_WHY4_ANS2a">There is no gap between terminals 1 and 4</referenceAnswer>
+    <referenceAnswer category="GOOD" id="answer238" fileID="BULB_ONLY_EXPLAIN_WHY4_ANS3">Terminals 1 and 4 are connected and in the same electrical state</referenceAnswer>
+    <referenceAnswer category="MINIMAL" id="answer238.NEW" fileID="NONE">Terminals 1 and 4 are in the same electrical state</referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer count="1" answerMatch="answer235" raw_text="terminal 1 and 4 are connected to the negtive terminal of the battery" id="FaultFinding-BULB_ONLY_EXPLAIN_WHY4.sbj31-l1.qa218" accuracy="correct">
+      <token status="ok" id="tok3823">terminal</token>
+      <token status="numerical" id="tok3824">1</token>
+      <token status="ok" id="tok3825">and</token>
+      <token status="numerical" id="tok3826">4</token>
+      <token status="ok" id="tok3827">are</token>
+      <token status="ok" id="tok3828">connected</token>
+      <token status="ok" id="tok3829">to</token>
+      <token status="ok" id="tok3830">the</token>
+      <token status="ok" id="tok3831" original="negtive">negative</token>
+      <token status="ok" id="tok3832">terminal</token>
+      <token status="ok" id="tok3833">of</token>
+      <token status="ok" id="tok3834">the</token>
+      <token status="ok" id="tok3835">battery</token>
+    </studentAnswer>
+  </studentAnswers>
+</question>

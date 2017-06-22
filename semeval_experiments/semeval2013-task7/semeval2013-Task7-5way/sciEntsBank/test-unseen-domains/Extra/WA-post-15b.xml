@@ -1,0 +1,928 @@
+<?xml version="1.0"?>
+<question testSet="unseen-domains" id="WA_15b" module="WA">
+  <questionText>Look at the 2 pictures of drops on a flat, waterproof surface. The drop on the left is soapy water and the drop on the right is plain water. What causes the soapy water to look like it does?</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="WA_15b-a1" text="The surface tension is broken by the soap so the soapy water drop is flat.">
+      <tokens>
+        <token id="WA_15b_ra1">The</token>
+        <token id="WA_15b_ra2">surface</token>
+        <token id="WA_15b_ra3">tension</token>
+        <token id="WA_15b_ra4">is</token>
+        <token id="WA_15b_ra5">broken</token>
+        <token id="WA_15b_ra6">by</token>
+        <token id="WA_15b_ra7">the</token>
+        <token id="WA_15b_ra8">soap</token>
+        <token id="WA_15b_ra9">so</token>
+        <token id="WA_15b_ra10">the</token>
+        <token id="WA_15b_ra11">soapy</token>
+        <token id="WA_15b_ra12">water</token>
+        <token id="WA_15b_ra13">drop</token>
+        <token id="WA_15b_ra14">is</token>
+        <token id="WA_15b_ra15">flat</token>
+        <token id="WA_15b_ra16">.</token>
+      </tokens>
+      <facets>
+        <facet id="WA_15b_f1" govNum="WA_15b_ra3" modNum="WA_15b_ra2" reltn="NMod" govText="tension" modText="surface"/>
+        <facet id="WA_15b_f2" govNum="WA_15b_ra5" modNum="WA_15b_ra3" reltn="Patient" govText="broken" modText="tension"/>
+        <facet id="WA_15b_f3" govNum="WA_15b_ra5" modNum="WA_15b_ra8" reltn="Instrument_by" govText="broken" modText="soap"/>
+        <facet id="WA_15b_f4" govNum="WA_15b_ra13" modNum="WA_15b_ra12" reltn="NMod" govText="drop" isAssumed="true" modText="water"/>
+        <facet id="WA_15b_f5" govNum="WA_15b_ra12" modNum="WA_15b_ra11" reltn="NMod" govText="water" isAssumed="true" modText="soapy"/>
+        <facet id="WA_15b_f6" govNum="WA_15b_ra13" modNum="WA_15b_ra15" reltn="Be" govText="drop" isAssumed="true" modText="flat"/>
+        <facet id="WA_15b_f7" govNum="WA_15b_ra14" modNum="WA_15b_ra4" reltn="Cause_so" childProp2Facet2="WA_15b_f1" childProp1Facet1="WA_15b_f6" govText="is" isAssumed="true" childProp1Facet2="WA_15b_f5" modText="is" childProp2Facet1="WA_15b_f2"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="WA.15b.172.1" answerText="The soapy water got flat because the soap in it broke its surface tension." accuracy="correct">
+      <facetEntailment facetID="WA_15b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f7" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.15b.173.1" answerText="Because soapy water is denser than plain water It looks kind of flat." accuracy="irrelevant">
+      <facetEntailment facetID="WA_15b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_15b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_15b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_15b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f7" label="Diff-Arg"/>
+    </studentAnswer>
+    <studentAnswer id="WA.15b.174.1" answerText="The soapy water breaks the surface tension and forms a puddle." accuracy="correct">
+      <facetEntailment facetID="WA_15b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f7" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.15b.176.1" answerText="Well the water and the air form but then the soap comes and it is too slippery so it breaks the surface tension." accuracy="correct">
+      <facetEntailment facetID="WA_15b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.15b.177.1" answerText="The soapy water has little soap molecules that breaks in up and the water cannot stick together as well." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="WA_15b_f1" label="Inferred"/>
+      <facetEntailment facetID="WA_15b_f2" label="Inferred"/>
+      <facetEntailment facetID="WA_15b_f3" label="Inferred"/>
+      <facetEntailment facetID="WA_15b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.15b.178.1" answerText="Some of the particles are dirty and broke down." accuracy="irrelevant">
+      <facetEntailment facetID="WA_15b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_15b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_15b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_15b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.15b.179.1" answerText="Because soap moves around water so it can make the water flat." accuracy="irrelevant">
+      <facetEntailment facetID="WA_15b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_15b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_15b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_15b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f7" label="Diff-Arg"/>
+    </studentAnswer>
+    <studentAnswer id="WA.15b.183.1" answerText="Because the soap would hold it down." accuracy="irrelevant">
+      <facetEntailment facetID="WA_15b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_15b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_15b_f3" label="Diff-Arg"/>
+      <facetEntailment facetID="WA_15b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.15b.185.1" answerText="Because the person did put soap on it and so it made the dome turn flat." accuracy="irrelevant">
+      <facetEntailment facetID="WA_15b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_15b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_15b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_15b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.15b.186.1" answerText="The soap broke the surface tension." accuracy="correct">
+      <facetEntailment facetID="WA_15b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.15b.187.1" answerText="The soapy water has soap in it. So the soap pull the drop down and made it flat." accuracy="irrelevant">
+      <facetEntailment facetID="WA_15b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_15b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_15b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.15b.188.1" answerText="The soap breaks the surface tension which makes the water spill." accuracy="correct">
+      <facetEntailment facetID="WA_15b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.15b.190.1" answerText="The soapy water looks like it does because it has something more dense than water which is soap." accuracy="irrelevant">
+      <facetEntailment facetID="WA_15b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_15b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_15b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_15b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.15b.191.1" answerText="The soapy water has a lot of soap so I do not think it has a lot of water tension." accuracy="correct">
+      <facetEntailment facetID="WA_15b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.15b.194.1" answerText="The soapy water has a lot of weight so the water spreads but still stays in one bead." accuracy="contradictory">
+      <facetEntailment facetID="WA_15b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_15b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_15b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_15b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f6" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_15b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.15b.195.1" answerText="Soap." accuracy="irrelevant">
+      <facetEntailment facetID="WA_15b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_15b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_15b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_15b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.15b.208.1" answerText="The chemicals in the soap made that drop break and fall to the ground." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="WA_15b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_15b_f2" label="Inferred"/>
+      <facetEntailment facetID="WA_15b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f7" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.15b.210.1" answerText="Well the soapy water has water in it." accuracy="irrelevant">
+      <facetEntailment facetID="WA_15b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_15b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_15b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_15b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.15b.212.1" answerText="Soapy water breaks the surface tension and the water spills." accuracy="correct">
+      <facetEntailment facetID="WA_15b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f7" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.15b.218.1" answerText="The soap." accuracy="irrelevant">
+      <facetEntailment facetID="WA_15b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_15b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_15b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_15b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.15b.219.1" answerText="The soapy water look like that because it does not have surface tension like the plain water." accuracy="correct">
+      <facetEntailment facetID="WA_15b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f2" label="Inferred"/>
+      <facetEntailment facetID="WA_15b_f3" label="Inferred"/>
+      <facetEntailment facetID="WA_15b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.15b.220.1" answerText="The soap breaks the surface tension." accuracy="correct">
+      <facetEntailment facetID="WA_15b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.15b.221.1" answerText="Maybe because of the bubbles." accuracy="irrelevant">
+      <facetEntailment facetID="WA_15b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_15b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_15b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_15b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.15b.225.1" answerText="Surface tension broke because of soap." accuracy="correct">
+      <facetEntailment facetID="WA_15b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.15b.226.1" answerText="The soap breaks the surface tension." accuracy="correct">
+      <facetEntailment facetID="WA_15b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.15b.227.1" answerText="It does not bead." accuracy="irrelevant">
+      <facetEntailment facetID="WA_15b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_15b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_15b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_15b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.15b.232.1" answerText="The reason why it Looks like it does is the soap breaks surface tension so it is flat." accuracy="correct">
+      <facetEntailment facetID="WA_15b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f7" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.15b.241.1" answerText="The surface tension cause it to fall, collapse, because there was soap in the water." accuracy="correct">
+      <facetEntailment facetID="WA_15b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f2" label="Inferred"/>
+      <facetEntailment facetID="WA_15b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.15b.247.1" answerText="The soap brakes the surface tension so there is no dome." accuracy="correct">
+      <facetEntailment facetID="WA_15b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f7" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.15b.248.1" answerText="The soapy water has soap in it and breaks the water." accuracy="irrelevant">
+      <facetEntailment facetID="WA_15b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_15b_f2" label="Diff-Arg"/>
+      <facetEntailment facetID="WA_15b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.15b.249.1" answerText="It looks like that because the surface tension is not wide enough to balance a big drop of water." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="WA_15b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f2" label="Diff-Arg"/>
+      <facetEntailment facetID="WA_15b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_15b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.15b.255.1" answerText="The soapy water looked this way because it had no surface tension because of the bubbles." accuracy="correct">
+      <facetEntailment facetID="WA_15b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f3" label="Inferred"/>
+      <facetEntailment facetID="WA_15b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.15b.258.1" answerText="What causes the soapy water to look how it is because there is chemicals is soap so there is chemicals in the water to make it look how it is." accuracy="irrelevant">
+      <facetEntailment facetID="WA_15b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_15b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_15b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_15b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.15b.260.1" answerText="The soap in the water makes the surface tension go away so it is flatter." accuracy="correct">
+      <facetEntailment facetID="WA_15b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f7" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.15b.262.1" answerText="Because the soapy water has less texture." accuracy="irrelevant">
+      <facetEntailment facetID="WA_15b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_15b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_15b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_15b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.15b.263.1" answerText="Soap breaks the surface tension that is why it looks like that." accuracy="correct">
+      <facetEntailment facetID="WA_15b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.15b.267.1" answerText="It has soap and has water combined with it." accuracy="irrelevant">
+      <facetEntailment facetID="WA_15b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_15b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_15b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_15b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.15b.280.1" answerText="The soapy water does not have surface tension but plain water does." accuracy="correct">
+      <facetEntailment facetID="WA_15b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f2" label="Inferred"/>
+      <facetEntailment facetID="WA_15b_f3" label="Inferred"/>
+      <facetEntailment facetID="WA_15b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.15b.281.1" answerText="Because it is soapy water and it pops." accuracy="irrelevant">
+      <facetEntailment facetID="WA_15b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_15b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_15b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_15b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.15b.284.1" answerText="Because the soapy water had less water." accuracy="irrelevant">
+      <facetEntailment facetID="WA_15b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_15b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_15b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_15b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.15b.285.1" answerText="Soap added to plain water reduces or weakens the surface tension. Salt does not effect it." accuracy="correct">
+      <facetEntailment facetID="WA_15b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.15b.292.1" answerText="The soapy water was too denser." accuracy="irrelevant">
+      <facetEntailment facetID="WA_15b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_15b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_15b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_15b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.15b.294.1" answerText="The soapy water does not have surface tension skin." accuracy="correct">
+      <facetEntailment facetID="WA_15b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.15b.296.1" answerText="Soapy water is so slippery it causes it to pop." accuracy="irrelevant">
+      <facetEntailment facetID="WA_15b_f1" label="Inferred"/>
+      <facetEntailment facetID="WA_15b_f2" label="Inferred"/>
+      <facetEntailment facetID="WA_15b_f3" label="Inferred"/>
+      <facetEntailment facetID="WA_15b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.15b.297.1" answerText="Soapy water looked like that because it was just flat on the table it did not bead together." accuracy="irrelevant">
+      <facetEntailment facetID="WA_15b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_15b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_15b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_15b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.15b.300.1" answerText="The soap makes the dome break." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="WA_15b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_15b_f2" label="Diff-Arg"/>
+      <facetEntailment facetID="WA_15b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.15b.301.1" answerText="The soapy water had soap in it. It cannot stack. It just formed a puddle." accuracy="irrelevant">
+      <facetEntailment facetID="WA_15b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_15b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_15b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_15b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.15b.351.1" answerText="Soapy water." accuracy="irrelevant">
+      <facetEntailment facetID="WA_15b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_15b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_15b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_15b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.15b.356.1" answerText="I do not know why." accuracy="non_domain">
+      <facetEntailment facetID="WA_15b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_15b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_15b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_15b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.15b.362.1" answerText="It has got too much soap." accuracy="irrelevant">
+      <facetEntailment facetID="WA_15b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_15b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_15b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_15b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.15b.363.1" answerText="Because the soapy water expands." accuracy="irrelevant">
+      <facetEntailment facetID="WA_15b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_15b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_15b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_15b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.15b.364.1" answerText="Because it is kind of slippery." accuracy="irrelevant">
+      <facetEntailment facetID="WA_15b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_15b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_15b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_15b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.15b.366.1" answerText="The soapy water dome is flat because it is soapy and slippery." accuracy="irrelevant">
+      <facetEntailment facetID="WA_15b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_15b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_15b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_15b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f7" label="Diff-Arg"/>
+    </studentAnswer>
+    <studentAnswer id="WA.15b.367.1" answerText="The soapy water Cannot form up because it does not have surface tension." accuracy="correct">
+      <facetEntailment facetID="WA_15b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f2" label="Inferred"/>
+      <facetEntailment facetID="WA_15b_f3" label="Inferred"/>
+      <facetEntailment facetID="WA_15b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.15b.368.1" answerText="Because soapy water breaks the dome not like plain water. Surface tension." accuracy="correct">
+      <facetEntailment facetID="WA_15b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f7" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.15b.381.1" answerText="The soapy water made it go down." accuracy="irrelevant">
+      <facetEntailment facetID="WA_15b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_15b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_15b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_15b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.15b.382.1" answerText="Heavier than plain water." accuracy="irrelevant">
+      <facetEntailment facetID="WA_15b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_15b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_15b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_15b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.15b.383.1" answerText="Surface tension." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="WA_15b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_15b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_15b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.15b.390.1" answerText="When you add soapy water, the soap breaks the surface tension, so it is not as round." accuracy="correct">
+      <facetEntailment facetID="WA_15b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f7" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.15b.396.1" answerText="It has more weight and density." accuracy="irrelevant">
+      <facetEntailment facetID="WA_15b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_15b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_15b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_15b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.15b.398.1" answerText="The soapy water looks like that because it has no surface tension because the soap breaks surface tension." accuracy="correct">
+      <facetEntailment facetID="WA_15b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f7" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.15b.399.1" answerText="Because soap breaks the surface tension and Becomes flat." accuracy="correct">
+      <facetEntailment facetID="WA_15b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f7" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.15b.451.1" answerText="The soap caused the surface tension to break." accuracy="correct">
+      <facetEntailment facetID="WA_15b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.15b.452.1" answerText="It had particles in it." accuracy="irrelevant">
+      <facetEntailment facetID="WA_15b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_15b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_15b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_15b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.15b.453.1" answerText="Because of the soap it has something in it." accuracy="irrelevant">
+      <facetEntailment facetID="WA_15b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_15b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_15b_f3" label="Inferred"/>
+      <facetEntailment facetID="WA_15b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.15b.456.1" answerText="Surface Tension." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="WA_15b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_15b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_15b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.15b.457.1" answerText="The soap because it lowers surface tension." accuracy="correct">
+      <facetEntailment facetID="WA_15b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f2" label="Inferred"/>
+      <facetEntailment facetID="WA_15b_f3" label="Inferred"/>
+      <facetEntailment facetID="WA_15b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.15b.458.1" answerText="Soap." accuracy="irrelevant">
+      <facetEntailment facetID="WA_15b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_15b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_15b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_15b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.15b.459.1" answerText="Soap breaks the surface tension causing the water to spread out." accuracy="correct">
+      <facetEntailment facetID="WA_15b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f7" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.15b.464.1" answerText="The soap in the water made it heavy and broke down the water." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="WA_15b_f1" label="Diff-Arg"/>
+      <facetEntailment facetID="WA_15b_f2" label="Diff-Arg"/>
+      <facetEntailment facetID="WA_15b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.15b.466.1" answerText="The soap in the water." accuracy="irrelevant">
+      <facetEntailment facetID="WA_15b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_15b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_15b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_15b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.15b.467.1" answerText="No surface tension." accuracy="correct">
+      <facetEntailment facetID="WA_15b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_15b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.15b.531.1" answerText="Soapy water almost breaks it in fact it does!" accuracy="irrelevant">
+      <facetEntailment facetID="WA_15b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_15b_f2" label="Inferred"/>
+      <facetEntailment facetID="WA_15b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.15b.532.1" answerText="The soapy water looks like that because it has all those bubbles which makes the surface area go down." accuracy="irrelevant">
+      <facetEntailment facetID="WA_15b_f1" label="Diff-Arg"/>
+      <facetEntailment facetID="WA_15b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_15b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_15b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.15b.533.1" answerText="The soapy water looks like that because if you put drops of soapy water on a penny it does not take as long to break the surface tension as the plain water." accuracy="correct">
+      <facetEntailment facetID="WA_15b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.15b.534.1" answerText="The soapy water has almost no surface tension." accuracy="correct">
+      <facetEntailment facetID="WA_15b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f2" label="Inferred"/>
+      <facetEntailment facetID="WA_15b_f3" label="Inferred"/>
+      <facetEntailment facetID="WA_15b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.15b.535.1" answerText="Soapy water breaks up the grip of the water minerals." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="WA_15b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_15b_f2" label="Inferred"/>
+      <facetEntailment facetID="WA_15b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.15b.536.1" answerText="The soapy water has less surface tension to hold the bubble together It breaks the bubble with one drop." accuracy="correct">
+      <facetEntailment facetID="WA_15b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.15b.539.1" answerText="Because it evaporated." accuracy="irrelevant">
+      <facetEntailment facetID="WA_15b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_15b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_15b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_15b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.15b.542.1" answerText="The soapy water looks like that because there are chemicals in it." accuracy="irrelevant">
+      <facetEntailment facetID="WA_15b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_15b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_15b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_15b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.15b.556.1" answerText="The soap weighs down the dome of water, causing it to look flat." accuracy="irrelevant">
+      <facetEntailment facetID="WA_15b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_15b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_15b_f3" label="Inferred"/>
+      <facetEntailment facetID="WA_15b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f7" label="Diff-Arg"/>
+    </studentAnswer>
+    <studentAnswer id="WA.15b.559.1" answerText="It has more weight." accuracy="irrelevant">
+      <facetEntailment facetID="WA_15b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_15b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_15b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_15b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.15b.560.1" answerText="Soapy water has soap in it so it looks flatter." accuracy="irrelevant">
+      <facetEntailment facetID="WA_15b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_15b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_15b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_15b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f7" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.15b.561.1" answerText="The soap flattens out the drop." accuracy="irrelevant">
+      <facetEntailment facetID="WA_15b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_15b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_15b_f3" label="Inferred"/>
+      <facetEntailment facetID="WA_15b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f7" label="Diff-Arg"/>
+    </studentAnswer>
+    <studentAnswer id="WA.15b.575.1" answerText="The soap broke the surface tension." accuracy="correct">
+      <facetEntailment facetID="WA_15b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.15b.576.1" answerText="There more weight on it." accuracy="irrelevant">
+      <facetEntailment facetID="WA_15b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_15b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_15b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_15b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.15b.577.1" answerText="The soapy water breaks the surface tension." accuracy="correct">
+      <facetEntailment facetID="WA_15b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.15b.595.1" answerText="The soap is pushing it down." accuracy="irrelevant">
+      <facetEntailment facetID="WA_15b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_15b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_15b_f3" label="Inferred"/>
+      <facetEntailment facetID="WA_15b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.15b.596.1" answerText="Air bubbles are inside the drop so it not as dense as the plain water and expands." accuracy="irrelevant">
+      <facetEntailment facetID="WA_15b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_15b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_15b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_15b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.15b.597.1" answerText="The soap added and surface tension." accuracy="contradictory">
+      <facetEntailment facetID="WA_15b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f2" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_15b_f3" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_15b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.15b.598.1" answerText="The surface tension broke and spread out." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="WA_15b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_15b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.15b.599.1" answerText="Because when you put water and soap together it makes bubbles and it had more bubbles than water." accuracy="irrelevant">
+      <facetEntailment facetID="WA_15b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_15b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_15b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_15b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.15b.600.1" answerText="Because soap breaks surface tension so it has no surface tension!" accuracy="correct">
+      <facetEntailment facetID="WA_15b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.15b.626.1" answerText="Because of its particles." accuracy="irrelevant">
+      <facetEntailment facetID="WA_15b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_15b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_15b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_15b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.15b.629.1" answerText="The surface tension." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="WA_15b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_15b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_15b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.15b.630.1" answerText="It breaks surface tension." accuracy="correct">
+      <facetEntailment facetID="WA_15b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f3" label="Inferred"/>
+      <facetEntailment facetID="WA_15b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.15b.632.1" answerText="The soapy water is too strong for the surface tension to hold it up." accuracy="correct">
+      <facetEntailment facetID="WA_15b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f2" label="Inferred"/>
+      <facetEntailment facetID="WA_15b_f3" label="Inferred"/>
+      <facetEntailment facetID="WA_15b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.15b.635.1" answerText="The soapy water break the surface tension." accuracy="correct">
+      <facetEntailment facetID="WA_15b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_15b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.15b.646.1" answerText="Because soap is heavy." accuracy="irrelevant">
+      <facetEntailment facetID="WA_15b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_15b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_15b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_15b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_15b_f7" label="Assumed"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

@@ -1,0 +1,383 @@
+<?xml version="1.0"?>
+<question id="ME_10" module="ME">
+  <questionText>The motors shown at the right with the D-cell batteries will NOT run. Explain why.</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="ME_10-a1" text="The negative terminals of the D-cell batteries are facing each other, so there is no flow of electricity.">
+      <tokens>
+        <token id="ME_10_ra1">The</token>
+        <token id="ME_10_ra2">negative</token>
+        <token id="ME_10_ra3">terminals</token>
+        <token id="ME_10_ra4">of</token>
+        <token id="ME_10_ra5">the</token>
+        <token id="ME_10_ra6">D-cell</token>
+        <token id="ME_10_ra7">batteries</token>
+        <token id="ME_10_ra8">are</token>
+        <token id="ME_10_ra9">facing</token>
+        <token id="ME_10_ra10">each</token>
+        <token id="ME_10_ra11">other</token>
+        <token id="ME_10_ra12">,</token>
+        <token id="ME_10_ra13">so</token>
+        <token id="ME_10_ra14">there</token>
+        <token id="ME_10_ra15">is</token>
+        <token id="ME_10_ra16">no</token>
+        <token id="ME_10_ra17">flow</token>
+        <token id="ME_10_ra18">of</token>
+        <token id="ME_10_ra19">electricity</token>
+        <token id="ME_10_ra20">.</token>
+      </tokens>
+      <facets>
+        <facet id="ME_10_f1" govNum="ME_10_ra3" modNum="ME_10_ra2" reltn="NMod" govText="terminals" modText="negative"/>
+        <facet id="ME_10_f2" govNum="ME_10_ra3" modNum="ME_10_ra7" reltn="NMod_of" govText="terminals" modText="batteries "/>
+        <facet id="ME_10_f3" govNum="ME_10_ra7" modNum="ME_10_ra6" reltn="NMod" govText="batteries" isAssumed="true" modText="D-cell"/>
+        <facet id="ME_10_f4" govNum="ME_10_ra9" modNum="ME_10_ra3" reltn="Theme" govText="facing" modText="terminals"/>
+        <facet id="ME_10_f5" govNum="ME_10_ra9" modNum="ME_10_ra10" reltn="Direction" govText="facing" modText="each other"/>
+        <facet id="ME_10_f6" govNum="ME_10_ra17" modNum="ME_10_ra19" reltn="Theme_neg_no" govText="flow" modText="electricity"/>
+        <facet id="ME_10_f7" govNum="ME_10_ra15" modNum="ME_10_ra9" reltn="Cause_so" childProp2Facet2="ME_10_f5" childProp1Facet1="ME_10_f6" govText="is" modText="facing" childProp2Facet1="ME_10_f4"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="ME.10.101.1" answerText="The motors will not run because it goes from the positive side to the positive side it has to go from positive to negative to work." accuracy="correct">
+      <facetEntailment facetID="ME_10_f1" label="Inferred"/>
+      <facetEntailment facetID="ME_10_f2" label="Inferred"/>
+      <facetEntailment facetID="ME_10_f3" label="Assumed"/>
+      <facetEntailment facetID="ME_10_f4" label="Inferred"/>
+      <facetEntailment facetID="ME_10_f5" label="Inferred"/>
+      <facetEntailment facetID="ME_10_f6" label="Inferred"/>
+      <facetEntailment facetID="ME_10_f7" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="ME.10.102.1" answerText="It will not work because the positive is going to the positive end, the positive need to run into the negative side for it to run." accuracy="correct">
+      <facetEntailment facetID="ME_10_f1" label="Inferred"/>
+      <facetEntailment facetID="ME_10_f2" label="Inferred"/>
+      <facetEntailment facetID="ME_10_f3" label="Assumed"/>
+      <facetEntailment facetID="ME_10_f4" label="Inferred"/>
+      <facetEntailment facetID="ME_10_f5" label="Inferred"/>
+      <facetEntailment facetID="ME_10_f6" label="Inferred"/>
+      <facetEntailment facetID="ME_10_f7" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="ME.10.111.1" answerText="It is not put to series." accuracy="irrelevant">
+      <facetEntailment facetID="ME_10_f1" label="Unaddressed"/>
+      <facetEntailment facetID="ME_10_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ME_10_f3" label="Assumed"/>
+      <facetEntailment facetID="ME_10_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_10_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ME_10_f6" label="Unaddressed"/>
+      <facetEntailment facetID="ME_10_f7" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.10.113.1" answerText="Because it is hooked up negative to negative and positive to positive." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="ME_10_f1" label="Inferred"/>
+      <facetEntailment facetID="ME_10_f2" label="Inferred"/>
+      <facetEntailment facetID="ME_10_f3" label="Assumed"/>
+      <facetEntailment facetID="ME_10_f4" label="Inferred"/>
+      <facetEntailment facetID="ME_10_f5" label="Inferred"/>
+      <facetEntailment facetID="ME_10_f6" label="Unaddressed"/>
+      <facetEntailment facetID="ME_10_f7" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.10.118.1" answerText="It needs to be negative to positive." accuracy="correct">
+      <facetEntailment facetID="ME_10_f1" label="Inferred"/>
+      <facetEntailment facetID="ME_10_f2" label="Inferred"/>
+      <facetEntailment facetID="ME_10_f3" label="Assumed"/>
+      <facetEntailment facetID="ME_10_f4" label="Inferred"/>
+      <facetEntailment facetID="ME_10_f5" label="Inferred"/>
+      <facetEntailment facetID="ME_10_f6" label="Inferred"/>
+      <facetEntailment facetID="ME_10_f7" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="ME.10.120.1" answerText="It will not work because it is negative to negative, it has to positive to negative." accuracy="correct">
+      <facetEntailment facetID="ME_10_f1" label="Inferred"/>
+      <facetEntailment facetID="ME_10_f2" label="Inferred"/>
+      <facetEntailment facetID="ME_10_f3" label="Assumed"/>
+      <facetEntailment facetID="ME_10_f4" label="Inferred"/>
+      <facetEntailment facetID="ME_10_f5" label="Inferred"/>
+      <facetEntailment facetID="ME_10_f6" label="Inferred"/>
+      <facetEntailment facetID="ME_10_f7" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="ME.10.121.1" answerText="The batteries are negative to negative." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="ME_10_f1" label="Inferred"/>
+      <facetEntailment facetID="ME_10_f2" label="Inferred"/>
+      <facetEntailment facetID="ME_10_f3" label="Assumed"/>
+      <facetEntailment facetID="ME_10_f4" label="Inferred"/>
+      <facetEntailment facetID="ME_10_f5" label="Inferred"/>
+      <facetEntailment facetID="ME_10_f6" label="Unaddressed"/>
+      <facetEntailment facetID="ME_10_f7" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.10.123.1" answerText="It will not run because negative and negative and positive and positive are facing the same way." accuracy="correct">
+      <facetEntailment facetID="ME_10_f1" label="Inferred"/>
+      <facetEntailment facetID="ME_10_f2" label="Inferred"/>
+      <facetEntailment facetID="ME_10_f3" label="Assumed"/>
+      <facetEntailment facetID="ME_10_f4" label="Expressed"/>
+      <facetEntailment facetID="ME_10_f5" label="Expressed"/>
+      <facetEntailment facetID="ME_10_f6" label="Inferred"/>
+      <facetEntailment facetID="ME_10_f7" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="ME.10.144.1" answerText="Because the wires in between the D-cells are connected to the same end." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="ME_10_f1" label="Unaddressed"/>
+      <facetEntailment facetID="ME_10_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ME_10_f3" label="Expressed"/>
+      <facetEntailment facetID="ME_10_f4" label="Inferred"/>
+      <facetEntailment facetID="ME_10_f5" label="Inferred"/>
+      <facetEntailment facetID="ME_10_f6" label="Unaddressed"/>
+      <facetEntailment facetID="ME_10_f7" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.10.147.1" answerText="It is go out the wrong way." accuracy="irrelevant">
+      <facetEntailment facetID="ME_10_f1" label="Unaddressed"/>
+      <facetEntailment facetID="ME_10_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ME_10_f3" label="Assumed"/>
+      <facetEntailment facetID="ME_10_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_10_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ME_10_f6" label="Unaddressed"/>
+      <facetEntailment facetID="ME_10_f7" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.10.148.1" answerText="The 2 negative ends of the D-cells are facing each other and the electricity cannot get out." accuracy="correct">
+      <facetEntailment facetID="ME_10_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_10_f2" label="Expressed"/>
+      <facetEntailment facetID="ME_10_f3" label="Expressed"/>
+      <facetEntailment facetID="ME_10_f4" label="Expressed"/>
+      <facetEntailment facetID="ME_10_f5" label="Expressed"/>
+      <facetEntailment facetID="ME_10_f6" label="Expressed"/>
+      <facetEntailment facetID="ME_10_f7" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.10.154.1" answerText="Both of the motors are hooked up to the positive wire, in order for it to work one has to be hooked to a positive and the other has to be hooked up to a negative." accuracy="correct">
+      <facetEntailment facetID="ME_10_f1" label="Inferred"/>
+      <facetEntailment facetID="ME_10_f2" label="Inferred"/>
+      <facetEntailment facetID="ME_10_f3" label="Assumed"/>
+      <facetEntailment facetID="ME_10_f4" label="Inferred"/>
+      <facetEntailment facetID="ME_10_f5" label="Inferred"/>
+      <facetEntailment facetID="ME_10_f6" label="Inferred"/>
+      <facetEntailment facetID="ME_10_f7" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="ME.10.155.1" answerText="They will not run because the electricity is going in a circle. And the electricity would be run in and out." accuracy="contradictory">
+      <facetEntailment facetID="ME_10_f1" label="Unaddressed"/>
+      <facetEntailment facetID="ME_10_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ME_10_f3" label="Assumed"/>
+      <facetEntailment facetID="ME_10_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_10_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ME_10_f6" label="Contra-Infr"/>
+      <facetEntailment facetID="ME_10_f7" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.10.174.1" answerText="The motors at the right will not run because the electricity flows out of the negative side and they have the D-cells trying to make electricity flow out the positive side." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="ME_10_f1" label="Inferred"/>
+      <facetEntailment facetID="ME_10_f2" label="Inferred"/>
+      <facetEntailment facetID="ME_10_f3" label="Expressed"/>
+      <facetEntailment facetID="ME_10_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_10_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ME_10_f6" label="Inferred"/>
+      <facetEntailment facetID="ME_10_f7" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.10.176.1" answerText="One battery is the wrong way." accuracy="irrelevant">
+      <facetEntailment facetID="ME_10_f1" label="Unaddressed"/>
+      <facetEntailment facetID="ME_10_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ME_10_f3" label="Assumed"/>
+      <facetEntailment facetID="ME_10_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_10_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ME_10_f6" label="Unaddressed"/>
+      <facetEntailment facetID="ME_10_f7" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.10.180.1" answerText="It will not run because there is not enough D-cells to make both of them work." accuracy="irrelevant">
+      <facetEntailment facetID="ME_10_f1" label="Unaddressed"/>
+      <facetEntailment facetID="ME_10_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ME_10_f3" label="Expressed"/>
+      <facetEntailment facetID="ME_10_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_10_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ME_10_f6" label="Unaddressed"/>
+      <facetEntailment facetID="ME_10_f7" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.10.181.1" answerText="Because a negative and a negative will not work." accuracy="correct">
+      <facetEntailment facetID="ME_10_f1" label="Inferred"/>
+      <facetEntailment facetID="ME_10_f2" label="Inferred"/>
+      <facetEntailment facetID="ME_10_f3" label="Assumed"/>
+      <facetEntailment facetID="ME_10_f4" label="Inferred"/>
+      <facetEntailment facetID="ME_10_f5" label="Inferred"/>
+      <facetEntailment facetID="ME_10_f6" label="Inferred"/>
+      <facetEntailment facetID="ME_10_f7" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="ME.10.185.1" answerText="The motor shall not run because electricity flows out of the negative side of the battery." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="ME_10_f1" label="Inferred"/>
+      <facetEntailment facetID="ME_10_f2" label="Inferred"/>
+      <facetEntailment facetID="ME_10_f3" label="Assumed"/>
+      <facetEntailment facetID="ME_10_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_10_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ME_10_f6" label="Inferred"/>
+      <facetEntailment facetID="ME_10_f7" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.10.191.1" answerText="The motors will not run because the D-cells has to be switched around." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="ME_10_f1" label="Unaddressed"/>
+      <facetEntailment facetID="ME_10_f2" label="Inferred"/>
+      <facetEntailment facetID="ME_10_f3" label="Expressed"/>
+      <facetEntailment facetID="ME_10_f4" label="Inferred"/>
+      <facetEntailment facetID="ME_10_f5" label="Inferred"/>
+      <facetEntailment facetID="ME_10_f6" label="Inferred"/>
+      <facetEntailment facetID="ME_10_f7" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="ME.10.192.1" answerText="They will not run because the electricity gets stopped when it goes through the D-cells." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="ME_10_f1" label="Unaddressed"/>
+      <facetEntailment facetID="ME_10_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ME_10_f3" label="Expressed"/>
+      <facetEntailment facetID="ME_10_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_10_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ME_10_f6" label="Expressed"/>
+      <facetEntailment facetID="ME_10_f7" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.10.208.1" answerText="The motors shown at the right will not run because 2 negatives are connected." accuracy="correct">
+      <facetEntailment facetID="ME_10_f1" label="Inferred"/>
+      <facetEntailment facetID="ME_10_f2" label="Inferred"/>
+      <facetEntailment facetID="ME_10_f3" label="Assumed"/>
+      <facetEntailment facetID="ME_10_f4" label="Inferred"/>
+      <facetEntailment facetID="ME_10_f5" label="Inferred"/>
+      <facetEntailment facetID="ME_10_f6" label="Inferred"/>
+      <facetEntailment facetID="ME_10_f7" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="ME.10.216.1" answerText="The wires are not supposed to be connected like that." accuracy="irrelevant">
+      <facetEntailment facetID="ME_10_f1" label="Unaddressed"/>
+      <facetEntailment facetID="ME_10_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ME_10_f3" label="Assumed"/>
+      <facetEntailment facetID="ME_10_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_10_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ME_10_f6" label="Unaddressed"/>
+      <facetEntailment facetID="ME_10_f7" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.10.224.1" answerText="Because you need more wires." accuracy="irrelevant">
+      <facetEntailment facetID="ME_10_f1" label="Unaddressed"/>
+      <facetEntailment facetID="ME_10_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ME_10_f3" label="Assumed"/>
+      <facetEntailment facetID="ME_10_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_10_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ME_10_f6" label="Unaddressed"/>
+      <facetEntailment facetID="ME_10_f7" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.10.226.1" answerText="Because the motors do not have a minus side. They both have a positive side." accuracy="contradictory">
+      <facetEntailment facetID="ME_10_f1" label="Contra-Infr"/>
+      <facetEntailment facetID="ME_10_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ME_10_f3" label="Assumed"/>
+      <facetEntailment facetID="ME_10_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_10_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ME_10_f6" label="Unaddressed"/>
+      <facetEntailment facetID="ME_10_f7" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.10.227.1" answerText="The motor at the right will not run because each one does not have a positive and a negative." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="ME_10_f1" label="Inferred"/>
+      <facetEntailment facetID="ME_10_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ME_10_f3" label="Assumed"/>
+      <facetEntailment facetID="ME_10_f4" label="Inferred"/>
+      <facetEntailment facetID="ME_10_f5" label="Inferred"/>
+      <facetEntailment facetID="ME_10_f6" label="Unaddressed"/>
+      <facetEntailment facetID="ME_10_f7" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.10.245.1" answerText="Because positive is facing it." accuracy="irrelevant">
+      <facetEntailment facetID="ME_10_f1" label="Unaddressed"/>
+      <facetEntailment facetID="ME_10_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ME_10_f3" label="Assumed"/>
+      <facetEntailment facetID="ME_10_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_10_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ME_10_f6" label="Unaddressed"/>
+      <facetEntailment facetID="ME_10_f7" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.10.247.1" answerText="Maybe the left wire went out of energy so maybe the right one went out of energy so both of them are out." accuracy="irrelevant">
+      <facetEntailment facetID="ME_10_f1" label="Unaddressed"/>
+      <facetEntailment facetID="ME_10_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ME_10_f3" label="Assumed"/>
+      <facetEntailment facetID="ME_10_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_10_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ME_10_f6" label="Unaddressed"/>
+      <facetEntailment facetID="ME_10_f7" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.10.250.1" answerText="If you look very closely the positive to positive and negative to negative. Positive and positive do not go together." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="ME_10_f1" label="Inferred"/>
+      <facetEntailment facetID="ME_10_f2" label="Inferred"/>
+      <facetEntailment facetID="ME_10_f3" label="Assumed"/>
+      <facetEntailment facetID="ME_10_f4" label="Inferred"/>
+      <facetEntailment facetID="ME_10_f5" label="Inferred"/>
+      <facetEntailment facetID="ME_10_f6" label="Unaddressed"/>
+      <facetEntailment facetID="ME_10_f7" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.10.253.1" answerText="It will not work because it is dead battery." accuracy="irrelevant">
+      <facetEntailment facetID="ME_10_f1" label="Unaddressed"/>
+      <facetEntailment facetID="ME_10_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ME_10_f3" label="Assumed"/>
+      <facetEntailment facetID="ME_10_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_10_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ME_10_f6" label="Unaddressed"/>
+      <facetEntailment facetID="ME_10_f7" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.10.276.1" answerText="Because one has the most power than the other one." accuracy="irrelevant">
+      <facetEntailment facetID="ME_10_f1" label="Unaddressed"/>
+      <facetEntailment facetID="ME_10_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ME_10_f3" label="Assumed"/>
+      <facetEntailment facetID="ME_10_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_10_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ME_10_f6" label="Unaddressed"/>
+      <facetEntailment facetID="ME_10_f7" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.10.284.1" answerText="Because one D-cell has to be between the motors." accuracy="irrelevant">
+      <facetEntailment facetID="ME_10_f1" label="Unaddressed"/>
+      <facetEntailment facetID="ME_10_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ME_10_f3" label="Expressed"/>
+      <facetEntailment facetID="ME_10_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_10_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ME_10_f6" label="Unaddressed"/>
+      <facetEntailment facetID="ME_10_f7" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.10.293.1" answerText="The motor will not run because it is in an open circuit." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="ME_10_f1" label="Unaddressed"/>
+      <facetEntailment facetID="ME_10_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ME_10_f3" label="Assumed"/>
+      <facetEntailment facetID="ME_10_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_10_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ME_10_f6" label="Expressed"/>
+      <facetEntailment facetID="ME_10_f7" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.10.311.1" answerText="The wires are at the negative end of the battery or D-cell so the motor is not going to run because the wire is at the negative end." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="ME_10_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_10_f2" label="Expressed"/>
+      <facetEntailment facetID="ME_10_f3" label="Expressed"/>
+      <facetEntailment facetID="ME_10_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_10_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ME_10_f6" label="Inferred"/>
+      <facetEntailment facetID="ME_10_f7" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="ME.10.314.1" answerText="The D-cell is hooked up to the negative end and the other negative end and it cannot get any energy." accuracy="correct">
+      <facetEntailment facetID="ME_10_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_10_f2" label="Inferred"/>
+      <facetEntailment facetID="ME_10_f3" label="Expressed"/>
+      <facetEntailment facetID="ME_10_f4" label="Inferred"/>
+      <facetEntailment facetID="ME_10_f5" label="Inferred"/>
+      <facetEntailment facetID="ME_10_f6" label="Expressed"/>
+      <facetEntailment facetID="ME_10_f7" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="ME.10.318.1" answerText="The negative end is pointing at the negative end so no electricity can flow to the motors." accuracy="correct">
+      <facetEntailment facetID="ME_10_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_10_f2" label="Inferred"/>
+      <facetEntailment facetID="ME_10_f3" label="Assumed"/>
+      <facetEntailment facetID="ME_10_f4" label="Expressed"/>
+      <facetEntailment facetID="ME_10_f5" label="Expressed"/>
+      <facetEntailment facetID="ME_10_f6" label="Expressed"/>
+      <facetEntailment facetID="ME_10_f7" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.10.324.1" answerText="The negative end are sharing so the D-cell is getting all the power." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="ME_10_f1" label="Inferred"/>
+      <facetEntailment facetID="ME_10_f2" label="Inferred"/>
+      <facetEntailment facetID="ME_10_f3" label="Expressed"/>
+      <facetEntailment facetID="ME_10_f4" label="Inferred"/>
+      <facetEntailment facetID="ME_10_f5" label="Inferred"/>
+      <facetEntailment facetID="ME_10_f6" label="Unaddressed"/>
+      <facetEntailment facetID="ME_10_f7" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.10.325.1" answerText="Because electricity does not flow from positive to positive they flow from negative to positive." accuracy="correct">
+      <facetEntailment facetID="ME_10_f1" label="Inferred"/>
+      <facetEntailment facetID="ME_10_f2" label="Inferred"/>
+      <facetEntailment facetID="ME_10_f3" label="Assumed"/>
+      <facetEntailment facetID="ME_10_f4" label="Inferred"/>
+      <facetEntailment facetID="ME_10_f5" label="Inferred"/>
+      <facetEntailment facetID="ME_10_f6" label="Inferred"/>
+      <facetEntailment facetID="ME_10_f7" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="ME.10.328.1" answerText="The electricity is flowing from a positive to a positive end, when the negative should give the electricity to the motor and back to a positive end." accuracy="correct">
+      <facetEntailment facetID="ME_10_f1" label="Inferred"/>
+      <facetEntailment facetID="ME_10_f2" label="Inferred"/>
+      <facetEntailment facetID="ME_10_f3" label="Assumed"/>
+      <facetEntailment facetID="ME_10_f4" label="Inferred"/>
+      <facetEntailment facetID="ME_10_f5" label="Inferred"/>
+      <facetEntailment facetID="ME_10_f6" label="Inferred"/>
+      <facetEntailment facetID="ME_10_f7" label="Inferred"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

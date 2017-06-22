@@ -1,0 +1,119 @@
+<?xml version="1.0"?>
+<question testSet="unseen-answers" id="MS_39" module="MS">
+  <questionText>Why is it important to use a standard unit when making a measurement?</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="MS_39-a1" text="So people know exactly what the measurement means. A standard is necessary so everyone measures using the same unit and everyone gets the same measurement.">
+      <tokens>
+        <token id="MS_39_ra1">So</token>
+        <token id="MS_39_ra2">people</token>
+        <token id="MS_39_ra3">know</token>
+        <token id="MS_39_ra4">exactly</token>
+        <token id="MS_39_ra5">what</token>
+        <token id="MS_39_ra6">the</token>
+        <token id="MS_39_ra7">measurement</token>
+        <token id="MS_39_ra8">means</token>
+        <token id="MS_39_ra9">.</token>
+        <token id="MS_39_ra10">A</token>
+        <token id="MS_39_ra11">standard</token>
+        <token id="MS_39_ra12">is</token>
+        <token id="MS_39_ra13">necessary</token>
+        <token id="MS_39_ra14">so</token>
+        <token id="MS_39_ra15">everyone</token>
+        <token id="MS_39_ra16">measures</token>
+        <token id="MS_39_ra17">using</token>
+        <token id="MS_39_ra18">the</token>
+        <token id="MS_39_ra19">same</token>
+        <token id="MS_39_ra20">unit</token>
+        <token id="MS_39_ra21">and</token>
+        <token id="MS_39_ra22">everyone</token>
+        <token id="MS_39_ra23">gets</token>
+        <token id="MS_39_ra24">the</token>
+        <token id="MS_39_ra25">same</token>
+        <token id="MS_39_ra26">measurement</token>
+        <token id="MS_39_ra27">.</token>
+      </tokens>
+      <facets>
+        <facet id="MS_39_f1" govNum="MS_39_ra3" modNum="MS_39_ra2" reltn="Agent" govText="know" modText="people"/>
+        <facet id="MS_39_f2" govNum="MS_39_ra3" modNum="MS_39_ra8" reltn="Theme_what" govText="know" modText="means"/>
+        <facet id="MS_39_f3" govNum="MS_39_ra3" modNum="MS_39_ra4" reltn="Manner" govText="know" isAssumed="true" modText="exactly"/>
+        <facet id="MS_39_f4" govNum="MS_39_ra8" modNum="MS_39_ra7" reltn="Cause_what" govText="means" modText="measurement"/>
+        <facet id="MS_39_f5" govNum="MS_39_ra11" modNum="MS_39_ra13" reltn="Be" govText="standard" isAssumed="true" modText="necessary"/>
+        <facet id="MS_39_f6" govNum="MS_39_ra16" modNum="MS_39_ra15" reltn="Agent" govText="measures" isAssumed="true" modText="everyone"/>
+        <facet id="MS_39_f7" govNum="MS_39_ra17" modNum="MS_39_ra20" reltn="Theme" govText="using" isAssumed="true" modText="unit"/>
+        <facet id="MS_39_f8" govNum="MS_39_ra20" modNum="MS_39_ra19" reltn="NMod" govText="unit" modText="same"/>
+        <facet id="MS_39_f9" govNum="MS_39_ra17" modNum="MS_39_ra16" reltn="Purpose" childProp1Facet1="MS_39_f7" govText="using" isAssumed="true" childProp1Facet2="MS_39_f8" modText="measures" childProp2Facet1="MS_39_f6"/>
+        <facet id="MS_39_f10" govNum="MS_39_ra16" modNum="MS_39_ra12" reltn="Cause_so" childProp1Facet1="MS_39_f6" govText="measures" modText="is" childProp2Facet1="MS_39_f5"/>
+        <facet id="MS_39_f11" govNum="MS_39_ra23" modNum="MS_39_ra22" reltn="Agent" govText="gets" isAssumed="true" modText="everyone"/>
+        <facet id="MS_39_f12" govNum="MS_39_ra23" modNum="MS_39_ra26" reltn="Theme" govText="gets" isAssumed="true" modText="measurement"/>
+        <facet id="MS_39_f13" govNum="MS_39_ra26" modNum="MS_39_ra25" reltn="NMod" govText="measurement" modText="same"/>
+        <facet id="MS_39_f14" govNum="MS_39_ra23" modNum="MS_39_ra16" reltn="Cause_and" childProp2Facet2="MS_39_f7" childProp1Facet1="MS_39_f11" govText="gets" childProp1Facet2="MS_39_f12" modText="measures" childProp2Facet1="MS_39_f6"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="MS.39.115.1" answerText="Because you could not make measurement without a standard unit." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="MS_39_f1" label="Unaddressed"/>
+      <facetEntailment facetID="MS_39_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MS_39_f3" label="Assumed"/>
+      <facetEntailment facetID="MS_39_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MS_39_f5" label="Assumed"/>
+      <facetEntailment facetID="MS_39_f6" label="Assumed"/>
+      <facetEntailment facetID="MS_39_f7" label="Assumed"/>
+      <facetEntailment facetID="MS_39_f8" label="Inferred"/>
+      <facetEntailment facetID="MS_39_f9" label="Assumed"/>
+      <facetEntailment facetID="MS_39_f10" label="Unaddressed"/>
+      <facetEntailment facetID="MS_39_f11" label="Assumed"/>
+      <facetEntailment facetID="MS_39_f12" label="Assumed"/>
+      <facetEntailment facetID="MS_39_f13" label="Unaddressed"/>
+      <facetEntailment facetID="MS_39_f14" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MS.39.569.1" answerText="If you have a standard measurement you can get the correct answer and you do not have the wrong answer." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="MS_39_f1" label="Unaddressed"/>
+      <facetEntailment facetID="MS_39_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MS_39_f3" label="Assumed"/>
+      <facetEntailment facetID="MS_39_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MS_39_f5" label="Assumed"/>
+      <facetEntailment facetID="MS_39_f6" label="Assumed"/>
+      <facetEntailment facetID="MS_39_f7" label="Assumed"/>
+      <facetEntailment facetID="MS_39_f8" label="Unaddressed"/>
+      <facetEntailment facetID="MS_39_f9" label="Assumed"/>
+      <facetEntailment facetID="MS_39_f10" label="Unaddressed"/>
+      <facetEntailment facetID="MS_39_f11" label="Assumed"/>
+      <facetEntailment facetID="MS_39_f12" label="Assumed"/>
+      <facetEntailment facetID="MS_39_f13" label="Inferred"/>
+      <facetEntailment facetID="MS_39_f14" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="MS.39.598.1" answerText="We use a standard unit so we do not get the measurement wrong." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="MS_39_f1" label="Unaddressed"/>
+      <facetEntailment facetID="MS_39_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MS_39_f3" label="Assumed"/>
+      <facetEntailment facetID="MS_39_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MS_39_f5" label="Assumed"/>
+      <facetEntailment facetID="MS_39_f6" label="Assumed"/>
+      <facetEntailment facetID="MS_39_f7" label="Expressed"/>
+      <facetEntailment facetID="MS_39_f8" label="Inferred"/>
+      <facetEntailment facetID="MS_39_f9" label="Assumed"/>
+      <facetEntailment facetID="MS_39_f10" label="Inferred"/>
+      <facetEntailment facetID="MS_39_f11" label="Assumed"/>
+      <facetEntailment facetID="MS_39_f12" label="Assumed"/>
+      <facetEntailment facetID="MS_39_f13" label="Inferred"/>
+      <facetEntailment facetID="MS_39_f14" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="MS.39.600.1" answerText="Because it is a standard unit." accuracy="irrelevant">
+      <facetEntailment facetID="MS_39_f1" label="Unaddressed"/>
+      <facetEntailment facetID="MS_39_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MS_39_f3" label="Assumed"/>
+      <facetEntailment facetID="MS_39_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MS_39_f5" label="Assumed"/>
+      <facetEntailment facetID="MS_39_f6" label="Assumed"/>
+      <facetEntailment facetID="MS_39_f7" label="Assumed"/>
+      <facetEntailment facetID="MS_39_f8" label="Inferred"/>
+      <facetEntailment facetID="MS_39_f9" label="Assumed"/>
+      <facetEntailment facetID="MS_39_f10" label="Unaddressed"/>
+      <facetEntailment facetID="MS_39_f11" label="Assumed"/>
+      <facetEntailment facetID="MS_39_f12" label="Assumed"/>
+      <facetEntailment facetID="MS_39_f13" label="Unaddressed"/>
+      <facetEntailment facetID="MS_39_f14" label="Unaddressed"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

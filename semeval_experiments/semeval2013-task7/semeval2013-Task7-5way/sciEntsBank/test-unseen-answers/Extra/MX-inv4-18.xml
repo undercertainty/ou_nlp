@@ -1,0 +1,90 @@
+<?xml version="1.0"?>
+<question testSet="unseen-answers" id="MX_18" module="MX">
+  <questionText>A solution of water and material A is clear. A solution of water and material B is also clear. When the 2 solutions are mixed, a white solid settles to the bottom, leaving a clear liquid. What does the white solid indicate?</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="MX_18-a1" text="A chemical reaction occurred. [The white solid is a precipitate (a new material) which indicates the reaction.]">
+      <tokens>
+        <token id="MX_18_ra1">A</token>
+        <token id="MX_18_ra2">chemical</token>
+        <token id="MX_18_ra3">reaction</token>
+        <token id="MX_18_ra4">occurred</token>
+        <token id="MX_18_ra5">.</token>
+        <token id="MX_18_ra6">[</token>
+        <token id="MX_18_ra7">The</token>
+        <token id="MX_18_ra8">white</token>
+        <token id="MX_18_ra9">solid</token>
+        <token id="MX_18_ra10">is</token>
+        <token id="MX_18_ra11">a</token>
+        <token id="MX_18_ra12">precipitate</token>
+        <token id="MX_18_ra13">(</token>
+        <token id="MX_18_ra14">a</token>
+        <token id="MX_18_ra15">new</token>
+        <token id="MX_18_ra16">material</token>
+        <token id="MX_18_ra17">)</token>
+        <token id="MX_18_ra18">which</token>
+        <token id="MX_18_ra19">indicates</token>
+        <token id="MX_18_ra20">the</token>
+        <token id="MX_18_ra21">reaction</token>
+        <token id="MX_18_ra22">.</token>
+        <token id="MX_18_ra23">]</token>
+      </tokens>
+      <facets>
+        <facet id="MX_18_f1" govNum="MX_18_ra4" modNum="MX_18_ra3" reltn="Theme" govText="occurred" modText="reaction"/>
+        <facet id="MX_18_f2" govNum="MX_18_ra3" modNum="MX_18_ra2" reltn="NMod" govText="reaction" modText="chemical"/>
+        <facet id="MX_18_f3" govNum="MX_18_ra9" modNum="MX_18_ra8" reltn="NMod" govText="solid" isAssumed="true" modText="white"/>
+        <facet id="MX_18_f4" govNum="MX_18_ra9" modNum="MX_18_ra12" reltn="Be" govText="solid" modText="precipitate"/>
+        <facet id="MX_18_f5" govNum="MX_18_ra9" modNum="MX_18_ra16" reltn="Be" govText="solid" isAssumed="true" modText="material"/>
+        <facet id="MX_18_f6" govNum="MX_18_ra16" modNum="MX_18_ra15" reltn="NMod" govText="material" modText="new"/>
+        <facet id="MX_18_f7" govNum="MX_18_ra19" modNum="MX_18_ra12" reltn="Cause_which" govText="indicates" modText="precipitate"/>
+        <facet id="MX_18_f8" govNum="MX_18_ra19" modNum="MX_18_ra21" reltn="Topic" govText="indicates" modText="reaction"/>
+        <facet id="MX_18_f9" govNum="MX_18_ra12" modNum="MX_18_ra21" reltn="Cause_which_indicates" childProp1Facet1="MX_18_f4" govText="precipitate" childProp1Facet2="MX_18_f7" modText="reaction" childProp2Facet1="MX_18_f8"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="MX.18.176.1" answerText="That indicates that there is a precipitate on the sides." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="MX_18_f1" label="Unaddressed"/>
+      <facetEntailment facetID="MX_18_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MX_18_f3" label="Assumed"/>
+      <facetEntailment facetID="MX_18_f4" label="Inferred"/>
+      <facetEntailment facetID="MX_18_f5" label="Assumed"/>
+      <facetEntailment facetID="MX_18_f6" label="Unaddressed"/>
+      <facetEntailment facetID="MX_18_f7" label="Unaddressed"/>
+      <facetEntailment facetID="MX_18_f8" label="Diff-Arg"/>
+      <facetEntailment facetID="MX_18_f9" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.18.429.1" answerText="It is a reaction." accuracy="correct">
+      <facetEntailment facetID="MX_18_f1" label="Expressed"/>
+      <facetEntailment facetID="MX_18_f2" label="Inferred"/>
+      <facetEntailment facetID="MX_18_f3" label="Assumed"/>
+      <facetEntailment facetID="MX_18_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MX_18_f5" label="Assumed"/>
+      <facetEntailment facetID="MX_18_f6" label="Unaddressed"/>
+      <facetEntailment facetID="MX_18_f7" label="Inferred"/>
+      <facetEntailment facetID="MX_18_f8" label="Inferred"/>
+      <facetEntailment facetID="MX_18_f9" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="MX.18.557.1" answerText="That indicates the 2 thing mixed together became a precipitate." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="MX_18_f1" label="Inferred"/>
+      <facetEntailment facetID="MX_18_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MX_18_f3" label="Assumed"/>
+      <facetEntailment facetID="MX_18_f4" label="Expressed"/>
+      <facetEntailment facetID="MX_18_f5" label="Assumed"/>
+      <facetEntailment facetID="MX_18_f6" label="Inferred"/>
+      <facetEntailment facetID="MX_18_f7" label="Unaddressed"/>
+      <facetEntailment facetID="MX_18_f8" label="Unaddressed"/>
+      <facetEntailment facetID="MX_18_f9" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.18.575.1" answerText="There was a chemical reaction and a precipitate was formed." accuracy="correct">
+      <facetEntailment facetID="MX_18_f1" label="Expressed"/>
+      <facetEntailment facetID="MX_18_f2" label="Expressed"/>
+      <facetEntailment facetID="MX_18_f3" label="Assumed"/>
+      <facetEntailment facetID="MX_18_f4" label="Inferred"/>
+      <facetEntailment facetID="MX_18_f5" label="Assumed"/>
+      <facetEntailment facetID="MX_18_f6" label="Inferred"/>
+      <facetEntailment facetID="MX_18_f7" label="Inferred"/>
+      <facetEntailment facetID="MX_18_f8" label="Inferred"/>
+      <facetEntailment facetID="MX_18_f9" label="Inferred"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

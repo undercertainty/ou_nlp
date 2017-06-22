@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<question testSet="unseen-answers" id="EM_48b" module="EM">
+  <questionText>Emily evaporated a solution and drew a picture of the crystals that remained. Using the crystal-shape key below, what was dissolved in the solution? A. Epsom salt (B. alum) C. sodium thiosulfate.  Explain why you chose that answer.</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="EM_48b-a1" text="The crystals are the same shape as the alum crystals.">
+      <tokens>
+        <token id="EM_48b_ra1">The</token>
+        <token id="EM_48b_ra2">crystals</token>
+        <token id="EM_48b_ra3">are</token>
+        <token id="EM_48b_ra4">the</token>
+        <token id="EM_48b_ra5">same</token>
+        <token id="EM_48b_ra6">shape</token>
+        <token id="EM_48b_ra7">as</token>
+        <token id="EM_48b_ra8">the</token>
+        <token id="EM_48b_ra9">alum</token>
+        <token id="EM_48b_ra10">crystals</token>
+        <token id="EM_48b_ra11">.</token>
+      </tokens>
+      <facets>
+        <facet id="EM_48b_f1" govNum="EM_48b_ra2" modNum="EM_48b_ra6" reltn="Be" govText="crystals" modText="shape"/>
+        <facet id="EM_48b_f2" govNum="EM_48b_ra6" modNum="EM_48b_ra5" reltn="NMod" govText="shape" modText="same"/>
+        <facet id="EM_48b_f3" govNum="EM_48b_ra5" modNum="EM_48b_ra9" reltn="AMod_as" govText="same" modText="alum"/>
+        <facet id="EM_48b_f4" govNum="EM_48b_ra9" modNum="EM_48b_ra10" reltn="NMod" govText="alum" isAssumed="true" modText="crystals"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="EM.48b.187.1" answerText="The pictures look the same." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EM_48b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="EM_48b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="EM_48b_f3" label="Inferred"/>
+      <facetEntailment facetID="EM_48b_f4" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.48b.399.1" answerText="Because the minerals on the top look just the same as alum on the bottom." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EM_48b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="EM_48b_f2" label="Inferred"/>
+      <facetEntailment facetID="EM_48b_f3" label="Expressed"/>
+      <facetEntailment facetID="EM_48b_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.48b.521.1" answerText="I was seen the Epsom salt rock, alum rock. And I see it is the sodium the sulfate rock and I said yes." accuracy="contradictory">
+      <facetEntailment facetID="EM_48b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="EM_48b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="EM_48b_f3" label="Contra-Infr"/>
+      <facetEntailment facetID="EM_48b_f4" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.48b.571.1" answerText="Because it has some shapes in it." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EM_48b_f1" label="Expressed"/>
+      <facetEntailment facetID="EM_48b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="EM_48b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="EM_48b_f4" label="Assumed"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

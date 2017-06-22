@@ -1,0 +1,131 @@
+<?xml version="1.0"?>
+<question testSet="unseen-answers" qtype="Q_EXPLAIN_SPECIFIC" id="BULB_ONLY_EXPLAIN_WHY2" module="FaultFinding" stype="EVALUATE">
+  <questionText>Explain why you got a voltage reading of 0 for terminal 1 and terminal 2.</questionText>
+  <referenceAnswers>
+    <referenceAnswer category="BEST" id="answer230" fileID="BULB_ONLY_EXPLAIN_WHY2_ANS1">Terminals 1 and 2 are connected</referenceAnswer>
+    <referenceAnswer category="GOOD" id="answer231" fileID="BULB_ONLY_EXPLAIN_WHY2_ANS2">Terminals 1 and 2 are not separated by the gap</referenceAnswer>
+    <referenceAnswer category="GOOD" id="answer232" fileID="BULB_C_VOLTAGE_EXPLAIN_WHY2_ANS2a">There is no gap between them</referenceAnswer>
+    <referenceAnswer category="GOOD" id="answer233" fileID="BULB_ONLY_EXPLAIN_WHY2_ANS3">Terminals 1 and 2 are connected and in the same electrical state</referenceAnswer>
+    <referenceAnswer category="GOOD" id="answer234" fileID="BULB_ONLY_EXPLAIN_WHY2_ANS2a">There is no gap between terminals 1 and 2</referenceAnswer>
+    <referenceAnswer category="MINIMAL" id="answer234.NEW" fileID="NONE">Terminals 1 and 2 are in the same electrical state</referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer count="1" answerMatch="answer230" raw_text="terminal 1 and terminal 2 are connected to the negative battery terminal" id="FaultFinding-BULB_ONLY_EXPLAIN_WHY2.sbj3-l1.qa208" accuracy="correct">
+      <token status="ok" id="tok4033">terminal</token>
+      <token status="numerical" id="tok4034">1</token>
+      <token status="ok" id="tok4035">and</token>
+      <token status="ok" id="tok4036">terminal</token>
+      <token status="numerical" id="tok4037">2</token>
+      <token status="ok" id="tok4038">are</token>
+      <token status="ok" id="tok4039">connected</token>
+      <token status="ok" id="tok4040">to</token>
+      <token status="ok" id="tok4041">the</token>
+      <token status="ok" id="tok4042">negative</token>
+      <token status="ok" id="tok4043">battery</token>
+      <token status="ok" id="tok4044">terminal</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer233" raw_text="because they are both connected to the negative battery terminal" id="FaultFinding-BULB_ONLY_EXPLAIN_WHY2.sbj8-l1.qa243" accuracy="partially_correct_incomplete">
+      <token status="ok" id="tok4676">because</token>
+      <token status="ok" id="tok4677">they</token>
+      <token status="ok" id="tok4678">are</token>
+      <token status="ok" id="tok4679">both</token>
+      <token status="ok" id="tok4680">connected</token>
+      <token status="ok" id="tok4681">to</token>
+      <token status="ok" id="tok4682">the</token>
+      <token status="ok" id="tok4683">negative</token>
+      <token status="ok" id="tok4684">battery</token>
+      <token status="ok" id="tok4685">terminal</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="because there is a gap" id="FaultFinding-BULB_ONLY_EXPLAIN_WHY2.sbj10-l1.qa228" accuracy="contradictory">
+      <token status="ok" id="tok4304">because</token>
+      <token status="ok" id="tok4305">there</token>
+      <token status="ok" id="tok4306">is</token>
+      <token status="ok" id="tok4307">a</token>
+      <token status="ok" id="tok4308">gap</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="there is a gap between the positive terminal and the bulb" id="FaultFinding-BULB_ONLY_EXPLAIN_WHY2.sbj10-l1.qa230" accuracy="contradictory">
+      <token status="ok" id="tok4338">there</token>
+      <token status="ok" id="tok4339">is</token>
+      <token status="ok" id="tok4340">a</token>
+      <token status="ok" id="tok4341">gap</token>
+      <token status="ok" id="tok4342">between</token>
+      <token status="ok" id="tok4343">the</token>
+      <token status="ok" id="tok4344">positive</token>
+      <token status="ok" id="tok4345">terminal</token>
+      <token status="ok" id="tok4346">and</token>
+      <token status="ok" id="tok4347">the</token>
+      <token status="ok" id="tok4348">bulb</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer230" raw_text="because terminal 1 is directly connected to terminal 2" id="FaultFinding-BULB_ONLY_EXPLAIN_WHY2.sbj15-l1.qa248" accuracy="correct">
+      <token status="ok" id="tok4696">because</token>
+      <token status="ok" id="tok4697">terminal</token>
+      <token status="numerical" id="tok4698">1</token>
+      <token status="ok" id="tok4699">is</token>
+      <token status="ok" id="tok4700">directly</token>
+      <token status="ok" id="tok4701">connected</token>
+      <token status="ok" id="tok4702">to</token>
+      <token status="ok" id="tok4703">terminal</token>
+      <token status="numerical" id="tok4704">2</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="terminal 1 is connected to" id="FaultFinding-BULB_ONLY_EXPLAIN_WHY2.sbj19-l1.qa267" accuracy="correct">
+      <token status="ok" id="tok5145">terminal</token>
+      <token status="numerical" id="tok5146">1</token>
+      <token status="ok" id="tok5147">is</token>
+      <token status="ok" id="tok5148">connected</token>
+      <token status="ok" id="tok5149">to</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer234" raw_text="there was no gap between terminal 1 and terminal 2" id="FaultFinding-BULB_ONLY_EXPLAIN_WHY2.sbj29-l1.qa217" accuracy="correct">
+      <token status="ok" id="tok3764">there</token>
+      <token status="ok" id="tok3765">was</token>
+      <token status="ok" id="tok3766">no</token>
+      <token status="ok" id="tok3767">gap</token>
+      <token status="ok" id="tok3768">between</token>
+      <token status="ok" id="tok3769">terminal</token>
+      <token status="numerical" id="tok3770">1</token>
+      <token status="ok" id="tok3771">and</token>
+      <token status="ok" id="tok3772">terminal</token>
+      <token status="numerical" id="tok3773">2</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer230" raw_text="Because the terminals are connected" id="FaultFinding-BULB_ONLY_EXPLAIN_WHY2.sbj30-l1.qa210" accuracy="correct">
+      <token status="ok" id="tok4044">Because</token>
+      <token status="ok" id="tok4045">the</token>
+      <token status="ok" id="tok4046">terminals</token>
+      <token status="ok" id="tok4047">are</token>
+      <token status="ok" id="tok4048">connected</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer230" raw_text="terminal 1 and 2 are connected to the negative battery" id="FaultFinding-BULB_ONLY_EXPLAIN_WHY2.sbj47-l1.qa239" accuracy="partially_correct_incomplete">
+      <token status="ok" id="tok4587">terminal</token>
+      <token status="numerical" id="tok4588">1</token>
+      <token status="ok" id="tok4589">and</token>
+      <token status="numerical" id="tok4590">2</token>
+      <token status="ok" id="tok4591">are</token>
+      <token status="ok" id="tok4592">connected</token>
+      <token status="ok" id="tok4593">to</token>
+      <token status="ok" id="tok4594">the</token>
+      <token status="ok" id="tok4595">negative</token>
+      <token status="ok" id="tok4596">battery</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer233" raw_text="because they are both recievining the same voltage from negative battery terminal" id="FaultFinding-BULB_ONLY_EXPLAIN_WHY2.sbjb29-l1.qa177" accuracy="contradictory">
+      <token status="ok" id="tok3577">because</token>
+      <token status="ok" id="tok3578">they</token>
+      <token status="ok" id="tok3579">are</token>
+      <token status="ok" id="tok3580">both</token>
+      <token status="ok" id="tok3581" original="recievining">receiving</token>
+      <token status="ok" id="tok3582">the</token>
+      <token status="ok" id="tok3583">same</token>
+      <token status="ok" id="tok3584">voltage</token>
+      <token status="ok" id="tok3585">from</token>
+      <token status="ok" id="tok3586">negative</token>
+      <token status="ok" id="tok3587">battery</token>
+      <token status="ok" id="tok3588">terminal</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer232" raw_text="because there was no gap present." id="FaultFinding-BULB_ONLY_EXPLAIN_WHY2.sbjb31-l1.qa173" accuracy="partially_correct_incomplete">
+      <token status="ok" id="tok3562">because</token>
+      <token status="ok" id="tok3563">there</token>
+      <token status="ok" id="tok3564">was</token>
+      <token status="ok" id="tok3565">no</token>
+      <token status="ok" id="tok3566">gap</token>
+      <token status="ok" id="tok3567">present</token>
+    </studentAnswer>
+  </studentAnswers>
+</question>

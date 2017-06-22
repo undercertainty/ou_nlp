@@ -1,0 +1,989 @@
+<?xml version="1.0"?>
+<question testSet="unseen-questions" id="HYBRID_BURNED_OUT_EXPLAIN_Q2" module="SwitchesBulbsParallel" stype="PREDICT" qtype="Q_EXPLAIN_SPECIFIC">
+  <questionText>Explain your reasoning.</questionText>
+  <referenceAnswers>
+    <referenceAnswer category="BEST" id="answer378" fileID="HYBRID_BURNED_OUT_EXPLAIN_Q2_ANS1">If B burns out, then there is still a closed path with the battery that contains A and C.</referenceAnswer>
+    <referenceAnswer category="GOOD" id="answer380" fileID="HYBRID_BURNED_OUT_EXPLAIN_Q2_ANS2">If B burns out, then there is still a closed path that contains A and C.</referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_EXPLAIN_Q2.sbj3-l2.qa98" accuracy="correct" answerMatch="answer378" raw_text="because they will still be contained in a closed path with the battery" count="1">
+      <token id="tok1852" status="ok">because</token>
+      <token id="tok1853" status="ok">they</token>
+      <token id="tok1854" status="ok">will</token>
+      <token id="tok1855" status="ok">still</token>
+      <token id="tok1856" status="ok">be</token>
+      <token id="tok1857" status="ok">contained</token>
+      <token id="tok1858" status="ok">in</token>
+      <token id="tok1859" status="ok">a</token>
+      <token id="tok1860" status="ok">closed</token>
+      <token id="tok1861" status="ok">path</token>
+      <token id="tok1862" status="ok">with</token>
+      <token id="tok1863" status="ok">the</token>
+      <token id="tok1864" status="ok">battery</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_EXPLAIN_Q2.sbj7-l2.qa101" accuracy="correct" answerMatch="answer378" raw_text="there is a closed path that contains the battery, bulb a, and bulb c" count="1">
+      <token id="tok1945" status="ok">there</token>
+      <token id="tok1946" status="ok">is</token>
+      <token id="tok1947" status="ok">a</token>
+      <token id="tok1948" status="ok">closed</token>
+      <token id="tok1949" status="ok">path</token>
+      <token id="tok1950" status="ok">that</token>
+      <token id="tok1951" status="ok">contains</token>
+      <token id="tok1952" status="ok">the</token>
+      <token id="tok1953" status="ok">battery</token>
+      <token id="tok1954" status="ok">bulb</token>
+      <token id="tok1955" status="ok">a</token>
+      <token id="tok1956" status="ok">and</token>
+      <token id="tok1957" status="ok">bulb</token>
+      <token id="tok1958" status="ok">c</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_EXPLAIN_Q2.sbj8-l2.qa108" accuracy="contradictory" answerMatch="answer380" raw_text="not in the same path" count="1">
+      <token id="tok2188" status="ok">not</token>
+      <token id="tok2189" status="ok">in</token>
+      <token id="tok2190" status="ok">the</token>
+      <token id="tok2191" status="ok">same</token>
+      <token id="tok2192" status="ok">path</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_EXPLAIN_Q2.sbj9-l2.qa103" accuracy="correct" answerMatch="answer378" raw_text="bulbs a and c will still be conained in closed paths with the battery." count="1">
+      <token id="tok1969" status="ok">bulbs</token>
+      <token id="tok1970" status="ok">a</token>
+      <token id="tok1971" status="ok">and</token>
+      <token id="tok1972" status="ok">c</token>
+      <token id="tok1973" status="ok">will</token>
+      <token id="tok1974" status="ok">still</token>
+      <token id="tok1975" status="ok">be</token>
+      <token id="tok1976" status="ok" original="conained">contained</token>
+      <token id="tok1977" status="ok">in</token>
+      <token id="tok1978" status="ok">closed</token>
+      <token id="tok1979" status="ok">paths</token>
+      <token id="tok1980" status="ok">with</token>
+      <token id="tok1981" status="ok">the</token>
+      <token id="tok1982" status="ok">battery</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_EXPLAIN_Q2.sbj10-l2.qa106" accuracy="correct" answerMatch="answer378" raw_text="bulbs a and c are on a closed path with the battery" count="1">
+      <token id="tok2090" status="ok">bulbs</token>
+      <token id="tok2091" status="ok">a</token>
+      <token id="tok2092" status="ok">and</token>
+      <token id="tok2093" status="ok">c</token>
+      <token id="tok2094" status="ok">are</token>
+      <token id="tok2095" status="ok">on</token>
+      <token id="tok2096" status="ok">a</token>
+      <token id="tok2097" status="ok">closed</token>
+      <token id="tok2098" status="ok">path</token>
+      <token id="tok2099" status="ok">with</token>
+      <token id="tok2100" status="ok">the</token>
+      <token id="tok2101" status="ok">battery</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_EXPLAIN_Q2.sbj11-l2.qa104" accuracy="correct" answerMatch="answer380" raw_text="bulb b does not create a gap in the path of bulb a and bulb c" count="1">
+      <token id="tok2033" status="ok">bulb</token>
+      <token id="tok2034" status="ok">b</token>
+      <token id="tok2035" status="ok">does</token>
+      <token id="tok2036" status="ok">not</token>
+      <token id="tok2037" status="ok">create</token>
+      <token id="tok2038" status="ok">a</token>
+      <token id="tok2039" status="ok">gap</token>
+      <token id="tok2040" status="ok">in</token>
+      <token id="tok2041" status="ok">the</token>
+      <token id="tok2042" status="ok">path</token>
+      <token id="tok2043" status="ok">of</token>
+      <token id="tok2044" status="ok">bulb</token>
+      <token id="tok2045" status="ok">a</token>
+      <token id="tok2046" status="ok">and</token>
+      <token id="tok2047" status="ok">bulb</token>
+      <token id="tok2048" status="ok">c</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_EXPLAIN_Q2.sbj11-l2.qa105" accuracy="correct" answerMatch="answer380" raw_text="bulb b does not create a gap in the path of bulbs a and c." count="1">
+      <token id="tok2075" status="ok">bulb</token>
+      <token id="tok2076" status="ok">b</token>
+      <token id="tok2077" status="ok">does</token>
+      <token id="tok2078" status="ok">not</token>
+      <token id="tok2079" status="ok">create</token>
+      <token id="tok2080" status="ok">a</token>
+      <token id="tok2081" status="ok">gap</token>
+      <token id="tok2082" status="ok">in</token>
+      <token id="tok2083" status="ok">the</token>
+      <token id="tok2084" status="ok">path</token>
+      <token id="tok2085" status="ok">of</token>
+      <token id="tok2086" status="ok">bulbs</token>
+      <token id="tok2087" status="ok">a</token>
+      <token id="tok2088" status="ok">and</token>
+      <token id="tok2089" status="ok">c</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_EXPLAIN_Q2.sbj11-l2.qa106" accuracy="irrelevant" raw_text="bulb a and bulb c will light up." count="1">
+      <token id="tok2112" status="ok">bulb</token>
+      <token id="tok2113" status="ok">a</token>
+      <token id="tok2114" status="ok">and</token>
+      <token id="tok2115" status="ok">bulb</token>
+      <token id="tok2116" status="ok">c</token>
+      <token id="tok2117" status="ok">will</token>
+      <token id="tok2118" status="ok">light</token>
+      <token id="tok2119" status="ok">up</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_EXPLAIN_Q2.sbj12-l2.qa109" accuracy="correct" answerMatch="answer378" raw_text="Bulbs C and A will still be on closed paths with the battery" count="1">
+      <token id="tok2069" status="ok">Bulbs</token>
+      <token id="tok2070" status="ok">C</token>
+      <token id="tok2071" status="ok">and</token>
+      <token id="tok2072" status="ok">A</token>
+      <token id="tok2073" status="ok">will</token>
+      <token id="tok2074" status="ok">still</token>
+      <token id="tok2075" status="ok">be</token>
+      <token id="tok2076" status="ok">on</token>
+      <token id="tok2077" status="ok">closed</token>
+      <token id="tok2078" status="ok">paths</token>
+      <token id="tok2079" status="ok">with</token>
+      <token id="tok2080" status="ok">the</token>
+      <token id="tok2081" status="ok">battery</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_EXPLAIN_Q2.sbj13-l2.qa112" accuracy="correct" answerMatch="answer380" raw_text="bulb b is not in the same path of bulbs a and c" count="1">
+      <token id="tok2280" status="ok">bulb</token>
+      <token id="tok2281" status="ok">b</token>
+      <token id="tok2282" status="ok">is</token>
+      <token id="tok2283" status="ok">not</token>
+      <token id="tok2284" status="ok">in</token>
+      <token id="tok2285" status="ok">the</token>
+      <token id="tok2286" status="ok">same</token>
+      <token id="tok2287" status="ok">path</token>
+      <token id="tok2288" status="ok">of</token>
+      <token id="tok2289" status="ok">bulbs</token>
+      <token id="tok2290" status="ok">a</token>
+      <token id="tok2291" status="ok">and</token>
+      <token id="tok2292" status="ok">c</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_EXPLAIN_Q2.sbj14-l2.qa108" accuracy="contradictory" raw_text="Because Bulb b is not on a closed path." count="1">
+      <token id="tok2061" status="ok">Because</token>
+      <token id="tok2062" status="ok">Bulb</token>
+      <token id="tok2063" status="ok">b</token>
+      <token id="tok2064" status="ok">is</token>
+      <token id="tok2065" status="ok">not</token>
+      <token id="tok2066" status="ok">on</token>
+      <token id="tok2067" status="ok">a</token>
+      <token id="tok2068" status="ok">closed</token>
+      <token id="tok2069" status="ok">path</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_EXPLAIN_Q2.sbj15-l2.qa128" accuracy="non_domain" raw_text="because i said so" count="1">
+      <token id="tok2705" status="ok">because</token>
+      <token id="tok2706" status="ok">i</token>
+      <token id="tok2707" status="ok">said</token>
+      <token id="tok2708" status="ok">so</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_EXPLAIN_Q2.sbj18-l2.qa100" accuracy="correct" answerMatch="answer378" raw_text="bulbs a and c will still be in a closed path with the battery" count="2">
+      <token id="tok1964" status="ok">bulbs</token>
+      <token id="tok1965" status="ok">a</token>
+      <token id="tok1966" status="ok">and</token>
+      <token id="tok1967" status="ok">c</token>
+      <token id="tok1968" status="ok">will</token>
+      <token id="tok1969" status="ok">still</token>
+      <token id="tok1970" status="ok">be</token>
+      <token id="tok1971" status="ok">in</token>
+      <token id="tok1972" status="ok">a</token>
+      <token id="tok1973" status="ok">closed</token>
+      <token id="tok1974" status="ok">path</token>
+      <token id="tok1975" status="ok">with</token>
+      <token id="tok1976" status="ok">the</token>
+      <token id="tok1977" status="ok">battery</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_EXPLAIN_Q2.sbj19-l2.qa125" accuracy="partially_correct_incomplete" answerMatch="answer380" raw_text="they are in different paths" count="1">
+      <token id="tok2657" status="ok">they</token>
+      <token id="tok2658" status="ok">are</token>
+      <token id="tok2659" status="ok">in</token>
+      <token id="tok2660" status="ok">different</token>
+      <token id="tok2661" status="ok">paths</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_EXPLAIN_Q2.sbj22-l2.qa108" accuracy="non_domain" raw_text="l" count="2">
+      <token id="tok2097" status="nonWord">l</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_EXPLAIN_Q2.sbj23-l2.qa106" accuracy="correct" answerMatch="answer378" raw_text="Bulb A, Bulb C, and the battery are in a closed path." count="1">
+      <token id="tok2007" status="ok">Bulb</token>
+      <token id="tok2008" status="ok">A</token>
+      <token id="tok2009" status="ok">Bulb</token>
+      <token id="tok2010" status="ok">C</token>
+      <token id="tok2011" status="ok">and</token>
+      <token id="tok2012" status="ok">the</token>
+      <token id="tok2013" status="ok">battery</token>
+      <token id="tok2014" status="ok">are</token>
+      <token id="tok2015" status="ok">in</token>
+      <token id="tok2016" status="ok">a</token>
+      <token id="tok2017" status="ok">closed</token>
+      <token id="tok2018" status="ok">path</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_EXPLAIN_Q2.sbj24-l2.qa103" accuracy="partially_correct_incomplete" answerMatch="answer380" raw_text="they are in closed paths" count="1">
+      <token id="tok1938" status="ok">they</token>
+      <token id="tok1939" status="ok">are</token>
+      <token id="tok1940" status="ok">in</token>
+      <token id="tok1941" status="ok">closed</token>
+      <token id="tok1942" status="ok">paths</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_EXPLAIN_Q2.sbj26-l2.qa112" accuracy="contradictory" raw_text="there is no pathway" count="1">
+      <token id="tok2258" status="ok">there</token>
+      <token id="tok2259" status="ok">is</token>
+      <token id="tok2260" status="ok">no</token>
+      <token id="tok2261" status="ok">pathway</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_EXPLAIN_Q2.sbj26-l2.qa113" accuracy="non_domain" raw_text="h" count="1">
+      <token id="tok2296" status="nonWord">h</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_EXPLAIN_Q2.sbj27-l2.qa112" accuracy="partially_correct_incomplete" answerMatch="answer380" raw_text="bulbs a and c have their own closed path" count="1">
+      <token id="tok2224" status="ok">bulbs</token>
+      <token id="tok2225" status="ok">a</token>
+      <token id="tok2226" status="ok">and</token>
+      <token id="tok2227" status="ok">c</token>
+      <token id="tok2228" status="ok">have</token>
+      <token id="tok2229" status="ok">their</token>
+      <token id="tok2230" status="ok">own</token>
+      <token id="tok2231" status="ok">closed</token>
+      <token id="tok2232" status="ok">path</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_EXPLAIN_Q2.sbj27-l2.qa113" accuracy="partially_correct_incomplete" answerMatch="answer380" raw_text="closed path" count="2">
+      <token id="tok2253" status="ok">closed</token>
+      <token id="tok2254" status="ok">path</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_EXPLAIN_Q2.sbj29-l2.qa112" accuracy="contradictory" answerMatch="answer380" raw_text="bulbs a and c are not in closed path with bulb b" count="1">
+      <token id="tok2270" status="ok">bulbs</token>
+      <token id="tok2271" status="ok">a</token>
+      <token id="tok2272" status="ok">and</token>
+      <token id="tok2273" status="ok">c</token>
+      <token id="tok2274" status="ok">are</token>
+      <token id="tok2275" status="ok">not</token>
+      <token id="tok2276" status="ok">in</token>
+      <token id="tok2277" status="ok">closed</token>
+      <token id="tok2278" status="ok">path</token>
+      <token id="tok2279" status="ok">with</token>
+      <token id="tok2280" status="ok">bulb</token>
+      <token id="tok2281" status="ok">b</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_EXPLAIN_Q2.sbj30-l2.qa112" accuracy="correct" answerMatch="answer378" raw_text="Bulb A and C are on closed paths containing the battery." count="1">
+      <token id="tok2362" status="ok">Bulb</token>
+      <token id="tok2363" status="ok">A</token>
+      <token id="tok2364" status="ok">and</token>
+      <token id="tok2365" status="ok">C</token>
+      <token id="tok2366" status="ok">are</token>
+      <token id="tok2367" status="ok">on</token>
+      <token id="tok2368" status="ok">closed</token>
+      <token id="tok2369" status="ok">paths</token>
+      <token id="tok2370" status="ok">containing</token>
+      <token id="tok2371" status="ok">the</token>
+      <token id="tok2372" status="ok">battery</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_EXPLAIN_Q2.sbj31-l2.qa114" accuracy="correct" answerMatch="answer380" raw_text="because a and c are on a closed path with the battery" count="1">
+      <token id="tok2194" status="ok">because</token>
+      <token id="tok2195" status="ok">a</token>
+      <token id="tok2196" status="ok">and</token>
+      <token id="tok2197" status="ok">c</token>
+      <token id="tok2198" status="ok">are</token>
+      <token id="tok2199" status="ok">on</token>
+      <token id="tok2200" status="ok">a</token>
+      <token id="tok2201" status="ok">closed</token>
+      <token id="tok2202" status="ok">path</token>
+      <token id="tok2203" status="ok">with</token>
+      <token id="tok2204" status="ok">the</token>
+      <token id="tok2205" status="ok">battery</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_EXPLAIN_Q2.sbj33-l2.qa110" accuracy="correct" answerMatch="answer378" raw_text="bulb B is not contained in the same closed path with the battery" count="1">
+      <token id="tok2065" status="ok">bulb</token>
+      <token id="tok2066" status="ok">B</token>
+      <token id="tok2067" status="ok">is</token>
+      <token id="tok2068" status="ok">not</token>
+      <token id="tok2069" status="ok">contained</token>
+      <token id="tok2070" status="ok">in</token>
+      <token id="tok2071" status="ok">the</token>
+      <token id="tok2072" status="ok">same</token>
+      <token id="tok2073" status="ok">closed</token>
+      <token id="tok2074" status="ok">path</token>
+      <token id="tok2075" status="ok">with</token>
+      <token id="tok2076" status="ok">the</token>
+      <token id="tok2077" status="ok">battery</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_EXPLAIN_Q2.sbj34-l2.qa114" accuracy="correct" answerMatch="answer380" raw_text="Bulbs A and C will still be contained in a closed path" count="1">
+      <token id="tok2173" status="ok">Bulbs</token>
+      <token id="tok2174" status="ok">A</token>
+      <token id="tok2175" status="ok">and</token>
+      <token id="tok2176" status="ok">C</token>
+      <token id="tok2177" status="ok">will</token>
+      <token id="tok2178" status="ok">still</token>
+      <token id="tok2179" status="ok">be</token>
+      <token id="tok2180" status="ok">contained</token>
+      <token id="tok2181" status="ok">in</token>
+      <token id="tok2182" status="ok">a</token>
+      <token id="tok2183" status="ok">closed</token>
+      <token id="tok2184" status="ok">path</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_EXPLAIN_Q2.sbj35-l2.qa112" accuracy="contradictory" answerMatch="answer378" raw_text="bulb a is no longer contained in a closed path with the battery. bulb c is still contained in a closed path with the battery" count="1">
+      <token id="tok2232" status="ok">bulb</token>
+      <token id="tok2233" status="ok">a</token>
+      <token id="tok2234" status="ok">is</token>
+      <token id="tok2235" status="ok">no</token>
+      <token id="tok2236" status="ok">longer</token>
+      <token id="tok2237" status="ok">contained</token>
+      <token id="tok2238" status="ok">in</token>
+      <token id="tok2239" status="ok">a</token>
+      <token id="tok2240" status="ok">closed</token>
+      <token id="tok2241" status="ok">path</token>
+      <token id="tok2242" status="ok">with</token>
+      <token id="tok2243" status="ok">the</token>
+      <token id="tok2244" status="ok">battery</token>
+      <token id="tok2245" status="ok">bulb</token>
+      <token id="tok2246" status="ok">c</token>
+      <token id="tok2247" status="ok">is</token>
+      <token id="tok2248" status="ok">still</token>
+      <token id="tok2249" status="ok">contained</token>
+      <token id="tok2250" status="ok">in</token>
+      <token id="tok2251" status="ok">a</token>
+      <token id="tok2252" status="ok">closed</token>
+      <token id="tok2253" status="ok">path</token>
+      <token id="tok2254" status="ok">with</token>
+      <token id="tok2255" status="ok">the</token>
+      <token id="tok2256" status="ok">battery</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_EXPLAIN_Q2.sbj36-l2.qa104" accuracy="partially_correct_incomplete" answerMatch="answer380" raw_text="there is a closed path" count="1">
+      <token id="tok1975" status="ok">there</token>
+      <token id="tok1976" status="ok">is</token>
+      <token id="tok1977" status="ok">a</token>
+      <token id="tok1978" status="ok">closed</token>
+      <token id="tok1979" status="ok">path</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_EXPLAIN_Q2.sbj37-l2.qa101" accuracy="correct" answerMatch="answer378" raw_text="bulb a will still be in a closed path with the battery. bulb c will still be in a closed path with the battery." count="1">
+      <token id="tok2083" status="ok">bulb</token>
+      <token id="tok2084" status="ok">a</token>
+      <token id="tok2085" status="ok">will</token>
+      <token id="tok2086" status="ok">still</token>
+      <token id="tok2087" status="ok">be</token>
+      <token id="tok2088" status="ok">in</token>
+      <token id="tok2089" status="ok">a</token>
+      <token id="tok2090" status="ok">closed</token>
+      <token id="tok2091" status="ok">path</token>
+      <token id="tok2092" status="ok">with</token>
+      <token id="tok2093" status="ok">the</token>
+      <token id="tok2094" status="ok">battery</token>
+      <token id="tok2095" status="ok">bulb</token>
+      <token id="tok2096" status="ok">c</token>
+      <token id="tok2097" status="ok">will</token>
+      <token id="tok2098" status="ok">still</token>
+      <token id="tok2099" status="ok">be</token>
+      <token id="tok2100" status="ok">in</token>
+      <token id="tok2101" status="ok">a</token>
+      <token id="tok2102" status="ok">closed</token>
+      <token id="tok2103" status="ok">path</token>
+      <token id="tok2104" status="ok">with</token>
+      <token id="tok2105" status="ok">the</token>
+      <token id="tok2106" status="ok">battery</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_EXPLAIN_Q2.sbj38-l2.qa104" accuracy="correct" answerMatch="answer378" raw_text="bulb a and bulb c are still in a closed path with the battery." count="1">
+      <token id="tok2269" status="ok">bulb</token>
+      <token id="tok2270" status="ok">a</token>
+      <token id="tok2271" status="ok">and</token>
+      <token id="tok2272" status="ok">bulb</token>
+      <token id="tok2273" status="ok">c</token>
+      <token id="tok2274" status="ok">are</token>
+      <token id="tok2275" status="ok">still</token>
+      <token id="tok2276" status="ok">in</token>
+      <token id="tok2277" status="ok">a</token>
+      <token id="tok2278" status="ok">closed</token>
+      <token id="tok2279" status="ok">path</token>
+      <token id="tok2280" status="ok">with</token>
+      <token id="tok2281" status="ok">the</token>
+      <token id="tok2282" status="ok">battery</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_EXPLAIN_Q2.sbj39-l2.qa119" accuracy="correct" answerMatch="answer378" raw_text="Bulbs A and C are still contained in a closed path with the battery" count="1">
+      <token id="tok2297" status="ok">Bulbs</token>
+      <token id="tok2298" status="ok">A</token>
+      <token id="tok2299" status="ok">and</token>
+      <token id="tok2300" status="ok">C</token>
+      <token id="tok2301" status="ok">are</token>
+      <token id="tok2302" status="ok">still</token>
+      <token id="tok2303" status="ok">contained</token>
+      <token id="tok2304" status="ok">in</token>
+      <token id="tok2305" status="ok">a</token>
+      <token id="tok2306" status="ok">closed</token>
+      <token id="tok2307" status="ok">path</token>
+      <token id="tok2308" status="ok">with</token>
+      <token id="tok2309" status="ok">the</token>
+      <token id="tok2310" status="ok">battery</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_EXPLAIN_Q2.sbj40-l2.qa113" accuracy="contradictory" answerMatch="answer378" raw_text="bulb b and c are still on a closed path with the battery." count="1">
+      <token id="tok2286" status="ok">bulb</token>
+      <token id="tok2287" status="ok">b</token>
+      <token id="tok2288" status="ok">and</token>
+      <token id="tok2289" status="ok">c</token>
+      <token id="tok2290" status="ok">are</token>
+      <token id="tok2291" status="ok">still</token>
+      <token id="tok2292" status="ok">on</token>
+      <token id="tok2293" status="ok">a</token>
+      <token id="tok2294" status="ok">closed</token>
+      <token id="tok2295" status="ok">path</token>
+      <token id="tok2296" status="ok">with</token>
+      <token id="tok2297" status="ok">the</token>
+      <token id="tok2298" status="ok">battery</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_EXPLAIN_Q2.sbj40-l2.qa114" accuracy="partially_correct_incomplete" answerMatch="answer378" raw_text="bulb and and c are still contained in a closed path with the battery." count="1">
+      <token id="tok2326" status="ok">bulb</token>
+      <token id="tok2327" status="ok">and</token>
+      <token id="tok2328" status="ok">and</token>
+      <token id="tok2329" status="ok">c</token>
+      <token id="tok2330" status="ok">are</token>
+      <token id="tok2331" status="ok">still</token>
+      <token id="tok2332" status="ok">contained</token>
+      <token id="tok2333" status="ok">in</token>
+      <token id="tok2334" status="ok">a</token>
+      <token id="tok2335" status="ok">closed</token>
+      <token id="tok2336" status="ok">path</token>
+      <token id="tok2337" status="ok">with</token>
+      <token id="tok2338" status="ok">the</token>
+      <token id="tok2339" status="ok">battery</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_EXPLAIN_Q2.sbj42-l2.qa105" accuracy="correct" answerMatch="answer378" raw_text="there is a closed path that contains the battery and bulb a and bulb c" count="1">
+      <token id="tok1951" status="ok">there</token>
+      <token id="tok1952" status="ok">is</token>
+      <token id="tok1953" status="ok">a</token>
+      <token id="tok1954" status="ok">closed</token>
+      <token id="tok1955" status="ok">path</token>
+      <token id="tok1956" status="ok">that</token>
+      <token id="tok1957" status="ok">contains</token>
+      <token id="tok1958" status="ok">the</token>
+      <token id="tok1959" status="ok">battery</token>
+      <token id="tok1960" status="ok">and</token>
+      <token id="tok1961" status="ok">bulb</token>
+      <token id="tok1962" status="ok">a</token>
+      <token id="tok1963" status="ok">and</token>
+      <token id="tok1964" status="ok">bulb</token>
+      <token id="tok1965" status="ok">c</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_EXPLAIN_Q2.sbj43-l2.qa109" accuracy="correct" answerMatch="answer378" raw_text="bulb a and bulb c are still contained in closed paths with the battery." count="1">
+      <token id="tok2267" status="ok">bulb</token>
+      <token id="tok2268" status="ok">a</token>
+      <token id="tok2269" status="ok">and</token>
+      <token id="tok2270" status="ok">bulb</token>
+      <token id="tok2271" status="ok">c</token>
+      <token id="tok2272" status="ok">are</token>
+      <token id="tok2273" status="ok">still</token>
+      <token id="tok2274" status="ok">contained</token>
+      <token id="tok2275" status="ok">in</token>
+      <token id="tok2276" status="ok">closed</token>
+      <token id="tok2277" status="ok">paths</token>
+      <token id="tok2278" status="ok">with</token>
+      <token id="tok2279" status="ok">the</token>
+      <token id="tok2280" status="ok">battery</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_EXPLAIN_Q2.sbj46-l2.qa119" accuracy="correct" answerMatch="answer378" raw_text="Bulb A and bulb C are still contained in closed paths with the battery" count="1">
+      <token id="tok2526" status="ok">Bulb</token>
+      <token id="tok2527" status="ok">A</token>
+      <token id="tok2528" status="ok">and</token>
+      <token id="tok2529" status="ok">bulb</token>
+      <token id="tok2530" status="ok">C</token>
+      <token id="tok2531" status="ok">are</token>
+      <token id="tok2532" status="ok">still</token>
+      <token id="tok2533" status="ok">contained</token>
+      <token id="tok2534" status="ok">in</token>
+      <token id="tok2535" status="ok">closed</token>
+      <token id="tok2536" status="ok">paths</token>
+      <token id="tok2537" status="ok">with</token>
+      <token id="tok2538" status="ok">the</token>
+      <token id="tok2539" status="ok">battery</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_EXPLAIN_Q2.sbj47-l2.qa112" accuracy="correct" answerMatch="answer378" raw_text="Bulb A and C are still contained in closed paths with the battery" count="1">
+      <token id="tok2220" status="ok">Bulb</token>
+      <token id="tok2221" status="ok">A</token>
+      <token id="tok2222" status="ok">and</token>
+      <token id="tok2223" status="ok">C</token>
+      <token id="tok2224" status="ok">are</token>
+      <token id="tok2225" status="ok">still</token>
+      <token id="tok2226" status="ok">contained</token>
+      <token id="tok2227" status="ok">in</token>
+      <token id="tok2228" status="ok">closed</token>
+      <token id="tok2229" status="ok">paths</token>
+      <token id="tok2230" status="ok">with</token>
+      <token id="tok2231" status="ok">the</token>
+      <token id="tok2232" status="ok">battery</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_EXPLAIN_Q2.sbj48-l2.qa103" accuracy="correct" answerMatch="answer378" raw_text="bulbs a and c will still be contained in a closed path with the battery" count="1">
+      <token id="tok2014" status="ok">bulbs</token>
+      <token id="tok2015" status="ok">a</token>
+      <token id="tok2016" status="ok">and</token>
+      <token id="tok2017" status="ok">c</token>
+      <token id="tok2018" status="ok">will</token>
+      <token id="tok2019" status="ok">still</token>
+      <token id="tok2020" status="ok">be</token>
+      <token id="tok2021" status="ok">contained</token>
+      <token id="tok2022" status="ok">in</token>
+      <token id="tok2023" status="ok">a</token>
+      <token id="tok2024" status="ok">closed</token>
+      <token id="tok2025" status="ok">path</token>
+      <token id="tok2026" status="ok">with</token>
+      <token id="tok2027" status="ok">the</token>
+      <token id="tok2028" status="ok">battery</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_EXPLAIN_Q2.sbjb1-l2.qa93" accuracy="correct" answerMatch="answer380" raw_text="It is on a separate path" count="1">
+      <token id="tok1962" status="ok">It</token>
+      <token id="tok1963" status="ok">is</token>
+      <token id="tok1964" status="ok">on</token>
+      <token id="tok1965" status="ok">a</token>
+      <token id="tok1966" status="ok">separate</token>
+      <token id="tok1967" status="ok">path</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_EXPLAIN_Q2.sbjb2-l2.qa94" accuracy="partially_correct_incomplete" answerMatch="answer380" raw_text="There is a closed path to the bulbs." count="1">
+      <token id="tok1907" status="ok">There</token>
+      <token id="tok1908" status="ok">is</token>
+      <token id="tok1909" status="ok">a</token>
+      <token id="tok1910" status="ok">closed</token>
+      <token id="tok1911" status="ok">path</token>
+      <token id="tok1912" status="ok">to</token>
+      <token id="tok1913" status="ok">the</token>
+      <token id="tok1914" status="ok">bulbs</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_EXPLAIN_Q2.sbjb3-l2.qa96" accuracy="contradictory" raw_text="it is close enought to the battery" count="1">
+      <token id="tok1959" status="ok">it</token>
+      <token id="tok1960" status="ok">is</token>
+      <token id="tok1961" status="ok">close</token>
+      <token id="tok1962" status="ok" original="enought">enough</token>
+      <token id="tok1963" status="ok">to</token>
+      <token id="tok1964" status="ok">the</token>
+      <token id="tok1965" status="ok">battery</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_EXPLAIN_Q2.sbjb4-l2.qa92" accuracy="partially_correct_incomplete" answerMatch="answer378" raw_text="A and C are on their own contained path with the battery" count="1">
+      <token id="tok1953" status="ok">A</token>
+      <token id="tok1954" status="ok">and</token>
+      <token id="tok1955" status="ok">C</token>
+      <token id="tok1956" status="ok">are</token>
+      <token id="tok1957" status="ok">on</token>
+      <token id="tok1958" status="ok">their</token>
+      <token id="tok1959" status="ok">own</token>
+      <token id="tok1960" status="ok">contained</token>
+      <token id="tok1961" status="ok">path</token>
+      <token id="tok1962" status="ok">with</token>
+      <token id="tok1963" status="ok">the</token>
+      <token id="tok1964" status="ok">battery</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_EXPLAIN_Q2.sbjb5-l2.qa92" accuracy="correct" answerMatch="answer378" raw_text="bulbs a and c are still on a closed path containing the battery" count="1">
+      <token id="tok2013" status="ok">bulbs</token>
+      <token id="tok2014" status="ok">a</token>
+      <token id="tok2015" status="ok">and</token>
+      <token id="tok2016" status="ok">c</token>
+      <token id="tok2017" status="ok">are</token>
+      <token id="tok2018" status="ok">still</token>
+      <token id="tok2019" status="ok">on</token>
+      <token id="tok2020" status="ok">a</token>
+      <token id="tok2021" status="ok">closed</token>
+      <token id="tok2022" status="ok">path</token>
+      <token id="tok2023" status="ok">containing</token>
+      <token id="tok2024" status="ok">the</token>
+      <token id="tok2025" status="ok">battery</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_EXPLAIN_Q2.sbjb6-l2.qa92" accuracy="contradictory" answerMatch="answer380" raw_text="A and C remain on a closed circuit" count="1">
+      <token id="tok1896" status="ok">A</token>
+      <token id="tok1897" status="ok">and</token>
+      <token id="tok1898" status="ok">C</token>
+      <token id="tok1899" status="ok">remain</token>
+      <token id="tok1900" status="ok">on</token>
+      <token id="tok1901" status="ok">a</token>
+      <token id="tok1902" status="ok">closed</token>
+      <token id="tok1903" status="ok">circuit</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_EXPLAIN_Q2.sbjb7-l2.qa93" accuracy="correct" answerMatch="answer378" raw_text="They have another closed ppath to the battery" count="1">
+      <token id="tok1876" status="ok">They</token>
+      <token id="tok1877" status="ok">have</token>
+      <token id="tok1878" status="ok">another</token>
+      <token id="tok1879" status="ok">closed</token>
+      <token id="tok1880" status="ok" original="ppath">path</token>
+      <token id="tok1881" status="ok">to</token>
+      <token id="tok1882" status="ok">the</token>
+      <token id="tok1883" status="ok">battery</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_EXPLAIN_Q2.sbjb9-l2.qa93" accuracy="correct" answerMatch="answer380" raw_text="Bulbs A and C are still contained in closed paths to the battery" count="1">
+      <token id="tok1979" status="ok">Bulbs</token>
+      <token id="tok1980" status="ok">A</token>
+      <token id="tok1981" status="ok">and</token>
+      <token id="tok1982" status="ok">C</token>
+      <token id="tok1983" status="ok">are</token>
+      <token id="tok1984" status="ok">still</token>
+      <token id="tok1985" status="ok">contained</token>
+      <token id="tok1986" status="ok">in</token>
+      <token id="tok1987" status="ok">closed</token>
+      <token id="tok1988" status="ok">paths</token>
+      <token id="tok1989" status="ok">to</token>
+      <token id="tok1990" status="ok">the</token>
+      <token id="tok1991" status="ok">battery</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_EXPLAIN_Q2.sbjb10-l2.qa92" accuracy="contradictory" answerMatch="answer380" raw_text="because a and c are in series and b is in parallel" count="1">
+      <token id="tok1878" status="ok">because</token>
+      <token id="tok1879" status="ok">a</token>
+      <token id="tok1880" status="ok">and</token>
+      <token id="tok1881" status="ok">c</token>
+      <token id="tok1882" status="ok">are</token>
+      <token id="tok1883" status="ok">in</token>
+      <token id="tok1884" status="ok">series</token>
+      <token id="tok1885" status="ok">and</token>
+      <token id="tok1886" status="ok">b</token>
+      <token id="tok1887" status="ok">is</token>
+      <token id="tok1888" status="ok">in</token>
+      <token id="tok1889" status="ok">parallel</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_EXPLAIN_Q2.sbjb11-l2.qa92" accuracy="correct" answerMatch="answer378" raw_text="Bulb A and C are still contained within a closed path and connected to a battery" count="1">
+      <token id="tok2005" status="ok">Bulb</token>
+      <token id="tok2006" status="ok">A</token>
+      <token id="tok2007" status="ok">and</token>
+      <token id="tok2008" status="ok">C</token>
+      <token id="tok2009" status="ok">are</token>
+      <token id="tok2010" status="ok">still</token>
+      <token id="tok2011" status="ok">contained</token>
+      <token id="tok2012" status="ok">within</token>
+      <token id="tok2013" status="ok">a</token>
+      <token id="tok2014" status="ok">closed</token>
+      <token id="tok2015" status="ok">path</token>
+      <token id="tok2016" status="ok">and</token>
+      <token id="tok2017" status="ok">connected</token>
+      <token id="tok2018" status="ok">to</token>
+      <token id="tok2019" status="ok">a</token>
+      <token id="tok2020" status="ok">battery</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_EXPLAIN_Q2.sbjb12-l2.qa92" accuracy="correct" answerMatch="answer378" raw_text="bulb a and bulb c would be contained in a closed path with the battery" count="1">
+      <token id="tok1952" status="ok">bulb</token>
+      <token id="tok1953" status="ok">a</token>
+      <token id="tok1954" status="ok">and</token>
+      <token id="tok1955" status="ok">bulb</token>
+      <token id="tok1956" status="ok">c</token>
+      <token id="tok1957" status="ok">would</token>
+      <token id="tok1958" status="ok">be</token>
+      <token id="tok1959" status="ok">contained</token>
+      <token id="tok1960" status="ok">in</token>
+      <token id="tok1961" status="ok">a</token>
+      <token id="tok1962" status="ok">closed</token>
+      <token id="tok1963" status="ok">path</token>
+      <token id="tok1964" status="ok">with</token>
+      <token id="tok1965" status="ok">the</token>
+      <token id="tok1966" status="ok">battery</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_EXPLAIN_Q2.sbjb13-l2.qa92" accuracy="correct" answerMatch="answer378" raw_text="There will still be a closed path containin bulb A, bulb C and the battery." count="1">
+      <token id="tok1960" status="ok">There</token>
+      <token id="tok1961" status="ok">will</token>
+      <token id="tok1962" status="ok">still</token>
+      <token id="tok1963" status="ok">be</token>
+      <token id="tok1964" status="ok">a</token>
+      <token id="tok1965" status="ok">closed</token>
+      <token id="tok1966" status="ok">path</token>
+      <token id="tok1967" status="ok" original="containin">containing</token>
+      <token id="tok1968" status="ok">bulb</token>
+      <token id="tok1969" status="ok">A</token>
+      <token id="tok1970" status="ok">bulb</token>
+      <token id="tok1971" status="ok">C</token>
+      <token id="tok1972" status="ok">and</token>
+      <token id="tok1973" status="ok">the</token>
+      <token id="tok1974" status="ok">battery</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_EXPLAIN_Q2.sbjb15-l2.qa93" accuracy="partially_correct_incomplete" answerMatch="answer378" raw_text="still connected to battery" count="1">
+      <token id="tok1846" status="ok">still</token>
+      <token id="tok1847" status="ok">connected</token>
+      <token id="tok1848" status="ok">to</token>
+      <token id="tok1849" status="ok">battery</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_EXPLAIN_Q2.sbjb16-l2.qa93" accuracy="partially_correct_incomplete" answerMatch="answer380" raw_text="same path" count="1">
+      <token id="tok1870" status="ok">same</token>
+      <token id="tok1871" status="ok">path</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_EXPLAIN_Q2.sbjb17-l2.qa94" accuracy="correct" answerMatch="answer380" raw_text="There is still a closed path for bulb A and C" count="1">
+      <token id="tok1937" status="ok">There</token>
+      <token id="tok1938" status="ok">is</token>
+      <token id="tok1939" status="ok">still</token>
+      <token id="tok1940" status="ok">a</token>
+      <token id="tok1941" status="ok">closed</token>
+      <token id="tok1942" status="ok">path</token>
+      <token id="tok1943" status="ok">for</token>
+      <token id="tok1944" status="ok">bulb</token>
+      <token id="tok1945" status="ok">A</token>
+      <token id="tok1946" status="ok">and</token>
+      <token id="tok1947" status="ok">C</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_EXPLAIN_Q2.sbjb18-l2.qa92" accuracy="correct" answerMatch="answer378" raw_text="They are still in a closed pathway with the battery" count="1">
+      <token id="tok1817" status="ok">They</token>
+      <token id="tok1818" status="ok">are</token>
+      <token id="tok1819" status="ok">still</token>
+      <token id="tok1820" status="ok">in</token>
+      <token id="tok1821" status="ok">a</token>
+      <token id="tok1822" status="ok">closed</token>
+      <token id="tok1823" status="ok">pathway</token>
+      <token id="tok1824" status="ok">with</token>
+      <token id="tok1825" status="ok">the</token>
+      <token id="tok1826" status="ok">battery</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_EXPLAIN_Q2.sbjb19-l2.qa92" accuracy="partially_correct_incomplete" answerMatch="answer380" raw_text="there is still a path for the 2 bulbs" count="1">
+      <token id="tok1929" status="ok">there</token>
+      <token id="tok1930" status="ok">is</token>
+      <token id="tok1931" status="ok">still</token>
+      <token id="tok1932" status="ok">a</token>
+      <token id="tok1933" status="ok">path</token>
+      <token id="tok1934" status="ok">for</token>
+      <token id="tok1935" status="ok">the</token>
+      <token id="tok1936" status="numerical">2</token>
+      <token id="tok1937" status="ok">bulbs</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_EXPLAIN_Q2.sbjb20-l2.qa92" accuracy="correct" answerMatch="answer380" raw_text="Bulb A and C will still be in a contained path." count="1">
+      <token id="tok1943" status="ok">Bulb</token>
+      <token id="tok1944" status="ok">A</token>
+      <token id="tok1945" status="ok">and</token>
+      <token id="tok1946" status="ok">C</token>
+      <token id="tok1947" status="ok">will</token>
+      <token id="tok1948" status="ok">still</token>
+      <token id="tok1949" status="ok">be</token>
+      <token id="tok1950" status="ok">in</token>
+      <token id="tok1951" status="ok">a</token>
+      <token id="tok1952" status="ok">contained</token>
+      <token id="tok1953" status="ok">path</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_EXPLAIN_Q2.sbjb21-l2.qa92" accuracy="contradictory" raw_text="seperate curcuits" count="1">
+      <token id="tok1826" status="ok" original="seperate">separate</token>
+      <token id="tok1827" status="ok" original="curcuits">circuits</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_EXPLAIN_Q2.sbjb22-l2.qa92" accuracy="partially_correct_incomplete" answerMatch="answer380" raw_text="not contained inthe same path" count="1">
+      <token id="tok1837" status="ok">not</token>
+      <token id="tok1838" status="ok">contained</token>
+      <token id="tok1839a" status="ok">in</token>
+      <token id="tok1839b" status="ok">the</token>
+      <token id="tok1840" status="ok">same</token>
+      <token id="tok1841" status="ok">path</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_EXPLAIN_Q2.sbjb24-l2.qa96" accuracy="partially_correct_incomplete" answerMatch="answer380" raw_text="SEPARATE PATHS" count="1">
+      <token id="tok1883" status="ok">SEPARATE</token>
+      <token id="tok1884" status="ok">PATHS</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_EXPLAIN_Q2.sbjb25-l2.qa93" accuracy="contradictory" answerMatch="answer380" raw_text="They are all in separate paths." count="1">
+      <token id="tok1908" status="ok">They</token>
+      <token id="tok1909" status="ok">are</token>
+      <token id="tok1910" status="ok">all</token>
+      <token id="tok1911" status="ok">in</token>
+      <token id="tok1912" status="ok">separate</token>
+      <token id="tok1913" status="ok">paths</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_EXPLAIN_Q2.sbjb26-l2.qa92" accuracy="correct" answerMatch="answer380" raw_text="Bulbs A and C will still be a part of a complete circut." count="1">
+      <token id="tok1940" status="ok">Bulbs</token>
+      <token id="tok1941" status="ok">A</token>
+      <token id="tok1942" status="ok">and</token>
+      <token id="tok1943" status="ok">C</token>
+      <token id="tok1944" status="ok">will</token>
+      <token id="tok1945" status="ok">still</token>
+      <token id="tok1946" status="ok">be</token>
+      <token id="tok1947" status="ok">a</token>
+      <token id="tok1948" status="ok">part</token>
+      <token id="tok1949" status="ok">of</token>
+      <token id="tok1950" status="ok">a</token>
+      <token id="tok1951" status="ok">complete</token>
+      <token id="tok1952" status="ok" original="circut">circuit</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_EXPLAIN_Q2.sbjb27-l2.qa92" accuracy="contradictory" answerMatch="answer378" raw_text="they are still conatined in a closed circuit with the battery" count="1">
+      <token id="tok1946" status="ok">they</token>
+      <token id="tok1947" status="ok">are</token>
+      <token id="tok1948" status="ok">still</token>
+      <token id="tok1949" status="ok" original="conatined">contained</token>
+      <token id="tok1950" status="ok">in</token>
+      <token id="tok1951" status="ok">a</token>
+      <token id="tok1952" status="ok">closed</token>
+      <token id="tok1953" status="ok">circuit</token>
+      <token id="tok1954" status="ok">with</token>
+      <token id="tok1955" status="ok">the</token>
+      <token id="tok1956" status="ok">battery</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_EXPLAIN_Q2.sbjb28-l2.qa92" accuracy="correct" answerMatch="answer380" raw_text="Bulbs A and C are on a separate closed path" count="1">
+      <token id="tok1913" status="ok">Bulbs</token>
+      <token id="tok1914" status="ok">A</token>
+      <token id="tok1915" status="ok">and</token>
+      <token id="tok1916" status="ok">C</token>
+      <token id="tok1917" status="ok">are</token>
+      <token id="tok1918" status="ok">on</token>
+      <token id="tok1919" status="ok">a</token>
+      <token id="tok1920" status="ok">separate</token>
+      <token id="tok1921" status="ok">closed</token>
+      <token id="tok1922" status="ok">path</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_EXPLAIN_Q2.sbjb29-l2.qa93" accuracy="correct" answerMatch="answer380" raw_text="B would not cause a gap for either A or C" count="1">
+      <token id="tok1894" status="ok">B</token>
+      <token id="tok1895" status="ok">would</token>
+      <token id="tok1896" status="ok">not</token>
+      <token id="tok1897" status="ok">cause</token>
+      <token id="tok1898" status="ok">a</token>
+      <token id="tok1899" status="ok">gap</token>
+      <token id="tok1900" status="ok">for</token>
+      <token id="tok1901" status="ok">either</token>
+      <token id="tok1902" status="ok">A</token>
+      <token id="tok1903" status="ok">or</token>
+      <token id="tok1904" status="ok">C</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_EXPLAIN_Q2.sbjb30-l2.qa92" accuracy="correct" answerMatch="answer378" raw_text="bulbs a and c are both still contained in a closed path with the battery." count="1">
+      <token id="tok2022" status="ok">bulbs</token>
+      <token id="tok2023" status="ok">a</token>
+      <token id="tok2024" status="ok">and</token>
+      <token id="tok2025" status="ok">c</token>
+      <token id="tok2026" status="ok">are</token>
+      <token id="tok2027" status="ok">both</token>
+      <token id="tok2028" status="ok">still</token>
+      <token id="tok2029" status="ok">contained</token>
+      <token id="tok2030" status="ok">in</token>
+      <token id="tok2031" status="ok">a</token>
+      <token id="tok2032" status="ok">closed</token>
+      <token id="tok2033" status="ok">path</token>
+      <token id="tok2034" status="ok">with</token>
+      <token id="tok2035" status="ok">the</token>
+      <token id="tok2036" status="ok">battery</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_EXPLAIN_Q2.sbjb31-l2.qa92" accuracy="contradictory" answerMatch="answer378" raw_text="because bulb a and c would still be in a complete circuit with the battery" count="1">
+      <token id="tok1974" status="ok">because</token>
+      <token id="tok1975" status="ok">bulb</token>
+      <token id="tok1976" status="ok">a</token>
+      <token id="tok1977" status="ok">and</token>
+      <token id="tok1978" status="ok">c</token>
+      <token id="tok1979" status="ok">would</token>
+      <token id="tok1980" status="ok">still</token>
+      <token id="tok1981" status="ok">be</token>
+      <token id="tok1982" status="ok">in</token>
+      <token id="tok1983" status="ok">a</token>
+      <token id="tok1984" status="ok">complete</token>
+      <token id="tok1985" status="ok">circuit</token>
+      <token id="tok1986" status="ok">with</token>
+      <token id="tok1987" status="ok">the</token>
+      <token id="tok1988" status="ok">battery</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_EXPLAIN_Q2.sbjb32-l2.qa92" accuracy="partially_correct_incomplete" raw_text="they have closed paths" count="1">
+      <token id="tok1862" status="ok">they</token>
+      <token id="tok1863" status="ok">have</token>
+      <token id="tok1864" status="ok">closed</token>
+      <token id="tok1865" status="ok">paths</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_EXPLAIN_Q2.sbjb34-l2.qa93" accuracy="correct" answerMatch="answer378" raw_text="Bulb A and bulb C are still contained in a closed path with the battery." count="1">
+      <token id="tok1957" status="ok">Bulb</token>
+      <token id="tok1958" status="ok">A</token>
+      <token id="tok1959" status="ok">and</token>
+      <token id="tok1960" status="ok">bulb</token>
+      <token id="tok1961" status="ok">C</token>
+      <token id="tok1962" status="ok">are</token>
+      <token id="tok1963" status="ok">still</token>
+      <token id="tok1964" status="ok">contained</token>
+      <token id="tok1965" status="ok">in</token>
+      <token id="tok1966" status="ok">a</token>
+      <token id="tok1967" status="ok">closed</token>
+      <token id="tok1968" status="ok">path</token>
+      <token id="tok1969" status="ok">with</token>
+      <token id="tok1970" status="ok">the</token>
+      <token id="tok1971" status="ok">battery</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_EXPLAIN_Q2.sbjb35-l2.qa94" accuracy="partially_correct_incomplete" answerMatch="answer378" raw_text="Bulb b is on a seperate pathway from A and C which are still connected to the battery." count="1">
+      <token id="tok1960" status="ok">Bulb</token>
+      <token id="tok1961" status="ok">b</token>
+      <token id="tok1962" status="ok">is</token>
+      <token id="tok1963" status="ok">on</token>
+      <token id="tok1964" status="ok">a</token>
+      <token id="tok1965" status="ok" original="seperate">separate</token>
+      <token id="tok1966" status="ok">pathway</token>
+      <token id="tok1967" status="ok">from</token>
+      <token id="tok1968" status="ok">A</token>
+      <token id="tok1969" status="ok">and</token>
+      <token id="tok1970" status="ok">C</token>
+      <token id="tok1971" status="ok">which</token>
+      <token id="tok1972" status="ok">are</token>
+      <token id="tok1973" status="ok">still</token>
+      <token id="tok1974" status="ok">connected</token>
+      <token id="tok1975" status="ok">to</token>
+      <token id="tok1976" status="ok">the</token>
+      <token id="tok1977" status="ok">battery</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_EXPLAIN_Q2.sbjb36-l2.qa92" accuracy="correct" answerMatch="answer380" raw_text="B does not effect the paths of the other 2, they are still closed" count="1">
+      <token id="tok1894" status="ok">B</token>
+      <token id="tok1895" status="ok">does</token>
+      <token id="tok1896" status="ok">not</token>
+      <token id="tok1897" status="ok" original="effect">affect</token>
+      <token id="tok1898" status="ok">the</token>
+      <token id="tok1899" status="ok">paths</token>
+      <token id="tok1900" status="ok">of</token>
+      <token id="tok1901" status="ok">the</token>
+      <token id="tok1902" status="ok">other</token>
+      <token id="tok1903" status="numerical">2</token>
+      <token id="tok1904" status="ok">they</token>
+      <token id="tok1905" status="ok">are</token>
+      <token id="tok1906" status="ok">still</token>
+      <token id="tok1907" status="ok">closed</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_EXPLAIN_Q2.sbjb37-l2.qa93" accuracy="partially_correct_incomplete" answerMatch="answer378" raw_text="seperate paths connected to the battery" count="1">
+      <token id="tok1895" status="ok" original="seperate">separate</token>
+      <token id="tok1896" status="ok">paths</token>
+      <token id="tok1897" status="ok">connected</token>
+      <token id="tok1898" status="ok">to</token>
+      <token id="tok1899" status="ok">the</token>
+      <token id="tok1900" status="ok">battery</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_EXPLAIN_Q2.sbjb38-l2.qa92" accuracy="correct" answerMatch="answer378" raw_text="Bulbs A and C will still be contained in a closed path with the battery." count="1">
+      <token id="tok1964" status="ok">Bulbs</token>
+      <token id="tok1965" status="ok">A</token>
+      <token id="tok1966" status="ok">and</token>
+      <token id="tok1967" status="ok">C</token>
+      <token id="tok1968" status="ok">will</token>
+      <token id="tok1969" status="ok">still</token>
+      <token id="tok1970" status="ok">be</token>
+      <token id="tok1971" status="ok">contained</token>
+      <token id="tok1972" status="ok">in</token>
+      <token id="tok1973" status="ok">a</token>
+      <token id="tok1974" status="ok">closed</token>
+      <token id="tok1975" status="ok">path</token>
+      <token id="tok1976" status="ok">with</token>
+      <token id="tok1977" status="ok">the</token>
+      <token id="tok1978" status="ok">battery</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_EXPLAIN_Q2.sbjb39-l2.qa92" accuracy="correct" answerMatch="answer380" raw_text="bulbs a and c will still be in a closed path, even if bulb B burns out." count="1">
+      <token id="tok1955" status="ok">bulbs</token>
+      <token id="tok1956" status="ok">a</token>
+      <token id="tok1957" status="ok">and</token>
+      <token id="tok1958" status="ok">c</token>
+      <token id="tok1959" status="ok">will</token>
+      <token id="tok1960" status="ok">still</token>
+      <token id="tok1961" status="ok">be</token>
+      <token id="tok1962" status="ok">in</token>
+      <token id="tok1963" status="ok">a</token>
+      <token id="tok1964" status="ok">closed</token>
+      <token id="tok1965" status="ok">path</token>
+      <token id="tok1966" status="ok">even</token>
+      <token id="tok1967" status="ok">if</token>
+      <token id="tok1968" status="ok">bulb</token>
+      <token id="tok1969" status="ok">B</token>
+      <token id="tok1970" status="ok">burns</token>
+      <token id="tok1971" status="ok">out</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_EXPLAIN_Q2.sbjb40-l2.qa92" accuracy="partially_correct_incomplete" answerMatch="answer380" raw_text="bulbs a and c will still have a direct path" count="1">
+      <token id="tok1884" status="ok">bulbs</token>
+      <token id="tok1885" status="ok">a</token>
+      <token id="tok1886" status="ok">and</token>
+      <token id="tok1887" status="ok">c</token>
+      <token id="tok1888" status="ok">will</token>
+      <token id="tok1889" status="ok">still</token>
+      <token id="tok1890" status="ok">have</token>
+      <token id="tok1891" status="ok">a</token>
+      <token id="tok1892" status="ok">direct</token>
+      <token id="tok1893" status="ok">path</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_EXPLAIN_Q2.sbjb41-l2.qa93" accuracy="correct" answerMatch="answer378" raw_text="Bulbs A and C will be on because they still have a direct closed path to the battery." count="1">
+      <token id="tok2065" status="ok">Bulbs</token>
+      <token id="tok2066" status="ok">A</token>
+      <token id="tok2067" status="ok">and</token>
+      <token id="tok2068" status="ok">C</token>
+      <token id="tok2069" status="ok">will</token>
+      <token id="tok2070" status="ok">be</token>
+      <token id="tok2071" status="ok">on</token>
+      <token id="tok2072" status="ok">because</token>
+      <token id="tok2073" status="ok">they</token>
+      <token id="tok2074" status="ok">still</token>
+      <token id="tok2075" status="ok">have</token>
+      <token id="tok2076" status="ok">a</token>
+      <token id="tok2077" status="ok">direct</token>
+      <token id="tok2078" status="ok">closed</token>
+      <token id="tok2079" status="ok">path</token>
+      <token id="tok2080" status="ok">to</token>
+      <token id="tok2081" status="ok">the</token>
+      <token id="tok2082" status="ok">battery</token>
+    </studentAnswer>
+    <studentAnswer id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_EXPLAIN_Q2.sbjb42-l2.qa92" accuracy="contradictory" answerMatch="answer380" raw_text="they are still on a closed circuit with the battery" count="1">
+      <token id="tok1929" status="ok">they</token>
+      <token id="tok1930" status="ok">are</token>
+      <token id="tok1931" status="ok">still</token>
+      <token id="tok1932" status="ok">on</token>
+      <token id="tok1933" status="ok">a</token>
+      <token id="tok1934" status="ok">closed</token>
+      <token id="tok1935" status="ok">circuit</token>
+      <token id="tok1936" status="ok">with</token>
+      <token id="tok1937" status="ok">the</token>
+      <token id="tok1938" status="ok">battery</token>
+    </studentAnswer>
+  </studentAnswers>
+</question>

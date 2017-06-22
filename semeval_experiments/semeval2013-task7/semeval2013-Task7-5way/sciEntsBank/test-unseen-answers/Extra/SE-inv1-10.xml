@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<question testSet="unseen-answers" id="SE_10" module="SE">
+  <questionText>Bryan taped a golf tee to a globe of the Earth. He shined a flashlight on the globe. The best way for Bryan to demonstrate how shadows change during the day would be to: (rotate the globe.) move the flashlight. Why would this best demonstrate how shadows change during the day?</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="SE_10-a1" text="Shadows change during the day because the Earth is turning. The Sun stays in one place.">
+      <tokens>
+        <token id="SE_10_ra1">Shadows</token>
+        <token id="SE_10_ra2">change</token>
+        <token id="SE_10_ra3">during</token>
+        <token id="SE_10_ra4">the</token>
+        <token id="SE_10_ra5">day</token>
+        <token id="SE_10_ra6">because</token>
+        <token id="SE_10_ra7">the</token>
+        <token id="SE_10_ra8">Earth</token>
+        <token id="SE_10_ra9">is</token>
+        <token id="SE_10_ra10">turning</token>
+        <token id="SE_10_ra11">.</token>
+        <token id="SE_10_ra12">The</token>
+        <token id="SE_10_ra13">Sun</token>
+        <token id="SE_10_ra14">stays</token>
+        <token id="SE_10_ra15">in</token>
+        <token id="SE_10_ra16">one</token>
+        <token id="SE_10_ra17">place</token>
+        <token id="SE_10_ra18">.</token>
+      </tokens>
+      <facets>
+        <facet id="SE_10_f1" govNum="SE_10_ra2" modNum="SE_10_ra1" reltn="Theme" govText="change" isAssumed="true" modText="Shadows"/>
+        <facet id="SE_10_f2" govNum="SE_10_ra2" modNum="SE_10_ra5" reltn="Time_during" govText="change" isAssumed="true" modText="day"/>
+        <facet id="SE_10_f3" govNum="SE_10_ra10" modNum="SE_10_ra8" reltn="Theme" govText="turning" modText="Earth"/>
+        <facet id="SE_10_f4" govNum="SE_10_ra2" modNum="SE_10_ra10" reltn="Cause_because" childProp1Facet1="SE_10_f1" govText="change" isAssumed="true" childProp1Facet2="SE_10_f2" modText="turning" childProp2Facet1="SE_10_f3"/>
+        <facet id="SE_10_f5" govNum="SE_10_ra14" modNum="SE_10_ra13" reltn="Theme" govText="stays" modText="Sun"/>
+        <facet id="SE_10_f6" govNum="SE_10_ra14" modNum="SE_10_ra17" reltn="Location_in" govText="stays" modText="place"/>
+        <facet id="SE_10_f7" govNum="SE_10_ra17" modNum="SE_10_ra16" reltn="Quantifier" govText="place" modText="one"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="SE.10.127.1" answerText="Because earth rotates the sun does not move." accuracy="correct">
+      <facetEntailment facetID="SE_10_f1" label="Assumed"/>
+      <facetEntailment facetID="SE_10_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_10_f3" label="Expressed"/>
+      <facetEntailment facetID="SE_10_f4" label="Assumed"/>
+      <facetEntailment facetID="SE_10_f5" label="Expressed"/>
+      <facetEntailment facetID="SE_10_f6" label="Expressed"/>
+      <facetEntailment facetID="SE_10_f7" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="SE.10.318.1" answerText="Because although it looks like the sun moves, the earth is really moving making the way the sun shines on the earth different." accuracy="correct">
+      <facetEntailment facetID="SE_10_f1" label="Assumed"/>
+      <facetEntailment facetID="SE_10_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_10_f3" label="Inferred"/>
+      <facetEntailment facetID="SE_10_f4" label="Expressed"/>
+      <facetEntailment facetID="SE_10_f5" label="Inferred"/>
+      <facetEntailment facetID="SE_10_f6" label="Inferred"/>
+      <facetEntailment facetID="SE_10_f7" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="SE.10.519.1" answerText="Because only the earth move not the sun and if you are on the earth you could feel the sun beam on you all the time when you are outside." accuracy="correct">
+      <facetEntailment facetID="SE_10_f1" label="Assumed"/>
+      <facetEntailment facetID="SE_10_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_10_f3" label="Inferred"/>
+      <facetEntailment facetID="SE_10_f4" label="Assumed"/>
+      <facetEntailment facetID="SE_10_f5" label="Expressed"/>
+      <facetEntailment facetID="SE_10_f6" label="Expressed"/>
+      <facetEntailment facetID="SE_10_f7" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="SE.10.572.1" answerText="So you can tell the time by your shadow instead of looking at a watch." accuracy="irrelevant">
+      <facetEntailment facetID="SE_10_f1" label="Assumed"/>
+      <facetEntailment facetID="SE_10_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_10_f3" label="Unaddressed"/>
+      <facetEntailment facetID="SE_10_f4" label="Assumed"/>
+      <facetEntailment facetID="SE_10_f5" label="Unaddressed"/>
+      <facetEntailment facetID="SE_10_f6" label="Unaddressed"/>
+      <facetEntailment facetID="SE_10_f7" label="Unaddressed"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

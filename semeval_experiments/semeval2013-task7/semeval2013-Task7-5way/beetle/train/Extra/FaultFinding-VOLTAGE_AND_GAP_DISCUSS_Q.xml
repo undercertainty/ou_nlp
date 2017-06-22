@@ -1,0 +1,944 @@
+<?xml version="1.0"?>
+<question qtype="Q_EXPLAIN_GENERIC" id="VOLTAGE_AND_GAP_DISCUSS_Q" module="FaultFinding" stype="QUESTION">
+  <questionText>As you move the multimeter leads from one bulb terminal to the next, what does it mean when the voltage reading jumps from 0 to 1.5?</questionText>
+  <referenceAnswers>
+    <referenceAnswer category="BEST" id="answer191" fileID="VOLTAGE_AND_GAP_DISCUSS_Q_ANS1">the bulb is damaged</referenceAnswer>
+    <referenceAnswer category="BEST" id="answer192" fileID="VOLTAGE_AND_GAP_DISCUSS_Q_ANS2">the terminals are not connected</referenceAnswer>
+    <referenceAnswer category="MINIMAL" id="answer193" fileID="VOLTAGE_AND_GAP_DISCUSS_Q_ANS3">there is a gap</referenceAnswer>
+    <referenceAnswer category="MINIMAL" id="answer194" fileID="VOLTAGE_AND_GAP_DISCUSS_Q_ANS4">the terminals are separated by a gap</referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer count="1" answerMatch="answer191" raw_text="that the bulb between those terminals is damaged" id="FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbj3-l1.qa179" accuracy="correct">
+      <token status="ok" id="tok3454">that</token>
+      <token status="ok" id="tok3455">the</token>
+      <token status="ok" id="tok3456">bulb</token>
+      <token status="ok" id="tok3457">between</token>
+      <token status="ok" id="tok3458">those</token>
+      <token status="ok" id="tok3459">terminals</token>
+      <token status="ok" id="tok3460">is</token>
+      <token status="ok" id="tok3461">damaged</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer192" raw_text="the terminals go from not being connected to being connected to each other." id="FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbj7-l1.qa170" accuracy="contradictory">
+      <token status="ok" id="tok2888">the</token>
+      <token status="ok" id="tok2889">terminals</token>
+      <token status="ok" id="tok2890">go</token>
+      <token status="ok" id="tok2891">from</token>
+      <token status="ok" id="tok2892">not</token>
+      <token status="ok" id="tok2893">being</token>
+      <token status="ok" id="tok2894">connected</token>
+      <token status="ok" id="tok2895">to</token>
+      <token status="ok" id="tok2896">being</token>
+      <token status="ok" id="tok2897">connected</token>
+      <token status="ok" id="tok2898">to</token>
+      <token status="ok" id="tok2899">each</token>
+      <token status="ok" id="tok2900">other</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="it means the bulb terminal is connected to the battery terminal" id="FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbj7-l1.qa171" accuracy="contradictory">
+      <token status="ok" id="tok2911">it</token>
+      <token status="ok" id="tok2912">means</token>
+      <token status="ok" id="tok2913">the</token>
+      <token status="ok" id="tok2914">bulb</token>
+      <token status="ok" id="tok2915">terminal</token>
+      <token status="ok" id="tok2916">is</token>
+      <token status="ok" id="tok2917">connected</token>
+      <token status="ok" id="tok2918">to</token>
+      <token status="ok" id="tok2919">the</token>
+      <token status="ok" id="tok2920">battery</token>
+      <token status="ok" id="tok2921">terminal</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="i do not know" id="FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbj7-l1.qa172" accuracy="non_domain">
+      <token status="ok" id="tok2935">i</token>
+      <token status="ok" id="tok2936">do</token>
+      <token status="ok" id="tok2937">not</token>
+      <token status="ok" id="tok2938">know</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer192" raw_text="the terminals are not connected to eachother" id="FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbj10-l1.qa193" accuracy="correct">
+      <token status="ok" id="tok3510">the</token>
+      <token status="ok" id="tok3511">terminals</token>
+      <token status="ok" id="tok3512">are</token>
+      <token status="ok" id="tok3513">not</token>
+      <token status="ok" id="tok3514">connected</token>
+      <token status="ok" id="tok3515">to</token>
+      <token status="splitFromMisspelling" id="tok3516a">each</token>
+      <token status="splitFromMisspelling" id="tok3516b">other</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer192" raw_text="it means that the bulb terminal is not connected to the battery terminal." id="FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbj11-l1.qa200" accuracy="correct">
+      <token status="ok" id="tok3392">it</token>
+      <token status="ok" id="tok3393">means</token>
+      <token status="ok" id="tok3394">that</token>
+      <token status="ok" id="tok3395">the</token>
+      <token status="ok" id="tok3396">bulb</token>
+      <token status="ok" id="tok3397">terminal</token>
+      <token status="ok" id="tok3398">is</token>
+      <token status="ok" id="tok3399">not</token>
+      <token status="ok" id="tok3400">connected</token>
+      <token status="ok" id="tok3401">to</token>
+      <token status="ok" id="tok3402">the</token>
+      <token status="ok" id="tok3403">battery</token>
+      <token status="ok" id="tok3404">terminal</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer194" raw_text="There is a gap between the two bulb terminals" id="FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbj12-l1.qa170" accuracy="correct">
+      <token status="ok" id="tok3151">There</token>
+      <token status="ok" id="tok3152">is</token>
+      <token status="ok" id="tok3153">a</token>
+      <token status="ok" id="tok3154">gap</token>
+      <token status="ok" id="tok3155">between</token>
+      <token status="ok" id="tok3156">the</token>
+      <token status="ok" id="tok3157">two</token>
+      <token status="ok" id="tok3158">bulb</token>
+      <token status="ok" id="tok3159">terminals</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="it is receiving voltage from the battery terminal." id="FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbj13-l1.qa204" accuracy="contradictory">
+      <token status="ok" id="tok3738">it</token>
+      <token status="ok" id="tok3739">is</token>
+      <token status="ok" id="tok3740">receiving</token>
+      <token status="ok" id="tok3741">voltage</token>
+      <token status="ok" id="tok3742">from</token>
+      <token status="ok" id="tok3743">the</token>
+      <token status="ok" id="tok3744">battery</token>
+      <token status="ok" id="tok3745">terminal</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="there is no gap between the battery terminal and the bulb terminal." id="FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbj13-l1.qa205" accuracy="contradictory">
+      <token status="ok" id="tok3768">there</token>
+      <token status="ok" id="tok3769">is</token>
+      <token status="ok" id="tok3770">no</token>
+      <token status="ok" id="tok3771">gap</token>
+      <token status="ok" id="tok3772">between</token>
+      <token status="ok" id="tok3773">the</token>
+      <token status="ok" id="tok3774">battery</token>
+      <token status="ok" id="tok3775">terminal</token>
+      <token status="ok" id="tok3776">and</token>
+      <token status="ok" id="tok3777">the</token>
+      <token status="ok" id="tok3778">bulb</token>
+      <token status="ok" id="tok3779">terminal</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="i don&quot;t know." id="FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbj13-l1.qa206" accuracy="non_domain">
+      <token status="ok" id="tok3793">i</token>
+      <token status="ok" id="tok3794">do</token>
+      <token status="pennTokenFragment" id="tok3795">n't</token>
+      <token status="ok" id="tok3796">know</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer192" raw_text="There is no connection between the bulb terminal and the battery terminal." id="FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbj14-l1.qa194" accuracy="contradictory">
+      <token status="ok" id="tok3219">There</token>
+      <token status="ok" id="tok3220">is</token>
+      <token status="ok" id="tok3221">no</token>
+      <token status="ok" id="tok3222">connection</token>
+      <token status="ok" id="tok3223">between</token>
+      <token status="ok" id="tok3224">the</token>
+      <token status="ok" id="tok3225">bulb</token>
+      <token status="ok" id="tok3226">terminal</token>
+      <token status="ok" id="tok3227">and</token>
+      <token status="ok" id="tok3228">the</token>
+      <token status="ok" id="tok3229">battery</token>
+      <token status="ok" id="tok3230">terminal</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="jdkjgkfjg" id="FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbj14-l1.qa196" accuracy="non_domain">
+      <token status="nonWord" id="tok3247">jdkjgkfjg</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer192" raw_text="the terminals went from being connected to not being connected to eachother" id="FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbj15-l1.qa211" accuracy="correct">
+      <token status="ok" id="tok3802">the</token>
+      <token status="ok" id="tok3803">terminals</token>
+      <token status="ok" id="tok3804">went</token>
+      <token status="ok" id="tok3805">from</token>
+      <token status="ok" id="tok3806">being</token>
+      <token status="ok" id="tok3807">connected</token>
+      <token status="ok" id="tok3808">to</token>
+      <token status="ok" id="tok3809">not</token>
+      <token status="ok" id="tok3810">being</token>
+      <token status="ok" id="tok3811">connected</token>
+      <token status="ok" id="tok3812">to</token>
+      <token status="splitFromMisspelling" id="tok3813a">each</token>
+      <token status="splitFromMisspelling" id="tok3813b">other</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="leave me alone i got it right" id="FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbj15-l1.qa212" accuracy="non_domain">
+      <token status="ok" id="tok3827">leave</token>
+      <token status="ok" id="tok3828">me</token>
+      <token status="ok" id="tok3829">alone</token>
+      <token status="ok" id="tok3830">i</token>
+      <token status="ok" id="tok3831">got</token>
+      <token status="ok" id="tok3832">it</token>
+      <token status="ok" id="tok3833">right</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="the difference is damged" id="FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbj15-l1.qa213" accuracy="contradictory">
+      <token status="ok" id="tok3852">the</token>
+      <token status="ok" id="tok3853">difference</token>
+      <token status="ok" id="tok3854">is</token>
+      <token status="ok" id="tok3855" original="damged">damaged</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="the difference is damaged" id="FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbj15-l1.qa214" accuracy="contradictory">
+      <token status="ok" id="tok3894">the</token>
+      <token status="ok" id="tok3895">difference</token>
+      <token status="ok" id="tok3896">is</token>
+      <token status="ok" id="tok3897">damaged</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer193" raw_text="There is a gap in the circuit." id="FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbj18-l1.qa169" accuracy="correct">
+      <token status="ok" id="tok2986">There</token>
+      <token status="ok" id="tok2987">is</token>
+      <token status="ok" id="tok2988">a</token>
+      <token status="ok" id="tok2989">gap</token>
+      <token status="ok" id="tok2990">in</token>
+      <token status="ok" id="tok2991">the</token>
+      <token status="ok" id="tok2992">circuit</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="it is connected to the battery" id="FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbj19-l1.qa225" accuracy="contradictory">
+      <token status="ok" id="tok4144">it</token>
+      <token status="ok" id="tok4145">is</token>
+      <token status="ok" id="tok4146">connected</token>
+      <token status="ok" id="tok4147">to</token>
+      <token status="ok" id="tok4148">the</token>
+      <token status="ok" id="tok4149">battery</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="the bulb is connected to the battery" id="FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbj19-l1.qa226" accuracy="contradictory">
+      <token status="ok" id="tok4157">the</token>
+      <token status="ok" id="tok4158">bulb</token>
+      <token status="ok" id="tok4159">is</token>
+      <token status="ok" id="tok4160">connected</token>
+      <token status="ok" id="tok4161">to</token>
+      <token status="ok" id="tok4162">the</token>
+      <token status="ok" id="tok4163">battery</token>
+    </studentAnswer>
+    <studentAnswer count="2" answerMatch="answer192" raw_text="the terminals are not connected" id="FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbj22-l1.qa194" accuracy="correct">
+      <token status="ok" id="tok3580">the</token>
+      <token status="ok" id="tok3581">terminals</token>
+      <token status="ok" id="tok3582">are</token>
+      <token status="ok" id="tok3583">not</token>
+      <token status="ok" id="tok3584">connected</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer191" raw_text="That is where the bulb is damaged." id="FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbj23-l1.qa172" accuracy="correct">
+      <token status="ok" id="tok3027">That</token>
+      <token status="ok" id="tok3028">is</token>
+      <token status="ok" id="tok3029">where</token>
+      <token status="ok" id="tok3030">the</token>
+      <token status="ok" id="tok3031">bulb</token>
+      <token status="ok" id="tok3032">is</token>
+      <token status="ok" id="tok3033">damaged</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="the terminal is connected to a closed path" id="FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbj24-l1.qa201" accuracy="contradictory">
+      <token status="ok" id="tok3901">the</token>
+      <token status="ok" id="tok3902">terminal</token>
+      <token status="ok" id="tok3903">is</token>
+      <token status="ok" id="tok3904">connected</token>
+      <token status="ok" id="tok3905">to</token>
+      <token status="ok" id="tok3906">a</token>
+      <token status="ok" id="tok3907">closed</token>
+      <token status="ok" id="tok3908">path</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="terminal is connected to battery and bulb will light" id="FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbj24-l1.qa202" accuracy="contradictory">
+      <token status="ok" id="tok3942">terminal</token>
+      <token status="ok" id="tok3943">is</token>
+      <token status="ok" id="tok3944">connected</token>
+      <token status="ok" id="tok3945">to</token>
+      <token status="ok" id="tok3946">battery</token>
+      <token status="ok" id="tok3947">and</token>
+      <token status="ok" id="tok3948">bulb</token>
+      <token status="ok" id="tok3949">will</token>
+      <token status="ok" id="tok3950">light</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="Bulb was damanged when reading was zero, if the reading moves to 1.5, it means you are now at a point in the circuit or path in which there is no gap and the voltage reading is giving the difference in electrical state of the battery" id="FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbj24-l1.qa203" accuracy="contradictory">
+      <token status="ok" id="tok3988">Bulb</token>
+      <token status="ok" id="tok3989">was</token>
+      <token status="ok" id="tok3990" original="damanged">damaged</token>
+      <token status="ok" id="tok3991">when</token>
+      <token status="ok" id="tok3992">reading</token>
+      <token status="ok" id="tok3993">was</token>
+      <token status="ok" id="tok3994">zero</token>
+      <token status="ok" id="tok3995">if</token>
+      <token status="ok" id="tok3996">the</token>
+      <token status="ok" id="tok3997">reading</token>
+      <token status="ok" id="tok3998">moves</token>
+      <token status="ok" id="tok3999">to</token>
+      <token status="numerical" id="tok4000">1.5</token>
+      <token status="ok" id="tok4001">it</token>
+      <token status="ok" id="tok4002">means</token>
+      <token status="ok" id="tok4003">you</token>
+      <token status="ok" id="tok4004">are</token>
+      <token status="ok" id="tok4005">now</token>
+      <token status="ok" id="tok4006">at</token>
+      <token status="ok" id="tok4007">a</token>
+      <token status="ok" id="tok4008">point</token>
+      <token status="ok" id="tok4009">in</token>
+      <token status="ok" id="tok4010">the</token>
+      <token status="ok" id="tok4011">circuit</token>
+      <token status="ok" id="tok4012">or</token>
+      <token status="ok" id="tok4013">path</token>
+      <token status="ok" id="tok4014">in</token>
+      <token status="ok" id="tok4015">which</token>
+      <token status="ok" id="tok4016">there</token>
+      <token status="ok" id="tok4017">is</token>
+      <token status="ok" id="tok4018">no</token>
+      <token status="ok" id="tok4019">gap</token>
+      <token status="ok" id="tok4020">and</token>
+      <token status="ok" id="tok4021">the</token>
+      <token status="ok" id="tok4022">voltage</token>
+      <token status="ok" id="tok4023">reading</token>
+      <token status="ok" id="tok4024">is</token>
+      <token status="ok" id="tok4025">giving</token>
+      <token status="ok" id="tok4026">the</token>
+      <token status="ok" id="tok4027">difference</token>
+      <token status="ok" id="tok4028">in</token>
+      <token status="ok" id="tok4029">electrical</token>
+      <token status="ok" id="tok4030">state</token>
+      <token status="ok" id="tok4031">of</token>
+      <token status="ok" id="tok4032">the</token>
+      <token status="ok" id="tok4033">battery</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="wow" id="FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbj24-l1.qa205" accuracy="non_domain">
+      <token status="ok" id="tok4132">wow</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="ut" id="FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbj26-l1.qa208" accuracy="non_domain">
+      <token status="nonWord" id="tok3547">ut</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="the terminal is damaged" id="FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbj26-l1.qa209" accuracy="contradictory">
+      <token status="ok" id="tok3568">the</token>
+      <token status="ok" id="tok3569">terminal</token>
+      <token status="ok" id="tok3570">is</token>
+      <token status="ok" id="tok3571">damaged</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer191" raw_text="bulb is damaged" id="FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbj26-l1.qa210" accuracy="correct">
+      <token status="ok" id="tok3608">bulb</token>
+      <token status="ok" id="tok3609">is</token>
+      <token status="ok" id="tok3610">damaged</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="the terminals are connected" id="FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbj27-l1.qa191" accuracy="contradictory">
+      <token status="ok" id="tok3475">the</token>
+      <token status="ok" id="tok3476">terminals</token>
+      <token status="ok" id="tok3477">are</token>
+      <token status="ok" id="tok3478">connected</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="i don&quot;t know" id="FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbj27-l1.qa192" accuracy="non_domain">
+      <token status="ok" id="tok3484">i</token>
+      <token status="ok" id="tok3485">do</token>
+      <token status="pennTokenFragment" id="tok3486">n't</token>
+      <token status="ok" id="tok3487">know</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer192" raw_text="the the bulb terminal disconnected from the battery terminal" id="FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbj28-l1.qa188" accuracy="partially_correct_incomplete">
+      <token status="ok" id="tok3234">the</token>
+      <token status="ok" id="tok3235">the</token>
+      <token status="ok" id="tok3236">bulb</token>
+      <token status="ok" id="tok3237">terminal</token>
+      <token status="ok" id="tok3238">disconnected</token>
+      <token status="ok" id="tok3239">from</token>
+      <token status="ok" id="tok3240">the</token>
+      <token status="ok" id="tok3241">battery</token>
+      <token status="ok" id="tok3242">terminal</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer192" raw_text="the terminal is not connected to the battery terminal" id="FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbj28-l1.qa189" accuracy="partially_correct_incomplete">
+      <token status="ok" id="tok3253">the</token>
+      <token status="ok" id="tok3254">terminal</token>
+      <token status="ok" id="tok3255">is</token>
+      <token status="ok" id="tok3256">not</token>
+      <token status="ok" id="tok3257">connected</token>
+      <token status="ok" id="tok3258">to</token>
+      <token status="ok" id="tok3259">the</token>
+      <token status="ok" id="tok3260">battery</token>
+      <token status="ok" id="tok3261">terminal</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer194" raw_text="the terminal is separated from the battery terminal" id="FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbj28-l1.qa190" accuracy="partially_correct_incomplete">
+      <token status="ok" id="tok3272">the</token>
+      <token status="ok" id="tok3273">terminal</token>
+      <token status="ok" id="tok3274">is</token>
+      <token status="ok" id="tok3275">separated</token>
+      <token status="ok" id="tok3276">from</token>
+      <token status="ok" id="tok3277">the</token>
+      <token status="ok" id="tok3278">battery</token>
+      <token status="ok" id="tok3279">terminal</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="you are moving from negative to positive" id="FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbj33-l1.qa182" accuracy="contradictory">
+      <token status="ok" id="tok3209">you</token>
+      <token status="ok" id="tok3210">are</token>
+      <token status="ok" id="tok3211">moving</token>
+      <token status="ok" id="tok3212">from</token>
+      <token status="ok" id="tok3213">negative</token>
+      <token status="ok" id="tok3214">to</token>
+      <token status="ok" id="tok3215">positive</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="tell me the answer" id="FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbj33-l1.qa183" accuracy="non_domain">
+      <token status="ok" id="tok3226">tell</token>
+      <token status="ok" id="tok3227">me</token>
+      <token status="ok" id="tok3228">the</token>
+      <token status="ok" id="tok3229">answer</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="There was a positive battery terminal." id="FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbj35-l1.qa188" accuracy="contradictory">
+      <token status="ok" id="tok3478">There</token>
+      <token status="ok" id="tok3479">was</token>
+      <token status="ok" id="tok3480">a</token>
+      <token status="ok" id="tok3481">positive</token>
+      <token status="ok" id="tok3482">battery</token>
+      <token status="ok" id="tok3483">terminal</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="The bulb terminal and battery terminal are connected." id="FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbj35-l1.qa189" accuracy="contradictory">
+      <token status="ok" id="tok3492">The</token>
+      <token status="ok" id="tok3493">bulb</token>
+      <token status="ok" id="tok3494">terminal</token>
+      <token status="ok" id="tok3495">and</token>
+      <token status="ok" id="tok3496">battery</token>
+      <token status="ok" id="tok3497">terminal</token>
+      <token status="ok" id="tok3498">are</token>
+      <token status="ok" id="tok3499">connected</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="The bulb terminal and battery positive or negativeterminal are connected." id="FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbj35-l1.qa190" accuracy="contradictory">
+      <token status="ok" id="tok3513">The</token>
+      <token status="ok" id="tok3514">bulb</token>
+      <token status="ok" id="tok3515">terminal</token>
+      <token status="ok" id="tok3516">and</token>
+      <token status="ok" id="tok3517">battery</token>
+      <token status="ok" id="tok3518">positive</token>
+      <token status="ok" id="tok3519">or</token>
+      <token status="ok" id="tok3520a">negative</token>
+      <token status="ok" id="tok3520b">terminal</token>
+      <token status="ok" id="tok3521">are</token>
+      <token status="ok" id="tok3522">connected</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="The bulb terminal is connected to a positive or negative battery terminal." id="FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbj35-l1.qa191" accuracy="contradictory">
+      <token status="ok" id="tok3536">The</token>
+      <token status="ok" id="tok3537">bulb</token>
+      <token status="ok" id="tok3538">terminal</token>
+      <token status="ok" id="tok3539">is</token>
+      <token status="ok" id="tok3540">connected</token>
+      <token status="ok" id="tok3541">to</token>
+      <token status="ok" id="tok3542">a</token>
+      <token status="ok" id="tok3543">positive</token>
+      <token status="ok" id="tok3544">or</token>
+      <token status="ok" id="tok3545">negative</token>
+      <token status="ok" id="tok3546">battery</token>
+      <token status="ok" id="tok3547">terminal</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="the terminals are connected to each other" id="FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbj36-l1.qa197" accuracy="contradictory">
+      <token status="ok" id="tok3581">the</token>
+      <token status="ok" id="tok3582">terminals</token>
+      <token status="ok" id="tok3583">are</token>
+      <token status="ok" id="tok3584">connected</token>
+      <token status="ok" id="tok3585">to</token>
+      <token status="ok" id="tok3586">each</token>
+      <token status="ok" id="tok3587">other</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer191" raw_text="that bulb is damaged" id="FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbj37-l1.qa169" accuracy="correct">
+      <token status="ok" id="tok3020">that</token>
+      <token status="ok" id="tok3021">bulb</token>
+      <token status="ok" id="tok3022">is</token>
+      <token status="ok" id="tok3023">damaged</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer192" raw_text="It means that the terminal that you moved to is not connected to the terminal of the battery you are connected to" id="FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbj38-l1.qa172" accuracy="contradictory">
+      <token status="ok" id="tok3240">It</token>
+      <token status="ok" id="tok3241">means</token>
+      <token status="ok" id="tok3242">that</token>
+      <token status="ok" id="tok3243">the</token>
+      <token status="ok" id="tok3244">terminal</token>
+      <token status="ok" id="tok3245">that</token>
+      <token status="ok" id="tok3246">you</token>
+      <token status="ok" id="tok3247">moved</token>
+      <token status="ok" id="tok3248">to</token>
+      <token status="ok" id="tok3249">is</token>
+      <token status="ok" id="tok3250">not</token>
+      <token status="ok" id="tok3251">connected</token>
+      <token status="ok" id="tok3252">to</token>
+      <token status="ok" id="tok3253">the</token>
+      <token status="ok" id="tok3254">terminal</token>
+      <token status="ok" id="tok3255">of</token>
+      <token status="ok" id="tok3256">the</token>
+      <token status="ok" id="tok3257">battery</token>
+      <token status="ok" id="tok3258">you</token>
+      <token status="ok" id="tok3259">are</token>
+      <token status="ok" id="tok3260">connected</token>
+      <token status="ok" id="tok3261">to</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="it means that the terminal is not connected to the battery terminal" id="FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbj38-l1.qa173" accuracy="contradictory">
+      <token status="ok" id="tok3282">it</token>
+      <token status="ok" id="tok3283">means</token>
+      <token status="ok" id="tok3284">that</token>
+      <token status="ok" id="tok3285">the</token>
+      <token status="ok" id="tok3286">terminal</token>
+      <token status="ok" id="tok3287">is</token>
+      <token status="ok" id="tok3288">not</token>
+      <token status="ok" id="tok3289">connected</token>
+      <token status="ok" id="tok3290">to</token>
+      <token status="ok" id="tok3291">the</token>
+      <token status="ok" id="tok3292">battery</token>
+      <token status="ok" id="tok3293">terminal</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer192" raw_text="The terminals are not connected anymore" id="FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbj39-l1.qa210" accuracy="correct">
+      <token status="ok" id="tok4075">The</token>
+      <token status="ok" id="tok4076">terminals</token>
+      <token status="ok" id="tok4077">are</token>
+      <token status="ok" id="tok4078">not</token>
+      <token status="ok" id="tok4079">connected</token>
+      <token status="ok" id="tok4080">anymore</token>
+    </studentAnswer>
+    <studentAnswer count="2" answerMatch="answer192" raw_text="The terminals are disconnected." id="FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbj40-l1.qa200" accuracy="correct">
+      <token status="ok" id="tok3630">The</token>
+      <token status="ok" id="tok3631">terminals</token>
+      <token status="ok" id="tok3632">are</token>
+      <token status="ok" id="tok3633">disconnected</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer194" raw_text="there terminals are separated by a gap when the voltage jumps from 0 to 1.5." id="FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbj40-l1.qa202" accuracy="correct">
+      <token status="ok" id="tok3667">there</token>
+      <token status="ok" id="tok3668">terminals</token>
+      <token status="ok" id="tok3669">are</token>
+      <token status="ok" id="tok3670">separated</token>
+      <token status="ok" id="tok3671">by</token>
+      <token status="ok" id="tok3672">a</token>
+      <token status="ok" id="tok3673">gap</token>
+      <token status="ok" id="tok3674">when</token>
+      <token status="ok" id="tok3675">the</token>
+      <token status="ok" id="tok3676">voltage</token>
+      <token status="ok" id="tok3677">jumps</token>
+      <token status="ok" id="tok3678">from</token>
+      <token status="numerical" id="tok3679">0</token>
+      <token status="ok" id="tok3680">to</token>
+      <token status="numerical" id="tok3681">1.5</token>
+    </studentAnswer>
+    <studentAnswer count="2" answerMatch="answer192" raw_text="The terminals are not connected to each other." id="FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbj42-l1.qa187" accuracy="correct">
+      <token status="ok" id="tok3320">The</token>
+      <token status="ok" id="tok3321">terminals</token>
+      <token status="ok" id="tok3322">are</token>
+      <token status="ok" id="tok3323">not</token>
+      <token status="ok" id="tok3324">connected</token>
+      <token status="ok" id="tok3325">to</token>
+      <token status="ok" id="tok3326">each</token>
+      <token status="ok" id="tok3327">other</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer193" raw_text="that you have found where the connection stops" id="FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbj43-l1.qa185" accuracy="correct">
+      <token status="ok" id="tok3376">that</token>
+      <token status="ok" id="tok3377">you</token>
+      <token status="ok" id="tok3378">have</token>
+      <token status="ok" id="tok3379">found</token>
+      <token status="ok" id="tok3380">where</token>
+      <token status="ok" id="tok3381">the</token>
+      <token status="ok" id="tok3382">connection</token>
+      <token status="ok" id="tok3383">stops</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer191" raw_text="that you have found the bulb that is damaged" id="FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbj43-l1.qa186" accuracy="correct">
+      <token status="ok" id="tok3392">that</token>
+      <token status="ok" id="tok3393">you</token>
+      <token status="ok" id="tok3394">have</token>
+      <token status="ok" id="tok3395">found</token>
+      <token status="ok" id="tok3396">the</token>
+      <token status="ok" id="tok3397">bulb</token>
+      <token status="ok" id="tok3398">that</token>
+      <token status="ok" id="tok3399">is</token>
+      <token status="ok" id="tok3400">damaged</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer193" raw_text="you have found the gap" id="FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbj45-l1.qa179" accuracy="correct">
+      <token status="ok" id="tok3141">you</token>
+      <token status="ok" id="tok3142">have</token>
+      <token status="ok" id="tok3143">found</token>
+      <token status="ok" id="tok3144">the</token>
+      <token status="ok" id="tok3145">gap</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer194" raw_text="gap in between" id="FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbj46-l1.qa192" accuracy="correct">
+      <token status="ok" id="tok3313">gap</token>
+      <token status="ok" id="tok3314">in</token>
+      <token status="ok" id="tok3315">between</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="negative to positive terminals" id="FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbj47-l1.qa203" accuracy="contradictory">
+      <token status="ok" id="tok3730">negative</token>
+      <token status="ok" id="tok3731">to</token>
+      <token status="ok" id="tok3732">positive</token>
+      <token status="ok" id="tok3733">terminals</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="the bulb is connected from a negative terminal to a positive terminal" id="FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbj47-l1.qa204" accuracy="contradictory">
+      <token status="ok" id="tok3742">the</token>
+      <token status="ok" id="tok3743">bulb</token>
+      <token status="ok" id="tok3744">is</token>
+      <token status="ok" id="tok3745">connected</token>
+      <token status="ok" id="tok3746">from</token>
+      <token status="ok" id="tok3747">a</token>
+      <token status="ok" id="tok3748">negative</token>
+      <token status="ok" id="tok3749">terminal</token>
+      <token status="ok" id="tok3750">to</token>
+      <token status="ok" id="tok3751">a</token>
+      <token status="ok" id="tok3752">positive</token>
+      <token status="ok" id="tok3753">terminal</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="the gap jumps from negative to positive" id="FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbj47-l1.qa205" accuracy="contradictory">
+      <token status="ok" id="tok3766">the</token>
+      <token status="ok" id="tok3767">gap</token>
+      <token status="ok" id="tok3768">jumps</token>
+      <token status="ok" id="tok3769">from</token>
+      <token status="ok" id="tok3770">negative</token>
+      <token status="ok" id="tok3771">to</token>
+      <token status="ok" id="tok3772">positive</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="the gap inbetween the terminals tells whether the bulb is connected to a positive or negative terminal" id="FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbj47-l1.qa206" accuracy="contradictory">
+      <token status="ok" id="tok3783">the</token>
+      <token status="ok" id="tok3784">gap</token>
+      <token status="ok" id="tok3785" original="inbetween">in-between</token>
+      <token status="ok" id="tok3786">the</token>
+      <token status="ok" id="tok3787">terminals</token>
+      <token status="ok" id="tok3788">tells</token>
+      <token status="ok" id="tok3789">whether</token>
+      <token status="ok" id="tok3790">the</token>
+      <token status="ok" id="tok3791">bulb</token>
+      <token status="ok" id="tok3792">is</token>
+      <token status="ok" id="tok3793">connected</token>
+      <token status="ok" id="tok3794">to</token>
+      <token status="ok" id="tok3795">a</token>
+      <token status="ok" id="tok3796">positive</token>
+      <token status="ok" id="tok3797">or</token>
+      <token status="ok" id="tok3798">negative</token>
+      <token status="ok" id="tok3799">terminal</token>
+    </studentAnswer>
+    <studentAnswer count="2" answerMatch="answer191" raw_text="that the bulb is damaged" id="FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbj48-l1.qa175" accuracy="correct">
+      <token status="ok" id="tok3374">that</token>
+      <token status="ok" id="tok3375">the</token>
+      <token status="ok" id="tok3376">bulb</token>
+      <token status="ok" id="tok3377">is</token>
+      <token status="ok" id="tok3378">damaged</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="That there is a closed circuit." id="FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbjb2-l1.qa157" accuracy="contradictory">
+      <token status="ok" id="tok2887">That</token>
+      <token status="ok" id="tok2888">there</token>
+      <token status="ok" id="tok2889">is</token>
+      <token status="ok" id="tok2890">a</token>
+      <token status="ok" id="tok2891">closed</token>
+      <token status="ok" id="tok2892">circuit</token>
+    </studentAnswer>
+    <studentAnswer count="2" answerMatch="answer192" raw_text="that they are no longer connected" id="FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbjb3-l1.qa168" accuracy="correct">
+      <token status="ok" id="tok2954">that</token>
+      <token status="ok" id="tok2955">they</token>
+      <token status="ok" id="tok2956">are</token>
+      <token status="ok" id="tok2957">no</token>
+      <token status="ok" id="tok2958">longer</token>
+      <token status="ok" id="tok2959">connected</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer193" raw_text="the terminals have gone from being connected to each other to not being connected to each other - there is a gap" id="FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbjb4-l1.qa147" accuracy="correct">
+      <token status="ok" id="tok2795">the</token>
+      <token status="ok" id="tok2796">terminals</token>
+      <token status="ok" id="tok2797">have</token>
+      <token status="ok" id="tok2798">gone</token>
+      <token status="ok" id="tok2799">from</token>
+      <token status="ok" id="tok2800">being</token>
+      <token status="ok" id="tok2801">connected</token>
+      <token status="ok" id="tok2802">to</token>
+      <token status="ok" id="tok2803">each</token>
+      <token status="ok" id="tok2804">other</token>
+      <token status="ok" id="tok2805">to</token>
+      <token status="ok" id="tok2806">not</token>
+      <token status="ok" id="tok2807">being</token>
+      <token status="ok" id="tok2808">connected</token>
+      <token status="ok" id="tok2809">to</token>
+      <token status="ok" id="tok2810">each</token>
+      <token status="ok" id="tok2811">other</token>
+      <token status="ok" id="tok2812">there</token>
+      <token status="ok" id="tok2813">is</token>
+      <token status="ok" id="tok2814">a</token>
+      <token status="ok" id="tok2815">gap</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="the terminals are no longer separated by a gap" id="FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbjb5-l1.qa156" accuracy="contradictory">
+      <token status="ok" id="tok3019">the</token>
+      <token status="ok" id="tok3020">terminals</token>
+      <token status="ok" id="tok3021">are</token>
+      <token status="ok" id="tok3022">no</token>
+      <token status="ok" id="tok3023">longer</token>
+      <token status="ok" id="tok3024">separated</token>
+      <token status="ok" id="tok3025">by</token>
+      <token status="ok" id="tok3026">a</token>
+      <token status="ok" id="tok3027">gap</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer192" raw_text="The bulbs were connected and now they are not." id="FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbjb6-l1.qa149" accuracy="correct">
+      <token status="ok" id="tok2824">The</token>
+      <token status="ok" id="tok2825">bulbs</token>
+      <token status="ok" id="tok2826">were</token>
+      <token status="ok" id="tok2827">connected</token>
+      <token status="ok" id="tok2828">and</token>
+      <token status="ok" id="tok2829">now</token>
+      <token status="ok" id="tok2830">they</token>
+      <token status="ok" id="tok2831">are</token>
+      <token status="ok" id="tok2832">not</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer193" raw_text="There&quot;s a gap" id="FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbjb7-l1.qa146" accuracy="correct">
+      <token status="ok" id="tok2813">There</token>
+      <token status="pennTokenFragment" id="tok2814">'s</token>
+      <token status="ok" id="tok2815">a</token>
+      <token status="ok" id="tok2816">gap</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer192" raw_text="You have reached a point where the terminals are not connected to each other." id="FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbjb9-l1.qa162" accuracy="correct">
+      <token status="ok" id="tok3053">You</token>
+      <token status="ok" id="tok3054">have</token>
+      <token status="ok" id="tok3055">reached</token>
+      <token status="ok" id="tok3056">a</token>
+      <token status="ok" id="tok3057">point</token>
+      <token status="ok" id="tok3058">where</token>
+      <token status="ok" id="tok3059">the</token>
+      <token status="ok" id="tok3060">terminals</token>
+      <token status="ok" id="tok3061">are</token>
+      <token status="ok" id="tok3062">not</token>
+      <token status="ok" id="tok3063">connected</token>
+      <token status="ok" id="tok3064">to</token>
+      <token status="ok" id="tok3065">each</token>
+      <token status="ok" id="tok3066">other</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer193" raw_text="that there is a gap and you found the nonfunctional light bulb" id="FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbjb10-l1.qa146" accuracy="correct">
+      <token status="ok" id="tok2803">that</token>
+      <token status="ok" id="tok2804">there</token>
+      <token status="ok" id="tok2805">is</token>
+      <token status="ok" id="tok2806">a</token>
+      <token status="ok" id="tok2807">gap</token>
+      <token status="ok" id="tok2808">and</token>
+      <token status="ok" id="tok2809">you</token>
+      <token status="ok" id="tok2810">found</token>
+      <token status="ok" id="tok2811">the</token>
+      <token status="ok" id="tok2812" original="nonfunctional">non-functional</token>
+      <token status="ok" id="tok2813">light</token>
+      <token status="ok" id="tok2814">bulb</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer193" raw_text="The is a gap between those two terminals" id="FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbjb12-l1.qa152" accuracy="correct">
+      <token status="ok" id="tok2860">The</token>
+      <token status="ok" id="tok2861">is</token>
+      <token status="ok" id="tok2862">a</token>
+      <token status="ok" id="tok2863">gap</token>
+      <token status="ok" id="tok2864">between</token>
+      <token status="ok" id="tok2865">those</token>
+      <token status="ok" id="tok2866">two</token>
+      <token status="ok" id="tok2867">terminals</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="I do not know." id="FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbjb13-l1.qa148" accuracy="non_domain">
+      <token status="ok" id="tok2852">I</token>
+      <token status="ok" id="tok2853">do</token>
+      <token status="ok" id="tok2854">not</token>
+      <token status="ok" id="tok2855">know</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="it is not the bulb that is damaged" id="FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbjb16-l1.qa148" accuracy="contradictory">
+      <token status="ok" id="tok2876">it</token>
+      <token status="ok" id="tok2877">is</token>
+      <token status="ok" id="tok2878">not</token>
+      <token status="ok" id="tok2879">the</token>
+      <token status="ok" id="tok2880">bulb</token>
+      <token status="ok" id="tok2881">that</token>
+      <token status="ok" id="tok2882">is</token>
+      <token status="ok" id="tok2883">damaged</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer193" raw_text="There is a gap in between the terminals." id="FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbjb17-l1.qa150" accuracy="correct">
+      <token status="ok" id="tok2898">There</token>
+      <token status="ok" id="tok2899">is</token>
+      <token status="ok" id="tok2900">a</token>
+      <token status="ok" id="tok2901">gap</token>
+      <token status="ok" id="tok2902">in</token>
+      <token status="ok" id="tok2903">between</token>
+      <token status="ok" id="tok2904">the</token>
+      <token status="ok" id="tok2905">terminals</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="they are connected" id="FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbjb18-l1.qa158" accuracy="contradictory">
+      <token status="ok" id="tok2926">they</token>
+      <token status="ok" id="tok2927">are</token>
+      <token status="ok" id="tok2928">connected</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="The terminals are connected." id="FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbjb20-l1.qa158" accuracy="contradictory">
+      <token status="ok" id="tok3009">The</token>
+      <token status="ok" id="tok3010">terminals</token>
+      <token status="ok" id="tok3011">are</token>
+      <token status="ok" id="tok3012">connected</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="an electrical surge" id="FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbjb21-l1.qa146" accuracy="contradictory">
+      <token status="ok" id="tok2737">an</token>
+      <token status="ok" id="tok2738">electrical</token>
+      <token status="ok" id="tok2739">surge</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="its connected to both the positive and negative terminals" id="FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbjb22-l1.qa157" accuracy="contradictory">
+      <token status="ok" id="tok2930a">it</token>
+      <token status="pennTokenFragment" id="tok2930b" original="s">'s</token>
+      <token status="ok" id="tok2931">connected</token>
+      <token status="ok" id="tok2932">to</token>
+      <token status="ok" id="tok2933">both</token>
+      <token status="ok" id="tok2934">the</token>
+      <token status="ok" id="tok2935">positive</token>
+      <token status="ok" id="tok2936">and</token>
+      <token status="ok" id="tok2937">negative</token>
+      <token status="ok" id="tok2938">terminals</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="current is present" id="FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbjb24-l1.qa154" accuracy="contradictory">
+      <token status="ok" id="tok2814">current</token>
+      <token status="ok" id="tok2815">is</token>
+      <token status="ok" id="tok2816">present</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer194" raw_text="You have crossed into opposing terminal territory." id="FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbjb25-l1.qa151" accuracy="contradictory">
+      <token status="ok" id="tok2880">You</token>
+      <token status="ok" id="tok2881">have</token>
+      <token status="ok" id="tok2882">crossed</token>
+      <token status="ok" id="tok2883">into</token>
+      <token status="ok" id="tok2884">opposing</token>
+      <token status="ok" id="tok2885">terminal</token>
+      <token status="ok" id="tok2886">territory</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer191" raw_text="You found the broken bulb." id="FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbjb26-l1.qa147" accuracy="correct">
+      <token status="ok" id="tok2891">You</token>
+      <token status="ok" id="tok2892">found</token>
+      <token status="ok" id="tok2893">the</token>
+      <token status="ok" id="tok2894">broken</token>
+      <token status="ok" id="tok2895">bulb</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer193" raw_text="that is where the gap is in the circuit" id="FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbjb27-l1.qa146" accuracy="correct">
+      <token status="ok" id="tok2829">that</token>
+      <token status="ok" id="tok2830">is</token>
+      <token status="ok" id="tok2831">where</token>
+      <token status="ok" id="tok2832">the</token>
+      <token status="ok" id="tok2833">gap</token>
+      <token status="ok" id="tok2834">is</token>
+      <token status="ok" id="tok2835">in</token>
+      <token status="ok" id="tok2836">the</token>
+      <token status="ok" id="tok2837">circuit</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="the terminals have gone from being connected to not being connected" id="FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbjb28-l1.qa151" accuracy="contradictory">
+      <token status="ok" id="tok2771">the</token>
+      <token status="ok" id="tok2772">terminals</token>
+      <token status="ok" id="tok2773">have</token>
+      <token status="ok" id="tok2774">gone</token>
+      <token status="ok" id="tok2775">from</token>
+      <token status="ok" id="tok2776">being</token>
+      <token status="ok" id="tok2777">connected</token>
+      <token status="ok" id="tok2778">to</token>
+      <token status="ok" id="tok2779">not</token>
+      <token status="ok" id="tok2780">being</token>
+      <token status="ok" id="tok2781">connected</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer194" raw_text="there is a gap between them" id="FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbjb29-l1.qa150" accuracy="correct">
+      <token status="ok" id="tok2918">there</token>
+      <token status="ok" id="tok2919">is</token>
+      <token status="ok" id="tok2920">a</token>
+      <token status="ok" id="tok2921">gap</token>
+      <token status="ok" id="tok2922">between</token>
+      <token status="ok" id="tok2923">them</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer192" raw_text="there is a gap at that terminal, and the terminals are not connected at that point." id="FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbjb30-l1.qa151" accuracy="correct">
+      <token status="ok" id="tok3069">there</token>
+      <token status="ok" id="tok3070">is</token>
+      <token status="ok" id="tok3071">a</token>
+      <token status="ok" id="tok3072">gap</token>
+      <token status="ok" id="tok3073">at</token>
+      <token status="ok" id="tok3074">that</token>
+      <token status="ok" id="tok3075">terminal</token>
+      <token status="ok" id="tok3076">and</token>
+      <token status="ok" id="tok3077">the</token>
+      <token status="ok" id="tok3078">terminals</token>
+      <token status="ok" id="tok3079">are</token>
+      <token status="ok" id="tok3080">not</token>
+      <token status="ok" id="tok3081">connected</token>
+      <token status="ok" id="tok3082">at</token>
+      <token status="ok" id="tok3083">that</token>
+      <token status="ok" id="tok3084">point</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="the latest bulb terminal is connected to the battery terminal, while the other is not" id="FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbjb31-l1.qa146" accuracy="contradictory">
+      <token status="ok" id="tok2899">the</token>
+      <token status="ok" id="tok2900">latest</token>
+      <token status="ok" id="tok2901">bulb</token>
+      <token status="ok" id="tok2902">terminal</token>
+      <token status="ok" id="tok2903">is</token>
+      <token status="ok" id="tok2904">connected</token>
+      <token status="ok" id="tok2905">to</token>
+      <token status="ok" id="tok2906">the</token>
+      <token status="ok" id="tok2907">battery</token>
+      <token status="ok" id="tok2908">terminal</token>
+      <token status="ok" id="tok2909">while</token>
+      <token status="ok" id="tok2910">the</token>
+      <token status="ok" id="tok2911">other</token>
+      <token status="ok" id="tok2912">is</token>
+      <token status="ok" id="tok2913">not</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer192" raw_text="There is a difference in electrical states." id="FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbjb34-l1.qa146" accuracy="partially_correct_incomplete">
+      <token status="ok" id="tok2863">There</token>
+      <token status="ok" id="tok2864">is</token>
+      <token status="ok" id="tok2865">a</token>
+      <token status="ok" id="tok2866">difference</token>
+      <token status="ok" id="tok2867">in</token>
+      <token status="ok" id="tok2868">electrical</token>
+      <token status="ok" id="tok2869">states</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="You are closing the circuit." id="FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbjb35-l1.qa147" accuracy="contradictory">
+      <token status="ok" id="tok2958">You</token>
+      <token status="ok" id="tok2959">are</token>
+      <token status="ok" id="tok2960">closing</token>
+      <token status="ok" id="tok2961">the</token>
+      <token status="ok" id="tok2962">circuit</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer193" raw_text="that is where the gab is or the short circuit" id="FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbjb36-l1.qa146" accuracy="contradictory">
+      <token status="ok" id="tok2971">that</token>
+      <token status="ok" id="tok2972">is</token>
+      <token status="ok" id="tok2973">where</token>
+      <token status="ok" id="tok2974">the</token>
+      <token status="ok" id="tok2975" original="gab">gap</token>
+      <token status="ok" id="tok2976">is</token>
+      <token status="ok" id="tok2977">or</token>
+      <token status="ok" id="tok2978">the</token>
+      <token status="ok" id="tok2979">short</token>
+      <token status="ok" id="tok2980">circuit</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer194" raw_text="The terminals are connected to the opposite side of the battery" id="FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbjb37-l1.qa146" accuracy="partially_correct_incomplete">
+      <token status="ok" id="tok2801">The</token>
+      <token status="ok" id="tok2802">terminals</token>
+      <token status="ok" id="tok2803">are</token>
+      <token status="ok" id="tok2804">connected</token>
+      <token status="ok" id="tok2805">to</token>
+      <token status="ok" id="tok2806">the</token>
+      <token status="ok" id="tok2807">opposite</token>
+      <token status="ok" id="tok2808">side</token>
+      <token status="ok" id="tok2809">of</token>
+      <token status="ok" id="tok2810">the</token>
+      <token status="ok" id="tok2811">battery</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="i dont know" id="FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbjb38-l1.qa147" accuracy="non_domain">
+      <token status="ok" id="tok2799">i</token>
+      <token status="ok" id="tok2800a">do</token>
+      <token status="pennTokenFragment" id="tok2800b" original="nt">n't</token>
+      <token status="ok" id="tok2801">know</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer193" raw_text="That there is a gap in the terminals." id="FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbjb39-l1.qa148" accuracy="correct">
+      <token status="ok" id="tok2894">That</token>
+      <token status="ok" id="tok2895">there</token>
+      <token status="ok" id="tok2896">is</token>
+      <token status="ok" id="tok2897">a</token>
+      <token status="ok" id="tok2898">gap</token>
+      <token status="ok" id="tok2899">in</token>
+      <token status="ok" id="tok2900">the</token>
+      <token status="ok" id="tok2901">terminals</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer192" raw_text="That means they are now unconnected.There is a gap." id="FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbjb40-l1.qa147" accuracy="correct">
+      <token status="ok" id="tok2872">That</token>
+      <token status="ok" id="tok2873">means</token>
+      <token status="ok" id="tok2874">they</token>
+      <token status="ok" id="tok2875">are</token>
+      <token status="ok" id="tok2876">now</token>
+      <token status="ok" id="tok2877aa">unconnected</token>
+      <token status="ok" id="tok2877b">There</token>
+      <token status="ok" id="tok2878">is</token>
+      <token status="ok" id="tok2879">a</token>
+      <token status="ok" id="tok2880">gap</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer192" raw_text="That when the voltage reading is zero, the terminals are connected, when the voltage reading is 1.5, the terminals are not connected. It jumps from connected to not connected." id="FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbjb41-l1.qa149" accuracy="correct">
+      <token status="ok" id="tok3092">That</token>
+      <token status="ok" id="tok3093">when</token>
+      <token status="ok" id="tok3094">the</token>
+      <token status="ok" id="tok3095">voltage</token>
+      <token status="ok" id="tok3096">reading</token>
+      <token status="ok" id="tok3097">is</token>
+      <token status="ok" id="tok3098">zero</token>
+      <token status="ok" id="tok3099">the</token>
+      <token status="ok" id="tok3100">terminals</token>
+      <token status="ok" id="tok3101">are</token>
+      <token status="ok" id="tok3102">connected</token>
+      <token status="ok" id="tok3103">when</token>
+      <token status="ok" id="tok3104">the</token>
+      <token status="ok" id="tok3105">voltage</token>
+      <token status="ok" id="tok3106">reading</token>
+      <token status="ok" id="tok3107">is</token>
+      <token status="numerical" id="tok3108">1.5</token>
+      <token status="ok" id="tok3109">the</token>
+      <token status="ok" id="tok3110">terminals</token>
+      <token status="ok" id="tok3111">are</token>
+      <token status="ok" id="tok3112">not</token>
+      <token status="ok" id="tok3113">connected</token>
+      <token status="ok" id="tok3114">It</token>
+      <token status="ok" id="tok3115">jumps</token>
+      <token status="ok" id="tok3116">from</token>
+      <token status="ok" id="tok3117">connected</token>
+      <token status="ok" id="tok3118">to</token>
+      <token status="ok" id="tok3119">not</token>
+      <token status="ok" id="tok3120">connected</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer191" raw_text="the bulb is damaged" id="FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbjb42-l1.qa149" accuracy="correct">
+      <token status="ok" id="tok2889">the</token>
+      <token status="ok" id="tok2890">bulb</token>
+      <token status="ok" id="tok2891">is</token>
+      <token status="ok" id="tok2892">damaged</token>
+    </studentAnswer>
+  </studentAnswers>
+</question>

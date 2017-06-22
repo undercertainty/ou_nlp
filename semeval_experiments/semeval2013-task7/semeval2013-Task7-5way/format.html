@@ -1,0 +1,328 @@
+<html><head>
+<title>SemEval Shared Task 2011 data format information</title>
+<style type="text/css">
+body {
+    font-family: "Lucida Grande", sans-serif;    
+}
+
+.highlight_box {
+	padding: 0 1em 0 1em;
+	margin: 0 0 0 0;
+	background: #FEFDE0;
+	border: 1px solid #B28F00;
+}
+</style>
+</head>
+<body>
+<h1>SemEval Shared Task 2011 data format information</h1>
+
+<p>Beetle and SciEntsBank data share a common format, with some minor
+differences that are noted below. The data for both corpora is divided
+into <tt>core</tt> and <tt>extra</tt> where core data is required for
+the task, and extra data is not central to the task but provides more
+information that may prove to be of use. Beetle core data is in
+directory <tt>Beetle/Core</tt>. SciEntsBank core data is in
+directory <tt>SciEntsBank/Core</tt>.</p>
+
+<h2>Common Format - Core Data</h2>
+
+<p>Core data is separated into one XML file per question. Beetle core
+data is in directory <tt>Beetle/Core</tt>; SciEntsBank core data is
+in directory <tt>SciEntsBank/Core</tt>. The two data
+sets, <b>Beetle</b> and <b>SciEntsBank</b> which are described in
+detail on the task web page.
+
+
+<p>Each XML in the core data directory contains one top
+level <tt>question</tt> element containing, in order,
+a <tt>questionText</tt> element, a <tt>referenceAnswers</tt> element
+and a <tt>studentAnswers</tt> element.</p>
+
+<div class="highlight_box">
+<blockquote>
+<pre>
+&lt;question qtype="Q_EXPLAIN_GENERIC" id="VOLTAGE_DEFINE_Q"
+          stype="QUESTION"
+          module="FaultFinding"&gt;
+    &lt;questionText&gt;What is voltage?&lt;/questionText&gt;
+    &lt;referenceAnswers&gt;
+        &lt;referenceAnswer category="BEST" id="answer244" fileID="VOLTAGE_DEFINE_Q_ANS1"&gt;Voltage is the difference in electrical 
+        states between two terminals&lt;/referenceAnswer&gt;
+        ...
+    &lt;/referenceAnswers&gt;
+    &lt;studentAnswers&gt;
+        &lt;studentAnswer id="FaultFinding.VOLTAGE_DEFINE_Q.sbj3-l1.qa213" dialogue_id="sbj3-l1"
+                     accuracy="partially_correct_incomplete"
+                     answerMatch="answer244"
+                     count="1"&gt;is the difference between two terminals&lt;/studentAnswer&gt;
+        ...
+    &lt;/studentAnswers&gt;
+&lt;/question&gt;
+</pre>
+</blockquote>
+</div>
+
+<p> All <tt>question</tt> elements contain a ID unique to the
+  question, and a module name, which defines the general "topic" of
+  the question. The range of modules/topics is described on the task
+  web page.
+
+<p>The <tt>questionText</tt> element contains the full text of the
+question as text content.</p>
+
+<p>The <tt>referenceAnswers</tt> element contains an arbitrary number
+of <tt>referenceAnswer</tt> elements, one for each correct answer to
+the question. Note that the <em>SciEntsBank</em> corpus lists exactly
+one of these answers for every question, but the <em>Beetle</em>
+corpus may have multiple corerct answers, each with a category
+attribute (containing BEST, GOOD, MINIMAL, or KEYWORD) and fileID
+attribute that allows the answer to be referenced from
+a <tt>studentAnswer</tt> element.</p>
+
+<p>The <tt>studentAnswers</tt> element contains an arbitrary number
+of <tt>studentAnswer</tt> elements, one for each student attempt to
+answer the question.</p>
+
+<p>Each <tt>studentAnswer</tt> element has text content which is the
+text of the student answer. For the Beetle data set this is raw,
+non-spell-checked, input. For the SciEntsBank data set, the spelling
+is corrected. In addition to text content the <tt>studentAnswer</tt>
+element has the following attributes:</p>
+
+<p>An <b><tt>id</tt></b> attribute representing a unique ID of the
+  answer. This ID can be used to locate the additional information
+  relevant to the answer in the <tt>Extra</tt> directory or find the
+  dependency parse (described below)
+
+<p>An <b><tt>accuracy</tt></b> attribute containing one of five
+values: <tt>correct</tt>, 
+<tt>partially_correct_incomplete</tt>, <tt>contradictory</tt>, <tt>irrelevant</tt>,
+<tt>non_domain</tt> 
+such that:
+
+<ul>
+<li>a) a complete and correct paraphrase of the reference answer = "correct"</li>
+<li>b) a partially correct answer containing some but not all information from the
+reference answer = "partially_correct_incomplete"</li>
+<li>c) an answer directly contradicting the reference answer = "contradictory"</li>
+<li>d) an "irrelevant" answer talking about domain content but not providing the 
+necessary information = "irrelevant"</li>
+<li>e) an answer that is often submitted by
+students to computer systems expressing frustration or lack of domain
+knowledge - e.g., "I don't know", "as the book says", "you are
+stupid". = "non_domain"</li>
+</ul>
+</p>
+
+<p><b>Disclaimer</b> all accuracy labels are assigned with respect to
+correspondence with reference answer.  Extra material is ignored.</p>
+
+<p>For Beetle only, an <b><tt>answerMatch</tt></b> attribute refers
+to the referenceAnswer element to which the answer is judged to be
+closest. There is only one reference answer for each question in
+SciEntsBank.</p>
+
+<h2>Extra Data - Dependency Parses</h2>
+
+<p>Dependency parses for all questions and answers have been created
+using <a href="http://code.google.com/p/clearparser/">ClearParser</a>
+v0.3 with pre-trained models (not specific to the domain). The parses
+include syntactic dependencies and PropBank semantic roles. The
+dependency parse files are
+in <a href="http://ilk.uvt.nl/conll/#dataformat">CoNLL-X format</a>.
+
+ See:</p>
+<ul><li>Getting the Most out of Transition-based Dependency Parsing, Jinho D. Choi,
+Martha Palmer, Proceedings of the 49th Annual Meeting of the Association for
+Computational Linguistics: Human Language Technologies (ACL:HLT'11), 687-692,
+Portland, Oregon, 2011a</li></ul>
+
+<p>Information about the pre-trained
+models: <a href="http://code.google.com/p/clearparser/wiki/TrainedModels">http://code.google.com/p/clearparser/wiki/TrainedModels</a>
+</p>
+
+<p>SciEntsBank dependency parses are in the
+directory <tt>SciEntsBank/Dependency</tt> with subdirectories for
+questions, reference answers and student answers. Beetle dependency
+parses for raw data are in <tt>Beetle/Dependency</tt> with a similar
+substructure except we provide dependency parses for both raw and for
+spell-checked student answers. </p>
+
+<p> File naming is derived from the <tt>id</tt> attributes of the
+respective elements in the core XML files. There is one file per
+student answer, named <tt><b>ID</b></tt>.<tt>label</tt>.<tt>txt</tt>
+where <tt>ID</tt> is the student answer ID from the core data file.
+</p>
+
+<h2>SciEntsBank Extra Data</h2>
+
+<p>SciEntsBank extra data is in directory <tt>SciEntsBank/Extra</tt>.</p>
+<p>This data consists of <em>facet</em> information about the
+reference answer along with details of how each facet has, or has not,
+been addressed in each student answer.</p>
+
+<p> The facet annotation is described in detail in
+<ul><li>
+Rodney D. Nielsen, Wayne Ward, James H. Martin and Martha Palmer. (2008). 
+Annotating students' understanding of science concepts. In Proceedings of the 
+Sixth International Language Resources and Evaluation Conference, (LREC'08),
+<a href="http://www.lrec-conf.org/proceedings/lrec2008/pdf/873_paper.pdf">PDF</a>
+</li></ul>
+
+<p>Facets themselves are the constituent important points that make up
+an answer. There are five facets in the example below, each one
+describing a relation between two content words in the
+reference answer. Each student answer is marked for each separate
+facet (the correspondence is via the facet <tt>id</tt>). The mark is
+in the <tt>label</tt> attribute and is one of: 
+<tt>Assumed</tt>,
+<tt>Contra-Expr</tt>,
+<tt>Contra-Infr</tt>,
+<tt>Diff-Arg</tt>,
+<tt>Expressed</tt>,
+<tt>Inferred</tt>,
+<tt>Self-Contra</tt> or 
+<tt>Unaddressed</tt>.
+
+<p>Facets may contain attributes
+like <tt>childProp<em>X</em>Facet<em>Y</em></tt>. Those facets
+represent "inter-propositional relationships" (relationships that hold
+between other facets). For example, in "the shorter the string, the
+higher the pitch", there are regular facets for 'shorter string' and
+'higher pitch', and there is an inter-propositional facet representing
+the causal relation between those two facets.</p>
+
+<div class="highlight_box">
+<blockquote>
+<pre>
+&lt;question id="VB_5a" module="VB"&gt;
+   &lt;questionText&gt;Explain in one sentence what each graph tells you. 
+   Graph A) number of tree rings versus time.&lt;/questionText&gt;
+   &lt;referenceAnswers id="VB_5a-answers"&gt;
+     &lt;referenceAnswer id="VB_5a-a1"&gt;
+       &lt;reftokens&gt;
+         &lt;reftoken id="VB_5a_ra1"&gt;As&lt;/reftoken&gt;
+         &lt;reftoken id="VB_5a_ra2"&gt;time&lt;/reftoken&gt;
+         &lt;reftoken id="VB_5a_ra3"&gt;increases&lt;/reftoken&gt;
+         &lt;reftoken id="VB_5a_ra4"&gt;,&lt;/reftoken&gt;
+         &lt;reftoken id="VB_5a_ra5"&gt;the&lt;/reftoken&gt;
+         &lt;reftoken id="VB_5a_ra6"&gt;number&lt;/reftoken&gt;
+         &lt;reftoken id="VB_5a_ra7"&gt;of&lt;/reftoken&gt;
+         &lt;reftoken id="VB_5a_ra8"&gt;tree&lt;/reftoken&gt;
+         &lt;reftoken id="VB_5a_ra9"&gt;rings&lt;/reftoken&gt;
+         &lt;reftoken id="VB_5a_ra10"&gt;also&lt;/reftoken&gt;
+         &lt;reftoken id="VB_5a_ra11"&gt;increases&lt;/reftoken&gt;
+         &lt;reftoken id="VB_5a_ra12"&gt;.&lt;/reftoken&gt;
+       &lt;/reftokens&gt;
+       &lt;facets&gt;
+         &lt;facet id="VB_5a_f1" govNum="VB_5a_ra3" modNum="VB_5a_ra2" 
+          reltn="Patient" govText="increases" modText="time"/&gt;
+         &lt;facet id="VB_5a_f2" govNum="VB_5a_ra6" modNum="VB_5a_ra9" 
+          reltn="NMod_of" govText="number" isAssumed="true" modText="rings"/&gt;
+         &lt;facet id="VB_5a_f3" govNum="VB_5a_ra9" modNum="VB_5a_ra8" 
+          reltn="NMod" govText="rings" isAssumed="true" modText="tree"/&gt;
+         &lt;facet id="VB_5a_f4" govNum="VB_5a_ra11" modNum="VB_5a_ra6" 
+          reltn="Attribute" govText="increases" modText="number"/&gt;
+         &lt;facet id="VB_5a_f5" govNum="VB_5a_ra11" modNum="VB_5a_ra3" 
+          reltn="Cause_as" childProp1Facet1="VB_5a_f4" govText="increases" 
+          childProp1Facet2="VB_5a_f2" modText="increases" childProp2Facet1="VB_5a_f1"/&gt;
+       &lt;/facets&gt;
+     &lt;/referenceAnswer&gt;
+   &lt;/referenceAnswers&gt;
+
+   &lt;studentAnswers&gt;
+     &lt;studentAnswer id="VB.5a.384" studentID="384" 
+      answerText="This graph tells me this tree has a lot of rings." 
+      accuracy="partially_correct_incomplete"&gt;
+       &lt;facetEntailment facetID="VB_5a_f1" label="Unaddressed"/&gt;
+       &lt;facetEntailment facetID="VB_5a_f2" label="Assumed"/&gt;
+       &lt;facetEntailment facetID="VB_5a_f3" label="Expressed"/&gt;
+       &lt;facetEntailment facetID="VB_5a_f4" label="Unaddressed"/&gt;
+       &lt;facetEntailment facetID="VB_5a_f5" label="Unaddressed"/&gt;
+     &lt;/studentAnswer&gt;
+     ...
+   &lt;/studentAnswers&gt;
+&lt;/question&gt;
+</pre>
+</blockquote>
+</div>
+
+<h2>Beetle Extra Data</h2>
+
+<p>Beetle extra data is in directory <tt>Beetle/Extra</tt>. </p>
+
+<p>This data consists of a tokenized version of each student answer
+which has been manually spell-checked from the raw data
+in the core data set. The data format is exactly the same as the core
+data except that <tt>studentAnswer</tt> elements
+contain <tt>token</tt> elements. The raw utterance is contained within
+the <tt>raw_text</tt> attribute of the <tt>studentAnswer</tt> and
+where corrections have been made, the corresponding <tt>token</tt>
+element will have an <tt>original</tt> attribute containing the
+corresponding word in the raw utterance.</p>
+
+<div class="highlight_box">
+<pre>
+        &lt;studentAnswer id="FaultFinding.VOLTAGE_DEFINE_Q.sbj3-l1.qa216" dialogue_id="sbj3-l1"
+                     raw_text="is the difference in electrial stat between terminals"
+                     accuracy="correct"
+                     answerMatch="answer244"
+                     count="1"&gt;
+            &lt;token status="ok" agent="student" observation="sbj3-l1" id="tok4245"&gt;is&lt;/token&gt;
+            &lt;token status="ok" agent="student" observation="sbj3-l1" id="tok4246"&gt;the&lt;/token&gt;
+            &lt;token status="ok" agent="student" observation="sbj3-l1" id="tok4247"&gt;difference&lt;/token&gt;
+            &lt;token status="ok" agent="student" observation="sbj3-l1" id="tok4248"&gt;in&lt;/token&gt;
+            &lt;token status="ok" original="electrial" agent="student" observation="sbj3-l1"
+                id="tok4249"&gt;electrical&lt;/token&gt;
+            &lt;token status="ok" original="stat" agent="student" observation="sbj3-l1" id="tok4250"&gt;state&lt;/token&gt;
+            &lt;token status="ok" agent="student" observation="sbj3-l1" id="tok4251"&gt;between&lt;/token&gt;
+            &lt;token status="ok" agent="student" observation="sbj3-l1" id="tok4252"&gt;terminals&lt;/token&gt;
+        &lt;/studentAnswer&gt;
+</pre>
+</div>
+
+<h2> Element IDs and naming conventions </h2>
+
+
+<p>The format of file names and <tt>id</tt> attributes on various
+elements is described below. Note that there should never be need to
+parse names and IDs, all the data is linked through direct matching,
+and any information present in names can be read off corresponding
+atributes. However, we used a consistent naming conventions to help
+with readability.
+</p>
+
+<p>
+The "core" and "extra" elements are linked through element IDs. All
+ data is represented as XML, with each xml element (e.g., question,
+ reference answer, student answer) assigned a unique ID. This ID can
+ then be used to link elements inside XML files, and also to find the
+ additional information corresponding to the element in the "extra"
+ directory.
+</p>
+
+
+The file names for core data have have the following formats:
+<ul>
+<li>Beetle: &lt;module_id>-&lt;question_id>.xml</li>
+<li>SciEntsBank: &lt;module_id>-&lt;question_type_id>-&lt;question_id>.xml</li>
+</ul>
+
+<p>
+The student answer IDs in the Beetle data are in the form
+<ul><li><tt>module</tt>.<tt>questionID</tt>.<tt>studentID</tt>.<tt>attemptID</tt></li></ul>
+where the last element <tt>attemptID</tt> changes where a student
+attempts the same question more than once. 
+</p>
+
+<p>
+The student answer IDs in SciEntsBank corpus follow the same
+convention except that <tt>attemptID</tt> is omitted since each
+student only provided one answer to the question.
+</p>
+
+
+
+<p><i>30th August 2011</i></p>
+</body>
+</html>

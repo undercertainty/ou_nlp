@@ -1,0 +1,976 @@
+<?xml version="1.0"?>
+<question id="LF_6b" module="LF">
+  <questionText>Mark an X next to each of the following that can cause more erosion in a streamtable experiment. (Use a water source with a bigger hole.) Use a water source with a smaller hole.  Make the slope flatter. (Make the slope steeper.) Explain why your choices cause more erosion.</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="LF_6b-a1" text="A bigger hole puts more water in the stream. Increased flow moves more earth materials, increasing erosion. A steeper slope makes the water flow faster. Faster flow moves more earth materials, increasing erosion.">
+      <tokens>
+        <token id="LF_6b_ra1">A</token>
+        <token id="LF_6b_ra2">bigger</token>
+        <token id="LF_6b_ra3">hole</token>
+        <token id="LF_6b_ra4">puts</token>
+        <token id="LF_6b_ra5">more</token>
+        <token id="LF_6b_ra6">water</token>
+        <token id="LF_6b_ra7">in</token>
+        <token id="LF_6b_ra8">the</token>
+        <token id="LF_6b_ra9">stream</token>
+        <token id="LF_6b_ra10">.</token>
+        <token id="LF_6b_ra11">Increased</token>
+        <token id="LF_6b_ra12">flow</token>
+        <token id="LF_6b_ra13">moves</token>
+        <token id="LF_6b_ra14">more</token>
+        <token id="LF_6b_ra15">earth</token>
+        <token id="LF_6b_ra16">materials</token>
+        <token id="LF_6b_ra17">,</token>
+        <token id="LF_6b_ra18">increasing</token>
+        <token id="LF_6b_ra19">erosion</token>
+        <token id="LF_6b_ra20">.</token>
+        <token id="LF_6b_ra21">A</token>
+        <token id="LF_6b_ra22">steeper</token>
+        <token id="LF_6b_ra23">slope</token>
+        <token id="LF_6b_ra24">makes</token>
+        <token id="LF_6b_ra25">the</token>
+        <token id="LF_6b_ra26">water</token>
+        <token id="LF_6b_ra27">flow</token>
+        <token id="LF_6b_ra28">faster</token>
+        <token id="LF_6b_ra29">.</token>
+        <token id="LF_6b_ra30">Faster</token>
+        <token id="LF_6b_ra31">flow</token>
+        <token id="LF_6b_ra32">moves</token>
+        <token id="LF_6b_ra33">more</token>
+        <token id="LF_6b_ra34">earth</token>
+        <token id="LF_6b_ra35">materials</token>
+        <token id="LF_6b_ra36">,</token>
+        <token id="LF_6b_ra37">increasing</token>
+        <token id="LF_6b_ra38">erosion</token>
+        <token id="LF_6b_ra39">.</token>
+      </tokens>
+      <facets>
+        <facet id="LF_6b_f1" govNum="LF_6b_ra3" modNum="LF_6b_ra2" reltn="NMod" govText="hole" isAssumed="true" modText="bigger"/>
+        <facet id="LF_6b_f2" govNum="LF_6b_ra4" modNum="LF_6b_ra3" reltn="Means" govText="puts" isAssumed="true" modText="hole"/>
+        <facet id="LF_6b_f3" govNum="LF_6b_ra4" modNum="LF_6b_ra6" reltn="Theme" govText="puts" isAssumed="true" modText="water"/>
+        <facet id="LF_6b_f4" govNum="LF_6b_ra6" modNum="LF_6b_ra5" reltn="NMod" govText="water" modText="more"/>
+        <facet id="LF_6b_f5" govNum="LF_6b_ra4" modNum="LF_6b_ra9" reltn="Destination_in" govText="puts" isAssumed="true" modText="stream"/>
+        <facet id="LF_6b_f6" govNum="LF_6b_ra12" modNum="LF_6b_ra11" reltn="NMod" govText="flow" modText="Increased"/>
+        <facet id="LF_6b_f7" govNum="LF_6b_ra13" modNum="LF_6b_ra12" reltn="Cause" govText="moves" isAssumed="true" modText="flow"/>
+        <facet id="LF_6b_f8" govNum="LF_6b_ra13" modNum="LF_6b_ra16" reltn="Theme" govText="moves" isAssumed="true" modText="materials"/>
+        <facet id="LF_6b_f9" govNum="LF_6b_ra16" modNum="LF_6b_ra15" reltn="NMod" govText="materials" isAssumed="true" modText="earth"/>
+        <facet id="LF_6b_f10" govNum="LF_6b_ra16" modNum="LF_6b_ra14" reltn="NMod" govText="materials" isAssumed="true" modText="more"/>
+        <facet id="LF_6b_f11" govNum="LF_6b_ra18" modNum="LF_6b_ra19" reltn="Patient" govText="increasing" isAssumed="true" modText="erosion"/>
+        <facet id="LF_6b_f12" govNum="LF_6b_ra18" modNum="LF_6b_ra13" reltn="Cause_COMMA" childProp2Facet2="LF_6b_f8" childProp1Facet1="LF_6b_f11" govText="increasing" isAssumed="true" modText="moves" childProp2Facet1="LF_6b_f7"/>
+        <facet id="LF_6b_f13" govNum="LF_6b_ra23" modNum="LF_6b_ra22" reltn="NMod" govText="slope" isAssumed="true" modText="steeper"/>
+        <facet id="LF_6b_f14" govNum="LF_6b_ra27" modNum="LF_6b_ra26" reltn="Theme" govText="flow" isAssumed="true" modText="water"/>
+        <facet id="LF_6b_f15" govNum="LF_6b_ra27" modNum="LF_6b_ra28" reltn="Manner" govText="flow" modText="faster"/>
+        <facet id="LF_6b_f16" govNum="LF_6b_ra27" modNum="LF_6b_ra23" reltn="Cause_make" childProp1Facet1="LF_6b_f14" govText="flow" childProp1Facet2="LF_6b_f15" modText="slope" childProp2Facet1="LF_6b_f13"/>
+        <facet id="LF_6b_f17" govNum="LF_6b_ra31" modNum="LF_6b_ra30" reltn="NMod" govText="flow" modText="Faster"/>
+        <facet id="LF_6b_f18" govNum="LF_6b_ra32" modNum="LF_6b_ra31" reltn="Cause" govText="moves" isAssumed="true" modText="flow"/>
+        <facet id="LF_6b_f19" govNum="LF_6b_ra32" modNum="LF_6b_ra35" reltn="Theme" govText="moves" isAssumed="true" modText="materials"/>
+        <facet id="LF_6b_f20" govNum="LF_6b_ra35" modNum="LF_6b_ra34" reltn="NMod" govText="materials" isAssumed="true" modText="earth"/>
+        <facet id="LF_6b_f21" govNum="LF_6b_ra35" modNum="LF_6b_ra33" reltn="NMod" govText="materials" isAssumed="true" modText="more"/>
+        <facet id="LF_6b_f22" govNum="LF_6b_ra37" modNum="LF_6b_ra38" reltn="Patient" govText="increasing" isAssumed="true" modText="erosion"/>
+        <facet id="LF_6b_f23" govNum="LF_6b_ra37" modNum="LF_6b_ra32" reltn="Cause_COMMA" childProp2Facet2="LF_6b_f19" childProp1Facet1="LF_6b_f22" govText="increasing" isAssumed="true" modText="moves" childProp2Facet1="LF_6b_f18"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="LF.6b.391.1" answerText="Because if you make them flatter it might take a while but if you make it steeper it might be easier." accuracy="irrelevant">
+      <facetEntailment facetID="LF_6b_f1" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f2" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f3" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="LF_6b_f5" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="LF_6b_f7" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f8" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f9" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f10" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f11" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f12" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f13" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f14" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f15" label="Unaddressed"/>
+      <facetEntailment facetID="LF_6b_f16" label="Unaddressed"/>
+      <facetEntailment facetID="LF_6b_f17" label="Unaddressed"/>
+      <facetEntailment facetID="LF_6b_f18" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f19" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f20" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f21" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f22" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f23" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="LF.6b.393.1" answerText="If you use a bigger hole more water come out at once like a raging river, if the slope is steeper the water will push through the earth material faster." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="LF_6b_f1" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f2" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f3" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f4" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f5" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="LF_6b_f7" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f8" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f9" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f10" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f11" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f12" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f13" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f14" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f15" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f16" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f17" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f18" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f19" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f20" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f21" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f22" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f23" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="LF.6b.397.1" answerText="Because they both are stronger, flows harder and flows faster than the rest." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="LF_6b_f1" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f2" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f3" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="LF_6b_f5" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f6" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f7" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f8" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f9" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f10" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f11" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f12" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f13" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f14" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f15" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f16" label="Unaddressed"/>
+      <facetEntailment facetID="LF_6b_f17" label="Unaddressed"/>
+      <facetEntailment facetID="LF_6b_f18" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f19" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f20" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f21" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f22" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f23" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="LF.6b.399.1" answerText="The happen when you do the experiment." accuracy="irrelevant">
+      <facetEntailment facetID="LF_6b_f1" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f2" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f3" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="LF_6b_f5" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="LF_6b_f7" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f8" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f9" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f10" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f11" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f12" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f13" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f14" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f15" label="Unaddressed"/>
+      <facetEntailment facetID="LF_6b_f16" label="Unaddressed"/>
+      <facetEntailment facetID="LF_6b_f17" label="Unaddressed"/>
+      <facetEntailment facetID="LF_6b_f18" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f19" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f20" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f21" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f22" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f23" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="LF.6b.422.1" answerText="I chose these choices because the bigger hole would work because more water would make earth material wear away faster. I think the slope flatter the water would come down really fast." accuracy="contradictory">
+      <facetEntailment facetID="LF_6b_f1" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f2" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f3" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f4" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f5" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f6" label="Inferred"/>
+      <facetEntailment facetID="LF_6b_f7" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f8" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f9" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f10" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f11" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f12" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f13" label="Contra-Expr"/>
+      <facetEntailment facetID="LF_6b_f14" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f15" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f16" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f17" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f18" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f19" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f20" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f21" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f22" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f23" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="LF.6b.427.1" answerText="Because there all can go steeper." accuracy="irrelevant">
+      <facetEntailment facetID="LF_6b_f1" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f2" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f3" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="LF_6b_f5" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="LF_6b_f7" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f8" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f9" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f10" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f11" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f12" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f13" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f14" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f15" label="Unaddressed"/>
+      <facetEntailment facetID="LF_6b_f16" label="Unaddressed"/>
+      <facetEntailment facetID="LF_6b_f17" label="Unaddressed"/>
+      <facetEntailment facetID="LF_6b_f18" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f19" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f20" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f21" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f22" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f23" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="LF.6b.452.1" answerText="I think these will cause more erosion because with a bigger hole more water and with the slope steeper more faster." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="LF_6b_f1" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f2" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f3" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f4" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f5" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f6" label="Inferred"/>
+      <facetEntailment facetID="LF_6b_f7" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f8" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f9" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f10" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f11" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f12" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f13" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f14" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f15" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f16" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f17" label="Unaddressed"/>
+      <facetEntailment facetID="LF_6b_f18" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f19" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f20" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f21" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f22" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f23" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="LF.6b.456.1" answerText="Because I saw it." accuracy="non_domain">
+      <facetEntailment facetID="LF_6b_f1" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f2" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f3" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="LF_6b_f5" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="LF_6b_f7" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f8" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f9" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f10" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f11" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f12" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f13" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f14" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f15" label="Unaddressed"/>
+      <facetEntailment facetID="LF_6b_f16" label="Unaddressed"/>
+      <facetEntailment facetID="LF_6b_f17" label="Unaddressed"/>
+      <facetEntailment facetID="LF_6b_f18" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f19" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f20" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f21" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f22" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f23" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="LF.6b.462.1" answerText="Because too much water comes and because it needs to be steeper so not much water comes." accuracy="contradictory">
+      <facetEntailment facetID="LF_6b_f1" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f2" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f3" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f4" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f5" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f6" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f7" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f8" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f9" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f10" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f11" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f12" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f13" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f14" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f15" label="Contra-Infr"/>
+      <facetEntailment facetID="LF_6b_f16" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f17" label="Unaddressed"/>
+      <facetEntailment facetID="LF_6b_f18" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f19" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f20" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f21" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f22" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f23" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="LF.6b.477.1" answerText="Because if we use a source with a bigger hole it will drop faster and makes it slope steeper." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="LF_6b_f1" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f2" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f3" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="LF_6b_f5" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f6" label="Inferred"/>
+      <facetEntailment facetID="LF_6b_f7" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f8" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f9" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f10" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f11" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f12" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f13" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f14" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f15" label="Unaddressed"/>
+      <facetEntailment facetID="LF_6b_f16" label="Unaddressed"/>
+      <facetEntailment facetID="LF_6b_f17" label="Unaddressed"/>
+      <facetEntailment facetID="LF_6b_f18" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f19" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f20" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f21" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f22" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f23" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="LF.6b.481.1" answerText="Because slope because make thing steeper and." accuracy="irrelevant">
+      <facetEntailment facetID="LF_6b_f1" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f2" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f3" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="LF_6b_f5" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="LF_6b_f7" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f8" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f9" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f10" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f11" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f12" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f13" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f14" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f15" label="Unaddressed"/>
+      <facetEntailment facetID="LF_6b_f16" label="Unaddressed"/>
+      <facetEntailment facetID="LF_6b_f17" label="Unaddressed"/>
+      <facetEntailment facetID="LF_6b_f18" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f19" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f20" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f21" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f22" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f23" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="LF.6b.493.1" answerText="The water pressure will be harder, so if that happens it will create a bigger canyon and delta. Erosion." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="LF_6b_f1" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f2" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f3" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="LF_6b_f5" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f6" label="Inferred"/>
+      <facetEntailment facetID="LF_6b_f7" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f8" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f9" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f10" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f11" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f12" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f13" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f14" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f15" label="Unaddressed"/>
+      <facetEntailment facetID="LF_6b_f16" label="Unaddressed"/>
+      <facetEntailment facetID="LF_6b_f17" label="Unaddressed"/>
+      <facetEntailment facetID="LF_6b_f18" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f19" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f20" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f21" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f22" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f23" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="LF.6b.494.1" answerText="I chose source with a bigger hole and make the slope steeper because the hole would make the water come out more with water to make slope steeper because so the water will get more speed and to make more erosion." accuracy="correct">
+      <facetEntailment facetID="LF_6b_f1" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f2" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f3" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f4" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f5" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f6" label="Inferred"/>
+      <facetEntailment facetID="LF_6b_f7" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f8" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f9" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f10" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f11" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f12" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f13" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f14" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f15" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f16" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f17" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f18" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f19" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f20" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f21" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f22" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f23" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="LF.6b.497.1" answerText="Because when you use a bigger whole the canyon is deeper and when you have a slope all the water forms a canyon." accuracy="irrelevant">
+      <facetEntailment facetID="LF_6b_f1" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f2" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f3" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="LF_6b_f5" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="LF_6b_f7" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f8" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f9" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f10" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f11" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f12" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f13" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f14" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f15" label="Unaddressed"/>
+      <facetEntailment facetID="LF_6b_f16" label="Unaddressed"/>
+      <facetEntailment facetID="LF_6b_f17" label="Unaddressed"/>
+      <facetEntailment facetID="LF_6b_f18" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f19" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f20" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f21" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f22" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f23" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="LF.6b.507.1" answerText="If you make a bigger hole then the water will be faster and erosion will too. And if you make the slope steeper then the erosion will become bigger and wider." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="LF_6b_f1" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f2" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f3" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f4" label="Diff-Arg"/>
+      <facetEntailment facetID="LF_6b_f5" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f6" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f7" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f8" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f9" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f10" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f11" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f12" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f13" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f14" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f15" label="Unaddressed"/>
+      <facetEntailment facetID="LF_6b_f16" label="Unaddressed"/>
+      <facetEntailment facetID="LF_6b_f17" label="Unaddressed"/>
+      <facetEntailment facetID="LF_6b_f18" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f19" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f20" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f21" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f22" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f23" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="LF.6b.509.1" answerText="Because we did not experiment like that and it worked it did the same thing we marked." accuracy="irrelevant">
+      <facetEntailment facetID="LF_6b_f1" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f2" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f3" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="LF_6b_f5" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="LF_6b_f7" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f8" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f9" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f10" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f11" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f12" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f13" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f14" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f15" label="Unaddressed"/>
+      <facetEntailment facetID="LF_6b_f16" label="Unaddressed"/>
+      <facetEntailment facetID="LF_6b_f17" label="Unaddressed"/>
+      <facetEntailment facetID="LF_6b_f18" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f19" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f20" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f21" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f22" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f23" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="LF.6b.510.1" answerText="I chose the ones I did because you the water to flow not slower." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="LF_6b_f1" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f2" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f3" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="LF_6b_f5" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="LF_6b_f7" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f8" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f9" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f10" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f11" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f12" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f13" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f14" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f15" label="Inferred"/>
+      <facetEntailment facetID="LF_6b_f16" label="Unaddressed"/>
+      <facetEntailment facetID="LF_6b_f17" label="Unaddressed"/>
+      <facetEntailment facetID="LF_6b_f18" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f19" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f20" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f21" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f22" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f23" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="LF.6b.511.1" answerText="Why a bigger hole makes more erosion is because there is more water coming at once. The reason to make the slop steeper is so the water will go much faster." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="LF_6b_f1" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f2" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f3" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f4" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f5" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f6" label="Inferred"/>
+      <facetEntailment facetID="LF_6b_f7" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f8" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f9" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f10" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f11" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f12" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f13" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f14" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f15" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f16" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f17" label="Unaddressed"/>
+      <facetEntailment facetID="LF_6b_f18" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f19" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f20" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f21" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f22" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f23" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="LF.6b.662.1" answerText="More water can cause more erosion because so much water is flowing through at a time. Also a steeper slope because the water will flow a lot faster." accuracy="correct">
+      <facetEntailment facetID="LF_6b_f1" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f2" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f3" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f4" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f5" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f6" label="Inferred"/>
+      <facetEntailment facetID="LF_6b_f7" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f8" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f9" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f10" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f11" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f12" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f13" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f14" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f15" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f16" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f17" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f18" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f19" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f20" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f21" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f22" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f23" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="LF.6b.664.1" answerText="Steep slopes can have landslides, faster water can gush. To be a flood plus massively erode." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="LF_6b_f1" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f2" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f3" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="LF_6b_f5" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f6" label="Inferred"/>
+      <facetEntailment facetID="LF_6b_f7" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f8" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f9" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f10" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f11" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f12" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f13" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f14" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f15" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f16" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f17" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f18" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f19" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f20" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f21" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f22" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f23" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="LF.6b.665.1" answerText="If you use a water source with a bigger hole, more water will come out which will cause erosion. If you make the slope steeper, the water will run down faster." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="LF_6b_f1" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f2" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f3" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f4" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f5" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f6" label="Inferred"/>
+      <facetEntailment facetID="LF_6b_f7" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f8" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f9" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f10" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f11" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f12" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f13" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f14" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f15" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f16" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f17" label="Unaddressed"/>
+      <facetEntailment facetID="LF_6b_f18" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f19" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f20" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f21" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f22" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f23" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="LF.6b.667.1" answerText="The erosion will happen faster because the flow of the water is stronger and faster so the material will be worn down more." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="LF_6b_f1" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f2" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f3" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="LF_6b_f5" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f6" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f7" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f8" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f9" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f10" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f11" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f12" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f13" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f14" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f15" label="Unaddressed"/>
+      <facetEntailment facetID="LF_6b_f16" label="Unaddressed"/>
+      <facetEntailment facetID="LF_6b_f17" label="Unaddressed"/>
+      <facetEntailment facetID="LF_6b_f18" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f19" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f20" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f21" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f22" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f23" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="LF.6b.673.1" answerText="I choose water source with a bigger hole because the more water the more momentum to destroy. I chose a slope because the water will travel fast." accuracy="correct">
+      <facetEntailment facetID="LF_6b_f1" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f2" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f3" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f4" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f5" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f6" label="Inferred"/>
+      <facetEntailment facetID="LF_6b_f7" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f8" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f9" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f10" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f11" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f12" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f13" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f14" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f15" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f16" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f17" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f18" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f19" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f20" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f21" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f22" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f23" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="LF.6b.688.1" answerText="A bigger water hole would allow more water to come through faster. Making the slope steeper and water would run through faster." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="LF_6b_f1" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f2" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f3" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f4" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f5" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f6" label="Inferred"/>
+      <facetEntailment facetID="LF_6b_f7" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f8" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f9" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f10" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f11" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f12" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f13" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f14" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f15" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f16" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f17" label="Unaddressed"/>
+      <facetEntailment facetID="LF_6b_f18" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f19" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f20" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f21" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f22" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f23" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="LF.6b.735.1" answerText="More water will make it faster to erode, a steeper hill will make it go faster down hill." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="LF_6b_f1" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f2" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f3" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f4" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f5" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f6" label="Inferred"/>
+      <facetEntailment facetID="LF_6b_f7" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f8" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f9" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f10" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f11" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f12" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f13" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f14" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f15" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f16" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f17" label="Unaddressed"/>
+      <facetEntailment facetID="LF_6b_f18" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f19" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f20" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f21" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f22" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f23" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="LF.6b.738.1" answerText="Well, they change the way erosion goes faster or lower and if it slides or not." accuracy="irrelevant">
+      <facetEntailment facetID="LF_6b_f1" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f2" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f3" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="LF_6b_f5" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="LF_6b_f7" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f8" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f9" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f10" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f11" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f12" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f13" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f14" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f15" label="Unaddressed"/>
+      <facetEntailment facetID="LF_6b_f16" label="Unaddressed"/>
+      <facetEntailment facetID="LF_6b_f17" label="Unaddressed"/>
+      <facetEntailment facetID="LF_6b_f18" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f19" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f20" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f21" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f22" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f23" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="LF.6b.752.1" answerText="My house because more erosion because it is a greater mass." accuracy="irrelevant">
+      <facetEntailment facetID="LF_6b_f1" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f2" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f3" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="LF_6b_f5" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="LF_6b_f7" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f8" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f9" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f10" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f11" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f12" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f13" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f14" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f15" label="Unaddressed"/>
+      <facetEntailment facetID="LF_6b_f16" label="Unaddressed"/>
+      <facetEntailment facetID="LF_6b_f17" label="Unaddressed"/>
+      <facetEntailment facetID="LF_6b_f18" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f19" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f20" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f21" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f22" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f23" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="LF.6b.768.1" answerText="So everything would happen quicker and better." accuracy="irrelevant">
+      <facetEntailment facetID="LF_6b_f1" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f2" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f3" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="LF_6b_f5" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="LF_6b_f7" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f8" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f9" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f10" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f11" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f12" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f13" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f14" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f15" label="Unaddressed"/>
+      <facetEntailment facetID="LF_6b_f16" label="Unaddressed"/>
+      <facetEntailment facetID="LF_6b_f17" label="Unaddressed"/>
+      <facetEntailment facetID="LF_6b_f18" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f19" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f20" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f21" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f22" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f23" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="LF.6b.776.1" answerText="My choices cause more erosion because with a bigger hole more water comes out faster and when the slope is steeper the water goes down faster and very powerfully." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="LF_6b_f1" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f2" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f3" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f4" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f5" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f6" label="Inferred"/>
+      <facetEntailment facetID="LF_6b_f7" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f8" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f9" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f10" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f11" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f12" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f13" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f14" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f15" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f16" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f17" label="Unaddressed"/>
+      <facetEntailment facetID="LF_6b_f18" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f19" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f20" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f21" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f22" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f23" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="LF.6b.779.1" answerText="My choice increases water speed and the faster something is going the more it can hold." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="LF_6b_f1" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f2" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f3" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="LF_6b_f5" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f6" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f7" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f8" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f9" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f10" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f11" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f12" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f13" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f14" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f15" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f16" label="Unaddressed"/>
+      <facetEntailment facetID="LF_6b_f17" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f18" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f19" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f20" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f21" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f22" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f23" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="LF.6b.814.1" answerText="Because the more water going at a faster pace because of the slopes will cause more erosion because gravity will help slope." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="LF_6b_f1" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f2" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f3" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="LF_6b_f5" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="LF_6b_f7" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f8" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f9" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f10" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f11" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f12" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f13" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f14" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f15" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f16" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f17" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f18" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f19" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f20" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f21" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f22" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f23" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="LF.6b.826.1" answerText="If the hole is bigger that will cause a flood. More water the more velocity causing more erosion. Also if make the slope steeper that will cause the velocity to be greater causing more erosion." accuracy="correct">
+      <facetEntailment facetID="LF_6b_f1" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f2" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f3" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f4" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f5" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f6" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f7" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f8" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f9" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f10" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f11" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f12" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f13" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f14" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f15" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f16" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f17" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f18" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f19" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f20" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f21" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f22" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f23" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="LF.6b.844.1" answerText="My choices cause more erosion because if you have a bigger hole more water can pour through and if the slope is steeper water will come down harder." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="LF_6b_f1" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f2" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f3" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f4" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f5" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f6" label="Inferred"/>
+      <facetEntailment facetID="LF_6b_f7" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f8" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f9" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f10" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f11" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f12" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f13" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f14" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f15" label="Inferred"/>
+      <facetEntailment facetID="LF_6b_f16" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f17" label="Unaddressed"/>
+      <facetEntailment facetID="LF_6b_f18" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f19" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f20" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f21" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f22" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f23" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="LF.6b.853.1" answerText="They cause more erosion because there is more water flowing out the hole making a flood and when it is elevated it makes the water move faster moving more sediment." accuracy="correct">
+      <facetEntailment facetID="LF_6b_f1" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f2" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f3" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f4" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f5" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f6" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f7" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f8" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f9" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f10" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f11" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f12" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f13" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f14" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f15" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f16" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f17" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f18" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f19" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f20" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f21" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f22" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f23" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="LF.6b.855.1" answerText="Making a bigger hole causes more water which makes it flow faster causing more erosion. Also having a steep slope makes water flow faster causing more erosion." accuracy="correct">
+      <facetEntailment facetID="LF_6b_f1" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f2" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f3" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f4" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f5" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f6" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f7" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f8" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f9" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f10" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f11" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f12" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f13" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f14" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f15" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f16" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f17" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f18" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f19" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f20" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f21" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f22" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f23" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="LF.6b.856.1" answerText="A bigger for the water's source and cause erosion because there is more water than usual. Then if you have a steeper slope it will cause the water to flow faster than usual." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="LF_6b_f1" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f2" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f3" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f4" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f5" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f6" label="Inferred"/>
+      <facetEntailment facetID="LF_6b_f7" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f8" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f9" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f10" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f11" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f12" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f13" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f14" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f15" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f16" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f17" label="Unaddressed"/>
+      <facetEntailment facetID="LF_6b_f18" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f19" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f20" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f21" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f22" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f23" label="Assumed"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

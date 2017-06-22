@@ -1,0 +1,451 @@
+<?xml version="1.0"?>
+<question id="MX_11f" module="MX">
+  <questionText>Jim used a solid and water to make Mixtures one (one spoon of solid in 100 milliliters water was clear with nothing on the bottom), 3 (3 spoons of solid in 100 milliliters water was clear with nothing on the bottom), 4 (4 spoons of solid in 100 milliliters water was clear with material on the bottom), and 5 (5 spoons of solid in 100 milliliters water was clear with material on the bottom) as shown below. He stirred each one and observed the results. If Jim made Mixture 2 with 2 spoons of solid in 100 milliliters of water, what would he observe? What evidence do you have to support this?</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="MX_11f-a1" text="Jim would see a clear solution. 3 spoons of solid dissolves, so 2 spoons will dissolve.">
+      <tokens>
+        <token id="MX_11f_ra1">Jim</token>
+        <token id="MX_11f_ra2">would</token>
+        <token id="MX_11f_ra3">see</token>
+        <token id="MX_11f_ra4">a</token>
+        <token id="MX_11f_ra5">clear</token>
+        <token id="MX_11f_ra6">solution</token>
+        <token id="MX_11f_ra7">.</token>
+        <token id="MX_11f_ra8">3</token>
+        <token id="MX_11f_ra9">spoons</token>
+        <token id="MX_11f_ra10">of</token>
+        <token id="MX_11f_ra11">solid</token>
+        <token id="MX_11f_ra12">dissolves</token>
+        <token id="MX_11f_ra13">,</token>
+        <token id="MX_11f_ra14">so</token>
+        <token id="MX_11f_ra15">2</token>
+        <token id="MX_11f_ra16">spoons</token>
+        <token id="MX_11f_ra17">will</token>
+        <token id="MX_11f_ra18">dissolve</token>
+        <token id="MX_11f_ra19">.</token>
+      </tokens>
+      <facets>
+        <facet id="MX_11f_f1" govNum="MX_11f_ra3" modNum="MX_11f_ra1" reltn="Experiencer" govText="see" isAssumed="true" modText="Jim"/>
+        <facet id="MX_11f_f2" govNum="MX_11f_ra3" modNum="MX_11f_ra6" reltn="Stimulus" govText="see" modText="solution"/>
+        <facet id="MX_11f_f3" govNum="MX_11f_ra6" modNum="MX_11f_ra5" reltn="NMod" govText="solution" modText="clear"/>
+        <facet id="MX_11f_f4" govNum="MX_11f_ra8" modNum="MX_11f_ra9" reltn="NMod" govText="3" isAssumed="true" modText="spoons"/>
+        <facet id="MX_11f_f5" govNum="MX_11f_ra9" modNum="MX_11f_ra11" reltn="NMod_of" govText="spoons" isAssumed="true" modText="solid"/>
+        <facet id="MX_11f_f6" govNum="MX_11f_ra12" modNum="MX_11f_ra8" reltn="Patient" govText="dissolves" modText="3"/>
+        <facet id="MX_11f_f7" govNum="MX_11f_ra15" modNum="MX_11f_ra16" reltn="NMod" govText="2" isAssumed="true" modText="spoons"/>
+        <facet id="MX_11f_f8" govNum="MX_11f_ra18" modNum="MX_11f_ra15" reltn="Patient" govText="dissolve" modText="2"/>
+        <facet id="MX_11f_f9" govNum="MX_11f_ra18" modNum="MX_11f_ra12" reltn="Cause-know_so" childProp2Facet2="MX_11f_f5" childProp1Facet1="MX_11f_f8" govText="dissolve" childProp1Facet2="MX_11f_f7" modText="dissolves" childProp2Facet1="MX_11f_f6"/>
+        <facet id="MX_11f_f10" govNum="MX_11f_ra5" modNum="MX_11f_ra18" reltn="Cause" childProp2Facet2="MX_11f_f7" childProp1Facet1="MX_11f_f3" govText="clear" childProp1Facet2="MX_11f_f1" modText="dissolve" childProp2Facet1="MX_11f_f8"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="MX.11f.101.1" answerText="There would be a clear liquid with no solid on the bottom." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="MX_11f_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_11f_f2" label="Inferred"/>
+      <facetEntailment facetID="MX_11f_f3" label="Expressed"/>
+      <facetEntailment facetID="MX_11f_f4" label="Assumed"/>
+      <facetEntailment facetID="MX_11f_f5" label="Assumed"/>
+      <facetEntailment facetID="MX_11f_f6" label="Unaddressed"/>
+      <facetEntailment facetID="MX_11f_f7" label="Assumed"/>
+      <facetEntailment facetID="MX_11f_f8" label="Unaddressed"/>
+      <facetEntailment facetID="MX_11f_f9" label="Unaddressed"/>
+      <facetEntailment facetID="MX_11f_f10" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.11f.106.1" answerText="It is going to be clear at the bottom and you will not see anything and I know this because if it does not dissolve in mixture it will not dissolve." accuracy="correct">
+      <facetEntailment facetID="MX_11f_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_11f_f2" label="Inferred"/>
+      <facetEntailment facetID="MX_11f_f3" label="Inferred"/>
+      <facetEntailment facetID="MX_11f_f4" label="Assumed"/>
+      <facetEntailment facetID="MX_11f_f5" label="Assumed"/>
+      <facetEntailment facetID="MX_11f_f6" label="Inferred"/>
+      <facetEntailment facetID="MX_11f_f7" label="Assumed"/>
+      <facetEntailment facetID="MX_11f_f8" label="Inferred"/>
+      <facetEntailment facetID="MX_11f_f9" label="Inferred"/>
+      <facetEntailment facetID="MX_11f_f10" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="MX.11f.119.1" answerText="It has been a little different." accuracy="irrelevant">
+      <facetEntailment facetID="MX_11f_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_11f_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MX_11f_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_11f_f4" label="Assumed"/>
+      <facetEntailment facetID="MX_11f_f5" label="Assumed"/>
+      <facetEntailment facetID="MX_11f_f6" label="Unaddressed"/>
+      <facetEntailment facetID="MX_11f_f7" label="Assumed"/>
+      <facetEntailment facetID="MX_11f_f8" label="Unaddressed"/>
+      <facetEntailment facetID="MX_11f_f9" label="Unaddressed"/>
+      <facetEntailment facetID="MX_11f_f10" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.11f.172.1" answerText="Clear, mixture 3 is clear." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="MX_11f_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_11f_f2" label="Inferred"/>
+      <facetEntailment facetID="MX_11f_f3" label="Inferred"/>
+      <facetEntailment facetID="MX_11f_f4" label="Assumed"/>
+      <facetEntailment facetID="MX_11f_f5" label="Assumed"/>
+      <facetEntailment facetID="MX_11f_f6" label="Inferred"/>
+      <facetEntailment facetID="MX_11f_f7" label="Assumed"/>
+      <facetEntailment facetID="MX_11f_f8" label="Inferred"/>
+      <facetEntailment facetID="MX_11f_f9" label="Inferred"/>
+      <facetEntailment facetID="MX_11f_f10" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.11f.176.1" answerText="He would observe that the water is not saturated yet because a mixture 4 it get saturated." accuracy="correct">
+      <facetEntailment facetID="MX_11f_f1" label="Expressed"/>
+      <facetEntailment facetID="MX_11f_f2" label="Inferred"/>
+      <facetEntailment facetID="MX_11f_f3" label="Inferred"/>
+      <facetEntailment facetID="MX_11f_f4" label="Assumed"/>
+      <facetEntailment facetID="MX_11f_f5" label="Assumed"/>
+      <facetEntailment facetID="MX_11f_f6" label="Inferred"/>
+      <facetEntailment facetID="MX_11f_f7" label="Assumed"/>
+      <facetEntailment facetID="MX_11f_f8" label="Inferred"/>
+      <facetEntailment facetID="MX_11f_f9" label="Inferred"/>
+      <facetEntailment facetID="MX_11f_f10" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="MX.11f.190.1" answerText="It would be a solution. One and 3 have either one spoon or 2 spoons of solid in their mixtures and they are still a solution." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="MX_11f_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_11f_f2" label="Expressed"/>
+      <facetEntailment facetID="MX_11f_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_11f_f4" label="Diff-Arg"/>
+      <facetEntailment facetID="MX_11f_f5" label="Expressed"/>
+      <facetEntailment facetID="MX_11f_f6" label="Unaddressed"/>
+      <facetEntailment facetID="MX_11f_f7" label="Diff-Arg"/>
+      <facetEntailment facetID="MX_11f_f8" label="Unaddressed"/>
+      <facetEntailment facetID="MX_11f_f9" label="Unaddressed"/>
+      <facetEntailment facetID="MX_11f_f10" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.11f.219.1" answerText="He would observe nothing you need more spoons to make it saturated. Because mixture 3 has 3 spoons and it is not saturated." accuracy="correct">
+      <facetEntailment facetID="MX_11f_f1" label="Expressed"/>
+      <facetEntailment facetID="MX_11f_f2" label="Inferred"/>
+      <facetEntailment facetID="MX_11f_f3" label="Inferred"/>
+      <facetEntailment facetID="MX_11f_f4" label="Expressed"/>
+      <facetEntailment facetID="MX_11f_f5" label="Assumed"/>
+      <facetEntailment facetID="MX_11f_f6" label="Expressed"/>
+      <facetEntailment facetID="MX_11f_f7" label="Assumed"/>
+      <facetEntailment facetID="MX_11f_f8" label="Inferred"/>
+      <facetEntailment facetID="MX_11f_f9" label="Inferred"/>
+      <facetEntailment facetID="MX_11f_f10" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="MX.11f.234.1" answerText="He would observe the nothing will be at the bottom." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="MX_11f_f1" label="Expressed"/>
+      <facetEntailment facetID="MX_11f_f2" label="Inferred"/>
+      <facetEntailment facetID="MX_11f_f3" label="Inferred"/>
+      <facetEntailment facetID="MX_11f_f4" label="Assumed"/>
+      <facetEntailment facetID="MX_11f_f5" label="Assumed"/>
+      <facetEntailment facetID="MX_11f_f6" label="Inferred"/>
+      <facetEntailment facetID="MX_11f_f7" label="Assumed"/>
+      <facetEntailment facetID="MX_11f_f8" label="Inferred"/>
+      <facetEntailment facetID="MX_11f_f9" label="Unaddressed"/>
+      <facetEntailment facetID="MX_11f_f10" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="MX.11f.282.1" answerText="He would not observe anything because nothing happened to the other ones either." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="MX_11f_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_11f_f2" label="Inferred"/>
+      <facetEntailment facetID="MX_11f_f3" label="Inferred"/>
+      <facetEntailment facetID="MX_11f_f4" label="Assumed"/>
+      <facetEntailment facetID="MX_11f_f5" label="Assumed"/>
+      <facetEntailment facetID="MX_11f_f6" label="Unaddressed"/>
+      <facetEntailment facetID="MX_11f_f7" label="Assumed"/>
+      <facetEntailment facetID="MX_11f_f8" label="Unaddressed"/>
+      <facetEntailment facetID="MX_11f_f9" label="Unaddressed"/>
+      <facetEntailment facetID="MX_11f_f10" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.11f.366.1" answerText="It will dissolve in the cup." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="MX_11f_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_11f_f2" label="Inferred"/>
+      <facetEntailment facetID="MX_11f_f3" label="Inferred"/>
+      <facetEntailment facetID="MX_11f_f4" label="Assumed"/>
+      <facetEntailment facetID="MX_11f_f5" label="Assumed"/>
+      <facetEntailment facetID="MX_11f_f6" label="Unaddressed"/>
+      <facetEntailment facetID="MX_11f_f7" label="Assumed"/>
+      <facetEntailment facetID="MX_11f_f8" label="Unaddressed"/>
+      <facetEntailment facetID="MX_11f_f9" label="Unaddressed"/>
+      <facetEntailment facetID="MX_11f_f10" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.11f.388.1" answerText="Clear and nothing on the bottom because one scoop and 100 milliliters of water has the same results and so does mixture 3, 3 spoons and 100 milliliters water." accuracy="correct">
+      <facetEntailment facetID="MX_11f_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_11f_f2" label="Inferred"/>
+      <facetEntailment facetID="MX_11f_f3" label="Expressed"/>
+      <facetEntailment facetID="MX_11f_f4" label="Expressed"/>
+      <facetEntailment facetID="MX_11f_f5" label="Assumed"/>
+      <facetEntailment facetID="MX_11f_f6" label="Inferred"/>
+      <facetEntailment facetID="MX_11f_f7" label="Assumed"/>
+      <facetEntailment facetID="MX_11f_f8" label="Inferred"/>
+      <facetEntailment facetID="MX_11f_f9" label="Inferred"/>
+      <facetEntailment facetID="MX_11f_f10" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="MX.11f.390.1" answerText="Clear, nothing on bottom because mixture one and 3 are that." accuracy="correct">
+      <facetEntailment facetID="MX_11f_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_11f_f2" label="Inferred"/>
+      <facetEntailment facetID="MX_11f_f3" label="Inferred"/>
+      <facetEntailment facetID="MX_11f_f4" label="Assumed"/>
+      <facetEntailment facetID="MX_11f_f5" label="Assumed"/>
+      <facetEntailment facetID="MX_11f_f6" label="Inferred"/>
+      <facetEntailment facetID="MX_11f_f7" label="Assumed"/>
+      <facetEntailment facetID="MX_11f_f8" label="Inferred"/>
+      <facetEntailment facetID="MX_11f_f9" label="Inferred"/>
+      <facetEntailment facetID="MX_11f_f10" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="MX.11f.391.1" answerText="Clear with nothing on the bottom. Evidence Mixture 3 has more and is clear with nothing on the bottom and mix." accuracy="correct">
+      <facetEntailment facetID="MX_11f_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_11f_f2" label="Inferred"/>
+      <facetEntailment facetID="MX_11f_f3" label="Inferred"/>
+      <facetEntailment facetID="MX_11f_f4" label="Assumed"/>
+      <facetEntailment facetID="MX_11f_f5" label="Assumed"/>
+      <facetEntailment facetID="MX_11f_f6" label="Inferred"/>
+      <facetEntailment facetID="MX_11f_f7" label="Assumed"/>
+      <facetEntailment facetID="MX_11f_f8" label="Inferred"/>
+      <facetEntailment facetID="MX_11f_f9" label="Inferred"/>
+      <facetEntailment facetID="MX_11f_f10" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="MX.11f.396.1" answerText="I think that the mixture would be clear with nothing on the bottom, because both mixture one and 3 say that if mixture 3 is not saturated and has more material than 2, 2 would not be saturated either." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="MX_11f_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_11f_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MX_11f_f3" label="Expressed"/>
+      <facetEntailment facetID="MX_11f_f4" label="Assumed"/>
+      <facetEntailment facetID="MX_11f_f5" label="Assumed"/>
+      <facetEntailment facetID="MX_11f_f6" label="Inferred"/>
+      <facetEntailment facetID="MX_11f_f7" label="Assumed"/>
+      <facetEntailment facetID="MX_11f_f8" label="Inferred"/>
+      <facetEntailment facetID="MX_11f_f9" label="Inferred"/>
+      <facetEntailment facetID="MX_11f_f10" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="MX.11f.421.1" answerText="It would not have any particles at the bottom." accuracy="correct">
+      <facetEntailment facetID="MX_11f_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_11f_f2" label="Inferred"/>
+      <facetEntailment facetID="MX_11f_f3" label="Inferred"/>
+      <facetEntailment facetID="MX_11f_f4" label="Assumed"/>
+      <facetEntailment facetID="MX_11f_f5" label="Assumed"/>
+      <facetEntailment facetID="MX_11f_f6" label="Inferred"/>
+      <facetEntailment facetID="MX_11f_f7" label="Assumed"/>
+      <facetEntailment facetID="MX_11f_f8" label="Inferred"/>
+      <facetEntailment facetID="MX_11f_f9" label="Inferred"/>
+      <facetEntailment facetID="MX_11f_f10" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="MX.11f.426.1" answerText="That the solid dissolved in the solute! That with one spoon. It is clear and with 3 spoons it is clear so the solid will dissolve in the solute!" accuracy="correct">
+      <facetEntailment facetID="MX_11f_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_11f_f2" label="Inferred"/>
+      <facetEntailment facetID="MX_11f_f3" label="Inferred"/>
+      <facetEntailment facetID="MX_11f_f4" label="Expressed"/>
+      <facetEntailment facetID="MX_11f_f5" label="Assumed"/>
+      <facetEntailment facetID="MX_11f_f6" label="Expressed"/>
+      <facetEntailment facetID="MX_11f_f7" label="Assumed"/>
+      <facetEntailment facetID="MX_11f_f8" label="Inferred"/>
+      <facetEntailment facetID="MX_11f_f9" label="Inferred"/>
+      <facetEntailment facetID="MX_11f_f10" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="MX.11f.433.1" answerText="If mixture 3 is dissolved, and mixture one is not dissolved. Mixture 2 will not be dissolved because it is less concentrated than mixture 3." accuracy="contradictory">
+      <facetEntailment facetID="MX_11f_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_11f_f2" label="Contra-Infr"/>
+      <facetEntailment facetID="MX_11f_f3" label="Contra-Infr"/>
+      <facetEntailment facetID="MX_11f_f4" label="Assumed"/>
+      <facetEntailment facetID="MX_11f_f5" label="Assumed"/>
+      <facetEntailment facetID="MX_11f_f6" label="Inferred"/>
+      <facetEntailment facetID="MX_11f_f7" label="Assumed"/>
+      <facetEntailment facetID="MX_11f_f8" label="Contra-Infr"/>
+      <facetEntailment facetID="MX_11f_f9" label="Diff-Arg"/>
+      <facetEntailment facetID="MX_11f_f10" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.11f.439.1" answerText="He will see clear and nothing in the bottom because you cannot see nothing in 3." accuracy="correct">
+      <facetEntailment facetID="MX_11f_f1" label="Expressed"/>
+      <facetEntailment facetID="MX_11f_f2" label="Inferred"/>
+      <facetEntailment facetID="MX_11f_f3" label="Inferred"/>
+      <facetEntailment facetID="MX_11f_f4" label="Assumed"/>
+      <facetEntailment facetID="MX_11f_f5" label="Assumed"/>
+      <facetEntailment facetID="MX_11f_f6" label="Inferred"/>
+      <facetEntailment facetID="MX_11f_f7" label="Assumed"/>
+      <facetEntailment facetID="MX_11f_f8" label="Inferred"/>
+      <facetEntailment facetID="MX_11f_f9" label="Inferred"/>
+      <facetEntailment facetID="MX_11f_f10" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="MX.11f.452.1" answerText="It would dissolve because he has so much water there would be enough space to dissolve the solid." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="MX_11f_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_11f_f2" label="Inferred"/>
+      <facetEntailment facetID="MX_11f_f3" label="Inferred"/>
+      <facetEntailment facetID="MX_11f_f4" label="Assumed"/>
+      <facetEntailment facetID="MX_11f_f5" label="Assumed"/>
+      <facetEntailment facetID="MX_11f_f6" label="Unaddressed"/>
+      <facetEntailment facetID="MX_11f_f7" label="Assumed"/>
+      <facetEntailment facetID="MX_11f_f8" label="Inferred"/>
+      <facetEntailment facetID="MX_11f_f9" label="Inferred"/>
+      <facetEntailment facetID="MX_11f_f10" label="Diff-Arg"/>
+    </studentAnswer>
+    <studentAnswer id="MX.11f.453.1" answerText="Well if solution 3 has more materials and it is dissolved the evidence he would have is solution 2 will be dissolved too." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="MX_11f_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_11f_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MX_11f_f3" label="Inferred"/>
+      <facetEntailment facetID="MX_11f_f4" label="Assumed"/>
+      <facetEntailment facetID="MX_11f_f5" label="Assumed"/>
+      <facetEntailment facetID="MX_11f_f6" label="Expressed"/>
+      <facetEntailment facetID="MX_11f_f7" label="Assumed"/>
+      <facetEntailment facetID="MX_11f_f8" label="Expressed"/>
+      <facetEntailment facetID="MX_11f_f9" label="Inferred"/>
+      <facetEntailment facetID="MX_11f_f10" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="MX.11f.465.1" answerText="That the solid dissolves because one, 3 dissolves." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="MX_11f_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_11f_f2" label="Inferred"/>
+      <facetEntailment facetID="MX_11f_f3" label="Inferred"/>
+      <facetEntailment facetID="MX_11f_f4" label="Assumed"/>
+      <facetEntailment facetID="MX_11f_f5" label="Assumed"/>
+      <facetEntailment facetID="MX_11f_f6" label="Expressed"/>
+      <facetEntailment facetID="MX_11f_f7" label="Assumed"/>
+      <facetEntailment facetID="MX_11f_f8" label="Inferred"/>
+      <facetEntailment facetID="MX_11f_f9" label="Inferred"/>
+      <facetEntailment facetID="MX_11f_f10" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.11f.466.1" answerText="It would dissolve because 100 milliliters of water gives the solid more room to dissolve." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="MX_11f_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_11f_f2" label="Inferred"/>
+      <facetEntailment facetID="MX_11f_f3" label="Inferred"/>
+      <facetEntailment facetID="MX_11f_f4" label="Assumed"/>
+      <facetEntailment facetID="MX_11f_f5" label="Assumed"/>
+      <facetEntailment facetID="MX_11f_f6" label="Unaddressed"/>
+      <facetEntailment facetID="MX_11f_f7" label="Assumed"/>
+      <facetEntailment facetID="MX_11f_f8" label="Unaddressed"/>
+      <facetEntailment facetID="MX_11f_f9" label="Diff-Arg"/>
+      <facetEntailment facetID="MX_11f_f10" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.11f.467.1" answerText="The solid would dissolve because so did solution one and 3." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="MX_11f_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_11f_f2" label="Inferred"/>
+      <facetEntailment facetID="MX_11f_f3" label="Inferred"/>
+      <facetEntailment facetID="MX_11f_f4" label="Assumed"/>
+      <facetEntailment facetID="MX_11f_f5" label="Assumed"/>
+      <facetEntailment facetID="MX_11f_f6" label="Inferred"/>
+      <facetEntailment facetID="MX_11f_f7" label="Assumed"/>
+      <facetEntailment facetID="MX_11f_f8" label="Inferred"/>
+      <facetEntailment facetID="MX_11f_f9" label="Inferred"/>
+      <facetEntailment facetID="MX_11f_f10" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.11f.468.1" answerText="When he put the 2 spoons in the 50 milliliters in of water he will get 2 times for water then mixture." accuracy="irrelevant">
+      <facetEntailment facetID="MX_11f_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_11f_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MX_11f_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_11f_f4" label="Assumed"/>
+      <facetEntailment facetID="MX_11f_f5" label="Assumed"/>
+      <facetEntailment facetID="MX_11f_f6" label="Unaddressed"/>
+      <facetEntailment facetID="MX_11f_f7" label="Expressed"/>
+      <facetEntailment facetID="MX_11f_f8" label="Unaddressed"/>
+      <facetEntailment facetID="MX_11f_f9" label="Unaddressed"/>
+      <facetEntailment facetID="MX_11f_f10" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.11f.469.1" answerText="2 spoons of solid and 100 milliliters of water and it was clear material on the bottom." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="MX_11f_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_11f_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MX_11f_f3" label="Inferred"/>
+      <facetEntailment facetID="MX_11f_f4" label="Assumed"/>
+      <facetEntailment facetID="MX_11f_f5" label="Assumed"/>
+      <facetEntailment facetID="MX_11f_f6" label="Unaddressed"/>
+      <facetEntailment facetID="MX_11f_f7" label="Expressed"/>
+      <facetEntailment facetID="MX_11f_f8" label="Inferred"/>
+      <facetEntailment facetID="MX_11f_f9" label="Unaddressed"/>
+      <facetEntailment facetID="MX_11f_f10" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.11f.471.1" answerText="That there is one dg. one spoon is 5 grams." accuracy="irrelevant">
+      <facetEntailment facetID="MX_11f_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_11f_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MX_11f_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_11f_f4" label="Assumed"/>
+      <facetEntailment facetID="MX_11f_f5" label="Assumed"/>
+      <facetEntailment facetID="MX_11f_f6" label="Unaddressed"/>
+      <facetEntailment facetID="MX_11f_f7" label="Assumed"/>
+      <facetEntailment facetID="MX_11f_f8" label="Unaddressed"/>
+      <facetEntailment facetID="MX_11f_f9" label="Unaddressed"/>
+      <facetEntailment facetID="MX_11f_f10" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.11f.486.1" answerText="It would look clear and who have nothing on the bottom." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="MX_11f_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_11f_f2" label="Inferred"/>
+      <facetEntailment facetID="MX_11f_f3" label="Inferred"/>
+      <facetEntailment facetID="MX_11f_f4" label="Assumed"/>
+      <facetEntailment facetID="MX_11f_f5" label="Assumed"/>
+      <facetEntailment facetID="MX_11f_f6" label="Unaddressed"/>
+      <facetEntailment facetID="MX_11f_f7" label="Assumed"/>
+      <facetEntailment facetID="MX_11f_f8" label="Inferred"/>
+      <facetEntailment facetID="MX_11f_f9" label="Unaddressed"/>
+      <facetEntailment facetID="MX_11f_f10" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.11f.494.1" answerText="Well It would be clear because 2 has more solid and is still clear." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="MX_11f_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_11f_f2" label="Inferred"/>
+      <facetEntailment facetID="MX_11f_f3" label="Inferred"/>
+      <facetEntailment facetID="MX_11f_f4" label="Assumed"/>
+      <facetEntailment facetID="MX_11f_f5" label="Assumed"/>
+      <facetEntailment facetID="MX_11f_f6" label="Unaddressed"/>
+      <facetEntailment facetID="MX_11f_f7" label="Assumed"/>
+      <facetEntailment facetID="MX_11f_f8" label="Inferred"/>
+      <facetEntailment facetID="MX_11f_f9" label="Unaddressed"/>
+      <facetEntailment facetID="MX_11f_f10" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="MX.11f.557.1" answerText="I think he would see the solid dissolve." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="MX_11f_f1" label="Expressed"/>
+      <facetEntailment facetID="MX_11f_f2" label="Inferred"/>
+      <facetEntailment facetID="MX_11f_f3" label="Inferred"/>
+      <facetEntailment facetID="MX_11f_f4" label="Assumed"/>
+      <facetEntailment facetID="MX_11f_f5" label="Assumed"/>
+      <facetEntailment facetID="MX_11f_f6" label="Unaddressed"/>
+      <facetEntailment facetID="MX_11f_f7" label="Assumed"/>
+      <facetEntailment facetID="MX_11f_f8" label="Unaddressed"/>
+      <facetEntailment facetID="MX_11f_f9" label="Unaddressed"/>
+      <facetEntailment facetID="MX_11f_f10" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.11f.562.1" answerText="Mixture 2 maybe clear with nothing on the bottom." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="MX_11f_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_11f_f2" label="Inferred"/>
+      <facetEntailment facetID="MX_11f_f3" label="Inferred"/>
+      <facetEntailment facetID="MX_11f_f4" label="Assumed"/>
+      <facetEntailment facetID="MX_11f_f5" label="Assumed"/>
+      <facetEntailment facetID="MX_11f_f6" label="Unaddressed"/>
+      <facetEntailment facetID="MX_11f_f7" label="Assumed"/>
+      <facetEntailment facetID="MX_11f_f8" label="Inferred"/>
+      <facetEntailment facetID="MX_11f_f9" label="Unaddressed"/>
+      <facetEntailment facetID="MX_11f_f10" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.11f.566.1" answerText="He would observe the solution clear and nothing at the bottom because one and 3 do not have anything at the bottom and if 3 does not have any solute at the bottom 2 would not either." accuracy="correct">
+      <facetEntailment facetID="MX_11f_f1" label="Expressed"/>
+      <facetEntailment facetID="MX_11f_f2" label="Expressed"/>
+      <facetEntailment facetID="MX_11f_f3" label="Expressed"/>
+      <facetEntailment facetID="MX_11f_f4" label="Assumed"/>
+      <facetEntailment facetID="MX_11f_f5" label="Assumed"/>
+      <facetEntailment facetID="MX_11f_f6" label="Inferred"/>
+      <facetEntailment facetID="MX_11f_f7" label="Assumed"/>
+      <facetEntailment facetID="MX_11f_f8" label="Inferred"/>
+      <facetEntailment facetID="MX_11f_f9" label="Inferred"/>
+      <facetEntailment facetID="MX_11f_f10" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="MX.11f.572.1" answerText="He would observe fizzing in the cups. To evidence this you would put a lot of things in both of the cups." accuracy="irrelevant">
+      <facetEntailment facetID="MX_11f_f1" label="Expressed"/>
+      <facetEntailment facetID="MX_11f_f2" label="Diff-Arg"/>
+      <facetEntailment facetID="MX_11f_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_11f_f4" label="Assumed"/>
+      <facetEntailment facetID="MX_11f_f5" label="Assumed"/>
+      <facetEntailment facetID="MX_11f_f6" label="Unaddressed"/>
+      <facetEntailment facetID="MX_11f_f7" label="Assumed"/>
+      <facetEntailment facetID="MX_11f_f8" label="Unaddressed"/>
+      <facetEntailment facetID="MX_11f_f9" label="Unaddressed"/>
+      <facetEntailment facetID="MX_11f_f10" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.11f.597.1" answerText="Nothing will be on the bottom and it will be clear. Because solution 3 has nothing on the bottom and it is clear." accuracy="correct">
+      <facetEntailment facetID="MX_11f_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_11f_f2" label="Inferred"/>
+      <facetEntailment facetID="MX_11f_f3" label="Expressed"/>
+      <facetEntailment facetID="MX_11f_f4" label="Assumed"/>
+      <facetEntailment facetID="MX_11f_f5" label="Assumed"/>
+      <facetEntailment facetID="MX_11f_f6" label="Inferred"/>
+      <facetEntailment facetID="MX_11f_f7" label="Assumed"/>
+      <facetEntailment facetID="MX_11f_f8" label="Inferred"/>
+      <facetEntailment facetID="MX_11f_f9" label="Inferred"/>
+      <facetEntailment facetID="MX_11f_f10" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="MX.11f.636.1" answerText="There would be no material of bottom because mixtures does not have any material on bottom." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="MX_11f_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_11f_f2" label="Inferred"/>
+      <facetEntailment facetID="MX_11f_f3" label="Inferred"/>
+      <facetEntailment facetID="MX_11f_f4" label="Assumed"/>
+      <facetEntailment facetID="MX_11f_f5" label="Assumed"/>
+      <facetEntailment facetID="MX_11f_f6" label="Inferred"/>
+      <facetEntailment facetID="MX_11f_f7" label="Assumed"/>
+      <facetEntailment facetID="MX_11f_f8" label="Inferred"/>
+      <facetEntailment facetID="MX_11f_f9" label="Diff-Arg"/>
+      <facetEntailment facetID="MX_11f_f10" label="Unaddressed"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

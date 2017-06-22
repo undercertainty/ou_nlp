@@ -1,0 +1,357 @@
+<?xml version="1.0"?>
+<question testSet="unseen-questions" id="MS_50b" module="MS">
+  <questionText>Jen was talking on the phone with her Uncle Bill who lives in Canada. When she asked him how the weather was, he said it was nice and warm, about 28 degrees. Why is it important to have standard units of measurement?</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="MS_50b-a1" text="To communicate the measurement to other people and have the people know exactly what is meant.">
+      <tokens>
+        <token id="MS_50b_ra1">To</token>
+        <token id="MS_50b_ra2">communicate</token>
+        <token id="MS_50b_ra3">the</token>
+        <token id="MS_50b_ra4">measurement</token>
+        <token id="MS_50b_ra5">to</token>
+        <token id="MS_50b_ra6">other</token>
+        <token id="MS_50b_ra7">people</token>
+        <token id="MS_50b_ra8">and</token>
+        <token id="MS_50b_ra9">have</token>
+        <token id="MS_50b_ra10">the</token>
+        <token id="MS_50b_ra11">people</token>
+        <token id="MS_50b_ra12">know</token>
+        <token id="MS_50b_ra13">exactly</token>
+        <token id="MS_50b_ra14">what</token>
+        <token id="MS_50b_ra15">is</token>
+        <token id="MS_50b_ra16">meant</token>
+        <token id="MS_50b_ra17">.</token>
+      </tokens>
+      <facets>
+        <facet id="MS_50b_f1" govNum="MS_50b_ra2" modNum="MS_50b_ra4" reltn="Theme" govText="communicate" modText="measurement"/>
+        <facet id="MS_50b_f2" govNum="MS_50b_ra2" modNum="MS_50b_ra7" reltn="Actor_to" govText="communicate" isAssumed="true" modText="people"/>
+        <facet id="MS_50b_f3" govNum="MS_50b_ra7" modNum="MS_50b_ra6" reltn="NMod" govText="people" isAssumed="true" modText="other"/>
+        <facet id="MS_50b_f4" govNum="MS_50b_ra12" modNum="MS_50b_ra11" reltn="Agent" govText="know" modText="people"/>
+        <facet id="MS_50b_f5" govNum="MS_50b_ra12" modNum="MS_50b_ra16" reltn="Theme_what" govText="know" modText="meant"/>
+        <facet id="MS_50b_f6" govNum="MS_50b_ra12" modNum="MS_50b_ra13" reltn="Manner" govText="know" isAssumed="true" modText="exactly"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="MS.50b.101.1" answerText="Because he could have a temperature." accuracy="irrelevant">
+      <facetEntailment facetID="MS_50b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="MS_50b_f2" label="Assumed"/>
+      <facetEntailment facetID="MS_50b_f3" label="Assumed"/>
+      <facetEntailment facetID="MS_50b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MS_50b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MS_50b_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="MS.50b.107.1" answerText="Like people understand it. Like say I want 2 liters of gas." accuracy="correct">
+      <facetEntailment facetID="MS_50b_f1" label="Inferred"/>
+      <facetEntailment facetID="MS_50b_f2" label="Assumed"/>
+      <facetEntailment facetID="MS_50b_f3" label="Assumed"/>
+      <facetEntailment facetID="MS_50b_f4" label="Expressed"/>
+      <facetEntailment facetID="MS_50b_f5" label="Inferred"/>
+      <facetEntailment facetID="MS_50b_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="MS.50b.112.1" answerText="So everybody knows what you mean." accuracy="correct">
+      <facetEntailment facetID="MS_50b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="MS_50b_f2" label="Assumed"/>
+      <facetEntailment facetID="MS_50b_f3" label="Assumed"/>
+      <facetEntailment facetID="MS_50b_f4" label="Expressed"/>
+      <facetEntailment facetID="MS_50b_f5" label="Expressed"/>
+      <facetEntailment facetID="MS_50b_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="MS.50b.119.1" answerText="For you can do it right." accuracy="irrelevant">
+      <facetEntailment facetID="MS_50b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="MS_50b_f2" label="Assumed"/>
+      <facetEntailment facetID="MS_50b_f3" label="Assumed"/>
+      <facetEntailment facetID="MS_50b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MS_50b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MS_50b_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="MS.50b.136.1" answerText="A standard unit is important because you can get the same unit and the same measurement." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="MS_50b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="MS_50b_f2" label="Assumed"/>
+      <facetEntailment facetID="MS_50b_f3" label="Assumed"/>
+      <facetEntailment facetID="MS_50b_f4" label="Inferred"/>
+      <facetEntailment facetID="MS_50b_f5" label="Inferred"/>
+      <facetEntailment facetID="MS_50b_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="MS.50b.141.1" answerText="A standard unit is a important thing to do." accuracy="irrelevant">
+      <facetEntailment facetID="MS_50b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="MS_50b_f2" label="Assumed"/>
+      <facetEntailment facetID="MS_50b_f3" label="Assumed"/>
+      <facetEntailment facetID="MS_50b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MS_50b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MS_50b_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="MS.50b.146.1" answerText="It is important because if someone else had something different then you will not get the same." accuracy="irrelevant">
+      <facetEntailment facetID="MS_50b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="MS_50b_f2" label="Assumed"/>
+      <facetEntailment facetID="MS_50b_f3" label="Assumed"/>
+      <facetEntailment facetID="MS_50b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MS_50b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MS_50b_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="MS.50b.171.1" answerText="It is important because if learn how to use a standard unit you can go to other countries." accuracy="correct">
+      <facetEntailment facetID="MS_50b_f1" label="Inferred"/>
+      <facetEntailment facetID="MS_50b_f2" label="Assumed"/>
+      <facetEntailment facetID="MS_50b_f3" label="Assumed"/>
+      <facetEntailment facetID="MS_50b_f4" label="Inferred"/>
+      <facetEntailment facetID="MS_50b_f5" label="Inferred"/>
+      <facetEntailment facetID="MS_50b_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="MS.50b.172.1" answerText="Because it could be right or wrong but if it is important you need a standard unit of measurement." accuracy="irrelevant">
+      <facetEntailment facetID="MS_50b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="MS_50b_f2" label="Assumed"/>
+      <facetEntailment facetID="MS_50b_f3" label="Assumed"/>
+      <facetEntailment facetID="MS_50b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MS_50b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MS_50b_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="MS.50b.277.1" answerText="So we can have the same measurement as like a person in China that how I learned that." accuracy="correct">
+      <facetEntailment facetID="MS_50b_f1" label="Inferred"/>
+      <facetEntailment facetID="MS_50b_f2" label="Assumed"/>
+      <facetEntailment facetID="MS_50b_f3" label="Assumed"/>
+      <facetEntailment facetID="MS_50b_f4" label="Inferred"/>
+      <facetEntailment facetID="MS_50b_f5" label="Inferred"/>
+      <facetEntailment facetID="MS_50b_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="MS.50b.293.1" answerText="So you know how to measure." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="MS_50b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="MS_50b_f2" label="Assumed"/>
+      <facetEntailment facetID="MS_50b_f3" label="Assumed"/>
+      <facetEntailment facetID="MS_50b_f4" label="Expressed"/>
+      <facetEntailment facetID="MS_50b_f5" label="Inferred"/>
+      <facetEntailment facetID="MS_50b_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="MS.50b.311.1" answerText="To know how to best way to do it." accuracy="irrelevant">
+      <facetEntailment facetID="MS_50b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="MS_50b_f2" label="Assumed"/>
+      <facetEntailment facetID="MS_50b_f3" label="Assumed"/>
+      <facetEntailment facetID="MS_50b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MS_50b_f5" label="Inferred"/>
+      <facetEntailment facetID="MS_50b_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="MS.50b.319.1" answerText="So everyone know what you are talking about." accuracy="correct">
+      <facetEntailment facetID="MS_50b_f1" label="Inferred"/>
+      <facetEntailment facetID="MS_50b_f2" label="Assumed"/>
+      <facetEntailment facetID="MS_50b_f3" label="Assumed"/>
+      <facetEntailment facetID="MS_50b_f4" label="Expressed"/>
+      <facetEntailment facetID="MS_50b_f5" label="Inferred"/>
+      <facetEntailment facetID="MS_50b_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="MS.50b.323.1" answerText="Because you will not get the right answer." accuracy="irrelevant">
+      <facetEntailment facetID="MS_50b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="MS_50b_f2" label="Assumed"/>
+      <facetEntailment facetID="MS_50b_f3" label="Assumed"/>
+      <facetEntailment facetID="MS_50b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MS_50b_f5" label="Inferred"/>
+      <facetEntailment facetID="MS_50b_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="MS.50b.348.1" answerText="Because we have to get the same." accuracy="irrelevant">
+      <facetEntailment facetID="MS_50b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="MS_50b_f2" label="Assumed"/>
+      <facetEntailment facetID="MS_50b_f3" label="Assumed"/>
+      <facetEntailment facetID="MS_50b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MS_50b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MS_50b_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="MS.50b.351.1" answerText="So you get a lot of right answers." accuracy="irrelevant">
+      <facetEntailment facetID="MS_50b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="MS_50b_f2" label="Assumed"/>
+      <facetEntailment facetID="MS_50b_f3" label="Assumed"/>
+      <facetEntailment facetID="MS_50b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MS_50b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MS_50b_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="MS.50b.359.1" answerText="Is important to use a standard unit of measurement because if we will not use a standard unit of measurement we are going to get different answers." accuracy="correct">
+      <facetEntailment facetID="MS_50b_f1" label="Inferred"/>
+      <facetEntailment facetID="MS_50b_f2" label="Assumed"/>
+      <facetEntailment facetID="MS_50b_f3" label="Assumed"/>
+      <facetEntailment facetID="MS_50b_f4" label="Inferred"/>
+      <facetEntailment facetID="MS_50b_f5" label="Inferred"/>
+      <facetEntailment facetID="MS_50b_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="MS.50b.381.1" answerText="Because you do not get the answer right and thing do not go well." accuracy="irrelevant">
+      <facetEntailment facetID="MS_50b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="MS_50b_f2" label="Assumed"/>
+      <facetEntailment facetID="MS_50b_f3" label="Assumed"/>
+      <facetEntailment facetID="MS_50b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MS_50b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MS_50b_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="MS.50b.387.1" answerText="We have started measurement because so that everyone agrees on it." accuracy="correct">
+      <facetEntailment facetID="MS_50b_f1" label="Inferred"/>
+      <facetEntailment facetID="MS_50b_f2" label="Assumed"/>
+      <facetEntailment facetID="MS_50b_f3" label="Assumed"/>
+      <facetEntailment facetID="MS_50b_f4" label="Inferred"/>
+      <facetEntailment facetID="MS_50b_f5" label="Inferred"/>
+      <facetEntailment facetID="MS_50b_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="MS.50b.393.1" answerText="So you can communicate with other people." accuracy="correct">
+      <facetEntailment facetID="MS_50b_f1" label="Inferred"/>
+      <facetEntailment facetID="MS_50b_f2" label="Expressed"/>
+      <facetEntailment facetID="MS_50b_f3" label="Expressed"/>
+      <facetEntailment facetID="MS_50b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MS_50b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MS_50b_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="MS.50b.398.1" answerText="So you knew the temperature." accuracy="correct">
+      <facetEntailment facetID="MS_50b_f1" label="Inferred"/>
+      <facetEntailment facetID="MS_50b_f2" label="Assumed"/>
+      <facetEntailment facetID="MS_50b_f3" label="Assumed"/>
+      <facetEntailment facetID="MS_50b_f4" label="Expressed"/>
+      <facetEntailment facetID="MS_50b_f5" label="Inferred"/>
+      <facetEntailment facetID="MS_50b_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="MS.50b.417.1" answerText="Because we need to so we can measure temperature, or anything else." accuracy="irrelevant">
+      <facetEntailment facetID="MS_50b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="MS_50b_f2" label="Assumed"/>
+      <facetEntailment facetID="MS_50b_f3" label="Assumed"/>
+      <facetEntailment facetID="MS_50b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MS_50b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MS_50b_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="MS.50b.423.1" answerText="In case if someone is sick." accuracy="irrelevant">
+      <facetEntailment facetID="MS_50b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="MS_50b_f2" label="Assumed"/>
+      <facetEntailment facetID="MS_50b_f3" label="Assumed"/>
+      <facetEntailment facetID="MS_50b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MS_50b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MS_50b_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="MS.50b.433.1" answerText="So you can know what the answer is." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="MS_50b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="MS_50b_f2" label="Assumed"/>
+      <facetEntailment facetID="MS_50b_f3" label="Assumed"/>
+      <facetEntailment facetID="MS_50b_f4" label="Expressed"/>
+      <facetEntailment facetID="MS_50b_f5" label="Inferred"/>
+      <facetEntailment facetID="MS_50b_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="MS.50b.454.1" answerText="So people would understand each other." accuracy="correct">
+      <facetEntailment facetID="MS_50b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="MS_50b_f2" label="Assumed"/>
+      <facetEntailment facetID="MS_50b_f3" label="Assumed"/>
+      <facetEntailment facetID="MS_50b_f4" label="Inferred"/>
+      <facetEntailment facetID="MS_50b_f5" label="Inferred"/>
+      <facetEntailment facetID="MS_50b_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="MS.50b.461.1" answerText="Because it is important to use standard to measurement." accuracy="irrelevant">
+      <facetEntailment facetID="MS_50b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="MS_50b_f2" label="Assumed"/>
+      <facetEntailment facetID="MS_50b_f3" label="Assumed"/>
+      <facetEntailment facetID="MS_50b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MS_50b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MS_50b_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="MS.50b.493.1" answerText="To communicate." accuracy="correct">
+      <facetEntailment facetID="MS_50b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="MS_50b_f2" label="Assumed"/>
+      <facetEntailment facetID="MS_50b_f3" label="Assumed"/>
+      <facetEntailment facetID="MS_50b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MS_50b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MS_50b_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="MS.50b.495.1" answerText="We can use them when we need them." accuracy="irrelevant">
+      <facetEntailment facetID="MS_50b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="MS_50b_f2" label="Assumed"/>
+      <facetEntailment facetID="MS_50b_f3" label="Assumed"/>
+      <facetEntailment facetID="MS_50b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MS_50b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MS_50b_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="MS.50b.499.1" answerText="To communicate." accuracy="correct">
+      <facetEntailment facetID="MS_50b_f1" label="Inferred"/>
+      <facetEntailment facetID="MS_50b_f2" label="Assumed"/>
+      <facetEntailment facetID="MS_50b_f3" label="Assumed"/>
+      <facetEntailment facetID="MS_50b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MS_50b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MS_50b_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="MS.50b.501.1" answerText="Because measurement is better." accuracy="irrelevant">
+      <facetEntailment facetID="MS_50b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="MS_50b_f2" label="Assumed"/>
+      <facetEntailment facetID="MS_50b_f3" label="Assumed"/>
+      <facetEntailment facetID="MS_50b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MS_50b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MS_50b_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="MS.50b.504.1" answerText="Because maybe it is bigger or smaller and your hands are bigger or smaller." accuracy="irrelevant">
+      <facetEntailment facetID="MS_50b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="MS_50b_f2" label="Assumed"/>
+      <facetEntailment facetID="MS_50b_f3" label="Assumed"/>
+      <facetEntailment facetID="MS_50b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MS_50b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MS_50b_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="MS.50b.521.1" answerText="So you can get the same answer." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="MS_50b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="MS_50b_f2" label="Assumed"/>
+      <facetEntailment facetID="MS_50b_f3" label="Assumed"/>
+      <facetEntailment facetID="MS_50b_f4" label="Inferred"/>
+      <facetEntailment facetID="MS_50b_f5" label="Inferred"/>
+      <facetEntailment facetID="MS_50b_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="MS.50b.532.1" answerText="To know what to wear." accuracy="irrelevant">
+      <facetEntailment facetID="MS_50b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="MS_50b_f2" label="Assumed"/>
+      <facetEntailment facetID="MS_50b_f3" label="Assumed"/>
+      <facetEntailment facetID="MS_50b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MS_50b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MS_50b_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="MS.50b.566.1" answerText="So you know how to get the right answer." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="MS_50b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="MS_50b_f2" label="Assumed"/>
+      <facetEntailment facetID="MS_50b_f3" label="Assumed"/>
+      <facetEntailment facetID="MS_50b_f4" label="Expressed"/>
+      <facetEntailment facetID="MS_50b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MS_50b_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="MS.50b.569.1" answerText="You got have a standard measurement for you could know what is the real answer." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="MS_50b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="MS_50b_f2" label="Assumed"/>
+      <facetEntailment facetID="MS_50b_f3" label="Assumed"/>
+      <facetEntailment facetID="MS_50b_f4" label="Expressed"/>
+      <facetEntailment facetID="MS_50b_f5" label="Inferred"/>
+      <facetEntailment facetID="MS_50b_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="MS.50b.592.1" answerText="So that if you just measure anything else you will not get the right answer." accuracy="contradictory">
+      <facetEntailment facetID="MS_50b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="MS_50b_f2" label="Assumed"/>
+      <facetEntailment facetID="MS_50b_f3" label="Assumed"/>
+      <facetEntailment facetID="MS_50b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MS_50b_f5" label="Contra-Infr"/>
+      <facetEntailment facetID="MS_50b_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="MS.50b.598.1" answerText="So you do not get the wrong answer." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="MS_50b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="MS_50b_f2" label="Assumed"/>
+      <facetEntailment facetID="MS_50b_f3" label="Assumed"/>
+      <facetEntailment facetID="MS_50b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MS_50b_f5" label="Inferred"/>
+      <facetEntailment facetID="MS_50b_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="MS.50b.600.1" answerText="Because if will not work." accuracy="irrelevant">
+      <facetEntailment facetID="MS_50b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="MS_50b_f2" label="Assumed"/>
+      <facetEntailment facetID="MS_50b_f3" label="Assumed"/>
+      <facetEntailment facetID="MS_50b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MS_50b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MS_50b_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="MS.50b.609.1" answerText="You cannot find out the temperature." accuracy="irrelevant">
+      <facetEntailment facetID="MS_50b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="MS_50b_f2" label="Assumed"/>
+      <facetEntailment facetID="MS_50b_f3" label="Assumed"/>
+      <facetEntailment facetID="MS_50b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MS_50b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MS_50b_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="MS.50b.610.1" answerText="Because you will not get the right." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="MS_50b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="MS_50b_f2" label="Assumed"/>
+      <facetEntailment facetID="MS_50b_f3" label="Assumed"/>
+      <facetEntailment facetID="MS_50b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MS_50b_f5" label="Inferred"/>
+      <facetEntailment facetID="MS_50b_f6" label="Assumed"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

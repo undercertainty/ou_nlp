@@ -1,0 +1,524 @@
+<?xml version="1.0"?>
+<question testSet="unseen-domains" id="WA_12b" module="WA">
+  <questionText>Oil, water, and corn syrup are layered in a tall, thin container. All are at the same temperature. What does the layering tell you about the density of the corn syrup compared to water?</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="WA_12b-a1" text="Corn syrup is denser than water.">
+      <tokens>
+        <token id="WA_12b_ra1">Corn</token>
+        <token id="WA_12b_ra2">syrup</token>
+        <token id="WA_12b_ra3">is</token>
+        <token id="WA_12b_ra4">denser</token>
+        <token id="WA_12b_ra5">than</token>
+        <token id="WA_12b_ra6">water</token>
+        <token id="WA_12b_ra7">.</token>
+      </tokens>
+      <facets>
+        <facet id="WA_12b_f1" govNum="WA_12b_ra2" modNum="WA_12b_ra1" reltn="AMod" govText="syrup" isAssumed="true" modText="Corn"/>
+        <facet id="WA_12b_f2" govNum="WA_12b_ra2" modNum="WA_12b_ra4" reltn="Be" govText="syrup" modText="denser"/>
+        <facet id="WA_12b_f3" govNum="WA_12b_ra4" modNum="WA_12b_ra6" reltn="AMod_than" govText="denser" isAssumed="true" modText="water"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="WA.12b.171.1" answerText="That the oil has lines and the water does not." accuracy="irrelevant">
+      <facetEntailment facetID="WA_12b_f1" label="Assumed"/>
+      <facetEntailment facetID="WA_12b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_12b_f3" label="Diff-Arg"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12b.181.1" answerText="The corn syrup is denser than water because water cannot get under the corn syrup." accuracy="correct">
+      <facetEntailment facetID="WA_12b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12b.188.1" answerText="It tells me that corn syrup is denser than water. Because it is at the top." accuracy="contradictory">
+      <facetEntailment facetID="WA_12b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f2" label="Self-Contra"/>
+      <facetEntailment facetID="WA_12b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12b.191.1" answerText="The layering tells me that corn syrup is dense." accuracy="correct">
+      <facetEntailment facetID="WA_12b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f3" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12b.194.1" answerText="That corn syrup has more density than water." accuracy="correct">
+      <facetEntailment facetID="WA_12b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12b.195.1" answerText="That it is more dense than water." accuracy="correct">
+      <facetEntailment facetID="WA_12b_f1" label="Assumed"/>
+      <facetEntailment facetID="WA_12b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12b.197.1" answerText="That water and corn syrup are denser than oil." accuracy="irrelevant">
+      <facetEntailment facetID="WA_12b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_12b_f3" label="Contra-Expr"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12b.206.1" answerText="That corn syrup is denser than water." accuracy="correct">
+      <facetEntailment facetID="WA_12b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12b.209.1" answerText="The corn syrup is more dense than water." accuracy="correct">
+      <facetEntailment facetID="WA_12b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12b.212.1" answerText="The corn syrup is denser because it contracts, sinks." accuracy="correct">
+      <facetEntailment facetID="WA_12b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f3" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12b.214.1" answerText="It tells me that it is more dense." accuracy="correct">
+      <facetEntailment facetID="WA_12b_f1" label="Assumed"/>
+      <facetEntailment facetID="WA_12b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f3" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12b.215.1" answerText="The water is less dense than syrup." accuracy="correct">
+      <facetEntailment facetID="WA_12b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12b.219.1" answerText="The corn syrup is less density than water." accuracy="contradictory">
+      <facetEntailment facetID="WA_12b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f2" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_12b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12b.226.1" answerText="The corn syrup is denser than the water." accuracy="correct">
+      <facetEntailment facetID="WA_12b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12b.227.1" answerText="The corn syrup is denser than the water." accuracy="correct">
+      <facetEntailment facetID="WA_12b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12b.229.1" answerText="The corn syrup is more dense than the water." accuracy="correct">
+      <facetEntailment facetID="WA_12b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12b.232.1" answerText="That it is denser." accuracy="correct">
+      <facetEntailment facetID="WA_12b_f1" label="Assumed"/>
+      <facetEntailment facetID="WA_12b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f3" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12b.242.1" answerText="Corn syrup is more denser than water." accuracy="correct">
+      <facetEntailment facetID="WA_12b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12b.244.1" answerText="Tells me that corn syrup is denser than the water." accuracy="correct">
+      <facetEntailment facetID="WA_12b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12b.245.1" answerText="That the corn syrup is less dense than the water." accuracy="contradictory">
+      <facetEntailment facetID="WA_12b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f2" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_12b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12b.246.1" answerText="That corn syrup is more dense than water." accuracy="correct">
+      <facetEntailment facetID="WA_12b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12b.249.1" answerText="It tells me that corn syrup is more denser than water." accuracy="correct">
+      <facetEntailment facetID="WA_12b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12b.250.1" answerText="The water is more dense than the oil but less dense than the corn syrup." accuracy="correct">
+      <facetEntailment facetID="WA_12b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12b.251.1" answerText="That water is less denser than corn syrup." accuracy="correct">
+      <facetEntailment facetID="WA_12b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12b.252.1" answerText="Corn syrup is denser than the water." accuracy="correct">
+      <facetEntailment facetID="WA_12b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12b.253.1" answerText="It tells me about the density that the water is denser than the corn syrup." accuracy="contradictory">
+      <facetEntailment facetID="WA_12b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f2" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_12b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12b.254.1" answerText="The corn syrup has less dense." accuracy="contradictory">
+      <facetEntailment facetID="WA_12b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f2" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_12b_f3" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12b.255.1" answerText="The corn syrup is denser than water." accuracy="correct">
+      <facetEntailment facetID="WA_12b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12b.256.1" answerText="It is telling me that corn syrup is more denser than water." accuracy="correct">
+      <facetEntailment facetID="WA_12b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12b.257.1" answerText="The layering tell me that the water is more dense than the corn syrup." accuracy="contradictory">
+      <facetEntailment facetID="WA_12b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f2" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_12b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12b.259.1" answerText="Corn syrup is more denser than water." accuracy="correct">
+      <facetEntailment facetID="WA_12b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12b.260.1" answerText="The corn syrup is denser than the water." accuracy="correct">
+      <facetEntailment facetID="WA_12b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12b.261.1" answerText="That corn syrup is denser than water." accuracy="correct">
+      <facetEntailment facetID="WA_12b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12b.262.1" answerText="That it is less dense." accuracy="contradictory">
+      <facetEntailment facetID="WA_12b_f1" label="Assumed"/>
+      <facetEntailment facetID="WA_12b_f2" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_12b_f3" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12b.276.1" answerText="Corn is more dense than the water because it on bottom." accuracy="correct">
+      <facetEntailment facetID="WA_12b_f1" label="Assumed"/>
+      <facetEntailment facetID="WA_12b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12b.281.1" answerText="The corn syrup is less dense than the water." accuracy="contradictory">
+      <facetEntailment facetID="WA_12b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f2" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_12b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12b.285.1" answerText="It might go up one or 2 because it is at the bottom." accuracy="irrelevant">
+      <facetEntailment facetID="WA_12b_f1" label="Assumed"/>
+      <facetEntailment facetID="WA_12b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_12b_f3" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12b.294.1" answerText="The corn syrup is denser than water." accuracy="correct">
+      <facetEntailment facetID="WA_12b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12b.296.1" answerText="The corn syrup is more dense the water is less dense." accuracy="correct">
+      <facetEntailment facetID="WA_12b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12b.299.1" answerText="Corn syrup is a lot more dense than water because it has a flow." accuracy="correct">
+      <facetEntailment facetID="WA_12b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12b.346.1" answerText="The corn syrup is denser than the water." accuracy="correct">
+      <facetEntailment facetID="WA_12b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12b.347.1" answerText="The corn syrup is denser than water." accuracy="correct">
+      <facetEntailment facetID="WA_12b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12b.351.1" answerText="Water is denser." accuracy="contradictory">
+      <facetEntailment facetID="WA_12b_f1" label="Assumed"/>
+      <facetEntailment facetID="WA_12b_f2" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_12b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12b.356.1" answerText="It would be Ice water." accuracy="irrelevant">
+      <facetEntailment facetID="WA_12b_f1" label="Assumed"/>
+      <facetEntailment facetID="WA_12b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_12b_f3" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12b.359.1" answerText="The corn syrup is more denser than the water." accuracy="correct">
+      <facetEntailment facetID="WA_12b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12b.361.1" answerText="Water is less dense than corn syrup." accuracy="correct">
+      <facetEntailment facetID="WA_12b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12b.362.1" answerText="The corn syrup is denser than the water." accuracy="correct">
+      <facetEntailment facetID="WA_12b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12b.364.1" answerText="Water is denser." accuracy="contradictory">
+      <facetEntailment facetID="WA_12b_f1" label="Assumed"/>
+      <facetEntailment facetID="WA_12b_f2" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_12b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12b.367.1" answerText="Water is less denser than corn syrup." accuracy="correct">
+      <facetEntailment facetID="WA_12b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12b.368.1" answerText="The water is denser than the corn syrup." accuracy="contradictory">
+      <facetEntailment facetID="WA_12b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f2" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_12b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12b.418.1" answerText="Corn syrup is more dense than water." accuracy="correct">
+      <facetEntailment facetID="WA_12b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12b.423.1" answerText="The corn syrup is more dense than the water." accuracy="correct">
+      <facetEntailment facetID="WA_12b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12b.425.1" answerText="That corn syrup is more denser." accuracy="correct">
+      <facetEntailment facetID="WA_12b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12b.428.1" answerText="That corn syrup in denser than water." accuracy="correct">
+      <facetEntailment facetID="WA_12b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12b.429.1" answerText="It is denser." accuracy="correct">
+      <facetEntailment facetID="WA_12b_f1" label="Assumed"/>
+      <facetEntailment facetID="WA_12b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f3" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12b.430.1" answerText="Corn syrup has more density than water." accuracy="correct">
+      <facetEntailment facetID="WA_12b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12b.437.1" answerText="Corn syrup is denser than water." accuracy="correct">
+      <facetEntailment facetID="WA_12b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12b.460.1" answerText="The corn syrup is denser than water." accuracy="correct">
+      <facetEntailment facetID="WA_12b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12b.465.1" answerText="It tells us that corn syrup is denser than water." accuracy="correct">
+      <facetEntailment facetID="WA_12b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12b.468.1" answerText="The corn syrup is denser than the water." accuracy="correct">
+      <facetEntailment facetID="WA_12b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12b.495.1" answerText="Corn syrup is more dense than corn syrup." accuracy="contradictory">
+      <facetEntailment facetID="WA_12b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f2" label="Self-Contra"/>
+      <facetEntailment facetID="WA_12b_f3" label="Contra-Expr"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12b.501.1" answerText="The water is less dense than the corn syrup." accuracy="correct">
+      <facetEntailment facetID="WA_12b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12b.503.1" answerText="Corn syrup is less dense water is more dense." accuracy="contradictory">
+      <facetEntailment facetID="WA_12b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f2" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_12b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12b.504.1" answerText="Corn syrup is less dense than water." accuracy="contradictory">
+      <facetEntailment facetID="WA_12b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f2" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_12b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12b.508.1" answerText="The corn syrup is more dense than the water." accuracy="correct">
+      <facetEntailment facetID="WA_12b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12b.522.1" answerText="The corn syrup is more dense than the water." accuracy="correct">
+      <facetEntailment facetID="WA_12b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12b.524.1" answerText="That the corn syrup is more dense than water." accuracy="correct">
+      <facetEntailment facetID="WA_12b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12b.525.1" answerText="That corn syrup is denser than the water." accuracy="correct">
+      <facetEntailment facetID="WA_12b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12b.528.1" answerText="That corn syrup is way thicker than water." accuracy="correct">
+      <facetEntailment facetID="WA_12b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12b.529.1" answerText="The corn syrup must be denser than the water because it sank." accuracy="correct">
+      <facetEntailment facetID="WA_12b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12b.530.1" answerText="The corn syrup is denser than the water." accuracy="correct">
+      <facetEntailment facetID="WA_12b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12b.531.1" answerText="The water is less dense than the corn syrup because the corn syrup sank." accuracy="correct">
+      <facetEntailment facetID="WA_12b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12b.532.1" answerText="It tells me that corn syrup is just sticky but water is not." accuracy="irrelevant">
+      <facetEntailment facetID="WA_12b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f2" label="Diff-Arg"/>
+      <facetEntailment facetID="WA_12b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12b.533.1" answerText="It tells that the corn syrup is the least dense." accuracy="contradictory">
+      <facetEntailment facetID="WA_12b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f2" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_12b_f3" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12b.534.1" answerText="The corn syrup is denser than the oil." accuracy="irrelevant">
+      <facetEntailment facetID="WA_12b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f3" label="Contra-Expr"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12b.535.1" answerText="Water is more dense than the corn syrup." accuracy="contradictory">
+      <facetEntailment facetID="WA_12b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f2" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_12b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12b.556.1" answerText="The corn syrup is more dense than water." accuracy="correct">
+      <facetEntailment facetID="WA_12b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12b.563.1" answerText="It is more dense than the syrup." accuracy="contradictory">
+      <facetEntailment facetID="WA_12b_f1" label="Assumed"/>
+      <facetEntailment facetID="WA_12b_f2" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_12b_f3" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12b.567.1" answerText="That corn syrup is more dense than water." accuracy="correct">
+      <facetEntailment facetID="WA_12b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12b.569.1" answerText="The corn syrup is at the bottom which means it is more dense than water." accuracy="correct">
+      <facetEntailment facetID="WA_12b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12b.573.1" answerText="The corn syrup is more dense than water because it is floating." accuracy="correct">
+      <facetEntailment facetID="WA_12b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12b.575.1" answerText="The corn syrup is more dense than water." accuracy="correct">
+      <facetEntailment facetID="WA_12b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12b.577.1" answerText="More dense." accuracy="correct">
+      <facetEntailment facetID="WA_12b_f1" label="Assumed"/>
+      <facetEntailment facetID="WA_12b_f2" label="Inferred"/>
+      <facetEntailment facetID="WA_12b_f3" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12b.591.1" answerText="The corn syrup is more." accuracy="correct">
+      <facetEntailment facetID="WA_12b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f2" label="Inferred"/>
+      <facetEntailment facetID="WA_12b_f3" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12b.593.1" answerText="The corn syrup is colder." accuracy="irrelevant">
+      <facetEntailment facetID="WA_12b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f2" label="Diff-Arg"/>
+      <facetEntailment facetID="WA_12b_f3" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12b.596.1" answerText="Corn syrup is probably denser than water because the corn syrup is trying to push into a small tight space at the bottom when the water went to the middle and oil went to the top." accuracy="correct">
+      <facetEntailment facetID="WA_12b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12b.597.1" answerText="That it is denser than the water?" accuracy="correct">
+      <facetEntailment facetID="WA_12b_f1" label="Assumed"/>
+      <facetEntailment facetID="WA_12b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12b.598.1" answerText="Water is less dense than corn syrup." accuracy="correct">
+      <facetEntailment facetID="WA_12b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12b.599.1" answerText="It tells me that corn syrup and water have same density." accuracy="contradictory">
+      <facetEntailment facetID="WA_12b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f2" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_12b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12b.600.1" answerText="The water was less." accuracy="correct">
+      <facetEntailment facetID="WA_12b_f1" label="Assumed"/>
+      <facetEntailment facetID="WA_12b_f2" label="Inferred"/>
+      <facetEntailment facetID="WA_12b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12b.601.1" answerText="Because it is more thick." accuracy="irrelevant">
+      <facetEntailment facetID="WA_12b_f1" label="Assumed"/>
+      <facetEntailment facetID="WA_12b_f2" label="Diff-Arg"/>
+      <facetEntailment facetID="WA_12b_f3" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12b.603.1" answerText="That corn syrup is denser than water." accuracy="correct">
+      <facetEntailment facetID="WA_12b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12b.604.1" answerText="The corn syrup is less dense than the water." accuracy="contradictory">
+      <facetEntailment facetID="WA_12b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f2" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_12b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12b.605.1" answerText="It tells me that corn syrup is denser than water." accuracy="correct">
+      <facetEntailment facetID="WA_12b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12b.607.1" answerText="More dense." accuracy="correct">
+      <facetEntailment facetID="WA_12b_f1" label="Assumed"/>
+      <facetEntailment facetID="WA_12b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f3" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12b.624.1" answerText="That it is denser than oil." accuracy="irrelevant">
+      <facetEntailment facetID="WA_12b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f3" label="Contra-Expr"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12b.628.1" answerText="Corn syrup is denser than water. Water is above the corn syrup." accuracy="correct">
+      <facetEntailment facetID="WA_12b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f2" label="Self-Contra"/>
+      <facetEntailment facetID="WA_12b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12b.634.1" answerText="That the oil is less dense than the water, water is denser than oil." accuracy="irrelevant">
+      <facetEntailment facetID="WA_12b_f1" label="Diff-Arg"/>
+      <facetEntailment facetID="WA_12b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_12b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12b.635.1" answerText="Corn syrup is denser than other how because the corn syrup Is all the way down." accuracy="correct">
+      <facetEntailment facetID="WA_12b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f3" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.12b.640.1" answerText="The corn syrup is denser than the water." accuracy="correct">
+      <facetEntailment facetID="WA_12b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_12b_f3" label="Expressed"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

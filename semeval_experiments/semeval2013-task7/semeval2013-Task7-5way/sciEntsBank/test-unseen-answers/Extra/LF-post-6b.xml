@@ -1,0 +1,176 @@
+<?xml version="1.0"?>
+<question testSet="unseen-answers" id="LF_6b" module="LF">
+  <questionText>Mark an X next to each of the following that can cause more erosion in a streamtable experiment. (Use a water source with a bigger hole.) Use a water source with a smaller hole.  Make the slope flatter. (Make the slope steeper.) Explain why your choices cause more erosion.</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="LF_6b-a1" text="A bigger hole puts more water in the stream. Increased flow moves more earth materials, increasing erosion. A steeper slope makes the water flow faster. Faster flow moves more earth materials, increasing erosion.">
+      <tokens>
+        <token id="LF_6b_ra1">A</token>
+        <token id="LF_6b_ra2">bigger</token>
+        <token id="LF_6b_ra3">hole</token>
+        <token id="LF_6b_ra4">puts</token>
+        <token id="LF_6b_ra5">more</token>
+        <token id="LF_6b_ra6">water</token>
+        <token id="LF_6b_ra7">in</token>
+        <token id="LF_6b_ra8">the</token>
+        <token id="LF_6b_ra9">stream</token>
+        <token id="LF_6b_ra10">.</token>
+        <token id="LF_6b_ra11">Increased</token>
+        <token id="LF_6b_ra12">flow</token>
+        <token id="LF_6b_ra13">moves</token>
+        <token id="LF_6b_ra14">more</token>
+        <token id="LF_6b_ra15">earth</token>
+        <token id="LF_6b_ra16">materials</token>
+        <token id="LF_6b_ra17">,</token>
+        <token id="LF_6b_ra18">increasing</token>
+        <token id="LF_6b_ra19">erosion</token>
+        <token id="LF_6b_ra20">.</token>
+        <token id="LF_6b_ra21">A</token>
+        <token id="LF_6b_ra22">steeper</token>
+        <token id="LF_6b_ra23">slope</token>
+        <token id="LF_6b_ra24">makes</token>
+        <token id="LF_6b_ra25">the</token>
+        <token id="LF_6b_ra26">water</token>
+        <token id="LF_6b_ra27">flow</token>
+        <token id="LF_6b_ra28">faster</token>
+        <token id="LF_6b_ra29">.</token>
+        <token id="LF_6b_ra30">Faster</token>
+        <token id="LF_6b_ra31">flow</token>
+        <token id="LF_6b_ra32">moves</token>
+        <token id="LF_6b_ra33">more</token>
+        <token id="LF_6b_ra34">earth</token>
+        <token id="LF_6b_ra35">materials</token>
+        <token id="LF_6b_ra36">,</token>
+        <token id="LF_6b_ra37">increasing</token>
+        <token id="LF_6b_ra38">erosion</token>
+        <token id="LF_6b_ra39">.</token>
+      </tokens>
+      <facets>
+        <facet id="LF_6b_f1" govNum="LF_6b_ra3" modNum="LF_6b_ra2" reltn="NMod" govText="hole" isAssumed="true" modText="bigger"/>
+        <facet id="LF_6b_f2" govNum="LF_6b_ra4" modNum="LF_6b_ra3" reltn="Means" govText="puts" isAssumed="true" modText="hole"/>
+        <facet id="LF_6b_f3" govNum="LF_6b_ra4" modNum="LF_6b_ra6" reltn="Theme" govText="puts" isAssumed="true" modText="water"/>
+        <facet id="LF_6b_f4" govNum="LF_6b_ra6" modNum="LF_6b_ra5" reltn="NMod" govText="water" modText="more"/>
+        <facet id="LF_6b_f5" govNum="LF_6b_ra4" modNum="LF_6b_ra9" reltn="Destination_in" govText="puts" isAssumed="true" modText="stream"/>
+        <facet id="LF_6b_f6" govNum="LF_6b_ra12" modNum="LF_6b_ra11" reltn="NMod" govText="flow" modText="Increased"/>
+        <facet id="LF_6b_f7" govNum="LF_6b_ra13" modNum="LF_6b_ra12" reltn="Cause" govText="moves" isAssumed="true" modText="flow"/>
+        <facet id="LF_6b_f8" govNum="LF_6b_ra13" modNum="LF_6b_ra16" reltn="Theme" govText="moves" isAssumed="true" modText="materials"/>
+        <facet id="LF_6b_f9" govNum="LF_6b_ra16" modNum="LF_6b_ra15" reltn="NMod" govText="materials" isAssumed="true" modText="earth"/>
+        <facet id="LF_6b_f10" govNum="LF_6b_ra16" modNum="LF_6b_ra14" reltn="NMod" govText="materials" isAssumed="true" modText="more"/>
+        <facet id="LF_6b_f11" govNum="LF_6b_ra18" modNum="LF_6b_ra19" reltn="Patient" govText="increasing" isAssumed="true" modText="erosion"/>
+        <facet id="LF_6b_f12" govNum="LF_6b_ra18" modNum="LF_6b_ra13" reltn="Cause_COMMA" childProp2Facet2="LF_6b_f8" childProp1Facet1="LF_6b_f11" govText="increasing" isAssumed="true" modText="moves" childProp2Facet1="LF_6b_f7"/>
+        <facet id="LF_6b_f13" govNum="LF_6b_ra23" modNum="LF_6b_ra22" reltn="NMod" govText="slope" isAssumed="true" modText="steeper"/>
+        <facet id="LF_6b_f14" govNum="LF_6b_ra27" modNum="LF_6b_ra26" reltn="Theme" govText="flow" isAssumed="true" modText="water"/>
+        <facet id="LF_6b_f15" govNum="LF_6b_ra27" modNum="LF_6b_ra28" reltn="Manner" govText="flow" modText="faster"/>
+        <facet id="LF_6b_f16" govNum="LF_6b_ra27" modNum="LF_6b_ra23" reltn="Cause_make" childProp1Facet1="LF_6b_f14" govText="flow" childProp1Facet2="LF_6b_f15" modText="slope" childProp2Facet1="LF_6b_f13"/>
+        <facet id="LF_6b_f17" govNum="LF_6b_ra31" modNum="LF_6b_ra30" reltn="NMod" govText="flow" modText="Faster"/>
+        <facet id="LF_6b_f18" govNum="LF_6b_ra32" modNum="LF_6b_ra31" reltn="Cause" govText="moves" isAssumed="true" modText="flow"/>
+        <facet id="LF_6b_f19" govNum="LF_6b_ra32" modNum="LF_6b_ra35" reltn="Theme" govText="moves" isAssumed="true" modText="materials"/>
+        <facet id="LF_6b_f20" govNum="LF_6b_ra35" modNum="LF_6b_ra34" reltn="NMod" govText="materials" isAssumed="true" modText="earth"/>
+        <facet id="LF_6b_f21" govNum="LF_6b_ra35" modNum="LF_6b_ra33" reltn="NMod" govText="materials" isAssumed="true" modText="more"/>
+        <facet id="LF_6b_f22" govNum="LF_6b_ra37" modNum="LF_6b_ra38" reltn="Patient" govText="increasing" isAssumed="true" modText="erosion"/>
+        <facet id="LF_6b_f23" govNum="LF_6b_ra37" modNum="LF_6b_ra32" reltn="Cause_COMMA" childProp2Facet2="LF_6b_f19" childProp1Facet1="LF_6b_f22" govText="increasing" isAssumed="true" modText="moves" childProp2Facet1="LF_6b_f18"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="LF.6b.467.1" answerText="Because if you used a slope steeper it will destroy the earth material." accuracy="irrelevant">
+      <facetEntailment facetID="LF_6b_f1" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f2" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f3" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="LF_6b_f5" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="LF_6b_f7" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f8" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f9" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f10" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f11" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f12" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f13" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f14" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f15" label="Unaddressed"/>
+      <facetEntailment facetID="LF_6b_f16" label="Unaddressed"/>
+      <facetEntailment facetID="LF_6b_f17" label="Unaddressed"/>
+      <facetEntailment facetID="LF_6b_f18" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f19" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f20" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f21" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f22" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f23" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="LF.6b.680.1" answerText="I chose these choices because if there is a bigger hole then more water will flow through causing greater erosion. If the slope is steeper then the water will flow faster causing greater erosion.." accuracy="correct">
+      <facetEntailment facetID="LF_6b_f1" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f2" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f3" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f4" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f5" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f6" label="Inferred"/>
+      <facetEntailment facetID="LF_6b_f7" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f8" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f9" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f10" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f11" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f12" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f13" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f14" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f15" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f16" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f17" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f18" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f19" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f20" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f21" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f22" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f23" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="LF.6b.689.1" answerText="If the water source has a bigger hole it would let out more water at one time, more water more erosion. If we make a steeper slope the water will have more momentum making it stronger to carry more earth materials." accuracy="correct">
+      <facetEntailment facetID="LF_6b_f1" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f2" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f3" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f4" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f5" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f6" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f7" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f8" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f9" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f10" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f11" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f12" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f13" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f14" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f15" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f16" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f17" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f18" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f19" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f20" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f21" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f22" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f23" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="LF.6b.743.1" answerText="Because more water would come out at once." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="LF_6b_f1" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f2" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f3" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f4" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f5" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f6" label="Inferred"/>
+      <facetEntailment facetID="LF_6b_f7" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f8" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f9" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f10" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f11" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f12" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f13" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f14" label="Expressed"/>
+      <facetEntailment facetID="LF_6b_f15" label="Inferred"/>
+      <facetEntailment facetID="LF_6b_f16" label="Unaddressed"/>
+      <facetEntailment facetID="LF_6b_f17" label="Unaddressed"/>
+      <facetEntailment facetID="LF_6b_f18" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f19" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f20" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f21" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f22" label="Assumed"/>
+      <facetEntailment facetID="LF_6b_f23" label="Assumed"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

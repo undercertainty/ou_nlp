@@ -1,0 +1,835 @@
+<?xml version="1.0"?>
+<question testSet="unseen-domains" id="HB_24b2" module="HB">
+  <questionText>Throwing a ball uses a hinge joint and a ball-and-socket joint. Describe how each of these 2 joints moves when you throw a ball. The ball-and-socket joint ___.</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="HB_24b2-a1" text="rotates. moves in all directions. moves up-and-down, back-and-forth, and side-to-side.">
+      <tokens>
+        <token id="HB_24b2_ra1">rotates</token>
+        <token id="HB_24b2_ra2">.</token>
+        <token id="HB_24b2_ra3">moves</token>
+        <token id="HB_24b2_ra4">in</token>
+        <token id="HB_24b2_ra5">all</token>
+        <token id="HB_24b2_ra6">directions</token>
+        <token id="HB_24b2_ra7">.</token>
+        <token id="HB_24b2_ra8">moves</token>
+        <token id="HB_24b2_ra9">up-and-down</token>
+        <token id="HB_24b2_ra10">,</token>
+        <token id="HB_24b2_ra11">back-and-forth</token>
+        <token id="HB_24b2_ra12">,</token>
+        <token id="HB_24b2_ra13">and</token>
+        <token id="HB_24b2_ra14">side-to-side</token>
+        <token id="HB_24b2_ra15">.</token>
+      </tokens>
+      <facets>
+        <facet id="HB_24b2_f1" govNum="HB_24b2_ra0" modNum="HB_24b2_ra1" reltn="Root" govText="root" modText="rotates"/>
+        <facet id="HB_24b2_f2" govNum="HB_24b2_ra3" modNum="HB_24b2_ra6" reltn="Direction_in" govText="moves" modText="directions"/>
+        <facet id="HB_24b2_f3" govNum="HB_24b2_ra6" modNum="HB_24b2_ra5" reltn="Quantifier" govText="directions" modText="all"/>
+        <facet id="HB_24b2_f4" govNum="HB_24b2_ra8" modNum="HB_24b2_ra9" reltn="Manner" govText="moves" modText="up-and-down"/>
+        <facet id="HB_24b2_f5" govNum="HB_24b2_ra8" modNum="HB_24b2_ra11" reltn="Manner" govText="moves" modText="back-and-forth"/>
+        <facet id="HB_24b2_f6" govNum="HB_24b2_ra8" modNum="HB_24b2_ra14" reltn="Manner" govText="moves" modText="side-to-side"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="HB.24b2.138.1" answerText="It move front and back to throw the ball." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_24b2_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_24b2_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_24b2_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.24b2.141.1" answerText="It helps." accuracy="irrelevant">
+      <facetEntailment facetID="HB_24b2_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f5" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.24b2.145.1" answerText="You use one of your joints is your shoulder." accuracy="irrelevant">
+      <facetEntailment facetID="HB_24b2_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f5" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.24b2.146.1" answerText="Rotate." accuracy="correct">
+      <facetEntailment facetID="HB_24b2_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_24b2_f2" label="Inferred"/>
+      <facetEntailment facetID="HB_24b2_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f5" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.24b2.173.1" answerText="Moves in a circle." accuracy="correct">
+      <facetEntailment facetID="HB_24b2_f1" label="Inferred"/>
+      <facetEntailment facetID="HB_24b2_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_24b2_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_24b2_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f5" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.24b2.174.1" answerText="Moves back for power again then goes forward." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_24b2_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_24b2_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_24b2_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.24b2.175.1" answerText="Back and forth." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_24b2_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f2" label="Inferred"/>
+      <facetEntailment facetID="HB_24b2_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_24b2_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.24b2.179.1" answerText="Will go in a complete circle." accuracy="correct">
+      <facetEntailment facetID="HB_24b2_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_24b2_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_24b2_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_24b2_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f5" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.24b2.207.1" answerText="It rotates." accuracy="correct">
+      <facetEntailment facetID="HB_24b2_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_24b2_f2" label="Inferred"/>
+      <facetEntailment facetID="HB_24b2_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f5" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.24b2.213.1" answerText="Turns around." accuracy="correct">
+      <facetEntailment facetID="HB_24b2_f1" label="Inferred"/>
+      <facetEntailment facetID="HB_24b2_f2" label="Inferred"/>
+      <facetEntailment facetID="HB_24b2_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f5" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.24b2.216.1" answerText="Rotates." accuracy="correct">
+      <facetEntailment facetID="HB_24b2_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_24b2_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f5" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.24b2.218.1" answerText="Lets your lower arm throw." accuracy="irrelevant">
+      <facetEntailment facetID="HB_24b2_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f2" label="Inferred"/>
+      <facetEntailment facetID="HB_24b2_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f5" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.24b2.219.1" answerText="Hip." accuracy="irrelevant">
+      <facetEntailment facetID="HB_24b2_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f5" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.24b2.243.1" answerText="Helps you bring back your arm to throw." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_24b2_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f2" label="Inferred"/>
+      <facetEntailment facetID="HB_24b2_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f5" label="Inferred"/>
+      <facetEntailment facetID="HB_24b2_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.24b2.244.1" answerText="Bends up and down." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_24b2_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_24b2_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f4" label="Expressed"/>
+      <facetEntailment facetID="HB_24b2_f5" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.24b2.246.1" answerText="Moves back and forward." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_24b2_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_24b2_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_24b2_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.24b2.247.1" answerText="Goes forward." accuracy="contradictory">
+      <facetEntailment facetID="HB_24b2_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f2" label="Inferred"/>
+      <facetEntailment facetID="HB_24b2_f3" label="Contra-Infr"/>
+      <facetEntailment facetID="HB_24b2_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f5" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.24b2.248.1" answerText="Moves back and forth." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_24b2_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f2" label="Inferred"/>
+      <facetEntailment facetID="HB_24b2_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_24b2_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.24b2.250.1" answerText="The ball-and-socket joint you use is in your shoulder." accuracy="irrelevant">
+      <facetEntailment facetID="HB_24b2_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f5" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.24b2.251.1" answerText="Moves by circling." accuracy="correct">
+      <facetEntailment facetID="HB_24b2_f1" label="Inferred"/>
+      <facetEntailment facetID="HB_24b2_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_24b2_f3" label="Inferred"/>
+      <facetEntailment facetID="HB_24b2_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f5" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.24b2.254.1" answerText="Puts the strength on your arm." accuracy="irrelevant">
+      <facetEntailment facetID="HB_24b2_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f5" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.24b2.256.1" answerText="Allows you to move it in circles." accuracy="correct">
+      <facetEntailment facetID="HB_24b2_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_24b2_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_24b2_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_24b2_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f5" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.24b2.259.1" answerText="Help you move your shoulder in a circle." accuracy="correct">
+      <facetEntailment facetID="HB_24b2_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_24b2_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_24b2_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_24b2_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f5" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.24b2.260.1" answerText="Your ball-and-socket joint moves back." accuracy="contradictory">
+      <facetEntailment facetID="HB_24b2_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_24b2_f3" label="Contra-Infr"/>
+      <facetEntailment facetID="HB_24b2_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f5" label="Inferred"/>
+      <facetEntailment facetID="HB_24b2_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.24b2.277.1" answerText="Goes multiple ways." accuracy="correct">
+      <facetEntailment facetID="HB_24b2_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_24b2_f3" label="Inferred"/>
+      <facetEntailment facetID="HB_24b2_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f5" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.24b2.278.1" answerText="Moves from back to front when throwing a ball." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_24b2_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_24b2_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_24b2_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.24b2.280.1" answerText="It is allowing to bend back and throwing the ball." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_24b2_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_24b2_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f5" label="Inferred"/>
+      <facetEntailment facetID="HB_24b2_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.24b2.286.1" answerText="Your wrist goes around and around." accuracy="correct">
+      <facetEntailment facetID="HB_24b2_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_24b2_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_24b2_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_24b2_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f5" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.24b2.295.1" answerText="Back then front." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_24b2_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f2" label="Inferred"/>
+      <facetEntailment facetID="HB_24b2_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_24b2_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.24b2.314.1" answerText="Rotate." accuracy="correct">
+      <facetEntailment facetID="HB_24b2_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_24b2_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f5" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.24b2.315.1" answerText="Lets you move by separating your joint." accuracy="irrelevant">
+      <facetEntailment facetID="HB_24b2_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f2" label="Diff-Arg"/>
+      <facetEntailment facetID="HB_24b2_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f5" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.24b2.324.1" answerText="Move back and forth." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_24b2_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_24b2_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_24b2_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.24b2.350.1" answerText="Circle, back and forth, side to side." accuracy="correct">
+      <facetEntailment facetID="HB_24b2_f1" label="Inferred"/>
+      <facetEntailment facetID="HB_24b2_f2" label="Inferred"/>
+      <facetEntailment facetID="HB_24b2_f3" label="Inferred"/>
+      <facetEntailment facetID="HB_24b2_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_24b2_f6" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.24b2.355.1" answerText="Moves back and forth." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_24b2_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f2" label="Inferred"/>
+      <facetEntailment facetID="HB_24b2_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_24b2_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.24b2.357.1" answerText="Backwards." accuracy="contradictory">
+      <facetEntailment facetID="HB_24b2_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f2" label="Inferred"/>
+      <facetEntailment facetID="HB_24b2_f3" label="Contra-Infr"/>
+      <facetEntailment facetID="HB_24b2_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f5" label="Inferred"/>
+      <facetEntailment facetID="HB_24b2_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.24b2.359.1" answerText="Back and forth, side to side, up and down." accuracy="correct">
+      <facetEntailment facetID="HB_24b2_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f2" label="Inferred"/>
+      <facetEntailment facetID="HB_24b2_f3" label="Inferred"/>
+      <facetEntailment facetID="HB_24b2_f4" label="Expressed"/>
+      <facetEntailment facetID="HB_24b2_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_24b2_f6" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.24b2.361.1" answerText="Rotates when you throw a ball." accuracy="correct">
+      <facetEntailment facetID="HB_24b2_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_24b2_f2" label="Inferred"/>
+      <facetEntailment facetID="HB_24b2_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f5" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.24b2.364.1" answerText="Rotates to keep the ball so it can go further in the air. When I say rotates I mean going in a circle." accuracy="correct">
+      <facetEntailment facetID="HB_24b2_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_24b2_f2" label="Inferred"/>
+      <facetEntailment facetID="HB_24b2_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_24b2_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f5" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.24b2.365.1" answerText="Moves circle ways." accuracy="correct">
+      <facetEntailment facetID="HB_24b2_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_24b2_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_24b2_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_24b2_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f5" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.24b2.386.1" answerText="Moves." accuracy="irrelevant">
+      <facetEntailment facetID="HB_24b2_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_24b2_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f5" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.24b2.387.1" answerText="The socket goes forward and back when throwing a ball." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_24b2_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_24b2_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_24b2_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.24b2.388.1" answerText="Front to back." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_24b2_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f2" label="Inferred"/>
+      <facetEntailment facetID="HB_24b2_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_24b2_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.24b2.391.1" answerText="Goes forward when you throw a ball." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_24b2_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_24b2_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f5" label="Inferred"/>
+      <facetEntailment facetID="HB_24b2_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.24b2.392.1" answerText="Moves around in a circle." accuracy="correct">
+      <facetEntailment facetID="HB_24b2_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_24b2_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_24b2_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_24b2_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f5" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.24b2.418.1" answerText="Moves all around so you can throw it wherever without turning so much." accuracy="correct">
+      <facetEntailment facetID="HB_24b2_f1" label="Inferred"/>
+      <facetEntailment facetID="HB_24b2_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_24b2_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_24b2_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f5" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.24b2.421.1" answerText="Around." accuracy="correct">
+      <facetEntailment facetID="HB_24b2_f1" label="Inferred"/>
+      <facetEntailment facetID="HB_24b2_f2" label="Inferred"/>
+      <facetEntailment facetID="HB_24b2_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f5" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.24b2.428.1" answerText="Goes back and then forward to throw the ball hard." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_24b2_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_24b2_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_24b2_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.24b2.429.1" answerText="Help you throw it out." accuracy="irrelevant">
+      <facetEntailment facetID="HB_24b2_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f5" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.24b2.437.1" answerText="Swings your arm out." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_24b2_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_24b2_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f5" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.24b2.451.1" answerText="Goes in a circle." accuracy="correct">
+      <facetEntailment facetID="HB_24b2_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_24b2_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_24b2_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_24b2_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f5" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.24b2.455.1" answerText="The socket joint makes sure that you do not break your wrist." accuracy="irrelevant">
+      <facetEntailment facetID="HB_24b2_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f5" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.24b2.457.1" answerText="Your arm goes forward." accuracy="contradictory">
+      <facetEntailment facetID="HB_24b2_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_24b2_f3" label="Contra-Infr"/>
+      <facetEntailment facetID="HB_24b2_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f5" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.24b2.466.1" answerText="The ball and socket joint moves when you throw the ball." accuracy="irrelevant">
+      <facetEntailment facetID="HB_24b2_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_24b2_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f5" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.24b2.467.1" answerText="Your shoulder joint opens and closes." accuracy="irrelevant">
+      <facetEntailment facetID="HB_24b2_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f2" label="Diff-Arg"/>
+      <facetEntailment facetID="HB_24b2_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f5" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.24b2.471.1" answerText="Helps move your arms." accuracy="irrelevant">
+      <facetEntailment facetID="HB_24b2_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f2" label="Inferred"/>
+      <facetEntailment facetID="HB_24b2_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f4" label="Inferred"/>
+      <facetEntailment facetID="HB_24b2_f5" label="Inferred"/>
+      <facetEntailment facetID="HB_24b2_f6" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="HB.24b2.487.1" answerText="Moves forward." accuracy="contradictory">
+      <facetEntailment facetID="HB_24b2_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_24b2_f3" label="Contra-Infr"/>
+      <facetEntailment facetID="HB_24b2_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f5" label="Inferred"/>
+      <facetEntailment facetID="HB_24b2_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.24b2.488.1" answerText="Helps by giving the ball speed." accuracy="irrelevant">
+      <facetEntailment facetID="HB_24b2_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f5" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.24b2.491.1" answerText="Up and down and around." accuracy="correct">
+      <facetEntailment facetID="HB_24b2_f1" label="Inferred"/>
+      <facetEntailment facetID="HB_24b2_f2" label="Inferred"/>
+      <facetEntailment facetID="HB_24b2_f3" label="Inferred"/>
+      <facetEntailment facetID="HB_24b2_f4" label="Expressed"/>
+      <facetEntailment facetID="HB_24b2_f5" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.24b2.498.1" answerText="Moves around in a half circle." accuracy="correct">
+      <facetEntailment facetID="HB_24b2_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_24b2_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_24b2_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f5" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.24b2.499.1" answerText="The ball and socket joint is the hip bone." accuracy="irrelevant">
+      <facetEntailment facetID="HB_24b2_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f5" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.24b2.505.1" answerText="Moves your arm and your hand to throw the ball." accuracy="irrelevant">
+      <facetEntailment facetID="HB_24b2_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_24b2_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f5" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.24b2.524.1" answerText="Bends to but with more of a thrust to put power in your throw." accuracy="irrelevant">
+      <facetEntailment facetID="HB_24b2_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f5" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.24b2.526.1" answerText="It moves up down sideways." accuracy="correct">
+      <facetEntailment facetID="HB_24b2_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_24b2_f3" label="Inferred"/>
+      <facetEntailment facetID="HB_24b2_f4" label="Expressed"/>
+      <facetEntailment facetID="HB_24b2_f5" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f6" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.24b2.528.1" answerText="When you throw the ball the elbow goes back to front." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_24b2_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_24b2_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_24b2_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.24b2.530.1" answerText="Up." accuracy="contradictory">
+      <facetEntailment facetID="HB_24b2_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f2" label="Inferred"/>
+      <facetEntailment facetID="HB_24b2_f3" label="Contra-Infr"/>
+      <facetEntailment facetID="HB_24b2_f4" label="Inferred"/>
+      <facetEntailment facetID="HB_24b2_f5" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.24b2.531.1" answerText="Is for you to move." accuracy="irrelevant">
+      <facetEntailment facetID="HB_24b2_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_24b2_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f5" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.24b2.533.1" answerText="Rotate when you throw a ball." accuracy="correct">
+      <facetEntailment facetID="HB_24b2_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_24b2_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_24b2_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f5" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.24b2.535.1" answerText="Moves when I throw a basketball." accuracy="irrelevant">
+      <facetEntailment facetID="HB_24b2_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_24b2_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f5" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.24b2.536.1" answerText="Move around." accuracy="correct">
+      <facetEntailment facetID="HB_24b2_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f2" label="Inferred"/>
+      <facetEntailment facetID="HB_24b2_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f5" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.24b2.563.1" answerText="Back and forth." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_24b2_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f2" label="Inferred"/>
+      <facetEntailment facetID="HB_24b2_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_24b2_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.24b2.564.1" answerText="It goes round and front." accuracy="correct">
+      <facetEntailment facetID="HB_24b2_f1" label="Inferred"/>
+      <facetEntailment facetID="HB_24b2_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_24b2_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f5" label="Inferred"/>
+      <facetEntailment facetID="HB_24b2_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.24b2.565.1" answerText="Up down." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_24b2_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f2" label="Inferred"/>
+      <facetEntailment facetID="HB_24b2_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f4" label="Expressed"/>
+      <facetEntailment facetID="HB_24b2_f5" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.24b2.568.1" answerText="Up and down." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_24b2_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f4" label="Expressed"/>
+      <facetEntailment facetID="HB_24b2_f5" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.24b2.571.1" answerText="Up and down." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_24b2_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f2" label="Inferred"/>
+      <facetEntailment facetID="HB_24b2_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f4" label="Expressed"/>
+      <facetEntailment facetID="HB_24b2_f5" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.24b2.573.1" answerText="Goes back and then you push forward." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_24b2_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_24b2_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_24b2_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.24b2.575.1" answerText="Brings the arm up." accuracy="contradictory">
+      <facetEntailment facetID="HB_24b2_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_24b2_f3" label="Contra-Infr"/>
+      <facetEntailment facetID="HB_24b2_f4" label="Inferred"/>
+      <facetEntailment facetID="HB_24b2_f5" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.24b2.578.1" answerText="Side to side and round and round." accuracy="correct">
+      <facetEntailment facetID="HB_24b2_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_24b2_f2" label="Inferred"/>
+      <facetEntailment facetID="HB_24b2_f3" label="Inferred"/>
+      <facetEntailment facetID="HB_24b2_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f5" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f6" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.24b2.579.1" answerText="Back and forth." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_24b2_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f2" label="Inferred"/>
+      <facetEntailment facetID="HB_24b2_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_24b2_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.24b2.580.1" answerText="Going in circles." accuracy="correct">
+      <facetEntailment facetID="HB_24b2_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_24b2_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_24b2_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_24b2_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f5" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.24b2.593.1" answerText="It goes in a rotational circle." accuracy="correct">
+      <facetEntailment facetID="HB_24b2_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_24b2_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_24b2_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_24b2_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f5" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.24b2.594.1" answerText="They move front, and back, and up, and down." accuracy="correct">
+      <facetEntailment facetID="HB_24b2_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_24b2_f3" label="Inferred"/>
+      <facetEntailment facetID="HB_24b2_f4" label="Expressed"/>
+      <facetEntailment facetID="HB_24b2_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_24b2_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.24b2.595.1" answerText="Swings the back part of the arm." accuracy="irrelevant">
+      <facetEntailment facetID="HB_24b2_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f2" label="Inferred"/>
+      <facetEntailment facetID="HB_24b2_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f5" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.24b2.596.1" answerText="Because you move your arm in a circle." accuracy="correct">
+      <facetEntailment facetID="HB_24b2_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_24b2_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_24b2_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_24b2_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f5" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.24b2.602.1" answerText="Moves in a circle." accuracy="correct">
+      <facetEntailment facetID="HB_24b2_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_24b2_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_24b2_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_24b2_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f5" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.24b2.604.1" answerText="Allows your arm in a circular motion." accuracy="correct">
+      <facetEntailment facetID="HB_24b2_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_24b2_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_24b2_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_24b2_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f5" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.24b2.611.1" answerText="It moves forward." accuracy="contradictory">
+      <facetEntailment facetID="HB_24b2_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_24b2_f3" label="Contra-Infr"/>
+      <facetEntailment facetID="HB_24b2_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f5" label="Inferred"/>
+      <facetEntailment facetID="HB_24b2_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.24b2.612.1" answerText="Moves back then it come forward when you throw." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_24b2_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_24b2_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_24b2_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.24b2.626.1" answerText="First it goes all around, pretend there is only 3 stations so you move from one station to the other station." accuracy="correct">
+      <facetEntailment facetID="HB_24b2_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_24b2_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_24b2_f3" label="Inferred"/>
+      <facetEntailment facetID="HB_24b2_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f5" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.24b2.632.1" answerText="Arm moves in one way." accuracy="contradictory">
+      <facetEntailment facetID="HB_24b2_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_24b2_f3" label="Contra-Expr"/>
+      <facetEntailment facetID="HB_24b2_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f5" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.24b2.634.1" answerText="The socket joint just move twice." accuracy="irrelevant">
+      <facetEntailment facetID="HB_24b2_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f5" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.24b2.636.1" answerText="Makes the ball go in any direction." accuracy="irrelevant">
+      <facetEntailment facetID="HB_24b2_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_24b2_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_24b2_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f5" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.24b2.638.1" answerText="Moves because just bending your wrist and your arm Also when you throw the ball your arm goes in and out." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_24b2_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_24b2_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f5" label="Inferred"/>
+      <facetEntailment facetID="HB_24b2_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.24b2.642.1" answerText="Can move only 3 ways." accuracy="contradictory">
+      <facetEntailment facetID="HB_24b2_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_24b2_f3" label="Contra-Expr"/>
+      <facetEntailment facetID="HB_24b2_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f5" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.24b2.644.1" answerText="Goes halfway then it stops but it can go the whole way." accuracy="irrelevant">
+      <facetEntailment facetID="HB_24b2_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f2" label="Inferred"/>
+      <facetEntailment facetID="HB_24b2_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f5" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.24b2.651.1" answerText="Your shoulder move in 3 different ways." accuracy="contradictory">
+      <facetEntailment facetID="HB_24b2_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_24b2_f3" label="Inferred"/>
+      <facetEntailment facetID="HB_24b2_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f5" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.24b2.981.1" answerText="Moves up and down." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_24b2_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_24b2_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f4" label="Expressed"/>
+      <facetEntailment facetID="HB_24b2_f5" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.24b2.987.1" answerText="Around, side to side, up, down." accuracy="correct">
+      <facetEntailment facetID="HB_24b2_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f2" label="Inferred"/>
+      <facetEntailment facetID="HB_24b2_f3" label="Inferred"/>
+      <facetEntailment facetID="HB_24b2_f4" label="Expressed"/>
+      <facetEntailment facetID="HB_24b2_f5" label="Inferred"/>
+      <facetEntailment facetID="HB_24b2_f6" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.24b2.988.1" answerText="Goes up and down." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_24b2_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_24b2_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f4" label="Expressed"/>
+      <facetEntailment facetID="HB_24b2_f5" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.24b2.989.1" answerText="You kick the ball and throw the arm." accuracy="irrelevant">
+      <facetEntailment facetID="HB_24b2_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f2" label="Inferred"/>
+      <facetEntailment facetID="HB_24b2_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f5" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.24b2.993.1" answerText="It moves front to back." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_24b2_f1" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_24b2_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f4" label="Unaddressed"/>
+      <facetEntailment facetID="HB_24b2_f5" label="Inferred"/>
+      <facetEntailment facetID="HB_24b2_f6" label="Inferred"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

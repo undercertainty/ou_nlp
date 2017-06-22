@@ -1,0 +1,121 @@
+<?xml version="1.0"?>
+<question testSet="unseen-answers" id="ME_5b" module="ME">
+  <questionText>Anne is investigating which objects stick to magnets. She recorded this in her notebook. I was surprised! A nail was stuck to the magnet. When I accidentally touched the nail to a paperclip, the paperclip stuck to the nail. If Anne touched the nail to a brass ring, what do you think would happen and why?</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="ME_5b-a1" text="The brass ring would not stick to the nail because the ring is not iron. The nail is a temporary magnet, but brass cannot become a temporary magnet and thus does not stick to magnets.">
+      <tokens>
+        <token id="ME_5b_ra1">The</token>
+        <token id="ME_5b_ra2">brass</token>
+        <token id="ME_5b_ra3">ring</token>
+        <token id="ME_5b_ra4">would</token>
+        <token id="ME_5b_ra5">not</token>
+        <token id="ME_5b_ra6">stick</token>
+        <token id="ME_5b_ra7">to</token>
+        <token id="ME_5b_ra8">the</token>
+        <token id="ME_5b_ra9">nail</token>
+        <token id="ME_5b_ra10">because</token>
+        <token id="ME_5b_ra11">the</token>
+        <token id="ME_5b_ra12">ring</token>
+        <token id="ME_5b_ra13">is</token>
+        <token id="ME_5b_ra14">not</token>
+        <token id="ME_5b_ra15">iron</token>
+        <token id="ME_5b_ra16">.</token>
+        <token id="ME_5b_ra17">The</token>
+        <token id="ME_5b_ra18">nail</token>
+        <token id="ME_5b_ra19">is</token>
+        <token id="ME_5b_ra20">a</token>
+        <token id="ME_5b_ra21">temporary</token>
+        <token id="ME_5b_ra22">magnet</token>
+        <token id="ME_5b_ra23">,</token>
+        <token id="ME_5b_ra24">but</token>
+        <token id="ME_5b_ra25">brass</token>
+        <token id="ME_5b_ra26">can</token>
+        <token id="ME_5b_ra27">not</token>
+        <token id="ME_5b_ra28">become</token>
+        <token id="ME_5b_ra29">a</token>
+        <token id="ME_5b_ra30">temporary</token>
+        <token id="ME_5b_ra31">magnet</token>
+        <token id="ME_5b_ra32">and</token>
+        <token id="ME_5b_ra33">thus</token>
+        <token id="ME_5b_ra34">does</token>
+        <token id="ME_5b_ra35">not</token>
+        <token id="ME_5b_ra36">stick</token>
+        <token id="ME_5b_ra37">to</token>
+        <token id="ME_5b_ra38">magnets</token>
+        <token id="ME_5b_ra39">.</token>
+      </tokens>
+      <facets>
+        <facet id="ME_5b_f1" govNum="ME_5b_ra3" modNum="ME_5b_ra2" reltn="NMod" govText="ring" isAssumed="true" modText="brass"/>
+        <facet id="ME_5b_f2" govNum="ME_5b_ra6" modNum="ME_5b_ra3" reltn="Theme_neg_not" govText="stick" modText="ring"/>
+        <facet id="ME_5b_f3" govNum="ME_5b_ra6" modNum="ME_5b_ra9" reltn="Destination_to_neg_not" govText="stick" modText="nail"/>
+        <facet id="ME_5b_f4" govNum="ME_5b_ra12" modNum="ME_5b_ra15" reltn="Be_neg_not" govText="ring" modText="iron"/>
+        <facet id="ME_5b_f5" govNum="ME_5b_ra6" modNum="ME_5b_ra13" reltn="Cause_because" childProp1Facet1="ME_5b_f2" govText="stick" childProp1Facet2="ME_5b_f3" modText="is" childProp2Facet1="ME_5b_f4"/>
+        <facet id="ME_5b_f6" govNum="ME_5b_ra18" modNum="ME_5b_ra22" reltn="Be" govText="nail" modText="magnet"/>
+        <facet id="ME_5b_f7" govNum="ME_5b_ra22" modNum="ME_5b_ra21" reltn="NMod" govText="magnet" modText="temporary"/>
+        <facet id="ME_5b_f8" govNum="ME_5b_ra25" modNum="ME_5b_ra31" reltn="Become_neg_cannot" govText="brass" modText="magnet"/>
+        <facet id="ME_5b_f9" govNum="ME_5b_ra31" modNum="ME_5b_ra30" reltn="NMod" govText="magnet" modText="temporary"/>
+        <facet id="ME_5b_f10" govNum="ME_5b_ra36" modNum="ME_5b_ra25" reltn="Theme_neg_not" govText="stick" modText="brass"/>
+        <facet id="ME_5b_f11" govNum="ME_5b_ra36" modNum="ME_5b_ra38" reltn="Destination_to_neg_not" govText="stick" modText="magnets"/>
+        <facet id="ME_5b_f12" govNum="ME_5b_ra36" modNum="ME_5b_ra28" reltn="Cause_thus" childProp2Facet2="ME_5b_f9" childProp1Facet1="ME_5b_f10" govText="stick" childProp1Facet2="ME_5b_f11" modText="become" childProp2Facet1="ME_5b_f8"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="ME.5b.141.1" answerText="It would not become a temporary magnet because it is not iron or metal it is brass." accuracy="correct">
+      <facetEntailment facetID="ME_5b_f1" label="Assumed"/>
+      <facetEntailment facetID="ME_5b_f2" label="Inferred"/>
+      <facetEntailment facetID="ME_5b_f3" label="Inferred"/>
+      <facetEntailment facetID="ME_5b_f4" label="Expressed"/>
+      <facetEntailment facetID="ME_5b_f5" label="Inferred"/>
+      <facetEntailment facetID="ME_5b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f8" label="Expressed"/>
+      <facetEntailment facetID="ME_5b_f9" label="Expressed"/>
+      <facetEntailment facetID="ME_5b_f10" label="Inferred"/>
+      <facetEntailment facetID="ME_5b_f11" label="Inferred"/>
+      <facetEntailment facetID="ME_5b_f12" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.5b.225.1" answerText="If Anne attached the nail to a brass ring nothing would happen because the magnetic force would not be strong enough." accuracy="contradictory">
+      <facetEntailment facetID="ME_5b_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_5b_f2" label="Inferred"/>
+      <facetEntailment facetID="ME_5b_f3" label="Inferred"/>
+      <facetEntailment facetID="ME_5b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f6" label="Inferred"/>
+      <facetEntailment facetID="ME_5b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f8" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f9" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f10" label="Contra-Infr"/>
+      <facetEntailment facetID="ME_5b_f11" label="Contra-Infr"/>
+      <facetEntailment facetID="ME_5b_f12" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.5b.311.1" answerText="I think that the nail will fall. Because the brass ring is too much weight on the nail and magnet." accuracy="contradictory">
+      <facetEntailment facetID="ME_5b_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_5b_f2" label="Inferred"/>
+      <facetEntailment facetID="ME_5b_f3" label="Inferred"/>
+      <facetEntailment facetID="ME_5b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f5" label="Inferred"/>
+      <facetEntailment facetID="ME_5b_f6" label="Inferred"/>
+      <facetEntailment facetID="ME_5b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f8" label="Contra-Infr"/>
+      <facetEntailment facetID="ME_5b_f9" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f10" label="Contra-Infr"/>
+      <facetEntailment facetID="ME_5b_f11" label="Contra-Infr"/>
+      <facetEntailment facetID="ME_5b_f12" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="ME.5b.318.1" answerText="Probably not it depends on how heavy it is and if it is made of iron." accuracy="contradictory">
+      <facetEntailment facetID="ME_5b_f1" label="Assumed"/>
+      <facetEntailment facetID="ME_5b_f2" label="Inferred"/>
+      <facetEntailment facetID="ME_5b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f4" label="Self-Contra"/>
+      <facetEntailment facetID="ME_5b_f5" label="Inferred"/>
+      <facetEntailment facetID="ME_5b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f8" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f9" label="Unaddressed"/>
+      <facetEntailment facetID="ME_5b_f10" label="Inferred"/>
+      <facetEntailment facetID="ME_5b_f11" label="Inferred"/>
+      <facetEntailment facetID="ME_5b_f12" label="Unaddressed"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

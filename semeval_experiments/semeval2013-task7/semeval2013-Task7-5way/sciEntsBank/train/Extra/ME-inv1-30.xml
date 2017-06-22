@@ -1,0 +1,283 @@
+<?xml version="1.0"?>
+<question id="ME_30" module="ME">
+  <questionText>Sometimes a red stoplight changes to green only when a car stops at the light. A type of magnet hidden under the surface of the road triggers the light to turn green. What is it about the car that could trigger a magnet to send a signal to the light?</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="ME_30-a1" text="A car is made of a lot of iron or steel.">
+      <tokens>
+        <token id="ME_30_ra1">A</token>
+        <token id="ME_30_ra2">car</token>
+        <token id="ME_30_ra3">is</token>
+        <token id="ME_30_ra4">made</token>
+        <token id="ME_30_ra5">of</token>
+        <token id="ME_30_ra6">a</token>
+        <token id="ME_30_ra7">lot</token>
+        <token id="ME_30_ra8">of</token>
+        <token id="ME_30_ra9">iron</token>
+        <token id="ME_30_ra10">or</token>
+        <token id="ME_30_ra11">steel</token>
+        <token id="ME_30_ra12">.</token>
+      </tokens>
+      <facets>
+        <facet id="ME_30_f1" govNum="ME_30_ra4" modNum="ME_30_ra2" reltn="Product" govText="made" modText="car"/>
+        <facet id="ME_30_f2" govNum="ME_30_ra4" modNum="ME_30_ra9" reltn="Material_of" govText="made" modText="iron"/>
+        <facet id="ME_30_f3" govNum="ME_30_ra4" modNum="ME_30_ra11" reltn="Material_of" govText="made" modText="steel"/>
+        <facet id="ME_30_f4" govNum="ME_30_ra9" modNum="ME_30_ra7" reltn="Quantifier_of" govText="iron" modText="lot"/>
+        <facet id="ME_30_f5" govNum="ME_30_ra11" modNum="ME_30_ra7" reltn="Quantifier" govText="steel" modText="lot"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="ME.30.101.1" answerText="The car is made of iron or steel." accuracy="correct">
+      <facetEntailment facetID="ME_30_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_30_f2" label="Expressed"/>
+      <facetEntailment facetID="ME_30_f3" label="Expressed"/>
+      <facetEntailment facetID="ME_30_f4" label="Inferred"/>
+      <facetEntailment facetID="ME_30_f5" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="ME.30.105.1" answerText="Cars have iron or steel in them so they might attract to the magnets." accuracy="correct">
+      <facetEntailment facetID="ME_30_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_30_f2" label="Expressed"/>
+      <facetEntailment facetID="ME_30_f3" label="Expressed"/>
+      <facetEntailment facetID="ME_30_f4" label="Inferred"/>
+      <facetEntailment facetID="ME_30_f5" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="ME.30.107.1" answerText="If the car stops and waits a little while then the stoplight changes on the other side so the car can go." accuracy="irrelevant">
+      <facetEntailment facetID="ME_30_f1" label="Unaddressed"/>
+      <facetEntailment facetID="ME_30_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ME_30_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_30_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_30_f5" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.30.108.1" answerText="It is iron or steel." accuracy="correct">
+      <facetEntailment facetID="ME_30_f1" label="Inferred"/>
+      <facetEntailment facetID="ME_30_f2" label="Expressed"/>
+      <facetEntailment facetID="ME_30_f3" label="Inferred"/>
+      <facetEntailment facetID="ME_30_f4" label="Inferred"/>
+      <facetEntailment facetID="ME_30_f5" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="ME.30.111.1" answerText="It stop the magnet." accuracy="irrelevant">
+      <facetEntailment facetID="ME_30_f1" label="Unaddressed"/>
+      <facetEntailment facetID="ME_30_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ME_30_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_30_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_30_f5" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.30.113.1" answerText="It might hit the electricity to make it work." accuracy="irrelevant">
+      <facetEntailment facetID="ME_30_f1" label="Unaddressed"/>
+      <facetEntailment facetID="ME_30_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ME_30_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_30_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_30_f5" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.30.115.1" answerText="The car is made of iron and steel and magnets only stick to iron or steel. So when the car stops it triggers the stoplight." accuracy="correct">
+      <facetEntailment facetID="ME_30_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_30_f2" label="Expressed"/>
+      <facetEntailment facetID="ME_30_f3" label="Expressed"/>
+      <facetEntailment facetID="ME_30_f4" label="Inferred"/>
+      <facetEntailment facetID="ME_30_f5" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="ME.30.118.1" answerText="Cars are made of steel and steel is attracted to magnetism." accuracy="correct">
+      <facetEntailment facetID="ME_30_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_30_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ME_30_f3" label="Expressed"/>
+      <facetEntailment facetID="ME_30_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_30_f5" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="ME.30.119.1" answerText="The car has iron or steel on it so the magnet sends a signal." accuracy="correct">
+      <facetEntailment facetID="ME_30_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_30_f2" label="Expressed"/>
+      <facetEntailment facetID="ME_30_f3" label="Expressed"/>
+      <facetEntailment facetID="ME_30_f4" label="Inferred"/>
+      <facetEntailment facetID="ME_30_f5" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="ME.30.121.1" answerText="It triggers because the car is made of steel." accuracy="correct">
+      <facetEntailment facetID="ME_30_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_30_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ME_30_f3" label="Expressed"/>
+      <facetEntailment facetID="ME_30_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_30_f5" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="ME.30.123.1" answerText="If the car goes over the magnet faster than 5 miles per hour it should turn green." accuracy="irrelevant">
+      <facetEntailment facetID="ME_30_f1" label="Unaddressed"/>
+      <facetEntailment facetID="ME_30_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ME_30_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_30_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_30_f5" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.30.144.1" answerText="The car could be made of iron." accuracy="correct">
+      <facetEntailment facetID="ME_30_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_30_f2" label="Expressed"/>
+      <facetEntailment facetID="ME_30_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_30_f4" label="Inferred"/>
+      <facetEntailment facetID="ME_30_f5" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.30.148.1" answerText="The metal of the tire rim or under the car or the outside of the car except the windows. Only if the metal has iron." accuracy="correct">
+      <facetEntailment facetID="ME_30_f1" label="Inferred"/>
+      <facetEntailment facetID="ME_30_f2" label="Expressed"/>
+      <facetEntailment facetID="ME_30_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_30_f4" label="Inferred"/>
+      <facetEntailment facetID="ME_30_f5" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.30.155.1" answerText="A car can signal the magnet to a light by a car stopping and the other moving." accuracy="irrelevant">
+      <facetEntailment facetID="ME_30_f1" label="Unaddressed"/>
+      <facetEntailment facetID="ME_30_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ME_30_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_30_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_30_f5" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.30.159.1" answerText="So the cars can go." accuracy="irrelevant">
+      <facetEntailment facetID="ME_30_f1" label="Unaddressed"/>
+      <facetEntailment facetID="ME_30_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ME_30_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_30_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_30_f5" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.30.173.1" answerText="It does that because the magnet in the light attracts to the iron on the car." accuracy="correct">
+      <facetEntailment facetID="ME_30_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_30_f2" label="Expressed"/>
+      <facetEntailment facetID="ME_30_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_30_f4" label="Inferred"/>
+      <facetEntailment facetID="ME_30_f5" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.30.180.1" answerText="The car is made out of iron so they can attract." accuracy="correct">
+      <facetEntailment facetID="ME_30_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_30_f2" label="Expressed"/>
+      <facetEntailment facetID="ME_30_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_30_f4" label="Inferred"/>
+      <facetEntailment facetID="ME_30_f5" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.30.181.1" answerText="It might be going too fast." accuracy="irrelevant">
+      <facetEntailment facetID="ME_30_f1" label="Unaddressed"/>
+      <facetEntailment facetID="ME_30_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ME_30_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_30_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_30_f5" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.30.189.1" answerText="The pipes and poles under the car iron." accuracy="correct">
+      <facetEntailment facetID="ME_30_f1" label="Inferred"/>
+      <facetEntailment facetID="ME_30_f2" label="Inferred"/>
+      <facetEntailment facetID="ME_30_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_30_f4" label="Inferred"/>
+      <facetEntailment facetID="ME_30_f5" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.30.191.1" answerText="There could be a magnet under the ground maybe." accuracy="irrelevant">
+      <facetEntailment facetID="ME_30_f1" label="Unaddressed"/>
+      <facetEntailment facetID="ME_30_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ME_30_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_30_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_30_f5" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.30.192.1" answerText="It does that because the magnet in the light attracts to the iron on the car." accuracy="correct">
+      <facetEntailment facetID="ME_30_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_30_f2" label="Expressed"/>
+      <facetEntailment facetID="ME_30_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_30_f4" label="Inferred"/>
+      <facetEntailment facetID="ME_30_f5" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.30.193.1" answerText="What triggers it could be when something that is not magnetic like the North and South thing it does not attract!" accuracy="irrelevant">
+      <facetEntailment facetID="ME_30_f1" label="Unaddressed"/>
+      <facetEntailment facetID="ME_30_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ME_30_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_30_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_30_f5" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.30.195.1" answerText="Like a switch." accuracy="irrelevant">
+      <facetEntailment facetID="ME_30_f1" label="Unaddressed"/>
+      <facetEntailment facetID="ME_30_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ME_30_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_30_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_30_f5" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.30.206.1" answerText="It is filled with magnet and iron and steel." accuracy="correct">
+      <facetEntailment facetID="ME_30_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_30_f2" label="Expressed"/>
+      <facetEntailment facetID="ME_30_f3" label="Expressed"/>
+      <facetEntailment facetID="ME_30_f4" label="Inferred"/>
+      <facetEntailment facetID="ME_30_f5" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="ME.30.207.1" answerText="A box is on the side of the road and it sends a signal to the light." accuracy="irrelevant">
+      <facetEntailment facetID="ME_30_f1" label="Unaddressed"/>
+      <facetEntailment facetID="ME_30_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ME_30_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_30_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_30_f5" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.30.214.1" answerText="It could send a trigger because the car is made of a type of metal and the magnet would attract." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="ME_30_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_30_f2" label="Diff-Arg"/>
+      <facetEntailment facetID="ME_30_f3" label="Diff-Arg"/>
+      <facetEntailment facetID="ME_30_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_30_f5" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.30.215.1" answerText="The metal around a car." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="ME_30_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_30_f2" label="Diff-Arg"/>
+      <facetEntailment facetID="ME_30_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_30_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_30_f5" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.30.217.1" answerText="The car hood can trigger the light to change." accuracy="irrelevant">
+      <facetEntailment facetID="ME_30_f1" label="Unaddressed"/>
+      <facetEntailment facetID="ME_30_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ME_30_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_30_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_30_f5" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.30.220.1" answerText="When a car stops it will go to the next light." accuracy="irrelevant">
+      <facetEntailment facetID="ME_30_f1" label="Unaddressed"/>
+      <facetEntailment facetID="ME_30_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ME_30_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_30_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_30_f5" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.30.224.1" answerText="It could attract both metal and then it could change the light." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="ME_30_f1" label="Inferred"/>
+      <facetEntailment facetID="ME_30_f2" label="Diff-Arg"/>
+      <facetEntailment facetID="ME_30_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_30_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_30_f5" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.30.225.1" answerText="The cars metal parts can attract the magnet which can trigger the light." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="ME_30_f1" label="Inferred"/>
+      <facetEntailment facetID="ME_30_f2" label="Diff-Arg"/>
+      <facetEntailment facetID="ME_30_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_30_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_30_f5" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.30.228.1" answerText="The metal on the car will try to touch together." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="ME_30_f1" label="Inferred"/>
+      <facetEntailment facetID="ME_30_f2" label="Diff-Arg"/>
+      <facetEntailment facetID="ME_30_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_30_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_30_f5" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.30.276.1" answerText="The light can stick to the magnet because it is a magnet." accuracy="irrelevant">
+      <facetEntailment facetID="ME_30_f1" label="Unaddressed"/>
+      <facetEntailment facetID="ME_30_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ME_30_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_30_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_30_f5" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.30.277.1" answerText="By hitting the magnet and sending the force to the light." accuracy="irrelevant">
+      <facetEntailment facetID="ME_30_f1" label="Unaddressed"/>
+      <facetEntailment facetID="ME_30_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ME_30_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_30_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_30_f5" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.30.293.1" answerText="The magnet can send a signal to the light because the magnet is controlling the light." accuracy="irrelevant">
+      <facetEntailment facetID="ME_30_f1" label="Unaddressed"/>
+      <facetEntailment facetID="ME_30_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ME_30_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_30_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_30_f5" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.30.313.1" answerText="It could trigger them by if everyone is gone." accuracy="irrelevant">
+      <facetEntailment facetID="ME_30_f1" label="Unaddressed"/>
+      <facetEntailment facetID="ME_30_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ME_30_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_30_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_30_f5" label="Unaddressed"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

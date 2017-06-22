@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<question testSet="unseen-answers" id="LF_26b2" module="LF">
+  <questionText>Pam and her family were planning a hike. Pam found 2 maps of the same area. Her friend recommended she use the topographic map when they went to the lake. Which letter (Q, R, or S) on the map is on the steepest part of the trail? (Q) How do you know it is the steepest part of the trail?</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="LF_26b2-a1" text="The contour lines are closest together at Q.">
+      <tokens>
+        <token id="LF_26b2_ra1">The</token>
+        <token id="LF_26b2_ra2">contour</token>
+        <token id="LF_26b2_ra3">lines</token>
+        <token id="LF_26b2_ra4">are</token>
+        <token id="LF_26b2_ra5">closest</token>
+        <token id="LF_26b2_ra6">together</token>
+        <token id="LF_26b2_ra7">at</token>
+        <token id="LF_26b2_ra8">Q</token>
+        <token id="LF_26b2_ra9">.</token>
+      </tokens>
+      <facets>
+        <facet id="LF_26b2_f1" govNum="LF_26b2_ra3" modNum="LF_26b2_ra2" reltn="NMod" govText="lines" modText="contour"/>
+        <facet id="LF_26b2_f2" govNum="LF_26b2_ra3" modNum="LF_26b2_ra5" reltn="Be" govText="lines" modText="closest"/>
+        <facet id="LF_26b2_f3" govNum="LF_26b2_ra5" modNum="LF_26b2_ra6" reltn="AMod" govText="closest" modText="together"/>
+        <facet id="LF_26b2_f4" govNum="LF_26b2_ra5" modNum="LF_26b2_ra8" reltn="Location_at" govText="closest" modText="Q"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="LF.26b2.468.1" answerText="I know because the contour lines are smaller." accuracy="correct">
+      <facetEntailment facetID="LF_26b2_f1" label="Expressed"/>
+      <facetEntailment facetID="LF_26b2_f2" label="Inferred"/>
+      <facetEntailment facetID="LF_26b2_f3" label="Inferred"/>
+      <facetEntailment facetID="LF_26b2_f4" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="LF.26b2.661.1" answerText="I Think this because for Q the mountains steepness 5000 and Q is very close." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="LF_26b2_f1" label="Unaddressed"/>
+      <facetEntailment facetID="LF_26b2_f2" label="Unaddressed"/>
+      <facetEntailment facetID="LF_26b2_f3" label="Inferred"/>
+      <facetEntailment facetID="LF_26b2_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="LF.26b2.776.1" answerText="The contour lines are closer together." accuracy="correct">
+      <facetEntailment facetID="LF_26b2_f1" label="Expressed"/>
+      <facetEntailment facetID="LF_26b2_f2" label="Expressed"/>
+      <facetEntailment facetID="LF_26b2_f3" label="Expressed"/>
+      <facetEntailment facetID="LF_26b2_f4" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="LF.26b2.845.1" answerText="I know this by on the Q side the lines are closer together so they are steeper." accuracy="correct">
+      <facetEntailment facetID="LF_26b2_f1" label="Inferred"/>
+      <facetEntailment facetID="LF_26b2_f2" label="Expressed"/>
+      <facetEntailment facetID="LF_26b2_f3" label="Expressed"/>
+      <facetEntailment facetID="LF_26b2_f4" label="Expressed"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

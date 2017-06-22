@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<question testSet="unseen-answers" qtype="Q_EXPLAIN_GENERIC" id="HYBRID_BURNED_OUT_WHY_Q3" module="SwitchesBulbsParallel" stype="EVALUATE">
+  <questionText>Under what circumstances will a damaged/ burned out bulb affect another bulb?</questionText>
+  <referenceAnswers>
+    <referenceAnswer category="BEST" id="answer402" fileID="HYBRID_BURNED_OUT_WHY_Q3_ANS1">If they are in the same path the burned out bulb affects the other bulb.</referenceAnswer>
+    <referenceAnswer category="GOOD" id="answer404" fileID="HYBRID_BURNED_OUT_WHY_Q3_ANS2">It depends on whether or not they are in the same path</referenceAnswer>
+    <referenceAnswer category="MINIMAL" id="answer405" fileID="HYBRID_BURNED_OUT_WHY_Q3_ANS3">The damaged bulb and the other bulb must be contained in the same path</referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer count="1" raw_text="the path is not on the same as the battery" id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q3.sbj15-l2.qa145" accuracy="contradictory">
+      <token status="ok" id="tok3136">the</token>
+      <token status="ok" id="tok3137">path</token>
+      <token status="ok" id="tok3138">is</token>
+      <token status="ok" id="tok3139">not</token>
+      <token status="ok" id="tok3140">on</token>
+      <token status="ok" id="tok3141">the</token>
+      <token status="ok" id="tok3142">same</token>
+      <token status="ok" id="tok3143">as</token>
+      <token status="ok" id="tok3144">the</token>
+      <token status="ok" id="tok3145">battery</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer404" raw_text="if it is in the same closed path with the  battery" id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q3.sbj27-l2.qa128" accuracy="correct">
+      <token status="ok" id="tok2603">if</token>
+      <token status="ok" id="tok2604">it</token>
+      <token status="ok" id="tok2605">is</token>
+      <token status="ok" id="tok2606">in</token>
+      <token status="ok" id="tok2607">the</token>
+      <token status="ok" id="tok2608">same</token>
+      <token status="ok" id="tok2609">closed</token>
+      <token status="ok" id="tok2610">path</token>
+      <token status="ok" id="tok2611">with</token>
+      <token status="ok" id="tok2612">the</token>
+      <token status="ok" id="tok2613">battery</token>
+    </studentAnswer>
+    <studentAnswer count="3" answerMatch="answer404" raw_text="if they are on the same path" id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q3.sbj28-l2.qa120" accuracy="correct">
+      <token status="ok" id="tok2350">if</token>
+      <token status="ok" id="tok2351">they</token>
+      <token status="ok" id="tok2352">are</token>
+      <token status="ok" id="tok2353">on</token>
+      <token status="ok" id="tok2354">the</token>
+      <token status="ok" id="tok2355">same</token>
+      <token status="ok" id="tok2356">path</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="when there is a gap in the circuit" id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q3.sbjb2-l2.qa106" accuracy="irrelevant">
+      <token status="ok" id="tok2216">when</token>
+      <token status="ok" id="tok2217">there</token>
+      <token status="ok" id="tok2218">is</token>
+      <token status="ok" id="tok2219">a</token>
+      <token status="ok" id="tok2220">gap</token>
+      <token status="ok" id="tok2221">in</token>
+      <token status="ok" id="tok2222">the</token>
+      <token status="ok" id="tok2223">circuit</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer402" raw_text="IF IT CREATES A GAP IN THE PATH" id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q3.sbjb24-l2.qa107" accuracy="partially_correct_incomplete">
+      <token status="ok" id="tok2172">IF</token>
+      <token status="ok" id="tok2173">IT</token>
+      <token status="ok" id="tok2174">CREATES</token>
+      <token status="ok" id="tok2175">A</token>
+      <token status="ok" id="tok2176">GAP</token>
+      <token status="ok" id="tok2177">IN</token>
+      <token status="ok" id="tok2178">THE</token>
+      <token status="ok" id="tok2179">PATH</token>
+    </studentAnswer>
+  </studentAnswers>
+</question>

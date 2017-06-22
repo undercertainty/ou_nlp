@@ -1,0 +1,518 @@
+<?xml version="1.0"?>
+<question id="LF_26a2" module="LF">
+  <questionText>Pam and her family were planning a hike. Pam found 2 maps of the same area. Her friend recommended she use the topographic map when they went to the lake. Why would Pam's friend recommend using the topographic map for the hike?</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="LF_26a2-a1" text="She recommended the topographic map because the map shows the elevations along the trail. Pam would know where the trail was the steepest.">
+      <tokens>
+        <token id="LF_26a2_ra1">She</token>
+        <token id="LF_26a2_ra2">recommended</token>
+        <token id="LF_26a2_ra3">the</token>
+        <token id="LF_26a2_ra4">topographic</token>
+        <token id="LF_26a2_ra5">map</token>
+        <token id="LF_26a2_ra6">because</token>
+        <token id="LF_26a2_ra7">the</token>
+        <token id="LF_26a2_ra8">map</token>
+        <token id="LF_26a2_ra9">shows</token>
+        <token id="LF_26a2_ra10">the</token>
+        <token id="LF_26a2_ra11">elevations</token>
+        <token id="LF_26a2_ra12">along</token>
+        <token id="LF_26a2_ra13">the</token>
+        <token id="LF_26a2_ra14">trail</token>
+        <token id="LF_26a2_ra15">.</token>
+        <token id="LF_26a2_ra16">Pam</token>
+        <token id="LF_26a2_ra17">would</token>
+        <token id="LF_26a2_ra18">know</token>
+        <token id="LF_26a2_ra19">where</token>
+        <token id="LF_26a2_ra20">the</token>
+        <token id="LF_26a2_ra21">trail</token>
+        <token id="LF_26a2_ra22">was</token>
+        <token id="LF_26a2_ra23">the</token>
+        <token id="LF_26a2_ra24">steepest</token>
+        <token id="LF_26a2_ra25">.</token>
+      </tokens>
+      <facets>
+        <facet id="LF_26a2_f1" govNum="LF_26a2_ra2" modNum="LF_26a2_ra1" reltn="Agent" govText="recommended" isAssumed="true" modText="She"/>
+        <facet id="LF_26a2_f2" govNum="LF_26a2_ra2" modNum="LF_26a2_ra5" reltn="Theme" govText="recommended" isAssumed="true" modText="map"/>
+        <facet id="LF_26a2_f3" govNum="LF_26a2_ra5" modNum="LF_26a2_ra4" reltn="NMod" govText="map" isAssumed="true" modText="topographic"/>
+        <facet id="LF_26a2_f4" govNum="LF_26a2_ra9" modNum="LF_26a2_ra8" reltn="Means" govText="shows" modText="map"/>
+        <facet id="LF_26a2_f5" govNum="LF_26a2_ra9" modNum="LF_26a2_ra11" reltn="Topic" govText="shows" modText="elevations"/>
+        <facet id="LF_26a2_f6" govNum="LF_26a2_ra11" modNum="LF_26a2_ra14" reltn="Location_along" govText="elevations" modText="trail"/>
+        <facet id="LF_26a2_f7" govNum="LF_26a2_ra2" modNum="LF_26a2_ra9" reltn="Cause_because" childProp2Facet2="LF_26a2_f5" childProp1Facet1="LF_26a2_f1" govText="recommended" isAssumed="true" childProp1Facet2="LF_26a2_f2" modText="shows" childProp2Facet1="LF_26a2_f4"/>
+        <facet id="LF_26a2_f8" govNum="LF_26a2_ra18" modNum="LF_26a2_ra16" reltn="Agent" govText="know" modText="Pam"/>
+        <facet id="LF_26a2_f9" govNum="LF_26a2_ra18" modNum="LF_26a2_ra22" reltn="Theme_where" govText="know" modText="was"/>
+        <facet id="LF_26a2_f10" govNum="LF_26a2_ra21" modNum="LF_26a2_ra24" reltn="Be" govText="trail" modText="steepest"/>
+        <facet id="LF_26a2_f11" govNum="LF_26a2_ra18" modNum="LF_26a2_ra9" reltn="Cause" childProp2Facet2="LF_26a2_f5" childProp1Facet1="LF_26a2_f8" govText="know" childProp1Facet2="LF_26a2_f10" modText="shows" childProp2Facet1="LF_26a2_f4"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="LF.26a2.399.1" answerText="It so it better to hike. A has more lines." accuracy="irrelevant">
+      <facetEntailment facetID="LF_26a2_f1" label="Assumed"/>
+      <facetEntailment facetID="LF_26a2_f2" label="Assumed"/>
+      <facetEntailment facetID="LF_26a2_f3" label="Assumed"/>
+      <facetEntailment facetID="LF_26a2_f4" label="Unaddressed"/>
+      <facetEntailment facetID="LF_26a2_f5" label="Unaddressed"/>
+      <facetEntailment facetID="LF_26a2_f6" label="Unaddressed"/>
+      <facetEntailment facetID="LF_26a2_f7" label="Assumed"/>
+      <facetEntailment facetID="LF_26a2_f8" label="Unaddressed"/>
+      <facetEntailment facetID="LF_26a2_f9" label="Unaddressed"/>
+      <facetEntailment facetID="LF_26a2_f10" label="Unaddressed"/>
+      <facetEntailment facetID="LF_26a2_f11" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="LF.26a2.400.1" answerText="It is more descriptive." accuracy="irrelevant">
+      <facetEntailment facetID="LF_26a2_f1" label="Assumed"/>
+      <facetEntailment facetID="LF_26a2_f2" label="Assumed"/>
+      <facetEntailment facetID="LF_26a2_f3" label="Assumed"/>
+      <facetEntailment facetID="LF_26a2_f4" label="Unaddressed"/>
+      <facetEntailment facetID="LF_26a2_f5" label="Unaddressed"/>
+      <facetEntailment facetID="LF_26a2_f6" label="Unaddressed"/>
+      <facetEntailment facetID="LF_26a2_f7" label="Assumed"/>
+      <facetEntailment facetID="LF_26a2_f8" label="Unaddressed"/>
+      <facetEntailment facetID="LF_26a2_f9" label="Unaddressed"/>
+      <facetEntailment facetID="LF_26a2_f10" label="Unaddressed"/>
+      <facetEntailment facetID="LF_26a2_f11" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="LF.26a2.404.1" answerText="So you know what part of the mountain is the easiest part to climb and it has more details." accuracy="irrelevant">
+      <facetEntailment facetID="LF_26a2_f1" label="Assumed"/>
+      <facetEntailment facetID="LF_26a2_f2" label="Assumed"/>
+      <facetEntailment facetID="LF_26a2_f3" label="Assumed"/>
+      <facetEntailment facetID="LF_26a2_f4" label="Unaddressed"/>
+      <facetEntailment facetID="LF_26a2_f5" label="Unaddressed"/>
+      <facetEntailment facetID="LF_26a2_f6" label="Unaddressed"/>
+      <facetEntailment facetID="LF_26a2_f7" label="Assumed"/>
+      <facetEntailment facetID="LF_26a2_f8" label="Unaddressed"/>
+      <facetEntailment facetID="LF_26a2_f9" label="Unaddressed"/>
+      <facetEntailment facetID="LF_26a2_f10" label="Unaddressed"/>
+      <facetEntailment facetID="LF_26a2_f11" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="LF.26a2.407.1" answerText="Because it has more description." accuracy="irrelevant">
+      <facetEntailment facetID="LF_26a2_f1" label="Assumed"/>
+      <facetEntailment facetID="LF_26a2_f2" label="Assumed"/>
+      <facetEntailment facetID="LF_26a2_f3" label="Assumed"/>
+      <facetEntailment facetID="LF_26a2_f4" label="Unaddressed"/>
+      <facetEntailment facetID="LF_26a2_f5" label="Unaddressed"/>
+      <facetEntailment facetID="LF_26a2_f6" label="Unaddressed"/>
+      <facetEntailment facetID="LF_26a2_f7" label="Assumed"/>
+      <facetEntailment facetID="LF_26a2_f8" label="Unaddressed"/>
+      <facetEntailment facetID="LF_26a2_f9" label="Unaddressed"/>
+      <facetEntailment facetID="LF_26a2_f10" label="Unaddressed"/>
+      <facetEntailment facetID="LF_26a2_f11" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="LF.26a2.437.1" answerText="Because it is easier to read! And there is more information on it." accuracy="irrelevant">
+      <facetEntailment facetID="LF_26a2_f1" label="Assumed"/>
+      <facetEntailment facetID="LF_26a2_f2" label="Assumed"/>
+      <facetEntailment facetID="LF_26a2_f3" label="Assumed"/>
+      <facetEntailment facetID="LF_26a2_f4" label="Unaddressed"/>
+      <facetEntailment facetID="LF_26a2_f5" label="Unaddressed"/>
+      <facetEntailment facetID="LF_26a2_f6" label="Unaddressed"/>
+      <facetEntailment facetID="LF_26a2_f7" label="Assumed"/>
+      <facetEntailment facetID="LF_26a2_f8" label="Unaddressed"/>
+      <facetEntailment facetID="LF_26a2_f9" label="Unaddressed"/>
+      <facetEntailment facetID="LF_26a2_f10" label="Unaddressed"/>
+      <facetEntailment facetID="LF_26a2_f11" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="LF.26a2.446.1" answerText="Because it tell where you are going." accuracy="irrelevant">
+      <facetEntailment facetID="LF_26a2_f1" label="Assumed"/>
+      <facetEntailment facetID="LF_26a2_f2" label="Assumed"/>
+      <facetEntailment facetID="LF_26a2_f3" label="Assumed"/>
+      <facetEntailment facetID="LF_26a2_f4" label="Unaddressed"/>
+      <facetEntailment facetID="LF_26a2_f5" label="Unaddressed"/>
+      <facetEntailment facetID="LF_26a2_f6" label="Unaddressed"/>
+      <facetEntailment facetID="LF_26a2_f7" label="Assumed"/>
+      <facetEntailment facetID="LF_26a2_f8" label="Unaddressed"/>
+      <facetEntailment facetID="LF_26a2_f9" label="Unaddressed"/>
+      <facetEntailment facetID="LF_26a2_f10" label="Unaddressed"/>
+      <facetEntailment facetID="LF_26a2_f11" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="LF.26a2.452.1" answerText="Because a topographic map shows you if a place is going to be steep it also shows you what other roads or rivers to take well in other words it gives you more detail." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="LF_26a2_f1" label="Assumed"/>
+      <facetEntailment facetID="LF_26a2_f2" label="Assumed"/>
+      <facetEntailment facetID="LF_26a2_f3" label="Expressed"/>
+      <facetEntailment facetID="LF_26a2_f4" label="Expressed"/>
+      <facetEntailment facetID="LF_26a2_f5" label="Expressed"/>
+      <facetEntailment facetID="LF_26a2_f6" label="Inferred"/>
+      <facetEntailment facetID="LF_26a2_f7" label="Assumed"/>
+      <facetEntailment facetID="LF_26a2_f8" label="Unaddressed"/>
+      <facetEntailment facetID="LF_26a2_f9" label="Unaddressed"/>
+      <facetEntailment facetID="LF_26a2_f10" label="Unaddressed"/>
+      <facetEntailment facetID="LF_26a2_f11" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="LF.26a2.453.1" answerText="To see a bird's eye view which is better view than looking from land." accuracy="irrelevant">
+      <facetEntailment facetID="LF_26a2_f1" label="Assumed"/>
+      <facetEntailment facetID="LF_26a2_f2" label="Assumed"/>
+      <facetEntailment facetID="LF_26a2_f3" label="Assumed"/>
+      <facetEntailment facetID="LF_26a2_f4" label="Unaddressed"/>
+      <facetEntailment facetID="LF_26a2_f5" label="Unaddressed"/>
+      <facetEntailment facetID="LF_26a2_f6" label="Unaddressed"/>
+      <facetEntailment facetID="LF_26a2_f7" label="Assumed"/>
+      <facetEntailment facetID="LF_26a2_f8" label="Unaddressed"/>
+      <facetEntailment facetID="LF_26a2_f9" label="Unaddressed"/>
+      <facetEntailment facetID="LF_26a2_f10" label="Unaddressed"/>
+      <facetEntailment facetID="LF_26a2_f11" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="LF.26a2.462.1" answerText="Because it has more and more direction to go." accuracy="irrelevant">
+      <facetEntailment facetID="LF_26a2_f1" label="Assumed"/>
+      <facetEntailment facetID="LF_26a2_f2" label="Assumed"/>
+      <facetEntailment facetID="LF_26a2_f3" label="Assumed"/>
+      <facetEntailment facetID="LF_26a2_f4" label="Unaddressed"/>
+      <facetEntailment facetID="LF_26a2_f5" label="Unaddressed"/>
+      <facetEntailment facetID="LF_26a2_f6" label="Unaddressed"/>
+      <facetEntailment facetID="LF_26a2_f7" label="Assumed"/>
+      <facetEntailment facetID="LF_26a2_f8" label="Unaddressed"/>
+      <facetEntailment facetID="LF_26a2_f9" label="Unaddressed"/>
+      <facetEntailment facetID="LF_26a2_f10" label="Unaddressed"/>
+      <facetEntailment facetID="LF_26a2_f11" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="LF.26a2.466.1" answerText="Because it need to walk a little be that is why I think she recommend to her." accuracy="irrelevant">
+      <facetEntailment facetID="LF_26a2_f1" label="Assumed"/>
+      <facetEntailment facetID="LF_26a2_f2" label="Assumed"/>
+      <facetEntailment facetID="LF_26a2_f3" label="Assumed"/>
+      <facetEntailment facetID="LF_26a2_f4" label="Unaddressed"/>
+      <facetEntailment facetID="LF_26a2_f5" label="Unaddressed"/>
+      <facetEntailment facetID="LF_26a2_f6" label="Unaddressed"/>
+      <facetEntailment facetID="LF_26a2_f7" label="Assumed"/>
+      <facetEntailment facetID="LF_26a2_f8" label="Unaddressed"/>
+      <facetEntailment facetID="LF_26a2_f9" label="Unaddressed"/>
+      <facetEntailment facetID="LF_26a2_f10" label="Unaddressed"/>
+      <facetEntailment facetID="LF_26a2_f11" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="LF.26a2.472.1" answerText="Because it would tell you where it is more steep and the elevation and the other one will not." accuracy="correct">
+      <facetEntailment facetID="LF_26a2_f1" label="Assumed"/>
+      <facetEntailment facetID="LF_26a2_f2" label="Assumed"/>
+      <facetEntailment facetID="LF_26a2_f3" label="Assumed"/>
+      <facetEntailment facetID="LF_26a2_f4" label="Expressed"/>
+      <facetEntailment facetID="LF_26a2_f5" label="Expressed"/>
+      <facetEntailment facetID="LF_26a2_f6" label="Inferred"/>
+      <facetEntailment facetID="LF_26a2_f7" label="Assumed"/>
+      <facetEntailment facetID="LF_26a2_f8" label="Inferred"/>
+      <facetEntailment facetID="LF_26a2_f9" label="Expressed"/>
+      <facetEntailment facetID="LF_26a2_f10" label="Inferred"/>
+      <facetEntailment facetID="LF_26a2_f11" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="LF.26a2.474.1" answerText="So they can see which is steep or not and safe." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="LF_26a2_f1" label="Assumed"/>
+      <facetEntailment facetID="LF_26a2_f2" label="Assumed"/>
+      <facetEntailment facetID="LF_26a2_f3" label="Assumed"/>
+      <facetEntailment facetID="LF_26a2_f4" label="Unaddressed"/>
+      <facetEntailment facetID="LF_26a2_f5" label="Unaddressed"/>
+      <facetEntailment facetID="LF_26a2_f6" label="Unaddressed"/>
+      <facetEntailment facetID="LF_26a2_f7" label="Assumed"/>
+      <facetEntailment facetID="LF_26a2_f8" label="Inferred"/>
+      <facetEntailment facetID="LF_26a2_f9" label="Inferred"/>
+      <facetEntailment facetID="LF_26a2_f10" label="Inferred"/>
+      <facetEntailment facetID="LF_26a2_f11" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="LF.26a2.478.1" answerText="Because it is a faster distance from the bottom." accuracy="irrelevant">
+      <facetEntailment facetID="LF_26a2_f1" label="Assumed"/>
+      <facetEntailment facetID="LF_26a2_f2" label="Assumed"/>
+      <facetEntailment facetID="LF_26a2_f3" label="Assumed"/>
+      <facetEntailment facetID="LF_26a2_f4" label="Unaddressed"/>
+      <facetEntailment facetID="LF_26a2_f5" label="Unaddressed"/>
+      <facetEntailment facetID="LF_26a2_f6" label="Unaddressed"/>
+      <facetEntailment facetID="LF_26a2_f7" label="Assumed"/>
+      <facetEntailment facetID="LF_26a2_f8" label="Unaddressed"/>
+      <facetEntailment facetID="LF_26a2_f9" label="Unaddressed"/>
+      <facetEntailment facetID="LF_26a2_f10" label="Unaddressed"/>
+      <facetEntailment facetID="LF_26a2_f11" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="LF.26a2.487.1" answerText="Because she walled know now the side where and how steep they are and elevation." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="LF_26a2_f1" label="Assumed"/>
+      <facetEntailment facetID="LF_26a2_f2" label="Assumed"/>
+      <facetEntailment facetID="LF_26a2_f3" label="Assumed"/>
+      <facetEntailment facetID="LF_26a2_f4" label="Unaddressed"/>
+      <facetEntailment facetID="LF_26a2_f5" label="Unaddressed"/>
+      <facetEntailment facetID="LF_26a2_f6" label="Unaddressed"/>
+      <facetEntailment facetID="LF_26a2_f7" label="Assumed"/>
+      <facetEntailment facetID="LF_26a2_f8" label="Expressed"/>
+      <facetEntailment facetID="LF_26a2_f9" label="Expressed"/>
+      <facetEntailment facetID="LF_26a2_f10" label="Expressed"/>
+      <facetEntailment facetID="LF_26a2_f11" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="LF.26a2.516.1" answerText="Because a topographic map shows the steeps places and where is the best or dangerous place to be and the lines tell you where you are going like if you going around in circles." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="LF_26a2_f1" label="Assumed"/>
+      <facetEntailment facetID="LF_26a2_f2" label="Assumed"/>
+      <facetEntailment facetID="LF_26a2_f3" label="Expressed"/>
+      <facetEntailment facetID="LF_26a2_f4" label="Expressed"/>
+      <facetEntailment facetID="LF_26a2_f5" label="Expressed"/>
+      <facetEntailment facetID="LF_26a2_f6" label="Inferred"/>
+      <facetEntailment facetID="LF_26a2_f7" label="Assumed"/>
+      <facetEntailment facetID="LF_26a2_f8" label="Unaddressed"/>
+      <facetEntailment facetID="LF_26a2_f9" label="Inferred"/>
+      <facetEntailment facetID="LF_26a2_f10" label="Inferred"/>
+      <facetEntailment facetID="LF_26a2_f11" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="LF.26a2.521.1" answerText="I would think A because it shows the lakes and rivers and more details of it is location. Plus it shows the symbols of what is there." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="LF_26a2_f1" label="Assumed"/>
+      <facetEntailment facetID="LF_26a2_f2" label="Assumed"/>
+      <facetEntailment facetID="LF_26a2_f3" label="Assumed"/>
+      <facetEntailment facetID="LF_26a2_f4" label="Expressed"/>
+      <facetEntailment facetID="LF_26a2_f5" label="Diff-Arg"/>
+      <facetEntailment facetID="LF_26a2_f6" label="Unaddressed"/>
+      <facetEntailment facetID="LF_26a2_f7" label="Assumed"/>
+      <facetEntailment facetID="LF_26a2_f8" label="Unaddressed"/>
+      <facetEntailment facetID="LF_26a2_f9" label="Unaddressed"/>
+      <facetEntailment facetID="LF_26a2_f10" label="Unaddressed"/>
+      <facetEntailment facetID="LF_26a2_f11" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="LF.26a2.551.1" answerText="So you would see the steep sides like 5000." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="LF_26a2_f1" label="Assumed"/>
+      <facetEntailment facetID="LF_26a2_f2" label="Assumed"/>
+      <facetEntailment facetID="LF_26a2_f3" label="Assumed"/>
+      <facetEntailment facetID="LF_26a2_f4" label="Inferred"/>
+      <facetEntailment facetID="LF_26a2_f5" label="Inferred"/>
+      <facetEntailment facetID="LF_26a2_f6" label="Unaddressed"/>
+      <facetEntailment facetID="LF_26a2_f7" label="Assumed"/>
+      <facetEntailment facetID="LF_26a2_f8" label="Unaddressed"/>
+      <facetEntailment facetID="LF_26a2_f9" label="Unaddressed"/>
+      <facetEntailment facetID="LF_26a2_f10" label="Inferred"/>
+      <facetEntailment facetID="LF_26a2_f11" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="LF.26a2.552.1" answerText="Because it gives better directions and trails." accuracy="irrelevant">
+      <facetEntailment facetID="LF_26a2_f1" label="Assumed"/>
+      <facetEntailment facetID="LF_26a2_f2" label="Assumed"/>
+      <facetEntailment facetID="LF_26a2_f3" label="Assumed"/>
+      <facetEntailment facetID="LF_26a2_f4" label="Unaddressed"/>
+      <facetEntailment facetID="LF_26a2_f5" label="Unaddressed"/>
+      <facetEntailment facetID="LF_26a2_f6" label="Unaddressed"/>
+      <facetEntailment facetID="LF_26a2_f7" label="Assumed"/>
+      <facetEntailment facetID="LF_26a2_f8" label="Unaddressed"/>
+      <facetEntailment facetID="LF_26a2_f9" label="Unaddressed"/>
+      <facetEntailment facetID="LF_26a2_f10" label="Unaddressed"/>
+      <facetEntailment facetID="LF_26a2_f11" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="LF.26a2.561.1" answerText="It has more details and they show other paths beside just her's." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="LF_26a2_f1" label="Assumed"/>
+      <facetEntailment facetID="LF_26a2_f2" label="Assumed"/>
+      <facetEntailment facetID="LF_26a2_f3" label="Assumed"/>
+      <facetEntailment facetID="LF_26a2_f4" label="Expressed"/>
+      <facetEntailment facetID="LF_26a2_f5" label="Diff-Arg"/>
+      <facetEntailment facetID="LF_26a2_f6" label="Unaddressed"/>
+      <facetEntailment facetID="LF_26a2_f7" label="Assumed"/>
+      <facetEntailment facetID="LF_26a2_f8" label="Unaddressed"/>
+      <facetEntailment facetID="LF_26a2_f9" label="Unaddressed"/>
+      <facetEntailment facetID="LF_26a2_f10" label="Unaddressed"/>
+      <facetEntailment facetID="LF_26a2_f11" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="LF.26a2.564.1" answerText="Because both the maps show the shapes of the landforms but a topographic map shows elevation and steepness." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="LF_26a2_f1" label="Assumed"/>
+      <facetEntailment facetID="LF_26a2_f2" label="Assumed"/>
+      <facetEntailment facetID="LF_26a2_f3" label="Expressed"/>
+      <facetEntailment facetID="LF_26a2_f4" label="Expressed"/>
+      <facetEntailment facetID="LF_26a2_f5" label="Expressed"/>
+      <facetEntailment facetID="LF_26a2_f6" label="Unaddressed"/>
+      <facetEntailment facetID="LF_26a2_f7" label="Expressed"/>
+      <facetEntailment facetID="LF_26a2_f8" label="Unaddressed"/>
+      <facetEntailment facetID="LF_26a2_f9" label="Unaddressed"/>
+      <facetEntailment facetID="LF_26a2_f10" label="Unaddressed"/>
+      <facetEntailment facetID="LF_26a2_f11" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="LF.26a2.569.1" answerText="Pam's friend recommend Map A because you could see the elevation, and see where things are." accuracy="correct">
+      <facetEntailment facetID="LF_26a2_f1" label="Expressed"/>
+      <facetEntailment facetID="LF_26a2_f2" label="Expressed"/>
+      <facetEntailment facetID="LF_26a2_f3" label="Assumed"/>
+      <facetEntailment facetID="LF_26a2_f4" label="Expressed"/>
+      <facetEntailment facetID="LF_26a2_f5" label="Expressed"/>
+      <facetEntailment facetID="LF_26a2_f6" label="Inferred"/>
+      <facetEntailment facetID="LF_26a2_f7" label="Assumed"/>
+      <facetEntailment facetID="LF_26a2_f8" label="Inferred"/>
+      <facetEntailment facetID="LF_26a2_f9" label="Inferred"/>
+      <facetEntailment facetID="LF_26a2_f10" label="Inferred"/>
+      <facetEntailment facetID="LF_26a2_f11" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="LF.26a2.573.1" answerText="Pam's friend recommended the topographic map because it shows the elevation of the mountain they are hiking." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="LF_26a2_f1" label="Expressed"/>
+      <facetEntailment facetID="LF_26a2_f2" label="Expressed"/>
+      <facetEntailment facetID="LF_26a2_f3" label="Expressed"/>
+      <facetEntailment facetID="LF_26a2_f4" label="Expressed"/>
+      <facetEntailment facetID="LF_26a2_f5" label="Expressed"/>
+      <facetEntailment facetID="LF_26a2_f6" label="Inferred"/>
+      <facetEntailment facetID="LF_26a2_f7" label="Expressed"/>
+      <facetEntailment facetID="LF_26a2_f8" label="Unaddressed"/>
+      <facetEntailment facetID="LF_26a2_f9" label="Unaddressed"/>
+      <facetEntailment facetID="LF_26a2_f10" label="Unaddressed"/>
+      <facetEntailment facetID="LF_26a2_f11" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="LF.26a2.579.1" answerText="It shows the contour lines so they will know how steep the trail is. Also they will recognize the shape of the land." accuracy="correct">
+      <facetEntailment facetID="LF_26a2_f1" label="Assumed"/>
+      <facetEntailment facetID="LF_26a2_f2" label="Assumed"/>
+      <facetEntailment facetID="LF_26a2_f3" label="Assumed"/>
+      <facetEntailment facetID="LF_26a2_f4" label="Expressed"/>
+      <facetEntailment facetID="LF_26a2_f5" label="Expressed"/>
+      <facetEntailment facetID="LF_26a2_f6" label="Expressed"/>
+      <facetEntailment facetID="LF_26a2_f7" label="Assumed"/>
+      <facetEntailment facetID="LF_26a2_f8" label="Expressed"/>
+      <facetEntailment facetID="LF_26a2_f9" label="Expressed"/>
+      <facetEntailment facetID="LF_26a2_f10" label="Expressed"/>
+      <facetEntailment facetID="LF_26a2_f11" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="LF.26a2.584.1" answerText="Pam's friend recommended to use a topographic map for the hike because in a topographic map you can see the profile of something which profile is a side view." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="LF_26a2_f1" label="Expressed"/>
+      <facetEntailment facetID="LF_26a2_f2" label="Expressed"/>
+      <facetEntailment facetID="LF_26a2_f3" label="Expressed"/>
+      <facetEntailment facetID="LF_26a2_f4" label="Inferred"/>
+      <facetEntailment facetID="LF_26a2_f5" label="Diff-Arg"/>
+      <facetEntailment facetID="LF_26a2_f6" label="Unaddressed"/>
+      <facetEntailment facetID="LF_26a2_f7" label="Expressed"/>
+      <facetEntailment facetID="LF_26a2_f8" label="Unaddressed"/>
+      <facetEntailment facetID="LF_26a2_f9" label="Unaddressed"/>
+      <facetEntailment facetID="LF_26a2_f10" label="Unaddressed"/>
+      <facetEntailment facetID="LF_26a2_f11" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="LF.26a2.585.1" answerText="She would because it has more information." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="LF_26a2_f1" label="Assumed"/>
+      <facetEntailment facetID="LF_26a2_f2" label="Assumed"/>
+      <facetEntailment facetID="LF_26a2_f3" label="Assumed"/>
+      <facetEntailment facetID="LF_26a2_f4" label="Unaddressed"/>
+      <facetEntailment facetID="LF_26a2_f5" label="Unaddressed"/>
+      <facetEntailment facetID="LF_26a2_f6" label="Unaddressed"/>
+      <facetEntailment facetID="LF_26a2_f7" label="Assumed"/>
+      <facetEntailment facetID="LF_26a2_f8" label="Expressed"/>
+      <facetEntailment facetID="LF_26a2_f9" label="Unaddressed"/>
+      <facetEntailment facetID="LF_26a2_f10" label="Unaddressed"/>
+      <facetEntailment facetID="LF_26a2_f11" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="LF.26a2.586.1" answerText="They recommended it so they could see the steep parts, they are route, elevation, and shape." accuracy="correct">
+      <facetEntailment facetID="LF_26a2_f1" label="Expressed"/>
+      <facetEntailment facetID="LF_26a2_f2" label="Assumed"/>
+      <facetEntailment facetID="LF_26a2_f3" label="Assumed"/>
+      <facetEntailment facetID="LF_26a2_f4" label="Inferred"/>
+      <facetEntailment facetID="LF_26a2_f5" label="Inferred"/>
+      <facetEntailment facetID="LF_26a2_f6" label="Inferred"/>
+      <facetEntailment facetID="LF_26a2_f7" label="Assumed"/>
+      <facetEntailment facetID="LF_26a2_f8" label="Inferred"/>
+      <facetEntailment facetID="LF_26a2_f9" label="Inferred"/>
+      <facetEntailment facetID="LF_26a2_f10" label="Inferred"/>
+      <facetEntailment facetID="LF_26a2_f11" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="LF.26a2.638.1" answerText="Because it shows more directions and ways and it shows more places and more rivers." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="LF_26a2_f1" label="Assumed"/>
+      <facetEntailment facetID="LF_26a2_f2" label="Assumed"/>
+      <facetEntailment facetID="LF_26a2_f3" label="Assumed"/>
+      <facetEntailment facetID="LF_26a2_f4" label="Expressed"/>
+      <facetEntailment facetID="LF_26a2_f5" label="Diff-Arg"/>
+      <facetEntailment facetID="LF_26a2_f6" label="Unaddressed"/>
+      <facetEntailment facetID="LF_26a2_f7" label="Assumed"/>
+      <facetEntailment facetID="LF_26a2_f8" label="Unaddressed"/>
+      <facetEntailment facetID="LF_26a2_f9" label="Unaddressed"/>
+      <facetEntailment facetID="LF_26a2_f10" label="Unaddressed"/>
+      <facetEntailment facetID="LF_26a2_f11" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="LF.26a2.643.1" answerText="Because it is like bird's eye view and so if you look top to bottom you will see almost every detail." accuracy="irrelevant">
+      <facetEntailment facetID="LF_26a2_f1" label="Assumed"/>
+      <facetEntailment facetID="LF_26a2_f2" label="Assumed"/>
+      <facetEntailment facetID="LF_26a2_f3" label="Assumed"/>
+      <facetEntailment facetID="LF_26a2_f4" label="Unaddressed"/>
+      <facetEntailment facetID="LF_26a2_f5" label="Unaddressed"/>
+      <facetEntailment facetID="LF_26a2_f6" label="Unaddressed"/>
+      <facetEntailment facetID="LF_26a2_f7" label="Assumed"/>
+      <facetEntailment facetID="LF_26a2_f8" label="Unaddressed"/>
+      <facetEntailment facetID="LF_26a2_f9" label="Unaddressed"/>
+      <facetEntailment facetID="LF_26a2_f10" label="Unaddressed"/>
+      <facetEntailment facetID="LF_26a2_f11" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="LF.26a2.647.1" answerText="She recommended it because it informs them how many feet it increases. Also it shows you more locations so they know if they cross someplace they have gone too far." accuracy="correct">
+      <facetEntailment facetID="LF_26a2_f1" label="Expressed"/>
+      <facetEntailment facetID="LF_26a2_f2" label="Assumed"/>
+      <facetEntailment facetID="LF_26a2_f3" label="Assumed"/>
+      <facetEntailment facetID="LF_26a2_f4" label="Expressed"/>
+      <facetEntailment facetID="LF_26a2_f5" label="Expressed"/>
+      <facetEntailment facetID="LF_26a2_f6" label="Inferred"/>
+      <facetEntailment facetID="LF_26a2_f7" label="Assumed"/>
+      <facetEntailment facetID="LF_26a2_f8" label="Inferred"/>
+      <facetEntailment facetID="LF_26a2_f9" label="Inferred"/>
+      <facetEntailment facetID="LF_26a2_f10" label="Inferred"/>
+      <facetEntailment facetID="LF_26a2_f11" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="LF.26a2.665.1" answerText="Pam's friend recommended using the topographic map because you can see which side of the mountain is the steepest. That way you know where the non steep side. Also it snows rivers." accuracy="correct">
+      <facetEntailment facetID="LF_26a2_f1" label="Expressed"/>
+      <facetEntailment facetID="LF_26a2_f2" label="Expressed"/>
+      <facetEntailment facetID="LF_26a2_f3" label="Expressed"/>
+      <facetEntailment facetID="LF_26a2_f4" label="Expressed"/>
+      <facetEntailment facetID="LF_26a2_f5" label="Expressed"/>
+      <facetEntailment facetID="LF_26a2_f6" label="Inferred"/>
+      <facetEntailment facetID="LF_26a2_f7" label="Expressed"/>
+      <facetEntailment facetID="LF_26a2_f8" label="Inferred"/>
+      <facetEntailment facetID="LF_26a2_f9" label="Inferred"/>
+      <facetEntailment facetID="LF_26a2_f10" label="Inferred"/>
+      <facetEntailment facetID="LF_26a2_f11" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="LF.26a2.669.1" answerText="Pam's friend recommend using the topographic map because it has more information." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="LF_26a2_f1" label="Expressed"/>
+      <facetEntailment facetID="LF_26a2_f2" label="Expressed"/>
+      <facetEntailment facetID="LF_26a2_f3" label="Expressed"/>
+      <facetEntailment facetID="LF_26a2_f4" label="Inferred"/>
+      <facetEntailment facetID="LF_26a2_f5" label="Unaddressed"/>
+      <facetEntailment facetID="LF_26a2_f6" label="Unaddressed"/>
+      <facetEntailment facetID="LF_26a2_f7" label="Assumed"/>
+      <facetEntailment facetID="LF_26a2_f8" label="Unaddressed"/>
+      <facetEntailment facetID="LF_26a2_f9" label="Unaddressed"/>
+      <facetEntailment facetID="LF_26a2_f10" label="Unaddressed"/>
+      <facetEntailment facetID="LF_26a2_f11" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="LF.26a2.673.1" answerText="Pam's friend recommend the topographic map so she can tell which side is steeper. It also shows the elevations for the height." accuracy="correct">
+      <facetEntailment facetID="LF_26a2_f1" label="Expressed"/>
+      <facetEntailment facetID="LF_26a2_f2" label="Expressed"/>
+      <facetEntailment facetID="LF_26a2_f3" label="Expressed"/>
+      <facetEntailment facetID="LF_26a2_f4" label="Expressed"/>
+      <facetEntailment facetID="LF_26a2_f5" label="Expressed"/>
+      <facetEntailment facetID="LF_26a2_f6" label="Inferred"/>
+      <facetEntailment facetID="LF_26a2_f7" label="Expressed"/>
+      <facetEntailment facetID="LF_26a2_f8" label="Expressed"/>
+      <facetEntailment facetID="LF_26a2_f9" label="Expressed"/>
+      <facetEntailment facetID="LF_26a2_f10" label="Expressed"/>
+      <facetEntailment facetID="LF_26a2_f11" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="LF.26a2.674.1" answerText="Because she will know the elevation and which side is steeper." accuracy="correct">
+      <facetEntailment facetID="LF_26a2_f1" label="Assumed"/>
+      <facetEntailment facetID="LF_26a2_f2" label="Assumed"/>
+      <facetEntailment facetID="LF_26a2_f3" label="Assumed"/>
+      <facetEntailment facetID="LF_26a2_f4" label="Inferred"/>
+      <facetEntailment facetID="LF_26a2_f5" label="Inferred"/>
+      <facetEntailment facetID="LF_26a2_f6" label="Inferred"/>
+      <facetEntailment facetID="LF_26a2_f7" label="Assumed"/>
+      <facetEntailment facetID="LF_26a2_f8" label="Expressed"/>
+      <facetEntailment facetID="LF_26a2_f9" label="Expressed"/>
+      <facetEntailment facetID="LF_26a2_f10" label="Inferred"/>
+      <facetEntailment facetID="LF_26a2_f11" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="LF.26a2.708.1" answerText="Because it shows where rivers and lakes are. And it shows mountains and elevation." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="LF_26a2_f1" label="Assumed"/>
+      <facetEntailment facetID="LF_26a2_f2" label="Assumed"/>
+      <facetEntailment facetID="LF_26a2_f3" label="Assumed"/>
+      <facetEntailment facetID="LF_26a2_f4" label="Expressed"/>
+      <facetEntailment facetID="LF_26a2_f5" label="Expressed"/>
+      <facetEntailment facetID="LF_26a2_f6" label="Unaddressed"/>
+      <facetEntailment facetID="LF_26a2_f7" label="Assumed"/>
+      <facetEntailment facetID="LF_26a2_f8" label="Unaddressed"/>
+      <facetEntailment facetID="LF_26a2_f9" label="Unaddressed"/>
+      <facetEntailment facetID="LF_26a2_f10" label="Unaddressed"/>
+      <facetEntailment facetID="LF_26a2_f11" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="LF.26a2.711.1" answerText="It tells you where things are." accuracy="irrelevant">
+      <facetEntailment facetID="LF_26a2_f1" label="Assumed"/>
+      <facetEntailment facetID="LF_26a2_f2" label="Assumed"/>
+      <facetEntailment facetID="LF_26a2_f3" label="Assumed"/>
+      <facetEntailment facetID="LF_26a2_f4" label="Unaddressed"/>
+      <facetEntailment facetID="LF_26a2_f5" label="Unaddressed"/>
+      <facetEntailment facetID="LF_26a2_f6" label="Unaddressed"/>
+      <facetEntailment facetID="LF_26a2_f7" label="Assumed"/>
+      <facetEntailment facetID="LF_26a2_f8" label="Unaddressed"/>
+      <facetEntailment facetID="LF_26a2_f9" label="Unaddressed"/>
+      <facetEntailment facetID="LF_26a2_f10" label="Unaddressed"/>
+      <facetEntailment facetID="LF_26a2_f11" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="LF.26a2.747.1" answerText="To see the different landforms in front of them." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="LF_26a2_f1" label="Assumed"/>
+      <facetEntailment facetID="LF_26a2_f2" label="Assumed"/>
+      <facetEntailment facetID="LF_26a2_f3" label="Assumed"/>
+      <facetEntailment facetID="LF_26a2_f4" label="Inferred"/>
+      <facetEntailment facetID="LF_26a2_f5" label="Unaddressed"/>
+      <facetEntailment facetID="LF_26a2_f6" label="Unaddressed"/>
+      <facetEntailment facetID="LF_26a2_f7" label="Assumed"/>
+      <facetEntailment facetID="LF_26a2_f8" label="Inferred"/>
+      <facetEntailment facetID="LF_26a2_f9" label="Inferred"/>
+      <facetEntailment facetID="LF_26a2_f10" label="Unaddressed"/>
+      <facetEntailment facetID="LF_26a2_f11" label="Unaddressed"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

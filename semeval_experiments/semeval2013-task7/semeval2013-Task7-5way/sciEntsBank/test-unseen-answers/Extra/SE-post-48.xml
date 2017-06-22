@@ -1,0 +1,150 @@
+<?xml version="1.0"?>
+<question testSet="unseen-answers" id="SE_48" module="SE">
+  <questionText>Maggie wanted to find out if surface area affected temperature change. She had 3 white cake pans. She filled each with 300 milliliters of water. She put one small black plastic disk in pan A, 2 in pan B, and 3 in pan C. Then she put all 3 pans in the sun. When Maggie measured the water temperature in each pan after 15 minutes, which pan do you think held the hottest water? Explain your answer.</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="SE_48-a1" text="C. Black absorbs more heat (energy) than white. Pan C has the most dark surface area so C would heat up the fastest and have the highest temperature.">
+      <tokens>
+        <token id="SE_48_ra1">C</token>
+        <token id="SE_48_ra2">.</token>
+        <token id="SE_48_ra3">Black</token>
+        <token id="SE_48_ra4">absorbs</token>
+        <token id="SE_48_ra5">more</token>
+        <token id="SE_48_ra6">heat</token>
+        <token id="SE_48_ra7">(</token>
+        <token id="SE_48_ra8">energy</token>
+        <token id="SE_48_ra9">)</token>
+        <token id="SE_48_ra10">than</token>
+        <token id="SE_48_ra11">white</token>
+        <token id="SE_48_ra12">.</token>
+        <token id="SE_48_ra13">Pan</token>
+        <token id="SE_48_ra14">C</token>
+        <token id="SE_48_ra15">has</token>
+        <token id="SE_48_ra16">the</token>
+        <token id="SE_48_ra17">most</token>
+        <token id="SE_48_ra18">dark</token>
+        <token id="SE_48_ra19">surface</token>
+        <token id="SE_48_ra20">area</token>
+        <token id="SE_48_ra21">so</token>
+        <token id="SE_48_ra22">C</token>
+        <token id="SE_48_ra23">would</token>
+        <token id="SE_48_ra24">heat</token>
+        <token id="SE_48_ra25">up</token>
+        <token id="SE_48_ra26">the</token>
+        <token id="SE_48_ra27">fastest</token>
+        <token id="SE_48_ra28">and</token>
+        <token id="SE_48_ra29">have</token>
+        <token id="SE_48_ra30">the</token>
+        <token id="SE_48_ra31">highest</token>
+        <token id="SE_48_ra32">temperature</token>
+        <token id="SE_48_ra33">.</token>
+      </tokens>
+      <facets>
+        <facet id="SE_48_f1" govNum="SE_48_ra0" modNum="SE_48_ra1" reltn="Root" govText="root" modText="C"/>
+        <facet id="SE_48_f2" govNum="SE_48_ra4" modNum="SE_48_ra3" reltn="Means" govText="absorbs" isAssumed="true" modText="Black"/>
+        <facet id="SE_48_f3" govNum="SE_48_ra4" modNum="SE_48_ra6" reltn="Theme" govText="absorbs" isAssumed="true" modText="heat"/>
+        <facet id="SE_48_f4" govNum="SE_48_ra6" modNum="SE_48_ra5" reltn="NMod" govText="heat" modText="more"/>
+        <facet id="SE_48_f5" govNum="SE_48_ra4" modNum="SE_48_ra8" reltn="Theme" govText="absorbs" isAssumed="true" modText="energy"/>
+        <facet id="SE_48_f6" govNum="SE_48_ra8" modNum="SE_48_ra5" reltn="NMod" govText="energy" modText="more"/>
+        <facet id="SE_48_f7" govNum="SE_48_ra5" modNum="SE_48_ra11" reltn="AMod_than" govText="more" modText="white"/>
+        <facet id="SE_48_f8" govNum="SE_48_ra14" modNum="SE_48_ra13" reltn="NMod" govText="C" isAssumed="true" modText="Pan"/>
+        <facet id="SE_48_f9" govNum="SE_48_ra14" modNum="SE_48_ra20" reltn="Have" govText="C" isAssumed="true" modText="area"/>
+        <facet id="SE_48_f10" govNum="SE_48_ra20" modNum="SE_48_ra19" reltn="NMod" govText="area" isAssumed="true" modText="surface"/>
+        <facet id="SE_48_f11" govNum="SE_48_ra20" modNum="SE_48_ra18" reltn="NMod" govText="area" isAssumed="true" modText="dark"/>
+        <facet id="SE_48_f12" govNum="SE_48_ra20" modNum="SE_48_ra17" reltn="NMod" govText="area" modText="most"/>
+        <facet id="SE_48_f13" govNum="SE_48_ra24" modNum="SE_48_ra22" reltn="Patient" govText="heat up" isAssumed="true" modText="C"/>
+        <facet id="SE_48_f14" govNum="SE_48_ra24" modNum="SE_48_ra27" reltn="Manner" govText="heat up" modText="fastest"/>
+        <facet id="SE_48_f15" govNum="SE_48_ra22" modNum="SE_48_ra32" reltn="Have" govText="C" isAssumed="true" modText="temperature"/>
+        <facet id="SE_48_f16" govNum="SE_48_ra32" modNum="SE_48_ra31" reltn="NMod" govText="temperature" modText="highest"/>
+        <facet id="SE_48_f17" govNum="SE_48_ra24" modNum="SE_48_ra15" reltn="Cause_so" childProp2Facet2="SE_48_f8" childProp1Facet1="SE_48_f13" govText="heat up" childProp1Facet2="SE_48_f14" modText="has" childProp2Facet1="SE_48_f9"/>
+        <facet id="SE_48_f18" govNum="SE_48_ra29" modNum="SE_48_ra15" reltn="Cause_so" childProp2Facet2="SE_48_f8" childProp1Facet1="SE_48_f15" govText="have" childProp1Facet2="SE_48_f16" modText="has" childProp2Facet1="SE_48_f9"/>
+        <facet id="SE_48_f19" govNum="SE_48_ra29" modNum="SE_48_ra24" reltn="Cause_and" childProp2Facet2="SE_48_f14" childProp1Facet1="SE_48_f15" govText="have" childProp1Facet2="SE_48_f16" modText="heat up" childProp2Facet1="SE_48_f13"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="SE.48.385.1" answerText="C. Because black absorbs heat and C has more black area so I think it is C." accuracy="correct">
+      <facetEntailment facetID="SE_48_f1" label="Expressed"/>
+      <facetEntailment facetID="SE_48_f2" label="Expressed"/>
+      <facetEntailment facetID="SE_48_f3" label="Expressed"/>
+      <facetEntailment facetID="SE_48_f4" label="Inferred"/>
+      <facetEntailment facetID="SE_48_f5" label="Assumed"/>
+      <facetEntailment facetID="SE_48_f6" label="Inferred"/>
+      <facetEntailment facetID="SE_48_f7" label="Inferred"/>
+      <facetEntailment facetID="SE_48_f8" label="Assumed"/>
+      <facetEntailment facetID="SE_48_f9" label="Expressed"/>
+      <facetEntailment facetID="SE_48_f10" label="Assumed"/>
+      <facetEntailment facetID="SE_48_f11" label="Expressed"/>
+      <facetEntailment facetID="SE_48_f12" label="Expressed"/>
+      <facetEntailment facetID="SE_48_f13" label="Assumed"/>
+      <facetEntailment facetID="SE_48_f14" label="Inferred"/>
+      <facetEntailment facetID="SE_48_f15" label="Assumed"/>
+      <facetEntailment facetID="SE_48_f16" label="Inferred"/>
+      <facetEntailment facetID="SE_48_f17" label="Inferred"/>
+      <facetEntailment facetID="SE_48_f18" label="Inferred"/>
+      <facetEntailment facetID="SE_48_f19" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="SE.48.556.1" answerText="C. Because it has the most black disks. Black absorbs heat." accuracy="correct">
+      <facetEntailment facetID="SE_48_f1" label="Expressed"/>
+      <facetEntailment facetID="SE_48_f2" label="Expressed"/>
+      <facetEntailment facetID="SE_48_f3" label="Expressed"/>
+      <facetEntailment facetID="SE_48_f4" label="Unaddressed"/>
+      <facetEntailment facetID="SE_48_f5" label="Expressed"/>
+      <facetEntailment facetID="SE_48_f6" label="Unaddressed"/>
+      <facetEntailment facetID="SE_48_f7" label="Unaddressed"/>
+      <facetEntailment facetID="SE_48_f8" label="Assumed"/>
+      <facetEntailment facetID="SE_48_f9" label="Assumed"/>
+      <facetEntailment facetID="SE_48_f10" label="Assumed"/>
+      <facetEntailment facetID="SE_48_f11" label="Expressed"/>
+      <facetEntailment facetID="SE_48_f12" label="Inferred"/>
+      <facetEntailment facetID="SE_48_f13" label="Assumed"/>
+      <facetEntailment facetID="SE_48_f14" label="Inferred"/>
+      <facetEntailment facetID="SE_48_f15" label="Assumed"/>
+      <facetEntailment facetID="SE_48_f16" label="Inferred"/>
+      <facetEntailment facetID="SE_48_f17" label="Inferred"/>
+      <facetEntailment facetID="SE_48_f18" label="Inferred"/>
+      <facetEntailment facetID="SE_48_f19" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="SE.48.580.1" answerText="C. I picked C because A and B only have one or 2 black plastic disks and that does not take as much heat. Also C has more black so it would be hotter because there is more black." accuracy="correct">
+      <facetEntailment facetID="SE_48_f1" label="Expressed"/>
+      <facetEntailment facetID="SE_48_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_48_f3" label="Assumed"/>
+      <facetEntailment facetID="SE_48_f4" label="Inferred"/>
+      <facetEntailment facetID="SE_48_f5" label="Assumed"/>
+      <facetEntailment facetID="SE_48_f6" label="Inferred"/>
+      <facetEntailment facetID="SE_48_f7" label="Inferred"/>
+      <facetEntailment facetID="SE_48_f8" label="Assumed"/>
+      <facetEntailment facetID="SE_48_f9" label="Assumed"/>
+      <facetEntailment facetID="SE_48_f10" label="Assumed"/>
+      <facetEntailment facetID="SE_48_f11" label="Expressed"/>
+      <facetEntailment facetID="SE_48_f12" label="Expressed"/>
+      <facetEntailment facetID="SE_48_f13" label="Expressed"/>
+      <facetEntailment facetID="SE_48_f14" label="Inferred"/>
+      <facetEntailment facetID="SE_48_f15" label="Assumed"/>
+      <facetEntailment facetID="SE_48_f16" label="Expressed"/>
+      <facetEntailment facetID="SE_48_f17" label="Inferred"/>
+      <facetEntailment facetID="SE_48_f18" label="Inferred"/>
+      <facetEntailment facetID="SE_48_f19" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.48.608.1" answerText="C. Pan C held the hottest water because pan C has a lot of black in it and black absorbs heat. Pan A and B have barely any black. There is more water showing and I know that since water is a heat sink it takes longer to heat up." accuracy="correct">
+      <facetEntailment facetID="SE_48_f1" label="Expressed"/>
+      <facetEntailment facetID="SE_48_f2" label="Expressed"/>
+      <facetEntailment facetID="SE_48_f3" label="Expressed"/>
+      <facetEntailment facetID="SE_48_f4" label="Inferred"/>
+      <facetEntailment facetID="SE_48_f5" label="Assumed"/>
+      <facetEntailment facetID="SE_48_f6" label="Inferred"/>
+      <facetEntailment facetID="SE_48_f7" label="Inferred"/>
+      <facetEntailment facetID="SE_48_f8" label="Expressed"/>
+      <facetEntailment facetID="SE_48_f9" label="Assumed"/>
+      <facetEntailment facetID="SE_48_f10" label="Assumed"/>
+      <facetEntailment facetID="SE_48_f11" label="Assumed"/>
+      <facetEntailment facetID="SE_48_f12" label="Inferred"/>
+      <facetEntailment facetID="SE_48_f13" label="Assumed"/>
+      <facetEntailment facetID="SE_48_f14" label="Inferred"/>
+      <facetEntailment facetID="SE_48_f15" label="Assumed"/>
+      <facetEntailment facetID="SE_48_f16" label="Inferred"/>
+      <facetEntailment facetID="SE_48_f17" label="Inferred"/>
+      <facetEntailment facetID="SE_48_f18" label="Inferred"/>
+      <facetEntailment facetID="SE_48_f19" label="Inferred"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

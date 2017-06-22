@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<question testSet="unseen-answers" qtype="Q_EXPLAIN_SPECIFIC" id="SHORT_CIRCUIT_EXPLAIN_Q_4" module="SwitchesBulbsSeries" stype="QUESTION">
+  <questionText>Explain why circuit 4 is not a short circuit.</questionText>
+  <referenceAnswers>
+    <referenceAnswer category="BEST" id="answer25" fileID="SHORT_CIRCUIT_EXPLAIN_Q_ANS4_A">Circuit 4 has no closed paths</referenceAnswer>
+    <referenceAnswer category="GOOD" id="answer26" fileID="SHORT_CIRCUIT_EXPLAIN_Q_ANS4_B">The battery in 4 is not in a closed path</referenceAnswer>
+    <referenceAnswer category="MINIMAL" id="answer27" fileID="SHORT_CIRCUIT_EXPLAIN_Q_ANS4_C">There is no closed path</referenceAnswer>
+    <referenceAnswer category="MINIMAL" id="answer28" fileID="SHORT_CIRCUIT_EXPLAIN_Q_ANS4_D">the battery is in an open path</referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer count="1" answerMatch="answer28" raw_text="Because the path is open" id="SwitchesBulbsSeries-SHORT_CIRCUIT_EXPLAIN_Q_4.sbj8-l1.qa66" accuracy="correct">
+      <token status="ok" id="tok939">Because</token>
+      <token status="ok" id="tok940">the</token>
+      <token status="ok" id="tok941">path</token>
+      <token status="ok" id="tok942">is</token>
+      <token status="ok" id="tok943">open</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="circuit 4 is a short circuit." id="SwitchesBulbsSeries-SHORT_CIRCUIT_EXPLAIN_Q_4.sbj11-l1.qa72" accuracy="contradictory">
+      <token status="ok" id="tok965">circuit</token>
+      <token status="numerical" id="tok966">4</token>
+      <token status="ok" id="tok967">is</token>
+      <token status="ok" id="tok968">a</token>
+      <token status="ok" id="tok969">short</token>
+      <token status="ok" id="tok970">circuit</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer26" raw_text="battery is not on a closed path" id="SwitchesBulbsSeries-SHORT_CIRCUIT_EXPLAIN_Q_4.sbj31-l1.qa56" accuracy="correct">
+      <token status="ok" id="tok822">battery</token>
+      <token status="ok" id="tok823">is</token>
+      <token status="ok" id="tok824">not</token>
+      <token status="ok" id="tok825">on</token>
+      <token status="ok" id="tok826">a</token>
+      <token status="ok" id="tok827">closed</token>
+      <token status="ok" id="tok828">path</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer27" raw_text="there are no closed paths" id="SwitchesBulbsSeries-SHORT_CIRCUIT_EXPLAIN_Q_4.sbj34-l1.qa45" accuracy="correct">
+      <token status="ok" id="tok622">there</token>
+      <token status="ok" id="tok623">are</token>
+      <token status="ok" id="tok624">no</token>
+      <token status="ok" id="tok625">closed</token>
+      <token status="ok" id="tok626">paths</token>
+    </studentAnswer>
+  </studentAnswers>
+</question>

@@ -1,0 +1,151 @@
+<?xml version="1.0"?>
+<question testSet="unseen-answers" qtype="Q_EXPLAIN_SPECIFIC" id="OPT1_EXPLAIN_Q2" module="SwitchesBulbsParallel" stype="QUESTION">
+  <questionText>Why not?</questionText>
+  <referenceAnswers>
+    <referenceAnswer category="BEST" id="answer333" fileID="OPT1_EXPLAIN_Q2_ANS1">there is still a closed path containing Switch Z, Switch X, Bulbs A and C and the battery</referenceAnswer>
+    <referenceAnswer category="GOOD" id="answer334" fileID="OPT1_EXPLAIN_Q2_ANS1_OLD">there is a path containing A, C, Z and the battery</referenceAnswer>
+    <referenceAnswer category="GOOD" id="answer335" fileID="OPT1_EXPLAIN_Q2_ANS2">there is a path containing A, C, Z and X</referenceAnswer>
+    <referenceAnswer category="MINIMAL" id="answer336" fileID="OPT1_EXPLAIN_Q2_ANS3">There is a path containing A</referenceAnswer>
+    <referenceAnswer category="BEST" id="answer337" fileID="OPT1_EXPLAIN_Q2_ANS4">Bulb A is still in a closed path with the battery</referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer count="1" answerMatch="answer335" raw_text="because bulb a is in the path of switch x" id="SwitchesBulbsParallel-OPT1_EXPLAIN_Q2.sbj8-l2.qa79" accuracy="partially_correct_incomplete">
+      <token status="ok" id="tok1589">because</token>
+      <token status="ok" id="tok1590">bulb</token>
+      <token status="ok" id="tok1591">a</token>
+      <token status="ok" id="tok1592">is</token>
+      <token status="ok" id="tok1593">in</token>
+      <token status="ok" id="tok1594">the</token>
+      <token status="ok" id="tok1595">path</token>
+      <token status="ok" id="tok1596">of</token>
+      <token status="ok" id="tok1597">switch</token>
+      <token status="ok" id="tok1598">x</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer333" raw_text="Because bulb A is in a closed path with the positive battery terminal." id="SwitchesBulbsParallel-OPT1_EXPLAIN_Q2.sbj14-l2.qa78" accuracy="partially_correct_incomplete">
+      <token status="ok" id="tok1492">Because</token>
+      <token status="ok" id="tok1493">bulb</token>
+      <token status="ok" id="tok1494">A</token>
+      <token status="ok" id="tok1495">is</token>
+      <token status="ok" id="tok1496">in</token>
+      <token status="ok" id="tok1497">a</token>
+      <token status="ok" id="tok1498">closed</token>
+      <token status="ok" id="tok1499">path</token>
+      <token status="ok" id="tok1500">with</token>
+      <token status="ok" id="tok1501">the</token>
+      <token status="ok" id="tok1502">positive</token>
+      <token status="ok" id="tok1503">battery</token>
+      <token status="ok" id="tok1504">terminal</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer335" raw_text="Switch Z and X needs to be closed." id="SwitchesBulbsParallel-OPT1_EXPLAIN_Q2.sbj23-l2.qa80" accuracy="contradictory">
+      <token status="ok" id="tok1483">Switch</token>
+      <token status="ok" id="tok1484">Z</token>
+      <token status="ok" id="tok1485">and</token>
+      <token status="ok" id="tok1486">X</token>
+      <token status="ok" id="tok1487">needs</token>
+      <token status="ok" id="tok1488">to</token>
+      <token status="ok" id="tok1489">be</token>
+      <token status="ok" id="tok1490">closed</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer333" raw_text="switch z can close the path for bulb a" id="SwitchesBulbsParallel-OPT1_EXPLAIN_Q2.sbj36-l2.qa75" accuracy="correct">
+      <token status="ok" id="tok1378">switch</token>
+      <token status="ok" id="tok1379">z</token>
+      <token status="ok" id="tok1380">can</token>
+      <token status="ok" id="tok1381">close</token>
+      <token status="ok" id="tok1382">the</token>
+      <token status="ok" id="tok1383">path</token>
+      <token status="ok" id="tok1384">for</token>
+      <token status="ok" id="tok1385">bulb</token>
+      <token status="ok" id="tok1386">a</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer333" raw_text="if switch z is closed there is a battery and bulb a contained in a closed path." id="SwitchesBulbsParallel-OPT1_EXPLAIN_Q2.sbj38-l2.qa74" accuracy="correct">
+      <token status="ok" id="tok1500">if</token>
+      <token status="ok" id="tok1501">switch</token>
+      <token status="ok" id="tok1502">z</token>
+      <token status="ok" id="tok1503">is</token>
+      <token status="ok" id="tok1504">closed</token>
+      <token status="ok" id="tok1505">there</token>
+      <token status="ok" id="tok1506">is</token>
+      <token status="ok" id="tok1507">a</token>
+      <token status="ok" id="tok1508">battery</token>
+      <token status="ok" id="tok1509">and</token>
+      <token status="ok" id="tok1510">bulb</token>
+      <token status="ok" id="tok1511">a</token>
+      <token status="ok" id="tok1512">contained</token>
+      <token status="ok" id="tok1513">in</token>
+      <token status="ok" id="tok1514">a</token>
+      <token status="ok" id="tok1515">closed</token>
+      <token status="ok" id="tok1516">path</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer333" raw_text="IF Switch Z is closed then it makes a closed path with the battery" id="SwitchesBulbsParallel-OPT1_EXPLAIN_Q2.sbj39-l2.qa89" accuracy="correct">
+      <token status="ok" id="tok1690" original="IF">If</token>
+      <token status="ok" id="tok1691">Switch</token>
+      <token status="ok" id="tok1692">Z</token>
+      <token status="ok" id="tok1693">is</token>
+      <token status="ok" id="tok1694">closed</token>
+      <token status="ok" id="tok1695">then</token>
+      <token status="ok" id="tok1696">it</token>
+      <token status="ok" id="tok1697">makes</token>
+      <token status="ok" id="tok1698">a</token>
+      <token status="ok" id="tok1699">closed</token>
+      <token status="ok" id="tok1700">path</token>
+      <token status="ok" id="tok1701">with</token>
+      <token status="ok" id="tok1702">the</token>
+      <token status="ok" id="tok1703">battery</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer336" raw_text="different paths" id="SwitchesBulbsParallel-OPT1_EXPLAIN_Q2.sbj39-l2.qa90" accuracy="partially_correct_incomplete">
+      <token status="ok" id="tok1716">different</token>
+      <token status="ok" id="tok1717">paths</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer337" raw_text="bulb a is in a closed path without switch y." id="SwitchesBulbsParallel-OPT1_EXPLAIN_Q2.sbj40-l2.qa85" accuracy="correct">
+      <token status="ok" id="tok1688">bulb</token>
+      <token status="ok" id="tok1689">a</token>
+      <token status="ok" id="tok1690">is</token>
+      <token status="ok" id="tok1691">in</token>
+      <token status="ok" id="tok1692">a</token>
+      <token status="ok" id="tok1693">closed</token>
+      <token status="ok" id="tok1694">path</token>
+      <token status="ok" id="tok1695">without</token>
+      <token status="ok" id="tok1696">switch</token>
+      <token status="ok" id="tok1697">y</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer337" raw_text="because bulb a can still be contained in a closed path with the battery even if switch Y is open" id="SwitchesBulbsParallel-OPT1_EXPLAIN_Q2.sbj48-l2.qa77" accuracy="correct">
+      <token status="ok" id="tok1484">because</token>
+      <token status="ok" id="tok1485">bulb</token>
+      <token status="ok" id="tok1486">a</token>
+      <token status="ok" id="tok1487">can</token>
+      <token status="ok" id="tok1488">still</token>
+      <token status="ok" id="tok1489">be</token>
+      <token status="ok" id="tok1490">contained</token>
+      <token status="ok" id="tok1491">in</token>
+      <token status="ok" id="tok1492">a</token>
+      <token status="ok" id="tok1493">closed</token>
+      <token status="ok" id="tok1494">path</token>
+      <token status="ok" id="tok1495">with</token>
+      <token status="ok" id="tok1496">the</token>
+      <token status="ok" id="tok1497">battery</token>
+      <token status="ok" id="tok1498">even</token>
+      <token status="ok" id="tok1499">if</token>
+      <token status="ok" id="tok1500">switch</token>
+      <token status="ok" id="tok1501">Y</token>
+      <token status="ok" id="tok1502">is</token>
+      <token status="ok" id="tok1503">open</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer335" raw_text="A path can be made by continuing to Bulb C and passing through switch Z" id="SwitchesBulbsParallel-OPT1_EXPLAIN_Q2.sbjb38-l2.qa68" accuracy="partially_correct_incomplete">
+      <token status="ok" id="tok1396">A</token>
+      <token status="ok" id="tok1397">path</token>
+      <token status="ok" id="tok1398">can</token>
+      <token status="ok" id="tok1399">be</token>
+      <token status="ok" id="tok1400">made</token>
+      <token status="ok" id="tok1401">by</token>
+      <token status="ok" id="tok1402">continuing</token>
+      <token status="ok" id="tok1403">to</token>
+      <token status="ok" id="tok1404">Bulb</token>
+      <token status="ok" id="tok1405">C</token>
+      <token status="ok" id="tok1406">and</token>
+      <token status="ok" id="tok1407">passing</token>
+      <token status="ok" id="tok1408">through</token>
+      <token status="ok" id="tok1409">switch</token>
+      <token status="ok" id="tok1410">Z</token>
+    </studentAnswer>
+  </studentAnswers>
+</question>

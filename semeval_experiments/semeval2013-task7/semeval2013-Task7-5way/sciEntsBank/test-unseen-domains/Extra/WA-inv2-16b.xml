@@ -1,0 +1,524 @@
+<?xml version="1.0"?>
+<question testSet="unseen-domains" id="WA_16b" module="WA">
+  <questionText>Why does the level of the water in the straw go up when the bottle-and-straw thermometer is heated?</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="WA_16b-a1" text="Water expands when water is heated.">
+      <tokens>
+        <token id="WA_16b_ra1">Water</token>
+        <token id="WA_16b_ra2">expands</token>
+        <token id="WA_16b_ra3">when</token>
+        <token id="WA_16b_ra4">water</token>
+        <token id="WA_16b_ra5">is</token>
+        <token id="WA_16b_ra6">heated</token>
+        <token id="WA_16b_ra7">.</token>
+      </tokens>
+      <facets>
+        <facet id="WA_16b_f1" govNum="WA_16b_ra2" modNum="WA_16b_ra1" reltn="Patient" govText="expands" modText="Water"/>
+        <facet id="WA_16b_f2" govNum="WA_16b_ra6" modNum="WA_16b_ra4" reltn="Patient" govText="heated" isAssumed="true" modText="water"/>
+        <facet id="WA_16b_f3" govNum="WA_16b_ra2" modNum="WA_16b_ra5" reltn="Cause_when" childProp1Facet1="WA_16b_f1" govText="expands" isAssumed="true" modText="is" childProp2Facet1="WA_16b_f2"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="WA.16b.171.1" answerText="Because the hotness is causing the thermometer temperature go down." accuracy="contradictory">
+      <facetEntailment facetID="WA_16b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_16b_f2" label="Self-Contra"/>
+      <facetEntailment facetID="WA_16b_f3" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.16b.173.1" answerText="This happens because when something is heated and because it has less density the temperature goes up." accuracy="correct">
+      <facetEntailment facetID="WA_16b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_16b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_16b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.16b.174.1" answerText="The water expands when heated so when you heat up the water the water goes up the straw." accuracy="correct">
+      <facetEntailment facetID="WA_16b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_16b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_16b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.16b.175.1" answerText="Because hot water expands and cold water contracts." accuracy="correct">
+      <facetEntailment facetID="WA_16b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_16b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_16b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.16b.176.1" answerText="Because all the molecules do not like hot water so they go somewhere else the only way to go is up." accuracy="irrelevant">
+      <facetEntailment facetID="WA_16b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_16b_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_16b_f3" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.16b.177.1" answerText="It goes up because the heat pushes it up. It cannot go anywhere but up. It is also less dense." accuracy="correct">
+      <facetEntailment facetID="WA_16b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_16b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_16b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.16b.178.1" answerText="Because hot water makes stuff hot. Hot water with warm water makes it and evaporate." accuracy="irrelevant">
+      <facetEntailment facetID="WA_16b_f1" label="Diff-Arg"/>
+      <facetEntailment facetID="WA_16b_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_16b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.16b.180.1" answerText="Because the warm water is less dense so it goes up." accuracy="correct">
+      <facetEntailment facetID="WA_16b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_16b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_16b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.16b.182.1" answerText="This happens because hot water is less dense than regular water so the water volume starts to go up or starts to expand." accuracy="correct">
+      <facetEntailment facetID="WA_16b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_16b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_16b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.16b.187.1" answerText="Because hot water has a lot of density so it goes down." accuracy="contradictory">
+      <facetEntailment facetID="WA_16b_f1" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_16b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_16b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.16b.194.1" answerText="Because when water is heated water has nowhere else to go besides up so the water goes up." accuracy="irrelevant">
+      <facetEntailment facetID="WA_16b_f1" label="Diff-Arg"/>
+      <facetEntailment facetID="WA_16b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_16b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.16b.195.1" answerText="The hot water heats the thermometer." accuracy="irrelevant">
+      <facetEntailment facetID="WA_16b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_16b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_16b_f3" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.16b.198.1" answerText="Because heated water is less dense." accuracy="correct">
+      <facetEntailment facetID="WA_16b_f1" label="Inferred"/>
+      <facetEntailment facetID="WA_16b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_16b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.16b.206.1" answerText="Since the water in the thermometer is heated, it becomes less compact; causing the water level to expand." accuracy="correct">
+      <facetEntailment facetID="WA_16b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_16b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_16b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.16b.209.1" answerText="When water is heated the water level goes up because of the density. Less dense." accuracy="correct">
+      <facetEntailment facetID="WA_16b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_16b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_16b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.16b.210.1" answerText="Because hot water is less dense than room temperature so it will rise." accuracy="correct">
+      <facetEntailment facetID="WA_16b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_16b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_16b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.16b.211.1" answerText="It happens because hot water expands when it is heated." accuracy="correct">
+      <facetEntailment facetID="WA_16b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_16b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_16b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.16b.214.1" answerText="The water goes down, because it does not take up as much space." accuracy="contradictory">
+      <facetEntailment facetID="WA_16b_f1" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_16b_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_16b_f3" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.16b.215.1" answerText="Because if it were a thermometer hot water is hot so it would rise." accuracy="irrelevant">
+      <facetEntailment facetID="WA_16b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_16b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_16b_f3" label="Diff-Arg"/>
+    </studentAnswer>
+    <studentAnswer id="WA.16b.216.1" answerText="The straw was in the water and sucked in some water." accuracy="irrelevant">
+      <facetEntailment facetID="WA_16b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_16b_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_16b_f3" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.16b.217.1" answerText="It happens because it is expanding." accuracy="correct">
+      <facetEntailment facetID="WA_16b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_16b_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_16b_f3" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.16b.218.1" answerText="Because it expands." accuracy="correct">
+      <facetEntailment facetID="WA_16b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_16b_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_16b_f3" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.16b.222.1" answerText="Density." accuracy="irrelevant">
+      <facetEntailment facetID="WA_16b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_16b_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_16b_f3" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.16b.230.1" answerText="It goes up because it is less dense than regular water." accuracy="correct">
+      <facetEntailment facetID="WA_16b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_16b_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_16b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.16b.241.1" answerText="Because the water is less dense so it forces it to expand." accuracy="correct">
+      <facetEntailment facetID="WA_16b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_16b_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_16b_f3" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.16b.243.1" answerText="Well it happens by heating it." accuracy="irrelevant">
+      <facetEntailment facetID="WA_16b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_16b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_16b_f3" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.16b.246.1" answerText="Because the water expands." accuracy="correct">
+      <facetEntailment facetID="WA_16b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_16b_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_16b_f3" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.16b.247.1" answerText="It happens because when water gets hot it expands making the thermometer level to rise." accuracy="correct">
+      <facetEntailment facetID="WA_16b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_16b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_16b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.16b.254.1" answerText="The water goes up because it expands." accuracy="correct">
+      <facetEntailment facetID="WA_16b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_16b_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_16b_f3" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.16b.256.1" answerText="It happens because warm water is less dense than cold so when cold goes up hot water goes down." accuracy="correct">
+      <facetEntailment facetID="WA_16b_f1" label="Inferred"/>
+      <facetEntailment facetID="WA_16b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_16b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.16b.261.1" answerText="The water is heated so the water expands." accuracy="correct">
+      <facetEntailment facetID="WA_16b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_16b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_16b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.16b.263.1" answerText="This happens because the heated water is expanding." accuracy="correct">
+      <facetEntailment facetID="WA_16b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_16b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_16b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.16b.267.1" answerText="When room temperature water is touching hot water it will go up." accuracy="irrelevant">
+      <facetEntailment facetID="WA_16b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_16b_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_16b_f3" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.16b.276.1" answerText="The water expands when heated." accuracy="correct">
+      <facetEntailment facetID="WA_16b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_16b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_16b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.16b.278.1" answerText="The water inside expands when the water on the outside is hot." accuracy="correct">
+      <facetEntailment facetID="WA_16b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_16b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_16b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.16b.279.1" answerText="This happens because water expands when heated." accuracy="correct">
+      <facetEntailment facetID="WA_16b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_16b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_16b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.16b.280.1" answerText="Because when you heat something up it goes higher and higher." accuracy="irrelevant">
+      <facetEntailment facetID="WA_16b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_16b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_16b_f3" label="Diff-Arg"/>
+    </studentAnswer>
+    <studentAnswer id="WA.16b.287.1" answerText="Because when it is in hot water it expands." accuracy="correct">
+      <facetEntailment facetID="WA_16b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_16b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_16b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.16b.288.1" answerText="When water is heated it expands." accuracy="correct">
+      <facetEntailment facetID="WA_16b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_16b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_16b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.16b.300.1" answerText="Because the hotter it is the higher it goes up." accuracy="irrelevant">
+      <facetEntailment facetID="WA_16b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_16b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_16b_f3" label="Diff-Arg"/>
+    </studentAnswer>
+    <studentAnswer id="WA.16b.301.1" answerText="It is like when steam comes out of the dish washer the steam starts going up not down. Because steam is less dense." accuracy="irrelevant">
+      <facetEntailment facetID="WA_16b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_16b_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_16b_f3" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.16b.350.1" answerText="Because there is a lot of hot water." accuracy="irrelevant">
+      <facetEntailment facetID="WA_16b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_16b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_16b_f3" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.16b.351.1" answerText="Because it is warm water." accuracy="irrelevant">
+      <facetEntailment facetID="WA_16b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_16b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_16b_f3" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.16b.352.1" answerText="The water goes up because hot water is less dense." accuracy="correct">
+      <facetEntailment facetID="WA_16b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_16b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_16b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.16b.356.1" answerText="Because when it is heated the hot or cold water goes up." accuracy="irrelevant">
+      <facetEntailment facetID="WA_16b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_16b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_16b_f3" label="Diff-Arg"/>
+    </studentAnswer>
+    <studentAnswer id="WA.16b.359.1" answerText="Because the hot water expands." accuracy="correct">
+      <facetEntailment facetID="WA_16b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_16b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_16b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.16b.360.1" answerText="The water level goes up because the hot water is less dense so it floats to the top." accuracy="correct">
+      <facetEntailment facetID="WA_16b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_16b_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_16b_f3" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.16b.365.1" answerText="Because hot water expands meaning it floats and that it is less dense." accuracy="correct">
+      <facetEntailment facetID="WA_16b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_16b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_16b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.16b.368.1" answerText="Because hot water is less dense and it expands." accuracy="correct">
+      <facetEntailment facetID="WA_16b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_16b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_16b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.16b.417.1" answerText="This happens because when the water is heated it expands or gets bigger." accuracy="correct">
+      <facetEntailment facetID="WA_16b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_16b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_16b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.16b.422.1" answerText="When water is heated it expands." accuracy="correct">
+      <facetEntailment facetID="WA_16b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_16b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_16b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.16b.426.1" answerText="Because the hot water is less dense than room temperature water. The water expands when the thermometer is placed in hot water." accuracy="correct">
+      <facetEntailment facetID="WA_16b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_16b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_16b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.16b.428.1" answerText="Because warmth rises and since it is warm water the warmth is trying to get out." accuracy="correct">
+      <facetEntailment facetID="WA_16b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_16b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_16b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.16b.430.1" answerText="The hot water expands." accuracy="correct">
+      <facetEntailment facetID="WA_16b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_16b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_16b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.16b.432.1" answerText="The water turns warm and it grows because warm water is dense so it has to go to the top." accuracy="contradictory">
+      <facetEntailment facetID="WA_16b_f1" label="Contra-Infr"/>
+      <facetEntailment facetID="WA_16b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_16b_f3" label="Diff-Arg"/>
+    </studentAnswer>
+    <studentAnswer id="WA.16b.433.1" answerText="Because when the water is heated the warmer water is less dense." accuracy="correct">
+      <facetEntailment facetID="WA_16b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_16b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_16b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.16b.436.1" answerText="The water expands when heated which means it takes more room." accuracy="correct">
+      <facetEntailment facetID="WA_16b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_16b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_16b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.16b.437.1" answerText="Water expands when heated." accuracy="correct">
+      <facetEntailment facetID="WA_16b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_16b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_16b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.16b.452.1" answerText="It pushes it up because it expands and pushes it up." accuracy="correct">
+      <facetEntailment facetID="WA_16b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_16b_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_16b_f3" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.16b.453.1" answerText="Because there was hot water in the bottle with green in it and hot water can go up from steam." accuracy="irrelevant">
+      <facetEntailment facetID="WA_16b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_16b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_16b_f3" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.16b.459.1" answerText="It is like a thermometer and since the hot water is denser it makes the cold water up because it has to expand." accuracy="contradictory">
+      <facetEntailment facetID="WA_16b_f1" label="Self-Contra"/>
+      <facetEntailment facetID="WA_16b_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_16b_f3" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.16b.460.1" answerText="Because hot water is less dense so it goes up." accuracy="correct">
+      <facetEntailment facetID="WA_16b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_16b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_16b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.16b.463.1" answerText="The warm water is denser than the regular water and that makes it to go up." accuracy="contradictory">
+      <facetEntailment facetID="WA_16b_f1" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_16b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_16b_f3" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.16b.467.1" answerText="When water is heated it expands." accuracy="correct">
+      <facetEntailment facetID="WA_16b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_16b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_16b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.16b.469.1" answerText="The volume of the hot water pushes the water." accuracy="correct">
+      <facetEntailment facetID="WA_16b_f1" label="Inferred"/>
+      <facetEntailment facetID="WA_16b_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_16b_f3" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.16b.487.1" answerText="Because the molecules are heated and move away from each other." accuracy="correct">
+      <facetEntailment facetID="WA_16b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_16b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_16b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.16b.500.1" answerText="The water becomes less dense so it spreads out." accuracy="correct">
+      <facetEntailment facetID="WA_16b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_16b_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_16b_f3" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.16b.501.1" answerText="When the molecules get hot they want to jump around. So the water goes up." accuracy="correct">
+      <facetEntailment facetID="WA_16b_f1" label="Inferred"/>
+      <facetEntailment facetID="WA_16b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_16b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.16b.503.1" answerText="Because the hotness causes it to go up." accuracy="irrelevant">
+      <facetEntailment facetID="WA_16b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_16b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_16b_f3" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.16b.507.1" answerText="Because with a thermometer when it is hotter the temperature goes higher." accuracy="irrelevant">
+      <facetEntailment facetID="WA_16b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_16b_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_16b_f3" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.16b.509.1" answerText="Because when molecules get warm, they want to spread out so the water rises." accuracy="correct">
+      <facetEntailment facetID="WA_16b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_16b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_16b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.16b.510.1" answerText="Because when water molecules are warm they like to expand." accuracy="correct">
+      <facetEntailment facetID="WA_16b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_16b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_16b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.16b.525.1" answerText="Because when you put hot water into room temperature water it will rise up. Because the water in the bottle is cold and not in the bottle is not cold." accuracy="irrelevant">
+      <facetEntailment facetID="WA_16b_f1" label="Diff-Arg"/>
+      <facetEntailment facetID="WA_16b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_16b_f3" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.16b.526.1" answerText="Because the water in the thermometer is room temperature water and hot water is less dense than room temperature water causing it to float or rise." accuracy="correct">
+      <facetEntailment facetID="WA_16b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_16b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_16b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.16b.529.1" answerText="It happens because warm water is less dense so it will go up." accuracy="correct">
+      <facetEntailment facetID="WA_16b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_16b_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_16b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.16b.530.1" answerText="Because the warm water is less dense so it expands." accuracy="correct">
+      <facetEntailment facetID="WA_16b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_16b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_16b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.16b.559.1" answerText="Because it is making it expand." accuracy="correct">
+      <facetEntailment facetID="WA_16b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_16b_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_16b_f3" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.16b.564.1" answerText="Because when I put it in the water it stays the same." accuracy="contradictory">
+      <facetEntailment facetID="WA_16b_f1" label="Contra-Infr"/>
+      <facetEntailment facetID="WA_16b_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_16b_f3" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.16b.566.1" answerText="The hot water is more dense it is getting more dense." accuracy="contradictory">
+      <facetEntailment facetID="WA_16b_f1" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_16b_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_16b_f3" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.16b.567.1" answerText="Because hot water expands." accuracy="correct">
+      <facetEntailment facetID="WA_16b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_16b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_16b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.16b.569.1" answerText="When the water in the bottle is heated it goes up because it has no other place to go which means it is less dense which is expanding." accuracy="correct">
+      <facetEntailment facetID="WA_16b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_16b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_16b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.16b.591.1" answerText="Because the hot water is less dense." accuracy="correct">
+      <facetEntailment facetID="WA_16b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_16b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_16b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.16b.596.1" answerText="Because warm water is denser than cold water. When a substance is denser it squeezes up in a small space." accuracy="contradictory">
+      <facetEntailment facetID="WA_16b_f1" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_16b_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_16b_f3" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.16b.597.1" answerText="Because the hot water is less dense than room temperature water and when temperatures get warmer they go up." accuracy="correct">
+      <facetEntailment facetID="WA_16b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_16b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_16b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.16b.598.1" answerText="Because it is a thermometer and hot water goes up and cold water goes down." accuracy="irrelevant">
+      <facetEntailment facetID="WA_16b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_16b_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_16b_f3" label="Diff-Arg"/>
+    </studentAnswer>
+    <studentAnswer id="WA.16b.601.1" answerText="Because the is so warm that when you put a straw the water goes up." accuracy="correct">
+      <facetEntailment facetID="WA_16b_f1" label="Inferred"/>
+      <facetEntailment facetID="WA_16b_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_16b_f3" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.16b.604.1" answerText="Because when water is heated it goes up and makes steam." accuracy="irrelevant">
+      <facetEntailment facetID="WA_16b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_16b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_16b_f3" label="Diff-Arg"/>
+    </studentAnswer>
+    <studentAnswer id="WA.16b.607.1" answerText="Hot water is more dense." accuracy="contradictory">
+      <facetEntailment facetID="WA_16b_f1" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_16b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_16b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.16b.608.1" answerText="Because the water is hot very hot not like cold water." accuracy="irrelevant">
+      <facetEntailment facetID="WA_16b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_16b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_16b_f3" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.16b.629.1" answerText="Because the hotness shoots it up." accuracy="correct">
+      <facetEntailment facetID="WA_16b_f1" label="Inferred"/>
+      <facetEntailment facetID="WA_16b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_16b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.16b.630.1" answerText="Because hot gives it nowhere else to go." accuracy="irrelevant">
+      <facetEntailment facetID="WA_16b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_16b_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_16b_f3" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.16b.632.1" answerText="Because the atoms spread and make it higher, so the atoms take up more space." accuracy="correct">
+      <facetEntailment facetID="WA_16b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_16b_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_16b_f3" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.16b.633.1" answerText="It goes up because it is warm." accuracy="irrelevant">
+      <facetEntailment facetID="WA_16b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_16b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_16b_f3" label="Diff-Arg"/>
+    </studentAnswer>
+    <studentAnswer id="WA.16b.636.1" answerText="When water gets heated it expands and gets larger." accuracy="correct">
+      <facetEntailment facetID="WA_16b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_16b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_16b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.16b.637.1" answerText="Because hot water is less dense." accuracy="correct">
+      <facetEntailment facetID="WA_16b_f1" label="Inferred"/>
+      <facetEntailment facetID="WA_16b_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_16b_f3" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.16b.638.1" answerText="Because it has nowhere else to go but up and it expands and takes up more space." accuracy="correct">
+      <facetEntailment facetID="WA_16b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_16b_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_16b_f3" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.16b.640.1" answerText="Because it put pressure and it pushed it up it maybe can be surface tension." accuracy="irrelevant">
+      <facetEntailment facetID="WA_16b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_16b_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_16b_f3" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.16b.641.1" answerText="Because hot water is less dense than cold water so it goes up and surface tension." accuracy="correct">
+      <facetEntailment facetID="WA_16b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_16b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_16b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.16b.642.1" answerText="Because the water expands." accuracy="correct">
+      <facetEntailment facetID="WA_16b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_16b_f2" label="Assumed"/>
+      <facetEntailment facetID="WA_16b_f3" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.16b.643.1" answerText="This happens because hot water expands which goes higher." accuracy="correct">
+      <facetEntailment facetID="WA_16b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_16b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_16b_f3" label="Expressed"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

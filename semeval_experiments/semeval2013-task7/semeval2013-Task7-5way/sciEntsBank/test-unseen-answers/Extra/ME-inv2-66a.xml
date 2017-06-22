@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<question testSet="unseen-answers" id="ME_66a" module="ME">
+  <questionText>Look at the circuit in the picture. The gap between the D-cell and the switch needs to be connected. Can you use a piece of string to make the connection? Why or why not?</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="ME_66a-a1" text="No, string is an insulator, so the pathway would not be completed.">
+      <tokens>
+        <token id="ME_66a_ra1">No</token>
+        <token id="ME_66a_ra2">,</token>
+        <token id="ME_66a_ra3">string</token>
+        <token id="ME_66a_ra4">is</token>
+        <token id="ME_66a_ra5">an</token>
+        <token id="ME_66a_ra6">insulator</token>
+        <token id="ME_66a_ra7">,</token>
+        <token id="ME_66a_ra8">so</token>
+        <token id="ME_66a_ra9">the</token>
+        <token id="ME_66a_ra10">pathway</token>
+        <token id="ME_66a_ra11">would</token>
+        <token id="ME_66a_ra12">not</token>
+        <token id="ME_66a_ra13">be</token>
+        <token id="ME_66a_ra14">completed</token>
+        <token id="ME_66a_ra15">.</token>
+      </tokens>
+      <facets>
+        <facet id="ME_66a_f1" govNum="ME_66a_ra0" modNum="ME_66a_ra1" reltn="Root" govText="root" modText="No"/>
+        <facet id="ME_66a_f2" govNum="ME_66a_ra3" modNum="ME_66a_ra6" reltn="Be" govText="string" modText="insulator"/>
+        <facet id="ME_66a_f3" govNum="ME_66a_ra14" modNum="ME_66a_ra10" reltn="Theme_neg_not" govText="completed" modText="pathway"/>
+        <facet id="ME_66a_f4" govNum="ME_66a_ra13" modNum="ME_66a_ra4" reltn="Cause_so" childProp1Facet1="ME_66a_f3" govText="be" modText="is" childProp2Facet1="ME_66a_f2"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="ME.66a.146.1" answerText="The string does not have iron in it to make it work." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="ME_66a_f1" label="Inferred"/>
+      <facetEntailment facetID="ME_66a_f2" label="Diff-Arg"/>
+      <facetEntailment facetID="ME_66a_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_66a_f4" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.66a.147.1" answerText="Because it is not going in a circle so it will not work." accuracy="contradictory">
+      <facetEntailment facetID="ME_66a_f1" label="Inferred"/>
+      <facetEntailment facetID="ME_66a_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ME_66a_f3" label="Inferred"/>
+      <facetEntailment facetID="ME_66a_f4" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.66a.313.1" answerText="You can use string because it will hook and make it work." accuracy="contradictory">
+      <facetEntailment facetID="ME_66a_f1" label="Contra-Infr"/>
+      <facetEntailment facetID="ME_66a_f2" label="Contra-Infr"/>
+      <facetEntailment facetID="ME_66a_f3" label="Contra-Infr"/>
+      <facetEntailment facetID="ME_66a_f4" label="Contra-Infr"/>
+    </studentAnswer>
+    <studentAnswer id="ME.66a.329.1" answerText="Why it does work, because if the string is together the motor will run." accuracy="contradictory">
+      <facetEntailment facetID="ME_66a_f1" label="Contra-Infr"/>
+      <facetEntailment facetID="ME_66a_f2" label="Contra-Infr"/>
+      <facetEntailment facetID="ME_66a_f3" label="Contra-Infr"/>
+      <facetEntailment facetID="ME_66a_f4" label="Contra-Infr"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

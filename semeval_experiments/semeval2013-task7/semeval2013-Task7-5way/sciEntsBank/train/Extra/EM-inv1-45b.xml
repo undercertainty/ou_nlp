@@ -1,0 +1,206 @@
+<?xml version="1.0"?>
+<question id="EM_45b" module="EM">
+  <questionText>You used several methods to separate and identify the substances in mock rocks. How did you separate the salt from the water?</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="EM_45b-a1" text="The water was evaporated, leaving the salt.">
+      <tokens>
+        <token id="EM_45b_ra1">The</token>
+        <token id="EM_45b_ra2">water</token>
+        <token id="EM_45b_ra3">was</token>
+        <token id="EM_45b_ra4">evaporated</token>
+        <token id="EM_45b_ra5">,</token>
+        <token id="EM_45b_ra6">leaving</token>
+        <token id="EM_45b_ra7">the</token>
+        <token id="EM_45b_ra8">salt</token>
+        <token id="EM_45b_ra9">.</token>
+      </tokens>
+      <facets>
+        <facet id="EM_45b_f1" govNum="EM_45b_ra4" modNum="EM_45b_ra2" reltn="Patient" govText="evaporated" modText="water"/>
+        <facet id="EM_45b_f2" govNum="EM_45b_ra6" modNum="EM_45b_ra4" reltn="Cause_COMMA" childProp1Facet1="EM_45b_f1" govText="leaving" modText="evaporated" childProp2Facet1="EM_45b_f3"/>
+        <facet id="EM_45b_f3" govNum="EM_45b_ra6" modNum="EM_45b_ra8" reltn="Theme" govText="leaving" modText="salt"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="EM.45b.110.1" answerText="By letting it sit in a dish for a day." accuracy="irrelevant">
+      <facetEntailment facetID="EM_45b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="EM_45b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="EM_45b_f3" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.45b.113.1" answerText="Let the water evaporate and the salt is left behind." accuracy="correct">
+      <facetEntailment facetID="EM_45b_f1" label="Expressed"/>
+      <facetEntailment facetID="EM_45b_f2" label="Expressed"/>
+      <facetEntailment facetID="EM_45b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.45b.114.1" answerText="The water evaporated and left salt crystals." accuracy="correct">
+      <facetEntailment facetID="EM_45b_f1" label="Expressed"/>
+      <facetEntailment facetID="EM_45b_f2" label="Expressed"/>
+      <facetEntailment facetID="EM_45b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.45b.261.1" answerText="I saw a pinkish grayish color that was blocking the water." accuracy="irrelevant">
+      <facetEntailment facetID="EM_45b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="EM_45b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="EM_45b_f3" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.45b.383.1" answerText="You have to slowly tip the vial for only the water to go." accuracy="irrelevant">
+      <facetEntailment facetID="EM_45b_f1" label="Diff-Arg"/>
+      <facetEntailment facetID="EM_45b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="EM_45b_f3" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.45b.384.1" answerText="By pouring the water and salt into the thing, and letting the water evaporate." accuracy="correct">
+      <facetEntailment facetID="EM_45b_f1" label="Expressed"/>
+      <facetEntailment facetID="EM_45b_f2" label="Inferred"/>
+      <facetEntailment facetID="EM_45b_f3" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="EM.45b.385.1" answerText="By slowly pouring it in a tray." accuracy="irrelevant">
+      <facetEntailment facetID="EM_45b_f1" label="Diff-Arg"/>
+      <facetEntailment facetID="EM_45b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="EM_45b_f3" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.45b.395.1" answerText="The water evaporated so there was only salt left." accuracy="correct">
+      <facetEntailment facetID="EM_45b_f1" label="Expressed"/>
+      <facetEntailment facetID="EM_45b_f2" label="Expressed"/>
+      <facetEntailment facetID="EM_45b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.45b.402.1" answerText="We put the water with the salt in it and put it outside for the water to evaporate." accuracy="correct">
+      <facetEntailment facetID="EM_45b_f1" label="Expressed"/>
+      <facetEntailment facetID="EM_45b_f2" label="Inferred"/>
+      <facetEntailment facetID="EM_45b_f3" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="EM.45b.416.1" answerText="I separated the salt from the water because the salt are on the rocks that are on the bottom and the water is on the top." accuracy="irrelevant">
+      <facetEntailment facetID="EM_45b_f1" label="Diff-Arg"/>
+      <facetEntailment facetID="EM_45b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="EM_45b_f3" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.45b.418.1" answerText="Because you can see salt in water." accuracy="irrelevant">
+      <facetEntailment facetID="EM_45b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="EM_45b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="EM_45b_f3" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.45b.420.1" answerText="I let the water evaporate." accuracy="correct">
+      <facetEntailment facetID="EM_45b_f1" label="Expressed"/>
+      <facetEntailment facetID="EM_45b_f2" label="Inferred"/>
+      <facetEntailment facetID="EM_45b_f3" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="EM.45b.421.1" answerText="The water dried up and left the salt." accuracy="correct">
+      <facetEntailment facetID="EM_45b_f1" label="Expressed"/>
+      <facetEntailment facetID="EM_45b_f2" label="Expressed"/>
+      <facetEntailment facetID="EM_45b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.45b.431.1" answerText="We let the water evaporate." accuracy="correct">
+      <facetEntailment facetID="EM_45b_f1" label="Expressed"/>
+      <facetEntailment facetID="EM_45b_f2" label="Inferred"/>
+      <facetEntailment facetID="EM_45b_f3" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="EM.45b.435.1" answerText="The water dried up." accuracy="correct">
+      <facetEntailment facetID="EM_45b_f1" label="Expressed"/>
+      <facetEntailment facetID="EM_45b_f2" label="Inferred"/>
+      <facetEntailment facetID="EM_45b_f3" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="EM.45b.438.1" answerText="You just get water and the smashed mock rock and put the smashed rock and water together." accuracy="irrelevant">
+      <facetEntailment facetID="EM_45b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="EM_45b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="EM_45b_f3" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.45b.444.1" answerText="You put the water, a little bit, in a cup and leave it overnight." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EM_45b_f1" label="Inferred"/>
+      <facetEntailment facetID="EM_45b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="EM_45b_f3" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.45b.454.1" answerText="We evaporated the salt from the water because the water evaporated and separated." accuracy="correct">
+      <facetEntailment facetID="EM_45b_f1" label="Expressed"/>
+      <facetEntailment facetID="EM_45b_f2" label="Expressed"/>
+      <facetEntailment facetID="EM_45b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.45b.460.1" answerText="We put the water and salt in the Petri dish. The water evaporated and the salt became crystals." accuracy="correct">
+      <facetEntailment facetID="EM_45b_f1" label="Expressed"/>
+      <facetEntailment facetID="EM_45b_f2" label="Expressed"/>
+      <facetEntailment facetID="EM_45b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.45b.472.1" answerText="We poured the salt into a Petri dish and poured the water out." accuracy="irrelevant">
+      <facetEntailment facetID="EM_45b_f1" label="Diff-Arg"/>
+      <facetEntailment facetID="EM_45b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="EM_45b_f3" label="Diff-Arg"/>
+    </studentAnswer>
+    <studentAnswer id="EM.45b.474.1" answerText="By the Petri dish." accuracy="irrelevant">
+      <facetEntailment facetID="EM_45b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="EM_45b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="EM_45b_f3" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.45b.476.1" answerText="By putting water in a Petri dish and letting the water evaporate." accuracy="correct">
+      <facetEntailment facetID="EM_45b_f1" label="Expressed"/>
+      <facetEntailment facetID="EM_45b_f2" label="Inferred"/>
+      <facetEntailment facetID="EM_45b_f3" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="EM.45b.477.1" answerText="Poured the top of the vial out." accuracy="irrelevant">
+      <facetEntailment facetID="EM_45b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="EM_45b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="EM_45b_f3" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.45b.491.1" answerText="The salt dissolved and the water evaporated and the salt went to the bottom." accuracy="correct">
+      <facetEntailment facetID="EM_45b_f1" label="Expressed"/>
+      <facetEntailment facetID="EM_45b_f2" label="Expressed"/>
+      <facetEntailment facetID="EM_45b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.45b.497.1" answerText="We put it in a evaporation dish and the water evaporated." accuracy="correct">
+      <facetEntailment facetID="EM_45b_f1" label="Expressed"/>
+      <facetEntailment facetID="EM_45b_f2" label="Inferred"/>
+      <facetEntailment facetID="EM_45b_f3" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="EM.45b.502.1" answerText="I put it on the evaporating dish." accuracy="correct">
+      <facetEntailment facetID="EM_45b_f1" label="Inferred"/>
+      <facetEntailment facetID="EM_45b_f2" label="Inferred"/>
+      <facetEntailment facetID="EM_45b_f3" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="EM.45b.531.1" answerText="By pouring the water into the salt." accuracy="irrelevant">
+      <facetEntailment facetID="EM_45b_f1" label="Diff-Arg"/>
+      <facetEntailment facetID="EM_45b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="EM_45b_f3" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.45b.562.1" answerText="We poured the water out of the bottle." accuracy="irrelevant">
+      <facetEntailment facetID="EM_45b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="EM_45b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="EM_45b_f3" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.45b.574.1" answerText="Letting the water evaporate." accuracy="correct">
+      <facetEntailment facetID="EM_45b_f1" label="Expressed"/>
+      <facetEntailment facetID="EM_45b_f2" label="Inferred"/>
+      <facetEntailment facetID="EM_45b_f3" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="EM.45b.576.1" answerText="Put it on a dish and then the water gets in the air and the salt stays." accuracy="correct">
+      <facetEntailment facetID="EM_45b_f1" label="Expressed"/>
+      <facetEntailment facetID="EM_45b_f2" label="Expressed"/>
+      <facetEntailment facetID="EM_45b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.45b.578.1" answerText="I do not know." accuracy="non_domain">
+      <facetEntailment facetID="EM_45b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="EM_45b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="EM_45b_f3" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.45b.591.1" answerText="The salt separated with the water because the salt was heavier but the water was not even heavy." accuracy="irrelevant">
+      <facetEntailment facetID="EM_45b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="EM_45b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="EM_45b_f3" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.45b.599.1" answerText="We put the water in a clear cup and let it sit and the water evaporated and the salt stayed." accuracy="correct">
+      <facetEntailment facetID="EM_45b_f1" label="Expressed"/>
+      <facetEntailment facetID="EM_45b_f2" label="Expressed"/>
+      <facetEntailment facetID="EM_45b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.45b.605.1" answerText="I put some water in a dish and let the water evaporate so the salt would stay." accuracy="correct">
+      <facetEntailment facetID="EM_45b_f1" label="Expressed"/>
+      <facetEntailment facetID="EM_45b_f2" label="Expressed"/>
+      <facetEntailment facetID="EM_45b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.45b.626.1" answerText="Evaporate." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EM_45b_f1" label="Inferred"/>
+      <facetEntailment facetID="EM_45b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="EM_45b_f3" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.45b.645.1" answerText="The crystals were salt." accuracy="irrelevant">
+      <facetEntailment facetID="EM_45b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="EM_45b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="EM_45b_f3" label="Unaddressed"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

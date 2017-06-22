@@ -1,0 +1,379 @@
+<?xml version="1.0"?>
+<question id="MX_53" module="MX">
+  <questionText>Adam's friend gave him a cup filled with a water solution. Adam did not know what solid material was used to make it. He evaporated the solution and found crystals in the dish after all of the water was gone. How will the crystals help him decide what solid material was used to make the solution?</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="MX_53-a1" text="Crystals of different materials have different shapes. So the shape will help identify the material.">
+      <tokens>
+        <token id="MX_53_ra1">Crystals</token>
+        <token id="MX_53_ra2">of</token>
+        <token id="MX_53_ra3">different</token>
+        <token id="MX_53_ra4">materials</token>
+        <token id="MX_53_ra5">have</token>
+        <token id="MX_53_ra6">different</token>
+        <token id="MX_53_ra7">shapes</token>
+        <token id="MX_53_ra8">.</token>
+        <token id="MX_53_ra9">So</token>
+        <token id="MX_53_ra10">the</token>
+        <token id="MX_53_ra11">shape</token>
+        <token id="MX_53_ra12">will</token>
+        <token id="MX_53_ra13">help</token>
+        <token id="MX_53_ra14">identify</token>
+        <token id="MX_53_ra15">the</token>
+        <token id="MX_53_ra16">material</token>
+        <token id="MX_53_ra17">.</token>
+      </tokens>
+      <facets>
+        <facet id="MX_53_f1" govNum="MX_53_ra1" modNum="MX_53_ra4" reltn="NMod_of" govText="Crystals" isAssumed="true" modText="materials"/>
+        <facet id="MX_53_f2" govNum="MX_53_ra4" modNum="MX_53_ra3" reltn="NMod" govText="materials" isAssumed="true" modText="different"/>
+        <facet id="MX_53_f3" govNum="MX_53_ra1" modNum="MX_53_ra7" reltn="Have" govText="Crystals" modText="shapes"/>
+        <facet id="MX_53_f4" govNum="MX_53_ra7" modNum="MX_53_ra6" reltn="NMod" govText="shapes" modText="different"/>
+        <facet id="MX_53_f5" govNum="MX_53_ra14" modNum="MX_53_ra11" reltn="Means" govText="identify" modText="shape"/>
+        <facet id="MX_53_f6" govNum="MX_53_ra14" modNum="MX_53_ra13" reltn="VMod" govText="identify" isAssumed="true" modText="help"/>
+        <facet id="MX_53_f7" govNum="MX_53_ra14" modNum="MX_53_ra16" reltn="Theme" govText="identify" isAssumed="true" modText="material"/>
+        <facet id="MX_53_f8" govNum="MX_53_ra14" modNum="MX_53_ra5" reltn="Cause_so" childProp2Facet2="MX_53_f4" childProp1Facet1="MX_53_f5" govText="identify" isAssumed="true" childProp1Facet2="MX_53_f7" modText="have" childProp2Facet1="MX_53_f3"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="MX.53.106.1" answerText="He could see what solid used and he will find out what it is." accuracy="irrelevant">
+      <facetEntailment facetID="MX_53_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_53_f2" label="Assumed"/>
+      <facetEntailment facetID="MX_53_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_53_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MX_53_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MX_53_f6" label="Assumed"/>
+      <facetEntailment facetID="MX_53_f7" label="Assumed"/>
+      <facetEntailment facetID="MX_53_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.53.113.1" answerText="He should look for the solid material in his house or store." accuracy="irrelevant">
+      <facetEntailment facetID="MX_53_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_53_f2" label="Assumed"/>
+      <facetEntailment facetID="MX_53_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_53_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MX_53_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MX_53_f6" label="Assumed"/>
+      <facetEntailment facetID="MX_53_f7" label="Assumed"/>
+      <facetEntailment facetID="MX_53_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.53.157.1" answerText="You can tell by the way the crystals are shaped." accuracy="correct">
+      <facetEntailment facetID="MX_53_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_53_f2" label="Assumed"/>
+      <facetEntailment facetID="MX_53_f3" label="Expressed"/>
+      <facetEntailment facetID="MX_53_f4" label="Inferred"/>
+      <facetEntailment facetID="MX_53_f5" label="Expressed"/>
+      <facetEntailment facetID="MX_53_f6" label="Assumed"/>
+      <facetEntailment facetID="MX_53_f7" label="Assumed"/>
+      <facetEntailment facetID="MX_53_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.53.181.1" answerText="He can probably look in a book or something to find out. All crystals are different." accuracy="irrelevant">
+      <facetEntailment facetID="MX_53_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_53_f2" label="Assumed"/>
+      <facetEntailment facetID="MX_53_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_53_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MX_53_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MX_53_f6" label="Assumed"/>
+      <facetEntailment facetID="MX_53_f7" label="Assumed"/>
+      <facetEntailment facetID="MX_53_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.53.248.1" answerText="The crystals help him by making solid materials." accuracy="irrelevant">
+      <facetEntailment facetID="MX_53_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_53_f2" label="Assumed"/>
+      <facetEntailment facetID="MX_53_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_53_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MX_53_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MX_53_f6" label="Assumed"/>
+      <facetEntailment facetID="MX_53_f7" label="Assumed"/>
+      <facetEntailment facetID="MX_53_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.53.261.1" answerText="Salt." accuracy="irrelevant">
+      <facetEntailment facetID="MX_53_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_53_f2" label="Assumed"/>
+      <facetEntailment facetID="MX_53_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_53_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MX_53_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MX_53_f6" label="Assumed"/>
+      <facetEntailment facetID="MX_53_f7" label="Assumed"/>
+      <facetEntailment facetID="MX_53_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.53.282.1" answerText="To see if it was Epsom salt, salt, citric acid or calcium chloride." accuracy="irrelevant">
+      <facetEntailment facetID="MX_53_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_53_f2" label="Assumed"/>
+      <facetEntailment facetID="MX_53_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_53_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MX_53_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MX_53_f6" label="Assumed"/>
+      <facetEntailment facetID="MX_53_f7" label="Assumed"/>
+      <facetEntailment facetID="MX_53_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.53.347.1" answerText="I going to put salt and water and leave it for some days and it is going to turn into crystals." accuracy="irrelevant">
+      <facetEntailment facetID="MX_53_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_53_f2" label="Assumed"/>
+      <facetEntailment facetID="MX_53_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_53_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MX_53_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MX_53_f6" label="Assumed"/>
+      <facetEntailment facetID="MX_53_f7" label="Assumed"/>
+      <facetEntailment facetID="MX_53_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.53.366.1" answerText="If you put citric acid the crystals will be like a influx." accuracy="irrelevant">
+      <facetEntailment facetID="MX_53_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_53_f2" label="Assumed"/>
+      <facetEntailment facetID="MX_53_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_53_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MX_53_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MX_53_f6" label="Assumed"/>
+      <facetEntailment facetID="MX_53_f7" label="Assumed"/>
+      <facetEntailment facetID="MX_53_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.53.384.1" answerText="I think it will help be by the shape and what has on it." accuracy="correct">
+      <facetEntailment facetID="MX_53_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_53_f2" label="Assumed"/>
+      <facetEntailment facetID="MX_53_f3" label="Expressed"/>
+      <facetEntailment facetID="MX_53_f4" label="Inferred"/>
+      <facetEntailment facetID="MX_53_f5" label="Inferred"/>
+      <facetEntailment facetID="MX_53_f6" label="Assumed"/>
+      <facetEntailment facetID="MX_53_f7" label="Assumed"/>
+      <facetEntailment facetID="MX_53_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.53.385.1" answerText="How they look like x means salt." accuracy="correct">
+      <facetEntailment facetID="MX_53_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_53_f2" label="Assumed"/>
+      <facetEntailment facetID="MX_53_f3" label="Inferred"/>
+      <facetEntailment facetID="MX_53_f4" label="Inferred"/>
+      <facetEntailment facetID="MX_53_f5" label="Inferred"/>
+      <facetEntailment facetID="MX_53_f6" label="Assumed"/>
+      <facetEntailment facetID="MX_53_f7" label="Expressed"/>
+      <facetEntailment facetID="MX_53_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.53.400.1" answerText="Since different materials have different crystals, like salt is a x, then you can figure out what material has the same characteristic shape as the crystal that were from that particular solution, then he knows what material was used." accuracy="correct">
+      <facetEntailment facetID="MX_53_f1" label="Expressed"/>
+      <facetEntailment facetID="MX_53_f2" label="Expressed"/>
+      <facetEntailment facetID="MX_53_f3" label="Expressed"/>
+      <facetEntailment facetID="MX_53_f4" label="Inferred"/>
+      <facetEntailment facetID="MX_53_f5" label="Expressed"/>
+      <facetEntailment facetID="MX_53_f6" label="Expressed"/>
+      <facetEntailment facetID="MX_53_f7" label="Expressed"/>
+      <facetEntailment facetID="MX_53_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.53.418.1" answerText="Because by the markings and patterns on the crystals your all to identify them." accuracy="irrelevant">
+      <facetEntailment facetID="MX_53_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_53_f2" label="Assumed"/>
+      <facetEntailment facetID="MX_53_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_53_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MX_53_f5" label="Diff-Arg"/>
+      <facetEntailment facetID="MX_53_f6" label="Assumed"/>
+      <facetEntailment facetID="MX_53_f7" label="Expressed"/>
+      <facetEntailment facetID="MX_53_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.53.423.1" answerText="Because no 2 crystals are the same." accuracy="irrelevant">
+      <facetEntailment facetID="MX_53_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_53_f2" label="Assumed"/>
+      <facetEntailment facetID="MX_53_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_53_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MX_53_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MX_53_f6" label="Assumed"/>
+      <facetEntailment facetID="MX_53_f7" label="Assumed"/>
+      <facetEntailment facetID="MX_53_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.53.426.1" answerText="Because a crystal identifies the solute!" accuracy="irrelevant">
+      <facetEntailment facetID="MX_53_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_53_f2" label="Assumed"/>
+      <facetEntailment facetID="MX_53_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_53_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MX_53_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MX_53_f6" label="Assumed"/>
+      <facetEntailment facetID="MX_53_f7" label="Expressed"/>
+      <facetEntailment facetID="MX_53_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.53.435.1" answerText="He could check the crystals with a magnifying glass." accuracy="irrelevant">
+      <facetEntailment facetID="MX_53_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_53_f2" label="Assumed"/>
+      <facetEntailment facetID="MX_53_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_53_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MX_53_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MX_53_f6" label="Assumed"/>
+      <facetEntailment facetID="MX_53_f7" label="Assumed"/>
+      <facetEntailment facetID="MX_53_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.53.436.1" answerText="If he has a chart he can just match to whichever one it looks like." accuracy="correct">
+      <facetEntailment facetID="MX_53_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_53_f2" label="Assumed"/>
+      <facetEntailment facetID="MX_53_f3" label="Inferred"/>
+      <facetEntailment facetID="MX_53_f4" label="Inferred"/>
+      <facetEntailment facetID="MX_53_f5" label="Inferred"/>
+      <facetEntailment facetID="MX_53_f6" label="Assumed"/>
+      <facetEntailment facetID="MX_53_f7" label="Assumed"/>
+      <facetEntailment facetID="MX_53_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.53.438.1" answerText="He can mate the crystals to the solid material." accuracy="irrelevant">
+      <facetEntailment facetID="MX_53_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_53_f2" label="Assumed"/>
+      <facetEntailment facetID="MX_53_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_53_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MX_53_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MX_53_f6" label="Assumed"/>
+      <facetEntailment facetID="MX_53_f7" label="Assumed"/>
+      <facetEntailment facetID="MX_53_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.53.454.1" answerText="He would look up that type of crystal in a book and find out what type it is." accuracy="irrelevant">
+      <facetEntailment facetID="MX_53_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_53_f2" label="Assumed"/>
+      <facetEntailment facetID="MX_53_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_53_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MX_53_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MX_53_f6" label="Assumed"/>
+      <facetEntailment facetID="MX_53_f7" label="Assumed"/>
+      <facetEntailment facetID="MX_53_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.53.457.1" answerText="He could match the crystals with other crystals." accuracy="irrelevant">
+      <facetEntailment facetID="MX_53_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_53_f2" label="Assumed"/>
+      <facetEntailment facetID="MX_53_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_53_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MX_53_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MX_53_f6" label="Assumed"/>
+      <facetEntailment facetID="MX_53_f7" label="Assumed"/>
+      <facetEntailment facetID="MX_53_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.53.458.1" answerText="Show them the crystals." accuracy="irrelevant">
+      <facetEntailment facetID="MX_53_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_53_f2" label="Assumed"/>
+      <facetEntailment facetID="MX_53_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_53_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MX_53_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MX_53_f6" label="Assumed"/>
+      <facetEntailment facetID="MX_53_f7" label="Assumed"/>
+      <facetEntailment facetID="MX_53_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.53.461.1" answerText="The crystals might have salt in them." accuracy="irrelevant">
+      <facetEntailment facetID="MX_53_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_53_f2" label="Assumed"/>
+      <facetEntailment facetID="MX_53_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_53_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MX_53_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MX_53_f6" label="Assumed"/>
+      <facetEntailment facetID="MX_53_f7" label="Assumed"/>
+      <facetEntailment facetID="MX_53_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.53.497.1" answerText="He could compare the crystals to other crystals." accuracy="irrelevant">
+      <facetEntailment facetID="MX_53_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_53_f2" label="Assumed"/>
+      <facetEntailment facetID="MX_53_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_53_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MX_53_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MX_53_f6" label="Assumed"/>
+      <facetEntailment facetID="MX_53_f7" label="Assumed"/>
+      <facetEntailment facetID="MX_53_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.53.525.1" answerText="Whatever the crystals look most like." accuracy="correct">
+      <facetEntailment facetID="MX_53_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_53_f2" label="Assumed"/>
+      <facetEntailment facetID="MX_53_f3" label="Inferred"/>
+      <facetEntailment facetID="MX_53_f4" label="Inferred"/>
+      <facetEntailment facetID="MX_53_f5" label="Inferred"/>
+      <facetEntailment facetID="MX_53_f6" label="Assumed"/>
+      <facetEntailment facetID="MX_53_f7" label="Assumed"/>
+      <facetEntailment facetID="MX_53_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.53.560.1" answerText="He can compare them with other crystals he can make and that will tell him." accuracy="irrelevant">
+      <facetEntailment facetID="MX_53_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_53_f2" label="Assumed"/>
+      <facetEntailment facetID="MX_53_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_53_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MX_53_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MX_53_f6" label="Assumed"/>
+      <facetEntailment facetID="MX_53_f7" label="Assumed"/>
+      <facetEntailment facetID="MX_53_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.53.566.1" answerText="The crystals can identify what solid was used in the solution by its shape." accuracy="correct">
+      <facetEntailment facetID="MX_53_f1" label="Expressed"/>
+      <facetEntailment facetID="MX_53_f2" label="Assumed"/>
+      <facetEntailment facetID="MX_53_f3" label="Expressed"/>
+      <facetEntailment facetID="MX_53_f4" label="Inferred"/>
+      <facetEntailment facetID="MX_53_f5" label="Expressed"/>
+      <facetEntailment facetID="MX_53_f6" label="Expressed"/>
+      <facetEntailment facetID="MX_53_f7" label="Expressed"/>
+      <facetEntailment facetID="MX_53_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.53.572.1" answerText="He will know because he will see stuff at the bottom." accuracy="irrelevant">
+      <facetEntailment facetID="MX_53_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_53_f2" label="Assumed"/>
+      <facetEntailment facetID="MX_53_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_53_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MX_53_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MX_53_f6" label="Assumed"/>
+      <facetEntailment facetID="MX_53_f7" label="Assumed"/>
+      <facetEntailment facetID="MX_53_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.53.592.1" answerText="You can use your own mixtures and see what it looks like." accuracy="irrelevant">
+      <facetEntailment facetID="MX_53_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_53_f2" label="Assumed"/>
+      <facetEntailment facetID="MX_53_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_53_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MX_53_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MX_53_f6" label="Assumed"/>
+      <facetEntailment facetID="MX_53_f7" label="Assumed"/>
+      <facetEntailment facetID="MX_53_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.53.613.1" answerText="Use all the salt then wait for them to evaporate but in the other trays name them by the salt so he would know which one is which but then there done he can see which one looks like that one." accuracy="correct">
+      <facetEntailment facetID="MX_53_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_53_f2" label="Assumed"/>
+      <facetEntailment facetID="MX_53_f3" label="Inferred"/>
+      <facetEntailment facetID="MX_53_f4" label="Inferred"/>
+      <facetEntailment facetID="MX_53_f5" label="Inferred"/>
+      <facetEntailment facetID="MX_53_f6" label="Assumed"/>
+      <facetEntailment facetID="MX_53_f7" label="Assumed"/>
+      <facetEntailment facetID="MX_53_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.53.630.1" answerText="Because all solid has different crystals." accuracy="irrelevant">
+      <facetEntailment facetID="MX_53_f1" label="Expressed"/>
+      <facetEntailment facetID="MX_53_f2" label="Expressed"/>
+      <facetEntailment facetID="MX_53_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_53_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MX_53_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MX_53_f6" label="Assumed"/>
+      <facetEntailment facetID="MX_53_f7" label="Assumed"/>
+      <facetEntailment facetID="MX_53_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.53.635.1" answerText="Take other crystals and compare to see which ones are kind of the same." accuracy="irrelevant">
+      <facetEntailment facetID="MX_53_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_53_f2" label="Assumed"/>
+      <facetEntailment facetID="MX_53_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_53_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MX_53_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MX_53_f6" label="Assumed"/>
+      <facetEntailment facetID="MX_53_f7" label="Assumed"/>
+      <facetEntailment facetID="MX_53_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.53.637.1" answerText="How the crystals were shaped and how they looked." accuracy="correct">
+      <facetEntailment facetID="MX_53_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_53_f2" label="Assumed"/>
+      <facetEntailment facetID="MX_53_f3" label="Expressed"/>
+      <facetEntailment facetID="MX_53_f4" label="Inferred"/>
+      <facetEntailment facetID="MX_53_f5" label="Inferred"/>
+      <facetEntailment facetID="MX_53_f6" label="Assumed"/>
+      <facetEntailment facetID="MX_53_f7" label="Assumed"/>
+      <facetEntailment facetID="MX_53_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.53.643.1" answerText="He can look at them really hard and compare them with others." accuracy="correct">
+      <facetEntailment facetID="MX_53_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_53_f2" label="Assumed"/>
+      <facetEntailment facetID="MX_53_f3" label="Inferred"/>
+      <facetEntailment facetID="MX_53_f4" label="Inferred"/>
+      <facetEntailment facetID="MX_53_f5" label="Inferred"/>
+      <facetEntailment facetID="MX_53_f6" label="Assumed"/>
+      <facetEntailment facetID="MX_53_f7" label="Assumed"/>
+      <facetEntailment facetID="MX_53_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.53.644.1" answerText="Adam can try to make crystals and if the solution he used makes crystals then that is the same solution his friend used." accuracy="irrelevant">
+      <facetEntailment facetID="MX_53_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_53_f2" label="Assumed"/>
+      <facetEntailment facetID="MX_53_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_53_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MX_53_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MX_53_f6" label="Assumed"/>
+      <facetEntailment facetID="MX_53_f7" label="Assumed"/>
+      <facetEntailment facetID="MX_53_f8" label="Assumed"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

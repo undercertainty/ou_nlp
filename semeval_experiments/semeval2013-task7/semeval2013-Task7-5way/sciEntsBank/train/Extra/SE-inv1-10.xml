@@ -1,0 +1,363 @@
+<?xml version="1.0"?>
+<question id="SE_10" module="SE">
+  <questionText>Bryan taped a golf tee to a globe of the Earth. He shined a flashlight on the globe. The best way for Bryan to demonstrate how shadows change during the day would be to: (rotate the globe.) move the flashlight. Why would this best demonstrate how shadows change during the day?</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="SE_10-a1" text="Shadows change during the day because the Earth is turning. The Sun stays in one place.">
+      <tokens>
+        <token id="SE_10_ra1">Shadows</token>
+        <token id="SE_10_ra2">change</token>
+        <token id="SE_10_ra3">during</token>
+        <token id="SE_10_ra4">the</token>
+        <token id="SE_10_ra5">day</token>
+        <token id="SE_10_ra6">because</token>
+        <token id="SE_10_ra7">the</token>
+        <token id="SE_10_ra8">Earth</token>
+        <token id="SE_10_ra9">is</token>
+        <token id="SE_10_ra10">turning</token>
+        <token id="SE_10_ra11">.</token>
+        <token id="SE_10_ra12">The</token>
+        <token id="SE_10_ra13">Sun</token>
+        <token id="SE_10_ra14">stays</token>
+        <token id="SE_10_ra15">in</token>
+        <token id="SE_10_ra16">one</token>
+        <token id="SE_10_ra17">place</token>
+        <token id="SE_10_ra18">.</token>
+      </tokens>
+      <facets>
+        <facet id="SE_10_f1" govNum="SE_10_ra2" modNum="SE_10_ra1" reltn="Theme" govText="change" isAssumed="true" modText="Shadows"/>
+        <facet id="SE_10_f2" govNum="SE_10_ra2" modNum="SE_10_ra5" reltn="Time_during" govText="change" isAssumed="true" modText="day"/>
+        <facet id="SE_10_f3" govNum="SE_10_ra10" modNum="SE_10_ra8" reltn="Theme" govText="turning" modText="Earth"/>
+        <facet id="SE_10_f4" govNum="SE_10_ra2" modNum="SE_10_ra10" reltn="Cause_because" childProp1Facet1="SE_10_f1" govText="change" isAssumed="true" childProp1Facet2="SE_10_f2" modText="turning" childProp2Facet1="SE_10_f3"/>
+        <facet id="SE_10_f5" govNum="SE_10_ra14" modNum="SE_10_ra13" reltn="Theme" govText="stays" modText="Sun"/>
+        <facet id="SE_10_f6" govNum="SE_10_ra14" modNum="SE_10_ra17" reltn="Location_in" govText="stays" modText="place"/>
+        <facet id="SE_10_f7" govNum="SE_10_ra17" modNum="SE_10_ra16" reltn="Quantifier" govText="place" modText="one"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="SE.10.102.1" answerText="It would best show it because the earth always rotates around the sun." accuracy="irrelevant">
+      <facetEntailment facetID="SE_10_f1" label="Assumed"/>
+      <facetEntailment facetID="SE_10_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_10_f3" label="Unaddressed"/>
+      <facetEntailment facetID="SE_10_f4" label="Assumed"/>
+      <facetEntailment facetID="SE_10_f5" label="Unaddressed"/>
+      <facetEntailment facetID="SE_10_f6" label="Unaddressed"/>
+      <facetEntailment facetID="SE_10_f7" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.10.105.1" answerText="Why the shadow changes during the day because our earth rotates around." accuracy="correct">
+      <facetEntailment facetID="SE_10_f1" label="Expressed"/>
+      <facetEntailment facetID="SE_10_f2" label="Expressed"/>
+      <facetEntailment facetID="SE_10_f3" label="Expressed"/>
+      <facetEntailment facetID="SE_10_f4" label="Expressed"/>
+      <facetEntailment facetID="SE_10_f5" label="Unaddressed"/>
+      <facetEntailment facetID="SE_10_f6" label="Unaddressed"/>
+      <facetEntailment facetID="SE_10_f7" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.10.113.1" answerText="Because the earth rotate. And the sun moves to another way." accuracy="contradictory">
+      <facetEntailment facetID="SE_10_f1" label="Assumed"/>
+      <facetEntailment facetID="SE_10_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_10_f3" label="Expressed"/>
+      <facetEntailment facetID="SE_10_f4" label="Assumed"/>
+      <facetEntailment facetID="SE_10_f5" label="Contra-Expr"/>
+      <facetEntailment facetID="SE_10_f6" label="Contra-Expr"/>
+      <facetEntailment facetID="SE_10_f7" label="Contra-Infr"/>
+    </studentAnswer>
+    <studentAnswer id="SE.10.115.1" answerText="If the globe rotate the shadow the earth move very slow around all of us. The shadow move because like every minute when we move." accuracy="correct">
+      <facetEntailment facetID="SE_10_f1" label="Expressed"/>
+      <facetEntailment facetID="SE_10_f2" label="Expressed"/>
+      <facetEntailment facetID="SE_10_f3" label="Inferred"/>
+      <facetEntailment facetID="SE_10_f4" label="Expressed"/>
+      <facetEntailment facetID="SE_10_f5" label="Unaddressed"/>
+      <facetEntailment facetID="SE_10_f6" label="Unaddressed"/>
+      <facetEntailment facetID="SE_10_f7" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.10.117.1" answerText="Because the earth rotates which causes the shadow to move but the sun stays where it is at." accuracy="correct">
+      <facetEntailment facetID="SE_10_f1" label="Expressed"/>
+      <facetEntailment facetID="SE_10_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_10_f3" label="Expressed"/>
+      <facetEntailment facetID="SE_10_f4" label="Assumed"/>
+      <facetEntailment facetID="SE_10_f5" label="Expressed"/>
+      <facetEntailment facetID="SE_10_f6" label="Expressed"/>
+      <facetEntailment facetID="SE_10_f7" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="SE.10.128.1" answerText="Rotate the globe because the sun does not move is the earth that is moving." accuracy="correct">
+      <facetEntailment facetID="SE_10_f1" label="Assumed"/>
+      <facetEntailment facetID="SE_10_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_10_f3" label="Inferred"/>
+      <facetEntailment facetID="SE_10_f4" label="Assumed"/>
+      <facetEntailment facetID="SE_10_f5" label="Expressed"/>
+      <facetEntailment facetID="SE_10_f6" label="Expressed"/>
+      <facetEntailment facetID="SE_10_f7" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="SE.10.148.1" answerText="When the flashlight moves, the shadow moves too." accuracy="contradictory">
+      <facetEntailment facetID="SE_10_f1" label="Expressed"/>
+      <facetEntailment facetID="SE_10_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_10_f3" label="Unaddressed"/>
+      <facetEntailment facetID="SE_10_f4" label="Assumed"/>
+      <facetEntailment facetID="SE_10_f5" label="Contra-Infr"/>
+      <facetEntailment facetID="SE_10_f6" label="Contra-Infr"/>
+      <facetEntailment facetID="SE_10_f7" label="Contra-Infr"/>
+    </studentAnswer>
+    <studentAnswer id="SE.10.150.1" answerText="Because it is a sign and the earth moves not the sun." accuracy="correct">
+      <facetEntailment facetID="SE_10_f1" label="Assumed"/>
+      <facetEntailment facetID="SE_10_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_10_f3" label="Inferred"/>
+      <facetEntailment facetID="SE_10_f4" label="Assumed"/>
+      <facetEntailment facetID="SE_10_f5" label="Expressed"/>
+      <facetEntailment facetID="SE_10_f6" label="Expressed"/>
+      <facetEntailment facetID="SE_10_f7" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="SE.10.161.1" answerText="When the globe moves every minute the sun face the other way." accuracy="correct">
+      <facetEntailment facetID="SE_10_f1" label="Assumed"/>
+      <facetEntailment facetID="SE_10_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_10_f3" label="Inferred"/>
+      <facetEntailment facetID="SE_10_f4" label="Assumed"/>
+      <facetEntailment facetID="SE_10_f5" label="Unaddressed"/>
+      <facetEntailment facetID="SE_10_f6" label="Unaddressed"/>
+      <facetEntailment facetID="SE_10_f7" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.10.164.1" answerText="Because it rotates around the sun." accuracy="irrelevant">
+      <facetEntailment facetID="SE_10_f1" label="Assumed"/>
+      <facetEntailment facetID="SE_10_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_10_f3" label="Unaddressed"/>
+      <facetEntailment facetID="SE_10_f4" label="Assumed"/>
+      <facetEntailment facetID="SE_10_f5" label="Unaddressed"/>
+      <facetEntailment facetID="SE_10_f6" label="Unaddressed"/>
+      <facetEntailment facetID="SE_10_f7" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.10.179.1" answerText="This would be a good demonstrate because the sun does not move the earth and the shadow would move around." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="SE_10_f1" label="Expressed"/>
+      <facetEntailment facetID="SE_10_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_10_f3" label="Unaddressed"/>
+      <facetEntailment facetID="SE_10_f4" label="Assumed"/>
+      <facetEntailment facetID="SE_10_f5" label="Expressed"/>
+      <facetEntailment facetID="SE_10_f6" label="Expressed"/>
+      <facetEntailment facetID="SE_10_f7" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="SE.10.184.1" answerText="Because the sun is going around us while the earth spins in circles which makes it go around." accuracy="contradictory">
+      <facetEntailment facetID="SE_10_f1" label="Assumed"/>
+      <facetEntailment facetID="SE_10_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_10_f3" label="Expressed"/>
+      <facetEntailment facetID="SE_10_f4" label="Assumed"/>
+      <facetEntailment facetID="SE_10_f5" label="Contra-Expr"/>
+      <facetEntailment facetID="SE_10_f6" label="Contra-Expr"/>
+      <facetEntailment facetID="SE_10_f7" label="Contra-Infr"/>
+    </studentAnswer>
+    <studentAnswer id="SE.10.185.1" answerText="Because the need to tell and see what did it happen there or where and somewhere it could be." accuracy="irrelevant">
+      <facetEntailment facetID="SE_10_f1" label="Assumed"/>
+      <facetEntailment facetID="SE_10_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_10_f3" label="Unaddressed"/>
+      <facetEntailment facetID="SE_10_f4" label="Assumed"/>
+      <facetEntailment facetID="SE_10_f5" label="Unaddressed"/>
+      <facetEntailment facetID="SE_10_f6" label="Unaddressed"/>
+      <facetEntailment facetID="SE_10_f7" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.10.192.1" answerText="The shadows are true the day because get night dark." accuracy="irrelevant">
+      <facetEntailment facetID="SE_10_f1" label="Assumed"/>
+      <facetEntailment facetID="SE_10_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_10_f3" label="Unaddressed"/>
+      <facetEntailment facetID="SE_10_f4" label="Assumed"/>
+      <facetEntailment facetID="SE_10_f5" label="Unaddressed"/>
+      <facetEntailment facetID="SE_10_f6" label="Unaddressed"/>
+      <facetEntailment facetID="SE_10_f7" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.10.244.1" answerText="To get a small object and glue it to a flat surface. Then get outside put in the sun and record every hour until the sun goes down." accuracy="irrelevant">
+      <facetEntailment facetID="SE_10_f1" label="Assumed"/>
+      <facetEntailment facetID="SE_10_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_10_f3" label="Unaddressed"/>
+      <facetEntailment facetID="SE_10_f4" label="Assumed"/>
+      <facetEntailment facetID="SE_10_f5" label="Unaddressed"/>
+      <facetEntailment facetID="SE_10_f6" label="Unaddressed"/>
+      <facetEntailment facetID="SE_10_f7" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.10.246.1" answerText="When you rotate the globe the sun is not moving. And when you think that the sun is moving it is really not. You are the one that is moving." accuracy="correct">
+      <facetEntailment facetID="SE_10_f1" label="Assumed"/>
+      <facetEntailment facetID="SE_10_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_10_f3" label="Inferred"/>
+      <facetEntailment facetID="SE_10_f4" label="Assumed"/>
+      <facetEntailment facetID="SE_10_f5" label="Expressed"/>
+      <facetEntailment facetID="SE_10_f6" label="Expressed"/>
+      <facetEntailment facetID="SE_10_f7" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="SE.10.251.1" answerText="Because as the day goes the earth rotates." accuracy="correct">
+      <facetEntailment facetID="SE_10_f1" label="Assumed"/>
+      <facetEntailment facetID="SE_10_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_10_f3" label="Expressed"/>
+      <facetEntailment facetID="SE_10_f4" label="Assumed"/>
+      <facetEntailment facetID="SE_10_f5" label="Unaddressed"/>
+      <facetEntailment facetID="SE_10_f6" label="Unaddressed"/>
+      <facetEntailment facetID="SE_10_f7" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.10.255.1" answerText="The shadow change bigger and smaller because the sun is moving around the earth." accuracy="contradictory">
+      <facetEntailment facetID="SE_10_f1" label="Expressed"/>
+      <facetEntailment facetID="SE_10_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_10_f3" label="Contra-Infr"/>
+      <facetEntailment facetID="SE_10_f4" label="Expressed"/>
+      <facetEntailment facetID="SE_10_f5" label="Contra-Expr"/>
+      <facetEntailment facetID="SE_10_f6" label="Contra-Expr"/>
+      <facetEntailment facetID="SE_10_f7" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.10.257.1" answerText="Because the earth moves and the sun does not." accuracy="correct">
+      <facetEntailment facetID="SE_10_f1" label="Assumed"/>
+      <facetEntailment facetID="SE_10_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_10_f3" label="Inferred"/>
+      <facetEntailment facetID="SE_10_f4" label="Assumed"/>
+      <facetEntailment facetID="SE_10_f5" label="Expressed"/>
+      <facetEntailment facetID="SE_10_f6" label="Expressed"/>
+      <facetEntailment facetID="SE_10_f7" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="SE.10.317.1" answerText="Because it would show one side and the other that is why I picked rotate the globe." accuracy="correct">
+      <facetEntailment facetID="SE_10_f1" label="Assumed"/>
+      <facetEntailment facetID="SE_10_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_10_f3" label="Inferred"/>
+      <facetEntailment facetID="SE_10_f4" label="Assumed"/>
+      <facetEntailment facetID="SE_10_f5" label="Unaddressed"/>
+      <facetEntailment facetID="SE_10_f6" label="Unaddressed"/>
+      <facetEntailment facetID="SE_10_f7" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.10.322.1" answerText="Because the earth now rotates around the sun and at different time of the day you shadow will move." accuracy="irrelevant">
+      <facetEntailment facetID="SE_10_f1" label="Expressed"/>
+      <facetEntailment facetID="SE_10_f2" label="Expressed"/>
+      <facetEntailment facetID="SE_10_f3" label="Unaddressed"/>
+      <facetEntailment facetID="SE_10_f4" label="Assumed"/>
+      <facetEntailment facetID="SE_10_f5" label="Unaddressed"/>
+      <facetEntailment facetID="SE_10_f6" label="Unaddressed"/>
+      <facetEntailment facetID="SE_10_f7" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.10.327.1" answerText="By turning the globe." accuracy="correct">
+      <facetEntailment facetID="SE_10_f1" label="Assumed"/>
+      <facetEntailment facetID="SE_10_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_10_f3" label="Inferred"/>
+      <facetEntailment facetID="SE_10_f4" label="Assumed"/>
+      <facetEntailment facetID="SE_10_f5" label="Unaddressed"/>
+      <facetEntailment facetID="SE_10_f6" label="Unaddressed"/>
+      <facetEntailment facetID="SE_10_f7" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.10.328.1" answerText="The shadow in the morning is long and the sun is pointing south when it is in the morning and it in the afternoon it is start the shadow." accuracy="irrelevant">
+      <facetEntailment facetID="SE_10_f1" label="Expressed"/>
+      <facetEntailment facetID="SE_10_f2" label="Expressed"/>
+      <facetEntailment facetID="SE_10_f3" label="Unaddressed"/>
+      <facetEntailment facetID="SE_10_f4" label="Assumed"/>
+      <facetEntailment facetID="SE_10_f5" label="Unaddressed"/>
+      <facetEntailment facetID="SE_10_f6" label="Unaddressed"/>
+      <facetEntailment facetID="SE_10_f7" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.10.384.1" answerText="Because the sun does not move the earth does." accuracy="correct">
+      <facetEntailment facetID="SE_10_f1" label="Assumed"/>
+      <facetEntailment facetID="SE_10_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_10_f3" label="Inferred"/>
+      <facetEntailment facetID="SE_10_f4" label="Assumed"/>
+      <facetEntailment facetID="SE_10_f5" label="Expressed"/>
+      <facetEntailment facetID="SE_10_f6" label="Expressed"/>
+      <facetEntailment facetID="SE_10_f7" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="SE.10.388.1" answerText="Because the sun does not move. It is the car that rotates. So if you move the flashlight it will get off track." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="SE_10_f1" label="Assumed"/>
+      <facetEntailment facetID="SE_10_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_10_f3" label="Diff-Arg"/>
+      <facetEntailment facetID="SE_10_f4" label="Assumed"/>
+      <facetEntailment facetID="SE_10_f5" label="Expressed"/>
+      <facetEntailment facetID="SE_10_f6" label="Expressed"/>
+      <facetEntailment facetID="SE_10_f7" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="SE.10.389.1" answerText="It will show where the light is falling to tell where the shadow will fall." accuracy="irrelevant">
+      <facetEntailment facetID="SE_10_f1" label="Assumed"/>
+      <facetEntailment facetID="SE_10_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_10_f3" label="Unaddressed"/>
+      <facetEntailment facetID="SE_10_f4" label="Assumed"/>
+      <facetEntailment facetID="SE_10_f5" label="Unaddressed"/>
+      <facetEntailment facetID="SE_10_f6" label="Unaddressed"/>
+      <facetEntailment facetID="SE_10_f7" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.10.391.1" answerText="He would move the flashlight around and the shadow would move. If he started the globe the flashlight would just be shining on the globe and not the golf tee so he would not be figuring out how shadows change during the day." accuracy="contradictory">
+      <facetEntailment facetID="SE_10_f1" label="Expressed"/>
+      <facetEntailment facetID="SE_10_f2" label="Expressed"/>
+      <facetEntailment facetID="SE_10_f3" label="Inferred"/>
+      <facetEntailment facetID="SE_10_f4" label="Contra-Infr"/>
+      <facetEntailment facetID="SE_10_f5" label="Contra-Infr"/>
+      <facetEntailment facetID="SE_10_f6" label="Contra-Infr"/>
+      <facetEntailment facetID="SE_10_f7" label="Contra-Infr"/>
+    </studentAnswer>
+    <studentAnswer id="SE.10.409.1" answerText="The flashlight would represent the sun, and the sun does not rotate. However, the earth does rotate." accuracy="correct">
+      <facetEntailment facetID="SE_10_f1" label="Assumed"/>
+      <facetEntailment facetID="SE_10_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_10_f3" label="Expressed"/>
+      <facetEntailment facetID="SE_10_f4" label="Assumed"/>
+      <facetEntailment facetID="SE_10_f5" label="Inferred"/>
+      <facetEntailment facetID="SE_10_f6" label="Inferred"/>
+      <facetEntailment facetID="SE_10_f7" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="SE.10.494.1" answerText="It would be the best to demonstrate how shadows change during the day because the sun does not move and the earth rotates around the sun. So rotating the earth would show how shadows rotate during the day." accuracy="correct">
+      <facetEntailment facetID="SE_10_f1" label="Expressed"/>
+      <facetEntailment facetID="SE_10_f2" label="Expressed"/>
+      <facetEntailment facetID="SE_10_f3" label="Expressed"/>
+      <facetEntailment facetID="SE_10_f4" label="Expressed"/>
+      <facetEntailment facetID="SE_10_f5" label="Expressed"/>
+      <facetEntailment facetID="SE_10_f6" label="Expressed"/>
+      <facetEntailment facetID="SE_10_f7" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="SE.10.504.1" answerText="Because it would demonstrate the earth rotating." accuracy="correct">
+      <facetEntailment facetID="SE_10_f1" label="Assumed"/>
+      <facetEntailment facetID="SE_10_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_10_f3" label="Expressed"/>
+      <facetEntailment facetID="SE_10_f4" label="Assumed"/>
+      <facetEntailment facetID="SE_10_f5" label="Unaddressed"/>
+      <facetEntailment facetID="SE_10_f6" label="Unaddressed"/>
+      <facetEntailment facetID="SE_10_f7" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.10.511.1" answerText="It would best demonstrate shadows change because the flashlight is acting as the sun, and the globe as the earth, so the earth would rotate, not the sun." accuracy="correct">
+      <facetEntailment facetID="SE_10_f1" label="Expressed"/>
+      <facetEntailment facetID="SE_10_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_10_f3" label="Expressed"/>
+      <facetEntailment facetID="SE_10_f4" label="Expressed"/>
+      <facetEntailment facetID="SE_10_f5" label="Expressed"/>
+      <facetEntailment facetID="SE_10_f6" label="Expressed"/>
+      <facetEntailment facetID="SE_10_f7" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="SE.10.517.1" answerText="Because the earth rotates around not the sun rotates around the earth." accuracy="correct">
+      <facetEntailment facetID="SE_10_f1" label="Assumed"/>
+      <facetEntailment facetID="SE_10_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_10_f3" label="Expressed"/>
+      <facetEntailment facetID="SE_10_f4" label="Assumed"/>
+      <facetEntailment facetID="SE_10_f5" label="Inferred"/>
+      <facetEntailment facetID="SE_10_f6" label="Inferred"/>
+      <facetEntailment facetID="SE_10_f7" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="SE.10.542.1" answerText="Because you can see them better and you can mark down the spot your shadow was at." accuracy="irrelevant">
+      <facetEntailment facetID="SE_10_f1" label="Assumed"/>
+      <facetEntailment facetID="SE_10_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_10_f3" label="Unaddressed"/>
+      <facetEntailment facetID="SE_10_f4" label="Assumed"/>
+      <facetEntailment facetID="SE_10_f5" label="Unaddressed"/>
+      <facetEntailment facetID="SE_10_f6" label="Unaddressed"/>
+      <facetEntailment facetID="SE_10_f7" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.10.570.1" answerText="Because if you rotate the globe it does not do anything. When you move the flashlight the shadow and that is why I pick move the flashlight." accuracy="contradictory">
+      <facetEntailment facetID="SE_10_f1" label="Contra-Infr"/>
+      <facetEntailment facetID="SE_10_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_10_f3" label="Inferred"/>
+      <facetEntailment facetID="SE_10_f4" label="Assumed"/>
+      <facetEntailment facetID="SE_10_f5" label="Contra-Infr"/>
+      <facetEntailment facetID="SE_10_f6" label="Unaddressed"/>
+      <facetEntailment facetID="SE_10_f7" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.10.580.1" answerText="Because the only way it would move to a different place is if you rotate the globe. If you were just moving the flashlight it will not really do anything." accuracy="correct">
+      <facetEntailment facetID="SE_10_f1" label="Assumed"/>
+      <facetEntailment facetID="SE_10_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_10_f3" label="Inferred"/>
+      <facetEntailment facetID="SE_10_f4" label="Assumed"/>
+      <facetEntailment facetID="SE_10_f5" label="Unaddressed"/>
+      <facetEntailment facetID="SE_10_f6" label="Unaddressed"/>
+      <facetEntailment facetID="SE_10_f7" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.10.612.1" answerText="It is easy because if it was like the earth and the sun the sun does not move. It is the earth." accuracy="correct">
+      <facetEntailment facetID="SE_10_f1" label="Assumed"/>
+      <facetEntailment facetID="SE_10_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_10_f3" label="Inferred"/>
+      <facetEntailment facetID="SE_10_f4" label="Assumed"/>
+      <facetEntailment facetID="SE_10_f5" label="Expressed"/>
+      <facetEntailment facetID="SE_10_f6" label="Expressed"/>
+      <facetEntailment facetID="SE_10_f7" label="Inferred"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<question testSet="unseen-answers" id="ME_17e" module="ME">
+  <questionText>Denise made a circuit to light a bulb or run a motor. She used a special switch. Below is the schematic diagram of her circuit. The switch is inside the dotted box. Can she run both the light and the motor at the same time? Why or why not?</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="ME_17e-a1" text="No. Only one circuit can be complete at a time.">
+      <tokens>
+        <token id="ME_17e_ra1">No</token>
+        <token id="ME_17e_ra2">.</token>
+        <token id="ME_17e_ra3">Only</token>
+        <token id="ME_17e_ra4">one</token>
+        <token id="ME_17e_ra5">circuit</token>
+        <token id="ME_17e_ra6">can</token>
+        <token id="ME_17e_ra7">be</token>
+        <token id="ME_17e_ra8">complete</token>
+        <token id="ME_17e_ra9">at</token>
+        <token id="ME_17e_ra10">a</token>
+        <token id="ME_17e_ra11">time</token>
+        <token id="ME_17e_ra12">.</token>
+      </tokens>
+      <facets>
+        <facet id="ME_17e_f1" govNum="ME_17e_ra0" modNum="ME_17e_ra1" reltn="Root" govText="root" modText="No"/>
+        <facet id="ME_17e_f2" govNum="ME_17e_ra5" modNum="ME_17e_ra4" reltn="NMod" govText="circuit" modText="one"/>
+        <facet id="ME_17e_f3" govNum="ME_17e_ra4" modNum="ME_17e_ra3" reltn="AMod" govText="one" modText="Only"/>
+        <facet id="ME_17e_f4" govNum="ME_17e_ra8" modNum="ME_17e_ra5" reltn="Theme" govText="complete" modText="circuit"/>
+        <facet id="ME_17e_f5" govNum="ME_17e_ra8" modNum="ME_17e_ra11" reltn="Time_at" govText="complete" modText="time"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="ME.17e.111.1" answerText="No because the switch is hooked in the middle." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="ME_17e_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_17e_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ME_17e_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_17e_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_17e_f5" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.17e.147.1" answerText="Yes if it go in a circle." accuracy="contradictory">
+      <facetEntailment facetID="ME_17e_f1" label="Contra-Expr"/>
+      <facetEntailment facetID="ME_17e_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ME_17e_f3" label="Contra-Infr"/>
+      <facetEntailment facetID="ME_17e_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_17e_f5" label="Contra-Infr"/>
+    </studentAnswer>
+    <studentAnswer id="ME.17e.195.1" answerText="She can too because it will be in a It will be a closed circuit." accuracy="contradictory">
+      <facetEntailment facetID="ME_17e_f1" label="Contra-Infr"/>
+      <facetEntailment facetID="ME_17e_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ME_17e_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_17e_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_17e_f5" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.17e.212.1" answerText="No she cannot, because the battery D-cell cannot hold that much energy." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="ME_17e_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_17e_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ME_17e_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_17e_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_17e_f5" label="Unaddressed"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

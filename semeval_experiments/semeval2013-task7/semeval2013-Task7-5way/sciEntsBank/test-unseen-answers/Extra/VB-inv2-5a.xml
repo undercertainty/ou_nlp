@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<question testSet="unseen-answers" id="VB_5a" module="VB">
+  <questionText>Explain in one sentence what each graph tells you. Graph A) number of tree rings versus time.</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="VB_5a-a1" text="As time increases, the number of tree rings also increases.">
+      <tokens>
+        <token id="VB_5a_ra1">As</token>
+        <token id="VB_5a_ra2">time</token>
+        <token id="VB_5a_ra3">increases</token>
+        <token id="VB_5a_ra4">,</token>
+        <token id="VB_5a_ra5">the</token>
+        <token id="VB_5a_ra6">number</token>
+        <token id="VB_5a_ra7">of</token>
+        <token id="VB_5a_ra8">tree</token>
+        <token id="VB_5a_ra9">rings</token>
+        <token id="VB_5a_ra10">also</token>
+        <token id="VB_5a_ra11">increases</token>
+        <token id="VB_5a_ra12">.</token>
+      </tokens>
+      <facets>
+        <facet id="VB_5a_f1" govNum="VB_5a_ra3" modNum="VB_5a_ra2" reltn="Patient" govText="increases" modText="time"/>
+        <facet id="VB_5a_f2" govNum="VB_5a_ra6" modNum="VB_5a_ra9" reltn="NMod_of" govText="number" isAssumed="true" modText="rings"/>
+        <facet id="VB_5a_f3" govNum="VB_5a_ra9" modNum="VB_5a_ra8" reltn="NMod" govText="rings" isAssumed="true" modText="tree"/>
+        <facet id="VB_5a_f4" govNum="VB_5a_ra11" modNum="VB_5a_ra6" reltn="Attribute" govText="increases" modText="number"/>
+        <facet id="VB_5a_f5" govNum="VB_5a_ra11" modNum="VB_5a_ra3" reltn="Cause_as" childProp1Facet1="VB_5a_f4" govText="increases" childProp1Facet2="VB_5a_f2" modText="increases" childProp2Facet1="VB_5a_f1"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="VB.5a.452.1" answerText="The more tree rings the faster. The less, the slower." accuracy="irrelevant">
+      <facetEntailment facetID="VB_5a_f1" label="Unaddressed"/>
+      <facetEntailment facetID="VB_5a_f2" label="Expressed"/>
+      <facetEntailment facetID="VB_5a_f3" label="Expressed"/>
+      <facetEntailment facetID="VB_5a_f4" label="Unaddressed"/>
+      <facetEntailment facetID="VB_5a_f5" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="VB.5a.466.1" answerText="This graph tells you how many tree rings grow on a tree in a certain amount of time." accuracy="irrelevant">
+      <facetEntailment facetID="VB_5a_f1" label="Unaddressed"/>
+      <facetEntailment facetID="VB_5a_f2" label="Expressed"/>
+      <facetEntailment facetID="VB_5a_f3" label="Expressed"/>
+      <facetEntailment facetID="VB_5a_f4" label="Unaddressed"/>
+      <facetEntailment facetID="VB_5a_f5" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="VB.5a.481.1" answerText="This graph shows that the number of tree rings was increasing by a certain amount of time." accuracy="correct">
+      <facetEntailment facetID="VB_5a_f1" label="Expressed"/>
+      <facetEntailment facetID="VB_5a_f2" label="Expressed"/>
+      <facetEntailment facetID="VB_5a_f3" label="Expressed"/>
+      <facetEntailment facetID="VB_5a_f4" label="Expressed"/>
+      <facetEntailment facetID="VB_5a_f5" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="VB.5a.634.1" answerText="They look like it increases." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="VB_5a_f1" label="Unaddressed"/>
+      <facetEntailment facetID="VB_5a_f2" label="Assumed"/>
+      <facetEntailment facetID="VB_5a_f3" label="Assumed"/>
+      <facetEntailment facetID="VB_5a_f4" label="Expressed"/>
+      <facetEntailment facetID="VB_5a_f5" label="Unaddressed"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

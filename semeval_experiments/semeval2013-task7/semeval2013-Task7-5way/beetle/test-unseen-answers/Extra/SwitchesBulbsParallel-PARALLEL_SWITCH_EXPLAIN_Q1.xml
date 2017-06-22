@@ -1,0 +1,148 @@
+<?xml version="1.0"?>
+<question testSet="unseen-answers" qtype="Q_EXPLAIN_SPECIFIC" id="PARALLEL_SWITCH_EXPLAIN_Q1" module="SwitchesBulbsParallel" stype="EVALUATE">
+  <questionText>Why was bulb A on when switch Y was open and switch Z was closed?</questionText>
+  <referenceAnswers>
+    <referenceAnswer category="BEST" id="answer296" fileID="PARALLEL_SWITCH_EXPLAIN_Q1_ANS1">Bulb A is still contained in a closed path with the battery.</referenceAnswer>
+    <referenceAnswer category="BEST" id="answer296.1" fileID="PARALLEL_SWITCH_EXPLAIN_Q1_ANS1a">Bulb A is still contained in a closed path with the battery and switch Z.</referenceAnswer>
+    <referenceAnswer category="GOOD" id="answer297" fileID="PARALLEL_SWITCH_EXPLAIN_Q1_ANS2">There is no path containing both switch Y and bulb A</referenceAnswer>
+    <referenceAnswer category="GOOD" id="answer298" fileID="PARALLEL_SWITCH_EXPLAIN_Q1_ANS3">Switch Y and bulb A are not in the same closed path</referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer count="1" answerMatch="answer296" raw_text="because it had a closed path" id="SwitchesBulbsParallel-PARALLEL_SWITCH_EXPLAIN_Q1.sbj3-l2.qa42" accuracy="partially_correct_incomplete">
+      <token status="ok" id="tok712">because</token>
+      <token status="ok" id="tok713">it</token>
+      <token status="ok" id="tok714">had</token>
+      <token status="ok" id="tok715">a</token>
+      <token status="ok" id="tok716">closed</token>
+      <token status="ok" id="tok717">path</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer296" raw_text="Because the circuit was closed" id="SwitchesBulbsParallel-PARALLEL_SWITCH_EXPLAIN_Q1.sbj8-l2.qa42" accuracy="contradictory">
+      <token status="ok" id="tok818">Because</token>
+      <token status="ok" id="tok819">the</token>
+      <token status="ok" id="tok820">circuit</token>
+      <token status="ok" id="tok821">was</token>
+      <token status="ok" id="tok822">closed</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer296" raw_text="because bulb a was in a closed path." id="SwitchesBulbsParallel-PARALLEL_SWITCH_EXPLAIN_Q1.sbj11-l2.qa45" accuracy="partially_correct_incomplete">
+      <token status="ok" id="tok823">because</token>
+      <token status="ok" id="tok824">bulb</token>
+      <token status="ok" id="tok825">a</token>
+      <token status="ok" id="tok826">was</token>
+      <token status="ok" id="tok827">in</token>
+      <token status="ok" id="tok828">a</token>
+      <token status="ok" id="tok829">closed</token>
+      <token status="ok" id="tok830">path</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer296" raw_text="Bulb A was still in a closed path" id="SwitchesBulbsParallel-PARALLEL_SWITCH_EXPLAIN_Q1.sbj12-l2.qa46" accuracy="partially_correct_incomplete">
+      <token status="ok" id="tok780">Bulb</token>
+      <token status="ok" id="tok781">A</token>
+      <token status="ok" id="tok782">was</token>
+      <token status="ok" id="tok783">still</token>
+      <token status="ok" id="tok784">in</token>
+      <token status="ok" id="tok785">a</token>
+      <token status="ok" id="tok786">closed</token>
+      <token status="ok" id="tok787">path</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer296" raw_text="Bulb A is still connected to the battery in a closed path." id="SwitchesBulbsParallel-PARALLEL_SWITCH_EXPLAIN_Q1.sbj23-l2.qa45" accuracy="correct">
+      <token status="ok" id="tok782">Bulb</token>
+      <token status="ok" id="tok783">A</token>
+      <token status="ok" id="tok784">is</token>
+      <token status="ok" id="tok785">still</token>
+      <token status="ok" id="tok786">connected</token>
+      <token status="ok" id="tok787">to</token>
+      <token status="ok" id="tok788">the</token>
+      <token status="ok" id="tok789">battery</token>
+      <token status="ok" id="tok790">in</token>
+      <token status="ok" id="tok791">a</token>
+      <token status="ok" id="tok792">closed</token>
+      <token status="ok" id="tok793">path</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer296" raw_text="it had a closed path" id="SwitchesBulbsParallel-PARALLEL_SWITCH_EXPLAIN_Q1.sbj28-l2.qa44" accuracy="partially_correct_incomplete">
+      <token status="ok" id="tok804">it</token>
+      <token status="ok" id="tok805">had</token>
+      <token status="ok" id="tok806">a</token>
+      <token status="ok" id="tok807">closed</token>
+      <token status="ok" id="tok808">path</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer297" raw_text="Swtich Y is not on the same path as bulb A." id="SwitchesBulbsParallel-PARALLEL_SWITCH_EXPLAIN_Q1.sbj30-l2.qa50" accuracy="correct">
+      <token status="ok" id="tok920" original="Swtich">Switch</token>
+      <token status="ok" id="tok921">Y</token>
+      <token status="ok" id="tok922">is</token>
+      <token status="ok" id="tok923">not</token>
+      <token status="ok" id="tok924">on</token>
+      <token status="ok" id="tok925">the</token>
+      <token status="ok" id="tok926">same</token>
+      <token status="ok" id="tok927">path</token>
+      <token status="ok" id="tok928">as</token>
+      <token status="ok" id="tok929">bulb</token>
+      <token status="ok" id="tok930">A</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer296" raw_text="The path was closed." id="SwitchesBulbsParallel-PARALLEL_SWITCH_EXPLAIN_Q1.sbj35-l2.qa49" accuracy="partially_correct_incomplete">
+      <token status="ok" id="tok863">The</token>
+      <token status="ok" id="tok864">path</token>
+      <token status="ok" id="tok865">was</token>
+      <token status="ok" id="tok866">closed</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer296" raw_text="Bulb A is contained in a closed path," id="SwitchesBulbsParallel-PARALLEL_SWITCH_EXPLAIN_Q1.sbj35-l2.qa51" accuracy="partially_correct_incomplete">
+      <token status="ok" id="tok902">Bulb</token>
+      <token status="ok" id="tok903">A</token>
+      <token status="ok" id="tok904">is</token>
+      <token status="ok" id="tok905">contained</token>
+      <token status="ok" id="tok906">in</token>
+      <token status="ok" id="tok907">a</token>
+      <token status="ok" id="tok908">closed</token>
+      <token status="ok" id="tok909a">path</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer296" raw_text="bulb a was in a closed circuit with the battery." id="SwitchesBulbsParallel-PARALLEL_SWITCH_EXPLAIN_Q1.sbj40-l2.qa49" accuracy="contradictory">
+      <token status="ok" id="tok877">bulb</token>
+      <token status="ok" id="tok878">a</token>
+      <token status="ok" id="tok879">was</token>
+      <token status="ok" id="tok880">in</token>
+      <token status="ok" id="tok881">a</token>
+      <token status="ok" id="tok882">closed</token>
+      <token status="ok" id="tok883">circuit</token>
+      <token status="ok" id="tok884">with</token>
+      <token status="ok" id="tok885">the</token>
+      <token status="ok" id="tok886">battery</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer296" raw_text="There was still a closed circuit" id="SwitchesBulbsParallel-PARALLEL_SWITCH_EXPLAIN_Q1.sbjb2-l2.qa43" accuracy="contradictory">
+      <token status="ok" id="tok799">There</token>
+      <token status="ok" id="tok800">was</token>
+      <token status="ok" id="tok801">still</token>
+      <token status="ok" id="tok802">a</token>
+      <token status="ok" id="tok803">closed</token>
+      <token status="ok" id="tok804">circuit</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer296.1" raw_text="because Bulb a is in a closed circuit with the battery and switch z" id="SwitchesBulbsParallel-PARALLEL_SWITCH_EXPLAIN_Q1.sbjb31-l2.qa42" accuracy="contradictory">
+      <token status="ok" id="tok806">because</token>
+      <token status="ok" id="tok807">Bulb</token>
+      <token status="ok" id="tok808">a</token>
+      <token status="ok" id="tok809">is</token>
+      <token status="ok" id="tok810">in</token>
+      <token status="ok" id="tok811">a</token>
+      <token status="ok" id="tok812">closed</token>
+      <token status="ok" id="tok813">circuit</token>
+      <token status="ok" id="tok814">with</token>
+      <token status="ok" id="tok815">the</token>
+      <token status="ok" id="tok816">battery</token>
+      <token status="ok" id="tok817">and</token>
+      <token status="ok" id="tok818">switch</token>
+      <token status="ok" id="tok819">z</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer296.1" raw_text="Switch Z was the only one in the same path as bulb A" id="SwitchesBulbsParallel-PARALLEL_SWITCH_EXPLAIN_Q1.sbjb42-l2.qa42" accuracy="correct">
+      <token status="ok" id="tok780">Switch</token>
+      <token status="ok" id="tok781">Z</token>
+      <token status="ok" id="tok782">was</token>
+      <token status="ok" id="tok783">the</token>
+      <token status="ok" id="tok784">only</token>
+      <token status="ok" id="tok785">one</token>
+      <token status="ok" id="tok786">in</token>
+      <token status="ok" id="tok787">the</token>
+      <token status="ok" id="tok788">same</token>
+      <token status="ok" id="tok789">path</token>
+      <token status="ok" id="tok790">as</token>
+      <token status="ok" id="tok791">bulb</token>
+      <token status="ok" id="tok792">A</token>
+    </studentAnswer>
+  </studentAnswers>
+</question>

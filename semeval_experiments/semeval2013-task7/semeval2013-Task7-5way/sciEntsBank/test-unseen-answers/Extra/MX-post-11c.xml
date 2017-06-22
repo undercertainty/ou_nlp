@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<question testSet="unseen-answers" id="MX_11c" module="MX">
+  <questionText>Jim used a solid and water to make Mixtures one (one spoon of solid in 100 milliliters water was clear with nothing on the bottom), 3 (3 spoons of solid in 100 milliliters water was clear with nothing on the bottom), 4 (4 spoons of solid in 100 milliliters water was clear with material on the bottom), and 5 (5 spoons of solid in 100 milliliters water was clear with material on the bottom) as shown below. He stirred each one and observed the results. Is the concentration of Mixture 5 less than, greater than, or the same as the concentration of Mixture 4? Explain your answer.</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="MX_11c-a1" text="The concentrations are the same because both mixtures are saturated.">
+      <tokens>
+        <token id="MX_11c_ra1">The</token>
+        <token id="MX_11c_ra2">concentrations</token>
+        <token id="MX_11c_ra3">are</token>
+        <token id="MX_11c_ra4">the</token>
+        <token id="MX_11c_ra5">same</token>
+        <token id="MX_11c_ra6">because</token>
+        <token id="MX_11c_ra7">both</token>
+        <token id="MX_11c_ra8">mixtures</token>
+        <token id="MX_11c_ra9">are</token>
+        <token id="MX_11c_ra10">saturated</token>
+        <token id="MX_11c_ra11">.</token>
+      </tokens>
+      <facets>
+        <facet id="MX_11c_f1" govNum="MX_11c_ra2" modNum="MX_11c_ra5" reltn="Be" govText="concentrations" modText="same"/>
+        <facet id="MX_11c_f2" govNum="MX_11c_ra8" modNum="MX_11c_ra7" reltn="Quantifier" govText="mixtures" modText="both"/>
+        <facet id="MX_11c_f3" govNum="MX_11c_ra8" modNum="MX_11c_ra10" reltn="Be" govText="mixtures" modText="saturated"/>
+        <facet id="MX_11c_f4" govNum="MX_11c_ra3" modNum="MX_11c_ra9" reltn="Cause_because" childProp2Facet2="MX_11c_f2" childProp1Facet1="MX_11c_f1" govText="are" modText="are" childProp2Facet1="MX_11c_f3"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="MX.11c.304.1" answerText="Mixture 5 is greater than mixture 4, it had more solid." accuracy="contradictory">
+      <facetEntailment facetID="MX_11c_f1" label="Contra-Infr"/>
+      <facetEntailment facetID="MX_11c_f2" label="Expressed"/>
+      <facetEntailment facetID="MX_11c_f3" label="Expressed"/>
+      <facetEntailment facetID="MX_11c_f4" label="Diff-Arg"/>
+    </studentAnswer>
+    <studentAnswer id="MX.11c.385.1" answerText="The same because they are saturation and it cannot go any more." accuracy="correct">
+      <facetEntailment facetID="MX_11c_f1" label="Inferred"/>
+      <facetEntailment facetID="MX_11c_f2" label="Inferred"/>
+      <facetEntailment facetID="MX_11c_f3" label="Expressed"/>
+      <facetEntailment facetID="MX_11c_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.11c.532.1" answerText="Same because they both got something." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="MX_11c_f1" label="Inferred"/>
+      <facetEntailment facetID="MX_11c_f2" label="Expressed"/>
+      <facetEntailment facetID="MX_11c_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_11c_f4" label="Diff-Arg"/>
+    </studentAnswer>
+    <studentAnswer id="MX.11c.592.1" answerText="More because there is more solid." accuracy="contradictory">
+      <facetEntailment facetID="MX_11c_f1" label="Contra-Infr"/>
+      <facetEntailment facetID="MX_11c_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MX_11c_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_11c_f4" label="Unaddressed"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+<question testSet="unseen-answers" id="VB_42" module="VB">
+  <questionText>Don wanted to find out if a battery powered toy truck would always travel the same distance in 10 seconds no matter how heavy a load the truck carried. He placed one or more blocks (the load) in the back of the truck and recorded his results. (Each block had the same mass.) The following graph displays his results. What is the relationship between the number of blocks and the distance traveled by the truck in 10 seconds?</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="VB_42-a1" text="The more blocks the truck carries, the less distance the truck travels in 10 seconds.">
+      <tokens>
+        <token id="VB_42_ra1">The</token>
+        <token id="VB_42_ra2">more</token>
+        <token id="VB_42_ra3">blocks</token>
+        <token id="VB_42_ra4">the</token>
+        <token id="VB_42_ra5">truck</token>
+        <token id="VB_42_ra6">carries</token>
+        <token id="VB_42_ra7">,</token>
+        <token id="VB_42_ra8">the</token>
+        <token id="VB_42_ra9">less</token>
+        <token id="VB_42_ra10">distance</token>
+        <token id="VB_42_ra11">the</token>
+        <token id="VB_42_ra12">truck</token>
+        <token id="VB_42_ra13">travels</token>
+        <token id="VB_42_ra14">in</token>
+        <token id="VB_42_ra15">10</token>
+        <token id="VB_42_ra16">seconds</token>
+        <token id="VB_42_ra17">.</token>
+      </tokens>
+      <facets>
+        <facet id="VB_42_f1" govNum="VB_42_ra6" modNum="VB_42_ra5" reltn="Means" govText="carries" isAssumed="true" modText="truck"/>
+        <facet id="VB_42_f2" govNum="VB_42_ra6" modNum="VB_42_ra2" reltn="Theme" govText="carries" modText="more"/>
+        <facet id="VB_42_f3" govNum="VB_42_ra2" modNum="VB_42_ra3" reltn="NMod" govText="more" modText="blocks"/>
+        <facet id="VB_42_f4" govNum="VB_42_ra13" modNum="VB_42_ra12" reltn="Theme" govText="travels" isAssumed="true" modText="truck"/>
+        <facet id="VB_42_f5" govNum="VB_42_ra13" modNum="VB_42_ra9" reltn="Extent" govText="travels" modText="less"/>
+        <facet id="VB_42_f6" govNum="VB_42_ra9" modNum="VB_42_ra10" reltn="NMod" govText="less" modText="distance"/>
+        <facet id="VB_42_f7" govNum="VB_42_ra13" modNum="VB_42_ra15" reltn="Time_in" govText="travels" isAssumed="true" modText="10"/>
+        <facet id="VB_42_f8" govNum="VB_42_ra15" modNum="VB_42_ra16" reltn="NMod" govText="10" isAssumed="true" modText="seconds"/>
+        <facet id="VB_42_f9" govNum="VB_42_ra13" modNum="VB_42_ra6" reltn="Cause_COMMA" childProp2Facet2="VB_42_f2" childProp1Facet1="VB_42_f4" govText="travels" childProp1Facet2="VB_42_f5" modText="carries" childProp2Facet1="VB_42_f1"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="VB.42.444.1" answerText="The more blocks the less far it goes the less blocks the farther it goes." accuracy="correct">
+      <facetEntailment facetID="VB_42_f1" label="Assumed"/>
+      <facetEntailment facetID="VB_42_f2" label="Inferred"/>
+      <facetEntailment facetID="VB_42_f3" label="Expressed"/>
+      <facetEntailment facetID="VB_42_f4" label="Expressed"/>
+      <facetEntailment facetID="VB_42_f5" label="Expressed"/>
+      <facetEntailment facetID="VB_42_f6" label="Expressed"/>
+      <facetEntailment facetID="VB_42_f7" label="Assumed"/>
+      <facetEntailment facetID="VB_42_f8" label="Assumed"/>
+      <facetEntailment facetID="VB_42_f9" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="VB.42.458.1" answerText="When he had 0 blocks it went 5 meters and when he had 2 it went 3 meters when had 4 it went one meter." accuracy="correct">
+      <facetEntailment facetID="VB_42_f1" label="Assumed"/>
+      <facetEntailment facetID="VB_42_f2" label="Expressed"/>
+      <facetEntailment facetID="VB_42_f3" label="Expressed"/>
+      <facetEntailment facetID="VB_42_f4" label="Expressed"/>
+      <facetEntailment facetID="VB_42_f5" label="Expressed"/>
+      <facetEntailment facetID="VB_42_f6" label="Expressed"/>
+      <facetEntailment facetID="VB_42_f7" label="Assumed"/>
+      <facetEntailment facetID="VB_42_f8" label="Assumed"/>
+      <facetEntailment facetID="VB_42_f9" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="VB.42.495.1" answerText="The more blocks he adds the more heavier it gets so the more heavier it is the more slow distance it will go." accuracy="correct">
+      <facetEntailment facetID="VB_42_f1" label="Assumed"/>
+      <facetEntailment facetID="VB_42_f2" label="Expressed"/>
+      <facetEntailment facetID="VB_42_f3" label="Expressed"/>
+      <facetEntailment facetID="VB_42_f4" label="Expressed"/>
+      <facetEntailment facetID="VB_42_f5" label="Diff-Arg"/>
+      <facetEntailment facetID="VB_42_f6" label="Unaddressed"/>
+      <facetEntailment facetID="VB_42_f7" label="Assumed"/>
+      <facetEntailment facetID="VB_42_f8" label="Assumed"/>
+      <facetEntailment facetID="VB_42_f9" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="VB.42.506.1" answerText="The truck goes slower and slower to travel in 10 seconds." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="VB_42_f1" label="Assumed"/>
+      <facetEntailment facetID="VB_42_f2" label="Unaddressed"/>
+      <facetEntailment facetID="VB_42_f3" label="Unaddressed"/>
+      <facetEntailment facetID="VB_42_f4" label="Expressed"/>
+      <facetEntailment facetID="VB_42_f5" label="Diff-Arg"/>
+      <facetEntailment facetID="VB_42_f6" label="Unaddressed"/>
+      <facetEntailment facetID="VB_42_f7" label="Expressed"/>
+      <facetEntailment facetID="VB_42_f8" label="Expressed"/>
+      <facetEntailment facetID="VB_42_f9" label="Unaddressed"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

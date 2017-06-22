@@ -1,0 +1,627 @@
+<?xml version="1.0"?>
+<question testSet="unseen-domains" id="HB_59a" module="HB">
+  <questionText>Lee was walking his dog, Max. When a cat ran past them, Max ran after the cat, pulling Lee to the ground. What was the stimulus for Max?</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="HB_59a-a1" text="The stimulus for Max was seeing the cat.">
+      <tokens>
+        <token id="HB_59a_ra1">The</token>
+        <token id="HB_59a_ra2">stimulus</token>
+        <token id="HB_59a_ra3">for</token>
+        <token id="HB_59a_ra4">Max</token>
+        <token id="HB_59a_ra5">was</token>
+        <token id="HB_59a_ra6">seeing</token>
+        <token id="HB_59a_ra7">the</token>
+        <token id="HB_59a_ra8">cat</token>
+        <token id="HB_59a_ra9">.</token>
+      </tokens>
+      <facets>
+        <facet id="HB_59a_f1" govNum="HB_59a_ra2" modNum="HB_59a_ra4" reltn="NMod_for" govText="stimulus" isAssumed="true" modText="Max"/>
+        <facet id="HB_59a_f2" govNum="HB_59a_ra2" modNum="HB_59a_ra6" reltn="Be" govText="stimulus" modText="seeing"/>
+        <facet id="HB_59a_f3" govNum="HB_59a_ra6" modNum="HB_59a_ra4" reltn="Experiencer" govText="seeing" modText="Max"/>
+        <facet id="HB_59a_f4" govNum="HB_59a_ra6" modNum="HB_59a_ra8" reltn="Stimulus" govText="seeing" modText="cat"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="HB.59a.136.1" answerText="Getting the cat." accuracy="irrelevant">
+      <facetEntailment facetID="HB_59a_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_59a_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_59a_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_59a_f4" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.59a.138.1" answerText="Max running after the cat." accuracy="irrelevant">
+      <facetEntailment facetID="HB_59a_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_59a_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_59a_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_59a_f4" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.59a.140.1" answerText="Seeing a cat past him." accuracy="correct">
+      <facetEntailment facetID="HB_59a_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_59a_f2" label="Inferred"/>
+      <facetEntailment facetID="HB_59a_f3" label="Inferred"/>
+      <facetEntailment facetID="HB_59a_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.59a.141.1" answerText="Cat." accuracy="irrelevant">
+      <facetEntailment facetID="HB_59a_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_59a_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_59a_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_59a_f4" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.59a.142.1" answerText="The stimulus for Max was a cat running past Lee and Max." accuracy="irrelevant">
+      <facetEntailment facetID="HB_59a_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_59a_f2" label="Diff-Arg"/>
+      <facetEntailment facetID="HB_59a_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_59a_f4" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.59a.144.1" answerText="Running." accuracy="irrelevant">
+      <facetEntailment facetID="HB_59a_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_59a_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_59a_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_59a_f4" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.59a.146.1" answerText="The stimulus was when the cat came by." accuracy="irrelevant">
+      <facetEntailment facetID="HB_59a_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_59a_f2" label="Diff-Arg"/>
+      <facetEntailment facetID="HB_59a_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_59a_f4" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.59a.148.1" answerText="The cat ran past." accuracy="irrelevant">
+      <facetEntailment facetID="HB_59a_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_59a_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_59a_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_59a_f4" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.59a.150.1" answerText="When the cat ran past him." accuracy="irrelevant">
+      <facetEntailment facetID="HB_59a_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_59a_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_59a_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_59a_f4" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.59a.172.1" answerText="Vision." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_59a_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_59a_f2" label="Inferred"/>
+      <facetEntailment facetID="HB_59a_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_59a_f4" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.59a.176.1" answerText="Look at the cat." accuracy="correct">
+      <facetEntailment facetID="HB_59a_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_59a_f2" label="Inferred"/>
+      <facetEntailment facetID="HB_59a_f3" label="Inferred"/>
+      <facetEntailment facetID="HB_59a_f4" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="HB.59a.178.1" answerText="Vision." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_59a_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_59a_f2" label="Inferred"/>
+      <facetEntailment facetID="HB_59a_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_59a_f4" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.59a.179.1" answerText="Seeing the cat." accuracy="correct">
+      <facetEntailment facetID="HB_59a_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_59a_f2" label="Inferred"/>
+      <facetEntailment facetID="HB_59a_f3" label="Inferred"/>
+      <facetEntailment facetID="HB_59a_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.59a.180.1" answerText="The stimulus was vision." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_59a_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_59a_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_59a_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_59a_f4" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.59a.181.1" answerText="Max's stimulus was that a cat ran past him and he saw it so it made him chase the cat." accuracy="correct">
+      <facetEntailment facetID="HB_59a_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_59a_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_59a_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_59a_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.59a.184.1" answerText="Looking at the cat." accuracy="correct">
+      <facetEntailment facetID="HB_59a_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_59a_f2" label="Inferred"/>
+      <facetEntailment facetID="HB_59a_f3" label="Inferred"/>
+      <facetEntailment facetID="HB_59a_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.59a.207.1" answerText="He saw the cat." accuracy="correct">
+      <facetEntailment facetID="HB_59a_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_59a_f2" label="Inferred"/>
+      <facetEntailment facetID="HB_59a_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_59a_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.59a.214.1" answerText="When Lee was walking her dog Max, the dog ran after the cat." accuracy="irrelevant">
+      <facetEntailment facetID="HB_59a_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_59a_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_59a_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_59a_f4" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.59a.215.1" answerText="He saw the cat." accuracy="correct">
+      <facetEntailment facetID="HB_59a_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_59a_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_59a_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_59a_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.59a.216.1" answerText="A cat passed him." accuracy="irrelevant">
+      <facetEntailment facetID="HB_59a_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_59a_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_59a_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_59a_f4" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.59a.219.1" answerText="He saw the cat." accuracy="correct">
+      <facetEntailment facetID="HB_59a_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_59a_f2" label="Inferred"/>
+      <facetEntailment facetID="HB_59a_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_59a_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.59a.243.1" answerText="The stimulus for Max is the cat ran past him." accuracy="irrelevant">
+      <facetEntailment facetID="HB_59a_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_59a_f2" label="Diff-Arg"/>
+      <facetEntailment facetID="HB_59a_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_59a_f4" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.59a.244.1" answerText="The stimulus was the dog pulling Lee to the ground." accuracy="irrelevant">
+      <facetEntailment facetID="HB_59a_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_59a_f2" label="Diff-Arg"/>
+      <facetEntailment facetID="HB_59a_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_59a_f4" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.59a.246.1" answerText="A cat ran past them." accuracy="irrelevant">
+      <facetEntailment facetID="HB_59a_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_59a_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_59a_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_59a_f4" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="HB.59a.248.1" answerText="The cat ran by him so he responded." accuracy="irrelevant">
+      <facetEntailment facetID="HB_59a_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_59a_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_59a_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_59a_f4" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.59a.249.1" answerText="A cat went by the dog." accuracy="irrelevant">
+      <facetEntailment facetID="HB_59a_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_59a_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_59a_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_59a_f4" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.59a.251.1" answerText="The stimulus for Max is the cat running across." accuracy="irrelevant">
+      <facetEntailment facetID="HB_59a_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_59a_f2" label="Diff-Arg"/>
+      <facetEntailment facetID="HB_59a_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_59a_f4" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.59a.259.1" answerText="Max stimulus was getting that cat." accuracy="irrelevant">
+      <facetEntailment facetID="HB_59a_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_59a_f2" label="Diff-Arg"/>
+      <facetEntailment facetID="HB_59a_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_59a_f4" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.59a.268.1" answerText="He could see the cat." accuracy="correct">
+      <facetEntailment facetID="HB_59a_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_59a_f2" label="Inferred"/>
+      <facetEntailment facetID="HB_59a_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_59a_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.59a.278.1" answerText="The stimulus was when the cat ran by." accuracy="correct">
+      <facetEntailment facetID="HB_59a_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_59a_f2" label="Inferred"/>
+      <facetEntailment facetID="HB_59a_f3" label="Inferred"/>
+      <facetEntailment facetID="HB_59a_f4" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="HB.59a.281.1" answerText="Him walking." accuracy="irrelevant">
+      <facetEntailment facetID="HB_59a_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_59a_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_59a_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_59a_f4" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.59a.284.1" answerText="To see the cat." accuracy="correct">
+      <facetEntailment facetID="HB_59a_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_59a_f2" label="Inferred"/>
+      <facetEntailment facetID="HB_59a_f3" label="Inferred"/>
+      <facetEntailment facetID="HB_59a_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.59a.285.1" answerText="The cat running by." accuracy="irrelevant">
+      <facetEntailment facetID="HB_59a_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_59a_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_59a_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_59a_f4" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.59a.286.1" answerText="Max chasing the cat." accuracy="irrelevant">
+      <facetEntailment facetID="HB_59a_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_59a_f2" label="Diff-Arg"/>
+      <facetEntailment facetID="HB_59a_f3" label="Inferred"/>
+      <facetEntailment facetID="HB_59a_f4" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="HB.59a.291.1" answerText="To chase the cat." accuracy="irrelevant">
+      <facetEntailment facetID="HB_59a_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_59a_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_59a_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_59a_f4" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.59a.293.1" answerText="Seeing the cat." accuracy="correct">
+      <facetEntailment facetID="HB_59a_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_59a_f2" label="Inferred"/>
+      <facetEntailment facetID="HB_59a_f3" label="Inferred"/>
+      <facetEntailment facetID="HB_59a_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.59a.313.1" answerText="The stimulus was that Max saw the cat." accuracy="correct">
+      <facetEntailment facetID="HB_59a_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_59a_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_59a_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_59a_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.59a.315.1" answerText="The stimulus is a trigger for the Max." accuracy="irrelevant">
+      <facetEntailment facetID="HB_59a_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_59a_f2" label="Diff-Arg"/>
+      <facetEntailment facetID="HB_59a_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_59a_f4" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.59a.316.1" answerText="The stimulus was that run after the cat." accuracy="irrelevant">
+      <facetEntailment facetID="HB_59a_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_59a_f2" label="Diff-Arg"/>
+      <facetEntailment facetID="HB_59a_f3" label="Inferred"/>
+      <facetEntailment facetID="HB_59a_f4" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="HB.59a.318.1" answerText="The stimulus is that Max saw the cat." accuracy="correct">
+      <facetEntailment facetID="HB_59a_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_59a_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_59a_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_59a_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.59a.319.1" answerText="The stimulus for Max was sight." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_59a_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_59a_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_59a_f3" label="Inferred"/>
+      <facetEntailment facetID="HB_59a_f4" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.59a.324.1" answerText="Stimulus is the cat running by." accuracy="irrelevant">
+      <facetEntailment facetID="HB_59a_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_59a_f2" label="Diff-Arg"/>
+      <facetEntailment facetID="HB_59a_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_59a_f4" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.59a.328.1" answerText="The stimulus for Max was the cat running past them." accuracy="irrelevant">
+      <facetEntailment facetID="HB_59a_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_59a_f2" label="Diff-Arg"/>
+      <facetEntailment facetID="HB_59a_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_59a_f4" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.59a.330.1" answerText="The stimulus was the cat running past them." accuracy="irrelevant">
+      <facetEntailment facetID="HB_59a_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_59a_f2" label="Diff-Arg"/>
+      <facetEntailment facetID="HB_59a_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_59a_f4" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.59a.348.1" answerText="Max saw the dog run past him." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_59a_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_59a_f2" label="Inferred"/>
+      <facetEntailment facetID="HB_59a_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_59a_f4" label="Diff-Arg"/>
+    </studentAnswer>
+    <studentAnswer id="HB.59a.350.1" answerText="Dragging Lee to the ground." accuracy="irrelevant">
+      <facetEntailment facetID="HB_59a_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_59a_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_59a_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_59a_f4" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.59a.353.1" answerText="The stimulus for Max is pulling Lee to the ground." accuracy="irrelevant">
+      <facetEntailment facetID="HB_59a_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_59a_f2" label="Diff-Arg"/>
+      <facetEntailment facetID="HB_59a_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_59a_f4" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.59a.356.1" answerText="He saw the cat." accuracy="correct">
+      <facetEntailment facetID="HB_59a_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_59a_f2" label="Inferred"/>
+      <facetEntailment facetID="HB_59a_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_59a_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.59a.357.1" answerText="The stimulus of Max was seeing the cat." accuracy="correct">
+      <facetEntailment facetID="HB_59a_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_59a_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_59a_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_59a_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.59a.361.1" answerText="Seeing the cat run past him." accuracy="correct">
+      <facetEntailment facetID="HB_59a_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_59a_f2" label="Inferred"/>
+      <facetEntailment facetID="HB_59a_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_59a_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.59a.362.1" answerText="Sight." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_59a_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_59a_f2" label="Inferred"/>
+      <facetEntailment facetID="HB_59a_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_59a_f4" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.59a.364.1" answerText="Max's stimulus is seeing the cat run by." accuracy="correct">
+      <facetEntailment facetID="HB_59a_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_59a_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_59a_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_59a_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.59a.365.1" answerText="To see the cat." accuracy="correct">
+      <facetEntailment facetID="HB_59a_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_59a_f2" label="Inferred"/>
+      <facetEntailment facetID="HB_59a_f3" label="Inferred"/>
+      <facetEntailment facetID="HB_59a_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.59a.366.1" answerText="Seeing the cat running by." accuracy="correct">
+      <facetEntailment facetID="HB_59a_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_59a_f2" label="Inferred"/>
+      <facetEntailment facetID="HB_59a_f3" label="Inferred"/>
+      <facetEntailment facetID="HB_59a_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.59a.387.1" answerText="The stimulus was falling." accuracy="irrelevant">
+      <facetEntailment facetID="HB_59a_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_59a_f2" label="Diff-Arg"/>
+      <facetEntailment facetID="HB_59a_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_59a_f4" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.59a.389.1" answerText="Run." accuracy="irrelevant">
+      <facetEntailment facetID="HB_59a_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_59a_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_59a_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_59a_f4" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.59a.391.1" answerText="Max's stimulus was when he saw the cat." accuracy="correct">
+      <facetEntailment facetID="HB_59a_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_59a_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_59a_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_59a_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.59a.422.1" answerText="The stimulus was sight." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_59a_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_59a_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_59a_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_59a_f4" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.59a.423.1" answerText="The stimulus to Max's reaction is sight and smell." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_59a_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_59a_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_59a_f3" label="Inferred"/>
+      <facetEntailment facetID="HB_59a_f4" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.59a.428.1" answerText="The cat because dogs hate cats." accuracy="irrelevant">
+      <facetEntailment facetID="HB_59a_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_59a_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_59a_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_59a_f4" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.59a.432.1" answerText="A can ran by Lee and Max." accuracy="irrelevant">
+      <facetEntailment facetID="HB_59a_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_59a_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_59a_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_59a_f4" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.59a.435.1" answerText="He sees the cat." accuracy="correct">
+      <facetEntailment facetID="HB_59a_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_59a_f2" label="Inferred"/>
+      <facetEntailment facetID="HB_59a_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_59a_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.59a.451.1" answerText="Max's vision is the stimulus to catch the cat." accuracy="correct">
+      <facetEntailment facetID="HB_59a_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_59a_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_59a_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_59a_f4" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="HB.59a.461.1" answerText="Seeing the cat." accuracy="correct">
+      <facetEntailment facetID="HB_59a_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_59a_f2" label="Inferred"/>
+      <facetEntailment facetID="HB_59a_f3" label="Inferred"/>
+      <facetEntailment facetID="HB_59a_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.59a.462.1" answerText="I think the stimulus for Max was vision." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_59a_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_59a_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_59a_f3" label="Inferred"/>
+      <facetEntailment facetID="HB_59a_f4" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.59a.470.1" answerText="Seeing a cat run past him." accuracy="correct">
+      <facetEntailment facetID="HB_59a_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_59a_f2" label="Inferred"/>
+      <facetEntailment facetID="HB_59a_f3" label="Inferred"/>
+      <facetEntailment facetID="HB_59a_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.59a.471.1" answerText="Max saw the cat running across the street." accuracy="correct">
+      <facetEntailment facetID="HB_59a_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_59a_f2" label="Inferred"/>
+      <facetEntailment facetID="HB_59a_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_59a_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.59a.492.1" answerText="The stimulus is vision." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_59a_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_59a_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_59a_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_59a_f4" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.59a.496.1" answerText="The cat ran past Max." accuracy="irrelevant">
+      <facetEntailment facetID="HB_59a_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_59a_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_59a_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_59a_f4" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.59a.498.1" answerText="Vision - seeing the cat run by." accuracy="correct">
+      <facetEntailment facetID="HB_59a_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_59a_f2" label="Inferred"/>
+      <facetEntailment facetID="HB_59a_f3" label="Inferred"/>
+      <facetEntailment facetID="HB_59a_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.59a.505.1" answerText="The stimulus for Max is the cat running past Max and Lee." accuracy="irrelevant">
+      <facetEntailment facetID="HB_59a_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_59a_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_59a_f3" label="Inferred"/>
+      <facetEntailment facetID="HB_59a_f4" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="HB.59a.523.1" answerText="The cat ran past Max." accuracy="irrelevant">
+      <facetEntailment facetID="HB_59a_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_59a_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_59a_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_59a_f4" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.59a.524.1" answerText="A cat ran past Lee and his dog Max was on a leash." accuracy="irrelevant">
+      <facetEntailment facetID="HB_59a_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_59a_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_59a_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_59a_f4" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.59a.528.1" answerText="The cat running past them." accuracy="irrelevant">
+      <facetEntailment facetID="HB_59a_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_59a_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_59a_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_59a_f4" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.59a.530.1" answerText="Being fast." accuracy="irrelevant">
+      <facetEntailment facetID="HB_59a_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_59a_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_59a_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_59a_f4" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.59a.537.1" answerText="Lee was walking his dog when a cat ran past them." accuracy="irrelevant">
+      <facetEntailment facetID="HB_59a_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_59a_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_59a_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_59a_f4" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.59a.545.1" answerText="Max saw the cat and ran after the cat." accuracy="correct">
+      <facetEntailment facetID="HB_59a_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_59a_f2" label="Inferred"/>
+      <facetEntailment facetID="HB_59a_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_59a_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.59a.568.1" answerText="I think Max's stimulus was that a cat walked past him." accuracy="irrelevant">
+      <facetEntailment facetID="HB_59a_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_59a_f2" label="Diff-Arg"/>
+      <facetEntailment facetID="HB_59a_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_59a_f4" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.59a.571.1" answerText="I think Max's response was run after the cat." accuracy="irrelevant">
+      <facetEntailment facetID="HB_59a_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_59a_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_59a_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_59a_f4" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.59a.572.1" answerText="Max's stimulus is seeing the cat." accuracy="correct">
+      <facetEntailment facetID="HB_59a_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_59a_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_59a_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_59a_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.59a.575.1" answerText="Max used vision to see the cat." accuracy="correct">
+      <facetEntailment facetID="HB_59a_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_59a_f2" label="Inferred"/>
+      <facetEntailment facetID="HB_59a_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_59a_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.59a.578.1" answerText="He smelled the cat running by. The dog had probably chased the cat." accuracy="irrelevant">
+      <facetEntailment facetID="HB_59a_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_59a_f2" label="Diff-Arg"/>
+      <facetEntailment facetID="HB_59a_f3" label="Diff-Arg"/>
+      <facetEntailment facetID="HB_59a_f4" label="Diff-Arg"/>
+    </studentAnswer>
+    <studentAnswer id="HB.59a.594.1" answerText="It was for Max to run away." accuracy="irrelevant">
+      <facetEntailment facetID="HB_59a_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_59a_f2" label="Diff-Arg"/>
+      <facetEntailment facetID="HB_59a_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_59a_f4" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.59a.605.1" answerText="Chasing the cat looking at the cat, The cat walking in front of the dog." accuracy="correct">
+      <facetEntailment facetID="HB_59a_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_59a_f2" label="Inferred"/>
+      <facetEntailment facetID="HB_59a_f3" label="Inferred"/>
+      <facetEntailment facetID="HB_59a_f4" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="HB.59a.607.1" answerText="The stimulus for Max was vision." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_59a_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_59a_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_59a_f3" label="Inferred"/>
+      <facetEntailment facetID="HB_59a_f4" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.59a.610.1" answerText="The stimulus is vision or seen." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_59a_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_59a_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_59a_f3" label="Inferred"/>
+      <facetEntailment facetID="HB_59a_f4" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.59a.613.1" answerText="The stimulus for Max was seeing." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_59a_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_59a_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_59a_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_59a_f4" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.59a.614.1" answerText="The stimulus for Max was sight because Max spotted the cat." accuracy="correct">
+      <facetEntailment facetID="HB_59a_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_59a_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_59a_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_59a_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.59a.626.1" answerText="The stimulus for Max was to go after the cat." accuracy="irrelevant">
+      <facetEntailment facetID="HB_59a_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_59a_f2" label="Diff-Arg"/>
+      <facetEntailment facetID="HB_59a_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_59a_f4" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.59a.629.1" answerText="Max saw the cat." accuracy="correct">
+      <facetEntailment facetID="HB_59a_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_59a_f2" label="Inferred"/>
+      <facetEntailment facetID="HB_59a_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_59a_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.59a.630.1" answerText="He saw cat." accuracy="correct">
+      <facetEntailment facetID="HB_59a_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_59a_f2" label="Inferred"/>
+      <facetEntailment facetID="HB_59a_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_59a_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.59a.633.1" answerText="Max's stimulus is sight." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_59a_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_59a_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_59a_f3" label="Inferred"/>
+      <facetEntailment facetID="HB_59a_f4" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.59a.637.1" answerText="Max's brain gave a message that could make Max pull down Lee." accuracy="irrelevant">
+      <facetEntailment facetID="HB_59a_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_59a_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_59a_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_59a_f4" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.59a.645.1" answerText="The stimulus for Max was seeing the cat." accuracy="correct">
+      <facetEntailment facetID="HB_59a_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_59a_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_59a_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_59a_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.59a.650.1" answerText="The stimulus of Max was seeing the cat." accuracy="correct">
+      <facetEntailment facetID="HB_59a_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_59a_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_59a_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_59a_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.59a.652.1" answerText="To catch the cat went past the dog and Max." accuracy="irrelevant">
+      <facetEntailment facetID="HB_59a_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_59a_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_59a_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_59a_f4" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.59a.976.1" answerText="Max stimulus was running after the cat." accuracy="irrelevant">
+      <facetEntailment facetID="HB_59a_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_59a_f2" label="Diff-Arg"/>
+      <facetEntailment facetID="HB_59a_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_59a_f4" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.59a.981.1" answerText="He is going to catch the cat." accuracy="irrelevant">
+      <facetEntailment facetID="HB_59a_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_59a_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_59a_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_59a_f4" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.59a.990.1" answerText="Touch." accuracy="irrelevant">
+      <facetEntailment facetID="HB_59a_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_59a_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_59a_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_59a_f4" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.59a.992.1" answerText="The stimulus for Max was when the cat ran by." accuracy="irrelevant">
+      <facetEntailment facetID="HB_59a_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_59a_f2" label="Diff-Arg"/>
+      <facetEntailment facetID="HB_59a_f3" label="Unaddressed"/>
+      <facetEntailment facetID="HB_59a_f4" label="Unaddressed"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

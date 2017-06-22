@@ -1,0 +1,521 @@
+<?xml version="1.0"?>
+<question id="EM_21b" module="EM">
+  <questionText>Georgia found one brown mineral and one black mineral. How will she know which one is harder?</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="EM_21b-a1" text="The harder mineral will leave a scratch on the less hard mineral. If the black mineral is harder, the brown mineral will have a scratch.">
+      <tokens>
+        <token id="EM_21b_ra1">The</token>
+        <token id="EM_21b_ra2">harder</token>
+        <token id="EM_21b_ra3">mineral</token>
+        <token id="EM_21b_ra4">will</token>
+        <token id="EM_21b_ra5">leave</token>
+        <token id="EM_21b_ra6">a</token>
+        <token id="EM_21b_ra7">scratch</token>
+        <token id="EM_21b_ra8">on</token>
+        <token id="EM_21b_ra9">the</token>
+        <token id="EM_21b_ra10">less</token>
+        <token id="EM_21b_ra11">hard</token>
+        <token id="EM_21b_ra12">mineral</token>
+        <token id="EM_21b_ra13">.</token>
+        <token id="EM_21b_ra14">If</token>
+        <token id="EM_21b_ra15">the</token>
+        <token id="EM_21b_ra16">black</token>
+        <token id="EM_21b_ra17">mineral</token>
+        <token id="EM_21b_ra18">is</token>
+        <token id="EM_21b_ra19">harder</token>
+        <token id="EM_21b_ra20">,</token>
+        <token id="EM_21b_ra21">the</token>
+        <token id="EM_21b_ra22">brown</token>
+        <token id="EM_21b_ra23">mineral</token>
+        <token id="EM_21b_ra24">will</token>
+        <token id="EM_21b_ra25">have</token>
+        <token id="EM_21b_ra26">a</token>
+        <token id="EM_21b_ra27">scratch</token>
+        <token id="EM_21b_ra28">.</token>
+      </tokens>
+      <facets>
+        <facet id="EM_21b_f1" govNum="EM_21b_ra3" modNum="EM_21b_ra2" reltn="NMod" govText="mineral" isAssumed="true" modText="harder"/>
+        <facet id="EM_21b_f2" govNum="EM_21b_ra5" modNum="EM_21b_ra3" reltn="Instrument" govText="leave" modText="mineral"/>
+        <facet id="EM_21b_f3" govNum="EM_21b_ra5" modNum="EM_21b_ra7" reltn="Theme" govText="leave" modText="scratch"/>
+        <facet id="EM_21b_f4" govNum="EM_21b_ra7" modNum="EM_21b_ra12" reltn="Location_on" govText="scratch" modText="mineral"/>
+        <facet id="EM_21b_f5" govNum="EM_21b_ra12" modNum="EM_21b_ra11" reltn="NMod" govText="mineral" isAssumed="true" modText="hard"/>
+        <facet id="EM_21b_f6" govNum="EM_21b_ra11" modNum="EM_21b_ra10" reltn="AMod" govText="hard" isAssumed="true" modText="less"/>
+        <facet id="EM_21b_f7" govNum="EM_21b_ra17" modNum="EM_21b_ra16" reltn="NMod" govText="mineral" isAssumed="true" modText="black"/>
+        <facet id="EM_21b_f8" govNum="EM_21b_ra17" modNum="EM_21b_ra19" reltn="Be" govText="mineral" isAssumed="true" modText="harder"/>
+        <facet id="EM_21b_f9" govNum="EM_21b_ra23" modNum="EM_21b_ra22" reltn="NMod" govText="mineral" isAssumed="true" modText="brown"/>
+        <facet id="EM_21b_f10" govNum="EM_21b_ra23" modNum="EM_21b_ra27" reltn="Have" govText="mineral" modText="scratch"/>
+        <facet id="EM_21b_f11" govNum="EM_21b_ra25" modNum="EM_21b_ra18" reltn="Cause_if" childProp1Facet1="EM_21b_f10" govText="have" isAssumed="true" modText="is" childProp2Facet1="EM_21b_f8"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="EM.21b.101.1" answerText="Because whichever one scratches is the hardest." accuracy="correct">
+      <facetEntailment facetID="EM_21b_f1" label="Expressed"/>
+      <facetEntailment facetID="EM_21b_f2" label="Expressed"/>
+      <facetEntailment facetID="EM_21b_f3" label="Expressed"/>
+      <facetEntailment facetID="EM_21b_f4" label="Inferred"/>
+      <facetEntailment facetID="EM_21b_f5" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f6" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f7" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f8" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f9" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f10" label="Inferred"/>
+      <facetEntailment facetID="EM_21b_f11" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.21b.108.1" answerText="Which one makes a deeper scratch." accuracy="correct">
+      <facetEntailment facetID="EM_21b_f1" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f2" label="Expressed"/>
+      <facetEntailment facetID="EM_21b_f3" label="Expressed"/>
+      <facetEntailment facetID="EM_21b_f4" label="Expressed"/>
+      <facetEntailment facetID="EM_21b_f5" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f6" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f7" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f8" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f9" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f10" label="Inferred"/>
+      <facetEntailment facetID="EM_21b_f11" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.21b.115.1" answerText="The other one that did not break is the hardest." accuracy="irrelevant">
+      <facetEntailment facetID="EM_21b_f1" label="Expressed"/>
+      <facetEntailment facetID="EM_21b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="EM_21b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="EM_21b_f4" label="Diff-Arg"/>
+      <facetEntailment facetID="EM_21b_f5" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f6" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f7" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f8" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f9" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f10" label="Unaddressed"/>
+      <facetEntailment facetID="EM_21b_f11" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.21b.121.1" answerText="See which one scratched the other." accuracy="correct">
+      <facetEntailment facetID="EM_21b_f1" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f2" label="Inferred"/>
+      <facetEntailment facetID="EM_21b_f3" label="Expressed"/>
+      <facetEntailment facetID="EM_21b_f4" label="Expressed"/>
+      <facetEntailment facetID="EM_21b_f5" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f6" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f7" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f8" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f9" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f10" label="Inferred"/>
+      <facetEntailment facetID="EM_21b_f11" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.21b.148.1" answerText="One will scratch the other one. She should rub the scratch, too. That way she knows if it is a scratch or dust from the other mineral." accuracy="correct">
+      <facetEntailment facetID="EM_21b_f1" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f2" label="Expressed"/>
+      <facetEntailment facetID="EM_21b_f3" label="Expressed"/>
+      <facetEntailment facetID="EM_21b_f4" label="Expressed"/>
+      <facetEntailment facetID="EM_21b_f5" label="Expressed"/>
+      <facetEntailment facetID="EM_21b_f6" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f7" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f8" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f9" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f10" label="Inferred"/>
+      <facetEntailment facetID="EM_21b_f11" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.21b.149.1" answerText="First you take the black mineral and rub it against the brown mineral. Then see if you can wipe off the mark and if you can the brown one is harder and if you cannot the black one is harder." accuracy="correct">
+      <facetEntailment facetID="EM_21b_f1" label="Expressed"/>
+      <facetEntailment facetID="EM_21b_f2" label="Inferred"/>
+      <facetEntailment facetID="EM_21b_f3" label="Inferred"/>
+      <facetEntailment facetID="EM_21b_f4" label="Inferred"/>
+      <facetEntailment facetID="EM_21b_f5" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f6" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f7" label="Expressed"/>
+      <facetEntailment facetID="EM_21b_f8" label="Expressed"/>
+      <facetEntailment facetID="EM_21b_f9" label="Expressed"/>
+      <facetEntailment facetID="EM_21b_f10" label="Inferred"/>
+      <facetEntailment facetID="EM_21b_f11" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.21b.155.1" answerText="She can rub the scratch. If it goes away, the black one is harder. If it stays there, the brown one is harder." accuracy="correct">
+      <facetEntailment facetID="EM_21b_f1" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f2" label="Inferred"/>
+      <facetEntailment facetID="EM_21b_f3" label="Inferred"/>
+      <facetEntailment facetID="EM_21b_f4" label="Expressed"/>
+      <facetEntailment facetID="EM_21b_f5" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f6" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f7" label="Expressed"/>
+      <facetEntailment facetID="EM_21b_f8" label="Expressed"/>
+      <facetEntailment facetID="EM_21b_f9" label="Expressed"/>
+      <facetEntailment facetID="EM_21b_f10" label="Inferred"/>
+      <facetEntailment facetID="EM_21b_f11" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.21b.174.1" answerText="The one with scratches or deeper scratches is weaker and the other rock is harder." accuracy="correct">
+      <facetEntailment facetID="EM_21b_f1" label="Expressed"/>
+      <facetEntailment facetID="EM_21b_f2" label="Expressed"/>
+      <facetEntailment facetID="EM_21b_f3" label="Inferred"/>
+      <facetEntailment facetID="EM_21b_f4" label="Expressed"/>
+      <facetEntailment facetID="EM_21b_f5" label="Expressed"/>
+      <facetEntailment facetID="EM_21b_f6" label="Expressed"/>
+      <facetEntailment facetID="EM_21b_f7" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f8" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f9" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f10" label="Inferred"/>
+      <facetEntailment facetID="EM_21b_f11" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.21b.178.1" answerText="When she rubs them together and the other one breaks the one that did not break is the hardest." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EM_21b_f1" label="Expressed"/>
+      <facetEntailment facetID="EM_21b_f2" label="Inferred"/>
+      <facetEntailment facetID="EM_21b_f3" label="Diff-Arg"/>
+      <facetEntailment facetID="EM_21b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="EM_21b_f5" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f6" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f7" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f8" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f9" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f10" label="Diff-Arg"/>
+      <facetEntailment facetID="EM_21b_f11" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.21b.189.1" answerText="Because it will break." accuracy="irrelevant">
+      <facetEntailment facetID="EM_21b_f1" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="EM_21b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="EM_21b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="EM_21b_f5" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f6" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f7" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f8" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f9" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f10" label="Unaddressed"/>
+      <facetEntailment facetID="EM_21b_f11" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.21b.206.1" answerText="Scratch test." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EM_21b_f1" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="EM_21b_f3" label="Inferred"/>
+      <facetEntailment facetID="EM_21b_f4" label="Inferred"/>
+      <facetEntailment facetID="EM_21b_f5" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f6" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f7" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f8" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f9" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f10" label="Unaddressed"/>
+      <facetEntailment facetID="EM_21b_f11" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.21b.214.1" answerText="The harder mineral will scratch the color off of the softer one." accuracy="correct">
+      <facetEntailment facetID="EM_21b_f1" label="Expressed"/>
+      <facetEntailment facetID="EM_21b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="EM_21b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="EM_21b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="EM_21b_f5" label="Expressed"/>
+      <facetEntailment facetID="EM_21b_f6" label="Expressed"/>
+      <facetEntailment facetID="EM_21b_f7" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f8" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f9" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f10" label="Inferred"/>
+      <facetEntailment facetID="EM_21b_f11" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.21b.223.1" answerText="The one that make a mark. She should also see if stuff comes off when she scratches it." accuracy="correct">
+      <facetEntailment facetID="EM_21b_f1" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f2" label="Inferred"/>
+      <facetEntailment facetID="EM_21b_f3" label="Expressed"/>
+      <facetEntailment facetID="EM_21b_f4" label="Inferred"/>
+      <facetEntailment facetID="EM_21b_f5" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f6" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f7" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f8" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f9" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f10" label="Inferred"/>
+      <facetEntailment facetID="EM_21b_f11" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.21b.226.1" answerText="If she does scratch one on the other and one gets a mark that you can to rub off. Then you know the other one is harder." accuracy="correct">
+      <facetEntailment facetID="EM_21b_f1" label="Expressed"/>
+      <facetEntailment facetID="EM_21b_f2" label="Expressed"/>
+      <facetEntailment facetID="EM_21b_f3" label="Expressed"/>
+      <facetEntailment facetID="EM_21b_f4" label="Expressed"/>
+      <facetEntailment facetID="EM_21b_f5" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f6" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f7" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f8" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f9" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f10" label="Inferred"/>
+      <facetEntailment facetID="EM_21b_f11" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.21b.242.1" answerText="A penny." accuracy="irrelevant">
+      <facetEntailment facetID="EM_21b_f1" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="EM_21b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="EM_21b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="EM_21b_f5" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f6" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f7" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f8" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f9" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f10" label="Unaddressed"/>
+      <facetEntailment facetID="EM_21b_f11" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.21b.248.1" answerText="The one with a scratch." accuracy="contradictory">
+      <facetEntailment facetID="EM_21b_f1" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f2" label="Contra-Infr"/>
+      <facetEntailment facetID="EM_21b_f3" label="Contra-Infr"/>
+      <facetEntailment facetID="EM_21b_f4" label="Expressed"/>
+      <facetEntailment facetID="EM_21b_f5" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f6" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f7" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f8" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f9" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f10" label="Contra-Infr"/>
+      <facetEntailment facetID="EM_21b_f11" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.21b.251.1" answerText="The mineral with no scratch is the hardest because the other one could not scratch it." accuracy="correct">
+      <facetEntailment facetID="EM_21b_f1" label="Expressed"/>
+      <facetEntailment facetID="EM_21b_f2" label="Inferred"/>
+      <facetEntailment facetID="EM_21b_f3" label="Inferred"/>
+      <facetEntailment facetID="EM_21b_f4" label="Expressed"/>
+      <facetEntailment facetID="EM_21b_f5" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f6" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f7" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f8" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f9" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f10" label="Inferred"/>
+      <facetEntailment facetID="EM_21b_f11" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.21b.258.1" answerText="The one that scratches the other." accuracy="correct">
+      <facetEntailment facetID="EM_21b_f1" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f2" label="Inferred"/>
+      <facetEntailment facetID="EM_21b_f3" label="Expressed"/>
+      <facetEntailment facetID="EM_21b_f4" label="Expressed"/>
+      <facetEntailment facetID="EM_21b_f5" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f6" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f7" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f8" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f9" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f10" label="Inferred"/>
+      <facetEntailment facetID="EM_21b_f11" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.21b.259.1" answerText="Whichever one gets scratched is the softest." accuracy="correct">
+      <facetEntailment facetID="EM_21b_f1" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f2" label="Inferred"/>
+      <facetEntailment facetID="EM_21b_f3" label="Expressed"/>
+      <facetEntailment facetID="EM_21b_f4" label="Expressed"/>
+      <facetEntailment facetID="EM_21b_f5" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f6" label="Expressed"/>
+      <facetEntailment facetID="EM_21b_f7" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f8" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f9" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f10" label="Inferred"/>
+      <facetEntailment facetID="EM_21b_f11" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.21b.260.1" answerText="Whichever one got scratched." accuracy="contradictory">
+      <facetEntailment facetID="EM_21b_f1" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f2" label="Contra-Infr"/>
+      <facetEntailment facetID="EM_21b_f3" label="Contra-Infr"/>
+      <facetEntailment facetID="EM_21b_f4" label="Expressed"/>
+      <facetEntailment facetID="EM_21b_f5" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f6" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f7" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f8" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f9" label="Contra-Infr"/>
+      <facetEntailment facetID="EM_21b_f10" label="Inferred"/>
+      <facetEntailment facetID="EM_21b_f11" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.21b.279.1" answerText="Scratch them together." accuracy="correct">
+      <facetEntailment facetID="EM_21b_f1" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f2" label="Inferred"/>
+      <facetEntailment facetID="EM_21b_f3" label="Expressed"/>
+      <facetEntailment facetID="EM_21b_f4" label="Inferred"/>
+      <facetEntailment facetID="EM_21b_f5" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f6" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f7" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f8" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f9" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f10" label="Inferred"/>
+      <facetEntailment facetID="EM_21b_f11" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.21b.284.1" answerText="Whichever one that has more scratches." accuracy="contradictory">
+      <facetEntailment facetID="EM_21b_f1" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f2" label="Contra-Infr"/>
+      <facetEntailment facetID="EM_21b_f3" label="Contra-Infr"/>
+      <facetEntailment facetID="EM_21b_f4" label="Expressed"/>
+      <facetEntailment facetID="EM_21b_f5" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f6" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f7" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f8" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f9" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f10" label="Inferred"/>
+      <facetEntailment facetID="EM_21b_f11" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.21b.314.1" answerText="Because maybe something will come off." accuracy="irrelevant">
+      <facetEntailment facetID="EM_21b_f1" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="EM_21b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="EM_21b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="EM_21b_f5" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f6" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f7" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f8" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f9" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f10" label="Unaddressed"/>
+      <facetEntailment facetID="EM_21b_f11" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.21b.319.1" answerText="The one that does not break." accuracy="irrelevant">
+      <facetEntailment facetID="EM_21b_f1" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="EM_21b_f3" label="Diff-Arg"/>
+      <facetEntailment facetID="EM_21b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="EM_21b_f5" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f6" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f7" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f8" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f9" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f10" label="Unaddressed"/>
+      <facetEntailment facetID="EM_21b_f11" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.21b.322.1" answerText="By rubbing them together whichever one the chalky stuff comes off of is the hardness." accuracy="contradictory">
+      <facetEntailment facetID="EM_21b_f1" label="Diff-Arg"/>
+      <facetEntailment facetID="EM_21b_f2" label="Contra-Infr"/>
+      <facetEntailment facetID="EM_21b_f3" label="Contra-Infr"/>
+      <facetEntailment facetID="EM_21b_f4" label="Inferred"/>
+      <facetEntailment facetID="EM_21b_f5" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f6" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f7" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f8" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f9" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f10" label="Inferred"/>
+      <facetEntailment facetID="EM_21b_f11" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.21b.323.1" answerText="The skin of the saltiest will come off." accuracy="irrelevant">
+      <facetEntailment facetID="EM_21b_f1" label="Diff-Arg"/>
+      <facetEntailment facetID="EM_21b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="EM_21b_f3" label="Diff-Arg"/>
+      <facetEntailment facetID="EM_21b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="EM_21b_f5" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f6" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f7" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f8" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f9" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f10" label="Unaddressed"/>
+      <facetEntailment facetID="EM_21b_f11" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.21b.349.1" answerText="The one that does not have a scratch." accuracy="correct">
+      <facetEntailment facetID="EM_21b_f1" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f2" label="Inferred"/>
+      <facetEntailment facetID="EM_21b_f3" label="Inferred"/>
+      <facetEntailment facetID="EM_21b_f4" label="Expressed"/>
+      <facetEntailment facetID="EM_21b_f5" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f6" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f7" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f8" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f9" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f10" label="Inferred"/>
+      <facetEntailment facetID="EM_21b_f11" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.21b.358.1" answerText="The one who resists is the hardest." accuracy="irrelevant">
+      <facetEntailment facetID="EM_21b_f1" label="Expressed"/>
+      <facetEntailment facetID="EM_21b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="EM_21b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="EM_21b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="EM_21b_f5" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f6" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f7" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f8" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f9" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f10" label="Unaddressed"/>
+      <facetEntailment facetID="EM_21b_f11" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.21b.360.1" answerText="Because she can touch and see which is hard." accuracy="irrelevant">
+      <facetEntailment facetID="EM_21b_f1" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="EM_21b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="EM_21b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="EM_21b_f5" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f6" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f7" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f8" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f9" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f10" label="Unaddressed"/>
+      <facetEntailment facetID="EM_21b_f11" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.21b.383.1" answerText="If you see a mark that does not mean it is the softest. If it is pushed in that means it is the softest and the harder one there is nothing." accuracy="correct">
+      <facetEntailment facetID="EM_21b_f1" label="Expressed"/>
+      <facetEntailment facetID="EM_21b_f2" label="Inferred"/>
+      <facetEntailment facetID="EM_21b_f3" label="Inferred"/>
+      <facetEntailment facetID="EM_21b_f4" label="Inferred"/>
+      <facetEntailment facetID="EM_21b_f5" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f6" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f7" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f8" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f9" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f10" label="Inferred"/>
+      <facetEntailment facetID="EM_21b_f11" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.21b.392.1" answerText="The one with a scratch is not the hardest so the other mineral must be hardest." accuracy="correct">
+      <facetEntailment facetID="EM_21b_f1" label="Expressed"/>
+      <facetEntailment facetID="EM_21b_f2" label="Expressed"/>
+      <facetEntailment facetID="EM_21b_f3" label="Expressed"/>
+      <facetEntailment facetID="EM_21b_f4" label="Expressed"/>
+      <facetEntailment facetID="EM_21b_f5" label="Expressed"/>
+      <facetEntailment facetID="EM_21b_f6" label="Expressed"/>
+      <facetEntailment facetID="EM_21b_f7" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f8" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f9" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f10" label="Inferred"/>
+      <facetEntailment facetID="EM_21b_f11" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.21b.398.1" answerText="The one that crumbles the most." accuracy="irrelevant">
+      <facetEntailment facetID="EM_21b_f1" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="EM_21b_f3" label="Diff-Arg"/>
+      <facetEntailment facetID="EM_21b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="EM_21b_f5" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f6" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f7" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f8" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f9" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f10" label="Diff-Arg"/>
+      <facetEntailment facetID="EM_21b_f11" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.21b.629.1" answerText="The harder mineral will leave a scratch on the less hard mineral." accuracy="correct">
+      <facetEntailment facetID="EM_21b_f1" label="Expressed"/>
+      <facetEntailment facetID="EM_21b_f2" label="Expressed"/>
+      <facetEntailment facetID="EM_21b_f3" label="Expressed"/>
+      <facetEntailment facetID="EM_21b_f4" label="Expressed"/>
+      <facetEntailment facetID="EM_21b_f5" label="Expressed"/>
+      <facetEntailment facetID="EM_21b_f6" label="Expressed"/>
+      <facetEntailment facetID="EM_21b_f7" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f8" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f9" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f10" label="Inferred"/>
+      <facetEntailment facetID="EM_21b_f11" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.21b.631.1" answerText="The harder will leave a scratch on the less hard mineral." accuracy="correct">
+      <facetEntailment facetID="EM_21b_f1" label="Expressed"/>
+      <facetEntailment facetID="EM_21b_f2" label="Expressed"/>
+      <facetEntailment facetID="EM_21b_f3" label="Expressed"/>
+      <facetEntailment facetID="EM_21b_f4" label="Inferred"/>
+      <facetEntailment facetID="EM_21b_f5" label="Expressed"/>
+      <facetEntailment facetID="EM_21b_f6" label="Expressed"/>
+      <facetEntailment facetID="EM_21b_f7" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f8" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f9" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f10" label="Inferred"/>
+      <facetEntailment facetID="EM_21b_f11" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.21b.638.1" answerText="The harder mineral will leave a scratch on the less hard mineral." accuracy="correct">
+      <facetEntailment facetID="EM_21b_f1" label="Expressed"/>
+      <facetEntailment facetID="EM_21b_f2" label="Expressed"/>
+      <facetEntailment facetID="EM_21b_f3" label="Expressed"/>
+      <facetEntailment facetID="EM_21b_f4" label="Expressed"/>
+      <facetEntailment facetID="EM_21b_f5" label="Expressed"/>
+      <facetEntailment facetID="EM_21b_f6" label="Expressed"/>
+      <facetEntailment facetID="EM_21b_f7" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f8" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f9" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f10" label="Expressed"/>
+      <facetEntailment facetID="EM_21b_f11" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.21b.646.1" answerText="The harder will leave a scratch on the other." accuracy="correct">
+      <facetEntailment facetID="EM_21b_f1" label="Expressed"/>
+      <facetEntailment facetID="EM_21b_f2" label="Expressed"/>
+      <facetEntailment facetID="EM_21b_f3" label="Expressed"/>
+      <facetEntailment facetID="EM_21b_f4" label="Expressed"/>
+      <facetEntailment facetID="EM_21b_f5" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f6" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f7" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f8" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f9" label="Assumed"/>
+      <facetEntailment facetID="EM_21b_f10" label="Inferred"/>
+      <facetEntailment facetID="EM_21b_f11" label="Assumed"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

@@ -1,0 +1,326 @@
+<?xml version="1.0"?>
+<question id="SE_22c" module="SE">
+  <questionText>Andi and Scott decided to investigate solar water heaters using collectors of different colors (but the same size) as one variable and covered versus uncovered as a second variable. Look at the graph of their data and answer the questions below. Why would comparing only the red uncovered heater with the blue covered heater not provide useful information?</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="SE_22c-a1" text="When 2 variables are changed, it is impossible to determine which variable is causing what effect.">
+      <tokens>
+        <token id="SE_22c_ra1">When</token>
+        <token id="SE_22c_ra2">2</token>
+        <token id="SE_22c_ra3">variables</token>
+        <token id="SE_22c_ra4">are</token>
+        <token id="SE_22c_ra5">changed</token>
+        <token id="SE_22c_ra6">,</token>
+        <token id="SE_22c_ra7">it</token>
+        <token id="SE_22c_ra8">is</token>
+        <token id="SE_22c_ra9">impossible</token>
+        <token id="SE_22c_ra10">to</token>
+        <token id="SE_22c_ra11">determine</token>
+        <token id="SE_22c_ra12">which</token>
+        <token id="SE_22c_ra13">variable</token>
+        <token id="SE_22c_ra14">is</token>
+        <token id="SE_22c_ra15">causing</token>
+        <token id="SE_22c_ra16">what</token>
+        <token id="SE_22c_ra17">effect</token>
+        <token id="SE_22c_ra18">.</token>
+      </tokens>
+      <facets>
+        <facet id="SE_22c_f1" govNum="SE_22c_ra3" modNum="SE_22c_ra2" reltn="NMod" govText="variables" modText="2"/>
+        <facet id="SE_22c_f2" govNum="SE_22c_ra5" modNum="SE_22c_ra3" reltn="Patient" govText="changed" isAssumed="true" modText="variables"/>
+        <facet id="SE_22c_f3" govNum="SE_22c_ra11" modNum="SE_22c_ra15" reltn="Theme_which_neg_impossible" govText="determine" modText="causing" childProp2Facet1="SE_22c_f4"/>
+        <facet id="SE_22c_f4" govNum="SE_22c_ra15" modNum="SE_22c_ra13" reltn="Means_which" govText="causing" modText="variable"/>
+        <facet id="SE_22c_f5" govNum="SE_22c_ra15" modNum="SE_22c_ra17" reltn="Theme_what" govText="causing" modText="effect"/>
+        <facet id="SE_22c_f6" govNum="SE_22c_ra11" modNum="SE_22c_ra5" reltn="Cause_when" childProp2Facet2="SE_22c_f1" childProp1Facet1="SE_22c_f3" govText="determine" childProp1Facet2="SE_22c_f4" modText="changed" childProp2Facet1="SE_22c_f2"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="SE.22c.103.1" answerText="More than one manipulated variable." accuracy="correct">
+      <facetEntailment facetID="SE_22c_f1" label="Inferred"/>
+      <facetEntailment facetID="SE_22c_f2" label="Expressed"/>
+      <facetEntailment facetID="SE_22c_f3" label="Inferred"/>
+      <facetEntailment facetID="SE_22c_f4" label="Inferred"/>
+      <facetEntailment facetID="SE_22c_f5" label="Inferred"/>
+      <facetEntailment facetID="SE_22c_f6" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="SE.22c.108.1" answerText="It has too many manipulated variables it could not give the same information." accuracy="correct">
+      <facetEntailment facetID="SE_22c_f1" label="Inferred"/>
+      <facetEntailment facetID="SE_22c_f2" label="Expressed"/>
+      <facetEntailment facetID="SE_22c_f3" label="Inferred"/>
+      <facetEntailment facetID="SE_22c_f4" label="Inferred"/>
+      <facetEntailment facetID="SE_22c_f5" label="Inferred"/>
+      <facetEntailment facetID="SE_22c_f6" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="SE.22c.133.1" answerText="I think red reflected the heat away." accuracy="irrelevant">
+      <facetEntailment facetID="SE_22c_f1" label="Unaddressed"/>
+      <facetEntailment facetID="SE_22c_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_22c_f3" label="Unaddressed"/>
+      <facetEntailment facetID="SE_22c_f4" label="Unaddressed"/>
+      <facetEntailment facetID="SE_22c_f5" label="Unaddressed"/>
+      <facetEntailment facetID="SE_22c_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.22c.137.1" answerText="Maybe because they are each different types." accuracy="irrelevant">
+      <facetEntailment facetID="SE_22c_f1" label="Unaddressed"/>
+      <facetEntailment facetID="SE_22c_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_22c_f3" label="Unaddressed"/>
+      <facetEntailment facetID="SE_22c_f4" label="Unaddressed"/>
+      <facetEntailment facetID="SE_22c_f5" label="Unaddressed"/>
+      <facetEntailment facetID="SE_22c_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.22c.141.1" answerText="Because one is covered and the other is not covered." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="SE_22c_f1" label="Inferred"/>
+      <facetEntailment facetID="SE_22c_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_22c_f3" label="Unaddressed"/>
+      <facetEntailment facetID="SE_22c_f4" label="Unaddressed"/>
+      <facetEntailment facetID="SE_22c_f5" label="Unaddressed"/>
+      <facetEntailment facetID="SE_22c_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.22c.148.1" answerText="Because they are different colors." accuracy="irrelevant">
+      <facetEntailment facetID="SE_22c_f1" label="Unaddressed"/>
+      <facetEntailment facetID="SE_22c_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_22c_f3" label="Unaddressed"/>
+      <facetEntailment facetID="SE_22c_f4" label="Unaddressed"/>
+      <facetEntailment facetID="SE_22c_f5" label="Unaddressed"/>
+      <facetEntailment facetID="SE_22c_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.22c.154.1" answerText="I think it is covered more than the red one. And put does too color because is almost the same." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="SE_22c_f1" label="Inferred"/>
+      <facetEntailment facetID="SE_22c_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_22c_f3" label="Unaddressed"/>
+      <facetEntailment facetID="SE_22c_f4" label="Unaddressed"/>
+      <facetEntailment facetID="SE_22c_f5" label="Unaddressed"/>
+      <facetEntailment facetID="SE_22c_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.22c.156.1" answerText="Because the red uncovered get colder and the blue get hotter." accuracy="irrelevant">
+      <facetEntailment facetID="SE_22c_f1" label="Unaddressed"/>
+      <facetEntailment facetID="SE_22c_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_22c_f3" label="Unaddressed"/>
+      <facetEntailment facetID="SE_22c_f4" label="Unaddressed"/>
+      <facetEntailment facetID="SE_22c_f5" label="Unaddressed"/>
+      <facetEntailment facetID="SE_22c_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.22c.182.1" answerText="It would not be useful because red is uncovered and blue is covered and it is not fair." accuracy="correct">
+      <facetEntailment facetID="SE_22c_f1" label="Inferred"/>
+      <facetEntailment facetID="SE_22c_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_22c_f3" label="Inferred"/>
+      <facetEntailment facetID="SE_22c_f4" label="Inferred"/>
+      <facetEntailment facetID="SE_22c_f5" label="Inferred"/>
+      <facetEntailment facetID="SE_22c_f6" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="SE.22c.184.1" answerText="I think that the red covered was not in the sun." accuracy="irrelevant">
+      <facetEntailment facetID="SE_22c_f1" label="Unaddressed"/>
+      <facetEntailment facetID="SE_22c_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_22c_f3" label="Unaddressed"/>
+      <facetEntailment facetID="SE_22c_f4" label="Unaddressed"/>
+      <facetEntailment facetID="SE_22c_f5" label="Unaddressed"/>
+      <facetEntailment facetID="SE_22c_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.22c.189.1" answerText="It will not be useful, because blue is covered and the heat will be trap and red is not. So all the heat will escape from the red uncover. The red uncover will heat up slow. But blue will heat up fast." accuracy="correct">
+      <facetEntailment facetID="SE_22c_f1" label="Inferred"/>
+      <facetEntailment facetID="SE_22c_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_22c_f3" label="Inferred"/>
+      <facetEntailment facetID="SE_22c_f4" label="Inferred"/>
+      <facetEntailment facetID="SE_22c_f5" label="Inferred"/>
+      <facetEntailment facetID="SE_22c_f6" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="SE.22c.247.1" answerText="Maybe the blue uncovered would be the same as the red or not, just to make sure." accuracy="correct">
+      <facetEntailment facetID="SE_22c_f1" label="Inferred"/>
+      <facetEntailment facetID="SE_22c_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_22c_f3" label="Inferred"/>
+      <facetEntailment facetID="SE_22c_f4" label="Inferred"/>
+      <facetEntailment facetID="SE_22c_f5" label="Inferred"/>
+      <facetEntailment facetID="SE_22c_f6" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="SE.22c.313.1" answerText="Because you would not know the readings of blue uncovered and red covered." accuracy="correct">
+      <facetEntailment facetID="SE_22c_f1" label="Inferred"/>
+      <facetEntailment facetID="SE_22c_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_22c_f3" label="Inferred"/>
+      <facetEntailment facetID="SE_22c_f4" label="Inferred"/>
+      <facetEntailment facetID="SE_22c_f5" label="Inferred"/>
+      <facetEntailment facetID="SE_22c_f6" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="SE.22c.317.1" answerText="Because both of them are different one is uncovered and another is covered." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="SE_22c_f1" label="Inferred"/>
+      <facetEntailment facetID="SE_22c_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_22c_f3" label="Unaddressed"/>
+      <facetEntailment facetID="SE_22c_f4" label="Unaddressed"/>
+      <facetEntailment facetID="SE_22c_f5" label="Unaddressed"/>
+      <facetEntailment facetID="SE_22c_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.22c.327.1" answerText="Because it will just be in the middle of hot and cold." accuracy="irrelevant">
+      <facetEntailment facetID="SE_22c_f1" label="Unaddressed"/>
+      <facetEntailment facetID="SE_22c_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_22c_f3" label="Unaddressed"/>
+      <facetEntailment facetID="SE_22c_f4" label="Unaddressed"/>
+      <facetEntailment facetID="SE_22c_f5" label="Unaddressed"/>
+      <facetEntailment facetID="SE_22c_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.22c.336.1" answerText="Because." accuracy="non_domain">
+      <facetEntailment facetID="SE_22c_f1" label="Unaddressed"/>
+      <facetEntailment facetID="SE_22c_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_22c_f3" label="Unaddressed"/>
+      <facetEntailment facetID="SE_22c_f4" label="Unaddressed"/>
+      <facetEntailment facetID="SE_22c_f5" label="Unaddressed"/>
+      <facetEntailment facetID="SE_22c_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.22c.383.1" answerText="Because you do not have enough information to compare the data." accuracy="irrelevant">
+      <facetEntailment facetID="SE_22c_f1" label="Unaddressed"/>
+      <facetEntailment facetID="SE_22c_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_22c_f3" label="Unaddressed"/>
+      <facetEntailment facetID="SE_22c_f4" label="Unaddressed"/>
+      <facetEntailment facetID="SE_22c_f5" label="Unaddressed"/>
+      <facetEntailment facetID="SE_22c_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.22c.392.1" answerText="Because it is only 2 colors." accuracy="irrelevant">
+      <facetEntailment facetID="SE_22c_f1" label="Unaddressed"/>
+      <facetEntailment facetID="SE_22c_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_22c_f3" label="Unaddressed"/>
+      <facetEntailment facetID="SE_22c_f4" label="Unaddressed"/>
+      <facetEntailment facetID="SE_22c_f5" label="Unaddressed"/>
+      <facetEntailment facetID="SE_22c_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.22c.394.1" answerText="Because the red uncovered has a low temperature and blue covered has a high temperature." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="SE_22c_f1" label="Inferred"/>
+      <facetEntailment facetID="SE_22c_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_22c_f3" label="Unaddressed"/>
+      <facetEntailment facetID="SE_22c_f4" label="Unaddressed"/>
+      <facetEntailment facetID="SE_22c_f5" label="Unaddressed"/>
+      <facetEntailment facetID="SE_22c_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.22c.396.1" answerText="Because if they are different color and covered and uncovered you would get way different data." accuracy="correct">
+      <facetEntailment facetID="SE_22c_f1" label="Inferred"/>
+      <facetEntailment facetID="SE_22c_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_22c_f3" label="Inferred"/>
+      <facetEntailment facetID="SE_22c_f4" label="Inferred"/>
+      <facetEntailment facetID="SE_22c_f5" label="Inferred"/>
+      <facetEntailment facetID="SE_22c_f6" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="SE.22c.397.1" answerText="The red does not heat up fast as the blue covered." accuracy="irrelevant">
+      <facetEntailment facetID="SE_22c_f1" label="Unaddressed"/>
+      <facetEntailment facetID="SE_22c_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_22c_f3" label="Unaddressed"/>
+      <facetEntailment facetID="SE_22c_f4" label="Unaddressed"/>
+      <facetEntailment facetID="SE_22c_f5" label="Unaddressed"/>
+      <facetEntailment facetID="SE_22c_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.22c.436.1" answerText="It would not provide useful information because you would not know if either red covered or blue covered absorbed most heat or if red uncovered or blue uncovered absorbed most heat." accuracy="correct">
+      <facetEntailment facetID="SE_22c_f1" label="Inferred"/>
+      <facetEntailment facetID="SE_22c_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_22c_f3" label="Inferred"/>
+      <facetEntailment facetID="SE_22c_f4" label="Inferred"/>
+      <facetEntailment facetID="SE_22c_f5" label="Inferred"/>
+      <facetEntailment facetID="SE_22c_f6" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="SE.22c.440.1" answerText="It will not be only little information and also there is not test of red covered and blue uncovered." accuracy="correct">
+      <facetEntailment facetID="SE_22c_f1" label="Inferred"/>
+      <facetEntailment facetID="SE_22c_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_22c_f3" label="Inferred"/>
+      <facetEntailment facetID="SE_22c_f4" label="Inferred"/>
+      <facetEntailment facetID="SE_22c_f5" label="Inferred"/>
+      <facetEntailment facetID="SE_22c_f6" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="SE.22c.494.1" answerText="It would not provide useful information because you would also need to know how much the blue heated up covered to." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="SE_22c_f1" label="Unaddressed"/>
+      <facetEntailment facetID="SE_22c_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_22c_f3" label="Inferred"/>
+      <facetEntailment facetID="SE_22c_f4" label="Inferred"/>
+      <facetEntailment facetID="SE_22c_f5" label="Inferred"/>
+      <facetEntailment facetID="SE_22c_f6" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="SE.22c.501.1" answerText="Because then you would not know if the red covered or the blue uncovered heated up as much as the others. Because even though they are the same color the water is in a different environment. So, it would not provide useful information." accuracy="correct">
+      <facetEntailment facetID="SE_22c_f1" label="Inferred"/>
+      <facetEntailment facetID="SE_22c_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_22c_f3" label="Inferred"/>
+      <facetEntailment facetID="SE_22c_f4" label="Inferred"/>
+      <facetEntailment facetID="SE_22c_f5" label="Inferred"/>
+      <facetEntailment facetID="SE_22c_f6" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="SE.22c.503.1" answerText="Because then you would not be controlling the variables." accuracy="correct">
+      <facetEntailment facetID="SE_22c_f1" label="Inferred"/>
+      <facetEntailment facetID="SE_22c_f2" label="Expressed"/>
+      <facetEntailment facetID="SE_22c_f3" label="Inferred"/>
+      <facetEntailment facetID="SE_22c_f4" label="Inferred"/>
+      <facetEntailment facetID="SE_22c_f5" label="Inferred"/>
+      <facetEntailment facetID="SE_22c_f6" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="SE.22c.510.1" answerText="Because it did not use all the colors so they could not find out what one heated up more." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="SE_22c_f1" label="Unaddressed"/>
+      <facetEntailment facetID="SE_22c_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_22c_f3" label="Inferred"/>
+      <facetEntailment facetID="SE_22c_f4" label="Unaddressed"/>
+      <facetEntailment facetID="SE_22c_f5" label="Inferred"/>
+      <facetEntailment facetID="SE_22c_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.22c.517.1" answerText="Because they have 2 variables changed lid or no lid and color are the 2 they changed." accuracy="correct">
+      <facetEntailment facetID="SE_22c_f1" label="Expressed"/>
+      <facetEntailment facetID="SE_22c_f2" label="Expressed"/>
+      <facetEntailment facetID="SE_22c_f3" label="Inferred"/>
+      <facetEntailment facetID="SE_22c_f4" label="Inferred"/>
+      <facetEntailment facetID="SE_22c_f5" label="Inferred"/>
+      <facetEntailment facetID="SE_22c_f6" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="SE.22c.530.1" answerText="It would not tell the difference if blue is warmer the red or uncover heat up slower than cover." accuracy="correct">
+      <facetEntailment facetID="SE_22c_f1" label="Inferred"/>
+      <facetEntailment facetID="SE_22c_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_22c_f3" label="Expressed"/>
+      <facetEntailment facetID="SE_22c_f4" label="Inferred"/>
+      <facetEntailment facetID="SE_22c_f5" label="Inferred"/>
+      <facetEntailment facetID="SE_22c_f6" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="SE.22c.597.1" answerText="Because you are comparing 2 thing and it would not make any sense because you know black heats faster than white." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="SE_22c_f1" label="Inferred"/>
+      <facetEntailment facetID="SE_22c_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_22c_f3" label="Unaddressed"/>
+      <facetEntailment facetID="SE_22c_f4" label="Unaddressed"/>
+      <facetEntailment facetID="SE_22c_f5" label="Unaddressed"/>
+      <facetEntailment facetID="SE_22c_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.22c.598.1" answerText="Because they are the same temperature." accuracy="irrelevant">
+      <facetEntailment facetID="SE_22c_f1" label="Unaddressed"/>
+      <facetEntailment facetID="SE_22c_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_22c_f3" label="Unaddressed"/>
+      <facetEntailment facetID="SE_22c_f4" label="Unaddressed"/>
+      <facetEntailment facetID="SE_22c_f5" label="Unaddressed"/>
+      <facetEntailment facetID="SE_22c_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.22c.599.1" answerText="I chose that because when the plastic is darker it will heat faster than a light color." accuracy="irrelevant">
+      <facetEntailment facetID="SE_22c_f1" label="Unaddressed"/>
+      <facetEntailment facetID="SE_22c_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_22c_f3" label="Unaddressed"/>
+      <facetEntailment facetID="SE_22c_f4" label="Unaddressed"/>
+      <facetEntailment facetID="SE_22c_f5" label="Unaddressed"/>
+      <facetEntailment facetID="SE_22c_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.22c.610.1" answerText="That will not not provide useful information because you would only know blue covered red uncovered." accuracy="correct">
+      <facetEntailment facetID="SE_22c_f1" label="Inferred"/>
+      <facetEntailment facetID="SE_22c_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_22c_f3" label="Inferred"/>
+      <facetEntailment facetID="SE_22c_f4" label="Inferred"/>
+      <facetEntailment facetID="SE_22c_f5" label="Inferred"/>
+      <facetEntailment facetID="SE_22c_f6" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="SE.22c.611.1" answerText="Because red uncovered is smaller than the blue covered heater." accuracy="irrelevant">
+      <facetEntailment facetID="SE_22c_f1" label="Unaddressed"/>
+      <facetEntailment facetID="SE_22c_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_22c_f3" label="Unaddressed"/>
+      <facetEntailment facetID="SE_22c_f4" label="Unaddressed"/>
+      <facetEntailment facetID="SE_22c_f5" label="Unaddressed"/>
+      <facetEntailment facetID="SE_22c_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.22c.615.1" answerText="Uncovered versus covered would not help but both of each would." accuracy="irrelevant">
+      <facetEntailment facetID="SE_22c_f1" label="Unaddressed"/>
+      <facetEntailment facetID="SE_22c_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_22c_f3" label="Unaddressed"/>
+      <facetEntailment facetID="SE_22c_f4" label="Unaddressed"/>
+      <facetEntailment facetID="SE_22c_f5" label="Unaddressed"/>
+      <facetEntailment facetID="SE_22c_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.22c.621.1" answerText="Because they are both covered." accuracy="irrelevant">
+      <facetEntailment facetID="SE_22c_f1" label="Unaddressed"/>
+      <facetEntailment facetID="SE_22c_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_22c_f3" label="Unaddressed"/>
+      <facetEntailment facetID="SE_22c_f4" label="Unaddressed"/>
+      <facetEntailment facetID="SE_22c_f5" label="Unaddressed"/>
+      <facetEntailment facetID="SE_22c_f6" label="Unaddressed"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

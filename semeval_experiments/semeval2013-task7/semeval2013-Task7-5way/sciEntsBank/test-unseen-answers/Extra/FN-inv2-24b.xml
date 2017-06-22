@@ -1,0 +1,118 @@
+<?xml version="1.0"?>
+<question testSet="unseen-answers" id="FN_24b" module="FN">
+  <questionText>Diva's father told her she should not eat so many cookies because they were pure sugar. Diva decided to investigate the amount of sugar in Fruity Cream cookies. She performed the sugar test on 4 grams of pure sugar and on 4 grams of Fruity Cream cookies. The results are pictured at the right. Are Fruity Cream cookies pure sugar? What is your evidence?</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="FN_24b-a1" text="No, Fruity cream cookies are not pure sugar. The cookies did not produce as much gas as was produced by the pure sugar.">
+      <tokens>
+        <token id="FN_24b_ra1">No</token>
+        <token id="FN_24b_ra2">,</token>
+        <token id="FN_24b_ra3">Fruity</token>
+        <token id="FN_24b_ra4">cream</token>
+        <token id="FN_24b_ra5">cookies</token>
+        <token id="FN_24b_ra6">are</token>
+        <token id="FN_24b_ra7">not</token>
+        <token id="FN_24b_ra8">pure</token>
+        <token id="FN_24b_ra9">sugar</token>
+        <token id="FN_24b_ra10">.</token>
+        <token id="FN_24b_ra11">The</token>
+        <token id="FN_24b_ra12">cookies</token>
+        <token id="FN_24b_ra13">did</token>
+        <token id="FN_24b_ra14">not</token>
+        <token id="FN_24b_ra15">produce</token>
+        <token id="FN_24b_ra16">as</token>
+        <token id="FN_24b_ra17">much</token>
+        <token id="FN_24b_ra18">gas</token>
+        <token id="FN_24b_ra19">as</token>
+        <token id="FN_24b_ra20">was</token>
+        <token id="FN_24b_ra21">produced</token>
+        <token id="FN_24b_ra22">by</token>
+        <token id="FN_24b_ra23">the</token>
+        <token id="FN_24b_ra24">pure</token>
+        <token id="FN_24b_ra25">sugar</token>
+        <token id="FN_24b_ra26">.</token>
+      </tokens>
+      <facets>
+        <facet id="FN_24b_f1" govNum="FN_24b_ra0" modNum="FN_24b_ra1" reltn="Root" govText="root" modText="No"/>
+        <facet id="FN_24b_f2" govNum="FN_24b_ra5" modNum="FN_24b_ra4" reltn="NMod" govText="cookies" isAssumed="true" modText="cream"/>
+        <facet id="FN_24b_f3" govNum="FN_24b_ra4" modNum="FN_24b_ra3" reltn="NMod" govText="cream" isAssumed="true" modText="Fruity"/>
+        <facet id="FN_24b_f4" govNum="FN_24b_ra5" modNum="FN_24b_ra9" reltn="Be_neg_not" govText="cookies" modText="sugar"/>
+        <facet id="FN_24b_f5" govNum="FN_24b_ra9" modNum="FN_24b_ra8" reltn="NMod" govText="sugar" isAssumed="true" modText="pure"/>
+        <facet id="FN_24b_f6" govNum="FN_24b_ra15" modNum="FN_24b_ra12" reltn="Means_neg_not" govText="produce" modText="cookies"/>
+        <facet id="FN_24b_f7" govNum="FN_24b_ra15" modNum="FN_24b_ra18" reltn="Product" govText="produce" modText="gas"/>
+        <facet id="FN_24b_f8" govNum="FN_24b_ra18" modNum="FN_24b_ra16" reltn="NMod" govText="gas" modText="as much"/>
+        <facet id="FN_24b_f9" govNum="FN_24b_ra16" modNum="FN_24b_ra21" reltn="AMod_as" childProp2Facet2="FN_24b_f7" govText="as much" modText="produced" childProp2Facet1="FN_24b_f10"/>
+        <facet id="FN_24b_f10" govNum="FN_24b_ra21" modNum="FN_24b_ra25" reltn="Means_by" govText="produced" modText="sugar"/>
+        <facet id="FN_24b_f11" govNum="FN_24b_ra25" modNum="FN_24b_ra24" reltn="NMod" govText="sugar" isAssumed="true" modText="pure"/>
+        <facet id="FN_24b_f12" govNum="FN_24b_ra21" modNum="FN_24b_ra18" reltn="Product" govText="produced" modText="gas"/>
+        <facet id="FN_24b_f13" govNum="FN_24b_ra6" modNum="FN_24b_ra15" reltn="Cause-know" childProp2Facet2="FN_24b_f7" childProp1Facet1="FN_24b_f4" govText="are" isAssumed="true" childProp1Facet2="FN_24b_f3" modText="produce" childProp2Facet1="FN_24b_f6"/>
+        <facet id="FN_24b_f14" govNum="FN_24b_ra15" modNum="FN_24b_ra6" reltn="Cause" childProp2Facet2="FN_24b_f3" childProp1Facet1="FN_24b_f6" govText="produce" isAssumed="true" childProp1Facet2="FN_24b_f7" modText="are" childProp2Facet1="FN_24b_f4"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="FN.24b.348.1" answerText="No because if they were pure sugar it would be 200 milliliters not 150 milliliters." accuracy="correct">
+      <facetEntailment facetID="FN_24b_f1" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f2" label="Assumed"/>
+      <facetEntailment facetID="FN_24b_f3" label="Assumed"/>
+      <facetEntailment facetID="FN_24b_f4" label="Inferred"/>
+      <facetEntailment facetID="FN_24b_f5" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f6" label="Inferred"/>
+      <facetEntailment facetID="FN_24b_f7" label="Inferred"/>
+      <facetEntailment facetID="FN_24b_f8" label="Inferred"/>
+      <facetEntailment facetID="FN_24b_f9" label="Inferred"/>
+      <facetEntailment facetID="FN_24b_f10" label="Inferred"/>
+      <facetEntailment facetID="FN_24b_f11" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f12" label="Inferred"/>
+      <facetEntailment facetID="FN_24b_f13" label="Assumed"/>
+      <facetEntailment facetID="FN_24b_f14" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.24b.419.1" answerText="No, because the Fruity Cream cookies is at 150 milliliters." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="FN_24b_f1" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f2" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f3" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f4" label="Inferred"/>
+      <facetEntailment facetID="FN_24b_f5" label="Assumed"/>
+      <facetEntailment facetID="FN_24b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24b_f8" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24b_f9" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24b_f10" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24b_f11" label="Assumed"/>
+      <facetEntailment facetID="FN_24b_f12" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24b_f13" label="Assumed"/>
+      <facetEntailment facetID="FN_24b_f14" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.24b.425.1" answerText="No because it show it on the picture plus it has less sugar on it." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="FN_24b_f1" label="Expressed"/>
+      <facetEntailment facetID="FN_24b_f2" label="Assumed"/>
+      <facetEntailment facetID="FN_24b_f3" label="Assumed"/>
+      <facetEntailment facetID="FN_24b_f4" label="Inferred"/>
+      <facetEntailment facetID="FN_24b_f5" label="Assumed"/>
+      <facetEntailment facetID="FN_24b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24b_f8" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24b_f9" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24b_f10" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24b_f11" label="Assumed"/>
+      <facetEntailment facetID="FN_24b_f12" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24b_f13" label="Assumed"/>
+      <facetEntailment facetID="FN_24b_f14" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.24b.433.1" answerText="Yes, it contain several grams of sugar." accuracy="contradictory">
+      <facetEntailment facetID="FN_24b_f1" label="Contra-Expr"/>
+      <facetEntailment facetID="FN_24b_f2" label="Assumed"/>
+      <facetEntailment facetID="FN_24b_f3" label="Assumed"/>
+      <facetEntailment facetID="FN_24b_f4" label="Contra-Expr"/>
+      <facetEntailment facetID="FN_24b_f5" label="Assumed"/>
+      <facetEntailment facetID="FN_24b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24b_f8" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24b_f9" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24b_f10" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24b_f11" label="Assumed"/>
+      <facetEntailment facetID="FN_24b_f12" label="Unaddressed"/>
+      <facetEntailment facetID="FN_24b_f13" label="Assumed"/>
+      <facetEntailment facetID="FN_24b_f14" label="Assumed"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

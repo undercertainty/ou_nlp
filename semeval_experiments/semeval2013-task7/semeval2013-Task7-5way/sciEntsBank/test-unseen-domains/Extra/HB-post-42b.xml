@@ -1,0 +1,621 @@
+<?xml version="1.0"?>
+<question testSet="unseen-domains" id="HB_42b" module="HB">
+  <questionText>Sam and Jasmine were sitting on a park bench eating their lunches. A mosquito landed on Sam's arm and Sam began slapping at it. When he did that, he knocked Jasmine's soda into her lap, causing her to jump up. What was Sam's response?</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="HB_42b-a1" text="Sam's response was to slap the mosquito.">
+      <tokens>
+        <token id="HB_42b_ra1">Sam</token>
+        <token id="HB_42b_ra2">'s</token>
+        <token id="HB_42b_ra3">response</token>
+        <token id="HB_42b_ra4">was</token>
+        <token id="HB_42b_ra5">to</token>
+        <token id="HB_42b_ra6">slap</token>
+        <token id="HB_42b_ra7">the</token>
+        <token id="HB_42b_ra8">mosquito</token>
+        <token id="HB_42b_ra9">.</token>
+      </tokens>
+      <facets>
+        <facet id="HB_42b_f1" govNum="HB_42b_ra3" modNum="HB_42b_ra1" reltn="Agent" govText="response" isAssumed="true" modText="Sam"/>
+        <facet id="HB_42b_f2" govNum="HB_42b_ra3" modNum="HB_42b_ra6" reltn="Predicate_to" govText="response" modText="slap"/>
+        <facet id="HB_42b_f3" govNum="HB_42b_ra6" modNum="HB_42b_ra1" reltn="Agent" govText="slap" isAssumed="true" modText="Sam"/>
+        <facet id="HB_42b_f4" govNum="HB_42b_ra6" modNum="HB_42b_ra8" reltn="Patient" govText="slap" isAssumed="true" modText="mosquito"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="HB.42b.136.1" answerText="Hitting the fly." accuracy="correct">
+      <facetEntailment facetID="HB_42b_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_42b_f2" label="Inferred"/>
+      <facetEntailment facetID="HB_42b_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_42b_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.42b.138.1" answerText="Slapping at the mosquito." accuracy="correct">
+      <facetEntailment facetID="HB_42b_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_42b_f2" label="Inferred"/>
+      <facetEntailment facetID="HB_42b_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_42b_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.42b.142.1" answerText="Sam's response was slapping at it." accuracy="correct">
+      <facetEntailment facetID="HB_42b_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_42b_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_42b_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_42b_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.42b.172.1" answerText="Began slapping at it." accuracy="correct">
+      <facetEntailment facetID="HB_42b_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_42b_f2" label="Inferred"/>
+      <facetEntailment facetID="HB_42b_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_42b_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.42b.180.1" answerText="Sam's response is that he was slapping his arm." accuracy="correct">
+      <facetEntailment facetID="HB_42b_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_42b_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_42b_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_42b_f4" label="Diff-Arg"/>
+    </studentAnswer>
+    <studentAnswer id="HB.42b.185.1" answerText="The response was slapping the mosquito." accuracy="correct">
+      <facetEntailment facetID="HB_42b_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_42b_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_42b_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_42b_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.42b.206.1" answerText="Sam's response is knocking over Jasmine's soda on her lap." accuracy="irrelevant">
+      <facetEntailment facetID="HB_42b_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_42b_f2" label="Diff-Arg"/>
+      <facetEntailment facetID="HB_42b_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_42b_f4" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.42b.209.1" answerText="Slapping the mosquito." accuracy="correct">
+      <facetEntailment facetID="HB_42b_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_42b_f2" label="Inferred"/>
+      <facetEntailment facetID="HB_42b_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_42b_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.42b.212.1" answerText="He knocked Jasmine's soda over." accuracy="irrelevant">
+      <facetEntailment facetID="HB_42b_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_42b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_42b_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_42b_f4" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.42b.215.1" answerText="To spill Jasmine's soda on her lap." accuracy="irrelevant">
+      <facetEntailment facetID="HB_42b_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_42b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_42b_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_42b_f4" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.42b.216.1" answerText="Sam slapped it." accuracy="correct">
+      <facetEntailment facetID="HB_42b_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_42b_f2" label="Inferred"/>
+      <facetEntailment facetID="HB_42b_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_42b_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.42b.219.1" answerText="To smack the bee." accuracy="correct">
+      <facetEntailment facetID="HB_42b_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_42b_f2" label="Inferred"/>
+      <facetEntailment facetID="HB_42b_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_42b_f4" label="Diff-Arg"/>
+    </studentAnswer>
+    <studentAnswer id="HB.42b.220.1" answerText="Sam's response was to hit the mosquito." accuracy="correct">
+      <facetEntailment facetID="HB_42b_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_42b_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_42b_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_42b_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.42b.251.1" answerText="Sam's response is that he knocked over Jasmine's soda." accuracy="irrelevant">
+      <facetEntailment facetID="HB_42b_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_42b_f2" label="Diff-Arg"/>
+      <facetEntailment facetID="HB_42b_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_42b_f4" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.42b.254.1" answerText="Sam's response was spilling the soda." accuracy="irrelevant">
+      <facetEntailment facetID="HB_42b_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_42b_f2" label="Diff-Arg"/>
+      <facetEntailment facetID="HB_42b_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_42b_f4" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.42b.257.1" answerText="Sam's response is slapping the mosquito." accuracy="correct">
+      <facetEntailment facetID="HB_42b_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_42b_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_42b_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_42b_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.42b.277.1" answerText="Jumping up." accuracy="irrelevant">
+      <facetEntailment facetID="HB_42b_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_42b_f2" label="Diff-Arg"/>
+      <facetEntailment facetID="HB_42b_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_42b_f4" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.42b.294.1" answerText="Slapping the mosquito." accuracy="correct">
+      <facetEntailment facetID="HB_42b_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_42b_f2" label="Inferred"/>
+      <facetEntailment facetID="HB_42b_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_42b_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.42b.311.1" answerText="To jump up." accuracy="irrelevant">
+      <facetEntailment facetID="HB_42b_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_42b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_42b_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_42b_f4" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.42b.315.1" answerText="Sam's response was knocking over Jasmine's drink." accuracy="irrelevant">
+      <facetEntailment facetID="HB_42b_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_42b_f2" label="Diff-Arg"/>
+      <facetEntailment facetID="HB_42b_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_42b_f4" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.42b.320.1" answerText="Sam's response was to slap at the mosquito and knock Jasmine's soda on her." accuracy="correct">
+      <facetEntailment facetID="HB_42b_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_42b_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_42b_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_42b_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.42b.321.1" answerText="Sam's response was to slap at it and knock over Jasmine's soda." accuracy="correct">
+      <facetEntailment facetID="HB_42b_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_42b_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_42b_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_42b_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.42b.331.1" answerText="It was sight." accuracy="irrelevant">
+      <facetEntailment facetID="HB_42b_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_42b_f2" label="Diff-Arg"/>
+      <facetEntailment facetID="HB_42b_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_42b_f4" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.42b.346.1" answerText="Knocking it out of her hand." accuracy="irrelevant">
+      <facetEntailment facetID="HB_42b_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_42b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_42b_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_42b_f4" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.42b.350.1" answerText="Feel the mosquito." accuracy="irrelevant">
+      <facetEntailment facetID="HB_42b_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_42b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_42b_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_42b_f4" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.42b.352.1" answerText="To slap at the mosquito." accuracy="correct">
+      <facetEntailment facetID="HB_42b_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_42b_f2" label="Inferred"/>
+      <facetEntailment facetID="HB_42b_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_42b_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.42b.355.1" answerText="Smacking the mosquito." accuracy="correct">
+      <facetEntailment facetID="HB_42b_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_42b_f2" label="Inferred"/>
+      <facetEntailment facetID="HB_42b_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_42b_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.42b.359.1" answerText="Seeing the mosquito on her arm." accuracy="irrelevant">
+      <facetEntailment facetID="HB_42b_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_42b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_42b_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_42b_f4" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.42b.361.1" answerText="Slapping the mosquito." accuracy="correct">
+      <facetEntailment facetID="HB_42b_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_42b_f2" label="Inferred"/>
+      <facetEntailment facetID="HB_42b_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_42b_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.42b.364.1" answerText="Sam's response was to begin slapping the mosquito." accuracy="correct">
+      <facetEntailment facetID="HB_42b_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_42b_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_42b_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_42b_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.42b.385.1" answerText="The response was go away." accuracy="irrelevant">
+      <facetEntailment facetID="HB_42b_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_42b_f2" label="Diff-Arg"/>
+      <facetEntailment facetID="HB_42b_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_42b_f4" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.42b.392.1" answerText="Knocking the soda on Jasmine's lap and causing her to jump." accuracy="irrelevant">
+      <facetEntailment facetID="HB_42b_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_42b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_42b_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_42b_f4" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.42b.398.1" answerText="Knocking the soda on Jasmine's lap to jump!" accuracy="irrelevant">
+      <facetEntailment facetID="HB_42b_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_42b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_42b_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_42b_f4" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.42b.418.1" answerText="The response was Sam knocked Jasmine's soda onto her lap causing her to jump." accuracy="irrelevant">
+      <facetEntailment facetID="HB_42b_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_42b_f2" label="Diff-Arg"/>
+      <facetEntailment facetID="HB_42b_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_42b_f4" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.42b.422.1" answerText="To hit the mosquito and kill it or make it fly away." accuracy="correct">
+      <facetEntailment facetID="HB_42b_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_42b_f2" label="Inferred"/>
+      <facetEntailment facetID="HB_42b_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_42b_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.42b.425.1" answerText="Slapping the mosquito that was on her arm." accuracy="correct">
+      <facetEntailment facetID="HB_42b_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_42b_f2" label="Inferred"/>
+      <facetEntailment facetID="HB_42b_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_42b_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.42b.427.1" answerText="Sam saw the mosquito with his eyes and slapping the mosquito made the pop fall into Jasmine's lap, and Jasmine saw it and jumped." accuracy="correct">
+      <facetEntailment facetID="HB_42b_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_42b_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_42b_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_42b_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.42b.430.1" answerText="Sam's response was to say sorry." accuracy="irrelevant">
+      <facetEntailment facetID="HB_42b_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_42b_f2" label="Diff-Arg"/>
+      <facetEntailment facetID="HB_42b_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_42b_f4" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.42b.432.1" answerText="Sam tried to slap it." accuracy="correct">
+      <facetEntailment facetID="HB_42b_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_42b_f2" label="Inferred"/>
+      <facetEntailment facetID="HB_42b_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_42b_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.42b.437.1" answerText="Slapping the mosquito." accuracy="correct">
+      <facetEntailment facetID="HB_42b_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_42b_f2" label="Inferred"/>
+      <facetEntailment facetID="HB_42b_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_42b_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.42b.438.1" answerText="Sam began to slap it." accuracy="correct">
+      <facetEntailment facetID="HB_42b_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_42b_f2" label="Inferred"/>
+      <facetEntailment facetID="HB_42b_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_42b_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.42b.450.1" answerText="By slapping the bug." accuracy="correct">
+      <facetEntailment facetID="HB_42b_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_42b_f2" label="Inferred"/>
+      <facetEntailment facetID="HB_42b_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_42b_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.42b.453.1" answerText="Sam's response was that he jumped so it was kind of like getting the mosquito away by jumping." accuracy="irrelevant">
+      <facetEntailment facetID="HB_42b_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_42b_f2" label="Diff-Arg"/>
+      <facetEntailment facetID="HB_42b_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_42b_f4" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.42b.454.1" answerText="Slap it to get it off." accuracy="correct">
+      <facetEntailment facetID="HB_42b_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_42b_f2" label="Inferred"/>
+      <facetEntailment facetID="HB_42b_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_42b_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.42b.457.1" answerText="Slapping at the mosquito to get it off." accuracy="correct">
+      <facetEntailment facetID="HB_42b_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_42b_f2" label="Inferred"/>
+      <facetEntailment facetID="HB_42b_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_42b_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.42b.462.1" answerText="Trying to slap it off." accuracy="correct">
+      <facetEntailment facetID="HB_42b_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_42b_f2" label="Inferred"/>
+      <facetEntailment facetID="HB_42b_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_42b_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.42b.463.1" answerText="Whacking the mosquito." accuracy="correct">
+      <facetEntailment facetID="HB_42b_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_42b_f2" label="Inferred"/>
+      <facetEntailment facetID="HB_42b_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_42b_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.42b.464.1" answerText="Ouch!" accuracy="irrelevant">
+      <facetEntailment facetID="HB_42b_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_42b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_42b_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_42b_f4" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.42b.465.1" answerText="Slapping his arm so the mosquito would fly away." accuracy="correct">
+      <facetEntailment facetID="HB_42b_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_42b_f2" label="Inferred"/>
+      <facetEntailment facetID="HB_42b_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_42b_f4" label="Diff-Arg"/>
+    </studentAnswer>
+    <studentAnswer id="HB.42b.467.1" answerText="Slapping the mosquito." accuracy="correct">
+      <facetEntailment facetID="HB_42b_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_42b_f2" label="Inferred"/>
+      <facetEntailment facetID="HB_42b_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_42b_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.42b.471.1" answerText="Get off or die!" accuracy="irrelevant">
+      <facetEntailment facetID="HB_42b_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_42b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_42b_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_42b_f4" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.42b.489.1" answerText="Slapping the mosquito." accuracy="correct">
+      <facetEntailment facetID="HB_42b_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_42b_f2" label="Inferred"/>
+      <facetEntailment facetID="HB_42b_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_42b_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.42b.491.1" answerText="Knocking Jasmine's soda over." accuracy="irrelevant">
+      <facetEntailment facetID="HB_42b_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_42b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_42b_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_42b_f4" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.42b.492.1" answerText="The response is to slap the mosquito." accuracy="correct">
+      <facetEntailment facetID="HB_42b_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_42b_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_42b_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_42b_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.42b.493.1" answerText="To help dry her lap." accuracy="irrelevant">
+      <facetEntailment facetID="HB_42b_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_42b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_42b_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_42b_f4" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.42b.493b.1" answerText="Knocking the soda over." accuracy="irrelevant">
+      <facetEntailment facetID="HB_42b_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_42b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_42b_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_42b_f4" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.42b.494.1" answerText="To slap and swap the mosquito off his arm." accuracy="correct">
+      <facetEntailment facetID="HB_42b_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_42b_f2" label="Inferred"/>
+      <facetEntailment facetID="HB_42b_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_42b_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.42b.497.1" answerText="To jump." accuracy="irrelevant">
+      <facetEntailment facetID="HB_42b_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_42b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_42b_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_42b_f4" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.42b.503.1" answerText="Sam trying to slap the mosquito." accuracy="correct">
+      <facetEntailment facetID="HB_42b_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_42b_f2" label="Inferred"/>
+      <facetEntailment facetID="HB_42b_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_42b_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.42b.522.1" answerText="She jump up." accuracy="irrelevant">
+      <facetEntailment facetID="HB_42b_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_42b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_42b_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_42b_f4" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.42b.523.1" answerText="He slapped it." accuracy="correct">
+      <facetEntailment facetID="HB_42b_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_42b_f2" label="Inferred"/>
+      <facetEntailment facetID="HB_42b_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_42b_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.42b.529.1" answerText="Slapping at it." accuracy="correct">
+      <facetEntailment facetID="HB_42b_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_42b_f2" label="Inferred"/>
+      <facetEntailment facetID="HB_42b_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_42b_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.42b.565.1" answerText="Sam's arm and Sam began slapping at it." accuracy="correct">
+      <facetEntailment facetID="HB_42b_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_42b_f2" label="Inferred"/>
+      <facetEntailment facetID="HB_42b_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_42b_f4" label="Diff-Arg"/>
+    </studentAnswer>
+    <studentAnswer id="HB.42b.566.1" answerText="The response is jumping." accuracy="irrelevant">
+      <facetEntailment facetID="HB_42b_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_42b_f2" label="Diff-Arg"/>
+      <facetEntailment facetID="HB_42b_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_42b_f4" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.42b.570.1" answerText="Sam's response was to slap the mosquito and spill Jasmine's soda." accuracy="correct">
+      <facetEntailment facetID="HB_42b_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_42b_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_42b_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_42b_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.42b.571.1" answerText="Slap the mosquito." accuracy="correct">
+      <facetEntailment facetID="HB_42b_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_42b_f2" label="Inferred"/>
+      <facetEntailment facetID="HB_42b_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_42b_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.42b.575.1" answerText="Sam response was to start slapping at the mosquito." accuracy="correct">
+      <facetEntailment facetID="HB_42b_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_42b_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_42b_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_42b_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.42b.580.1" answerText="The response for Sam is seeing the mosquito." accuracy="irrelevant">
+      <facetEntailment facetID="HB_42b_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_42b_f2" label="Diff-Arg"/>
+      <facetEntailment facetID="HB_42b_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_42b_f4" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.42b.594.1" answerText="The thing landed on Sam's hand." accuracy="irrelevant">
+      <facetEntailment facetID="HB_42b_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_42b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_42b_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_42b_f4" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.42b.595.1" answerText="To slap the mosquito." accuracy="correct">
+      <facetEntailment facetID="HB_42b_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_42b_f2" label="Inferred"/>
+      <facetEntailment facetID="HB_42b_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_42b_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.42b.596.1" answerText="Knocking over the soda." accuracy="irrelevant">
+      <facetEntailment facetID="HB_42b_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_42b_f2" label="Diff-Arg"/>
+      <facetEntailment facetID="HB_42b_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_42b_f4" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.42b.597.1" answerText="Sam's response is to slap the mosquito." accuracy="correct">
+      <facetEntailment facetID="HB_42b_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_42b_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_42b_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_42b_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.42b.598.1" answerText="Hit the mosquito." accuracy="correct">
+      <facetEntailment facetID="HB_42b_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_42b_f2" label="Inferred"/>
+      <facetEntailment facetID="HB_42b_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_42b_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.42b.599.1" answerText="Sam slapped the mosquito." accuracy="correct">
+      <facetEntailment facetID="HB_42b_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_42b_f2" label="Inferred"/>
+      <facetEntailment facetID="HB_42b_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_42b_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.42b.600.1" answerText="Sight because he saw the mosquito land on his arm and hit it." accuracy="correct">
+      <facetEntailment facetID="HB_42b_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_42b_f2" label="Inferred"/>
+      <facetEntailment facetID="HB_42b_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_42b_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.42b.602.1" answerText="He was slapping the mosquito and bumped Jasmine." accuracy="correct">
+      <facetEntailment facetID="HB_42b_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_42b_f2" label="Inferred"/>
+      <facetEntailment facetID="HB_42b_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_42b_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.42b.604.1" answerText="Sam's response was to start slapping the mosquito that was on his arm." accuracy="correct">
+      <facetEntailment facetID="HB_42b_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_42b_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_42b_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_42b_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.42b.605.1" answerText="Sam's response was slapping the mosquito." accuracy="correct">
+      <facetEntailment facetID="HB_42b_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_42b_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_42b_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_42b_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.42b.606.1" answerText="Knock Jasmine's soda in her lap." accuracy="irrelevant">
+      <facetEntailment facetID="HB_42b_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_42b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_42b_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_42b_f4" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.42b.607.1" answerText="Slapping the mosquito." accuracy="correct">
+      <facetEntailment facetID="HB_42b_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_42b_f2" label="Inferred"/>
+      <facetEntailment facetID="HB_42b_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_42b_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.42b.608.1" answerText="The response was to hit the mosquito." accuracy="correct">
+      <facetEntailment facetID="HB_42b_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_42b_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_42b_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_42b_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.42b.609.1" answerText="Sam's response was to try to hit the mosquito." accuracy="correct">
+      <facetEntailment facetID="HB_42b_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_42b_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_42b_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_42b_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.42b.611.1" answerText="Movement." accuracy="irrelevant">
+      <facetEntailment facetID="HB_42b_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_42b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_42b_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_42b_f4" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.42b.612.1" answerText="Sam's response was to just slap at the mosquito." accuracy="correct">
+      <facetEntailment facetID="HB_42b_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_42b_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_42b_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_42b_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.42b.613.1" answerText="To slap the bug." accuracy="correct">
+      <facetEntailment facetID="HB_42b_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_42b_f2" label="Inferred"/>
+      <facetEntailment facetID="HB_42b_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_42b_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.42b.614.1" answerText="Sam's response was constantly slapping the mosquito causing to spill the pop on Jasmine's lap." accuracy="correct">
+      <facetEntailment facetID="HB_42b_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_42b_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_42b_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_42b_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.42b.628.1" answerText="She started slapping it." accuracy="correct">
+      <facetEntailment facetID="HB_42b_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_42b_f2" label="Inferred"/>
+      <facetEntailment facetID="HB_42b_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_42b_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.42b.630.1" answerText="He smacked it." accuracy="correct">
+      <facetEntailment facetID="HB_42b_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_42b_f2" label="Inferred"/>
+      <facetEntailment facetID="HB_42b_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_42b_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.42b.636.1" answerText="Sam's response was to slap the mosquito." accuracy="correct">
+      <facetEntailment facetID="HB_42b_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_42b_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_42b_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_42b_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.42b.637.1" answerText="Sam's response was to smack the mosquito." accuracy="correct">
+      <facetEntailment facetID="HB_42b_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_42b_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_42b_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_42b_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.42b.638.1" answerText="Sam's response was to smack it and he knocked Jasmine's soda down." accuracy="correct">
+      <facetEntailment facetID="HB_42b_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_42b_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_42b_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_42b_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.42b.641.1" answerText="Sam's response was slapping the mosquito." accuracy="correct">
+      <facetEntailment facetID="HB_42b_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_42b_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_42b_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_42b_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.42b.644.1" answerText="Sam's response was to slap the mosquito." accuracy="correct">
+      <facetEntailment facetID="HB_42b_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_42b_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_42b_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_42b_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.42b.646.1" answerText="Sam's response was to slap the mosquito." accuracy="correct">
+      <facetEntailment facetID="HB_42b_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_42b_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_42b_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_42b_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.42b.649.1" answerText="He slapped the mosquito." accuracy="correct">
+      <facetEntailment facetID="HB_42b_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_42b_f2" label="Inferred"/>
+      <facetEntailment facetID="HB_42b_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_42b_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.42b.984.1" answerText="He knocked over Jasmine's soda." accuracy="irrelevant">
+      <facetEntailment facetID="HB_42b_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_42b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="HB_42b_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_42b_f4" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.42b.986.1" answerText="His response was trying to slap the mosquito." accuracy="correct">
+      <facetEntailment facetID="HB_42b_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_42b_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_42b_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_42b_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.42b.987.1" answerText="He was slapping the mosquito." accuracy="correct">
+      <facetEntailment facetID="HB_42b_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_42b_f2" label="Inferred"/>
+      <facetEntailment facetID="HB_42b_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_42b_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.42b.992.1" answerText="Sam's response was when he knocked Jasmine's soda into her lap." accuracy="irrelevant">
+      <facetEntailment facetID="HB_42b_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_42b_f2" label="Diff-Arg"/>
+      <facetEntailment facetID="HB_42b_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_42b_f4" label="Assumed"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

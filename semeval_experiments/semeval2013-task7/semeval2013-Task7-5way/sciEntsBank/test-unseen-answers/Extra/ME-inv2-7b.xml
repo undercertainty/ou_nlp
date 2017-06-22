@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<question testSet="unseen-answers" id="ME_7b" module="ME">
+  <questionText>Lee has an object he wants to test to see if it is an insulator or a conductor. He is going to use the circuit you see in the picture. How will he know if the object is a conductor?</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="ME_7b-a1" text="If the motor runs, the object is a conductor.">
+      <tokens>
+        <token id="ME_7b_ra1">If</token>
+        <token id="ME_7b_ra2">the</token>
+        <token id="ME_7b_ra3">motor</token>
+        <token id="ME_7b_ra4">runs</token>
+        <token id="ME_7b_ra5">,</token>
+        <token id="ME_7b_ra6">the</token>
+        <token id="ME_7b_ra7">object</token>
+        <token id="ME_7b_ra8">is</token>
+        <token id="ME_7b_ra9">a</token>
+        <token id="ME_7b_ra10">conductor</token>
+        <token id="ME_7b_ra11">.</token>
+      </tokens>
+      <facets>
+        <facet id="ME_7b_f1" govNum="ME_7b_ra4" modNum="ME_7b_ra3" reltn="Theme" govText="runs" modText="motor"/>
+        <facet id="ME_7b_f2" govNum="ME_7b_ra7" modNum="ME_7b_ra10" reltn="Be" govText="object" isAssumed="true" modText="conductor"/>
+        <facet id="ME_7b_f3" govNum="ME_7b_ra4" modNum="ME_7b_ra8" reltn="Cause-know_if" childProp1Facet1="ME_7b_f1" govText="runs" isAssumed="true" modText="is" childProp2Facet1="ME_7b_f2"/>
+        <facet id="ME_7b_f4" govNum="ME_7b_ra8" modNum="ME_7b_ra4" reltn="Cause_if" childProp1Facet1="ME_7b_f2" govText="is" modText="runs" childProp2Facet1="ME_7b_f1"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="ME.7b.101.1" answerText="He will know if the motor will run if it is a conductor it will not if it is a isolator." accuracy="correct">
+      <facetEntailment facetID="ME_7b_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_7b_f2" label="Expressed"/>
+      <facetEntailment facetID="ME_7b_f3" label="Expressed"/>
+      <facetEntailment facetID="ME_7b_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.7b.147.1" answerText="The conductor will make it go." accuracy="correct">
+      <facetEntailment facetID="ME_7b_f1" label="Inferred"/>
+      <facetEntailment facetID="ME_7b_f2" label="Expressed"/>
+      <facetEntailment facetID="ME_7b_f3" label="Assumed"/>
+      <facetEntailment facetID="ME_7b_f4" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="ME.7b.180.1" answerText="He will know that if it works." accuracy="correct">
+      <facetEntailment facetID="ME_7b_f1" label="Inferred"/>
+      <facetEntailment facetID="ME_7b_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_7b_f3" label="Assumed"/>
+      <facetEntailment facetID="ME_7b_f4" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="ME.7b.191.1" answerText="He could know if it works, motor." accuracy="correct">
+      <facetEntailment facetID="ME_7b_f1" label="Inferred"/>
+      <facetEntailment facetID="ME_7b_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_7b_f3" label="Assumed"/>
+      <facetEntailment facetID="ME_7b_f4" label="Inferred"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

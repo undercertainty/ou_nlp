@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<question testSet="unseen-answers" id="SE_24a" module="SE">
+  <questionText>The drawing above shows a plaza in the afternoon. Label the west side of the drawing with a W. Label the north side of the drawing with an N. How did you know which direction was west?</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="SE_24a-a1" text="In the afternoon, shadows point east because the Sun is in the west. So the west side is opposite of the shadows.">
+      <tokens>
+        <token id="SE_24a_ra1">In</token>
+        <token id="SE_24a_ra2">the</token>
+        <token id="SE_24a_ra3">afternoon</token>
+        <token id="SE_24a_ra4">,</token>
+        <token id="SE_24a_ra5">shadows</token>
+        <token id="SE_24a_ra6">point</token>
+        <token id="SE_24a_ra7">east</token>
+        <token id="SE_24a_ra8">because</token>
+        <token id="SE_24a_ra9">the</token>
+        <token id="SE_24a_ra10">Sun</token>
+        <token id="SE_24a_ra11">is</token>
+        <token id="SE_24a_ra12">in</token>
+        <token id="SE_24a_ra13">the</token>
+        <token id="SE_24a_ra14">west</token>
+        <token id="SE_24a_ra15">.</token>
+        <token id="SE_24a_ra16">So</token>
+        <token id="SE_24a_ra17">the</token>
+        <token id="SE_24a_ra18">west</token>
+        <token id="SE_24a_ra19">side</token>
+        <token id="SE_24a_ra20">is</token>
+        <token id="SE_24a_ra21">opposite</token>
+        <token id="SE_24a_ra22">of</token>
+        <token id="SE_24a_ra23">the</token>
+        <token id="SE_24a_ra24">shadows</token>
+        <token id="SE_24a_ra25">.</token>
+      </tokens>
+      <facets>
+        <facet id="SE_24a_f1" govNum="SE_24a_ra6" modNum="SE_24a_ra5" reltn="Theme" govText="point" modText="shadows"/>
+        <facet id="SE_24a_f2" govNum="SE_24a_ra6" modNum="SE_24a_ra7" reltn="Direction" govText="point" modText="east"/>
+        <facet id="SE_24a_f3" govNum="SE_24a_ra6" modNum="SE_24a_ra3" reltn="Time_in" govText="point" modText="afternoon"/>
+        <facet id="SE_24a_f4" govNum="SE_24a_ra10" modNum="SE_24a_ra14" reltn="Location_in" govText="Sun" modText="west"/>
+        <facet id="SE_24a_f5" govNum="SE_24a_ra6" modNum="SE_24a_ra11" reltn="Cause_because" childProp1Facet1="SE_24a_f1" govText="point" childProp1Facet2="SE_24a_f2" modText="is" childProp2Facet1="SE_24a_f4"/>
+        <facet id="SE_24a_f6" govNum="SE_24a_ra19" modNum="SE_24a_ra18" reltn="NMod" govText="side" isAssumed="true" modText="west"/>
+        <facet id="SE_24a_f7" govNum="SE_24a_ra19" modNum="SE_24a_ra24" reltn="Location_opposite_of" govText="side" modText="shadows"/>
+        <facet id="SE_24a_f8" govNum="SE_24a_ra20" modNum="SE_24a_ra6" reltn="Cause_so" childProp2Facet2="SE_24a_f2" childProp1Facet1="SE_24a_f7" govText="is" childProp1Facet2="SE_24a_f6" modText="point" childProp2Facet1="SE_24a_f1"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="SE.24a.404.1" answerText="Because the person the north side has the longest shadow and the fountain on the west and the tree have the west shadow." accuracy="contradictory">
+      <facetEntailment facetID="SE_24a_f1" label="Inferred"/>
+      <facetEntailment facetID="SE_24a_f2" label="Contra-Expr"/>
+      <facetEntailment facetID="SE_24a_f3" label="Unaddressed"/>
+      <facetEntailment facetID="SE_24a_f4" label="Unaddressed"/>
+      <facetEntailment facetID="SE_24a_f5" label="Unaddressed"/>
+      <facetEntailment facetID="SE_24a_f6" label="Assumed"/>
+      <facetEntailment facetID="SE_24a_f7" label="Unaddressed"/>
+      <facetEntailment facetID="SE_24a_f8" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.24a.409.1" answerText="I knew which direction was north, so I figured that west was to the left." accuracy="irrelevant">
+      <facetEntailment facetID="SE_24a_f1" label="Unaddressed"/>
+      <facetEntailment facetID="SE_24a_f2" label="Unaddressed"/>
+      <facetEntailment facetID="SE_24a_f3" label="Unaddressed"/>
+      <facetEntailment facetID="SE_24a_f4" label="Unaddressed"/>
+      <facetEntailment facetID="SE_24a_f5" label="Unaddressed"/>
+      <facetEntailment facetID="SE_24a_f6" label="Assumed"/>
+      <facetEntailment facetID="SE_24a_f7" label="Unaddressed"/>
+      <facetEntailment facetID="SE_24a_f8" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.24a.505.1" answerText="Because I remember a compass rose and west is on the left side." accuracy="irrelevant">
+      <facetEntailment facetID="SE_24a_f1" label="Unaddressed"/>
+      <facetEntailment facetID="SE_24a_f2" label="Unaddressed"/>
+      <facetEntailment facetID="SE_24a_f3" label="Unaddressed"/>
+      <facetEntailment facetID="SE_24a_f4" label="Unaddressed"/>
+      <facetEntailment facetID="SE_24a_f5" label="Unaddressed"/>
+      <facetEntailment facetID="SE_24a_f6" label="Expressed"/>
+      <facetEntailment facetID="SE_24a_f7" label="Unaddressed"/>
+      <facetEntailment facetID="SE_24a_f8" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.24a.600.1" answerText="I know which direction is west because west always points at the opposite direction." accuracy="irrelevant">
+      <facetEntailment facetID="SE_24a_f1" label="Unaddressed"/>
+      <facetEntailment facetID="SE_24a_f2" label="Unaddressed"/>
+      <facetEntailment facetID="SE_24a_f3" label="Contra-Infr"/>
+      <facetEntailment facetID="SE_24a_f4" label="Unaddressed"/>
+      <facetEntailment facetID="SE_24a_f5" label="Unaddressed"/>
+      <facetEntailment facetID="SE_24a_f6" label="Expressed"/>
+      <facetEntailment facetID="SE_24a_f7" label="Inferred"/>
+      <facetEntailment facetID="SE_24a_f8" label="Inferred"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

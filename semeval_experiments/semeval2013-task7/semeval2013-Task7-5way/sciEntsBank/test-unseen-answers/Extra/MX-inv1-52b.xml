@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<question testSet="unseen-answers" id="MX_52b" module="MX">
+  <questionText>Emily put 20 milliliters of a mystery solution in an evaporation dish. When all the water was gone, she drew the picture of the dish you see here.  Using the crystal-shape key below, what chemical do you think was dissolved in the solution? A. Epsom salt B. Sodium thiosulfate (C. Alum) D. None of the above. Explain why you chose that answer.</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="MX_52b-a1" text="Emily's crystals are the same shape as the alum crystals shown on the key.">
+      <tokens>
+        <token id="MX_52b_ra1">Emily</token>
+        <token id="MX_52b_ra2">'s</token>
+        <token id="MX_52b_ra3">crystals</token>
+        <token id="MX_52b_ra4">are</token>
+        <token id="MX_52b_ra5">the</token>
+        <token id="MX_52b_ra6">same</token>
+        <token id="MX_52b_ra7">shape</token>
+        <token id="MX_52b_ra8">as</token>
+        <token id="MX_52b_ra9">the</token>
+        <token id="MX_52b_ra10">alum</token>
+        <token id="MX_52b_ra11">crystals</token>
+        <token id="MX_52b_ra12">shown</token>
+        <token id="MX_52b_ra13">on</token>
+        <token id="MX_52b_ra14">the</token>
+        <token id="MX_52b_ra15">key</token>
+        <token id="MX_52b_ra16">.</token>
+      </tokens>
+      <facets>
+        <facet id="MX_52b_f1" govNum="MX_52b_ra3" modNum="MX_52b_ra1" reltn="NMod_pos" govText="crystals" isAssumed="true" modText="Emily"/>
+        <facet id="MX_52b_f2" govNum="MX_52b_ra3" modNum="MX_52b_ra7" reltn="Be" govText="crystals" isAssumed="true" modText="shape"/>
+        <facet id="MX_52b_f3" govNum="MX_52b_ra7" modNum="MX_52b_ra6" reltn="NMod" govText="shape" modText="same"/>
+        <facet id="MX_52b_f4" govNum="MX_52b_ra6" modNum="MX_52b_ra11" reltn="AMod_as" govText="same" modText="crystals"/>
+        <facet id="MX_52b_f5" govNum="MX_52b_ra11" modNum="MX_52b_ra10" reltn="NMod" govText="crystals" modText="alum"/>
+        <facet id="MX_52b_f6" govNum="MX_52b_ra12" modNum="MX_52b_ra11" reltn="Topic" govText="shown" isAssumed="true" modText="crystals"/>
+        <facet id="MX_52b_f7" govNum="MX_52b_ra12" modNum="MX_52b_ra15" reltn="Location_on" govText="shown" isAssumed="true" modText="key"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="MX.52b.397.1" answerText="The crystals are the same shape and they look the same." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="MX_52b_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_52b_f2" label="Expressed"/>
+      <facetEntailment facetID="MX_52b_f3" label="Expressed"/>
+      <facetEntailment facetID="MX_52b_f4" label="Expressed"/>
+      <facetEntailment facetID="MX_52b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MX_52b_f6" label="Assumed"/>
+      <facetEntailment facetID="MX_52b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.52b.425.1" answerText="Because in the key, alum is the exact same pattern as the one above." accuracy="correct">
+      <facetEntailment facetID="MX_52b_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_52b_f2" label="Assumed"/>
+      <facetEntailment facetID="MX_52b_f3" label="Inferred"/>
+      <facetEntailment facetID="MX_52b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MX_52b_f5" label="Expressed"/>
+      <facetEntailment facetID="MX_52b_f6" label="Assumed"/>
+      <facetEntailment facetID="MX_52b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.52b.459.1" answerText="I think that the Epsom salt because it look like salt crystal. It is sodium hyposulfite or alum." accuracy="contradictory">
+      <facetEntailment facetID="MX_52b_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_52b_f2" label="Assumed"/>
+      <facetEntailment facetID="MX_52b_f3" label="Inferred"/>
+      <facetEntailment facetID="MX_52b_f4" label="Inferred"/>
+      <facetEntailment facetID="MX_52b_f5" label="Expressed"/>
+      <facetEntailment facetID="MX_52b_f6" label="Assumed"/>
+      <facetEntailment facetID="MX_52b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.52b.607.1" answerText="Because below the alum picture looks just like the one above." accuracy="correct">
+      <facetEntailment facetID="MX_52b_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_52b_f2" label="Assumed"/>
+      <facetEntailment facetID="MX_52b_f3" label="Inferred"/>
+      <facetEntailment facetID="MX_52b_f4" label="Inferred"/>
+      <facetEntailment facetID="MX_52b_f5" label="Expressed"/>
+      <facetEntailment facetID="MX_52b_f6" label="Assumed"/>
+      <facetEntailment facetID="MX_52b_f7" label="Assumed"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

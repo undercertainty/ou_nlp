@@ -1,0 +1,934 @@
+<?xml version="1.0"?>
+<question testSet="unseen-domains" id="WA_24b" module="WA">
+  <questionText>Pam sprayed water on her mother's car. The water drops looked just like those she had seen on other surfaces that do not absorb water. What property of water causes the drop to be shaped that way?</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="WA_24b-a1" text="Surface tension causes the drop to form a dome or bead shape.">
+      <tokens>
+        <token id="WA_24b_ra1">Surface</token>
+        <token id="WA_24b_ra2">tension</token>
+        <token id="WA_24b_ra3">causes</token>
+        <token id="WA_24b_ra4">the</token>
+        <token id="WA_24b_ra5">drop</token>
+        <token id="WA_24b_ra6">to</token>
+        <token id="WA_24b_ra7">form</token>
+        <token id="WA_24b_ra8">a</token>
+        <token id="WA_24b_ra9">dome</token>
+        <token id="WA_24b_ra10">or</token>
+        <token id="WA_24b_ra11">bead</token>
+        <token id="WA_24b_ra12">shape</token>
+        <token id="WA_24b_ra13">.</token>
+      </tokens>
+      <facets>
+        <facet id="WA_24b_f1" govNum="WA_24b_ra2" modNum="WA_24b_ra1" reltn="NMod" govText="tension" modText="Surface"/>
+        <facet id="WA_24b_f2" govNum="WA_24b_ra3" modNum="WA_24b_ra2" reltn="Cause" govText="causes" modText="tension"/>
+        <facet id="WA_24b_f3" govNum="WA_24b_ra7" modNum="WA_24b_ra5" reltn="Material" govText="form" isAssumed="true" modText="drop"/>
+        <facet id="WA_24b_f4" govNum="WA_24b_ra7" modNum="WA_24b_ra9" reltn="Product" govText="form" isAssumed="true" modText="dome"/>
+        <facet id="WA_24b_f5" govNum="WA_24b_ra7" modNum="WA_24b_ra12" reltn="Product" govText="form" isAssumed="true" modText="shape"/>
+        <facet id="WA_24b_f6" govNum="WA_24b_ra12" modNum="WA_24b_ra11" reltn="NMod" govText="shape" isAssumed="true" modText="bead"/>
+        <facet id="WA_24b_f7" govNum="WA_24b_ra3" modNum="WA_24b_ra7" reltn="Theme_to" childProp2Facet2="WA_24b_f5" govText="causes" isAssumed="true" modText="form" childProp2Facet1="WA_24b_f4"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="WA.24b.142.1" answerText="The surface is flat so the water beads up." accuracy="irrelevant">
+      <facetEntailment facetID="WA_24b_f1" label="Diff-Arg"/>
+      <facetEntailment facetID="WA_24b_f2" label="Diff-Arg"/>
+      <facetEntailment facetID="WA_24b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f7" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.24b.147.1" answerText="It gets a lot of water and makes a dome." accuracy="irrelevant">
+      <facetEntailment facetID="WA_24b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_24b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_24b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.24b.162.1" answerText="Surface tension." accuracy="correct">
+      <facetEntailment facetID="WA_24b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f2" label="Inferred"/>
+      <facetEntailment facetID="WA_24b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.24b.171.1" answerText="Some forces tension makes the water to slip off the car." accuracy="irrelevant">
+      <facetEntailment facetID="WA_24b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.24b.173.1" answerText="The property is maybe the fact that palm held spray bottle right above the car. The closer the spray is to the car the bigger the bead forms." accuracy="irrelevant">
+      <facetEntailment facetID="WA_24b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_24b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_24b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.24b.177.1" answerText="The water sticks together and forms a bubble the water on the outside of the bubble is like skin." accuracy="irrelevant">
+      <facetEntailment facetID="WA_24b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_24b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_24b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.24b.180.1" answerText="The property of the is surface tension." accuracy="correct">
+      <facetEntailment facetID="WA_24b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f2" label="Inferred"/>
+      <facetEntailment facetID="WA_24b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.24b.183.1" answerText="The surface tension holds it like wax paper." accuracy="correct">
+      <facetEntailment facetID="WA_24b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.24b.188.1" answerText="The surface tension. Surface tension is holding it up in a bead." accuracy="correct">
+      <facetEntailment facetID="WA_24b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f7" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.24b.190.1" answerText="The water property is surface tension surface tension holds it together so it does not go flat." accuracy="correct">
+      <facetEntailment facetID="WA_24b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.24b.191.1" answerText="The car is hard and the drop will just stay like bead because the drop cannot absorb into metal." accuracy="irrelevant">
+      <facetEntailment facetID="WA_24b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_24b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_24b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f7" label="Diff-Arg"/>
+    </studentAnswer>
+    <studentAnswer id="WA.24b.192.1" answerText="Well the property of the water that contains the drop to be shaped that way is called surface tension." accuracy="correct">
+      <facetEntailment facetID="WA_24b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f7" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.24b.195.1" answerText="Surface tension makes the water bead." accuracy="correct">
+      <facetEntailment facetID="WA_24b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f7" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.24b.196.1" answerText="When water drops on each other like rain it makes it bead." accuracy="irrelevant">
+      <facetEntailment facetID="WA_24b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_24b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_24b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f7" label="Diff-Arg"/>
+    </studentAnswer>
+    <studentAnswer id="WA.24b.198.1" answerText="Surface tension because it didn't absorb so if you put water on a penny, it just bubbles up." accuracy="correct">
+      <facetEntailment facetID="WA_24b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.24b.206.1" answerText="The property of water is called surface tension." accuracy="correct">
+      <facetEntailment facetID="WA_24b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f2" label="Inferred"/>
+      <facetEntailment facetID="WA_24b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.24b.207.1" answerText="The property of the water is surface tension." accuracy="correct">
+      <facetEntailment facetID="WA_24b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f2" label="Inferred"/>
+      <facetEntailment facetID="WA_24b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.24b.208.1" answerText="The surface tension." accuracy="correct">
+      <facetEntailment facetID="WA_24b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f2" label="Inferred"/>
+      <facetEntailment facetID="WA_24b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.24b.216.1" answerText="The car is clean so it can bead up." accuracy="irrelevant">
+      <facetEntailment facetID="WA_24b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_24b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_24b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f7" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.24b.218.1" answerText="A dome." accuracy="irrelevant">
+      <facetEntailment facetID="WA_24b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_24b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_24b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.24b.219.1" answerText="They get big and smaller then they fall." accuracy="irrelevant">
+      <facetEntailment facetID="WA_24b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_24b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_24b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.24b.220.1" answerText="Surface tension caused the bead of water to be a dome." accuracy="correct">
+      <facetEntailment facetID="WA_24b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f7" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.24b.222.1" answerText="A dome." accuracy="irrelevant">
+      <facetEntailment facetID="WA_24b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_24b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_24b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.24b.223.1" answerText="Surface tension is what makes the water look that way." accuracy="correct">
+      <facetEntailment facetID="WA_24b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f7" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.24b.225.1" answerText="There was no surface tension." accuracy="contradictory">
+      <facetEntailment facetID="WA_24b_f1" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_24b_f2" label="Contra-Infr"/>
+      <facetEntailment facetID="WA_24b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.24b.226.1" answerText="The property of water that causes the drop to be shaped that way is the temperature of the water." accuracy="irrelevant">
+      <facetEntailment facetID="WA_24b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_24b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_24b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f7" label="Diff-Arg"/>
+    </studentAnswer>
+    <studentAnswer id="WA.24b.227.1" answerText="The surface tension of the drop." accuracy="correct">
+      <facetEntailment facetID="WA_24b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f2" label="Inferred"/>
+      <facetEntailment facetID="WA_24b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.24b.228.1" answerText="The surface tension." accuracy="correct">
+      <facetEntailment facetID="WA_24b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f2" label="Inferred"/>
+      <facetEntailment facetID="WA_24b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.24b.229.1" answerText="Surface tension causes the water to be shaped like this." accuracy="correct">
+      <facetEntailment facetID="WA_24b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f7" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.24b.245.1" answerText="Surface tension allow the drop to stay that way." accuracy="correct">
+      <facetEntailment facetID="WA_24b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.24b.251.1" answerText="The shape that causes the drop to look like that is called a dome." accuracy="irrelevant">
+      <facetEntailment facetID="WA_24b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_24b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_24b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.24b.252.1" answerText="Surface tension causes the drop to be shaped that way." accuracy="correct">
+      <facetEntailment facetID="WA_24b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f7" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.24b.256.1" answerText="It is like a penny you put the water on the penny and it goes up." accuracy="irrelevant">
+      <facetEntailment facetID="WA_24b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_24b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_24b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.24b.257.1" answerText="Surface tension causes the drop to hold in a dome shape will not splatter." accuracy="correct">
+      <facetEntailment facetID="WA_24b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f7" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.24b.260.1" answerText="Surface tension causes the drop to look that way." accuracy="correct">
+      <facetEntailment facetID="WA_24b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f7" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.24b.265.1" answerText="Surface tension." accuracy="correct">
+      <facetEntailment facetID="WA_24b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f2" label="Inferred"/>
+      <facetEntailment facetID="WA_24b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.24b.267.1" answerText="Some water drops stay normal and some get water added to the water drops." accuracy="irrelevant">
+      <facetEntailment facetID="WA_24b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_24b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_24b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.24b.277.1" answerText="The car look like a water." accuracy="irrelevant">
+      <facetEntailment facetID="WA_24b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_24b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_24b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.24b.279.1" answerText="Because there is surface tension or skin." accuracy="correct">
+      <facetEntailment facetID="WA_24b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f2" label="Inferred"/>
+      <facetEntailment facetID="WA_24b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.24b.281.1" answerText="Because it is about to go to the grand." accuracy="irrelevant">
+      <facetEntailment facetID="WA_24b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_24b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_24b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.24b.282.1" answerText="Because of surface tension." accuracy="correct">
+      <facetEntailment facetID="WA_24b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.24b.288.1" answerText="The surface of the car does not absorb water and it beads up and form a little ball." accuracy="irrelevant">
+      <facetEntailment facetID="WA_24b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_24b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_24b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f7" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.24b.289.1" answerText="It looks like a car." accuracy="irrelevant">
+      <facetEntailment facetID="WA_24b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_24b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_24b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.24b.295.1" answerText="There is a type of skin over it and that is why it takes shape of a dome." accuracy="irrelevant">
+      <facetEntailment facetID="WA_24b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_24b_f2" label="Diff-Arg"/>
+      <facetEntailment facetID="WA_24b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f7" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.24b.300.1" answerText="Because the real rain drop is like that and it turns into a dome." accuracy="irrelevant">
+      <facetEntailment facetID="WA_24b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_24b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_24b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.24b.301.1" answerText="It cannot absorb in the water will make a bubble like shape or surface tension will stick all the water together." accuracy="correct">
+      <facetEntailment facetID="WA_24b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f7" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.24b.346.1" answerText="Surface tension." accuracy="correct">
+      <facetEntailment facetID="WA_24b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f2" label="Inferred"/>
+      <facetEntailment facetID="WA_24b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.24b.351.1" answerText="Surface area." accuracy="irrelevant">
+      <facetEntailment facetID="WA_24b_f1" label="Diff-Arg"/>
+      <facetEntailment facetID="WA_24b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_24b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.24b.354.1" answerText="Surface tension." accuracy="correct">
+      <facetEntailment facetID="WA_24b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_24b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.24b.359.1" answerText="The surface tension of the car." accuracy="correct">
+      <facetEntailment facetID="WA_24b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f2" label="Inferred"/>
+      <facetEntailment facetID="WA_24b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.24b.365.1" answerText="Plain water like hose water for example will make a dome shape and the surface tension from the car will help make the dome." accuracy="correct">
+      <facetEntailment facetID="WA_24b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f7" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.24b.366.1" answerText="Surface tension." accuracy="correct">
+      <facetEntailment facetID="WA_24b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f2" label="Inferred"/>
+      <facetEntailment facetID="WA_24b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.24b.384.1" answerText="Surface tension." accuracy="correct">
+      <facetEntailment facetID="WA_24b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f2" label="Inferred"/>
+      <facetEntailment facetID="WA_24b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.24b.385.1" answerText="The property of surface tension." accuracy="correct">
+      <facetEntailment facetID="WA_24b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f2" label="Inferred"/>
+      <facetEntailment facetID="WA_24b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.24b.386.1" answerText="Surface tension." accuracy="correct">
+      <facetEntailment facetID="WA_24b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f2" label="Inferred"/>
+      <facetEntailment facetID="WA_24b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.24b.387.1" answerText="The slipperiness and the wetness." accuracy="irrelevant">
+      <facetEntailment facetID="WA_24b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_24b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_24b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.24b.393.1" answerText="The slipperiness of the surface." accuracy="irrelevant">
+      <facetEntailment facetID="WA_24b_f1" label="Diff-Arg"/>
+      <facetEntailment facetID="WA_24b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_24b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.24b.398.1" answerText="Surface tension." accuracy="correct">
+      <facetEntailment facetID="WA_24b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f2" label="Inferred"/>
+      <facetEntailment facetID="WA_24b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.24b.399.1" answerText="I think because of the surface tension." accuracy="correct">
+      <facetEntailment facetID="WA_24b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.24b.400.1" answerText="The property of tension." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="WA_24b_f1" label="Inferred"/>
+      <facetEntailment facetID="WA_24b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.24b.401.1" answerText="Because car is iron." accuracy="irrelevant">
+      <facetEntailment facetID="WA_24b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_24b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_24b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.24b.402.1" answerText="If they doing like that surface tension." accuracy="correct">
+      <facetEntailment facetID="WA_24b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f2" label="Inferred"/>
+      <facetEntailment facetID="WA_24b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.24b.404.1" answerText="It is the surface tension." accuracy="correct">
+      <facetEntailment facetID="WA_24b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f2" label="Inferred"/>
+      <facetEntailment facetID="WA_24b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.24b.418.1" answerText="Surface tension." accuracy="correct">
+      <facetEntailment facetID="WA_24b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f2" label="Inferred"/>
+      <facetEntailment facetID="WA_24b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.24b.422.1" answerText="Surface tension." accuracy="correct">
+      <facetEntailment facetID="WA_24b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f2" label="Inferred"/>
+      <facetEntailment facetID="WA_24b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.24b.425.1" answerText="Surface temperature." accuracy="irrelevant">
+      <facetEntailment facetID="WA_24b_f1" label="Diff-Arg"/>
+      <facetEntailment facetID="WA_24b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_24b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.24b.427.1" answerText="The Surface tension." accuracy="correct">
+      <facetEntailment facetID="WA_24b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f2" label="Inferred"/>
+      <facetEntailment facetID="WA_24b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.24b.431.1" answerText="The surface tension is small." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="WA_24b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_24b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.24b.451.1" answerText="Surface tension." accuracy="correct">
+      <facetEntailment facetID="WA_24b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f2" label="Inferred"/>
+      <facetEntailment facetID="WA_24b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.24b.456.1" answerText="Surface tension." accuracy="correct">
+      <facetEntailment facetID="WA_24b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f2" label="Inferred"/>
+      <facetEntailment facetID="WA_24b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.24b.457.1" answerText="Surface tension." accuracy="correct">
+      <facetEntailment facetID="WA_24b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f2" label="Inferred"/>
+      <facetEntailment facetID="WA_24b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.24b.458.1" answerText="The surface tension in the drop of water." accuracy="correct">
+      <facetEntailment facetID="WA_24b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f2" label="Inferred"/>
+      <facetEntailment facetID="WA_24b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.24b.460.1" answerText="The surface tension." accuracy="correct">
+      <facetEntailment facetID="WA_24b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f2" label="Inferred"/>
+      <facetEntailment facetID="WA_24b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.24b.486.1" answerText="Because when the water hits the surface it gas to that shape." accuracy="irrelevant">
+      <facetEntailment facetID="WA_24b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_24b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_24b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f7" label="Diff-Arg"/>
+    </studentAnswer>
+    <studentAnswer id="WA.24b.490.1" answerText="Because it is going down hill?" accuracy="irrelevant">
+      <facetEntailment facetID="WA_24b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_24b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_24b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.24b.494.1" answerText="IT just hit the surface." accuracy="irrelevant">
+      <facetEntailment facetID="WA_24b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_24b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_24b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.24b.500.1" answerText="Surface tension." accuracy="correct">
+      <facetEntailment facetID="WA_24b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f2" label="Inferred"/>
+      <facetEntailment facetID="WA_24b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.24b.505.1" answerText="Surface tension." accuracy="correct">
+      <facetEntailment facetID="WA_24b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f2" label="Inferred"/>
+      <facetEntailment facetID="WA_24b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.24b.506.1" answerText="Surface tension." accuracy="correct">
+      <facetEntailment facetID="WA_24b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f2" label="Inferred"/>
+      <facetEntailment facetID="WA_24b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.24b.522.1" answerText="The surface tension makes it like that." accuracy="correct">
+      <facetEntailment facetID="WA_24b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.24b.523.1" answerText="Surface tension." accuracy="correct">
+      <facetEntailment facetID="WA_24b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f2" label="Inferred"/>
+      <facetEntailment facetID="WA_24b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.24b.524.1" answerText="Because it is not like waxed paper and cannot be a bead and cannot be absorbed so it has to be like foil." accuracy="contradictory">
+      <facetEntailment facetID="WA_24b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_24b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_24b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f6" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_24b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.24b.525.1" answerText="Because the surface is different and that the car is like wax paper." accuracy="irrelevant">
+      <facetEntailment facetID="WA_24b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_24b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_24b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.24b.526.1" answerText="It is the look. Actually it is the surface tension. It is beading." accuracy="correct">
+      <facetEntailment facetID="WA_24b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f7" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.24b.533.1" answerText="The roof of the window." accuracy="irrelevant">
+      <facetEntailment facetID="WA_24b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_24b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_24b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.24b.536.1" answerText="Because there is surface tension on all flat surfaces, which causes the water to form a dome." accuracy="correct">
+      <facetEntailment facetID="WA_24b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f7" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.24b.537.1" answerText="There is not anything to break the surface tension." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="WA_24b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_24b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.24b.539.1" answerText="I do not know." accuracy="non_domain">
+      <facetEntailment facetID="WA_24b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_24b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_24b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.24b.541.1" answerText="Because it is a flat and smooth. And I have seen it on my car." accuracy="irrelevant">
+      <facetEntailment facetID="WA_24b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_24b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_24b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.24b.591.1" answerText="Plain water causes the drop to be shaped this way." accuracy="irrelevant">
+      <facetEntailment facetID="WA_24b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_24b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_24b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f7" label="Diff-Arg"/>
+    </studentAnswer>
+    <studentAnswer id="WA.24b.593.1" answerText="Surface tension." accuracy="correct">
+      <facetEntailment facetID="WA_24b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f2" label="Inferred"/>
+      <facetEntailment facetID="WA_24b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.24b.595.1" answerText="Surface tension." accuracy="correct">
+      <facetEntailment facetID="WA_24b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f2" label="Inferred"/>
+      <facetEntailment facetID="WA_24b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.24b.597.1" answerText="Surface tension." accuracy="correct">
+      <facetEntailment facetID="WA_24b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f2" label="Inferred"/>
+      <facetEntailment facetID="WA_24b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.24b.599.1" answerText="Because it is high up and slanted." accuracy="irrelevant">
+      <facetEntailment facetID="WA_24b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_24b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_24b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.24b.612.1" answerText="Because the water is plain if it was soapy it would have been a flat surface." accuracy="irrelevant">
+      <facetEntailment facetID="WA_24b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_24b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_24b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.24b.626.1" answerText="The surface tension makes it hold together like that." accuracy="correct">
+      <facetEntailment facetID="WA_24b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f7" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.24b.630.1" answerText="Gravity." accuracy="irrelevant">
+      <facetEntailment facetID="WA_24b_f1" label="Diff-Arg"/>
+      <facetEntailment facetID="WA_24b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_24b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.24b.632.1" answerText="Surface tension." accuracy="correct">
+      <facetEntailment facetID="WA_24b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f2" label="Inferred"/>
+      <facetEntailment facetID="WA_24b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.24b.638.1" answerText="Surface tension because it is a tight skin around it to hold it together." accuracy="correct">
+      <facetEntailment facetID="WA_24b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f7" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.24b.641.1" answerText="Surface tension." accuracy="correct">
+      <facetEntailment facetID="WA_24b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_24b_f2" label="Inferred"/>
+      <facetEntailment facetID="WA_24b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f5" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_24b_f7" label="Assumed"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

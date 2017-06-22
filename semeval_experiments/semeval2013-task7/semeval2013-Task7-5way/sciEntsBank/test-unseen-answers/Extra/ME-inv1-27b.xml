@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<question testSet="unseen-answers" id="ME_27b" module="ME">
+  <questionText>How can you use a magnet to find out if the key is iron or aluminum?</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="ME_27b-a1" text="If the key sticks, the key is iron; if the key does not stick the key is aluminum.">
+      <tokens>
+        <token id="ME_27b_ra1">If</token>
+        <token id="ME_27b_ra2">the</token>
+        <token id="ME_27b_ra3">key</token>
+        <token id="ME_27b_ra4">sticks</token>
+        <token id="ME_27b_ra5">,</token>
+        <token id="ME_27b_ra6">the</token>
+        <token id="ME_27b_ra7">key</token>
+        <token id="ME_27b_ra8">is</token>
+        <token id="ME_27b_ra9">iron</token>
+        <token id="ME_27b_ra10">;</token>
+        <token id="ME_27b_ra11">if</token>
+        <token id="ME_27b_ra12">the</token>
+        <token id="ME_27b_ra13">key</token>
+        <token id="ME_27b_ra14">does</token>
+        <token id="ME_27b_ra15">not</token>
+        <token id="ME_27b_ra16">stick</token>
+        <token id="ME_27b_ra17">the</token>
+        <token id="ME_27b_ra18">key</token>
+        <token id="ME_27b_ra19">is</token>
+        <token id="ME_27b_ra20">aluminum</token>
+        <token id="ME_27b_ra21">.</token>
+      </tokens>
+      <facets>
+        <facet id="ME_27b_f1" govNum="ME_27b_ra4" modNum="ME_27b_ra3" reltn="Theme" govText="sticks" modText="key"/>
+        <facet id="ME_27b_f2" govNum="ME_27b_ra7" modNum="ME_27b_ra9" reltn="Be" govText="key" isAssumed="true" modText="iron"/>
+        <facet id="ME_27b_f3" govNum="ME_27b_ra8" modNum="ME_27b_ra4" reltn="Cause-know_if" childProp1Facet1="ME_27b_f2" govText="is" modText="sticks" childProp2Facet1="ME_27b_f1"/>
+        <facet id="ME_27b_f4" govNum="ME_27b_ra4" modNum="ME_27b_ra8" reltn="Cause_if" childProp1Facet1="ME_27b_f1" govText="sticks" modText="is" childProp2Facet1="ME_27b_f2"/>
+        <facet id="ME_27b_f5" govNum="ME_27b_ra16" modNum="ME_27b_ra13" reltn="Theme_neg_not" govText="stick" modText="key"/>
+        <facet id="ME_27b_f6" govNum="ME_27b_ra18" modNum="ME_27b_ra20" reltn="Be" govText="key" isAssumed="true" modText="aluminum"/>
+        <facet id="ME_27b_f7" govNum="ME_27b_ra19" modNum="ME_27b_ra16" reltn="Cause-know_if" childProp1Facet1="ME_27b_f6" govText="is" modText="stick" childProp2Facet1="ME_27b_f5"/>
+        <facet id="ME_27b_f8" govNum="ME_27b_ra16" modNum="ME_27b_ra19" reltn="Cause_if" childProp1Facet1="ME_27b_f5" govText="stick" modText="is" childProp2Facet1="ME_27b_f6"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="ME.27b.101.1" answerText="You will know because if it sticks it is iron if it does not it is aluminum." accuracy="correct">
+      <facetEntailment facetID="ME_27b_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_27b_f2" label="Expressed"/>
+      <facetEntailment facetID="ME_27b_f3" label="Expressed"/>
+      <facetEntailment facetID="ME_27b_f4" label="Expressed"/>
+      <facetEntailment facetID="ME_27b_f5" label="Expressed"/>
+      <facetEntailment facetID="ME_27b_f6" label="Expressed"/>
+      <facetEntailment facetID="ME_27b_f7" label="Expressed"/>
+      <facetEntailment facetID="ME_27b_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.27b.115.1" answerText="If it attracts, it is iron. If it does not, it is aluminum." accuracy="correct">
+      <facetEntailment facetID="ME_27b_f1" label="Inferred"/>
+      <facetEntailment facetID="ME_27b_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_27b_f3" label="Inferred"/>
+      <facetEntailment facetID="ME_27b_f4" label="Inferred"/>
+      <facetEntailment facetID="ME_27b_f5" label="Inferred"/>
+      <facetEntailment facetID="ME_27b_f6" label="Assumed"/>
+      <facetEntailment facetID="ME_27b_f7" label="Inferred"/>
+      <facetEntailment facetID="ME_27b_f8" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="ME.27b.141.1" answerText="If it is iron it will stick to a magnet if it is aluminum it will not." accuracy="correct">
+      <facetEntailment facetID="ME_27b_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_27b_f2" label="Expressed"/>
+      <facetEntailment facetID="ME_27b_f3" label="Expressed"/>
+      <facetEntailment facetID="ME_27b_f4" label="Expressed"/>
+      <facetEntailment facetID="ME_27b_f5" label="Expressed"/>
+      <facetEntailment facetID="ME_27b_f6" label="Expressed"/>
+      <facetEntailment facetID="ME_27b_f7" label="Expressed"/>
+      <facetEntailment facetID="ME_27b_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.27b.148.1" answerText="Iron will stick. Aluminum will not stick." accuracy="correct">
+      <facetEntailment facetID="ME_27b_f1" label="Inferred"/>
+      <facetEntailment facetID="ME_27b_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_27b_f3" label="Inferred"/>
+      <facetEntailment facetID="ME_27b_f4" label="Inferred"/>
+      <facetEntailment facetID="ME_27b_f5" label="Inferred"/>
+      <facetEntailment facetID="ME_27b_f6" label="Assumed"/>
+      <facetEntailment facetID="ME_27b_f7" label="Inferred"/>
+      <facetEntailment facetID="ME_27b_f8" label="Inferred"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

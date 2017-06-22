@@ -1,0 +1,272 @@
+<?xml version="1.0"?>
+<question id="ST_58" module="ST">
+  <questionText>What is your "rule" for deciding if the part of a plant you are observing is a fruit?</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="ST_58-a1" text="If a part of the plant contains seeds, that part is the fruit.">
+      <tokens>
+        <token id="ST_58_ra1">If</token>
+        <token id="ST_58_ra2">a</token>
+        <token id="ST_58_ra3">part</token>
+        <token id="ST_58_ra4">of</token>
+        <token id="ST_58_ra5">the</token>
+        <token id="ST_58_ra6">plant</token>
+        <token id="ST_58_ra7">contains</token>
+        <token id="ST_58_ra8">seeds</token>
+        <token id="ST_58_ra9">,</token>
+        <token id="ST_58_ra10">that</token>
+        <token id="ST_58_ra11">part</token>
+        <token id="ST_58_ra12">is</token>
+        <token id="ST_58_ra13">the</token>
+        <token id="ST_58_ra14">fruit</token>
+        <token id="ST_58_ra15">.</token>
+      </tokens>
+      <facets>
+        <facet id="ST_58_f1" govNum="ST_58_ra3" modNum="ST_58_ra6" reltn="NMod_of" govText="part" isAssumed="true" modText="plant"/>
+        <facet id="ST_58_f2" govNum="ST_58_ra7" modNum="ST_58_ra3" reltn="Theme" govText="contains" modText="part"/>
+        <facet id="ST_58_f3" govNum="ST_58_ra7" modNum="ST_58_ra8" reltn="Material" govText="contains" modText="seeds"/>
+        <facet id="ST_58_f4" govNum="ST_58_ra11" modNum="ST_58_ra14" reltn="Be" govText="part" isAssumed="true" modText="fruit"/>
+        <facet id="ST_58_f5" govNum="ST_58_ra12" modNum="ST_58_ra7" reltn="Cause_if" childProp2Facet2="ST_58_f3" childProp1Facet1="ST_58_f4" govText="is" isAssumed="true" modText="contains" childProp2Facet1="ST_58_f2"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="ST.58.393.1" answerText="It has to have at least one seed." accuracy="correct">
+      <facetEntailment facetID="ST_58_f1" label="Assumed"/>
+      <facetEntailment facetID="ST_58_f2" label="Expressed"/>
+      <facetEntailment facetID="ST_58_f3" label="Expressed"/>
+      <facetEntailment facetID="ST_58_f4" label="Assumed"/>
+      <facetEntailment facetID="ST_58_f5" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ST.58.397.1" answerText="I know if it is a fruit because it would have seeds in it." accuracy="correct">
+      <facetEntailment facetID="ST_58_f1" label="Assumed"/>
+      <facetEntailment facetID="ST_58_f2" label="Expressed"/>
+      <facetEntailment facetID="ST_58_f3" label="Expressed"/>
+      <facetEntailment facetID="ST_58_f4" label="Expressed"/>
+      <facetEntailment facetID="ST_58_f5" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="ST.58.398.1" answerText="To be a fruit it must have at least one seed in it." accuracy="correct">
+      <facetEntailment facetID="ST_58_f1" label="Assumed"/>
+      <facetEntailment facetID="ST_58_f2" label="Expressed"/>
+      <facetEntailment facetID="ST_58_f3" label="Expressed"/>
+      <facetEntailment facetID="ST_58_f4" label="Expressed"/>
+      <facetEntailment facetID="ST_58_f5" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="ST.58.423.1" answerText="It has seeds." accuracy="correct">
+      <facetEntailment facetID="ST_58_f1" label="Assumed"/>
+      <facetEntailment facetID="ST_58_f2" label="Expressed"/>
+      <facetEntailment facetID="ST_58_f3" label="Expressed"/>
+      <facetEntailment facetID="ST_58_f4" label="Assumed"/>
+      <facetEntailment facetID="ST_58_f5" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ST.58.427.1" answerText="In java are seed." accuracy="correct">
+      <facetEntailment facetID="ST_58_f1" label="Assumed"/>
+      <facetEntailment facetID="ST_58_f2" label="Inferred"/>
+      <facetEntailment facetID="ST_58_f3" label="Inferred"/>
+      <facetEntailment facetID="ST_58_f4" label="Assumed"/>
+      <facetEntailment facetID="ST_58_f5" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ST.58.429.1" answerText="If has seed, in it the do have seeds, in it." accuracy="correct">
+      <facetEntailment facetID="ST_58_f1" label="Assumed"/>
+      <facetEntailment facetID="ST_58_f2" label="Expressed"/>
+      <facetEntailment facetID="ST_58_f3" label="Expressed"/>
+      <facetEntailment facetID="ST_58_f4" label="Assumed"/>
+      <facetEntailment facetID="ST_58_f5" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ST.58.451.1" answerText="If it has seeds it is a plant." accuracy="correct">
+      <facetEntailment facetID="ST_58_f1" label="Assumed"/>
+      <facetEntailment facetID="ST_58_f2" label="Expressed"/>
+      <facetEntailment facetID="ST_58_f3" label="Expressed"/>
+      <facetEntailment facetID="ST_58_f4" label="Diff-Arg"/>
+      <facetEntailment facetID="ST_58_f5" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="ST.58.456.1" answerText="I will look at the seed." accuracy="correct">
+      <facetEntailment facetID="ST_58_f1" label="Assumed"/>
+      <facetEntailment facetID="ST_58_f2" label="Inferred"/>
+      <facetEntailment facetID="ST_58_f3" label="Inferred"/>
+      <facetEntailment facetID="ST_58_f4" label="Assumed"/>
+      <facetEntailment facetID="ST_58_f5" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ST.58.461.1" answerText="It has a seed." accuracy="correct">
+      <facetEntailment facetID="ST_58_f1" label="Assumed"/>
+      <facetEntailment facetID="ST_58_f2" label="Expressed"/>
+      <facetEntailment facetID="ST_58_f3" label="Expressed"/>
+      <facetEntailment facetID="ST_58_f4" label="Assumed"/>
+      <facetEntailment facetID="ST_58_f5" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ST.58.464.1" answerText="It has to have an embryo, seed count, and cotyledon." accuracy="correct">
+      <facetEntailment facetID="ST_58_f1" label="Assumed"/>
+      <facetEntailment facetID="ST_58_f2" label="Expressed"/>
+      <facetEntailment facetID="ST_58_f3" label="Expressed"/>
+      <facetEntailment facetID="ST_58_f4" label="Assumed"/>
+      <facetEntailment facetID="ST_58_f5" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ST.58.465.1" answerText="You have to make sure it has seeds." accuracy="correct">
+      <facetEntailment facetID="ST_58_f1" label="Assumed"/>
+      <facetEntailment facetID="ST_58_f2" label="Expressed"/>
+      <facetEntailment facetID="ST_58_f3" label="Expressed"/>
+      <facetEntailment facetID="ST_58_f4" label="Assumed"/>
+      <facetEntailment facetID="ST_58_f5" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ST.58.470.1" answerText="If it has seeds." accuracy="correct">
+      <facetEntailment facetID="ST_58_f1" label="Assumed"/>
+      <facetEntailment facetID="ST_58_f2" label="Expressed"/>
+      <facetEntailment facetID="ST_58_f3" label="Expressed"/>
+      <facetEntailment facetID="ST_58_f4" label="Assumed"/>
+      <facetEntailment facetID="ST_58_f5" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ST.58.474.1" answerText="The rule for deciding if the part of a plant you are observing is a fruit is a fruit is not a fruit unless it has seeds." accuracy="correct">
+      <facetEntailment facetID="ST_58_f1" label="Expressed"/>
+      <facetEntailment facetID="ST_58_f2" label="Expressed"/>
+      <facetEntailment facetID="ST_58_f3" label="Expressed"/>
+      <facetEntailment facetID="ST_58_f4" label="Expressed"/>
+      <facetEntailment facetID="ST_58_f5" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="ST.58.486.1" answerText="It case a stem I do not know." accuracy="irrelevant">
+      <facetEntailment facetID="ST_58_f1" label="Assumed"/>
+      <facetEntailment facetID="ST_58_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ST_58_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ST_58_f4" label="Assumed"/>
+      <facetEntailment facetID="ST_58_f5" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ST.58.492.1" answerText="My rule is has to be sweet." accuracy="irrelevant">
+      <facetEntailment facetID="ST_58_f1" label="Assumed"/>
+      <facetEntailment facetID="ST_58_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ST_58_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ST_58_f4" label="Assumed"/>
+      <facetEntailment facetID="ST_58_f5" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ST.58.495.1" answerText="If it has seeds that is the answer to the question I think." accuracy="correct">
+      <facetEntailment facetID="ST_58_f1" label="Assumed"/>
+      <facetEntailment facetID="ST_58_f2" label="Expressed"/>
+      <facetEntailment facetID="ST_58_f3" label="Expressed"/>
+      <facetEntailment facetID="ST_58_f4" label="Assumed"/>
+      <facetEntailment facetID="ST_58_f5" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ST.58.496.1" answerText="I decide by looking in it and seeing a seed." accuracy="correct">
+      <facetEntailment facetID="ST_58_f1" label="Assumed"/>
+      <facetEntailment facetID="ST_58_f2" label="Expressed"/>
+      <facetEntailment facetID="ST_58_f3" label="Expressed"/>
+      <facetEntailment facetID="ST_58_f4" label="Assumed"/>
+      <facetEntailment facetID="ST_58_f5" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ST.58.497.1" answerText="By the texture the smell of the fruit and the weight." accuracy="irrelevant">
+      <facetEntailment facetID="ST_58_f1" label="Assumed"/>
+      <facetEntailment facetID="ST_58_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ST_58_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ST_58_f4" label="Assumed"/>
+      <facetEntailment facetID="ST_58_f5" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ST.58.506.1" answerText="Does it have juice." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="ST_58_f1" label="Assumed"/>
+      <facetEntailment facetID="ST_58_f2" label="Expressed"/>
+      <facetEntailment facetID="ST_58_f3" label="Diff-Arg"/>
+      <facetEntailment facetID="ST_58_f4" label="Assumed"/>
+      <facetEntailment facetID="ST_58_f5" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ST.58.522.1" answerText="Because it has seeds and if it has seeds in it is a fruit." accuracy="correct">
+      <facetEntailment facetID="ST_58_f1" label="Assumed"/>
+      <facetEntailment facetID="ST_58_f2" label="Expressed"/>
+      <facetEntailment facetID="ST_58_f3" label="Expressed"/>
+      <facetEntailment facetID="ST_58_f4" label="Expressed"/>
+      <facetEntailment facetID="ST_58_f5" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="ST.58.535.1" answerText="My rule is to make sure it has seeds." accuracy="correct">
+      <facetEntailment facetID="ST_58_f1" label="Assumed"/>
+      <facetEntailment facetID="ST_58_f2" label="Expressed"/>
+      <facetEntailment facetID="ST_58_f3" label="Expressed"/>
+      <facetEntailment facetID="ST_58_f4" label="Assumed"/>
+      <facetEntailment facetID="ST_58_f5" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ST.58.558.1" answerText="My rule is that the fruit has to have a seed or seeds." accuracy="correct">
+      <facetEntailment facetID="ST_58_f1" label="Expressed"/>
+      <facetEntailment facetID="ST_58_f2" label="Expressed"/>
+      <facetEntailment facetID="ST_58_f3" label="Expressed"/>
+      <facetEntailment facetID="ST_58_f4" label="Expressed"/>
+      <facetEntailment facetID="ST_58_f5" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="ST.58.560.1" answerText="The part of a plant you are observing is a fruit if it has seeds." accuracy="correct">
+      <facetEntailment facetID="ST_58_f1" label="Expressed"/>
+      <facetEntailment facetID="ST_58_f2" label="Expressed"/>
+      <facetEntailment facetID="ST_58_f3" label="Expressed"/>
+      <facetEntailment facetID="ST_58_f4" label="Expressed"/>
+      <facetEntailment facetID="ST_58_f5" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="ST.58.564.1" answerText="If it has sees it is a fruit." accuracy="correct">
+      <facetEntailment facetID="ST_58_f1" label="Assumed"/>
+      <facetEntailment facetID="ST_58_f2" label="Expressed"/>
+      <facetEntailment facetID="ST_58_f3" label="Expressed"/>
+      <facetEntailment facetID="ST_58_f4" label="Expressed"/>
+      <facetEntailment facetID="ST_58_f5" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="ST.58.576.1" answerText="If it has a seed or not." accuracy="correct">
+      <facetEntailment facetID="ST_58_f1" label="Assumed"/>
+      <facetEntailment facetID="ST_58_f2" label="Expressed"/>
+      <facetEntailment facetID="ST_58_f3" label="Expressed"/>
+      <facetEntailment facetID="ST_58_f4" label="Assumed"/>
+      <facetEntailment facetID="ST_58_f5" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ST.58.591.1" answerText="Does it have seeds is it covering seeds." accuracy="correct">
+      <facetEntailment facetID="ST_58_f1" label="Assumed"/>
+      <facetEntailment facetID="ST_58_f2" label="Expressed"/>
+      <facetEntailment facetID="ST_58_f3" label="Expressed"/>
+      <facetEntailment facetID="ST_58_f4" label="Assumed"/>
+      <facetEntailment facetID="ST_58_f5" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ST.58.606.1" answerText="The flowers." accuracy="irrelevant">
+      <facetEntailment facetID="ST_58_f1" label="Assumed"/>
+      <facetEntailment facetID="ST_58_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ST_58_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ST_58_f4" label="Assumed"/>
+      <facetEntailment facetID="ST_58_f5" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ST.58.607.1" answerText="I know the part of the plant I am observing is a fruit because it has one or more seeds." accuracy="correct">
+      <facetEntailment facetID="ST_58_f1" label="Expressed"/>
+      <facetEntailment facetID="ST_58_f2" label="Expressed"/>
+      <facetEntailment facetID="ST_58_f3" label="Expressed"/>
+      <facetEntailment facetID="ST_58_f4" label="Expressed"/>
+      <facetEntailment facetID="ST_58_f5" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="ST.58.628.1" answerText="If I look in it and it has seeds in it it is a fruit then if it do not have seeds then it is no a fruit." accuracy="correct">
+      <facetEntailment facetID="ST_58_f1" label="Expressed"/>
+      <facetEntailment facetID="ST_58_f2" label="Expressed"/>
+      <facetEntailment facetID="ST_58_f3" label="Expressed"/>
+      <facetEntailment facetID="ST_58_f4" label="Expressed"/>
+      <facetEntailment facetID="ST_58_f5" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="ST.58.630.1" answerText="It nest to have a seed." accuracy="correct">
+      <facetEntailment facetID="ST_58_f1" label="Assumed"/>
+      <facetEntailment facetID="ST_58_f2" label="Expressed"/>
+      <facetEntailment facetID="ST_58_f3" label="Expressed"/>
+      <facetEntailment facetID="ST_58_f4" label="Assumed"/>
+      <facetEntailment facetID="ST_58_f5" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ST.58.631.1" answerText="Because inside the plant is a seed." accuracy="correct">
+      <facetEntailment facetID="ST_58_f1" label="Assumed"/>
+      <facetEntailment facetID="ST_58_f2" label="Expressed"/>
+      <facetEntailment facetID="ST_58_f3" label="Expressed"/>
+      <facetEntailment facetID="ST_58_f4" label="Assumed"/>
+      <facetEntailment facetID="ST_58_f5" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ST.58.635.1" answerText="It has to have a seed of it does not have no seed, it will not be a fruit." accuracy="correct">
+      <facetEntailment facetID="ST_58_f1" label="Assumed"/>
+      <facetEntailment facetID="ST_58_f2" label="Expressed"/>
+      <facetEntailment facetID="ST_58_f3" label="Expressed"/>
+      <facetEntailment facetID="ST_58_f4" label="Assumed"/>
+      <facetEntailment facetID="ST_58_f5" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ST.58.638.1" answerText="It is going to tell you if you have a baby plant first." accuracy="irrelevant">
+      <facetEntailment facetID="ST_58_f1" label="Assumed"/>
+      <facetEntailment facetID="ST_58_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ST_58_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ST_58_f4" label="Assumed"/>
+      <facetEntailment facetID="ST_58_f5" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ST.58.640.1" answerText="That it has seeds or not." accuracy="correct">
+      <facetEntailment facetID="ST_58_f1" label="Assumed"/>
+      <facetEntailment facetID="ST_58_f2" label="Expressed"/>
+      <facetEntailment facetID="ST_58_f3" label="Expressed"/>
+      <facetEntailment facetID="ST_58_f4" label="Assumed"/>
+      <facetEntailment facetID="ST_58_f5" label="Assumed"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

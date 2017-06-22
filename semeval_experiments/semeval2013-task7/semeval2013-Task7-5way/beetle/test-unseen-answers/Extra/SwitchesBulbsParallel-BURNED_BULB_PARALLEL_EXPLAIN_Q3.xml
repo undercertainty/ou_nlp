@@ -1,0 +1,108 @@
+<?xml version="1.0"?>
+<question testSet="unseen-answers" qtype="Q_EXPLAIN_SPECIFIC" id="BURNED_BULB_PARALLEL_EXPLAIN_Q3" module="SwitchesBulbsParallel" stype="PREDICT">
+  <questionText>Explain your reasoning.</questionText>
+  <referenceAnswers>
+    <referenceAnswer category="BEST" id="answer358" fileID="BURNED_BULB_PARALLEL_EXPLAIN_Q3_ANS1">bulbs A and B are still in closed paths with the battery</referenceAnswer>
+    <referenceAnswer category="GOOD" id="answer359" fileID="BURNED_BULB_PARALLEL_EXPLAIN_Q3_ANS1_OLD">bulbs A and B are in a closed path</referenceAnswer>
+    <referenceAnswer category="GOOD" id="answer360" fileID="BURNED_BULB_PARALLEL_EXPLAIN_Q3_ANS2">each bulb is in its own path</referenceAnswer>
+    <referenceAnswer category="GOOD" id="answer361" fileID="BURNED_BULB_PARALLEL_EXPLAIN_Q3_ANS3">Bulb C is in a separate path</referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer count="1" raw_text="because the terminal will be closed" id="SwitchesBulbsParallel-BURNED_BULB_PARALLEL_EXPLAIN_Q3.sbj15-l2.qa110" accuracy="contradictory">
+      <token status="ok" id="tok2289">because</token>
+      <token status="ok" id="tok2290">the</token>
+      <token status="ok" id="tok2291">terminal</token>
+      <token status="ok" id="tok2292">will</token>
+      <token status="ok" id="tok2293">be</token>
+      <token status="ok" id="tok2294">closed</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer359" raw_text="there is still a closed path" id="SwitchesBulbsParallel-BURNED_BULB_PARALLEL_EXPLAIN_Q3.sbj36-l2.qa90" accuracy="partially_correct_incomplete">
+      <token status="ok" id="tok1705">there</token>
+      <token status="ok" id="tok1706">is</token>
+      <token status="ok" id="tok1707">still</token>
+      <token status="ok" id="tok1708">a</token>
+      <token status="ok" id="tok1709">closed</token>
+      <token status="ok" id="tok1710">path</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer361" raw_text="bulb c is not in the same path as bulb a or bulb b so the gap in the path does not affect bulb a or bulb b" id="SwitchesBulbsParallel-BURNED_BULB_PARALLEL_EXPLAIN_Q3.sbj38-l2.qa89" accuracy="correct">
+      <token status="ok" id="tok1879">bulb</token>
+      <token status="ok" id="tok1880">c</token>
+      <token status="ok" id="tok1881">is</token>
+      <token status="ok" id="tok1882">not</token>
+      <token status="ok" id="tok1883">in</token>
+      <token status="ok" id="tok1884">the</token>
+      <token status="ok" id="tok1885">same</token>
+      <token status="ok" id="tok1886">path</token>
+      <token status="ok" id="tok1887">as</token>
+      <token status="ok" id="tok1888">bulb</token>
+      <token status="ok" id="tok1889">a</token>
+      <token status="ok" id="tok1890">or</token>
+      <token status="ok" id="tok1891">bulb</token>
+      <token status="ok" id="tok1892">b</token>
+      <token status="ok" id="tok1893">so</token>
+      <token status="ok" id="tok1894">the</token>
+      <token status="ok" id="tok1895">gap</token>
+      <token status="ok" id="tok1896">in</token>
+      <token status="ok" id="tok1897">the</token>
+      <token status="ok" id="tok1898">path</token>
+      <token status="ok" id="tok1899">does</token>
+      <token status="ok" id="tok1900">not</token>
+      <token status="ok" id="tok1901">affect</token>
+      <token status="ok" id="tok1902">bulb</token>
+      <token status="ok" id="tok1903">a</token>
+      <token status="ok" id="tok1904">or</token>
+      <token status="ok" id="tok1905">bulb</token>
+      <token status="ok" id="tok1906">b</token>
+    </studentAnswer>
+    <studentAnswer count="2" answerMatch="answer358" raw_text="bulbs a and b are still contained in a closed path with the battery." id="SwitchesBulbsParallel-BURNED_BULB_PARALLEL_EXPLAIN_Q3.sbj40-l2.qa101" accuracy="correct">
+      <token status="ok" id="tok2068">bulbs</token>
+      <token status="ok" id="tok2069">a</token>
+      <token status="ok" id="tok2070">and</token>
+      <token status="ok" id="tok2071">b</token>
+      <token status="ok" id="tok2072">are</token>
+      <token status="ok" id="tok2073">still</token>
+      <token status="ok" id="tok2074">contained</token>
+      <token status="ok" id="tok2075">in</token>
+      <token status="ok" id="tok2076">a</token>
+      <token status="ok" id="tok2077">closed</token>
+      <token status="ok" id="tok2078">path</token>
+      <token status="ok" id="tok2079">with</token>
+      <token status="ok" id="tok2080">the</token>
+      <token status="ok" id="tok2081">battery</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer359" raw_text="A and B are still in a closed circuit" id="SwitchesBulbsParallel-BURNED_BULB_PARALLEL_EXPLAIN_Q3.sbjb6-l2.qa80" accuracy="contradictory">
+      <token status="ok" id="tok1633">A</token>
+      <token status="ok" id="tok1634">and</token>
+      <token status="ok" id="tok1635">B</token>
+      <token status="ok" id="tok1636">are</token>
+      <token status="ok" id="tok1637">still</token>
+      <token status="ok" id="tok1638">in</token>
+      <token status="ok" id="tok1639">a</token>
+      <token status="ok" id="tok1640">closed</token>
+      <token status="ok" id="tok1641">circuit</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer360" raw_text="because each bulb has its own pathway" id="SwitchesBulbsParallel-BURNED_BULB_PARALLEL_EXPLAIN_Q3.sbjb29-l2.qa81" accuracy="correct">
+      <token status="ok" id="tok1635">because</token>
+      <token status="ok" id="tok1636">each</token>
+      <token status="ok" id="tok1637">bulb</token>
+      <token status="ok" id="tok1638">has</token>
+      <token status="ok" id="tok1639">its</token>
+      <token status="ok" id="tok1640">own</token>
+      <token status="ok" id="tok1641">pathway</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer358" raw_text="because they will still be in a closed circuit with the battery" id="SwitchesBulbsParallel-BURNED_BULB_PARALLEL_EXPLAIN_Q3.sbjb31-l2.qa80" accuracy="contradictory">
+      <token status="ok" id="tok1713">because</token>
+      <token status="ok" id="tok1714">they</token>
+      <token status="ok" id="tok1715">will</token>
+      <token status="ok" id="tok1716">still</token>
+      <token status="ok" id="tok1717">be</token>
+      <token status="ok" id="tok1718">in</token>
+      <token status="ok" id="tok1719">a</token>
+      <token status="ok" id="tok1720">closed</token>
+      <token status="ok" id="tok1721">circuit</token>
+      <token status="ok" id="tok1722">with</token>
+      <token status="ok" id="tok1723">the</token>
+      <token status="ok" id="tok1724">battery</token>
+    </studentAnswer>
+  </studentAnswers>
+</question>

@@ -1,0 +1,159 @@
+<?xml version="1.0"?>
+<question testSet="unseen-answers" qtype="Q_EXPLAIN_SPECIFIC" id="VOLTAGE_GAP_EXPLAIN_WHY4" module="FaultFinding" stype="EVALUATE">
+  <questionText>Explain why you got a voltage reading of 0 for terminal 4 and the positive terminal.</questionText>
+  <referenceAnswers>
+    <referenceAnswer category="BEST" id="answer166" fileID="VOLTAGE_GAP_EXPLAIN_WHY4_ANS1">Terminal 4 and the positive terminal are connected</referenceAnswer>
+    <referenceAnswer category="GOOD" id="answer167" fileID="VOLTAGE_GAP_EXPLAIN_WHY4_ANS2">Terminal 4 and the positive terminal are not separated by the gap</referenceAnswer>
+    <referenceAnswer category="GOOD" id="answer168" fileID="VOLTAGE_GAP_EXPLAIN_WHY4_ANS2A">There is no gap between terminal 4 and the positive terminal</referenceAnswer>
+    <referenceAnswer category="MINIMAL" id="answer169" fileID="VOLTAGE_GAP_EXPLAIN_WHY4_ANS3">terminal 4 is not connected to the negative battery terminal</referenceAnswer>
+    <referenceAnswer category="MINIMAL" id="answer170" fileID="VOLTAGE_GAP_EXPLAIN_WHY4_ANS4">terminal 4 is separated by a gap from the negative battery terminal</referenceAnswer>
+    <referenceAnswer category="MINIMAL" id="answer170.NEW" fileID="NONE">Terminal 4 and the positive battery terminal are in the same electrical state</referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer count="1" answerMatch="answer168" raw_text="there is no gap between terminal 4 and the positive terminal" id="FaultFinding-VOLTAGE_GAP_EXPLAIN_WHY4.sbj7-l1.qa159" accuracy="correct">
+      <token status="ok" id="tok2589">there</token>
+      <token status="ok" id="tok2590">is</token>
+      <token status="ok" id="tok2591">no</token>
+      <token status="ok" id="tok2592">gap</token>
+      <token status="ok" id="tok2593">between</token>
+      <token status="ok" id="tok2594">terminal</token>
+      <token status="numerical" id="tok2595">4</token>
+      <token status="ok" id="tok2596">and</token>
+      <token status="ok" id="tok2597">the</token>
+      <token status="ok" id="tok2598">positive</token>
+      <token status="ok" id="tok2599">terminal</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer170" raw_text="there is a gap between the positive battery terminal and terminal 4." id="FaultFinding-VOLTAGE_GAP_EXPLAIN_WHY4.sbj13-l1.qa188" accuracy="contradictory">
+      <token status="ok" id="tok3292">there</token>
+      <token status="ok" id="tok3293">is</token>
+      <token status="ok" id="tok3294">a</token>
+      <token status="ok" id="tok3295">gap</token>
+      <token status="ok" id="tok3296">between</token>
+      <token status="ok" id="tok3297">the</token>
+      <token status="ok" id="tok3298">positive</token>
+      <token status="ok" id="tok3299">battery</token>
+      <token status="ok" id="tok3300">terminal</token>
+      <token status="ok" id="tok3301">and</token>
+      <token status="ok" id="tok3302">terminal</token>
+      <token status="numerical" id="tok3303">4</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer166" raw_text="the terminal is conntected to postive end of battery" id="FaultFinding-VOLTAGE_GAP_EXPLAIN_WHY4.sbj24-l1.qa182" accuracy="correct">
+      <token status="ok" id="tok3242">the</token>
+      <token status="ok" id="tok3243">terminal</token>
+      <token status="ok" id="tok3244">is</token>
+      <token status="ok" id="tok3245" original="conntected">connected</token>
+      <token status="ok" id="tok3246">to</token>
+      <token status="ok" id="tok3247" original="postive">positive</token>
+      <token status="ok" id="tok3248">end</token>
+      <token status="ok" id="tok3249">of</token>
+      <token status="ok" id="tok3250">battery</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="the terminals are blocked by a gap" id="FaultFinding-VOLTAGE_GAP_EXPLAIN_WHY4.sbj39-l1.qa192" accuracy="contradictory">
+      <token status="ok" id="tok3554">the</token>
+      <token status="ok" id="tok3555">terminals</token>
+      <token status="ok" id="tok3556">are</token>
+      <token status="ok" id="tok3557">blocked</token>
+      <token status="ok" id="tok3558">by</token>
+      <token status="ok" id="tok3559">a</token>
+      <token status="ok" id="tok3560">gap</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="there is no difference in the two terminals. they are in a closed path" id="FaultFinding-VOLTAGE_GAP_EXPLAIN_WHY4.sbjb4-l1.qa139" accuracy="contradictory">
+      <token status="ok" id="tok2518">there</token>
+      <token status="ok" id="tok2519">is</token>
+      <token status="ok" id="tok2520">no</token>
+      <token status="ok" id="tok2521">difference</token>
+      <token status="ok" id="tok2522">in</token>
+      <token status="ok" id="tok2523">the</token>
+      <token status="ok" id="tok2524">two</token>
+      <token status="ok" id="tok2525">terminals</token>
+      <token status="ok" id="tok2526">they</token>
+      <token status="ok" id="tok2527">are</token>
+      <token status="ok" id="tok2528">in</token>
+      <token status="ok" id="tok2529">a</token>
+      <token status="ok" id="tok2530">closed</token>
+      <token status="ok" id="tok2531">path</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="I dont know" id="FaultFinding-VOLTAGE_GAP_EXPLAIN_WHY4.sbjb18-l1.qa150" accuracy="non_domain">
+      <token status="ok" id="tok2685">I</token>
+      <token status="ok" id="tok2686a">do</token>
+      <token status="pennTokenFragment" id="tok2686b" original="nt">n't</token>
+      <token status="ok" id="tok2687">know</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="seperted by gap in terminal 4" id="FaultFinding-VOLTAGE_GAP_EXPLAIN_WHY4.sbjb21-l1.qa138" accuracy="contradictory">
+      <token status="ok" id="tok2498" original="seperted">separated</token>
+      <token status="ok" id="tok2499">by</token>
+      <token status="ok" id="tok2500">gap</token>
+      <token status="ok" id="tok2501">in</token>
+      <token status="ok" id="tok2502">terminal</token>
+      <token status="numerical" id="tok2503">4</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="BECAUSE IT WAS ATTACHED TO THE NEGATIVE TERMINAL." id="FaultFinding-VOLTAGE_GAP_EXPLAIN_WHY4.sbjb25-l1.qa143" accuracy="contradictory">
+      <token status="ok" id="tok2617">BECAUSE</token>
+      <token status="ok" id="tok2618">IT</token>
+      <token status="ok" id="tok2619">WAS</token>
+      <token status="ok" id="tok2620">ATTACHED</token>
+      <token status="ok" id="tok2621">TO</token>
+      <token status="ok" id="tok2622">THE</token>
+      <token status="ok" id="tok2623">NEGATIVE</token>
+      <token status="ok" id="tok2624">TERMINAL</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer166" raw_text="terminal 4 is connected only to the positive battery terminal" id="FaultFinding-VOLTAGE_GAP_EXPLAIN_WHY4.sbjb27-l1.qa138" accuracy="correct">
+      <token status="ok" id="tok2551">terminal</token>
+      <token status="numerical" id="tok2552">4</token>
+      <token status="ok" id="tok2553">is</token>
+      <token status="ok" id="tok2554">connected</token>
+      <token status="ok" id="tok2555">only</token>
+      <token status="ok" id="tok2556">to</token>
+      <token status="ok" id="tok2557">the</token>
+      <token status="ok" id="tok2558">positive</token>
+      <token status="ok" id="tok2559">battery</token>
+      <token status="ok" id="tok2560">terminal</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer166" raw_text="the positive battery terminal is connected in circuit with terminal 4" id="FaultFinding-VOLTAGE_GAP_EXPLAIN_WHY4.sbjb29-l1.qa142" accuracy="correct">
+      <token status="ok" id="tok2657">the</token>
+      <token status="ok" id="tok2658">positive</token>
+      <token status="ok" id="tok2659">battery</token>
+      <token status="ok" id="tok2660">terminal</token>
+      <token status="ok" id="tok2661">is</token>
+      <token status="ok" id="tok2662">connected</token>
+      <token status="ok" id="tok2663">in</token>
+      <token status="ok" id="tok2664">circuit</token>
+      <token status="ok" id="tok2665">with</token>
+      <token status="ok" id="tok2666">terminal</token>
+      <token status="numerical" id="tok2667">4</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer169" raw_text="terminal 4 is not connected to the negative terminal because of a gap in bulb b." id="FaultFinding-VOLTAGE_GAP_EXPLAIN_WHY4.sbjb30-l1.qa143" accuracy="correct">
+      <token status="ok" id="tok2784">terminal</token>
+      <token status="numerical" id="tok2785">4</token>
+      <token status="ok" id="tok2786">is</token>
+      <token status="ok" id="tok2787">not</token>
+      <token status="ok" id="tok2788">connected</token>
+      <token status="ok" id="tok2789">to</token>
+      <token status="ok" id="tok2790">the</token>
+      <token status="ok" id="tok2791">negative</token>
+      <token status="ok" id="tok2792">terminal</token>
+      <token status="ok" id="tok2793">because</token>
+      <token status="ok" id="tok2794">of</token>
+      <token status="ok" id="tok2795">a</token>
+      <token status="ok" id="tok2796">gap</token>
+      <token status="ok" id="tok2797">in</token>
+      <token status="ok" id="tok2798">bulb</token>
+      <token status="ok" id="tok2799">b</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer167" raw_text="The positive battery terminal was not separated by a gap from terminal 4." id="FaultFinding-VOLTAGE_GAP_EXPLAIN_WHY4.sbjb36-l1.qa138" accuracy="correct">
+      <token status="ok" id="tok2671">The</token>
+      <token status="ok" id="tok2672">positive</token>
+      <token status="ok" id="tok2673">battery</token>
+      <token status="ok" id="tok2674">terminal</token>
+      <token status="ok" id="tok2675">was</token>
+      <token status="ok" id="tok2676">not</token>
+      <token status="ok" id="tok2677">separated</token>
+      <token status="ok" id="tok2678">by</token>
+      <token status="ok" id="tok2679">a</token>
+      <token status="ok" id="tok2680">gap</token>
+      <token status="ok" id="tok2681">from</token>
+      <token status="ok" id="tok2682">terminal</token>
+      <token status="numerical" id="tok2683">4</token>
+    </studentAnswer>
+  </studentAnswers>
+</question>

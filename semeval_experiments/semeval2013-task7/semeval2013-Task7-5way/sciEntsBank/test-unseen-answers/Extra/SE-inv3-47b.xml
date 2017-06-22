@@ -1,0 +1,123 @@
+<?xml version="1.0"?>
+<question testSet="unseen-answers" id="SE_47b" module="SE">
+  <questionText>Sue bought a white wading pool for her grandchildren. She wanted to heat up the water as fast as possible. She thought that if she put plastic sheeting in the bottom of the pool it might heat up the water faster. She had a sheet of yellow plastic and a sheet of dark green plastic. What should Sue do to heat the water as fast as possible? A. Put the yellow sheeting on the bottom of the pool. (B. Put the dark green sheeting on the bottom of the pool.) C. Put no sheeting on the bottom of the pool; leave it white. Explain why you chose that answer.</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="SE_47b-a1" text="Darker colors absorb more heat than lighter colors. The dark green sheeting is the darkest color available so she should use the green sheeting.">
+      <tokens>
+        <token id="SE_47b_ra1">Darker</token>
+        <token id="SE_47b_ra2">colors</token>
+        <token id="SE_47b_ra3">absorb</token>
+        <token id="SE_47b_ra4">more</token>
+        <token id="SE_47b_ra5">heat</token>
+        <token id="SE_47b_ra6">than</token>
+        <token id="SE_47b_ra7">lighter</token>
+        <token id="SE_47b_ra8">colors</token>
+        <token id="SE_47b_ra9">.</token>
+        <token id="SE_47b_ra10">The</token>
+        <token id="SE_47b_ra11">dark</token>
+        <token id="SE_47b_ra12">green</token>
+        <token id="SE_47b_ra13">sheeting</token>
+        <token id="SE_47b_ra14">is</token>
+        <token id="SE_47b_ra15">the</token>
+        <token id="SE_47b_ra16">darkest</token>
+        <token id="SE_47b_ra17">color</token>
+        <token id="SE_47b_ra18">available</token>
+        <token id="SE_47b_ra19">so</token>
+        <token id="SE_47b_ra20">she</token>
+        <token id="SE_47b_ra21">should</token>
+        <token id="SE_47b_ra22">use</token>
+        <token id="SE_47b_ra23">the</token>
+        <token id="SE_47b_ra24">green</token>
+        <token id="SE_47b_ra25">sheeting</token>
+        <token id="SE_47b_ra26">.</token>
+      </tokens>
+      <facets>
+        <facet id="SE_47b_f1" govNum="SE_47b_ra2" modNum="SE_47b_ra1" reltn="NMod" govText="colors" modText="Darker"/>
+        <facet id="SE_47b_f2" govNum="SE_47b_ra3" modNum="SE_47b_ra2" reltn="Means" govText="absorb" modText="colors"/>
+        <facet id="SE_47b_f3" govNum="SE_47b_ra3" modNum="SE_47b_ra5" reltn="Theme" govText="absorb" modText="heat"/>
+        <facet id="SE_47b_f4" govNum="SE_47b_ra5" modNum="SE_47b_ra4" reltn="NMod" govText="heat" modText="more"/>
+        <facet id="SE_47b_f5" govNum="SE_47b_ra4" modNum="SE_47b_ra8" reltn="AMod_than" govText="more" modText="colors"/>
+        <facet id="SE_47b_f6" govNum="SE_47b_ra8" modNum="SE_47b_ra7" reltn="NMod" govText="colors" modText="lighter"/>
+        <facet id="SE_47b_f7" govNum="SE_47b_ra12" modNum="SE_47b_ra13" reltn="NMod" govText="green" modText="sheeting"/>
+        <facet id="SE_47b_f8" govNum="SE_47b_ra12" modNum="SE_47b_ra11" reltn="AMod" govText="green" isAssumed="true" modText="dark"/>
+        <facet id="SE_47b_f9" govNum="SE_47b_ra12" modNum="SE_47b_ra17" reltn="Be" govText="green" isAssumed="true" modText="color"/>
+        <facet id="SE_47b_f10" govNum="SE_47b_ra17" modNum="SE_47b_ra16" reltn="NMod" govText="color" modText="darkest"/>
+        <facet id="SE_47b_f11" govNum="SE_47b_ra17" modNum="SE_47b_ra18" reltn="NMod" govText="color" isAssumed="true" modText="available"/>
+        <facet id="SE_47b_f12" govNum="SE_47b_ra22" modNum="SE_47b_ra20" reltn="Agent" govText="use" isAssumed="true" modText="she"/>
+        <facet id="SE_47b_f13" govNum="SE_47b_ra22" modNum="SE_47b_ra25" reltn="Theme" govText="use" modText="sheeting"/>
+        <facet id="SE_47b_f14" govNum="SE_47b_ra25" modNum="SE_47b_ra24" reltn="NMod" govText="sheeting" modText="green"/>
+        <facet id="SE_47b_f15" govNum="SE_47b_ra22" modNum="SE_47b_ra14" reltn="Cause_so" childProp2Facet2="SE_47b_f8" childProp1Facet1="SE_47b_f12" govText="use" childProp1Facet2="SE_47b_f13" modText="is" childProp2Facet1="SE_47b_f9"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="SE.47b.132.1" answerText="Because the darker the color the hotter it gets." accuracy="correct">
+      <facetEntailment facetID="SE_47b_f1" label="Expressed"/>
+      <facetEntailment facetID="SE_47b_f2" label="Expressed"/>
+      <facetEntailment facetID="SE_47b_f3" label="Expressed"/>
+      <facetEntailment facetID="SE_47b_f4" label="Expressed"/>
+      <facetEntailment facetID="SE_47b_f5" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f6" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="SE_47b_f8" label="Assumed"/>
+      <facetEntailment facetID="SE_47b_f9" label="Assumed"/>
+      <facetEntailment facetID="SE_47b_f10" label="Unaddressed"/>
+      <facetEntailment facetID="SE_47b_f11" label="Assumed"/>
+      <facetEntailment facetID="SE_47b_f12" label="Assumed"/>
+      <facetEntailment facetID="SE_47b_f13" label="Unaddressed"/>
+      <facetEntailment facetID="SE_47b_f14" label="Unaddressed"/>
+      <facetEntailment facetID="SE_47b_f15" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.47b.490.1" answerText="I chose this answer because dark green is a darker color and would heat faster." accuracy="correct">
+      <facetEntailment facetID="SE_47b_f1" label="Expressed"/>
+      <facetEntailment facetID="SE_47b_f2" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f3" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f4" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f5" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f6" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f7" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f8" label="Expressed"/>
+      <facetEntailment facetID="SE_47b_f9" label="Assumed"/>
+      <facetEntailment facetID="SE_47b_f10" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f11" label="Assumed"/>
+      <facetEntailment facetID="SE_47b_f12" label="Assumed"/>
+      <facetEntailment facetID="SE_47b_f13" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f14" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f15" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="SE.47b.532.1" answerText="Because darker colors heat up faster." accuracy="correct">
+      <facetEntailment facetID="SE_47b_f1" label="Expressed"/>
+      <facetEntailment facetID="SE_47b_f2" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f3" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f4" label="Expressed"/>
+      <facetEntailment facetID="SE_47b_f5" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f6" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="SE_47b_f8" label="Assumed"/>
+      <facetEntailment facetID="SE_47b_f9" label="Assumed"/>
+      <facetEntailment facetID="SE_47b_f10" label="Unaddressed"/>
+      <facetEntailment facetID="SE_47b_f11" label="Assumed"/>
+      <facetEntailment facetID="SE_47b_f12" label="Assumed"/>
+      <facetEntailment facetID="SE_47b_f13" label="Unaddressed"/>
+      <facetEntailment facetID="SE_47b_f14" label="Unaddressed"/>
+      <facetEntailment facetID="SE_47b_f15" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.47b.538.1" answerText="Because the darkest color available would transfer from absorbing the heat from the dark green." accuracy="correct">
+      <facetEntailment facetID="SE_47b_f1" label="Expressed"/>
+      <facetEntailment facetID="SE_47b_f2" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f3" label="Expressed"/>
+      <facetEntailment facetID="SE_47b_f4" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="SE_47b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="SE_47b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="SE_47b_f8" label="Expressed"/>
+      <facetEntailment facetID="SE_47b_f9" label="Assumed"/>
+      <facetEntailment facetID="SE_47b_f10" label="Expressed"/>
+      <facetEntailment facetID="SE_47b_f11" label="Expressed"/>
+      <facetEntailment facetID="SE_47b_f12" label="Assumed"/>
+      <facetEntailment facetID="SE_47b_f13" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f14" label="Inferred"/>
+      <facetEntailment facetID="SE_47b_f15" label="Inferred"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

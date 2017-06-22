@@ -1,0 +1,323 @@
+<?xml version="1.0"?>
+<question id="ST_52a" module="ST">
+  <questionText>When a seed germinates, why does the root grow first?</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="ST_52a-a1" text="The root grows first so the root can take up water for the plant.">
+      <tokens>
+        <token id="ST_52a_ra1">The</token>
+        <token id="ST_52a_ra2">root</token>
+        <token id="ST_52a_ra3">grows</token>
+        <token id="ST_52a_ra4">first</token>
+        <token id="ST_52a_ra5">so</token>
+        <token id="ST_52a_ra6">the</token>
+        <token id="ST_52a_ra7">root</token>
+        <token id="ST_52a_ra8">can</token>
+        <token id="ST_52a_ra9">take</token>
+        <token id="ST_52a_ra10">up</token>
+        <token id="ST_52a_ra11">water</token>
+        <token id="ST_52a_ra12">for</token>
+        <token id="ST_52a_ra13">the</token>
+        <token id="ST_52a_ra14">plant</token>
+        <token id="ST_52a_ra15">.</token>
+      </tokens>
+      <facets>
+        <facet id="ST_52a_f1" govNum="ST_52a_ra3" modNum="ST_52a_ra2" reltn="Product" govText="grows" isAssumed="true" modText="root"/>
+        <facet id="ST_52a_f2" govNum="ST_52a_ra3" modNum="ST_52a_ra4" reltn="Time" govText="grows" isAssumed="true" modText="first"/>
+        <facet id="ST_52a_f3" govNum="ST_52a_ra9" modNum="ST_52a_ra7" reltn="Means" govText="take up" modText="root"/>
+        <facet id="ST_52a_f4" govNum="ST_52a_ra9" modNum="ST_52a_ra11" reltn="Theme" govText="take up" modText="water"/>
+        <facet id="ST_52a_f5" govNum="ST_52a_ra9" modNum="ST_52a_ra14" reltn="Beneficiary_for" govText="take up" modText="plant"/>
+        <facet id="ST_52a_f6" govNum="ST_52a_ra3" modNum="ST_52a_ra9" reltn="Cause_so" childProp2Facet2="ST_52a_f4" childProp1Facet1="ST_52a_f1" govText="grows" isAssumed="true" childProp1Facet2="ST_52a_f2" modText="take up" childProp2Facet1="ST_52a_f3"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="ST.52a.382.1" answerText="Because it sucks up the water as food for the plant and stem." accuracy="correct">
+      <facetEntailment facetID="ST_52a_f1" label="Assumed"/>
+      <facetEntailment facetID="ST_52a_f2" label="Assumed"/>
+      <facetEntailment facetID="ST_52a_f3" label="Expressed"/>
+      <facetEntailment facetID="ST_52a_f4" label="Expressed"/>
+      <facetEntailment facetID="ST_52a_f5" label="Expressed"/>
+      <facetEntailment facetID="ST_52a_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ST.52a.386.1" answerText="Because they need roots to produce the leaves." accuracy="irrelevant">
+      <facetEntailment facetID="ST_52a_f1" label="Assumed"/>
+      <facetEntailment facetID="ST_52a_f2" label="Assumed"/>
+      <facetEntailment facetID="ST_52a_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ST_52a_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ST_52a_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ST_52a_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ST.52a.394.1" answerText="It grows first to get food and nutrients." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="ST_52a_f1" label="Expressed"/>
+      <facetEntailment facetID="ST_52a_f2" label="Expressed"/>
+      <facetEntailment facetID="ST_52a_f3" label="Inferred"/>
+      <facetEntailment facetID="ST_52a_f4" label="Diff-Arg"/>
+      <facetEntailment facetID="ST_52a_f5" label="Inferred"/>
+      <facetEntailment facetID="ST_52a_f6" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="ST.52a.396.1" answerText="The root grows first because the seed needs water to grow." accuracy="correct">
+      <facetEntailment facetID="ST_52a_f1" label="Expressed"/>
+      <facetEntailment facetID="ST_52a_f2" label="Expressed"/>
+      <facetEntailment facetID="ST_52a_f3" label="Inferred"/>
+      <facetEntailment facetID="ST_52a_f4" label="Inferred"/>
+      <facetEntailment facetID="ST_52a_f5" label="Inferred"/>
+      <facetEntailment facetID="ST_52a_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ST.52a.422.1" answerText="Because the root is the seed or the to be growing the hair." accuracy="irrelevant">
+      <facetEntailment facetID="ST_52a_f1" label="Assumed"/>
+      <facetEntailment facetID="ST_52a_f2" label="Assumed"/>
+      <facetEntailment facetID="ST_52a_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ST_52a_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ST_52a_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ST_52a_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ST.52a.426.1" answerText="So the seed does not die." accuracy="irrelevant">
+      <facetEntailment facetID="ST_52a_f1" label="Assumed"/>
+      <facetEntailment facetID="ST_52a_f2" label="Assumed"/>
+      <facetEntailment facetID="ST_52a_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ST_52a_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ST_52a_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ST_52a_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ST.52a.429.1" answerText="Because it need to stay it will not grow at all." accuracy="irrelevant">
+      <facetEntailment facetID="ST_52a_f1" label="Assumed"/>
+      <facetEntailment facetID="ST_52a_f2" label="Assumed"/>
+      <facetEntailment facetID="ST_52a_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ST_52a_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ST_52a_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ST_52a_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ST.52a.459.1" answerText="So it can suck up water to grow." accuracy="correct">
+      <facetEntailment facetID="ST_52a_f1" label="Assumed"/>
+      <facetEntailment facetID="ST_52a_f2" label="Assumed"/>
+      <facetEntailment facetID="ST_52a_f3" label="Expressed"/>
+      <facetEntailment facetID="ST_52a_f4" label="Expressed"/>
+      <facetEntailment facetID="ST_52a_f5" label="Inferred"/>
+      <facetEntailment facetID="ST_52a_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ST.52a.464.1" answerText="Because the roots go down to the water the leaves go towards the sun." accuracy="correct">
+      <facetEntailment facetID="ST_52a_f1" label="Assumed"/>
+      <facetEntailment facetID="ST_52a_f2" label="Assumed"/>
+      <facetEntailment facetID="ST_52a_f3" label="Inferred"/>
+      <facetEntailment facetID="ST_52a_f4" label="Inferred"/>
+      <facetEntailment facetID="ST_52a_f5" label="Inferred"/>
+      <facetEntailment facetID="ST_52a_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ST.52a.465.1" answerText="To gather water for food." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="ST_52a_f1" label="Assumed"/>
+      <facetEntailment facetID="ST_52a_f2" label="Assumed"/>
+      <facetEntailment facetID="ST_52a_f3" label="Inferred"/>
+      <facetEntailment facetID="ST_52a_f4" label="Expressed"/>
+      <facetEntailment facetID="ST_52a_f5" label="Diff-Arg"/>
+      <facetEntailment facetID="ST_52a_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ST.52a.466.1" answerText="The root grows first because it needs to make food for the seed." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="ST_52a_f1" label="Expressed"/>
+      <facetEntailment facetID="ST_52a_f2" label="Expressed"/>
+      <facetEntailment facetID="ST_52a_f3" label="Inferred"/>
+      <facetEntailment facetID="ST_52a_f4" label="Diff-Arg"/>
+      <facetEntailment facetID="ST_52a_f5" label="Inferred"/>
+      <facetEntailment facetID="ST_52a_f6" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="ST.52a.474.1" answerText="When a seed germinates the root grows first to hold the plant up right." accuracy="irrelevant">
+      <facetEntailment facetID="ST_52a_f1" label="Expressed"/>
+      <facetEntailment facetID="ST_52a_f2" label="Expressed"/>
+      <facetEntailment facetID="ST_52a_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ST_52a_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ST_52a_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ST_52a_f6" label="Diff-Arg"/>
+    </studentAnswer>
+    <studentAnswer id="ST.52a.486.1" answerText="It comes out before the other." accuracy="irrelevant">
+      <facetEntailment facetID="ST_52a_f1" label="Assumed"/>
+      <facetEntailment facetID="ST_52a_f2" label="Assumed"/>
+      <facetEntailment facetID="ST_52a_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ST_52a_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ST_52a_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ST_52a_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ST.52a.487.1" answerText="So it can gather water to grow." accuracy="correct">
+      <facetEntailment facetID="ST_52a_f1" label="Assumed"/>
+      <facetEntailment facetID="ST_52a_f2" label="Assumed"/>
+      <facetEntailment facetID="ST_52a_f3" label="Inferred"/>
+      <facetEntailment facetID="ST_52a_f4" label="Expressed"/>
+      <facetEntailment facetID="ST_52a_f5" label="Inferred"/>
+      <facetEntailment facetID="ST_52a_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ST.52a.502.1" answerText="Because that is a part of the plant." accuracy="irrelevant">
+      <facetEntailment facetID="ST_52a_f1" label="Assumed"/>
+      <facetEntailment facetID="ST_52a_f2" label="Assumed"/>
+      <facetEntailment facetID="ST_52a_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ST_52a_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ST_52a_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ST_52a_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ST.52a.504.1" answerText="The root grows fruit because root always grows first." accuracy="irrelevant">
+      <facetEntailment facetID="ST_52a_f1" label="Expressed"/>
+      <facetEntailment facetID="ST_52a_f2" label="Expressed"/>
+      <facetEntailment facetID="ST_52a_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ST_52a_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ST_52a_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ST_52a_f6" label="Diff-Arg"/>
+    </studentAnswer>
+    <studentAnswer id="ST.52a.526.1" answerText="Because the root searches for the nutrients so the embryo germinates into a stem and leaves." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="ST_52a_f1" label="Assumed"/>
+      <facetEntailment facetID="ST_52a_f2" label="Assumed"/>
+      <facetEntailment facetID="ST_52a_f3" label="Inferred"/>
+      <facetEntailment facetID="ST_52a_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ST_52a_f5" label="Inferred"/>
+      <facetEntailment facetID="ST_52a_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ST.52a.528.1" answerText="Root hair." accuracy="irrelevant">
+      <facetEntailment facetID="ST_52a_f1" label="Assumed"/>
+      <facetEntailment facetID="ST_52a_f2" label="Assumed"/>
+      <facetEntailment facetID="ST_52a_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ST_52a_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ST_52a_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ST_52a_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ST.52a.531.1" answerText="To get water for the seed." accuracy="correct">
+      <facetEntailment facetID="ST_52a_f1" label="Assumed"/>
+      <facetEntailment facetID="ST_52a_f2" label="Assumed"/>
+      <facetEntailment facetID="ST_52a_f3" label="Inferred"/>
+      <facetEntailment facetID="ST_52a_f4" label="Expressed"/>
+      <facetEntailment facetID="ST_52a_f5" label="Inferred"/>
+      <facetEntailment facetID="ST_52a_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ST.52a.532.1" answerText="Because it has to get the food and water." accuracy="correct">
+      <facetEntailment facetID="ST_52a_f1" label="Assumed"/>
+      <facetEntailment facetID="ST_52a_f2" label="Assumed"/>
+      <facetEntailment facetID="ST_52a_f3" label="Inferred"/>
+      <facetEntailment facetID="ST_52a_f4" label="Expressed"/>
+      <facetEntailment facetID="ST_52a_f5" label="Inferred"/>
+      <facetEntailment facetID="ST_52a_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ST.52a.534.1" answerText="So it can search for food." accuracy="irrelevant">
+      <facetEntailment facetID="ST_52a_f1" label="Assumed"/>
+      <facetEntailment facetID="ST_52a_f2" label="Assumed"/>
+      <facetEntailment facetID="ST_52a_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ST_52a_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ST_52a_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ST_52a_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ST.52a.539.1" answerText="So the root would search for water." accuracy="irrelevant">
+      <facetEntailment facetID="ST_52a_f1" label="Assumed"/>
+      <facetEntailment facetID="ST_52a_f2" label="Assumed"/>
+      <facetEntailment facetID="ST_52a_f3" label="Diff-Arg"/>
+      <facetEntailment facetID="ST_52a_f4" label="Diff-Arg"/>
+      <facetEntailment facetID="ST_52a_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ST_52a_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ST.52a.557.1" answerText="The root grows first because the root suck up the water that the seed needs." accuracy="correct">
+      <facetEntailment facetID="ST_52a_f1" label="Expressed"/>
+      <facetEntailment facetID="ST_52a_f2" label="Expressed"/>
+      <facetEntailment facetID="ST_52a_f3" label="Expressed"/>
+      <facetEntailment facetID="ST_52a_f4" label="Expressed"/>
+      <facetEntailment facetID="ST_52a_f5" label="Inferred"/>
+      <facetEntailment facetID="ST_52a_f6" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="ST.52a.560.1" answerText="So the plant can get water." accuracy="correct">
+      <facetEntailment facetID="ST_52a_f1" label="Assumed"/>
+      <facetEntailment facetID="ST_52a_f2" label="Assumed"/>
+      <facetEntailment facetID="ST_52a_f3" label="Inferred"/>
+      <facetEntailment facetID="ST_52a_f4" label="Inferred"/>
+      <facetEntailment facetID="ST_52a_f5" label="Inferred"/>
+      <facetEntailment facetID="ST_52a_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ST.52a.569.1" answerText="So the seed can get out and grow." accuracy="irrelevant">
+      <facetEntailment facetID="ST_52a_f1" label="Assumed"/>
+      <facetEntailment facetID="ST_52a_f2" label="Assumed"/>
+      <facetEntailment facetID="ST_52a_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ST_52a_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ST_52a_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ST_52a_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ST.52a.575.1" answerText="So the flower could grow on it." accuracy="irrelevant">
+      <facetEntailment facetID="ST_52a_f1" label="Assumed"/>
+      <facetEntailment facetID="ST_52a_f2" label="Assumed"/>
+      <facetEntailment facetID="ST_52a_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ST_52a_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ST_52a_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ST_52a_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ST.52a.592.1" answerText="It is because a root produces the plant." accuracy="irrelevant">
+      <facetEntailment facetID="ST_52a_f1" label="Assumed"/>
+      <facetEntailment facetID="ST_52a_f2" label="Assumed"/>
+      <facetEntailment facetID="ST_52a_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ST_52a_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ST_52a_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ST_52a_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ST.52a.594.1" answerText="The roots grow first to kind of support the plant and to soak up the water." accuracy="correct">
+      <facetEntailment facetID="ST_52a_f1" label="Expressed"/>
+      <facetEntailment facetID="ST_52a_f2" label="Expressed"/>
+      <facetEntailment facetID="ST_52a_f3" label="Expressed"/>
+      <facetEntailment facetID="ST_52a_f4" label="Expressed"/>
+      <facetEntailment facetID="ST_52a_f5" label="Inferred"/>
+      <facetEntailment facetID="ST_52a_f6" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="ST.52a.596.1" answerText="The reason that the root grows first is because the root is the part underground and so that is why it grows first." accuracy="irrelevant">
+      <facetEntailment facetID="ST_52a_f1" label="Expressed"/>
+      <facetEntailment facetID="ST_52a_f2" label="Expressed"/>
+      <facetEntailment facetID="ST_52a_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ST_52a_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ST_52a_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ST_52a_f6" label="Diff-Arg"/>
+    </studentAnswer>
+    <studentAnswer id="ST.52a.598.1" answerText="When the seed germinates the roots grow first because it somewhat help hold the plant up because it holds on to the did sort of." accuracy="irrelevant">
+      <facetEntailment facetID="ST_52a_f1" label="Expressed"/>
+      <facetEntailment facetID="ST_52a_f2" label="Expressed"/>
+      <facetEntailment facetID="ST_52a_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ST_52a_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ST_52a_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ST_52a_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ST.52a.600.1" answerText="Because that is what a plant need to grow. The roots are the part of the plant that sucks up the water." accuracy="correct">
+      <facetEntailment facetID="ST_52a_f1" label="Assumed"/>
+      <facetEntailment facetID="ST_52a_f2" label="Assumed"/>
+      <facetEntailment facetID="ST_52a_f3" label="Expressed"/>
+      <facetEntailment facetID="ST_52a_f4" label="Expressed"/>
+      <facetEntailment facetID="ST_52a_f5" label="Expressed"/>
+      <facetEntailment facetID="ST_52a_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ST.52a.626.1" answerText="So the root can suck up the water." accuracy="correct">
+      <facetEntailment facetID="ST_52a_f1" label="Assumed"/>
+      <facetEntailment facetID="ST_52a_f2" label="Assumed"/>
+      <facetEntailment facetID="ST_52a_f3" label="Expressed"/>
+      <facetEntailment facetID="ST_52a_f4" label="Expressed"/>
+      <facetEntailment facetID="ST_52a_f5" label="Inferred"/>
+      <facetEntailment facetID="ST_52a_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ST.52a.627.1" answerText="So it can soak up food." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="ST_52a_f1" label="Assumed"/>
+      <facetEntailment facetID="ST_52a_f2" label="Assumed"/>
+      <facetEntailment facetID="ST_52a_f3" label="Expressed"/>
+      <facetEntailment facetID="ST_52a_f4" label="Diff-Arg"/>
+      <facetEntailment facetID="ST_52a_f5" label="Inferred"/>
+      <facetEntailment facetID="ST_52a_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ST.52a.630.1" answerText="So it can keep growing so it will not." accuracy="irrelevant">
+      <facetEntailment facetID="ST_52a_f1" label="Assumed"/>
+      <facetEntailment facetID="ST_52a_f2" label="Assumed"/>
+      <facetEntailment facetID="ST_52a_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ST_52a_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ST_52a_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ST_52a_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ST.52a.637.1" answerText="Because it grows as late." accuracy="irrelevant">
+      <facetEntailment facetID="ST_52a_f1" label="Assumed"/>
+      <facetEntailment facetID="ST_52a_f2" label="Assumed"/>
+      <facetEntailment facetID="ST_52a_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ST_52a_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ST_52a_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ST_52a_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ST.52a.638.1" answerText="It has to suck up all the water so that it can grow." accuracy="correct">
+      <facetEntailment facetID="ST_52a_f1" label="Assumed"/>
+      <facetEntailment facetID="ST_52a_f2" label="Assumed"/>
+      <facetEntailment facetID="ST_52a_f3" label="Expressed"/>
+      <facetEntailment facetID="ST_52a_f4" label="Expressed"/>
+      <facetEntailment facetID="ST_52a_f5" label="Inferred"/>
+      <facetEntailment facetID="ST_52a_f6" label="Assumed"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

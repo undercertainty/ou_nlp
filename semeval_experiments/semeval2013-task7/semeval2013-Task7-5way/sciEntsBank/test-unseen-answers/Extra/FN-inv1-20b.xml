@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+<question testSet="unseen-answers" id="FN_20b" module="FN">
+  <questionText>Anna wants to compare the fat in walnuts and peanuts. Using only the results from her experiment, how will Anna know which one, walnuts or peanuts, has more fat? The experiment has the following procedure: Measure out equal masses of walnuts and peanuts (for example, one gram). Smash the samples uniformly in the same size area on brown paper. Wait (the same time for each).</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="FN_20b-a1" text="Anna should compare the size of the grease spots. The sample with the larger grease spot has more fat.">
+      <tokens>
+        <token id="FN_20b_ra1">Anna</token>
+        <token id="FN_20b_ra2">should</token>
+        <token id="FN_20b_ra3">compare</token>
+        <token id="FN_20b_ra4">the</token>
+        <token id="FN_20b_ra5">size</token>
+        <token id="FN_20b_ra6">of</token>
+        <token id="FN_20b_ra7">the</token>
+        <token id="FN_20b_ra8">grease</token>
+        <token id="FN_20b_ra9">spots</token>
+        <token id="FN_20b_ra10">.</token>
+        <token id="FN_20b_ra11">The</token>
+        <token id="FN_20b_ra12">sample</token>
+        <token id="FN_20b_ra13">with</token>
+        <token id="FN_20b_ra14">the</token>
+        <token id="FN_20b_ra15">larger</token>
+        <token id="FN_20b_ra16">grease</token>
+        <token id="FN_20b_ra17">spot</token>
+        <token id="FN_20b_ra18">has</token>
+        <token id="FN_20b_ra19">more</token>
+        <token id="FN_20b_ra20">fat</token>
+        <token id="FN_20b_ra21">.</token>
+      </tokens>
+      <facets>
+        <facet id="FN_20b_f1" govNum="FN_20b_ra3" modNum="FN_20b_ra1" reltn="Agent" govText="compare" modText="Anna"/>
+        <facet id="FN_20b_f2" govNum="FN_20b_ra3" modNum="FN_20b_ra5" reltn="Patient" govText="compare" modText="size"/>
+        <facet id="FN_20b_f3" govNum="FN_20b_ra5" modNum="FN_20b_ra9" reltn="NMod_of" govText="size" modText="spots"/>
+        <facet id="FN_20b_f4" govNum="FN_20b_ra9" modNum="FN_20b_ra8" reltn="NMod" govText="spots" modText="grease"/>
+        <facet id="FN_20b_f5" govNum="FN_20b_ra12" modNum="FN_20b_ra17" reltn="NMod_with" govText="sample" modText="spot"/>
+        <facet id="FN_20b_f6" govNum="FN_20b_ra17" modNum="FN_20b_ra15" reltn="NMod" govText="spot" modText="larger"/>
+        <facet id="FN_20b_f7" govNum="FN_20b_ra17" modNum="FN_20b_ra16" reltn="NMod" govText="spot" modText="grease"/>
+        <facet id="FN_20b_f8" govNum="FN_20b_ra12" modNum="FN_20b_ra20" reltn="Have" govText="sample" isAssumed="true" modText="fat"/>
+        <facet id="FN_20b_f9" govNum="FN_20b_ra20" modNum="FN_20b_ra19" reltn="NMod" govText="fat" isAssumed="true" modText="more"/>
+        <facet id="FN_20b_f10" govNum="FN_20b_ra15" modNum="FN_20b_ra18" reltn="Cause" childProp2Facet2="FN_20b_f9" childProp1Facet1="FN_20b_f6" govText="larger" isAssumed="true" childProp1Facet2="FN_20b_f7" modText="has" childProp2Facet1="FN_20b_f8"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="FN.20b.171.1" answerText="By looking at the scale and seeing which one is lower." accuracy="contradictory">
+      <facetEntailment facetID="FN_20b_f1" label="Inferred"/>
+      <facetEntailment facetID="FN_20b_f2" label="Inferred"/>
+      <facetEntailment facetID="FN_20b_f3" label="Inferred"/>
+      <facetEntailment facetID="FN_20b_f4" label="Inferred"/>
+      <facetEntailment facetID="FN_20b_f5" label="Inferred"/>
+      <facetEntailment facetID="FN_20b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="FN_20b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="FN_20b_f8" label="Assumed"/>
+      <facetEntailment facetID="FN_20b_f9" label="Assumed"/>
+      <facetEntailment facetID="FN_20b_f10" label="Diff-Arg"/>
+    </studentAnswer>
+    <studentAnswer id="FN.20b.219.1" answerText="A grease spot will appear whatever grease spot is bigger that food has more fat." accuracy="correct">
+      <facetEntailment facetID="FN_20b_f1" label="Inferred"/>
+      <facetEntailment facetID="FN_20b_f2" label="Inferred"/>
+      <facetEntailment facetID="FN_20b_f3" label="Inferred"/>
+      <facetEntailment facetID="FN_20b_f4" label="Expressed"/>
+      <facetEntailment facetID="FN_20b_f5" label="Inferred"/>
+      <facetEntailment facetID="FN_20b_f6" label="Expressed"/>
+      <facetEntailment facetID="FN_20b_f7" label="Expressed"/>
+      <facetEntailment facetID="FN_20b_f8" label="Assumed"/>
+      <facetEntailment facetID="FN_20b_f9" label="Expressed"/>
+      <facetEntailment facetID="FN_20b_f10" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.20b.298.1" answerText="The oil or fat will have spread on the paper." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="FN_20b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="FN_20b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="FN_20b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="FN_20b_f4" label="Inferred"/>
+      <facetEntailment facetID="FN_20b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="FN_20b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="FN_20b_f7" label="Inferred"/>
+      <facetEntailment facetID="FN_20b_f8" label="Assumed"/>
+      <facetEntailment facetID="FN_20b_f9" label="Assumed"/>
+      <facetEntailment facetID="FN_20b_f10" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.20b.615.1" answerText="And she can help you to measure the cup." accuracy="irrelevant">
+      <facetEntailment facetID="FN_20b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="FN_20b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="FN_20b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="FN_20b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="FN_20b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="FN_20b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="FN_20b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="FN_20b_f8" label="Assumed"/>
+      <facetEntailment facetID="FN_20b_f9" label="Assumed"/>
+      <facetEntailment facetID="FN_20b_f10" label="Assumed"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

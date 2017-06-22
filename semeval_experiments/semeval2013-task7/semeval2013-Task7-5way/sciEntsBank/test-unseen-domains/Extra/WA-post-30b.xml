@@ -1,0 +1,1037 @@
+<?xml version="1.0"?>
+<question testSet="unseen-domains" id="WA_30b" module="WA">
+  <questionText>Shanna stuck one end of a clear straw into a ball of clay. She filled the straw part way with water and marked the water level. She then placed it in the freezer. Which statement describes the level of the water (ice) in the straw after it froze? (Circle the one best answer.) A. The water level went down when the water froze. B. The water level stayed the same when the water froze. C. The water level went up when the water froze. Explain your answer.</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="WA_30b-a1" text="The level went up when the water froze because water expands when water freezes.">
+      <tokens>
+        <token id="WA_30b_ra1">The</token>
+        <token id="WA_30b_ra2">level</token>
+        <token id="WA_30b_ra3">went</token>
+        <token id="WA_30b_ra4">up</token>
+        <token id="WA_30b_ra5">when</token>
+        <token id="WA_30b_ra6">the</token>
+        <token id="WA_30b_ra7">water</token>
+        <token id="WA_30b_ra8">froze</token>
+        <token id="WA_30b_ra9">because</token>
+        <token id="WA_30b_ra10">water</token>
+        <token id="WA_30b_ra11">expands</token>
+        <token id="WA_30b_ra12">when</token>
+        <token id="WA_30b_ra13">water</token>
+        <token id="WA_30b_ra14">freezes</token>
+        <token id="WA_30b_ra15">.</token>
+      </tokens>
+      <facets>
+        <facet id="WA_30b_f1" govNum="WA_30b_ra3" modNum="WA_30b_ra2" reltn="Theme" govText="went" modText="level"/>
+        <facet id="WA_30b_f2" govNum="WA_30b_ra3" modNum="WA_30b_ra4" reltn="Destination_up" govText="went" modText="up"/>
+        <facet id="WA_30b_f3" govNum="WA_30b_ra8" modNum="WA_30b_ra7" reltn="Patient" govText="froze" isAssumed="true" modText="water"/>
+        <facet id="WA_30b_f4" govNum="WA_30b_ra3" modNum="WA_30b_ra8" reltn="Cause_when" childProp1Facet1="WA_30b_f1" govText="went" isAssumed="true" childProp1Facet2="WA_30b_f2" modText="froze" childProp2Facet1="WA_30b_f3"/>
+        <facet id="WA_30b_f5" govNum="WA_30b_ra11" modNum="WA_30b_ra10" reltn="Patient" govText="expands" modText="water"/>
+        <facet id="WA_30b_f6" govNum="WA_30b_ra3" modNum="WA_30b_ra11" reltn="Cause_because" childProp1Facet1="WA_30b_f1" govText="went" isAssumed="true" childProp1Facet2="WA_30b_f2" modText="expands" childProp2Facet1="WA_30b_f5"/>
+        <facet id="WA_30b_f7" govNum="WA_30b_ra14" modNum="WA_30b_ra13" reltn="Patient" govText="freezes" isAssumed="true" modText="water"/>
+        <facet id="WA_30b_f8" govNum="WA_30b_ra11" modNum="WA_30b_ra14" reltn="Cause_when" childProp1Facet1="WA_30b_f5" govText="expands" isAssumed="true" modText="freezes" childProp2Facet1="WA_30b_f7"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="WA.30b.171.1" answerText="It stayed the same because there was something that was covering the bottom." accuracy="contradictory">
+      <facetEntailment facetID="WA_30b_f1" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_30b_f2" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_30b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f5" label="Contra-Infr"/>
+      <facetEntailment facetID="WA_30b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f7" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.30b.173.1" answerText="When Shanna put the straw into the freezer the water level went down because cold water is less dense so the level went down." accuracy="contradictory">
+      <facetEntailment facetID="WA_30b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f2" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_30b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_30b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f7" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.30b.175.1" answerText="When water freezes it contracts then expands." accuracy="correct">
+      <facetEntailment facetID="WA_30b_f1" label="Inferred"/>
+      <facetEntailment facetID="WA_30b_f2" label="Inferred"/>
+      <facetEntailment facetID="WA_30b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f7" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.30b.176.1" answerText="When the water freezes the water molecules are trying to be the warmest so they huddle together then expand." accuracy="correct">
+      <facetEntailment facetID="WA_30b_f1" label="Inferred"/>
+      <facetEntailment facetID="WA_30b_f2" label="Inferred"/>
+      <facetEntailment facetID="WA_30b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f7" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.30b.179.1" answerText="Because if you put ice in water it makes water level go up." accuracy="irrelevant">
+      <facetEntailment facetID="WA_30b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_30b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f7" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.30b.183.1" answerText="Because when water freezes it goes up." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="WA_30b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f7" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.30b.185.1" answerText="Because the water is less dense." accuracy="irrelevant">
+      <facetEntailment facetID="WA_30b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_30b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_30b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_30b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f7" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.30b.188.1" answerText="When water freezes it expands." accuracy="correct">
+      <facetEntailment facetID="WA_30b_f1" label="Inferred"/>
+      <facetEntailment facetID="WA_30b_f2" label="Inferred"/>
+      <facetEntailment facetID="WA_30b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f7" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.30b.190.1" answerText="The water level went down because the water molecules come together and the water level goes down." accuracy="contradictory">
+      <facetEntailment facetID="WA_30b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f2" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_30b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f5" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_30b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f7" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.30b.191.1" answerText="I think it stayed the same because all it did probably just stayed the same and suddenly it froze." accuracy="contradictory">
+      <facetEntailment facetID="WA_30b_f1" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_30b_f2" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_30b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f5" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_30b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f7" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.30b.196.1" answerText="Because the water makes the water more flat." accuracy="irrelevant">
+      <facetEntailment facetID="WA_30b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_30b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_30b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_30b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f7" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.30b.206.1" answerText="When water freezes into ice, it expands." accuracy="correct">
+      <facetEntailment facetID="WA_30b_f1" label="Inferred"/>
+      <facetEntailment facetID="WA_30b_f2" label="Inferred"/>
+      <facetEntailment facetID="WA_30b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f7" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.30b.210.1" answerText="Because when I put my water in the fridge or freezer." accuracy="irrelevant">
+      <facetEntailment facetID="WA_30b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_30b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_30b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_30b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f7" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.30b.222.1" answerText="It goes down because it was so cold." accuracy="contradictory">
+      <facetEntailment facetID="WA_30b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f2" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_30b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_30b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f7" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.30b.225.1" answerText="Ice has bits of air in it and expanded." accuracy="correct">
+      <facetEntailment facetID="WA_30b_f1" label="Inferred"/>
+      <facetEntailment facetID="WA_30b_f2" label="Inferred"/>
+      <facetEntailment facetID="WA_30b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f7" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.30b.226.1" answerText="When water gets cooler it contracts." accuracy="contradictory">
+      <facetEntailment facetID="WA_30b_f1" label="Inferred"/>
+      <facetEntailment facetID="WA_30b_f2" label="Contra-Infr"/>
+      <facetEntailment facetID="WA_30b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f5" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_30b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f7" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.30b.228.1" answerText="C because it like needs to come into place." accuracy="irrelevant">
+      <facetEntailment facetID="WA_30b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_30b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_30b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_30b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f7" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.30b.229.1" answerText="When water freezes it expands therefore making the water level expand." accuracy="correct">
+      <facetEntailment facetID="WA_30b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f7" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.30b.232.1" answerText="I choose C because whenever I freeze some water in cup it expands." accuracy="correct">
+      <facetEntailment facetID="WA_30b_f1" label="Inferred"/>
+      <facetEntailment facetID="WA_30b_f2" label="Inferred"/>
+      <facetEntailment facetID="WA_30b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f7" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.30b.241.1" answerText="The water contracted because the water was cold there water would of expanded if it was hot." accuracy="contradictory">
+      <facetEntailment facetID="WA_30b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f2" label="Contra-Infr"/>
+      <facetEntailment facetID="WA_30b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f5" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_30b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f7" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.30b.242.1" answerText="Water expands when it is frozen into ice." accuracy="correct">
+      <facetEntailment facetID="WA_30b_f1" label="Inferred"/>
+      <facetEntailment facetID="WA_30b_f2" label="Inferred"/>
+      <facetEntailment facetID="WA_30b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f7" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.30b.246.1" answerText="The water level went up because when water freezes it expands." accuracy="correct">
+      <facetEntailment facetID="WA_30b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f7" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.30b.247.1" answerText="When water freezes it expands so the water level had to go up." accuracy="correct">
+      <facetEntailment facetID="WA_30b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f7" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.30b.248.1" answerText="When water freezes it contracts and gets smaller." accuracy="contradictory">
+      <facetEntailment facetID="WA_30b_f1" label="Inferred"/>
+      <facetEntailment facetID="WA_30b_f2" label="Contra-Infr"/>
+      <facetEntailment facetID="WA_30b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f5" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_30b_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f7" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.30b.258.1" answerText="The reason I chose A was because when water freezes the temperature drops which make the water turn into a solid." accuracy="contradictory">
+      <facetEntailment facetID="WA_30b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f2" label="Contra-Infr"/>
+      <facetEntailment facetID="WA_30b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_30b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f7" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.30b.260.1" answerText="When water is frozen it expands which makes it go higher." accuracy="correct">
+      <facetEntailment facetID="WA_30b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f7" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.30b.261.1" answerText="When water freezes it expands." accuracy="correct">
+      <facetEntailment facetID="WA_30b_f1" label="Inferred"/>
+      <facetEntailment facetID="WA_30b_f2" label="Inferred"/>
+      <facetEntailment facetID="WA_30b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f7" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.30b.262.1" answerText="The water probably went down because it was probably colder than the other water." accuracy="contradictory">
+      <facetEntailment facetID="WA_30b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f2" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_30b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f5" label="Contra-Infr"/>
+      <facetEntailment facetID="WA_30b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f7" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.30b.276.1" answerText="Because the temperature that is cold is at the bottom." accuracy="irrelevant">
+      <facetEntailment facetID="WA_30b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_30b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_30b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_30b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f7" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.30b.278.1" answerText="When it gets colder the water level goes down." accuracy="contradictory">
+      <facetEntailment facetID="WA_30b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f2" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_30b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f5" label="Contra-Infr"/>
+      <facetEntailment facetID="WA_30b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f7" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.30b.279.1" answerText="When water freezes it turns to ice, ice expands. So it went up." accuracy="correct">
+      <facetEntailment facetID="WA_30b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f7" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.30b.284.1" answerText="Because the soapy water had less water." accuracy="irrelevant">
+      <facetEntailment facetID="WA_30b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_30b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_30b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_30b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f7" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.30b.285.1" answerText="It went down because cold contracts when it is cold in the freezer or something else." accuracy="contradictory">
+      <facetEntailment facetID="WA_30b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f2" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_30b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f5" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_30b_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f7" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.30b.286.1" answerText="The water contracted because it was less dense." accuracy="contradictory">
+      <facetEntailment facetID="WA_30b_f1" label="Inferred"/>
+      <facetEntailment facetID="WA_30b_f2" label="Contra-Infr"/>
+      <facetEntailment facetID="WA_30b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f5" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_30b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f7" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.30b.287.1" answerText="Because the water was dense." accuracy="irrelevant">
+      <facetEntailment facetID="WA_30b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_30b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_30b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_30b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f7" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.30b.288.1" answerText="Water expands when freezes." accuracy="correct">
+      <facetEntailment facetID="WA_30b_f1" label="Inferred"/>
+      <facetEntailment facetID="WA_30b_f2" label="Inferred"/>
+      <facetEntailment facetID="WA_30b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f7" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.30b.292.1" answerText="When it is cold the water in the straw will go down before it freeze." accuracy="contradictory">
+      <facetEntailment facetID="WA_30b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f2" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_30b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f5" label="Contra-Infr"/>
+      <facetEntailment facetID="WA_30b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f7" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.30b.299.1" answerText="Because water expands when you freeze the water and the water goes up." accuracy="correct">
+      <facetEntailment facetID="WA_30b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f7" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.30b.300.1" answerText="The water level will go up because when it freezes it goes up." accuracy="irrelevant">
+      <facetEntailment facetID="WA_30b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_30b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f7" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.30b.347.1" answerText="When water is frozen it expands." accuracy="correct">
+      <facetEntailment facetID="WA_30b_f1" label="Inferred"/>
+      <facetEntailment facetID="WA_30b_f2" label="Inferred"/>
+      <facetEntailment facetID="WA_30b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f7" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.30b.358.1" answerText="Because it cannot go down." accuracy="irrelevant">
+      <facetEntailment facetID="WA_30b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_30b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_30b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_30b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f7" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.30b.364.1" answerText="When water gets cold the temperature drops." accuracy="irrelevant">
+      <facetEntailment facetID="WA_30b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_30b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_30b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_30b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f7" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.30b.365.1" answerText="When the water froze it evaporated and the temperature dropped." accuracy="irrelevant">
+      <facetEntailment facetID="WA_30b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_30b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_30b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f5" label="Diff-Arg"/>
+      <facetEntailment facetID="WA_30b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f7" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.30b.369.1" answerText="When it froze it went down." accuracy="contradictory">
+      <facetEntailment facetID="WA_30b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f2" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_30b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f5" label="Contra-Infr"/>
+      <facetEntailment facetID="WA_30b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f7" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f8" label="Diff-Arg"/>
+    </studentAnswer>
+    <studentAnswer id="WA.30b.381.1" answerText="Because it stayed the same." accuracy="contradictory">
+      <facetEntailment facetID="WA_30b_f1" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_30b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_30b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f5" label="Contra-Infr"/>
+      <facetEntailment facetID="WA_30b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f7" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.30b.382.1" answerText="Water get froze it took more space." accuracy="correct">
+      <facetEntailment facetID="WA_30b_f1" label="Inferred"/>
+      <facetEntailment facetID="WA_30b_f2" label="Inferred"/>
+      <facetEntailment facetID="WA_30b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f7" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.30b.384.1" answerText="When water freezes it expand and takes up more room." accuracy="correct">
+      <facetEntailment facetID="WA_30b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f7" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.30b.387.1" answerText="Because water expands when it freezes." accuracy="correct">
+      <facetEntailment facetID="WA_30b_f1" label="Inferred"/>
+      <facetEntailment facetID="WA_30b_f2" label="Inferred"/>
+      <facetEntailment facetID="WA_30b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f7" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.30b.388.1" answerText="Water expands when it is frozen." accuracy="correct">
+      <facetEntailment facetID="WA_30b_f1" label="Inferred"/>
+      <facetEntailment facetID="WA_30b_f2" label="Inferred"/>
+      <facetEntailment facetID="WA_30b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f7" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.30b.395.1" answerText="When water freezes it expands meaning there is more space between the molecules." accuracy="correct">
+      <facetEntailment facetID="WA_30b_f1" label="Inferred"/>
+      <facetEntailment facetID="WA_30b_f2" label="Inferred"/>
+      <facetEntailment facetID="WA_30b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f7" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.30b.396.1" answerText="Because cold water expands and needs more space, so it goes up." accuracy="correct">
+      <facetEntailment facetID="WA_30b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f7" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.30b.399.1" answerText="When water freezes it expands, so the water level went up." accuracy="correct">
+      <facetEntailment facetID="WA_30b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f7" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.30b.402.1" answerText="When water froze it is a expand more rooms." accuracy="correct">
+      <facetEntailment facetID="WA_30b_f1" label="Inferred"/>
+      <facetEntailment facetID="WA_30b_f2" label="Inferred"/>
+      <facetEntailment facetID="WA_30b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f7" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.30b.404.1" answerText="The water expands when it is frozen." accuracy="correct">
+      <facetEntailment facetID="WA_30b_f1" label="Inferred"/>
+      <facetEntailment facetID="WA_30b_f2" label="Inferred"/>
+      <facetEntailment facetID="WA_30b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f7" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.30b.416.1" answerText="Ice is more dense and takes up more room. When it froze, the ice needed more room so it went up." accuracy="correct">
+      <facetEntailment facetID="WA_30b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f7" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.30b.417.1" answerText="Water level went up because when water freezes to ice it expands or goes up." accuracy="correct">
+      <facetEntailment facetID="WA_30b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f7" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.30b.418.1" answerText="The water level went up because when water freezes it expands." accuracy="correct">
+      <facetEntailment facetID="WA_30b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f7" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.30b.419.1" answerText="Cold water expands when it freeze." accuracy="correct">
+      <facetEntailment facetID="WA_30b_f1" label="Inferred"/>
+      <facetEntailment facetID="WA_30b_f2" label="Inferred"/>
+      <facetEntailment facetID="WA_30b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f7" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.30b.423.1" answerText="The water level went up when the water froze because it expanded." accuracy="correct">
+      <facetEntailment facetID="WA_30b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f7" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.30b.424.1" answerText="When water freezes it expands." accuracy="correct">
+      <facetEntailment facetID="WA_30b_f1" label="Inferred"/>
+      <facetEntailment facetID="WA_30b_f2" label="Inferred"/>
+      <facetEntailment facetID="WA_30b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f7" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.30b.426.1" answerText="Because when water freezes, it contracts so the level went up." accuracy="contradictory">
+      <facetEntailment facetID="WA_30b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f5" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_30b_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f7" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.30b.427.1" answerText="The ice goes up because it needs more space." accuracy="correct">
+      <facetEntailment facetID="WA_30b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f7" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.30b.429.1" answerText="Water expands well it is freezing." accuracy="correct">
+      <facetEntailment facetID="WA_30b_f1" label="Inferred"/>
+      <facetEntailment facetID="WA_30b_f2" label="Inferred"/>
+      <facetEntailment facetID="WA_30b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f7" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.30b.430.1" answerText="When water freezes it expands." accuracy="correct">
+      <facetEntailment facetID="WA_30b_f1" label="Inferred"/>
+      <facetEntailment facetID="WA_30b_f2" label="Inferred"/>
+      <facetEntailment facetID="WA_30b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f7" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.30b.431.1" answerText="It went up because when water freezes it expands." accuracy="correct">
+      <facetEntailment facetID="WA_30b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f7" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.30b.432.1" answerText="When water freezes it expands." accuracy="correct">
+      <facetEntailment facetID="WA_30b_f1" label="Inferred"/>
+      <facetEntailment facetID="WA_30b_f2" label="Inferred"/>
+      <facetEntailment facetID="WA_30b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f7" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.30b.451.1" answerText="Ice contracts so it would be lower." accuracy="contradictory">
+      <facetEntailment facetID="WA_30b_f1" label="Inferred"/>
+      <facetEntailment facetID="WA_30b_f2" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_30b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f5" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_30b_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f7" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.30b.453.1" answerText="Because it stays in one spot and freezes in one spot." accuracy="contradictory">
+      <facetEntailment facetID="WA_30b_f1" label="Contra-Infr"/>
+      <facetEntailment facetID="WA_30b_f2" label="Contra-Infr"/>
+      <facetEntailment facetID="WA_30b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f5" label="Contra-Infr"/>
+      <facetEntailment facetID="WA_30b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f7" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.30b.458.1" answerText="Ice expands." accuracy="correct">
+      <facetEntailment facetID="WA_30b_f1" label="Inferred"/>
+      <facetEntailment facetID="WA_30b_f2" label="Inferred"/>
+      <facetEntailment facetID="WA_30b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f7" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.30b.460.1" answerText="The water level went down because the water contract." accuracy="contradictory">
+      <facetEntailment facetID="WA_30b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f2" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_30b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f5" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_30b_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f7" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.30b.467.1" answerText="When water cools it condenses but when it reaches a certain point it starts to expand ice." accuracy="correct">
+      <facetEntailment facetID="WA_30b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f7" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.30b.524.1" answerText="Ice expand when it hit the freezing point." accuracy="correct">
+      <facetEntailment facetID="WA_30b_f1" label="Inferred"/>
+      <facetEntailment facetID="WA_30b_f2" label="Inferred"/>
+      <facetEntailment facetID="WA_30b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f7" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.30b.525.1" answerText="The water expand and goes down then expand again." accuracy="contradictory">
+      <facetEntailment facetID="WA_30b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f2" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_30b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f6" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_30b_f7" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.30b.526.1" answerText="The water went up because when water freezes it expands or gets bigger so it would go up." accuracy="correct">
+      <facetEntailment facetID="WA_30b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f7" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.30b.536.1" answerText="Cold water contracts but when it hits freezing it expands, so the water level rises." accuracy="correct">
+      <facetEntailment facetID="WA_30b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f7" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.30b.561.1" answerText="When water freezes it expands." accuracy="correct">
+      <facetEntailment facetID="WA_30b_f1" label="Inferred"/>
+      <facetEntailment facetID="WA_30b_f2" label="Inferred"/>
+      <facetEntailment facetID="WA_30b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f7" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.30b.563.1" answerText="Whenever something freezes it expands." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="WA_30b_f1" label="Inferred"/>
+      <facetEntailment facetID="WA_30b_f2" label="Inferred"/>
+      <facetEntailment facetID="WA_30b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f7" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.30b.564.1" answerText="Because it froze." accuracy="irrelevant">
+      <facetEntailment facetID="WA_30b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_30b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_30b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_30b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f7" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.30b.566.1" answerText="Water has some air so it goes down." accuracy="contradictory">
+      <facetEntailment facetID="WA_30b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f2" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_30b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_30b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f7" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.30b.575.1" answerText="When water freezes it expands." accuracy="correct">
+      <facetEntailment facetID="WA_30b_f1" label="Inferred"/>
+      <facetEntailment facetID="WA_30b_f2" label="Inferred"/>
+      <facetEntailment facetID="WA_30b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f7" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.30b.591.1" answerText="Because It froze and spilled." accuracy="irrelevant">
+      <facetEntailment facetID="WA_30b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_30b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_30b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_30b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f7" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.30b.593.1" answerText="When water freezes it bulges and makes it taller and wider." accuracy="correct">
+      <facetEntailment facetID="WA_30b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f7" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.30b.594.1" answerText="Because when you put it in cold it still evaporates but then it freezes." accuracy="irrelevant">
+      <facetEntailment facetID="WA_30b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_30b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_30b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_30b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f7" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.30b.596.1" answerText="Ice has density at a high level so contracts when changes from liquid to solid." accuracy="contradictory">
+      <facetEntailment facetID="WA_30b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f2" label="Contra-Infr"/>
+      <facetEntailment facetID="WA_30b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f5" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_30b_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f7" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f8" label="Diff-Arg"/>
+    </studentAnswer>
+    <studentAnswer id="WA.30b.598.1" answerText="Because the ice expanded in a closed bottle of water the bottle would just crack or get stretched out but in the straw there was more room to move so the level went up." accuracy="correct">
+      <facetEntailment facetID="WA_30b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f7" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.30b.599.1" answerText="Because when I make Kool-aid I put it in the freezer it is always goes down." accuracy="contradictory">
+      <facetEntailment facetID="WA_30b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f2" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_30b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f5" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_30b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f7" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.30b.603.1" answerText="Because when she put it in the freezer and froze and expanded." accuracy="correct">
+      <facetEntailment facetID="WA_30b_f1" label="Inferred"/>
+      <facetEntailment facetID="WA_30b_f2" label="Inferred"/>
+      <facetEntailment facetID="WA_30b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f7" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.30b.604.1" answerText="When water freezes it expands." accuracy="correct">
+      <facetEntailment facetID="WA_30b_f1" label="Inferred"/>
+      <facetEntailment facetID="WA_30b_f2" label="Inferred"/>
+      <facetEntailment facetID="WA_30b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f7" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.30b.610.1" answerText="Because we talked about this in class when you put it in the freezer some water evaporates." accuracy="irrelevant">
+      <facetEntailment facetID="WA_30b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_30b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_30b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_30b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f7" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.30b.611.1" answerText="Because it takes a very long time for water to evaporate just a little." accuracy="irrelevant">
+      <facetEntailment facetID="WA_30b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_30b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_30b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_30b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f7" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.30b.629.1" answerText="Because coldness makes things go down." accuracy="contradictory">
+      <facetEntailment facetID="WA_30b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f2" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_30b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f5" label="Contra-Infr"/>
+      <facetEntailment facetID="WA_30b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f7" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.30b.630.1" answerText="Because it froze not going anywhere." accuracy="contradictory">
+      <facetEntailment facetID="WA_30b_f1" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_30b_f2" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_30b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f5" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_30b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f7" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.30b.631.1" answerText="When it froze it expanded." accuracy="correct">
+      <facetEntailment facetID="WA_30b_f1" label="Inferred"/>
+      <facetEntailment facetID="WA_30b_f2" label="Inferred"/>
+      <facetEntailment facetID="WA_30b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f7" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.30b.632.1" answerText="Because cold water is dense and it also sinks, so it goes down." accuracy="contradictory">
+      <facetEntailment facetID="WA_30b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f2" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_30b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_30b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f7" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.30b.634.1" answerText="Because when water freezes it turns into ice. And it is cold." accuracy="irrelevant">
+      <facetEntailment facetID="WA_30b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_30b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_30b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_30b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f7" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.30b.640.1" answerText="Because it expand and the water level goes up." accuracy="correct">
+      <facetEntailment facetID="WA_30b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f7" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.30b.643.1" answerText="The water could not go down because it freeze and it could not go down either." accuracy="irrelevant">
+      <facetEntailment facetID="WA_30b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_30b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_30b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_30b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f7" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.30b.646.1" answerText="Because when water was frozen it could not move." accuracy="contradictory">
+      <facetEntailment facetID="WA_30b_f1" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_30b_f2" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_30b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f5" label="Contra-Infr"/>
+      <facetEntailment facetID="WA_30b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f7" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.30b.647.1" answerText="Because the water soaked through the clay a couple of times. It went down a little." accuracy="contradictory">
+      <facetEntailment facetID="WA_30b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f2" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_30b_f3" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f4" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_30b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f7" label="Assumed"/>
+      <facetEntailment facetID="WA_30b_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.30b.648.1" answerText="When ice froze it expanded and went up." accuracy="correct">
+      <facetEntailment facetID="WA_30b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f7" label="Expressed"/>
+      <facetEntailment facetID="WA_30b_f8" label="Expressed"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

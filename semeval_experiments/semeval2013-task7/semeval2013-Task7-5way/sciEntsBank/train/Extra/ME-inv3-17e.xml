@@ -1,0 +1,283 @@
+<?xml version="1.0"?>
+<question id="ME_17e" module="ME">
+  <questionText>Denise made a circuit to light a bulb or run a motor. She used a special switch. Below is the schematic diagram of her circuit. The switch is inside the dotted box. Can she run both the light and the motor at the same time? Why or why not?</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="ME_17e-a1" text="No. Only one circuit can be complete at a time.">
+      <tokens>
+        <token id="ME_17e_ra1">No</token>
+        <token id="ME_17e_ra2">.</token>
+        <token id="ME_17e_ra3">Only</token>
+        <token id="ME_17e_ra4">one</token>
+        <token id="ME_17e_ra5">circuit</token>
+        <token id="ME_17e_ra6">can</token>
+        <token id="ME_17e_ra7">be</token>
+        <token id="ME_17e_ra8">complete</token>
+        <token id="ME_17e_ra9">at</token>
+        <token id="ME_17e_ra10">a</token>
+        <token id="ME_17e_ra11">time</token>
+        <token id="ME_17e_ra12">.</token>
+      </tokens>
+      <facets>
+        <facet id="ME_17e_f1" govNum="ME_17e_ra0" modNum="ME_17e_ra1" reltn="Root" govText="root" modText="No"/>
+        <facet id="ME_17e_f2" govNum="ME_17e_ra5" modNum="ME_17e_ra4" reltn="NMod" govText="circuit" modText="one"/>
+        <facet id="ME_17e_f3" govNum="ME_17e_ra4" modNum="ME_17e_ra3" reltn="AMod" govText="one" modText="Only"/>
+        <facet id="ME_17e_f4" govNum="ME_17e_ra8" modNum="ME_17e_ra5" reltn="Theme" govText="complete" modText="circuit"/>
+        <facet id="ME_17e_f5" govNum="ME_17e_ra8" modNum="ME_17e_ra11" reltn="Time_at" govText="complete" modText="time"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="ME.17e.101.1" answerText="Yes because there is enough power for it to work but it will be bright and it is a parallel circuit." accuracy="contradictory">
+      <facetEntailment facetID="ME_17e_f1" label="Contra-Expr"/>
+      <facetEntailment facetID="ME_17e_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ME_17e_f3" label="Contra-Infr"/>
+      <facetEntailment facetID="ME_17e_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_17e_f5" label="Contra-Infr"/>
+    </studentAnswer>
+    <studentAnswer id="ME.17e.102.1" answerText="No she cannot. Why is because she only has one switch and she has to have 2 for both to work." accuracy="correct">
+      <facetEntailment facetID="ME_17e_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_17e_f2" label="Inferred"/>
+      <facetEntailment facetID="ME_17e_f3" label="Inferred"/>
+      <facetEntailment facetID="ME_17e_f4" label="Inferred"/>
+      <facetEntailment facetID="ME_17e_f5" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="ME.17e.105.1" answerText="No. She cannot because the switch has to be in front of the negative sign." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="ME_17e_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_17e_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ME_17e_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_17e_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_17e_f5" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.17e.107.1" answerText="No, because the switch can only complete one circuit at a time." accuracy="correct">
+      <facetEntailment facetID="ME_17e_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_17e_f2" label="Expressed"/>
+      <facetEntailment facetID="ME_17e_f3" label="Expressed"/>
+      <facetEntailment facetID="ME_17e_f4" label="Expressed"/>
+      <facetEntailment facetID="ME_17e_f5" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.17e.108.1" answerText="Yes. Because it is a parallel circuit and they can both run well." accuracy="contradictory">
+      <facetEntailment facetID="ME_17e_f1" label="Contra-Expr"/>
+      <facetEntailment facetID="ME_17e_f2" label="Contra-Infr"/>
+      <facetEntailment facetID="ME_17e_f3" label="Contra-Infr"/>
+      <facetEntailment facetID="ME_17e_f4" label="Contra-Infr"/>
+      <facetEntailment facetID="ME_17e_f5" label="Contra-Infr"/>
+    </studentAnswer>
+    <studentAnswer id="ME.17e.115.1" answerText="No. The switch can only be hooked on one side at one time, unless you scooted the wires to the middle and hooked them up together." accuracy="correct">
+      <facetEntailment facetID="ME_17e_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_17e_f2" label="Inferred"/>
+      <facetEntailment facetID="ME_17e_f3" label="Inferred"/>
+      <facetEntailment facetID="ME_17e_f4" label="Inferred"/>
+      <facetEntailment facetID="ME_17e_f5" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="ME.17e.118.1" answerText="No, It is not a complete circuit." accuracy="correct">
+      <facetEntailment facetID="ME_17e_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_17e_f2" label="Inferred"/>
+      <facetEntailment facetID="ME_17e_f3" label="Inferred"/>
+      <facetEntailment facetID="ME_17e_f4" label="Inferred"/>
+      <facetEntailment facetID="ME_17e_f5" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="ME.17e.119.1" answerText="No because she need a wire and a switch." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="ME_17e_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_17e_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ME_17e_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_17e_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_17e_f5" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.17e.120.1" answerText="No, she cannot because the switch can only go one way and make a complete circuit." accuracy="correct">
+      <facetEntailment facetID="ME_17e_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_17e_f2" label="Expressed"/>
+      <facetEntailment facetID="ME_17e_f3" label="Expressed"/>
+      <facetEntailment facetID="ME_17e_f4" label="Expressed"/>
+      <facetEntailment facetID="ME_17e_f5" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="ME.17e.121.1" answerText="No! The switch cannot be left and right at the same time." accuracy="correct">
+      <facetEntailment facetID="ME_17e_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_17e_f2" label="Inferred"/>
+      <facetEntailment facetID="ME_17e_f3" label="Inferred"/>
+      <facetEntailment facetID="ME_17e_f4" label="Inferred"/>
+      <facetEntailment facetID="ME_17e_f5" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="ME.17e.123.1" answerText="No she cannot. She would have to turn the switch like this sideways Because there is a gap if you turn it left or right." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="ME_17e_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_17e_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ME_17e_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_17e_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_17e_f5" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.17e.141.1" answerText="No because the negative on the side for the bulb might have to have the energy from the motor going in and it will go back and forth." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="ME_17e_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_17e_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ME_17e_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_17e_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_17e_f5" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.17e.142.1" answerText="No because the light bulb will flicker and the motor will keep going until she turns the switch off." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="ME_17e_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_17e_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ME_17e_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_17e_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_17e_f5" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.17e.143.1" answerText="No because it cannot make a complete circuit going each way." accuracy="correct">
+      <facetEntailment facetID="ME_17e_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_17e_f2" label="Inferred"/>
+      <facetEntailment facetID="ME_17e_f3" label="Inferred"/>
+      <facetEntailment facetID="ME_17e_f4" label="Expressed"/>
+      <facetEntailment facetID="ME_17e_f5" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.17e.144.1" answerText="Yes because the motor is sending the energy back to the light bulb and back." accuracy="contradictory">
+      <facetEntailment facetID="ME_17e_f1" label="Contra-Expr"/>
+      <facetEntailment facetID="ME_17e_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ME_17e_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_17e_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_17e_f5" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.17e.152.1" answerText="Yes. She could put 2 wires on the switch to the other wires." accuracy="contradictory">
+      <facetEntailment facetID="ME_17e_f1" label="Contra-Expr"/>
+      <facetEntailment facetID="ME_17e_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ME_17e_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_17e_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_17e_f5" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.17e.173.1" answerText="Yes because the battery has enough power to run both unless the switch is on." accuracy="contradictory">
+      <facetEntailment facetID="ME_17e_f1" label="Contra-Expr"/>
+      <facetEntailment facetID="ME_17e_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ME_17e_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_17e_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_17e_f5" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.17e.176.1" answerText="No because the switch cannot go 2 ways at once." accuracy="correct">
+      <facetEntailment facetID="ME_17e_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_17e_f2" label="Inferred"/>
+      <facetEntailment facetID="ME_17e_f3" label="Inferred"/>
+      <facetEntailment facetID="ME_17e_f4" label="Inferred"/>
+      <facetEntailment facetID="ME_17e_f5" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="ME.17e.178.1" answerText="Yes. But all will have to be together." accuracy="contradictory">
+      <facetEntailment facetID="ME_17e_f1" label="Contra-Expr"/>
+      <facetEntailment facetID="ME_17e_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ME_17e_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_17e_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_17e_f5" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.17e.179.1" answerText="No she cannot because she only has one switch." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="ME_17e_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_17e_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ME_17e_f3" label="Expressed"/>
+      <facetEntailment facetID="ME_17e_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_17e_f5" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.17e.180.1" answerText="Yes because all she has to do is put the motor and the light bulb on the same wire and put the switch in the middle." accuracy="contradictory">
+      <facetEntailment facetID="ME_17e_f1" label="Contra-Expr"/>
+      <facetEntailment facetID="ME_17e_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ME_17e_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_17e_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_17e_f5" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.17e.181.1" answerText="She can do it but it would have to be a parallel circuit." accuracy="contradictory">
+      <facetEntailment facetID="ME_17e_f1" label="Contra-Expr"/>
+      <facetEntailment facetID="ME_17e_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ME_17e_f3" label="Contra-Infr"/>
+      <facetEntailment facetID="ME_17e_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_17e_f5" label="Contra-Infr"/>
+    </studentAnswer>
+    <studentAnswer id="ME.17e.183.1" answerText="Yes, we all tried it in class and it worked." accuracy="contradictory">
+      <facetEntailment facetID="ME_17e_f1" label="Contra-Expr"/>
+      <facetEntailment facetID="ME_17e_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ME_17e_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_17e_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_17e_f5" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.17e.191.1" answerText="Yes, because the wires are connected to both items." accuracy="contradictory">
+      <facetEntailment facetID="ME_17e_f1" label="Contra-Expr"/>
+      <facetEntailment facetID="ME_17e_f2" label="Contra-Infr"/>
+      <facetEntailment facetID="ME_17e_f3" label="Contra-Infr"/>
+      <facetEntailment facetID="ME_17e_f4" label="Inferred"/>
+      <facetEntailment facetID="ME_17e_f5" label="Contra-Infr"/>
+    </studentAnswer>
+    <studentAnswer id="ME.17e.192.1" answerText="Yes she can because the flow will go all the way to the source." accuracy="contradictory">
+      <facetEntailment facetID="ME_17e_f1" label="Contra-Expr"/>
+      <facetEntailment facetID="ME_17e_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ME_17e_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_17e_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_17e_f5" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.17e.193.1" answerText="Well she could try the light would not work as strong as the motor." accuracy="contradictory">
+      <facetEntailment facetID="ME_17e_f1" label="Contra-Infr"/>
+      <facetEntailment facetID="ME_17e_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ME_17e_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_17e_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_17e_f5" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.17e.206.1" answerText="No she would need 2 switches." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="ME_17e_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_17e_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ME_17e_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_17e_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_17e_f5" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.17e.208.1" answerText="No, she would have to have 2 switches." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="ME_17e_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_17e_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ME_17e_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_17e_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_17e_f5" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.17e.214.1" answerText="Yes, because the flow of electricity will go to the light and then to the motor." accuracy="contradictory">
+      <facetEntailment facetID="ME_17e_f1" label="Contra-Expr"/>
+      <facetEntailment facetID="ME_17e_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ME_17e_f3" label="Contra-Infr"/>
+      <facetEntailment facetID="ME_17e_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_17e_f5" label="Contra-Infr"/>
+    </studentAnswer>
+    <studentAnswer id="ME.17e.216.1" answerText="No because she can only turn the switch to the light bulb or the motor." accuracy="correct">
+      <facetEntailment facetID="ME_17e_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_17e_f2" label="Inferred"/>
+      <facetEntailment facetID="ME_17e_f3" label="Inferred"/>
+      <facetEntailment facetID="ME_17e_f4" label="Inferred"/>
+      <facetEntailment facetID="ME_17e_f5" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="ME.17e.245.1" answerText="No, because there is not going to be a closed circuit on both sides." accuracy="correct">
+      <facetEntailment facetID="ME_17e_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_17e_f2" label="Inferred"/>
+      <facetEntailment facetID="ME_17e_f3" label="Inferred"/>
+      <facetEntailment facetID="ME_17e_f4" label="Expressed"/>
+      <facetEntailment facetID="ME_17e_f5" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="ME.17e.254.1" answerText="No Because she can turn one on at a time." accuracy="correct">
+      <facetEntailment facetID="ME_17e_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_17e_f2" label="Inferred"/>
+      <facetEntailment facetID="ME_17e_f3" label="Inferred"/>
+      <facetEntailment facetID="ME_17e_f4" label="Inferred"/>
+      <facetEntailment facetID="ME_17e_f5" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="ME.17e.256.1" answerText="No because the D-cell in the middle." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="ME_17e_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_17e_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ME_17e_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_17e_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_17e_f5" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.17e.291.1" answerText="Yes." accuracy="contradictory">
+      <facetEntailment facetID="ME_17e_f1" label="Contra-Expr"/>
+      <facetEntailment facetID="ME_17e_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ME_17e_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_17e_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_17e_f5" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.17e.313.1" answerText="Yes she can. Because that is how you have to do it." accuracy="contradictory">
+      <facetEntailment facetID="ME_17e_f1" label="Contra-Expr"/>
+      <facetEntailment facetID="ME_17e_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ME_17e_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_17e_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_17e_f5" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.17e.328.1" answerText="She can run both at the same time because, if it is going to the negative and to the positive and all the components are set up correctly in the right way it will work." accuracy="contradictory">
+      <facetEntailment facetID="ME_17e_f1" label="Contra-Expr"/>
+      <facetEntailment facetID="ME_17e_f2" label="Contra-Infr"/>
+      <facetEntailment facetID="ME_17e_f3" label="Contra-Infr"/>
+      <facetEntailment facetID="ME_17e_f4" label="Inferred"/>
+      <facetEntailment facetID="ME_17e_f5" label="Contra-Infr"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

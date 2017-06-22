@@ -1,0 +1,402 @@
+<?xml version="1.0"?>
+<question id="EM_43b" module="EM">
+  <questionText>If Phil, a geologist, wants to test for calcite while in the field, what should he bring with him? (an acid such as vinegar). Describe what Phil should do to test for calcite and what he would observe.</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="EM_43b-a1" text="Put acid on a rock. If the acid fizzes, Phil would know that the rock has calcite.">
+      <tokens>
+        <token id="EM_43b_ra1">Put</token>
+        <token id="EM_43b_ra2">acid</token>
+        <token id="EM_43b_ra3">on</token>
+        <token id="EM_43b_ra4">a</token>
+        <token id="EM_43b_ra5">rock</token>
+        <token id="EM_43b_ra6">.</token>
+        <token id="EM_43b_ra7">If</token>
+        <token id="EM_43b_ra8">the</token>
+        <token id="EM_43b_ra9">acid</token>
+        <token id="EM_43b_ra10">fizzes</token>
+        <token id="EM_43b_ra11">,</token>
+        <token id="EM_43b_ra12">Phil</token>
+        <token id="EM_43b_ra13">would</token>
+        <token id="EM_43b_ra14">know</token>
+        <token id="EM_43b_ra15">that</token>
+        <token id="EM_43b_ra16">the</token>
+        <token id="EM_43b_ra17">rock</token>
+        <token id="EM_43b_ra18">has</token>
+        <token id="EM_43b_ra19">calcite</token>
+        <token id="EM_43b_ra20">.</token>
+      </tokens>
+      <facets>
+        <facet id="EM_43b_f1" govNum="EM_43b_ra1" modNum="EM_43b_ra2" reltn="Theme" govText="Put" modText="acid"/>
+        <facet id="EM_43b_f2" govNum="EM_43b_ra1" modNum="EM_43b_ra5" reltn="Destination_on" govText="Put" modText="rock"/>
+        <facet id="EM_43b_f3" govNum="EM_43b_ra10" modNum="EM_43b_ra9" reltn="Theme" govText="fizzes" modText="acid"/>
+        <facet id="EM_43b_f4" govNum="EM_43b_ra14" modNum="EM_43b_ra12" reltn="Agent" govText="know" isAssumed="true" modText="Phil"/>
+        <facet id="EM_43b_f5" govNum="EM_43b_ra14" modNum="EM_43b_ra18" reltn="Theme_that" govText="know" isAssumed="true" modText="has" childProp2Facet1="EM_43b_f5"/>
+        <facet id="EM_43b_f6" govNum="EM_43b_ra17" modNum="EM_43b_ra19" reltn="Have" govText="rock" isAssumed="true" modText="calcite"/>
+        <facet id="EM_43b_f7" govNum="EM_43b_ra14" modNum="EM_43b_ra10" reltn="Cause_if" childProp1Facet1="EM_43b_f5" govText="know" isAssumed="true" childProp1Facet2="EM_43b_f6" modText="fizzes" childProp2Facet1="EM_43b_f3"/>
+        <facet id="EM_43b_f8" govNum="EM_43b_ra10" modNum="EM_43b_ra18" reltn="Cause_if" childProp1Facet1="EM_43b_f3" govText="fizzes" isAssumed="true" modText="has" childProp2Facet1="EM_43b_f6"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="EM.43b.384.1" answerText="He should put a rock and vinegar into a vial and if the rock has calcite, the water will turn murky." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EM_43b_f1" label="Expressed"/>
+      <facetEntailment facetID="EM_43b_f2" label="Expressed"/>
+      <facetEntailment facetID="EM_43b_f3" label="Diff-Arg"/>
+      <facetEntailment facetID="EM_43b_f4" label="Assumed"/>
+      <facetEntailment facetID="EM_43b_f5" label="Assumed"/>
+      <facetEntailment facetID="EM_43b_f6" label="Expressed"/>
+      <facetEntailment facetID="EM_43b_f7" label="Assumed"/>
+      <facetEntailment facetID="EM_43b_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.43b.385.1" answerText="Cold pour in cup." accuracy="irrelevant">
+      <facetEntailment facetID="EM_43b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="EM_43b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="EM_43b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="EM_43b_f4" label="Assumed"/>
+      <facetEntailment facetID="EM_43b_f5" label="Assumed"/>
+      <facetEntailment facetID="EM_43b_f6" label="Assumed"/>
+      <facetEntailment facetID="EM_43b_f7" label="Assumed"/>
+      <facetEntailment facetID="EM_43b_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.43b.387.1" answerText="Put part of the broken rock in the cup. Then add vinegar. If it starts bubbling a lot, it has calcite." accuracy="correct">
+      <facetEntailment facetID="EM_43b_f1" label="Expressed"/>
+      <facetEntailment facetID="EM_43b_f2" label="Expressed"/>
+      <facetEntailment facetID="EM_43b_f3" label="Expressed"/>
+      <facetEntailment facetID="EM_43b_f4" label="Assumed"/>
+      <facetEntailment facetID="EM_43b_f5" label="Assumed"/>
+      <facetEntailment facetID="EM_43b_f6" label="Expressed"/>
+      <facetEntailment facetID="EM_43b_f7" label="Assumed"/>
+      <facetEntailment facetID="EM_43b_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.43b.388.1" answerText="He should put a mock rock in a cup of vinegar, and if there is bubbles there is calcite." accuracy="correct">
+      <facetEntailment facetID="EM_43b_f1" label="Expressed"/>
+      <facetEntailment facetID="EM_43b_f2" label="Expressed"/>
+      <facetEntailment facetID="EM_43b_f3" label="Expressed"/>
+      <facetEntailment facetID="EM_43b_f4" label="Assumed"/>
+      <facetEntailment facetID="EM_43b_f5" label="Assumed"/>
+      <facetEntailment facetID="EM_43b_f6" label="Expressed"/>
+      <facetEntailment facetID="EM_43b_f7" label="Assumed"/>
+      <facetEntailment facetID="EM_43b_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.43b.391.1" answerText="Put the water in the vial and put the calcite in, if the water starts getting murky and bubbles float to the top there is calcite." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EM_43b_f1" label="Diff-Arg"/>
+      <facetEntailment facetID="EM_43b_f2" label="Expressed"/>
+      <facetEntailment facetID="EM_43b_f3" label="Diff-Arg"/>
+      <facetEntailment facetID="EM_43b_f4" label="Assumed"/>
+      <facetEntailment facetID="EM_43b_f5" label="Assumed"/>
+      <facetEntailment facetID="EM_43b_f6" label="Expressed"/>
+      <facetEntailment facetID="EM_43b_f7" label="Assumed"/>
+      <facetEntailment facetID="EM_43b_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.43b.392.1" answerText="Phil should first put the rock in a bowl of vinegar. If it bubbles a lot it is probably calcite. Next if he is still not sure he should pour the rock and vinegar into a dish and let it evaporate. He should look for needle like markings." accuracy="correct">
+      <facetEntailment facetID="EM_43b_f1" label="Expressed"/>
+      <facetEntailment facetID="EM_43b_f2" label="Expressed"/>
+      <facetEntailment facetID="EM_43b_f3" label="Expressed"/>
+      <facetEntailment facetID="EM_43b_f4" label="Assumed"/>
+      <facetEntailment facetID="EM_43b_f5" label="Assumed"/>
+      <facetEntailment facetID="EM_43b_f6" label="Expressed"/>
+      <facetEntailment facetID="EM_43b_f7" label="Assumed"/>
+      <facetEntailment facetID="EM_43b_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.43b.393.1" answerText="Phil should find a rock he thinks has calcite, and put it in a vial with vinegar in it. Then after a while he should pour the vinegar into the shallow dish. After that Phil should let it evaporate. Then Phil should look at what is inside the dish. If it has long, white, needles, then there probably is calcite in that rock." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EM_43b_f1" label="Expressed"/>
+      <facetEntailment facetID="EM_43b_f2" label="Expressed"/>
+      <facetEntailment facetID="EM_43b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="EM_43b_f4" label="Assumed"/>
+      <facetEntailment facetID="EM_43b_f5" label="Assumed"/>
+      <facetEntailment facetID="EM_43b_f6" label="Expressed"/>
+      <facetEntailment facetID="EM_43b_f7" label="Assumed"/>
+      <facetEntailment facetID="EM_43b_f8" label="Diff-Arg"/>
+    </studentAnswer>
+    <studentAnswer id="EM.43b.395.1" answerText="First find calcite put it in a vial. Second put vinegar in and let it sit. Third pour out the vinegar." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EM_43b_f1" label="Expressed"/>
+      <facetEntailment facetID="EM_43b_f2" label="Expressed"/>
+      <facetEntailment facetID="EM_43b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="EM_43b_f4" label="Assumed"/>
+      <facetEntailment facetID="EM_43b_f5" label="Assumed"/>
+      <facetEntailment facetID="EM_43b_f6" label="Assumed"/>
+      <facetEntailment facetID="EM_43b_f7" label="Assumed"/>
+      <facetEntailment facetID="EM_43b_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.43b.401.1" answerText="He should put the rock or mineral in a cup and pour vinegar and if it bubble then it calcite." accuracy="correct">
+      <facetEntailment facetID="EM_43b_f1" label="Expressed"/>
+      <facetEntailment facetID="EM_43b_f2" label="Expressed"/>
+      <facetEntailment facetID="EM_43b_f3" label="Expressed"/>
+      <facetEntailment facetID="EM_43b_f4" label="Assumed"/>
+      <facetEntailment facetID="EM_43b_f5" label="Assumed"/>
+      <facetEntailment facetID="EM_43b_f6" label="Expressed"/>
+      <facetEntailment facetID="EM_43b_f7" label="Assumed"/>
+      <facetEntailment facetID="EM_43b_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.43b.404.1" answerText="Because vinegar is cold acid is very into now." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EM_43b_f1" label="Inferred"/>
+      <facetEntailment facetID="EM_43b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="EM_43b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="EM_43b_f4" label="Assumed"/>
+      <facetEntailment facetID="EM_43b_f5" label="Assumed"/>
+      <facetEntailment facetID="EM_43b_f6" label="Assumed"/>
+      <facetEntailment facetID="EM_43b_f7" label="Assumed"/>
+      <facetEntailment facetID="EM_43b_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.43b.408.1" answerText="Phil should put the rock in the vial. Then put vinegar in then look for a lot of bubble then put in cold acid in to wait for a few days." accuracy="correct">
+      <facetEntailment facetID="EM_43b_f1" label="Expressed"/>
+      <facetEntailment facetID="EM_43b_f2" label="Expressed"/>
+      <facetEntailment facetID="EM_43b_f3" label="Expressed"/>
+      <facetEntailment facetID="EM_43b_f4" label="Assumed"/>
+      <facetEntailment facetID="EM_43b_f5" label="Assumed"/>
+      <facetEntailment facetID="EM_43b_f6" label="Assumed"/>
+      <facetEntailment facetID="EM_43b_f7" label="Assumed"/>
+      <facetEntailment facetID="EM_43b_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.43b.425.1" answerText="He should put it in a vial with vinegar and then drop only the vinegar on later and when it is done there should be white crystals." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EM_43b_f1" label="Expressed"/>
+      <facetEntailment facetID="EM_43b_f2" label="Expressed"/>
+      <facetEntailment facetID="EM_43b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="EM_43b_f4" label="Assumed"/>
+      <facetEntailment facetID="EM_43b_f5" label="Assumed"/>
+      <facetEntailment facetID="EM_43b_f6" label="Assumed"/>
+      <facetEntailment facetID="EM_43b_f7" label="Assumed"/>
+      <facetEntailment facetID="EM_43b_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.43b.430.1" answerText="He would observe the calcite. Look for calcite in rocks. And then when you think you found it put it in the water." accuracy="irrelevant">
+      <facetEntailment facetID="EM_43b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="EM_43b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="EM_43b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="EM_43b_f4" label="Assumed"/>
+      <facetEntailment facetID="EM_43b_f5" label="Assumed"/>
+      <facetEntailment facetID="EM_43b_f6" label="Expressed"/>
+      <facetEntailment facetID="EM_43b_f7" label="Assumed"/>
+      <facetEntailment facetID="EM_43b_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.43b.431.1" answerText="He should put a rock in vinegar and look at it. If it bubbles it has calcite in it. That is what he should do." accuracy="correct">
+      <facetEntailment facetID="EM_43b_f1" label="Expressed"/>
+      <facetEntailment facetID="EM_43b_f2" label="Expressed"/>
+      <facetEntailment facetID="EM_43b_f3" label="Expressed"/>
+      <facetEntailment facetID="EM_43b_f4" label="Assumed"/>
+      <facetEntailment facetID="EM_43b_f5" label="Assumed"/>
+      <facetEntailment facetID="EM_43b_f6" label="Expressed"/>
+      <facetEntailment facetID="EM_43b_f7" label="Assumed"/>
+      <facetEntailment facetID="EM_43b_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.43b.434.1" answerText="Put the rocks in a vial and see if they bubble." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EM_43b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="EM_43b_f2" label="Inferred"/>
+      <facetEntailment facetID="EM_43b_f3" label="Inferred"/>
+      <facetEntailment facetID="EM_43b_f4" label="Assumed"/>
+      <facetEntailment facetID="EM_43b_f5" label="Assumed"/>
+      <facetEntailment facetID="EM_43b_f6" label="Assumed"/>
+      <facetEntailment facetID="EM_43b_f7" label="Assumed"/>
+      <facetEntailment facetID="EM_43b_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.43b.439.1" answerText="He should put vinegar in the vial and put then rock inside and look for bubbles." accuracy="correct">
+      <facetEntailment facetID="EM_43b_f1" label="Expressed"/>
+      <facetEntailment facetID="EM_43b_f2" label="Expressed"/>
+      <facetEntailment facetID="EM_43b_f3" label="Expressed"/>
+      <facetEntailment facetID="EM_43b_f4" label="Assumed"/>
+      <facetEntailment facetID="EM_43b_f5" label="Assumed"/>
+      <facetEntailment facetID="EM_43b_f6" label="Assumed"/>
+      <facetEntailment facetID="EM_43b_f7" label="Assumed"/>
+      <facetEntailment facetID="EM_43b_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.43b.444.1" answerText="Phil should put the rock in the tube. Then put the vinegar in the tube cover the rocks and it should bubble." accuracy="correct">
+      <facetEntailment facetID="EM_43b_f1" label="Expressed"/>
+      <facetEntailment facetID="EM_43b_f2" label="Expressed"/>
+      <facetEntailment facetID="EM_43b_f3" label="Expressed"/>
+      <facetEntailment facetID="EM_43b_f4" label="Assumed"/>
+      <facetEntailment facetID="EM_43b_f5" label="Assumed"/>
+      <facetEntailment facetID="EM_43b_f6" label="Assumed"/>
+      <facetEntailment facetID="EM_43b_f7" label="Assumed"/>
+      <facetEntailment facetID="EM_43b_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.43b.487.1" answerText="If he has a vial then he should get the rock or mineral in the vial and pour vinegar in the vial to see if he has vials." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EM_43b_f1" label="Expressed"/>
+      <facetEntailment facetID="EM_43b_f2" label="Expressed"/>
+      <facetEntailment facetID="EM_43b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="EM_43b_f4" label="Expressed"/>
+      <facetEntailment facetID="EM_43b_f5" label="Expressed"/>
+      <facetEntailment facetID="EM_43b_f6" label="Diff-Arg"/>
+      <facetEntailment facetID="EM_43b_f7" label="Assumed"/>
+      <facetEntailment facetID="EM_43b_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.43b.489.1" answerText="Put some vinegar in a vial but first put the rock inside then you will see bubbles going so so fast and you have to wait about 2 minutes and you will see it." accuracy="correct">
+      <facetEntailment facetID="EM_43b_f1" label="Expressed"/>
+      <facetEntailment facetID="EM_43b_f2" label="Expressed"/>
+      <facetEntailment facetID="EM_43b_f3" label="Expressed"/>
+      <facetEntailment facetID="EM_43b_f4" label="Assumed"/>
+      <facetEntailment facetID="EM_43b_f5" label="Assumed"/>
+      <facetEntailment facetID="EM_43b_f6" label="Assumed"/>
+      <facetEntailment facetID="EM_43b_f7" label="Assumed"/>
+      <facetEntailment facetID="EM_43b_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.43b.498.1" answerText="He should pour the acid on it, then if it has bubbles all over it is calcite." accuracy="correct">
+      <facetEntailment facetID="EM_43b_f1" label="Expressed"/>
+      <facetEntailment facetID="EM_43b_f2" label="Expressed"/>
+      <facetEntailment facetID="EM_43b_f3" label="Expressed"/>
+      <facetEntailment facetID="EM_43b_f4" label="Assumed"/>
+      <facetEntailment facetID="EM_43b_f5" label="Assumed"/>
+      <facetEntailment facetID="EM_43b_f6" label="Expressed"/>
+      <facetEntailment facetID="EM_43b_f7" label="Assumed"/>
+      <facetEntailment facetID="EM_43b_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.43b.499.1" answerText="Put the cold acid and wait for it react." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EM_43b_f1" label="Expressed"/>
+      <facetEntailment facetID="EM_43b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="EM_43b_f3" label="Inferred"/>
+      <facetEntailment facetID="EM_43b_f4" label="Assumed"/>
+      <facetEntailment facetID="EM_43b_f5" label="Assumed"/>
+      <facetEntailment facetID="EM_43b_f6" label="Assumed"/>
+      <facetEntailment facetID="EM_43b_f7" label="Assumed"/>
+      <facetEntailment facetID="EM_43b_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.43b.502.1" answerText="Get a rock and put it in a vial and pour acid into the vial. Wait a while and when a while is done look in the evaporating dish with your hand lens." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EM_43b_f1" label="Expressed"/>
+      <facetEntailment facetID="EM_43b_f2" label="Expressed"/>
+      <facetEntailment facetID="EM_43b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="EM_43b_f4" label="Assumed"/>
+      <facetEntailment facetID="EM_43b_f5" label="Assumed"/>
+      <facetEntailment facetID="EM_43b_f6" label="Assumed"/>
+      <facetEntailment facetID="EM_43b_f7" label="Assumed"/>
+      <facetEntailment facetID="EM_43b_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.43b.504.1" answerText="Phil should pour the cold acid on the rock and if it fizzes it has calcite in it." accuracy="correct">
+      <facetEntailment facetID="EM_43b_f1" label="Expressed"/>
+      <facetEntailment facetID="EM_43b_f2" label="Expressed"/>
+      <facetEntailment facetID="EM_43b_f3" label="Expressed"/>
+      <facetEntailment facetID="EM_43b_f4" label="Assumed"/>
+      <facetEntailment facetID="EM_43b_f5" label="Assumed"/>
+      <facetEntailment facetID="EM_43b_f6" label="Expressed"/>
+      <facetEntailment facetID="EM_43b_f7" label="Assumed"/>
+      <facetEntailment facetID="EM_43b_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.43b.521.1" answerText="The color and the want was like. And he can see the hot or cold. And measure and feel it all. And it is stuff." accuracy="irrelevant">
+      <facetEntailment facetID="EM_43b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="EM_43b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="EM_43b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="EM_43b_f4" label="Assumed"/>
+      <facetEntailment facetID="EM_43b_f5" label="Assumed"/>
+      <facetEntailment facetID="EM_43b_f6" label="Assumed"/>
+      <facetEntailment facetID="EM_43b_f7" label="Assumed"/>
+      <facetEntailment facetID="EM_43b_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.43b.557.1" answerText="He would observe that there are bubbles." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EM_43b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="EM_43b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="EM_43b_f3" label="Inferred"/>
+      <facetEntailment facetID="EM_43b_f4" label="Assumed"/>
+      <facetEntailment facetID="EM_43b_f5" label="Assumed"/>
+      <facetEntailment facetID="EM_43b_f6" label="Assumed"/>
+      <facetEntailment facetID="EM_43b_f7" label="Assumed"/>
+      <facetEntailment facetID="EM_43b_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.43b.564.1" answerText="Put the calcite in the vinegar and you will see bubbles." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EM_43b_f1" label="Expressed"/>
+      <facetEntailment facetID="EM_43b_f2" label="Diff-Arg"/>
+      <facetEntailment facetID="EM_43b_f3" label="Expressed"/>
+      <facetEntailment facetID="EM_43b_f4" label="Assumed"/>
+      <facetEntailment facetID="EM_43b_f5" label="Assumed"/>
+      <facetEntailment facetID="EM_43b_f6" label="Assumed"/>
+      <facetEntailment facetID="EM_43b_f7" label="Assumed"/>
+      <facetEntailment facetID="EM_43b_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.43b.592.1" answerText="Vinegar, gas, mineral, rock." accuracy="irrelevant">
+      <facetEntailment facetID="EM_43b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="EM_43b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="EM_43b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="EM_43b_f4" label="Assumed"/>
+      <facetEntailment facetID="EM_43b_f5" label="Assumed"/>
+      <facetEntailment facetID="EM_43b_f6" label="Assumed"/>
+      <facetEntailment facetID="EM_43b_f7" label="Assumed"/>
+      <facetEntailment facetID="EM_43b_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.43b.593.1" answerText="Because he should put the acid on the rock and see if it fizzes that means it is calcite." accuracy="correct">
+      <facetEntailment facetID="EM_43b_f1" label="Expressed"/>
+      <facetEntailment facetID="EM_43b_f2" label="Expressed"/>
+      <facetEntailment facetID="EM_43b_f3" label="Expressed"/>
+      <facetEntailment facetID="EM_43b_f4" label="Assumed"/>
+      <facetEntailment facetID="EM_43b_f5" label="Assumed"/>
+      <facetEntailment facetID="EM_43b_f6" label="Expressed"/>
+      <facetEntailment facetID="EM_43b_f7" label="Assumed"/>
+      <facetEntailment facetID="EM_43b_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.43b.602.1" answerText="He can do the vinegar test the evaporation test and the hardness test." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EM_43b_f1" label="Inferred"/>
+      <facetEntailment facetID="EM_43b_f2" label="Inferred"/>
+      <facetEntailment facetID="EM_43b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="EM_43b_f4" label="Assumed"/>
+      <facetEntailment facetID="EM_43b_f5" label="Assumed"/>
+      <facetEntailment facetID="EM_43b_f6" label="Assumed"/>
+      <facetEntailment facetID="EM_43b_f7" label="Assumed"/>
+      <facetEntailment facetID="EM_43b_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.43b.609.1" answerText="He should put the acid on the rock and observe for a reaction because calcite reacts with acid by making bubbles. So if the rock fizzes it has calcite in it." accuracy="correct">
+      <facetEntailment facetID="EM_43b_f1" label="Expressed"/>
+      <facetEntailment facetID="EM_43b_f2" label="Expressed"/>
+      <facetEntailment facetID="EM_43b_f3" label="Expressed"/>
+      <facetEntailment facetID="EM_43b_f4" label="Assumed"/>
+      <facetEntailment facetID="EM_43b_f5" label="Assumed"/>
+      <facetEntailment facetID="EM_43b_f6" label="Expressed"/>
+      <facetEntailment facetID="EM_43b_f7" label="Assumed"/>
+      <facetEntailment facetID="EM_43b_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.43b.611.1" answerText="That what calcite to when it is in vinegar." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EM_43b_f1" label="Inferred"/>
+      <facetEntailment facetID="EM_43b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="EM_43b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="EM_43b_f4" label="Assumed"/>
+      <facetEntailment facetID="EM_43b_f5" label="Assumed"/>
+      <facetEntailment facetID="EM_43b_f6" label="Assumed"/>
+      <facetEntailment facetID="EM_43b_f7" label="Assumed"/>
+      <facetEntailment facetID="EM_43b_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.43b.615.1" answerText="Put the rock in vinegar." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EM_43b_f1" label="Expressed"/>
+      <facetEntailment facetID="EM_43b_f2" label="Expressed"/>
+      <facetEntailment facetID="EM_43b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="EM_43b_f4" label="Assumed"/>
+      <facetEntailment facetID="EM_43b_f5" label="Assumed"/>
+      <facetEntailment facetID="EM_43b_f6" label="Assumed"/>
+      <facetEntailment facetID="EM_43b_f7" label="Assumed"/>
+      <facetEntailment facetID="EM_43b_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.43b.626.1" answerText="He would put the vinegar into a vial and put the rock in the vial and if it bubbles it is calcite." accuracy="correct">
+      <facetEntailment facetID="EM_43b_f1" label="Expressed"/>
+      <facetEntailment facetID="EM_43b_f2" label="Expressed"/>
+      <facetEntailment facetID="EM_43b_f3" label="Expressed"/>
+      <facetEntailment facetID="EM_43b_f4" label="Assumed"/>
+      <facetEntailment facetID="EM_43b_f5" label="Assumed"/>
+      <facetEntailment facetID="EM_43b_f6" label="Expressed"/>
+      <facetEntailment facetID="EM_43b_f7" label="Assumed"/>
+      <facetEntailment facetID="EM_43b_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.43b.629.1" answerText="If it bubbles it has calcite." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EM_43b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="EM_43b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="EM_43b_f3" label="Inferred"/>
+      <facetEntailment facetID="EM_43b_f4" label="Assumed"/>
+      <facetEntailment facetID="EM_43b_f5" label="Assumed"/>
+      <facetEntailment facetID="EM_43b_f6" label="Expressed"/>
+      <facetEntailment facetID="EM_43b_f7" label="Assumed"/>
+      <facetEntailment facetID="EM_43b_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.43b.634.1" answerText="If you put the rock in vinegar it should fizzle if it has calcite." accuracy="correct">
+      <facetEntailment facetID="EM_43b_f1" label="Expressed"/>
+      <facetEntailment facetID="EM_43b_f2" label="Expressed"/>
+      <facetEntailment facetID="EM_43b_f3" label="Expressed"/>
+      <facetEntailment facetID="EM_43b_f4" label="Assumed"/>
+      <facetEntailment facetID="EM_43b_f5" label="Assumed"/>
+      <facetEntailment facetID="EM_43b_f6" label="Expressed"/>
+      <facetEntailment facetID="EM_43b_f7" label="Assumed"/>
+      <facetEntailment facetID="EM_43b_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.43b.639.1" answerText="Put the rock in vinegar and see if it fills." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EM_43b_f1" label="Expressed"/>
+      <facetEntailment facetID="EM_43b_f2" label="Expressed"/>
+      <facetEntailment facetID="EM_43b_f3" label="Diff-Arg"/>
+      <facetEntailment facetID="EM_43b_f4" label="Assumed"/>
+      <facetEntailment facetID="EM_43b_f5" label="Assumed"/>
+      <facetEntailment facetID="EM_43b_f6" label="Assumed"/>
+      <facetEntailment facetID="EM_43b_f7" label="Assumed"/>
+      <facetEntailment facetID="EM_43b_f8" label="Assumed"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

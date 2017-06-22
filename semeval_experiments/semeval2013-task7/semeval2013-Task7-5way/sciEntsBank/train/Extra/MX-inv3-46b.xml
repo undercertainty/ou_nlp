@@ -1,0 +1,583 @@
+<?xml version="1.0"?>
+<question id="MX_46b" module="MX">
+  <questionText>Nigel made solutions in the bottles as shown below. Solution A was 2 spoons solute in 50 milliliters water and was clear with no material on the bottom. Solution B was 4 spoons solute in 100 milliliters water and was clear with no material on the bottom. Nigel took 50 milliliters of solution from bottle A and put it in cup A and 50 milliliters of solution from bottle B and put it into cup B. He put the cups on each side of the balance. Which picture shows what would happen? A is heavier than B, B is heavier than A, (A and B are the same weight). Explain your choice.</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="MX_46b-a1" text="The solutions have the same concentration (2 spoons in 50 milliliters is the same as 4 spoons in 100 milliliters) so the mass would also be the same.">
+      <tokens>
+        <token id="MX_46b_ra1">The</token>
+        <token id="MX_46b_ra2">solutions</token>
+        <token id="MX_46b_ra3">have</token>
+        <token id="MX_46b_ra4">the</token>
+        <token id="MX_46b_ra5">same</token>
+        <token id="MX_46b_ra6">concentration</token>
+        <token id="MX_46b_ra7">(</token>
+        <token id="MX_46b_ra8">2</token>
+        <token id="MX_46b_ra9">spoons</token>
+        <token id="MX_46b_ra10">in</token>
+        <token id="MX_46b_ra11">50</token>
+        <token id="MX_46b_ra12">milliliters</token>
+        <token id="MX_46b_ra13">is</token>
+        <token id="MX_46b_ra14">the</token>
+        <token id="MX_46b_ra15">same</token>
+        <token id="MX_46b_ra16">as</token>
+        <token id="MX_46b_ra17">4</token>
+        <token id="MX_46b_ra18">spoons</token>
+        <token id="MX_46b_ra19">in</token>
+        <token id="MX_46b_ra20">100</token>
+        <token id="MX_46b_ra21">milliliters</token>
+        <token id="MX_46b_ra22">)</token>
+        <token id="MX_46b_ra23">so</token>
+        <token id="MX_46b_ra24">the</token>
+        <token id="MX_46b_ra25">mass</token>
+        <token id="MX_46b_ra26">would</token>
+        <token id="MX_46b_ra27">also</token>
+        <token id="MX_46b_ra28">be</token>
+        <token id="MX_46b_ra29">the</token>
+        <token id="MX_46b_ra30">same</token>
+        <token id="MX_46b_ra31">.</token>
+      </tokens>
+      <facets>
+        <facet id="MX_46b_f1" govNum="MX_46b_ra2" modNum="MX_46b_ra6" reltn="Have" govText="solutions" modText="concentration"/>
+        <facet id="MX_46b_f2" govNum="MX_46b_ra6" modNum="MX_46b_ra5" reltn="NMod" govText="concentration" modText="same"/>
+        <facet id="MX_46b_f3" govNum="MX_46b_ra8" modNum="MX_46b_ra9" reltn="NMod" govText="2" isAssumed="true" modText="spoons"/>
+        <facet id="MX_46b_f4" govNum="MX_46b_ra8" modNum="MX_46b_ra11" reltn="Location_in" govText="2" isAssumed="true" modText="50"/>
+        <facet id="MX_46b_f5" govNum="MX_46b_ra11" modNum="MX_46b_ra12" reltn="NMod" govText="50" isAssumed="true" modText="milliliters"/>
+        <facet id="MX_46b_f6" govNum="MX_46b_ra8" modNum="MX_46b_ra15" reltn="Be" govText="2" modText="same"/>
+        <facet id="MX_46b_f7" govNum="MX_46b_ra15" modNum="MX_46b_ra17" reltn="AMod_as" govText="same" modText="4"/>
+        <facet id="MX_46b_f8" govNum="MX_46b_ra17" modNum="MX_46b_ra18" reltn="NMod" govText="4" isAssumed="true" modText="spoons"/>
+        <facet id="MX_46b_f9" govNum="MX_46b_ra17" modNum="MX_46b_ra20" reltn="Location_in" govText="4" isAssumed="true" modText="100"/>
+        <facet id="MX_46b_f10" govNum="MX_46b_ra20" modNum="MX_46b_ra21" reltn="NMod" govText="100" isAssumed="true" modText="milliliters"/>
+        <facet id="MX_46b_f11" govNum="MX_46b_ra25" modNum="MX_46b_ra30" reltn="Be" govText="mass" modText="same"/>
+        <facet id="MX_46b_f12" govNum="MX_46b_ra28" modNum="MX_46b_ra3" reltn="Cause_so" childProp2Facet2="MX_46b_f2" childProp1Facet1="MX_46b_f11" govText="be" modText="have" childProp2Facet1="MX_46b_f1"/>
+        <facet id="MX_46b_f13" govNum="MX_46b_ra28" modNum="MX_46b_ra13" reltn="Cause_so" childProp2Facet2="MX_46b_f7" childProp1Facet1="MX_46b_f11" govText="be" modText="is" childProp2Facet1="MX_46b_f6"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="MX.46b.386.1" answerText="B has more solute than A does therefore B will weigh more since the solute is equally spread." accuracy="contradictory">
+      <facetEntailment facetID="MX_46b_f1" label="Inferred"/>
+      <facetEntailment facetID="MX_46b_f2" label="Contra-Infr"/>
+      <facetEntailment facetID="MX_46b_f3" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f4" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f5" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="MX_46b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="MX_46b_f8" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f9" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f10" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f11" label="Contra-Expr"/>
+      <facetEntailment facetID="MX_46b_f12" label="Unaddressed"/>
+      <facetEntailment facetID="MX_46b_f13" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.46b.391.1" answerText="They are the same amount of water different in spoons. That is why B weighs more because of spoons." accuracy="contradictory">
+      <facetEntailment facetID="MX_46b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="MX_46b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MX_46b_f3" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f4" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f5" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="MX_46b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="MX_46b_f8" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f9" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f10" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f11" label="Contra-Expr"/>
+      <facetEntailment facetID="MX_46b_f12" label="Unaddressed"/>
+      <facetEntailment facetID="MX_46b_f13" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.46b.425.1" answerText="Because you would have to take 50 milliliters of water out of cup B or else cup B would be heavier. So it would more fair." accuracy="contradictory">
+      <facetEntailment facetID="MX_46b_f1" label="Inferred"/>
+      <facetEntailment facetID="MX_46b_f2" label="Inferred"/>
+      <facetEntailment facetID="MX_46b_f3" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f4" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f5" label="Expressed"/>
+      <facetEntailment facetID="MX_46b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="MX_46b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="MX_46b_f8" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f9" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f10" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f11" label="Contra-Infr"/>
+      <facetEntailment facetID="MX_46b_f12" label="Inferred"/>
+      <facetEntailment facetID="MX_46b_f13" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.46b.429.1" answerText="I chose cup A because it seems more concentrated." accuracy="contradictory">
+      <facetEntailment facetID="MX_46b_f1" label="Expressed"/>
+      <facetEntailment facetID="MX_46b_f2" label="Contra-Expr"/>
+      <facetEntailment facetID="MX_46b_f3" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f4" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f5" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="MX_46b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="MX_46b_f8" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f9" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f10" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f11" label="Contra-Infr"/>
+      <facetEntailment facetID="MX_46b_f12" label="Contra-Infr"/>
+      <facetEntailment facetID="MX_46b_f13" label="Contra-Infr"/>
+    </studentAnswer>
+    <studentAnswer id="MX.46b.437.1" answerText="Because he pour only 50 milliliters of solution in each cup." accuracy="irrelevant">
+      <facetEntailment facetID="MX_46b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="MX_46b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MX_46b_f3" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f4" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f5" label="Expressed"/>
+      <facetEntailment facetID="MX_46b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="MX_46b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="MX_46b_f8" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f9" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f10" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f11" label="Unaddressed"/>
+      <facetEntailment facetID="MX_46b_f12" label="Unaddressed"/>
+      <facetEntailment facetID="MX_46b_f13" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.46b.439.1" answerText="Because B is the double of A." accuracy="irrelevant">
+      <facetEntailment facetID="MX_46b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="MX_46b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MX_46b_f3" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f4" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f5" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="MX_46b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="MX_46b_f8" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f9" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f10" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f11" label="Unaddressed"/>
+      <facetEntailment facetID="MX_46b_f12" label="Unaddressed"/>
+      <facetEntailment facetID="MX_46b_f13" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.46b.457.1" answerText="Because cup B has more spoons of the solute and has more water." accuracy="irrelevant">
+      <facetEntailment facetID="MX_46b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="MX_46b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MX_46b_f3" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f4" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f5" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="MX_46b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="MX_46b_f8" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f9" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f10" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f11" label="Unaddressed"/>
+      <facetEntailment facetID="MX_46b_f12" label="Unaddressed"/>
+      <facetEntailment facetID="MX_46b_f13" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.46b.464.1" answerText="Because if you just took 50 milliliters of water out of each, they would be equal. I got this one wrong." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="MX_46b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="MX_46b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MX_46b_f3" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f4" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f5" label="Expressed"/>
+      <facetEntailment facetID="MX_46b_f6" label="Inferred"/>
+      <facetEntailment facetID="MX_46b_f7" label="Inferred"/>
+      <facetEntailment facetID="MX_46b_f8" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f9" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f10" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f11" label="Inferred"/>
+      <facetEntailment facetID="MX_46b_f12" label="Unaddressed"/>
+      <facetEntailment facetID="MX_46b_f13" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.46b.466.1" answerText="I think the second one because B has more scoops of solute." accuracy="contradictory">
+      <facetEntailment facetID="MX_46b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="MX_46b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MX_46b_f3" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f4" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f5" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="MX_46b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="MX_46b_f8" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f9" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f10" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f11" label="Contra-Infr"/>
+      <facetEntailment facetID="MX_46b_f12" label="Contra-Infr"/>
+      <facetEntailment facetID="MX_46b_f13" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.46b.467.1" answerText="Because now there is now only some of water in each and 4 is more than 2 and cup B more concentration." accuracy="contradictory">
+      <facetEntailment facetID="MX_46b_f1" label="Expressed"/>
+      <facetEntailment facetID="MX_46b_f2" label="Contra-Expr"/>
+      <facetEntailment facetID="MX_46b_f3" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f4" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f5" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f6" label="Contra-Expr"/>
+      <facetEntailment facetID="MX_46b_f7" label="Contra-Expr"/>
+      <facetEntailment facetID="MX_46b_f8" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f9" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f10" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f11" label="Contra-Infr"/>
+      <facetEntailment facetID="MX_46b_f12" label="Expressed"/>
+      <facetEntailment facetID="MX_46b_f13" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.46b.471.1" answerText="I picked cup B because I thought it would have more spoons of solute than cup A." accuracy="contradictory">
+      <facetEntailment facetID="MX_46b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="MX_46b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MX_46b_f3" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f4" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f5" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="MX_46b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="MX_46b_f8" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f9" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f10" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f11" label="Contra-Infr"/>
+      <facetEntailment facetID="MX_46b_f12" label="Unaddressed"/>
+      <facetEntailment facetID="MX_46b_f13" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.46b.472.1" answerText="I pick this one because if you split solution B into 2 water levels it will be 50 so if A is 50 and 2 spoons the other one is going to have to have 2 spoons too because the other one is double." accuracy="correct">
+      <facetEntailment facetID="MX_46b_f1" label="Inferred"/>
+      <facetEntailment facetID="MX_46b_f2" label="Inferred"/>
+      <facetEntailment facetID="MX_46b_f3" label="Expressed"/>
+      <facetEntailment facetID="MX_46b_f4" label="Expressed"/>
+      <facetEntailment facetID="MX_46b_f5" label="Expressed"/>
+      <facetEntailment facetID="MX_46b_f6" label="Inferred"/>
+      <facetEntailment facetID="MX_46b_f7" label="Inferred"/>
+      <facetEntailment facetID="MX_46b_f8" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f9" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f10" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f11" label="Inferred"/>
+      <facetEntailment facetID="MX_46b_f12" label="Inferred"/>
+      <facetEntailment facetID="MX_46b_f13" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="MX.46b.488.1" answerText="Because 2 is half of 4 spoons and 50 milliliters is half of 100." accuracy="correct">
+      <facetEntailment facetID="MX_46b_f1" label="Inferred"/>
+      <facetEntailment facetID="MX_46b_f2" label="Inferred"/>
+      <facetEntailment facetID="MX_46b_f3" label="Expressed"/>
+      <facetEntailment facetID="MX_46b_f4" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f5" label="Expressed"/>
+      <facetEntailment facetID="MX_46b_f6" label="Inferred"/>
+      <facetEntailment facetID="MX_46b_f7" label="Inferred"/>
+      <facetEntailment facetID="MX_46b_f8" label="Expressed"/>
+      <facetEntailment facetID="MX_46b_f9" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f10" label="Expressed"/>
+      <facetEntailment facetID="MX_46b_f11" label="Inferred"/>
+      <facetEntailment facetID="MX_46b_f12" label="Inferred"/>
+      <facetEntailment facetID="MX_46b_f13" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="MX.46b.493.1" answerText="Because Nigel took out the same amount of solutions. There is 2 spoons for 50 milliliters of water. The concentration are the same." accuracy="correct">
+      <facetEntailment facetID="MX_46b_f1" label="Expressed"/>
+      <facetEntailment facetID="MX_46b_f2" label="Expressed"/>
+      <facetEntailment facetID="MX_46b_f3" label="Expressed"/>
+      <facetEntailment facetID="MX_46b_f4" label="Expressed"/>
+      <facetEntailment facetID="MX_46b_f5" label="Expressed"/>
+      <facetEntailment facetID="MX_46b_f6" label="Inferred"/>
+      <facetEntailment facetID="MX_46b_f7" label="Inferred"/>
+      <facetEntailment facetID="MX_46b_f8" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f9" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f10" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f11" label="Inferred"/>
+      <facetEntailment facetID="MX_46b_f12" label="Inferred"/>
+      <facetEntailment facetID="MX_46b_f13" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="MX.46b.495.1" answerText="They both have 2 spoonfuls per 50 milliliters so when you compare 50 milliliters from each they both have 2 spoonfuls in the 50 milliliters." accuracy="correct">
+      <facetEntailment facetID="MX_46b_f1" label="Inferred"/>
+      <facetEntailment facetID="MX_46b_f2" label="Inferred"/>
+      <facetEntailment facetID="MX_46b_f3" label="Expressed"/>
+      <facetEntailment facetID="MX_46b_f4" label="Expressed"/>
+      <facetEntailment facetID="MX_46b_f5" label="Expressed"/>
+      <facetEntailment facetID="MX_46b_f6" label="Inferred"/>
+      <facetEntailment facetID="MX_46b_f7" label="Inferred"/>
+      <facetEntailment facetID="MX_46b_f8" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f9" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f10" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f11" label="Inferred"/>
+      <facetEntailment facetID="MX_46b_f12" label="Inferred"/>
+      <facetEntailment facetID="MX_46b_f13" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="MX.46b.499.1" answerText="Because they both have the same amount of water but have different amount of salt." accuracy="irrelevant">
+      <facetEntailment facetID="MX_46b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="MX_46b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MX_46b_f3" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f4" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f5" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="MX_46b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="MX_46b_f8" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f9" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f10" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f11" label="Unaddressed"/>
+      <facetEntailment facetID="MX_46b_f12" label="Unaddressed"/>
+      <facetEntailment facetID="MX_46b_f13" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.46b.502.1" answerText="I think cup B would be more heavy because cup B is more concentrated." accuracy="contradictory">
+      <facetEntailment facetID="MX_46b_f1" label="Expressed"/>
+      <facetEntailment facetID="MX_46b_f2" label="Contra-Expr"/>
+      <facetEntailment facetID="MX_46b_f3" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f4" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f5" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="MX_46b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="MX_46b_f8" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f9" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f10" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f11" label="Contra-Expr"/>
+      <facetEntailment facetID="MX_46b_f12" label="Contra-Infr"/>
+      <facetEntailment facetID="MX_46b_f13" label="Contra-Infr"/>
+    </studentAnswer>
+    <studentAnswer id="MX.46b.524.1" answerText="They are going to be even." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="MX_46b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="MX_46b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MX_46b_f3" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f4" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f5" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="MX_46b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="MX_46b_f8" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f9" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f10" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f11" label="Inferred"/>
+      <facetEntailment facetID="MX_46b_f12" label="Unaddressed"/>
+      <facetEntailment facetID="MX_46b_f13" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.46b.528.1" answerText="Cup B is more concentrated than cup A." accuracy="contradictory">
+      <facetEntailment facetID="MX_46b_f1" label="Expressed"/>
+      <facetEntailment facetID="MX_46b_f2" label="Contra-Expr"/>
+      <facetEntailment facetID="MX_46b_f3" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f4" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f5" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="MX_46b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="MX_46b_f8" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f9" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f10" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f11" label="Unaddressed"/>
+      <facetEntailment facetID="MX_46b_f12" label="Unaddressed"/>
+      <facetEntailment facetID="MX_46b_f13" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.46b.540.1" answerText="Because solution B has more water in the top." accuracy="irrelevant">
+      <facetEntailment facetID="MX_46b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="MX_46b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MX_46b_f3" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f4" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f5" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="MX_46b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="MX_46b_f8" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f9" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f10" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f11" label="Unaddressed"/>
+      <facetEntailment facetID="MX_46b_f12" label="Unaddressed"/>
+      <facetEntailment facetID="MX_46b_f13" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.46b.542.1" answerText="Because if he takes 50 milliliters out of A and puts it back in A it is still the same and if he takes 50 milliliters out of B and puts it back in then they are still both the same." accuracy="correct">
+      <facetEntailment facetID="MX_46b_f1" label="Inferred"/>
+      <facetEntailment facetID="MX_46b_f2" label="Inferred"/>
+      <facetEntailment facetID="MX_46b_f3" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f4" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f5" label="Expressed"/>
+      <facetEntailment facetID="MX_46b_f6" label="Inferred"/>
+      <facetEntailment facetID="MX_46b_f7" label="Inferred"/>
+      <facetEntailment facetID="MX_46b_f8" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f9" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f10" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f11" label="Inferred"/>
+      <facetEntailment facetID="MX_46b_f12" label="Inferred"/>
+      <facetEntailment facetID="MX_46b_f13" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="MX.46b.559.1" answerText="They are the same, because there is a pattern, for every 2 spoons of solute add 50 milliliters of water." accuracy="correct">
+      <facetEntailment facetID="MX_46b_f1" label="Inferred"/>
+      <facetEntailment facetID="MX_46b_f2" label="Inferred"/>
+      <facetEntailment facetID="MX_46b_f3" label="Expressed"/>
+      <facetEntailment facetID="MX_46b_f4" label="Expressed"/>
+      <facetEntailment facetID="MX_46b_f5" label="Expressed"/>
+      <facetEntailment facetID="MX_46b_f6" label="Inferred"/>
+      <facetEntailment facetID="MX_46b_f7" label="Inferred"/>
+      <facetEntailment facetID="MX_46b_f8" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f9" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f10" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f11" label="Expressed"/>
+      <facetEntailment facetID="MX_46b_f12" label="Inferred"/>
+      <facetEntailment facetID="MX_46b_f13" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="MX.46b.561.1" answerText="B because it gave 100 milliliters water and 4 spoons of solute. And A gave 5 milliliters water 2 spoon of salt so I stay with B." accuracy="contradictory">
+      <facetEntailment facetID="MX_46b_f1" label="Inferred"/>
+      <facetEntailment facetID="MX_46b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MX_46b_f3" label="Expressed"/>
+      <facetEntailment facetID="MX_46b_f4" label="Diff-Arg"/>
+      <facetEntailment facetID="MX_46b_f5" label="Diff-Arg"/>
+      <facetEntailment facetID="MX_46b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="MX_46b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="MX_46b_f8" label="Expressed"/>
+      <facetEntailment facetID="MX_46b_f9" label="Expressed"/>
+      <facetEntailment facetID="MX_46b_f10" label="Expressed"/>
+      <facetEntailment facetID="MX_46b_f11" label="Contra-Infr"/>
+      <facetEntailment facetID="MX_46b_f12" label="Contra-Infr"/>
+      <facetEntailment facetID="MX_46b_f13" label="Contra-Infr"/>
+    </studentAnswer>
+    <studentAnswer id="MX.46b.563.1" answerText="I chose the same because he took bottle A and half of bottle B and half of bottle B equals A." accuracy="correct">
+      <facetEntailment facetID="MX_46b_f1" label="Inferred"/>
+      <facetEntailment facetID="MX_46b_f2" label="Inferred"/>
+      <facetEntailment facetID="MX_46b_f3" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f4" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f5" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f6" label="Inferred"/>
+      <facetEntailment facetID="MX_46b_f7" label="Inferred"/>
+      <facetEntailment facetID="MX_46b_f8" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f9" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f10" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f11" label="Expressed"/>
+      <facetEntailment facetID="MX_46b_f12" label="Inferred"/>
+      <facetEntailment facetID="MX_46b_f13" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="MX.46b.570.1" answerText="It is like x like 50 times 2 equals 100 so then 2 spoons of solute equals 50." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="MX_46b_f1" label="Inferred"/>
+      <facetEntailment facetID="MX_46b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MX_46b_f3" label="Expressed"/>
+      <facetEntailment facetID="MX_46b_f4" label="Expressed"/>
+      <facetEntailment facetID="MX_46b_f5" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="MX_46b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="MX_46b_f8" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f9" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f10" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f11" label="Unaddressed"/>
+      <facetEntailment facetID="MX_46b_f12" label="Unaddressed"/>
+      <facetEntailment facetID="MX_46b_f13" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.46b.575.1" answerText="All solutions are mixtures, and a solution is when something disappears into the other." accuracy="irrelevant">
+      <facetEntailment facetID="MX_46b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="MX_46b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MX_46b_f3" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f4" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f5" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="MX_46b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="MX_46b_f8" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f9" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f10" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f11" label="Unaddressed"/>
+      <facetEntailment facetID="MX_46b_f12" label="Unaddressed"/>
+      <facetEntailment facetID="MX_46b_f13" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.46b.595.1" answerText="Solution would need to be doubled." accuracy="contradictory">
+      <facetEntailment facetID="MX_46b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="MX_46b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MX_46b_f3" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f4" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f5" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f6" label="Contra-Infr"/>
+      <facetEntailment facetID="MX_46b_f7" label="Contra-Infr"/>
+      <facetEntailment facetID="MX_46b_f8" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f9" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f10" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f11" label="Contra-Infr"/>
+      <facetEntailment facetID="MX_46b_f12" label="Unaddressed"/>
+      <facetEntailment facetID="MX_46b_f13" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.46b.597.1" answerText="Because he took the same amount from each bottle." accuracy="irrelevant">
+      <facetEntailment facetID="MX_46b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="MX_46b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MX_46b_f3" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f4" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f5" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="MX_46b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="MX_46b_f8" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f9" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f10" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f11" label="Unaddressed"/>
+      <facetEntailment facetID="MX_46b_f12" label="Unaddressed"/>
+      <facetEntailment facetID="MX_46b_f13" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.46b.598.1" answerText="Because they both have the same amount of solution in each cup. So both cups weigh the same." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="MX_46b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="MX_46b_f2" label="Diff-Arg"/>
+      <facetEntailment facetID="MX_46b_f3" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f4" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f5" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="MX_46b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="MX_46b_f8" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f9" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f10" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f11" label="Expressed"/>
+      <facetEntailment facetID="MX_46b_f12" label="Expressed"/>
+      <facetEntailment facetID="MX_46b_f13" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.46b.605.1" answerText="Because there is 2 spoons and 50 milliliters and then there is 4 spoons and 100 milliliters so they are going to weigh the same." accuracy="correct">
+      <facetEntailment facetID="MX_46b_f1" label="Inferred"/>
+      <facetEntailment facetID="MX_46b_f2" label="Inferred"/>
+      <facetEntailment facetID="MX_46b_f3" label="Expressed"/>
+      <facetEntailment facetID="MX_46b_f4" label="Expressed"/>
+      <facetEntailment facetID="MX_46b_f5" label="Expressed"/>
+      <facetEntailment facetID="MX_46b_f6" label="Inferred"/>
+      <facetEntailment facetID="MX_46b_f7" label="Inferred"/>
+      <facetEntailment facetID="MX_46b_f8" label="Expressed"/>
+      <facetEntailment facetID="MX_46b_f9" label="Expressed"/>
+      <facetEntailment facetID="MX_46b_f10" label="Expressed"/>
+      <facetEntailment facetID="MX_46b_f11" label="Expressed"/>
+      <facetEntailment facetID="MX_46b_f12" label="Inferred"/>
+      <facetEntailment facetID="MX_46b_f13" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="MX.46b.608.1" answerText="Because there is more water and solute." accuracy="irrelevant">
+      <facetEntailment facetID="MX_46b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="MX_46b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MX_46b_f3" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f4" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f5" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="MX_46b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="MX_46b_f8" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f9" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f10" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f11" label="Unaddressed"/>
+      <facetEntailment facetID="MX_46b_f12" label="Unaddressed"/>
+      <facetEntailment facetID="MX_46b_f13" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.46b.612.1" answerText="I chose that one because in bottle B they took 50 milliliters but in it they put 4 spoons." accuracy="contradictory">
+      <facetEntailment facetID="MX_46b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="MX_46b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MX_46b_f3" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f4" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f5" label="Expressed"/>
+      <facetEntailment facetID="MX_46b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="MX_46b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="MX_46b_f8" label="Expressed"/>
+      <facetEntailment facetID="MX_46b_f9" label="Contra-Expr"/>
+      <facetEntailment facetID="MX_46b_f10" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f11" label="Unaddressed"/>
+      <facetEntailment facetID="MX_46b_f12" label="Unaddressed"/>
+      <facetEntailment facetID="MX_46b_f13" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.46b.630.1" answerText="I chose this one because in the picture above there is more water in cup B." accuracy="irrelevant">
+      <facetEntailment facetID="MX_46b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="MX_46b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MX_46b_f3" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f4" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f5" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="MX_46b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="MX_46b_f8" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f9" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f10" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f11" label="Unaddressed"/>
+      <facetEntailment facetID="MX_46b_f12" label="Unaddressed"/>
+      <facetEntailment facetID="MX_46b_f13" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.46b.640.1" answerText="Solution B has more water so it weighs more than solution A." accuracy="contradictory">
+      <facetEntailment facetID="MX_46b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="MX_46b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MX_46b_f3" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f4" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f5" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="MX_46b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="MX_46b_f8" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f9" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f10" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f11" label="Contra-Expr"/>
+      <facetEntailment facetID="MX_46b_f12" label="Unaddressed"/>
+      <facetEntailment facetID="MX_46b_f13" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.46b.643.1" answerText="Cup B because it is just double." accuracy="contradictory">
+      <facetEntailment facetID="MX_46b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="MX_46b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MX_46b_f3" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f4" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f5" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="MX_46b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="MX_46b_f8" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f9" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f10" label="Assumed"/>
+      <facetEntailment facetID="MX_46b_f11" label="Contra-Infr"/>
+      <facetEntailment facetID="MX_46b_f12" label="Unaddressed"/>
+      <facetEntailment facetID="MX_46b_f13" label="Unaddressed"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

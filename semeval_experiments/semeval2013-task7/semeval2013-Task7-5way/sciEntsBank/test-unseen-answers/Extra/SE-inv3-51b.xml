@@ -1,0 +1,124 @@
+<?xml version="1.0"?>
+<question testSet="unseen-answers" id="SE_51b" module="SE">
+  <questionText>Look at the 2 solar water heaters shown here. The black triangular area is the solar collector in each container. If both heaters contain the same amount of water, would you expect the temperature change in heater X to be greater than, less than, or the same as the temperature change in heater Y after 30 minutes? (Same) Explain your answer.</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="SE_51b-a1" text="The black areas in the 2 collectors (and the collectors themselves) are the same size. The amount of heat absorbed will be the same so the temperature change will also be the same.">
+      <tokens>
+        <token id="SE_51b_ra1">The</token>
+        <token id="SE_51b_ra2">black</token>
+        <token id="SE_51b_ra3">areas</token>
+        <token id="SE_51b_ra4">in</token>
+        <token id="SE_51b_ra5">the</token>
+        <token id="SE_51b_ra6">2</token>
+        <token id="SE_51b_ra7">collectors</token>
+        <token id="SE_51b_ra8">(</token>
+        <token id="SE_51b_ra9">and</token>
+        <token id="SE_51b_ra10">the</token>
+        <token id="SE_51b_ra11">collectors</token>
+        <token id="SE_51b_ra12">themselves</token>
+        <token id="SE_51b_ra13">)</token>
+        <token id="SE_51b_ra14">are</token>
+        <token id="SE_51b_ra15">the</token>
+        <token id="SE_51b_ra16">same</token>
+        <token id="SE_51b_ra17">size</token>
+        <token id="SE_51b_ra18">.</token>
+        <token id="SE_51b_ra19">The</token>
+        <token id="SE_51b_ra20">amount</token>
+        <token id="SE_51b_ra21">of</token>
+        <token id="SE_51b_ra22">heat</token>
+        <token id="SE_51b_ra23">absorbed</token>
+        <token id="SE_51b_ra24">will</token>
+        <token id="SE_51b_ra25">be</token>
+        <token id="SE_51b_ra26">the</token>
+        <token id="SE_51b_ra27">same</token>
+        <token id="SE_51b_ra28">so</token>
+        <token id="SE_51b_ra29">the</token>
+        <token id="SE_51b_ra30">temperature</token>
+        <token id="SE_51b_ra31">change</token>
+        <token id="SE_51b_ra32">will</token>
+        <token id="SE_51b_ra33">also</token>
+        <token id="SE_51b_ra34">be</token>
+        <token id="SE_51b_ra35">the</token>
+        <token id="SE_51b_ra36">same</token>
+        <token id="SE_51b_ra37">.</token>
+      </tokens>
+      <facets>
+        <facet id="SE_51b_f1" govNum="SE_51b_ra3" modNum="SE_51b_ra2" reltn="NMod" govText="areas" isAssumed="true" modText="black"/>
+        <facet id="SE_51b_f2" govNum="SE_51b_ra3" modNum="SE_51b_ra7" reltn="Location_in" govText="areas" isAssumed="true" modText="collectors"/>
+        <facet id="SE_51b_f3" govNum="SE_51b_ra7" modNum="SE_51b_ra6" reltn="NMod" govText="collectors" isAssumed="true" modText="2"/>
+        <facet id="SE_51b_f4" govNum="SE_51b_ra3" modNum="SE_51b_ra17" reltn="Be" govText="areas" isAssumed="true" modText="size"/>
+        <facet id="SE_51b_f5" govNum="SE_51b_ra11" modNum="SE_51b_ra17" reltn="Be" govText="collectors" isAssumed="true" modText="size"/>
+        <facet id="SE_51b_f6" govNum="SE_51b_ra17" modNum="SE_51b_ra16" reltn="NMod" govText="size" modText="same"/>
+        <facet id="SE_51b_f7" govNum="SE_51b_ra20" modNum="SE_51b_ra22" reltn="NMod_of" govText="amount" modText="heat"/>
+        <facet id="SE_51b_f8" govNum="SE_51b_ra23" modNum="SE_51b_ra22" reltn="Theme" govText="absorbed" modText="heat"/>
+        <facet id="SE_51b_f9" govNum="SE_51b_ra20" modNum="SE_51b_ra27" reltn="Be" govText="amount" modText="same"/>
+        <facet id="SE_51b_f10" govNum="SE_51b_ra25" modNum="SE_51b_ra14" reltn="Cause" childProp2Facet2="SE_51b_f6" childProp1Facet1="SE_51b_f9" govText="be" childProp1Facet2="SE_51b_f8" modText="are" childProp2Facet1="SE_51b_f5"/>
+        <facet id="SE_51b_f11" govNum="SE_51b_ra31" modNum="SE_51b_ra30" reltn="Patient" govText="change" isAssumed="true" modText="temperature"/>
+        <facet id="SE_51b_f12" govNum="SE_51b_ra31" modNum="SE_51b_ra36" reltn="Extent" govText="change" modText="same"/>
+        <facet id="SE_51b_f13" govNum="SE_51b_ra34" modNum="SE_51b_ra25" reltn="Cause_so" childProp2Facet2="SE_51b_f8" childProp1Facet1="SE_51b_f12" govText="be" isAssumed="true" childProp1Facet2="SE_51b_f11" modText="be" childProp2Facet1="SE_51b_f9"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="SE.51b.261.1" answerText="The as the day go on it gets cooler because the sun is going down." accuracy="irrelevant">
+      <facetEntailment facetID="SE_51b_f1" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f3" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f4" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f5" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="SE_51b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="SE_51b_f8" label="Unaddressed"/>
+      <facetEntailment facetID="SE_51b_f9" label="Unaddressed"/>
+      <facetEntailment facetID="SE_51b_f10" label="Unaddressed"/>
+      <facetEntailment facetID="SE_51b_f11" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f12" label="Unaddressed"/>
+      <facetEntailment facetID="SE_51b_f13" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.51b.318.1" answerText="Because the triangles and containers are the same size and color they will both absorb the same amount of heat." accuracy="correct">
+      <facetEntailment facetID="SE_51b_f1" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f3" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f4" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f5" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f6" label="Expressed"/>
+      <facetEntailment facetID="SE_51b_f7" label="Expressed"/>
+      <facetEntailment facetID="SE_51b_f8" label="Expressed"/>
+      <facetEntailment facetID="SE_51b_f9" label="Expressed"/>
+      <facetEntailment facetID="SE_51b_f10" label="Expressed"/>
+      <facetEntailment facetID="SE_51b_f11" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f12" label="Inferred"/>
+      <facetEntailment facetID="SE_51b_f13" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.51b.398.1" answerText="I think the same because it is the same size, same shape, same color. It is just placed differently in the container which would not have an impact." accuracy="correct">
+      <facetEntailment facetID="SE_51b_f1" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f3" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f4" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f5" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f6" label="Expressed"/>
+      <facetEntailment facetID="SE_51b_f7" label="Inferred"/>
+      <facetEntailment facetID="SE_51b_f8" label="Inferred"/>
+      <facetEntailment facetID="SE_51b_f9" label="Inferred"/>
+      <facetEntailment facetID="SE_51b_f10" label="Inferred"/>
+      <facetEntailment facetID="SE_51b_f11" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f12" label="Inferred"/>
+      <facetEntailment facetID="SE_51b_f13" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.51b.497.1" answerText="They would be the same because they are the exact same size in the same position with the same size of containers." accuracy="correct">
+      <facetEntailment facetID="SE_51b_f1" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f3" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f4" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f5" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f6" label="Expressed"/>
+      <facetEntailment facetID="SE_51b_f7" label="Inferred"/>
+      <facetEntailment facetID="SE_51b_f8" label="Inferred"/>
+      <facetEntailment facetID="SE_51b_f9" label="Inferred"/>
+      <facetEntailment facetID="SE_51b_f10" label="Inferred"/>
+      <facetEntailment facetID="SE_51b_f11" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f12" label="Inferred"/>
+      <facetEntailment facetID="SE_51b_f13" label="Assumed"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

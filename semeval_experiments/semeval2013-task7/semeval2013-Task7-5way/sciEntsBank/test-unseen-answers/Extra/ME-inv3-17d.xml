@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<question testSet="unseen-answers" id="ME_17d" module="ME">
+  <questionText> Denise made a circuit to light a bulb or run a motor off a D-cell battery. She used a special switch. Below is the schematic diagram of her circuit. The switch is inside the dotted box. Why will the motor run when she moves the switch to the right?</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="ME_17d-a1" text="There is a complete circuit connecting the motor to the D-cell battery.">
+      <tokens>
+        <token id="ME_17d_ra1">There</token>
+        <token id="ME_17d_ra2">is</token>
+        <token id="ME_17d_ra3">a</token>
+        <token id="ME_17d_ra4">complete</token>
+        <token id="ME_17d_ra5">circuit</token>
+        <token id="ME_17d_ra6">connecting</token>
+        <token id="ME_17d_ra7">the</token>
+        <token id="ME_17d_ra8">motor</token>
+        <token id="ME_17d_ra9">to</token>
+        <token id="ME_17d_ra10">the</token>
+        <token id="ME_17d_ra11">D-cell</token>
+        <token id="ME_17d_ra12">battery</token>
+        <token id="ME_17d_ra13">.</token>
+      </tokens>
+      <facets>
+        <facet id="ME_17d_f1" govNum="ME_17d_ra5" modNum="ME_17d_ra4" reltn="NMod" govText="circuit" modText="complete"/>
+        <facet id="ME_17d_f2" govNum="ME_17d_ra6" modNum="ME_17d_ra5" reltn="Means" govText="connecting" modText="circuit"/>
+        <facet id="ME_17d_f3" govNum="ME_17d_ra6" modNum="ME_17d_ra8" reltn="Patient" govText="connecting" modText="motor"/>
+        <facet id="ME_17d_f4" govNum="ME_17d_ra6" modNum="ME_17d_ra12" reltn="Destination_to" govText="connecting" modText="battery"/>
+        <facet id="ME_17d_f5" govNum="ME_17d_ra12" modNum="ME_17d_ra11" reltn="NMod" govText="battery" isAssumed="true" modText="D-cell"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="ME.17d.111.1" answerText="Because the battery is hooked to the switch." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="ME_17d_f1" label="Inferred"/>
+      <facetEntailment facetID="ME_17d_f2" label="Diff-Arg"/>
+      <facetEntailment facetID="ME_17d_f3" label="Inferred"/>
+      <facetEntailment facetID="ME_17d_f4" label="Expressed"/>
+      <facetEntailment facetID="ME_17d_f5" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.17d.253.1" answerText="Because Right is to turn off and Left is to turn on." accuracy="irrelevant">
+      <facetEntailment facetID="ME_17d_f1" label="Unaddressed"/>
+      <facetEntailment facetID="ME_17d_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ME_17d_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_17d_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_17d_f5" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.17d.254.1" answerText="Because she used the special switch." accuracy="irrelevant">
+      <facetEntailment facetID="ME_17d_f1" label="Unaddressed"/>
+      <facetEntailment facetID="ME_17d_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ME_17d_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_17d_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_17d_f5" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.17d.313.1" answerText="Because if you already had a series circuit then it has to be a parallel circuit." accuracy="correct">
+      <facetEntailment facetID="ME_17d_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_17d_f2" label="Inferred"/>
+      <facetEntailment facetID="ME_17d_f3" label="Inferred"/>
+      <facetEntailment facetID="ME_17d_f4" label="Inferred"/>
+      <facetEntailment facetID="ME_17d_f5" label="Assumed"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

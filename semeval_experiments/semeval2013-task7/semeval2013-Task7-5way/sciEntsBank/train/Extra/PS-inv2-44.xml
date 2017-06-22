@@ -1,0 +1,436 @@
+<?xml version="1.0"?>
+<question id="PS_44" module="PS">
+  <questionText>A harp has strings of different lengths. Describe how the sound of a short string being plucked (pulled and let go quickly) is different from the sound of a long string being plucked.</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="PS_44-a1" text="If the string is shorter, the pitch will be higher. If the string is longer, the pitch will be lower.">
+      <tokens>
+        <token id="PS_44_ra1">If</token>
+        <token id="PS_44_ra2">the</token>
+        <token id="PS_44_ra3">string</token>
+        <token id="PS_44_ra4">is</token>
+        <token id="PS_44_ra5">shorter</token>
+        <token id="PS_44_ra6">,</token>
+        <token id="PS_44_ra7">the</token>
+        <token id="PS_44_ra8">pitch</token>
+        <token id="PS_44_ra9">will</token>
+        <token id="PS_44_ra10">be</token>
+        <token id="PS_44_ra11">higher</token>
+        <token id="PS_44_ra12">.</token>
+        <token id="PS_44_ra13">If</token>
+        <token id="PS_44_ra14">the</token>
+        <token id="PS_44_ra15">string</token>
+        <token id="PS_44_ra16">is</token>
+        <token id="PS_44_ra17">longer</token>
+        <token id="PS_44_ra18">,</token>
+        <token id="PS_44_ra19">the</token>
+        <token id="PS_44_ra20">pitch</token>
+        <token id="PS_44_ra21">will</token>
+        <token id="PS_44_ra22">be</token>
+        <token id="PS_44_ra23">lower</token>
+        <token id="PS_44_ra24">.</token>
+      </tokens>
+      <facets>
+        <facet id="PS_44_f1" govNum="PS_44_ra3" modNum="PS_44_ra5" reltn="Be" govText="string" isAssumed="true" modText="shorter"/>
+        <facet id="PS_44_f2" govNum="PS_44_ra8" modNum="PS_44_ra11" reltn="Be" govText="pitch" modText="higher"/>
+        <facet id="PS_44_f3" govNum="PS_44_ra10" modNum="PS_44_ra4" reltn="Cause_if" childProp1Facet1="PS_44_f2" govText="be" isAssumed="true" modText="is" childProp2Facet1="PS_44_f1"/>
+        <facet id="PS_44_f4" govNum="PS_44_ra15" modNum="PS_44_ra17" reltn="Be" govText="string" modText="longer"/>
+        <facet id="PS_44_f5" govNum="PS_44_ra20" modNum="PS_44_ra23" reltn="Be" govText="pitch" modText="lower"/>
+        <facet id="PS_44_f6" govNum="PS_44_ra22" modNum="PS_44_ra16" reltn="Cause_if" childProp1Facet1="PS_44_f5" govText="be" modText="is" childProp2Facet1="PS_44_f4"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="PS.44.104.1" answerText="The small string has the highest pitch than the long one." accuracy="correct">
+      <facetEntailment facetID="PS_44_f1" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f2" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f3" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f4" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f5" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f6" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.44.105.1" answerText="It is different because the little string makes a height sound." accuracy="correct">
+      <facetEntailment facetID="PS_44_f1" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f2" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f3" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f4" label="Inferred"/>
+      <facetEntailment facetID="PS_44_f5" label="Inferred"/>
+      <facetEntailment facetID="PS_44_f6" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="PS.44.107.1" answerText="The long string is low. And the short string is high." accuracy="correct">
+      <facetEntailment facetID="PS_44_f1" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f2" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f3" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f4" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f5" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f6" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.44.110.1" answerText="If the small one is high the big one is low that is what it is for the harp." accuracy="correct">
+      <facetEntailment facetID="PS_44_f1" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f2" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f3" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f4" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f5" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f6" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.44.111.1" answerText="The short string, will make a high sound and a long string will make a low sound. The short string and the long string are different because they are high and low." accuracy="correct">
+      <facetEntailment facetID="PS_44_f1" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f2" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f3" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f4" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f5" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f6" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.44.114.1" answerText="If you pluck it make a volume." accuracy="irrelevant">
+      <facetEntailment facetID="PS_44_f1" label="Assumed"/>
+      <facetEntailment facetID="PS_44_f2" label="Unaddressed"/>
+      <facetEntailment facetID="PS_44_f3" label="Assumed"/>
+      <facetEntailment facetID="PS_44_f4" label="Unaddressed"/>
+      <facetEntailment facetID="PS_44_f5" label="Unaddressed"/>
+      <facetEntailment facetID="PS_44_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.44.118.1" answerText="A short string being plucked is different than the long string being plucked because the long string has the lowest pitch. And the shortest has the highest pitch." accuracy="correct">
+      <facetEntailment facetID="PS_44_f1" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f2" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f3" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f4" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f5" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f6" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.44.138.1" answerText="A little string has a high pitch and a big string has a low pitch." accuracy="correct">
+      <facetEntailment facetID="PS_44_f1" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f2" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f3" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f4" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f5" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f6" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.44.141.1" answerText="A short string the vibrations go faster so there is a higher pitch." accuracy="correct">
+      <facetEntailment facetID="PS_44_f1" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f2" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f3" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f4" label="Unaddressed"/>
+      <facetEntailment facetID="PS_44_f5" label="Unaddressed"/>
+      <facetEntailment facetID="PS_44_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.44.142.1" answerText="It is different because the short string has a high pitch and the long string has a low pitch." accuracy="correct">
+      <facetEntailment facetID="PS_44_f1" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f2" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f3" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f4" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f5" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f6" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.44.146.1" answerText="Short string high pitch, long string low pitch." accuracy="correct">
+      <facetEntailment facetID="PS_44_f1" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f2" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f3" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f4" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f5" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f6" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.44.152.1" answerText="Because the long one has a lower pitch the littler one has a higher pitch." accuracy="correct">
+      <facetEntailment facetID="PS_44_f1" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f2" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f3" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f4" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f5" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f6" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.44.154.1" answerText="How it different is the shorter string has a higher pitch and the long string make a low pitch." accuracy="correct">
+      <facetEntailment facetID="PS_44_f1" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f2" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f3" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f4" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f5" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f6" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.44.157.1" answerText="The long string is lower and the short string is louder." accuracy="correct">
+      <facetEntailment facetID="PS_44_f1" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f2" label="Diff-Arg"/>
+      <facetEntailment facetID="PS_44_f3" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f4" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f5" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f6" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.44.160.1" answerText="A long string makes a low sound and a short string makes a high sound." accuracy="correct">
+      <facetEntailment facetID="PS_44_f1" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f2" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f3" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f4" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f5" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f6" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.44.171.1" answerText="The siren makes it louder." accuracy="irrelevant">
+      <facetEntailment facetID="PS_44_f1" label="Assumed"/>
+      <facetEntailment facetID="PS_44_f2" label="Unaddressed"/>
+      <facetEntailment facetID="PS_44_f3" label="Assumed"/>
+      <facetEntailment facetID="PS_44_f4" label="Unaddressed"/>
+      <facetEntailment facetID="PS_44_f5" label="Unaddressed"/>
+      <facetEntailment facetID="PS_44_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.44.176.1" answerText="The long one makes a lower sound but the short one be higher." accuracy="correct">
+      <facetEntailment facetID="PS_44_f1" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f2" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f3" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f4" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f5" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f6" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.44.181.1" answerText="A shorter string makes a lower pitch and a longer string makes a higher pitch." accuracy="contradictory">
+      <facetEntailment facetID="PS_44_f1" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f2" label="Contra-Expr"/>
+      <facetEntailment facetID="PS_44_f3" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f4" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f5" label="Contra-Expr"/>
+      <facetEntailment facetID="PS_44_f6" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.44.183.1" answerText="Smaller string has high pitch and bigger string has lower pitch." accuracy="correct">
+      <facetEntailment facetID="PS_44_f1" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f2" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f3" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f4" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f5" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f6" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.44.184.1" answerText="It will be too low if you pluck the short string. It is loud when you pluck the long string." accuracy="contradictory">
+      <facetEntailment facetID="PS_44_f1" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f2" label="Contra-Expr"/>
+      <facetEntailment facetID="PS_44_f3" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f4" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f5" label="Diff-Arg"/>
+      <facetEntailment facetID="PS_44_f6" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.44.185.1" answerText="Lowest string has the highest pitch. Highest string has the lowest pitch." accuracy="correct">
+      <facetEntailment facetID="PS_44_f1" label="Diff-Arg"/>
+      <facetEntailment facetID="PS_44_f2" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f3" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f4" label="Diff-Arg"/>
+      <facetEntailment facetID="PS_44_f5" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f6" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.44.189.1" answerText="Because if you pluck a short string it will make a high pitch." accuracy="correct">
+      <facetEntailment facetID="PS_44_f1" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f2" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f3" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f4" label="Unaddressed"/>
+      <facetEntailment facetID="PS_44_f5" label="Unaddressed"/>
+      <facetEntailment facetID="PS_44_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.44.191.1" answerText="The littler string is louder then the big string." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="PS_44_f1" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f2" label="Diff-Arg"/>
+      <facetEntailment facetID="PS_44_f3" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f4" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f5" label="Diff-Arg"/>
+      <facetEntailment facetID="PS_44_f6" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.44.192.1" answerText="When you plucked the shorter string it makes a higher." accuracy="correct">
+      <facetEntailment facetID="PS_44_f1" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f2" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f3" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f4" label="Unaddressed"/>
+      <facetEntailment facetID="PS_44_f5" label="Unaddressed"/>
+      <facetEntailment facetID="PS_44_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.44.193.1" answerText="The short string is high and the long one is lower." accuracy="correct">
+      <facetEntailment facetID="PS_44_f1" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f2" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f3" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f4" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f5" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f6" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.44.195.1" answerText="The long string is going to be lower, the shorter string is going to be higher." accuracy="correct">
+      <facetEntailment facetID="PS_44_f1" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f2" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f3" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f4" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f5" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f6" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.44.212.1" answerText="The small string has a higher pitch because you pluck it and it goes so fast that it has a high pitch." accuracy="correct">
+      <facetEntailment facetID="PS_44_f1" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f2" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f3" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f4" label="Unaddressed"/>
+      <facetEntailment facetID="PS_44_f5" label="Unaddressed"/>
+      <facetEntailment facetID="PS_44_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.44.217.1" answerText="The long strings make a low pitch sound because the string is long than the others." accuracy="correct">
+      <facetEntailment facetID="PS_44_f1" label="Assumed"/>
+      <facetEntailment facetID="PS_44_f2" label="Inferred"/>
+      <facetEntailment facetID="PS_44_f3" label="Assumed"/>
+      <facetEntailment facetID="PS_44_f4" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f5" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f6" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.44.221.1" answerText="The sound of a short string is like a ding a long string sounds like a dong." accuracy="correct">
+      <facetEntailment facetID="PS_44_f1" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f2" label="Inferred"/>
+      <facetEntailment facetID="PS_44_f3" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f4" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f5" label="Inferred"/>
+      <facetEntailment facetID="PS_44_f6" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.44.222.1" answerText="The longer string is lower and the shorter string is higher." accuracy="correct">
+      <facetEntailment facetID="PS_44_f1" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f2" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f3" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f4" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f5" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f6" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.44.223.1" answerText="The shorter strings make a higher sound because the vibrations do not travel as long." accuracy="correct">
+      <facetEntailment facetID="PS_44_f1" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f2" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f3" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f4" label="Unaddressed"/>
+      <facetEntailment facetID="PS_44_f5" label="Unaddressed"/>
+      <facetEntailment facetID="PS_44_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.44.228.1" answerText="The short string has a higher pitch the long string has a lower pitch." accuracy="correct">
+      <facetEntailment facetID="PS_44_f1" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f2" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f3" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f4" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f5" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f6" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.44.230.1" answerText="The longer the string the lower the pitch." accuracy="correct">
+      <facetEntailment facetID="PS_44_f1" label="Assumed"/>
+      <facetEntailment facetID="PS_44_f2" label="Inferred"/>
+      <facetEntailment facetID="PS_44_f3" label="Assumed"/>
+      <facetEntailment facetID="PS_44_f4" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f5" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f6" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.44.241.1" answerText="The small side would have a high pitch Because it vibrates faster." accuracy="correct">
+      <facetEntailment facetID="PS_44_f1" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f2" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f3" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f4" label="Unaddressed"/>
+      <facetEntailment facetID="PS_44_f5" label="Unaddressed"/>
+      <facetEntailment facetID="PS_44_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.44.249.1" answerText="Well when you pluck the small string it is a louder pitch Because the smaller string is higher the pitch the Bigger the string the lower the pitch." accuracy="correct">
+      <facetEntailment facetID="PS_44_f1" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f2" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f3" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f4" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f5" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f6" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.44.261.1" answerText="Long will make a higher pitch short will make a lower pitch." accuracy="contradictory">
+      <facetEntailment facetID="PS_44_f1" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f2" label="Contra-Expr"/>
+      <facetEntailment facetID="PS_44_f3" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f4" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f5" label="Contra-Expr"/>
+      <facetEntailment facetID="PS_44_f6" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.44.263.1" answerText="The short string has a higher pitch. The longer string has a lower pitch." accuracy="correct">
+      <facetEntailment facetID="PS_44_f1" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f2" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f3" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f4" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f5" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f6" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.44.313.1" answerText="The short string will be High and the long string will be low." accuracy="correct">
+      <facetEntailment facetID="PS_44_f1" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f2" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f3" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f4" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f5" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f6" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.44.314.1" answerText="A short string makes a low note because it has less room to vibrate." accuracy="contradictory">
+      <facetEntailment facetID="PS_44_f1" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f2" label="Contra-Expr"/>
+      <facetEntailment facetID="PS_44_f3" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f4" label="Unaddressed"/>
+      <facetEntailment facetID="PS_44_f5" label="Unaddressed"/>
+      <facetEntailment facetID="PS_44_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.44.316.1" answerText="The short one is louder than the long one." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="PS_44_f1" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f2" label="Diff-Arg"/>
+      <facetEntailment facetID="PS_44_f3" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f4" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f5" label="Diff-Arg"/>
+      <facetEntailment facetID="PS_44_f6" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.44.317.1" answerText="A long string has more room to vibrate so it makes a low sound and it is opposite for a short string." accuracy="correct">
+      <facetEntailment facetID="PS_44_f1" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f2" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f3" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f4" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f5" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f6" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.44.319.1" answerText="Because the short one has more air so when you hit it it bring a low sound." accuracy="contradictory">
+      <facetEntailment facetID="PS_44_f1" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f2" label="Contra-Expr"/>
+      <facetEntailment facetID="PS_44_f3" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f4" label="Unaddressed"/>
+      <facetEntailment facetID="PS_44_f5" label="Unaddressed"/>
+      <facetEntailment facetID="PS_44_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.44.320.1" answerText="The long string got more room to vibrate than the little string." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="PS_44_f1" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f2" label="Unaddressed"/>
+      <facetEntailment facetID="PS_44_f3" label="Assumed"/>
+      <facetEntailment facetID="PS_44_f4" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f5" label="Unaddressed"/>
+      <facetEntailment facetID="PS_44_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.44.323.1" answerText="A short string is a higher pitch than lengthier string." accuracy="correct">
+      <facetEntailment facetID="PS_44_f1" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f2" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f3" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f4" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f5" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f6" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.44.328.1" answerText="The longer string is low and the shorter string is high." accuracy="correct">
+      <facetEntailment facetID="PS_44_f1" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f2" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f3" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f4" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f5" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f6" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.44.329.1" answerText="It could be higher." accuracy="correct">
+      <facetEntailment facetID="PS_44_f1" label="Assumed"/>
+      <facetEntailment facetID="PS_44_f2" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f3" label="Assumed"/>
+      <facetEntailment facetID="PS_44_f4" label="Unaddressed"/>
+      <facetEntailment facetID="PS_44_f5" label="Unaddressed"/>
+      <facetEntailment facetID="PS_44_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.44.332.1" answerText="The short one would be louder. The long one would be quieter." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="PS_44_f1" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f2" label="Diff-Arg"/>
+      <facetEntailment facetID="PS_44_f3" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f4" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f5" label="Diff-Arg"/>
+      <facetEntailment facetID="PS_44_f6" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.44.333.1" answerText="The longer string will make a lower sound. And the smaller string makes a Higher sound." accuracy="correct">
+      <facetEntailment facetID="PS_44_f1" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f2" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f3" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f4" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f5" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f6" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.44.334.1" answerText="The short string will make a sound that is high and the long string is low." accuracy="correct">
+      <facetEntailment facetID="PS_44_f1" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f2" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f3" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f4" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f5" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f6" label="Expressed"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

@@ -1,0 +1,565 @@
+<?xml version="1.0"?>
+<question id="MX_1" module="MX">
+  <questionText>Gerry used a paper filter to separate a mixture of sand, salt, and water. Think about particle size and answer this question: Why did the salt go through the filter while the sand got caught?</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="MX_1-a1" text="The dissolved salt particles are small enough to go through the holes in the filter paper, but the sand particles are too large.">
+      <tokens>
+        <token id="MX_1_ra1">The</token>
+        <token id="MX_1_ra2">dissolved</token>
+        <token id="MX_1_ra3">salt</token>
+        <token id="MX_1_ra4">particles</token>
+        <token id="MX_1_ra5">are</token>
+        <token id="MX_1_ra6">small</token>
+        <token id="MX_1_ra7">enough</token>
+        <token id="MX_1_ra8">to</token>
+        <token id="MX_1_ra9">go</token>
+        <token id="MX_1_ra10">through</token>
+        <token id="MX_1_ra11">the</token>
+        <token id="MX_1_ra12">holes</token>
+        <token id="MX_1_ra13">in</token>
+        <token id="MX_1_ra14">the</token>
+        <token id="MX_1_ra15">filter</token>
+        <token id="MX_1_ra16">paper</token>
+        <token id="MX_1_ra17">,</token>
+        <token id="MX_1_ra18">but</token>
+        <token id="MX_1_ra19">the</token>
+        <token id="MX_1_ra20">sand</token>
+        <token id="MX_1_ra21">particles</token>
+        <token id="MX_1_ra22">are</token>
+        <token id="MX_1_ra23">too</token>
+        <token id="MX_1_ra24">large</token>
+        <token id="MX_1_ra25">.</token>
+      </tokens>
+      <facets>
+        <facet id="MX_1_f1" govNum="MX_1_ra4" modNum="MX_1_ra3" reltn="NMod" govText="particles" isAssumed="true" modText="salt"/>
+        <facet id="MX_1_f2" govNum="MX_1_ra2" modNum="MX_1_ra4" reltn="Patient" govText="dissolved" modText="particles"/>
+        <facet id="MX_1_f3" govNum="MX_1_ra4" modNum="MX_1_ra6" reltn="Be" govText="particles" modText="small"/>
+        <facet id="MX_1_f4" govNum="MX_1_ra6" modNum="MX_1_ra7" reltn="AMod" govText="small" modText="enough"/>
+        <facet id="MX_1_f5" govNum="MX_1_ra9" modNum="MX_1_ra4" reltn="Theme" govText="go" isAssumed="true" modText="particles"/>
+        <facet id="MX_1_f6" govNum="MX_1_ra9" modNum="MX_1_ra12" reltn="Destination_through" govText="go" isAssumed="true" modText="holes"/>
+        <facet id="MX_1_f7" govNum="MX_1_ra12" modNum="MX_1_ra16" reltn="Location_in" govText="holes" isAssumed="true" modText="paper"/>
+        <facet id="MX_1_f8" govNum="MX_1_ra16" modNum="MX_1_ra15" reltn="NMod" govText="paper" isAssumed="true" modText="filter"/>
+        <facet id="MX_1_f9" govNum="MX_1_ra9" modNum="MX_1_ra5" reltn="Cause_enough_to" childProp2Facet2="MX_1_f1" childProp1Facet1="MX_1_f5" govText="go" isAssumed="true" childProp1Facet2="MX_1_f7" modText="are" childProp2Facet1="MX_1_f3"/>
+        <facet id="MX_1_f10" govNum="MX_1_ra21" modNum="MX_1_ra20" reltn="NMod" govText="particles" isAssumed="true" modText="sand"/>
+        <facet id="MX_1_f11" govNum="MX_1_ra21" modNum="MX_1_ra24" reltn="Be" govText="particles" modText="large"/>
+        <facet id="MX_1_f12" govNum="MX_1_ra24" modNum="MX_1_ra23" reltn="AMod" govText="large" modText="too"/>
+        <facet id="MX_1_f13" govNum="MX_1_ra9" modNum="MX_1_ra21" reltn="Theme_neg_too" govText="go" isAssumed="true" modText="particles"/>
+        <facet id="MX_1_f14" govNum="MX_1_ra9" modNum="MX_1_ra22" reltn="Cause_neg_too_to" childProp2Facet2="MX_1_f12" childProp1Facet1="MX_1_f13" govText="go" isAssumed="true" childProp1Facet2="MX_1_f10" modText="are" childProp2Facet1="MX_1_f11"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="MX.1.384.1" answerText="Because the salt was too small so small that you cannot see it." accuracy="correct">
+      <facetEntailment facetID="MX_1_f1" label="Expressed"/>
+      <facetEntailment facetID="MX_1_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MX_1_f3" label="Expressed"/>
+      <facetEntailment facetID="MX_1_f4" label="Inferred"/>
+      <facetEntailment facetID="MX_1_f5" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f6" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f7" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f8" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f9" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f10" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f11" label="Inferred"/>
+      <facetEntailment facetID="MX_1_f12" label="Inferred"/>
+      <facetEntailment facetID="MX_1_f13" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f14" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.1.426.1" answerText="Because sand is much softer and the salt." accuracy="irrelevant">
+      <facetEntailment facetID="MX_1_f1" label="Expressed"/>
+      <facetEntailment facetID="MX_1_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MX_1_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_1_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MX_1_f5" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f6" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f7" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f8" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f9" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f10" label="Expressed"/>
+      <facetEntailment facetID="MX_1_f11" label="Diff-Arg"/>
+      <facetEntailment facetID="MX_1_f12" label="Unaddressed"/>
+      <facetEntailment facetID="MX_1_f13" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f14" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.1.428.1" answerText="Because the salt dissolved into the water and the sand did not." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="MX_1_f1" label="Expressed"/>
+      <facetEntailment facetID="MX_1_f2" label="Expressed"/>
+      <facetEntailment facetID="MX_1_f3" label="Inferred"/>
+      <facetEntailment facetID="MX_1_f4" label="Inferred"/>
+      <facetEntailment facetID="MX_1_f5" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f6" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f7" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f8" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f9" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f10" label="Expressed"/>
+      <facetEntailment facetID="MX_1_f11" label="Inferred"/>
+      <facetEntailment facetID="MX_1_f12" label="Inferred"/>
+      <facetEntailment facetID="MX_1_f13" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f14" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.1.430.1" answerText="Because salt and water are a solution but sand and water is just a mixture." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="MX_1_f1" label="Expressed"/>
+      <facetEntailment facetID="MX_1_f2" label="Inferred"/>
+      <facetEntailment facetID="MX_1_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_1_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MX_1_f5" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f6" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f7" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f8" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f9" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f10" label="Expressed"/>
+      <facetEntailment facetID="MX_1_f11" label="Unaddressed"/>
+      <facetEntailment facetID="MX_1_f12" label="Unaddressed"/>
+      <facetEntailment facetID="MX_1_f13" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f14" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.1.431.1" answerText="The sand got caught because it had rocks in it." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="MX_1_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MX_1_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_1_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MX_1_f5" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f6" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f7" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f8" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f9" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f10" label="Expressed"/>
+      <facetEntailment facetID="MX_1_f11" label="Inferred"/>
+      <facetEntailment facetID="MX_1_f12" label="Inferred"/>
+      <facetEntailment facetID="MX_1_f13" label="Expressed"/>
+      <facetEntailment facetID="MX_1_f14" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.1.457.1" answerText="The salt went through because when the salt and water mixed the salt dissolved a little." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="MX_1_f1" label="Expressed"/>
+      <facetEntailment facetID="MX_1_f2" label="Expressed"/>
+      <facetEntailment facetID="MX_1_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_1_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MX_1_f5" label="Expressed"/>
+      <facetEntailment facetID="MX_1_f6" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f7" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f8" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f9" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f10" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f11" label="Unaddressed"/>
+      <facetEntailment facetID="MX_1_f12" label="Unaddressed"/>
+      <facetEntailment facetID="MX_1_f13" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f14" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.1.464.1" answerText="The particle size of the sand was too big to fit through the holes of the filter. While the salt particle size was too small to get caught." accuracy="correct">
+      <facetEntailment facetID="MX_1_f1" label="Expressed"/>
+      <facetEntailment facetID="MX_1_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MX_1_f3" label="Expressed"/>
+      <facetEntailment facetID="MX_1_f4" label="Expressed"/>
+      <facetEntailment facetID="MX_1_f5" label="Expressed"/>
+      <facetEntailment facetID="MX_1_f6" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f7" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f8" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f9" label="Expressed"/>
+      <facetEntailment facetID="MX_1_f10" label="Expressed"/>
+      <facetEntailment facetID="MX_1_f11" label="Expressed"/>
+      <facetEntailment facetID="MX_1_f12" label="Expressed"/>
+      <facetEntailment facetID="MX_1_f13" label="Expressed"/>
+      <facetEntailment facetID="MX_1_f14" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.1.470.1" answerText="The salt did not get caught because it dissolved in the water." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="MX_1_f1" label="Expressed"/>
+      <facetEntailment facetID="MX_1_f2" label="Expressed"/>
+      <facetEntailment facetID="MX_1_f3" label="Inferred"/>
+      <facetEntailment facetID="MX_1_f4" label="Inferred"/>
+      <facetEntailment facetID="MX_1_f5" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f6" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f7" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f8" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f9" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f10" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f11" label="Inferred"/>
+      <facetEntailment facetID="MX_1_f12" label="Inferred"/>
+      <facetEntailment facetID="MX_1_f13" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f14" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.1.472.1" answerText="The salt went through the filter because it dissolved and the sand did not." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="MX_1_f1" label="Expressed"/>
+      <facetEntailment facetID="MX_1_f2" label="Expressed"/>
+      <facetEntailment facetID="MX_1_f3" label="Inferred"/>
+      <facetEntailment facetID="MX_1_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MX_1_f5" label="Expressed"/>
+      <facetEntailment facetID="MX_1_f6" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f7" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f8" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f9" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f10" label="Expressed"/>
+      <facetEntailment facetID="MX_1_f11" label="Inferred"/>
+      <facetEntailment facetID="MX_1_f12" label="Inferred"/>
+      <facetEntailment facetID="MX_1_f13" label="Expressed"/>
+      <facetEntailment facetID="MX_1_f14" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.1.486.1" answerText="Because he put water in it so the salt dissolved with the water and ran right through." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="MX_1_f1" label="Expressed"/>
+      <facetEntailment facetID="MX_1_f2" label="Expressed"/>
+      <facetEntailment facetID="MX_1_f3" label="Inferred"/>
+      <facetEntailment facetID="MX_1_f4" label="Inferred"/>
+      <facetEntailment facetID="MX_1_f5" label="Expressed"/>
+      <facetEntailment facetID="MX_1_f6" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f7" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f8" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f9" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f10" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f11" label="Inferred"/>
+      <facetEntailment facetID="MX_1_f12" label="Inferred"/>
+      <facetEntailment facetID="MX_1_f13" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f14" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.1.488.1" answerText="Because salt is so small it slid through the large coffee filter. Sand is larger so it stuck to the filter." accuracy="correct">
+      <facetEntailment facetID="MX_1_f1" label="Expressed"/>
+      <facetEntailment facetID="MX_1_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MX_1_f3" label="Expressed"/>
+      <facetEntailment facetID="MX_1_f4" label="Expressed"/>
+      <facetEntailment facetID="MX_1_f5" label="Expressed"/>
+      <facetEntailment facetID="MX_1_f6" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f7" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f8" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f9" label="Expressed"/>
+      <facetEntailment facetID="MX_1_f10" label="Expressed"/>
+      <facetEntailment facetID="MX_1_f11" label="Expressed"/>
+      <facetEntailment facetID="MX_1_f12" label="Inferred"/>
+      <facetEntailment facetID="MX_1_f13" label="Expressed"/>
+      <facetEntailment facetID="MX_1_f14" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.1.494.1" answerText="The salt turns to liquid like an ice cube and then to water sand does not." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="MX_1_f1" label="Expressed"/>
+      <facetEntailment facetID="MX_1_f2" label="Inferred"/>
+      <facetEntailment facetID="MX_1_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_1_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MX_1_f5" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f6" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f7" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f8" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f9" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f10" label="Expressed"/>
+      <facetEntailment facetID="MX_1_f11" label="Unaddressed"/>
+      <facetEntailment facetID="MX_1_f12" label="Unaddressed"/>
+      <facetEntailment facetID="MX_1_f13" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f14" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.1.495.1" answerText="The sand was too big to fit through the tiny holes in the filter. The salt dissolved into the water and was way too small to get caught in the filter. It just went through." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="MX_1_f1" label="Expressed"/>
+      <facetEntailment facetID="MX_1_f2" label="Expressed"/>
+      <facetEntailment facetID="MX_1_f3" label="Expressed"/>
+      <facetEntailment facetID="MX_1_f4" label="Expressed"/>
+      <facetEntailment facetID="MX_1_f5" label="Expressed"/>
+      <facetEntailment facetID="MX_1_f6" label="Expressed"/>
+      <facetEntailment facetID="MX_1_f7" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f8" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f9" label="Expressed"/>
+      <facetEntailment facetID="MX_1_f10" label="Expressed"/>
+      <facetEntailment facetID="MX_1_f11" label="Expressed"/>
+      <facetEntailment facetID="MX_1_f12" label="Expressed"/>
+      <facetEntailment facetID="MX_1_f13" label="Expressed"/>
+      <facetEntailment facetID="MX_1_f14" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.1.498.1" answerText="The salt went through the filter because the salt mix with water to make saltwater. Sand the sand got caught because it is just like the powder it sticks to the sides." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="MX_1_f1" label="Expressed"/>
+      <facetEntailment facetID="MX_1_f2" label="Inferred"/>
+      <facetEntailment facetID="MX_1_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_1_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MX_1_f5" label="Expressed"/>
+      <facetEntailment facetID="MX_1_f6" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f7" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f8" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f9" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f10" label="Expressed"/>
+      <facetEntailment facetID="MX_1_f11" label="Diff-Arg"/>
+      <facetEntailment facetID="MX_1_f12" label="Unaddressed"/>
+      <facetEntailment facetID="MX_1_f13" label="Expressed"/>
+      <facetEntailment facetID="MX_1_f14" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.1.500.1" answerText="The salt is smaller and is harder." accuracy="correct">
+      <facetEntailment facetID="MX_1_f1" label="Expressed"/>
+      <facetEntailment facetID="MX_1_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MX_1_f3" label="Expressed"/>
+      <facetEntailment facetID="MX_1_f4" label="Inferred"/>
+      <facetEntailment facetID="MX_1_f5" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f6" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f7" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f8" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f9" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f10" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f11" label="Inferred"/>
+      <facetEntailment facetID="MX_1_f12" label="Inferred"/>
+      <facetEntailment facetID="MX_1_f13" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f14" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.1.528.1" answerText="The salt had gone away or dissolved." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="MX_1_f1" label="Expressed"/>
+      <facetEntailment facetID="MX_1_f2" label="Expressed"/>
+      <facetEntailment facetID="MX_1_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_1_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MX_1_f5" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f6" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f7" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f8" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f9" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f10" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f11" label="Unaddressed"/>
+      <facetEntailment facetID="MX_1_f12" label="Unaddressed"/>
+      <facetEntailment facetID="MX_1_f13" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f14" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.1.533.1" answerText="Because the sand is bigger than the salt." accuracy="correct">
+      <facetEntailment facetID="MX_1_f1" label="Expressed"/>
+      <facetEntailment facetID="MX_1_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MX_1_f3" label="Inferred"/>
+      <facetEntailment facetID="MX_1_f4" label="Inferred"/>
+      <facetEntailment facetID="MX_1_f5" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f6" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f7" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f8" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f9" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f10" label="Expressed"/>
+      <facetEntailment facetID="MX_1_f11" label="Inferred"/>
+      <facetEntailment facetID="MX_1_f12" label="Inferred"/>
+      <facetEntailment facetID="MX_1_f13" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f14" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.1.539.1" answerText="The grains of salt must be smaller than the grains of sand." accuracy="correct">
+      <facetEntailment facetID="MX_1_f1" label="Expressed"/>
+      <facetEntailment facetID="MX_1_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MX_1_f3" label="Expressed"/>
+      <facetEntailment facetID="MX_1_f4" label="Inferred"/>
+      <facetEntailment facetID="MX_1_f5" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f6" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f7" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f8" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f9" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f10" label="Expressed"/>
+      <facetEntailment facetID="MX_1_f11" label="Inferred"/>
+      <facetEntailment facetID="MX_1_f12" label="Inferred"/>
+      <facetEntailment facetID="MX_1_f13" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f14" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.1.562.1" answerText="The salt got dissolved in the water." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="MX_1_f1" label="Expressed"/>
+      <facetEntailment facetID="MX_1_f2" label="Expressed"/>
+      <facetEntailment facetID="MX_1_f3" label="Inferred"/>
+      <facetEntailment facetID="MX_1_f4" label="Inferred"/>
+      <facetEntailment facetID="MX_1_f5" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f6" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f7" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f8" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f9" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f10" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f11" label="Inferred"/>
+      <facetEntailment facetID="MX_1_f12" label="Inferred"/>
+      <facetEntailment facetID="MX_1_f13" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f14" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.1.564.1" answerText="Because the sand is thicker than the water. Water is smooth." accuracy="irrelevant">
+      <facetEntailment facetID="MX_1_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MX_1_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_1_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MX_1_f5" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f6" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f7" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f8" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f9" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f10" label="Expressed"/>
+      <facetEntailment facetID="MX_1_f11" label="Diff-Arg"/>
+      <facetEntailment facetID="MX_1_f12" label="Unaddressed"/>
+      <facetEntailment facetID="MX_1_f13" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f14" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.1.565.1" answerText="Because the filter has smaller holes so whatever big particle will be separated." accuracy="correct">
+      <facetEntailment facetID="MX_1_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MX_1_f3" label="Inferred"/>
+      <facetEntailment facetID="MX_1_f4" label="Inferred"/>
+      <facetEntailment facetID="MX_1_f5" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f6" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f7" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f8" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f9" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f10" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f11" label="Expressed"/>
+      <facetEntailment facetID="MX_1_f12" label="Inferred"/>
+      <facetEntailment facetID="MX_1_f13" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f14" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.1.567.1" answerText="Maybe because in the little dish there is little holes and it will not go through it." accuracy="correct">
+      <facetEntailment facetID="MX_1_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MX_1_f3" label="Inferred"/>
+      <facetEntailment facetID="MX_1_f4" label="Inferred"/>
+      <facetEntailment facetID="MX_1_f5" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f6" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f7" label="Diff-Arg"/>
+      <facetEntailment facetID="MX_1_f8" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f9" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f10" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f11" label="Inferred"/>
+      <facetEntailment facetID="MX_1_f12" label="Inferred"/>
+      <facetEntailment facetID="MX_1_f13" label="Expressed"/>
+      <facetEntailment facetID="MX_1_f14" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.1.569.1" answerText="The salt was small enough to go through the holes while the sand was too big to go through." accuracy="correct">
+      <facetEntailment facetID="MX_1_f1" label="Expressed"/>
+      <facetEntailment facetID="MX_1_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MX_1_f3" label="Expressed"/>
+      <facetEntailment facetID="MX_1_f4" label="Expressed"/>
+      <facetEntailment facetID="MX_1_f5" label="Expressed"/>
+      <facetEntailment facetID="MX_1_f6" label="Expressed"/>
+      <facetEntailment facetID="MX_1_f7" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f8" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f9" label="Expressed"/>
+      <facetEntailment facetID="MX_1_f10" label="Expressed"/>
+      <facetEntailment facetID="MX_1_f11" label="Expressed"/>
+      <facetEntailment facetID="MX_1_f12" label="Expressed"/>
+      <facetEntailment facetID="MX_1_f13" label="Expressed"/>
+      <facetEntailment facetID="MX_1_f14" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.1.599.1" answerText="The sand cannot go through because the water would not let the sand dissolve." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="MX_1_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f2" label="Inferred"/>
+      <facetEntailment facetID="MX_1_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_1_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MX_1_f5" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f6" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f7" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f8" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f9" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f10" label="Expressed"/>
+      <facetEntailment facetID="MX_1_f11" label="Unaddressed"/>
+      <facetEntailment facetID="MX_1_f12" label="Unaddressed"/>
+      <facetEntailment facetID="MX_1_f13" label="Expressed"/>
+      <facetEntailment facetID="MX_1_f14" label="Diff-Arg"/>
+    </studentAnswer>
+    <studentAnswer id="MX.1.601.1" answerText="It stayed there because of its size." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="MX_1_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MX_1_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_1_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MX_1_f5" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f6" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f7" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f8" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f9" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f10" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f11" label="Inferred"/>
+      <facetEntailment facetID="MX_1_f12" label="Inferred"/>
+      <facetEntailment facetID="MX_1_f13" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f14" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.1.604.1" answerText="Because the salt evaporated so it could go through and still have salt in it. While sand did not so it could not go through." accuracy="correct">
+      <facetEntailment facetID="MX_1_f1" label="Expressed"/>
+      <facetEntailment facetID="MX_1_f2" label="Diff-Arg"/>
+      <facetEntailment facetID="MX_1_f3" label="Inferred"/>
+      <facetEntailment facetID="MX_1_f4" label="Inferred"/>
+      <facetEntailment facetID="MX_1_f5" label="Expressed"/>
+      <facetEntailment facetID="MX_1_f6" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f7" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f8" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f9" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f10" label="Expressed"/>
+      <facetEntailment facetID="MX_1_f11" label="Inferred"/>
+      <facetEntailment facetID="MX_1_f12" label="Inferred"/>
+      <facetEntailment facetID="MX_1_f13" label="Expressed"/>
+      <facetEntailment facetID="MX_1_f14" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.1.606.1" answerText="Because salt can dissolve but sand is tiny parts of the ground." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="MX_1_f1" label="Expressed"/>
+      <facetEntailment facetID="MX_1_f2" label="Expressed"/>
+      <facetEntailment facetID="MX_1_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_1_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MX_1_f5" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f6" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f7" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f8" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f9" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f10" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f11" label="Unaddressed"/>
+      <facetEntailment facetID="MX_1_f12" label="Unaddressed"/>
+      <facetEntailment facetID="MX_1_f13" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f14" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.1.607.1" answerText="Because the salt dissolved in the water and the sand did not." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="MX_1_f1" label="Expressed"/>
+      <facetEntailment facetID="MX_1_f2" label="Expressed"/>
+      <facetEntailment facetID="MX_1_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_1_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MX_1_f5" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f6" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f7" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f8" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f9" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f10" label="Expressed"/>
+      <facetEntailment facetID="MX_1_f11" label="Unaddressed"/>
+      <facetEntailment facetID="MX_1_f12" label="Unaddressed"/>
+      <facetEntailment facetID="MX_1_f13" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f14" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.1.613.1" answerText="Because the salt is evaporated already and the sand cannot because it is hard and it is gravel." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="MX_1_f1" label="Expressed"/>
+      <facetEntailment facetID="MX_1_f2" label="Inferred"/>
+      <facetEntailment facetID="MX_1_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_1_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MX_1_f5" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f6" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f7" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f8" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f9" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f10" label="Expressed"/>
+      <facetEntailment facetID="MX_1_f11" label="Diff-Arg"/>
+      <facetEntailment facetID="MX_1_f12" label="Unaddressed"/>
+      <facetEntailment facetID="MX_1_f13" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f14" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.1.633.1" answerText="The salt became a part of the water so it dissolve in the water so the salt went with the water. But the sand did not dissolve in the water because it was so bulky." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="MX_1_f1" label="Expressed"/>
+      <facetEntailment facetID="MX_1_f2" label="Expressed"/>
+      <facetEntailment facetID="MX_1_f3" label="Inferred"/>
+      <facetEntailment facetID="MX_1_f4" label="Inferred"/>
+      <facetEntailment facetID="MX_1_f5" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f6" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f7" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f8" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f9" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f10" label="Expressed"/>
+      <facetEntailment facetID="MX_1_f11" label="Inferred"/>
+      <facetEntailment facetID="MX_1_f12" label="Inferred"/>
+      <facetEntailment facetID="MX_1_f13" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f14" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.1.642.1" answerText="The salt dissolved and became smaller. The sand became mud and got caught together and stayed on top." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="MX_1_f1" label="Expressed"/>
+      <facetEntailment facetID="MX_1_f2" label="Expressed"/>
+      <facetEntailment facetID="MX_1_f3" label="Expressed"/>
+      <facetEntailment facetID="MX_1_f4" label="Inferred"/>
+      <facetEntailment facetID="MX_1_f5" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f6" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f7" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f8" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f9" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f10" label="Expressed"/>
+      <facetEntailment facetID="MX_1_f11" label="Diff-Arg"/>
+      <facetEntailment facetID="MX_1_f12" label="Unaddressed"/>
+      <facetEntailment facetID="MX_1_f13" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f14" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.1.649.1" answerText="They have a sticky stuff that did not work." accuracy="irrelevant">
+      <facetEntailment facetID="MX_1_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MX_1_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_1_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MX_1_f5" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f6" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f7" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f8" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f9" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f10" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f11" label="Unaddressed"/>
+      <facetEntailment facetID="MX_1_f12" label="Unaddressed"/>
+      <facetEntailment facetID="MX_1_f13" label="Assumed"/>
+      <facetEntailment facetID="MX_1_f14" label="Assumed"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

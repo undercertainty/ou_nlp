@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<question testSet="unseen-answers" id="PS_2a" module="PS">
+  <questionText>Why does a rubber band make a sound when you pluck it (pull and let go quickly)?</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="PS_2a-a1" text="The rubber band vibrates.">
+      <tokens>
+        <token id="PS_2a_ra1">The</token>
+        <token id="PS_2a_ra2">rubber</token>
+        <token id="PS_2a_ra3">band</token>
+        <token id="PS_2a_ra4">vibrates</token>
+        <token id="PS_2a_ra5">.</token>
+      </tokens>
+      <facets>
+        <facet id="PS_2a_f1" govNum="PS_2a_ra3" modNum="PS_2a_ra2" reltn="NMod" govText="band" isAssumed="true" modText="rubber"/>
+        <facet id="PS_2a_f2" govNum="PS_2a_ra4" modNum="PS_2a_ra3" reltn="Theme" govText="vibrates" modText="band"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="PS.2a.146.1" answerText="Because the vibration makes it." accuracy="correct">
+      <facetEntailment facetID="PS_2a_f1" label="Assumed"/>
+      <facetEntailment facetID="PS_2a_f2" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="PS.2a.172.1" answerText="Because it vibrates." accuracy="correct">
+      <facetEntailment facetID="PS_2a_f1" label="Assumed"/>
+      <facetEntailment facetID="PS_2a_f2" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.2a.331.1" answerText="Because it is made rubber." accuracy="irrelevant">
+      <facetEntailment facetID="PS_2a_f1" label="Assumed"/>
+      <facetEntailment facetID="PS_2a_f2" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.2a.605.1" answerText="A rubber band make a sound by vibration when you pluck it, so that is how it cause the sound." accuracy="correct">
+      <facetEntailment facetID="PS_2a_f1" label="Expressed"/>
+      <facetEntailment facetID="PS_2a_f2" label="Expressed"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

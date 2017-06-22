@@ -1,0 +1,939 @@
+<?xml version="1.0"?>
+<question testSet="unseen-domains" id="WA_52b" module="WA">
+  <questionText>Johnny drove to the store with his father one cold and rainy night. They had only driven a short distance when the windows "fogged up" on the inside. What was it about the windows that caused the "fog" to form on them?</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="WA_52b-a1" text="The windows were cooler than the water vapor in the air, causing the vapor to condense.">
+      <tokens>
+        <token id="WA_52b_ra1">The</token>
+        <token id="WA_52b_ra2">windows</token>
+        <token id="WA_52b_ra3">were</token>
+        <token id="WA_52b_ra4">cooler</token>
+        <token id="WA_52b_ra5">than</token>
+        <token id="WA_52b_ra6">the</token>
+        <token id="WA_52b_ra7">water</token>
+        <token id="WA_52b_ra8">vapor</token>
+        <token id="WA_52b_ra9">in</token>
+        <token id="WA_52b_ra10">the</token>
+        <token id="WA_52b_ra11">air</token>
+        <token id="WA_52b_ra12">,</token>
+        <token id="WA_52b_ra13">causing</token>
+        <token id="WA_52b_ra14">the</token>
+        <token id="WA_52b_ra15">vapor</token>
+        <token id="WA_52b_ra16">to</token>
+        <token id="WA_52b_ra17">condense</token>
+        <token id="WA_52b_ra18">.</token>
+      </tokens>
+      <facets>
+        <facet id="WA_52b_f1" govNum="WA_52b_ra2" modNum="WA_52b_ra4" reltn="Be" govText="windows" modText="cooler"/>
+        <facet id="WA_52b_f2" govNum="WA_52b_ra4" modNum="WA_52b_ra8" reltn="AMod_than" govText="cooler" modText="vapor"/>
+        <facet id="WA_52b_f3" govNum="WA_52b_ra8" modNum="WA_52b_ra7" reltn="NMod" govText="vapor" modText="water"/>
+        <facet id="WA_52b_f4" govNum="WA_52b_ra8" modNum="WA_52b_ra11" reltn="Location_in" govText="vapor" modText="air"/>
+        <facet id="WA_52b_f5" govNum="WA_52b_ra17" modNum="WA_52b_ra15" reltn="Patient" govText="condense" modText="vapor"/>
+        <facet id="WA_52b_f6" govNum="WA_52b_ra13" modNum="WA_52b_ra3" reltn="Cause" childProp2Facet2="WA_52b_f2" govText="causing" isAssumed="true" modText="were" childProp2Facet1="WA_52b_f1"/>
+        <facet id="WA_52b_f7" govNum="WA_52b_ra13" modNum="WA_52b_ra17" reltn="Theme_to" govText="causing" isAssumed="true" modText="condense"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="WA.52b.171.1" answerText="The windows in the car were cold because it was cold outside. There was lots of water vapor in the car, so it stuck to the cold windows and changed into condensation water." accuracy="correct">
+      <facetEntailment facetID="WA_52b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_52b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_52b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_52b_f4" label="Inferred"/>
+      <facetEntailment facetID="WA_52b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_52b_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_52b_f7" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.52b.174.1" answerText="They were cold and since Johnny probably turned the heat on the water vapor would turn into water again and settle onto the windows." accuracy="correct">
+      <facetEntailment facetID="WA_52b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_52b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_52b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_52b_f4" label="Inferred"/>
+      <facetEntailment facetID="WA_52b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_52b_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_52b_f7" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.52b.175.1" answerText="Condensation only occurs on cold surfaces and the windows are cold so the water vapor condense on them." accuracy="correct">
+      <facetEntailment facetID="WA_52b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_52b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_52b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_52b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_52b_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_52b_f7" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.52b.178.1" answerText="The condensation to form on the windows was the coldness of the cold air outside." accuracy="correct">
+      <facetEntailment facetID="WA_52b_f1" label="Diff-Arg"/>
+      <facetEntailment facetID="WA_52b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_52b_f7" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.52b.179.1" answerText="No answer." accuracy="non_domain">
+      <facetEntailment facetID="WA_52b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_52b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.52b.180.1" answerText="It was when something warm touches something cold it makes condensation." accuracy="irrelevant">
+      <facetEntailment facetID="WA_52b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_52b_f7" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.52b.183.1" answerText="When water vapor touches a cold surface it becomes water vapor." accuracy="irrelevant">
+      <facetEntailment facetID="WA_52b_f1" label="Inferred"/>
+      <facetEntailment facetID="WA_52b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_52b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_52b_f4" label="Inferred"/>
+      <facetEntailment facetID="WA_52b_f5" label="Diff-Arg"/>
+      <facetEntailment facetID="WA_52b_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_52b_f7" label="Diff-Arg"/>
+    </studentAnswer>
+    <studentAnswer id="WA.52b.188.1" answerText="When hot or warm air touches cold air it becomes fog or condensation. The air outside was cold so it made the window cold." accuracy="correct">
+      <facetEntailment facetID="WA_52b_f1" label="Diff-Arg"/>
+      <facetEntailment facetID="WA_52b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_52b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f5" label="Diff-Arg"/>
+      <facetEntailment facetID="WA_52b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_52b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.52b.189.1" answerText="When coldness touches warm air it turns into condensation." accuracy="correct">
+      <facetEntailment facetID="WA_52b_f1" label="Inferred"/>
+      <facetEntailment facetID="WA_52b_f2" label="Inferred"/>
+      <facetEntailment facetID="WA_52b_f3" label="Inferred"/>
+      <facetEntailment facetID="WA_52b_f4" label="Inferred"/>
+      <facetEntailment facetID="WA_52b_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_52b_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_52b_f7" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.52b.191.1" answerText="Water vapor caused the fog or condensation to form on the windows." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="WA_52b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_52b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_52b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_52b_f7" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.52b.193.1" answerText="The windows caused fog to form because the heater was probably on and the windows were cold so it caused condensation." accuracy="correct">
+      <facetEntailment facetID="WA_52b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_52b_f2" label="Inferred"/>
+      <facetEntailment facetID="WA_52b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_52b_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_52b_f7" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.52b.194.1" answerText="Hot air touching cold air." accuracy="irrelevant">
+      <facetEntailment facetID="WA_52b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_52b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.52b.195.1" answerText="They were very cold." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="WA_52b_f1" label="Inferred"/>
+      <facetEntailment facetID="WA_52b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_52b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.52b.198.1" answerText="Probably because the window was warm." accuracy="contradictory">
+      <facetEntailment facetID="WA_52b_f1" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_52b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_52b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.52b.206.1" answerText="The windows had to be cold condensation forms when water vapor touches a cold surface." accuracy="correct">
+      <facetEntailment facetID="WA_52b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_52b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_52b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_52b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_52b_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_52b_f7" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.52b.208.1" answerText="The condensation." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="WA_52b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_52b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.52b.209.1" answerText="The water vapor caused it to fog up." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="WA_52b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_52b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_52b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.52b.212.1" answerText="It was raining so water vapor made that fog to form on the windows because rain clouds carry water vapor." accuracy="irrelevant">
+      <facetEntailment facetID="WA_52b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_52b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_52b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_52b_f7" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.52b.214.1" answerText="The cause was water vapor." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="WA_52b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_52b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_52b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.52b.215.1" answerText="I guess that when condensation hits cold surfaces the window condensation comes." accuracy="correct">
+      <facetEntailment facetID="WA_52b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_52b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_52b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_52b_f7" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.52b.216.1" answerText="The warm air was hitting the cold air." accuracy="irrelevant">
+      <facetEntailment facetID="WA_52b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_52b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.52b.217.1" answerText="The surface was warm and when cold air hits a warm surface, condensation happens." accuracy="contradictory">
+      <facetEntailment facetID="WA_52b_f1" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_52b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_52b_f7" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.52b.218.1" answerText="It was condensation." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="WA_52b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_52b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_52b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.52b.219.1" answerText="It rained on the car so that how it happened because it rained." accuracy="irrelevant">
+      <facetEntailment facetID="WA_52b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_52b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.52b.220.1" answerText="When warm condensation hits a cold surface it causes fog." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="WA_52b_f1" label="Inferred"/>
+      <facetEntailment facetID="WA_52b_f2" label="Diff-Arg"/>
+      <facetEntailment facetID="WA_52b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_52b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.52b.221.1" answerText="It is condensation." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="WA_52b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_52b_f7" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.52b.222.1" answerText="When warm things touches cold places it forms condensation." accuracy="irrelevant">
+      <facetEntailment facetID="WA_52b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_52b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.52b.223.1" answerText="Since the windows were cold and the rain was also touching the windows, it caused condensation." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="WA_52b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_52b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_52b_f7" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.52b.224.1" answerText="When warmer water vapor hits the surface it causes fog." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="WA_52b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f2" label="Inferred"/>
+      <facetEntailment facetID="WA_52b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_52b_f4" label="Inferred"/>
+      <facetEntailment facetID="WA_52b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_52b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.52b.225.1" answerText="The heat inside and the cold outside." accuracy="irrelevant">
+      <facetEntailment facetID="WA_52b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_52b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.52b.226.1" answerText="It formed because water vapor touched a cold surface, and formed condensation." accuracy="correct">
+      <facetEntailment facetID="WA_52b_f1" label="Inferred"/>
+      <facetEntailment facetID="WA_52b_f2" label="Inferred"/>
+      <facetEntailment facetID="WA_52b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_52b_f4" label="Inferred"/>
+      <facetEntailment facetID="WA_52b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_52b_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_52b_f7" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.52b.227.1" answerText="Because the windows are closed you can see water vapor on them." accuracy="irrelevant">
+      <facetEntailment facetID="WA_52b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_52b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_52b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.52b.229.1" answerText="It was that it was a cold night and that made the windows cold and when water vapor touches a cold surface it turns into condensation." accuracy="correct">
+      <facetEntailment facetID="WA_52b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_52b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_52b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_52b_f4" label="Inferred"/>
+      <facetEntailment facetID="WA_52b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_52b_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_52b_f7" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.52b.230.1" answerText="When the warm water vapor hit the cold surface it caused condensation." accuracy="correct">
+      <facetEntailment facetID="WA_52b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_52b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_52b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_52b_f4" label="Inferred"/>
+      <facetEntailment facetID="WA_52b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_52b_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_52b_f7" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.52b.231.1" answerText="It was a cold and rainy night and when warmer air touches a cooler surface it forms condensation." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="WA_52b_f1" label="Inferred"/>
+      <facetEntailment facetID="WA_52b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_52b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_52b_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_52b_f7" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.52b.241.1" answerText="The reason why is because the water vapor hit the cold surface and became a liquid that's called condensation." accuracy="correct">
+      <facetEntailment facetID="WA_52b_f1" label="Inferred"/>
+      <facetEntailment facetID="WA_52b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_52b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_52b_f4" label="Inferred"/>
+      <facetEntailment facetID="WA_52b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_52b_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_52b_f7" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.52b.244.1" answerText="The windows were cold and so the water vapor condensate on the window." accuracy="correct">
+      <facetEntailment facetID="WA_52b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_52b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_52b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_52b_f4" label="Inferred"/>
+      <facetEntailment facetID="WA_52b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_52b_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_52b_f7" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.52b.245.1" answerText="The fog on the windows was caused by condensation. Condensation is when water vapor hits a cold surface car window it cause the surface to fog up." accuracy="correct">
+      <facetEntailment facetID="WA_52b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_52b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_52b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_52b_f4" label="Inferred"/>
+      <facetEntailment facetID="WA_52b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_52b_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_52b_f7" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.52b.250.1" answerText="The rain cooled the windows a little then the air inside the car air was a little warmer so it formed little water droplets." accuracy="correct">
+      <facetEntailment facetID="WA_52b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_52b_f2" label="Inferred"/>
+      <facetEntailment facetID="WA_52b_f3" label="Inferred"/>
+      <facetEntailment facetID="WA_52b_f4" label="Inferred"/>
+      <facetEntailment facetID="WA_52b_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_52b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_52b_f7" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.52b.251.1" answerText="The fog is caused by condensation." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="WA_52b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_52b_f7" label="Diff-Arg"/>
+    </studentAnswer>
+    <studentAnswer id="WA.52b.252.1" answerText="The water that evaporated from the ground evaporated and touched a colder surface than itself." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="WA_52b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_52b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_52b_f4" label="Inferred"/>
+      <facetEntailment facetID="WA_52b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_52b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.52b.257.1" answerText="The reason why the windows fogged up was because when it rains the water outside evaporates into water vapor and when it touches the car's cool surface windows it changes back into water and that is what formed the condensation rain is not usually freezing its warm." accuracy="correct">
+      <facetEntailment facetID="WA_52b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_52b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_52b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_52b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_52b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_52b_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_52b_f7" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.52b.260.1" answerText="The windows were cooler than the water vapor so it fogged up." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="WA_52b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_52b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_52b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_52b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_52b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_52b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.52b.261.1" answerText="Warm air hitting the cool windows." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="WA_52b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_52b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_52b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.52b.262.1" answerText="It is because the coldness and the rain mixed together and it is a cold surface it makes condensation." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="WA_52b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_52b_f2" label="Inferred"/>
+      <facetEntailment facetID="WA_52b_f3" label="Inferred"/>
+      <facetEntailment facetID="WA_52b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_52b_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_52b_f7" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.52b.265.1" answerText="Frozen it do the fog." accuracy="irrelevant">
+      <facetEntailment facetID="WA_52b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_52b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.52b.267.1" answerText="Condensation went on the windows so they could not see a thing." accuracy="irrelevant">
+      <facetEntailment facetID="WA_52b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_52b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.52b.280.1" answerText="Well human have hot skin and when you touch cold things they fog up." accuracy="irrelevant">
+      <facetEntailment facetID="WA_52b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_52b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.52b.283.1" answerText="The warm vapor inside the car hit the cold air outside." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="WA_52b_f1" label="Diff-Arg"/>
+      <facetEntailment facetID="WA_52b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_52b_f3" label="Inferred"/>
+      <facetEntailment facetID="WA_52b_f4" label="Inferred"/>
+      <facetEntailment facetID="WA_52b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_52b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.52b.349.1" answerText="It evaporated." accuracy="irrelevant">
+      <facetEntailment facetID="WA_52b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f5" label="Diff-Arg"/>
+      <facetEntailment facetID="WA_52b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_52b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.52b.350.1" answerText="The windows are so cold and can fog." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="WA_52b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_52b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_52b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.52b.351.1" answerText="Hot and cold air." accuracy="irrelevant">
+      <facetEntailment facetID="WA_52b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_52b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.52b.352.1" answerText="The water vapor stuck to the side and became water." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="WA_52b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_52b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_52b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_52b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.52b.355.1" answerText="The windows became fogged up was because of the cold. That way is evaporation." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="WA_52b_f1" label="Inferred"/>
+      <facetEntailment facetID="WA_52b_f2" label="Inferred"/>
+      <facetEntailment facetID="WA_52b_f3" label="Inferred"/>
+      <facetEntailment facetID="WA_52b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_52b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.52b.356.1" answerText="It was surface area." accuracy="irrelevant">
+      <facetEntailment facetID="WA_52b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_52b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.52b.357.1" answerText="The air." accuracy="irrelevant">
+      <facetEntailment facetID="WA_52b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_52b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.52b.358.1" answerText="The rain was falling and it probably evaporated fast when it fell down that it fell right on their windows." accuracy="contradictory">
+      <facetEntailment facetID="WA_52b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f5" label="Contra-Infr"/>
+      <facetEntailment facetID="WA_52b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_52b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.52b.360.1" answerText="The warm air hit the cold surface and caused condensation on the windows." accuracy="correct">
+      <facetEntailment facetID="WA_52b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_52b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_52b_f3" label="Inferred"/>
+      <facetEntailment facetID="WA_52b_f4" label="Inferred"/>
+      <facetEntailment facetID="WA_52b_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_52b_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_52b_f7" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.52b.362.1" answerText="Because water warms up, then it evaporates to the clouds, then it cools, and it forms rain. And then it is condensation." accuracy="irrelevant">
+      <facetEntailment facetID="WA_52b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f3" label="Inferred"/>
+      <facetEntailment facetID="WA_52b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_52b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_52b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.52b.365.1" answerText="The air temperature outside made the fog also called condensation form because of the cold air." accuracy="irrelevant">
+      <facetEntailment facetID="WA_52b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_52b_f7" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.52b.385.1" answerText="It was cold, read explanation above." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="WA_52b_f1" label="Inferred"/>
+      <facetEntailment facetID="WA_52b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_52b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.52b.390.1" answerText="The window had a cold surface, so water vapor formed on it." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="WA_52b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_52b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_52b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_52b_f4" label="Inferred"/>
+      <facetEntailment facetID="WA_52b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_52b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.52b.392.1" answerText="The water evaporated." accuracy="irrelevant">
+      <facetEntailment facetID="WA_52b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f3" label="Inferred"/>
+      <facetEntailment facetID="WA_52b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f5" label="Diff-Arg"/>
+      <facetEntailment facetID="WA_52b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_52b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.52b.397.1" answerText="No answer." accuracy="non_domain">
+      <facetEntailment facetID="WA_52b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_52b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.52b.422.1" answerText="The warm air from the inside touched the cold surface of the window which made condensation." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="WA_52b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_52b_f2" label="Inferred"/>
+      <facetEntailment facetID="WA_52b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f4" label="Inferred"/>
+      <facetEntailment facetID="WA_52b_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_52b_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_52b_f7" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.52b.423.1" answerText="The reason the windows formed condensation was because water vapor hit the window which was colder or hotter than the water vapor which formed condensation." accuracy="correct">
+      <facetEntailment facetID="WA_52b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_52b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_52b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_52b_f4" label="Inferred"/>
+      <facetEntailment facetID="WA_52b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_52b_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_52b_f7" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.52b.430.1" answerText="Warm moist air hitting a cold surface." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="WA_52b_f1" label="Inferred"/>
+      <facetEntailment facetID="WA_52b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_52b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_52b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_52b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_52b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.52b.486.1" answerText="It was condensation." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="WA_52b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_52b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_52b_f7" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.52b.488.1" answerText="The water vapor was in the car and tried to get out but was trapped and began to fog." accuracy="irrelevant">
+      <facetEntailment facetID="WA_52b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_52b_f4" label="Inferred"/>
+      <facetEntailment facetID="WA_52b_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_52b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_52b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.52b.493.1" answerText="The windows were warm and the outside was cold. So that is what happened." accuracy="contradictory">
+      <facetEntailment facetID="WA_52b_f1" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_52b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_52b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.52b.497.1" answerText="Inside the car was like a hot day. The windows were a glass and outside was like cold lemonade. The water vapor condensed and turned into water. It stuck to the window because that is near the cold part." accuracy="correct">
+      <facetEntailment facetID="WA_52b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_52b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_52b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_52b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_52b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_52b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_52b_f7" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.52b.507.1" answerText="When it is a cold and rainy night you usually want to put the defrost on the inside of your car that causes the fog." accuracy="irrelevant">
+      <facetEntailment facetID="WA_52b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_52b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.52b.508.1" answerText="The windows were cold so the water vapor tried to get outside of the car but it could not so it stuck to the windows." accuracy="correct">
+      <facetEntailment facetID="WA_52b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_52b_f2" label="Inferred"/>
+      <facetEntailment facetID="WA_52b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_52b_f4" label="Inferred"/>
+      <facetEntailment facetID="WA_52b_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_52b_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_52b_f7" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.52b.509.1" answerText="The windows were cold and when warm air hits something cold the molecules want to expand and then they hit the cold air and contract and make themselves visible." accuracy="contradictory">
+      <facetEntailment facetID="WA_52b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_52b_f2" label="Inferred"/>
+      <facetEntailment facetID="WA_52b_f3" label="Inferred"/>
+      <facetEntailment facetID="WA_52b_f4" label="Inferred"/>
+      <facetEntailment facetID="WA_52b_f5" label="Self-Contra"/>
+      <facetEntailment facetID="WA_52b_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_52b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.52b.525.1" answerText="Because it was very cold." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="WA_52b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_52b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_52b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.52b.528.1" answerText="It was glass so that is how fog got on it just like if you are in the shower if you have a mirror it will fog up." accuracy="irrelevant">
+      <facetEntailment facetID="WA_52b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_52b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.52b.529.1" answerText="The windows were really cold and got condensation." accuracy="correct">
+      <facetEntailment facetID="WA_52b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_52b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_52b_f7" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.52b.539.1" answerText="The rain caused it." accuracy="irrelevant">
+      <facetEntailment facetID="WA_52b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_52b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.52b.542.1" answerText="It had nothing to do with the window. It had to do with the air." accuracy="contradictory">
+      <facetEntailment facetID="WA_52b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f6" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_52b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.52b.556.1" answerText="The windows were cold on one side and warm on the other." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="WA_52b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_52b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_52b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.52b.558.1" answerText="The heater is may be cold outside on the window." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="WA_52b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_52b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_52b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.52b.559.1" answerText="Because the fog went on the window because the water in the fog wanted to be on a surface so it went on the window." accuracy="irrelevant">
+      <facetEntailment facetID="WA_52b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_52b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.52b.565.1" answerText="Because outside there was a lot of water and the water condensed on the window, and condensation happens on cold surfaces and the window is cold." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="WA_52b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_52b_f2" label="Inferred"/>
+      <facetEntailment facetID="WA_52b_f3" label="Diff-Arg"/>
+      <facetEntailment facetID="WA_52b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f5" label="Diff-Arg"/>
+      <facetEntailment facetID="WA_52b_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_52b_f7" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.52b.566.1" answerText="Because the cold condensation stuck to the clear surface." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="WA_52b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_52b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_52b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.52b.567.1" answerText="The windows on the outside are cold and so water goes to the opposite side of the coldness. Because water likes cold air." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="WA_52b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_52b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_52b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.52b.575.1" answerText="Water vapor in the car." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="WA_52b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_52b_f4" label="Inferred"/>
+      <facetEntailment facetID="WA_52b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_52b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.52b.577.1" answerText="The heat in the a car made the water vapor expand to the cloud spot." accuracy="contradictory">
+      <facetEntailment facetID="WA_52b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f2" label="Inferred"/>
+      <facetEntailment facetID="WA_52b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_52b_f4" label="Inferred"/>
+      <facetEntailment facetID="WA_52b_f5" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_52b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_52b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.52b.591.1" answerText="It had rain on it and it was cold." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="WA_52b_f1" label="Inferred"/>
+      <facetEntailment facetID="WA_52b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_52b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.52b.603.1" answerText="Because it was very cold and then they started the car up and then there was heat and water vapor formed." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="WA_52b_f1" label="Inferred"/>
+      <facetEntailment facetID="WA_52b_f2" label="Inferred"/>
+      <facetEntailment facetID="WA_52b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_52b_f4" label="Inferred"/>
+      <facetEntailment facetID="WA_52b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f6" label="Diff-Arg"/>
+      <facetEntailment facetID="WA_52b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.52b.626.1" answerText="Because the weather is rainy and cold to make steam from the air bisect like a magnet to glass window." accuracy="irrelevant">
+      <facetEntailment facetID="WA_52b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f3" label="Inferred"/>
+      <facetEntailment facetID="WA_52b_f4" label="Inferred"/>
+      <facetEntailment facetID="WA_52b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_52b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.52b.627.1" answerText="It was the coldest area possible for the condensation." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="WA_52b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_52b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_52b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_52b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_52b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.52b.628.1" answerText="One side was wet and cold and the other side is warm and dry so it makes condensation." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="WA_52b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f2" label="Inferred"/>
+      <facetEntailment facetID="WA_52b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_52b_f7" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.52b.629.1" answerText="The fog was caused by water vapor and condensation." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="WA_52b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_52b_f4" label="Inferred"/>
+      <facetEntailment facetID="WA_52b_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_52b_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_52b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.52b.630.1" answerText="There was moisture inside and it was cold outside." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="WA_52b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f3" label="Inferred"/>
+      <facetEntailment facetID="WA_52b_f4" label="Inferred"/>
+      <facetEntailment facetID="WA_52b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_52b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.52b.631.1" answerText="The weather was cold." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="WA_52b_f1" label="Inferred"/>
+      <facetEntailment facetID="WA_52b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_52b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.52b.635.1" answerText="The fog on the window was water vapor that is what caused the fog on the window." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="WA_52b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_52b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_52b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.52b.637.1" answerText="The air and the water vapor mixed together and stuck onto the window." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="WA_52b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_52b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_52b_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_52b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_52b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.52b.638.1" answerText="The windows were cooler than the inside of the car." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="WA_52b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_52b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_52b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.52b.639.1" answerText="Because it is warm inside and the water was cold so it caused water vapor." accuracy="contradictory">
+      <facetEntailment facetID="WA_52b_f1" label="Diff-Arg"/>
+      <facetEntailment facetID="WA_52b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_52b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f5" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_52b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_52b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.52b.640.1" answerText="When it is cold and warm the cold I think pushed the window." accuracy="irrelevant">
+      <facetEntailment facetID="WA_52b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_52b_f6" label="Assumed"/>
+      <facetEntailment facetID="WA_52b_f7" label="Assumed"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

@@ -1,0 +1,169 @@
+<?xml version="1.0"?>
+<question testSet="unseen-answers" id="SE_46" module="SE">
+  <questionText>Amber predicted that a black covered box would heat up faster than a white covered box. She took 2 identical shoe boxes and wrapped one with white paper and the other with black paper. She punched a hole in each box, stuck a thermometer into each hole, and put both boxes in the sun. Every 5 minutes, Amber recorded the temperature in each box. Will the data support Amber's prediction? Explain your answer.</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="SE_46-a1" text="Yes. Black absorbs more heat (energy) than white. White reflects more heat (energy) than black. Therefore the black covered box will heat up faster than the white covered box.">
+      <tokens>
+        <token id="SE_46_ra1">Yes</token>
+        <token id="SE_46_ra2">.</token>
+        <token id="SE_46_ra3">Black</token>
+        <token id="SE_46_ra4">absorbs</token>
+        <token id="SE_46_ra5">more</token>
+        <token id="SE_46_ra6">heat</token>
+        <token id="SE_46_ra7">(</token>
+        <token id="SE_46_ra8">energy</token>
+        <token id="SE_46_ra9">)</token>
+        <token id="SE_46_ra10">than</token>
+        <token id="SE_46_ra11">white</token>
+        <token id="SE_46_ra12">.</token>
+        <token id="SE_46_ra13">White</token>
+        <token id="SE_46_ra14">reflects</token>
+        <token id="SE_46_ra15">more</token>
+        <token id="SE_46_ra16">heat</token>
+        <token id="SE_46_ra17">(</token>
+        <token id="SE_46_ra18">energy</token>
+        <token id="SE_46_ra19">)</token>
+        <token id="SE_46_ra20">than</token>
+        <token id="SE_46_ra21">black</token>
+        <token id="SE_46_ra22">.</token>
+        <token id="SE_46_ra23">Therefore</token>
+        <token id="SE_46_ra24">the</token>
+        <token id="SE_46_ra25">black</token>
+        <token id="SE_46_ra26">covered</token>
+        <token id="SE_46_ra27">box</token>
+        <token id="SE_46_ra28">will</token>
+        <token id="SE_46_ra29">heat</token>
+        <token id="SE_46_ra30">up</token>
+        <token id="SE_46_ra31">faster</token>
+        <token id="SE_46_ra32">than</token>
+        <token id="SE_46_ra33">the</token>
+        <token id="SE_46_ra34">white</token>
+        <token id="SE_46_ra35">covered</token>
+        <token id="SE_46_ra36">box</token>
+        <token id="SE_46_ra37">.</token>
+      </tokens>
+      <facets>
+        <facet id="SE_46_f1" govNum="SE_46_ra0" modNum="SE_46_ra1" reltn="Root" govText="root" modText="Yes"/>
+        <facet id="SE_46_f2" govNum="SE_46_ra4" modNum="SE_46_ra3" reltn="Means" govText="absorbs" modText="Black"/>
+        <facet id="SE_46_f3" govNum="SE_46_ra4" modNum="SE_46_ra6" reltn="Theme" govText="absorbs" modText="heat"/>
+        <facet id="SE_46_f4" govNum="SE_46_ra4" modNum="SE_46_ra8" reltn="Theme" govText="absorbs" modText="energy"/>
+        <facet id="SE_46_f5" govNum="SE_46_ra6" modNum="SE_46_ra5" reltn="NMod" govText="heat" modText="more"/>
+        <facet id="SE_46_f6" govNum="SE_46_ra8" modNum="SE_46_ra5" reltn="NMod" govText="energy" modText="more"/>
+        <facet id="SE_46_f7" govNum="SE_46_ra5" modNum="SE_46_ra11" reltn="AMod_than" govText="more" modText="white"/>
+        <facet id="SE_46_f8" govNum="SE_46_ra14" modNum="SE_46_ra13" reltn="Means" govText="reflects" modText="White"/>
+        <facet id="SE_46_f9" govNum="SE_46_ra14" modNum="SE_46_ra16" reltn="Theme" govText="reflects" modText="heat"/>
+        <facet id="SE_46_f10" govNum="SE_46_ra16" modNum="SE_46_ra15" reltn="NMod" govText="heat" modText="more"/>
+        <facet id="SE_46_f11" govNum="SE_46_ra14" modNum="SE_46_ra18" reltn="Theme" govText="reflects" modText="energy"/>
+        <facet id="SE_46_f12" govNum="SE_46_ra18" modNum="SE_46_ra15" reltn="NMod" govText="energy" modText="more"/>
+        <facet id="SE_46_f13" govNum="SE_46_ra15" modNum="SE_46_ra21" reltn="AMod_than" govText="more" modText="black"/>
+        <facet id="SE_46_f14" govNum="SE_46_ra27" modNum="SE_46_ra25" reltn="NMod" govText="box" isAssumed="true" modText="black"/>
+        <facet id="SE_46_f15" govNum="SE_46_ra25" modNum="SE_46_ra26" reltn="AMod" govText="black" isAssumed="true" modText="covered"/>
+        <facet id="SE_46_f16" govNum="SE_46_ra29" modNum="SE_46_ra27" reltn="Patient" govText="heat up" isAssumed="true" modText="box"/>
+        <facet id="SE_46_f17" govNum="SE_46_ra29" modNum="SE_46_ra31" reltn="Manner" govText="heat up" modText="faster"/>
+        <facet id="SE_46_f18" govNum="SE_46_ra31" modNum="SE_46_ra36" reltn="AMod_than" govText="faster" modText="box"/>
+        <facet id="SE_46_f19" govNum="SE_46_ra36" modNum="SE_46_ra34" reltn="NMod" govText="box" isAssumed="true" modText="white"/>
+        <facet id="SE_46_f20" govNum="SE_46_ra34" modNum="SE_46_ra35" reltn="AMod" govText="white" isAssumed="true" modText="covered"/>
+        <facet id="SE_46_f21" govNum="SE_46_ra29" modNum="SE_46_ra4" reltn="Cause_therefore" childProp2Facet2="SE_46_f3" childProp1Facet1="SE_46_f16" govText="heat up" childProp1Facet2="SE_46_f15" modText="absorbs" childProp2Facet1="SE_46_f2"/>
+        <facet id="SE_46_f22" govNum="SE_46_ra29" modNum="SE_46_ra14" reltn="Cause_therefore" childProp2Facet2="SE_46_f9" childProp1Facet1="SE_46_f16" govText="heat up" childProp1Facet2="SE_46_f20" modText="reflects" childProp2Facet1="SE_46_f8"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="SE.46.499.1" answerText="Yes. Black is a hotter color than white." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="SE_46_f1" label="Expressed"/>
+      <facetEntailment facetID="SE_46_f2" label="Inferred"/>
+      <facetEntailment facetID="SE_46_f3" label="Inferred"/>
+      <facetEntailment facetID="SE_46_f4" label="Inferred"/>
+      <facetEntailment facetID="SE_46_f5" label="Expressed"/>
+      <facetEntailment facetID="SE_46_f6" label="Inferred"/>
+      <facetEntailment facetID="SE_46_f7" label="Expressed"/>
+      <facetEntailment facetID="SE_46_f8" label="Unaddressed"/>
+      <facetEntailment facetID="SE_46_f9" label="Unaddressed"/>
+      <facetEntailment facetID="SE_46_f10" label="Unaddressed"/>
+      <facetEntailment facetID="SE_46_f11" label="Unaddressed"/>
+      <facetEntailment facetID="SE_46_f12" label="Unaddressed"/>
+      <facetEntailment facetID="SE_46_f13" label="Unaddressed"/>
+      <facetEntailment facetID="SE_46_f14" label="Assumed"/>
+      <facetEntailment facetID="SE_46_f15" label="Assumed"/>
+      <facetEntailment facetID="SE_46_f16" label="Assumed"/>
+      <facetEntailment facetID="SE_46_f17" label="Inferred"/>
+      <facetEntailment facetID="SE_46_f18" label="Inferred"/>
+      <facetEntailment facetID="SE_46_f19" label="Assumed"/>
+      <facetEntailment facetID="SE_46_f20" label="Assumed"/>
+      <facetEntailment facetID="SE_46_f21" label="Inferred"/>
+      <facetEntailment facetID="SE_46_f22" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.46.501.1" answerText="Yes. Yes, it would because since she put them both in the sun and stuck a thermometer in both then she will know which box will heat up faster, and she will see if her prediction is correct." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="SE_46_f1" label="Expressed"/>
+      <facetEntailment facetID="SE_46_f2" label="Unaddressed"/>
+      <facetEntailment facetID="SE_46_f3" label="Unaddressed"/>
+      <facetEntailment facetID="SE_46_f4" label="Unaddressed"/>
+      <facetEntailment facetID="SE_46_f5" label="Unaddressed"/>
+      <facetEntailment facetID="SE_46_f6" label="Unaddressed"/>
+      <facetEntailment facetID="SE_46_f7" label="Unaddressed"/>
+      <facetEntailment facetID="SE_46_f8" label="Unaddressed"/>
+      <facetEntailment facetID="SE_46_f9" label="Unaddressed"/>
+      <facetEntailment facetID="SE_46_f10" label="Unaddressed"/>
+      <facetEntailment facetID="SE_46_f11" label="Unaddressed"/>
+      <facetEntailment facetID="SE_46_f12" label="Unaddressed"/>
+      <facetEntailment facetID="SE_46_f13" label="Unaddressed"/>
+      <facetEntailment facetID="SE_46_f14" label="Assumed"/>
+      <facetEntailment facetID="SE_46_f15" label="Assumed"/>
+      <facetEntailment facetID="SE_46_f16" label="Assumed"/>
+      <facetEntailment facetID="SE_46_f17" label="Unaddressed"/>
+      <facetEntailment facetID="SE_46_f18" label="Unaddressed"/>
+      <facetEntailment facetID="SE_46_f19" label="Assumed"/>
+      <facetEntailment facetID="SE_46_f20" label="Assumed"/>
+      <facetEntailment facetID="SE_46_f21" label="Unaddressed"/>
+      <facetEntailment facetID="SE_46_f22" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.46.603.1" answerText="Yes. Yes because black absorbs the heat more than white." accuracy="correct">
+      <facetEntailment facetID="SE_46_f1" label="Expressed"/>
+      <facetEntailment facetID="SE_46_f2" label="Expressed"/>
+      <facetEntailment facetID="SE_46_f3" label="Expressed"/>
+      <facetEntailment facetID="SE_46_f4" label="Inferred"/>
+      <facetEntailment facetID="SE_46_f5" label="Expressed"/>
+      <facetEntailment facetID="SE_46_f6" label="Inferred"/>
+      <facetEntailment facetID="SE_46_f7" label="Expressed"/>
+      <facetEntailment facetID="SE_46_f8" label="Unaddressed"/>
+      <facetEntailment facetID="SE_46_f9" label="Unaddressed"/>
+      <facetEntailment facetID="SE_46_f10" label="Unaddressed"/>
+      <facetEntailment facetID="SE_46_f11" label="Unaddressed"/>
+      <facetEntailment facetID="SE_46_f12" label="Unaddressed"/>
+      <facetEntailment facetID="SE_46_f13" label="Unaddressed"/>
+      <facetEntailment facetID="SE_46_f14" label="Assumed"/>
+      <facetEntailment facetID="SE_46_f15" label="Assumed"/>
+      <facetEntailment facetID="SE_46_f16" label="Assumed"/>
+      <facetEntailment facetID="SE_46_f17" label="Inferred"/>
+      <facetEntailment facetID="SE_46_f18" label="Inferred"/>
+      <facetEntailment facetID="SE_46_f19" label="Assumed"/>
+      <facetEntailment facetID="SE_46_f20" label="Assumed"/>
+      <facetEntailment facetID="SE_46_f21" label="Inferred"/>
+      <facetEntailment facetID="SE_46_f22" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.46.605.1" answerText="Yes. Yes, because black absorbs heat from the sun." accuracy="correct">
+      <facetEntailment facetID="SE_46_f1" label="Expressed"/>
+      <facetEntailment facetID="SE_46_f2" label="Expressed"/>
+      <facetEntailment facetID="SE_46_f3" label="Expressed"/>
+      <facetEntailment facetID="SE_46_f4" label="Expressed"/>
+      <facetEntailment facetID="SE_46_f5" label="Inferred"/>
+      <facetEntailment facetID="SE_46_f6" label="Inferred"/>
+      <facetEntailment facetID="SE_46_f7" label="Inferred"/>
+      <facetEntailment facetID="SE_46_f8" label="Unaddressed"/>
+      <facetEntailment facetID="SE_46_f9" label="Unaddressed"/>
+      <facetEntailment facetID="SE_46_f10" label="Unaddressed"/>
+      <facetEntailment facetID="SE_46_f11" label="Unaddressed"/>
+      <facetEntailment facetID="SE_46_f12" label="Unaddressed"/>
+      <facetEntailment facetID="SE_46_f13" label="Unaddressed"/>
+      <facetEntailment facetID="SE_46_f14" label="Assumed"/>
+      <facetEntailment facetID="SE_46_f15" label="Assumed"/>
+      <facetEntailment facetID="SE_46_f16" label="Assumed"/>
+      <facetEntailment facetID="SE_46_f17" label="Unaddressed"/>
+      <facetEntailment facetID="SE_46_f18" label="Unaddressed"/>
+      <facetEntailment facetID="SE_46_f19" label="Assumed"/>
+      <facetEntailment facetID="SE_46_f20" label="Assumed"/>
+      <facetEntailment facetID="SE_46_f21" label="Inferred"/>
+      <facetEntailment facetID="SE_46_f22" label="Unaddressed"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

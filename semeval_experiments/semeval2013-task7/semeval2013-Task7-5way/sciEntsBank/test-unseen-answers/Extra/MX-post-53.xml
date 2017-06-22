@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<question testSet="unseen-answers" id="MX_53" module="MX">
+  <questionText>Adam's friend gave him a cup filled with a water solution. Adam did not know what solid material was used to make it. He evaporated the solution and found crystals in the dish after all of the water was gone. How will the crystals help him decide what solid material was used to make the solution?</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="MX_53-a1" text="Crystals of different materials have different shapes. So the shape will help identify the material.">
+      <tokens>
+        <token id="MX_53_ra1">Crystals</token>
+        <token id="MX_53_ra2">of</token>
+        <token id="MX_53_ra3">different</token>
+        <token id="MX_53_ra4">materials</token>
+        <token id="MX_53_ra5">have</token>
+        <token id="MX_53_ra6">different</token>
+        <token id="MX_53_ra7">shapes</token>
+        <token id="MX_53_ra8">.</token>
+        <token id="MX_53_ra9">So</token>
+        <token id="MX_53_ra10">the</token>
+        <token id="MX_53_ra11">shape</token>
+        <token id="MX_53_ra12">will</token>
+        <token id="MX_53_ra13">help</token>
+        <token id="MX_53_ra14">identify</token>
+        <token id="MX_53_ra15">the</token>
+        <token id="MX_53_ra16">material</token>
+        <token id="MX_53_ra17">.</token>
+      </tokens>
+      <facets>
+        <facet id="MX_53_f1" govNum="MX_53_ra1" modNum="MX_53_ra4" reltn="NMod_of" govText="Crystals" isAssumed="true" modText="materials"/>
+        <facet id="MX_53_f2" govNum="MX_53_ra4" modNum="MX_53_ra3" reltn="NMod" govText="materials" isAssumed="true" modText="different"/>
+        <facet id="MX_53_f3" govNum="MX_53_ra1" modNum="MX_53_ra7" reltn="Have" govText="Crystals" modText="shapes"/>
+        <facet id="MX_53_f4" govNum="MX_53_ra7" modNum="MX_53_ra6" reltn="NMod" govText="shapes" modText="different"/>
+        <facet id="MX_53_f5" govNum="MX_53_ra14" modNum="MX_53_ra11" reltn="Means" govText="identify" modText="shape"/>
+        <facet id="MX_53_f6" govNum="MX_53_ra14" modNum="MX_53_ra13" reltn="VMod" govText="identify" isAssumed="true" modText="help"/>
+        <facet id="MX_53_f7" govNum="MX_53_ra14" modNum="MX_53_ra16" reltn="Theme" govText="identify" isAssumed="true" modText="material"/>
+        <facet id="MX_53_f8" govNum="MX_53_ra14" modNum="MX_53_ra5" reltn="Cause_so" childProp2Facet2="MX_53_f4" childProp1Facet1="MX_53_f5" govText="identify" isAssumed="true" childProp1Facet2="MX_53_f7" modText="have" childProp2Facet1="MX_53_f3"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="MX.53.425.1" answerText="Yes, because he could find out what type of crystals they are." accuracy="irrelevant">
+      <facetEntailment facetID="MX_53_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_53_f2" label="Assumed"/>
+      <facetEntailment facetID="MX_53_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_53_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MX_53_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MX_53_f6" label="Assumed"/>
+      <facetEntailment facetID="MX_53_f7" label="Assumed"/>
+      <facetEntailment facetID="MX_53_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.53.473.1" answerText="By comparing them to other solutions." accuracy="irrelevant">
+      <facetEntailment facetID="MX_53_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_53_f2" label="Assumed"/>
+      <facetEntailment facetID="MX_53_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_53_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MX_53_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MX_53_f6" label="Assumed"/>
+      <facetEntailment facetID="MX_53_f7" label="Assumed"/>
+      <facetEntailment facetID="MX_53_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.53.528.1" answerText="Weight them all." accuracy="irrelevant">
+      <facetEntailment facetID="MX_53_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_53_f2" label="Assumed"/>
+      <facetEntailment facetID="MX_53_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_53_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MX_53_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MX_53_f6" label="Assumed"/>
+      <facetEntailment facetID="MX_53_f7" label="Assumed"/>
+      <facetEntailment facetID="MX_53_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.53.575.1" answerText="Each crystal has its own properties so if he recognized if he would know what solute it was." accuracy="correct">
+      <facetEntailment facetID="MX_53_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_53_f2" label="Assumed"/>
+      <facetEntailment facetID="MX_53_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_53_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MX_53_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MX_53_f6" label="Assumed"/>
+      <facetEntailment facetID="MX_53_f7" label="Assumed"/>
+      <facetEntailment facetID="MX_53_f8" label="Assumed"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

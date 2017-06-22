@@ -1,0 +1,477 @@
+<?xml version="1.0"?>
+<question id="FN_20b" module="FN">
+  <questionText>Anna wants to compare the fat in walnuts and peanuts. Using only the results from her experiment, how will Anna know which one, walnuts or peanuts, has more fat? The experiment has the following procedure: Measure out equal masses of walnuts and peanuts (for example, one gram). Smash the samples uniformly in the same size area on brown paper. Wait (the same time for each).</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="FN_20b-a1" text="Anna should compare the size of the grease spots. The sample with the larger grease spot has more fat.">
+      <tokens>
+        <token id="FN_20b_ra1">Anna</token>
+        <token id="FN_20b_ra2">should</token>
+        <token id="FN_20b_ra3">compare</token>
+        <token id="FN_20b_ra4">the</token>
+        <token id="FN_20b_ra5">size</token>
+        <token id="FN_20b_ra6">of</token>
+        <token id="FN_20b_ra7">the</token>
+        <token id="FN_20b_ra8">grease</token>
+        <token id="FN_20b_ra9">spots</token>
+        <token id="FN_20b_ra10">.</token>
+        <token id="FN_20b_ra11">The</token>
+        <token id="FN_20b_ra12">sample</token>
+        <token id="FN_20b_ra13">with</token>
+        <token id="FN_20b_ra14">the</token>
+        <token id="FN_20b_ra15">larger</token>
+        <token id="FN_20b_ra16">grease</token>
+        <token id="FN_20b_ra17">spot</token>
+        <token id="FN_20b_ra18">has</token>
+        <token id="FN_20b_ra19">more</token>
+        <token id="FN_20b_ra20">fat</token>
+        <token id="FN_20b_ra21">.</token>
+      </tokens>
+      <facets>
+        <facet id="FN_20b_f1" govNum="FN_20b_ra3" modNum="FN_20b_ra1" reltn="Agent" govText="compare" modText="Anna"/>
+        <facet id="FN_20b_f2" govNum="FN_20b_ra3" modNum="FN_20b_ra5" reltn="Patient" govText="compare" modText="size"/>
+        <facet id="FN_20b_f3" govNum="FN_20b_ra5" modNum="FN_20b_ra9" reltn="NMod_of" govText="size" modText="spots"/>
+        <facet id="FN_20b_f4" govNum="FN_20b_ra9" modNum="FN_20b_ra8" reltn="NMod" govText="spots" modText="grease"/>
+        <facet id="FN_20b_f5" govNum="FN_20b_ra12" modNum="FN_20b_ra17" reltn="NMod_with" govText="sample" modText="spot"/>
+        <facet id="FN_20b_f6" govNum="FN_20b_ra17" modNum="FN_20b_ra15" reltn="NMod" govText="spot" modText="larger"/>
+        <facet id="FN_20b_f7" govNum="FN_20b_ra17" modNum="FN_20b_ra16" reltn="NMod" govText="spot" modText="grease"/>
+        <facet id="FN_20b_f8" govNum="FN_20b_ra12" modNum="FN_20b_ra20" reltn="Have" govText="sample" isAssumed="true" modText="fat"/>
+        <facet id="FN_20b_f9" govNum="FN_20b_ra20" modNum="FN_20b_ra19" reltn="NMod" govText="fat" isAssumed="true" modText="more"/>
+        <facet id="FN_20b_f10" govNum="FN_20b_ra15" modNum="FN_20b_ra18" reltn="Cause" childProp2Facet2="FN_20b_f9" childProp1Facet1="FN_20b_f6" govText="larger" isAssumed="true" childProp1Facet2="FN_20b_f7" modText="has" childProp2Facet1="FN_20b_f8"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="FN.20b.101.1" answerText="Using only the results from her experiment, Anna will know which one has more fat in it by the larger the grease spot the more fat." accuracy="correct">
+      <facetEntailment facetID="FN_20b_f1" label="Inferred"/>
+      <facetEntailment facetID="FN_20b_f2" label="Inferred"/>
+      <facetEntailment facetID="FN_20b_f3" label="Inferred"/>
+      <facetEntailment facetID="FN_20b_f4" label="Expressed"/>
+      <facetEntailment facetID="FN_20b_f5" label="Inferred"/>
+      <facetEntailment facetID="FN_20b_f6" label="Expressed"/>
+      <facetEntailment facetID="FN_20b_f7" label="Expressed"/>
+      <facetEntailment facetID="FN_20b_f8" label="Expressed"/>
+      <facetEntailment facetID="FN_20b_f9" label="Expressed"/>
+      <facetEntailment facetID="FN_20b_f10" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.20b.114.1" answerText="The way Anna will know is the bigger the spot the more fat." accuracy="correct">
+      <facetEntailment facetID="FN_20b_f1" label="Expressed"/>
+      <facetEntailment facetID="FN_20b_f2" label="Expressed"/>
+      <facetEntailment facetID="FN_20b_f3" label="Expressed"/>
+      <facetEntailment facetID="FN_20b_f4" label="Inferred"/>
+      <facetEntailment facetID="FN_20b_f5" label="Expressed"/>
+      <facetEntailment facetID="FN_20b_f6" label="Expressed"/>
+      <facetEntailment facetID="FN_20b_f7" label="Inferred"/>
+      <facetEntailment facetID="FN_20b_f8" label="Assumed"/>
+      <facetEntailment facetID="FN_20b_f9" label="Expressed"/>
+      <facetEntailment facetID="FN_20b_f10" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.20b.123.1" answerText="She will know which one has the most fat is checking the size of the grease spots." accuracy="correct">
+      <facetEntailment facetID="FN_20b_f1" label="Expressed"/>
+      <facetEntailment facetID="FN_20b_f2" label="Expressed"/>
+      <facetEntailment facetID="FN_20b_f3" label="Expressed"/>
+      <facetEntailment facetID="FN_20b_f4" label="Expressed"/>
+      <facetEntailment facetID="FN_20b_f5" label="Inferred"/>
+      <facetEntailment facetID="FN_20b_f6" label="Inferred"/>
+      <facetEntailment facetID="FN_20b_f7" label="Expressed"/>
+      <facetEntailment facetID="FN_20b_f8" label="Assumed"/>
+      <facetEntailment facetID="FN_20b_f9" label="Assumed"/>
+      <facetEntailment facetID="FN_20b_f10" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.20b.148.1" answerText="Look at the grease that is on it and what has the most grease has the most fat." accuracy="correct">
+      <facetEntailment facetID="FN_20b_f1" label="Expressed"/>
+      <facetEntailment facetID="FN_20b_f2" label="Inferred"/>
+      <facetEntailment facetID="FN_20b_f3" label="Inferred"/>
+      <facetEntailment facetID="FN_20b_f4" label="Expressed"/>
+      <facetEntailment facetID="FN_20b_f5" label="Inferred"/>
+      <facetEntailment facetID="FN_20b_f6" label="Expressed"/>
+      <facetEntailment facetID="FN_20b_f7" label="Expressed"/>
+      <facetEntailment facetID="FN_20b_f8" label="Expressed"/>
+      <facetEntailment facetID="FN_20b_f9" label="Expressed"/>
+      <facetEntailment facetID="FN_20b_f10" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.20b.156.1" answerText="The bigger the grease spot the more fat." accuracy="correct">
+      <facetEntailment facetID="FN_20b_f1" label="Inferred"/>
+      <facetEntailment facetID="FN_20b_f2" label="Inferred"/>
+      <facetEntailment facetID="FN_20b_f3" label="Inferred"/>
+      <facetEntailment facetID="FN_20b_f4" label="Inferred"/>
+      <facetEntailment facetID="FN_20b_f5" label="Inferred"/>
+      <facetEntailment facetID="FN_20b_f6" label="Expressed"/>
+      <facetEntailment facetID="FN_20b_f7" label="Expressed"/>
+      <facetEntailment facetID="FN_20b_f8" label="Assumed"/>
+      <facetEntailment facetID="FN_20b_f9" label="Expressed"/>
+      <facetEntailment facetID="FN_20b_f10" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.20b.160.1" answerText="She will know because the one with a big spot has more fat than the other one." accuracy="correct">
+      <facetEntailment facetID="FN_20b_f1" label="Expressed"/>
+      <facetEntailment facetID="FN_20b_f2" label="Expressed"/>
+      <facetEntailment facetID="FN_20b_f3" label="Expressed"/>
+      <facetEntailment facetID="FN_20b_f4" label="Inferred"/>
+      <facetEntailment facetID="FN_20b_f5" label="Inferred"/>
+      <facetEntailment facetID="FN_20b_f6" label="Expressed"/>
+      <facetEntailment facetID="FN_20b_f7" label="Inferred"/>
+      <facetEntailment facetID="FN_20b_f8" label="Expressed"/>
+      <facetEntailment facetID="FN_20b_f9" label="Expressed"/>
+      <facetEntailment facetID="FN_20b_f10" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.20b.181.1" answerText="She can tell by how big each grease spot is so if walnuts had more fat it would have a bigger grease spot." accuracy="correct">
+      <facetEntailment facetID="FN_20b_f1" label="Expressed"/>
+      <facetEntailment facetID="FN_20b_f2" label="Expressed"/>
+      <facetEntailment facetID="FN_20b_f3" label="Expressed"/>
+      <facetEntailment facetID="FN_20b_f4" label="Expressed"/>
+      <facetEntailment facetID="FN_20b_f5" label="Expressed"/>
+      <facetEntailment facetID="FN_20b_f6" label="Expressed"/>
+      <facetEntailment facetID="FN_20b_f7" label="Expressed"/>
+      <facetEntailment facetID="FN_20b_f8" label="Expressed"/>
+      <facetEntailment facetID="FN_20b_f9" label="Expressed"/>
+      <facetEntailment facetID="FN_20b_f10" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.20b.218.1" answerText="Whichever one is higher on the graph has more fat." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="FN_20b_f1" label="Inferred"/>
+      <facetEntailment facetID="FN_20b_f2" label="Inferred"/>
+      <facetEntailment facetID="FN_20b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="FN_20b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="FN_20b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="FN_20b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="FN_20b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="FN_20b_f8" label="Expressed"/>
+      <facetEntailment facetID="FN_20b_f9" label="Expressed"/>
+      <facetEntailment facetID="FN_20b_f10" label="Diff-Arg"/>
+    </studentAnswer>
+    <studentAnswer id="FN.20b.265.1" answerText="You can tell which one has more fat by looking at the brown piece of paper and the biggest grease spot has more fat in it." accuracy="correct">
+      <facetEntailment facetID="FN_20b_f1" label="Expressed"/>
+      <facetEntailment facetID="FN_20b_f2" label="Expressed"/>
+      <facetEntailment facetID="FN_20b_f3" label="Expressed"/>
+      <facetEntailment facetID="FN_20b_f4" label="Expressed"/>
+      <facetEntailment facetID="FN_20b_f5" label="Expressed"/>
+      <facetEntailment facetID="FN_20b_f6" label="Expressed"/>
+      <facetEntailment facetID="FN_20b_f7" label="Expressed"/>
+      <facetEntailment facetID="FN_20b_f8" label="Expressed"/>
+      <facetEntailment facetID="FN_20b_f9" label="Expressed"/>
+      <facetEntailment facetID="FN_20b_f10" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.20b.277.1" answerText="The one that has more fat on the paper." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="FN_20b_f1" label="Inferred"/>
+      <facetEntailment facetID="FN_20b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="FN_20b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="FN_20b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="FN_20b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="FN_20b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="FN_20b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="FN_20b_f8" label="Expressed"/>
+      <facetEntailment facetID="FN_20b_f9" label="Expressed"/>
+      <facetEntailment facetID="FN_20b_f10" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.20b.280.1" answerText="Anna will know by mix and dividing it and she will get a percentage of how much fat is in walnuts and peanuts." accuracy="irrelevant">
+      <facetEntailment facetID="FN_20b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="FN_20b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="FN_20b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="FN_20b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="FN_20b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="FN_20b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="FN_20b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="FN_20b_f8" label="Assumed"/>
+      <facetEntailment facetID="FN_20b_f9" label="Assumed"/>
+      <facetEntailment facetID="FN_20b_f10" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.20b.311.1" answerText="The nut with the largest grease spot has the most fat." accuracy="correct">
+      <facetEntailment facetID="FN_20b_f1" label="Inferred"/>
+      <facetEntailment facetID="FN_20b_f2" label="Inferred"/>
+      <facetEntailment facetID="FN_20b_f3" label="Inferred"/>
+      <facetEntailment facetID="FN_20b_f4" label="Inferred"/>
+      <facetEntailment facetID="FN_20b_f5" label="Expressed"/>
+      <facetEntailment facetID="FN_20b_f6" label="Expressed"/>
+      <facetEntailment facetID="FN_20b_f7" label="Expressed"/>
+      <facetEntailment facetID="FN_20b_f8" label="Expressed"/>
+      <facetEntailment facetID="FN_20b_f9" label="Expressed"/>
+      <facetEntailment facetID="FN_20b_f10" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.20b.318.1" answerText="Whichever one has more oil spread out on the paper towel has the most fat." accuracy="correct">
+      <facetEntailment facetID="FN_20b_f1" label="Inferred"/>
+      <facetEntailment facetID="FN_20b_f2" label="Inferred"/>
+      <facetEntailment facetID="FN_20b_f3" label="Inferred"/>
+      <facetEntailment facetID="FN_20b_f4" label="Inferred"/>
+      <facetEntailment facetID="FN_20b_f5" label="Inferred"/>
+      <facetEntailment facetID="FN_20b_f6" label="Inferred"/>
+      <facetEntailment facetID="FN_20b_f7" label="Inferred"/>
+      <facetEntailment facetID="FN_20b_f8" label="Expressed"/>
+      <facetEntailment facetID="FN_20b_f9" label="Expressed"/>
+      <facetEntailment facetID="FN_20b_f10" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.20b.329.1" answerText="She will know by the grease mark on the brown piece of paper." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="FN_20b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="FN_20b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="FN_20b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="FN_20b_f4" label="Expressed"/>
+      <facetEntailment facetID="FN_20b_f5" label="Inferred"/>
+      <facetEntailment facetID="FN_20b_f6" label="Inferred"/>
+      <facetEntailment facetID="FN_20b_f7" label="Expressed"/>
+      <facetEntailment facetID="FN_20b_f8" label="Assumed"/>
+      <facetEntailment facetID="FN_20b_f9" label="Assumed"/>
+      <facetEntailment facetID="FN_20b_f10" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.20b.332.1" answerText="The one that has the bigger grease stain." accuracy="correct">
+      <facetEntailment facetID="FN_20b_f1" label="Inferred"/>
+      <facetEntailment facetID="FN_20b_f2" label="Inferred"/>
+      <facetEntailment facetID="FN_20b_f3" label="Inferred"/>
+      <facetEntailment facetID="FN_20b_f4" label="Inferred"/>
+      <facetEntailment facetID="FN_20b_f5" label="Inferred"/>
+      <facetEntailment facetID="FN_20b_f6" label="Expressed"/>
+      <facetEntailment facetID="FN_20b_f7" label="Expressed"/>
+      <facetEntailment facetID="FN_20b_f8" label="Assumed"/>
+      <facetEntailment facetID="FN_20b_f9" label="Assumed"/>
+      <facetEntailment facetID="FN_20b_f10" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.20b.333.1" answerText="Anna would know by looking at the 2 pieces of paper and seeing the paper that has more grease on it. The one that has more grease on it has more fat." accuracy="correct">
+      <facetEntailment facetID="FN_20b_f1" label="Expressed"/>
+      <facetEntailment facetID="FN_20b_f2" label="Expressed"/>
+      <facetEntailment facetID="FN_20b_f3" label="Expressed"/>
+      <facetEntailment facetID="FN_20b_f4" label="Expressed"/>
+      <facetEntailment facetID="FN_20b_f5" label="Inferred"/>
+      <facetEntailment facetID="FN_20b_f6" label="Expressed"/>
+      <facetEntailment facetID="FN_20b_f7" label="Expressed"/>
+      <facetEntailment facetID="FN_20b_f8" label="Expressed"/>
+      <facetEntailment facetID="FN_20b_f9" label="Expressed"/>
+      <facetEntailment facetID="FN_20b_f10" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.20b.364.1" answerText="Let it sit for a day and if there was a grease spot that is how she would find out." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="FN_20b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="FN_20b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="FN_20b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="FN_20b_f4" label="Expressed"/>
+      <facetEntailment facetID="FN_20b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="FN_20b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="FN_20b_f7" label="Expressed"/>
+      <facetEntailment facetID="FN_20b_f8" label="Assumed"/>
+      <facetEntailment facetID="FN_20b_f9" label="Assumed"/>
+      <facetEntailment facetID="FN_20b_f10" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.20b.381.1" answerText="By the time 2 days are up both indicators will have a grease spot, both representing a walnut and a peanut the one with the biggest grease spot has the most fat." accuracy="correct">
+      <facetEntailment facetID="FN_20b_f1" label="Inferred"/>
+      <facetEntailment facetID="FN_20b_f2" label="Inferred"/>
+      <facetEntailment facetID="FN_20b_f3" label="Inferred"/>
+      <facetEntailment facetID="FN_20b_f4" label="Expressed"/>
+      <facetEntailment facetID="FN_20b_f5" label="Inferred"/>
+      <facetEntailment facetID="FN_20b_f6" label="Expressed"/>
+      <facetEntailment facetID="FN_20b_f7" label="Expressed"/>
+      <facetEntailment facetID="FN_20b_f8" label="Expressed"/>
+      <facetEntailment facetID="FN_20b_f9" label="Expressed"/>
+      <facetEntailment facetID="FN_20b_f10" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.20b.388.1" answerText="She will get the results with the biggest grease spot. For the most fat." accuracy="correct">
+      <facetEntailment facetID="FN_20b_f1" label="Inferred"/>
+      <facetEntailment facetID="FN_20b_f2" label="Inferred"/>
+      <facetEntailment facetID="FN_20b_f3" label="Inferred"/>
+      <facetEntailment facetID="FN_20b_f4" label="Expressed"/>
+      <facetEntailment facetID="FN_20b_f5" label="Inferred"/>
+      <facetEntailment facetID="FN_20b_f6" label="Expressed"/>
+      <facetEntailment facetID="FN_20b_f7" label="Expressed"/>
+      <facetEntailment facetID="FN_20b_f8" label="Expressed"/>
+      <facetEntailment facetID="FN_20b_f9" label="Expressed"/>
+      <facetEntailment facetID="FN_20b_f10" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.20b.402.1" answerText="Then she will know that walnut or peanuts has more fat." accuracy="irrelevant">
+      <facetEntailment facetID="FN_20b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="FN_20b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="FN_20b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="FN_20b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="FN_20b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="FN_20b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="FN_20b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="FN_20b_f8" label="Assumed"/>
+      <facetEntailment facetID="FN_20b_f9" label="Assumed"/>
+      <facetEntailment facetID="FN_20b_f10" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.20b.407.1" answerText="Anna will measure the grease spot then she will figure out which one has more fat." accuracy="correct">
+      <facetEntailment facetID="FN_20b_f1" label="Expressed"/>
+      <facetEntailment facetID="FN_20b_f2" label="Expressed"/>
+      <facetEntailment facetID="FN_20b_f3" label="Expressed"/>
+      <facetEntailment facetID="FN_20b_f4" label="Expressed"/>
+      <facetEntailment facetID="FN_20b_f5" label="Expressed"/>
+      <facetEntailment facetID="FN_20b_f6" label="Inferred"/>
+      <facetEntailment facetID="FN_20b_f7" label="Expressed"/>
+      <facetEntailment facetID="FN_20b_f8" label="Expressed"/>
+      <facetEntailment facetID="FN_20b_f9" label="Expressed"/>
+      <facetEntailment facetID="FN_20b_f10" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.20b.428.1" answerText="By waiting for 2 days from morning until night, then you will see which one is fattier." accuracy="irrelevant">
+      <facetEntailment facetID="FN_20b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="FN_20b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="FN_20b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="FN_20b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="FN_20b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="FN_20b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="FN_20b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="FN_20b_f8" label="Assumed"/>
+      <facetEntailment facetID="FN_20b_f9" label="Expressed"/>
+      <facetEntailment facetID="FN_20b_f10" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.20b.437.1" answerText="Peanut has more than walnut." accuracy="irrelevant">
+      <facetEntailment facetID="FN_20b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="FN_20b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="FN_20b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="FN_20b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="FN_20b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="FN_20b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="FN_20b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="FN_20b_f8" label="Assumed"/>
+      <facetEntailment facetID="FN_20b_f9" label="Assumed"/>
+      <facetEntailment facetID="FN_20b_f10" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.20b.464.1" answerText="The brown paper will look wet and that will tell you which one has more fat in them." accuracy="correct">
+      <facetEntailment facetID="FN_20b_f1" label="Inferred"/>
+      <facetEntailment facetID="FN_20b_f2" label="Inferred"/>
+      <facetEntailment facetID="FN_20b_f3" label="Inferred"/>
+      <facetEntailment facetID="FN_20b_f4" label="Inferred"/>
+      <facetEntailment facetID="FN_20b_f5" label="Inferred"/>
+      <facetEntailment facetID="FN_20b_f6" label="Inferred"/>
+      <facetEntailment facetID="FN_20b_f7" label="Inferred"/>
+      <facetEntailment facetID="FN_20b_f8" label="Expressed"/>
+      <facetEntailment facetID="FN_20b_f9" label="Expressed"/>
+      <facetEntailment facetID="FN_20b_f10" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.20b.488.1" answerText="The more grease the more fat there is." accuracy="correct">
+      <facetEntailment facetID="FN_20b_f1" label="Inferred"/>
+      <facetEntailment facetID="FN_20b_f2" label="Inferred"/>
+      <facetEntailment facetID="FN_20b_f3" label="Inferred"/>
+      <facetEntailment facetID="FN_20b_f4" label="Inferred"/>
+      <facetEntailment facetID="FN_20b_f5" label="Inferred"/>
+      <facetEntailment facetID="FN_20b_f6" label="Inferred"/>
+      <facetEntailment facetID="FN_20b_f7" label="Inferred"/>
+      <facetEntailment facetID="FN_20b_f8" label="Expressed"/>
+      <facetEntailment facetID="FN_20b_f9" label="Expressed"/>
+      <facetEntailment facetID="FN_20b_f10" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.20b.491.1" answerText="You get grid paper and put it on the grease spot and count the square in the grease spot." accuracy="correct">
+      <facetEntailment facetID="FN_20b_f1" label="Expressed"/>
+      <facetEntailment facetID="FN_20b_f2" label="Expressed"/>
+      <facetEntailment facetID="FN_20b_f3" label="Expressed"/>
+      <facetEntailment facetID="FN_20b_f4" label="Expressed"/>
+      <facetEntailment facetID="FN_20b_f5" label="Inferred"/>
+      <facetEntailment facetID="FN_20b_f6" label="Inferred"/>
+      <facetEntailment facetID="FN_20b_f7" label="Expressed"/>
+      <facetEntailment facetID="FN_20b_f8" label="Assumed"/>
+      <facetEntailment facetID="FN_20b_f9" label="Assumed"/>
+      <facetEntailment facetID="FN_20b_f10" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.20b.508.1" answerText="It will show a grease spot. Then you get a graph paper then it will show how many percent it has." accuracy="correct">
+      <facetEntailment facetID="FN_20b_f1" label="Inferred"/>
+      <facetEntailment facetID="FN_20b_f2" label="Inferred"/>
+      <facetEntailment facetID="FN_20b_f3" label="Inferred"/>
+      <facetEntailment facetID="FN_20b_f4" label="Expressed"/>
+      <facetEntailment facetID="FN_20b_f5" label="Expressed"/>
+      <facetEntailment facetID="FN_20b_f6" label="Inferred"/>
+      <facetEntailment facetID="FN_20b_f7" label="Expressed"/>
+      <facetEntailment facetID="FN_20b_f8" label="Assumed"/>
+      <facetEntailment facetID="FN_20b_f9" label="Assumed"/>
+      <facetEntailment facetID="FN_20b_f10" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.20b.522.1" answerText="On your indicator whichever had more grease spots." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="FN_20b_f1" label="Inferred"/>
+      <facetEntailment facetID="FN_20b_f2" label="Inferred"/>
+      <facetEntailment facetID="FN_20b_f3" label="Inferred"/>
+      <facetEntailment facetID="FN_20b_f4" label="Expressed"/>
+      <facetEntailment facetID="FN_20b_f5" label="Expressed"/>
+      <facetEntailment facetID="FN_20b_f6" label="Diff-Arg"/>
+      <facetEntailment facetID="FN_20b_f7" label="Expressed"/>
+      <facetEntailment facetID="FN_20b_f8" label="Assumed"/>
+      <facetEntailment facetID="FN_20b_f9" label="Assumed"/>
+      <facetEntailment facetID="FN_20b_f10" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.20b.528.1" answerText="Look at the grease marks." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="FN_20b_f1" label="Inferred"/>
+      <facetEntailment facetID="FN_20b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="FN_20b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="FN_20b_f4" label="Expressed"/>
+      <facetEntailment facetID="FN_20b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="FN_20b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="FN_20b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="FN_20b_f8" label="Assumed"/>
+      <facetEntailment facetID="FN_20b_f9" label="Assumed"/>
+      <facetEntailment facetID="FN_20b_f10" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.20b.531.1" answerText="You take the grid chart over each food sample and count the squares that is filled with grease marks." accuracy="correct">
+      <facetEntailment facetID="FN_20b_f1" label="Inferred"/>
+      <facetEntailment facetID="FN_20b_f2" label="Expressed"/>
+      <facetEntailment facetID="FN_20b_f3" label="Expressed"/>
+      <facetEntailment facetID="FN_20b_f4" label="Expressed"/>
+      <facetEntailment facetID="FN_20b_f5" label="Expressed"/>
+      <facetEntailment facetID="FN_20b_f6" label="Inferred"/>
+      <facetEntailment facetID="FN_20b_f7" label="Expressed"/>
+      <facetEntailment facetID="FN_20b_f8" label="Expressed"/>
+      <facetEntailment facetID="FN_20b_f9" label="Assumed"/>
+      <facetEntailment facetID="FN_20b_f10" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.20b.538.1" answerText="The grease marks will show her which one has more fat." accuracy="correct">
+      <facetEntailment facetID="FN_20b_f1" label="Inferred"/>
+      <facetEntailment facetID="FN_20b_f2" label="Inferred"/>
+      <facetEntailment facetID="FN_20b_f3" label="Inferred"/>
+      <facetEntailment facetID="FN_20b_f4" label="Expressed"/>
+      <facetEntailment facetID="FN_20b_f5" label="Inferred"/>
+      <facetEntailment facetID="FN_20b_f6" label="Inferred"/>
+      <facetEntailment facetID="FN_20b_f7" label="Expressed"/>
+      <facetEntailment facetID="FN_20b_f8" label="Expressed"/>
+      <facetEntailment facetID="FN_20b_f9" label="Expressed"/>
+      <facetEntailment facetID="FN_20b_f10" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.20b.558.1" answerText="Anna will know which food has more fat by the grease spots on the brown paper." accuracy="correct">
+      <facetEntailment facetID="FN_20b_f1" label="Expressed"/>
+      <facetEntailment facetID="FN_20b_f2" label="Inferred"/>
+      <facetEntailment facetID="FN_20b_f3" label="Inferred"/>
+      <facetEntailment facetID="FN_20b_f4" label="Expressed"/>
+      <facetEntailment facetID="FN_20b_f5" label="Expressed"/>
+      <facetEntailment facetID="FN_20b_f6" label="Inferred"/>
+      <facetEntailment facetID="FN_20b_f7" label="Expressed"/>
+      <facetEntailment facetID="FN_20b_f8" label="Assumed"/>
+      <facetEntailment facetID="FN_20b_f9" label="Expressed"/>
+      <facetEntailment facetID="FN_20b_f10" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.20b.587.1" answerText="The one that has more grease will have more fat." accuracy="correct">
+      <facetEntailment facetID="FN_20b_f1" label="Inferred"/>
+      <facetEntailment facetID="FN_20b_f2" label="Inferred"/>
+      <facetEntailment facetID="FN_20b_f3" label="Inferred"/>
+      <facetEntailment facetID="FN_20b_f4" label="Expressed"/>
+      <facetEntailment facetID="FN_20b_f5" label="Inferred"/>
+      <facetEntailment facetID="FN_20b_f6" label="Inferred"/>
+      <facetEntailment facetID="FN_20b_f7" label="Expressed"/>
+      <facetEntailment facetID="FN_20b_f8" label="Expressed"/>
+      <facetEntailment facetID="FN_20b_f9" label="Expressed"/>
+      <facetEntailment facetID="FN_20b_f10" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.20b.605.1" answerText="First you need a square centimeter chart. Put it in the circle and add them. The cross that are half add them to each other." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="FN_20b_f1" label="Inferred"/>
+      <facetEntailment facetID="FN_20b_f2" label="Inferred"/>
+      <facetEntailment facetID="FN_20b_f3" label="Inferred"/>
+      <facetEntailment facetID="FN_20b_f4" label="Inferred"/>
+      <facetEntailment facetID="FN_20b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="FN_20b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="FN_20b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="FN_20b_f8" label="Assumed"/>
+      <facetEntailment facetID="FN_20b_f9" label="Assumed"/>
+      <facetEntailment facetID="FN_20b_f10" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.20b.611.1" answerText="They should see which has more grease." accuracy="correct">
+      <facetEntailment facetID="FN_20b_f1" label="Expressed"/>
+      <facetEntailment facetID="FN_20b_f2" label="Expressed"/>
+      <facetEntailment facetID="FN_20b_f3" label="Expressed"/>
+      <facetEntailment facetID="FN_20b_f4" label="Expressed"/>
+      <facetEntailment facetID="FN_20b_f5" label="Inferred"/>
+      <facetEntailment facetID="FN_20b_f6" label="Expressed"/>
+      <facetEntailment facetID="FN_20b_f7" label="Expressed"/>
+      <facetEntailment facetID="FN_20b_f8" label="Assumed"/>
+      <facetEntailment facetID="FN_20b_f9" label="Assumed"/>
+      <facetEntailment facetID="FN_20b_f10" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="FN.20b.616.1" answerText="Lay the crushed walnuts and peanuts on brown paper." accuracy="irrelevant">
+      <facetEntailment facetID="FN_20b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="FN_20b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="FN_20b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="FN_20b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="FN_20b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="FN_20b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="FN_20b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="FN_20b_f8" label="Assumed"/>
+      <facetEntailment facetID="FN_20b_f9" label="Assumed"/>
+      <facetEntailment facetID="FN_20b_f10" label="Assumed"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

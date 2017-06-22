@@ -1,0 +1,936 @@
+<?xml version="1.0"?>
+<question qtype="Q_EXPLAIN_SPECIFIC" id="GIVE_CIRCUIT_TYPE_PARALLEL_EXPLAIN_Q2" module="SwitchesBulbsParallel" stype="QUESTION">
+  <questionText>Explain your reasoning.</questionText>
+  <referenceAnswers>
+    <referenceAnswer category="BEST" id="answer418" fileID="GIVE_CIRCUIT_TYPE_PARALLEL_EXPLAIN_Q2_ANS1">A and C are in different paths with the battery</referenceAnswer>
+    <referenceAnswer category="GOOD" id="answer419" fileID="GIVE_CIRCUIT_TYPE_PARALLEL_EXPLAIN_Q2_ANS2">A and C are not in the same path with the battery</referenceAnswer>
+    <referenceAnswer category="GOOD" id="answer420" fileID="GIVE_CIRCUIT_TYPE_PARALLEL_EXPLAIN_Q2_ANS3">A and C are in different paths</referenceAnswer>
+    <referenceAnswer category="MINIMAL" id="answer421" fileID="GIVE_CIRCUIT_TYPE_PARALLEL_EXPLAIN_Q2_ANS4">A and C are not in the same path</referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer count="3" answerMatch="answer420" raw_text="they are contained in different closed paths" id="SwitchesBulbsParallel-GIVE_CIRCUIT_TYPE_PARALLEL_EXPLAIN_Q2.sbj3-l2.qa130" accuracy="correct">
+      <token status="ok" id="tok2644">they</token>
+      <token status="ok" id="tok2645">are</token>
+      <token status="ok" id="tok2646">contained</token>
+      <token status="ok" id="tok2647">in</token>
+      <token status="ok" id="tok2648">different</token>
+      <token status="ok" id="tok2649">closed</token>
+      <token status="ok" id="tok2650">paths</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer418" raw_text="if  bulb a is damaged, bulb c is not affected." id="SwitchesBulbsParallel-GIVE_CIRCUIT_TYPE_PARALLEL_EXPLAIN_Q2.sbj7-l2.qa133" accuracy="correct">
+      <token status="ok" id="tok2674">if</token>
+      <token status="ok" id="tok2675">bulb</token>
+      <token status="ok" id="tok2676">a</token>
+      <token status="ok" id="tok2677">is</token>
+      <token status="ok" id="tok2678">damaged</token>
+      <token status="ok" id="tok2679">bulb</token>
+      <token status="ok" id="tok2680">c</token>
+      <token status="ok" id="tok2681">is</token>
+      <token status="ok" id="tok2682">not</token>
+      <token status="ok" id="tok2683">affected</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer421" raw_text="they are not within a closed path" id="SwitchesBulbsParallel-GIVE_CIRCUIT_TYPE_PARALLEL_EXPLAIN_Q2.sbj8-l2.qa144" accuracy="contradictory">
+      <token status="ok" id="tok3002">they</token>
+      <token status="ok" id="tok3003">are</token>
+      <token status="ok" id="tok3004">not</token>
+      <token status="ok" id="tok3005">within</token>
+      <token status="ok" id="tok3006">a</token>
+      <token status="ok" id="tok3007">closed</token>
+      <token status="ok" id="tok3008">path</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer421" raw_text="bulb a and c are not contained within the same closed path" id="SwitchesBulbsParallel-GIVE_CIRCUIT_TYPE_PARALLEL_EXPLAIN_Q2.sbj8-l2.qa145" accuracy="correct">
+      <token status="ok" id="tok3033">bulb</token>
+      <token status="ok" id="tok3034">a</token>
+      <token status="ok" id="tok3035">and</token>
+      <token status="ok" id="tok3036">c</token>
+      <token status="ok" id="tok3037">are</token>
+      <token status="ok" id="tok3038">not</token>
+      <token status="ok" id="tok3039">contained</token>
+      <token status="ok" id="tok3040">within</token>
+      <token status="ok" id="tok3041">the</token>
+      <token status="ok" id="tok3042">same</token>
+      <token status="ok" id="tok3043">closed</token>
+      <token status="ok" id="tok3044">path</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer421" raw_text="bulbs a, b, and c are not contained in the same closed path." id="SwitchesBulbsParallel-GIVE_CIRCUIT_TYPE_PARALLEL_EXPLAIN_Q2.sbj9-l2.qa136" accuracy="correct">
+      <token status="ok" id="tok2858">bulbs</token>
+      <token status="ok" id="tok2859">a</token>
+      <token status="ok" id="tok2860">b</token>
+      <token status="ok" id="tok2861">and</token>
+      <token status="ok" id="tok2862">c</token>
+      <token status="ok" id="tok2863">are</token>
+      <token status="ok" id="tok2864">not</token>
+      <token status="ok" id="tok2865">contained</token>
+      <token status="ok" id="tok2866">in</token>
+      <token status="ok" id="tok2867">the</token>
+      <token status="ok" id="tok2868">same</token>
+      <token status="ok" id="tok2869">closed</token>
+      <token status="ok" id="tok2870">path</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer420" raw_text="bulbs a b and c are on seperate paths" id="SwitchesBulbsParallel-GIVE_CIRCUIT_TYPE_PARALLEL_EXPLAIN_Q2.sbj10-l2.qa142" accuracy="correct">
+      <token status="ok" id="tok2955">bulbs</token>
+      <token status="ok" id="tok2956">a</token>
+      <token status="ok" id="tok2957">b</token>
+      <token status="ok" id="tok2958">and</token>
+      <token status="ok" id="tok2959">c</token>
+      <token status="ok" id="tok2960">are</token>
+      <token status="ok" id="tok2961">on</token>
+      <token status="ok" id="tok2962" original="seperate">separate</token>
+      <token status="ok" id="tok2963">paths</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer418" raw_text="bulb a, bulb b, and bulb c are contained in differentclosed paths." id="SwitchesBulbsParallel-GIVE_CIRCUIT_TYPE_PARALLEL_EXPLAIN_Q2.sbj11-l2.qa138" accuracy="correct">
+      <token status="ok" id="tok2946">bulb</token>
+      <token status="ok" id="tok2947">a</token>
+      <token status="ok" id="tok2948">bulb</token>
+      <token status="ok" id="tok2949">b</token>
+      <token status="ok" id="tok2950">and</token>
+      <token status="ok" id="tok2951">bulb</token>
+      <token status="ok" id="tok2952">c</token>
+      <token status="ok" id="tok2953">are</token>
+      <token status="ok" id="tok2954">contained</token>
+      <token status="ok" id="tok2955">in</token>
+      <token status="ok" id="tok2956a">different</token>
+      <token status="ok" id="tok2956b">closed</token>
+      <token status="ok" id="tok2957">paths</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer420" raw_text="Bulb A, bulb B and bulb C are in different closed paths." id="SwitchesBulbsParallel-GIVE_CIRCUIT_TYPE_PARALLEL_EXPLAIN_Q2.sbj12-l2.qa147" accuracy="correct">
+      <token status="ok" id="tok2867">Bulb</token>
+      <token status="ok" id="tok2868">A</token>
+      <token status="ok" id="tok2869">bulb</token>
+      <token status="ok" id="tok2870">B</token>
+      <token status="ok" id="tok2871">and</token>
+      <token status="ok" id="tok2872">bulb</token>
+      <token status="ok" id="tok2873">C</token>
+      <token status="ok" id="tok2874">are</token>
+      <token status="ok" id="tok2875">in</token>
+      <token status="ok" id="tok2876">different</token>
+      <token status="ok" id="tok2877">closed</token>
+      <token status="ok" id="tok2878">paths</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer420" raw_text="Bulb A, bulb B and bulb C are contained in differnt paths." id="SwitchesBulbsParallel-GIVE_CIRCUIT_TYPE_PARALLEL_EXPLAIN_Q2.sbj12-l2.qa148" accuracy="correct">
+      <token status="ok" id="tok2896">Bulb</token>
+      <token status="ok" id="tok2897">A</token>
+      <token status="ok" id="tok2898">bulb</token>
+      <token status="ok" id="tok2899">B</token>
+      <token status="ok" id="tok2900">and</token>
+      <token status="ok" id="tok2901">bulb</token>
+      <token status="ok" id="tok2902">C</token>
+      <token status="ok" id="tok2903">are</token>
+      <token status="ok" id="tok2904">contained</token>
+      <token status="ok" id="tok2905">in</token>
+      <token status="ok" id="tok2906" original="differnt">different</token>
+      <token status="ok" id="tok2907">paths</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer421" raw_text="bulb a will not affect bulbs b and c" id="SwitchesBulbsParallel-GIVE_CIRCUIT_TYPE_PARALLEL_EXPLAIN_Q2.sbj12-l2.qa149" accuracy="partially_correct_incomplete">
+      <token status="ok" id="tok2919">bulb</token>
+      <token status="ok" id="tok2920">a</token>
+      <token status="ok" id="tok2921">will</token>
+      <token status="ok" id="tok2922">not</token>
+      <token status="ok" id="tok2923">affect</token>
+      <token status="ok" id="tok2924">bulbs</token>
+      <token status="ok" id="tok2925">b</token>
+      <token status="ok" id="tok2926">and</token>
+      <token status="ok" id="tok2927">c</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer419" raw_text="bulbs a, b and c are not contained in the same closed path." id="SwitchesBulbsParallel-GIVE_CIRCUIT_TYPE_PARALLEL_EXPLAIN_Q2.sbj13-l2.qa155" accuracy="correct">
+      <token status="ok" id="tok3297">bulbs</token>
+      <token status="ok" id="tok3298">a</token>
+      <token status="ok" id="tok3299">b</token>
+      <token status="ok" id="tok3300">and</token>
+      <token status="ok" id="tok3301">c</token>
+      <token status="ok" id="tok3302">are</token>
+      <token status="ok" id="tok3303">not</token>
+      <token status="ok" id="tok3304">contained</token>
+      <token status="ok" id="tok3305">in</token>
+      <token status="ok" id="tok3306">the</token>
+      <token status="ok" id="tok3307">same</token>
+      <token status="ok" id="tok3308">closed</token>
+      <token status="ok" id="tok3309">path</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer421" raw_text="They are not contained in the same path." id="SwitchesBulbsParallel-GIVE_CIRCUIT_TYPE_PARALLEL_EXPLAIN_Q2.sbj14-l2.qa147" accuracy="correct">
+      <token status="ok" id="tok2886">They</token>
+      <token status="ok" id="tok2887">are</token>
+      <token status="ok" id="tok2888">not</token>
+      <token status="ok" id="tok2889">contained</token>
+      <token status="ok" id="tok2890">in</token>
+      <token status="ok" id="tok2891">the</token>
+      <token status="ok" id="tok2892">same</token>
+      <token status="ok" id="tok2893">path</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer421" raw_text="because bulbs A and C are not contained in the same closed paths" id="SwitchesBulbsParallel-GIVE_CIRCUIT_TYPE_PARALLEL_EXPLAIN_Q2.sbj15-l2.qa166" accuracy="correct">
+      <token status="ok" id="tok3606">because</token>
+      <token status="ok" id="tok3607">bulbs</token>
+      <token status="ok" id="tok3608">A</token>
+      <token status="ok" id="tok3609">and</token>
+      <token status="ok" id="tok3610">C</token>
+      <token status="ok" id="tok3611">are</token>
+      <token status="ok" id="tok3612">not</token>
+      <token status="ok" id="tok3613">contained</token>
+      <token status="ok" id="tok3614">in</token>
+      <token status="ok" id="tok3615">the</token>
+      <token status="ok" id="tok3616">same</token>
+      <token status="ok" id="tok3617">closed</token>
+      <token status="ok" id="tok3618">paths</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer418" raw_text="Bulbs a and c are in separate closed paths with the battery." id="SwitchesBulbsParallel-GIVE_CIRCUIT_TYPE_PARALLEL_EXPLAIN_Q2.sbj18-l2.qa131" accuracy="correct">
+      <token status="ok" id="tok2699">Bulbs</token>
+      <token status="ok" id="tok2700">a</token>
+      <token status="ok" id="tok2701">and</token>
+      <token status="ok" id="tok2702">c</token>
+      <token status="ok" id="tok2703">are</token>
+      <token status="ok" id="tok2704">in</token>
+      <token status="ok" id="tok2705">separate</token>
+      <token status="ok" id="tok2706">closed</token>
+      <token status="ok" id="tok2707">paths</token>
+      <token status="ok" id="tok2708">with</token>
+      <token status="ok" id="tok2709">the</token>
+      <token status="ok" id="tok2710">battery</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="bulb a and bulb c are wired in parallel" id="SwitchesBulbsParallel-GIVE_CIRCUIT_TYPE_PARALLEL_EXPLAIN_Q2.sbj19-l2.qa167" accuracy="irrelevant">
+      <token status="ok" id="tok3705">bulb</token>
+      <token status="ok" id="tok3706">a</token>
+      <token status="ok" id="tok3707">and</token>
+      <token status="ok" id="tok3708">bulb</token>
+      <token status="ok" id="tok3709">c</token>
+      <token status="ok" id="tok3710">are</token>
+      <token status="ok" id="tok3711">wired</token>
+      <token status="ok" id="tok3712">in</token>
+      <token status="ok" id="tok3713">parallel</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="they are in the same closed path" id="SwitchesBulbsParallel-GIVE_CIRCUIT_TYPE_PARALLEL_EXPLAIN_Q2.sbj19-l2.qa168" accuracy="contradictory">
+      <token status="ok" id="tok3726">they</token>
+      <token status="ok" id="tok3727">are</token>
+      <token status="ok" id="tok3728">in</token>
+      <token status="ok" id="tok3729">the</token>
+      <token status="ok" id="tok3730">same</token>
+      <token status="ok" id="tok3731">closed</token>
+      <token status="ok" id="tok3732">path</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer421" raw_text="they are not in the same closed path" id="SwitchesBulbsParallel-GIVE_CIRCUIT_TYPE_PARALLEL_EXPLAIN_Q2.sbj22-l2.qa147" accuracy="correct">
+      <token status="ok" id="tok3019">they</token>
+      <token status="ok" id="tok3020">are</token>
+      <token status="ok" id="tok3021">not</token>
+      <token status="ok" id="tok3022">in</token>
+      <token status="ok" id="tok3023">the</token>
+      <token status="ok" id="tok3024">same</token>
+      <token status="ok" id="tok3025">closed</token>
+      <token status="ok" id="tok3026">path</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer420" raw_text="Bulb A, B, and C are contained in different closed paths." id="SwitchesBulbsParallel-GIVE_CIRCUIT_TYPE_PARALLEL_EXPLAIN_Q2.sbj23-l2.qa139" accuracy="correct">
+      <token status="ok" id="tok2794">Bulb</token>
+      <token status="ok" id="tok2795">A</token>
+      <token status="ok" id="tok2796">B</token>
+      <token status="ok" id="tok2797">and</token>
+      <token status="ok" id="tok2798">C</token>
+      <token status="ok" id="tok2799">are</token>
+      <token status="ok" id="tok2800">contained</token>
+      <token status="ok" id="tok2801">in</token>
+      <token status="ok" id="tok2802">different</token>
+      <token status="ok" id="tok2803">closed</token>
+      <token status="ok" id="tok2804">paths</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer420" raw_text="Bulb A, bulb B, and bulb C are contained in different closed paths." id="SwitchesBulbsParallel-GIVE_CIRCUIT_TYPE_PARALLEL_EXPLAIN_Q2.sbj23-l2.qa140" accuracy="correct">
+      <token status="ok" id="tok2822">Bulb</token>
+      <token status="ok" id="tok2823">A</token>
+      <token status="ok" id="tok2824">bulb</token>
+      <token status="ok" id="tok2825">B</token>
+      <token status="ok" id="tok2826">and</token>
+      <token status="ok" id="tok2827">bulb</token>
+      <token status="ok" id="tok2828">C</token>
+      <token status="ok" id="tok2829">are</token>
+      <token status="ok" id="tok2830">contained</token>
+      <token status="ok" id="tok2831">in</token>
+      <token status="ok" id="tok2832">different</token>
+      <token status="ok" id="tok2833">closed</token>
+      <token status="ok" id="tok2834">paths</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer421" raw_text="BULB A IS NOT IN THE SAME PATH AS BULB B AND BULB C." id="SwitchesBulbsParallel-GIVE_CIRCUIT_TYPE_PARALLEL_EXPLAIN_Q2.sbj23-l2.qa141" accuracy="correct">
+      <token status="ok" id="tok2846">BULB</token>
+      <token status="ok" id="tok2847">A</token>
+      <token status="ok" id="tok2848">IS</token>
+      <token status="ok" id="tok2849">NOT</token>
+      <token status="ok" id="tok2850">IN</token>
+      <token status="ok" id="tok2851">THE</token>
+      <token status="ok" id="tok2852">SAME</token>
+      <token status="ok" id="tok2853">PATH</token>
+      <token status="ok" id="tok2854">AS</token>
+      <token status="ok" id="tok2855">BULB</token>
+      <token status="ok" id="tok2856">B</token>
+      <token status="ok" id="tok2857">AND</token>
+      <token status="ok" id="tok2858">BULB</token>
+      <token status="ok" id="tok2859">C</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer420" raw_text="seperate paths" id="SwitchesBulbsParallel-GIVE_CIRCUIT_TYPE_PARALLEL_EXPLAIN_Q2.sbj24-l2.qa138" accuracy="correct">
+      <token status="ok" id="tok2669" original="seperate">separate</token>
+      <token status="ok" id="tok2670">paths</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer418" raw_text="they are in parrallel" id="SwitchesBulbsParallel-GIVE_CIRCUIT_TYPE_PARALLEL_EXPLAIN_Q2.sbj24-l2.qa139" accuracy="partially_correct_incomplete">
+      <token status="ok" id="tok2674">they</token>
+      <token status="ok" id="tok2675">are</token>
+      <token status="ok" id="tok2676">in</token>
+      <token status="ok" id="tok2677" original="parrallel">parallel</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer420" raw_text="they are in independent paths" id="SwitchesBulbsParallel-GIVE_CIRCUIT_TYPE_PARALLEL_EXPLAIN_Q2.sbj24-l2.qa140" accuracy="correct">
+      <token status="ok" id="tok2693">they</token>
+      <token status="ok" id="tok2694">are</token>
+      <token status="ok" id="tok2695">in</token>
+      <token status="ok" id="tok2696">independent</token>
+      <token status="ok" id="tok2697">paths</token>
+    </studentAnswer>
+    <studentAnswer count="2" answerMatch="answer420" raw_text="the bulbs are on seperate closed paths" id="SwitchesBulbsParallel-GIVE_CIRCUIT_TYPE_PARALLEL_EXPLAIN_Q2.sbj26-l2.qa156" accuracy="correct">
+      <token status="ok" id="tok3186">the</token>
+      <token status="ok" id="tok3187">bulbs</token>
+      <token status="ok" id="tok3188">are</token>
+      <token status="ok" id="tok3189">on</token>
+      <token status="ok" id="tok3190" original="seperate">separate</token>
+      <token status="ok" id="tok3191">closed</token>
+      <token status="ok" id="tok3192">paths</token>
+    </studentAnswer>
+    <studentAnswer count="2" answerMatch="answer421" raw_text="they are not contained in the same closed path" id="SwitchesBulbsParallel-GIVE_CIRCUIT_TYPE_PARALLEL_EXPLAIN_Q2.sbj27-l2.qa147" accuracy="correct">
+      <token status="ok" id="tok3018">they</token>
+      <token status="ok" id="tok3019">are</token>
+      <token status="ok" id="tok3020">not</token>
+      <token status="ok" id="tok3021">contained</token>
+      <token status="ok" id="tok3022">in</token>
+      <token status="ok" id="tok3023">the</token>
+      <token status="ok" id="tok3024">same</token>
+      <token status="ok" id="tok3025">closed</token>
+      <token status="ok" id="tok3026">path</token>
+    </studentAnswer>
+    <studentAnswer count="2" answerMatch="answer420" raw_text="different paths" id="SwitchesBulbsParallel-GIVE_CIRCUIT_TYPE_PARALLEL_EXPLAIN_Q2.sbj28-l2.qa142" accuracy="partially_correct_incomplete">
+      <token status="ok" id="tok2718">different</token>
+      <token status="ok" id="tok2719">paths</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer421" raw_text="closed path" id="SwitchesBulbsParallel-GIVE_CIRCUIT_TYPE_PARALLEL_EXPLAIN_Q2.sbj28-l2.qa144" accuracy="partially_correct_incomplete">
+      <token status="ok" id="tok2736">closed</token>
+      <token status="ok" id="tok2737">path</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer421" raw_text="bulbs a and c are not contained ina closed path" id="SwitchesBulbsParallel-GIVE_CIRCUIT_TYPE_PARALLEL_EXPLAIN_Q2.sbj29-l2.qa147" accuracy="contradictory">
+      <token status="ok" id="tok3121">bulbs</token>
+      <token status="ok" id="tok3122">a</token>
+      <token status="ok" id="tok3123">and</token>
+      <token status="ok" id="tok3124">c</token>
+      <token status="ok" id="tok3125">are</token>
+      <token status="ok" id="tok3126">not</token>
+      <token status="ok" id="tok3127">contained</token>
+      <token status="ok" id="tok3128a">in</token>
+      <token status="ok" id="tok3128b">a</token>
+      <token status="ok" id="tok3129">closed</token>
+      <token status="ok" id="tok3130">path</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer420" raw_text="bulbs a and c are contained in separate closed paths" id="SwitchesBulbsParallel-GIVE_CIRCUIT_TYPE_PARALLEL_EXPLAIN_Q2.sbj29-l2.qa148" accuracy="correct">
+      <token status="ok" id="tok3155">bulbs</token>
+      <token status="ok" id="tok3156">a</token>
+      <token status="ok" id="tok3157">and</token>
+      <token status="ok" id="tok3158">c</token>
+      <token status="ok" id="tok3159">are</token>
+      <token status="ok" id="tok3160">contained</token>
+      <token status="ok" id="tok3161">in</token>
+      <token status="ok" id="tok3162">separate</token>
+      <token status="ok" id="tok3163">closed</token>
+      <token status="ok" id="tok3164">paths</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer420" raw_text="Bulbs A and C are on different closed paths" id="SwitchesBulbsParallel-GIVE_CIRCUIT_TYPE_PARALLEL_EXPLAIN_Q2.sbj30-l2.qa145" accuracy="correct">
+      <token status="ok" id="tok3235">Bulbs</token>
+      <token status="ok" id="tok3236">A</token>
+      <token status="ok" id="tok3237">and</token>
+      <token status="ok" id="tok3238">C</token>
+      <token status="ok" id="tok3239">are</token>
+      <token status="ok" id="tok3240">on</token>
+      <token status="ok" id="tok3241">different</token>
+      <token status="ok" id="tok3242">closed</token>
+      <token status="ok" id="tok3243">paths</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="they are on a different closed path" id="SwitchesBulbsParallel-GIVE_CIRCUIT_TYPE_PARALLEL_EXPLAIN_Q2.sbj31-l2.qa148" accuracy="correct">
+      <token status="ok" id="tok2873">they</token>
+      <token status="ok" id="tok2874">are</token>
+      <token status="ok" id="tok2875">on</token>
+      <token status="ok" id="tok2876">a</token>
+      <token status="ok" id="tok2877">different</token>
+      <token status="ok" id="tok2878">closed</token>
+      <token status="ok" id="tok2879">path</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="bulb C and A are contained in the same path with the battery" id="SwitchesBulbsParallel-GIVE_CIRCUIT_TYPE_PARALLEL_EXPLAIN_Q2.sbj31-l2.qa149" accuracy="contradictory">
+      <token status="ok" id="tok2894">bulb</token>
+      <token status="ok" id="tok2895">C</token>
+      <token status="ok" id="tok2896">and</token>
+      <token status="ok" id="tok2897">A</token>
+      <token status="ok" id="tok2898">are</token>
+      <token status="ok" id="tok2899">contained</token>
+      <token status="ok" id="tok2900">in</token>
+      <token status="ok" id="tok2901">the</token>
+      <token status="ok" id="tok2902">same</token>
+      <token status="ok" id="tok2903">path</token>
+      <token status="ok" id="tok2904">with</token>
+      <token status="ok" id="tok2905">the</token>
+      <token status="ok" id="tok2906">battery</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="they are on a different closed path with the battery" id="SwitchesBulbsParallel-GIVE_CIRCUIT_TYPE_PARALLEL_EXPLAIN_Q2.sbj31-l2.qa150" accuracy="contradictory">
+      <token status="ok" id="tok2933">they</token>
+      <token status="ok" id="tok2934">are</token>
+      <token status="ok" id="tok2935">on</token>
+      <token status="ok" id="tok2936">a</token>
+      <token status="ok" id="tok2937">different</token>
+      <token status="ok" id="tok2938">closed</token>
+      <token status="ok" id="tok2939">path</token>
+      <token status="ok" id="tok2940">with</token>
+      <token status="ok" id="tok2941">the</token>
+      <token status="ok" id="tok2942">battery</token>
+    </studentAnswer>
+    <studentAnswer count="2" answerMatch="answer419" raw_text="Bulb A, bulb b, and bulb c are not contained in the same closed path." id="SwitchesBulbsParallel-GIVE_CIRCUIT_TYPE_PARALLEL_EXPLAIN_Q2.sbj34-l2.qa148" accuracy="correct">
+      <token status="ok" id="tok2958">Bulb</token>
+      <token status="ok" id="tok2959">A</token>
+      <token status="ok" id="tok2960">bulb</token>
+      <token status="ok" id="tok2961">b</token>
+      <token status="ok" id="tok2962">and</token>
+      <token status="ok" id="tok2963">bulb</token>
+      <token status="ok" id="tok2964">c</token>
+      <token status="ok" id="tok2965">are</token>
+      <token status="ok" id="tok2966">not</token>
+      <token status="ok" id="tok2967">contained</token>
+      <token status="ok" id="tok2968">in</token>
+      <token status="ok" id="tok2969">the</token>
+      <token status="ok" id="tok2970">same</token>
+      <token status="ok" id="tok2971">closed</token>
+      <token status="ok" id="tok2972">path</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer418" raw_text="they are containe din different closed paths with a battery" id="SwitchesBulbsParallel-GIVE_CIRCUIT_TYPE_PARALLEL_EXPLAIN_Q2.sbj35-l2.qa146" accuracy="correct">
+      <token status="ok" id="tok3031">they</token>
+      <token status="ok" id="tok3032">are</token>
+      <token status="ok" id="tok3033+">contained</token>
+      <token status="ok" id="tok3034b">in</token>
+      <token status="ok" id="tok3035">different</token>
+      <token status="ok" id="tok3036">closed</token>
+      <token status="ok" id="tok3037">paths</token>
+      <token status="ok" id="tok3038">with</token>
+      <token status="ok" id="tok3039">a</token>
+      <token status="ok" id="tok3040">battery</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="there is no relationship between path bulb a and c" id="SwitchesBulbsParallel-GIVE_CIRCUIT_TYPE_PARALLEL_EXPLAIN_Q2.sbj35-l2.qa148" accuracy="contradictory">
+      <token status="ok" id="tok3087">there</token>
+      <token status="ok" id="tok3088">is</token>
+      <token status="ok" id="tok3089">no</token>
+      <token status="ok" id="tok3090">relationship</token>
+      <token status="ok" id="tok3091">between</token>
+      <token status="ok" id="tok3092">path</token>
+      <token status="ok" id="tok3093">bulb</token>
+      <token status="ok" id="tok3094">a</token>
+      <token status="ok" id="tok3095">and</token>
+      <token status="ok" id="tok3096">c</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer418" raw_text="a bulb is contained in a closed path with a battery" id="SwitchesBulbsParallel-GIVE_CIRCUIT_TYPE_PARALLEL_EXPLAIN_Q2.sbj35-l2.qa149" accuracy="partially_correct_incomplete">
+      <token status="ok" id="tok3113">a</token>
+      <token status="ok" id="tok3114">bulb</token>
+      <token status="ok" id="tok3115">is</token>
+      <token status="ok" id="tok3116">contained</token>
+      <token status="ok" id="tok3117">in</token>
+      <token status="ok" id="tok3118">a</token>
+      <token status="ok" id="tok3119">closed</token>
+      <token status="ok" id="tok3120">path</token>
+      <token status="ok" id="tok3121">with</token>
+      <token status="ok" id="tok3122">a</token>
+      <token status="ok" id="tok3123">battery</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer420" raw_text="bulbs a ,b, and c are on parallel paths" id="SwitchesBulbsParallel-GIVE_CIRCUIT_TYPE_PARALLEL_EXPLAIN_Q2.sbj36-l2.qa140" accuracy="partially_correct_incomplete">
+      <token status="ok" id="tok2840">bulbs</token>
+      <token status="ok" id="tok2841">a</token>
+      <token status="ok" id="tok2842b">b</token>
+      <token status="ok" id="tok2843">and</token>
+      <token status="ok" id="tok2844">c</token>
+      <token status="ok" id="tok2845">are</token>
+      <token status="ok" id="tok2846">on</token>
+      <token status="ok" id="tok2847">parallel</token>
+      <token status="ok" id="tok2848">paths</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer420" raw_text="all the bulbs are on parralel paths" id="SwitchesBulbsParallel-GIVE_CIRCUIT_TYPE_PARALLEL_EXPLAIN_Q2.sbj36-l2.qa141" accuracy="partially_correct_incomplete">
+      <token status="ok" id="tok2865">all</token>
+      <token status="ok" id="tok2866">the</token>
+      <token status="ok" id="tok2867">bulbs</token>
+      <token status="ok" id="tok2868">are</token>
+      <token status="ok" id="tok2869">on</token>
+      <token status="ok" id="tok2870" original="parralel">parallel</token>
+      <token status="ok" id="tok2871">paths</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer420" raw_text="Bulbs A, B and C are on different paths" id="SwitchesBulbsParallel-GIVE_CIRCUIT_TYPE_PARALLEL_EXPLAIN_Q2.sbj39-l2.qa157" accuracy="correct">
+      <token status="ok" id="tok3263">Bulbs</token>
+      <token status="ok" id="tok3264">A</token>
+      <token status="ok" id="tok3265">B</token>
+      <token status="ok" id="tok3266">and</token>
+      <token status="ok" id="tok3267">C</token>
+      <token status="ok" id="tok3268">are</token>
+      <token status="ok" id="tok3269">on</token>
+      <token status="ok" id="tok3270">different</token>
+      <token status="ok" id="tok3271">paths</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer418" raw_text="removing or damaging one bulb will not affect the other." id="SwitchesBulbsParallel-GIVE_CIRCUIT_TYPE_PARALLEL_EXPLAIN_Q2.sbj40-l2.qa148" accuracy="partially_correct_incomplete">
+      <token status="ok" id="tok3016">removing</token>
+      <token status="ok" id="tok3017">or</token>
+      <token status="ok" id="tok3018">damaging</token>
+      <token status="ok" id="tok3019">one</token>
+      <token status="ok" id="tok3020">bulb</token>
+      <token status="ok" id="tok3021">will</token>
+      <token status="ok" id="tok3022">not</token>
+      <token status="ok" id="tok3023">affect</token>
+      <token status="ok" id="tok3024">the</token>
+      <token status="ok" id="tok3025">other</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer420" raw_text="a, b, and c are contained on seperate closed paths" id="SwitchesBulbsParallel-GIVE_CIRCUIT_TYPE_PARALLEL_EXPLAIN_Q2.sbj43-l2.qa147" accuracy="correct">
+      <token status="ok" id="tok3252">a</token>
+      <token status="ok" id="tok3253">b</token>
+      <token status="ok" id="tok3254">and</token>
+      <token status="ok" id="tok3255">c</token>
+      <token status="ok" id="tok3256">are</token>
+      <token status="ok" id="tok3257">contained</token>
+      <token status="ok" id="tok3258">on</token>
+      <token status="ok" id="tok3259" original="seperate">separate</token>
+      <token status="ok" id="tok3260">closed</token>
+      <token status="ok" id="tok3261">paths</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer420" raw_text="removing a bulb will not affect another bulb" id="SwitchesBulbsParallel-GIVE_CIRCUIT_TYPE_PARALLEL_EXPLAIN_Q2.sbj45-l2.qa133" accuracy="partially_correct_incomplete">
+      <token status="ok" id="tok2696">removing</token>
+      <token status="ok" id="tok2697">a</token>
+      <token status="ok" id="tok2698">bulb</token>
+      <token status="ok" id="tok2699">will</token>
+      <token status="ok" id="tok2700">not</token>
+      <token status="ok" id="tok2701">affect</token>
+      <token status="ok" id="tok2702">another</token>
+      <token status="ok" id="tok2703">bulb</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer420" raw_text="turning off one bulb will not turn off another bulb" id="SwitchesBulbsParallel-GIVE_CIRCUIT_TYPE_PARALLEL_EXPLAIN_Q2.sbj45-l2.qa134" accuracy="partially_correct_incomplete">
+      <token status="ok" id="tok2724">turning</token>
+      <token status="ok" id="tok2725">off</token>
+      <token status="ok" id="tok2726">one</token>
+      <token status="ok" id="tok2727">bulb</token>
+      <token status="ok" id="tok2728">will</token>
+      <token status="ok" id="tok2729">not</token>
+      <token status="ok" id="tok2730">turn</token>
+      <token status="ok" id="tok2731">off</token>
+      <token status="ok" id="tok2732">another</token>
+      <token status="ok" id="tok2733">bulb</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer418" raw_text="turning off a bulb will not turn off another bulb because they will still be in a closed path with the battery" id="SwitchesBulbsParallel-GIVE_CIRCUIT_TYPE_PARALLEL_EXPLAIN_Q2.sbj45-l2.qa135" accuracy="correct">
+      <token status="ok" id="tok2771">turning</token>
+      <token status="ok" id="tok2772">off</token>
+      <token status="ok" id="tok2773">a</token>
+      <token status="ok" id="tok2774">bulb</token>
+      <token status="ok" id="tok2775">will</token>
+      <token status="ok" id="tok2776">not</token>
+      <token status="ok" id="tok2777">turn</token>
+      <token status="ok" id="tok2778">off</token>
+      <token status="ok" id="tok2779">another</token>
+      <token status="ok" id="tok2780">bulb</token>
+      <token status="ok" id="tok2781">because</token>
+      <token status="ok" id="tok2782">they</token>
+      <token status="ok" id="tok2783">will</token>
+      <token status="ok" id="tok2784">still</token>
+      <token status="ok" id="tok2785">be</token>
+      <token status="ok" id="tok2786">in</token>
+      <token status="ok" id="tok2787">a</token>
+      <token status="ok" id="tok2788">closed</token>
+      <token status="ok" id="tok2789">path</token>
+      <token status="ok" id="tok2790">with</token>
+      <token status="ok" id="tok2791">the</token>
+      <token status="ok" id="tok2792">battery</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer418" raw_text="bulbs are in different closed paths" id="SwitchesBulbsParallel-GIVE_CIRCUIT_TYPE_PARALLEL_EXPLAIN_Q2.sbj46-l2.qa151" accuracy="correct">
+      <token status="ok" id="tok3334">bulbs</token>
+      <token status="ok" id="tok3335">are</token>
+      <token status="ok" id="tok3336">in</token>
+      <token status="ok" id="tok3337">different</token>
+      <token status="ok" id="tok3338">closed</token>
+      <token status="ok" id="tok3339">paths</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer419" raw_text="They are not contained in the same closed path as the battery" id="SwitchesBulbsParallel-GIVE_CIRCUIT_TYPE_PARALLEL_EXPLAIN_Q2.sbj48-l2.qa136" accuracy="correct">
+      <token status="ok" id="tok2965">They</token>
+      <token status="ok" id="tok2966">are</token>
+      <token status="ok" id="tok2967">not</token>
+      <token status="ok" id="tok2968">contained</token>
+      <token status="ok" id="tok2969">in</token>
+      <token status="ok" id="tok2970">the</token>
+      <token status="ok" id="tok2971">same</token>
+      <token status="ok" id="tok2972">closed</token>
+      <token status="ok" id="tok2973">path</token>
+      <token status="ok" id="tok2974">as</token>
+      <token status="ok" id="tok2975">the</token>
+      <token status="ok" id="tok2976">battery</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer421" raw_text="Bulbs a and c are wired parallel because they are not contained in the same path." id="SwitchesBulbsParallel-GIVE_CIRCUIT_TYPE_PARALLEL_EXPLAIN_Q2.sbj48-l2.qa137" accuracy="correct">
+      <token status="ok" id="tok2994">Bulbs</token>
+      <token status="ok" id="tok2995">a</token>
+      <token status="ok" id="tok2996">and</token>
+      <token status="ok" id="tok2997">c</token>
+      <token status="ok" id="tok2998">are</token>
+      <token status="ok" id="tok2999">wired</token>
+      <token status="ok" id="tok3000">parallel</token>
+      <token status="ok" id="tok3001">because</token>
+      <token status="ok" id="tok3002">they</token>
+      <token status="ok" id="tok3003">are</token>
+      <token status="ok" id="tok3004">not</token>
+      <token status="ok" id="tok3005">contained</token>
+      <token status="ok" id="tok3006">in</token>
+      <token status="ok" id="tok3007">the</token>
+      <token status="ok" id="tok3008">same</token>
+      <token status="ok" id="tok3009">path</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer418" raw_text="Bulb is contained in a path that does not contain bulb c" id="SwitchesBulbsParallel-GIVE_CIRCUIT_TYPE_PARALLEL_EXPLAIN_Q2.sbj48-l2.qa138" accuracy="partially_correct_incomplete">
+      <token status="ok" id="tok3023">Bulb</token>
+      <token status="ok" id="tok3024">is</token>
+      <token status="ok" id="tok3025">contained</token>
+      <token status="ok" id="tok3026">in</token>
+      <token status="ok" id="tok3027">a</token>
+      <token status="ok" id="tok3028">path</token>
+      <token status="ok" id="tok3029">that</token>
+      <token status="ok" id="tok3030">does</token>
+      <token status="ok" id="tok3031">not</token>
+      <token status="ok" id="tok3032">contain</token>
+      <token status="ok" id="tok3033">bulb</token>
+      <token status="ok" id="tok3034">c</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer420" raw_text="They are contained in separate closed path." id="SwitchesBulbsParallel-GIVE_CIRCUIT_TYPE_PARALLEL_EXPLAIN_Q2.sbjb1-l2.qa120" accuracy="correct">
+      <token status="ok" id="tok2635">They</token>
+      <token status="ok" id="tok2636">are</token>
+      <token status="ok" id="tok2637">contained</token>
+      <token status="ok" id="tok2638">in</token>
+      <token status="ok" id="tok2639">separate</token>
+      <token status="ok" id="tok2640">closed</token>
+      <token status="ok" id="tok2641">path</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer420" raw_text="They are on different paths" id="SwitchesBulbsParallel-GIVE_CIRCUIT_TYPE_PARALLEL_EXPLAIN_Q2.sbjb2-l2.qa122" accuracy="correct">
+      <token status="ok" id="tok2582">They</token>
+      <token status="ok" id="tok2583">are</token>
+      <token status="ok" id="tok2584">on</token>
+      <token status="ok" id="tok2585">different</token>
+      <token status="ok" id="tok2586">paths</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="A, B, and C are contained in the same closed path" id="SwitchesBulbsParallel-GIVE_CIRCUIT_TYPE_PARALLEL_EXPLAIN_Q2.sbjb3-l2.qa126" accuracy="contradictory">
+      <token status="ok" id="tok2668">A</token>
+      <token status="ok" id="tok2669">B</token>
+      <token status="ok" id="tok2670">and</token>
+      <token status="ok" id="tok2671">C</token>
+      <token status="ok" id="tok2672">are</token>
+      <token status="ok" id="tok2673">contained</token>
+      <token status="ok" id="tok2674">in</token>
+      <token status="ok" id="tok2675">the</token>
+      <token status="ok" id="tok2676">same</token>
+      <token status="ok" id="tok2677">closed</token>
+      <token status="ok" id="tok2678">path</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer420" raw_text="they are wired on different closed paths" id="SwitchesBulbsParallel-GIVE_CIRCUIT_TYPE_PARALLEL_EXPLAIN_Q2.sbjb4-l2.qa119" accuracy="correct">
+      <token status="ok" id="tok2638">they</token>
+      <token status="ok" id="tok2639">are</token>
+      <token status="ok" id="tok2640">wired</token>
+      <token status="ok" id="tok2641">on</token>
+      <token status="ok" id="tok2642">different</token>
+      <token status="ok" id="tok2643">closed</token>
+      <token status="ok" id="tok2644">paths</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer418" raw_text="bulb a is contained on a path separated from the closed paths of bulbs b and c." id="SwitchesBulbsParallel-GIVE_CIRCUIT_TYPE_PARALLEL_EXPLAIN_Q2.sbjb5-l2.qa119" accuracy="correct">
+      <token status="ok" id="tok2741">bulb</token>
+      <token status="ok" id="tok2742">a</token>
+      <token status="ok" id="tok2743">is</token>
+      <token status="ok" id="tok2744">contained</token>
+      <token status="ok" id="tok2745">on</token>
+      <token status="ok" id="tok2746">a</token>
+      <token status="ok" id="tok2747">path</token>
+      <token status="ok" id="tok2748">separated</token>
+      <token status="ok" id="tok2749">from</token>
+      <token status="ok" id="tok2750">the</token>
+      <token status="ok" id="tok2751">closed</token>
+      <token status="ok" id="tok2752">paths</token>
+      <token status="ok" id="tok2753">of</token>
+      <token status="ok" id="tok2754">bulbs</token>
+      <token status="ok" id="tok2755">b</token>
+      <token status="ok" id="tok2756">and</token>
+      <token status="ok" id="tok2757">c</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer421" raw_text="A, B, and C are not one one closed path" id="SwitchesBulbsParallel-GIVE_CIRCUIT_TYPE_PARALLEL_EXPLAIN_Q2.sbjb6-l2.qa120" accuracy="correct">
+      <token status="ok" id="tok2553">A</token>
+      <token status="ok" id="tok2554">B</token>
+      <token status="ok" id="tok2555">and</token>
+      <token status="ok" id="tok2556">C</token>
+      <token status="ok" id="tok2557">are</token>
+      <token status="ok" id="tok2558">not</token>
+      <token status="ok" id="tok2559">one</token>
+      <token status="ok" id="tok2560">one</token>
+      <token status="ok" id="tok2561">closed</token>
+      <token status="ok" id="tok2562">path</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer420" raw_text="Bulbs are on different closed paths" id="SwitchesBulbsParallel-GIVE_CIRCUIT_TYPE_PARALLEL_EXPLAIN_Q2.sbjb7-l2.qa120" accuracy="correct">
+      <token status="ok" id="tok2543">Bulbs</token>
+      <token status="ok" id="tok2544">are</token>
+      <token status="ok" id="tok2545">on</token>
+      <token status="ok" id="tok2546">different</token>
+      <token status="ok" id="tok2547">closed</token>
+      <token status="ok" id="tok2548">paths</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer418" raw_text="They are contained on different closed paths to the battery" id="SwitchesBulbsParallel-GIVE_CIRCUIT_TYPE_PARALLEL_EXPLAIN_Q2.sbjb9-l2.qa120" accuracy="correct">
+      <token status="ok" id="tok2677">They</token>
+      <token status="ok" id="tok2678">are</token>
+      <token status="ok" id="tok2679">contained</token>
+      <token status="ok" id="tok2680">on</token>
+      <token status="ok" id="tok2681">different</token>
+      <token status="ok" id="tok2682">closed</token>
+      <token status="ok" id="tok2683">paths</token>
+      <token status="ok" id="tok2684">to</token>
+      <token status="ok" id="tok2685">the</token>
+      <token status="ok" id="tok2686">battery</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer420" raw_text="because they have different paths" id="SwitchesBulbsParallel-GIVE_CIRCUIT_TYPE_PARALLEL_EXPLAIN_Q2.sbjb10-l2.qa119" accuracy="correct">
+      <token status="ok" id="tok2551">because</token>
+      <token status="ok" id="tok2552">they</token>
+      <token status="ok" id="tok2553">have</token>
+      <token status="ok" id="tok2554">different</token>
+      <token status="ok" id="tok2555">paths</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer421" raw_text="bulb a and bulb c are not in the same closed path" id="SwitchesBulbsParallel-GIVE_CIRCUIT_TYPE_PARALLEL_EXPLAIN_Q2.sbjb12-l2.qa121" accuracy="correct">
+      <token status="ok" id="tok2673">bulb</token>
+      <token status="ok" id="tok2674">a</token>
+      <token status="ok" id="tok2675">and</token>
+      <token status="ok" id="tok2676">bulb</token>
+      <token status="ok" id="tok2677">c</token>
+      <token status="ok" id="tok2678">are</token>
+      <token status="ok" id="tok2679">not</token>
+      <token status="ok" id="tok2680">in</token>
+      <token status="ok" id="tok2681">the</token>
+      <token status="ok" id="tok2682">same</token>
+      <token status="ok" id="tok2683">closed</token>
+      <token status="ok" id="tok2684">path</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer419" raw_text="Bulb A, bulb B and bulb C are not contained in the same closed path." id="SwitchesBulbsParallel-GIVE_CIRCUIT_TYPE_PARALLEL_EXPLAIN_Q2.sbjb13-l2.qa119" accuracy="correct">
+      <token status="ok" id="tok2669">Bulb</token>
+      <token status="ok" id="tok2670">A</token>
+      <token status="ok" id="tok2671">bulb</token>
+      <token status="ok" id="tok2672">B</token>
+      <token status="ok" id="tok2673">and</token>
+      <token status="ok" id="tok2674">bulb</token>
+      <token status="ok" id="tok2675">C</token>
+      <token status="ok" id="tok2676">are</token>
+      <token status="ok" id="tok2677">not</token>
+      <token status="ok" id="tok2678">contained</token>
+      <token status="ok" id="tok2679">in</token>
+      <token status="ok" id="tok2680">the</token>
+      <token status="ok" id="tok2681">same</token>
+      <token status="ok" id="tok2682">closed</token>
+      <token status="ok" id="tok2683">path</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer418" raw_text="they are in different closed paths" id="SwitchesBulbsParallel-GIVE_CIRCUIT_TYPE_PARALLEL_EXPLAIN_Q2.sbjb16-l2.qa120" accuracy="correct">
+      <token status="ok" id="tok2511">they</token>
+      <token status="ok" id="tok2512">are</token>
+      <token status="ok" id="tok2513">in</token>
+      <token status="ok" id="tok2514">different</token>
+      <token status="ok" id="tok2515">closed</token>
+      <token status="ok" id="tok2516">paths</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer420" raw_text="Bulb A, bulb B and bulb C are contained in separate paths" id="SwitchesBulbsParallel-GIVE_CIRCUIT_TYPE_PARALLEL_EXPLAIN_Q2.sbjb17-l2.qa121" accuracy="correct">
+      <token status="ok" id="tok2606">Bulb</token>
+      <token status="ok" id="tok2607">A</token>
+      <token status="ok" id="tok2608">bulb</token>
+      <token status="ok" id="tok2609">B</token>
+      <token status="ok" id="tok2610">and</token>
+      <token status="ok" id="tok2611">bulb</token>
+      <token status="ok" id="tok2612">C</token>
+      <token status="ok" id="tok2613">are</token>
+      <token status="ok" id="tok2614">contained</token>
+      <token status="ok" id="tok2615">in</token>
+      <token status="ok" id="tok2616">separate</token>
+      <token status="ok" id="tok2617">paths</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer421" raw_text="Bulb A and Bulb C aren&quot;t in the same path. They don&quot;t affect each other." id="SwitchesBulbsParallel-GIVE_CIRCUIT_TYPE_PARALLEL_EXPLAIN_Q2.sbjb20-l2.qa119" accuracy="correct">
+      <token status="ok" id="tok2591">Bulb</token>
+      <token status="ok" id="tok2592">A</token>
+      <token status="ok" id="tok2593">and</token>
+      <token status="ok" id="tok2594">Bulb</token>
+      <token status="ok" id="tok2595">C</token>
+      <token status="ok" id="tok2596">are</token>
+      <token status="pennTokenFragment" id="tok2597">n't</token>
+      <token status="ok" id="tok2598">in</token>
+      <token status="ok" id="tok2599">the</token>
+      <token status="ok" id="tok2600">same</token>
+      <token status="ok" id="tok2601">path</token>
+      <token status="ok" id="tok2602">They</token>
+      <token status="ok" id="tok2603">do</token>
+      <token status="pennTokenFragment" id="tok2604">n't</token>
+      <token status="ok" id="tok2605">affect</token>
+      <token status="ok" id="tok2606">each</token>
+      <token status="ok" id="tok2607">other</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer420" raw_text="they are connected on seperate paths" id="SwitchesBulbsParallel-GIVE_CIRCUIT_TYPE_PARALLEL_EXPLAIN_Q2.sbjb21-l2.qa119" accuracy="correct">
+      <token status="ok" id="tok2461">they</token>
+      <token status="ok" id="tok2462">are</token>
+      <token status="ok" id="tok2463">connected</token>
+      <token status="ok" id="tok2464">on</token>
+      <token status="ok" id="tok2465" original="seperate">separate</token>
+      <token status="ok" id="tok2466">paths</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="not in path" id="SwitchesBulbsParallel-GIVE_CIRCUIT_TYPE_PARALLEL_EXPLAIN_Q2.sbjb22-l2.qa121" accuracy="contradictory">
+      <token status="ok" id="tok2468">not</token>
+      <token status="ok" id="tok2469">in</token>
+      <token status="ok" id="tok2470">path</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer420" raw_text="ARE ALL ON SEPARATE PATHS" id="SwitchesBulbsParallel-GIVE_CIRCUIT_TYPE_PARALLEL_EXPLAIN_Q2.sbjb24-l2.qa123" accuracy="correct">
+      <token status="ok" id="tok2514">ARE</token>
+      <token status="ok" id="tok2515">ALL</token>
+      <token status="ok" id="tok2516">ON</token>
+      <token status="ok" id="tok2517">SEPARATE</token>
+      <token status="ok" id="tok2518">PATHS</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer420" raw_text="Bulbs A and C are in separate paths." id="SwitchesBulbsParallel-GIVE_CIRCUIT_TYPE_PARALLEL_EXPLAIN_Q2.sbjb25-l2.qa121" accuracy="correct">
+      <token status="ok" id="tok2575">Bulbs</token>
+      <token status="ok" id="tok2576">A</token>
+      <token status="ok" id="tok2577">and</token>
+      <token status="ok" id="tok2578">C</token>
+      <token status="ok" id="tok2579">are</token>
+      <token status="ok" id="tok2580">in</token>
+      <token status="ok" id="tok2581">separate</token>
+      <token status="ok" id="tok2582">paths</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer420" raw_text="They are on different closed paths." id="SwitchesBulbsParallel-GIVE_CIRCUIT_TYPE_PARALLEL_EXPLAIN_Q2.sbjb26-l2.qa119" accuracy="correct">
+      <token status="ok" id="tok2615">They</token>
+      <token status="ok" id="tok2616">are</token>
+      <token status="ok" id="tok2617">on</token>
+      <token status="ok" id="tok2618">different</token>
+      <token status="ok" id="tok2619">closed</token>
+      <token status="ok" id="tok2620">paths</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer421" raw_text="they are not wired in the same closed path" id="SwitchesBulbsParallel-GIVE_CIRCUIT_TYPE_PARALLEL_EXPLAIN_Q2.sbjb27-l2.qa119" accuracy="correct">
+      <token status="ok" id="tok2618">they</token>
+      <token status="ok" id="tok2619">are</token>
+      <token status="ok" id="tok2620">not</token>
+      <token status="ok" id="tok2621">wired</token>
+      <token status="ok" id="tok2622">in</token>
+      <token status="ok" id="tok2623">the</token>
+      <token status="ok" id="tok2624">same</token>
+      <token status="ok" id="tok2625">closed</token>
+      <token status="ok" id="tok2626">path</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer421" raw_text="Bulbs A and C aren&quot;t in the same closed path" id="SwitchesBulbsParallel-GIVE_CIRCUIT_TYPE_PARALLEL_EXPLAIN_Q2.sbjb28-l2.qa119" accuracy="correct">
+      <token status="ok" id="tok2557">Bulbs</token>
+      <token status="ok" id="tok2558">A</token>
+      <token status="ok" id="tok2559">and</token>
+      <token status="ok" id="tok2560">C</token>
+      <token status="ok" id="tok2561">are</token>
+      <token status="pennTokenFragment" id="tok2562">n't</token>
+      <token status="ok" id="tok2563">in</token>
+      <token status="ok" id="tok2564">the</token>
+      <token status="ok" id="tok2565">same</token>
+      <token status="ok" id="tok2566">closed</token>
+      <token status="ok" id="tok2567">path</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer420" raw_text="they do no affect each other" id="SwitchesBulbsParallel-GIVE_CIRCUIT_TYPE_PARALLEL_EXPLAIN_Q2.sbjb29-l2.qa120" accuracy="partially_correct_incomplete">
+      <token status="ok" id="tok2578">they</token>
+      <token status="ok" id="tok2579">do</token>
+      <token status="ok" id="tok2580">no</token>
+      <token status="ok" id="tok2581">affect</token>
+      <token status="ok" id="tok2582">each</token>
+      <token status="ok" id="tok2583">other</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer421" raw_text="bulbs and c are not contained in the same closed path." id="SwitchesBulbsParallel-GIVE_CIRCUIT_TYPE_PARALLEL_EXPLAIN_Q2.sbjb30-l2.qa119" accuracy="correct">
+      <token status="ok" id="tok2778">bulbs</token>
+      <token status="ok" id="tok2779">and</token>
+      <token status="ok" id="tok2780">c</token>
+      <token status="ok" id="tok2781">are</token>
+      <token status="ok" id="tok2782">not</token>
+      <token status="ok" id="tok2783">contained</token>
+      <token status="ok" id="tok2784">in</token>
+      <token status="ok" id="tok2785">the</token>
+      <token status="ok" id="tok2786">same</token>
+      <token status="ok" id="tok2787">closed</token>
+      <token status="ok" id="tok2788">path</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="they have different closed paths" id="SwitchesBulbsParallel-GIVE_CIRCUIT_TYPE_PARALLEL_EXPLAIN_Q2.sbjb32-l2.qa119" accuracy="correct">
+      <token status="ok" id="tok2508">they</token>
+      <token status="ok" id="tok2509">have</token>
+      <token status="ok" id="tok2510">different</token>
+      <token status="ok" id="tok2511">closed</token>
+      <token status="ok" id="tok2512">paths</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer418" raw_text="Bulb A, bulb B, and bulb C each have their own closed path with the battery." id="SwitchesBulbsParallel-GIVE_CIRCUIT_TYPE_PARALLEL_EXPLAIN_Q2.sbjb34-l2.qa120" accuracy="correct">
+      <token status="ok" id="tok2650">Bulb</token>
+      <token status="ok" id="tok2651">A</token>
+      <token status="ok" id="tok2652">bulb</token>
+      <token status="ok" id="tok2653">B</token>
+      <token status="ok" id="tok2654">and</token>
+      <token status="ok" id="tok2655">bulb</token>
+      <token status="ok" id="tok2656">C</token>
+      <token status="ok" id="tok2657">each</token>
+      <token status="ok" id="tok2658">have</token>
+      <token status="ok" id="tok2659">their</token>
+      <token status="ok" id="tok2660">own</token>
+      <token status="ok" id="tok2661">closed</token>
+      <token status="ok" id="tok2662">path</token>
+      <token status="ok" id="tok2663">with</token>
+      <token status="ok" id="tok2664">the</token>
+      <token status="ok" id="tok2665">battery</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer420" raw_text="they are in different closed paths and do no effect each other" id="SwitchesBulbsParallel-GIVE_CIRCUIT_TYPE_PARALLEL_EXPLAIN_Q2.sbjb36-l2.qa119" accuracy="correct">
+      <token status="ok" id="tok2583">they</token>
+      <token status="ok" id="tok2584">are</token>
+      <token status="ok" id="tok2585">in</token>
+      <token status="ok" id="tok2586">different</token>
+      <token status="ok" id="tok2587">closed</token>
+      <token status="ok" id="tok2588">paths</token>
+      <token status="ok" id="tok2589">and</token>
+      <token status="ok" id="tok2590">do</token>
+      <token status="ok" id="tok2591">no</token>
+      <token status="ok" id="tok2592" original="effect">affect</token>
+      <token status="ok" id="tok2593">each</token>
+      <token status="ok" id="tok2594">other</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer420" raw_text="They are all on their own pahs" id="SwitchesBulbsParallel-GIVE_CIRCUIT_TYPE_PARALLEL_EXPLAIN_Q2.sbjb37-l2.qa120" accuracy="correct">
+      <token status="ok" id="tok2546">They</token>
+      <token status="ok" id="tok2547">are</token>
+      <token status="ok" id="tok2548">all</token>
+      <token status="ok" id="tok2549">on</token>
+      <token status="ok" id="tok2550">their</token>
+      <token status="ok" id="tok2551">own</token>
+      <token status="ok" id="tok2552" original="pahs">paths</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer420" raw_text="Each bulb is contained in their own path." id="SwitchesBulbsParallel-GIVE_CIRCUIT_TYPE_PARALLEL_EXPLAIN_Q2.sbjb38-l2.qa119" accuracy="correct">
+      <token status="ok" id="tok2677">Each</token>
+      <token status="ok" id="tok2678">bulb</token>
+      <token status="ok" id="tok2679">is</token>
+      <token status="ok" id="tok2680">contained</token>
+      <token status="ok" id="tok2681">in</token>
+      <token status="ok" id="tok2682">their</token>
+      <token status="ok" id="tok2683">own</token>
+      <token status="ok" id="tok2684">path</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer421" raw_text="bulbs A and C are not on the same closed path." id="SwitchesBulbsParallel-GIVE_CIRCUIT_TYPE_PARALLEL_EXPLAIN_Q2.sbjb39-l2.qa119" accuracy="correct">
+      <token status="ok" id="tok2660">bulbs</token>
+      <token status="ok" id="tok2661">A</token>
+      <token status="ok" id="tok2662">and</token>
+      <token status="ok" id="tok2663">C</token>
+      <token status="ok" id="tok2664">are</token>
+      <token status="ok" id="tok2665">not</token>
+      <token status="ok" id="tok2666">on</token>
+      <token status="ok" id="tok2667">the</token>
+      <token status="ok" id="tok2668">same</token>
+      <token status="ok" id="tok2669">closed</token>
+      <token status="ok" id="tok2670">path</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer421" raw_text="They are not contained inthe same closed path" id="SwitchesBulbsParallel-GIVE_CIRCUIT_TYPE_PARALLEL_EXPLAIN_Q2.sbjb40-l2.qa119" accuracy="correct">
+      <token status="ok" id="tok2559">They</token>
+      <token status="ok" id="tok2560">are</token>
+      <token status="ok" id="tok2561">not</token>
+      <token status="ok" id="tok2562">contained</token>
+      <token status="splitFromMisspelling" id="tok2563a">in</token>
+      <token status="splitFromMisspelling" id="tok2563b">the</token>
+      <token status="ok" id="tok2564">same</token>
+      <token status="ok" id="tok2565">closed</token>
+      <token status="ok" id="tok2566">path</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer420" raw_text="Bulbs A, B, and C are contained in different closed paths." id="SwitchesBulbsParallel-GIVE_CIRCUIT_TYPE_PARALLEL_EXPLAIN_Q2.sbjb41-l2.qa120" accuracy="correct">
+      <token status="ok" id="tok2814">Bulbs</token>
+      <token status="ok" id="tok2815">A</token>
+      <token status="ok" id="tok2816">B</token>
+      <token status="ok" id="tok2817">and</token>
+      <token status="ok" id="tok2818">C</token>
+      <token status="ok" id="tok2819">are</token>
+      <token status="ok" id="tok2820">contained</token>
+      <token status="ok" id="tok2821">in</token>
+      <token status="ok" id="tok2822">different</token>
+      <token status="ok" id="tok2823">closed</token>
+      <token status="ok" id="tok2824">paths</token>
+    </studentAnswer>
+  </studentAnswers>
+</question>

@@ -1,0 +1,100 @@
+<?xml version="1.0"?>
+<question testSet="unseen-answers" id="SE_45" module="SE">
+  <questionText>Betty was puzzled. In the morning the shadow of the bus sign is in the street. In the afternoon the shadow of the bus sign points the opposite direction. Explain to Betty why this happens.</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="SE_45-a1" text="In the morning the Sun is in the east so shadows point west. In the afternoon the Sun is in the west so shadows point east.">
+      <tokens>
+        <token id="SE_45_ra1">In</token>
+        <token id="SE_45_ra2">the</token>
+        <token id="SE_45_ra3">morning</token>
+        <token id="SE_45_ra4">the</token>
+        <token id="SE_45_ra5">Sun</token>
+        <token id="SE_45_ra6">is</token>
+        <token id="SE_45_ra7">in</token>
+        <token id="SE_45_ra8">the</token>
+        <token id="SE_45_ra9">east</token>
+        <token id="SE_45_ra10">so</token>
+        <token id="SE_45_ra11">shadows</token>
+        <token id="SE_45_ra12">point</token>
+        <token id="SE_45_ra13">west</token>
+        <token id="SE_45_ra14">.</token>
+        <token id="SE_45_ra15">In</token>
+        <token id="SE_45_ra16">the</token>
+        <token id="SE_45_ra17">afternoon</token>
+        <token id="SE_45_ra18">the</token>
+        <token id="SE_45_ra19">Sun</token>
+        <token id="SE_45_ra20">is</token>
+        <token id="SE_45_ra21">in</token>
+        <token id="SE_45_ra22">the</token>
+        <token id="SE_45_ra23">west</token>
+        <token id="SE_45_ra24">so</token>
+        <token id="SE_45_ra25">shadows</token>
+        <token id="SE_45_ra26">point</token>
+        <token id="SE_45_ra27">east</token>
+        <token id="SE_45_ra28">.</token>
+      </tokens>
+      <facets>
+        <facet id="SE_45_f1" govNum="SE_45_ra5" modNum="SE_45_ra9" reltn="Location_in" govText="Sun" modText="east"/>
+        <facet id="SE_45_f2" govNum="SE_45_ra6" modNum="SE_45_ra3" reltn="Time_in" govText="is" isAssumed="true" modText="morning"/>
+        <facet id="SE_45_f3" govNum="SE_45_ra12" modNum="SE_45_ra11" reltn="Theme" govText="point" isAssumed="true" modText="shadows"/>
+        <facet id="SE_45_f4" govNum="SE_45_ra12" modNum="SE_45_ra13" reltn="Direction" govText="point" modText="west"/>
+        <facet id="SE_45_f5" govNum="SE_45_ra12" modNum="SE_45_ra6" reltn="Cause_so" childProp2Facet2="SE_45_f2" childProp1Facet1="SE_45_f3" govText="point" isAssumed="true" childProp1Facet2="SE_45_f4" modText="is" childProp2Facet1="SE_45_f1"/>
+        <facet id="SE_45_f6" govNum="SE_45_ra19" modNum="SE_45_ra23" reltn="Location_in" govText="Sun" modText="west"/>
+        <facet id="SE_45_f7" govNum="SE_45_ra20" modNum="SE_45_ra17" reltn="Time_in" govText="is" isAssumed="true" modText="afternoon"/>
+        <facet id="SE_45_f8" govNum="SE_45_ra26" modNum="SE_45_ra25" reltn="Theme" govText="point" isAssumed="true" modText="shadows"/>
+        <facet id="SE_45_f9" govNum="SE_45_ra26" modNum="SE_45_ra27" reltn="Direction" govText="point" modText="east"/>
+        <facet id="SE_45_f10" govNum="SE_45_ra26" modNum="SE_45_ra20" reltn="Cause_so" childProp2Facet2="SE_45_f7" childProp1Facet1="SE_45_f8" govText="point" isAssumed="true" childProp1Facet2="SE_45_f9" modText="is" childProp2Facet1="SE_45_f6"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="SE.45.151.1" answerText="Because the sun rounded around us that is why it is pointing the opposite direction." accuracy="irrelevant">
+      <facetEntailment facetID="SE_45_f1" label="Unaddressed"/>
+      <facetEntailment facetID="SE_45_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f3" label="Expressed"/>
+      <facetEntailment facetID="SE_45_f4" label="Unaddressed"/>
+      <facetEntailment facetID="SE_45_f5" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f6" label="Unaddressed"/>
+      <facetEntailment facetID="SE_45_f7" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f8" label="Expressed"/>
+      <facetEntailment facetID="SE_45_f9" label="Unaddressed"/>
+      <facetEntailment facetID="SE_45_f10" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.45.418.1" answerText="The sun rises in the east and it sets in the west, so the school bus must be facing east so that is why." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="SE_45_f1" label="Expressed"/>
+      <facetEntailment facetID="SE_45_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f3" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f4" label="Unaddressed"/>
+      <facetEntailment facetID="SE_45_f5" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f6" label="Expressed"/>
+      <facetEntailment facetID="SE_45_f7" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f8" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f9" label="Unaddressed"/>
+      <facetEntailment facetID="SE_45_f10" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.45.424.1" answerText="Because the object is blocking the sun in that area." accuracy="irrelevant">
+      <facetEntailment facetID="SE_45_f1" label="Unaddressed"/>
+      <facetEntailment facetID="SE_45_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f3" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f4" label="Unaddressed"/>
+      <facetEntailment facetID="SE_45_f5" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f6" label="Unaddressed"/>
+      <facetEntailment facetID="SE_45_f7" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f8" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f9" label="Unaddressed"/>
+      <facetEntailment facetID="SE_45_f10" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.45.561.1" answerText="The earth rotates." accuracy="irrelevant">
+      <facetEntailment facetID="SE_45_f1" label="Unaddressed"/>
+      <facetEntailment facetID="SE_45_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f3" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f4" label="Unaddressed"/>
+      <facetEntailment facetID="SE_45_f5" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f6" label="Unaddressed"/>
+      <facetEntailment facetID="SE_45_f7" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f8" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f9" label="Unaddressed"/>
+      <facetEntailment facetID="SE_45_f10" label="Assumed"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

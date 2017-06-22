@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<question testSet="unseen-answers" id="II_20b" module="II">
+  <questionText>When Sarah did the chromatography test, she saw that one black ink stayed black and didn't separate. She discovered that she had used a permanent marker. She wondered what would happen if she used a different liquid. She wrote in her science notebook, What if I used vinegar in place of the water? Can I get the pigments in permanent ink to separate? How will Sarah know if vinegar separated the permanent ink?</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="II_20b-a1" text="Seeing multiple colors would show that vinegar can separate the permanent ink.">
+      <tokens>
+        <token id="II_20b_ra1">Seeing</token>
+        <token id="II_20b_ra2">multiple</token>
+        <token id="II_20b_ra3">colors</token>
+        <token id="II_20b_ra4">would</token>
+        <token id="II_20b_ra5">show</token>
+        <token id="II_20b_ra6">that</token>
+        <token id="II_20b_ra7">vinegar</token>
+        <token id="II_20b_ra8">can</token>
+        <token id="II_20b_ra9">separate</token>
+        <token id="II_20b_ra10">the</token>
+        <token id="II_20b_ra11">permanent</token>
+        <token id="II_20b_ra12">ink</token>
+        <token id="II_20b_ra13">.</token>
+      </tokens>
+      <facets>
+        <facet id="II_20b_f1" govNum="II_20b_ra1" modNum="II_20b_ra3" reltn="Stimulus" govText="Seeing" modText="colors"/>
+        <facet id="II_20b_f2" govNum="II_20b_ra3" modNum="II_20b_ra2" reltn="Quantifier" govText="colors" modText="multiple"/>
+        <facet id="II_20b_f3" govNum="II_20b_ra5" modNum="II_20b_ra1" reltn="Cause" govText="show" modText="Seeing"/>
+        <facet id="II_20b_f4" govNum="II_20b_ra5" modNum="II_20b_ra9" reltn="Topic_that" govText="show" modText="separate"/>
+        <facet id="II_20b_f5" govNum="II_20b_ra9" modNum="II_20b_ra7" reltn="Means" govText="separate" isAssumed="true" modText="vinegar"/>
+        <facet id="II_20b_f6" govNum="II_20b_ra9" modNum="II_20b_ra12" reltn="Theme" govText="separate" isAssumed="true" modText="ink"/>
+        <facet id="II_20b_f7" govNum="II_20b_ra12" modNum="II_20b_ra11" reltn="NMod" govText="ink" isAssumed="true" modText="permanent"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="II.20b.400.1" answerText="By looking at the vinegar." accuracy="irrelevant">
+      <facetEntailment facetID="II_20b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="II_20b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="II_20b_f3" label="Inferred"/>
+      <facetEntailment facetID="II_20b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="II_20b_f5" label="Assumed"/>
+      <facetEntailment facetID="II_20b_f6" label="Assumed"/>
+      <facetEntailment facetID="II_20b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="II.20b.420.1" answerText="She would use filter paper and dip it into water." accuracy="irrelevant">
+      <facetEntailment facetID="II_20b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="II_20b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="II_20b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="II_20b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="II_20b_f5" label="Assumed"/>
+      <facetEntailment facetID="II_20b_f6" label="Assumed"/>
+      <facetEntailment facetID="II_20b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="II.20b.457.1" answerText="By looking at the pigment and chromatography." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="II_20b_f1" label="Expressed"/>
+      <facetEntailment facetID="II_20b_f2" label="Inferred"/>
+      <facetEntailment facetID="II_20b_f3" label="Inferred"/>
+      <facetEntailment facetID="II_20b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="II_20b_f5" label="Assumed"/>
+      <facetEntailment facetID="II_20b_f6" label="Assumed"/>
+      <facetEntailment facetID="II_20b_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="II.20b.533.1" answerText="We try it and it work." accuracy="irrelevant">
+      <facetEntailment facetID="II_20b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="II_20b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="II_20b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="II_20b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="II_20b_f5" label="Assumed"/>
+      <facetEntailment facetID="II_20b_f6" label="Assumed"/>
+      <facetEntailment facetID="II_20b_f7" label="Assumed"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

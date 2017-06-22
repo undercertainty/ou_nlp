@@ -1,0 +1,103 @@
+<?xml version="1.0"?>
+<question testSet="unseen-answers" id="MX_19" module="MX">
+  <questionText>When Amy added water to a mixture of baking soda and citric acid, the mixture began fizzing. Amy concluded there was a chemical reaction because it fizzed. Why is fizzing evidence of a chemical reaction?</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="MX_19-a1" text="The fizzing indicates a gas, a new material, is produced. When a new material is produced, a chemical reaction has occurred.">
+      <tokens>
+        <token id="MX_19_ra1">The</token>
+        <token id="MX_19_ra2">fizzing</token>
+        <token id="MX_19_ra3">indicates</token>
+        <token id="MX_19_ra4">a</token>
+        <token id="MX_19_ra5">gas</token>
+        <token id="MX_19_ra6">,</token>
+        <token id="MX_19_ra7">a</token>
+        <token id="MX_19_ra8">new</token>
+        <token id="MX_19_ra9">material</token>
+        <token id="MX_19_ra10">,</token>
+        <token id="MX_19_ra11">is</token>
+        <token id="MX_19_ra12">produced</token>
+        <token id="MX_19_ra13">.</token>
+        <token id="MX_19_ra14">When</token>
+        <token id="MX_19_ra15">a</token>
+        <token id="MX_19_ra16">new</token>
+        <token id="MX_19_ra17">material</token>
+        <token id="MX_19_ra18">is</token>
+        <token id="MX_19_ra19">produced</token>
+        <token id="MX_19_ra20">,</token>
+        <token id="MX_19_ra21">a</token>
+        <token id="MX_19_ra22">chemical</token>
+        <token id="MX_19_ra23">reaction</token>
+        <token id="MX_19_ra24">has</token>
+        <token id="MX_19_ra25">occurred</token>
+        <token id="MX_19_ra26">.</token>
+      </tokens>
+      <facets>
+        <facet id="MX_19_f1" govNum="MX_19_ra3" modNum="MX_19_ra2" reltn="Cause" govText="indicates" isAssumed="true" modText="fizzing"/>
+        <facet id="MX_19_f2" govNum="MX_19_ra3" modNum="MX_19_ra12" reltn="Topic" childProp2Facet2="MX_19_f4" govText="indicates" modText="produced" childProp2Facet1="MX_19_f3"/>
+        <facet id="MX_19_f3" govNum="MX_19_ra12" modNum="MX_19_ra5" reltn="Product" govText="produced" modText="gas"/>
+        <facet id="MX_19_f4" govNum="MX_19_ra12" modNum="MX_19_ra9" reltn="Product" govText="produced" modText="material"/>
+        <facet id="MX_19_f5" govNum="MX_19_ra9" modNum="MX_19_ra8" reltn="NMod" govText="material" modText="new"/>
+        <facet id="MX_19_f6" govNum="MX_19_ra2" modNum="MX_19_ra12" reltn="Cause_indicates" childProp2Facet2="MX_19_f4" govText="fizzing" modText="produced" childProp2Facet1="MX_19_f3"/>
+        <facet id="MX_19_f7" govNum="MX_19_ra17" modNum="MX_19_ra16" reltn="NMod" govText="material" modText="new"/>
+        <facet id="MX_19_f8" govNum="MX_19_ra19" modNum="MX_19_ra17" reltn="Product" govText="produced" modText="material"/>
+        <facet id="MX_19_f9" govNum="MX_19_ra25" modNum="MX_19_ra23" reltn="Theme" govText="occurred" isAssumed="true" modText="reaction"/>
+        <facet id="MX_19_f10" govNum="MX_19_ra23" modNum="MX_19_ra22" reltn="NMod" govText="reaction" isAssumed="true" modText="chemical"/>
+        <facet id="MX_19_f11" govNum="MX_19_ra19" modNum="MX_19_ra25" reltn="Cause_when" childProp2Facet2="MX_19_f10" childProp1Facet1="MX_19_f8" govText="produced" childProp1Facet2="MX_19_f7" modText="occurred" childProp2Facet1="MX_19_f9"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="MX.19.381.1" answerText="A gas is being formed causing it to bubble." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="MX_19_f1" label="Expressed"/>
+      <facetEntailment facetID="MX_19_f2" label="Expressed"/>
+      <facetEntailment facetID="MX_19_f3" label="Expressed"/>
+      <facetEntailment facetID="MX_19_f4" label="Inferred"/>
+      <facetEntailment facetID="MX_19_f5" label="Inferred"/>
+      <facetEntailment facetID="MX_19_f6" label="Inferred"/>
+      <facetEntailment facetID="MX_19_f7" label="Inferred"/>
+      <facetEntailment facetID="MX_19_f8" label="Inferred"/>
+      <facetEntailment facetID="MX_19_f9" label="Assumed"/>
+      <facetEntailment facetID="MX_19_f10" label="Assumed"/>
+      <facetEntailment facetID="MX_19_f11" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.19.396.1" answerText="Fizzing usually means bubbles. And bubbles mean there was gas formed which is a sign of a chemical reaction so yes." accuracy="correct">
+      <facetEntailment facetID="MX_19_f1" label="Expressed"/>
+      <facetEntailment facetID="MX_19_f2" label="Expressed"/>
+      <facetEntailment facetID="MX_19_f3" label="Expressed"/>
+      <facetEntailment facetID="MX_19_f4" label="Inferred"/>
+      <facetEntailment facetID="MX_19_f5" label="Inferred"/>
+      <facetEntailment facetID="MX_19_f6" label="Expressed"/>
+      <facetEntailment facetID="MX_19_f7" label="Inferred"/>
+      <facetEntailment facetID="MX_19_f8" label="Inferred"/>
+      <facetEntailment facetID="MX_19_f9" label="Expressed"/>
+      <facetEntailment facetID="MX_19_f10" label="Expressed"/>
+      <facetEntailment facetID="MX_19_f11" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="MX.19.504.1" answerText="The bubbles occurred because it was gas." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="MX_19_f1" label="Expressed"/>
+      <facetEntailment facetID="MX_19_f2" label="Expressed"/>
+      <facetEntailment facetID="MX_19_f3" label="Expressed"/>
+      <facetEntailment facetID="MX_19_f4" label="Inferred"/>
+      <facetEntailment facetID="MX_19_f5" label="Inferred"/>
+      <facetEntailment facetID="MX_19_f6" label="Inferred"/>
+      <facetEntailment facetID="MX_19_f7" label="Inferred"/>
+      <facetEntailment facetID="MX_19_f8" label="Inferred"/>
+      <facetEntailment facetID="MX_19_f9" label="Assumed"/>
+      <facetEntailment facetID="MX_19_f10" label="Assumed"/>
+      <facetEntailment facetID="MX_19_f11" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.19.540.1" answerText="Probably." accuracy="non_domain">
+      <facetEntailment facetID="MX_19_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_19_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MX_19_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_19_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MX_19_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MX_19_f6" label="Unaddressed"/>
+      <facetEntailment facetID="MX_19_f7" label="Unaddressed"/>
+      <facetEntailment facetID="MX_19_f8" label="Unaddressed"/>
+      <facetEntailment facetID="MX_19_f9" label="Assumed"/>
+      <facetEntailment facetID="MX_19_f10" label="Assumed"/>
+      <facetEntailment facetID="MX_19_f11" label="Unaddressed"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

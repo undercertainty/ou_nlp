@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<question testSet="unseen-answers" id="ME_17b" module="ME">
+  <questionText>Denise made a circuit to light a bulb or run a motor off a D-cell battery. She used a special switch. Below is the schematic diagram of her circuit. The switch is inside the dotted box. Why will the bulb light when she moves the switch to the left?</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="ME_17b-a1" text="There is a complete circuit connecting the bulb to the D-cell battery.">
+      <tokens>
+        <token id="ME_17b_ra1">There</token>
+        <token id="ME_17b_ra2">is</token>
+        <token id="ME_17b_ra3">a</token>
+        <token id="ME_17b_ra4">complete</token>
+        <token id="ME_17b_ra5">circuit</token>
+        <token id="ME_17b_ra6">connecting</token>
+        <token id="ME_17b_ra7">the</token>
+        <token id="ME_17b_ra8">bulb</token>
+        <token id="ME_17b_ra9">to</token>
+        <token id="ME_17b_ra10">the</token>
+        <token id="ME_17b_ra11">D-cell</token>
+        <token id="ME_17b_ra12">battery</token>
+        <token id="ME_17b_ra13">.</token>
+      </tokens>
+      <facets>
+        <facet id="ME_17b_f1" govNum="ME_17b_ra5" modNum="ME_17b_ra4" reltn="NMod" govText="circuit" modText="complete"/>
+        <facet id="ME_17b_f2" govNum="ME_17b_ra6" modNum="ME_17b_ra5" reltn="Means" govText="connecting" modText="circuit"/>
+        <facet id="ME_17b_f3" govNum="ME_17b_ra6" modNum="ME_17b_ra8" reltn="Patient" govText="connecting" modText="bulb"/>
+        <facet id="ME_17b_f4" govNum="ME_17b_ra6" modNum="ME_17b_ra12" reltn="Destination_to" govText="connecting" modText="battery"/>
+        <facet id="ME_17b_f5" govNum="ME_17b_ra12" modNum="ME_17b_ra11" reltn="NMod" govText="battery" isAssumed="true" modText="D-cell"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="ME.17b.119.1" answerText="That will happen because it is a complete circuit." accuracy="correct">
+      <facetEntailment facetID="ME_17b_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_17b_f2" label="Inferred"/>
+      <facetEntailment facetID="ME_17b_f3" label="Inferred"/>
+      <facetEntailment facetID="ME_17b_f4" label="Inferred"/>
+      <facetEntailment facetID="ME_17b_f5" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.17b.144.1" answerText="Because when you turn it left the circuit is open which means it goes off." accuracy="contradictory">
+      <facetEntailment facetID="ME_17b_f1" label="Contra-Expr"/>
+      <facetEntailment facetID="ME_17b_f2" label="Contra-Infr"/>
+      <facetEntailment facetID="ME_17b_f3" label="Contra-Infr"/>
+      <facetEntailment facetID="ME_17b_f4" label="Contra-Infr"/>
+      <facetEntailment facetID="ME_17b_f5" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.17b.254.1" answerText="Because she only has one switch." accuracy="irrelevant">
+      <facetEntailment facetID="ME_17b_f1" label="Inferred"/>
+      <facetEntailment facetID="ME_17b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ME_17b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_17b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_17b_f5" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.17b.311.1" answerText="Moving the switch the light bulb will make it light up." accuracy="irrelevant">
+      <facetEntailment facetID="ME_17b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="ME_17b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ME_17b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_17b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_17b_f5" label="Assumed"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

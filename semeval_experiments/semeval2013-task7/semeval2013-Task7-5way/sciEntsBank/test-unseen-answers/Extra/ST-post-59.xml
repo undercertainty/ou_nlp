@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<question testSet="unseen-answers" id="ST_59" module="ST">
+  <questionText>Elena has a male lizard that has lived for several years in the habitat she provided. She knows that some lizards are territorial. Besides additional food and water, what should she be sure to include in the habitat before she adds another male lizard?</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="ST_59-a1" text="Elena should include a separate shelter for each lizard.">
+      <tokens>
+        <token id="ST_59_ra1">Elena</token>
+        <token id="ST_59_ra2">should</token>
+        <token id="ST_59_ra3">include</token>
+        <token id="ST_59_ra4">a</token>
+        <token id="ST_59_ra5">separate</token>
+        <token id="ST_59_ra6">shelter</token>
+        <token id="ST_59_ra7">for</token>
+        <token id="ST_59_ra8">each</token>
+        <token id="ST_59_ra9">lizard</token>
+        <token id="ST_59_ra10">.</token>
+      </tokens>
+      <facets>
+        <facet id="ST_59_f1" govNum="ST_59_ra3" modNum="ST_59_ra1" reltn="Agent" govText="include" isAssumed="true" modText="Elena"/>
+        <facet id="ST_59_f2" govNum="ST_59_ra3" modNum="ST_59_ra6" reltn="Material" govText="include" modText="shelter"/>
+        <facet id="ST_59_f3" govNum="ST_59_ra6" modNum="ST_59_ra5" reltn="NMod" govText="shelter" modText="separate"/>
+        <facet id="ST_59_f4" govNum="ST_59_ra6" modNum="ST_59_ra9" reltn="NMod_for" govText="shelter" modText="lizard"/>
+        <facet id="ST_59_f5" govNum="ST_59_ra9" modNum="ST_59_ra8" reltn="Quantifier" govText="lizard" modText="each"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="ST.59.384.1" answerText="She should make sure they each have their own space." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="ST_59_f1" label="Assumed"/>
+      <facetEntailment facetID="ST_59_f2" label="Diff-Arg"/>
+      <facetEntailment facetID="ST_59_f3" label="Diff-Arg"/>
+      <facetEntailment facetID="ST_59_f4" label="Diff-Arg"/>
+      <facetEntailment facetID="ST_59_f5" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="ST.59.426.1" answerText="Shelter, space, food." accuracy="correct">
+      <facetEntailment facetID="ST_59_f1" label="Assumed"/>
+      <facetEntailment facetID="ST_59_f2" label="Inferred"/>
+      <facetEntailment facetID="ST_59_f3" label="Inferred"/>
+      <facetEntailment facetID="ST_59_f4" label="Inferred"/>
+      <facetEntailment facetID="ST_59_f5" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="ST.59.524.1" answerText="Add another shelter." accuracy="correct">
+      <facetEntailment facetID="ST_59_f1" label="Expressed"/>
+      <facetEntailment facetID="ST_59_f2" label="Expressed"/>
+      <facetEntailment facetID="ST_59_f3" label="Expressed"/>
+      <facetEntailment facetID="ST_59_f4" label="Inferred"/>
+      <facetEntailment facetID="ST_59_f5" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="ST.59.527.1" answerText="She needs another shelter." accuracy="correct">
+      <facetEntailment facetID="ST_59_f1" label="Expressed"/>
+      <facetEntailment facetID="ST_59_f2" label="Expressed"/>
+      <facetEntailment facetID="ST_59_f3" label="Expressed"/>
+      <facetEntailment facetID="ST_59_f4" label="Inferred"/>
+      <facetEntailment facetID="ST_59_f5" label="Inferred"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

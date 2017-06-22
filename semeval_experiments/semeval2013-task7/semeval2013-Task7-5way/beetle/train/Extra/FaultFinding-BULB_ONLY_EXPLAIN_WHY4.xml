@@ -1,0 +1,401 @@
+<?xml version="1.0"?>
+<question qtype="Q_EXPLAIN_SPECIFIC" id="BULB_ONLY_EXPLAIN_WHY4" module="FaultFinding" stype="EVALUATE">
+  <questionText>Explain why you got a voltage reading of 0 for terminal 1 and terminal 4.</questionText>
+  <referenceAnswers>
+    <referenceAnswer category="BEST" id="answer235" fileID="BULB_ONLY_EXPLAIN_WHY4_ANS1">Terminals 1 and 4 are connected</referenceAnswer>
+    <referenceAnswer category="GOOD" id="answer236" fileID="BULB_ONLY_EXPLAIN_WHY4_ANS2">Terminals 1 and 4 are not separated by the gap</referenceAnswer>
+    <referenceAnswer category="GOOD" id="answer239" fileID="BULB_ONLY_EXPLAIN_WHY4_ANS2a">There is no gap between terminals 1 and 4</referenceAnswer>
+    <referenceAnswer category="GOOD" id="answer238" fileID="BULB_ONLY_EXPLAIN_WHY4_ANS3">Terminals 1 and 4 are connected and in the same electrical state</referenceAnswer>
+    <referenceAnswer category="MINIMAL" id="answer238.NEW" fileID="NONE">Terminals 1 and 4 are in the same electrical state</referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer count="17" answerMatch="answer235" raw_text="terminal 1 is connected to terminal 4" id="FaultFinding-BULB_ONLY_EXPLAIN_WHY4.sbj3-l1.qa210" accuracy="correct">
+      <token status="ok" id="tok4079">terminal</token>
+      <token status="numerical" id="tok4080">1</token>
+      <token status="ok" id="tok4081">is</token>
+      <token status="ok" id="tok4082">connected</token>
+      <token status="ok" id="tok4083">to</token>
+      <token status="ok" id="tok4084">terminal</token>
+      <token status="numerical" id="tok4085">4</token>
+    </studentAnswer>
+    <studentAnswer count="5" answerMatch="answer235" raw_text="they are connected" id="FaultFinding-BULB_ONLY_EXPLAIN_WHY4.sbj7-l1.qa201" accuracy="correct">
+      <token status="ok" id="tok3513">they</token>
+      <token status="ok" id="tok3514">are</token>
+      <token status="ok" id="tok3515">connected</token>
+    </studentAnswer>
+    <studentAnswer count="2" answerMatch="answer235" raw_text="they are connected to each other" id="FaultFinding-BULB_ONLY_EXPLAIN_WHY4.sbj8-l1.qa246" accuracy="correct">
+      <token status="ok" id="tok4785">they</token>
+      <token status="ok" id="tok4786">are</token>
+      <token status="ok" id="tok4787">connected</token>
+      <token status="ok" id="tok4788">to</token>
+      <token status="ok" id="tok4789">each</token>
+      <token status="ok" id="tok4790">other</token>
+    </studentAnswer>
+    <studentAnswer count="13" answerMatch="answer235" raw_text="terminal 1 is connected to terminal 4." id="FaultFinding-BULB_ONLY_EXPLAIN_WHY4.sbj9-l1.qa205" accuracy="correct">
+      <token status="ok" id="tok3869">terminal</token>
+      <token status="numerical" id="tok3870">1</token>
+      <token status="ok" id="tok3871">is</token>
+      <token status="ok" id="tok3872">connected</token>
+      <token status="ok" id="tok3873">to</token>
+      <token status="ok" id="tok3874">terminal</token>
+      <token status="numerical" id="tok3875">4</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer235" raw_text="terminal one is connected to terminal four" id="FaultFinding-BULB_ONLY_EXPLAIN_WHY4.sbj10-l1.qa233" accuracy="correct">
+      <token status="ok" id="tok4438">terminal</token>
+      <token status="ok" id="tok4439">one</token>
+      <token status="ok" id="tok4440">is</token>
+      <token status="ok" id="tok4441">connected</token>
+      <token status="ok" id="tok4442">to</token>
+      <token status="ok" id="tok4443">terminal</token>
+      <token status="ok" id="tok4444">four</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer235" raw_text="The terminal 1 is connected to terminal 4" id="FaultFinding-BULB_ONLY_EXPLAIN_WHY4.sbj12-l1.qa199" accuracy="correct">
+      <token status="ok" id="tok3788">The</token>
+      <token status="ok" id="tok3789">terminal</token>
+      <token status="numerical" id="tok3790">1</token>
+      <token status="ok" id="tok3791">is</token>
+      <token status="ok" id="tok3792">connected</token>
+      <token status="ok" id="tok3793">to</token>
+      <token status="ok" id="tok3794">terminal</token>
+      <token status="numerical" id="tok3795">4</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="there was no gap between the positive battery terminal and terminal 1 and terminal 4." id="FaultFinding-BULB_ONLY_EXPLAIN_WHY4.sbj13-l1.qa241" accuracy="contradictory">
+      <token status="ok" id="tok4611">there</token>
+      <token status="ok" id="tok4612">was</token>
+      <token status="ok" id="tok4613">no</token>
+      <token status="ok" id="tok4614">gap</token>
+      <token status="ok" id="tok4615">between</token>
+      <token status="ok" id="tok4616">the</token>
+      <token status="ok" id="tok4617">positive</token>
+      <token status="ok" id="tok4618">battery</token>
+      <token status="ok" id="tok4619">terminal</token>
+      <token status="ok" id="tok4620">and</token>
+      <token status="ok" id="tok4621">terminal</token>
+      <token status="numerical" id="tok4622">1</token>
+      <token status="ok" id="tok4623">and</token>
+      <token status="ok" id="tok4624">terminal</token>
+      <token status="numerical" id="tok4625">4</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="Because they were both seperated." id="FaultFinding-BULB_ONLY_EXPLAIN_WHY4.sbj14-l1.qa227" accuracy="contradictory">
+      <token status="ok" id="tok3938">Because</token>
+      <token status="ok" id="tok3939">they</token>
+      <token status="ok" id="tok3940">were</token>
+      <token status="ok" id="tok3941">both</token>
+      <token status="ok" id="tok3942" original="seperated">separated</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer235" raw_text="because terminal 1 is directly connected to terminal 4" id="FaultFinding-BULB_ONLY_EXPLAIN_WHY4.sbj15-l1.qa249" accuracy="correct">
+      <token status="ok" id="tok4723">because</token>
+      <token status="ok" id="tok4724">terminal</token>
+      <token status="numerical" id="tok4725">1</token>
+      <token status="ok" id="tok4726">is</token>
+      <token status="ok" id="tok4727">directly</token>
+      <token status="ok" id="tok4728">connected</token>
+      <token status="ok" id="tok4729">to</token>
+      <token status="ok" id="tok4730">terminal</token>
+      <token status="numerical" id="tok4731">4</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer235" raw_text="terminal 1 is connetced to terminal 4" id="FaultFinding-BULB_ONLY_EXPLAIN_WHY4.sbj19-l1.qa268" accuracy="correct">
+      <token status="ok" id="tok5177">terminal</token>
+      <token status="numerical" id="tok5178">1</token>
+      <token status="ok" id="tok5179">is</token>
+      <token status="ok" id="tok5180" original="connetced">connected</token>
+      <token status="ok" id="tok5181">to</token>
+      <token status="ok" id="tok5182">terminal</token>
+      <token status="numerical" id="tok5183">4</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer235" raw_text="tereminal 1 is connected to terminal 4" id="FaultFinding-BULB_ONLY_EXPLAIN_WHY4.sbj22-l1.qa230" accuracy="correct">
+      <token status="ok" id="tok4440" original="tereminal">terminal</token>
+      <token status="numerical" id="tok4441">1</token>
+      <token status="ok" id="tok4442">is</token>
+      <token status="ok" id="tok4443">connected</token>
+      <token status="ok" id="tok4444">to</token>
+      <token status="ok" id="tok4445">terminal</token>
+      <token status="numerical" id="tok4446">4</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer238" raw_text="there is a difference in electrical states" id="FaultFinding-BULB_ONLY_EXPLAIN_WHY4.sbj24-l1.qa246" accuracy="contradictory">
+      <token status="ok" id="tok5047">there</token>
+      <token status="ok" id="tok5048">is</token>
+      <token status="ok" id="tok5049">a</token>
+      <token status="ok" id="tok5050">difference</token>
+      <token status="ok" id="tok5051">in</token>
+      <token status="ok" id="tok5052">electrical</token>
+      <token status="ok" id="tok5053">states</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer238" raw_text="terminal 1 and terminal 4 are the same" id="FaultFinding-BULB_ONLY_EXPLAIN_WHY4.sbj24-l1.qa248" accuracy="partially_correct_incomplete">
+      <token status="ok" id="tok5083">terminal</token>
+      <token status="numerical" id="tok5084">1</token>
+      <token status="ok" id="tok5085">and</token>
+      <token status="ok" id="tok5086">terminal</token>
+      <token status="numerical" id="tok5087">4</token>
+      <token status="ok" id="tok5088">are</token>
+      <token status="ok" id="tok5089">the</token>
+      <token status="ok" id="tok5090">same</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer235" raw_text="the terminal is connected" id="FaultFinding-BULB_ONLY_EXPLAIN_WHY4.sbj27-l1.qa225" accuracy="partially_correct_incomplete">
+      <token status="ok" id="tok4273">the</token>
+      <token status="ok" id="tok4274">terminal</token>
+      <token status="ok" id="tok4275">is</token>
+      <token status="ok" id="tok4276">connected</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="i&quot;m not sure" id="FaultFinding-BULB_ONLY_EXPLAIN_WHY4.sbj28-l1.qa223" accuracy="non_domain">
+      <token status="ok" id="tok3995">i</token>
+      <token status="pennTokenFragment" id="tok3996">'m</token>
+      <token status="ok" id="tok3997">not</token>
+      <token status="ok" id="tok3998">sure</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer235" raw_text="there is a gap in the path" id="FaultFinding-BULB_ONLY_EXPLAIN_WHY4.sbj28-l1.qa224" accuracy="partially_correct_incomplete">
+      <token status="ok" id="tok4013">there</token>
+      <token status="ok" id="tok4014">is</token>
+      <token status="ok" id="tok4015">a</token>
+      <token status="ok" id="tok4016">gap</token>
+      <token status="ok" id="tok4017">in</token>
+      <token status="ok" id="tok4018">the</token>
+      <token status="ok" id="tok4019">path</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="there is a gap between terminal 1 and terminal 4" id="FaultFinding-BULB_ONLY_EXPLAIN_WHY4.sbj28-l1.qa225" accuracy="contradictory">
+      <token status="ok" id="tok4028">there</token>
+      <token status="ok" id="tok4029">is</token>
+      <token status="ok" id="tok4030">a</token>
+      <token status="ok" id="tok4031">gap</token>
+      <token status="ok" id="tok4032">between</token>
+      <token status="ok" id="tok4033">terminal</token>
+      <token status="numerical" id="tok4034">1</token>
+      <token status="ok" id="tok4035">and</token>
+      <token status="ok" id="tok4036">terminal</token>
+      <token status="numerical" id="tok4037">4</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer235" raw_text="there is a gap in the circuit" id="FaultFinding-BULB_ONLY_EXPLAIN_WHY4.sbj28-l1.qa226" accuracy="partially_correct_incomplete">
+      <token status="ok" id="tok4051">there</token>
+      <token status="ok" id="tok4052">is</token>
+      <token status="ok" id="tok4053">a</token>
+      <token status="ok" id="tok4054">gap</token>
+      <token status="ok" id="tok4055">in</token>
+      <token status="ok" id="tok4056">the</token>
+      <token status="ok" id="tok4057">circuit</token>
+    </studentAnswer>
+    <studentAnswer count="2" answerMatch="answer235" raw_text="the terminals are connected" id="FaultFinding-BULB_ONLY_EXPLAIN_WHY4.sbj30-l1.qa211" accuracy="correct">
+      <token status="ok" id="tok4066">the</token>
+      <token status="ok" id="tok4067">terminals</token>
+      <token status="ok" id="tok4068">are</token>
+      <token status="ok" id="tok4069">connected</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer235" raw_text="terminals are connected" id="FaultFinding-BULB_ONLY_EXPLAIN_WHY4.sbj33-l1.qa215" accuracy="correct">
+      <token status="ok" id="tok4008">terminals</token>
+      <token status="ok" id="tok4009">are</token>
+      <token status="ok" id="tok4010">connected</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer235" raw_text="Terminal 1 was connected to a negative terminal 4." id="FaultFinding-BULB_ONLY_EXPLAIN_WHY4.sbj35-l1.qa226" accuracy="contradictory">
+      <token status="ok" id="tok4283">Terminal</token>
+      <token status="numerical" id="tok4284">1</token>
+      <token status="ok" id="tok4285">was</token>
+      <token status="ok" id="tok4286">connected</token>
+      <token status="ok" id="tok4287">to</token>
+      <token status="ok" id="tok4288">a</token>
+      <token status="ok" id="tok4289">negative</token>
+      <token status="ok" id="tok4290">terminal</token>
+      <token status="numerical" id="tok4291">4</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer236" raw_text="terminals 1 and 4 are not seperated by a gap" id="FaultFinding-BULB_ONLY_EXPLAIN_WHY4.sbj36-l1.qa232" accuracy="correct">
+      <token status="ok" id="tok4409">terminals</token>
+      <token status="numerical" id="tok4410">1</token>
+      <token status="ok" id="tok4411">and</token>
+      <token status="numerical" id="tok4412">4</token>
+      <token status="ok" id="tok4413">are</token>
+      <token status="ok" id="tok4414">not</token>
+      <token status="ok" id="tok4415" original="seperated">separated</token>
+      <token status="ok" id="tok4416">by</token>
+      <token status="ok" id="tok4417">a</token>
+      <token status="ok" id="tok4418">gap</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="Terminal 1 is connected to terminal 2" id="FaultFinding-BULB_ONLY_EXPLAIN_WHY4.sbj39-l1.qa247" accuracy="irrelevant">
+      <token status="ok" id="tok4966">Terminal</token>
+      <token status="numerical" id="tok4967">1</token>
+      <token status="ok" id="tok4968">is</token>
+      <token status="ok" id="tok4969">connected</token>
+      <token status="ok" id="tok4970">to</token>
+      <token status="ok" id="tok4971">terminal</token>
+      <token status="numerical" id="tok4972">2</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="terminal 1 i connected to terminal 6" id="FaultFinding-BULB_ONLY_EXPLAIN_WHY4.sbj39-l1.qa248" accuracy="contradictory">
+      <token status="ok" id="tok4984">terminal</token>
+      <token status="numerical" id="tok4985">1</token>
+      <token status="ok" id="tok4986">i</token>
+      <token status="ok" id="tok4987">connected</token>
+      <token status="ok" id="tok4988">to</token>
+      <token status="ok" id="tok4989">terminal</token>
+      <token status="numerical" id="tok4990">6</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer235" raw_text="A terminal is not connected to the positive battery terminal." id="FaultFinding-BULB_ONLY_EXPLAIN_WHY4.sbj42-l1.qa234" accuracy="partially_correct_incomplete">
+      <token status="ok" id="tok4310">A</token>
+      <token status="ok" id="tok4311">terminal</token>
+      <token status="ok" id="tok4312">is</token>
+      <token status="ok" id="tok4313">not</token>
+      <token status="ok" id="tok4314">connected</token>
+      <token status="ok" id="tok4315">to</token>
+      <token status="ok" id="tok4316">the</token>
+      <token status="ok" id="tok4317">positive</token>
+      <token status="ok" id="tok4318">battery</token>
+      <token status="ok" id="tok4319">terminal</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer235" raw_text="terminal 1 and terminal 4 are connected" id="FaultFinding-BULB_ONLY_EXPLAIN_WHY4.sbj43-l1.qa216" accuracy="correct">
+      <token status="ok" id="tok3984">terminal</token>
+      <token status="numerical" id="tok3985">1</token>
+      <token status="ok" id="tok3986">and</token>
+      <token status="ok" id="tok3987">terminal</token>
+      <token status="numerical" id="tok3988">4</token>
+      <token status="ok" id="tok3989">are</token>
+      <token status="ok" id="tok3990">connected</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer235" raw_text="because they are connected" id="FaultFinding-BULB_ONLY_EXPLAIN_WHY4.sbj45-l1.qa210" accuracy="correct">
+      <token status="ok" id="tok3755">because</token>
+      <token status="ok" id="tok3756">they</token>
+      <token status="ok" id="tok3757">are</token>
+      <token status="ok" id="tok3758">connected</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="terminal 1 is seperate from terminal 4" id="FaultFinding-BULB_ONLY_EXPLAIN_WHY4.sbj46-l1.qa225" accuracy="contradictory">
+      <token status="ok" id="tok4128">terminal</token>
+      <token status="numerical" id="tok4129">1</token>
+      <token status="ok" id="tok4130">is</token>
+      <token status="ok" id="tok4131" original="seperate">separate</token>
+      <token status="ok" id="tok4132">from</token>
+      <token status="ok" id="tok4133">terminal</token>
+      <token status="numerical" id="tok4134">4</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer235" raw_text="because they are both connected" id="FaultFinding-BULB_ONLY_EXPLAIN_WHY4.sbj48-l1.qa203" accuracy="correct">
+      <token status="ok" id="tok3975">because</token>
+      <token status="ok" id="tok3976">they</token>
+      <token status="ok" id="tok3977">are</token>
+      <token status="ok" id="tok3978">both</token>
+      <token status="ok" id="tok3979">connected</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="1 is connected to terminal 2." id="FaultFinding-BULB_ONLY_EXPLAIN_WHY4.sbjb2-l1.qa185" accuracy="irrelevant">
+      <token status="numerical" id="tok3544">1</token>
+      <token status="ok" id="tok3545">is</token>
+      <token status="ok" id="tok3546">connected</token>
+      <token status="ok" id="tok3547">to</token>
+      <token status="ok" id="tok3548">terminal</token>
+      <token status="numerical" id="tok3549">2</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer235" raw_text="Terminal one is connected to terminal 4" id="FaultFinding-BULB_ONLY_EXPLAIN_WHY4.sbjb6-l1.qa177" accuracy="correct">
+      <token status="ok" id="tok3514">Terminal</token>
+      <token status="ok" id="tok3515">one</token>
+      <token status="ok" id="tok3516">is</token>
+      <token status="ok" id="tok3517">connected</token>
+      <token status="ok" id="tok3518">to</token>
+      <token status="ok" id="tok3519">terminal</token>
+      <token status="numerical" id="tok3520">4</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer235" raw_text="same reason as 2" id="FaultFinding-BULB_ONLY_EXPLAIN_WHY4.sbjb10-l1.qa174" accuracy="contradictory">
+      <token status="ok" id="tok3485">same</token>
+      <token status="ok" id="tok3486">reason</token>
+      <token status="ok" id="tok3487">as</token>
+      <token status="numerical" id="tok3488">2</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer235" raw_text="Because the two terminals are connected" id="FaultFinding-BULB_ONLY_EXPLAIN_WHY4.sbjb11-l1.qa180" accuracy="correct">
+      <token status="ok" id="tok3613">Because</token>
+      <token status="ok" id="tok3614">the</token>
+      <token status="ok" id="tok3615">two</token>
+      <token status="ok" id="tok3616">terminals</token>
+      <token status="ok" id="tok3617">are</token>
+      <token status="ok" id="tok3618">connected</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer235" raw_text="terminal 1 and 4 connected" id="FaultFinding-BULB_ONLY_EXPLAIN_WHY4.sbjb15-l1.qa176" accuracy="correct">
+      <token status="ok" id="tok3478">terminal</token>
+      <token status="numerical" id="tok3479">1</token>
+      <token status="ok" id="tok3480">and</token>
+      <token status="numerical" id="tok3481">4</token>
+      <token status="ok" id="tok3482">connected</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer238" raw_text="They are both connected to the negative battery terminal" id="FaultFinding-BULB_ONLY_EXPLAIN_WHY4.sbjb17-l1.qa178" accuracy="partially_correct_incomplete">
+      <token status="ok" id="tok3588">They</token>
+      <token status="ok" id="tok3589">are</token>
+      <token status="ok" id="tok3590">both</token>
+      <token status="ok" id="tok3591">connected</token>
+      <token status="ok" id="tok3592">to</token>
+      <token status="ok" id="tok3593">the</token>
+      <token status="ok" id="tok3594">negative</token>
+      <token status="ok" id="tok3595">battery</token>
+      <token status="ok" id="tok3596">terminal</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer239" raw_text="The positive battery terminal is separated by a gap from terminal 4." id="FaultFinding-BULB_ONLY_EXPLAIN_WHY4.sbjb19-l1.qa179" accuracy="partially_correct_incomplete">
+      <token status="ok" id="tok3587">The</token>
+      <token status="ok" id="tok3588">positive</token>
+      <token status="ok" id="tok3589">battery</token>
+      <token status="ok" id="tok3590">terminal</token>
+      <token status="ok" id="tok3591">is</token>
+      <token status="ok" id="tok3592">separated</token>
+      <token status="ok" id="tok3593">by</token>
+      <token status="ok" id="tok3594">a</token>
+      <token status="ok" id="tok3595">gap</token>
+      <token status="ok" id="tok3596">from</token>
+      <token status="ok" id="tok3597">terminal</token>
+      <token status="numerical" id="tok3598">4</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer235" raw_text="Terminal 1 is connected to terminl 4." id="FaultFinding-BULB_ONLY_EXPLAIN_WHY4.sbjb20-l1.qa187" accuracy="correct">
+      <token status="ok" id="tok3717">Terminal</token>
+      <token status="numerical" id="tok3718">1</token>
+      <token status="ok" id="tok3719">is</token>
+      <token status="ok" id="tok3720">connected</token>
+      <token status="ok" id="tok3721">to</token>
+      <token status="ok" id="tok3722" original="terminl">terminal</token>
+      <token status="numerical" id="tok3723">4</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="no charge" id="FaultFinding-BULB_ONLY_EXPLAIN_WHY4.sbjb21-l1.qa175" accuracy="contradictory">
+      <token status="ok" id="tok3385">no</token>
+      <token status="ok" id="tok3386">charge</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer235" raw_text="same as above" id="FaultFinding-BULB_ONLY_EXPLAIN_WHY4.sbjb24-l1.qa182" accuracy="partially_correct_incomplete">
+      <token status="ok" id="tok3441">same</token>
+      <token status="ok" id="tok3442">as</token>
+      <token status="ok" id="tok3443">above</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer235" raw_text="Because they were connected within the same terminal." id="FaultFinding-BULB_ONLY_EXPLAIN_WHY4.sbjb25-l1.qa179" accuracy="correct">
+      <token status="ok" id="tok3550">Because</token>
+      <token status="ok" id="tok3551">they</token>
+      <token status="ok" id="tok3552">were</token>
+      <token status="ok" id="tok3553">connected</token>
+      <token status="ok" id="tok3554">within</token>
+      <token status="ok" id="tok3555">the</token>
+      <token status="ok" id="tok3556">same</token>
+      <token status="ok" id="tok3557">terminal</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer235" raw_text="terminal 1is connected to terminal 4" id="FaultFinding-BULB_ONLY_EXPLAIN_WHY4.sbjb29-l1.qa178" accuracy="correct">
+      <token status="ok" id="tok3620">terminal</token>
+      <token status="numerical" id="tok3621a">1</token>
+      <token status="ok" id="tok3621b">is</token>
+      <token status="ok" id="tok3622">connected</token>
+      <token status="ok" id="tok3623">to</token>
+      <token status="ok" id="tok3624">terminal</token>
+      <token status="numerical" id="tok3625">4</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer235" raw_text="Because terminal 1 is connected to terminal 4." id="FaultFinding-BULB_ONLY_EXPLAIN_WHY4.sbjb35-l1.qa175" accuracy="correct">
+      <token status="ok" id="tok3666">Because</token>
+      <token status="ok" id="tok3667">terminal</token>
+      <token status="numerical" id="tok3668">1</token>
+      <token status="ok" id="tok3669">is</token>
+      <token status="ok" id="tok3670">connected</token>
+      <token status="ok" id="tok3671">to</token>
+      <token status="ok" id="tok3672">terminal</token>
+      <token status="numerical" id="tok3673">4</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer235" raw_text="Terminal 1 is connected toterminal 4" id="FaultFinding-BULB_ONLY_EXPLAIN_WHY4.sbjb37-l1.qa174" accuracy="correct">
+      <token status="ok" id="tok3499">Terminal</token>
+      <token status="numerical" id="tok3500">1</token>
+      <token status="ok" id="tok3501">is</token>
+      <token status="ok" id="tok3502">connected</token>
+      <token status="splitFromMisspelling" id="tok3503a">to</token>
+      <token status="splitFromMisspelling" id="tok3503b">terminal</token>
+      <token status="numerical" id="tok3504">4</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="Terminal 1 is not connected to terminal 4." id="FaultFinding-BULB_ONLY_EXPLAIN_WHY4.sbjb41-l1.qa177" accuracy="contradictory">
+      <token status="ok" id="tok3820">Terminal</token>
+      <token status="numerical" id="tok3821">1</token>
+      <token status="ok" id="tok3822">is</token>
+      <token status="ok" id="tok3823">not</token>
+      <token status="ok" id="tok3824">connected</token>
+      <token status="ok" id="tok3825">to</token>
+      <token status="ok" id="tok3826">terminal</token>
+      <token status="numerical" id="tok3827">4</token>
+    </studentAnswer>
+  </studentAnswers>
+</question>

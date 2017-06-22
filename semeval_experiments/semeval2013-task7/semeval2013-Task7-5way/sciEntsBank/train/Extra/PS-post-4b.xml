@@ -1,0 +1,209 @@
+<?xml version="1.0"?>
+<question id="PS_4bp" module="PS">
+  <questionText>Darla tied one end of a string around a doorknob and held the other end in her hand. When she plucked the string (pulled and let go quickly) she heard a sound. How would the pitch change if Darla made the string longer?</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="PS_4b-a1" text="When the string is longer, the pitch will be lower.">
+      <tokens>
+        <token id="PS_4b_ra1">When</token>
+        <token id="PS_4b_ra2">the</token>
+        <token id="PS_4b_ra3">string</token>
+        <token id="PS_4b_ra4">is</token>
+        <token id="PS_4b_ra5">longer</token>
+        <token id="PS_4b_ra6">,</token>
+        <token id="PS_4b_ra7">the</token>
+        <token id="PS_4b_ra8">pitch</token>
+        <token id="PS_4b_ra9">will</token>
+        <token id="PS_4b_ra10">be</token>
+        <token id="PS_4b_ra11">lower</token>
+        <token id="PS_4b_ra12">.</token>
+      </tokens>
+      <facets>
+        <facet id="PS_4b_f1" govNum="PS_4b_ra3" modNum="PS_4b_ra5" reltn="Be" govText="string" isAssumed="true" modText="longer"/>
+        <facet id="PS_4b_f2" govNum="PS_4b_ra8" modNum="PS_4b_ra11" reltn="Be" govText="pitch" modText="lower"/>
+        <facet id="PS_4b_f3" govNum="PS_4b_ra10" modNum="PS_4b_ra4" reltn="Cause_when" childProp1Facet1="PS_4b_f2" govText="be" isAssumed="true" modText="is" childProp2Facet1="PS_4b_f1"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="PS.4b.101.1" answerText="It would be a high pitch." accuracy="">
+      <facetEntailment facetID="PS_4b_f1" label="Assumed"/>
+      <facetEntailment facetID="PS_4b_f2" label="Contra-Expr"/>
+      <facetEntailment facetID="PS_4b_f3" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.4b.105.1" answerText="It will change by the pitch will be soft." accuracy="">
+      <facetEntailment facetID="PS_4b_f1" label="Assumed"/>
+      <facetEntailment facetID="PS_4b_f2" label="Diff-Arg"/>
+      <facetEntailment facetID="PS_4b_f3" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.4b.110.1" answerText="It would be high pitch." accuracy="">
+      <facetEntailment facetID="PS_4b_f1" label="Assumed"/>
+      <facetEntailment facetID="PS_4b_f2" label="Contra-Expr"/>
+      <facetEntailment facetID="PS_4b_f3" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.4b.118.1" answerText="The pitch will change by getting lower." accuracy="">
+      <facetEntailment facetID="PS_4b_f1" label="Assumed"/>
+      <facetEntailment facetID="PS_4b_f2" label="Expressed"/>
+      <facetEntailment facetID="PS_4b_f3" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.4b.138.1" answerText="It would have a lower pitch." accuracy="">
+      <facetEntailment facetID="PS_4b_f1" label="Assumed"/>
+      <facetEntailment facetID="PS_4b_f2" label="Expressed"/>
+      <facetEntailment facetID="PS_4b_f3" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.4b.142.1" answerText="It would have a lower pitch." accuracy="">
+      <facetEntailment facetID="PS_4b_f1" label="Assumed"/>
+      <facetEntailment facetID="PS_4b_f2" label="Expressed"/>
+      <facetEntailment facetID="PS_4b_f3" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.4b.152.1" answerText="It would be lower." accuracy="">
+      <facetEntailment facetID="PS_4b_f1" label="Assumed"/>
+      <facetEntailment facetID="PS_4b_f2" label="Expressed"/>
+      <facetEntailment facetID="PS_4b_f3" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.4b.160.1" answerText="If she did the pitch would be lower." accuracy="">
+      <facetEntailment facetID="PS_4b_f1" label="Assumed"/>
+      <facetEntailment facetID="PS_4b_f2" label="Expressed"/>
+      <facetEntailment facetID="PS_4b_f3" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.4b.175.1" answerText="Louder." accuracy="">
+      <facetEntailment facetID="PS_4b_f1" label="Assumed"/>
+      <facetEntailment facetID="PS_4b_f2" label="Diff-Arg"/>
+      <facetEntailment facetID="PS_4b_f3" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.4b.179.1" answerText="The pitch gets lower." accuracy="">
+      <facetEntailment facetID="PS_4b_f1" label="Assumed"/>
+      <facetEntailment facetID="PS_4b_f2" label="Expressed"/>
+      <facetEntailment facetID="PS_4b_f3" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.4b.184.1" answerText="It will shake and make sound." accuracy="">
+      <facetEntailment facetID="PS_4b_f1" label="Assumed"/>
+      <facetEntailment facetID="PS_4b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="PS_4b_f3" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.4b.192.1" answerText="It would be lower." accuracy="">
+      <facetEntailment facetID="PS_4b_f1" label="Assumed"/>
+      <facetEntailment facetID="PS_4b_f2" label="Expressed"/>
+      <facetEntailment facetID="PS_4b_f3" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.4b.212.1" answerText="It would get lower." accuracy="">
+      <facetEntailment facetID="PS_4b_f1" label="Assumed"/>
+      <facetEntailment facetID="PS_4b_f2" label="Expressed"/>
+      <facetEntailment facetID="PS_4b_f3" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.4b.222.1" answerText="It would have a lower pitch because it has less room to vibrate." accuracy="">
+      <facetEntailment facetID="PS_4b_f1" label="Contra-Infr"/>
+      <facetEntailment facetID="PS_4b_f2" label="Expressed"/>
+      <facetEntailment facetID="PS_4b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.4b.230.1" answerText="Softer." accuracy="">
+      <facetEntailment facetID="PS_4b_f1" label="Assumed"/>
+      <facetEntailment facetID="PS_4b_f2" label="Diff-Arg"/>
+      <facetEntailment facetID="PS_4b_f3" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.4b.249.1" answerText="It would be wobbly so it would make a small sound." accuracy="">
+      <facetEntailment facetID="PS_4b_f1" label="Assumed"/>
+      <facetEntailment facetID="PS_4b_f2" label="Diff-Arg"/>
+      <facetEntailment facetID="PS_4b_f3" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.4b.253.1" answerText="It would make a higher sound." accuracy="">
+      <facetEntailment facetID="PS_4b_f1" label="Assumed"/>
+      <facetEntailment facetID="PS_4b_f2" label="Contra-Expr"/>
+      <facetEntailment facetID="PS_4b_f3" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.4b.263.1" answerText="It would be lower pitch." accuracy="">
+      <facetEntailment facetID="PS_4b_f1" label="Assumed"/>
+      <facetEntailment facetID="PS_4b_f2" label="Expressed"/>
+      <facetEntailment facetID="PS_4b_f3" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.4b.317.1" answerText="It would not be as high as when you pull it tight." accuracy="">
+      <facetEntailment facetID="PS_4b_f1" label="Diff-Arg"/>
+      <facetEntailment facetID="PS_4b_f2" label="Expressed"/>
+      <facetEntailment facetID="PS_4b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.4b.328.1" answerText="It would change to a low pitch." accuracy="">
+      <facetEntailment facetID="PS_4b_f1" label="Assumed"/>
+      <facetEntailment facetID="PS_4b_f2" label="Expressed"/>
+      <facetEntailment facetID="PS_4b_f3" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.4b.334.1" answerText="It would be a low pitch." accuracy="">
+      <facetEntailment facetID="PS_4b_f1" label="Assumed"/>
+      <facetEntailment facetID="PS_4b_f2" label="Expressed"/>
+      <facetEntailment facetID="PS_4b_f3" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.4b.384.1" answerText="The pitch will be higher." accuracy="">
+      <facetEntailment facetID="PS_4b_f1" label="Assumed"/>
+      <facetEntailment facetID="PS_4b_f2" label="Contra-Expr"/>
+      <facetEntailment facetID="PS_4b_f3" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.4b.400.1" answerText="A low pitch." accuracy="">
+      <facetEntailment facetID="PS_4b_f1" label="Assumed"/>
+      <facetEntailment facetID="PS_4b_f2" label="Expressed"/>
+      <facetEntailment facetID="PS_4b_f3" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.4b.454.1" answerText="It would be lower." accuracy="">
+      <facetEntailment facetID="PS_4b_f1" label="Assumed"/>
+      <facetEntailment facetID="PS_4b_f2" label="Expressed"/>
+      <facetEntailment facetID="PS_4b_f3" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.4b.461.1" answerText="The pitch would get lower." accuracy="">
+      <facetEntailment facetID="PS_4b_f1" label="Assumed"/>
+      <facetEntailment facetID="PS_4b_f2" label="Expressed"/>
+      <facetEntailment facetID="PS_4b_f3" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.4b.468.1" answerText="The pitch will be low." accuracy="">
+      <facetEntailment facetID="PS_4b_f1" label="Assumed"/>
+      <facetEntailment facetID="PS_4b_f2" label="Expressed"/>
+      <facetEntailment facetID="PS_4b_f3" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.4b.501.1" answerText="It got high." accuracy="">
+      <facetEntailment facetID="PS_4b_f1" label="Assumed"/>
+      <facetEntailment facetID="PS_4b_f2" label="Contra-Expr"/>
+      <facetEntailment facetID="PS_4b_f3" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.4b.508.1" answerText="It will be low the pitch change." accuracy="">
+      <facetEntailment facetID="PS_4b_f1" label="Assumed"/>
+      <facetEntailment facetID="PS_4b_f2" label="Expressed"/>
+      <facetEntailment facetID="PS_4b_f3" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.4b.523.1" answerText="The sound would be lower." accuracy="">
+      <facetEntailment facetID="PS_4b_f1" label="Assumed"/>
+      <facetEntailment facetID="PS_4b_f2" label="Expressed"/>
+      <facetEntailment facetID="PS_4b_f3" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.4b.537.1" answerText="It would be lower pitch." accuracy="">
+      <facetEntailment facetID="PS_4b_f1" label="Assumed"/>
+      <facetEntailment facetID="PS_4b_f2" label="Expressed"/>
+      <facetEntailment facetID="PS_4b_f3" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.4b.557.1" answerText="It would be a longer sound." accuracy="">
+      <facetEntailment facetID="PS_4b_f1" label="Assumed"/>
+      <facetEntailment facetID="PS_4b_f2" label="Diff-Arg"/>
+      <facetEntailment facetID="PS_4b_f3" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.4b.563.1" answerText="Still high." accuracy="">
+      <facetEntailment facetID="PS_4b_f1" label="Assumed"/>
+      <facetEntailment facetID="PS_4b_f2" label="Contra-Expr"/>
+      <facetEntailment facetID="PS_4b_f3" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.4b.571.1" answerText="It would sound lower." accuracy="">
+      <facetEntailment facetID="PS_4b_f1" label="Assumed"/>
+      <facetEntailment facetID="PS_4b_f2" label="Expressed"/>
+      <facetEntailment facetID="PS_4b_f3" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.4b.596.1" answerText="The pitch will go high." accuracy="">
+      <facetEntailment facetID="PS_4b_f1" label="Assumed"/>
+      <facetEntailment facetID="PS_4b_f2" label="Contra-Expr"/>
+      <facetEntailment facetID="PS_4b_f3" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.4b.602.1" answerText="It will make a lower pitch and yes." accuracy="">
+      <facetEntailment facetID="PS_4b_f1" label="Assumed"/>
+      <facetEntailment facetID="PS_4b_f2" label="Expressed"/>
+      <facetEntailment facetID="PS_4b_f3" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.4b.629.1" answerText="The pitch would be low." accuracy="">
+      <facetEntailment facetID="PS_4b_f1" label="Assumed"/>
+      <facetEntailment facetID="PS_4b_f2" label="Expressed"/>
+      <facetEntailment facetID="PS_4b_f3" label="Assumed"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

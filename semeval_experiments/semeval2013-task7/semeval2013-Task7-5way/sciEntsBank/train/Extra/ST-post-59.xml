@@ -1,0 +1,281 @@
+<?xml version="1.0"?>
+<question id="ST_59" module="ST">
+  <questionText>Elena has a male lizard that has lived for several years in the habitat she provided. She knows that some lizards are territorial. Besides additional food and water, what should she be sure to include in the habitat before she adds another male lizard?</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="ST_59-a1" text="Elena should include a separate shelter for each lizard.">
+      <tokens>
+        <token id="ST_59_ra1">Elena</token>
+        <token id="ST_59_ra2">should</token>
+        <token id="ST_59_ra3">include</token>
+        <token id="ST_59_ra4">a</token>
+        <token id="ST_59_ra5">separate</token>
+        <token id="ST_59_ra6">shelter</token>
+        <token id="ST_59_ra7">for</token>
+        <token id="ST_59_ra8">each</token>
+        <token id="ST_59_ra9">lizard</token>
+        <token id="ST_59_ra10">.</token>
+      </tokens>
+      <facets>
+        <facet id="ST_59_f1" govNum="ST_59_ra3" modNum="ST_59_ra1" reltn="Agent" govText="include" isAssumed="true" modText="Elena"/>
+        <facet id="ST_59_f2" govNum="ST_59_ra3" modNum="ST_59_ra6" reltn="Material" govText="include" modText="shelter"/>
+        <facet id="ST_59_f3" govNum="ST_59_ra6" modNum="ST_59_ra5" reltn="NMod" govText="shelter" modText="separate"/>
+        <facet id="ST_59_f4" govNum="ST_59_ra6" modNum="ST_59_ra9" reltn="NMod_for" govText="shelter" modText="lizard"/>
+        <facet id="ST_59_f5" govNum="ST_59_ra9" modNum="ST_59_ra8" reltn="Quantifier" govText="lizard" modText="each"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="ST.59.382.1" answerText="Elena should add shelter." accuracy="correct">
+      <facetEntailment facetID="ST_59_f1" label="Expressed"/>
+      <facetEntailment facetID="ST_59_f2" label="Expressed"/>
+      <facetEntailment facetID="ST_59_f3" label="Inferred"/>
+      <facetEntailment facetID="ST_59_f4" label="Inferred"/>
+      <facetEntailment facetID="ST_59_f5" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="ST.59.386.1" answerText="She needs shelter." accuracy="correct">
+      <facetEntailment facetID="ST_59_f1" label="Assumed"/>
+      <facetEntailment facetID="ST_59_f2" label="Inferred"/>
+      <facetEntailment facetID="ST_59_f3" label="Inferred"/>
+      <facetEntailment facetID="ST_59_f4" label="Inferred"/>
+      <facetEntailment facetID="ST_59_f5" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="ST.59.389.1" answerText="Elena has to put homes inside of the habitat." accuracy="correct">
+      <facetEntailment facetID="ST_59_f1" label="Expressed"/>
+      <facetEntailment facetID="ST_59_f2" label="Expressed"/>
+      <facetEntailment facetID="ST_59_f3" label="Inferred"/>
+      <facetEntailment facetID="ST_59_f4" label="Inferred"/>
+      <facetEntailment facetID="ST_59_f5" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="ST.59.393.1" answerText="She needs to add another house or shelter and maybe a female." accuracy="correct">
+      <facetEntailment facetID="ST_59_f1" label="Expressed"/>
+      <facetEntailment facetID="ST_59_f2" label="Expressed"/>
+      <facetEntailment facetID="ST_59_f3" label="Expressed"/>
+      <facetEntailment facetID="ST_59_f4" label="Inferred"/>
+      <facetEntailment facetID="ST_59_f5" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="ST.59.396.1" answerText="Elena should include another home." accuracy="correct">
+      <facetEntailment facetID="ST_59_f1" label="Expressed"/>
+      <facetEntailment facetID="ST_59_f2" label="Expressed"/>
+      <facetEntailment facetID="ST_59_f3" label="Expressed"/>
+      <facetEntailment facetID="ST_59_f4" label="Inferred"/>
+      <facetEntailment facetID="ST_59_f5" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="ST.59.402.1" answerText="More shelter." accuracy="correct">
+      <facetEntailment facetID="ST_59_f1" label="Assumed"/>
+      <facetEntailment facetID="ST_59_f2" label="Inferred"/>
+      <facetEntailment facetID="ST_59_f3" label="Inferred"/>
+      <facetEntailment facetID="ST_59_f4" label="Inferred"/>
+      <facetEntailment facetID="ST_59_f5" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="ST.59.418.1" answerText="Put a glass in the center of the tank." accuracy="irrelevant">
+      <facetEntailment facetID="ST_59_f1" label="Assumed"/>
+      <facetEntailment facetID="ST_59_f2" label="Diff-Arg"/>
+      <facetEntailment facetID="ST_59_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ST_59_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ST_59_f5" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ST.59.420.1" answerText="Get her own shelter for that lizard." accuracy="correct">
+      <facetEntailment facetID="ST_59_f1" label="Expressed"/>
+      <facetEntailment facetID="ST_59_f2" label="Expressed"/>
+      <facetEntailment facetID="ST_59_f3" label="Expressed"/>
+      <facetEntailment facetID="ST_59_f4" label="Expressed"/>
+      <facetEntailment facetID="ST_59_f5" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="ST.59.422.1" answerText="A lizard needs food, home, space, air, water." accuracy="correct">
+      <facetEntailment facetID="ST_59_f1" label="Assumed"/>
+      <facetEntailment facetID="ST_59_f2" label="Inferred"/>
+      <facetEntailment facetID="ST_59_f3" label="Inferred"/>
+      <facetEntailment facetID="ST_59_f4" label="Expressed"/>
+      <facetEntailment facetID="ST_59_f5" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="ST.59.423.1" answerText="A structure for the next lizard." accuracy="correct">
+      <facetEntailment facetID="ST_59_f1" label="Assumed"/>
+      <facetEntailment facetID="ST_59_f2" label="Inferred"/>
+      <facetEntailment facetID="ST_59_f3" label="Inferred"/>
+      <facetEntailment facetID="ST_59_f4" label="Expressed"/>
+      <facetEntailment facetID="ST_59_f5" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="ST.59.451.1" answerText="Elena should make special places for both of them otherwise they will fight." accuracy="correct">
+      <facetEntailment facetID="ST_59_f1" label="Expressed"/>
+      <facetEntailment facetID="ST_59_f2" label="Inferred"/>
+      <facetEntailment facetID="ST_59_f3" label="Inferred"/>
+      <facetEntailment facetID="ST_59_f4" label="Inferred"/>
+      <facetEntailment facetID="ST_59_f5" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="ST.59.453.1" answerText="Maybe she could put in 2 females also." accuracy="irrelevant">
+      <facetEntailment facetID="ST_59_f1" label="Expressed"/>
+      <facetEntailment facetID="ST_59_f2" label="Diff-Arg"/>
+      <facetEntailment facetID="ST_59_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ST_59_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ST_59_f5" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ST.59.458.1" answerText="A new bed." accuracy="irrelevant">
+      <facetEntailment facetID="ST_59_f1" label="Assumed"/>
+      <facetEntailment facetID="ST_59_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ST_59_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ST_59_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ST_59_f5" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ST.59.460.1" answerText="Some twigs, rocks and air." accuracy="irrelevant">
+      <facetEntailment facetID="ST_59_f1" label="Assumed"/>
+      <facetEntailment facetID="ST_59_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ST_59_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ST_59_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ST_59_f5" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ST.59.465.1" answerText="I think she would need to put some wood need some wood." accuracy="irrelevant">
+      <facetEntailment facetID="ST_59_f1" label="Assumed"/>
+      <facetEntailment facetID="ST_59_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ST_59_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ST_59_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ST_59_f5" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ST.59.467.1" answerText="Maybe some shelter or some grass." accuracy="correct">
+      <facetEntailment facetID="ST_59_f1" label="Assumed"/>
+      <facetEntailment facetID="ST_59_f2" label="Inferred"/>
+      <facetEntailment facetID="ST_59_f3" label="Inferred"/>
+      <facetEntailment facetID="ST_59_f4" label="Inferred"/>
+      <facetEntailment facetID="ST_59_f5" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="ST.59.469.1" answerText="She would have to know the food the lizards want." accuracy="irrelevant">
+      <facetEntailment facetID="ST_59_f1" label="Assumed"/>
+      <facetEntailment facetID="ST_59_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ST_59_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ST_59_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ST_59_f5" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ST.59.488.1" answerText="She is going to need food for both of them, water, space and shelter." accuracy="correct">
+      <facetEntailment facetID="ST_59_f1" label="Assumed"/>
+      <facetEntailment facetID="ST_59_f2" label="Inferred"/>
+      <facetEntailment facetID="ST_59_f3" label="Expressed"/>
+      <facetEntailment facetID="ST_59_f4" label="Inferred"/>
+      <facetEntailment facetID="ST_59_f5" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="ST.59.491.1" answerText="She needs to observe her lizard." accuracy="irrelevant">
+      <facetEntailment facetID="ST_59_f1" label="Assumed"/>
+      <facetEntailment facetID="ST_59_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ST_59_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ST_59_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ST_59_f5" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ST.59.492.1" answerText="Some leaves and some wood." accuracy="irrelevant">
+      <facetEntailment facetID="ST_59_f1" label="Assumed"/>
+      <facetEntailment facetID="ST_59_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ST_59_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ST_59_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ST_59_f5" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ST.59.497.1" answerText="Water and food." accuracy="irrelevant">
+      <facetEntailment facetID="ST_59_f1" label="Assumed"/>
+      <facetEntailment facetID="ST_59_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ST_59_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ST_59_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ST_59_f5" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ST.59.529.1" answerText="Another shelter." accuracy="correct">
+      <facetEntailment facetID="ST_59_f1" label="Assumed"/>
+      <facetEntailment facetID="ST_59_f2" label="Inferred"/>
+      <facetEntailment facetID="ST_59_f3" label="Expressed"/>
+      <facetEntailment facetID="ST_59_f4" label="Inferred"/>
+      <facetEntailment facetID="ST_59_f5" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="ST.59.535.1" answerText="The shelter and other basic needs." accuracy="correct">
+      <facetEntailment facetID="ST_59_f1" label="Assumed"/>
+      <facetEntailment facetID="ST_59_f2" label="Inferred"/>
+      <facetEntailment facetID="ST_59_f3" label="Inferred"/>
+      <facetEntailment facetID="ST_59_f4" label="Inferred"/>
+      <facetEntailment facetID="ST_59_f5" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="ST.59.556.1" answerText="She should add another shelter." accuracy="correct">
+      <facetEntailment facetID="ST_59_f1" label="Expressed"/>
+      <facetEntailment facetID="ST_59_f2" label="Expressed"/>
+      <facetEntailment facetID="ST_59_f3" label="Expressed"/>
+      <facetEntailment facetID="ST_59_f4" label="Inferred"/>
+      <facetEntailment facetID="ST_59_f5" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="ST.59.560.1" answerText="Well, food, water, some leaves, some dirt, a stick or 2 and some rocks and grass." accuracy="correct">
+      <facetEntailment facetID="ST_59_f1" label="Assumed"/>
+      <facetEntailment facetID="ST_59_f2" label="Inferred"/>
+      <facetEntailment facetID="ST_59_f3" label="Inferred"/>
+      <facetEntailment facetID="ST_59_f4" label="Inferred"/>
+      <facetEntailment facetID="ST_59_f5" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="ST.59.562.1" answerText="Elena should put leaves, logs, and tree branches in the habitat." accuracy="correct">
+      <facetEntailment facetID="ST_59_f1" label="Expressed"/>
+      <facetEntailment facetID="ST_59_f2" label="Inferred"/>
+      <facetEntailment facetID="ST_59_f3" label="Inferred"/>
+      <facetEntailment facetID="ST_59_f4" label="Inferred"/>
+      <facetEntailment facetID="ST_59_f5" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="ST.59.568.1" answerText="She should get a bigger and food and water." accuracy="irrelevant">
+      <facetEntailment facetID="ST_59_f1" label="Assumed"/>
+      <facetEntailment facetID="ST_59_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ST_59_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ST_59_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ST_59_f5" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ST.59.570.1" answerText="Elena should put more food and water." accuracy="irrelevant">
+      <facetEntailment facetID="ST_59_f1" label="Expressed"/>
+      <facetEntailment facetID="ST_59_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ST_59_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ST_59_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ST_59_f5" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ST.59.599.1" answerText="She should add shelter and space." accuracy="correct">
+      <facetEntailment facetID="ST_59_f1" label="Expressed"/>
+      <facetEntailment facetID="ST_59_f2" label="Expressed"/>
+      <facetEntailment facetID="ST_59_f3" label="Inferred"/>
+      <facetEntailment facetID="ST_59_f4" label="Inferred"/>
+      <facetEntailment facetID="ST_59_f5" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="ST.59.601.1" answerText="Elena should be sure to have either 2 habitats or a lot of space so each lizard does not have to fight over space." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="ST_59_f1" label="Expressed"/>
+      <facetEntailment facetID="ST_59_f2" label="Diff-Arg"/>
+      <facetEntailment facetID="ST_59_f3" label="Diff-Arg"/>
+      <facetEntailment facetID="ST_59_f4" label="Diff-Arg"/>
+      <facetEntailment facetID="ST_59_f5" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="ST.59.607.1" answerText="She should put a prop of a lizard to see if her lizard will let it be or fight it." accuracy="irrelevant">
+      <facetEntailment facetID="ST_59_f1" label="Expressed"/>
+      <facetEntailment facetID="ST_59_f2" label="Diff-Arg"/>
+      <facetEntailment facetID="ST_59_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ST_59_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ST_59_f5" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ST.59.628.1" answerText="Grass." accuracy="irrelevant">
+      <facetEntailment facetID="ST_59_f1" label="Assumed"/>
+      <facetEntailment facetID="ST_59_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ST_59_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ST_59_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ST_59_f5" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ST.59.632.1" answerText="She should make sure they are nice to each other." accuracy="irrelevant">
+      <facetEntailment facetID="ST_59_f1" label="Assumed"/>
+      <facetEntailment facetID="ST_59_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ST_59_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ST_59_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ST_59_f5" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ST.59.633.1" answerText="Shelter, space, and homes." accuracy="correct">
+      <facetEntailment facetID="ST_59_f1" label="Assumed"/>
+      <facetEntailment facetID="ST_59_f2" label="Inferred"/>
+      <facetEntailment facetID="ST_59_f3" label="Inferred"/>
+      <facetEntailment facetID="ST_59_f4" label="Inferred"/>
+      <facetEntailment facetID="ST_59_f5" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="ST.59.640.1" answerText="Another house for the lizard." accuracy="correct">
+      <facetEntailment facetID="ST_59_f1" label="Assumed"/>
+      <facetEntailment facetID="ST_59_f2" label="Inferred"/>
+      <facetEntailment facetID="ST_59_f3" label="Expressed"/>
+      <facetEntailment facetID="ST_59_f4" label="Expressed"/>
+      <facetEntailment facetID="ST_59_f5" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="ST.59.641.1" answerText="She or he should add more space and almost everything lizards need." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="ST_59_f1" label="Assumed"/>
+      <facetEntailment facetID="ST_59_f2" label="Diff-Arg"/>
+      <facetEntailment facetID="ST_59_f3" label="Diff-Arg"/>
+      <facetEntailment facetID="ST_59_f4" label="Diff-Arg"/>
+      <facetEntailment facetID="ST_59_f5" label="Inferred"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

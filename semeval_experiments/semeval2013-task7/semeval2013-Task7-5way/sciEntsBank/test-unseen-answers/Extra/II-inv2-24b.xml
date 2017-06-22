@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<question testSet="unseen-answers" id="II_24b" module="II">
+  <questionText>Design a way to use carbon printing to find out if 2 Labrador retrievers have the same paw patterns. How will you know if the 2 dogs have paw patterns that are the same?</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="II_24b-a1" text="Compare prints to see if the patterns are the same.">
+      <tokens>
+        <token id="II_24b_ra1">Compare</token>
+        <token id="II_24b_ra2">prints</token>
+        <token id="II_24b_ra3">to</token>
+        <token id="II_24b_ra4">see</token>
+        <token id="II_24b_ra5">if</token>
+        <token id="II_24b_ra6">the</token>
+        <token id="II_24b_ra7">patterns</token>
+        <token id="II_24b_ra8">are</token>
+        <token id="II_24b_ra9">the</token>
+        <token id="II_24b_ra10">same</token>
+        <token id="II_24b_ra11">.</token>
+      </tokens>
+      <facets>
+        <facet id="II_24b_f1" govNum="II_24b_ra1" modNum="II_24b_ra2" reltn="Patient" govText="Compare" modText="prints"/>
+        <facet id="II_24b_f2" govNum="II_24b_ra4" modNum="II_24b_ra1" reltn="Cause_to" govText="see" modText="Compare"/>
+        <facet id="II_24b_f3" govNum="II_24b_ra4" modNum="II_24b_ra8" reltn="Predicate_if" govText="see" modText="are" childProp2Facet1="II_24b_f4"/>
+        <facet id="II_24b_f4" govNum="II_24b_ra7" modNum="II_24b_ra10" reltn="Be" govText="patterns" modText="same"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="II.24b.405.1" answerText="Look really carefully at the paper and see if it is the same." accuracy="correct">
+      <facetEntailment facetID="II_24b_f1" label="Expressed"/>
+      <facetEntailment facetID="II_24b_f2" label="Expressed"/>
+      <facetEntailment facetID="II_24b_f3" label="Expressed"/>
+      <facetEntailment facetID="II_24b_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="II.24b.430.1" answerText="Because there is small dogs and huge dogs." accuracy="irrelevant">
+      <facetEntailment facetID="II_24b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="II_24b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="II_24b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="II_24b_f4" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="II.24b.527.1" answerText="Because they may be arches, whorl and loop." accuracy="irrelevant">
+      <facetEntailment facetID="II_24b_f1" label="Inferred"/>
+      <facetEntailment facetID="II_24b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="II_24b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="II_24b_f4" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="II.24b.529.1" answerText="The figure, texture, shape, and how it looks." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="II_24b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="II_24b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="II_24b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="II_24b_f4" label="Inferred"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

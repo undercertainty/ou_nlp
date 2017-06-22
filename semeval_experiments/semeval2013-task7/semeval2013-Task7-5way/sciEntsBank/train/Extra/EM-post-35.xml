@@ -1,0 +1,205 @@
+<?xml version="1.0"?>
+<question id="EM_35" module="EM">
+  <questionText>Carrie wanted to find out which was harder, a penny or a nickel, so she did a scratch test. How would this tell her which is harder?</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="EM_35-a1" text="The harder coin will scratch the other.">
+      <tokens>
+        <token id="EM_35_ra1">The</token>
+        <token id="EM_35_ra2">harder</token>
+        <token id="EM_35_ra3">coin</token>
+        <token id="EM_35_ra4">will</token>
+        <token id="EM_35_ra5">scratch</token>
+        <token id="EM_35_ra6">the</token>
+        <token id="EM_35_ra7">other</token>
+        <token id="EM_35_ra8">.</token>
+      </tokens>
+      <facets>
+        <facet id="EM_35_f1" govNum="EM_35_ra3" modNum="EM_35_ra2" reltn="NMod" govText="coin" isAssumed="true" modText="harder"/>
+        <facet id="EM_35_f2" govNum="EM_35_ra5" modNum="EM_35_ra3" reltn="Instrument" govText="scratch" modText="coin"/>
+        <facet id="EM_35_f3" govNum="EM_35_ra5" modNum="EM_35_ra7" reltn="Patient" govText="scratch" modText="other"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="EM.35.384.1" answerText="You could tell if it has the hardest if most of it came off." accuracy="irrelevant">
+      <facetEntailment facetID="EM_35_f1" label="Expressed"/>
+      <facetEntailment facetID="EM_35_f2" label="Unaddressed"/>
+      <facetEntailment facetID="EM_35_f3" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.35.387.1" answerText="If just the penny could scratch and the nickel could not the penny is harder." accuracy="correct">
+      <facetEntailment facetID="EM_35_f1" label="Expressed"/>
+      <facetEntailment facetID="EM_35_f2" label="Expressed"/>
+      <facetEntailment facetID="EM_35_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.35.391.1" answerText="Whichever one was damaged most was less hard." accuracy="correct">
+      <facetEntailment facetID="EM_35_f1" label="Assumed"/>
+      <facetEntailment facetID="EM_35_f2" label="Inferred"/>
+      <facetEntailment facetID="EM_35_f3" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="EM.35.398.1" answerText="Rub them against a crystal." accuracy="irrelevant">
+      <facetEntailment facetID="EM_35_f1" label="Assumed"/>
+      <facetEntailment facetID="EM_35_f2" label="Unaddressed"/>
+      <facetEntailment facetID="EM_35_f3" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.35.403.1" answerText="Which had less scratches." accuracy="correct">
+      <facetEntailment facetID="EM_35_f1" label="Assumed"/>
+      <facetEntailment facetID="EM_35_f2" label="Inferred"/>
+      <facetEntailment facetID="EM_35_f3" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="EM.35.408.1" answerText="If it makes a scratch or a little dent." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EM_35_f1" label="Assumed"/>
+      <facetEntailment facetID="EM_35_f2" label="Expressed"/>
+      <facetEntailment facetID="EM_35_f3" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.35.418.1" answerText="Well she can take the penny and the nickel and rub them together." accuracy="correct">
+      <facetEntailment facetID="EM_35_f1" label="Assumed"/>
+      <facetEntailment facetID="EM_35_f2" label="Inferred"/>
+      <facetEntailment facetID="EM_35_f3" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="EM.35.436.1" answerText="The one that is scratched is softer." accuracy="correct">
+      <facetEntailment facetID="EM_35_f1" label="Assumed"/>
+      <facetEntailment facetID="EM_35_f2" label="Expressed"/>
+      <facetEntailment facetID="EM_35_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.35.437.1" answerText="She could tell which is harder by getting a rock and seeing if the penny or nickel would scratch it. Whichever one does is harder." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EM_35_f1" label="Expressed"/>
+      <facetEntailment facetID="EM_35_f2" label="Expressed"/>
+      <facetEntailment facetID="EM_35_f3" label="Diff-Arg"/>
+    </studentAnswer>
+    <studentAnswer id="EM.35.441.1" answerText="Maybe he should scratch even other then when you are done see if one have scratches." accuracy="correct">
+      <facetEntailment facetID="EM_35_f1" label="Assumed"/>
+      <facetEntailment facetID="EM_35_f2" label="Expressed"/>
+      <facetEntailment facetID="EM_35_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.35.444.1" answerText="It would tell her because she could scratch the penny on the nickel and the nickel on the penny and see which one is scratched." accuracy="contradictory">
+      <facetEntailment facetID="EM_35_f1" label="Contra-Infr"/>
+      <facetEntailment facetID="EM_35_f2" label="Expressed"/>
+      <facetEntailment facetID="EM_35_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.35.487.1" answerText="In order to tell which is harder, else would have to see if the penny and nickel leave a mark to see which is harder." accuracy="correct">
+      <facetEntailment facetID="EM_35_f1" label="Expressed"/>
+      <facetEntailment facetID="EM_35_f2" label="Expressed"/>
+      <facetEntailment facetID="EM_35_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.35.490.1" answerText="By the one that leave a mark on one. That means that that one is harder." accuracy="correct">
+      <facetEntailment facetID="EM_35_f1" label="Expressed"/>
+      <facetEntailment facetID="EM_35_f2" label="Expressed"/>
+      <facetEntailment facetID="EM_35_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.35.493.1" answerText="The one that got scratch each penny or a nickel got scratch." accuracy="correct">
+      <facetEntailment facetID="EM_35_f1" label="Assumed"/>
+      <facetEntailment facetID="EM_35_f2" label="Expressed"/>
+      <facetEntailment facetID="EM_35_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.35.496.1" answerText="She can scratch it and see which one scratch the rock or mineral." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EM_35_f1" label="Assumed"/>
+      <facetEntailment facetID="EM_35_f2" label="Expressed"/>
+      <facetEntailment facetID="EM_35_f3" label="Diff-Arg"/>
+    </studentAnswer>
+    <studentAnswer id="EM.35.497.1" answerText="If the penny gets scratched the nickel is harder and if the nickel gets scratched then the penny is harder." accuracy="correct">
+      <facetEntailment facetID="EM_35_f1" label="Expressed"/>
+      <facetEntailment facetID="EM_35_f2" label="Expressed"/>
+      <facetEntailment facetID="EM_35_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.35.500.1" answerText="The nickel is the hardest because is you scratch it with a penny it will not scratch but the nickel could because it is so much." accuracy="correct">
+      <facetEntailment facetID="EM_35_f1" label="Expressed"/>
+      <facetEntailment facetID="EM_35_f2" label="Expressed"/>
+      <facetEntailment facetID="EM_35_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.35.501.1" answerText="You get a penny or a nickel if one of them scratches the metal it is hard." accuracy="correct">
+      <facetEntailment facetID="EM_35_f1" label="Expressed"/>
+      <facetEntailment facetID="EM_35_f2" label="Expressed"/>
+      <facetEntailment facetID="EM_35_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.35.503.1" answerText="She would know because the one that is scratched is the one that is least hard and the one that is not scratched is the one that is hardest." accuracy="correct">
+      <facetEntailment facetID="EM_35_f1" label="Expressed"/>
+      <facetEntailment facetID="EM_35_f2" label="Expressed"/>
+      <facetEntailment facetID="EM_35_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.35.507.1" answerText="How you would know that one of them is harder is for say if the nickel never a scratch the penny, and the penny got scratch by the nickel then the nickel would be harder than the penny that is how you would which one is harder." accuracy="correct">
+      <facetEntailment facetID="EM_35_f1" label="Expressed"/>
+      <facetEntailment facetID="EM_35_f2" label="Expressed"/>
+      <facetEntailment facetID="EM_35_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.35.510.1" answerText="The one that got a scratch is not hard." accuracy="correct">
+      <facetEntailment facetID="EM_35_f1" label="Assumed"/>
+      <facetEntailment facetID="EM_35_f2" label="Expressed"/>
+      <facetEntailment facetID="EM_35_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.35.561.1" answerText="A paperclip is harder." accuracy="irrelevant">
+      <facetEntailment facetID="EM_35_f1" label="Diff-Arg"/>
+      <facetEntailment facetID="EM_35_f2" label="Unaddressed"/>
+      <facetEntailment facetID="EM_35_f3" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.35.565.1" answerText="The one that is harder will scratch the less harder one." accuracy="correct">
+      <facetEntailment facetID="EM_35_f1" label="Expressed"/>
+      <facetEntailment facetID="EM_35_f2" label="Expressed"/>
+      <facetEntailment facetID="EM_35_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.35.568.1" answerText="I do not know." accuracy="non_domain">
+      <facetEntailment facetID="EM_35_f1" label="Assumed"/>
+      <facetEntailment facetID="EM_35_f2" label="Unaddressed"/>
+      <facetEntailment facetID="EM_35_f3" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.35.569.1" answerText="Fire." accuracy="irrelevant">
+      <facetEntailment facetID="EM_35_f1" label="Assumed"/>
+      <facetEntailment facetID="EM_35_f2" label="Unaddressed"/>
+      <facetEntailment facetID="EM_35_f3" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.35.570.1" answerText="The nickel because it is bigger and it harder." accuracy="irrelevant">
+      <facetEntailment facetID="EM_35_f1" label="Expressed"/>
+      <facetEntailment facetID="EM_35_f2" label="Unaddressed"/>
+      <facetEntailment facetID="EM_35_f3" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.35.571.1" answerText="By using your hand." accuracy="irrelevant">
+      <facetEntailment facetID="EM_35_f1" label="Assumed"/>
+      <facetEntailment facetID="EM_35_f2" label="Unaddressed"/>
+      <facetEntailment facetID="EM_35_f3" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.35.572.1" answerText="If it left a scratch." accuracy="correct">
+      <facetEntailment facetID="EM_35_f1" label="Assumed"/>
+      <facetEntailment facetID="EM_35_f2" label="Expressed"/>
+      <facetEntailment facetID="EM_35_f3" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="EM.35.575.1" answerText="I do not know." accuracy="non_domain">
+      <facetEntailment facetID="EM_35_f1" label="Assumed"/>
+      <facetEntailment facetID="EM_35_f2" label="Unaddressed"/>
+      <facetEntailment facetID="EM_35_f3" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.35.598.1" answerText="The nickel is the heavier and the penny is the lighter." accuracy="irrelevant">
+      <facetEntailment facetID="EM_35_f1" label="Assumed"/>
+      <facetEntailment facetID="EM_35_f2" label="Unaddressed"/>
+      <facetEntailment facetID="EM_35_f3" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.35.599.1" answerText="You can rub the penny and the nickel together. The one with the mark and a scratch is the least hardest the one with no mark or scratch is the hardest." accuracy="correct">
+      <facetEntailment facetID="EM_35_f1" label="Expressed"/>
+      <facetEntailment facetID="EM_35_f2" label="Expressed"/>
+      <facetEntailment facetID="EM_35_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.35.603.1" answerText="Because of it he you scratch with a penny." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EM_35_f1" label="Assumed"/>
+      <facetEntailment facetID="EM_35_f2" label="Expressed"/>
+      <facetEntailment facetID="EM_35_f3" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.35.609.1" answerText="Rub them together and whichever one has a scratch or a mark the is softer and the one that has nothing on it is harder." accuracy="correct">
+      <facetEntailment facetID="EM_35_f1" label="Expressed"/>
+      <facetEntailment facetID="EM_35_f2" label="Expressed"/>
+      <facetEntailment facetID="EM_35_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.35.616.1" answerText="Rub to penny with nickel and whichever one had a scratch is some." accuracy="correct">
+      <facetEntailment facetID="EM_35_f1" label="Assumed"/>
+      <facetEntailment facetID="EM_35_f2" label="Expressed"/>
+      <facetEntailment facetID="EM_35_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.35.632.1" answerText="She would scratch the rocks together the one that scratches is softer." accuracy="correct">
+      <facetEntailment facetID="EM_35_f1" label="Assumed"/>
+      <facetEntailment facetID="EM_35_f2" label="Expressed"/>
+      <facetEntailment facetID="EM_35_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.35.647.1" answerText="Nickel is harder." accuracy="irrelevant">
+      <facetEntailment facetID="EM_35_f1" label="Expressed"/>
+      <facetEntailment facetID="EM_35_f2" label="Unaddressed"/>
+      <facetEntailment facetID="EM_35_f3" label="Unaddressed"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<question testSet="unseen-answers" id="ST_25b2" module="ST">
+  <questionText>Look at the picture of the bean seedling shortly after germination. Describe the function of each of the parts: cotyledon.</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="ST_25b2-a1" text="The cotyledon provides food for the plant until the plant can make food for itself.">
+      <tokens>
+        <token id="ST_25b2_ra1">The</token>
+        <token id="ST_25b2_ra2">cotyledon</token>
+        <token id="ST_25b2_ra3">provides</token>
+        <token id="ST_25b2_ra4">food</token>
+        <token id="ST_25b2_ra5">for</token>
+        <token id="ST_25b2_ra6">the</token>
+        <token id="ST_25b2_ra7">plant</token>
+        <token id="ST_25b2_ra8">until</token>
+        <token id="ST_25b2_ra9">the</token>
+        <token id="ST_25b2_ra10">plant</token>
+        <token id="ST_25b2_ra11">can</token>
+        <token id="ST_25b2_ra12">make</token>
+        <token id="ST_25b2_ra13">food</token>
+        <token id="ST_25b2_ra14">for</token>
+        <token id="ST_25b2_ra15">itself</token>
+        <token id="ST_25b2_ra16">.</token>
+      </tokens>
+      <facets>
+        <facet id="ST_25b2_f1" govNum="ST_25b2_ra3" modNum="ST_25b2_ra2" reltn="Means" govText="provides" modText="cotyledon"/>
+        <facet id="ST_25b2_f2" govNum="ST_25b2_ra3" modNum="ST_25b2_ra4" reltn="Theme" govText="provides" modText="food"/>
+        <facet id="ST_25b2_f3" govNum="ST_25b2_ra3" modNum="ST_25b2_ra7" reltn="Recipient_for" govText="provides" modText="plant"/>
+        <facet id="ST_25b2_f4" govNum="ST_25b2_ra3" modNum="ST_25b2_ra12" reltn="Time_until" childProp2Facet2="ST_25b2_f6" govText="provides" modText="make" childProp2Facet1="ST_25b2_f5"/>
+        <facet id="ST_25b2_f5" govNum="ST_25b2_ra12" modNum="ST_25b2_ra10" reltn="Agent" govText="make" modText="plant"/>
+        <facet id="ST_25b2_f6" govNum="ST_25b2_ra12" modNum="ST_25b2_ra13" reltn="Product" govText="make" modText="food"/>
+        <facet id="ST_25b2_f7" govNum="ST_25b2_ra12" modNum="ST_25b2_ra15" reltn="Recipient_for" govText="make" modText="itself"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="ST.25b2.383.1" answerText="To give food to the baby plant." accuracy="correct">
+      <facetEntailment facetID="ST_25b2_f1" label="Inferred"/>
+      <facetEntailment facetID="ST_25b2_f2" label="Expressed"/>
+      <facetEntailment facetID="ST_25b2_f3" label="Expressed"/>
+      <facetEntailment facetID="ST_25b2_f4" label="Inferred"/>
+      <facetEntailment facetID="ST_25b2_f5" label="Inferred"/>
+      <facetEntailment facetID="ST_25b2_f6" label="Inferred"/>
+      <facetEntailment facetID="ST_25b2_f7" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="ST.25b2.462.1" answerText="It holds food for the plant before the roots grow." accuracy="correct">
+      <facetEntailment facetID="ST_25b2_f1" label="Expressed"/>
+      <facetEntailment facetID="ST_25b2_f2" label="Expressed"/>
+      <facetEntailment facetID="ST_25b2_f3" label="Expressed"/>
+      <facetEntailment facetID="ST_25b2_f4" label="Expressed"/>
+      <facetEntailment facetID="ST_25b2_f5" label="Inferred"/>
+      <facetEntailment facetID="ST_25b2_f6" label="Inferred"/>
+      <facetEntailment facetID="ST_25b2_f7" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="ST.25b2.471.1" answerText="Food storage." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="ST_25b2_f1" label="Inferred"/>
+      <facetEntailment facetID="ST_25b2_f2" label="Expressed"/>
+      <facetEntailment facetID="ST_25b2_f3" label="Inferred"/>
+      <facetEntailment facetID="ST_25b2_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ST_25b2_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ST_25b2_f6" label="Unaddressed"/>
+      <facetEntailment facetID="ST_25b2_f7" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ST.25b2.576.1" answerText="Store food." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="ST_25b2_f1" label="Inferred"/>
+      <facetEntailment facetID="ST_25b2_f2" label="Expressed"/>
+      <facetEntailment facetID="ST_25b2_f3" label="Inferred"/>
+      <facetEntailment facetID="ST_25b2_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ST_25b2_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ST_25b2_f6" label="Unaddressed"/>
+      <facetEntailment facetID="ST_25b2_f7" label="Unaddressed"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

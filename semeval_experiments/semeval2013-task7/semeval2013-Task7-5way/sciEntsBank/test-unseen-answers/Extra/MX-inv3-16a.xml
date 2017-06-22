@@ -1,0 +1,136 @@
+<?xml version="1.0"?>
+<question testSet="unseen-answers" id="MX_16a" module="MX">
+  <questionText>Mariella made a saturated solution by adding a solid to 100 milliliters water. Richard made a saturated solution by adding the same solid to 250 milliliters water. Do the 2 saturated solutions have the same concentration? Explain your answer.</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="MX_16a-a1" text="Yes. If both solutions are saturated (and at the same temperature), the solutions will both have the same concentration. Once a solution is saturated, the solution cannot get any more concentrated.">
+      <tokens>
+        <token id="MX_16a_ra1">Yes</token>
+        <token id="MX_16a_ra2">.</token>
+        <token id="MX_16a_ra3">If</token>
+        <token id="MX_16a_ra4">both</token>
+        <token id="MX_16a_ra5">solutions</token>
+        <token id="MX_16a_ra6">are</token>
+        <token id="MX_16a_ra7">saturated</token>
+        <token id="MX_16a_ra8">(</token>
+        <token id="MX_16a_ra9">and</token>
+        <token id="MX_16a_ra10">at</token>
+        <token id="MX_16a_ra11">the</token>
+        <token id="MX_16a_ra12">same</token>
+        <token id="MX_16a_ra13">temperature</token>
+        <token id="MX_16a_ra14">)</token>
+        <token id="MX_16a_ra15">,</token>
+        <token id="MX_16a_ra16">the</token>
+        <token id="MX_16a_ra17">solutions</token>
+        <token id="MX_16a_ra18">will</token>
+        <token id="MX_16a_ra19">both</token>
+        <token id="MX_16a_ra20">have</token>
+        <token id="MX_16a_ra21">the</token>
+        <token id="MX_16a_ra22">same</token>
+        <token id="MX_16a_ra23">concentration</token>
+        <token id="MX_16a_ra24">.</token>
+        <token id="MX_16a_ra25">Once</token>
+        <token id="MX_16a_ra26">a</token>
+        <token id="MX_16a_ra27">solution</token>
+        <token id="MX_16a_ra28">is</token>
+        <token id="MX_16a_ra29">saturated</token>
+        <token id="MX_16a_ra30">,</token>
+        <token id="MX_16a_ra31">the</token>
+        <token id="MX_16a_ra32">solution</token>
+        <token id="MX_16a_ra33">can</token>
+        <token id="MX_16a_ra34">not</token>
+        <token id="MX_16a_ra35">get</token>
+        <token id="MX_16a_ra36">any</token>
+        <token id="MX_16a_ra37">more</token>
+        <token id="MX_16a_ra38">concentrated</token>
+        <token id="MX_16a_ra39">.</token>
+      </tokens>
+      <facets>
+        <facet id="MX_16a_f1" govNum="MX_16a_ra0" modNum="MX_16a_ra1" reltn="Root" govText="root" modText="Yes"/>
+        <facet id="MX_16a_f2" govNum="MX_16a_ra5" modNum="MX_16a_ra4" reltn="Quantifier" govText="solutions" isAssumed="true" modText="both"/>
+        <facet id="MX_16a_f3" govNum="MX_16a_ra5" modNum="MX_16a_ra7" reltn="Be" govText="solutions" isAssumed="true" modText="saturated"/>
+        <facet id="MX_16a_f4" govNum="MX_16a_ra5" modNum="MX_16a_ra13" reltn="Location_at" govText="solutions" isAssumed="true" modText="temperature"/>
+        <facet id="MX_16a_f5" govNum="MX_16a_ra13" modNum="MX_16a_ra12" reltn="NMod" govText="temperature" modText="same"/>
+        <facet id="MX_16a_f6" govNum="MX_16a_ra17" modNum="MX_16a_ra19" reltn="Quantifier" govText="solutions" modText="both"/>
+        <facet id="MX_16a_f7" govNum="MX_16a_ra17" modNum="MX_16a_ra23" reltn="Have" govText="solutions" isAssumed="true" modText="concentration"/>
+        <facet id="MX_16a_f8" govNum="MX_16a_ra23" modNum="MX_16a_ra22" reltn="NMod" govText="concentration" modText="same"/>
+        <facet id="MX_16a_f9" govNum="MX_16a_ra20" modNum="MX_16a_ra6" reltn="Cause_if" childProp2Facet2="MX_16a_f2" childProp1Facet1="MX_16a_f7" govText="have" isAssumed="true" childProp1Facet2="MX_16a_f8" modText="are" childProp2Facet1="MX_16a_f3"/>
+        <facet id="MX_16a_f10" govNum="MX_16a_ra27" modNum="MX_16a_ra29" reltn="Be" govText="solution" isAssumed="true" modText="saturated"/>
+        <facet id="MX_16a_f11" govNum="MX_16a_ra35" modNum="MX_16a_ra32" reltn="Theme_neg_cannot" govText="get" modText="solution"/>
+        <facet id="MX_16a_f12" govNum="MX_16a_ra35" modNum="MX_16a_ra38" reltn="Predicate" govText="get" modText="concentrated"/>
+        <facet id="MX_16a_f13" govNum="MX_16a_ra38" modNum="MX_16a_ra37" reltn="AMod" govText="concentrated" modText="more"/>
+        <facet id="MX_16a_f14" govNum="MX_16a_ra37" modNum="MX_16a_ra36" reltn="AMod" govText="more" isAssumed="true" modText="any"/>
+        <facet id="MX_16a_f15" govNum="MX_16a_ra35" modNum="MX_16a_ra28" reltn="Cause_once" childProp1Facet1="MX_16a_f11" govText="get" childProp1Facet2="MX_16a_f12" modText="is" childProp2Facet1="MX_16a_f10"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="MX.16a.436.1" answerText="No because Mariella's is more concentrated because her's has less water so it is taste more sweeter or saltier." accuracy="contradictory">
+      <facetEntailment facetID="MX_16a_f1" label="Contra-Expr"/>
+      <facetEntailment facetID="MX_16a_f2" label="Assumed"/>
+      <facetEntailment facetID="MX_16a_f3" label="Assumed"/>
+      <facetEntailment facetID="MX_16a_f4" label="Assumed"/>
+      <facetEntailment facetID="MX_16a_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MX_16a_f6" label="Unaddressed"/>
+      <facetEntailment facetID="MX_16a_f7" label="Expressed"/>
+      <facetEntailment facetID="MX_16a_f8" label="Contra-Expr"/>
+      <facetEntailment facetID="MX_16a_f9" label="Assumed"/>
+      <facetEntailment facetID="MX_16a_f10" label="Assumed"/>
+      <facetEntailment facetID="MX_16a_f11" label="Unaddressed"/>
+      <facetEntailment facetID="MX_16a_f12" label="Unaddressed"/>
+      <facetEntailment facetID="MX_16a_f13" label="Unaddressed"/>
+      <facetEntailment facetID="MX_16a_f14" label="Assumed"/>
+      <facetEntailment facetID="MX_16a_f15" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.16a.492.1" answerText="Yes because they both have the same amount of water." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="MX_16a_f1" label="Expressed"/>
+      <facetEntailment facetID="MX_16a_f2" label="Expressed"/>
+      <facetEntailment facetID="MX_16a_f3" label="Assumed"/>
+      <facetEntailment facetID="MX_16a_f4" label="Assumed"/>
+      <facetEntailment facetID="MX_16a_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MX_16a_f6" label="Expressed"/>
+      <facetEntailment facetID="MX_16a_f7" label="Assumed"/>
+      <facetEntailment facetID="MX_16a_f8" label="Diff-Arg"/>
+      <facetEntailment facetID="MX_16a_f9" label="Assumed"/>
+      <facetEntailment facetID="MX_16a_f10" label="Assumed"/>
+      <facetEntailment facetID="MX_16a_f11" label="Unaddressed"/>
+      <facetEntailment facetID="MX_16a_f12" label="Unaddressed"/>
+      <facetEntailment facetID="MX_16a_f13" label="Unaddressed"/>
+      <facetEntailment facetID="MX_16a_f14" label="Assumed"/>
+      <facetEntailment facetID="MX_16a_f15" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.16a.497.1" answerText="Yes, because if the same amount of solute and make a saturated solution the concentration would be the same if the solutions had the same volume." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="MX_16a_f1" label="Expressed"/>
+      <facetEntailment facetID="MX_16a_f2" label="Expressed"/>
+      <facetEntailment facetID="MX_16a_f3" label="Expressed"/>
+      <facetEntailment facetID="MX_16a_f4" label="Assumed"/>
+      <facetEntailment facetID="MX_16a_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MX_16a_f6" label="Expressed"/>
+      <facetEntailment facetID="MX_16a_f7" label="Expressed"/>
+      <facetEntailment facetID="MX_16a_f8" label="Expressed"/>
+      <facetEntailment facetID="MX_16a_f9" label="Expressed"/>
+      <facetEntailment facetID="MX_16a_f10" label="Assumed"/>
+      <facetEntailment facetID="MX_16a_f11" label="Unaddressed"/>
+      <facetEntailment facetID="MX_16a_f12" label="Unaddressed"/>
+      <facetEntailment facetID="MX_16a_f13" label="Unaddressed"/>
+      <facetEntailment facetID="MX_16a_f14" label="Assumed"/>
+      <facetEntailment facetID="MX_16a_f15" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.16a.636.1" answerText="No because one has 100 milliliters of water and the other has 250 milliliters of water." accuracy="contradictory">
+      <facetEntailment facetID="MX_16a_f1" label="Contra-Expr"/>
+      <facetEntailment facetID="MX_16a_f2" label="Assumed"/>
+      <facetEntailment facetID="MX_16a_f3" label="Assumed"/>
+      <facetEntailment facetID="MX_16a_f4" label="Assumed"/>
+      <facetEntailment facetID="MX_16a_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MX_16a_f6" label="Unaddressed"/>
+      <facetEntailment facetID="MX_16a_f7" label="Assumed"/>
+      <facetEntailment facetID="MX_16a_f8" label="Contra-Infr"/>
+      <facetEntailment facetID="MX_16a_f9" label="Assumed"/>
+      <facetEntailment facetID="MX_16a_f10" label="Assumed"/>
+      <facetEntailment facetID="MX_16a_f11" label="Unaddressed"/>
+      <facetEntailment facetID="MX_16a_f12" label="Unaddressed"/>
+      <facetEntailment facetID="MX_16a_f13" label="Unaddressed"/>
+      <facetEntailment facetID="MX_16a_f14" label="Assumed"/>
+      <facetEntailment facetID="MX_16a_f15" label="Unaddressed"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

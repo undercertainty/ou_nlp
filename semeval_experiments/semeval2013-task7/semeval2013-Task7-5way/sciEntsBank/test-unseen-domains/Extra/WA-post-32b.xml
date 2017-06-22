@@ -1,0 +1,1344 @@
+<?xml version="1.0"?>
+<question testSet="unseen-domains" id="WA_32b" module="WA">
+  <questionText>Ted poured the same amount of water into 2 small containers, X and Y. He placed them together where they would not be disturbed. After several days, all of the water had evaporated from one of the containers. The other container still had some water. Which container, X or Y, was empty? Explain why the water in that container evaporated more quickly than the water in the other container.</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="WA_32b-a1" text="Container X has more surface area or more water exposed to the air so the water evaporated faster.">
+      <tokens>
+        <token id="WA_32b_ra1">Container</token>
+        <token id="WA_32b_ra2">X</token>
+        <token id="WA_32b_ra3">has</token>
+        <token id="WA_32b_ra4">more</token>
+        <token id="WA_32b_ra5">surface</token>
+        <token id="WA_32b_ra6">area</token>
+        <token id="WA_32b_ra7">or</token>
+        <token id="WA_32b_ra8">more</token>
+        <token id="WA_32b_ra9">water</token>
+        <token id="WA_32b_ra10">exposed</token>
+        <token id="WA_32b_ra11">to</token>
+        <token id="WA_32b_ra12">the</token>
+        <token id="WA_32b_ra13">air</token>
+        <token id="WA_32b_ra14">so</token>
+        <token id="WA_32b_ra15">the</token>
+        <token id="WA_32b_ra16">water</token>
+        <token id="WA_32b_ra17">evaporated</token>
+        <token id="WA_32b_ra18">faster</token>
+        <token id="WA_32b_ra19">.</token>
+      </tokens>
+      <facets>
+        <facet id="WA_32b_f1" govNum="WA_32b_ra2" modNum="WA_32b_ra1" reltn="NMod" govText="X" modText="Container"/>
+        <facet id="WA_32b_f2" govNum="WA_32b_ra2" modNum="WA_32b_ra6" reltn="Have" govText="X" modText="area"/>
+        <facet id="WA_32b_f3" govNum="WA_32b_ra6" modNum="WA_32b_ra5" reltn="NMod" govText="area" modText="surface"/>
+        <facet id="WA_32b_f4" govNum="WA_32b_ra6" modNum="WA_32b_ra4" reltn="NMod" govText="area" modText="more"/>
+        <facet id="WA_32b_f5" govNum="WA_32b_ra9" modNum="WA_32b_ra8" reltn="NMod" govText="water" modText="more"/>
+        <facet id="WA_32b_f6" govNum="WA_32b_ra10" modNum="WA_32b_ra9" reltn="Theme" govText="exposed" modText="water"/>
+        <facet id="WA_32b_f7" govNum="WA_32b_ra10" modNum="WA_32b_ra13" reltn="Recipient_to" govText="exposed" modText="air"/>
+        <facet id="WA_32b_f8" govNum="WA_32b_ra3" modNum="WA_32b_ra10" reltn="Predicate" childProp2Facet2="WA_32b_f7" govText="has" modText="exposed" childProp2Facet1="WA_32b_f6"/>
+        <facet id="WA_32b_f9" govNum="WA_32b_ra17" modNum="WA_32b_ra16" reltn="Patient" govText="evaporated" isAssumed="true" modText="water"/>
+        <facet id="WA_32b_f10" govNum="WA_32b_ra17" modNum="WA_32b_ra18" reltn="Manner" govText="evaporated" isAssumed="true" modText="faster"/>
+        <facet id="WA_32b_f11" govNum="WA_32b_ra17" modNum="WA_32b_ra3" reltn="Cause_so" childProp2Facet2="WA_32b_f9" childProp1Facet1="WA_32b_f4" govText="evaporated" isAssumed="true" childProp1Facet2="WA_32b_f3" modText="has" childProp2Facet1="WA_32b_f10"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="WA.32b.171.1" answerText="Because X had more room to evaporate and Y did not." accuracy="correct">
+      <facetEntailment facetID="WA_32b_f1" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_32b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f7" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f8" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f10" label="Assumed"/>
+      <facetEntailment facetID="WA_32b_f11" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.32b.172.1" answerText="The water in container X had a more open space to evaporate, so it evaporated. The water in container Y could not evaporate because it did not have an open space to evaporate." accuracy="correct">
+      <facetEntailment facetID="WA_32b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f3" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f7" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f8" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f10" label="Assumed"/>
+      <facetEntailment facetID="WA_32b_f11" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.32b.173.1" answerText="X evaporated more than Y because container X has more surface area than container Y so it evaporated faster." accuracy="correct">
+      <facetEntailment facetID="WA_32b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f7" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f8" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f10" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f11" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.32b.174.1" answerText="There is more surface area on container X so more water could evaporate at one time." accuracy="correct">
+      <facetEntailment facetID="WA_32b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f7" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f8" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f10" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f11" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.32b.175.1" answerText="The water in X evaporated because the more surface area the more air can get to it to make it evaporate faster." accuracy="correct">
+      <facetEntailment facetID="WA_32b_f1" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f7" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f8" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f10" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f11" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.32b.176.1" answerText="X evaporated faster because it has more space to evaporate quicker." accuracy="correct">
+      <facetEntailment facetID="WA_32b_f1" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_32b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f7" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f8" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f10" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f11" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.32b.182.1" answerText="The water in container X evaporated more quickly than the water in container Y because in container X there is more wide and open, so the water evaporated faster, but since the container for cup Y was closed and not open very much, then the water evaporated slower." accuracy="correct">
+      <facetEntailment facetID="WA_32b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f3" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f7" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f8" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f10" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f11" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.32b.193.1" answerText="The water in container X evaporates faster because the container has more surface area." accuracy="correct">
+      <facetEntailment facetID="WA_32b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f7" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f8" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f10" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f11" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.32b.198.1" answerText="X because X has more surface area and if you have lots of surface area it will evaporate faster." accuracy="correct">
+      <facetEntailment facetID="WA_32b_f1" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f7" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f8" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f10" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f11" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.32b.206.1" answerText="Container X had a bigger surface area, causing the water to evaporate more quickly." accuracy="correct">
+      <facetEntailment facetID="WA_32b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f7" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f8" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f10" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f11" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.32b.207.1" answerText="The X container has more surface area than the Y container." accuracy="correct">
+      <facetEntailment facetID="WA_32b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f7" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f8" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f9" label="Assumed"/>
+      <facetEntailment facetID="WA_32b_f10" label="Assumed"/>
+      <facetEntailment facetID="WA_32b_f11" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.32b.208.1" answerText="It evaporated faster because there was more room in the container and it's a wider cup. It had more room to evaporate faster." accuracy="correct">
+      <facetEntailment facetID="WA_32b_f1" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f2" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f3" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f7" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f8" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f10" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f11" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.32b.209.1" answerText="Well, if there is a bigger surface area then the water will evaporate more quickly." accuracy="correct">
+      <facetEntailment facetID="WA_32b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_32b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_32b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f7" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f8" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f10" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f11" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.32b.210.1" answerText="Because the surface area was wider." accuracy="correct">
+      <facetEntailment facetID="WA_32b_f1" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f2" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f7" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f8" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f9" label="Assumed"/>
+      <facetEntailment facetID="WA_32b_f10" label="Assumed"/>
+      <facetEntailment facetID="WA_32b_f11" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.32b.214.1" answerText="I believe X evaporated more quickly because X has more space and Y does not." accuracy="correct">
+      <facetEntailment facetID="WA_32b_f1" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_32b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f7" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f8" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f10" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f11" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.32b.222.1" answerText="It is wider." accuracy="correct">
+      <facetEntailment facetID="WA_32b_f1" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f2" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_32b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f7" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f8" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f9" label="Assumed"/>
+      <facetEntailment facetID="WA_32b_f10" label="Assumed"/>
+      <facetEntailment facetID="WA_32b_f11" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.32b.223.1" answerText="Because cup X had more surface area, which makes it easier to evaporate." accuracy="correct">
+      <facetEntailment facetID="WA_32b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f7" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f8" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f10" label="Assumed"/>
+      <facetEntailment facetID="WA_32b_f11" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.32b.230.1" answerText="It evaporated more quickly because there was more surface area." accuracy="correct">
+      <facetEntailment facetID="WA_32b_f1" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f2" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f7" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f8" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f10" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f11" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.32b.231.1" answerText="The surface area of container X is bigger, causing it to evaporate faster." accuracy="correct">
+      <facetEntailment facetID="WA_32b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f7" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f8" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f10" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f11" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.32b.241.1" answerText="Because the surface area was wider so it had more room to evaporate." accuracy="correct">
+      <facetEntailment facetID="WA_32b_f1" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f2" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f7" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f8" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f10" label="Assumed"/>
+      <facetEntailment facetID="WA_32b_f11" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.32b.244.1" answerText="That water moved more quickly because it had a larger surface area causing it to evaporate faster." accuracy="correct">
+      <facetEntailment facetID="WA_32b_f1" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f2" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f7" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f8" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f10" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f11" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.32b.251.1" answerText="X has a bigger opening on the top of it." accuracy="correct">
+      <facetEntailment facetID="WA_32b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_32b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f7" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f8" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f9" label="Assumed"/>
+      <facetEntailment facetID="WA_32b_f10" label="Assumed"/>
+      <facetEntailment facetID="WA_32b_f11" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.32b.254.1" answerText="Because it has more area but Y does not." accuracy="correct">
+      <facetEntailment facetID="WA_32b_f1" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f2" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_32b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f7" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f8" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f9" label="Assumed"/>
+      <facetEntailment facetID="WA_32b_f10" label="Assumed"/>
+      <facetEntailment facetID="WA_32b_f11" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.32b.255.1" answerText="Container X evaporated quicker because it had greater surface area. So more water molecules were exposed to the air, so they evaporated quicker." accuracy="correct">
+      <facetEntailment facetID="WA_32b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f7" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f8" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f10" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f11" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.32b.256.1" answerText="X had more room and more gate that is how." accuracy="correct">
+      <facetEntailment facetID="WA_32b_f1" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_32b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f7" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f8" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f9" label="Assumed"/>
+      <facetEntailment facetID="WA_32b_f10" label="Assumed"/>
+      <facetEntailment facetID="WA_32b_f11" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.32b.257.1" answerText="The water in the X container had a larger surface area. Which let it evaporate more water faster." accuracy="correct">
+      <facetEntailment facetID="WA_32b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f7" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f8" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f10" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f11" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.32b.261.1" answerText="It evaporated quickly because it had a larger surface area." accuracy="correct">
+      <facetEntailment facetID="WA_32b_f1" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f7" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f8" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f10" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f11" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.32b.262.1" answerText="Because X had more surface area than Y." accuracy="correct">
+      <facetEntailment facetID="WA_32b_f1" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f7" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f8" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f9" label="Assumed"/>
+      <facetEntailment facetID="WA_32b_f10" label="Assumed"/>
+      <facetEntailment facetID="WA_32b_f11" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.32b.263.1" answerText="X evaporated more because it has more room for the water to evaporate." accuracy="correct">
+      <facetEntailment facetID="WA_32b_f1" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_32b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f7" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f8" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f10" label="Assumed"/>
+      <facetEntailment facetID="WA_32b_f11" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.32b.264.1" answerText="Because the cup Y is larger it is tall so it would have to evaporate and X is not tall so it will not evaporate as quickly." accuracy="contradictory">
+      <facetEntailment facetID="WA_32b_f1" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f2" label="Diff-Arg"/>
+      <facetEntailment facetID="WA_32b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_32b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_32b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_32b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="WA_32b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="WA_32b_f8" label="Unaddressed"/>
+      <facetEntailment facetID="WA_32b_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f10" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_32b_f11" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.32b.276.1" answerText="Because it has a bigger surface area so it will evaporate faster." accuracy="correct">
+      <facetEntailment facetID="WA_32b_f1" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f7" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f8" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f10" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f11" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.32b.284.1" answerText="The container was more denser." accuracy="irrelevant">
+      <facetEntailment facetID="WA_32b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_32b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_32b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_32b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_32b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_32b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="WA_32b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="WA_32b_f8" label="Unaddressed"/>
+      <facetEntailment facetID="WA_32b_f9" label="Assumed"/>
+      <facetEntailment facetID="WA_32b_f10" label="Assumed"/>
+      <facetEntailment facetID="WA_32b_f11" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.32b.287.1" answerText="X was empty because it has surface area." accuracy="correct">
+      <facetEntailment facetID="WA_32b_f1" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f4" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f7" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f8" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f9" label="Assumed"/>
+      <facetEntailment facetID="WA_32b_f10" label="Assumed"/>
+      <facetEntailment facetID="WA_32b_f11" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.32b.296.1" answerText="Y is more skinnier so it does not have enough room to evaporate so X is wider so it has a lot of room to evaporate." accuracy="correct">
+      <facetEntailment facetID="WA_32b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_32b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f7" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f8" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f10" label="Assumed"/>
+      <facetEntailment facetID="WA_32b_f11" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.32b.299.1" answerText="Because it does not have as much surface area." accuracy="contradictory">
+      <facetEntailment facetID="WA_32b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_32b_f2" label="Diff-Arg"/>
+      <facetEntailment facetID="WA_32b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f4" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_32b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_32b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="WA_32b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="WA_32b_f8" label="Unaddressed"/>
+      <facetEntailment facetID="WA_32b_f9" label="Assumed"/>
+      <facetEntailment facetID="WA_32b_f10" label="Assumed"/>
+      <facetEntailment facetID="WA_32b_f11" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.32b.300.1" answerText="Because it has more room space where the water could evaporate faster." accuracy="correct">
+      <facetEntailment facetID="WA_32b_f1" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f2" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f7" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f8" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f10" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f11" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.32b.301.1" answerText="X had more surface area. So most of X water had evaporated." accuracy="correct">
+      <facetEntailment facetID="WA_32b_f1" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f7" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f8" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f10" label="Assumed"/>
+      <facetEntailment facetID="WA_32b_f11" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.32b.346.1" answerText="Because container X had more surface area." accuracy="correct">
+      <facetEntailment facetID="WA_32b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f7" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f8" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f9" label="Assumed"/>
+      <facetEntailment facetID="WA_32b_f10" label="Assumed"/>
+      <facetEntailment facetID="WA_32b_f11" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.32b.351.1" answerText="X had more surface area." accuracy="correct">
+      <facetEntailment facetID="WA_32b_f1" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f7" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f8" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f9" label="Assumed"/>
+      <facetEntailment facetID="WA_32b_f10" label="Assumed"/>
+      <facetEntailment facetID="WA_32b_f11" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.32b.358.1" answerText="Why I picked the letter X is because of the surface area. It has to be wider than a milk carton." accuracy="correct">
+      <facetEntailment facetID="WA_32b_f1" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f7" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f8" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f9" label="Assumed"/>
+      <facetEntailment facetID="WA_32b_f10" label="Assumed"/>
+      <facetEntailment facetID="WA_32b_f11" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.32b.359.1" answerText="Because it had a bigger surface area." accuracy="correct">
+      <facetEntailment facetID="WA_32b_f1" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f7" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f8" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f9" label="Assumed"/>
+      <facetEntailment facetID="WA_32b_f10" label="Assumed"/>
+      <facetEntailment facetID="WA_32b_f11" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.32b.364.1" answerText="Y is hollow so there is not a lot of room for it to evaporate and X is wide so it would be able to evaporate more quickly." accuracy="correct">
+      <facetEntailment facetID="WA_32b_f1" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_32b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f7" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f8" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f10" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f11" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.32b.368.1" answerText="Because X has a wider opening than Y so the evaporation will get to X quicker." accuracy="correct">
+      <facetEntailment facetID="WA_32b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_32b_f4" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f7" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f8" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f10" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f11" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.32b.369.1" answerText="Because X is fatter than Y and Y is tall so the water on the bottom will not evaporate." accuracy="correct">
+      <facetEntailment facetID="WA_32b_f1" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f7" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f8" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f9" label="Assumed"/>
+      <facetEntailment facetID="WA_32b_f10" label="Assumed"/>
+      <facetEntailment facetID="WA_32b_f11" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.32b.383.1" answerText="Because the water in Y was more heated." accuracy="irrelevant">
+      <facetEntailment facetID="WA_32b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_32b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_32b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_32b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_32b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_32b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="WA_32b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="WA_32b_f8" label="Unaddressed"/>
+      <facetEntailment facetID="WA_32b_f9" label="Assumed"/>
+      <facetEntailment facetID="WA_32b_f10" label="Assumed"/>
+      <facetEntailment facetID="WA_32b_f11" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.32b.384.1" answerText="Because there was more surface area." accuracy="correct">
+      <facetEntailment facetID="WA_32b_f1" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f2" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f7" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f8" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f9" label="Assumed"/>
+      <facetEntailment facetID="WA_32b_f10" label="Assumed"/>
+      <facetEntailment facetID="WA_32b_f11" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.32b.392.1" answerText="Because the container X had more surface area, and the more surface area the faster it evaporates." accuracy="correct">
+      <facetEntailment facetID="WA_32b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f7" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f8" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f10" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f11" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.32b.397.1" answerText="Because that water has taken before so that water evaporated more quickly than the other." accuracy="irrelevant">
+      <facetEntailment facetID="WA_32b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_32b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_32b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_32b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_32b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_32b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="WA_32b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="WA_32b_f8" label="Unaddressed"/>
+      <facetEntailment facetID="WA_32b_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f10" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f11" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.32b.404.1" answerText="X was exposed to the air more and had more surface area than Y." accuracy="correct">
+      <facetEntailment facetID="WA_32b_f1" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f7" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f8" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f9" label="Assumed"/>
+      <facetEntailment facetID="WA_32b_f10" label="Assumed"/>
+      <facetEntailment facetID="WA_32b_f11" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.32b.416.1" answerText="That one was empty because it had more surface area, so the sun or air could get to it easier. If it has more surface area, the more likely it is to evaporate." accuracy="correct">
+      <facetEntailment facetID="WA_32b_f1" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f2" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f7" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f8" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f10" label="Assumed"/>
+      <facetEntailment facetID="WA_32b_f11" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.32b.418.1" answerText="X evaporated more quickly because there was more air being exposed." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="WA_32b_f1" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f2" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_32b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f5" label="Diff-Arg"/>
+      <facetEntailment facetID="WA_32b_f6" label="Diff-Arg"/>
+      <facetEntailment facetID="WA_32b_f7" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f8" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f10" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f11" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.32b.422.1" answerText="The water in cup X was exposed to more air which allowed it to evaporate faster." accuracy="correct">
+      <facetEntailment facetID="WA_32b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f2" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f3" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f4" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f6" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f7" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f8" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f10" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f11" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.32b.455.1" answerText="Container X had more surface area so it evaporated quicker than container Y." accuracy="correct">
+      <facetEntailment facetID="WA_32b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f7" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f8" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f10" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f11" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.32b.457.1" answerText="It had a larger surface area." accuracy="correct">
+      <facetEntailment facetID="WA_32b_f1" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f7" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f8" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f9" label="Assumed"/>
+      <facetEntailment facetID="WA_32b_f10" label="Assumed"/>
+      <facetEntailment facetID="WA_32b_f11" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.32b.461.1" answerText="X had a larger opening than the other cup." accuracy="correct">
+      <facetEntailment facetID="WA_32b_f1" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f2" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f3" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f7" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f8" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f9" label="Assumed"/>
+      <facetEntailment facetID="WA_32b_f10" label="Assumed"/>
+      <facetEntailment facetID="WA_32b_f11" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.32b.462.1" answerText="X evaporated more because X had more land area?" accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="WA_32b_f1" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f3" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f7" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f8" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f9" label="Assumed"/>
+      <facetEntailment facetID="WA_32b_f10" label="Assumed"/>
+      <facetEntailment facetID="WA_32b_f11" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.32b.463.1" answerText="The X container has a bigger surface area so it could evaporate quicker." accuracy="correct">
+      <facetEntailment facetID="WA_32b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f7" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f8" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f10" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f11" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.32b.467.1" answerText="It has more surface area so more air can get to it and evaporate it." accuracy="correct">
+      <facetEntailment facetID="WA_32b_f1" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f2" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f7" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f8" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f10" label="Assumed"/>
+      <facetEntailment facetID="WA_32b_f11" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.32b.521.1" answerText="Because that container had a bigger opening than the other." accuracy="correct">
+      <facetEntailment facetID="WA_32b_f1" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f2" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f3" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f7" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f8" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f9" label="Assumed"/>
+      <facetEntailment facetID="WA_32b_f10" label="Assumed"/>
+      <facetEntailment facetID="WA_32b_f11" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.32b.522.1" answerText="X has a bigger surface area so it will evaporate faster." accuracy="correct">
+      <facetEntailment facetID="WA_32b_f1" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f7" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f8" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f10" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f11" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.32b.523.1" answerText="Because X had more surface area than cup Y." accuracy="correct">
+      <facetEntailment facetID="WA_32b_f1" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f7" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f8" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f9" label="Assumed"/>
+      <facetEntailment facetID="WA_32b_f10" label="Assumed"/>
+      <facetEntailment facetID="WA_32b_f11" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.32b.524.1" answerText="Because it had a bigger surface area." accuracy="correct">
+      <facetEntailment facetID="WA_32b_f1" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f2" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f7" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f8" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f9" label="Assumed"/>
+      <facetEntailment facetID="WA_32b_f10" label="Assumed"/>
+      <facetEntailment facetID="WA_32b_f11" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.32b.525.1" answerText="Because the surface area is more bigger than the other container." accuracy="correct">
+      <facetEntailment facetID="WA_32b_f1" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f2" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f7" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f8" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f9" label="Assumed"/>
+      <facetEntailment facetID="WA_32b_f10" label="Assumed"/>
+      <facetEntailment facetID="WA_32b_f11" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.32b.526.1" answerText="Because X has a larger surface area, so the cup with the larger surface area would evaporate faster." accuracy="correct">
+      <facetEntailment facetID="WA_32b_f1" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f7" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f8" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f10" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f11" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.32b.529.1" answerText="It evaporated more quickly because it had a larger surface area." accuracy="correct">
+      <facetEntailment facetID="WA_32b_f1" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f2" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f7" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f8" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f10" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f11" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.32b.530.1" answerText="Because X had more surface area." accuracy="correct">
+      <facetEntailment facetID="WA_32b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f7" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f8" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f9" label="Assumed"/>
+      <facetEntailment facetID="WA_32b_f10" label="Assumed"/>
+      <facetEntailment facetID="WA_32b_f11" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.32b.532.1" answerText="X because it is the tallest and X is wider but Y evaporated more." accuracy="contradictory">
+      <facetEntailment facetID="WA_32b_f1" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f3" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_32b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="WA_32b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="WA_32b_f8" label="Unaddressed"/>
+      <facetEntailment facetID="WA_32b_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f10" label="Contra-Infr"/>
+      <facetEntailment facetID="WA_32b_f11" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.32b.533.1" answerText="The X container had larger surface area." accuracy="correct">
+      <facetEntailment facetID="WA_32b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f7" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f8" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f9" label="Assumed"/>
+      <facetEntailment facetID="WA_32b_f10" label="Assumed"/>
+      <facetEntailment facetID="WA_32b_f11" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.32b.534.1" answerText="Container X had a larger surface area than container Y." accuracy="correct">
+      <facetEntailment facetID="WA_32b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f7" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f8" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f9" label="Assumed"/>
+      <facetEntailment facetID="WA_32b_f10" label="Assumed"/>
+      <facetEntailment facetID="WA_32b_f11" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.32b.535.1" answerText="Because X has more surface area and so it will evaporate faster." accuracy="correct">
+      <facetEntailment facetID="WA_32b_f1" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f7" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f8" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f10" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f11" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.32b.537.1" answerText="Surface area affects evaporation X had a bigger surface area than Y so X evaporated faster than Y." accuracy="correct">
+      <facetEntailment facetID="WA_32b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f7" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f8" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f10" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f11" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.32b.539.1" answerText="Because someone picked it up and drank it." accuracy="irrelevant">
+      <facetEntailment facetID="WA_32b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_32b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_32b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_32b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_32b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_32b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="WA_32b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="WA_32b_f8" label="Unaddressed"/>
+      <facetEntailment facetID="WA_32b_f9" label="Assumed"/>
+      <facetEntailment facetID="WA_32b_f10" label="Assumed"/>
+      <facetEntailment facetID="WA_32b_f11" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.32b.541.1" answerText="Because it has more area to come out in." accuracy="correct">
+      <facetEntailment facetID="WA_32b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f2" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f3" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f7" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f8" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f9" label="Assumed"/>
+      <facetEntailment facetID="WA_32b_f10" label="Assumed"/>
+      <facetEntailment facetID="WA_32b_f11" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.32b.556.1" answerText="Because X has more surface area than Y." accuracy="correct">
+      <facetEntailment facetID="WA_32b_f1" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f7" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f8" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f9" label="Assumed"/>
+      <facetEntailment facetID="WA_32b_f10" label="Assumed"/>
+      <facetEntailment facetID="WA_32b_f11" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.32b.557.1" answerText="Because there is more in the X cup." accuracy="irrelevant">
+      <facetEntailment facetID="WA_32b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_32b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_32b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_32b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_32b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="WA_32b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="WA_32b_f8" label="Unaddressed"/>
+      <facetEntailment facetID="WA_32b_f9" label="Assumed"/>
+      <facetEntailment facetID="WA_32b_f10" label="Assumed"/>
+      <facetEntailment facetID="WA_32b_f11" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.32b.558.1" answerText="The container was wider than the other." accuracy="correct">
+      <facetEntailment facetID="WA_32b_f1" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f2" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f3" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f7" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f8" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f9" label="Assumed"/>
+      <facetEntailment facetID="WA_32b_f10" label="Assumed"/>
+      <facetEntailment facetID="WA_32b_f11" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.32b.559.1" answerText="Because it had more space." accuracy="correct">
+      <facetEntailment facetID="WA_32b_f1" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f2" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_32b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f7" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f8" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f9" label="Assumed"/>
+      <facetEntailment facetID="WA_32b_f10" label="Assumed"/>
+      <facetEntailment facetID="WA_32b_f11" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.32b.567.1" answerText="Because it has more surface area, room for water to evaporate." accuracy="correct">
+      <facetEntailment facetID="WA_32b_f1" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f2" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f7" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f8" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f10" label="Assumed"/>
+      <facetEntailment facetID="WA_32b_f11" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.32b.569.1" answerText="Because it had more surface area." accuracy="correct">
+      <facetEntailment facetID="WA_32b_f1" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f2" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f7" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f8" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f9" label="Assumed"/>
+      <facetEntailment facetID="WA_32b_f10" label="Assumed"/>
+      <facetEntailment facetID="WA_32b_f11" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.32b.572.1" answerText="Because it had more space in the cup." accuracy="irrelevant">
+      <facetEntailment facetID="WA_32b_f1" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f2" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_32b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_32b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="WA_32b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="WA_32b_f8" label="Unaddressed"/>
+      <facetEntailment facetID="WA_32b_f9" label="Assumed"/>
+      <facetEntailment facetID="WA_32b_f10" label="Assumed"/>
+      <facetEntailment facetID="WA_32b_f11" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.32b.573.1" answerText="Because X has more surface area than Y and the more surface tension, the faster the water evaporates." accuracy="correct">
+      <facetEntailment facetID="WA_32b_f1" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f7" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f8" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f10" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f11" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.32b.576.1" answerText="Because maybe he put container Y was put in after container X." accuracy="irrelevant">
+      <facetEntailment facetID="WA_32b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_32b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_32b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_32b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_32b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="WA_32b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="WA_32b_f8" label="Unaddressed"/>
+      <facetEntailment facetID="WA_32b_f9" label="Assumed"/>
+      <facetEntailment facetID="WA_32b_f10" label="Assumed"/>
+      <facetEntailment facetID="WA_32b_f11" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.32b.577.1" answerText="The surface area of the X cup was wider than the Y." accuracy="correct">
+      <facetEntailment facetID="WA_32b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f7" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f8" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f9" label="Assumed"/>
+      <facetEntailment facetID="WA_32b_f10" label="Assumed"/>
+      <facetEntailment facetID="WA_32b_f11" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.32b.594.1" answerText="Because X had more surface area than Y and Y was thin and it will take a bit longer to evaporate." accuracy="correct">
+      <facetEntailment facetID="WA_32b_f1" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f7" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f8" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f10" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f11" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.32b.599.1" answerText="Because Y is deeper than X so it will take longer to evaporate." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="WA_32b_f1" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f2" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_32b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_32b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_32b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="WA_32b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="WA_32b_f8" label="Unaddressed"/>
+      <facetEntailment facetID="WA_32b_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f10" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f11" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.32b.603.1" answerText="Because it was spread out more so it evaporated faster." accuracy="correct">
+      <facetEntailment facetID="WA_32b_f1" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f2" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f3" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f7" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f8" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f10" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f11" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.32b.608.1" answerText="Because each day it only takes what is at the top so X will take less days to evaporate than Y because of the shape." accuracy="correct">
+      <facetEntailment facetID="WA_32b_f1" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f2" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f3" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f4" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f7" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f8" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f10" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f11" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.32b.609.1" answerText="Container X evaporated faster because the water had more surface area which allows more water to evaporate at once." accuracy="correct">
+      <facetEntailment facetID="WA_32b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f7" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f8" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f10" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f11" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.32b.610.1" answerText="Because there is a smaller surface of the water to evaporate." accuracy="contradictory">
+      <facetEntailment facetID="WA_32b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_32b_f2" label="Diff-Arg"/>
+      <facetEntailment facetID="WA_32b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f4" label="Contra-Expr"/>
+      <facetEntailment facetID="WA_32b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_32b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="WA_32b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="WA_32b_f8" label="Unaddressed"/>
+      <facetEntailment facetID="WA_32b_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f10" label="Assumed"/>
+      <facetEntailment facetID="WA_32b_f11" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.32b.611.1" answerText="Because it had more surface area." accuracy="correct">
+      <facetEntailment facetID="WA_32b_f1" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f2" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f7" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f8" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f9" label="Assumed"/>
+      <facetEntailment facetID="WA_32b_f10" label="Assumed"/>
+      <facetEntailment facetID="WA_32b_f11" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.32b.631.1" answerText="X had a bigger surface area then Y so it evaporated faster." accuracy="correct">
+      <facetEntailment facetID="WA_32b_f1" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f7" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f8" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f10" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f11" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.32b.632.1" answerText="Because there is more space around the water so it evaporates quicker." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="WA_32b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="WA_32b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="WA_32b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f5" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f7" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f8" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f10" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f11" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.32b.635.1" answerText="The more flatter it is the faster it evaporates and the more fatter it is the longer it takes to evaporate." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="WA_32b_f1" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f2" label="Diff-Arg"/>
+      <facetEntailment facetID="WA_32b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_32b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="WA_32b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="WA_32b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="WA_32b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="WA_32b_f8" label="Unaddressed"/>
+      <facetEntailment facetID="WA_32b_f9" label="Assumed"/>
+      <facetEntailment facetID="WA_32b_f10" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f11" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.32b.636.1" answerText="X has more surface area, so more could evaporate at the same time." accuracy="correct">
+      <facetEntailment facetID="WA_32b_f1" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f7" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f8" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f10" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f11" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.32b.637.1" answerText="Because the container had a bigger surface." accuracy="correct">
+      <facetEntailment facetID="WA_32b_f1" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f2" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f3" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f4" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f7" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f8" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f9" label="Assumed"/>
+      <facetEntailment facetID="WA_32b_f10" label="Assumed"/>
+      <facetEntailment facetID="WA_32b_f11" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.32b.638.1" answerText="X because X has a bigger surface area than Y." accuracy="correct">
+      <facetEntailment facetID="WA_32b_f1" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f7" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f8" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f9" label="Assumed"/>
+      <facetEntailment facetID="WA_32b_f10" label="Assumed"/>
+      <facetEntailment facetID="WA_32b_f11" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.32b.639.1" answerText="Because when something has a wider area the water evaporates faster." accuracy="correct">
+      <facetEntailment facetID="WA_32b_f1" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f2" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_32b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f7" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f8" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f10" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f11" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.32b.640.1" answerText="Because it had more spot where the sun was hitting so there was more evaporation was going to happen than Y." accuracy="correct">
+      <facetEntailment facetID="WA_32b_f1" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f2" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_32b_f4" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f7" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f8" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f10" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f11" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.32b.642.1" answerText="Because in X it has lots of surface area so it should evaporate faster." accuracy="correct">
+      <facetEntailment facetID="WA_32b_f1" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f2" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f3" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f7" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f8" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f10" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f11" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="WA.32b.643.1" answerText="The more space you have it will evaporate more." accuracy="correct">
+      <facetEntailment facetID="WA_32b_f1" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f2" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="WA_32b_f4" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f5" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f6" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f7" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f8" label="Inferred"/>
+      <facetEntailment facetID="WA_32b_f9" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f10" label="Expressed"/>
+      <facetEntailment facetID="WA_32b_f11" label="Expressed"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<question testSet="unseen-answers" id="MX_42a" module="MX">
+  <questionText>Joanne mixed material R and material D together, added water, and stirred. After a few minutes, the liquid was clear and there was a solid on the bottom of the cup. Joanne used a paper filter to separate the solid from the liquid. Why does the solid stay in the filter when the liquid goes through?</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="MX_42a-a1" text="The particles of the solid are too big to go through the holes in the paper filter.">
+      <tokens>
+        <token id="MX_42a_ra1">The</token>
+        <token id="MX_42a_ra2">particles</token>
+        <token id="MX_42a_ra3">of</token>
+        <token id="MX_42a_ra4">the</token>
+        <token id="MX_42a_ra5">solid</token>
+        <token id="MX_42a_ra6">are</token>
+        <token id="MX_42a_ra7">too</token>
+        <token id="MX_42a_ra8">big</token>
+        <token id="MX_42a_ra9">to</token>
+        <token id="MX_42a_ra10">go</token>
+        <token id="MX_42a_ra11">through</token>
+        <token id="MX_42a_ra12">the</token>
+        <token id="MX_42a_ra13">holes</token>
+        <token id="MX_42a_ra14">in</token>
+        <token id="MX_42a_ra15">the</token>
+        <token id="MX_42a_ra16">paper</token>
+        <token id="MX_42a_ra17">filter</token>
+        <token id="MX_42a_ra18">.</token>
+      </tokens>
+      <facets>
+        <facet id="MX_42a_f1" govNum="MX_42a_ra2" modNum="MX_42a_ra5" reltn="NMod_of" govText="particles" isAssumed="true" modText="solid"/>
+        <facet id="MX_42a_f2" govNum="MX_42a_ra2" modNum="MX_42a_ra8" reltn="Be" govText="particles" modText="big"/>
+        <facet id="MX_42a_f3" govNum="MX_42a_ra8" modNum="MX_42a_ra7" reltn="AMod" govText="big" modText="too"/>
+        <facet id="MX_42a_f4" govNum="MX_42a_ra10" modNum="MX_42a_ra2" reltn="Theme_neg_too_to" govText="go" isAssumed="true" modText="particles"/>
+        <facet id="MX_42a_f5" govNum="MX_42a_ra10" modNum="MX_42a_ra13" reltn="Destination_through" govText="go" modText="holes"/>
+        <facet id="MX_42a_f6" govNum="MX_42a_ra13" modNum="MX_42a_ra17" reltn="Location_in" govText="holes" isAssumed="true" modText="filter"/>
+        <facet id="MX_42a_f7" govNum="MX_42a_ra17" modNum="MX_42a_ra16" reltn="NMod" govText="filter" isAssumed="true" modText="paper"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="MX.42a.416.1" answerText="Because the solid is big and it cannot go through the filter paper." accuracy="correct">
+      <facetEntailment facetID="MX_42a_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_42a_f2" label="Expressed"/>
+      <facetEntailment facetID="MX_42a_f3" label="Inferred"/>
+      <facetEntailment facetID="MX_42a_f4" label="Expressed"/>
+      <facetEntailment facetID="MX_42a_f5" label="Inferred"/>
+      <facetEntailment facetID="MX_42a_f6" label="Assumed"/>
+      <facetEntailment facetID="MX_42a_f7" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.42a.460.1" answerText="The solid stays because it is bigger than the holes in filter and stay in the filter." accuracy="correct">
+      <facetEntailment facetID="MX_42a_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_42a_f2" label="Expressed"/>
+      <facetEntailment facetID="MX_42a_f3" label="Expressed"/>
+      <facetEntailment facetID="MX_42a_f4" label="Expressed"/>
+      <facetEntailment facetID="MX_42a_f5" label="Expressed"/>
+      <facetEntailment facetID="MX_42a_f6" label="Expressed"/>
+      <facetEntailment facetID="MX_42a_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.42a.500.1" answerText="The solid is bigger than the holes in the filter." accuracy="correct">
+      <facetEntailment facetID="MX_42a_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_42a_f2" label="Expressed"/>
+      <facetEntailment facetID="MX_42a_f3" label="Inferred"/>
+      <facetEntailment facetID="MX_42a_f4" label="Assumed"/>
+      <facetEntailment facetID="MX_42a_f5" label="Inferred"/>
+      <facetEntailment facetID="MX_42a_f6" label="Expressed"/>
+      <facetEntailment facetID="MX_42a_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.42a.601.1" answerText="Because you cannot handle the water. For example we cannot handle water on our hands but we can handle solid things." accuracy="irrelevant">
+      <facetEntailment facetID="MX_42a_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_42a_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MX_42a_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_42a_f4" label="Assumed"/>
+      <facetEntailment facetID="MX_42a_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MX_42a_f6" label="Assumed"/>
+      <facetEntailment facetID="MX_42a_f7" label="Assumed"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

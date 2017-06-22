@@ -1,0 +1,174 @@
+<?xml version="1.0"?>
+<question testSet="unseen-answers" id="LF_27a" module="LF">
+  <questionText>The change in elevation between contour line A and contour line B is 20 meters. What is the change in elevation between contour line A and contour line C? How do you know that is the change in elevation between A and C?</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="LF_27a-a1" text="40 meters. The change in elevation is 20 meters between A and B and 20 meters between B and C. So the change between A and C is 40 meters. 20 m plus 20 m equals 40 m.">
+      <tokens>
+        <token id="LF_27a_ra1">40</token>
+        <token id="LF_27a_ra2">meters</token>
+        <token id="LF_27a_ra3">.</token>
+        <token id="LF_27a_ra4">The</token>
+        <token id="LF_27a_ra5">change</token>
+        <token id="LF_27a_ra6">in</token>
+        <token id="LF_27a_ra7">elevation</token>
+        <token id="LF_27a_ra8">is</token>
+        <token id="LF_27a_ra9">20</token>
+        <token id="LF_27a_ra10">meters</token>
+        <token id="LF_27a_ra11">between</token>
+        <token id="LF_27a_ra12">A</token>
+        <token id="LF_27a_ra13">and</token>
+        <token id="LF_27a_ra14">B</token>
+        <token id="LF_27a_ra15">and</token>
+        <token id="LF_27a_ra16">20</token>
+        <token id="LF_27a_ra17">meters</token>
+        <token id="LF_27a_ra18">between</token>
+        <token id="LF_27a_ra19">B</token>
+        <token id="LF_27a_ra20">and</token>
+        <token id="LF_27a_ra21">C</token>
+        <token id="LF_27a_ra22">.</token>
+        <token id="LF_27a_ra23">So</token>
+        <token id="LF_27a_ra24">the</token>
+        <token id="LF_27a_ra25">change</token>
+        <token id="LF_27a_ra26">between</token>
+        <token id="LF_27a_ra27">A</token>
+        <token id="LF_27a_ra28">and</token>
+        <token id="LF_27a_ra29">C</token>
+        <token id="LF_27a_ra30">is</token>
+        <token id="LF_27a_ra31">40</token>
+        <token id="LF_27a_ra32">meters</token>
+        <token id="LF_27a_ra33">.</token>
+        <token id="LF_27a_ra34">20</token>
+        <token id="LF_27a_ra35">m</token>
+        <token id="LF_27a_ra36">plus</token>
+        <token id="LF_27a_ra37">20</token>
+        <token id="LF_27a_ra38">m</token>
+        <token id="LF_27a_ra39">equals</token>
+        <token id="LF_27a_ra40">40</token>
+        <token id="LF_27a_ra41">m</token>
+        <token id="LF_27a_ra42">.</token>
+      </tokens>
+      <facets>
+        <facet id="LF_27a_f1" govNum="LF_27a_ra2" modNum="LF_27a_ra1" reltn="NMod" govText="meters" modText="40"/>
+        <facet id="LF_27a_f2" govNum="LF_27a_ra5" modNum="LF_27a_ra7" reltn="Patient_in" govText="change" isAssumed="true" modText="elevation"/>
+        <facet id="LF_27a_f3" govNum="LF_27a_ra5" modNum="LF_27a_ra10" reltn="Extent" govText="change" isAssumed="true" modText="meters"/>
+        <facet id="LF_27a_f4" govNum="LF_27a_ra10" modNum="LF_27a_ra9" reltn="NMod" govText="meters" isAssumed="true" modText="20"/>
+        <facet id="LF_27a_f5" govNum="LF_27a_ra5" modNum="LF_27a_ra12" reltn="Location_between" govText="change" isAssumed="true" modText="A"/>
+        <facet id="LF_27a_f6" govNum="LF_27a_ra5" modNum="LF_27a_ra14" reltn="Location_between" govText="change" isAssumed="true" modText="B"/>
+        <facet id="LF_27a_f7" govNum="LF_27a_ra5" modNum="LF_27a_ra17" reltn="Extent" govText="change" isAssumed="true" modText="meters"/>
+        <facet id="LF_27a_f8" govNum="LF_27a_ra17" modNum="LF_27a_ra16" reltn="NMod" govText="meters" modText="20"/>
+        <facet id="LF_27a_f9" govNum="LF_27a_ra5" modNum="LF_27a_ra19" reltn="Location_between" govText="change" isAssumed="true" modText="B"/>
+        <facet id="LF_27a_f10" govNum="LF_27a_ra5" modNum="LF_27a_ra21" reltn="Location_between" govText="change" isAssumed="true" modText="C"/>
+        <facet id="LF_27a_f11" govNum="LF_27a_ra25" modNum="LF_27a_ra32" reltn="Extent" govText="change" isAssumed="true" modText="meters"/>
+        <facet id="LF_27a_f12" govNum="LF_27a_ra32" modNum="LF_27a_ra31" reltn="NMod" govText="meters" modText="40"/>
+        <facet id="LF_27a_f13" govNum="LF_27a_ra25" modNum="LF_27a_ra27" reltn="Location_between" govText="change" isAssumed="true" modText="A"/>
+        <facet id="LF_27a_f14" govNum="LF_27a_ra25" modNum="LF_27a_ra29" reltn="Location_between" govText="change" isAssumed="true" modText="C"/>
+        <facet id="LF_27a_f15" govNum="LF_27a_ra30" modNum="LF_27a_ra8" reltn="Cause_so" childProp2Facet2="LF_27a_f4" childProp1Facet1="LF_27a_f11" govText="is" isAssumed="true" childProp1Facet2="LF_27a_f12" modText="is" childProp2Facet1="LF_27a_f3"/>
+        <facet id="LF_27a_f16" govNum="LF_27a_ra36" modNum="LF_27a_ra35" reltn="Patient" govText="plus" modText="m"/>
+        <facet id="LF_27a_f17" govNum="LF_27a_ra36" modNum="LF_27a_ra38" reltn="Patient" govText="plus" modText="m"/>
+        <facet id="LF_27a_f18" govNum="LF_27a_ra35" modNum="LF_27a_ra34" reltn="NMod" govText="m" isAssumed="true" modText="20"/>
+        <facet id="LF_27a_f19" govNum="LF_27a_ra38" modNum="LF_27a_ra34" reltn="NMod" govText="m" modText="20"/>
+        <facet id="LF_27a_f20" govNum="LF_27a_ra39" modNum="LF_27a_ra36" reltn="Theme" childProp1Facet1="LF_27a_f16" govText="equals" childProp1Facet2="LF_27a_f17" modText="plus"/>
+        <facet id="LF_27a_f21" govNum="LF_27a_ra39" modNum="LF_27a_ra41" reltn="Theme" govText="equals" isAssumed="true" modText="m"/>
+        <facet id="LF_27a_f22" govNum="LF_27a_ra41" modNum="LF_27a_ra40" reltn="NMod" govText="m" modText="40"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="LF.27a.407.1" answerText="Because the circle is gets bigger." accuracy="irrelevant">
+      <facetEntailment facetID="LF_27a_f1" label="Unaddressed"/>
+      <facetEntailment facetID="LF_27a_f2" label="Assumed"/>
+      <facetEntailment facetID="LF_27a_f3" label="Assumed"/>
+      <facetEntailment facetID="LF_27a_f4" label="Assumed"/>
+      <facetEntailment facetID="LF_27a_f5" label="Assumed"/>
+      <facetEntailment facetID="LF_27a_f6" label="Assumed"/>
+      <facetEntailment facetID="LF_27a_f7" label="Assumed"/>
+      <facetEntailment facetID="LF_27a_f8" label="Unaddressed"/>
+      <facetEntailment facetID="LF_27a_f9" label="Assumed"/>
+      <facetEntailment facetID="LF_27a_f10" label="Assumed"/>
+      <facetEntailment facetID="LF_27a_f11" label="Assumed"/>
+      <facetEntailment facetID="LF_27a_f12" label="Unaddressed"/>
+      <facetEntailment facetID="LF_27a_f13" label="Assumed"/>
+      <facetEntailment facetID="LF_27a_f14" label="Assumed"/>
+      <facetEntailment facetID="LF_27a_f15" label="Assumed"/>
+      <facetEntailment facetID="LF_27a_f16" label="Unaddressed"/>
+      <facetEntailment facetID="LF_27a_f17" label="Unaddressed"/>
+      <facetEntailment facetID="LF_27a_f18" label="Assumed"/>
+      <facetEntailment facetID="LF_27a_f19" label="Unaddressed"/>
+      <facetEntailment facetID="LF_27a_f20" label="Unaddressed"/>
+      <facetEntailment facetID="LF_27a_f21" label="Assumed"/>
+      <facetEntailment facetID="LF_27a_f22" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="LF.27a.414.1" answerText="40 meters, I know because each contour line is 20 meters." accuracy="correct">
+      <facetEntailment facetID="LF_27a_f1" label="Expressed"/>
+      <facetEntailment facetID="LF_27a_f2" label="Assumed"/>
+      <facetEntailment facetID="LF_27a_f3" label="Assumed"/>
+      <facetEntailment facetID="LF_27a_f4" label="Expressed"/>
+      <facetEntailment facetID="LF_27a_f5" label="Assumed"/>
+      <facetEntailment facetID="LF_27a_f6" label="Assumed"/>
+      <facetEntailment facetID="LF_27a_f7" label="Assumed"/>
+      <facetEntailment facetID="LF_27a_f8" label="Expressed"/>
+      <facetEntailment facetID="LF_27a_f9" label="Assumed"/>
+      <facetEntailment facetID="LF_27a_f10" label="Assumed"/>
+      <facetEntailment facetID="LF_27a_f11" label="Assumed"/>
+      <facetEntailment facetID="LF_27a_f12" label="Expressed"/>
+      <facetEntailment facetID="LF_27a_f13" label="Assumed"/>
+      <facetEntailment facetID="LF_27a_f14" label="Assumed"/>
+      <facetEntailment facetID="LF_27a_f15" label="Assumed"/>
+      <facetEntailment facetID="LF_27a_f16" label="Inferred"/>
+      <facetEntailment facetID="LF_27a_f17" label="Inferred"/>
+      <facetEntailment facetID="LF_27a_f18" label="Assumed"/>
+      <facetEntailment facetID="LF_27a_f19" label="Inferred"/>
+      <facetEntailment facetID="LF_27a_f20" label="Inferred"/>
+      <facetEntailment facetID="LF_27a_f21" label="Assumed"/>
+      <facetEntailment facetID="LF_27a_f22" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="LF.27a.461.1" answerText="B, Because it is between the A and C." accuracy="irrelevant">
+      <facetEntailment facetID="LF_27a_f1" label="Unaddressed"/>
+      <facetEntailment facetID="LF_27a_f2" label="Assumed"/>
+      <facetEntailment facetID="LF_27a_f3" label="Assumed"/>
+      <facetEntailment facetID="LF_27a_f4" label="Assumed"/>
+      <facetEntailment facetID="LF_27a_f5" label="Assumed"/>
+      <facetEntailment facetID="LF_27a_f6" label="Assumed"/>
+      <facetEntailment facetID="LF_27a_f7" label="Assumed"/>
+      <facetEntailment facetID="LF_27a_f8" label="Unaddressed"/>
+      <facetEntailment facetID="LF_27a_f9" label="Assumed"/>
+      <facetEntailment facetID="LF_27a_f10" label="Assumed"/>
+      <facetEntailment facetID="LF_27a_f11" label="Assumed"/>
+      <facetEntailment facetID="LF_27a_f12" label="Unaddressed"/>
+      <facetEntailment facetID="LF_27a_f13" label="Assumed"/>
+      <facetEntailment facetID="LF_27a_f14" label="Assumed"/>
+      <facetEntailment facetID="LF_27a_f15" label="Assumed"/>
+      <facetEntailment facetID="LF_27a_f16" label="Unaddressed"/>
+      <facetEntailment facetID="LF_27a_f17" label="Unaddressed"/>
+      <facetEntailment facetID="LF_27a_f18" label="Assumed"/>
+      <facetEntailment facetID="LF_27a_f19" label="Unaddressed"/>
+      <facetEntailment facetID="LF_27a_f20" label="Unaddressed"/>
+      <facetEntailment facetID="LF_27a_f21" label="Assumed"/>
+      <facetEntailment facetID="LF_27a_f22" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="LF.27a.682.1" answerText="40 meters, The contour elevation goes up by 20 meters and if you double 20 you get 40." accuracy="correct">
+      <facetEntailment facetID="LF_27a_f1" label="Expressed"/>
+      <facetEntailment facetID="LF_27a_f2" label="Expressed"/>
+      <facetEntailment facetID="LF_27a_f3" label="Expressed"/>
+      <facetEntailment facetID="LF_27a_f4" label="Expressed"/>
+      <facetEntailment facetID="LF_27a_f5" label="Assumed"/>
+      <facetEntailment facetID="LF_27a_f6" label="Assumed"/>
+      <facetEntailment facetID="LF_27a_f7" label="Assumed"/>
+      <facetEntailment facetID="LF_27a_f8" label="Inferred"/>
+      <facetEntailment facetID="LF_27a_f9" label="Assumed"/>
+      <facetEntailment facetID="LF_27a_f10" label="Assumed"/>
+      <facetEntailment facetID="LF_27a_f11" label="Assumed"/>
+      <facetEntailment facetID="LF_27a_f12" label="Inferred"/>
+      <facetEntailment facetID="LF_27a_f13" label="Assumed"/>
+      <facetEntailment facetID="LF_27a_f14" label="Assumed"/>
+      <facetEntailment facetID="LF_27a_f15" label="Assumed"/>
+      <facetEntailment facetID="LF_27a_f16" label="Inferred"/>
+      <facetEntailment facetID="LF_27a_f17" label="Inferred"/>
+      <facetEntailment facetID="LF_27a_f18" label="Assumed"/>
+      <facetEntailment facetID="LF_27a_f19" label="Inferred"/>
+      <facetEntailment facetID="LF_27a_f20" label="Inferred"/>
+      <facetEntailment facetID="LF_27a_f21" label="Assumed"/>
+      <facetEntailment facetID="LF_27a_f22" label="Expressed"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<question testSet="unseen-answers" id="ST_52a" module="ST">
+  <questionText>When a seed germinates, why does the root grow first?</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="ST_52a-a1" text="The root grows first so the root can take up water for the plant.">
+      <tokens>
+        <token id="ST_52a_ra1">The</token>
+        <token id="ST_52a_ra2">root</token>
+        <token id="ST_52a_ra3">grows</token>
+        <token id="ST_52a_ra4">first</token>
+        <token id="ST_52a_ra5">so</token>
+        <token id="ST_52a_ra6">the</token>
+        <token id="ST_52a_ra7">root</token>
+        <token id="ST_52a_ra8">can</token>
+        <token id="ST_52a_ra9">take</token>
+        <token id="ST_52a_ra10">up</token>
+        <token id="ST_52a_ra11">water</token>
+        <token id="ST_52a_ra12">for</token>
+        <token id="ST_52a_ra13">the</token>
+        <token id="ST_52a_ra14">plant</token>
+        <token id="ST_52a_ra15">.</token>
+      </tokens>
+      <facets>
+        <facet id="ST_52a_f1" govNum="ST_52a_ra3" modNum="ST_52a_ra2" reltn="Product" govText="grows" isAssumed="true" modText="root"/>
+        <facet id="ST_52a_f2" govNum="ST_52a_ra3" modNum="ST_52a_ra4" reltn="Time" govText="grows" isAssumed="true" modText="first"/>
+        <facet id="ST_52a_f3" govNum="ST_52a_ra9" modNum="ST_52a_ra7" reltn="Means" govText="take up" modText="root"/>
+        <facet id="ST_52a_f4" govNum="ST_52a_ra9" modNum="ST_52a_ra11" reltn="Theme" govText="take up" modText="water"/>
+        <facet id="ST_52a_f5" govNum="ST_52a_ra9" modNum="ST_52a_ra14" reltn="Beneficiary_for" govText="take up" modText="plant"/>
+        <facet id="ST_52a_f6" govNum="ST_52a_ra3" modNum="ST_52a_ra9" reltn="Cause_so" childProp2Facet2="ST_52a_f4" childProp1Facet1="ST_52a_f1" govText="grows" isAssumed="true" childProp1Facet2="ST_52a_f2" modText="take up" childProp2Facet1="ST_52a_f3"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="ST.52a.460.1" answerText="Roots sucks in water and makes a seed grow." accuracy="correct">
+      <facetEntailment facetID="ST_52a_f1" label="Assumed"/>
+      <facetEntailment facetID="ST_52a_f2" label="Assumed"/>
+      <facetEntailment facetID="ST_52a_f3" label="Expressed"/>
+      <facetEntailment facetID="ST_52a_f4" label="Expressed"/>
+      <facetEntailment facetID="ST_52a_f5" label="Expressed"/>
+      <facetEntailment facetID="ST_52a_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ST.52a.473.1" answerText="Because it is getting water so the young plant or embryo can have energy to grow." accuracy="correct">
+      <facetEntailment facetID="ST_52a_f1" label="Assumed"/>
+      <facetEntailment facetID="ST_52a_f2" label="Assumed"/>
+      <facetEntailment facetID="ST_52a_f3" label="Expressed"/>
+      <facetEntailment facetID="ST_52a_f4" label="Expressed"/>
+      <facetEntailment facetID="ST_52a_f5" label="Expressed"/>
+      <facetEntailment facetID="ST_52a_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ST.52a.498.1" answerText="So it can feed the plant." accuracy="correct">
+      <facetEntailment facetID="ST_52a_f1" label="Assumed"/>
+      <facetEntailment facetID="ST_52a_f2" label="Assumed"/>
+      <facetEntailment facetID="ST_52a_f3" label="Inferred"/>
+      <facetEntailment facetID="ST_52a_f4" label="Inferred"/>
+      <facetEntailment facetID="ST_52a_f5" label="Inferred"/>
+      <facetEntailment facetID="ST_52a_f6" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ST.52a.561.1" answerText="The root grew because it needs to help the plant stand up." accuracy="irrelevant">
+      <facetEntailment facetID="ST_52a_f1" label="Expressed"/>
+      <facetEntailment facetID="ST_52a_f2" label="Assumed"/>
+      <facetEntailment facetID="ST_52a_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ST_52a_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ST_52a_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ST_52a_f6" label="Diff-Arg"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

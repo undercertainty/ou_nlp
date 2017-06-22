@@ -1,0 +1,559 @@
+<?xml version="1.0"?>
+<question id="ME_65b" module="ME">
+  <questionText>Look at the schematic diagram including a D-cell battery and 3 bulbs. Why do the other 2 bulbs stay lit if the middle bulb burns out?</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="ME_65b-a1" text="The circuit is parallel, so each bulb has its own pathway to the D-cell battery, so the bulbs that do not burn out continue to shine.">
+      <tokens>
+        <token id="ME_65b_ra1">The</token>
+        <token id="ME_65b_ra2">circuit</token>
+        <token id="ME_65b_ra3">is</token>
+        <token id="ME_65b_ra4">parallel</token>
+        <token id="ME_65b_ra5">,</token>
+        <token id="ME_65b_ra6">so</token>
+        <token id="ME_65b_ra7">each</token>
+        <token id="ME_65b_ra8">bulb</token>
+        <token id="ME_65b_ra9">has</token>
+        <token id="ME_65b_ra10">its</token>
+        <token id="ME_65b_ra11">own</token>
+        <token id="ME_65b_ra12">pathway</token>
+        <token id="ME_65b_ra13">to</token>
+        <token id="ME_65b_ra14">the</token>
+        <token id="ME_65b_ra15">D-cell</token>
+        <token id="ME_65b_ra16">battery</token>
+        <token id="ME_65b_ra17">,</token>
+        <token id="ME_65b_ra18">so</token>
+        <token id="ME_65b_ra19">the</token>
+        <token id="ME_65b_ra20">bulbs</token>
+        <token id="ME_65b_ra21">that</token>
+        <token id="ME_65b_ra22">do</token>
+        <token id="ME_65b_ra23">not</token>
+        <token id="ME_65b_ra24">burn</token>
+        <token id="ME_65b_ra25">out</token>
+        <token id="ME_65b_ra26">continue</token>
+        <token id="ME_65b_ra27">to</token>
+        <token id="ME_65b_ra28">shine</token>
+        <token id="ME_65b_ra29">.</token>
+      </tokens>
+      <facets>
+        <facet id="ME_65b_f1" govNum="ME_65b_ra2" modNum="ME_65b_ra4" reltn="Be" govText="circuit" modText="parallel"/>
+        <facet id="ME_65b_f2" govNum="ME_65b_ra8" modNum="ME_65b_ra7" reltn="Quantifier" govText="bulb" isAssumed="true" modText="each"/>
+        <facet id="ME_65b_f3" govNum="ME_65b_ra8" modNum="ME_65b_ra12" reltn="Have" govText="bulb" modText="pathway"/>
+        <facet id="ME_65b_f4" govNum="ME_65b_ra12" modNum="ME_65b_ra10" reltn="NMod_pos" govText="pathway" modText="its"/>
+        <facet id="ME_65b_f5" govNum="ME_65b_ra10" modNum="ME_65b_ra11" reltn="AMod" govText="its" isAssumed="true" modText="own"/>
+        <facet id="ME_65b_f6" govNum="ME_65b_ra12" modNum="ME_65b_ra16" reltn="Destination_to" govText="pathway" modText="battery"/>
+        <facet id="ME_65b_f7" govNum="ME_65b_ra16" modNum="ME_65b_ra15" reltn="NMod" govText="battery" isAssumed="true" modText="D-cell"/>
+        <facet id="ME_65b_f8" govNum="ME_65b_ra9" modNum="ME_65b_ra3" reltn="Cause_so" childProp1Facet1="ME_65b_f3" govText="has" childProp1Facet2="ME_65b_f2" modText="is" childProp2Facet1="ME_65b_f1"/>
+        <facet id="ME_65b_f9" govNum="ME_65b_ra24" modNum="ME_65b_ra20" reltn="Theme_that_neg_not" govText="burn out" isAssumed="true" modText="bulbs"/>
+        <facet id="ME_65b_f10" govNum="ME_65b_ra28" modNum="ME_65b_ra20" reltn="Theme" govText="shine" isAssumed="true" modText="bulbs"/>
+        <facet id="ME_65b_f11" govNum="ME_65b_ra28" modNum="ME_65b_ra26" reltn="VMod_to" govText="shine" isAssumed="true" modText="continue"/>
+        <facet id="ME_65b_f12" govNum="ME_65b_ra28" modNum="ME_65b_ra9" reltn="Cause_so" childProp2Facet2="ME_65b_f2" childProp1Facet1="ME_65b_f10" govText="shine" isAssumed="true" childProp1Facet2="ME_65b_f11" modText="has" childProp2Facet1="ME_65b_f3"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="ME.65b.101.1" answerText="It will happen because it is a parallel circuit not a series." accuracy="correct">
+      <facetEntailment facetID="ME_65b_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_65b_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f3" label="Inferred"/>
+      <facetEntailment facetID="ME_65b_f4" label="Inferred"/>
+      <facetEntailment facetID="ME_65b_f5" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f6" label="Inferred"/>
+      <facetEntailment facetID="ME_65b_f7" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f8" label="Inferred"/>
+      <facetEntailment facetID="ME_65b_f9" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f10" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f11" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.65b.107.1" answerText="This will happen because the other 2 bulbs will have a its own pathway, and it is a parallel circuit." accuracy="correct">
+      <facetEntailment facetID="ME_65b_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_65b_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f3" label="Expressed"/>
+      <facetEntailment facetID="ME_65b_f4" label="Expressed"/>
+      <facetEntailment facetID="ME_65b_f5" label="Expressed"/>
+      <facetEntailment facetID="ME_65b_f6" label="Inferred"/>
+      <facetEntailment facetID="ME_65b_f7" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f8" label="Expressed"/>
+      <facetEntailment facetID="ME_65b_f9" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f10" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f11" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.65b.108.1" answerText="Because it is a parallel circuit." accuracy="correct">
+      <facetEntailment facetID="ME_65b_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_65b_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f3" label="Inferred"/>
+      <facetEntailment facetID="ME_65b_f4" label="Inferred"/>
+      <facetEntailment facetID="ME_65b_f5" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f6" label="Inferred"/>
+      <facetEntailment facetID="ME_65b_f7" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f8" label="Inferred"/>
+      <facetEntailment facetID="ME_65b_f9" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f10" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f11" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.65b.111.1" answerText="Because I think it is a series and series have to share and takes more power to form it." accuracy="contradictory">
+      <facetEntailment facetID="ME_65b_f1" label="Contra-Expr"/>
+      <facetEntailment facetID="ME_65b_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f3" label="Inferred"/>
+      <facetEntailment facetID="ME_65b_f4" label="Inferred"/>
+      <facetEntailment facetID="ME_65b_f5" label="Contra-Infr"/>
+      <facetEntailment facetID="ME_65b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="ME_65b_f7" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f8" label="Inferred"/>
+      <facetEntailment facetID="ME_65b_f9" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f10" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f11" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.65b.113.1" answerText="Because there is only one D-Cell so 3 bulbs will definitely not work worse." accuracy="irrelevant">
+      <facetEntailment facetID="ME_65b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="ME_65b_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_65b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_65b_f5" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="ME_65b_f7" label="Expressed"/>
+      <facetEntailment facetID="ME_65b_f8" label="Unaddressed"/>
+      <facetEntailment facetID="ME_65b_f9" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f10" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f11" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.65b.118.1" answerText="Because the bulb does not have its own path of electricity to flow." accuracy="contradictory">
+      <facetEntailment facetID="ME_65b_f1" label="Contra-Infr"/>
+      <facetEntailment facetID="ME_65b_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f3" label="Inferred"/>
+      <facetEntailment facetID="ME_65b_f4" label="Expressed"/>
+      <facetEntailment facetID="ME_65b_f5" label="Contra-Expr"/>
+      <facetEntailment facetID="ME_65b_f6" label="Expressed"/>
+      <facetEntailment facetID="ME_65b_f7" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f8" label="Expressed"/>
+      <facetEntailment facetID="ME_65b_f9" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f10" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f11" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.65b.119.1" answerText="That happens because it is a parallel circuit." accuracy="correct">
+      <facetEntailment facetID="ME_65b_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_65b_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f3" label="Inferred"/>
+      <facetEntailment facetID="ME_65b_f4" label="Inferred"/>
+      <facetEntailment facetID="ME_65b_f5" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f6" label="Inferred"/>
+      <facetEntailment facetID="ME_65b_f7" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f8" label="Inferred"/>
+      <facetEntailment facetID="ME_65b_f9" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f10" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f11" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.65b.140.1" answerText="It happens because the 2 bulbs in the middle are connected together and they both are hooked to the wires." accuracy="irrelevant">
+      <facetEntailment facetID="ME_65b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="ME_65b_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_65b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_65b_f5" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="ME_65b_f7" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f8" label="Unaddressed"/>
+      <facetEntailment facetID="ME_65b_f9" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f10" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f11" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.65b.141.1" answerText="Because the bulbs are in parallel circuit." accuracy="correct">
+      <facetEntailment facetID="ME_65b_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_65b_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f3" label="Inferred"/>
+      <facetEntailment facetID="ME_65b_f4" label="Inferred"/>
+      <facetEntailment facetID="ME_65b_f5" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f6" label="Inferred"/>
+      <facetEntailment facetID="ME_65b_f7" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f8" label="Inferred"/>
+      <facetEntailment facetID="ME_65b_f9" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f10" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f11" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.65b.146.1" answerText="Because it is a parallel circuit." accuracy="correct">
+      <facetEntailment facetID="ME_65b_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_65b_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f3" label="Inferred"/>
+      <facetEntailment facetID="ME_65b_f4" label="Inferred"/>
+      <facetEntailment facetID="ME_65b_f5" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f6" label="Inferred"/>
+      <facetEntailment facetID="ME_65b_f7" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f8" label="Inferred"/>
+      <facetEntailment facetID="ME_65b_f9" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f10" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f11" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.65b.152.1" answerText="Because it is a parallel circuit." accuracy="correct">
+      <facetEntailment facetID="ME_65b_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_65b_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f3" label="Inferred"/>
+      <facetEntailment facetID="ME_65b_f4" label="Inferred"/>
+      <facetEntailment facetID="ME_65b_f5" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f6" label="Inferred"/>
+      <facetEntailment facetID="ME_65b_f7" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f8" label="Inferred"/>
+      <facetEntailment facetID="ME_65b_f9" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f10" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f11" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.65b.153.1" answerText="It happens because it is a parallel circuit." accuracy="correct">
+      <facetEntailment facetID="ME_65b_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_65b_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f3" label="Inferred"/>
+      <facetEntailment facetID="ME_65b_f4" label="Inferred"/>
+      <facetEntailment facetID="ME_65b_f5" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f6" label="Inferred"/>
+      <facetEntailment facetID="ME_65b_f7" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f8" label="Inferred"/>
+      <facetEntailment facetID="ME_65b_f9" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f10" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f11" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.65b.155.1" answerText="That happens because the electricity is still going around the other 2 bulbs." accuracy="irrelevant">
+      <facetEntailment facetID="ME_65b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="ME_65b_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_65b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_65b_f5" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="ME_65b_f7" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f8" label="Unaddressed"/>
+      <facetEntailment facetID="ME_65b_f9" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f10" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f11" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.65b.159.1" answerText="It stays lit." accuracy="irrelevant">
+      <facetEntailment facetID="ME_65b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="ME_65b_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_65b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_65b_f5" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="ME_65b_f7" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f8" label="Unaddressed"/>
+      <facetEntailment facetID="ME_65b_f9" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f10" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f11" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.65b.174.1" answerText="That happens because just because one burns out does not mean the rest will and electricity can still flow." accuracy="irrelevant">
+      <facetEntailment facetID="ME_65b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="ME_65b_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_65b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_65b_f5" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="ME_65b_f7" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f8" label="Unaddressed"/>
+      <facetEntailment facetID="ME_65b_f9" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f10" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f11" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.65b.176.1" answerText="That happens because they each have their own circuit." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="ME_65b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="ME_65b_f2" label="Expressed"/>
+      <facetEntailment facetID="ME_65b_f3" label="Inferred"/>
+      <facetEntailment facetID="ME_65b_f4" label="Inferred"/>
+      <facetEntailment facetID="ME_65b_f5" label="Expressed"/>
+      <facetEntailment facetID="ME_65b_f6" label="Inferred"/>
+      <facetEntailment facetID="ME_65b_f7" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f8" label="Unaddressed"/>
+      <facetEntailment facetID="ME_65b_f9" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f10" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f11" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.65b.178.1" answerText="It is a parallel circuit." accuracy="correct">
+      <facetEntailment facetID="ME_65b_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_65b_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f3" label="Inferred"/>
+      <facetEntailment facetID="ME_65b_f4" label="Inferred"/>
+      <facetEntailment facetID="ME_65b_f5" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f6" label="Inferred"/>
+      <facetEntailment facetID="ME_65b_f7" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f8" label="Inferred"/>
+      <facetEntailment facetID="ME_65b_f9" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f10" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f11" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.65b.180.1" answerText="That happens because this is a series circuit. A series circuit means that if one bulb burns out they all do." accuracy="contradictory">
+      <facetEntailment facetID="ME_65b_f1" label="Contra-Expr"/>
+      <facetEntailment facetID="ME_65b_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f3" label="Inferred"/>
+      <facetEntailment facetID="ME_65b_f4" label="Inferred"/>
+      <facetEntailment facetID="ME_65b_f5" label="Contra-Infr"/>
+      <facetEntailment facetID="ME_65b_f6" label="Inferred"/>
+      <facetEntailment facetID="ME_65b_f7" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f8" label="Inferred"/>
+      <facetEntailment facetID="ME_65b_f9" label="Contra-Expr"/>
+      <facetEntailment facetID="ME_65b_f10" label="Contra-Infr"/>
+      <facetEntailment facetID="ME_65b_f11" label="Contra-Infr"/>
+      <facetEntailment facetID="ME_65b_f12" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.65b.181.1" answerText="They will stay on because it is in a parallel circuit." accuracy="correct">
+      <facetEntailment facetID="ME_65b_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_65b_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f3" label="Inferred"/>
+      <facetEntailment facetID="ME_65b_f4" label="Inferred"/>
+      <facetEntailment facetID="ME_65b_f5" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f6" label="Inferred"/>
+      <facetEntailment facetID="ME_65b_f7" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f8" label="Inferred"/>
+      <facetEntailment facetID="ME_65b_f9" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f10" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f11" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.65b.183.1" answerText="The reason is that the bulbs are in a parallel circuit." accuracy="correct">
+      <facetEntailment facetID="ME_65b_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_65b_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f3" label="Inferred"/>
+      <facetEntailment facetID="ME_65b_f4" label="Inferred"/>
+      <facetEntailment facetID="ME_65b_f5" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f6" label="Inferred"/>
+      <facetEntailment facetID="ME_65b_f7" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f8" label="Inferred"/>
+      <facetEntailment facetID="ME_65b_f9" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f10" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f11" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.65b.185.1" answerText="That happens because it is a parallel circuit which means it should run as long as you do not open the parallel circuit." accuracy="correct">
+      <facetEntailment facetID="ME_65b_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_65b_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f3" label="Inferred"/>
+      <facetEntailment facetID="ME_65b_f4" label="Inferred"/>
+      <facetEntailment facetID="ME_65b_f5" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f6" label="Inferred"/>
+      <facetEntailment facetID="ME_65b_f7" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f8" label="Inferred"/>
+      <facetEntailment facetID="ME_65b_f9" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f10" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f11" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.65b.189.1" answerText="It happens because if it is a cut off where I marked it they would still light." accuracy="irrelevant">
+      <facetEntailment facetID="ME_65b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="ME_65b_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_65b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_65b_f5" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="ME_65b_f7" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f8" label="Unaddressed"/>
+      <facetEntailment facetID="ME_65b_f9" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f10" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f11" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.65b.190.1" answerText="Why, because it is a parallel circuit, and if one burns out they all burn out they all stay on." accuracy="contradictory">
+      <facetEntailment facetID="ME_65b_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_65b_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f3" label="Inferred"/>
+      <facetEntailment facetID="ME_65b_f4" label="Inferred"/>
+      <facetEntailment facetID="ME_65b_f5" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f6" label="Inferred"/>
+      <facetEntailment facetID="ME_65b_f7" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f8" label="Inferred"/>
+      <facetEntailment facetID="ME_65b_f9" label="Self-Contra"/>
+      <facetEntailment facetID="ME_65b_f10" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f11" label="Self-Contra"/>
+      <facetEntailment facetID="ME_65b_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.65b.191.1" answerText="It happens because that string of lights is a parallel string of lights." accuracy="correct">
+      <facetEntailment facetID="ME_65b_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_65b_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f3" label="Inferred"/>
+      <facetEntailment facetID="ME_65b_f4" label="Inferred"/>
+      <facetEntailment facetID="ME_65b_f5" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f6" label="Inferred"/>
+      <facetEntailment facetID="ME_65b_f7" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f8" label="Inferred"/>
+      <facetEntailment facetID="ME_65b_f9" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f10" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f11" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.65b.192.1" answerText="This happens because when a parallel circuit is formed like this one the D-cell still allows the electricity to flow through the circuit." accuracy="correct">
+      <facetEntailment facetID="ME_65b_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_65b_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f3" label="Inferred"/>
+      <facetEntailment facetID="ME_65b_f4" label="Inferred"/>
+      <facetEntailment facetID="ME_65b_f5" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f6" label="Inferred"/>
+      <facetEntailment facetID="ME_65b_f7" label="Expressed"/>
+      <facetEntailment facetID="ME_65b_f8" label="Inferred"/>
+      <facetEntailment facetID="ME_65b_f9" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f10" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f11" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.65b.206.1" answerText="Because it is a cinematic circuit." accuracy="irrelevant">
+      <facetEntailment facetID="ME_65b_f1" label="Diff-Arg"/>
+      <facetEntailment facetID="ME_65b_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_65b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_65b_f5" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="ME_65b_f7" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f8" label="Unaddressed"/>
+      <facetEntailment facetID="ME_65b_f9" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f10" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f11" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.65b.207.1" answerText="The bulbs are connecting to the same circuit. It will not work." accuracy="contradictory">
+      <facetEntailment facetID="ME_65b_f1" label="Contra-Infr"/>
+      <facetEntailment facetID="ME_65b_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f3" label="Inferred"/>
+      <facetEntailment facetID="ME_65b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_65b_f5" label="Contra-Infr"/>
+      <facetEntailment facetID="ME_65b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="ME_65b_f7" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f8" label="Inferred"/>
+      <facetEntailment facetID="ME_65b_f9" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f10" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f11" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.65b.208.1" answerText="The magnetic force will still go through." accuracy="irrelevant">
+      <facetEntailment facetID="ME_65b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="ME_65b_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_65b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_65b_f5" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="ME_65b_f7" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f8" label="Unaddressed"/>
+      <facetEntailment facetID="ME_65b_f9" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f10" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f11" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.65b.215.1" answerText="Because electricity still goes through the wires to the others." accuracy="irrelevant">
+      <facetEntailment facetID="ME_65b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="ME_65b_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_65b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_65b_f5" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="ME_65b_f7" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f8" label="Unaddressed"/>
+      <facetEntailment facetID="ME_65b_f9" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f10" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f11" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.65b.256.1" answerText="Because it is a parallel circuit." accuracy="correct">
+      <facetEntailment facetID="ME_65b_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_65b_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f3" label="Inferred"/>
+      <facetEntailment facetID="ME_65b_f4" label="Inferred"/>
+      <facetEntailment facetID="ME_65b_f5" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f6" label="Inferred"/>
+      <facetEntailment facetID="ME_65b_f7" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f8" label="Inferred"/>
+      <facetEntailment facetID="ME_65b_f9" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f10" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f11" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.65b.277.1" answerText="That means it is a parallel circuit and if 2 bulbs burn out one will still be lit." accuracy="correct">
+      <facetEntailment facetID="ME_65b_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_65b_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f3" label="Inferred"/>
+      <facetEntailment facetID="ME_65b_f4" label="Inferred"/>
+      <facetEntailment facetID="ME_65b_f5" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f6" label="Inferred"/>
+      <facetEntailment facetID="ME_65b_f7" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f8" label="Inferred"/>
+      <facetEntailment facetID="ME_65b_f9" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f10" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f11" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.65b.283.1" answerText="Because then it will not have a way to go." accuracy="irrelevant">
+      <facetEntailment facetID="ME_65b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="ME_65b_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_65b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_65b_f5" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="ME_65b_f7" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f8" label="Unaddressed"/>
+      <facetEntailment facetID="ME_65b_f9" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f10" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f11" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.65b.292.1" answerText="The bulb share the same D-Cell." accuracy="irrelevant">
+      <facetEntailment facetID="ME_65b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="ME_65b_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_65b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_65b_f5" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="ME_65b_f7" label="Expressed"/>
+      <facetEntailment facetID="ME_65b_f8" label="Unaddressed"/>
+      <facetEntailment facetID="ME_65b_f9" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f10" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f11" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.65b.318.1" answerText="The electricity will still flow through the wires to get to the other lights." accuracy="irrelevant">
+      <facetEntailment facetID="ME_65b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="ME_65b_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_65b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_65b_f5" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="ME_65b_f7" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f8" label="Unaddressed"/>
+      <facetEntailment facetID="ME_65b_f9" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f10" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f11" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.65b.324.1" answerText="If the 2 bulbs in the middle burns out the one on top will." accuracy="contradictory">
+      <facetEntailment facetID="ME_65b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="ME_65b_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_65b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_65b_f5" label="Contra-Infr"/>
+      <facetEntailment facetID="ME_65b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="ME_65b_f7" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f8" label="Unaddressed"/>
+      <facetEntailment facetID="ME_65b_f9" label="Contra-Expr"/>
+      <facetEntailment facetID="ME_65b_f10" label="Contra-Infr"/>
+      <facetEntailment facetID="ME_65b_f11" label="Contra-Infr"/>
+      <facetEntailment facetID="ME_65b_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.65b.327.1" answerText="Because it is a parallel circuit." accuracy="correct">
+      <facetEntailment facetID="ME_65b_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_65b_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f3" label="Inferred"/>
+      <facetEntailment facetID="ME_65b_f4" label="Inferred"/>
+      <facetEntailment facetID="ME_65b_f5" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f6" label="Inferred"/>
+      <facetEntailment facetID="ME_65b_f7" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f8" label="Inferred"/>
+      <facetEntailment facetID="ME_65b_f9" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f10" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f11" label="Assumed"/>
+      <facetEntailment facetID="ME_65b_f12" label="Assumed"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

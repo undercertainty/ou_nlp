@@ -1,0 +1,754 @@
+<?xml version="1.0"?>
+<question id="LF_31b" module="LF">
+  <questionText>What process forms deltas? A. Gravity B. Erosion (C. Deposition) D. Decomposition.  Explain how deltas form.</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="LF_31b-a1" text="Earth materials erode and are carried by flowing water (a river). The earth materials form a delta when the materials are dropped off or deposited when the water stops flowing (at the mouth of a river).">
+      <tokens>
+        <token id="LF_31b_ra1">Earth</token>
+        <token id="LF_31b_ra2">materials</token>
+        <token id="LF_31b_ra3">erode</token>
+        <token id="LF_31b_ra4">and</token>
+        <token id="LF_31b_ra5">are</token>
+        <token id="LF_31b_ra6">carried</token>
+        <token id="LF_31b_ra7">by</token>
+        <token id="LF_31b_ra8">flowing</token>
+        <token id="LF_31b_ra9">water</token>
+        <token id="LF_31b_ra10">(</token>
+        <token id="LF_31b_ra11">a</token>
+        <token id="LF_31b_ra12">river</token>
+        <token id="LF_31b_ra13">)</token>
+        <token id="LF_31b_ra14">.</token>
+        <token id="LF_31b_ra15">The</token>
+        <token id="LF_31b_ra16">earth</token>
+        <token id="LF_31b_ra17">materials</token>
+        <token id="LF_31b_ra18">form</token>
+        <token id="LF_31b_ra19">a</token>
+        <token id="LF_31b_ra20">delta</token>
+        <token id="LF_31b_ra21">when</token>
+        <token id="LF_31b_ra22">the</token>
+        <token id="LF_31b_ra23">materials</token>
+        <token id="LF_31b_ra24">are</token>
+        <token id="LF_31b_ra25">dropped</token>
+        <token id="LF_31b_ra26">off</token>
+        <token id="LF_31b_ra27">or</token>
+        <token id="LF_31b_ra28">deposited</token>
+        <token id="LF_31b_ra29">when</token>
+        <token id="LF_31b_ra30">the</token>
+        <token id="LF_31b_ra31">water</token>
+        <token id="LF_31b_ra32">stops</token>
+        <token id="LF_31b_ra33">flowing</token>
+        <token id="LF_31b_ra34">(</token>
+        <token id="LF_31b_ra35">at</token>
+        <token id="LF_31b_ra36">the</token>
+        <token id="LF_31b_ra37">mouth</token>
+        <token id="LF_31b_ra38">of</token>
+        <token id="LF_31b_ra39">a</token>
+        <token id="LF_31b_ra40">river</token>
+        <token id="LF_31b_ra41">)</token>
+        <token id="LF_31b_ra42">.</token>
+      </tokens>
+      <facets>
+        <facet id="LF_31b_f1" govNum="LF_31b_ra2" modNum="LF_31b_ra1" reltn="NMod" govText="materials" modText="Earth"/>
+        <facet id="LF_31b_f2" govNum="LF_31b_ra3" modNum="LF_31b_ra2" reltn="Patient" govText="erode" modText="materials"/>
+        <facet id="LF_31b_f3" govNum="LF_31b_ra6" modNum="LF_31b_ra9" reltn="Means_by" govText="carried" modText="water"/>
+        <facet id="LF_31b_f4" govNum="LF_31b_ra9" modNum="LF_31b_ra8" reltn="NMod" govText="water" modText="flowing"/>
+        <facet id="LF_31b_f5" govNum="LF_31b_ra6" modNum="LF_31b_ra12" reltn="Cause_by" govText="carried" modText="river"/>
+        <facet id="LF_31b_f6" govNum="LF_31b_ra6" modNum="LF_31b_ra2" reltn="Theme" govText="carried" modText="materials"/>
+        <facet id="LF_31b_f7" govNum="LF_31b_ra17" modNum="LF_31b_ra16" reltn="NMod" govText="materials" modText="earth"/>
+        <facet id="LF_31b_f8" govNum="LF_31b_ra18" modNum="LF_31b_ra17" reltn="Material" govText="form" modText="materials"/>
+        <facet id="LF_31b_f9" govNum="LF_31b_ra18" modNum="LF_31b_ra20" reltn="Product" govText="form" isAssumed="true" modText="delta"/>
+        <facet id="LF_31b_f10" govNum="LF_31b_ra18" modNum="LF_31b_ra25" reltn="Cause_when" childProp2Facet2="LF_31b_f13" childProp1Facet1="LF_31b_f8" govText="form" childProp1Facet2="LF_31b_f9" modText="dropped off" childProp2Facet1="LF_31b_f12"/>
+        <facet id="LF_31b_f11" govNum="LF_31b_ra18" modNum="LF_31b_ra28" reltn="Cause_when" childProp2Facet2="LF_31b_f12" childProp1Facet1="LF_31b_f8" govText="form" childProp1Facet2="LF_31b_f9" modText="deposited" childProp2Facet1="LF_31b_f13"/>
+        <facet id="LF_31b_f12" govNum="LF_31b_ra25" modNum="LF_31b_ra23" reltn="Theme" govText="dropped off" modText="materials"/>
+        <facet id="LF_31b_f13" govNum="LF_31b_ra28" modNum="LF_31b_ra23" reltn="Theme" govText="deposited" modText="materials"/>
+        <facet id="LF_31b_f14" govNum="LF_31b_ra28" modNum="LF_31b_ra32" reltn="Cause_when" childProp2Facet2="LF_31b_f15" childProp1Facet1="LF_31b_f13" govText="deposited" childProp1Facet2="LF_31b_f12" modText="stops" childProp2Facet1="LF_31b_f16"/>
+        <facet id="LF_31b_f15" govNum="LF_31b_ra32" modNum="LF_31b_ra33" reltn="Predicate" govText="stops" modText="flowing"/>
+        <facet id="LF_31b_f16" govNum="LF_31b_ra32" modNum="LF_31b_ra31" reltn="Theme" govText="stops" modText="water"/>
+        <facet id="LF_31b_f17" govNum="LF_31b_ra32" modNum="LF_31b_ra37" reltn="Location_at" govText="stops" modText="mouth"/>
+        <facet id="LF_31b_f18" govNum="LF_31b_ra37" modNum="LF_31b_ra40" reltn="NMod_of" govText="mouth" modText="river"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="LF.31b.384.1" answerText="Like a small river getting big, deltas are formed when a regular river is out to a ocean or lake. Over time the water will erode the mouth into a fan shaped deposit." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="LF_31b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f2" label="Inferred"/>
+      <facetEntailment facetID="LF_31b_f3" label="Inferred"/>
+      <facetEntailment facetID="LF_31b_f4" label="Inferred"/>
+      <facetEntailment facetID="LF_31b_f5" label="Inferred"/>
+      <facetEntailment facetID="LF_31b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f8" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f9" label="Expressed"/>
+      <facetEntailment facetID="LF_31b_f10" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f11" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f12" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f13" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f14" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f15" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f16" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f17" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f18" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="LF.31b.387.1" answerText="A river rock earth motional with it and deposits it at the mouth. There is forming a delta." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="LF_31b_f1" label="Inferred"/>
+      <facetEntailment facetID="LF_31b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f5" label="Inferred"/>
+      <facetEntailment facetID="LF_31b_f6" label="Inferred"/>
+      <facetEntailment facetID="LF_31b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f8" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f9" label="Expressed"/>
+      <facetEntailment facetID="LF_31b_f10" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f11" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f12" label="Inferred"/>
+      <facetEntailment facetID="LF_31b_f13" label="Inferred"/>
+      <facetEntailment facetID="LF_31b_f14" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f15" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f16" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f17" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f18" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="LF.31b.397.1" answerText="Deltas are earth materials that are carried away by the river and settle." accuracy="contradictory">
+      <facetEntailment facetID="LF_31b_f1" label="Expressed"/>
+      <facetEntailment facetID="LF_31b_f2" label="Contra-Expr"/>
+      <facetEntailment facetID="LF_31b_f3" label="Expressed"/>
+      <facetEntailment facetID="LF_31b_f4" label="Expressed"/>
+      <facetEntailment facetID="LF_31b_f5" label="Expressed"/>
+      <facetEntailment facetID="LF_31b_f6" label="Expressed"/>
+      <facetEntailment facetID="LF_31b_f7" label="Expressed"/>
+      <facetEntailment facetID="LF_31b_f8" label="Contra-Expr"/>
+      <facetEntailment facetID="LF_31b_f9" label="Contra-Expr"/>
+      <facetEntailment facetID="LF_31b_f10" label="Expressed"/>
+      <facetEntailment facetID="LF_31b_f11" label="Expressed"/>
+      <facetEntailment facetID="LF_31b_f12" label="Inferred"/>
+      <facetEntailment facetID="LF_31b_f13" label="Inferred"/>
+      <facetEntailment facetID="LF_31b_f14" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f15" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f16" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f17" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f18" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="LF.31b.404.1" answerText="A delta forms at the mouth of a river when earth material is carried away in a river." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="LF_31b_f1" label="Expressed"/>
+      <facetEntailment facetID="LF_31b_f2" label="Expressed"/>
+      <facetEntailment facetID="LF_31b_f3" label="Expressed"/>
+      <facetEntailment facetID="LF_31b_f4" label="Expressed"/>
+      <facetEntailment facetID="LF_31b_f5" label="Expressed"/>
+      <facetEntailment facetID="LF_31b_f6" label="Expressed"/>
+      <facetEntailment facetID="LF_31b_f7" label="Expressed"/>
+      <facetEntailment facetID="LF_31b_f8" label="Expressed"/>
+      <facetEntailment facetID="LF_31b_f9" label="Expressed"/>
+      <facetEntailment facetID="LF_31b_f10" label="Expressed"/>
+      <facetEntailment facetID="LF_31b_f11" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f12" label="Diff-Arg"/>
+      <facetEntailment facetID="LF_31b_f13" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f14" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f15" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f16" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f17" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f18" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="LF.31b.407.1" answerText="They come from water and water just keeps on building up." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="LF_31b_f1" label="Inferred"/>
+      <facetEntailment facetID="LF_31b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f3" label="Inferred"/>
+      <facetEntailment facetID="LF_31b_f4" label="Inferred"/>
+      <facetEntailment facetID="LF_31b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f8" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f9" label="Assumed"/>
+      <facetEntailment facetID="LF_31b_f10" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f11" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f12" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f13" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f14" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f15" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f16" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f17" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f18" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="LF.31b.408.1" answerText="A erosion happen and over the time it forms." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="LF_31b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f2" label="Inferred"/>
+      <facetEntailment facetID="LF_31b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f8" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f9" label="Assumed"/>
+      <facetEntailment facetID="LF_31b_f10" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f11" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f12" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f13" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f14" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f15" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f16" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f17" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f18" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="LF.31b.409.1" answerText="The depositions collapsing into them." accuracy="irrelevant">
+      <facetEntailment facetID="LF_31b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f8" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f9" label="Assumed"/>
+      <facetEntailment facetID="LF_31b_f10" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f11" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f12" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f13" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f14" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f15" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f16" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f17" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f18" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="LF.31b.416.1" answerText="It forms by a deposit of earth materials at mouth of a stream or river." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="LF_31b_f1" label="Expressed"/>
+      <facetEntailment facetID="LF_31b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f7" label="Expressed"/>
+      <facetEntailment facetID="LF_31b_f8" label="Expressed"/>
+      <facetEntailment facetID="LF_31b_f9" label="Expressed"/>
+      <facetEntailment facetID="LF_31b_f10" label="Expressed"/>
+      <facetEntailment facetID="LF_31b_f11" label="Expressed"/>
+      <facetEntailment facetID="LF_31b_f12" label="Inferred"/>
+      <facetEntailment facetID="LF_31b_f13" label="Inferred"/>
+      <facetEntailment facetID="LF_31b_f14" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f15" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f16" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f17" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f18" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="LF.31b.417.1" answerText="Deltas are formed because the water takes the sand to the end of the river where it piles up and forms a delta." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="LF_31b_f1" label="Expressed"/>
+      <facetEntailment facetID="LF_31b_f2" label="Inferred"/>
+      <facetEntailment facetID="LF_31b_f3" label="Expressed"/>
+      <facetEntailment facetID="LF_31b_f4" label="Expressed"/>
+      <facetEntailment facetID="LF_31b_f5" label="Expressed"/>
+      <facetEntailment facetID="LF_31b_f6" label="Expressed"/>
+      <facetEntailment facetID="LF_31b_f7" label="Expressed"/>
+      <facetEntailment facetID="LF_31b_f8" label="Expressed"/>
+      <facetEntailment facetID="LF_31b_f9" label="Expressed"/>
+      <facetEntailment facetID="LF_31b_f10" label="Expressed"/>
+      <facetEntailment facetID="LF_31b_f11" label="Expressed"/>
+      <facetEntailment facetID="LF_31b_f12" label="Expressed"/>
+      <facetEntailment facetID="LF_31b_f13" label="Expressed"/>
+      <facetEntailment facetID="LF_31b_f14" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f15" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f16" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f17" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f18" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="LF.31b.419.1" answerText="Delta forms by water or a river." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="LF_31b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f4" label="Inferred"/>
+      <facetEntailment facetID="LF_31b_f5" label="Inferred"/>
+      <facetEntailment facetID="LF_31b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f8" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f9" label="Expressed"/>
+      <facetEntailment facetID="LF_31b_f10" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f11" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f12" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f13" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f14" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f15" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f16" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f17" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f18" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="LF.31b.422.1" answerText="Delta is formed because the mouth is full of water or melted ice." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="LF_31b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f8" label="Diff-Arg"/>
+      <facetEntailment facetID="LF_31b_f9" label="Expressed"/>
+      <facetEntailment facetID="LF_31b_f10" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f11" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f12" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f13" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f14" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f15" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f16" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f17" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f18" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="LF.31b.427.1" answerText="It is formed by a mouth of river of stream." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="LF_31b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f8" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f9" label="Assumed"/>
+      <facetEntailment facetID="LF_31b_f10" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f11" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f12" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f13" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f14" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f15" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f16" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f17" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f18" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="LF.31b.427b.1" answerText="It is formed by amount river or stream." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="LF_31b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f4" label="Inferred"/>
+      <facetEntailment facetID="LF_31b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f8" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f9" label="Expressed"/>
+      <facetEntailment facetID="LF_31b_f10" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f11" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f12" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f13" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f14" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f15" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f16" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f17" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f18" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="LF.31b.428.1" answerText="Deltas form by depositions with water." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="LF_31b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f3" label="Inferred"/>
+      <facetEntailment facetID="LF_31b_f4" label="Expressed"/>
+      <facetEntailment facetID="LF_31b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f8" label="Inferred"/>
+      <facetEntailment facetID="LF_31b_f9" label="Expressed"/>
+      <facetEntailment facetID="LF_31b_f10" label="Inferred"/>
+      <facetEntailment facetID="LF_31b_f11" label="Expressed"/>
+      <facetEntailment facetID="LF_31b_f12" label="Inferred"/>
+      <facetEntailment facetID="LF_31b_f13" label="Inferred"/>
+      <facetEntailment facetID="LF_31b_f14" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f15" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f16" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f17" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f18" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="LF.31b.432.1" answerText="A deposition at the mouth of the river." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="LF_31b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f8" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f9" label="Assumed"/>
+      <facetEntailment facetID="LF_31b_f10" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f11" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f12" label="Inferred"/>
+      <facetEntailment facetID="LF_31b_f13" label="Inferred"/>
+      <facetEntailment facetID="LF_31b_f14" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f15" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f16" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f17" label="Inferred"/>
+      <facetEntailment facetID="LF_31b_f18" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="LF.31b.440.1" answerText="A delta is formed when water is deposited." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="LF_31b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f4" label="Inferred"/>
+      <facetEntailment facetID="LF_31b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f8" label="Diff-Arg"/>
+      <facetEntailment facetID="LF_31b_f9" label="Expressed"/>
+      <facetEntailment facetID="LF_31b_f10" label="Expressed"/>
+      <facetEntailment facetID="LF_31b_f11" label="Expressed"/>
+      <facetEntailment facetID="LF_31b_f12" label="Diff-Arg"/>
+      <facetEntailment facetID="LF_31b_f13" label="Diff-Arg"/>
+      <facetEntailment facetID="LF_31b_f14" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f15" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f16" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f17" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f18" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="LF.31b.457.1" answerText="Delta is form by different kinds of rock and gravity." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="LF_31b_f1" label="Expressed"/>
+      <facetEntailment facetID="LF_31b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f7" label="Expressed"/>
+      <facetEntailment facetID="LF_31b_f8" label="Expressed"/>
+      <facetEntailment facetID="LF_31b_f9" label="Expressed"/>
+      <facetEntailment facetID="LF_31b_f10" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f11" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f12" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f13" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f14" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f15" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f16" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f17" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f18" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="LF.31b.459.1" answerText="I pick gravity because gravity is like process." accuracy="irrelevant">
+      <facetEntailment facetID="LF_31b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f8" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f9" label="Assumed"/>
+      <facetEntailment facetID="LF_31b_f10" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f11" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f12" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f13" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f14" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f15" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f16" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f17" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f18" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="LF.31b.462.1" answerText="It forms with gravity because it is like metal and plastic." accuracy="irrelevant">
+      <facetEntailment facetID="LF_31b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f8" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f9" label="Assumed"/>
+      <facetEntailment facetID="LF_31b_f10" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f11" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f12" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f13" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f14" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f15" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f16" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f17" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f18" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="LF.31b.476.1" answerText="By earth materials moving then stopping where the delta is." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="LF_31b_f1" label="Expressed"/>
+      <facetEntailment facetID="LF_31b_f2" label="Inferred"/>
+      <facetEntailment facetID="LF_31b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f6" label="Inferred"/>
+      <facetEntailment facetID="LF_31b_f7" label="Expressed"/>
+      <facetEntailment facetID="LF_31b_f8" label="Inferred"/>
+      <facetEntailment facetID="LF_31b_f9" label="Assumed"/>
+      <facetEntailment facetID="LF_31b_f10" label="Inferred"/>
+      <facetEntailment facetID="LF_31b_f11" label="Inferred"/>
+      <facetEntailment facetID="LF_31b_f12" label="Inferred"/>
+      <facetEntailment facetID="LF_31b_f13" label="Inferred"/>
+      <facetEntailment facetID="LF_31b_f14" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f15" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f16" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f17" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f18" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="LF.31b.480.1" answerText="By running water." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="LF_31b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f4" label="Expressed"/>
+      <facetEntailment facetID="LF_31b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f8" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f9" label="Assumed"/>
+      <facetEntailment facetID="LF_31b_f10" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f11" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f12" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f13" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f14" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f15" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f16" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f17" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f18" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="LF.31b.489.1" answerText="As the water from the mountain comes and invades the place, it starts the canyon then it meanders around until it comes to another larger body of water and the delta is the end of the lake and beginning of the lake." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="LF_31b_f1" label="Inferred"/>
+      <facetEntailment facetID="LF_31b_f2" label="Inferred"/>
+      <facetEntailment facetID="LF_31b_f3" label="Inferred"/>
+      <facetEntailment facetID="LF_31b_f4" label="Expressed"/>
+      <facetEntailment facetID="LF_31b_f5" label="Inferred"/>
+      <facetEntailment facetID="LF_31b_f6" label="Inferred"/>
+      <facetEntailment facetID="LF_31b_f7" label="Inferred"/>
+      <facetEntailment facetID="LF_31b_f8" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f9" label="Assumed"/>
+      <facetEntailment facetID="LF_31b_f10" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f11" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f12" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f13" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f14" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f15" label="Inferred"/>
+      <facetEntailment facetID="LF_31b_f16" label="Inferred"/>
+      <facetEntailment facetID="LF_31b_f17" label="Inferred"/>
+      <facetEntailment facetID="LF_31b_f18" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="LF.31b.513.1" answerText="A canyon is formed and the water pushes the dirt and other materials into a fan shape." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="LF_31b_f1" label="Inferred"/>
+      <facetEntailment facetID="LF_31b_f2" label="Inferred"/>
+      <facetEntailment facetID="LF_31b_f3" label="Expressed"/>
+      <facetEntailment facetID="LF_31b_f4" label="Inferred"/>
+      <facetEntailment facetID="LF_31b_f5" label="Inferred"/>
+      <facetEntailment facetID="LF_31b_f6" label="Inferred"/>
+      <facetEntailment facetID="LF_31b_f7" label="Expressed"/>
+      <facetEntailment facetID="LF_31b_f8" label="Expressed"/>
+      <facetEntailment facetID="LF_31b_f9" label="Diff-Arg"/>
+      <facetEntailment facetID="LF_31b_f10" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f11" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f12" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f13" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f14" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f15" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f16" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f17" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f18" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="LF.31b.527.1" answerText="Deltas are form by erosion and deposition." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="LF_31b_f1" label="Inferred"/>
+      <facetEntailment facetID="LF_31b_f2" label="Inferred"/>
+      <facetEntailment facetID="LF_31b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f7" label="Inferred"/>
+      <facetEntailment facetID="LF_31b_f8" label="Inferred"/>
+      <facetEntailment facetID="LF_31b_f9" label="Expressed"/>
+      <facetEntailment facetID="LF_31b_f10" label="Expressed"/>
+      <facetEntailment facetID="LF_31b_f11" label="Expressed"/>
+      <facetEntailment facetID="LF_31b_f12" label="Inferred"/>
+      <facetEntailment facetID="LF_31b_f13" label="Inferred"/>
+      <facetEntailment facetID="LF_31b_f14" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f15" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f16" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f17" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f18" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="LF.31b.677.1" answerText="Earth materials are carried by water and dropped under the water settling at the bottom of the river." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="LF_31b_f1" label="Expressed"/>
+      <facetEntailment facetID="LF_31b_f2" label="Inferred"/>
+      <facetEntailment facetID="LF_31b_f3" label="Expressed"/>
+      <facetEntailment facetID="LF_31b_f4" label="Inferred"/>
+      <facetEntailment facetID="LF_31b_f5" label="Inferred"/>
+      <facetEntailment facetID="LF_31b_f6" label="Expressed"/>
+      <facetEntailment facetID="LF_31b_f7" label="Expressed"/>
+      <facetEntailment facetID="LF_31b_f8" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f9" label="Assumed"/>
+      <facetEntailment facetID="LF_31b_f10" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f11" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f12" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f13" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f14" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f15" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f16" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f17" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f18" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="LF.31b.680.1" answerText="Deltas are formed by deposition that is when earth materials are carried away then let off at another place to form a delta." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="LF_31b_f1" label="Expressed"/>
+      <facetEntailment facetID="LF_31b_f2" label="Inferred"/>
+      <facetEntailment facetID="LF_31b_f3" label="Inferred"/>
+      <facetEntailment facetID="LF_31b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f6" label="Expressed"/>
+      <facetEntailment facetID="LF_31b_f7" label="Expressed"/>
+      <facetEntailment facetID="LF_31b_f8" label="Expressed"/>
+      <facetEntailment facetID="LF_31b_f9" label="Expressed"/>
+      <facetEntailment facetID="LF_31b_f10" label="Expressed"/>
+      <facetEntailment facetID="LF_31b_f11" label="Expressed"/>
+      <facetEntailment facetID="LF_31b_f12" label="Expressed"/>
+      <facetEntailment facetID="LF_31b_f13" label="Expressed"/>
+      <facetEntailment facetID="LF_31b_f14" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f15" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f16" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f17" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f18" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="LF.31b.682.1" answerText="Deltas form when water is run over a plateau for a long period of time and when the water runs somewhere else, that place where it runs out is a delta." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="LF_31b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f4" label="Expressed"/>
+      <facetEntailment facetID="LF_31b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f8" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f9" label="Expressed"/>
+      <facetEntailment facetID="LF_31b_f10" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f11" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f12" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f13" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f14" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f15" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f16" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f17" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f18" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="LF.31b.780.1" answerText="A delta forms whenever a river picks up dirt, sand and clay and carries them to the mouth of the river were it is weakened so it drops the materials and forms a delta." accuracy="correct">
+      <facetEntailment facetID="LF_31b_f1" label="Expressed"/>
+      <facetEntailment facetID="LF_31b_f2" label="Expressed"/>
+      <facetEntailment facetID="LF_31b_f3" label="Expressed"/>
+      <facetEntailment facetID="LF_31b_f4" label="Expressed"/>
+      <facetEntailment facetID="LF_31b_f5" label="Expressed"/>
+      <facetEntailment facetID="LF_31b_f6" label="Expressed"/>
+      <facetEntailment facetID="LF_31b_f7" label="Expressed"/>
+      <facetEntailment facetID="LF_31b_f8" label="Expressed"/>
+      <facetEntailment facetID="LF_31b_f9" label="Expressed"/>
+      <facetEntailment facetID="LF_31b_f10" label="Expressed"/>
+      <facetEntailment facetID="LF_31b_f11" label="Expressed"/>
+      <facetEntailment facetID="LF_31b_f12" label="Expressed"/>
+      <facetEntailment facetID="LF_31b_f13" label="Expressed"/>
+      <facetEntailment facetID="LF_31b_f14" label="Expressed"/>
+      <facetEntailment facetID="LF_31b_f15" label="Inferred"/>
+      <facetEntailment facetID="LF_31b_f16" label="Inferred"/>
+      <facetEntailment facetID="LF_31b_f17" label="Expressed"/>
+      <facetEntailment facetID="LF_31b_f18" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="LF.31b.788.1" answerText="Deltas are formed by water carrying earth materials and not have enough force to push the materials so it lets the materials go." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="LF_31b_f1" label="Expressed"/>
+      <facetEntailment facetID="LF_31b_f2" label="Inferred"/>
+      <facetEntailment facetID="LF_31b_f3" label="Expressed"/>
+      <facetEntailment facetID="LF_31b_f4" label="Inferred"/>
+      <facetEntailment facetID="LF_31b_f5" label="Inferred"/>
+      <facetEntailment facetID="LF_31b_f6" label="Expressed"/>
+      <facetEntailment facetID="LF_31b_f7" label="Expressed"/>
+      <facetEntailment facetID="LF_31b_f8" label="Expressed"/>
+      <facetEntailment facetID="LF_31b_f9" label="Expressed"/>
+      <facetEntailment facetID="LF_31b_f10" label="Expressed"/>
+      <facetEntailment facetID="LF_31b_f11" label="Expressed"/>
+      <facetEntailment facetID="LF_31b_f12" label="Inferred"/>
+      <facetEntailment facetID="LF_31b_f13" label="Inferred"/>
+      <facetEntailment facetID="LF_31b_f14" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f15" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f16" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f17" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f18" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="LF.31b.803.1" answerText="It forms when a river goes to a larger part of water and it leaves particles behind." accuracy="correct">
+      <facetEntailment facetID="LF_31b_f1" label="Inferred"/>
+      <facetEntailment facetID="LF_31b_f2" label="Inferred"/>
+      <facetEntailment facetID="LF_31b_f3" label="Expressed"/>
+      <facetEntailment facetID="LF_31b_f4" label="Inferred"/>
+      <facetEntailment facetID="LF_31b_f5" label="Expressed"/>
+      <facetEntailment facetID="LF_31b_f6" label="Inferred"/>
+      <facetEntailment facetID="LF_31b_f7" label="Inferred"/>
+      <facetEntailment facetID="LF_31b_f8" label="Inferred"/>
+      <facetEntailment facetID="LF_31b_f9" label="Expressed"/>
+      <facetEntailment facetID="LF_31b_f10" label="Expressed"/>
+      <facetEntailment facetID="LF_31b_f11" label="Expressed"/>
+      <facetEntailment facetID="LF_31b_f12" label="Expressed"/>
+      <facetEntailment facetID="LF_31b_f13" label="Expressed"/>
+      <facetEntailment facetID="LF_31b_f14" label="Inferred"/>
+      <facetEntailment facetID="LF_31b_f15" label="Inferred"/>
+      <facetEntailment facetID="LF_31b_f16" label="Inferred"/>
+      <facetEntailment facetID="LF_31b_f17" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f18" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="LF.31b.822.1" answerText="Sand gets carried away by the river and settles at the mouth and forms a delta." accuracy="correct">
+      <facetEntailment facetID="LF_31b_f1" label="Expressed"/>
+      <facetEntailment facetID="LF_31b_f2" label="Expressed"/>
+      <facetEntailment facetID="LF_31b_f3" label="Expressed"/>
+      <facetEntailment facetID="LF_31b_f4" label="Expressed"/>
+      <facetEntailment facetID="LF_31b_f5" label="Expressed"/>
+      <facetEntailment facetID="LF_31b_f6" label="Expressed"/>
+      <facetEntailment facetID="LF_31b_f7" label="Expressed"/>
+      <facetEntailment facetID="LF_31b_f8" label="Expressed"/>
+      <facetEntailment facetID="LF_31b_f9" label="Expressed"/>
+      <facetEntailment facetID="LF_31b_f10" label="Expressed"/>
+      <facetEntailment facetID="LF_31b_f11" label="Expressed"/>
+      <facetEntailment facetID="LF_31b_f12" label="Expressed"/>
+      <facetEntailment facetID="LF_31b_f13" label="Expressed"/>
+      <facetEntailment facetID="LF_31b_f14" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f15" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f16" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f17" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f18" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="LF.31b.844.1" answerText="A delta is formed when flowing water pushes sand to opposite sides forming a delta." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="LF_31b_f1" label="Expressed"/>
+      <facetEntailment facetID="LF_31b_f2" label="Expressed"/>
+      <facetEntailment facetID="LF_31b_f3" label="Expressed"/>
+      <facetEntailment facetID="LF_31b_f4" label="Expressed"/>
+      <facetEntailment facetID="LF_31b_f5" label="Expressed"/>
+      <facetEntailment facetID="LF_31b_f6" label="Expressed"/>
+      <facetEntailment facetID="LF_31b_f7" label="Expressed"/>
+      <facetEntailment facetID="LF_31b_f8" label="Expressed"/>
+      <facetEntailment facetID="LF_31b_f9" label="Expressed"/>
+      <facetEntailment facetID="LF_31b_f10" label="Inferred"/>
+      <facetEntailment facetID="LF_31b_f11" label="Inferred"/>
+      <facetEntailment facetID="LF_31b_f12" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f13" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f14" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f15" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f16" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f17" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f18" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="LF.31b.853.1" answerText="Deltas form by rivers flowing and pushing sediment to the side." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="LF_31b_f1" label="Inferred"/>
+      <facetEntailment facetID="LF_31b_f2" label="Inferred"/>
+      <facetEntailment facetID="LF_31b_f3" label="Expressed"/>
+      <facetEntailment facetID="LF_31b_f4" label="Expressed"/>
+      <facetEntailment facetID="LF_31b_f5" label="Expressed"/>
+      <facetEntailment facetID="LF_31b_f6" label="Expressed"/>
+      <facetEntailment facetID="LF_31b_f7" label="Inferred"/>
+      <facetEntailment facetID="LF_31b_f8" label="Expressed"/>
+      <facetEntailment facetID="LF_31b_f9" label="Expressed"/>
+      <facetEntailment facetID="LF_31b_f10" label="Expressed"/>
+      <facetEntailment facetID="LF_31b_f11" label="Expressed"/>
+      <facetEntailment facetID="LF_31b_f12" label="Inferred"/>
+      <facetEntailment facetID="LF_31b_f13" label="Inferred"/>
+      <facetEntailment facetID="LF_31b_f14" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f15" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f16" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f17" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f18" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="LF.31b.922.1" answerText="Deltas form by water running over it." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="LF_31b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f4" label="Expressed"/>
+      <facetEntailment facetID="LF_31b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f8" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f9" label="Expressed"/>
+      <facetEntailment facetID="LF_31b_f10" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f11" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f12" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f13" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f14" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f15" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f16" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f17" label="Unaddressed"/>
+      <facetEntailment facetID="LF_31b_f18" label="Unaddressed"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

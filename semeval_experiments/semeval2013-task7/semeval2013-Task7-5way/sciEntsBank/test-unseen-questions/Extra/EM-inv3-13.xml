@@ -1,0 +1,536 @@
+<?xml version="1.0"?>
+<question testSet="unseen-questions" id="EM_13" module="EM">
+  <questionText>What is the difference between a rock and a mineral?</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="EM_13-a1" text="A rock is made up of many substances which are minerals. A mineral is an earth material that is one substance - a mineral can not be broken down further.">
+      <tokens>
+        <token id="EM_13_ra1">A</token>
+        <token id="EM_13_ra2">rock</token>
+        <token id="EM_13_ra3">is</token>
+        <token id="EM_13_ra4">made</token>
+        <token id="EM_13_ra5">up</token>
+        <token id="EM_13_ra6">of</token>
+        <token id="EM_13_ra7">many</token>
+        <token id="EM_13_ra8">substances</token>
+        <token id="EM_13_ra9">which</token>
+        <token id="EM_13_ra10">are</token>
+        <token id="EM_13_ra11">minerals</token>
+        <token id="EM_13_ra12">.</token>
+        <token id="EM_13_ra13">A</token>
+        <token id="EM_13_ra14">mineral</token>
+        <token id="EM_13_ra15">is</token>
+        <token id="EM_13_ra16">an</token>
+        <token id="EM_13_ra17">earth</token>
+        <token id="EM_13_ra18">material</token>
+        <token id="EM_13_ra19">that</token>
+        <token id="EM_13_ra20">is</token>
+        <token id="EM_13_ra21">one</token>
+        <token id="EM_13_ra22">substance</token>
+        <token id="EM_13_ra23">-</token>
+        <token id="EM_13_ra24">a</token>
+        <token id="EM_13_ra25">mineral</token>
+        <token id="EM_13_ra26">can</token>
+        <token id="EM_13_ra27">not</token>
+        <token id="EM_13_ra28">be</token>
+        <token id="EM_13_ra29">broken</token>
+        <token id="EM_13_ra30">down</token>
+        <token id="EM_13_ra31">further</token>
+        <token id="EM_13_ra32">.</token>
+      </tokens>
+      <facets>
+        <facet id="EM_13_f1" govNum="EM_13_ra4" modNum="EM_13_ra2" reltn="Product" govText="made up" modText="rock"/>
+        <facet id="EM_13_f2" govNum="EM_13_ra4" modNum="EM_13_ra8" reltn="Material_of" govText="made up" modText="substances"/>
+        <facet id="EM_13_f3" govNum="EM_13_ra8" modNum="EM_13_ra7" reltn="Quantifier" govText="substances" modText="many"/>
+        <facet id="EM_13_f4" govNum="EM_13_ra8" modNum="EM_13_ra11" reltn="Be_which" govText="substances" modText="minerals"/>
+        <facet id="EM_13_f5" govNum="EM_13_ra14" modNum="EM_13_ra18" reltn="Be" govText="mineral" modText="material"/>
+        <facet id="EM_13_f6" govNum="EM_13_ra18" modNum="EM_13_ra17" reltn="NMod" govText="material" modText="earth"/>
+        <facet id="EM_13_f7" govNum="EM_13_ra18" modNum="EM_13_ra22" reltn="Be_that" govText="material" modText="substance"/>
+        <facet id="EM_13_f8" govNum="EM_13_ra22" modNum="EM_13_ra21" reltn="Quantifier" govText="substance" modText="one"/>
+        <facet id="EM_13_f9" govNum="EM_13_ra29" modNum="EM_13_ra25" reltn="Patient_neg_not" govText="broken down" modText="mineral"/>
+        <facet id="EM_13_f10" govNum="EM_13_ra29" modNum="EM_13_ra31" reltn="Extent" govText="broken down" modText="further"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="EM.13.387.1" answerText="Minerals make up rocks and rocks are bigger than minerals." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EM_13_f1" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f2" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f3" label="Unaddressed"/>
+      <facetEntailment facetID="EM_13_f4" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f5" label="Unaddressed"/>
+      <facetEntailment facetID="EM_13_f6" label="Unaddressed"/>
+      <facetEntailment facetID="EM_13_f7" label="Unaddressed"/>
+      <facetEntailment facetID="EM_13_f8" label="Unaddressed"/>
+      <facetEntailment facetID="EM_13_f9" label="Unaddressed"/>
+      <facetEntailment facetID="EM_13_f10" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.13.397.1" answerText="The difference between a rock and minerals are that a mineral is made of rock." accuracy="contradictory">
+      <facetEntailment facetID="EM_13_f1" label="Unaddressed"/>
+      <facetEntailment facetID="EM_13_f2" label="Unaddressed"/>
+      <facetEntailment facetID="EM_13_f3" label="Unaddressed"/>
+      <facetEntailment facetID="EM_13_f4" label="Contra-Infr"/>
+      <facetEntailment facetID="EM_13_f5" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f6" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f7" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f8" label="Contra-Expr"/>
+      <facetEntailment facetID="EM_13_f9" label="Contra-Infr"/>
+      <facetEntailment facetID="EM_13_f10" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="EM.13.401.1" answerText="A rock is made up of minerals but minerals cannot be made up of minerals." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EM_13_f1" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f2" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f3" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f4" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f5" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f6" label="Unaddressed"/>
+      <facetEntailment facetID="EM_13_f7" label="Unaddressed"/>
+      <facetEntailment facetID="EM_13_f8" label="Unaddressed"/>
+      <facetEntailment facetID="EM_13_f9" label="Unaddressed"/>
+      <facetEntailment facetID="EM_13_f10" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.13.408.1" answerText="Rocks are bigger than a mineral and a mineral makes a rock." accuracy="irrelevant">
+      <facetEntailment facetID="EM_13_f1" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f2" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f3" label="Unaddressed"/>
+      <facetEntailment facetID="EM_13_f4" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f5" label="Unaddressed"/>
+      <facetEntailment facetID="EM_13_f6" label="Unaddressed"/>
+      <facetEntailment facetID="EM_13_f7" label="Unaddressed"/>
+      <facetEntailment facetID="EM_13_f8" label="Unaddressed"/>
+      <facetEntailment facetID="EM_13_f9" label="Unaddressed"/>
+      <facetEntailment facetID="EM_13_f10" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.13.426.1" answerText="A rock has many minerals and a mineral is a mineral." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EM_13_f1" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f2" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f3" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f4" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f5" label="Diff-Arg"/>
+      <facetEntailment facetID="EM_13_f6" label="Unaddressed"/>
+      <facetEntailment facetID="EM_13_f7" label="Unaddressed"/>
+      <facetEntailment facetID="EM_13_f8" label="Unaddressed"/>
+      <facetEntailment facetID="EM_13_f9" label="Unaddressed"/>
+      <facetEntailment facetID="EM_13_f10" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.13.429.1" answerText="A rock is made up of minerals and a mineral is just one substance." accuracy="correct">
+      <facetEntailment facetID="EM_13_f1" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f2" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f3" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f4" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f5" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f6" label="Unaddressed"/>
+      <facetEntailment facetID="EM_13_f7" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f8" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f9" label="Inferred"/>
+      <facetEntailment facetID="EM_13_f10" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="EM.13.431.1" answerText="A rock is made up of many minerals and a mineral is made of one substance." accuracy="correct">
+      <facetEntailment facetID="EM_13_f1" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f2" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f3" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f4" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f5" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f6" label="Unaddressed"/>
+      <facetEntailment facetID="EM_13_f7" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f8" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f9" label="Inferred"/>
+      <facetEntailment facetID="EM_13_f10" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="EM.13.432.1" answerText="The difference from a rock and a mineral is that a mineral is made out of one material and a rock is made out of 2 or more." accuracy="correct">
+      <facetEntailment facetID="EM_13_f1" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f2" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f3" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f4" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f5" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f6" label="Unaddressed"/>
+      <facetEntailment facetID="EM_13_f7" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f8" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f9" label="Inferred"/>
+      <facetEntailment facetID="EM_13_f10" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="EM.13.435.1" answerText="A rock does not bubble or fizz. If you put it in vinegar a mineral does or does not bubble and fizz." accuracy="irrelevant">
+      <facetEntailment facetID="EM_13_f1" label="Unaddressed"/>
+      <facetEntailment facetID="EM_13_f2" label="Unaddressed"/>
+      <facetEntailment facetID="EM_13_f3" label="Unaddressed"/>
+      <facetEntailment facetID="EM_13_f4" label="Unaddressed"/>
+      <facetEntailment facetID="EM_13_f5" label="Unaddressed"/>
+      <facetEntailment facetID="EM_13_f6" label="Unaddressed"/>
+      <facetEntailment facetID="EM_13_f7" label="Unaddressed"/>
+      <facetEntailment facetID="EM_13_f8" label="Unaddressed"/>
+      <facetEntailment facetID="EM_13_f9" label="Unaddressed"/>
+      <facetEntailment facetID="EM_13_f10" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.13.441.1" answerText="That a rock is made of different minerals and a mineral is made of one." accuracy="correct">
+      <facetEntailment facetID="EM_13_f1" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f2" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f3" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f4" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f5" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f6" label="Unaddressed"/>
+      <facetEntailment facetID="EM_13_f7" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f8" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f9" label="Inferred"/>
+      <facetEntailment facetID="EM_13_f10" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="EM.13.452.1" answerText="A rock can be broken up and you can find minerals, a mineral can be broken up but all you will find is more of that mineral." accuracy="correct">
+      <facetEntailment facetID="EM_13_f1" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f2" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f3" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f4" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f5" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f6" label="Unaddressed"/>
+      <facetEntailment facetID="EM_13_f7" label="Inferred"/>
+      <facetEntailment facetID="EM_13_f8" label="Inferred"/>
+      <facetEntailment facetID="EM_13_f9" label="Inferred"/>
+      <facetEntailment facetID="EM_13_f10" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="EM.13.467.1" answerText="A mineral is harder than a rock." accuracy="irrelevant">
+      <facetEntailment facetID="EM_13_f1" label="Unaddressed"/>
+      <facetEntailment facetID="EM_13_f2" label="Unaddressed"/>
+      <facetEntailment facetID="EM_13_f3" label="Unaddressed"/>
+      <facetEntailment facetID="EM_13_f4" label="Unaddressed"/>
+      <facetEntailment facetID="EM_13_f5" label="Unaddressed"/>
+      <facetEntailment facetID="EM_13_f6" label="Unaddressed"/>
+      <facetEntailment facetID="EM_13_f7" label="Unaddressed"/>
+      <facetEntailment facetID="EM_13_f8" label="Unaddressed"/>
+      <facetEntailment facetID="EM_13_f9" label="Unaddressed"/>
+      <facetEntailment facetID="EM_13_f10" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.13.472.1" answerText="A rock is like a chocolate cookie a mineral is like the chocolate chips." accuracy="irrelevant">
+      <facetEntailment facetID="EM_13_f1" label="Inferred"/>
+      <facetEntailment facetID="EM_13_f2" label="Inferred"/>
+      <facetEntailment facetID="EM_13_f3" label="Inferred"/>
+      <facetEntailment facetID="EM_13_f4" label="Inferred"/>
+      <facetEntailment facetID="EM_13_f5" label="Inferred"/>
+      <facetEntailment facetID="EM_13_f6" label="Unaddressed"/>
+      <facetEntailment facetID="EM_13_f7" label="Inferred"/>
+      <facetEntailment facetID="EM_13_f8" label="Inferred"/>
+      <facetEntailment facetID="EM_13_f9" label="Unaddressed"/>
+      <facetEntailment facetID="EM_13_f10" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.13.488.1" answerText="A rock is made out of lots of stuff and a mineral is made out of things." accuracy="irrelevant">
+      <facetEntailment facetID="EM_13_f1" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f2" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f3" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f4" label="Unaddressed"/>
+      <facetEntailment facetID="EM_13_f5" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f6" label="Unaddressed"/>
+      <facetEntailment facetID="EM_13_f7" label="Unaddressed"/>
+      <facetEntailment facetID="EM_13_f8" label="Contra-Expr"/>
+      <facetEntailment facetID="EM_13_f9" label="Contra-Infr"/>
+      <facetEntailment facetID="EM_13_f10" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="EM.13.489.1" answerText="A rock is made out of lots of things. A mineral is only made out of one thing." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EM_13_f1" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f2" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f3" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f4" label="Unaddressed"/>
+      <facetEntailment facetID="EM_13_f5" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f6" label="Unaddressed"/>
+      <facetEntailment facetID="EM_13_f7" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f8" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f9" label="Inferred"/>
+      <facetEntailment facetID="EM_13_f10" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="EM.13.498.1" answerText="Well a mineral has one mineral in it and a rock has all this minerals in it." accuracy="correct">
+      <facetEntailment facetID="EM_13_f1" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f2" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f3" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f4" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f5" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f6" label="Unaddressed"/>
+      <facetEntailment facetID="EM_13_f7" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f8" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f9" label="Inferred"/>
+      <facetEntailment facetID="EM_13_f10" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="EM.13.499.1" answerText="If you break a rock it is made out of different stuff and a mineral is made out of one thing." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EM_13_f1" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f2" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f3" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f4" label="Unaddressed"/>
+      <facetEntailment facetID="EM_13_f5" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f6" label="Unaddressed"/>
+      <facetEntailment facetID="EM_13_f7" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f8" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f9" label="Inferred"/>
+      <facetEntailment facetID="EM_13_f10" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="EM.13.501.1" answerText="A rock has one thing and a mineral has a lot of stuff in it." accuracy="contradictory">
+      <facetEntailment facetID="EM_13_f1" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f2" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f3" label="Contra-Expr"/>
+      <facetEntailment facetID="EM_13_f4" label="Unaddressed"/>
+      <facetEntailment facetID="EM_13_f5" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f6" label="Unaddressed"/>
+      <facetEntailment facetID="EM_13_f7" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f8" label="Contra-Expr"/>
+      <facetEntailment facetID="EM_13_f9" label="Contra-Infr"/>
+      <facetEntailment facetID="EM_13_f10" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="EM.13.502.1" answerText="A rock has minerals in it. A mineral has one thing in it. A rock has more than one mineral." accuracy="correct">
+      <facetEntailment facetID="EM_13_f1" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f2" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f3" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f4" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f5" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f6" label="Unaddressed"/>
+      <facetEntailment facetID="EM_13_f7" label="Inferred"/>
+      <facetEntailment facetID="EM_13_f8" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f9" label="Inferred"/>
+      <facetEntailment facetID="EM_13_f10" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="EM.13.508.1" answerText="Minerals are in rocks. The rocks are minerals put together." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EM_13_f1" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f2" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f3" label="Unaddressed"/>
+      <facetEntailment facetID="EM_13_f4" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f5" label="Unaddressed"/>
+      <facetEntailment facetID="EM_13_f6" label="Unaddressed"/>
+      <facetEntailment facetID="EM_13_f7" label="Unaddressed"/>
+      <facetEntailment facetID="EM_13_f8" label="Unaddressed"/>
+      <facetEntailment facetID="EM_13_f9" label="Unaddressed"/>
+      <facetEntailment facetID="EM_13_f10" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.13.521.1" answerText="Material made up of different ingredients called mineral. And rocks can be squished up and mineral can they are squish up all very squished up." accuracy="contradictory">
+      <facetEntailment facetID="EM_13_f1" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f2" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f3" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f4" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f5" label="Unaddressed"/>
+      <facetEntailment facetID="EM_13_f6" label="Unaddressed"/>
+      <facetEntailment facetID="EM_13_f7" label="Unaddressed"/>
+      <facetEntailment facetID="EM_13_f8" label="Unaddressed"/>
+      <facetEntailment facetID="EM_13_f9" label="Unaddressed"/>
+      <facetEntailment facetID="EM_13_f10" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.13.522.1" answerText="Not all rocks are hard and some can be scratched. Some minerals are hard and some can be crushed." accuracy="irrelevant">
+      <facetEntailment facetID="EM_13_f1" label="Unaddressed"/>
+      <facetEntailment facetID="EM_13_f2" label="Unaddressed"/>
+      <facetEntailment facetID="EM_13_f3" label="Unaddressed"/>
+      <facetEntailment facetID="EM_13_f4" label="Unaddressed"/>
+      <facetEntailment facetID="EM_13_f5" label="Diff-Arg"/>
+      <facetEntailment facetID="EM_13_f6" label="Unaddressed"/>
+      <facetEntailment facetID="EM_13_f7" label="Unaddressed"/>
+      <facetEntailment facetID="EM_13_f8" label="Unaddressed"/>
+      <facetEntailment facetID="EM_13_f9" label="Diff-Arg"/>
+      <facetEntailment facetID="EM_13_f10" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.13.528.1" answerText="A mineral is an ingredient of rocks that cannot be broken down any further. A rock is an earth material made up of different ingredients called minerals." accuracy="correct">
+      <facetEntailment facetID="EM_13_f1" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f2" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f3" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f4" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f5" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f6" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f7" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f8" label="Inferred"/>
+      <facetEntailment facetID="EM_13_f9" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f10" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.13.533.1" answerText="A rock is hard a mineral is in a rock because a rock is made from minerals." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EM_13_f1" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f2" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f3" label="Unaddressed"/>
+      <facetEntailment facetID="EM_13_f4" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f5" label="Unaddressed"/>
+      <facetEntailment facetID="EM_13_f6" label="Unaddressed"/>
+      <facetEntailment facetID="EM_13_f7" label="Unaddressed"/>
+      <facetEntailment facetID="EM_13_f8" label="Unaddressed"/>
+      <facetEntailment facetID="EM_13_f9" label="Unaddressed"/>
+      <facetEntailment facetID="EM_13_f10" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.13.536.1" answerText="A rock is something from the ground and it has its own property. A mineral has its own properties also. But it is different from a rock because minerals have their own name." accuracy="irrelevant">
+      <facetEntailment facetID="EM_13_f1" label="Unaddressed"/>
+      <facetEntailment facetID="EM_13_f2" label="Unaddressed"/>
+      <facetEntailment facetID="EM_13_f3" label="Unaddressed"/>
+      <facetEntailment facetID="EM_13_f4" label="Unaddressed"/>
+      <facetEntailment facetID="EM_13_f5" label="Unaddressed"/>
+      <facetEntailment facetID="EM_13_f6" label="Unaddressed"/>
+      <facetEntailment facetID="EM_13_f7" label="Unaddressed"/>
+      <facetEntailment facetID="EM_13_f8" label="Unaddressed"/>
+      <facetEntailment facetID="EM_13_f9" label="Unaddressed"/>
+      <facetEntailment facetID="EM_13_f10" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.13.537.1" answerText="Mineral is something in a rock a rock is a hard cement kind of." accuracy="irrelevant">
+      <facetEntailment facetID="EM_13_f1" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f2" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f3" label="Unaddressed"/>
+      <facetEntailment facetID="EM_13_f4" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f5" label="Diff-Arg"/>
+      <facetEntailment facetID="EM_13_f6" label="Unaddressed"/>
+      <facetEntailment facetID="EM_13_f7" label="Unaddressed"/>
+      <facetEntailment facetID="EM_13_f8" label="Unaddressed"/>
+      <facetEntailment facetID="EM_13_f9" label="Unaddressed"/>
+      <facetEntailment facetID="EM_13_f10" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.13.559.1" answerText="Because a rock has one mineral and a mineral has more than one." accuracy="contradictory">
+      <facetEntailment facetID="EM_13_f1" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f2" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f3" label="Contra-Expr"/>
+      <facetEntailment facetID="EM_13_f4" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f5" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f6" label="Unaddressed"/>
+      <facetEntailment facetID="EM_13_f7" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f8" label="Contra-Expr"/>
+      <facetEntailment facetID="EM_13_f9" label="Contra-Infr"/>
+      <facetEntailment facetID="EM_13_f10" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="EM.13.564.1" answerText="A rock is made with different materials and a mineral is made with elements." accuracy="contradictory">
+      <facetEntailment facetID="EM_13_f1" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f2" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f3" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f4" label="Unaddressed"/>
+      <facetEntailment facetID="EM_13_f5" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f6" label="Unaddressed"/>
+      <facetEntailment facetID="EM_13_f7" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f8" label="Contra-Infr"/>
+      <facetEntailment facetID="EM_13_f9" label="Contra-Infr"/>
+      <facetEntailment facetID="EM_13_f10" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="EM.13.569.1" answerText="A rock is bigger and a mineral is smaller." accuracy="irrelevant">
+      <facetEntailment facetID="EM_13_f1" label="Unaddressed"/>
+      <facetEntailment facetID="EM_13_f2" label="Unaddressed"/>
+      <facetEntailment facetID="EM_13_f3" label="Unaddressed"/>
+      <facetEntailment facetID="EM_13_f4" label="Unaddressed"/>
+      <facetEntailment facetID="EM_13_f5" label="Diff-Arg"/>
+      <facetEntailment facetID="EM_13_f6" label="Unaddressed"/>
+      <facetEntailment facetID="EM_13_f7" label="Unaddressed"/>
+      <facetEntailment facetID="EM_13_f8" label="Unaddressed"/>
+      <facetEntailment facetID="EM_13_f9" label="Unaddressed"/>
+      <facetEntailment facetID="EM_13_f10" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.13.598.1" answerText="The rocks have many size. The mineral have space, size and color." accuracy="irrelevant">
+      <facetEntailment facetID="EM_13_f1" label="Unaddressed"/>
+      <facetEntailment facetID="EM_13_f2" label="Unaddressed"/>
+      <facetEntailment facetID="EM_13_f3" label="Unaddressed"/>
+      <facetEntailment facetID="EM_13_f4" label="Unaddressed"/>
+      <facetEntailment facetID="EM_13_f5" label="Unaddressed"/>
+      <facetEntailment facetID="EM_13_f6" label="Unaddressed"/>
+      <facetEntailment facetID="EM_13_f7" label="Unaddressed"/>
+      <facetEntailment facetID="EM_13_f8" label="Unaddressed"/>
+      <facetEntailment facetID="EM_13_f9" label="Unaddressed"/>
+      <facetEntailment facetID="EM_13_f10" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.13.602.1" answerText="A rock is made out of more than one mineral. And a mineral is made out of one thing." accuracy="correct">
+      <facetEntailment facetID="EM_13_f1" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f2" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f3" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f4" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f5" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f6" label="Unaddressed"/>
+      <facetEntailment facetID="EM_13_f7" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f8" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f9" label="Inferred"/>
+      <facetEntailment facetID="EM_13_f10" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="EM.13.604.1" answerText="A rock has more than one mineral and a mineral has one mineral." accuracy="correct">
+      <facetEntailment facetID="EM_13_f1" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f2" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f3" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f4" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f5" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f6" label="Unaddressed"/>
+      <facetEntailment facetID="EM_13_f7" label="Inferred"/>
+      <facetEntailment facetID="EM_13_f8" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f9" label="Inferred"/>
+      <facetEntailment facetID="EM_13_f10" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="EM.13.605.1" answerText="A rock has more than one substances. A mineral only has one substance." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EM_13_f1" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f2" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f3" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f4" label="Unaddressed"/>
+      <facetEntailment facetID="EM_13_f5" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f6" label="Unaddressed"/>
+      <facetEntailment facetID="EM_13_f7" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f8" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f9" label="Inferred"/>
+      <facetEntailment facetID="EM_13_f10" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="EM.13.606.1" answerText="A rock has more than one thing and a mineral does not." accuracy="irrelevant">
+      <facetEntailment facetID="EM_13_f1" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f2" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f3" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f4" label="Unaddressed"/>
+      <facetEntailment facetID="EM_13_f5" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f6" label="Unaddressed"/>
+      <facetEntailment facetID="EM_13_f7" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f8" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f9" label="Inferred"/>
+      <facetEntailment facetID="EM_13_f10" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="EM.13.613.1" answerText="A mineral one thing rock more than one." accuracy="irrelevant">
+      <facetEntailment facetID="EM_13_f1" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f2" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f3" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f4" label="Unaddressed"/>
+      <facetEntailment facetID="EM_13_f5" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f6" label="Unaddressed"/>
+      <facetEntailment facetID="EM_13_f7" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f8" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f9" label="Inferred"/>
+      <facetEntailment facetID="EM_13_f10" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="EM.13.626.1" answerText="Rocks are made of more than 2 mineral are made of only one ingredient." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EM_13_f1" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f2" label="Inferred"/>
+      <facetEntailment facetID="EM_13_f3" label="Inferred"/>
+      <facetEntailment facetID="EM_13_f4" label="Unaddressed"/>
+      <facetEntailment facetID="EM_13_f5" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f6" label="Unaddressed"/>
+      <facetEntailment facetID="EM_13_f7" label="Inferred"/>
+      <facetEntailment facetID="EM_13_f8" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f9" label="Inferred"/>
+      <facetEntailment facetID="EM_13_f10" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="EM.13.629.1" answerText="A mineral is only made of one ingredient." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EM_13_f1" label="Unaddressed"/>
+      <facetEntailment facetID="EM_13_f2" label="Unaddressed"/>
+      <facetEntailment facetID="EM_13_f3" label="Unaddressed"/>
+      <facetEntailment facetID="EM_13_f4" label="Unaddressed"/>
+      <facetEntailment facetID="EM_13_f5" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f6" label="Unaddressed"/>
+      <facetEntailment facetID="EM_13_f7" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f8" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f9" label="Inferred"/>
+      <facetEntailment facetID="EM_13_f10" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="EM.13.632.1" answerText="A mineral is made of only one substance but a rock is made of many minerals." accuracy="correct">
+      <facetEntailment facetID="EM_13_f1" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f2" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f3" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f4" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f5" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f6" label="Unaddressed"/>
+      <facetEntailment facetID="EM_13_f7" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f8" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f9" label="Inferred"/>
+      <facetEntailment facetID="EM_13_f10" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="EM.13.645.1" answerText="Rocks are made out of mineral and mineral is made out of crystals." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EM_13_f1" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f2" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f3" label="Unaddressed"/>
+      <facetEntailment facetID="EM_13_f4" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f5" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f6" label="Unaddressed"/>
+      <facetEntailment facetID="EM_13_f7" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f8" label="Diff-Arg"/>
+      <facetEntailment facetID="EM_13_f9" label="Unaddressed"/>
+      <facetEntailment facetID="EM_13_f10" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.13.647.1" answerText="Rocks are made of minerals are made of only one ingredient." accuracy="correct">
+      <facetEntailment facetID="EM_13_f1" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f2" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f3" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f4" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f5" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f6" label="Unaddressed"/>
+      <facetEntailment facetID="EM_13_f7" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f8" label="Expressed"/>
+      <facetEntailment facetID="EM_13_f9" label="Inferred"/>
+      <facetEntailment facetID="EM_13_f10" label="Inferred"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

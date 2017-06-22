@@ -1,0 +1,619 @@
+<?xml version="1.0"?>
+<question testSet="unseen-questions" id="SE_27b" module="SE">
+  <questionText>If a student was holding a thermometer by the bulb (the round part at the bottom of the thermometer) when reading the temperature, would the temperature read the same? Why or why not?</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="SE_27b-a1" text="No. The temperature would be higher because the student's finger would make the temperature warmer. [Heat would transfer from the student's finger to the thermometer bulb.]">
+      <tokens>
+        <token id="SE_27b_ra1">No</token>
+        <token id="SE_27b_ra2">.</token>
+        <token id="SE_27b_ra3">The</token>
+        <token id="SE_27b_ra4">temperature</token>
+        <token id="SE_27b_ra5">would</token>
+        <token id="SE_27b_ra6">be</token>
+        <token id="SE_27b_ra7">higher</token>
+        <token id="SE_27b_ra8">because</token>
+        <token id="SE_27b_ra9">the</token>
+        <token id="SE_27b_ra10">student</token>
+        <token id="SE_27b_ra11">'s</token>
+        <token id="SE_27b_ra12">finger</token>
+        <token id="SE_27b_ra13">would</token>
+        <token id="SE_27b_ra14">make</token>
+        <token id="SE_27b_ra15">the</token>
+        <token id="SE_27b_ra16">temperature</token>
+        <token id="SE_27b_ra17">warmer</token>
+        <token id="SE_27b_ra18">.</token>
+        <token id="SE_27b_ra19">[</token>
+        <token id="SE_27b_ra20">Heat</token>
+        <token id="SE_27b_ra21">would</token>
+        <token id="SE_27b_ra22">transfer</token>
+        <token id="SE_27b_ra23">from</token>
+        <token id="SE_27b_ra24">the</token>
+        <token id="SE_27b_ra25">student</token>
+        <token id="SE_27b_ra26">'s</token>
+        <token id="SE_27b_ra27">finger</token>
+        <token id="SE_27b_ra28">to</token>
+        <token id="SE_27b_ra29">the</token>
+        <token id="SE_27b_ra30">thermometer</token>
+        <token id="SE_27b_ra31">bulb</token>
+        <token id="SE_27b_ra32">.</token>
+        <token id="SE_27b_ra33">]</token>
+      </tokens>
+      <facets>
+        <facet id="SE_27b_f1" govNum="SE_27b_ra0" modNum="SE_27b_ra1" reltn="Root" govText="root" modText="No"/>
+        <facet id="SE_27b_f2" govNum="SE_27b_ra4" modNum="SE_27b_ra7" reltn="Be" govText="temperature" modText="higher"/>
+        <facet id="SE_27b_f3" govNum="SE_27b_ra12" modNum="SE_27b_ra10" reltn="NMod_pos" govText="finger" modText="student"/>
+        <facet id="SE_27b_f4" govNum="SE_27b_ra14" modNum="SE_27b_ra12" reltn="Means" govText="make" modText="finger"/>
+        <facet id="SE_27b_f5" govNum="SE_27b_ra14" modNum="SE_27b_ra16" reltn="Theme" govText="make" modText="temperature"/>
+        <facet id="SE_27b_f6" govNum="SE_27b_ra14" modNum="SE_27b_ra17" reltn="Predicate" govText="make" modText="warmer"/>
+        <facet id="SE_27b_f7" govNum="SE_27b_ra6" modNum="SE_27b_ra14" reltn="Cause_because" childProp2Facet2="SE_27b_f6" childProp1Facet1="SE_27b_f2" govText="be" modText="make" childProp2Facet1="SE_27b_f4"/>
+        <facet id="SE_27b_f8" govNum="SE_27b_ra22" modNum="SE_27b_ra20" reltn="Theme" govText="transfer" modText="Heat"/>
+        <facet id="SE_27b_f9" govNum="SE_27b_ra22" modNum="SE_27b_ra27" reltn="Source_from" govText="transfer" modText="finger"/>
+        <facet id="SE_27b_f10" govNum="SE_27b_ra27" modNum="SE_27b_ra25" reltn="NMod_pos" govText="finger" modText="student"/>
+        <facet id="SE_27b_f11" govNum="SE_27b_ra22" modNum="SE_27b_ra31" reltn="Destination_to" govText="transfer" modText="bulb"/>
+        <facet id="SE_27b_f12" govNum="SE_27b_ra31" modNum="SE_27b_ra30" reltn="NMod" govText="bulb" isAssumed="true" modText="thermometer"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="SE.27b.103.1" answerText="No, It is 2 different things." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="SE_27b_f1" label="Expressed"/>
+      <facetEntailment facetID="SE_27b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="SE_27b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="SE_27b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="SE_27b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="SE_27b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="SE_27b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="SE_27b_f8" label="Unaddressed"/>
+      <facetEntailment facetID="SE_27b_f9" label="Unaddressed"/>
+      <facetEntailment facetID="SE_27b_f10" label="Unaddressed"/>
+      <facetEntailment facetID="SE_27b_f11" label="Unaddressed"/>
+      <facetEntailment facetID="SE_27b_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.27b.105.1" answerText="No, Because it would be little warm. It would be hotter if he would not be grabbing the bulb." accuracy="contradictory">
+      <facetEntailment facetID="SE_27b_f1" label="Expressed"/>
+      <facetEntailment facetID="SE_27b_f2" label="Self-Contra"/>
+      <facetEntailment facetID="SE_27b_f3" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f4" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f5" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f6" label="Self-Contra"/>
+      <facetEntailment facetID="SE_27b_f7" label="Expressed"/>
+      <facetEntailment facetID="SE_27b_f8" label="Unaddressed"/>
+      <facetEntailment facetID="SE_27b_f9" label="Unaddressed"/>
+      <facetEntailment facetID="SE_27b_f10" label="Unaddressed"/>
+      <facetEntailment facetID="SE_27b_f11" label="Unaddressed"/>
+      <facetEntailment facetID="SE_27b_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.27b.109.1" answerText="No, because he is changing the temperature by putting his hand at the round part." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="SE_27b_f1" label="Expressed"/>
+      <facetEntailment facetID="SE_27b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="SE_27b_f3" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f4" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f5" label="Expressed"/>
+      <facetEntailment facetID="SE_27b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="SE_27b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="SE_27b_f8" label="Unaddressed"/>
+      <facetEntailment facetID="SE_27b_f9" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f10" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f11" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.27b.116.1" answerText="No, Because he will take some of the heat of the ball and if he does the temperature could go down 3 degrees." accuracy="contradictory">
+      <facetEntailment facetID="SE_27b_f1" label="Expressed"/>
+      <facetEntailment facetID="SE_27b_f2" label="Contra-Expr"/>
+      <facetEntailment facetID="SE_27b_f3" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f4" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f5" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f6" label="Expressed"/>
+      <facetEntailment facetID="SE_27b_f7" label="Expressed"/>
+      <facetEntailment facetID="SE_27b_f8" label="Expressed"/>
+      <facetEntailment facetID="SE_27b_f9" label="Contra-Infr"/>
+      <facetEntailment facetID="SE_27b_f10" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f11" label="Contra-Infr"/>
+      <facetEntailment facetID="SE_27b_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.27b.117.1" answerText="No. Why, because the student who handled it might have been a different temperature which changes the temperature." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="SE_27b_f1" label="Expressed"/>
+      <facetEntailment facetID="SE_27b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="SE_27b_f3" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f4" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f5" label="Expressed"/>
+      <facetEntailment facetID="SE_27b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="SE_27b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="SE_27b_f8" label="Unaddressed"/>
+      <facetEntailment facetID="SE_27b_f9" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f10" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f11" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.27b.120.1" answerText="No, it would not read the same temperature because the heat on your hand heats the thermometer." accuracy="correct">
+      <facetEntailment facetID="SE_27b_f1" label="Expressed"/>
+      <facetEntailment facetID="SE_27b_f2" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f3" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f4" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f5" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f6" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f7" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f8" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f9" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f10" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f11" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.27b.130.1" answerText="No, because the molecules might be moving too fast and then you fell sink." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="SE_27b_f1" label="Expressed"/>
+      <facetEntailment facetID="SE_27b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="SE_27b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="SE_27b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="SE_27b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="SE_27b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="SE_27b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="SE_27b_f8" label="Unaddressed"/>
+      <facetEntailment facetID="SE_27b_f9" label="Unaddressed"/>
+      <facetEntailment facetID="SE_27b_f10" label="Unaddressed"/>
+      <facetEntailment facetID="SE_27b_f11" label="Unaddressed"/>
+      <facetEntailment facetID="SE_27b_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.27b.131.1" answerText="No, No because the bulb will be hot and the degrees will go up. If it is on 20 Celsius it will go up to 30 Celsius." accuracy="correct">
+      <facetEntailment facetID="SE_27b_f1" label="Expressed"/>
+      <facetEntailment facetID="SE_27b_f2" label="Expressed"/>
+      <facetEntailment facetID="SE_27b_f3" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f4" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f5" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f6" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f7" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f8" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f9" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f10" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f11" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.27b.133.1" answerText="No, No because it will rise like 4 or 5 degrees." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="SE_27b_f1" label="Expressed"/>
+      <facetEntailment facetID="SE_27b_f2" label="Expressed"/>
+      <facetEntailment facetID="SE_27b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="SE_27b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="SE_27b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="SE_27b_f6" label="Expressed"/>
+      <facetEntailment facetID="SE_27b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="SE_27b_f8" label="Unaddressed"/>
+      <facetEntailment facetID="SE_27b_f9" label="Unaddressed"/>
+      <facetEntailment facetID="SE_27b_f10" label="Unaddressed"/>
+      <facetEntailment facetID="SE_27b_f11" label="Unaddressed"/>
+      <facetEntailment facetID="SE_27b_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.27b.136.1" answerText="No, No because he keeps on touching the thermometer and will never be the same." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="SE_27b_f1" label="Expressed"/>
+      <facetEntailment facetID="SE_27b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="SE_27b_f3" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f4" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f5" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="SE_27b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="SE_27b_f8" label="Unaddressed"/>
+      <facetEntailment facetID="SE_27b_f9" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f10" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f11" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.27b.139.1" answerText="No, The temperature will change when you hold the thermometer by the bulb because your hand and body is warm so the temperature will go high." accuracy="correct">
+      <facetEntailment facetID="SE_27b_f1" label="Expressed"/>
+      <facetEntailment facetID="SE_27b_f2" label="Expressed"/>
+      <facetEntailment facetID="SE_27b_f3" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f4" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f5" label="Expressed"/>
+      <facetEntailment facetID="SE_27b_f6" label="Expressed"/>
+      <facetEntailment facetID="SE_27b_f7" label="Expressed"/>
+      <facetEntailment facetID="SE_27b_f8" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f9" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f10" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f11" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.27b.147.1" answerText="No, No because he keeps his thumb on the bulb of the bottom of the thermometer." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="SE_27b_f1" label="Expressed"/>
+      <facetEntailment facetID="SE_27b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="SE_27b_f3" label="Expressed"/>
+      <facetEntailment facetID="SE_27b_f4" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f5" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="SE_27b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="SE_27b_f8" label="Unaddressed"/>
+      <facetEntailment facetID="SE_27b_f9" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f10" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f11" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.27b.157.1" answerText="No, Because the boy's temperature is hot and the red liquid will go up." accuracy="correct">
+      <facetEntailment facetID="SE_27b_f1" label="Expressed"/>
+      <facetEntailment facetID="SE_27b_f2" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f3" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f4" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f5" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f6" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f7" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f8" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f9" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f10" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f11" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.27b.159.1" answerText="No, It will change if hold it because you are heating the thermometer by the bulb." accuracy="correct">
+      <facetEntailment facetID="SE_27b_f1" label="Expressed"/>
+      <facetEntailment facetID="SE_27b_f2" label="Expressed"/>
+      <facetEntailment facetID="SE_27b_f3" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f4" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f5" label="Expressed"/>
+      <facetEntailment facetID="SE_27b_f6" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f7" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f8" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f9" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f10" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f11" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f12" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.27b.184.1" answerText="Yes, I think yes because if you put your thumb there the heat from your body makes yourself heat in your own body." accuracy="contradictory">
+      <facetEntailment facetID="SE_27b_f1" label="Contra-Expr"/>
+      <facetEntailment facetID="SE_27b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="SE_27b_f3" label="Expressed"/>
+      <facetEntailment facetID="SE_27b_f4" label="Contra-Expr"/>
+      <facetEntailment facetID="SE_27b_f5" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f6" label="Contra-Infr"/>
+      <facetEntailment facetID="SE_27b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="SE_27b_f8" label="Contra-Infr"/>
+      <facetEntailment facetID="SE_27b_f9" label="Unaddressed"/>
+      <facetEntailment facetID="SE_27b_f10" label="Unaddressed"/>
+      <facetEntailment facetID="SE_27b_f11" label="Unaddressed"/>
+      <facetEntailment facetID="SE_27b_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.27b.191.1" answerText="No, It will not because they will be measuring finger temperature." accuracy="correct">
+      <facetEntailment facetID="SE_27b_f1" label="Expressed"/>
+      <facetEntailment facetID="SE_27b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="SE_27b_f3" label="Expressed"/>
+      <facetEntailment facetID="SE_27b_f4" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f5" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="SE_27b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="SE_27b_f8" label="Unaddressed"/>
+      <facetEntailment facetID="SE_27b_f9" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f10" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f11" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.27b.242.1" answerText="No, If you hold the bulb it would get hotter because some of the heat in your body will gain the thermometer." accuracy="correct">
+      <facetEntailment facetID="SE_27b_f1" label="Expressed"/>
+      <facetEntailment facetID="SE_27b_f2" label="Expressed"/>
+      <facetEntailment facetID="SE_27b_f3" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f4" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f5" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f6" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f7" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f8" label="Expressed"/>
+      <facetEntailment facetID="SE_27b_f9" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f10" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f11" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.27b.243.1" answerText="No, Because of that student's body heat." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="SE_27b_f1" label="Expressed"/>
+      <facetEntailment facetID="SE_27b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="SE_27b_f3" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f4" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f5" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="SE_27b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="SE_27b_f8" label="Unaddressed"/>
+      <facetEntailment facetID="SE_27b_f9" label="Unaddressed"/>
+      <facetEntailment facetID="SE_27b_f10" label="Unaddressed"/>
+      <facetEntailment facetID="SE_27b_f11" label="Unaddressed"/>
+      <facetEntailment facetID="SE_27b_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.27b.253.1" answerText="No, No because your fingers are hot. And it makes the water stuff inside go to different temperature." accuracy="correct">
+      <facetEntailment facetID="SE_27b_f1" label="Expressed"/>
+      <facetEntailment facetID="SE_27b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="SE_27b_f3" label="Expressed"/>
+      <facetEntailment facetID="SE_27b_f4" label="Expressed"/>
+      <facetEntailment facetID="SE_27b_f5" label="Expressed"/>
+      <facetEntailment facetID="SE_27b_f6" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f7" label="Expressed"/>
+      <facetEntailment facetID="SE_27b_f8" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f9" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f10" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f11" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.27b.254.1" answerText="No, If you hold the bottom of the thermometer the temperature will go up it give it more heat." accuracy="correct">
+      <facetEntailment facetID="SE_27b_f1" label="Expressed"/>
+      <facetEntailment facetID="SE_27b_f2" label="Expressed"/>
+      <facetEntailment facetID="SE_27b_f3" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f4" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f5" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f6" label="Expressed"/>
+      <facetEntailment facetID="SE_27b_f7" label="Expressed"/>
+      <facetEntailment facetID="SE_27b_f8" label="Expressed"/>
+      <facetEntailment facetID="SE_27b_f9" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f10" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f11" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.27b.265.1" answerText="Yes, Well the alcohol needs the sun or shade to change the bulb of the thermometer, but if something or someone is blocking it, the alcohol will not go neither up nor down." accuracy="contradictory">
+      <facetEntailment facetID="SE_27b_f1" label="Contra-Expr"/>
+      <facetEntailment facetID="SE_27b_f2" label="Contra-Expr"/>
+      <facetEntailment facetID="SE_27b_f3" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f4" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f5" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f6" label="Contra-Expr"/>
+      <facetEntailment facetID="SE_27b_f7" label="Expressed"/>
+      <facetEntailment facetID="SE_27b_f8" label="Contra-Infr"/>
+      <facetEntailment facetID="SE_27b_f9" label="Unaddressed"/>
+      <facetEntailment facetID="SE_27b_f10" label="Unaddressed"/>
+      <facetEntailment facetID="SE_27b_f11" label="Unaddressed"/>
+      <facetEntailment facetID="SE_27b_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.27b.265b.1" answerText="No, I say no because when your body temperature is not the same as air temperature which makes it go up." accuracy="correct">
+      <facetEntailment facetID="SE_27b_f1" label="Expressed"/>
+      <facetEntailment facetID="SE_27b_f2" label="Expressed"/>
+      <facetEntailment facetID="SE_27b_f3" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f4" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f5" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f6" label="Expressed"/>
+      <facetEntailment facetID="SE_27b_f7" label="Expressed"/>
+      <facetEntailment facetID="SE_27b_f8" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f9" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f10" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f11" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.27b.313.1" answerText="No, It will not be the same because it would absorb the heat and increase the number." accuracy="correct">
+      <facetEntailment facetID="SE_27b_f1" label="Expressed"/>
+      <facetEntailment facetID="SE_27b_f2" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f3" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f4" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f5" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f6" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f7" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f8" label="Expressed"/>
+      <facetEntailment facetID="SE_27b_f9" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f10" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f11" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.27b.316.1" answerText="No, Because if a student had the thermometer by the bulb the thermometer would measure the temperature of his or her body not the object." accuracy="correct">
+      <facetEntailment facetID="SE_27b_f1" label="Expressed"/>
+      <facetEntailment facetID="SE_27b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="SE_27b_f3" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f4" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f5" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="SE_27b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="SE_27b_f8" label="Unaddressed"/>
+      <facetEntailment facetID="SE_27b_f9" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f10" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f11" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f12" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.27b.317.1" answerText="No, Because it is somewhere different so it is going to get a different reading. The temperature is one." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="SE_27b_f1" label="Expressed"/>
+      <facetEntailment facetID="SE_27b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="SE_27b_f3" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f4" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f5" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="SE_27b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="SE_27b_f8" label="Unaddressed"/>
+      <facetEntailment facetID="SE_27b_f9" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f10" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f11" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.27b.323.1" answerText="No, Because it would read how cold or hot is the bulb and that is what it would read." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="SE_27b_f1" label="Expressed"/>
+      <facetEntailment facetID="SE_27b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="SE_27b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="SE_27b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="SE_27b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="SE_27b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="SE_27b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="SE_27b_f8" label="Unaddressed"/>
+      <facetEntailment facetID="SE_27b_f9" label="Unaddressed"/>
+      <facetEntailment facetID="SE_27b_f10" label="Unaddressed"/>
+      <facetEntailment facetID="SE_27b_f11" label="Unaddressed"/>
+      <facetEntailment facetID="SE_27b_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.27b.331.1" answerText="No, because the student is measuring something else that might not have the same temperature as the student's hand, so the thermometer will read the temperature of the student's hand." accuracy="correct">
+      <facetEntailment facetID="SE_27b_f1" label="Expressed"/>
+      <facetEntailment facetID="SE_27b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="SE_27b_f3" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f4" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f5" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="SE_27b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="SE_27b_f8" label="Unaddressed"/>
+      <facetEntailment facetID="SE_27b_f9" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f10" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f11" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.27b.333.1" answerText="Yes, Because if you put your hand on the round part the air is not going to feel thermometer." accuracy="contradictory">
+      <facetEntailment facetID="SE_27b_f1" label="Contra-Expr"/>
+      <facetEntailment facetID="SE_27b_f2" label="Contra-Infr"/>
+      <facetEntailment facetID="SE_27b_f3" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f4" label="Contra-Infr"/>
+      <facetEntailment facetID="SE_27b_f5" label="Contra-Infr"/>
+      <facetEntailment facetID="SE_27b_f6" label="Contra-Infr"/>
+      <facetEntailment facetID="SE_27b_f7" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f8" label="Contra-Infr"/>
+      <facetEntailment facetID="SE_27b_f9" label="Unaddressed"/>
+      <facetEntailment facetID="SE_27b_f10" label="Unaddressed"/>
+      <facetEntailment facetID="SE_27b_f11" label="Unaddressed"/>
+      <facetEntailment facetID="SE_27b_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.27b.335.1" answerText="No, Because he will be tall so then that is why." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="SE_27b_f1" label="Expressed"/>
+      <facetEntailment facetID="SE_27b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="SE_27b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="SE_27b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="SE_27b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="SE_27b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="SE_27b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="SE_27b_f8" label="Unaddressed"/>
+      <facetEntailment facetID="SE_27b_f9" label="Unaddressed"/>
+      <facetEntailment facetID="SE_27b_f10" label="Unaddressed"/>
+      <facetEntailment facetID="SE_27b_f11" label="Unaddressed"/>
+      <facetEntailment facetID="SE_27b_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.27b.391.1" answerText="No, Because the bulb is the part that will see how hot something is so if you put your hand or finger on the bulb it would read your body temperature so it would rise." accuracy="correct">
+      <facetEntailment facetID="SE_27b_f1" label="Expressed"/>
+      <facetEntailment facetID="SE_27b_f2" label="Expressed"/>
+      <facetEntailment facetID="SE_27b_f3" label="Expressed"/>
+      <facetEntailment facetID="SE_27b_f4" label="Expressed"/>
+      <facetEntailment facetID="SE_27b_f5" label="Expressed"/>
+      <facetEntailment facetID="SE_27b_f6" label="Expressed"/>
+      <facetEntailment facetID="SE_27b_f7" label="Expressed"/>
+      <facetEntailment facetID="SE_27b_f8" label="Expressed"/>
+      <facetEntailment facetID="SE_27b_f9" label="Expressed"/>
+      <facetEntailment facetID="SE_27b_f10" label="Expressed"/>
+      <facetEntailment facetID="SE_27b_f11" label="Expressed"/>
+      <facetEntailment facetID="SE_27b_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.27b.396.1" answerText="No, No because your body has a temperature of 98.6 degrees F." accuracy="correct">
+      <facetEntailment facetID="SE_27b_f1" label="Expressed"/>
+      <facetEntailment facetID="SE_27b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="SE_27b_f3" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f4" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f5" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="SE_27b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="SE_27b_f8" label="Unaddressed"/>
+      <facetEntailment facetID="SE_27b_f9" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f10" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f11" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.27b.406.1" answerText="No, It would not read the same your body temperature is hotter than 5 Celsius." accuracy="correct">
+      <facetEntailment facetID="SE_27b_f1" label="Expressed"/>
+      <facetEntailment facetID="SE_27b_f2" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f3" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f4" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f5" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f6" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f7" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f8" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f9" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f10" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f11" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.27b.408.1" answerText="No, It could not be the same because maybe what you are measuring is hotter or colder than your thumb so it would not come out accurate." accuracy="correct">
+      <facetEntailment facetID="SE_27b_f1" label="Expressed"/>
+      <facetEntailment facetID="SE_27b_f2" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f3" label="Expressed"/>
+      <facetEntailment facetID="SE_27b_f4" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f5" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f6" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f7" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f8" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f9" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f10" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f11" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.27b.416.1" answerText="No, if someone held a thermometer by the bulb then the thermometer would sense your hands and the degrees would rise." accuracy="correct">
+      <facetEntailment facetID="SE_27b_f1" label="Expressed"/>
+      <facetEntailment facetID="SE_27b_f2" label="Expressed"/>
+      <facetEntailment facetID="SE_27b_f3" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f4" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f5" label="Expressed"/>
+      <facetEntailment facetID="SE_27b_f6" label="Expressed"/>
+      <facetEntailment facetID="SE_27b_f7" label="Expressed"/>
+      <facetEntailment facetID="SE_27b_f8" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f9" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f10" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f11" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.27b.514.1" answerText="No, it would not be the same because it would be taking in the body temperature." accuracy="correct">
+      <facetEntailment facetID="SE_27b_f1" label="Expressed"/>
+      <facetEntailment facetID="SE_27b_f2" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f3" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f4" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f5" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f6" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f7" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f8" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f9" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f10" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f11" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.27b.538.1" answerText="No, It would be warmer because the warmth and pressure of your fingers would give warmth to the bulb." accuracy="correct">
+      <facetEntailment facetID="SE_27b_f1" label="Expressed"/>
+      <facetEntailment facetID="SE_27b_f2" label="Expressed"/>
+      <facetEntailment facetID="SE_27b_f3" label="Expressed"/>
+      <facetEntailment facetID="SE_27b_f4" label="Expressed"/>
+      <facetEntailment facetID="SE_27b_f5" label="Expressed"/>
+      <facetEntailment facetID="SE_27b_f6" label="Expressed"/>
+      <facetEntailment facetID="SE_27b_f7" label="Expressed"/>
+      <facetEntailment facetID="SE_27b_f8" label="Expressed"/>
+      <facetEntailment facetID="SE_27b_f9" label="Expressed"/>
+      <facetEntailment facetID="SE_27b_f10" label="Expressed"/>
+      <facetEntailment facetID="SE_27b_f11" label="Expressed"/>
+      <facetEntailment facetID="SE_27b_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.27b.567.1" answerText="No, no because when you are hold the thermometer by it is bulb the bulb will not read the temperature." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="SE_27b_f1" label="Expressed"/>
+      <facetEntailment facetID="SE_27b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="SE_27b_f3" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f4" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f5" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f6" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f7" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f8" label="Unaddressed"/>
+      <facetEntailment facetID="SE_27b_f9" label="Unaddressed"/>
+      <facetEntailment facetID="SE_27b_f10" label="Unaddressed"/>
+      <facetEntailment facetID="SE_27b_f11" label="Unaddressed"/>
+      <facetEntailment facetID="SE_27b_f12" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.27b.597.1" answerText="No, I say no because the thermometer would not be measuring the temperature of the object. It would be measuring the temperature of the student's fingers." accuracy="correct">
+      <facetEntailment facetID="SE_27b_f1" label="Expressed"/>
+      <facetEntailment facetID="SE_27b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="SE_27b_f3" label="Expressed"/>
+      <facetEntailment facetID="SE_27b_f4" label="Expressed"/>
+      <facetEntailment facetID="SE_27b_f5" label="Expressed"/>
+      <facetEntailment facetID="SE_27b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="SE_27b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="SE_27b_f8" label="Unaddressed"/>
+      <facetEntailment facetID="SE_27b_f9" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f10" label="Expressed"/>
+      <facetEntailment facetID="SE_27b_f11" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.27b.600.1" answerText="No, I think no because if you put your finger to the bulb your fingers heat will go to the bulb and it will measure your heat from your finger." accuracy="correct">
+      <facetEntailment facetID="SE_27b_f1" label="Expressed"/>
+      <facetEntailment facetID="SE_27b_f2" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f3" label="Expressed"/>
+      <facetEntailment facetID="SE_27b_f4" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f5" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f6" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f7" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f8" label="Expressed"/>
+      <facetEntailment facetID="SE_27b_f9" label="Expressed"/>
+      <facetEntailment facetID="SE_27b_f10" label="Expressed"/>
+      <facetEntailment facetID="SE_27b_f11" label="Expressed"/>
+      <facetEntailment facetID="SE_27b_f12" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.27b.605.1" answerText="No, No because the temperature would be changed." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="SE_27b_f1" label="Expressed"/>
+      <facetEntailment facetID="SE_27b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="SE_27b_f3" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f4" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f5" label="Inferred"/>
+      <facetEntailment facetID="SE_27b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="SE_27b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="SE_27b_f8" label="Unaddressed"/>
+      <facetEntailment facetID="SE_27b_f9" label="Unaddressed"/>
+      <facetEntailment facetID="SE_27b_f10" label="Unaddressed"/>
+      <facetEntailment facetID="SE_27b_f11" label="Unaddressed"/>
+      <facetEntailment facetID="SE_27b_f12" label="Assumed"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

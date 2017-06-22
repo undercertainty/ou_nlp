@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<question testSet="unseen-answers" id="ME_17a" module="ME">
+  <questionText>Denise made a circuit to light a bulb or run a motor. She used a special switch. Below is the schematic diagram of her circuit. The switch is inside the dotted box. What will happen when she moves the switch to the left?</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="ME_17a-a1" text="The bulb will light.">
+      <tokens>
+        <token id="ME_17a_ra1">The</token>
+        <token id="ME_17a_ra2">bulb</token>
+        <token id="ME_17a_ra3">will</token>
+        <token id="ME_17a_ra4">light</token>
+        <token id="ME_17a_ra5">.</token>
+      </tokens>
+      <facets>
+        <facet id="ME_17a_f1" govNum="ME_17a_ra4" modNum="ME_17a_ra2" reltn="Patient" govText="light" modText="bulb"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="ME.17a.155.1" answerText="The light bulb will turn on." accuracy="correct">
+      <facetEntailment facetID="ME_17a_f1" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.17a.311.1" answerText="The light bulb will light up." accuracy="correct">
+      <facetEntailment facetID="ME_17a_f1" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.17a.323.1" answerText="When she moves the switch to the left the bulb will light." accuracy="correct">
+      <facetEntailment facetID="ME_17a_f1" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.17a.324.1" answerText="It might lose power." accuracy="contradictory">
+      <facetEntailment facetID="ME_17a_f1" label="Contra-Infr"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

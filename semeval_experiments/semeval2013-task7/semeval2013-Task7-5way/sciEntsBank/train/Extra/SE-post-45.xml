@@ -1,0 +1,484 @@
+<?xml version="1.0"?>
+<question id="SE_45" module="SE">
+  <questionText>Betty was puzzled. In the morning the shadow of the bus sign is in the street. In the afternoon the shadow of the bus sign points the opposite direction. Explain to Betty why this happens.</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="SE_45-a1" text="In the morning the Sun is in the east so shadows point west. In the afternoon the Sun is in the west so shadows point east.">
+      <tokens>
+        <token id="SE_45_ra1">In</token>
+        <token id="SE_45_ra2">the</token>
+        <token id="SE_45_ra3">morning</token>
+        <token id="SE_45_ra4">the</token>
+        <token id="SE_45_ra5">Sun</token>
+        <token id="SE_45_ra6">is</token>
+        <token id="SE_45_ra7">in</token>
+        <token id="SE_45_ra8">the</token>
+        <token id="SE_45_ra9">east</token>
+        <token id="SE_45_ra10">so</token>
+        <token id="SE_45_ra11">shadows</token>
+        <token id="SE_45_ra12">point</token>
+        <token id="SE_45_ra13">west</token>
+        <token id="SE_45_ra14">.</token>
+        <token id="SE_45_ra15">In</token>
+        <token id="SE_45_ra16">the</token>
+        <token id="SE_45_ra17">afternoon</token>
+        <token id="SE_45_ra18">the</token>
+        <token id="SE_45_ra19">Sun</token>
+        <token id="SE_45_ra20">is</token>
+        <token id="SE_45_ra21">in</token>
+        <token id="SE_45_ra22">the</token>
+        <token id="SE_45_ra23">west</token>
+        <token id="SE_45_ra24">so</token>
+        <token id="SE_45_ra25">shadows</token>
+        <token id="SE_45_ra26">point</token>
+        <token id="SE_45_ra27">east</token>
+        <token id="SE_45_ra28">.</token>
+      </tokens>
+      <facets>
+        <facet id="SE_45_f1" govNum="SE_45_ra5" modNum="SE_45_ra9" reltn="Location_in" govText="Sun" modText="east"/>
+        <facet id="SE_45_f2" govNum="SE_45_ra6" modNum="SE_45_ra3" reltn="Time_in" govText="is" isAssumed="true" modText="morning"/>
+        <facet id="SE_45_f3" govNum="SE_45_ra12" modNum="SE_45_ra11" reltn="Theme" govText="point" isAssumed="true" modText="shadows"/>
+        <facet id="SE_45_f4" govNum="SE_45_ra12" modNum="SE_45_ra13" reltn="Direction" govText="point" modText="west"/>
+        <facet id="SE_45_f5" govNum="SE_45_ra12" modNum="SE_45_ra6" reltn="Cause_so" childProp2Facet2="SE_45_f2" childProp1Facet1="SE_45_f3" govText="point" isAssumed="true" childProp1Facet2="SE_45_f4" modText="is" childProp2Facet1="SE_45_f1"/>
+        <facet id="SE_45_f6" govNum="SE_45_ra19" modNum="SE_45_ra23" reltn="Location_in" govText="Sun" modText="west"/>
+        <facet id="SE_45_f7" govNum="SE_45_ra20" modNum="SE_45_ra17" reltn="Time_in" govText="is" isAssumed="true" modText="afternoon"/>
+        <facet id="SE_45_f8" govNum="SE_45_ra26" modNum="SE_45_ra25" reltn="Theme" govText="point" isAssumed="true" modText="shadows"/>
+        <facet id="SE_45_f9" govNum="SE_45_ra26" modNum="SE_45_ra27" reltn="Direction" govText="point" modText="east"/>
+        <facet id="SE_45_f10" govNum="SE_45_ra26" modNum="SE_45_ra20" reltn="Cause_so" childProp2Facet2="SE_45_f7" childProp1Facet1="SE_45_f8" govText="point" isAssumed="true" childProp1Facet2="SE_45_f9" modText="is" childProp2Facet1="SE_45_f6"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="SE.45.114.1" answerText="I think that Betty was a best shadow that was facing the opposite direction." accuracy="irrelevant">
+      <facetEntailment facetID="SE_45_f1" label="Unaddressed"/>
+      <facetEntailment facetID="SE_45_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f3" label="Expressed"/>
+      <facetEntailment facetID="SE_45_f4" label="Unaddressed"/>
+      <facetEntailment facetID="SE_45_f5" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f6" label="Unaddressed"/>
+      <facetEntailment facetID="SE_45_f7" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f8" label="Expressed"/>
+      <facetEntailment facetID="SE_45_f9" label="Unaddressed"/>
+      <facetEntailment facetID="SE_45_f10" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.45.123.1" answerText="The reason why this happened is because the sun revolves around the earth." accuracy="irrelevant">
+      <facetEntailment facetID="SE_45_f1" label="Unaddressed"/>
+      <facetEntailment facetID="SE_45_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f3" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f4" label="Unaddressed"/>
+      <facetEntailment facetID="SE_45_f5" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f6" label="Unaddressed"/>
+      <facetEntailment facetID="SE_45_f7" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f8" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f9" label="Unaddressed"/>
+      <facetEntailment facetID="SE_45_f10" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.45.136.1" answerText="The shadow turns the opposite way in the afternoon, in the morning it is on the side of you." accuracy="irrelevant">
+      <facetEntailment facetID="SE_45_f1" label="Unaddressed"/>
+      <facetEntailment facetID="SE_45_f2" label="Expressed"/>
+      <facetEntailment facetID="SE_45_f3" label="Expressed"/>
+      <facetEntailment facetID="SE_45_f4" label="Unaddressed"/>
+      <facetEntailment facetID="SE_45_f5" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f6" label="Unaddressed"/>
+      <facetEntailment facetID="SE_45_f7" label="Expressed"/>
+      <facetEntailment facetID="SE_45_f8" label="Expressed"/>
+      <facetEntailment facetID="SE_45_f9" label="Unaddressed"/>
+      <facetEntailment facetID="SE_45_f10" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.45.139.1" answerText="In the morning the sun faced east so the bus sign's shadow was in the west. When it was the afternoon, the sun faced west. So the shadow went the opposite of where it used to be in the morning." accuracy="correct">
+      <facetEntailment facetID="SE_45_f1" label="Expressed"/>
+      <facetEntailment facetID="SE_45_f2" label="Expressed"/>
+      <facetEntailment facetID="SE_45_f3" label="Expressed"/>
+      <facetEntailment facetID="SE_45_f4" label="Expressed"/>
+      <facetEntailment facetID="SE_45_f5" label="Expressed"/>
+      <facetEntailment facetID="SE_45_f6" label="Expressed"/>
+      <facetEntailment facetID="SE_45_f7" label="Expressed"/>
+      <facetEntailment facetID="SE_45_f8" label="Expressed"/>
+      <facetEntailment facetID="SE_45_f9" label="Expressed"/>
+      <facetEntailment facetID="SE_45_f10" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.45.140.1" answerText="Since the earth spins, the sun twirls around us. In the morning it was hitting the bus sign in the back. Then later the shadow seems to have moved. It is because of the position of the sun." accuracy="irrelevant">
+      <facetEntailment facetID="SE_45_f1" label="Unaddressed"/>
+      <facetEntailment facetID="SE_45_f2" label="Expressed"/>
+      <facetEntailment facetID="SE_45_f3" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f4" label="Unaddressed"/>
+      <facetEntailment facetID="SE_45_f5" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f6" label="Unaddressed"/>
+      <facetEntailment facetID="SE_45_f7" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f8" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f9" label="Unaddressed"/>
+      <facetEntailment facetID="SE_45_f10" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.45.146.1" answerText="Because the earth run into the sun and made the bus shadow go around." accuracy="irrelevant">
+      <facetEntailment facetID="SE_45_f1" label="Unaddressed"/>
+      <facetEntailment facetID="SE_45_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f3" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f4" label="Unaddressed"/>
+      <facetEntailment facetID="SE_45_f5" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f6" label="Unaddressed"/>
+      <facetEntailment facetID="SE_45_f7" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f8" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f9" label="Unaddressed"/>
+      <facetEntailment facetID="SE_45_f10" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.45.150.1" answerText="If the sun is in the east the shadow is on the west. If the shadow is on the south then the shadow is on the north." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="SE_45_f1" label="Expressed"/>
+      <facetEntailment facetID="SE_45_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f3" label="Expressed"/>
+      <facetEntailment facetID="SE_45_f4" label="Expressed"/>
+      <facetEntailment facetID="SE_45_f5" label="Expressed"/>
+      <facetEntailment facetID="SE_45_f6" label="Diff-Arg"/>
+      <facetEntailment facetID="SE_45_f7" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f8" label="Expressed"/>
+      <facetEntailment facetID="SE_45_f9" label="Diff-Arg"/>
+      <facetEntailment facetID="SE_45_f10" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.45.165.1" answerText="The sun is in different places at different times." accuracy="irrelevant">
+      <facetEntailment facetID="SE_45_f1" label="Unaddressed"/>
+      <facetEntailment facetID="SE_45_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f3" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f4" label="Unaddressed"/>
+      <facetEntailment facetID="SE_45_f5" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f6" label="Unaddressed"/>
+      <facetEntailment facetID="SE_45_f7" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f8" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f9" label="Unaddressed"/>
+      <facetEntailment facetID="SE_45_f10" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.45.182.1" answerText="This happens because in the morning the sun rises north that is why the bus points in the street. The bus points the opposite direction, because the sun sets west." accuracy="contradictory">
+      <facetEntailment facetID="SE_45_f1" label="Contra-Expr"/>
+      <facetEntailment facetID="SE_45_f2" label="Expressed"/>
+      <facetEntailment facetID="SE_45_f3" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f4" label="Diff-Arg"/>
+      <facetEntailment facetID="SE_45_f5" label="Expressed"/>
+      <facetEntailment facetID="SE_45_f6" label="Expressed"/>
+      <facetEntailment facetID="SE_45_f7" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f8" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f9" label="Inferred"/>
+      <facetEntailment facetID="SE_45_f10" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.45.250.1" answerText="Because the time changes so the shadow is at the opposite." accuracy="irrelevant">
+      <facetEntailment facetID="SE_45_f1" label="Unaddressed"/>
+      <facetEntailment facetID="SE_45_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f3" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f4" label="Unaddressed"/>
+      <facetEntailment facetID="SE_45_f5" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f6" label="Unaddressed"/>
+      <facetEntailment facetID="SE_45_f7" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f8" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f9" label="Unaddressed"/>
+      <facetEntailment facetID="SE_45_f10" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.45.261.1" answerText="This happen because the sun moved over the sky." accuracy="irrelevant">
+      <facetEntailment facetID="SE_45_f1" label="Unaddressed"/>
+      <facetEntailment facetID="SE_45_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f3" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f4" label="Unaddressed"/>
+      <facetEntailment facetID="SE_45_f5" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f6" label="Unaddressed"/>
+      <facetEntailment facetID="SE_45_f7" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f8" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f9" label="Unaddressed"/>
+      <facetEntailment facetID="SE_45_f10" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.45.313.1" answerText="In the morning the sun rises from the east, and the bus blocked the light and made a shadow on the opposite direction." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="SE_45_f1" label="Expressed"/>
+      <facetEntailment facetID="SE_45_f2" label="Expressed"/>
+      <facetEntailment facetID="SE_45_f3" label="Expressed"/>
+      <facetEntailment facetID="SE_45_f4" label="Expressed"/>
+      <facetEntailment facetID="SE_45_f5" label="Expressed"/>
+      <facetEntailment facetID="SE_45_f6" label="Unaddressed"/>
+      <facetEntailment facetID="SE_45_f7" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f8" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f9" label="Unaddressed"/>
+      <facetEntailment facetID="SE_45_f10" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.45.338.1" answerText="Because the sun orbits the earth and it goes from east to west and it gets shorter." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="SE_45_f1" label="Inferred"/>
+      <facetEntailment facetID="SE_45_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f3" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f4" label="Unaddressed"/>
+      <facetEntailment facetID="SE_45_f5" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f6" label="Inferred"/>
+      <facetEntailment facetID="SE_45_f7" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f8" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f9" label="Unaddressed"/>
+      <facetEntailment facetID="SE_45_f10" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.45.383.1" answerText="The sun rises in the east so the shadow was on the west and the sun sets in the west so the shadow was on the east." accuracy="correct">
+      <facetEntailment facetID="SE_45_f1" label="Expressed"/>
+      <facetEntailment facetID="SE_45_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f3" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f4" label="Expressed"/>
+      <facetEntailment facetID="SE_45_f5" label="Expressed"/>
+      <facetEntailment facetID="SE_45_f6" label="Expressed"/>
+      <facetEntailment facetID="SE_45_f7" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f8" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f9" label="Expressed"/>
+      <facetEntailment facetID="SE_45_f10" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.45.386.1" answerText="Because over time the sun goes to the west moving the shadow." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="SE_45_f1" label="Inferred"/>
+      <facetEntailment facetID="SE_45_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f3" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f4" label="Unaddressed"/>
+      <facetEntailment facetID="SE_45_f5" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f6" label="Expressed"/>
+      <facetEntailment facetID="SE_45_f7" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f8" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f9" label="Unaddressed"/>
+      <facetEntailment facetID="SE_45_f10" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.45.387.1" answerText="Because the sun moves. So the shadow will change where it is." accuracy="irrelevant">
+      <facetEntailment facetID="SE_45_f1" label="Unaddressed"/>
+      <facetEntailment facetID="SE_45_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f3" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f4" label="Unaddressed"/>
+      <facetEntailment facetID="SE_45_f5" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f6" label="Unaddressed"/>
+      <facetEntailment facetID="SE_45_f7" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f8" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f9" label="Unaddressed"/>
+      <facetEntailment facetID="SE_45_f10" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.45.394.1" answerText="Because the sun moves around. So it will shine the opposite direction." accuracy="irrelevant">
+      <facetEntailment facetID="SE_45_f1" label="Unaddressed"/>
+      <facetEntailment facetID="SE_45_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f3" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f4" label="Unaddressed"/>
+      <facetEntailment facetID="SE_45_f5" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f6" label="Unaddressed"/>
+      <facetEntailment facetID="SE_45_f7" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f8" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f9" label="Unaddressed"/>
+      <facetEntailment facetID="SE_45_f10" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.45.401.1" answerText="Because the sun sets in the opposite direction. So what happens is the shadow will be on the opposite side." accuracy="irrelevant">
+      <facetEntailment facetID="SE_45_f1" label="Unaddressed"/>
+      <facetEntailment facetID="SE_45_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f3" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f4" label="Unaddressed"/>
+      <facetEntailment facetID="SE_45_f5" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f6" label="Unaddressed"/>
+      <facetEntailment facetID="SE_45_f7" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f8" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f9" label="Unaddressed"/>
+      <facetEntailment facetID="SE_45_f10" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.45.434.1" answerText="The earth rotates making the sun in different spots causing the shadows to move in different spots." accuracy="irrelevant">
+      <facetEntailment facetID="SE_45_f1" label="Unaddressed"/>
+      <facetEntailment facetID="SE_45_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f3" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f4" label="Unaddressed"/>
+      <facetEntailment facetID="SE_45_f5" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f6" label="Unaddressed"/>
+      <facetEntailment facetID="SE_45_f7" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f8" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f9" label="Unaddressed"/>
+      <facetEntailment facetID="SE_45_f10" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.45.441.1" answerText="As the earth rotates the part facing the sun is turning to make the sun in a different place which causes the to rotate." accuracy="irrelevant">
+      <facetEntailment facetID="SE_45_f1" label="Unaddressed"/>
+      <facetEntailment facetID="SE_45_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f3" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f4" label="Unaddressed"/>
+      <facetEntailment facetID="SE_45_f5" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f6" label="Unaddressed"/>
+      <facetEntailment facetID="SE_45_f7" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f8" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f9" label="Unaddressed"/>
+      <facetEntailment facetID="SE_45_f10" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.45.443.1" answerText="The bus stop's shadow was facing the opposite direction because in the morning the sun rises from the east and the shadow was facing west. The sun sets in the west and so the shadow is facing east." accuracy="correct">
+      <facetEntailment facetID="SE_45_f1" label="Expressed"/>
+      <facetEntailment facetID="SE_45_f2" label="Expressed"/>
+      <facetEntailment facetID="SE_45_f3" label="Expressed"/>
+      <facetEntailment facetID="SE_45_f4" label="Expressed"/>
+      <facetEntailment facetID="SE_45_f5" label="Expressed"/>
+      <facetEntailment facetID="SE_45_f6" label="Expressed"/>
+      <facetEntailment facetID="SE_45_f7" label="Expressed"/>
+      <facetEntailment facetID="SE_45_f8" label="Expressed"/>
+      <facetEntailment facetID="SE_45_f9" label="Expressed"/>
+      <facetEntailment facetID="SE_45_f10" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.45.490.1" answerText="Because only one side of an object can get sunlight." accuracy="irrelevant">
+      <facetEntailment facetID="SE_45_f1" label="Unaddressed"/>
+      <facetEntailment facetID="SE_45_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f3" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f4" label="Unaddressed"/>
+      <facetEntailment facetID="SE_45_f5" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f6" label="Unaddressed"/>
+      <facetEntailment facetID="SE_45_f7" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f8" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f9" label="Unaddressed"/>
+      <facetEntailment facetID="SE_45_f10" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.45.499.1" answerText="The earth orbits around the sun so the shadow will change." accuracy="irrelevant">
+      <facetEntailment facetID="SE_45_f1" label="Unaddressed"/>
+      <facetEntailment facetID="SE_45_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f3" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f4" label="Unaddressed"/>
+      <facetEntailment facetID="SE_45_f5" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f6" label="Unaddressed"/>
+      <facetEntailment facetID="SE_45_f7" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f8" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f9" label="Unaddressed"/>
+      <facetEntailment facetID="SE_45_f10" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.45.515.1" answerText="This happens because the sun rises in the east and sets in the west, therefore the sun's light is hitting the stop sign at different positions." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="SE_45_f1" label="Expressed"/>
+      <facetEntailment facetID="SE_45_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f3" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f4" label="Unaddressed"/>
+      <facetEntailment facetID="SE_45_f5" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f6" label="Expressed"/>
+      <facetEntailment facetID="SE_45_f7" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f8" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f9" label="Unaddressed"/>
+      <facetEntailment facetID="SE_45_f10" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.45.518.1" answerText="Because our earth rotates." accuracy="irrelevant">
+      <facetEntailment facetID="SE_45_f1" label="Unaddressed"/>
+      <facetEntailment facetID="SE_45_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f3" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f4" label="Unaddressed"/>
+      <facetEntailment facetID="SE_45_f5" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f6" label="Unaddressed"/>
+      <facetEntailment facetID="SE_45_f7" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f8" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f9" label="Unaddressed"/>
+      <facetEntailment facetID="SE_45_f10" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.45.539.1" answerText="This happens because of the earth, it rotates around the sun which of course the shadows will move, also the sun rises in the east and sets on the west." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="SE_45_f1" label="Expressed"/>
+      <facetEntailment facetID="SE_45_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f3" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f4" label="Unaddressed"/>
+      <facetEntailment facetID="SE_45_f5" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f6" label="Expressed"/>
+      <facetEntailment facetID="SE_45_f7" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f8" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f9" label="Unaddressed"/>
+      <facetEntailment facetID="SE_45_f10" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.45.556.1" answerText="Because while the earth rotates, we see the sun in different direction. The sun rises at the east and sets in the west." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="SE_45_f1" label="Expressed"/>
+      <facetEntailment facetID="SE_45_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f3" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f4" label="Unaddressed"/>
+      <facetEntailment facetID="SE_45_f5" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f6" label="Expressed"/>
+      <facetEntailment facetID="SE_45_f7" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f8" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f9" label="Unaddressed"/>
+      <facetEntailment facetID="SE_45_f10" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.45.558.1" answerText="Because when the earth rotates, not the sun, the sun moves, but it really stays in one place, making the shadow move." accuracy="irrelevant">
+      <facetEntailment facetID="SE_45_f1" label="Unaddressed"/>
+      <facetEntailment facetID="SE_45_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f3" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f4" label="Unaddressed"/>
+      <facetEntailment facetID="SE_45_f5" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f6" label="Unaddressed"/>
+      <facetEntailment facetID="SE_45_f7" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f8" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f9" label="Unaddressed"/>
+      <facetEntailment facetID="SE_45_f10" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.45.596.1" answerText="This is happening because the sun rises in the east so in the morning the shadow will be in the west. The sun sets in the west so the shadows will be in the east." accuracy="correct">
+      <facetEntailment facetID="SE_45_f1" label="Expressed"/>
+      <facetEntailment facetID="SE_45_f2" label="Expressed"/>
+      <facetEntailment facetID="SE_45_f3" label="Expressed"/>
+      <facetEntailment facetID="SE_45_f4" label="Expressed"/>
+      <facetEntailment facetID="SE_45_f5" label="Expressed"/>
+      <facetEntailment facetID="SE_45_f6" label="Expressed"/>
+      <facetEntailment facetID="SE_45_f7" label="Expressed"/>
+      <facetEntailment facetID="SE_45_f8" label="Expressed"/>
+      <facetEntailment facetID="SE_45_f9" label="Expressed"/>
+      <facetEntailment facetID="SE_45_f10" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.45.599.1" answerText="The shadow of the bus stop changes direction because the sun is moving throughout the day so the sun will meet different at the stop sign. Because it moves the earth plus the stop sign." accuracy="irrelevant">
+      <facetEntailment facetID="SE_45_f1" label="Unaddressed"/>
+      <facetEntailment facetID="SE_45_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f3" label="Expressed"/>
+      <facetEntailment facetID="SE_45_f4" label="Unaddressed"/>
+      <facetEntailment facetID="SE_45_f5" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f6" label="Unaddressed"/>
+      <facetEntailment facetID="SE_45_f7" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f8" label="Expressed"/>
+      <facetEntailment facetID="SE_45_f9" label="Unaddressed"/>
+      <facetEntailment facetID="SE_45_f10" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.45.603.1" answerText="It is the different time of the day." accuracy="irrelevant">
+      <facetEntailment facetID="SE_45_f1" label="Unaddressed"/>
+      <facetEntailment facetID="SE_45_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f3" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f4" label="Unaddressed"/>
+      <facetEntailment facetID="SE_45_f5" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f6" label="Unaddressed"/>
+      <facetEntailment facetID="SE_45_f7" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f8" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f9" label="Unaddressed"/>
+      <facetEntailment facetID="SE_45_f10" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.45.606.1" answerText="Well Betty the earth moves around the sun and that kind of has something to do with it like at different times shadows move to different directions." accuracy="irrelevant">
+      <facetEntailment facetID="SE_45_f1" label="Unaddressed"/>
+      <facetEntailment facetID="SE_45_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f3" label="Expressed"/>
+      <facetEntailment facetID="SE_45_f4" label="Unaddressed"/>
+      <facetEntailment facetID="SE_45_f5" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f6" label="Unaddressed"/>
+      <facetEntailment facetID="SE_45_f7" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f8" label="Expressed"/>
+      <facetEntailment facetID="SE_45_f9" label="Unaddressed"/>
+      <facetEntailment facetID="SE_45_f10" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.45.609.1" answerText="The bus sign faces different directions because the earth move throughout the day the sun does not move." accuracy="irrelevant">
+      <facetEntailment facetID="SE_45_f1" label="Unaddressed"/>
+      <facetEntailment facetID="SE_45_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f3" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f4" label="Unaddressed"/>
+      <facetEntailment facetID="SE_45_f5" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f6" label="Unaddressed"/>
+      <facetEntailment facetID="SE_45_f7" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f8" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f9" label="Unaddressed"/>
+      <facetEntailment facetID="SE_45_f10" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.45.611.1" answerText="It happens because the earth is rotating and it does not stay on the same place every time of day." accuracy="irrelevant">
+      <facetEntailment facetID="SE_45_f1" label="Unaddressed"/>
+      <facetEntailment facetID="SE_45_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f3" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f4" label="Unaddressed"/>
+      <facetEntailment facetID="SE_45_f5" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f6" label="Unaddressed"/>
+      <facetEntailment facetID="SE_45_f7" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f8" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f9" label="Unaddressed"/>
+      <facetEntailment facetID="SE_45_f10" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.45.616.1" answerText="That happened because the earth moves which made the sun face the other way and made the sign face the other direction." accuracy="irrelevant">
+      <facetEntailment facetID="SE_45_f1" label="Unaddressed"/>
+      <facetEntailment facetID="SE_45_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f3" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f4" label="Unaddressed"/>
+      <facetEntailment facetID="SE_45_f5" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f6" label="Unaddressed"/>
+      <facetEntailment facetID="SE_45_f7" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f8" label="Assumed"/>
+      <facetEntailment facetID="SE_45_f9" label="Unaddressed"/>
+      <facetEntailment facetID="SE_45_f10" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.45.620.1" answerText="Because the sun rises in the east and sets on the west. So in the morning the shadows will be facing one direction and on the afternoon it will be facing the other way." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="SE_45_f1" label="Expressed"/>
+      <facetEntailment facetID="SE_45_f2" label="Expressed"/>
+      <facetEntailment facetID="SE_45_f3" label="Expressed"/>
+      <facetEntailment facetID="SE_45_f4" label="Unaddressed"/>
+      <facetEntailment facetID="SE_45_f5" label="Expressed"/>
+      <facetEntailment facetID="SE_45_f6" label="Expressed"/>
+      <facetEntailment facetID="SE_45_f7" label="Expressed"/>
+      <facetEntailment facetID="SE_45_f8" label="Expressed"/>
+      <facetEntailment facetID="SE_45_f9" label="Unaddressed"/>
+      <facetEntailment facetID="SE_45_f10" label="Expressed"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

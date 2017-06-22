@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<question testSet="unseen-answers" qtype="Q_EXPLAIN_SPECIFIC" id="VOLTAGE_GAP_EXPLAIN_WHY6" module="FaultFinding" stype="EVALUATE">
+  <questionText>Explain why you got a voltage reading of 0 for terminal 6 and the positive terminal.</questionText>
+  <referenceAnswers>
+    <referenceAnswer category="BEST" id="answer176" fileID="VOLTAGE_GAP_EXPLAIN_WHY6_ANS1">Terminal 6 and the positive terminal are connected</referenceAnswer>
+    <referenceAnswer category="GOOD" id="answer177" fileID="VOLTAGE_GAP_EXPLAIN_WHY6_ANS2">Terminal 6 and the positive terminal are not separated by the gap</referenceAnswer>
+    <referenceAnswer category="GOOD" id="answer178" fileID="VOLTAGE_GAP_EXPLAIN_WHY6_ANS2A">There is no gap between terminal 6 and the positive terminal</referenceAnswer>
+    <referenceAnswer category="MINIMAL" id="answer179" fileID="VOLTAGE_GAP_EXPLAIN_WHY6_ANS3">terminal 6 is not connected to the negative battery terminal</referenceAnswer>
+    <referenceAnswer category="MINIMAL" id="answer180" fileID="VOLTAGE_GAP_EXPLAIN_WHY6_ANS4">terminal 6 is separated by a gap from the negative battery terminal</referenceAnswer>
+    <referenceAnswer category="MINIMAL" id="answer180.NEW" fileID="NONE">Terminal 6 and the positive battery terminal are in the same electrical state</referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer count="1" raw_text="same answer as for terminal 4" id="FaultFinding-VOLTAGE_GAP_EXPLAIN_WHY6.sbjb4-l1.qa141" accuracy="contradictory">
+      <token status="ok" id="tok2602">same</token>
+      <token status="ok" id="tok2603">answer</token>
+      <token status="ok" id="tok2604">as</token>
+      <token status="ok" id="tok2605">for</token>
+      <token status="ok" id="tok2606">terminal</token>
+      <token status="numerical" id="tok2607">4</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer176" raw_text="Terminal 6 is connected to the postive battery terminal" id="FaultFinding-VOLTAGE_GAP_EXPLAIN_WHY6.sbjb6-l1.qa143" accuracy="correct">
+      <token status="ok" id="tok2642">Terminal</token>
+      <token status="numerical" id="tok2643">6</token>
+      <token status="ok" id="tok2644">is</token>
+      <token status="ok" id="tok2645">connected</token>
+      <token status="ok" id="tok2646">to</token>
+      <token status="ok" id="tok2647">the</token>
+      <token status="ok" id="tok2648" original="postive">positive</token>
+      <token status="ok" id="tok2649">battery</token>
+      <token status="ok" id="tok2650">terminal</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer176" raw_text="Terminal 6 and the positive battery terminal are in the same state." id="FaultFinding-VOLTAGE_GAP_EXPLAIN_WHY6.sbjb34-l1.qa140" accuracy="partially_correct_incomplete">
+      <token status="ok" id="tok2654">Terminal</token>
+      <token status="numerical" id="tok2655">6</token>
+      <token status="ok" id="tok2656">and</token>
+      <token status="ok" id="tok2657">the</token>
+      <token status="ok" id="tok2658">positive</token>
+      <token status="ok" id="tok2659">battery</token>
+      <token status="ok" id="tok2660">terminal</token>
+      <token status="ok" id="tok2661">are</token>
+      <token status="ok" id="tok2662">in</token>
+      <token status="ok" id="tok2663">the</token>
+      <token status="ok" id="tok2664">same</token>
+      <token status="ok" id="tok2665">state</token>
+    </studentAnswer>
+  </studentAnswers>
+</question>

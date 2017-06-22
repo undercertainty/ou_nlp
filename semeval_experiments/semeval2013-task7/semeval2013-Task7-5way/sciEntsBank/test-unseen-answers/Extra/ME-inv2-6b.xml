@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<question testSet="unseen-answers" id="ME_6b" module="ME">
+  <questionText>Look at the diagram of a circuit at the right. Will the motor run? Why?</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="ME_6b-a1" text="The circuit is not complete. The electrical pathway is broken.">
+      <tokens>
+        <token id="ME_6b_ra1">The</token>
+        <token id="ME_6b_ra2">circuit</token>
+        <token id="ME_6b_ra3">is</token>
+        <token id="ME_6b_ra4">not</token>
+        <token id="ME_6b_ra5">complete</token>
+        <token id="ME_6b_ra6">.</token>
+        <token id="ME_6b_ra7">The</token>
+        <token id="ME_6b_ra8">electrical</token>
+        <token id="ME_6b_ra9">pathway</token>
+        <token id="ME_6b_ra10">is</token>
+        <token id="ME_6b_ra11">broken</token>
+        <token id="ME_6b_ra12">.</token>
+      </tokens>
+      <facets>
+        <facet id="ME_6b_f1" govNum="ME_6b_ra5" modNum="ME_6b_ra2" reltn="Theme_neg_not" govText="complete" modText="circuit"/>
+        <facet id="ME_6b_f2" govNum="ME_6b_ra9" modNum="ME_6b_ra8" reltn="NMod" govText="pathway" modText="electrical"/>
+        <facet id="ME_6b_f3" govNum="ME_6b_ra9" modNum="ME_6b_ra11" reltn="Be" govText="pathway" modText="broken"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="ME.6b.107.1" answerText="I choose no because the wires are not connecting." accuracy="correct">
+      <facetEntailment facetID="ME_6b_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_6b_f2" label="Inferred"/>
+      <facetEntailment facetID="ME_6b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.6b.148.1" answerText="It does not make a complete circuit." accuracy="correct">
+      <facetEntailment facetID="ME_6b_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_6b_f2" label="Expressed"/>
+      <facetEntailment facetID="ME_6b_f3" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.6b.176.1" answerText="I chose this answer because they are missing a wire." accuracy="correct">
+      <facetEntailment facetID="ME_6b_f1" label="Inferred"/>
+      <facetEntailment facetID="ME_6b_f2" label="Inferred"/>
+      <facetEntailment facetID="ME_6b_f3" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="ME.6b.195.1" answerText="The circuit is open." accuracy="correct">
+      <facetEntailment facetID="ME_6b_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_6b_f2" label="Expressed"/>
+      <facetEntailment facetID="ME_6b_f3" label="Expressed"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

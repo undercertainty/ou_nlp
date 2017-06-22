@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<question testSet="unseen-answers" id="PS_44" module="PS">
+  <questionText>A harp has strings of different lengths. Describe how the sound of a short string being plucked (pulled and let go quickly) is different from the sound of a long string being plucked.</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="PS_44-a1" text="If the string is shorter, the pitch will be higher. If the string is longer, the pitch will be lower.">
+      <tokens>
+        <token id="PS_44_ra1">If</token>
+        <token id="PS_44_ra2">the</token>
+        <token id="PS_44_ra3">string</token>
+        <token id="PS_44_ra4">is</token>
+        <token id="PS_44_ra5">shorter</token>
+        <token id="PS_44_ra6">,</token>
+        <token id="PS_44_ra7">the</token>
+        <token id="PS_44_ra8">pitch</token>
+        <token id="PS_44_ra9">will</token>
+        <token id="PS_44_ra10">be</token>
+        <token id="PS_44_ra11">higher</token>
+        <token id="PS_44_ra12">.</token>
+        <token id="PS_44_ra13">If</token>
+        <token id="PS_44_ra14">the</token>
+        <token id="PS_44_ra15">string</token>
+        <token id="PS_44_ra16">is</token>
+        <token id="PS_44_ra17">longer</token>
+        <token id="PS_44_ra18">,</token>
+        <token id="PS_44_ra19">the</token>
+        <token id="PS_44_ra20">pitch</token>
+        <token id="PS_44_ra21">will</token>
+        <token id="PS_44_ra22">be</token>
+        <token id="PS_44_ra23">lower</token>
+        <token id="PS_44_ra24">.</token>
+      </tokens>
+      <facets>
+        <facet id="PS_44_f1" govNum="PS_44_ra3" modNum="PS_44_ra5" reltn="Be" govText="string" isAssumed="true" modText="shorter"/>
+        <facet id="PS_44_f2" govNum="PS_44_ra8" modNum="PS_44_ra11" reltn="Be" govText="pitch" modText="higher"/>
+        <facet id="PS_44_f3" govNum="PS_44_ra10" modNum="PS_44_ra4" reltn="Cause_if" childProp1Facet1="PS_44_f2" govText="be" isAssumed="true" modText="is" childProp2Facet1="PS_44_f1"/>
+        <facet id="PS_44_f4" govNum="PS_44_ra15" modNum="PS_44_ra17" reltn="Be" govText="string" modText="longer"/>
+        <facet id="PS_44_f5" govNum="PS_44_ra20" modNum="PS_44_ra23" reltn="Be" govText="pitch" modText="lower"/>
+        <facet id="PS_44_f6" govNum="PS_44_ra22" modNum="PS_44_ra16" reltn="Cause_if" childProp1Facet1="PS_44_f5" govText="be" modText="is" childProp2Facet1="PS_44_f4"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="PS.44.145.1" answerText="The short string has a higher pitch sound." accuracy="correct">
+      <facetEntailment facetID="PS_44_f1" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f2" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f3" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f4" label="Unaddressed"/>
+      <facetEntailment facetID="PS_44_f5" label="Unaddressed"/>
+      <facetEntailment facetID="PS_44_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.44.194.1" answerText="The lower pitch make's the loudest noise." accuracy="irrelevant">
+      <facetEntailment facetID="PS_44_f1" label="Assumed"/>
+      <facetEntailment facetID="PS_44_f2" label="Contra-Expr"/>
+      <facetEntailment facetID="PS_44_f3" label="Assumed"/>
+      <facetEntailment facetID="PS_44_f4" label="Unaddressed"/>
+      <facetEntailment facetID="PS_44_f5" label="Unaddressed"/>
+      <facetEntailment facetID="PS_44_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.44.225.1" answerText="The shorter the string the higher the pitch the Longer the string the lower the pitch." accuracy="correct">
+      <facetEntailment facetID="PS_44_f1" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f2" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f3" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f4" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f5" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f6" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.44.255.1" answerText="The shorter string has a higher pitch than the longer string!" accuracy="correct">
+      <facetEntailment facetID="PS_44_f1" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f2" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f3" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f4" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f5" label="Expressed"/>
+      <facetEntailment facetID="PS_44_f6" label="Expressed"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

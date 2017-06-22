@@ -1,0 +1,282 @@
+<?xml version="1.0"?>
+<question id="MX_24" module="MX">
+  <questionText>How do you know when a solid and a liquid form a solution?</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="MX_24-a1" text="The solid dissolves (seems to disappear) and the liquid remains clear.">
+      <tokens>
+        <token id="MX_24_ra1">The</token>
+        <token id="MX_24_ra2">solid</token>
+        <token id="MX_24_ra3">dissolves</token>
+        <token id="MX_24_ra4">(</token>
+        <token id="MX_24_ra5">seems</token>
+        <token id="MX_24_ra6">to</token>
+        <token id="MX_24_ra7">disappear</token>
+        <token id="MX_24_ra8">)</token>
+        <token id="MX_24_ra9">and</token>
+        <token id="MX_24_ra10">the</token>
+        <token id="MX_24_ra11">liquid</token>
+        <token id="MX_24_ra12">remains</token>
+        <token id="MX_24_ra13">clear</token>
+        <token id="MX_24_ra14">.</token>
+      </tokens>
+      <facets>
+        <facet id="MX_24_f1" govNum="MX_24_ra3" modNum="MX_24_ra2" reltn="Patient" govText="dissolves" modText="solid"/>
+        <facet id="MX_24_f2" govNum="MX_24_ra7" modNum="MX_24_ra2" reltn="Theme" govText="disappear" modText="solid"/>
+        <facet id="MX_24_f3" govNum="MX_24_ra7" modNum="MX_24_ra5" reltn="VMod_to" govText="disappear" modText="seems"/>
+        <facet id="MX_24_f4" govNum="MX_24_ra12" modNum="MX_24_ra11" reltn="Theme" govText="remains" modText="liquid"/>
+        <facet id="MX_24_f5" govNum="MX_24_ra12" modNum="MX_24_ra13" reltn="Attribute" govText="remains" modText="clear"/>
+        <facet id="MX_24_f6" govNum="MX_24_ra12" modNum="MX_24_ra3" reltn="Cause_and" childProp2Facet2="MX_24_f2" childProp1Facet1="MX_24_f4" govText="remains" childProp1Facet2="MX_24_f5" modText="dissolves" childProp2Facet1="MX_24_f1"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="MX.24.384.1" answerText="Because it turns clear. It bubbles." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="MX_24_f1" label="Unaddressed"/>
+      <facetEntailment facetID="MX_24_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MX_24_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_24_f4" label="Inferred"/>
+      <facetEntailment facetID="MX_24_f5" label="Expressed"/>
+      <facetEntailment facetID="MX_24_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.24.388.1" answerText="When you can see through the solution. When the solid gets dissolved into the liquid." accuracy="correct">
+      <facetEntailment facetID="MX_24_f1" label="Expressed"/>
+      <facetEntailment facetID="MX_24_f2" label="Inferred"/>
+      <facetEntailment facetID="MX_24_f3" label="Inferred"/>
+      <facetEntailment facetID="MX_24_f4" label="Inferred"/>
+      <facetEntailment facetID="MX_24_f5" label="Expressed"/>
+      <facetEntailment facetID="MX_24_f6" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="MX.24.389.1" answerText="When you mix a solid and a liquid it is clear." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="MX_24_f1" label="Unaddressed"/>
+      <facetEntailment facetID="MX_24_f2" label="Inferred"/>
+      <facetEntailment facetID="MX_24_f3" label="Inferred"/>
+      <facetEntailment facetID="MX_24_f4" label="Inferred"/>
+      <facetEntailment facetID="MX_24_f5" label="Expressed"/>
+      <facetEntailment facetID="MX_24_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.24.390.1" answerText="Because the mixture is clear." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="MX_24_f1" label="Unaddressed"/>
+      <facetEntailment facetID="MX_24_f2" label="Inferred"/>
+      <facetEntailment facetID="MX_24_f3" label="Inferred"/>
+      <facetEntailment facetID="MX_24_f4" label="Inferred"/>
+      <facetEntailment facetID="MX_24_f5" label="Expressed"/>
+      <facetEntailment facetID="MX_24_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.24.393.1" answerText="It is clear and can be separated with evaporation." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="MX_24_f1" label="Unaddressed"/>
+      <facetEntailment facetID="MX_24_f2" label="Inferred"/>
+      <facetEntailment facetID="MX_24_f3" label="Inferred"/>
+      <facetEntailment facetID="MX_24_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MX_24_f5" label="Inferred"/>
+      <facetEntailment facetID="MX_24_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.24.394.1" answerText="You can see through the mixture, and one material has dissolved." accuracy="correct">
+      <facetEntailment facetID="MX_24_f1" label="Expressed"/>
+      <facetEntailment facetID="MX_24_f2" label="Inferred"/>
+      <facetEntailment facetID="MX_24_f3" label="Inferred"/>
+      <facetEntailment facetID="MX_24_f4" label="Inferred"/>
+      <facetEntailment facetID="MX_24_f5" label="Expressed"/>
+      <facetEntailment facetID="MX_24_f6" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="MX.24.400.1" answerText="When one seems to disappear because it has dissolved, and you can see through it." accuracy="correct">
+      <facetEntailment facetID="MX_24_f1" label="Inferred"/>
+      <facetEntailment facetID="MX_24_f2" label="Inferred"/>
+      <facetEntailment facetID="MX_24_f3" label="Expressed"/>
+      <facetEntailment facetID="MX_24_f4" label="Inferred"/>
+      <facetEntailment facetID="MX_24_f5" label="Inferred"/>
+      <facetEntailment facetID="MX_24_f6" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="MX.24.433.1" answerText="When it creates one type of something. Like chocolate milk." accuracy="irrelevant">
+      <facetEntailment facetID="MX_24_f1" label="Unaddressed"/>
+      <facetEntailment facetID="MX_24_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MX_24_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_24_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MX_24_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MX_24_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.24.435.1" answerText="It is when you cannot see the solid from the liquid." accuracy="correct">
+      <facetEntailment facetID="MX_24_f1" label="Unaddressed"/>
+      <facetEntailment facetID="MX_24_f2" label="Inferred"/>
+      <facetEntailment facetID="MX_24_f3" label="Inferred"/>
+      <facetEntailment facetID="MX_24_f4" label="Inferred"/>
+      <facetEntailment facetID="MX_24_f5" label="Inferred"/>
+      <facetEntailment facetID="MX_24_f6" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="MX.24.438.1" answerText="When you cannot separate them with filters or screens." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="MX_24_f1" label="Inferred"/>
+      <facetEntailment facetID="MX_24_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MX_24_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_24_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MX_24_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MX_24_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.24.455.1" answerText="The solid seems to disappear, or dissolve." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="MX_24_f1" label="Expressed"/>
+      <facetEntailment facetID="MX_24_f2" label="Expressed"/>
+      <facetEntailment facetID="MX_24_f3" label="Expressed"/>
+      <facetEntailment facetID="MX_24_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MX_24_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MX_24_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.24.465.1" answerText="Well I will see the solid at the bottom and the liquid on top of it." accuracy="contradictory">
+      <facetEntailment facetID="MX_24_f1" label="Contra-Infr"/>
+      <facetEntailment facetID="MX_24_f2" label="Contra-Infr"/>
+      <facetEntailment facetID="MX_24_f3" label="Contra-Infr"/>
+      <facetEntailment facetID="MX_24_f4" label="Diff-Arg"/>
+      <facetEntailment facetID="MX_24_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MX_24_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.24.466.1" answerText="You know because the solid matrix I will dissolve overnight." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="MX_24_f1" label="Expressed"/>
+      <facetEntailment facetID="MX_24_f2" label="Inferred"/>
+      <facetEntailment facetID="MX_24_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_24_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MX_24_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MX_24_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.24.467.1" answerText="Then material will probably split up into smaller parts." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="MX_24_f1" label="Inferred"/>
+      <facetEntailment facetID="MX_24_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MX_24_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_24_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MX_24_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MX_24_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.24.469.1" answerText="Because the solid is kind of hard and liquid is more smoother." accuracy="irrelevant">
+      <facetEntailment facetID="MX_24_f1" label="Unaddressed"/>
+      <facetEntailment facetID="MX_24_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MX_24_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_24_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MX_24_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MX_24_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.24.470.1" answerText="When you cannot see the solid." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="MX_24_f1" label="Unaddressed"/>
+      <facetEntailment facetID="MX_24_f2" label="Expressed"/>
+      <facetEntailment facetID="MX_24_f3" label="Inferred"/>
+      <facetEntailment facetID="MX_24_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MX_24_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MX_24_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.24.495.1" answerText="The solid dissolves. The solid breaks into tiny pieces so tiny no one can see it." accuracy="correct">
+      <facetEntailment facetID="MX_24_f1" label="Expressed"/>
+      <facetEntailment facetID="MX_24_f2" label="Expressed"/>
+      <facetEntailment facetID="MX_24_f3" label="Expressed"/>
+      <facetEntailment facetID="MX_24_f4" label="Inferred"/>
+      <facetEntailment facetID="MX_24_f5" label="Inferred"/>
+      <facetEntailment facetID="MX_24_f6" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="MX.24.497.1" answerText="If you experiment you might find a way to separate." accuracy="irrelevant">
+      <facetEntailment facetID="MX_24_f1" label="Unaddressed"/>
+      <facetEntailment facetID="MX_24_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MX_24_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_24_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MX_24_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MX_24_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.24.499.1" answerText="Of the materials dissolve." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="MX_24_f1" label="Expressed"/>
+      <facetEntailment facetID="MX_24_f2" label="Inferred"/>
+      <facetEntailment facetID="MX_24_f3" label="Inferred"/>
+      <facetEntailment facetID="MX_24_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MX_24_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MX_24_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.24.563.1" answerText="You know when the solid is dissolved." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="MX_24_f1" label="Expressed"/>
+      <facetEntailment facetID="MX_24_f2" label="Inferred"/>
+      <facetEntailment facetID="MX_24_f3" label="Inferred"/>
+      <facetEntailment facetID="MX_24_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MX_24_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MX_24_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.24.573.1" answerText="When water and salt mix the salt disappears or seems to and when you cannot see the salt that means you have made a solution." accuracy="correct">
+      <facetEntailment facetID="MX_24_f1" label="Inferred"/>
+      <facetEntailment facetID="MX_24_f2" label="Expressed"/>
+      <facetEntailment facetID="MX_24_f3" label="Expressed"/>
+      <facetEntailment facetID="MX_24_f4" label="Inferred"/>
+      <facetEntailment facetID="MX_24_f5" label="Inferred"/>
+      <facetEntailment facetID="MX_24_f6" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="MX.24.576.1" answerText="The solid disappears into air pockets." accuracy="correct">
+      <facetEntailment facetID="MX_24_f1" label="Inferred"/>
+      <facetEntailment facetID="MX_24_f2" label="Expressed"/>
+      <facetEntailment facetID="MX_24_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_24_f4" label="Inferred"/>
+      <facetEntailment facetID="MX_24_f5" label="Inferred"/>
+      <facetEntailment facetID="MX_24_f6" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="MX.24.593.1" answerText="When something is mixing so you get a solution." accuracy="irrelevant">
+      <facetEntailment facetID="MX_24_f1" label="Unaddressed"/>
+      <facetEntailment facetID="MX_24_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MX_24_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_24_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MX_24_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MX_24_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.24.598.1" answerText="You see how it mixes together and sometimes there are bubbles or wet." accuracy="irrelevant">
+      <facetEntailment facetID="MX_24_f1" label="Unaddressed"/>
+      <facetEntailment facetID="MX_24_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MX_24_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_24_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MX_24_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MX_24_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.24.600.1" answerText="It is clear." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="MX_24_f1" label="Unaddressed"/>
+      <facetEntailment facetID="MX_24_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MX_24_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_24_f4" label="Inferred"/>
+      <facetEntailment facetID="MX_24_f5" label="Inferred"/>
+      <facetEntailment facetID="MX_24_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.24.601.1" answerText="I know that because it is mixed up because it is not clear anymore." accuracy="contradictory">
+      <facetEntailment facetID="MX_24_f1" label="Unaddressed"/>
+      <facetEntailment facetID="MX_24_f2" label="Contra-Infr"/>
+      <facetEntailment facetID="MX_24_f3" label="Contra-Infr"/>
+      <facetEntailment facetID="MX_24_f4" label="Contra-Expr"/>
+      <facetEntailment facetID="MX_24_f5" label="Contra-Expr"/>
+      <facetEntailment facetID="MX_24_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.24.608.1" answerText="When the water turns gray or a different color." accuracy="contradictory">
+      <facetEntailment facetID="MX_24_f1" label="Unaddressed"/>
+      <facetEntailment facetID="MX_24_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MX_24_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_24_f4" label="Contra-Infr"/>
+      <facetEntailment facetID="MX_24_f5" label="Contra-Expr"/>
+      <facetEntailment facetID="MX_24_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.24.610.1" answerText="Powder and water when they mix together. The water turn white, that how you tell or you look to the bottom." accuracy="contradictory">
+      <facetEntailment facetID="MX_24_f1" label="Unaddressed"/>
+      <facetEntailment facetID="MX_24_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MX_24_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_24_f4" label="Contra-Expr"/>
+      <facetEntailment facetID="MX_24_f5" label="Contra-Expr"/>
+      <facetEntailment facetID="MX_24_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.24.613.1" answerText="When they are in the container the water brushes off some dirt from the solid." accuracy="irrelevant">
+      <facetEntailment facetID="MX_24_f1" label="Unaddressed"/>
+      <facetEntailment facetID="MX_24_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MX_24_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_24_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MX_24_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MX_24_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.24.629.1" answerText="When the solid dissolves." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="MX_24_f1" label="Expressed"/>
+      <facetEntailment facetID="MX_24_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MX_24_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_24_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MX_24_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MX_24_f6" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.24.638.1" answerText="Because one of the chemicals dissolves." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="MX_24_f1" label="Expressed"/>
+      <facetEntailment facetID="MX_24_f2" label="Inferred"/>
+      <facetEntailment facetID="MX_24_f3" label="Inferred"/>
+      <facetEntailment facetID="MX_24_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MX_24_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MX_24_f6" label="Unaddressed"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

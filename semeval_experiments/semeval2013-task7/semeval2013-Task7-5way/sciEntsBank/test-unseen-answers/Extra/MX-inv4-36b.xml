@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<question testSet="unseen-answers" id="MX_36b" module="MX">
+  <questionText>Grace set up a science experiment. Here's what she wrote in her notebook. First I put eggshells into a cup and covered them with vinegar. After a while, small bubbles appeared on the surface of the eggshells. The next day there were more bubbles. In a couple of days, the eggshells were gone and the liquid was clear. I think I made a solution and a reaction. Explain why Grace thinks she made a reaction.</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="MX_36b-a1" text="A reaction was indicated by the bubbles of gas (a new material) being produced.">
+      <tokens>
+        <token id="MX_36b_ra1">A</token>
+        <token id="MX_36b_ra2">reaction</token>
+        <token id="MX_36b_ra3">was</token>
+        <token id="MX_36b_ra4">indicated</token>
+        <token id="MX_36b_ra5">by</token>
+        <token id="MX_36b_ra6">the</token>
+        <token id="MX_36b_ra7">bubbles</token>
+        <token id="MX_36b_ra8">of</token>
+        <token id="MX_36b_ra9">gas</token>
+        <token id="MX_36b_ra10">(</token>
+        <token id="MX_36b_ra11">a</token>
+        <token id="MX_36b_ra12">new</token>
+        <token id="MX_36b_ra13">material</token>
+        <token id="MX_36b_ra14">)</token>
+        <token id="MX_36b_ra15">being</token>
+        <token id="MX_36b_ra16">produced</token>
+        <token id="MX_36b_ra17">.</token>
+      </tokens>
+      <facets>
+        <facet id="MX_36b_f1" govNum="MX_36b_ra4" modNum="MX_36b_ra2" reltn="Topic" govText="indicated" isAssumed="true" modText="reaction"/>
+        <facet id="MX_36b_f2" govNum="MX_36b_ra4" modNum="MX_36b_ra16" reltn="Cause_by" childProp2Facet2="MX_36b_f5" govText="indicated" modText="produced" childProp2Facet1="MX_36b_f6"/>
+        <facet id="MX_36b_f3" govNum="MX_36b_ra7" modNum="MX_36b_ra9" reltn="NMod_of" govText="bubbles" modText="gas"/>
+        <facet id="MX_36b_f4" govNum="MX_36b_ra16" modNum="MX_36b_ra7" reltn="Product" govText="produced" isAssumed="true" modText="bubbles"/>
+        <facet id="MX_36b_f5" govNum="MX_36b_ra13" modNum="MX_36b_ra12" reltn="NMod" govText="material" modText="new"/>
+        <facet id="MX_36b_f6" govNum="MX_36b_ra16" modNum="MX_36b_ra13" reltn="Product" govText="produced" modText="material"/>
+        <facet id="MX_36b_f7" govNum="MX_36b_ra16" modNum="MX_36b_ra2" reltn="Cause_indicated_by" childProp1Facet1="MX_36b_f6" govText="produced" childProp1Facet2="MX_36b_f5" modText="reaction"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="MX.36b.172.1" answerText="The bubbles." accuracy="correct">
+      <facetEntailment facetID="MX_36b_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_36b_f2" label="Inferred"/>
+      <facetEntailment facetID="MX_36b_f3" label="Inferred"/>
+      <facetEntailment facetID="MX_36b_f4" label="Assumed"/>
+      <facetEntailment facetID="MX_36b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MX_36b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="MX_36b_f7" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="MX.36b.455.1" answerText="Because of the bubbles on the shell." accuracy="correct">
+      <facetEntailment facetID="MX_36b_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_36b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MX_36b_f3" label="Inferred"/>
+      <facetEntailment facetID="MX_36b_f4" label="Expressed"/>
+      <facetEntailment facetID="MX_36b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MX_36b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="MX_36b_f7" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="MX.36b.498.1" answerText="Because the vinegar is a reaction to eggshells and because of the reaction the eggshells are gone." accuracy="irrelevant">
+      <facetEntailment facetID="MX_36b_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_36b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MX_36b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_36b_f4" label="Assumed"/>
+      <facetEntailment facetID="MX_36b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MX_36b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="MX_36b_f7" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.36b.637.1" answerText="Because she added more than 2 chemicals producing the small bubbles on the eggshells that dissolved." accuracy="correct">
+      <facetEntailment facetID="MX_36b_f1" label="Assumed"/>
+      <facetEntailment facetID="MX_36b_f2" label="Inferred"/>
+      <facetEntailment facetID="MX_36b_f3" label="Inferred"/>
+      <facetEntailment facetID="MX_36b_f4" label="Expressed"/>
+      <facetEntailment facetID="MX_36b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="MX_36b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="MX_36b_f7" label="Inferred"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

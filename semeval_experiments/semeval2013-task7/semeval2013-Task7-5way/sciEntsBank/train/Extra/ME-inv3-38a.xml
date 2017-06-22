@@ -1,0 +1,442 @@
+<?xml version="1.0"?>
+<question id="ME_38a" module="ME">
+  <questionText>Trace over the complete circuit with your pencil to show where it is. Even though there is a complete circuit, the bulb will not light. Why not?</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="ME_38a-a1" text="The circuit does not include both contact points on the bulb holder, so the electricity can not go through the bulb.">
+      <tokens>
+        <token id="ME_38a_ra1">The</token>
+        <token id="ME_38a_ra2">circuit</token>
+        <token id="ME_38a_ra3">does</token>
+        <token id="ME_38a_ra4">not</token>
+        <token id="ME_38a_ra5">include</token>
+        <token id="ME_38a_ra6">both</token>
+        <token id="ME_38a_ra7">contact</token>
+        <token id="ME_38a_ra8">points</token>
+        <token id="ME_38a_ra9">on</token>
+        <token id="ME_38a_ra10">the</token>
+        <token id="ME_38a_ra11">bulb</token>
+        <token id="ME_38a_ra12">holder</token>
+        <token id="ME_38a_ra13">,</token>
+        <token id="ME_38a_ra14">so</token>
+        <token id="ME_38a_ra15">the</token>
+        <token id="ME_38a_ra16">electricity</token>
+        <token id="ME_38a_ra17">can</token>
+        <token id="ME_38a_ra18">not</token>
+        <token id="ME_38a_ra19">go</token>
+        <token id="ME_38a_ra20">through</token>
+        <token id="ME_38a_ra21">the</token>
+        <token id="ME_38a_ra22">bulb</token>
+        <token id="ME_38a_ra23">.</token>
+      </tokens>
+      <facets>
+        <facet id="ME_38a_f1" govNum="ME_38a_ra5" modNum="ME_38a_ra2" reltn="Theme_neg_not" govText="include" modText="circuit"/>
+        <facet id="ME_38a_f2" govNum="ME_38a_ra5" modNum="ME_38a_ra8" reltn="Material" govText="include" modText="points"/>
+        <facet id="ME_38a_f3" govNum="ME_38a_ra8" modNum="ME_38a_ra6" reltn="Quantifier" govText="points" modText="both"/>
+        <facet id="ME_38a_f4" govNum="ME_38a_ra8" modNum="ME_38a_ra7" reltn="NMod" govText="points" modText="contact"/>
+        <facet id="ME_38a_f5" govNum="ME_38a_ra8" modNum="ME_38a_ra12" reltn="Location_on" govText="points" modText="holder"/>
+        <facet id="ME_38a_f6" govNum="ME_38a_ra12" modNum="ME_38a_ra11" reltn="NMod" govText="holder" modText="bulb"/>
+        <facet id="ME_38a_f7" govNum="ME_38a_ra19" modNum="ME_38a_ra16" reltn="Theme_neg_not" govText="go" modText="electricity"/>
+        <facet id="ME_38a_f8" govNum="ME_38a_ra19" modNum="ME_38a_ra22" reltn="Destination_through" govText="go" modText="bulb"/>
+        <facet id="ME_38a_f9" govNum="ME_38a_ra19" modNum="ME_38a_ra5" reltn="Cause_so" childProp2Facet2="ME_38a_f2" childProp1Facet1="ME_38a_f7" govText="go" childProp1Facet2="ME_38a_f8" modText="include" childProp2Facet1="ME_38a_f1"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="ME.38a.101.1" answerText="It will not get light because the negative is getting to the motor." accuracy="irrelevant">
+      <facetEntailment facetID="ME_38a_f1" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f6" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f7" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f8" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f9" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.38a.102.1" answerText="It will not light because one wire has to go in one side and one wire has to go in the other." accuracy="correct">
+      <facetEntailment facetID="ME_38a_f1" label="Inferred"/>
+      <facetEntailment facetID="ME_38a_f2" label="Inferred"/>
+      <facetEntailment facetID="ME_38a_f3" label="Inferred"/>
+      <facetEntailment facetID="ME_38a_f4" label="Inferred"/>
+      <facetEntailment facetID="ME_38a_f5" label="Inferred"/>
+      <facetEntailment facetID="ME_38a_f6" label="Inferred"/>
+      <facetEntailment facetID="ME_38a_f7" label="Inferred"/>
+      <facetEntailment facetID="ME_38a_f8" label="Inferred"/>
+      <facetEntailment facetID="ME_38a_f9" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="ME.38a.105.1" answerText="There is not 2 wires for each little clip. There needs to be one coming from one clip and another coming from the other clip." accuracy="correct">
+      <facetEntailment facetID="ME_38a_f1" label="Inferred"/>
+      <facetEntailment facetID="ME_38a_f2" label="Inferred"/>
+      <facetEntailment facetID="ME_38a_f3" label="Inferred"/>
+      <facetEntailment facetID="ME_38a_f4" label="Inferred"/>
+      <facetEntailment facetID="ME_38a_f5" label="Inferred"/>
+      <facetEntailment facetID="ME_38a_f6" label="Inferred"/>
+      <facetEntailment facetID="ME_38a_f7" label="Inferred"/>
+      <facetEntailment facetID="ME_38a_f8" label="Inferred"/>
+      <facetEntailment facetID="ME_38a_f9" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="ME.38a.107.1" answerText="The bulb will not light because one of the wires have to touch the other clip." accuracy="correct">
+      <facetEntailment facetID="ME_38a_f1" label="Inferred"/>
+      <facetEntailment facetID="ME_38a_f2" label="Inferred"/>
+      <facetEntailment facetID="ME_38a_f3" label="Inferred"/>
+      <facetEntailment facetID="ME_38a_f4" label="Inferred"/>
+      <facetEntailment facetID="ME_38a_f5" label="Inferred"/>
+      <facetEntailment facetID="ME_38a_f6" label="Inferred"/>
+      <facetEntailment facetID="ME_38a_f7" label="Inferred"/>
+      <facetEntailment facetID="ME_38a_f8" label="Inferred"/>
+      <facetEntailment facetID="ME_38a_f9" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="ME.38a.111.1" answerText="Because the electricity is going to the motor." accuracy="irrelevant">
+      <facetEntailment facetID="ME_38a_f1" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f6" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f7" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f8" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f9" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.38a.119.1" answerText="The bulb will not light because there is not enough electricity." accuracy="irrelevant">
+      <facetEntailment facetID="ME_38a_f1" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f6" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f7" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f8" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f9" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.38a.120.1" answerText="It will not because there has to be a wire in each wire holder." accuracy="correct">
+      <facetEntailment facetID="ME_38a_f1" label="Inferred"/>
+      <facetEntailment facetID="ME_38a_f2" label="Inferred"/>
+      <facetEntailment facetID="ME_38a_f3" label="Inferred"/>
+      <facetEntailment facetID="ME_38a_f4" label="Inferred"/>
+      <facetEntailment facetID="ME_38a_f5" label="Inferred"/>
+      <facetEntailment facetID="ME_38a_f6" label="Inferred"/>
+      <facetEntailment facetID="ME_38a_f7" label="Inferred"/>
+      <facetEntailment facetID="ME_38a_f8" label="Inferred"/>
+      <facetEntailment facetID="ME_38a_f9" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="ME.38a.121.1" answerText="The cord from the battery is not on both sides." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="ME_38a_f1" label="Inferred"/>
+      <facetEntailment facetID="ME_38a_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f3" label="Inferred"/>
+      <facetEntailment facetID="ME_38a_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f6" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f7" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f8" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f9" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.38a.140.1" answerText="Because the bulb will not have enough energy because of the light bulb." accuracy="irrelevant">
+      <facetEntailment facetID="ME_38a_f1" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f6" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f7" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f8" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f9" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.38a.143.1" answerText="Because the positive wire is taking the energy right away." accuracy="irrelevant">
+      <facetEntailment facetID="ME_38a_f1" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f6" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f7" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f8" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f9" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.38a.144.1" answerText="Because, the electricity goes through the wrong way the second time." accuracy="irrelevant">
+      <facetEntailment facetID="ME_38a_f1" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f6" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f7" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f8" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f9" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.38a.146.1" answerText="There are 2 wires that should not be there the motor wires." accuracy="irrelevant">
+      <facetEntailment facetID="ME_38a_f1" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f6" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f7" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f8" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f9" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.38a.147.1" answerText="It going in a coil." accuracy="irrelevant">
+      <facetEntailment facetID="ME_38a_f1" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f6" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f7" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f8" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f9" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.38a.149.1" answerText="The wires are not even." accuracy="irrelevant">
+      <facetEntailment facetID="ME_38a_f1" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f6" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f7" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f8" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f9" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.38a.154.1" answerText="It is not connected properly because the wires are not connected properly on the motor." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="ME_38a_f1" label="Inferred"/>
+      <facetEntailment facetID="ME_38a_f2" label="Inferred"/>
+      <facetEntailment facetID="ME_38a_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f4" label="Inferred"/>
+      <facetEntailment facetID="ME_38a_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f6" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f7" label="Inferred"/>
+      <facetEntailment facetID="ME_38a_f8" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f9" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.38a.155.1" answerText="The bulb will no because the other wire is not connected." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="ME_38a_f1" label="Inferred"/>
+      <facetEntailment facetID="ME_38a_f2" label="Inferred"/>
+      <facetEntailment facetID="ME_38a_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f4" label="Inferred"/>
+      <facetEntailment facetID="ME_38a_f5" label="Inferred"/>
+      <facetEntailment facetID="ME_38a_f6" label="Inferred"/>
+      <facetEntailment facetID="ME_38a_f7" label="Inferred"/>
+      <facetEntailment facetID="ME_38a_f8" label="Inferred"/>
+      <facetEntailment facetID="ME_38a_f9" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="ME.38a.159.1" answerText="There is not enough energy." accuracy="irrelevant">
+      <facetEntailment facetID="ME_38a_f1" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f6" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f7" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f8" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f9" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.38a.173.1" answerText="The battery does not have enough power or the power is not getting to the bulb." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="ME_38a_f1" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f6" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f7" label="Expressed"/>
+      <facetEntailment facetID="ME_38a_f8" label="Expressed"/>
+      <facetEntailment facetID="ME_38a_f9" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="ME.38a.178.1" answerText="The motor is not running." accuracy="irrelevant">
+      <facetEntailment facetID="ME_38a_f1" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f6" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f7" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f8" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f9" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.38a.179.1" answerText="It will not light because when the electricity cannot flow through the wires." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="ME_38a_f1" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f6" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f7" label="Expressed"/>
+      <facetEntailment facetID="ME_38a_f8" label="Diff-Arg"/>
+      <facetEntailment facetID="ME_38a_f9" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.38a.180.1" answerText="The bulb will not light up because they are all not connected and this does not make a circuit." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="ME_38a_f1" label="Expressed"/>
+      <facetEntailment facetID="ME_38a_f2" label="Inferred"/>
+      <facetEntailment facetID="ME_38a_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f4" label="Inferred"/>
+      <facetEntailment facetID="ME_38a_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f6" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f7" label="Inferred"/>
+      <facetEntailment facetID="ME_38a_f8" label="Inferred"/>
+      <facetEntailment facetID="ME_38a_f9" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="ME.38a.181.1" answerText="Because it is not in a circle." accuracy="irrelevant">
+      <facetEntailment facetID="ME_38a_f1" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f6" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f7" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f8" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f9" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.38a.195.1" answerText="It is in both the same circuit." accuracy="irrelevant">
+      <facetEntailment facetID="ME_38a_f1" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f6" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f7" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f8" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f9" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.38a.206.1" answerText="The light bulb needs both plus and minus to be on different parts of the holder." accuracy="correct">
+      <facetEntailment facetID="ME_38a_f1" label="Inferred"/>
+      <facetEntailment facetID="ME_38a_f2" label="Inferred"/>
+      <facetEntailment facetID="ME_38a_f3" label="Inferred"/>
+      <facetEntailment facetID="ME_38a_f4" label="Inferred"/>
+      <facetEntailment facetID="ME_38a_f5" label="Inferred"/>
+      <facetEntailment facetID="ME_38a_f6" label="Expressed"/>
+      <facetEntailment facetID="ME_38a_f7" label="Inferred"/>
+      <facetEntailment facetID="ME_38a_f8" label="Inferred"/>
+      <facetEntailment facetID="ME_38a_f9" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="ME.38a.208.1" answerText="It is not connected." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="ME_38a_f1" label="Inferred"/>
+      <facetEntailment facetID="ME_38a_f2" label="Inferred"/>
+      <facetEntailment facetID="ME_38a_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f4" label="Inferred"/>
+      <facetEntailment facetID="ME_38a_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f6" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f7" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f8" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f9" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.38a.215.1" answerText="More power goes to the motor." accuracy="irrelevant">
+      <facetEntailment facetID="ME_38a_f1" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f6" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f7" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f8" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f9" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.38a.225.1" answerText="The wires are not connecting to the bulb." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="ME_38a_f1" label="Inferred"/>
+      <facetEntailment facetID="ME_38a_f2" label="Inferred"/>
+      <facetEntailment facetID="ME_38a_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f4" label="Inferred"/>
+      <facetEntailment facetID="ME_38a_f5" label="Inferred"/>
+      <facetEntailment facetID="ME_38a_f6" label="Inferred"/>
+      <facetEntailment facetID="ME_38a_f7" label="Inferred"/>
+      <facetEntailment facetID="ME_38a_f8" label="Inferred"/>
+      <facetEntailment facetID="ME_38a_f9" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="ME.38a.226.1" answerText="The bulb will not light because the positive and negative wires are hooked on the same hook." accuracy="correct">
+      <facetEntailment facetID="ME_38a_f1" label="Inferred"/>
+      <facetEntailment facetID="ME_38a_f2" label="Inferred"/>
+      <facetEntailment facetID="ME_38a_f3" label="Inferred"/>
+      <facetEntailment facetID="ME_38a_f4" label="Inferred"/>
+      <facetEntailment facetID="ME_38a_f5" label="Inferred"/>
+      <facetEntailment facetID="ME_38a_f6" label="Inferred"/>
+      <facetEntailment facetID="ME_38a_f7" label="Inferred"/>
+      <facetEntailment facetID="ME_38a_f8" label="Inferred"/>
+      <facetEntailment facetID="ME_38a_f9" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="ME.38a.253.1" answerText="It does not work because the wire are not propel on the spring thing." accuracy="irrelevant">
+      <facetEntailment facetID="ME_38a_f1" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f6" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f7" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f8" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f9" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.38a.254.1" answerText="Yes even though it is not a complete circuit." accuracy="irrelevant">
+      <facetEntailment facetID="ME_38a_f1" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f6" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f7" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f8" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f9" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.38a.256.1" answerText="No because both wires are on both place." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="ME_38a_f1" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f2" label="Inferred"/>
+      <facetEntailment facetID="ME_38a_f3" label="Inferred"/>
+      <facetEntailment facetID="ME_38a_f4" label="Inferred"/>
+      <facetEntailment facetID="ME_38a_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f6" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f7" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f8" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f9" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.38a.314.1" answerText="Some of the wires are disconnect." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="ME_38a_f1" label="Inferred"/>
+      <facetEntailment facetID="ME_38a_f2" label="Inferred"/>
+      <facetEntailment facetID="ME_38a_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f6" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f7" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f8" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f9" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.38a.323.1" answerText="It will not light because the bulbs wires are not connected to both sockets." accuracy="correct">
+      <facetEntailment facetID="ME_38a_f1" label="Inferred"/>
+      <facetEntailment facetID="ME_38a_f2" label="Inferred"/>
+      <facetEntailment facetID="ME_38a_f3" label="Expressed"/>
+      <facetEntailment facetID="ME_38a_f4" label="Inferred"/>
+      <facetEntailment facetID="ME_38a_f5" label="Inferred"/>
+      <facetEntailment facetID="ME_38a_f6" label="Inferred"/>
+      <facetEntailment facetID="ME_38a_f7" label="Inferred"/>
+      <facetEntailment facetID="ME_38a_f8" label="Inferred"/>
+      <facetEntailment facetID="ME_38a_f9" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="ME.38a.324.1" answerText="Because the motor got all the power." accuracy="irrelevant">
+      <facetEntailment facetID="ME_38a_f1" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f6" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f7" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f8" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f9" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.38a.327.1" answerText="Because one side is hooked to the motor." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="ME_38a_f1" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f4" label="Inferred"/>
+      <facetEntailment facetID="ME_38a_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f6" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f7" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f8" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f9" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.38a.328.1" answerText="The bulb will not work because the negative and the positive cannot go in the same way." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="ME_38a_f1" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f3" label="Inferred"/>
+      <facetEntailment facetID="ME_38a_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f6" label="Unaddressed"/>
+      <facetEntailment facetID="ME_38a_f7" label="Inferred"/>
+      <facetEntailment facetID="ME_38a_f8" label="Inferred"/>
+      <facetEntailment facetID="ME_38a_f9" label="Inferred"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

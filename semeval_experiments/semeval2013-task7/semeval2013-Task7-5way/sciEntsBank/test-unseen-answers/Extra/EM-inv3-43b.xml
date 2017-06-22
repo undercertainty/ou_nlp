@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<question testSet="unseen-answers" id="EM_43b" module="EM">
+  <questionText>If Phil, a geologist, wants to test for calcite while in the field, what should he bring with him? (an acid such as vinegar). Describe what Phil should do to test for calcite and what he would observe.</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="EM_43b-a1" text="Put acid on a rock. If the acid fizzes, Phil would know that the rock has calcite.">
+      <tokens>
+        <token id="EM_43b_ra1">Put</token>
+        <token id="EM_43b_ra2">acid</token>
+        <token id="EM_43b_ra3">on</token>
+        <token id="EM_43b_ra4">a</token>
+        <token id="EM_43b_ra5">rock</token>
+        <token id="EM_43b_ra6">.</token>
+        <token id="EM_43b_ra7">If</token>
+        <token id="EM_43b_ra8">the</token>
+        <token id="EM_43b_ra9">acid</token>
+        <token id="EM_43b_ra10">fizzes</token>
+        <token id="EM_43b_ra11">,</token>
+        <token id="EM_43b_ra12">Phil</token>
+        <token id="EM_43b_ra13">would</token>
+        <token id="EM_43b_ra14">know</token>
+        <token id="EM_43b_ra15">that</token>
+        <token id="EM_43b_ra16">the</token>
+        <token id="EM_43b_ra17">rock</token>
+        <token id="EM_43b_ra18">has</token>
+        <token id="EM_43b_ra19">calcite</token>
+        <token id="EM_43b_ra20">.</token>
+      </tokens>
+      <facets>
+        <facet id="EM_43b_f1" govNum="EM_43b_ra1" modNum="EM_43b_ra2" reltn="Theme" govText="Put" modText="acid"/>
+        <facet id="EM_43b_f2" govNum="EM_43b_ra1" modNum="EM_43b_ra5" reltn="Destination_on" govText="Put" modText="rock"/>
+        <facet id="EM_43b_f3" govNum="EM_43b_ra10" modNum="EM_43b_ra9" reltn="Theme" govText="fizzes" modText="acid"/>
+        <facet id="EM_43b_f4" govNum="EM_43b_ra14" modNum="EM_43b_ra12" reltn="Agent" govText="know" isAssumed="true" modText="Phil"/>
+        <facet id="EM_43b_f5" govNum="EM_43b_ra14" modNum="EM_43b_ra18" reltn="Theme_that" govText="know" isAssumed="true" modText="has" childProp2Facet1="EM_43b_f5"/>
+        <facet id="EM_43b_f6" govNum="EM_43b_ra17" modNum="EM_43b_ra19" reltn="Have" govText="rock" isAssumed="true" modText="calcite"/>
+        <facet id="EM_43b_f7" govNum="EM_43b_ra14" modNum="EM_43b_ra10" reltn="Cause_if" childProp1Facet1="EM_43b_f5" govText="know" isAssumed="true" childProp1Facet2="EM_43b_f6" modText="fizzes" childProp2Facet1="EM_43b_f3"/>
+        <facet id="EM_43b_f8" govNum="EM_43b_ra10" modNum="EM_43b_ra18" reltn="Cause_if" childProp1Facet1="EM_43b_f3" govText="fizzes" isAssumed="true" modText="has" childProp2Facet1="EM_43b_f6"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="EM.43b.432.1" answerText="He would put vinegar on the rock get the strange then is quiet it and see if there is calcite." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EM_43b_f1" label="Expressed"/>
+      <facetEntailment facetID="EM_43b_f2" label="Expressed"/>
+      <facetEntailment facetID="EM_43b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="EM_43b_f4" label="Assumed"/>
+      <facetEntailment facetID="EM_43b_f5" label="Assumed"/>
+      <facetEntailment facetID="EM_43b_f6" label="Assumed"/>
+      <facetEntailment facetID="EM_43b_f7" label="Assumed"/>
+      <facetEntailment facetID="EM_43b_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.43b.569.1" answerText="Move." accuracy="irrelevant">
+      <facetEntailment facetID="EM_43b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="EM_43b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="EM_43b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="EM_43b_f4" label="Assumed"/>
+      <facetEntailment facetID="EM_43b_f5" label="Assumed"/>
+      <facetEntailment facetID="EM_43b_f6" label="Assumed"/>
+      <facetEntailment facetID="EM_43b_f7" label="Assumed"/>
+      <facetEntailment facetID="EM_43b_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.43b.600.1" answerText="Cube to in test and look for crystals." accuracy="irrelevant">
+      <facetEntailment facetID="EM_43b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="EM_43b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="EM_43b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="EM_43b_f4" label="Assumed"/>
+      <facetEntailment facetID="EM_43b_f5" label="Assumed"/>
+      <facetEntailment facetID="EM_43b_f6" label="Assumed"/>
+      <facetEntailment facetID="EM_43b_f7" label="Assumed"/>
+      <facetEntailment facetID="EM_43b_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="EM.43b.650.1" answerText="If it fizzles it has calcite." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="EM_43b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="EM_43b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="EM_43b_f3" label="Inferred"/>
+      <facetEntailment facetID="EM_43b_f4" label="Assumed"/>
+      <facetEntailment facetID="EM_43b_f5" label="Assumed"/>
+      <facetEntailment facetID="EM_43b_f6" label="Expressed"/>
+      <facetEntailment facetID="EM_43b_f7" label="Assumed"/>
+      <facetEntailment facetID="EM_43b_f8" label="Expressed"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

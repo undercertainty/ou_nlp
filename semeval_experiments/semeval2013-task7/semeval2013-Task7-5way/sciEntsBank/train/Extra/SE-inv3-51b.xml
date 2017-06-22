@@ -1,0 +1,604 @@
+<?xml version="1.0"?>
+<question id="SE_51b" module="SE">
+  <questionText>Look at the 2 solar water heaters shown here. The black triangular area is the solar collector in each container. If both heaters contain the same amount of water, would you expect the temperature change in heater X to be greater than, less than, or the same as the temperature change in heater Y after 30 minutes? (Same) Explain your answer.</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="SE_51b-a1" text="The black areas in the 2 collectors (and the collectors themselves) are the same size. The amount of heat absorbed will be the same so the temperature change will also be the same.">
+      <tokens>
+        <token id="SE_51b_ra1">The</token>
+        <token id="SE_51b_ra2">black</token>
+        <token id="SE_51b_ra3">areas</token>
+        <token id="SE_51b_ra4">in</token>
+        <token id="SE_51b_ra5">the</token>
+        <token id="SE_51b_ra6">2</token>
+        <token id="SE_51b_ra7">collectors</token>
+        <token id="SE_51b_ra8">(</token>
+        <token id="SE_51b_ra9">and</token>
+        <token id="SE_51b_ra10">the</token>
+        <token id="SE_51b_ra11">collectors</token>
+        <token id="SE_51b_ra12">themselves</token>
+        <token id="SE_51b_ra13">)</token>
+        <token id="SE_51b_ra14">are</token>
+        <token id="SE_51b_ra15">the</token>
+        <token id="SE_51b_ra16">same</token>
+        <token id="SE_51b_ra17">size</token>
+        <token id="SE_51b_ra18">.</token>
+        <token id="SE_51b_ra19">The</token>
+        <token id="SE_51b_ra20">amount</token>
+        <token id="SE_51b_ra21">of</token>
+        <token id="SE_51b_ra22">heat</token>
+        <token id="SE_51b_ra23">absorbed</token>
+        <token id="SE_51b_ra24">will</token>
+        <token id="SE_51b_ra25">be</token>
+        <token id="SE_51b_ra26">the</token>
+        <token id="SE_51b_ra27">same</token>
+        <token id="SE_51b_ra28">so</token>
+        <token id="SE_51b_ra29">the</token>
+        <token id="SE_51b_ra30">temperature</token>
+        <token id="SE_51b_ra31">change</token>
+        <token id="SE_51b_ra32">will</token>
+        <token id="SE_51b_ra33">also</token>
+        <token id="SE_51b_ra34">be</token>
+        <token id="SE_51b_ra35">the</token>
+        <token id="SE_51b_ra36">same</token>
+        <token id="SE_51b_ra37">.</token>
+      </tokens>
+      <facets>
+        <facet id="SE_51b_f1" govNum="SE_51b_ra3" modNum="SE_51b_ra2" reltn="NMod" govText="areas" isAssumed="true" modText="black"/>
+        <facet id="SE_51b_f2" govNum="SE_51b_ra3" modNum="SE_51b_ra7" reltn="Location_in" govText="areas" isAssumed="true" modText="collectors"/>
+        <facet id="SE_51b_f3" govNum="SE_51b_ra7" modNum="SE_51b_ra6" reltn="NMod" govText="collectors" isAssumed="true" modText="2"/>
+        <facet id="SE_51b_f4" govNum="SE_51b_ra3" modNum="SE_51b_ra17" reltn="Be" govText="areas" isAssumed="true" modText="size"/>
+        <facet id="SE_51b_f5" govNum="SE_51b_ra11" modNum="SE_51b_ra17" reltn="Be" govText="collectors" isAssumed="true" modText="size"/>
+        <facet id="SE_51b_f6" govNum="SE_51b_ra17" modNum="SE_51b_ra16" reltn="NMod" govText="size" modText="same"/>
+        <facet id="SE_51b_f7" govNum="SE_51b_ra20" modNum="SE_51b_ra22" reltn="NMod_of" govText="amount" modText="heat"/>
+        <facet id="SE_51b_f8" govNum="SE_51b_ra23" modNum="SE_51b_ra22" reltn="Theme" govText="absorbed" modText="heat"/>
+        <facet id="SE_51b_f9" govNum="SE_51b_ra20" modNum="SE_51b_ra27" reltn="Be" govText="amount" modText="same"/>
+        <facet id="SE_51b_f10" govNum="SE_51b_ra25" modNum="SE_51b_ra14" reltn="Cause" childProp2Facet2="SE_51b_f6" childProp1Facet1="SE_51b_f9" govText="be" childProp1Facet2="SE_51b_f8" modText="are" childProp2Facet1="SE_51b_f5"/>
+        <facet id="SE_51b_f11" govNum="SE_51b_ra31" modNum="SE_51b_ra30" reltn="Patient" govText="change" isAssumed="true" modText="temperature"/>
+        <facet id="SE_51b_f12" govNum="SE_51b_ra31" modNum="SE_51b_ra36" reltn="Extent" govText="change" modText="same"/>
+        <facet id="SE_51b_f13" govNum="SE_51b_ra34" modNum="SE_51b_ra25" reltn="Cause_so" childProp2Facet2="SE_51b_f8" childProp1Facet1="SE_51b_f12" govText="be" isAssumed="true" childProp1Facet2="SE_51b_f11" modText="be" childProp2Facet1="SE_51b_f9"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="SE.51b.103.1" answerText="Takes the same amount of space." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="SE_51b_f1" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f3" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f4" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f5" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f6" label="Inferred"/>
+      <facetEntailment facetID="SE_51b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="SE_51b_f8" label="Unaddressed"/>
+      <facetEntailment facetID="SE_51b_f9" label="Unaddressed"/>
+      <facetEntailment facetID="SE_51b_f10" label="Unaddressed"/>
+      <facetEntailment facetID="SE_51b_f11" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f12" label="Unaddressed"/>
+      <facetEntailment facetID="SE_51b_f13" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.51b.108.1" answerText="They look the same and it could hold the same amount of water." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="SE_51b_f1" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f3" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f4" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f5" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f6" label="Inferred"/>
+      <facetEntailment facetID="SE_51b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="SE_51b_f8" label="Unaddressed"/>
+      <facetEntailment facetID="SE_51b_f9" label="Unaddressed"/>
+      <facetEntailment facetID="SE_51b_f10" label="Unaddressed"/>
+      <facetEntailment facetID="SE_51b_f11" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f12" label="Unaddressed"/>
+      <facetEntailment facetID="SE_51b_f13" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.51b.114.1" answerText="The reason why I picked less than is because I think that Y is going to contain the different amount after 30 minutes." accuracy="contradictory">
+      <facetEntailment facetID="SE_51b_f1" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f3" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f4" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f5" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f6" label="Inferred"/>
+      <facetEntailment facetID="SE_51b_f7" label="Inferred"/>
+      <facetEntailment facetID="SE_51b_f8" label="Inferred"/>
+      <facetEntailment facetID="SE_51b_f9" label="Contra-Infr"/>
+      <facetEntailment facetID="SE_51b_f10" label="Inferred"/>
+      <facetEntailment facetID="SE_51b_f11" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f12" label="Contra-Infr"/>
+      <facetEntailment facetID="SE_51b_f13" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.51b.118.1" answerText="I expect the temperature would be the same because they were the same on everything." accuracy="correct">
+      <facetEntailment facetID="SE_51b_f1" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f3" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f4" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f5" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f6" label="Inferred"/>
+      <facetEntailment facetID="SE_51b_f7" label="Inferred"/>
+      <facetEntailment facetID="SE_51b_f8" label="Inferred"/>
+      <facetEntailment facetID="SE_51b_f9" label="Inferred"/>
+      <facetEntailment facetID="SE_51b_f10" label="Inferred"/>
+      <facetEntailment facetID="SE_51b_f11" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f12" label="Expressed"/>
+      <facetEntailment facetID="SE_51b_f13" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.51b.123.1" answerText="It really does not matter the only thing that matters is the amount of area." accuracy="correct">
+      <facetEntailment facetID="SE_51b_f1" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f3" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f4" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f5" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f6" label="Inferred"/>
+      <facetEntailment facetID="SE_51b_f7" label="Inferred"/>
+      <facetEntailment facetID="SE_51b_f8" label="Inferred"/>
+      <facetEntailment facetID="SE_51b_f9" label="Inferred"/>
+      <facetEntailment facetID="SE_51b_f10" label="Inferred"/>
+      <facetEntailment facetID="SE_51b_f11" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f12" label="Inferred"/>
+      <facetEntailment facetID="SE_51b_f13" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.51b.132.1" answerText="It is not the shape that makes the difference, it is the area." accuracy="irrelevant">
+      <facetEntailment facetID="SE_51b_f1" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f3" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f4" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f5" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="SE_51b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="SE_51b_f8" label="Unaddressed"/>
+      <facetEntailment facetID="SE_51b_f9" label="Unaddressed"/>
+      <facetEntailment facetID="SE_51b_f10" label="Unaddressed"/>
+      <facetEntailment facetID="SE_51b_f11" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f12" label="Unaddressed"/>
+      <facetEntailment facetID="SE_51b_f13" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.51b.164.1" answerText="Because it has the same amount of water and heat." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="SE_51b_f1" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f3" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f4" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f5" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="SE_51b_f7" label="Expressed"/>
+      <facetEntailment facetID="SE_51b_f8" label="Unaddressed"/>
+      <facetEntailment facetID="SE_51b_f9" label="Expressed"/>
+      <facetEntailment facetID="SE_51b_f10" label="Unaddressed"/>
+      <facetEntailment facetID="SE_51b_f11" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f12" label="Unaddressed"/>
+      <facetEntailment facetID="SE_51b_f13" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.51b.182.1" answerText="I think it will just be the same temperature. Because it is the same shape." accuracy="correct">
+      <facetEntailment facetID="SE_51b_f1" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f3" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f4" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f5" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f6" label="Inferred"/>
+      <facetEntailment facetID="SE_51b_f7" label="Inferred"/>
+      <facetEntailment facetID="SE_51b_f8" label="Inferred"/>
+      <facetEntailment facetID="SE_51b_f9" label="Inferred"/>
+      <facetEntailment facetID="SE_51b_f10" label="Inferred"/>
+      <facetEntailment facetID="SE_51b_f11" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f12" label="Inferred"/>
+      <facetEntailment facetID="SE_51b_f13" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.51b.191.1" answerText="X and Y both have the same solar water heater so the temperature will be the same." accuracy="correct">
+      <facetEntailment facetID="SE_51b_f1" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f3" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f4" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f5" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f6" label="Inferred"/>
+      <facetEntailment facetID="SE_51b_f7" label="Inferred"/>
+      <facetEntailment facetID="SE_51b_f8" label="Inferred"/>
+      <facetEntailment facetID="SE_51b_f9" label="Inferred"/>
+      <facetEntailment facetID="SE_51b_f10" label="Inferred"/>
+      <facetEntailment facetID="SE_51b_f11" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f12" label="Inferred"/>
+      <facetEntailment facetID="SE_51b_f13" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.51b.255.1" answerText="Because I think it might be higher." accuracy="contradictory">
+      <facetEntailment facetID="SE_51b_f1" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f3" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f4" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f5" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="SE_51b_f7" label="Inferred"/>
+      <facetEntailment facetID="SE_51b_f8" label="Inferred"/>
+      <facetEntailment facetID="SE_51b_f9" label="Contra-Infr"/>
+      <facetEntailment facetID="SE_51b_f10" label="Unaddressed"/>
+      <facetEntailment facetID="SE_51b_f11" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f12" label="Contra-Infr"/>
+      <facetEntailment facetID="SE_51b_f13" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.51b.257.1" answerText="They both are the same size, have the same water amount, and are left out for the same time." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="SE_51b_f1" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f3" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f4" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f5" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f6" label="Expressed"/>
+      <facetEntailment facetID="SE_51b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="SE_51b_f8" label="Unaddressed"/>
+      <facetEntailment facetID="SE_51b_f9" label="Unaddressed"/>
+      <facetEntailment facetID="SE_51b_f10" label="Unaddressed"/>
+      <facetEntailment facetID="SE_51b_f11" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f12" label="Unaddressed"/>
+      <facetEntailment facetID="SE_51b_f13" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.51b.258.1" answerText="Because the temperature would just go higher." accuracy="contradictory">
+      <facetEntailment facetID="SE_51b_f1" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f3" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f4" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f5" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="SE_51b_f7" label="Inferred"/>
+      <facetEntailment facetID="SE_51b_f8" label="Inferred"/>
+      <facetEntailment facetID="SE_51b_f9" label="Inferred"/>
+      <facetEntailment facetID="SE_51b_f10" label="Contra-Infr"/>
+      <facetEntailment facetID="SE_51b_f11" label="Expressed"/>
+      <facetEntailment facetID="SE_51b_f12" label="Contra-Infr"/>
+      <facetEntailment facetID="SE_51b_f13" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.51b.319.1" answerText="Because until you get to 5 minute to 25 minute these different numbers but until the 30 it goes down and sometimes it could be the same." accuracy="contradictory">
+      <facetEntailment facetID="SE_51b_f1" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f3" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f4" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f5" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="SE_51b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="SE_51b_f8" label="Unaddressed"/>
+      <facetEntailment facetID="SE_51b_f9" label="Unaddressed"/>
+      <facetEntailment facetID="SE_51b_f10" label="Unaddressed"/>
+      <facetEntailment facetID="SE_51b_f11" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f12" label="Self-Contra"/>
+      <facetEntailment facetID="SE_51b_f13" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.51b.325.1" answerText="More? Because they are not facing at the same direction the Y is facing right and the X is facing left." accuracy="contradictory">
+      <facetEntailment facetID="SE_51b_f1" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f3" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f4" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f5" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="SE_51b_f7" label="Inferred"/>
+      <facetEntailment facetID="SE_51b_f8" label="Inferred"/>
+      <facetEntailment facetID="SE_51b_f9" label="Contra-Infr"/>
+      <facetEntailment facetID="SE_51b_f10" label="Contra-Infr"/>
+      <facetEntailment facetID="SE_51b_f11" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f12" label="Contra-Infr"/>
+      <facetEntailment facetID="SE_51b_f13" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.51b.331.1" answerText="I chose less than because X is a little bit more smaller." accuracy="contradictory">
+      <facetEntailment facetID="SE_51b_f1" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f3" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f4" label="Expressed"/>
+      <facetEntailment facetID="SE_51b_f5" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f6" label="Contra-Expr"/>
+      <facetEntailment facetID="SE_51b_f7" label="Inferred"/>
+      <facetEntailment facetID="SE_51b_f8" label="Inferred"/>
+      <facetEntailment facetID="SE_51b_f9" label="Contra-Infr"/>
+      <facetEntailment facetID="SE_51b_f10" label="Inferred"/>
+      <facetEntailment facetID="SE_51b_f11" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f12" label="Contra-Expr"/>
+      <facetEntailment facetID="SE_51b_f13" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.51b.339.1" answerText="Because water really does not change very much." accuracy="irrelevant">
+      <facetEntailment facetID="SE_51b_f1" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f3" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f4" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f5" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="SE_51b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="SE_51b_f8" label="Unaddressed"/>
+      <facetEntailment facetID="SE_51b_f9" label="Unaddressed"/>
+      <facetEntailment facetID="SE_51b_f10" label="Unaddressed"/>
+      <facetEntailment facetID="SE_51b_f11" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f12" label="Unaddressed"/>
+      <facetEntailment facetID="SE_51b_f13" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.51b.388.1" answerText="Same, because they are the same size triangles and in the same size boxes, with the same amount of water." accuracy="correct">
+      <facetEntailment facetID="SE_51b_f1" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f3" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f4" label="Expressed"/>
+      <facetEntailment facetID="SE_51b_f5" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f6" label="Expressed"/>
+      <facetEntailment facetID="SE_51b_f7" label="Inferred"/>
+      <facetEntailment facetID="SE_51b_f8" label="Inferred"/>
+      <facetEntailment facetID="SE_51b_f9" label="Inferred"/>
+      <facetEntailment facetID="SE_51b_f10" label="Inferred"/>
+      <facetEntailment facetID="SE_51b_f11" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f12" label="Inferred"/>
+      <facetEntailment facetID="SE_51b_f13" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.51b.389.1" answerText="I think the temperature will stay the same because they are the same shapes." accuracy="correct">
+      <facetEntailment facetID="SE_51b_f1" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f3" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f4" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f5" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f6" label="Inferred"/>
+      <facetEntailment facetID="SE_51b_f7" label="Inferred"/>
+      <facetEntailment facetID="SE_51b_f8" label="Inferred"/>
+      <facetEntailment facetID="SE_51b_f9" label="Inferred"/>
+      <facetEntailment facetID="SE_51b_f10" label="Inferred"/>
+      <facetEntailment facetID="SE_51b_f11" label="Expressed"/>
+      <facetEntailment facetID="SE_51b_f12" label="Expressed"/>
+      <facetEntailment facetID="SE_51b_f13" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.51b.393.1" answerText="Because the solar water heaters are the same size and there is the same amount of water in each container." accuracy="correct">
+      <facetEntailment facetID="SE_51b_f1" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f3" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f4" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f5" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f6" label="Expressed"/>
+      <facetEntailment facetID="SE_51b_f7" label="Inferred"/>
+      <facetEntailment facetID="SE_51b_f8" label="Inferred"/>
+      <facetEntailment facetID="SE_51b_f9" label="Inferred"/>
+      <facetEntailment facetID="SE_51b_f10" label="Inferred"/>
+      <facetEntailment facetID="SE_51b_f11" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f12" label="Inferred"/>
+      <facetEntailment facetID="SE_51b_f13" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.51b.402.1" answerText="I think they would both heat up the same because they are the same size and shape just faced a different way." accuracy="correct">
+      <facetEntailment facetID="SE_51b_f1" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f3" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f4" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f5" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f6" label="Expressed"/>
+      <facetEntailment facetID="SE_51b_f7" label="Inferred"/>
+      <facetEntailment facetID="SE_51b_f8" label="Inferred"/>
+      <facetEntailment facetID="SE_51b_f9" label="Inferred"/>
+      <facetEntailment facetID="SE_51b_f10" label="Inferred"/>
+      <facetEntailment facetID="SE_51b_f11" label="Expressed"/>
+      <facetEntailment facetID="SE_51b_f12" label="Inferred"/>
+      <facetEntailment facetID="SE_51b_f13" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.51b.418.1" answerText="Because they look the same so it would be the same." accuracy="correct">
+      <facetEntailment facetID="SE_51b_f1" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f3" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f4" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f5" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f6" label="Inferred"/>
+      <facetEntailment facetID="SE_51b_f7" label="Inferred"/>
+      <facetEntailment facetID="SE_51b_f8" label="Inferred"/>
+      <facetEntailment facetID="SE_51b_f9" label="Inferred"/>
+      <facetEntailment facetID="SE_51b_f10" label="Inferred"/>
+      <facetEntailment facetID="SE_51b_f11" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f12" label="Inferred"/>
+      <facetEntailment facetID="SE_51b_f13" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.51b.427.1" answerText="They both have the same amount of surface area in the container and are filled with the same amount of water." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="SE_51b_f1" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f3" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f4" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f5" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f6" label="Inferred"/>
+      <facetEntailment facetID="SE_51b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="SE_51b_f8" label="Unaddressed"/>
+      <facetEntailment facetID="SE_51b_f9" label="Unaddressed"/>
+      <facetEntailment facetID="SE_51b_f10" label="Unaddressed"/>
+      <facetEntailment facetID="SE_51b_f11" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f12" label="Unaddressed"/>
+      <facetEntailment facetID="SE_51b_f13" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.51b.434.1" answerText="It would be the same because they both have the same amount of water and they are the same size." accuracy="correct">
+      <facetEntailment facetID="SE_51b_f1" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f3" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f4" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f5" label="Expressed"/>
+      <facetEntailment facetID="SE_51b_f6" label="Expressed"/>
+      <facetEntailment facetID="SE_51b_f7" label="Inferred"/>
+      <facetEntailment facetID="SE_51b_f8" label="Inferred"/>
+      <facetEntailment facetID="SE_51b_f9" label="Inferred"/>
+      <facetEntailment facetID="SE_51b_f10" label="Inferred"/>
+      <facetEntailment facetID="SE_51b_f11" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f12" label="Expressed"/>
+      <facetEntailment facetID="SE_51b_f13" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.51b.439.1" answerText="I think same because they both have the same amount of black and the surface area look the same, and they are both the same shape." accuracy="correct">
+      <facetEntailment facetID="SE_51b_f1" label="Expressed"/>
+      <facetEntailment facetID="SE_51b_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f3" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f4" label="Expressed"/>
+      <facetEntailment facetID="SE_51b_f5" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f6" label="Inferred"/>
+      <facetEntailment facetID="SE_51b_f7" label="Inferred"/>
+      <facetEntailment facetID="SE_51b_f8" label="Inferred"/>
+      <facetEntailment facetID="SE_51b_f9" label="Inferred"/>
+      <facetEntailment facetID="SE_51b_f10" label="Inferred"/>
+      <facetEntailment facetID="SE_51b_f11" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f12" label="Inferred"/>
+      <facetEntailment facetID="SE_51b_f13" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.51b.441.1" answerText="I think X and Y's temperature would be the same because it is the same just flipped." accuracy="correct">
+      <facetEntailment facetID="SE_51b_f1" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f3" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f4" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f5" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f6" label="Inferred"/>
+      <facetEntailment facetID="SE_51b_f7" label="Inferred"/>
+      <facetEntailment facetID="SE_51b_f8" label="Inferred"/>
+      <facetEntailment facetID="SE_51b_f9" label="Inferred"/>
+      <facetEntailment facetID="SE_51b_f10" label="Inferred"/>
+      <facetEntailment facetID="SE_51b_f11" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f12" label="Inferred"/>
+      <facetEntailment facetID="SE_51b_f13" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.51b.487.1" answerText="It would be the same because for it to be greater than or less than it depends where you put the solar water heater." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="SE_51b_f1" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f3" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f4" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f5" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f6" label="Inferred"/>
+      <facetEntailment facetID="SE_51b_f7" label="Inferred"/>
+      <facetEntailment facetID="SE_51b_f8" label="Inferred"/>
+      <facetEntailment facetID="SE_51b_f9" label="Inferred"/>
+      <facetEntailment facetID="SE_51b_f10" label="Diff-Arg"/>
+      <facetEntailment facetID="SE_51b_f11" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f12" label="Expressed"/>
+      <facetEntailment facetID="SE_51b_f13" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.51b.490.1" answerText="It would be greater than because the cover on X is bigger than the one on Y." accuracy="contradictory">
+      <facetEntailment facetID="SE_51b_f1" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f3" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f4" label="Expressed"/>
+      <facetEntailment facetID="SE_51b_f5" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f6" label="Contra-Expr"/>
+      <facetEntailment facetID="SE_51b_f7" label="Inferred"/>
+      <facetEntailment facetID="SE_51b_f8" label="Inferred"/>
+      <facetEntailment facetID="SE_51b_f9" label="Contra-Infr"/>
+      <facetEntailment facetID="SE_51b_f10" label="Expressed"/>
+      <facetEntailment facetID="SE_51b_f11" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f12" label="Contra-Expr"/>
+      <facetEntailment facetID="SE_51b_f13" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.51b.492.1" answerText="I think it would be the same because there is no change in variables." accuracy="correct">
+      <facetEntailment facetID="SE_51b_f1" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f3" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f4" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f5" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f6" label="Inferred"/>
+      <facetEntailment facetID="SE_51b_f7" label="Inferred"/>
+      <facetEntailment facetID="SE_51b_f8" label="Inferred"/>
+      <facetEntailment facetID="SE_51b_f9" label="Inferred"/>
+      <facetEntailment facetID="SE_51b_f10" label="Inferred"/>
+      <facetEntailment facetID="SE_51b_f11" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f12" label="Expressed"/>
+      <facetEntailment facetID="SE_51b_f13" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.51b.508.1" answerText="It would be the same because it does not matter what position the black surface area is, it matters what size." accuracy="correct">
+      <facetEntailment facetID="SE_51b_f1" label="Expressed"/>
+      <facetEntailment facetID="SE_51b_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f3" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f4" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f5" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f6" label="Inferred"/>
+      <facetEntailment facetID="SE_51b_f7" label="Inferred"/>
+      <facetEntailment facetID="SE_51b_f8" label="Inferred"/>
+      <facetEntailment facetID="SE_51b_f9" label="Inferred"/>
+      <facetEntailment facetID="SE_51b_f10" label="Inferred"/>
+      <facetEntailment facetID="SE_51b_f11" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f12" label="Inferred"/>
+      <facetEntailment facetID="SE_51b_f13" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.51b.511.1" answerText="I think the same because both the heaters are the same." accuracy="correct">
+      <facetEntailment facetID="SE_51b_f1" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f3" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f4" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f5" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f6" label="Inferred"/>
+      <facetEntailment facetID="SE_51b_f7" label="Inferred"/>
+      <facetEntailment facetID="SE_51b_f8" label="Inferred"/>
+      <facetEntailment facetID="SE_51b_f9" label="Inferred"/>
+      <facetEntailment facetID="SE_51b_f10" label="Inferred"/>
+      <facetEntailment facetID="SE_51b_f11" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f12" label="Inferred"/>
+      <facetEntailment facetID="SE_51b_f13" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.51b.529.1" answerText="They have the same surface area, just flipped so they will heat equally." accuracy="correct">
+      <facetEntailment facetID="SE_51b_f1" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f3" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f4" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f5" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f6" label="Inferred"/>
+      <facetEntailment facetID="SE_51b_f7" label="Inferred"/>
+      <facetEntailment facetID="SE_51b_f8" label="Inferred"/>
+      <facetEntailment facetID="SE_51b_f9" label="Expressed"/>
+      <facetEntailment facetID="SE_51b_f10" label="Expressed"/>
+      <facetEntailment facetID="SE_51b_f11" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f12" label="Inferred"/>
+      <facetEntailment facetID="SE_51b_f13" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.51b.532.1" answerText="The triangles are the same size." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="SE_51b_f1" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f3" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f4" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f5" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f6" label="Expressed"/>
+      <facetEntailment facetID="SE_51b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="SE_51b_f8" label="Unaddressed"/>
+      <facetEntailment facetID="SE_51b_f9" label="Unaddressed"/>
+      <facetEntailment facetID="SE_51b_f10" label="Unaddressed"/>
+      <facetEntailment facetID="SE_51b_f11" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f12" label="Unaddressed"/>
+      <facetEntailment facetID="SE_51b_f13" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.51b.533.1" answerText="I chose same because they are the same figure and size. Y is facing the other way though it is still the same." accuracy="correct">
+      <facetEntailment facetID="SE_51b_f1" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f3" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f4" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f5" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f6" label="Expressed"/>
+      <facetEntailment facetID="SE_51b_f7" label="Inferred"/>
+      <facetEntailment facetID="SE_51b_f8" label="Inferred"/>
+      <facetEntailment facetID="SE_51b_f9" label="Inferred"/>
+      <facetEntailment facetID="SE_51b_f10" label="Inferred"/>
+      <facetEntailment facetID="SE_51b_f11" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f12" label="Inferred"/>
+      <facetEntailment facetID="SE_51b_f13" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.51b.540.1" answerText="Because they are the same size and same color so it is going to be the same temperature." accuracy="correct">
+      <facetEntailment facetID="SE_51b_f1" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f3" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f4" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f5" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f6" label="Expressed"/>
+      <facetEntailment facetID="SE_51b_f7" label="Inferred"/>
+      <facetEntailment facetID="SE_51b_f8" label="Inferred"/>
+      <facetEntailment facetID="SE_51b_f9" label="Inferred"/>
+      <facetEntailment facetID="SE_51b_f10" label="Inferred"/>
+      <facetEntailment facetID="SE_51b_f11" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f12" label="Inferred"/>
+      <facetEntailment facetID="SE_51b_f13" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.51b.545.1" answerText="Because they both have the same amount of water." accuracy="irrelevant">
+      <facetEntailment facetID="SE_51b_f1" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f3" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f4" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f5" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="SE_51b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="SE_51b_f8" label="Unaddressed"/>
+      <facetEntailment facetID="SE_51b_f9" label="Unaddressed"/>
+      <facetEntailment facetID="SE_51b_f10" label="Unaddressed"/>
+      <facetEntailment facetID="SE_51b_f11" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f12" label="Unaddressed"/>
+      <facetEntailment facetID="SE_51b_f13" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.51b.602.1" answerText="Because if you put something in at the same time it will get the same results as the other one." accuracy="correct">
+      <facetEntailment facetID="SE_51b_f1" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f3" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f4" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f5" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f6" label="Inferred"/>
+      <facetEntailment facetID="SE_51b_f7" label="Inferred"/>
+      <facetEntailment facetID="SE_51b_f8" label="Inferred"/>
+      <facetEntailment facetID="SE_51b_f9" label="Inferred"/>
+      <facetEntailment facetID="SE_51b_f10" label="Inferred"/>
+      <facetEntailment facetID="SE_51b_f11" label="Assumed"/>
+      <facetEntailment facetID="SE_51b_f12" label="Inferred"/>
+      <facetEntailment facetID="SE_51b_f13" label="Assumed"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<question testSet="unseen-answers" id="LP_15c" module="LP">
+  <questionText>What is the relationship between the amount of effort required to lift the load and its distance from the fulcrum?</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="LP_15c-a1" text="If the effort is applied farther from the fulcrum, less effort will lift the load.">
+      <tokens>
+        <token id="LP_15c_ra1">If</token>
+        <token id="LP_15c_ra2">the</token>
+        <token id="LP_15c_ra3">effort</token>
+        <token id="LP_15c_ra4">is</token>
+        <token id="LP_15c_ra5">applied</token>
+        <token id="LP_15c_ra6">farther</token>
+        <token id="LP_15c_ra7">from</token>
+        <token id="LP_15c_ra8">the</token>
+        <token id="LP_15c_ra9">fulcrum</token>
+        <token id="LP_15c_ra10">,</token>
+        <token id="LP_15c_ra11">less</token>
+        <token id="LP_15c_ra12">effort</token>
+        <token id="LP_15c_ra13">will</token>
+        <token id="LP_15c_ra14">lift</token>
+        <token id="LP_15c_ra15">the</token>
+        <token id="LP_15c_ra16">load</token>
+        <token id="LP_15c_ra17">.</token>
+      </tokens>
+      <facets>
+        <facet id="LP_15c_f1" govNum="LP_15c_ra5" modNum="LP_15c_ra3" reltn="Theme" govText="applied" isAssumed="true" modText="effort"/>
+        <facet id="LP_15c_f2" govNum="LP_15c_ra5" modNum="LP_15c_ra6" reltn="Location" govText="applied" modText="farther"/>
+        <facet id="LP_15c_f3" govNum="LP_15c_ra6" modNum="LP_15c_ra9" reltn="AMod_from" govText="farther" modText="fulcrum"/>
+        <facet id="LP_15c_f4" govNum="LP_15c_ra12" modNum="LP_15c_ra11" reltn="NMod" govText="effort" modText="less"/>
+        <facet id="LP_15c_f5" govNum="LP_15c_ra14" modNum="LP_15c_ra12" reltn="Cause_to" govText="lift" isAssumed="true" modText="effort"/>
+        <facet id="LP_15c_f6" govNum="LP_15c_ra14" modNum="LP_15c_ra16" reltn="Theme" govText="lift" isAssumed="true" modText="load"/>
+        <facet id="LP_15c_f7" govNum="LP_15c_ra14" modNum="LP_15c_ra4" reltn="Cause_if" childProp2Facet2="LP_15c_f2" childProp1Facet1="LP_15c_f5" govText="lift" isAssumed="true" childProp1Facet2="LP_15c_f6" modText="is" childProp2Facet1="LP_15c_f1"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="LP.15c.145.1" answerText="They both start off with 0. And they both have effort in it." accuracy="irrelevant">
+      <facetEntailment facetID="LP_15c_f1" label="Expressed"/>
+      <facetEntailment facetID="LP_15c_f2" label="Unaddressed"/>
+      <facetEntailment facetID="LP_15c_f3" label="Unaddressed"/>
+      <facetEntailment facetID="LP_15c_f4" label="Unaddressed"/>
+      <facetEntailment facetID="LP_15c_f5" label="Assumed"/>
+      <facetEntailment facetID="LP_15c_f6" label="Assumed"/>
+      <facetEntailment facetID="LP_15c_f7" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="LP.15c.171.1" answerText="If the effort is farther from the fulcrum, it takes less effort to lift it." accuracy="correct">
+      <facetEntailment facetID="LP_15c_f1" label="Expressed"/>
+      <facetEntailment facetID="LP_15c_f2" label="Expressed"/>
+      <facetEntailment facetID="LP_15c_f3" label="Expressed"/>
+      <facetEntailment facetID="LP_15c_f4" label="Expressed"/>
+      <facetEntailment facetID="LP_15c_f5" label="Expressed"/>
+      <facetEntailment facetID="LP_15c_f6" label="Expressed"/>
+      <facetEntailment facetID="LP_15c_f7" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="LP.15c.425.1" answerText="The farther the effort is applied from the fulcrum the effort decreases." accuracy="correct">
+      <facetEntailment facetID="LP_15c_f1" label="Expressed"/>
+      <facetEntailment facetID="LP_15c_f2" label="Expressed"/>
+      <facetEntailment facetID="LP_15c_f3" label="Expressed"/>
+      <facetEntailment facetID="LP_15c_f4" label="Expressed"/>
+      <facetEntailment facetID="LP_15c_f5" label="Assumed"/>
+      <facetEntailment facetID="LP_15c_f6" label="Assumed"/>
+      <facetEntailment facetID="LP_15c_f7" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="LP.15c.630.1" answerText="If the effort is closer to the fulcrum then it is easier but if the effort is farther from the fulcrum then it is harder." accuracy="contradictory">
+      <facetEntailment facetID="LP_15c_f1" label="Expressed"/>
+      <facetEntailment facetID="LP_15c_f2" label="Expressed"/>
+      <facetEntailment facetID="LP_15c_f3" label="Expressed"/>
+      <facetEntailment facetID="LP_15c_f4" label="Contra-Expr"/>
+      <facetEntailment facetID="LP_15c_f5" label="Assumed"/>
+      <facetEntailment facetID="LP_15c_f6" label="Assumed"/>
+      <facetEntailment facetID="LP_15c_f7" label="Expressed"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

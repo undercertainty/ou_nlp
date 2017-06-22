@@ -1,0 +1,239 @@
+<?xml version="1.0"?>
+<question id="MX_11c" module="MX">
+  <questionText>Jim used a solid and water to make Mixtures one (one spoon of solid in 100 milliliters water was clear with nothing on the bottom), 3 (3 spoons of solid in 100 milliliters water was clear with nothing on the bottom), 4 (4 spoons of solid in 100 milliliters water was clear with material on the bottom), and 5 (5 spoons of solid in 100 milliliters water was clear with material on the bottom) as shown below. He stirred each one and observed the results. Is the concentration of Mixture 5 less than, greater than, or the same as the concentration of Mixture 4? Explain your answer.</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="MX_11c-a1" text="The concentrations are the same because both mixtures are saturated.">
+      <tokens>
+        <token id="MX_11c_ra1">The</token>
+        <token id="MX_11c_ra2">concentrations</token>
+        <token id="MX_11c_ra3">are</token>
+        <token id="MX_11c_ra4">the</token>
+        <token id="MX_11c_ra5">same</token>
+        <token id="MX_11c_ra6">because</token>
+        <token id="MX_11c_ra7">both</token>
+        <token id="MX_11c_ra8">mixtures</token>
+        <token id="MX_11c_ra9">are</token>
+        <token id="MX_11c_ra10">saturated</token>
+        <token id="MX_11c_ra11">.</token>
+      </tokens>
+      <facets>
+        <facet id="MX_11c_f1" govNum="MX_11c_ra2" modNum="MX_11c_ra5" reltn="Be" govText="concentrations" modText="same"/>
+        <facet id="MX_11c_f2" govNum="MX_11c_ra8" modNum="MX_11c_ra7" reltn="Quantifier" govText="mixtures" modText="both"/>
+        <facet id="MX_11c_f3" govNum="MX_11c_ra8" modNum="MX_11c_ra10" reltn="Be" govText="mixtures" modText="saturated"/>
+        <facet id="MX_11c_f4" govNum="MX_11c_ra3" modNum="MX_11c_ra9" reltn="Cause_because" childProp2Facet2="MX_11c_f2" childProp1Facet1="MX_11c_f1" govText="are" modText="are" childProp2Facet1="MX_11c_f3"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="MX.11c.101.1" answerText="Greater than because mixture 5 has the same amount of water with more spoons of solid." accuracy="contradictory">
+      <facetEntailment facetID="MX_11c_f1" label="Contra-Infr"/>
+      <facetEntailment facetID="MX_11c_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MX_11c_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_11c_f4" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.11c.113.1" answerText="Greater than because it have 5 spoon of clear material." accuracy="contradictory">
+      <facetEntailment facetID="MX_11c_f1" label="Contra-Infr"/>
+      <facetEntailment facetID="MX_11c_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MX_11c_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_11c_f4" label="Diff-Arg"/>
+    </studentAnswer>
+    <studentAnswer id="MX.11c.151.1" answerText="Mixture 5 because they have the same amount of water but mixture 5 has more spoon." accuracy="contradictory">
+      <facetEntailment facetID="MX_11c_f1" label="Contra-Infr"/>
+      <facetEntailment facetID="MX_11c_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MX_11c_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_11c_f4" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.11c.243.1" answerText="Greater than mixture 4." accuracy="contradictory">
+      <facetEntailment facetID="MX_11c_f1" label="Contra-Infr"/>
+      <facetEntailment facetID="MX_11c_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MX_11c_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_11c_f4" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.11c.255.1" answerText="It is the same because it has the same stuff at the bottom." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="MX_11c_f1" label="Expressed"/>
+      <facetEntailment facetID="MX_11c_f2" label="Inferred"/>
+      <facetEntailment facetID="MX_11c_f3" label="Inferred"/>
+      <facetEntailment facetID="MX_11c_f4" label="Diff-Arg"/>
+    </studentAnswer>
+    <studentAnswer id="MX.11c.347.1" answerText="The same because in the picture of mixture 4 and 5, they show the same salt on the bottom." accuracy="correct">
+      <facetEntailment facetID="MX_11c_f1" label="Inferred"/>
+      <facetEntailment facetID="MX_11c_f2" label="Expressed"/>
+      <facetEntailment facetID="MX_11c_f3" label="Inferred"/>
+      <facetEntailment facetID="MX_11c_f4" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="MX.11c.364.1" answerText="They are the same and equal concentrated." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="MX_11c_f1" label="Expressed"/>
+      <facetEntailment facetID="MX_11c_f2" label="Inferred"/>
+      <facetEntailment facetID="MX_11c_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_11c_f4" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.11c.381.1" answerText="Mixtures is the same concentration, because both of the mixtures are saturated." accuracy="correct">
+      <facetEntailment facetID="MX_11c_f1" label="Expressed"/>
+      <facetEntailment facetID="MX_11c_f2" label="Expressed"/>
+      <facetEntailment facetID="MX_11c_f3" label="Expressed"/>
+      <facetEntailment facetID="MX_11c_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.11c.384.1" answerText="It is greater than because mixture 4 has more room to dissolve than mixture 5." accuracy="contradictory">
+      <facetEntailment facetID="MX_11c_f1" label="Contra-Expr"/>
+      <facetEntailment facetID="MX_11c_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MX_11c_f3" label="Contra-Infr"/>
+      <facetEntailment facetID="MX_11c_f4" label="Diff-Arg"/>
+    </studentAnswer>
+    <studentAnswer id="MX.11c.386.1" answerText="The same, because both solutions have the same saturation point so they have the same concentration and amount of solid." accuracy="correct">
+      <facetEntailment facetID="MX_11c_f1" label="Expressed"/>
+      <facetEntailment facetID="MX_11c_f2" label="Expressed"/>
+      <facetEntailment facetID="MX_11c_f3" label="Expressed"/>
+      <facetEntailment facetID="MX_11c_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.11c.390.1" answerText="The same because they both reached the saturation point." accuracy="correct">
+      <facetEntailment facetID="MX_11c_f1" label="Inferred"/>
+      <facetEntailment facetID="MX_11c_f2" label="Expressed"/>
+      <facetEntailment facetID="MX_11c_f3" label="Expressed"/>
+      <facetEntailment facetID="MX_11c_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.11c.399.1" answerText="They are the same amount concentrated because they have the same amount of water and dissolved material." accuracy="correct">
+      <facetEntailment facetID="MX_11c_f1" label="Expressed"/>
+      <facetEntailment facetID="MX_11c_f2" label="Inferred"/>
+      <facetEntailment facetID="MX_11c_f3" label="Inferred"/>
+      <facetEntailment facetID="MX_11c_f4" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="MX.11c.416.1" answerText="It is greater than because they have the same amount of water but 5 has one more spoon than 4." accuracy="contradictory">
+      <facetEntailment facetID="MX_11c_f1" label="Contra-Infr"/>
+      <facetEntailment facetID="MX_11c_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MX_11c_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_11c_f4" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.11c.418.1" answerText="They are the same because once a solution is saturated it is at its highest level of concentration." accuracy="correct">
+      <facetEntailment facetID="MX_11c_f1" label="Expressed"/>
+      <facetEntailment facetID="MX_11c_f2" label="Expressed"/>
+      <facetEntailment facetID="MX_11c_f3" label="Expressed"/>
+      <facetEntailment facetID="MX_11c_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.11c.423.1" answerText="The same because once a solution is saturated it is at its highest level of concentration." accuracy="correct">
+      <facetEntailment facetID="MX_11c_f1" label="Inferred"/>
+      <facetEntailment facetID="MX_11c_f2" label="Inferred"/>
+      <facetEntailment facetID="MX_11c_f3" label="Expressed"/>
+      <facetEntailment facetID="MX_11c_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.11c.425.1" answerText="The concentration is more in 5 because it has more material in it." accuracy="contradictory">
+      <facetEntailment facetID="MX_11c_f1" label="Contra-Infr"/>
+      <facetEntailment facetID="MX_11c_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MX_11c_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_11c_f4" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.11c.432.1" answerText="Greater than." accuracy="contradictory">
+      <facetEntailment facetID="MX_11c_f1" label="Contra-Infr"/>
+      <facetEntailment facetID="MX_11c_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MX_11c_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_11c_f4" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.11c.433.1" answerText="They are the same because when a solution is saturated, it is at its highest point of concentration." accuracy="correct">
+      <facetEntailment facetID="MX_11c_f1" label="Expressed"/>
+      <facetEntailment facetID="MX_11c_f2" label="Expressed"/>
+      <facetEntailment facetID="MX_11c_f3" label="Expressed"/>
+      <facetEntailment facetID="MX_11c_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.11c.439.1" answerText="They are the same because when the solution is saturated it is at its highest point of concentration." accuracy="correct">
+      <facetEntailment facetID="MX_11c_f1" label="Expressed"/>
+      <facetEntailment facetID="MX_11c_f2" label="Expressed"/>
+      <facetEntailment facetID="MX_11c_f3" label="Expressed"/>
+      <facetEntailment facetID="MX_11c_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.11c.456.1" answerText="The same because both solutions are saturated." accuracy="correct">
+      <facetEntailment facetID="MX_11c_f1" label="Inferred"/>
+      <facetEntailment facetID="MX_11c_f2" label="Expressed"/>
+      <facetEntailment facetID="MX_11c_f3" label="Expressed"/>
+      <facetEntailment facetID="MX_11c_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.11c.460.1" answerText="No because 5 has more scoops than 4." accuracy="contradictory">
+      <facetEntailment facetID="MX_11c_f1" label="Contra-Infr"/>
+      <facetEntailment facetID="MX_11c_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MX_11c_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_11c_f4" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.11c.463.1" answerText="Same because if they all have the same water and 4 is concentrated with 4 scoops and 5 with 5 scoops then the solubility is the same because of the same amount of water become crystal." accuracy="correct">
+      <facetEntailment facetID="MX_11c_f1" label="Inferred"/>
+      <facetEntailment facetID="MX_11c_f2" label="Expressed"/>
+      <facetEntailment facetID="MX_11c_f3" label="Expressed"/>
+      <facetEntailment facetID="MX_11c_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.11c.465.1" answerText="Same as mixture 4 because you cannot see them." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="MX_11c_f1" label="Inferred"/>
+      <facetEntailment facetID="MX_11c_f2" label="Inferred"/>
+      <facetEntailment facetID="MX_11c_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_11c_f4" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.11c.469.1" answerText="Mixture 5 is greater than mixture 4 because it has the same amount of water and at the bottom it is both clear material but it does not have the same amount of solid." accuracy="contradictory">
+      <facetEntailment facetID="MX_11c_f1" label="Contra-Infr"/>
+      <facetEntailment facetID="MX_11c_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MX_11c_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_11c_f4" label="Diff-Arg"/>
+    </studentAnswer>
+    <studentAnswer id="MX.11c.502.1" answerText="No because there is one extra spoon in 5." accuracy="contradictory">
+      <facetEntailment facetID="MX_11c_f1" label="Contra-Infr"/>
+      <facetEntailment facetID="MX_11c_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MX_11c_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_11c_f4" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.11c.531.1" answerText="Same because they are both saturated and it can only hold an equal amount." accuracy="correct">
+      <facetEntailment facetID="MX_11c_f1" label="Inferred"/>
+      <facetEntailment facetID="MX_11c_f2" label="Expressed"/>
+      <facetEntailment facetID="MX_11c_f3" label="Expressed"/>
+      <facetEntailment facetID="MX_11c_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.11c.533.1" answerText="Greater than because it has more scoops." accuracy="contradictory">
+      <facetEntailment facetID="MX_11c_f1" label="Contra-Infr"/>
+      <facetEntailment facetID="MX_11c_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MX_11c_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_11c_f4" label="Diff-Arg"/>
+    </studentAnswer>
+    <studentAnswer id="MX.11c.557.1" answerText="The same because it has the same amount of water." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="MX_11c_f1" label="Inferred"/>
+      <facetEntailment facetID="MX_11c_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MX_11c_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_11c_f4" label="Diff-Arg"/>
+    </studentAnswer>
+    <studentAnswer id="MX.11c.560.1" answerText="Same. Because they are both saturated." accuracy="correct">
+      <facetEntailment facetID="MX_11c_f1" label="Inferred"/>
+      <facetEntailment facetID="MX_11c_f2" label="Expressed"/>
+      <facetEntailment facetID="MX_11c_f3" label="Expressed"/>
+      <facetEntailment facetID="MX_11c_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.11c.572.1" answerText="The same because they both have the same amount of water." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="MX_11c_f1" label="Inferred"/>
+      <facetEntailment facetID="MX_11c_f2" label="Expressed"/>
+      <facetEntailment facetID="MX_11c_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_11c_f4" label="Diff-Arg"/>
+    </studentAnswer>
+    <studentAnswer id="MX.11c.575.1" answerText="The same because once a solution is saturated it is at its greatest concentration." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="MX_11c_f1" label="Expressed"/>
+      <facetEntailment facetID="MX_11c_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MX_11c_f3" label="Expressed"/>
+      <facetEntailment facetID="MX_11c_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.11c.626.1" answerText="One, 2, 3 they all are clear with no material on the bottom." accuracy="irrelevant">
+      <facetEntailment facetID="MX_11c_f1" label="Unaddressed"/>
+      <facetEntailment facetID="MX_11c_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MX_11c_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_11c_f4" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MX.11c.633.1" answerText="They both have material on the bottom." accuracy="correct">
+      <facetEntailment facetID="MX_11c_f1" label="Inferred"/>
+      <facetEntailment facetID="MX_11c_f2" label="Expressed"/>
+      <facetEntailment facetID="MX_11c_f3" label="Inferred"/>
+      <facetEntailment facetID="MX_11c_f4" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="MX.11c.635.1" answerText="Same they both are clear and there is material on bottom." accuracy="correct">
+      <facetEntailment facetID="MX_11c_f1" label="Inferred"/>
+      <facetEntailment facetID="MX_11c_f2" label="Expressed"/>
+      <facetEntailment facetID="MX_11c_f3" label="Inferred"/>
+      <facetEntailment facetID="MX_11c_f4" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="MX.11c.636.1" answerText="It is greater than because it has one more spoon of the solid." accuracy="contradictory">
+      <facetEntailment facetID="MX_11c_f1" label="Contra-Expr"/>
+      <facetEntailment facetID="MX_11c_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MX_11c_f3" label="Unaddressed"/>
+      <facetEntailment facetID="MX_11c_f4" label="Diff-Arg"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

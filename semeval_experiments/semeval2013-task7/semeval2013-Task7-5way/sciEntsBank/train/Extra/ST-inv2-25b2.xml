@@ -1,0 +1,361 @@
+<?xml version="1.0"?>
+<question id="ST_25b2" module="ST">
+  <questionText>Look at the picture of the bean seedling shortly after germination. Describe the function of each of the parts: cotyledon.</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="ST_25b2-a1" text="The cotyledon provides food for the plant until the plant can make food for itself.">
+      <tokens>
+        <token id="ST_25b2_ra1">The</token>
+        <token id="ST_25b2_ra2">cotyledon</token>
+        <token id="ST_25b2_ra3">provides</token>
+        <token id="ST_25b2_ra4">food</token>
+        <token id="ST_25b2_ra5">for</token>
+        <token id="ST_25b2_ra6">the</token>
+        <token id="ST_25b2_ra7">plant</token>
+        <token id="ST_25b2_ra8">until</token>
+        <token id="ST_25b2_ra9">the</token>
+        <token id="ST_25b2_ra10">plant</token>
+        <token id="ST_25b2_ra11">can</token>
+        <token id="ST_25b2_ra12">make</token>
+        <token id="ST_25b2_ra13">food</token>
+        <token id="ST_25b2_ra14">for</token>
+        <token id="ST_25b2_ra15">itself</token>
+        <token id="ST_25b2_ra16">.</token>
+      </tokens>
+      <facets>
+        <facet id="ST_25b2_f1" govNum="ST_25b2_ra3" modNum="ST_25b2_ra2" reltn="Means" govText="provides" modText="cotyledon"/>
+        <facet id="ST_25b2_f2" govNum="ST_25b2_ra3" modNum="ST_25b2_ra4" reltn="Theme" govText="provides" modText="food"/>
+        <facet id="ST_25b2_f3" govNum="ST_25b2_ra3" modNum="ST_25b2_ra7" reltn="Recipient_for" govText="provides" modText="plant"/>
+        <facet id="ST_25b2_f4" govNum="ST_25b2_ra3" modNum="ST_25b2_ra12" reltn="Time_until" childProp2Facet2="ST_25b2_f6" govText="provides" modText="make" childProp2Facet1="ST_25b2_f5"/>
+        <facet id="ST_25b2_f5" govNum="ST_25b2_ra12" modNum="ST_25b2_ra10" reltn="Agent" govText="make" modText="plant"/>
+        <facet id="ST_25b2_f6" govNum="ST_25b2_ra12" modNum="ST_25b2_ra13" reltn="Product" govText="make" modText="food"/>
+        <facet id="ST_25b2_f7" govNum="ST_25b2_ra12" modNum="ST_25b2_ra15" reltn="Recipient_for" govText="make" modText="itself"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="ST.25b2.384.1" answerText="Helps give the plant food." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="ST_25b2_f1" label="Inferred"/>
+      <facetEntailment facetID="ST_25b2_f2" label="Expressed"/>
+      <facetEntailment facetID="ST_25b2_f3" label="Expressed"/>
+      <facetEntailment facetID="ST_25b2_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ST_25b2_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ST_25b2_f6" label="Unaddressed"/>
+      <facetEntailment facetID="ST_25b2_f7" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ST.25b2.385.1" answerText="Store food." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="ST_25b2_f1" label="Inferred"/>
+      <facetEntailment facetID="ST_25b2_f2" label="Expressed"/>
+      <facetEntailment facetID="ST_25b2_f3" label="Inferred"/>
+      <facetEntailment facetID="ST_25b2_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ST_25b2_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ST_25b2_f6" label="Unaddressed"/>
+      <facetEntailment facetID="ST_25b2_f7" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ST.25b2.390.1" answerText="Saves food." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="ST_25b2_f1" label="Inferred"/>
+      <facetEntailment facetID="ST_25b2_f2" label="Expressed"/>
+      <facetEntailment facetID="ST_25b2_f3" label="Inferred"/>
+      <facetEntailment facetID="ST_25b2_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ST_25b2_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ST_25b2_f6" label="Unaddressed"/>
+      <facetEntailment facetID="ST_25b2_f7" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ST.25b2.392.1" answerText="Stores food for the seedling until it grows leaves." accuracy="correct">
+      <facetEntailment facetID="ST_25b2_f1" label="Inferred"/>
+      <facetEntailment facetID="ST_25b2_f2" label="Expressed"/>
+      <facetEntailment facetID="ST_25b2_f3" label="Expressed"/>
+      <facetEntailment facetID="ST_25b2_f4" label="Expressed"/>
+      <facetEntailment facetID="ST_25b2_f5" label="Inferred"/>
+      <facetEntailment facetID="ST_25b2_f6" label="Inferred"/>
+      <facetEntailment facetID="ST_25b2_f7" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="ST.25b2.395.1" answerText="Gives the seed food." accuracy="correct">
+      <facetEntailment facetID="ST_25b2_f1" label="Inferred"/>
+      <facetEntailment facetID="ST_25b2_f2" label="Expressed"/>
+      <facetEntailment facetID="ST_25b2_f3" label="Inferred"/>
+      <facetEntailment facetID="ST_25b2_f4" label="Inferred"/>
+      <facetEntailment facetID="ST_25b2_f5" label="Inferred"/>
+      <facetEntailment facetID="ST_25b2_f6" label="Inferred"/>
+      <facetEntailment facetID="ST_25b2_f7" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="ST.25b2.400.1" answerText="To store the food, nutrients." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="ST_25b2_f1" label="Inferred"/>
+      <facetEntailment facetID="ST_25b2_f2" label="Expressed"/>
+      <facetEntailment facetID="ST_25b2_f3" label="Inferred"/>
+      <facetEntailment facetID="ST_25b2_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ST_25b2_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ST_25b2_f6" label="Unaddressed"/>
+      <facetEntailment facetID="ST_25b2_f7" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ST.25b2.422.1" answerText="The cotyledon or the seed is the seed coat came off." accuracy="irrelevant">
+      <facetEntailment facetID="ST_25b2_f1" label="Unaddressed"/>
+      <facetEntailment facetID="ST_25b2_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ST_25b2_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ST_25b2_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ST_25b2_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ST_25b2_f6" label="Unaddressed"/>
+      <facetEntailment facetID="ST_25b2_f7" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ST.25b2.451.1" answerText="The cotyledon is the food storage." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="ST_25b2_f1" label="Expressed"/>
+      <facetEntailment facetID="ST_25b2_f2" label="Expressed"/>
+      <facetEntailment facetID="ST_25b2_f3" label="Inferred"/>
+      <facetEntailment facetID="ST_25b2_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ST_25b2_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ST_25b2_f6" label="Unaddressed"/>
+      <facetEntailment facetID="ST_25b2_f7" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ST.25b2.452.1" answerText="Is the seed." accuracy="irrelevant">
+      <facetEntailment facetID="ST_25b2_f1" label="Unaddressed"/>
+      <facetEntailment facetID="ST_25b2_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ST_25b2_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ST_25b2_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ST_25b2_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ST_25b2_f6" label="Unaddressed"/>
+      <facetEntailment facetID="ST_25b2_f7" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ST.25b2.453.1" answerText="Feeds the seed." accuracy="correct">
+      <facetEntailment facetID="ST_25b2_f1" label="Inferred"/>
+      <facetEntailment facetID="ST_25b2_f2" label="Expressed"/>
+      <facetEntailment facetID="ST_25b2_f3" label="Inferred"/>
+      <facetEntailment facetID="ST_25b2_f4" label="Inferred"/>
+      <facetEntailment facetID="ST_25b2_f5" label="Inferred"/>
+      <facetEntailment facetID="ST_25b2_f6" label="Inferred"/>
+      <facetEntailment facetID="ST_25b2_f7" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="ST.25b2.455.1" answerText="Stores food for it until it grows into a plant." accuracy="correct">
+      <facetEntailment facetID="ST_25b2_f1" label="Inferred"/>
+      <facetEntailment facetID="ST_25b2_f2" label="Expressed"/>
+      <facetEntailment facetID="ST_25b2_f3" label="Inferred"/>
+      <facetEntailment facetID="ST_25b2_f4" label="Expressed"/>
+      <facetEntailment facetID="ST_25b2_f5" label="Inferred"/>
+      <facetEntailment facetID="ST_25b2_f6" label="Inferred"/>
+      <facetEntailment facetID="ST_25b2_f7" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="ST.25b2.459.1" answerText="Provide food." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="ST_25b2_f1" label="Inferred"/>
+      <facetEntailment facetID="ST_25b2_f2" label="Expressed"/>
+      <facetEntailment facetID="ST_25b2_f3" label="Inferred"/>
+      <facetEntailment facetID="ST_25b2_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ST_25b2_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ST_25b2_f6" label="Unaddressed"/>
+      <facetEntailment facetID="ST_25b2_f7" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ST.25b2.463.1" answerText="Stores food." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="ST_25b2_f1" label="Inferred"/>
+      <facetEntailment facetID="ST_25b2_f2" label="Expressed"/>
+      <facetEntailment facetID="ST_25b2_f3" label="Inferred"/>
+      <facetEntailment facetID="ST_25b2_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ST_25b2_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ST_25b2_f6" label="Unaddressed"/>
+      <facetEntailment facetID="ST_25b2_f7" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ST.25b2.472.1" answerText="To provide food when germination." accuracy="correct">
+      <facetEntailment facetID="ST_25b2_f1" label="Inferred"/>
+      <facetEntailment facetID="ST_25b2_f2" label="Expressed"/>
+      <facetEntailment facetID="ST_25b2_f3" label="Inferred"/>
+      <facetEntailment facetID="ST_25b2_f4" label="Inferred"/>
+      <facetEntailment facetID="ST_25b2_f5" label="Inferred"/>
+      <facetEntailment facetID="ST_25b2_f6" label="Inferred"/>
+      <facetEntailment facetID="ST_25b2_f7" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="ST.25b2.487.1" answerText="It gather up food for the seed." accuracy="correct">
+      <facetEntailment facetID="ST_25b2_f1" label="Expressed"/>
+      <facetEntailment facetID="ST_25b2_f2" label="Expressed"/>
+      <facetEntailment facetID="ST_25b2_f3" label="Expressed"/>
+      <facetEntailment facetID="ST_25b2_f4" label="Inferred"/>
+      <facetEntailment facetID="ST_25b2_f5" label="Inferred"/>
+      <facetEntailment facetID="ST_25b2_f6" label="Inferred"/>
+      <facetEntailment facetID="ST_25b2_f7" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="ST.25b2.493.1" answerText="The cotyledon stores the food." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="ST_25b2_f1" label="Expressed"/>
+      <facetEntailment facetID="ST_25b2_f2" label="Expressed"/>
+      <facetEntailment facetID="ST_25b2_f3" label="Inferred"/>
+      <facetEntailment facetID="ST_25b2_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ST_25b2_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ST_25b2_f6" label="Unaddressed"/>
+      <facetEntailment facetID="ST_25b2_f7" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ST.25b2.496.1" answerText="The cotyledon is a little plant in the bean that store food." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="ST_25b2_f1" label="Expressed"/>
+      <facetEntailment facetID="ST_25b2_f2" label="Expressed"/>
+      <facetEntailment facetID="ST_25b2_f3" label="Inferred"/>
+      <facetEntailment facetID="ST_25b2_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ST_25b2_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ST_25b2_f6" label="Unaddressed"/>
+      <facetEntailment facetID="ST_25b2_f7" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ST.25b2.497.1" answerText="Help it grow." accuracy="irrelevant">
+      <facetEntailment facetID="ST_25b2_f1" label="Unaddressed"/>
+      <facetEntailment facetID="ST_25b2_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ST_25b2_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ST_25b2_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ST_25b2_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ST_25b2_f6" label="Unaddressed"/>
+      <facetEntailment facetID="ST_25b2_f7" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ST.25b2.501.1" answerText="Something that feeds the seed." accuracy="correct">
+      <facetEntailment facetID="ST_25b2_f1" label="Inferred"/>
+      <facetEntailment facetID="ST_25b2_f2" label="Expressed"/>
+      <facetEntailment facetID="ST_25b2_f3" label="Expressed"/>
+      <facetEntailment facetID="ST_25b2_f4" label="Inferred"/>
+      <facetEntailment facetID="ST_25b2_f5" label="Inferred"/>
+      <facetEntailment facetID="ST_25b2_f6" label="Inferred"/>
+      <facetEntailment facetID="ST_25b2_f7" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="ST.25b2.502.1" answerText="The cotyledon is the inside." accuracy="irrelevant">
+      <facetEntailment facetID="ST_25b2_f1" label="Unaddressed"/>
+      <facetEntailment facetID="ST_25b2_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ST_25b2_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ST_25b2_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ST_25b2_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ST_25b2_f6" label="Unaddressed"/>
+      <facetEntailment facetID="ST_25b2_f7" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ST.25b2.503.1" answerText="The cotyledon splits opened." accuracy="irrelevant">
+      <facetEntailment facetID="ST_25b2_f1" label="Diff-Arg"/>
+      <facetEntailment facetID="ST_25b2_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ST_25b2_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ST_25b2_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ST_25b2_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ST_25b2_f6" label="Unaddressed"/>
+      <facetEntailment facetID="ST_25b2_f7" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ST.25b2.533.1" answerText="Stores food." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="ST_25b2_f1" label="Inferred"/>
+      <facetEntailment facetID="ST_25b2_f2" label="Expressed"/>
+      <facetEntailment facetID="ST_25b2_f3" label="Inferred"/>
+      <facetEntailment facetID="ST_25b2_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ST_25b2_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ST_25b2_f6" label="Unaddressed"/>
+      <facetEntailment facetID="ST_25b2_f7" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ST.25b2.562.1" answerText="The cotyledon gives food to the plant until it grows roots." accuracy="correct">
+      <facetEntailment facetID="ST_25b2_f1" label="Expressed"/>
+      <facetEntailment facetID="ST_25b2_f2" label="Expressed"/>
+      <facetEntailment facetID="ST_25b2_f3" label="Expressed"/>
+      <facetEntailment facetID="ST_25b2_f4" label="Expressed"/>
+      <facetEntailment facetID="ST_25b2_f5" label="Inferred"/>
+      <facetEntailment facetID="ST_25b2_f6" label="Inferred"/>
+      <facetEntailment facetID="ST_25b2_f7" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="ST.25b2.570.1" answerText="It folds of when it is done." accuracy="irrelevant">
+      <facetEntailment facetID="ST_25b2_f1" label="Unaddressed"/>
+      <facetEntailment facetID="ST_25b2_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ST_25b2_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ST_25b2_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ST_25b2_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ST_25b2_f6" label="Unaddressed"/>
+      <facetEntailment facetID="ST_25b2_f7" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ST.25b2.591.1" answerText="Food supply." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="ST_25b2_f1" label="Inferred"/>
+      <facetEntailment facetID="ST_25b2_f2" label="Expressed"/>
+      <facetEntailment facetID="ST_25b2_f3" label="Inferred"/>
+      <facetEntailment facetID="ST_25b2_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ST_25b2_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ST_25b2_f6" label="Unaddressed"/>
+      <facetEntailment facetID="ST_25b2_f7" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ST.25b2.592.1" answerText="A cotyledon in the food supply." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="ST_25b2_f1" label="Expressed"/>
+      <facetEntailment facetID="ST_25b2_f2" label="Expressed"/>
+      <facetEntailment facetID="ST_25b2_f3" label="Inferred"/>
+      <facetEntailment facetID="ST_25b2_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ST_25b2_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ST_25b2_f6" label="Unaddressed"/>
+      <facetEntailment facetID="ST_25b2_f7" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ST.25b2.595.1" answerText="It is the food supply until the plant grows leaves." accuracy="correct">
+      <facetEntailment facetID="ST_25b2_f1" label="Expressed"/>
+      <facetEntailment facetID="ST_25b2_f2" label="Expressed"/>
+      <facetEntailment facetID="ST_25b2_f3" label="Expressed"/>
+      <facetEntailment facetID="ST_25b2_f4" label="Expressed"/>
+      <facetEntailment facetID="ST_25b2_f5" label="Inferred"/>
+      <facetEntailment facetID="ST_25b2_f6" label="Inferred"/>
+      <facetEntailment facetID="ST_25b2_f7" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="ST.25b2.601.1" answerText="Food supply for the plant." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="ST_25b2_f1" label="Inferred"/>
+      <facetEntailment facetID="ST_25b2_f2" label="Expressed"/>
+      <facetEntailment facetID="ST_25b2_f3" label="Expressed"/>
+      <facetEntailment facetID="ST_25b2_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ST_25b2_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ST_25b2_f6" label="Unaddressed"/>
+      <facetEntailment facetID="ST_25b2_f7" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ST.25b2.603.1" answerText="It stows the food for the young plant." accuracy="correct">
+      <facetEntailment facetID="ST_25b2_f1" label="Inferred"/>
+      <facetEntailment facetID="ST_25b2_f2" label="Expressed"/>
+      <facetEntailment facetID="ST_25b2_f3" label="Expressed"/>
+      <facetEntailment facetID="ST_25b2_f4" label="Inferred"/>
+      <facetEntailment facetID="ST_25b2_f5" label="Inferred"/>
+      <facetEntailment facetID="ST_25b2_f6" label="Inferred"/>
+      <facetEntailment facetID="ST_25b2_f7" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="ST.25b2.607.1" answerText="The cotyledon supplies food for the seed until it can supply its own food." accuracy="correct">
+      <facetEntailment facetID="ST_25b2_f1" label="Expressed"/>
+      <facetEntailment facetID="ST_25b2_f2" label="Expressed"/>
+      <facetEntailment facetID="ST_25b2_f3" label="Expressed"/>
+      <facetEntailment facetID="ST_25b2_f4" label="Expressed"/>
+      <facetEntailment facetID="ST_25b2_f5" label="Expressed"/>
+      <facetEntailment facetID="ST_25b2_f6" label="Expressed"/>
+      <facetEntailment facetID="ST_25b2_f7" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="ST.25b2.609.1" answerText="Holds seed coat." accuracy="irrelevant">
+      <facetEntailment facetID="ST_25b2_f1" label="Unaddressed"/>
+      <facetEntailment facetID="ST_25b2_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ST_25b2_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ST_25b2_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ST_25b2_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ST_25b2_f6" label="Unaddressed"/>
+      <facetEntailment facetID="ST_25b2_f7" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ST.25b2.610.1" answerText="Food supply." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="ST_25b2_f1" label="Inferred"/>
+      <facetEntailment facetID="ST_25b2_f2" label="Expressed"/>
+      <facetEntailment facetID="ST_25b2_f3" label="Inferred"/>
+      <facetEntailment facetID="ST_25b2_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ST_25b2_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ST_25b2_f6" label="Unaddressed"/>
+      <facetEntailment facetID="ST_25b2_f7" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ST.25b2.628.1" answerText="Give it nutrients." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="ST_25b2_f1" label="Inferred"/>
+      <facetEntailment facetID="ST_25b2_f2" label="Expressed"/>
+      <facetEntailment facetID="ST_25b2_f3" label="Expressed"/>
+      <facetEntailment facetID="ST_25b2_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ST_25b2_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ST_25b2_f6" label="Unaddressed"/>
+      <facetEntailment facetID="ST_25b2_f7" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ST.25b2.632.1" answerText="Stores food for the plant in until it can make on its own." accuracy="correct">
+      <facetEntailment facetID="ST_25b2_f1" label="Inferred"/>
+      <facetEntailment facetID="ST_25b2_f2" label="Expressed"/>
+      <facetEntailment facetID="ST_25b2_f3" label="Expressed"/>
+      <facetEntailment facetID="ST_25b2_f4" label="Expressed"/>
+      <facetEntailment facetID="ST_25b2_f5" label="Expressed"/>
+      <facetEntailment facetID="ST_25b2_f6" label="Expressed"/>
+      <facetEntailment facetID="ST_25b2_f7" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="ST.25b2.636.1" answerText="The outside of the seeds." accuracy="irrelevant">
+      <facetEntailment facetID="ST_25b2_f1" label="Unaddressed"/>
+      <facetEntailment facetID="ST_25b2_f2" label="Unaddressed"/>
+      <facetEntailment facetID="ST_25b2_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ST_25b2_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ST_25b2_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ST_25b2_f6" label="Unaddressed"/>
+      <facetEntailment facetID="ST_25b2_f7" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ST.25b2.640.1" answerText="Holds the food." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="ST_25b2_f1" label="Inferred"/>
+      <facetEntailment facetID="ST_25b2_f2" label="Expressed"/>
+      <facetEntailment facetID="ST_25b2_f3" label="Inferred"/>
+      <facetEntailment facetID="ST_25b2_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ST_25b2_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ST_25b2_f6" label="Unaddressed"/>
+      <facetEntailment facetID="ST_25b2_f7" label="Unaddressed"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

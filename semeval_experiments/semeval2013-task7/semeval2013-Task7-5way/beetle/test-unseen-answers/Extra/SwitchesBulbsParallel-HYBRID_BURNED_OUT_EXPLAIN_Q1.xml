@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<question testSet="unseen-answers" qtype="Q_EXPLAIN_SPECIFIC" id="HYBRID_BURNED_OUT_EXPLAIN_Q1" module="SwitchesBulbsParallel" stype="PREDICT">
+  <questionText>Explain your reasoning.</questionText>
+  <referenceAnswers>
+    <referenceAnswer category="BEST" id="answer371" fileID="HYBRID_BURNED_OUT_EXPLAIN_Q1_ANS1">If bulb A burns out, B and C are no longer in a closed path with the battery</referenceAnswer>
+    <referenceAnswer category="GOOD" id="answer373" fileID="HYBRID_BURNED_OUT_EXPLAIN_Q1_ANS1B">If bulb A burns out, there is no longer a closed path containing B, C and the battery</referenceAnswer>
+    <referenceAnswer category="GOOD" id="answer375" fileID="HYBRID_BURNED_OUT_EXPLAIN_Q1_ANS3">If bulb A burns out, neither B nor C is in a closed path</referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer count="1" raw_text="because the paths will still be closed" id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_EXPLAIN_Q1.sbj15-l2.qa123" accuracy="contradictory">
+      <token status="ok" id="tok2597">because</token>
+      <token status="ok" id="tok2598">the</token>
+      <token status="ok" id="tok2599">paths</token>
+      <token status="ok" id="tok2600">will</token>
+      <token status="ok" id="tok2601">still</token>
+      <token status="ok" id="tok2602">be</token>
+      <token status="ok" id="tok2603">closed</token>
+    </studentAnswer>
+    <studentAnswer count="1" raw_text="they are in different paths" id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_EXPLAIN_Q1.sbj19-l2.qa123" accuracy="contradictory">
+      <token status="ok" id="tok2616">they</token>
+      <token status="ok" id="tok2617">are</token>
+      <token status="ok" id="tok2618">in</token>
+      <token status="ok" id="tok2619">different</token>
+      <token status="ok" id="tok2620">paths</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer375" raw_text="There is a gap in the path." id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_EXPLAIN_Q1.sbj23-l2.qa103" accuracy="correct">
+      <token status="ok" id="tok1938">There</token>
+      <token status="ok" id="tok1939">is</token>
+      <token status="ok" id="tok1940">a</token>
+      <token status="ok" id="tok1941">gap</token>
+      <token status="ok" id="tok1942">in</token>
+      <token status="ok" id="tok1943">the</token>
+      <token status="ok" id="tok1944">path</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer375" raw_text="Bulbs B and C will no longer be contained in a closed path" id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_EXPLAIN_Q1.sbj34-l2.qa112" accuracy="correct">
+      <token status="ok" id="tok2124">Bulbs</token>
+      <token status="ok" id="tok2125">B</token>
+      <token status="ok" id="tok2126">and</token>
+      <token status="ok" id="tok2127">C</token>
+      <token status="ok" id="tok2128">will</token>
+      <token status="ok" id="tok2129">no</token>
+      <token status="ok" id="tok2130">longer</token>
+      <token status="ok" id="tok2131">be</token>
+      <token status="ok" id="tok2132">contained</token>
+      <token status="ok" id="tok2133">in</token>
+      <token status="ok" id="tok2134">a</token>
+      <token status="ok" id="tok2135">closed</token>
+      <token status="ok" id="tok2136">path</token>
+    </studentAnswer>
+    <studentAnswer count="1" answerMatch="answer375" raw_text="becuase bulb a breaks the pathway for all bulbs to the battery." id="SwitchesBulbsParallel-HYBRID_BURNED_OUT_EXPLAIN_Q1.sbjb35-l2.qa92" accuracy="correct">
+      <token status="ok" id="tok1900" original="becuase">because</token>
+      <token status="ok" id="tok1901">bulb</token>
+      <token status="ok" id="tok1902">a</token>
+      <token status="ok" id="tok1903">breaks</token>
+      <token status="ok" id="tok1904">the</token>
+      <token status="ok" id="tok1905">pathway</token>
+      <token status="ok" id="tok1906">for</token>
+      <token status="ok" id="tok1907">all</token>
+      <token status="ok" id="tok1908">bulbs</token>
+      <token status="ok" id="tok1909">to</token>
+      <token status="ok" id="tok1910">the</token>
+      <token status="ok" id="tok1911">battery</token>
+    </studentAnswer>
+  </studentAnswers>
+</question>

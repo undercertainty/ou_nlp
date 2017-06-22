@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<question testSet="unseen-answers" id="PS_26p" module="PS">
+  <questionText>Kate said: "An object has to move to produce sound." Do you agree with her? Why or why not?</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="PS_26p-a1" text="Agree. Vibrations are movements. Vibrations produce sound.">
+      <tokens>
+        <token id="PS_26_ra1">Agree</token>
+        <token id="PS_26_ra2">.</token>
+        <token id="PS_26_ra3">Vibrations</token>
+        <token id="PS_26_ra4">are</token>
+        <token id="PS_26_ra5">movements</token>
+        <token id="PS_26_ra6">.</token>
+        <token id="PS_26_ra7">Vibrations</token>
+        <token id="PS_26_ra8">produce</token>
+        <token id="PS_26_ra9">sound</token>
+        <token id="PS_26_ra10">.</token>
+      </tokens>
+      <facets>
+        <facet id="PS_26_f1" govNum="PS_26_ra0" modNum="PS_26_ra1" reltn="Root" govText="root" modText="Agree"/>
+        <facet id="PS_26_f2" govNum="PS_26_ra3" modNum="PS_26_ra5" reltn="Be" govText="Vibrations" modText="movements"/>
+        <facet id="PS_26_f3" govNum="PS_26_ra8" modNum="PS_26_ra7" reltn="Cause" govText="produce" modText="Vibrations"/>
+        <facet id="PS_26_f4" govNum="PS_26_ra8" modNum="PS_26_ra9" reltn="Product" govText="produce" isAssumed="true" modText="sound"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="PS.26.152.1" answerText="Yes I do agree because there are some that have to shake." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="PS_26_f1" label="Expressed"/>
+      <facetEntailment facetID="PS_26_f2" label="Unaddressed"/>
+      <facetEntailment facetID="PS_26_f3" label="Unaddressed"/>
+      <facetEntailment facetID="PS_26_f4" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.26.319.1" answerText="No! Because a TV makes sound and does not move." accuracy="contradictory">
+      <facetEntailment facetID="PS_26_f1" label="Contra-Expr"/>
+      <facetEntailment facetID="PS_26_f2" label="Unaddressed"/>
+      <facetEntailment facetID="PS_26_f3" label="Diff-Arg"/>
+      <facetEntailment facetID="PS_26_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.26.454.1" answerText="I agree with Kate because a vibration has to move And in order for sound to be made it needs to vibrate." accuracy="correct">
+      <facetEntailment facetID="PS_26_f1" label="Expressed"/>
+      <facetEntailment facetID="PS_26_f2" label="Expressed"/>
+      <facetEntailment facetID="PS_26_f3" label="Expressed"/>
+      <facetEntailment facetID="PS_26_f4" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="PS.26.524.1" answerText="I agree because it has to vibrate and vibrating is moving." accuracy="correct">
+      <facetEntailment facetID="PS_26_f1" label="Expressed"/>
+      <facetEntailment facetID="PS_26_f2" label="Expressed"/>
+      <facetEntailment facetID="PS_26_f3" label="Inferred"/>
+      <facetEntailment facetID="PS_26_f4" label="Assumed"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

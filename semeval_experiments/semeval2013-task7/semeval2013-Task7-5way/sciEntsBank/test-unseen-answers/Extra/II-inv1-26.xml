@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<question testSet="unseen-answers" id="II_26" module="II">
+  <questionText>Look at the rubbings of 2 different fabrics. What do the rubbings tell us about the different textures of these 2 fabrics?</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="II_26-a1" text="Fabric A is smoother and has a finer texture. Fabric B is rougher and has a coarser texture.">
+      <tokens>
+        <token id="II_26_ra1">Fabric</token>
+        <token id="II_26_ra2">A</token>
+        <token id="II_26_ra3">is</token>
+        <token id="II_26_ra4">smoother</token>
+        <token id="II_26_ra5">and</token>
+        <token id="II_26_ra6">has</token>
+        <token id="II_26_ra7">a</token>
+        <token id="II_26_ra8">finer</token>
+        <token id="II_26_ra9">texture</token>
+        <token id="II_26_ra10">.</token>
+        <token id="II_26_ra11">Fabric</token>
+        <token id="II_26_ra12">B</token>
+        <token id="II_26_ra13">is</token>
+        <token id="II_26_ra14">rougher</token>
+        <token id="II_26_ra15">and</token>
+        <token id="II_26_ra16">has</token>
+        <token id="II_26_ra17">a</token>
+        <token id="II_26_ra18">coarser</token>
+        <token id="II_26_ra19">texture</token>
+        <token id="II_26_ra20">.</token>
+      </tokens>
+      <facets>
+        <facet id="II_26_f1" govNum="II_26_ra2" modNum="II_26_ra1" reltn="NMod" govText="A" isAssumed="true" modText="Fabric"/>
+        <facet id="II_26_f2" govNum="II_26_ra2" modNum="II_26_ra4" reltn="Be" govText="A" modText="smoother"/>
+        <facet id="II_26_f3" govNum="II_26_ra2" modNum="II_26_ra9" reltn="Have" govText="A" isAssumed="true" modText="texture"/>
+        <facet id="II_26_f4" govNum="II_26_ra9" modNum="II_26_ra8" reltn="NMod" govText="texture" modText="finer"/>
+        <facet id="II_26_f5" govNum="II_26_ra12" modNum="II_26_ra11" reltn="NMod" govText="B" isAssumed="true" modText="Fabric"/>
+        <facet id="II_26_f6" govNum="II_26_ra12" modNum="II_26_ra14" reltn="Be" govText="B" modText="rougher"/>
+        <facet id="II_26_f7" govNum="II_26_ra12" modNum="II_26_ra19" reltn="Have" govText="B" isAssumed="true" modText="texture"/>
+        <facet id="II_26_f8" govNum="II_26_ra19" modNum="II_26_ra18" reltn="NMod" govText="texture" modText="coarser"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="II.26.395.1" answerText="They are rough. A has bumpy dots. B has bumpy dots and lines." accuracy="contradictory">
+      <facetEntailment facetID="II_26_f1" label="Assumed"/>
+      <facetEntailment facetID="II_26_f2" label="Contra-Infr"/>
+      <facetEntailment facetID="II_26_f3" label="Expressed"/>
+      <facetEntailment facetID="II_26_f4" label="Contra-Infr"/>
+      <facetEntailment facetID="II_26_f5" label="Assumed"/>
+      <facetEntailment facetID="II_26_f6" label="Inferred"/>
+      <facetEntailment facetID="II_26_f7" label="Expressed"/>
+      <facetEntailment facetID="II_26_f8" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="II.26.434.1" answerText="A is like lines and B has squares and lines." accuracy="irrelevant">
+      <facetEntailment facetID="II_26_f1" label="Assumed"/>
+      <facetEntailment facetID="II_26_f2" label="Diff-Arg"/>
+      <facetEntailment facetID="II_26_f3" label="Assumed"/>
+      <facetEntailment facetID="II_26_f4" label="Unaddressed"/>
+      <facetEntailment facetID="II_26_f5" label="Assumed"/>
+      <facetEntailment facetID="II_26_f6" label="Diff-Arg"/>
+      <facetEntailment facetID="II_26_f7" label="Assumed"/>
+      <facetEntailment facetID="II_26_f8" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="II.26.577.1" answerText="B looks like it is bumpy and A looks like is smooth." accuracy="correct">
+      <facetEntailment facetID="II_26_f1" label="Assumed"/>
+      <facetEntailment facetID="II_26_f2" label="Expressed"/>
+      <facetEntailment facetID="II_26_f3" label="Expressed"/>
+      <facetEntailment facetID="II_26_f4" label="Inferred"/>
+      <facetEntailment facetID="II_26_f5" label="Assumed"/>
+      <facetEntailment facetID="II_26_f6" label="Expressed"/>
+      <facetEntailment facetID="II_26_f7" label="Expressed"/>
+      <facetEntailment facetID="II_26_f8" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="II.26.579.1" answerText="A is probably smoother than B." accuracy="correct">
+      <facetEntailment facetID="II_26_f1" label="Assumed"/>
+      <facetEntailment facetID="II_26_f2" label="Expressed"/>
+      <facetEntailment facetID="II_26_f3" label="Expressed"/>
+      <facetEntailment facetID="II_26_f4" label="Expressed"/>
+      <facetEntailment facetID="II_26_f5" label="Assumed"/>
+      <facetEntailment facetID="II_26_f6" label="Inferred"/>
+      <facetEntailment facetID="II_26_f7" label="Assumed"/>
+      <facetEntailment facetID="II_26_f8" label="Inferred"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

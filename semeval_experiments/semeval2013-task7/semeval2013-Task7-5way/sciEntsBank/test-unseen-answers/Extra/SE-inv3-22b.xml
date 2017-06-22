@@ -1,0 +1,94 @@
+<?xml version="1.0"?>
+<question testSet="unseen-answers" id="SE_22b" module="SE">
+  <questionText>Andi and Scott decided to investigate solar water heaters using collectors of different colors (but the same size) as one variable and covered versus uncovered as a second variable. Look at the graph of their data and answer the questions below. What does the graph tell you about the effect of using blue versus red collectors?</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="SE_22b-a1" text="Solar water heaters with blue collectors heat up faster than solar water heaters with red collectors.">
+      <tokens>
+        <token id="SE_22b_ra1">Solar</token>
+        <token id="SE_22b_ra2">water</token>
+        <token id="SE_22b_ra3">heaters</token>
+        <token id="SE_22b_ra4">with</token>
+        <token id="SE_22b_ra5">blue</token>
+        <token id="SE_22b_ra6">collectors</token>
+        <token id="SE_22b_ra7">heat</token>
+        <token id="SE_22b_ra8">up</token>
+        <token id="SE_22b_ra9">faster</token>
+        <token id="SE_22b_ra10">than</token>
+        <token id="SE_22b_ra11">solar</token>
+        <token id="SE_22b_ra12">water</token>
+        <token id="SE_22b_ra13">heaters</token>
+        <token id="SE_22b_ra14">with</token>
+        <token id="SE_22b_ra15">red</token>
+        <token id="SE_22b_ra16">collectors</token>
+        <token id="SE_22b_ra17">.</token>
+      </tokens>
+      <facets>
+        <facet id="SE_22b_f1" govNum="SE_22b_ra3" modNum="SE_22b_ra2" reltn="NMod" govText="heaters" isAssumed="true" modText="water"/>
+        <facet id="SE_22b_f2" govNum="SE_22b_ra3" modNum="SE_22b_ra1" reltn="NMod" govText="heaters" isAssumed="true" modText="Solar"/>
+        <facet id="SE_22b_f3" govNum="SE_22b_ra3" modNum="SE_22b_ra6" reltn="NMod_with" govText="heaters" isAssumed="true" modText="collectors"/>
+        <facet id="SE_22b_f4" govNum="SE_22b_ra6" modNum="SE_22b_ra5" reltn="NMod" govText="collectors" isAssumed="true" modText="blue"/>
+        <facet id="SE_22b_f5" govNum="SE_22b_ra7" modNum="SE_22b_ra3" reltn="Patient" govText="heat up" isAssumed="true" modText="heaters"/>
+        <facet id="SE_22b_f6" govNum="SE_22b_ra7" modNum="SE_22b_ra9" reltn="Manner" govText="heat up" modText="faster"/>
+        <facet id="SE_22b_f7" govNum="SE_22b_ra9" modNum="SE_22b_ra13" reltn="AMod_than" govText="faster" modText="heaters"/>
+        <facet id="SE_22b_f8" govNum="SE_22b_ra13" modNum="SE_22b_ra12" reltn="NMod" govText="heaters" isAssumed="true" modText="water"/>
+        <facet id="SE_22b_f9" govNum="SE_22b_ra13" modNum="SE_22b_ra11" reltn="NMod" govText="heaters" isAssumed="true" modText="solar"/>
+        <facet id="SE_22b_f10" govNum="SE_22b_ra13" modNum="SE_22b_ra16" reltn="NMod_with" govText="heaters" isAssumed="true" modText="collectors"/>
+        <facet id="SE_22b_f11" govNum="SE_22b_ra16" modNum="SE_22b_ra15" reltn="NMod" govText="collectors" isAssumed="true" modText="red"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="SE.22b.244.1" answerText="Blue is a dark color so blue covered and uncovered are the warmest temperatures then red is a kind of lighter color so they go under the blue on the chart." accuracy="correct">
+      <facetEntailment facetID="SE_22b_f1" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f3" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f4" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f5" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f6" label="Inferred"/>
+      <facetEntailment facetID="SE_22b_f7" label="Inferred"/>
+      <facetEntailment facetID="SE_22b_f8" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f9" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f10" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f11" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.22b.429.1" answerText="It tells you the blue covered and uncovered are hotter than the reds." accuracy="correct">
+      <facetEntailment facetID="SE_22b_f1" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f3" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f4" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f5" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f6" label="Inferred"/>
+      <facetEntailment facetID="SE_22b_f7" label="Inferred"/>
+      <facetEntailment facetID="SE_22b_f8" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f9" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f10" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f11" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.22b.494.1" answerText="It tells you that blue heats up faster because it is a darker color than red." accuracy="correct">
+      <facetEntailment facetID="SE_22b_f1" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f3" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f4" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f5" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f6" label="Expressed"/>
+      <facetEntailment facetID="SE_22b_f7" label="Inferred"/>
+      <facetEntailment facetID="SE_22b_f8" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f9" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f10" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f11" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="SE.22b.565.1" answerText="That blue absorbs heat faster than the red." accuracy="correct">
+      <facetEntailment facetID="SE_22b_f1" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f2" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f3" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f4" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f5" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f6" label="Expressed"/>
+      <facetEntailment facetID="SE_22b_f7" label="Inferred"/>
+      <facetEntailment facetID="SE_22b_f8" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f9" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f10" label="Assumed"/>
+      <facetEntailment facetID="SE_22b_f11" label="Assumed"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

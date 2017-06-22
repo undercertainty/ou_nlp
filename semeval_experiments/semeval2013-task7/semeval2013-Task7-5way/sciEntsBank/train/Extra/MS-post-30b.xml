@@ -1,0 +1,283 @@
+<?xml version="1.0"?>
+<question id="MS_30b" module="MS">
+  <questionText>Mary told her friend Sharice that she had a rug to sell. Sharice asked if the rug would fit perfectly, wall to wall, in her bedroom. Mary went home and measured the rug. She put her feet heel-to-toe and counted the number of shoe lengths it took to measure the rug. She found the rug was 18 shoes long and 12 shoes wide. Sharice did the same thing in her room to measure the space for the rug. Her floor was 18 shoes long and 12 shoes wide. A perfect fit! Sharice bought the rug and took it home. To her dismay, she found it was too short and too narrow for her bedroom! What could Mary and Sharice do to better measure the size of the rug?</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="MS_30b-a1" text="Use a standard unit of measurement such as centimeters or meters.">
+      <tokens>
+        <token id="MS_30b_ra1">Use</token>
+        <token id="MS_30b_ra2">a</token>
+        <token id="MS_30b_ra3">standard</token>
+        <token id="MS_30b_ra4">unit</token>
+        <token id="MS_30b_ra5">of</token>
+        <token id="MS_30b_ra6">measurement</token>
+        <token id="MS_30b_ra7">such</token>
+        <token id="MS_30b_ra8">as</token>
+        <token id="MS_30b_ra9">centimeters</token>
+        <token id="MS_30b_ra10">or</token>
+        <token id="MS_30b_ra11">meters</token>
+        <token id="MS_30b_ra12">.</token>
+      </tokens>
+      <facets>
+        <facet id="MS_30b_f1" govNum="MS_30b_ra1" modNum="MS_30b_ra4" reltn="Theme" govText="Use" modText="unit"/>
+        <facet id="MS_30b_f2" govNum="MS_30b_ra4" modNum="MS_30b_ra3" reltn="NMod" govText="unit" modText="standard"/>
+        <facet id="MS_30b_f3" govNum="MS_30b_ra4" modNum="MS_30b_ra6" reltn="NMod_of" govText="unit" isAssumed="true" modText="measurement"/>
+        <facet id="MS_30b_f4" govNum="MS_30b_ra4" modNum="MS_30b_ra9" reltn="NMod_such_as" govText="unit" modText="centimeters"/>
+        <facet id="MS_30b_f5" govNum="MS_30b_ra4" modNum="MS_30b_ra11" reltn="NMod_such_as" govText="unit" modText="meters"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="MS.30b.101.1" answerText="The rug was 12." accuracy="irrelevant">
+      <facetEntailment facetID="MS_30b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="MS_30b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MS_30b_f3" label="Assumed"/>
+      <facetEntailment facetID="MS_30b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MS_30b_f5" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MS.30b.108.1" answerText="They can measure the rug with a meter tape." accuracy="correct">
+      <facetEntailment facetID="MS_30b_f1" label="Expressed"/>
+      <facetEntailment facetID="MS_30b_f2" label="Expressed"/>
+      <facetEntailment facetID="MS_30b_f3" label="Expressed"/>
+      <facetEntailment facetID="MS_30b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MS_30b_f5" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="MS.30b.112.1" answerText="Use a meter tape." accuracy="correct">
+      <facetEntailment facetID="MS_30b_f1" label="Expressed"/>
+      <facetEntailment facetID="MS_30b_f2" label="Expressed"/>
+      <facetEntailment facetID="MS_30b_f3" label="Expressed"/>
+      <facetEntailment facetID="MS_30b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MS_30b_f5" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="MS.30b.115.1" answerText="Use a meter tape." accuracy="correct">
+      <facetEntailment facetID="MS_30b_f1" label="Expressed"/>
+      <facetEntailment facetID="MS_30b_f2" label="Expressed"/>
+      <facetEntailment facetID="MS_30b_f3" label="Expressed"/>
+      <facetEntailment facetID="MS_30b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MS_30b_f5" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="MS.30b.136.1" answerText="They could use a measuring tape and that is how they will get the same answer." accuracy="correct">
+      <facetEntailment facetID="MS_30b_f1" label="Expressed"/>
+      <facetEntailment facetID="MS_30b_f2" label="Expressed"/>
+      <facetEntailment facetID="MS_30b_f3" label="Expressed"/>
+      <facetEntailment facetID="MS_30b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MS_30b_f5" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MS.30b.137.1" answerText="Next time they can use a measuring tape to be more accurate." accuracy="correct">
+      <facetEntailment facetID="MS_30b_f1" label="Expressed"/>
+      <facetEntailment facetID="MS_30b_f2" label="Expressed"/>
+      <facetEntailment facetID="MS_30b_f3" label="Expressed"/>
+      <facetEntailment facetID="MS_30b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MS_30b_f5" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MS.30b.144.1" answerText="They could use a meter tape." accuracy="correct">
+      <facetEntailment facetID="MS_30b_f1" label="Expressed"/>
+      <facetEntailment facetID="MS_30b_f2" label="Expressed"/>
+      <facetEntailment facetID="MS_30b_f3" label="Expressed"/>
+      <facetEntailment facetID="MS_30b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MS_30b_f5" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="MS.30b.146.1" answerText="They should use a standard measurement." accuracy="correct">
+      <facetEntailment facetID="MS_30b_f1" label="Inferred"/>
+      <facetEntailment facetID="MS_30b_f2" label="Expressed"/>
+      <facetEntailment facetID="MS_30b_f3" label="Expressed"/>
+      <facetEntailment facetID="MS_30b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MS_30b_f5" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MS.30b.152.1" answerText="The size of the rug was 18 grams." accuracy="irrelevant">
+      <facetEntailment facetID="MS_30b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="MS_30b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MS_30b_f3" label="Assumed"/>
+      <facetEntailment facetID="MS_30b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MS_30b_f5" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MS.30b.171.1" answerText="They could use a meter tape." accuracy="correct">
+      <facetEntailment facetID="MS_30b_f1" label="Expressed"/>
+      <facetEntailment facetID="MS_30b_f2" label="Expressed"/>
+      <facetEntailment facetID="MS_30b_f3" label="Expressed"/>
+      <facetEntailment facetID="MS_30b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MS_30b_f5" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="MS.30b.174.1" answerText="Have Mary come over and measure her room too." accuracy="irrelevant">
+      <facetEntailment facetID="MS_30b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="MS_30b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MS_30b_f3" label="Assumed"/>
+      <facetEntailment facetID="MS_30b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MS_30b_f5" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MS.30b.190.1" answerText="They could use a meter tape, a centimeter ruler, or a inch ruler." accuracy="correct">
+      <facetEntailment facetID="MS_30b_f1" label="Expressed"/>
+      <facetEntailment facetID="MS_30b_f2" label="Inferred"/>
+      <facetEntailment facetID="MS_30b_f3" label="Expressed"/>
+      <facetEntailment facetID="MS_30b_f4" label="Expressed"/>
+      <facetEntailment facetID="MS_30b_f5" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="MS.30b.276.1" answerText="They should use a standard metric unit to measure the rug like a meter tape." accuracy="correct">
+      <facetEntailment facetID="MS_30b_f1" label="Expressed"/>
+      <facetEntailment facetID="MS_30b_f2" label="Expressed"/>
+      <facetEntailment facetID="MS_30b_f3" label="Expressed"/>
+      <facetEntailment facetID="MS_30b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MS_30b_f5" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="MS.30b.282.1" answerText="Use a ruler." accuracy="correct">
+      <facetEntailment facetID="MS_30b_f1" label="Expressed"/>
+      <facetEntailment facetID="MS_30b_f2" label="Expressed"/>
+      <facetEntailment facetID="MS_30b_f3" label="Expressed"/>
+      <facetEntailment facetID="MS_30b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MS_30b_f5" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MS.30b.288.1" answerText="She can measure with a centimeters." accuracy="correct">
+      <facetEntailment facetID="MS_30b_f1" label="Expressed"/>
+      <facetEntailment facetID="MS_30b_f2" label="Expressed"/>
+      <facetEntailment facetID="MS_30b_f3" label="Expressed"/>
+      <facetEntailment facetID="MS_30b_f4" label="Expressed"/>
+      <facetEntailment facetID="MS_30b_f5" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MS.30b.294.1" answerText="They could use a standard unit to measure the rug." accuracy="correct">
+      <facetEntailment facetID="MS_30b_f1" label="Expressed"/>
+      <facetEntailment facetID="MS_30b_f2" label="Expressed"/>
+      <facetEntailment facetID="MS_30b_f3" label="Expressed"/>
+      <facetEntailment facetID="MS_30b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MS_30b_f5" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MS.30b.312.1" answerText="They could use a standard measurement." accuracy="correct">
+      <facetEntailment facetID="MS_30b_f1" label="Inferred"/>
+      <facetEntailment facetID="MS_30b_f2" label="Expressed"/>
+      <facetEntailment facetID="MS_30b_f3" label="Expressed"/>
+      <facetEntailment facetID="MS_30b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MS_30b_f5" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MS.30b.316.1" answerText="They should return it and get another rug and measure with a meter tape." accuracy="correct">
+      <facetEntailment facetID="MS_30b_f1" label="Expressed"/>
+      <facetEntailment facetID="MS_30b_f2" label="Expressed"/>
+      <facetEntailment facetID="MS_30b_f3" label="Expressed"/>
+      <facetEntailment facetID="MS_30b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MS_30b_f5" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="MS.30b.319.1" answerText="Use a standard measurement like a meter." accuracy="correct">
+      <facetEntailment facetID="MS_30b_f1" label="Expressed"/>
+      <facetEntailment facetID="MS_30b_f2" label="Expressed"/>
+      <facetEntailment facetID="MS_30b_f3" label="Expressed"/>
+      <facetEntailment facetID="MS_30b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MS_30b_f5" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="MS.30b.324.1" answerText="They can use a metric tape." accuracy="correct">
+      <facetEntailment facetID="MS_30b_f1" label="Expressed"/>
+      <facetEntailment facetID="MS_30b_f2" label="Expressed"/>
+      <facetEntailment facetID="MS_30b_f3" label="Expressed"/>
+      <facetEntailment facetID="MS_30b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MS_30b_f5" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="MS.30b.348.1" answerText="They have to get a measure tape." accuracy="correct">
+      <facetEntailment facetID="MS_30b_f1" label="Expressed"/>
+      <facetEntailment facetID="MS_30b_f2" label="Expressed"/>
+      <facetEntailment facetID="MS_30b_f3" label="Expressed"/>
+      <facetEntailment facetID="MS_30b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MS_30b_f5" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MS.30b.359.1" answerText="They could use a meter stick." accuracy="correct">
+      <facetEntailment facetID="MS_30b_f1" label="Expressed"/>
+      <facetEntailment facetID="MS_30b_f2" label="Expressed"/>
+      <facetEntailment facetID="MS_30b_f3" label="Expressed"/>
+      <facetEntailment facetID="MS_30b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MS_30b_f5" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="MS.30b.391.1" answerText="They could have used a meter tape." accuracy="correct">
+      <facetEntailment facetID="MS_30b_f1" label="Expressed"/>
+      <facetEntailment facetID="MS_30b_f2" label="Expressed"/>
+      <facetEntailment facetID="MS_30b_f3" label="Expressed"/>
+      <facetEntailment facetID="MS_30b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MS_30b_f5" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="MS.30b.396.1" answerText="They could buy a new rug and see if it fits." accuracy="irrelevant">
+      <facetEntailment facetID="MS_30b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="MS_30b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MS_30b_f3" label="Assumed"/>
+      <facetEntailment facetID="MS_30b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MS_30b_f5" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MS.30b.400.1" answerText="They could get a meter tape and see how long it is." accuracy="correct">
+      <facetEntailment facetID="MS_30b_f1" label="Expressed"/>
+      <facetEntailment facetID="MS_30b_f2" label="Expressed"/>
+      <facetEntailment facetID="MS_30b_f3" label="Expressed"/>
+      <facetEntailment facetID="MS_30b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MS_30b_f5" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="MS.30b.417.1" answerText="By using a measuring tape." accuracy="correct">
+      <facetEntailment facetID="MS_30b_f1" label="Expressed"/>
+      <facetEntailment facetID="MS_30b_f2" label="Expressed"/>
+      <facetEntailment facetID="MS_30b_f3" label="Expressed"/>
+      <facetEntailment facetID="MS_30b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MS_30b_f5" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="MS.30b.426.1" answerText="She could use measuring tape and see how much is it." accuracy="correct">
+      <facetEntailment facetID="MS_30b_f1" label="Expressed"/>
+      <facetEntailment facetID="MS_30b_f2" label="Expressed"/>
+      <facetEntailment facetID="MS_30b_f3" label="Expressed"/>
+      <facetEntailment facetID="MS_30b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MS_30b_f5" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MS.30b.452.1" answerText="Sharice could have the rug and her wall before buying the rug." accuracy="irrelevant">
+      <facetEntailment facetID="MS_30b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="MS_30b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MS_30b_f3" label="Assumed"/>
+      <facetEntailment facetID="MS_30b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MS_30b_f5" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MS.30b.463.1" answerText="Use a meter." accuracy="correct">
+      <facetEntailment facetID="MS_30b_f1" label="Expressed"/>
+      <facetEntailment facetID="MS_30b_f2" label="Expressed"/>
+      <facetEntailment facetID="MS_30b_f3" label="Expressed"/>
+      <facetEntailment facetID="MS_30b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MS_30b_f5" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="MS.30b.486.1" answerText="Take the rug and if it fits buy it." accuracy="irrelevant">
+      <facetEntailment facetID="MS_30b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="MS_30b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MS_30b_f3" label="Assumed"/>
+      <facetEntailment facetID="MS_30b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MS_30b_f5" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MS.30b.488.1" answerText="With a centimeters tape." accuracy="correct">
+      <facetEntailment facetID="MS_30b_f1" label="Expressed"/>
+      <facetEntailment facetID="MS_30b_f2" label="Expressed"/>
+      <facetEntailment facetID="MS_30b_f3" label="Expressed"/>
+      <facetEntailment facetID="MS_30b_f4" label="Expressed"/>
+      <facetEntailment facetID="MS_30b_f5" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MS.30b.496.1" answerText="To use a centimeters tape." accuracy="correct">
+      <facetEntailment facetID="MS_30b_f1" label="Expressed"/>
+      <facetEntailment facetID="MS_30b_f2" label="Expressed"/>
+      <facetEntailment facetID="MS_30b_f3" label="Expressed"/>
+      <facetEntailment facetID="MS_30b_f4" label="Expressed"/>
+      <facetEntailment facetID="MS_30b_f5" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MS.30b.501.1" answerText="Cut it." accuracy="irrelevant">
+      <facetEntailment facetID="MS_30b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="MS_30b_f2" label="Unaddressed"/>
+      <facetEntailment facetID="MS_30b_f3" label="Assumed"/>
+      <facetEntailment facetID="MS_30b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MS_30b_f5" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MS.30b.532.1" answerText="They should use a standard unit of measure like a meter stick." accuracy="correct">
+      <facetEntailment facetID="MS_30b_f1" label="Expressed"/>
+      <facetEntailment facetID="MS_30b_f2" label="Expressed"/>
+      <facetEntailment facetID="MS_30b_f3" label="Expressed"/>
+      <facetEntailment facetID="MS_30b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MS_30b_f5" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="MS.30b.569.1" answerText="They could use a ruler to measure the rug better then they got the right answer." accuracy="correct">
+      <facetEntailment facetID="MS_30b_f1" label="Expressed"/>
+      <facetEntailment facetID="MS_30b_f2" label="Expressed"/>
+      <facetEntailment facetID="MS_30b_f3" label="Expressed"/>
+      <facetEntailment facetID="MS_30b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MS_30b_f5" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="MS.30b.571.1" answerText="They can use meters or a tape measure." accuracy="correct">
+      <facetEntailment facetID="MS_30b_f1" label="Expressed"/>
+      <facetEntailment facetID="MS_30b_f2" label="Expressed"/>
+      <facetEntailment facetID="MS_30b_f3" label="Expressed"/>
+      <facetEntailment facetID="MS_30b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="MS_30b_f5" label="Expressed"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

@@ -1,0 +1,109 @@
+<html><head>
+<title>SemEval Shared Task 2011 data format information</title>
+<style type="text/css">
+body {
+    font-family: "Lucida Grande", sans-serif;    
+}
+
+.highlight_box {
+	padding: 0 1em 0 1em;
+	margin: 0 0 0 0;
+	background: #FEFDE0;
+	border: 1px solid #B28F00;
+}
+</style>
+</head>
+<body>
+<h1>Joint Semeval Task 7 and RTE-8 challenge data format information</h1>
+
+<h2>Common Format - Core Data</h2>
+
+<p> The "rte-style" training data are separated into 2-way and 3-way
+  subsets. The 5-way educational task subset is released separately on
+  the main page, and contains some extra resources such as dependency
+  parses that participants are free to use if they wish to.
+</p>
+
+<p>Withink the RTE-8 subset, the data are separated into "Beetle" and
+  "SciEntsBank" directories, corresponding to the corpus from which
+  they were drawn. Participants are free to train on these either
+  separately or jointly; because the data origin is different
+  (interaction with a tutoring system vs. lab notebooks), the systems
+  may be scored separately on the different corpora in the final
+  evaluation
+</p>
+
+<p> Data for each corpus is separated into one XML file per
+question. Each file contains one top level <tt>question</tt> element
+containing, in order, a <tt>questionText</tt> element,
+a <tt>referenceAnswers</tt> element and a <tt>studentAnswers</tt>
+element.</p>
+
+<div class="highlight_box">
+<blockquote>
+<pre>
+&lt;question qtype="Q_EXPLAIN_GENERIC" id="VOLTAGE_DEFINE_Q"
+          stype="QUESTION"
+          module="FaultFinding"&gt;
+    &lt;questionText&gt;What is voltage?&lt;/questionText&gt;
+    &lt;referenceAnswers&gt;
+        &lt;referenceAnswer category="BEST" id="answer244" fileID="VOLTAGE_DEFINE_Q_ANS1"&gt;Voltage is the difference in electrical 
+        states between two terminals&lt;/referenceAnswer&gt;
+        ...
+    &lt;/referenceAnswers&gt;
+    &lt;studentAnswers&gt;
+        &lt;studentAnswer id="FaultFinding.VOLTAGE_DEFINE_Q.sbj3-l1.qa213" dialogue_id="sbj3-l1"
+                     accuracy="unknown"
+                     answerMatch="answer244"
+                     count="1"&gt;is the difference between two terminals&lt;/studentAnswer&gt;
+        ...
+    &lt;/studentAnswers&gt;
+&lt;/question&gt;
+</pre>
+</blockquote>
+</div>
+
+<p> All <tt>question</tt> elements contain a ID unique to the
+  question, and a module name, which defines the general "topic" of
+  the question. The range of modules/topics is described on the task
+  web page.
+
+<p>The <tt>questionText</tt> element contains the full text of the
+question as text content.</p>
+
+<p>The <tt>referenceAnswers</tt> element contains an arbitrary number
+of <tt>referenceAnswer</tt> elements, one for each correct answer to
+the question. The data coming from <em>SciEntsBank</em> corpus lists exactly
+one of these answers for every question, but the <em>Beetle</em>
+corpus may have multiple corerct answers, each with a category
+attribute (containing BEST, GOOD, MINIMAL, or KEYWORD) and fileID
+attribute that allows the answer to be referenced from
+a <tt>studentAnswer</tt> element.</p>
+
+<p>The <tt>studentAnswers</tt> element contains an arbitrary number
+of <tt>studentAnswer</tt> elements, one for each student attempt to
+answer the question.</p>
+
+<p>Each <tt>studentAnswer</tt> element has text content which is the
+text of the student answer, and an <b><tt>accuracy</tt></b> attribute
+containing one of three
+  values: <tt>correct</tt>, <tt>contradictory</tt> (3-way data only),
+  and <tt>unknown</tt>.
+such that:
+
+<ul>
+<li>a) the student answer and question text together entail one of the
+  reference answers = "correct"</li>
+<li>b) the student answer and question text together contradict one of the
+  reference answers = "contradictory" (or "unknown" in 2-way data)</li>
+<li>e) otherwise (the answer is partially correct, irrelevant, or does
+  not address the scientific concepts) = "non_domain"</li>
+</ul>
+</p>
+
+<p><b>Disclaimer</b> all accuracy labels are assigned with respect to
+correspondence with reference answer.  Extra material is ignored.</p>
+
+<p><i>1 October 2012</i></p>
+</body>
+</html>

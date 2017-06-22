@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<question testSet="unseen-answers" id="VB_5b" module="VB">
+  <questionText>Explain in one sentence what each graph tells you. Graph B) speed of light versus time.</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="VB_5b-a1" text="As time increases, the speed of light stays the same (remains constant).">
+      <tokens>
+        <token id="VB_5b_ra1">As</token>
+        <token id="VB_5b_ra2">time</token>
+        <token id="VB_5b_ra3">increases</token>
+        <token id="VB_5b_ra4">,</token>
+        <token id="VB_5b_ra5">the</token>
+        <token id="VB_5b_ra6">speed</token>
+        <token id="VB_5b_ra7">of</token>
+        <token id="VB_5b_ra8">light</token>
+        <token id="VB_5b_ra9">stays</token>
+        <token id="VB_5b_ra10">the</token>
+        <token id="VB_5b_ra11">same</token>
+        <token id="VB_5b_ra12">(</token>
+        <token id="VB_5b_ra13">remains</token>
+        <token id="VB_5b_ra14">constant</token>
+        <token id="VB_5b_ra15">)</token>
+        <token id="VB_5b_ra16">.</token>
+      </tokens>
+      <facets>
+        <facet id="VB_5b_f1" govNum="VB_5b_ra3" modNum="VB_5b_ra2" reltn="Patient" govText="increases" modText="time"/>
+        <facet id="VB_5b_f2" govNum="VB_5b_ra6" modNum="VB_5b_ra8" reltn="NMod_of" govText="speed" isAssumed="true" modText="light"/>
+        <facet id="VB_5b_f3" govNum="VB_5b_ra9" modNum="VB_5b_ra6" reltn="Theme" govText="stays" modText="speed"/>
+        <facet id="VB_5b_f4" govNum="VB_5b_ra9" modNum="VB_5b_ra11" reltn="Attribute" govText="stays" modText="same"/>
+        <facet id="VB_5b_f5" govNum="VB_5b_ra13" modNum="VB_5b_ra6" reltn="Theme" govText="remains" modText="speed"/>
+        <facet id="VB_5b_f6" govNum="VB_5b_ra13" modNum="VB_5b_ra14" reltn="Attribute" govText="remains" modText="constant"/>
+        <facet id="VB_5b_f7" govNum="VB_5b_ra9" modNum="VB_5b_ra3" reltn="Time_as" childProp1Facet1="VB_5b_f3" govText="stays" childProp1Facet2="VB_5b_f4" modText="increases" childProp2Facet1="VB_5b_f1"/>
+        <facet id="VB_5b_f8" govNum="VB_5b_ra13" modNum="VB_5b_ra3" reltn="Time_as" childProp1Facet1="VB_5b_f5" govText="remains" childProp1Facet2="VB_5b_f6" modText="increases" childProp2Facet1="VB_5b_f1"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="VB.5b.423.1" answerText="How fast the light speeds and how many times it goes." accuracy="irrelevant">
+      <facetEntailment facetID="VB_5b_f1" label="Unaddressed"/>
+      <facetEntailment facetID="VB_5b_f2" label="Expressed"/>
+      <facetEntailment facetID="VB_5b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="VB_5b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="VB_5b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="VB_5b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="VB_5b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="VB_5b_f8" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="VB.5b.481.1" answerText="This graph shows that the light was getting lighter and lighter by the minute." accuracy="irrelevant">
+      <facetEntailment facetID="VB_5b_f1" label="Inferred"/>
+      <facetEntailment facetID="VB_5b_f2" label="Assumed"/>
+      <facetEntailment facetID="VB_5b_f3" label="Unaddressed"/>
+      <facetEntailment facetID="VB_5b_f4" label="Unaddressed"/>
+      <facetEntailment facetID="VB_5b_f5" label="Unaddressed"/>
+      <facetEntailment facetID="VB_5b_f6" label="Unaddressed"/>
+      <facetEntailment facetID="VB_5b_f7" label="Unaddressed"/>
+      <facetEntailment facetID="VB_5b_f8" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="VB.5b.483.1" answerText="The speed of light does not change over time." accuracy="correct">
+      <facetEntailment facetID="VB_5b_f1" label="Expressed"/>
+      <facetEntailment facetID="VB_5b_f2" label="Expressed"/>
+      <facetEntailment facetID="VB_5b_f3" label="Expressed"/>
+      <facetEntailment facetID="VB_5b_f4" label="Expressed"/>
+      <facetEntailment facetID="VB_5b_f5" label="Expressed"/>
+      <facetEntailment facetID="VB_5b_f6" label="Expressed"/>
+      <facetEntailment facetID="VB_5b_f7" label="Expressed"/>
+      <facetEntailment facetID="VB_5b_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="VB.5b.636.1" answerText="The light is staying the same and the time is increasing." accuracy="correct">
+      <facetEntailment facetID="VB_5b_f1" label="Expressed"/>
+      <facetEntailment facetID="VB_5b_f2" label="Expressed"/>
+      <facetEntailment facetID="VB_5b_f3" label="Expressed"/>
+      <facetEntailment facetID="VB_5b_f4" label="Expressed"/>
+      <facetEntailment facetID="VB_5b_f5" label="Expressed"/>
+      <facetEntailment facetID="VB_5b_f6" label="Expressed"/>
+      <facetEntailment facetID="VB_5b_f7" label="Expressed"/>
+      <facetEntailment facetID="VB_5b_f8" label="Expressed"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

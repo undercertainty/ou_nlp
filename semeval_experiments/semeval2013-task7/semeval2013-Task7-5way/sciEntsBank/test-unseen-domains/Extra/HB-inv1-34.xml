@@ -1,0 +1,1039 @@
+<?xml version="1.0"?>
+<question testSet="unseen-domains" id="HB_34" module="HB">
+  <questionText>Why are leg bones so large compared to other bones in the human body?</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="HB_34-a1" text="The leg bones need to be large because the leg bones carry a lot of weight.">
+      <tokens>
+        <token id="HB_34_ra1">The</token>
+        <token id="HB_34_ra2">leg</token>
+        <token id="HB_34_ra3">bones</token>
+        <token id="HB_34_ra4">need</token>
+        <token id="HB_34_ra5">to</token>
+        <token id="HB_34_ra6">be</token>
+        <token id="HB_34_ra7">large</token>
+        <token id="HB_34_ra8">because</token>
+        <token id="HB_34_ra9">the</token>
+        <token id="HB_34_ra10">leg</token>
+        <token id="HB_34_ra11">bones</token>
+        <token id="HB_34_ra12">carry</token>
+        <token id="HB_34_ra13">a</token>
+        <token id="HB_34_ra14">lot</token>
+        <token id="HB_34_ra15">of</token>
+        <token id="HB_34_ra16">weight</token>
+        <token id="HB_34_ra17">.</token>
+      </tokens>
+      <facets>
+        <facet id="HB_34_f1" govNum="HB_34_ra3" modNum="HB_34_ra2" reltn="NMod" govText="bones" isAssumed="true" modText="leg"/>
+        <facet id="HB_34_f2" govNum="HB_34_ra3" modNum="HB_34_ra7" reltn="Be" govText="bones" isAssumed="true" modText="large"/>
+        <facet id="HB_34_f3" govNum="HB_34_ra6" modNum="HB_34_ra4" reltn="VMod_to" govText="be" isAssumed="true" modText="need"/>
+        <facet id="HB_34_f4" govNum="HB_34_ra11" modNum="HB_34_ra10" reltn="NMod" govText="bones" isAssumed="true" modText="leg"/>
+        <facet id="HB_34_f5" govNum="HB_34_ra12" modNum="HB_34_ra11" reltn="Means" govText="carry" modText="bones"/>
+        <facet id="HB_34_f6" govNum="HB_34_ra12" modNum="HB_34_ra16" reltn="Theme" govText="carry" modText="weight"/>
+        <facet id="HB_34_f7" govNum="HB_34_ra16" modNum="HB_34_ra14" reltn="Quantifier_of" govText="weight" modText="lot"/>
+        <facet id="HB_34_f8" govNum="HB_34_ra6" modNum="HB_34_ra12" reltn="Cause_because" childProp2Facet2="HB_34_f6" childProp1Facet1="HB_34_f2" govText="be" isAssumed="true" childProp1Facet2="HB_34_f1" modText="carry" childProp2Facet1="HB_34_f5"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="HB.34.138.1" answerText="To help support people walking." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_34_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f6" label="Inferred"/>
+      <facetEntailment facetID="HB_34_f7" label="Inferred"/>
+      <facetEntailment facetID="HB_34_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.34.142.1" answerText="They are larger because your legs hold you up. If your legs are short you could not reach things." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_34_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f5" label="Inferred"/>
+      <facetEntailment facetID="HB_34_f6" label="Inferred"/>
+      <facetEntailment facetID="HB_34_f7" label="Unaddressed"/>
+      <facetEntailment facetID="HB_34_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.34.147.1" answerText="Because it has to hold up a lot of weight so it has to be big." accuracy="correct">
+      <facetEntailment facetID="HB_34_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f6" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f7" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.34.173.1" answerText="They are large because they need the rest of the body to stand up. So it does a lot stronger part of our body." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_34_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f5" label="Inferred"/>
+      <facetEntailment facetID="HB_34_f6" label="Inferred"/>
+      <facetEntailment facetID="HB_34_f7" label="Unaddressed"/>
+      <facetEntailment facetID="HB_34_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.34.176.1" answerText="Because it has to carry a lot of weight." accuracy="correct">
+      <facetEntailment facetID="HB_34_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f6" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f7" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.34.178.1" answerText="Because leg bones have more tissue." accuracy="irrelevant">
+      <facetEntailment facetID="HB_34_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f4" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f5" label="Unaddressed"/>
+      <facetEntailment facetID="HB_34_f6" label="Unaddressed"/>
+      <facetEntailment facetID="HB_34_f7" label="Unaddressed"/>
+      <facetEntailment facetID="HB_34_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.34.185.1" answerText="They are big because they carry a lot of weight." accuracy="correct">
+      <facetEntailment facetID="HB_34_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f6" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f7" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.34.207.1" answerText="They are so large because if they were not there you would be a blob." accuracy="irrelevant">
+      <facetEntailment facetID="HB_34_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f5" label="Unaddressed"/>
+      <facetEntailment facetID="HB_34_f6" label="Unaddressed"/>
+      <facetEntailment facetID="HB_34_f7" label="Unaddressed"/>
+      <facetEntailment facetID="HB_34_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.34.220.1" answerText="They are big because they are large." accuracy="irrelevant">
+      <facetEntailment facetID="HB_34_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f5" label="Unaddressed"/>
+      <facetEntailment facetID="HB_34_f6" label="Unaddressed"/>
+      <facetEntailment facetID="HB_34_f7" label="Unaddressed"/>
+      <facetEntailment facetID="HB_34_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.34.245.1" answerText="Leg bones carry your whole torso." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_34_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f4" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f6" label="Inferred"/>
+      <facetEntailment facetID="HB_34_f7" label="Inferred"/>
+      <facetEntailment facetID="HB_34_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.34.251.1" answerText="The leg bone is so large because it has to support your body weight." accuracy="correct">
+      <facetEntailment facetID="HB_34_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f4" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f6" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f7" label="Inferred"/>
+      <facetEntailment facetID="HB_34_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.34.254.1" answerText="The legs are so large because it needs to hold the weight in the torso." accuracy="correct">
+      <facetEntailment facetID="HB_34_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f5" label="Inferred"/>
+      <facetEntailment facetID="HB_34_f6" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f7" label="Inferred"/>
+      <facetEntailment facetID="HB_34_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.34.256.1" answerText="So it can hold the rest of the bones." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_34_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f5" label="Inferred"/>
+      <facetEntailment facetID="HB_34_f6" label="Inferred"/>
+      <facetEntailment facetID="HB_34_f7" label="Unaddressed"/>
+      <facetEntailment facetID="HB_34_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.34.257.1" answerText="Leg bones are large because they have to provide support." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_34_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f4" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f5" label="Inferred"/>
+      <facetEntailment facetID="HB_34_f6" label="Inferred"/>
+      <facetEntailment facetID="HB_34_f7" label="Unaddressed"/>
+      <facetEntailment facetID="HB_34_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.34.259.1" answerText="The bones are large because of the weight it is holding on your body." accuracy="correct">
+      <facetEntailment facetID="HB_34_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f6" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f7" label="Unaddressed"/>
+      <facetEntailment facetID="HB_34_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.34.280.1" answerText="The leg bones have to be large to hold weight." accuracy="correct">
+      <facetEntailment facetID="HB_34_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f4" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f6" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f7" label="Unaddressed"/>
+      <facetEntailment facetID="HB_34_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.34.284.1" answerText="The leg bones have to hold up a lot of weight." accuracy="correct">
+      <facetEntailment facetID="HB_34_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f4" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f6" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f7" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.34.285.1" answerText="They are so big because they hold most of your body weight." accuracy="correct">
+      <facetEntailment facetID="HB_34_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f6" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f7" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.34.289.1" answerText="The bone it is the largest because you will not move." accuracy="irrelevant">
+      <facetEntailment facetID="HB_34_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f5" label="Unaddressed"/>
+      <facetEntailment facetID="HB_34_f6" label="Unaddressed"/>
+      <facetEntailment facetID="HB_34_f7" label="Unaddressed"/>
+      <facetEntailment facetID="HB_34_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.34.291.1" answerText="It is that big because it needs to carry upper body weight." accuracy="correct">
+      <facetEntailment facetID="HB_34_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f6" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f7" label="Unaddressed"/>
+      <facetEntailment facetID="HB_34_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.34.292.1" answerText="The leg bones carry most of your body weight." accuracy="correct">
+      <facetEntailment facetID="HB_34_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f4" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f6" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f7" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.34.294.1" answerText="That is where a portion of your weight is." accuracy="irrelevant">
+      <facetEntailment facetID="HB_34_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f5" label="Unaddressed"/>
+      <facetEntailment facetID="HB_34_f6" label="Unaddressed"/>
+      <facetEntailment facetID="HB_34_f7" label="Unaddressed"/>
+      <facetEntailment facetID="HB_34_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.34.320.1" answerText="The leg bones help stand up. They hold the most weight." accuracy="correct">
+      <facetEntailment facetID="HB_34_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f4" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f6" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f7" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.34.321.1" answerText="The leg bones are large because they have to support your whole body." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_34_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f4" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f6" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f7" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.34.324.1" answerText="The leg bone is large so it can support the weight." accuracy="correct">
+      <facetEntailment facetID="HB_34_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f4" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f6" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f7" label="Unaddressed"/>
+      <facetEntailment facetID="HB_34_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.34.325.1" answerText="They have to support our weight." accuracy="correct">
+      <facetEntailment facetID="HB_34_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f6" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f7" label="Inferred"/>
+      <facetEntailment facetID="HB_34_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.34.349.1" answerText="So that it can lift up all our upper body." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_34_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f5" label="Inferred"/>
+      <facetEntailment facetID="HB_34_f6" label="Inferred"/>
+      <facetEntailment facetID="HB_34_f7" label="Inferred"/>
+      <facetEntailment facetID="HB_34_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.34.350.1" answerText="Leg bones can let you walk and move." accuracy="irrelevant">
+      <facetEntailment facetID="HB_34_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f4" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f5" label="Diff-Arg"/>
+      <facetEntailment facetID="HB_34_f6" label="Unaddressed"/>
+      <facetEntailment facetID="HB_34_f7" label="Unaddressed"/>
+      <facetEntailment facetID="HB_34_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.34.352.1" answerText="Because leg bones are one of the important bones in your body leg bones are to help you walk." accuracy="irrelevant">
+      <facetEntailment facetID="HB_34_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f4" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f5" label="Diff-Arg"/>
+      <facetEntailment facetID="HB_34_f6" label="Unaddressed"/>
+      <facetEntailment facetID="HB_34_f7" label="Unaddressed"/>
+      <facetEntailment facetID="HB_34_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.34.364.1" answerText="Because they have to hold everything that is on the upper body." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_34_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f6" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f7" label="Inferred"/>
+      <facetEntailment facetID="HB_34_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.34.383.1" answerText="To hold your body up." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_34_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f6" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f7" label="Inferred"/>
+      <facetEntailment facetID="HB_34_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.34.385.1" answerText="So you can move your legs." accuracy="irrelevant">
+      <facetEntailment facetID="HB_34_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f5" label="Diff-Arg"/>
+      <facetEntailment facetID="HB_34_f6" label="Unaddressed"/>
+      <facetEntailment facetID="HB_34_f7" label="Unaddressed"/>
+      <facetEntailment facetID="HB_34_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.34.388.1" answerText="Because a cow is bigger than a human." accuracy="irrelevant">
+      <facetEntailment facetID="HB_34_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f5" label="Unaddressed"/>
+      <facetEntailment facetID="HB_34_f6" label="Unaddressed"/>
+      <facetEntailment facetID="HB_34_f7" label="Unaddressed"/>
+      <facetEntailment facetID="HB_34_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.34.391.1" answerText="They support your body." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_34_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f5" label="Inferred"/>
+      <facetEntailment facetID="HB_34_f6" label="Inferred"/>
+      <facetEntailment facetID="HB_34_f7" label="Unaddressed"/>
+      <facetEntailment facetID="HB_34_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.34.393.1" answerText="So you can stand and move." accuracy="irrelevant">
+      <facetEntailment facetID="HB_34_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f5" label="Unaddressed"/>
+      <facetEntailment facetID="HB_34_f6" label="Unaddressed"/>
+      <facetEntailment facetID="HB_34_f7" label="Unaddressed"/>
+      <facetEntailment facetID="HB_34_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.34.418.1" answerText="They are so large because the upper leg holds weight and the lower leg supports your body." accuracy="correct">
+      <facetEntailment facetID="HB_34_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f6" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f7" label="Inferred"/>
+      <facetEntailment facetID="HB_34_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.34.422.1" answerText="They are bigger because they have to support your upper weight." accuracy="correct">
+      <facetEntailment facetID="HB_34_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f6" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f7" label="Inferred"/>
+      <facetEntailment facetID="HB_34_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.34.424.1" answerText="It holds up all the weight." accuracy="correct">
+      <facetEntailment facetID="HB_34_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f6" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f7" label="Inferred"/>
+      <facetEntailment facetID="HB_34_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.34.428.1" answerText="Because you have so much weight on them so it is big because it has to support the weight and the leg is big." accuracy="correct">
+      <facetEntailment facetID="HB_34_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f6" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f7" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.34.433.1" answerText="The leg bones are so large because they have to support your weight to hold you up." accuracy="correct">
+      <facetEntailment facetID="HB_34_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f4" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f6" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f7" label="Unaddressed"/>
+      <facetEntailment facetID="HB_34_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.34.439.1" answerText="They are large because they need to support the rest of your body." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_34_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f6" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f7" label="Inferred"/>
+      <facetEntailment facetID="HB_34_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.34.440.1" answerText="They need to support your weight." accuracy="correct">
+      <facetEntailment facetID="HB_34_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f6" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f7" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.34.451.1" answerText="Our legs are stronger than our body so it can hold us up." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_34_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f5" label="Inferred"/>
+      <facetEntailment facetID="HB_34_f6" label="Inferred"/>
+      <facetEntailment facetID="HB_34_f7" label="Inferred"/>
+      <facetEntailment facetID="HB_34_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.34.457.1" answerText="Because the tibia and the fibula and the femur support us." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_34_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f6" label="Inferred"/>
+      <facetEntailment facetID="HB_34_f7" label="Unaddressed"/>
+      <facetEntailment facetID="HB_34_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.34.459.1" answerText="So we can walk." accuracy="irrelevant">
+      <facetEntailment facetID="HB_34_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f5" label="Unaddressed"/>
+      <facetEntailment facetID="HB_34_f6" label="Unaddressed"/>
+      <facetEntailment facetID="HB_34_f7" label="Unaddressed"/>
+      <facetEntailment facetID="HB_34_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.34.462.1" answerText="When you walk all your weight goes to your legs." accuracy="correct">
+      <facetEntailment facetID="HB_34_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f6" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f7" label="Inferred"/>
+      <facetEntailment facetID="HB_34_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.34.463.1" answerText="So we can be tall." accuracy="irrelevant">
+      <facetEntailment facetID="HB_34_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f5" label="Unaddressed"/>
+      <facetEntailment facetID="HB_34_f6" label="Unaddressed"/>
+      <facetEntailment facetID="HB_34_f7" label="Unaddressed"/>
+      <facetEntailment facetID="HB_34_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.34.467.1" answerText="The leg bones help us walk so we need bigger bones." accuracy="irrelevant">
+      <facetEntailment facetID="HB_34_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f4" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f5" label="Diff-Arg"/>
+      <facetEntailment facetID="HB_34_f6" label="Unaddressed"/>
+      <facetEntailment facetID="HB_34_f7" label="Unaddressed"/>
+      <facetEntailment facetID="HB_34_f8" label="Diff-Arg"/>
+    </studentAnswer>
+    <studentAnswer id="HB.34.471.1" answerText="Because they have to hold the rest of our body." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_34_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f6" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f7" label="Inferred"/>
+      <facetEntailment facetID="HB_34_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.34.490.1" answerText="Because its femur is really important." accuracy="irrelevant">
+      <facetEntailment facetID="HB_34_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f5" label="Unaddressed"/>
+      <facetEntailment facetID="HB_34_f6" label="Unaddressed"/>
+      <facetEntailment facetID="HB_34_f7" label="Unaddressed"/>
+      <facetEntailment facetID="HB_34_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.34.492.1" answerText="Because they are the ones that make you walk." accuracy="irrelevant">
+      <facetEntailment facetID="HB_34_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f5" label="Unaddressed"/>
+      <facetEntailment facetID="HB_34_f6" label="Unaddressed"/>
+      <facetEntailment facetID="HB_34_f7" label="Unaddressed"/>
+      <facetEntailment facetID="HB_34_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.34.493.1" answerText="It holds your body so it needs muscles." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_34_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f5" label="Inferred"/>
+      <facetEntailment facetID="HB_34_f6" label="Inferred"/>
+      <facetEntailment facetID="HB_34_f7" label="Unaddressed"/>
+      <facetEntailment facetID="HB_34_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.34.496.1" answerText="To keep stable." accuracy="irrelevant">
+      <facetEntailment facetID="HB_34_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f5" label="Diff-Arg"/>
+      <facetEntailment facetID="HB_34_f6" label="Unaddressed"/>
+      <facetEntailment facetID="HB_34_f7" label="Unaddressed"/>
+      <facetEntailment facetID="HB_34_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.34.501.1" answerText="Because they have to support the rest of the bones in the human body." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_34_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f5" label="Inferred"/>
+      <facetEntailment facetID="HB_34_f6" label="Inferred"/>
+      <facetEntailment facetID="HB_34_f7" label="Inferred"/>
+      <facetEntailment facetID="HB_34_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.34.526.1" answerText="They hold all your weight on your body." accuracy="correct">
+      <facetEntailment facetID="HB_34_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f6" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f7" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.34.529.1" answerText="Because they make you tall." accuracy="irrelevant">
+      <facetEntailment facetID="HB_34_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f5" label="Unaddressed"/>
+      <facetEntailment facetID="HB_34_f6" label="Unaddressed"/>
+      <facetEntailment facetID="HB_34_f7" label="Unaddressed"/>
+      <facetEntailment facetID="HB_34_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.34.530.1" answerText="They are stronger than the other bones." accuracy="irrelevant">
+      <facetEntailment facetID="HB_34_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f2" label="Diff-Arg"/>
+      <facetEntailment facetID="HB_34_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f5" label="Unaddressed"/>
+      <facetEntailment facetID="HB_34_f6" label="Unaddressed"/>
+      <facetEntailment facetID="HB_34_f7" label="Unaddressed"/>
+      <facetEntailment facetID="HB_34_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.34.531.1" answerText="Because it makes you walk." accuracy="irrelevant">
+      <facetEntailment facetID="HB_34_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f5" label="Unaddressed"/>
+      <facetEntailment facetID="HB_34_f6" label="Unaddressed"/>
+      <facetEntailment facetID="HB_34_f7" label="Unaddressed"/>
+      <facetEntailment facetID="HB_34_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.34.532.1" answerText="Because it holds your weight." accuracy="correct">
+      <facetEntailment facetID="HB_34_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f6" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f7" label="Unaddressed"/>
+      <facetEntailment facetID="HB_34_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.34.537.1" answerText="They have to be big so they can support you and help you walk." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_34_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f5" label="Inferred"/>
+      <facetEntailment facetID="HB_34_f6" label="Inferred"/>
+      <facetEntailment facetID="HB_34_f7" label="Unaddressed"/>
+      <facetEntailment facetID="HB_34_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.34.561.1" answerText="To hold all your body weight." accuracy="correct">
+      <facetEntailment facetID="HB_34_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f6" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f7" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.34.563.1" answerText="So like your arms will not be laying on the ground. And it does a lot of stuff." accuracy="irrelevant">
+      <facetEntailment facetID="HB_34_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f5" label="Unaddressed"/>
+      <facetEntailment facetID="HB_34_f6" label="Unaddressed"/>
+      <facetEntailment facetID="HB_34_f7" label="Unaddressed"/>
+      <facetEntailment facetID="HB_34_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.34.568.1" answerText="Because they need to keep you upright." accuracy="irrelevant">
+      <facetEntailment facetID="HB_34_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f5" label="Diff-Arg"/>
+      <facetEntailment facetID="HB_34_f6" label="Unaddressed"/>
+      <facetEntailment facetID="HB_34_f7" label="Unaddressed"/>
+      <facetEntailment facetID="HB_34_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.34.572.1" answerText="If your leg bones were not long you could not do certain things." accuracy="irrelevant">
+      <facetEntailment facetID="HB_34_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f2" label="Diff-Arg"/>
+      <facetEntailment facetID="HB_34_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f5" label="Unaddressed"/>
+      <facetEntailment facetID="HB_34_f6" label="Unaddressed"/>
+      <facetEntailment facetID="HB_34_f7" label="Unaddressed"/>
+      <facetEntailment facetID="HB_34_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.34.575.1" answerText="Because they have to hold the human body all the time." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_34_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f6" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f7" label="Inferred"/>
+      <facetEntailment facetID="HB_34_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.34.577.1" answerText="To hold you up when you are standing." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_34_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f5" label="Inferred"/>
+      <facetEntailment facetID="HB_34_f6" label="Inferred"/>
+      <facetEntailment facetID="HB_34_f7" label="Unaddressed"/>
+      <facetEntailment facetID="HB_34_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.34.578.1" answerText="Because the more we grow up our leg bone gets longer." accuracy="irrelevant">
+      <facetEntailment facetID="HB_34_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f2" label="Diff-Arg"/>
+      <facetEntailment facetID="HB_34_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f5" label="Unaddressed"/>
+      <facetEntailment facetID="HB_34_f6" label="Unaddressed"/>
+      <facetEntailment facetID="HB_34_f7" label="Unaddressed"/>
+      <facetEntailment facetID="HB_34_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.34.593.1" answerText="So they can support us." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_34_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f5" label="Inferred"/>
+      <facetEntailment facetID="HB_34_f6" label="Inferred"/>
+      <facetEntailment facetID="HB_34_f7" label="Unaddressed"/>
+      <facetEntailment facetID="HB_34_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.34.595.1" answerText="We need them to walk." accuracy="irrelevant">
+      <facetEntailment facetID="HB_34_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f5" label="Diff-Arg"/>
+      <facetEntailment facetID="HB_34_f6" label="Unaddressed"/>
+      <facetEntailment facetID="HB_34_f7" label="Unaddressed"/>
+      <facetEntailment facetID="HB_34_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.34.597.1" answerText="Because the leg bones need to balance your whole body from falling down." accuracy="irrelevant">
+      <facetEntailment facetID="HB_34_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f4" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f5" label="Diff-Arg"/>
+      <facetEntailment facetID="HB_34_f6" label="Unaddressed"/>
+      <facetEntailment facetID="HB_34_f7" label="Unaddressed"/>
+      <facetEntailment facetID="HB_34_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.34.599.1" answerText="To help balance you out." accuracy="irrelevant">
+      <facetEntailment facetID="HB_34_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f5" label="Diff-Arg"/>
+      <facetEntailment facetID="HB_34_f6" label="Unaddressed"/>
+      <facetEntailment facetID="HB_34_f7" label="Unaddressed"/>
+      <facetEntailment facetID="HB_34_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.34.600.1" answerText="Because people need to walk and because everything else is smaller." accuracy="irrelevant">
+      <facetEntailment facetID="HB_34_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f5" label="Unaddressed"/>
+      <facetEntailment facetID="HB_34_f6" label="Unaddressed"/>
+      <facetEntailment facetID="HB_34_f7" label="Unaddressed"/>
+      <facetEntailment facetID="HB_34_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.34.601.1" answerText="They are so large because they do most of the work." accuracy="irrelevant">
+      <facetEntailment facetID="HB_34_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f5" label="Diff-Arg"/>
+      <facetEntailment facetID="HB_34_f6" label="Unaddressed"/>
+      <facetEntailment facetID="HB_34_f7" label="Unaddressed"/>
+      <facetEntailment facetID="HB_34_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.34.602.1" answerText="They need to hold the rest of the skeleton." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_34_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f6" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f7" label="Inferred"/>
+      <facetEntailment facetID="HB_34_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.34.603.1" answerText="The leg bones support most of our body." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_34_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f4" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f6" label="Inferred"/>
+      <facetEntailment facetID="HB_34_f7" label="Inferred"/>
+      <facetEntailment facetID="HB_34_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.34.608.1" answerText="The leg bones are large because it helps our body walk." accuracy="irrelevant">
+      <facetEntailment facetID="HB_34_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f5" label="Unaddressed"/>
+      <facetEntailment facetID="HB_34_f6" label="Unaddressed"/>
+      <facetEntailment facetID="HB_34_f7" label="Unaddressed"/>
+      <facetEntailment facetID="HB_34_f8" label="Diff-Arg"/>
+    </studentAnswer>
+    <studentAnswer id="HB.34.609.1" answerText="To make to where we can stand so everything stays up." accuracy="irrelevant">
+      <facetEntailment facetID="HB_34_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f5" label="Unaddressed"/>
+      <facetEntailment facetID="HB_34_f6" label="Unaddressed"/>
+      <facetEntailment facetID="HB_34_f7" label="Unaddressed"/>
+      <facetEntailment facetID="HB_34_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.34.610.1" answerText="Because if a neck bone was as large as a leg bone is we would have necks like a giraffe." accuracy="irrelevant">
+      <facetEntailment facetID="HB_34_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f5" label="Unaddressed"/>
+      <facetEntailment facetID="HB_34_f6" label="Unaddressed"/>
+      <facetEntailment facetID="HB_34_f7" label="Unaddressed"/>
+      <facetEntailment facetID="HB_34_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.34.613.1" answerText="They are so long because they support our upper body." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_34_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f2" label="Diff-Arg"/>
+      <facetEntailment facetID="HB_34_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f5" label="Inferred"/>
+      <facetEntailment facetID="HB_34_f6" label="Inferred"/>
+      <facetEntailment facetID="HB_34_f7" label="Inferred"/>
+      <facetEntailment facetID="HB_34_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.34.628.1" answerText="Our leg bones are so big because we need movement." accuracy="irrelevant">
+      <facetEntailment facetID="HB_34_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f4" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f5" label="Diff-Arg"/>
+      <facetEntailment facetID="HB_34_f6" label="Unaddressed"/>
+      <facetEntailment facetID="HB_34_f7" label="Unaddressed"/>
+      <facetEntailment facetID="HB_34_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.34.629.1" answerText="Because it helps you run walk and bend." accuracy="irrelevant">
+      <facetEntailment facetID="HB_34_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f5" label="Diff-Arg"/>
+      <facetEntailment facetID="HB_34_f6" label="Unaddressed"/>
+      <facetEntailment facetID="HB_34_f7" label="Unaddressed"/>
+      <facetEntailment facetID="HB_34_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.34.632.1" answerText="The legs help us move. And give us support." accuracy="irrelevant">
+      <facetEntailment facetID="HB_34_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f5" label="Diff-Arg"/>
+      <facetEntailment facetID="HB_34_f6" label="Unaddressed"/>
+      <facetEntailment facetID="HB_34_f7" label="Unaddressed"/>
+      <facetEntailment facetID="HB_34_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.34.635.1" answerText="Because they help you to stand up and to walk." accuracy="irrelevant">
+      <facetEntailment facetID="HB_34_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f5" label="Diff-Arg"/>
+      <facetEntailment facetID="HB_34_f6" label="Unaddressed"/>
+      <facetEntailment facetID="HB_34_f7" label="Unaddressed"/>
+      <facetEntailment facetID="HB_34_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.34.636.1" answerText="Because they support us and strong." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_34_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f5" label="Inferred"/>
+      <facetEntailment facetID="HB_34_f6" label="Unaddressed"/>
+      <facetEntailment facetID="HB_34_f7" label="Unaddressed"/>
+      <facetEntailment facetID="HB_34_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.34.637.1" answerText="They are so large because it helps you run fast also it helps you move, walk." accuracy="irrelevant">
+      <facetEntailment facetID="HB_34_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f5" label="Diff-Arg"/>
+      <facetEntailment facetID="HB_34_f6" label="Unaddressed"/>
+      <facetEntailment facetID="HB_34_f7" label="Unaddressed"/>
+      <facetEntailment facetID="HB_34_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.34.639.1" answerText="It is the biggest part of your body." accuracy="irrelevant">
+      <facetEntailment facetID="HB_34_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f5" label="Unaddressed"/>
+      <facetEntailment facetID="HB_34_f6" label="Unaddressed"/>
+      <facetEntailment facetID="HB_34_f7" label="Unaddressed"/>
+      <facetEntailment facetID="HB_34_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.34.640.1" answerText="For it can make you stand up." accuracy="irrelevant">
+      <facetEntailment facetID="HB_34_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f5" label="Unaddressed"/>
+      <facetEntailment facetID="HB_34_f6" label="Unaddressed"/>
+      <facetEntailment facetID="HB_34_f7" label="Unaddressed"/>
+      <facetEntailment facetID="HB_34_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.34.642.1" answerText="They hold up your body." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_34_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f6" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f7" label="Inferred"/>
+      <facetEntailment facetID="HB_34_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.34.644.1" answerText="Because if we did not have legs we would be on the ground." accuracy="irrelevant">
+      <facetEntailment facetID="HB_34_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f5" label="Unaddressed"/>
+      <facetEntailment facetID="HB_34_f6" label="Unaddressed"/>
+      <facetEntailment facetID="HB_34_f7" label="Unaddressed"/>
+      <facetEntailment facetID="HB_34_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.34.645.1" answerText="The legs provide support to the body, that is why." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_34_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f5" label="Inferred"/>
+      <facetEntailment facetID="HB_34_f6" label="Inferred"/>
+      <facetEntailment facetID="HB_34_f7" label="Unaddressed"/>
+      <facetEntailment facetID="HB_34_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.34.646.1" answerText="Because your legs help to balance you and for you to walk." accuracy="irrelevant">
+      <facetEntailment facetID="HB_34_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f5" label="Diff-Arg"/>
+      <facetEntailment facetID="HB_34_f6" label="Unaddressed"/>
+      <facetEntailment facetID="HB_34_f7" label="Unaddressed"/>
+      <facetEntailment facetID="HB_34_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.34.649.1" answerText="Because the leg bones support moving the body." accuracy="irrelevant">
+      <facetEntailment facetID="HB_34_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f4" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f5" label="Diff-Arg"/>
+      <facetEntailment facetID="HB_34_f6" label="Unaddressed"/>
+      <facetEntailment facetID="HB_34_f7" label="Unaddressed"/>
+      <facetEntailment facetID="HB_34_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.34.651.1" answerText="Because the weight of the body if the bones in your legs were small the weight of the body would break those bones." accuracy="correct">
+      <facetEntailment facetID="HB_34_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f5" label="Inferred"/>
+      <facetEntailment facetID="HB_34_f6" label="Inferred"/>
+      <facetEntailment facetID="HB_34_f7" label="Inferred"/>
+      <facetEntailment facetID="HB_34_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.34.659.1" answerText="So you are not so small." accuracy="irrelevant">
+      <facetEntailment facetID="HB_34_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f5" label="Unaddressed"/>
+      <facetEntailment facetID="HB_34_f6" label="Unaddressed"/>
+      <facetEntailment facetID="HB_34_f7" label="Unaddressed"/>
+      <facetEntailment facetID="HB_34_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.34.976.1" answerText="The leg is the strongest bone in the human body." accuracy="irrelevant">
+      <facetEntailment facetID="HB_34_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f4" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f5" label="Unaddressed"/>
+      <facetEntailment facetID="HB_34_f6" label="Unaddressed"/>
+      <facetEntailment facetID="HB_34_f7" label="Unaddressed"/>
+      <facetEntailment facetID="HB_34_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.34.986.1" answerText="Because all the body weight is all on top of the leg bones so it is bigger because it has to hold up all the body water." accuracy="correct">
+      <facetEntailment facetID="HB_34_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f3" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f4" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f6" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f7" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f8" label="Expressed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.34.987.1" answerText="Well all of your weight goes to your legs." accuracy="correct">
+      <facetEntailment facetID="HB_34_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f5" label="Inferred"/>
+      <facetEntailment facetID="HB_34_f6" label="Inferred"/>
+      <facetEntailment facetID="HB_34_f7" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.34.990.1" answerText="They are large because it is used for support." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="HB_34_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f5" label="Inferred"/>
+      <facetEntailment facetID="HB_34_f6" label="Inferred"/>
+      <facetEntailment facetID="HB_34_f7" label="Unaddressed"/>
+      <facetEntailment facetID="HB_34_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.34.991.1" answerText="Because of the thighs." accuracy="irrelevant">
+      <facetEntailment facetID="HB_34_f1" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f2" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f5" label="Unaddressed"/>
+      <facetEntailment facetID="HB_34_f6" label="Unaddressed"/>
+      <facetEntailment facetID="HB_34_f7" label="Unaddressed"/>
+      <facetEntailment facetID="HB_34_f8" label="Assumed"/>
+    </studentAnswer>
+    <studentAnswer id="HB.34.992.1" answerText="Leg bones are so large compared to the human body because they are carrying the weight." accuracy="correct">
+      <facetEntailment facetID="HB_34_f1" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f2" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f3" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f4" label="Assumed"/>
+      <facetEntailment facetID="HB_34_f5" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f6" label="Expressed"/>
+      <facetEntailment facetID="HB_34_f7" label="Unaddressed"/>
+      <facetEntailment facetID="HB_34_f8" label="Expressed"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>

@@ -1,0 +1,123 @@
+<?xml version="1.0"?>
+<question testSet="unseen-answers" id="ME_79" module="ME">
+  <questionText>Kurt was investigating which objects stick to magnets. He made an entry in his science notebook and drew a picture to help explain what he did. Look what I did! I picked up a paperclip with a magnet. Then that paperclip picked up another one, and then another one. And they weren't hooked together either. All they had to do was touch each other. Explain to Kurt why he was able to pick up all those paperclips, even though the magnet was only touching the first one.</questionText>
+  <referenceAnswers>
+    <referenceAnswer id="ME_79-a1" text="When a paperclip sticks to a magnet, the paperclip turns into a temporary magnet, so the paperclip can stick to other paperclips and other things made of iron.">
+      <tokens>
+        <token id="ME_79_ra1">When</token>
+        <token id="ME_79_ra2">a</token>
+        <token id="ME_79_ra3">paperclip</token>
+        <token id="ME_79_ra4">sticks</token>
+        <token id="ME_79_ra5">to</token>
+        <token id="ME_79_ra6">a</token>
+        <token id="ME_79_ra7">magnet</token>
+        <token id="ME_79_ra8">,</token>
+        <token id="ME_79_ra9">the</token>
+        <token id="ME_79_ra10">paperclip</token>
+        <token id="ME_79_ra11">turns</token>
+        <token id="ME_79_ra12">into</token>
+        <token id="ME_79_ra13">a</token>
+        <token id="ME_79_ra14">temporary</token>
+        <token id="ME_79_ra15">magnet</token>
+        <token id="ME_79_ra16">,</token>
+        <token id="ME_79_ra17">so</token>
+        <token id="ME_79_ra18">the</token>
+        <token id="ME_79_ra19">paperclip</token>
+        <token id="ME_79_ra20">can</token>
+        <token id="ME_79_ra21">stick</token>
+        <token id="ME_79_ra22">to</token>
+        <token id="ME_79_ra23">other</token>
+        <token id="ME_79_ra24">paperclips</token>
+        <token id="ME_79_ra25">and</token>
+        <token id="ME_79_ra26">other</token>
+        <token id="ME_79_ra27">things</token>
+        <token id="ME_79_ra28">made</token>
+        <token id="ME_79_ra29">of</token>
+        <token id="ME_79_ra30">iron</token>
+        <token id="ME_79_ra31">.</token>
+      </tokens>
+      <facets>
+        <facet id="ME_79_f1" govNum="ME_79_ra4" modNum="ME_79_ra3" reltn="Theme" govText="sticks" isAssumed="true" modText="paperclip"/>
+        <facet id="ME_79_f2" govNum="ME_79_ra4" modNum="ME_79_ra7" reltn="Destination_to" govText="sticks" isAssumed="true" modText="magnet"/>
+        <facet id="ME_79_f3" govNum="ME_79_ra15" modNum="ME_79_ra14" reltn="NMod" govText="magnet" modText="temporary"/>
+        <facet id="ME_79_f4" govNum="ME_79_ra11" modNum="ME_79_ra10" reltn="Patient" govText="turns" modText="paperclip"/>
+        <facet id="ME_79_f5" govNum="ME_79_ra11" modNum="ME_79_ra15" reltn="Product_into" govText="turns" modText="magnet"/>
+        <facet id="ME_79_f6" govNum="ME_79_ra11" modNum="ME_79_ra4" reltn="Cause_when" childProp2Facet2="ME_79_f2" childProp1Facet1="ME_79_f4" govText="turns" childProp1Facet2="ME_79_f5" modText="sticks" childProp2Facet1="ME_79_f1"/>
+        <facet id="ME_79_f7" govNum="ME_79_ra21" modNum="ME_79_ra19" reltn="Theme" govText="stick" isAssumed="true" modText="paperclip"/>
+        <facet id="ME_79_f8" govNum="ME_79_ra21" modNum="ME_79_ra24" reltn="Destination_to" govText="stick" isAssumed="true" modText="paperclips"/>
+        <facet id="ME_79_f9" govNum="ME_79_ra24" modNum="ME_79_ra23" reltn="NMod" govText="paperclips" isAssumed="true" modText="other"/>
+        <facet id="ME_79_f10" govNum="ME_79_ra21" modNum="ME_79_ra27" reltn="Destination_to" govText="stick" modText="things"/>
+        <facet id="ME_79_f11" govNum="ME_79_ra27" modNum="ME_79_ra26" reltn="NMod" govText="things" modText="other"/>
+        <facet id="ME_79_f12" govNum="ME_79_ra28" modNum="ME_79_ra27" reltn="Product" govText="made" modText="things"/>
+        <facet id="ME_79_f13" govNum="ME_79_ra28" modNum="ME_79_ra30" reltn="Material_of" govText="made" modText="iron"/>
+        <facet id="ME_79_f14" govNum="ME_79_ra21" modNum="ME_79_ra11" reltn="Cause_so" childProp2Facet2="ME_79_f5" childProp1Facet1="ME_79_f7" govText="stick" childProp1Facet2="ME_79_f9" modText="turns" childProp2Facet1="ME_79_f4"/>
+      </facets>
+    </referenceAnswer>
+  </referenceAnswers>
+  <studentAnswers>
+    <studentAnswer id="ME.79.178.1" answerText="The magnet has more power so it is able to hold more." accuracy="irrelevant">
+      <facetEntailment facetID="ME_79_f1" label="Assumed"/>
+      <facetEntailment facetID="ME_79_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_79_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_79_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_79_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ME_79_f6" label="Unaddressed"/>
+      <facetEntailment facetID="ME_79_f7" label="Assumed"/>
+      <facetEntailment facetID="ME_79_f8" label="Assumed"/>
+      <facetEntailment facetID="ME_79_f9" label="Assumed"/>
+      <facetEntailment facetID="ME_79_f10" label="Unaddressed"/>
+      <facetEntailment facetID="ME_79_f11" label="Unaddressed"/>
+      <facetEntailment facetID="ME_79_f12" label="Unaddressed"/>
+      <facetEntailment facetID="ME_79_f13" label="Unaddressed"/>
+      <facetEntailment facetID="ME_79_f14" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.79.181.1" answerText="Because the magnetism is flowing." accuracy="irrelevant">
+      <facetEntailment facetID="ME_79_f1" label="Assumed"/>
+      <facetEntailment facetID="ME_79_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_79_f3" label="Unaddressed"/>
+      <facetEntailment facetID="ME_79_f4" label="Unaddressed"/>
+      <facetEntailment facetID="ME_79_f5" label="Unaddressed"/>
+      <facetEntailment facetID="ME_79_f6" label="Unaddressed"/>
+      <facetEntailment facetID="ME_79_f7" label="Assumed"/>
+      <facetEntailment facetID="ME_79_f8" label="Assumed"/>
+      <facetEntailment facetID="ME_79_f9" label="Assumed"/>
+      <facetEntailment facetID="ME_79_f10" label="Unaddressed"/>
+      <facetEntailment facetID="ME_79_f11" label="Unaddressed"/>
+      <facetEntailment facetID="ME_79_f12" label="Unaddressed"/>
+      <facetEntailment facetID="ME_79_f13" label="Unaddressed"/>
+      <facetEntailment facetID="ME_79_f14" label="Unaddressed"/>
+    </studentAnswer>
+    <studentAnswer id="ME.79.254.1" answerText="Dear Kurt, that paperclip became a temporary magnet that is why you could pick up 3 magnets." accuracy="correct">
+      <facetEntailment facetID="ME_79_f1" label="Assumed"/>
+      <facetEntailment facetID="ME_79_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_79_f3" label="Expressed"/>
+      <facetEntailment facetID="ME_79_f4" label="Expressed"/>
+      <facetEntailment facetID="ME_79_f5" label="Expressed"/>
+      <facetEntailment facetID="ME_79_f6" label="Inferred"/>
+      <facetEntailment facetID="ME_79_f7" label="Assumed"/>
+      <facetEntailment facetID="ME_79_f8" label="Assumed"/>
+      <facetEntailment facetID="ME_79_f9" label="Assumed"/>
+      <facetEntailment facetID="ME_79_f10" label="Inferred"/>
+      <facetEntailment facetID="ME_79_f11" label="Inferred"/>
+      <facetEntailment facetID="ME_79_f12" label="Inferred"/>
+      <facetEntailment facetID="ME_79_f13" label="Inferred"/>
+      <facetEntailment facetID="ME_79_f14" label="Inferred"/>
+    </studentAnswer>
+    <studentAnswer id="ME.79.327.1" answerText="It is an induced magnetism." accuracy="partially_correct_incomplete">
+      <facetEntailment facetID="ME_79_f1" label="Assumed"/>
+      <facetEntailment facetID="ME_79_f2" label="Assumed"/>
+      <facetEntailment facetID="ME_79_f3" label="Inferred"/>
+      <facetEntailment facetID="ME_79_f4" label="Inferred"/>
+      <facetEntailment facetID="ME_79_f5" label="Inferred"/>
+      <facetEntailment facetID="ME_79_f6" label="Inferred"/>
+      <facetEntailment facetID="ME_79_f7" label="Assumed"/>
+      <facetEntailment facetID="ME_79_f8" label="Assumed"/>
+      <facetEntailment facetID="ME_79_f9" label="Assumed"/>
+      <facetEntailment facetID="ME_79_f10" label="Unaddressed"/>
+      <facetEntailment facetID="ME_79_f11" label="Unaddressed"/>
+      <facetEntailment facetID="ME_79_f12" label="Unaddressed"/>
+      <facetEntailment facetID="ME_79_f13" label="Unaddressed"/>
+      <facetEntailment facetID="ME_79_f14" label="Unaddressed"/>
+    </studentAnswer>
+  </studentAnswers>
+</question>
